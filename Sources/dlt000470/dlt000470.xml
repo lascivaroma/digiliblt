@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Servius, <hi rend="italic">Centimeter</hi></title>
+    <author/>
+    <respStmt>
+     <resp>transcodifica di base da rtf a xml-tei</resp>
+     <name>Piero Colombo - Step srl</name>
+    </respStmt>
+    <respStmt>
+     <resp>Testo </resp>
+     <name>Marinone, GL-CD adeguato su edizione Elice</name>
+    </respStmt>
+    <respStmt>
+     <resp>Adeguamento testo su nuova edizione</resp>
+     <name>Alice Borgna </name>
+    </respStmt>
+    <respStmt>
+     <resp>Controllo marcatura XML-TEI</resp>
+     <name>Alice Borgna </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2017</date>
+    <availability>
+     <p>
+      <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
+     </p>
+    </availability>
+    <idno>DLT000470</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p>Marii Servi Honorati, <hi rend="italic">Centimeter</hi>, a cura di M. Elice, Hildesheim 2013
+     (CGL 9)</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    <p>
+     <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT</hi>
+    </p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni.</p>
+    <p>I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p>Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi> :
+     grassetto, corsivo, spaziatura espansa. </p>
+    <p> Sono stati normalizzati e marcati nel modo seguente i diacritici. <lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]>
+     <lb/>
+     <hi rend="italic">loci desperati</hi> :
+     <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo† e †testo <lb/>
+     lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...] <lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p> Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p> Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
+    </p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <head>Marii Servii Honorati Grammatici <lb/> CENTIMETER</head>
+   <div type="section">
+    <p>
+     <milestone unit="page" n="p. 456 vol. IV Keil"/>
+     <milestone unit="row" n="riga 3 vol. IV Keil"/> Clarissimo Albino Seruius grammaticus. </p>
+    <p> Tibi hunc libellum, praetextatorum decus Albine, deuoui. Nam licet patris auique, quibus
+     maximam reuerentiam litterae debent, cottidie urgearis exemplo ibique pubescas, quo uelut ad
+     Musarum sacraria uenitur, non tamen caelo suo tantum numina perfruuntur, saepe humiles lucos ac
+     uilia pauperum tecta subierunt. Quare laboris mei uelim faueas uoto, indulgeas audaciae. Quod
+     si secus cesserit, in cupiditatem deuotionis interpretabor euentum placendi. Vale.<milestone
+      unit="page" n="p. 457 vol. IV Keil"/>
+    </p>
+   </div>
+   <div type="section">
+    <p>
+     <milestone unit="par" n="1"/>Licet audacter, non tamen ineleganter, hunc libellum qui uolet
+     centimetrum nominabit. Tot enim metrorum digessi quanta potui breuitate, rationem omittens, quo
+     quidque nascatur ex genere, qua scansionum diuersitate caedatur, quae res plus confusionis quam
+     utilitatis habet. sed lecturo haec fere generaliter scienda sunt: <lb/>
+     <milestone unit="par" n="2"/> finalem syllabam in omnibus metris indifferenter accipi;
+      <milestone unit="par" n="3"/> solutionem esse, cum pro longa syllaba duae breues ponuntur; <lb/>
+     <milestone unit="par" n="4"/> loca inparia dici primum, tertium, quintum et deinde, paria uero
+     secundum, quartum, sextum et deinde; <lb/>
+     <milestone unit="par" n="5"/> penthemimeren esse, cum duos pedes sequitur syllaba quae partem
+     terminat orationis; hephthemimeren uero, cum tres pedes similiter sequitur syllaba; <lb/>
+     <milestone unit="par" n="6"/>catalecticum uersum dici, cui syllaba una deest; brachycatalectum,
+     cui duae; hypercatalectum, cui una superest; acatalectum, qui legitimo fine concluditur;<lb/>
+     <milestone unit="par" n="7"/>monometrum uel dimetrum uel trimetrum uersum in iambicis,
+     trochaicis,, anapaesticis metris per pedes duplices conputari, in ceteris per simplices; <lb/>
+     <milestone unit="par" n="8"/> metra uel a pedibus nomen accipere, uel a rebus quae
+     describuntur, uel ab inuentoribus, uel a frequentatoribus, uel a numero syllabarum;
+      <lb/><milestone unit="par" n="9"/> eaque esse octo principalia, iambicum, trochaicum,
+     dactylicum, anapaesticum, choriambicum, antispasticum, ionicum a maiore, ionicum a minore, de
+     quibus carptim tractabimus, eligentes ea quae ad palmam lyrae perducit uoluptas. </p>
+   </div>
+   <div type="section">
+    <head><hi rend="bold"> De iambicis</hi></head>
+    <p> Metra iambica locis inparibus quinque recipere possunt pedes, <milestone unit="page"
+      n="p. 458 vol. IV Keil"/> iambum tribrachum spondeum dactylum anapaestum, locis autem paribus
+     tantum iambum uel tribrachum, et apud comicos frequenter anapaestum, ita tamen ut multarum
+     breuium iunctura uitetur. Sed ex multis tredecim usui tradenda subieci. </p>
+    <p>
+     <milestone unit="par" n="1"/>De aristophanio. Aristophanium constat monometro hypercatalecto,
+     ut est hoc: <lb/> ‛ualles per imas’. <lb/>
+    </p>
+    <p>
+     <milestone unit="par" n="2"/>De euripidio. Euripidium constat dimetro brachycatalecto, ut est
+     hoc:<lb/> ‛Aiax furit dolens’. </p>
+    <p>
+     <milestone unit="par" n="3"/> De anacreontio. Anacreontium constat dimetro catalectico, ut est
+     hoc:<lb/> ‛dissolue Baccha crines’. </p>
+    <p>
+     <milestone unit="par" n="4"/> De archilochio. Archilochium constat dimetro acatalecto, ut est
+     hoc: <lb/> ‛serena lux micat polo’. </p>
+    <p>
+     <milestone unit="par" n="5"/> De alcaico. Alcaicum constat dimetro hypercatalecto, ut est hoc:
+     <lb/> ‛amant uenena parricidae’. </p>
+    <p>
+     <milestone unit="par" n="6"/> De alcmanio. Alcmanium constat trimetro brachycatalecto, ut est
+     hoc:<lb/> ‛spernis decorae uirginis torum’. </p>
+    <p>
+     <milestone unit="par" n="7"/> De hipponactio. Hipponactium constat trimetro catalectico, ut est
+     hoc:<lb/> ‛doctis Thalia uatibus fauebit’. </p>
+    <p>
+     <milestone unit="par" n="8"/> De archilochio. Archilochium constat trimetro acatalecto, ut est
+     hoc:<lb/> ‛Martem fatigat prodigus uitae furor’. </p>
+    <p>
+     <milestone unit="par" n="9"/>De hipponactio. Hipponactium constat trimetro acatalecto claudo,
+     ut est hoc:<lb/> ‛pauper poeta nescit antra Musarum’. </p>
+    <p>
+     <milestone unit="par" n="10"/> De anacreontio. Anacreontium constat trimetro hypercatalecto, ut
+     est hoc:<lb/> ‛amor puellae pectus inprobe fatigat’. </p>
+    <p>
+     <milestone unit="par" n="11"/> De aristophanio. Aristophanium constat tetrametro
+     brachycatalecto, ut est hoc: <lb/> ‛marcent lucernae, sol propinquat, non tamen uacas’. </p>
+    <p>
+     <milestone unit="par" n="12"/> De aristophanio. Aristophanium constat tetrametro catalectico,
+     ut est hoc: <milestone unit="page" n="p. 459 vol. IV Keil"/>
+     <lb/>‛portum petamus, aura lassat, uela solue malo’. </p>
+    <p>
+     <milestone unit="par" n="13"/> De anacreontio. Anacreontium constat tetrametro acatalecto, ut
+     est hoc:<lb/> ‛hic finis est, iambe, salue, uindicis doctor meli’. </p>
+   </div>
+   <div type="section">
+    <head>
+     <hi rend="bold"> De trochaicis</hi>
+    </head>
+    <p> Metra trochaica locis inparibus hos recipiunt pedes, trochaeum tribrachum et non numquam
+     dactylum, locis uero paribus cum his quos memoraui spondeum et anapaestum. Sed ex plurimis
+     tredecim usui tradenda subieci. </p>
+    <p>
+     <milestone unit="par" n="1"/> De pancratio. Pancratium constat monometro hypercatalecto, ut est
+     hoc:<lb/> ‛auctor optimus’. </p>
+    <p>
+     <milestone unit="par" n="2"/> De ithyphallico. Ithyphallicum constat dimetro brachycatalecto,
+     ut est hoc:<lb/> ‛Bacche iunge tigres’. </p>
+    <p>
+     <milestone unit="par" n="3"/>De euripidio. Euripidium constat dimetro catalectico, ut est
+     hoc:<lb/> ‛uultur altius uolat’. </p>
+    <p>
+     <milestone unit="par" n="4"/> De alcmanio. Alcmanium constat dimetro acatalecto, ut est
+     hoc:<lb/> ‛fistula canit subulcus’. </p>
+    <p>
+     <milestone unit="par" n="5"/> De bacchylidio. Bacchylidium constat dimetro hypercatalecto, ut
+     est hoc: <lb/> ‛floribus corona texitur’. </p>
+    <p>
+     <milestone unit="par" n="6"/> De sapphico. Sapphicum constat trimetro brachycatalecto, ut est
+     hoc: <lb/> ‛rex paterque Iuppiter deorum’. </p>
+    <p><milestone unit="par" n="7"/> De archilochio. Archilochium constat trimetro catalectico, ut
+     est hoc:<lb/> ‛nox amoris et quietis conscia’. </p>
+    <p>
+     <milestone unit="par" n="8"/> De sotadico. Sotadicum constat trimetro acatalecto, ut est
+     hoc:<lb/> ‛arua sicca Nilus intrat, ite laeti’. </p>
+    <p>
+     <milestone unit="par" n="9"/> De sapphico. Sapphicum constat trimetro hypercatalecto, ut est
+     hoc:<lb/> ‛splendet aurum, gemma fulget, forma sed placet’. </p>
+    <p>
+     <milestone unit="par" n="10"/> De sotadico. Sotadicum constat tetrametro brachycatalecto, ut
+     est hoc:<lb/> ‛Thracium nefas renarrat cantitans hirundo’.<milestone unit="page"
+      n="p. 460 vol. IV Keil"/>
+    </p>
+    <p>
+     <milestone unit="par" n="11"/>De archilochio. Archilochium constat tetrametro catalectico, ut
+     est hoc:<lb/> ‛tolle thyrsos, aera pulsa, iam Lyaeus aduenit’. </p>
+    <p><milestone unit="par" n="12"/> De hipponactio. Hipponactium constat tetrametro catalectico
+     claudo, ut est hoc:<lb/> ‛pelle tonsis terga ponti, uela tende, pergamus’. </p>
+    <p>
+     <milestone unit="par" n="13"/> De anacreontio. Anacreontium constat tetrametro acatalecto, ut
+     est hoc:<lb/> ‛parce iam Camena uati, parce iam sacro furori’. </p>
+   </div>
+   <div type="section">
+    <head>
+     <hi rend="bold"> De dactylicis</hi>
+    </head>
+    <p> Metra dactylica principaliter constant dactylo, recipiunt tamen et spondeum. Sed ex plurimis
+     haec decem et nouem usui tradenda, subieci. </p>
+    <p>
+     <milestone unit="par" n="1"/> De adonio. Adonium constat dimetro catalectico, ut est hoc:<lb/>
+     ‛fundite fletus’. </p>
+    <p>
+     <milestone unit="par" n="2"/> De hymenaico. Hymenaicum constat dimetro acatalecto, ut est
+     hoc:<lb/> ‛tibia personet’. </p>
+    <p>
+     <milestone unit="par" n="3"/> De archilochio. Archilochium constat dimetro hypercatalecto, ut
+     est hoc:<lb/> ‛garrula uenit auis’. </p>
+    <p>
+     <milestone unit="par" n="4"/> De alcmanio. Alcmanium constat trimetro catalectico, ut est
+     hoc:<lb/> ‛tundite pectora palmis’. </p>
+    <p>
+     <milestone unit="par" n="5"/> De simonidio. Simonidium constat trimetro acatalecto, ut est
+     hoc:<lb/> ‛indue pallia Serica’. </p>
+    <p>
+     <milestone unit="par" n="6"/> De alcmanio. Alcmanium constat trimetro hypercatalecto, ut est
+     hoc:<lb/> ‛lurida brachia cur retegis?’ </p>
+    <p>
+     <milestone unit="par" n="7"/> De archilochio. Archilochium constat tetrametro catalectico, ut
+     est hoc:<lb/> ‛arent solstitio sola terrae’. </p>
+    <p>
+     <milestone unit="par" n="8"/> De alcmanio. Alcmanium constat tetrametro acatalecto, ut est
+     hoc:<lb/> ‛uirgo decens comulas religa tibi’. </p>
+    <p>
+     <milestone unit="par" n="9"/> De alcmanio. Alcmanium constat tetrametro hypercatalecto, ut est
+     hoc: <milestone unit="page" n="p. 461 vol. IV Keil"/>
+     <lb/> ‛uita quieta nimis caret ingenio’. </p>
+    <p>
+     <milestone unit="par" n="10"/> De stesichorio. Stesichorium constat pentametro catalectico, ut
+     est hoc:<lb/> ‛Marsya cede deo, tua carmina flebis’. </p>
+    <p>
+     <milestone unit="par" n="11"/> De simonidio. Simonidium constat pentametro acatalecto, ut est
+     hoc:<lb/> ‛Parthenopaeus erat puer Arcadiae decus’. </p>
+    <p>
+     <milestone unit="par" n="12"/> De choerilio. Choerilium constat pentametro hypercatalecto, ut
+     est hoc:<lb/> ‛pulchra puella comas ambit sibi palmitibus’. </p>
+    <p><milestone unit="par" n="13"/> De heroico. Heroicum constat hexametro catalectico, ut est
+     hoc:<lb/> ‛uulnera bella tubae numero donantur Homeri’. </p>
+    <p>
+     <milestone unit="par" n="14"/> De bucolico. Bucolicum constat hexametro catalectico, ita ut
+     quartus dactylus partem determinet orationis, ut est hoc:<lb/> ‛rustica siluestres resonat bene
+     fistula cantus’. </p>
+    <p>
+     <milestone unit="par" n="15"/> De ibycio. Ibycium constat hexametro acatalecto, ut est
+     hoc:<lb/> ‛sidera pallida diffugiunt face territa luminis’. </p>
+    <p>
+     <milestone unit="par" n="16"/> De alcmanio. Alcmanium constat hexametro hypercatalecto, ut est
+     hoc:<lb/> ‛alma Venus Paphon ingreditur, rosa luceat ex adytis’. </p>
+    <p>
+     <milestone unit="par" n="17"/> De stesichorio. Stesichorium constat heptametro catalectico, ut
+     est hoc:<lb/> ‛Aeacides iuuenis trahit Hectora, plangite Pergama Troes’. </p>
+    <p>
+     <milestone unit="par" n="18"/> De ibycio. Ibycium constat heptametro acatalecto, ut est
+     hoc:<lb/> ‛carmina docta Thalia canit, properantius huc ades, o puer’. </p>
+    <p>
+     <milestone unit="par" n="19"/> De ibycio. Ibycium constat heptametro hypercatalecto, ut est
+     hoc:<lb/> ‛uersiculos tibi dactylicos cecini, puer optime, quos facias’. </p>
+   </div>
+   <div type="section">
+    <head>
+     <hi rend="bold"> De anapaesticis</hi>
+    </head>
+    <p> Metra anapaestica principaliter constant anapaesto; recipiunt tamen frequenter spondeum,
+     raro proceleumaticum, apud comicos autem etiam dactylum, saepiusque ultima cum superest
+     syllaba, in duas soluitur breues. Sed ex plurimis haec tredecim usui tradenda subieci. </p>
+    <p>
+     <milestone unit="par" n="1"/> De threnico. Threnicum constat monometro acatalecto, ut est
+     hoc:<lb/> ‛calidum iubar est’. <milestone unit="page" n="p. 462 vol. IV Keil"/></p>
+    <p>
+     <milestone unit="par" n="2"/> De chorico. Choricum constat monometro hypercatalecto, ut est
+     hoc: ‛animus male fortis’. </p>
+    <p>
+     <milestone unit="par" n="3"/> De aristophanio. Aristophanium constat dimetro brachycatalecto,
+     ut est hoc: ‛uenit optima Calliope’. </p>
+    <p>
+     <milestone unit="par" n="4"/> De paroemiaco. Paroemiacum constat dimetro catalectico, ut est
+     hoc:<lb/> ‛aditum Veneris fuge uirgo’. </p>
+    <p>
+     <milestone unit="par" n="5"/> De pindarico. Pindaricum constat dimetro acatalecto, ut est
+     hoc:<lb/> ‛fuge moenia iam Telamoniade’. </p>
+    <p>
+     <milestone unit="par" n="6"/> De alcmanio. Alcmanium constat dimetro hypercatalecto, ut est
+     hoc:<lb/> ‛tremulum mare molliflua nitet aura’. </p>
+    <p>
+     <milestone unit="par" n="7"/> De archebulio. Archebulium constat dimetro acatalecto et
+     palimbacchio, ut est hoc:<lb/> ‛dea somnifero uaga curriculo relucet’. </p>
+    <p>
+     <milestone unit="par" n="8"/> De pindarico. Pindaricum constat trimetro brachycatalecto, ut est
+     hoc:<lb/> ‛medium rapido mare Thybris adit fluuio’. </p>
+    <p>
+     <milestone unit="par" n="9"/> De alcmanio. Alcmanium constat trimetro catalectico, ut est
+     hoc:<lb/> ‛date Pierides mihi carmina doctiloquorum’. </p>
+    <p>
+     <milestone unit="par" n="10"/>De stesichorio. Stesichorium constat trimetro acatalecto, ut est
+     hoc:<lb/> ‛iacet in thalamo tibi uirgo decens Veneris specie’. </p>
+    <p>
+     <milestone unit="par" n="11"/> De simonidio. Simonidium constat trimetro hypercatalecto, ut est
+     hoc:<lb/> ‛tuba terribili procul aere sonat, clipeum quate miles’. </p>
+    <p>
+     <milestone unit="par" n="12"/> De alcmanio. Alcmanium constat tetrametro brachycatalecto, ut
+     est hoc:<lb/> ‛sua munera fert Venus alma rosas iuueni Cinyreiadae’. </p>
+    <p>
+     <milestone unit="par" n="13"/> De aristophanio. Aristophanium constat tetrametro catalectico,
+     ut est hoc:<lb/> ‛date uina mihi, date serta, iuuat dare tempora tota Lyaeo’. <milestone
+      unit="page" n="p. 463 vol. IV Keil"/></p>
+   </div>
+   <div type="section">
+    <head>
+     <hi rend="bold"> De choriambicis</hi>
+    </head>
+    <p> Metra choriambica principaliter constant choriambo; uerum quod durius suo pede claudantur,
+     accipiunt in fine antibacchum. Sed ex multis haec quattuor usui tradenda subieci. </p>
+    <p>
+     <milestone unit="par" n="1"/> De aristophanio. Aristophanium constat monometro et antibaccho,
+     ut est hoc:<lb/> ‛purpureos tyrannos’. </p>
+    <p>
+     <milestone unit="par" n="2"/> De anacreontio. Anacreontium constat dimetro et antibaccho, ut
+     est hoc:<lb/> ‛Vergilius Mantua quem creauit’. </p>
+    <p>
+     <milestone unit="par" n="3"/> De sapphico. Sapphicum constat trimetro et antibaccho, ut est
+     hoc:<lb/> ‛dulcisonae Pierides uersifico fauete’. </p>
+    <p>
+     <milestone unit="par" n="4"/> De callimachio. Callimachium constat tetrametro et antibaccho, ut
+     est hoc: ‛armipotens Mars genitor Romulidarum uenias precamur’. </p>
+   </div>
+   <div type="section">
+    <head>
+     <hi rend="bold"> De antispasticis</hi>
+    </head>
+    <p> Metra antispastica principaliter constant antispasto; uerum saepe prima parte, qua iambum
+     tenent, spondeum libenter accipiunt. Sed ex plurimis quattuor usui tradenda subieci. </p>
+    <p>
+     <milestone unit="par" n="1"/> De panico. Panicum constat trimetro brachycatalecto, ut est
+     hoc:<lb/> ‛Fauni semideum numen adest’. </p>
+    <p>
+     <milestone unit="par" n="2"/>De anacreontio. Anacreontium constat trimetro catalectico, ut est
+     hoc:<lb/> ‛curas mitificant dona Lyaei’. </p>
+    <p>
+     <milestone unit="par" n="3"/>De alcaico. Alcaicum constat tetrametro brachycatalecto, ut est
+     hoc: ‛Maecenas atauis Lydia quos fert genite’. </p>
+    <p>
+     <milestone unit="par" n="4"/> De anacreontio. Anacreontium constat tetrametro catalectico, ut
+     est hoc: ‛infandum tetigit sidera carmen magicorum’.<milestone unit="page"
+      n="p. 464 vol. IV Keil"/>
+    </p>
+   </div>
+   <div type="section">
+    <head>
+     <hi rend="bold"> De ionicis a maiore</hi>
+    </head>
+    <p> Metra ionica a maiore principaliter constant ionico suo; uerum tamen et diiambum et
+     ditrochaeum non recusant solutionemque patienter admittunt. Sed ex plurimis tria usui tradenda
+     subieci. <lb/>
+     <milestone unit="par" n="1"/> De hipponactio. Hipponactium constat dimetro brachycatalecto, ut
+     est hoc:<lb/> ‛palmam cape uictor’. </p>
+    <p>
+     <milestone unit="par" n="2"/>De praxillio. Praxillium constat trimetro brachycatalecto, ut est
+     hoc:<lb/> ‛fortis iuuenis sume coronam’. </p>
+    <p>
+     <milestone unit="par" n="3"/>De sotadico. Sotadicum constat tetrametro brachycatalecto, ut est
+     hoc:<lb/> ‛salpinx cane, tempus fugit, intende laborem’. </p>
+   </div>
+   <div type="section">
+    <head>
+     <hi rend="bold">De ionicis a minore</hi>
+    </head>
+    <p> Metra ionica a minore principaliter gaudent ionico suo ac raro alterius pedis patiuntur
+     accessum. Sed ex plurimis sex usui tradenda subieci. <lb/><milestone unit="par" n="1"/> De
+     timocreontio. Timocreontium constat dimetro catalectico, ut est hoc:<lb/> ‛rosa ueris
+     specimen’. </p>
+    <p>
+     <milestone unit="par" n="2"/>De anacreontio. Anacreontium constat dimetro acatalecto, ut est
+     hoc: ‛sapientes Amor odit’. </p>
+    <p>
+     <milestone unit="par" n="3"/>De anacreontio. Anacreontium constat trimetro catalectico, ut est
+     hoc: ‛fuge, uirgo, fuge munus Veneris’. </p>
+    <p>
+     <milestone unit="par" n="4"/>De Sapphico. Sapphicum constat trimetro acatalecto, ut est
+     hoc:<lb/> ‛sonat alta trabe fixus tibi nidus’. </p>
+    <p>
+     <milestone unit="par" n="5"/>De phrynichio. Phrynichium constat tetrametro catalectico, ut est
+     hoc: ‛tibi ueris fero donum, sola quod dant Veneri’. </p>
+    <p><milestone unit="par" n="6"/> De alcmanio. Alcmanium constat tetrametro acatalecto, ut est
+     hoc: ‛timor omnis docet artis, timor auget bona mentis’. <milestone unit="page"
+      n="p. 465 vol. IV Keil"/></p>
+   </div>
+   <div type="section">
+    <head>
+     <hi rend="bold">De dispersis</hi>
+    </head>
+    <p> Reliqua deinceps metra non ea lege qua superiora referemus. Illa enim uelut confusa digessi,
+     haec uelut dispersa collegi. Sed ex plurimis quinque et uiginti usui tradenda subieci. </p>
+    <p>
+     <milestone unit="par" n="1"/> De falisco. Faliscum constat tribus dactylis et pyrrichio, ut est
+     hoc:<lb/> ‛docta falisca, Serene, reparas’. </p>
+    <p>
+     <milestone unit="par" n="2"/>De pherecratio. Pherecratium constat spondeo, dactylo, spondeo, ut
+     est hoc:<lb/> ‛reges purpura monstrat’. </p>
+    <p>
+     <milestone unit="par" n="3"/>De glyconio. Glyconium constat spondeo, choriambo, pyrrichio, ut
+     est hoc:<lb/> ‛odi Parthenium nemus’. </p>
+    <p>
+     <milestone unit="par" n="4"/>De asclepiadio. Asclepiadium constat spondeo, duobus choriambis,
+     pyrrichio, ut est hoc:<lb/> ‛uitae pars melior quam cito labitur’. </p>
+    <p>
+     <milestone unit="par" n="5"/>De alcaico. Alcaicum constat spondeo, tribus choriambis,
+     pyrrichio, ut est hoc:<lb/> ‛pro fas Aeacides procubuit sub Paridis manu’. </p>
+    <p>
+     <milestone unit="par" n="6"/>De elegiaco. Elegiacum constat de penthemimere prima heroica,
+     secunda dactylica, ut est hoc: ‛maeret diffusis flens elegia comis’. </p>
+    <p>
+     <milestone unit="par" n="7"/>De aeolico. Aeolicum constat primo pede disyllabo quolibet et
+     quattuor dactylis, ut est hoc: ‛Sappho conposuit male casta poemata’. </p>
+    <p>
+     <milestone unit="par" n="8"/>De miuro. Miurum constat ita ut heroicum, sed pyrrichio clauditur,
+     ut est hoc: ‛mortem contemnunt laudato uulnere Getae’. </p>
+    <p>
+     <milestone unit="par" n="9"/>De priapeio. Priapeium constat de glyconio et pherecratio, ut est
+     hoc:<lb/> ‛Hellespontiacos tuum numen protegit hortos’. </p>
+    <p>
+     <milestone unit="par" n="10"/>De phalaecio. Phalaecium constat spondeo, dactylo, tribus
+     trochaeis, ut est hoc: <milestone unit="page" n="p. 466 vol. IV Keil"/>
+     <lb/> ‛Hermus diuitibus superbit undis’. </p>
+    <p>
+     <milestone unit="par" n="11"/>De sapphico. Sapphicum constat trochaeo, spondeo, dactylo, duobus
+     trochaeis, ut est hoc:<lb/> ‛Faune, nympharum metus et uoluptas’. </p>
+    <p>
+     <milestone unit="par" n="12"/>De saturnio. Saturnium constat dimetro iambico catalectico et
+     ithyphallico, ut est hoc:<lb/> ‛Isis pererrat orbem crinibus profusis’. </p>
+    <p>
+     <milestone unit="par" n="13"/>De archilochio. Archilochium constat paroemiaco et ithyphallico,
+     ut est hoc:<lb/> ‛remeauit ab arce tyrannus uultibus cruentis’. </p>
+    <p>
+     <milestone unit="par" n="14"/>De encomiologico. Encomiologicum constat dactylica et iambica
+     penthemimere, ut est hoc:<lb/> ‛carmina bella magis uelim sonare’. </p>
+    <p>
+     <milestone unit="par" n="15"/>De iambelego. Iambelegum constat penthemimere iambica et
+     dactylica, ut est hoc:<lb/> ‛fontes ligabant gramina laetificos’. </p>
+    <p>
+     <milestone unit="par" n="16"/>De alcaico. Alcaicum constat penthemimere iambica et duobus
+     dactylis, ut est hoc:<lb/> ‛carmen relaxat taedia pectoris’. </p>
+    <p>
+     <milestone unit="par" n="17"/>De alcaico. Alcaicum constat duobus dactylis et duobus trochaeis,
+     ut est hoc:<lb/> ‛luna rubens zephyros minatur’. </p>
+    <p>
+     <milestone unit="par" n="18"/> De archilochio. Archilochium constat tetrametro bucolico et
+     tribus trochaeis, ut est hoc: <lb/> ‛linea piscator tibi concidit in profunda ponti’. </p>
+    <p><milestone unit="par" n="19"/> De galliambico. Galliambicum constat dimetro iambico
+     catalectico et anapaesto uel spondeo cum duobus iambis, ut est hoc:<lb/> ‛tenera recrispat aura
+     tremulos sinus freti’. </p>
+    <p>
+     <milestone unit="par" n="20"/>De archilochio. Archilochium constat penthemimere dactylica et
+     dimetro iambico acatalecto, ut est hoc:<lb/> ‛sidera cuncta micant decore lucis aureo’.
+      <milestone unit="page" n="p. 467 vol. IV Keil"/></p>
+    <p>
+     <milestone unit="par" n="21"/>De archilochio. Archilochium constat dimetro iambico
+      <supplied>acatalecto</supplied> et penthemimere dactylica, ut est hoc:<lb/> ‛Indi Lyaeo dediti
+     tympana iam quatiunt’</p>
+    <p>
+     <milestone unit="par" n="22"/>De echoico. Echoicum est, quotiens sonus ultimae syllabae
+     paenultimae congruit, ut est hoc:<lb/> ‛exercet mentes fraternas grata malis lis’. </p>
+    <p>
+     <milestone unit="par" n="23"/>De reciproco heroo. Reciprocum heroum in sotadicum est, quotiens
+     a fine scansus sotadicum facit, ut est hoc:<lb/> ‛ire cupis si rus, mala uites omnia quaeso.
+     <lb/> quaeso omnia uites mala, si rus cupis ire’. </p>
+    <p>
+     <milestone unit="par" n="24"/>De reciproco iambico. Reciprocum iambicum in elegiacum est,
+     quotiens a fine scansus elegiacum facit, ut est hoc:<lb/> ‛micant nitore tecta sublimi aurea.
+     <lb/> aurea sublimi tecta nitore micant’. </p>
+    <p>
+     <milestone unit="par" n="25"/>De ropalico. Ropalicus uersus est, cum uerba, prout secuntur, per
+     syllabas crescunt, ut est hoc:<lb/> ‛rem tibi confeci, doctissime, dulcisonoram’. </p>
+   </div>
+   <div type="section">
+    <p> Habes, lector, in conpendio discendi manualem libellum, quem magis probabis, si tibi usus
+     scribendi pretium uoluptatis exsoluat. <milestone unit="page" n="p. 468 vol. IV Keil"/>
+    </p>
+   </div>
+  </body>
+ </text>
+</TEI>

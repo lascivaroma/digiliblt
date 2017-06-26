@@ -1,0 +1,1976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Chronicon</title>
+                <author>Marcellinus comes</author>
+                <respStmt>
+                    <resp>Correzione linguistica</resp>
+                    <name>Simona Rota</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica XML</resp>
+                    <name>Nadia Rosso</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>digilibLT</publisher>
+                <pubPlace>Vercelli</pubPlace>
+                <date>2012</date>
+                <availability>
+                    <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+                </availability>
+                <idno>dlt000345</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Marcellini V. C. Comitis chronicon ad a. DXVIII continuatum ad a. DXXXIV, cum additamento ad a. DXLVIII, 
+                    edidit Theodor Mommsen, Chronica Minora II, 
+                    Unveränderter Nachdruck der 1894 bei der Weidmannschen Verlagsbuchhandlung, Berlin, erschienenen Ausgabe, Mϋnchen 1981, pp. 37-104 
+                    (Monumenta Germaniae Historica, Auctores Antiquissimi 11) 
+                    </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+                <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+            </projectDesc>
+            <editorialDecl>
+               
+                <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+                <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+                    l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+                    e commenti e ogni altro contenuto redatto da editori moderni. </p>
+                <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+                    correttezza di trascrizione</p>
+                <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+                    distinzione u/v minuscole.</p>
+                <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+                <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+                    grassetto, corsivo, spaziatura espansa.</p>
+                <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+                    <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+                    <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+                    si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+                    [...]<lb/> lacuna integrata dagli editori:
+                    <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+                </p>
+                <p>Sono stati marcati i termini in lingua greca
+                    <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+                </p>
+                <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+                    target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+                    >Note di trascrizione e codifica di testi latini tardoantichi
+                    [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+            </editorialDecl>
+            
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latino</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="pr" n="pr">
+                <head> PRAEFATIO. </head>
+                <p>Post mirandum opus, quod a mundi fabrica usque in Constantinum principem Eusebius
+                    Caesariensis, huius saeculi originem tempora annos regna uirtutesque mortalium
+                    et uariarum artium repertores omniumque paene prouinciarum monumenta
+                    commemorans, Graeco edidit stilo, noster Hieronymus cuncta transtulit in Latinum
+                    et usque in Valentem Caesarem Romano adiecit eloquio. Igitur uterque huius
+                    operis auctor quinque milium et quingentorum septuaginta nouem annorum hunc
+                    mundum tunc fore miro computauit ingenio. Ego uero uir clarissimus Marcellinus
+                    comes simplici dumtaxat computatione, Orientale tantum secutus imperium, per
+                    indictiones perque consules infra scriptos centum quadraginta annos, a septima
+                    uidelicet indictione et a consulatu Ausonii et Olybrii, quibus etiam consulibus
+                    Theodosius Magnus creatus est imperator, enumerans et usque in consulatu Magni
+                    indictione undecima colligens, eorundem auctorum operi subrogaui.</p>
+                <p>Itemque alios sedecim annos a consulatu Iustini Augusti primo usque in consulatum
+                    Iustiniani Augusti quartum suffeci, id sunt simul anni centum quinquaginta sex,
+                    et meum rusticum opus subposui.</p>
+            </div>
+            <div type="cap" n="379">
+                <p><hi rend="bold">VII. INDICTIONE. CONSVLATV AVSONI ET OLYBRII.</hi></p>
+                <p><milestone unit="par" n="1"/> Theodosius ‘Hispanus’ Italicae diui Traiani
+                    ciuitatis a Gratiano Augusto apud Sirmium tricensimus nonus post Valentis
+                    interitum imperator creatus est XIIII kalendas Februarias, Orientalem dumtaxat
+                    rem publicam recturus, uir admodum religiosus et catholicae ‘ecclesiae
+                    propagator’ omnibusque Orientalibus principibus praeponendus, nisi quod
+                    Marcianum tertium post se principem imitatorem habuerit.</p>
+                <p><milestone unit="par" n="2"/> Halanos, Hunnos, Gothos, gentes Scythicas magnis
+                    multisque proeliis uicit.</p>
+            </div>
+            <div type="cap" n="380">
+                <p><hi rend="bold">VIII. GRATIANI AVGVSTI V ET THEODOSII AVGVSTI.</hi></p>
+                <p><milestone unit="par" n="1"/> Gregorius Nazianzenus facundissimus Christi
+                    sacerdos et Hieronymi nostri praeceptor ecclesia nostra aput Byzantium ab
+                    Arrianis capta plebem catholicam in beatae Anastasiae oratorio catholico
+                    cottidiana adlocutione continuit. Saepe namque prauorum conuiciis insectatus
+                    est: sed gratia Christi praeditus usque ad id tempus, quo eadem ecclesia sui
+                    praesentia nostris est reddita, perfidiis obstitit Arrianis. Nam his consulibus
+                    Theodosius Magnus postquam de Scythicis gentibus triumphauit, expulsis continuo
+                    de orthodoxorum ecclesia Arrianis, qui eam per quadraginta ferme annos sub
+                    Arrianis imperatoribus tenuerant, nostris catholicis orthodoxus restituit
+                    imperator mense Decembrio.</p>
+            </div>
+            <div type="cap" n="381">
+                <p><hi rend="bold">VIIII. EVCHERII ET SVAGRII.</hi></p>
+                <p><milestone unit="par" n="1"/> Sanctis centum quinquaginta patribus urbe Augusta
+                    congregatis aduersus Macedonium in sanctum spiritum naufragantem ab iisdem
+                    episcopis sancta synodus confirmata est: Damaso uidelicet sedem beati Petri
+                    tenente, Constantinopoli uero per Timotheum Alexandrinum perque Meletium
+                    Antiochenum et Cyrillum Hierosolymitanum episcopos Nectario ex pagano protinus
+                    baptizato et in praefata synodo pontifice ordinato.</p>
+                <p><milestone unit="par" n="2"/> Athanaricus rex Gothorum, cum quo Theodosius
+                    imperator foedus pepigerat, Constantinopolim ‘mense Ianuario’ uenit ‘eodemque
+                    mense’ morbo periit.</p>
+            </div>
+            <div type="cap" n="382">
+                <p><hi rend="bold">X. ANTONII ET SYAGRII.</hi></p>
+                <p><milestone unit="par" n="1"/> Diui Valentiniani magni cadauere Theodosius
+                    princeps ab Italia reportato apud comitatum regio in sepulchro recondidit.</p>
+                <p><milestone unit="par" n="2"/> Eodem anno uniuersa gens Gothorum Athanarico rege
+                    suo defuncto Romano sese imperio dedit ‘mense Octobrio’.</p>
+                <p><milestone unit="par" n="3"/> Damasus Romanae ecclesiae exceptis Liberio et
+                    Felice tricensimus quintus episcopus anno pontificatus sui octauo decimo in
+                    Domino requieuit.</p>
+            </div>
+            <div type="cap" n="383">
+                <p><hi rend="bold">XI. MEROBAVDIS II ET SATVRNINI.</hi></p>
+                <p><milestone unit="par" n="1"/> Romanae ecclesiae Siricius tricensimus sextus
+                    antistes factus uixit annos quindecim.</p>
+                <p><milestone unit="par" n="2"/> Arcadius patri suo Theodosio Augusto consors
+                    imperii septimo ab urbe miliario coronatus est.</p>
+                <p><milestone unit="par" n="3"/> Gratianus imperator Maximi tyranni dolo apud
+                    Lugdunum occisus est VIII kal. Septembris.</p>
+            </div>
+            <div type="cap" n="384">
+                <p><hi rend="bold">XII. RICHEMERIS ET CLEARCHI.</hi></p>
+                <p><milestone unit="par" n="1"/> Legati Persarum Constantinopolim aduenerunt pacem
+                    Theodosii principis postulantes.</p>
+                <p><milestone unit="par" n="2"/> Eodem tempore Honorius alter Theodosio natus est
+                    filius mense Septembrio.</p>
+            </div>
+            <div type="cap" n="385">
+                <p><hi rend="bold">XIII. ARCADII ET BAVTONIS.</hi></p>
+                <p><milestone unit="par" n="1"/> Theodosius imperator aliquantas eoas nationes per
+                    legatos suos suo utpote imperio subdidit.</p>
+            </div>
+            <div type="cap" n="386">
+                <p><hi rend="bold">XIV. HONORII CAESARIS ET EVODII.</hi></p>
+                <p><milestone unit="par" n="1"/> Inuasam princeps Theodosius ab hostibus Thraciam
+                    uindicauit ‘uictorque cum Arcadio filio suo urbem ingressus est’.</p>
+                <p><milestone unit="par" n="2"/> Galla Theodosii regis altera uxor his consulibus
+                    Constantinopolim uenit.</p>
+            </div>
+            <div type="cap" n="387">
+                <p><hi rend="bold">XV. VALENTINIANI III ET EVTROPII.</hi></p>
+                <p><milestone unit="par" n="1"/> Arcadius Caesar cum patre suo Theodosio sua
+                    quinquennalia celebrauit.</p>
+                <p><milestone unit="par" n="2"/> Theodosius Magnus Italiam contra Maximum tyrannum
+                    pugnaturus accessit.</p>
+            </div>
+            <div type="cap" n="388">
+                <p><hi rend="bold">I. THEODOSII AVGVSTI II ET CYNEGII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Valentinianus Gratiani frater et Theodosius
+                    imperatores Maximum tyrannum ‘et Victorem filium eius apud Aquileiam’
+                    rebellantem uicerunt.</p>
+                <p><milestone unit="par" n="2"/> Andragathius comes morte Maximi cognita praecipitem
+                    sese e naui in undas dedit ac suffocatus est.</p>
+            </div>
+            <div type="cap" n="389">
+                <p><hi rend="bold">II. TIMASII ET PROMOTI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Theodosius imperator cum Honorio filio suo Romam
+                    mense Iunio introiuit, congiarium Romano populo tribuit 'urbeque egressus est
+                    kal. Septembris'.</p>
+                <p><milestone unit="par" n="2"/> Per idem tempus grando crepitans per biduum
+                    continuum pro pluuia cecidit, pecudum arborumque pernicies.</p>
+                <p><milestone unit="par" n="3"/> Stella a septentrione gallicinio surgens et in
+                    modum luciferi ardens potius quam splendens apparuit, uicensimo sexto die esse
+                    desiit.</p>
+                <p><milestone unit="par" n="4"/> Templum Serapis apud Alexandriam Theodosii
+                    imperatoris edicto solutum est.</p>
+            </div>
+            <div type="cap" n="390">
+                <p><hi rend="bold">III. VALENTINIANI AVG. IIII ET NEOTERII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Signum in caelo quasi columna pendens ardensque per
+                    dies triginta apparuit.</p>
+                <p><milestone unit="par" n="2"/> Galla Theodosii uxor ab Arcadio priuigno suo eiecta
+                    est.</p>
+                <p><milestone unit="par" n="3"/> Oboliscum in circo positum est: columna haut longe
+                    ab ecclesia constituta est, quae argenteam Theodosii Magni statuam ferens
+                    hactenus contemplatur.</p>
+            </div>
+            <div type="cap" n="391">
+                <p><hi rend="bold">IIII. TATIANI ET SYMMACHI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Theodosius imperator Italia decedens
+                    Constantinopolim remeauit.</p>
+                <p><milestone unit="par" n="2"/> Valentinianus imperator apud Viennam dolo Arbogasti
+                    strangulatus interiit idibus Martiis.</p>
+                <p><milestone unit="par" n="3"/> Eugenius Arbogasti fauore confisus imperium sibimet
+                    usurpauit.</p>
+            </div>
+            <div type="cap" n="392">
+                <p><hi rend="bold">V. ARCADII II ET RVFINI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Arbogastes Valentiniano imperatore extincto et
+                    Eugenio Caesare facto innumeras inuictasque copias undique in Gallias contraxit,
+                    Occidentale sibi imperium utpote uindicaturus.</p>
+                <p><milestone unit="par" n="2"/> Hieronymus noster litteris Graecis ac Latinis Romae
+                    adprime eruditus, presbyter quoque ibidem ordinatus est. Porro ad Bethleem
+                    oppidum iuuenis aduenit, ubi prudens animal ad praesepe domini se mox optulit
+                    permansurum. Inter cetera studiorum suorum opuscula usque ad hunc Theodosii
+                    quartum decimum imperii annum a beato Petro sumens exordium usque in semet ipsum
+                    de uiris inlustribus scribit. Innumeris praeterea libris apostolorum
+                    prophetarumque constructionibus editis immobilem catholicae turrem ecclesiae
+                    contra perfidorum iacula consummauit, litteris quoque Hebraicis atque Chaldaicis
+                    ita edoctus, ut omnes ueteris testamenti libros ex Hebraeorum scilicet codicibus
+                    uerteret in Latinum, Danihelem quoque prophetam Chaldaeico stilo locutum et Iob
+                    iustum Arabico in Romanam linguam utrumque auctorem perfecta interpretatione
+                    mutauerit. Matthaei nihilominus euangelium ex Hebraeo fecit esse Romanum. Namque
+                    mentis corporisque uirginitatem et delictorum paenitentiam praedicans atque
+                    custodiens solus omnium Romanorum omnes sedecim prophetarum commentatus est
+                    libros iunctis praeterea librorum suorum prologis. Ita se luculentissimum
+                    interpretem et immensa epistularum suarum uolumina neruosum catholicis exhibuit
+                    lectoribus, ut nec perfidis quandoque pepercisse nec inuidis cessisse uideatur.
+                    Nonagenarius ferme, ut perhibent, postea in domino requieuit. Quem Stridon
+                    oppidum genuit, Roma inclita erudiuit, Bethlem alma tenet.</p>
+            </div>
+            <div type="cap" n="393">
+                <p><hi rend="bold">VI. THEODOSII III ET ABVNDANTII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Honorium pater suus Theodosius in eodem loco quo
+                    fratrem eius Arcadium Caesarem fecit, id est septimo ab urbe regia miliario.
+                    Tunc quippe hora diei tertia tenebrae factae sunt.</p>
+            </div>
+            <div type="cap" n="394">
+                <p><hi rend="bold">VII. ARCADII III ET HONORII II.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Theodosius Augustus adsumpto Honorio Caesare
+                    eodemque filio contra Arbogasten, qui Eugenium tyrannum imperatorem facere ausus
+                    est, iterum properauit.</p>
+                <p><milestone unit="par" n="2"/> Bello commisso Eugenius uictus atque captus
+                    interfectus est. Arbogastes sua se manu perculit.</p>
+                <p><milestone unit="par" n="3"/> Terrae motu a mense Septembrio in Nouembrium
+                    continuo inminente aliquantae Europae regiones quassatae sunt.</p>
+                <p><milestone unit="par" n="4"/> Thermae Arcadianae ex conditoris sui nomine nomen
+                    acceperunt.</p>
+            </div>
+            <div type="cap" n="395">
+                <p><hi rend="bold">VIII. OLYBRII ET PROBINI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Theodosius Magnus apud Mediolanum uita decessit.
+                    Imperauit annos decem et septem.</p>
+                <p><milestone unit="par" n="2"/> Corpus eius eodem anno Constantinopolim adlatum
+                    atque sepultum.</p>
+                <p><milestone unit="par" n="3"/> Arcadius et Honorius germani utrumque imperium
+                    diuisis tantum sedibus tenere coeperunt.</p>
+                <p><milestone unit="par" n="4"/> Rufinus patricius Arcadio principi insidias tendens
+                    Alaricum Gothorum regem missis clam pecuniis infestum rei publicae fecit et in
+                    Graeciam misit.</p>
+                <p><milestone unit="par" n="5"/> Porro detectus dolo suo Rufinus ab Italicis
+                    militibus cum Gaina comite Arcadio missis ante portas urbis merito trucidatus
+                    est. Caput eius manusque dextra per totam Constantinopolim demonstrata.</p>
+            </div>
+            <div type="cap" n="396">
+                <p><hi rend="bold">VIIII. ARCADII IIII ET HONORI III.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Rufini uxor et filia exulata.</p>
+                <p><milestone unit="par" n="2"/> Eutropius sacri palatii cubicularius omnes opes
+                    abripuit auaritiamque transgressus est.</p>
+                <p><milestone unit="par" n="3"/> Terrae motus per dies plurimos fuit caelumque
+                    ardere uisum est.</p>
+            </div>
+            <div type="cap" n="397">
+                <p><hi rend="bold">X. CAESARII ET ATTICI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> His consulibus Flaccilla Arcadio nata est
+                    filia.</p>
+            </div>
+            <div type="cap" n="398">
+                <p><hi rend="bold">XI. HONORII IIII ET EVTYCHIANI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Romanae ecclesiae Anastasius tricensimus septimus
+                    episcopus ordinatus uixit annos quattuor.</p>
+                <p><milestone unit="par" n="2"/> Ambrosius Mediolanensis, uirtutum episcopus, arx
+                    fidei, orator catholicus, ad Christum dominum commigrauit.</p>
+                <p><milestone unit="par" n="3"/> Iohannes Antiochiae natus ibique a Meletio eiusdem
+                    ciuitatis episcopo eodemque confessore lector ecclesiae ordinatus per singulos
+                    officii gradus ascendit. Vbi per quinquennium continuum diaconus multos
+                    diuinosque edidit libros: presbyter quoque factus per duodecim annos pluriores
+                    confecit. Tanta dehinc opinione ubique merito propagatus Constantinopolim in
+                    locum Nectarii pontifex suffectus est: ubi plurima dulciaque diuinarum
+                    scripturarum uolumina suo operi catholico addidit, hosque episcopos habuit
+                    inimicos: Theofilum Alexandrinum, Epiphanium Cyprium, Acacium Beroensem,
+                    Antiochum Ptolomensem, Seuerianum Gabaliensem et Seuerum Calchedonensem.</p>
+                <p><milestone unit="par" n="4"/> Gildo comes idemque paganus, qui mortuo Theodosio
+                    principe Africae praeerat, dum Arcadio et Honorio adhuc pueris regnantibus
+                    inuidet Africamque nititur optinere, frater eius Mascezel cognita eius uesania
+                    relictisque duobus aput Africam filiis in Italiam remeat. Gildo utrumque fratris
+                    filium dolo trucidat. Mascezel fratris scelere cognito, cum quinque milibus
+                    suorum contra Gildonem cum sepuaginta milibus armatorum sibimet obuiantem
+                    infestus accedit Gildonemque parricidam ieiuniis et orationibus, immo beati
+                    Ambrosii in somnis ammonitu auxiliantibus fugauit. Gildo fugiens propria se manu
+                    strangulauit: sicque Mascezel sine bello uictoriam meruit ac sine caede
+                    uindictam.</p>
+            </div>
+            <div type="cap" n="399">
+                <p><hi rend="bold">XII. THEODORI ET EVTROPII EVNVCHI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Hic Eutropius omnium spadonum primus atque ultimus
+                    consul fuit: de quo Claudianus poeta ait: Omnia cesserunt eunucho consule
+                    monstra.</p>
+                <p><milestone unit="par" n="2"/> Pulcheria Arcadio altera filia nata est.</p>
+                <p><milestone unit="par" n="3"/> Gaina comes apud Constantinopolim ad praeparandum
+                    ciuile bellum barbaros suos occulte ammonet: ipse ualitudinem simulans urbe
+                    digreditur. Coepto aduersum Byzantios praelio plurimi hostium cadunt, ceteri
+                    fugientes ecclesiae nostrae succedunt ibique detecto ecclesiae culmine iactisque
+                    desuper lapidibus obruuntur.</p>
+            </div>
+            <div type="cap" n="400">
+                <p><hi rend="bold">XIII. STILICHONIS ET AVRELIANI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Bellum nauale contra Gainam tyrannum inter
+                    Cherronesum et Hellespontum gestum est: multa milia Gothorum caesa uel demersa
+                    sunt. Gaina comes de hoc bello fugiens euasit: ipso tamen anno occisus est mense
+                    Februario.</p>
+            </div>
+            <div type="cap" n="401">
+                <p><hi rend="bold">XIIII. VINCENTII ET FRAVITAE.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Caput Gainae hastili praefixum Constantinopolim
+                    allatum est.</p>
+                <p><milestone unit="par" n="2"/> Maris Pontici superficies ita gelu frenata est, ut
+                    per triginta dies soluta tandem glacies instar montium per Propontidem superne
+                    portata decurreret.</p>
+                <p><milestone unit="par" n="3"/> Theodosius iunior patre Arcadio natus est IIII idus
+                    Apriles.</p>
+            </div>
+            <div type="cap" n="402">
+                <p><hi rend="bold">XV. ARCADII V ET HONORII V.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Romanae ecclesiae Innocentius tricensimus octauus
+                    creatus antistes uixit annis quindecim.</p>
+                <p><milestone unit="par" n="2"/> Theodosius iunior in loco quo pater patruusque suus
+                    Caesar creatus est.</p>
+                <p><milestone unit="par" n="3"/> Constantinopolim ingens terrae motus fuit.</p>
+            </div>
+            <div type="cap" n="403">
+                <p><hi rend="bold">I. THEODOSII IVNIORIS ET RVMORIDI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Marina patre Arcadio nata III idus Febr.</p>
+                <p><milestone unit="par" n="2"/> Eudoxiae Arcadii uxoris super porfyreticam columnam
+                    argentea statua iuxta ecclesiam posita hactenus sistit.</p>
+                <p><milestone unit="par" n="3"/> Iohannem Constantinopolitanae ciuitatis episcopum,
+                    cui supradicti sex antistites incassum aemuli fuere aliosque triginta sibimet
+                    episcopos consciuere, nolente Arcadio principe in Cuccusum Armeniae oppidum
+                    exulem miserunt eumque post annum unum in uillam, quae Comana in regione Pontica
+                    dicitur, de exilio in exilium relegarunt. Hunc ibidem mortuum religiosa
+                    orthodoxorum plebs in atrio Basilisci episcopi idemque martyris ab eodem martyre
+                    in somnis ammonita in nouum moxque repertum sepulchrum recondidit.</p>
+            </div>
+            <div type="cap" n="404">
+                <p><hi rend="bold">II. HONORII VI ET ARISTAENETIS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Ecclesiam Constantinopolitanam flamma ignis, quae
+                    de beati Iohannis throno quondam episcopi nata fuit, subito conflagrauit
+                    uicinamque ecclesiae urbis faciem serpens nihilo minus exussit.</p>
+                <p><milestone unit="par" n="2"/> Eudoxia uxor Arcadii diem obiit.</p>
+            </div>
+            <div type="cap" n="405">
+                <p><hi rend="bold">III. STILICHONIS II ET ANTHEMII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Isauri per montem Tauri discursantes ingens
+                    dispendium rei publicae inportarunt: quibus Narbazaicus legatus maius continuo
+                    rependit incommodum.</p>
+            </div>
+            <div type="cap" n="406">
+                <p><hi rend="bold">IIII. ARCADII VI ET PROBI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Theodosius iunior quinquennalia dedit.</p>
+                <p><milestone unit="par" n="2"/> Radagaisus paganus et Scytha cum ducentis milibus
+                    suorum totam Italiam inundauit.</p>
+                <p><milestone unit="par" n="3"/> Huldin et Sarus Hunnorum Gothorumque reges
+                    Radagaisum continuo deuicerunt, ipsius capite amputato, captiuos eius singulis
+                    aureis distrahentes.</p>
+            </div>
+            <div type="cap" n="407">
+                <p><hi rend="bold">V. HONORII VII ET THEODOSII IVN. II.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Cisterna maxima iuxta porfyreticam Constantini
+                    imperatoris columnam in foro eius sub plateae transitum constructa est.</p>
+            </div>
+            <div type="cap" n="408">
+                <p><hi rend="bold">VI. BASSI ET PHILIPPI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Stilico comes, cuius duae filiae Maria et
+                    Thermantia singulae uxores Honorii principis fuere, utraque tamen uirgo
+                    defuncta, spreto Honorio regnumque eius inhians, Halanorum, Sueuorum, Vandalorum
+                    gentes donis pecuniisque inlectas contra regnum Honorii excitauit, Eucherium
+                    filium suum paganum et aduersus Christianos insidias molientem cupiens Caesarem
+                    ordinare; qui cum eodem Eucherio dolo suo detecto occisus est.</p>
+                <p><milestone unit="par" n="2"/> Romae in foro Pacis per dies septem terra mugitum
+                    dedit.</p>
+                <p><milestone unit="par" n="3"/> Arcadius imperator uitae finem fecit: regnauit post
+                    obitum patris sui Theodosii annos tredecim.</p>
+            </div>
+            <div type="cap" n="409">
+                <p><hi rend="bold">VII. HONORII VIII ET THEODOSII IVN. III.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Aput Constantinopolim magna populi exarsit seditio,
+                    panis uidelicet penuria sibimet ingruente.</p>
+            </div>
+            <div type="cap" n="410">
+                <p><hi rend="bold">VIII. VARANAE SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Halaricus trepidam urbem Romam inuasit partemque
+                    eius cremauit incendio, sextoque die quam ingressus fuerat depraedata urbe
+                    egressus est, Placidia Honorii principis sorore abducta, quam postea Athaulfo
+                    propinquo suo tradidit uxorem.</p>
+            </div>
+            <div type="cap" n="411">
+                <p><hi rend="bold">IX. HONORII VIIII ET THEODOSII IIII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Theodosius iunior decennalia, Honorius Romae
+                    uicennalia dedit.</p>
+                <p><milestone unit="par" n="2"/> Constantinus apud Gallias inuasit imperium
+                    filiumque suum ex monacho Caesarem fecit.</p>
+                <p><milestone unit="par" n="3"/> Ipse apud Arelatum ciuitatem occiditur, Constans
+                    filius apud Viennam capite plectitur.</p>
+            </div>
+            <div type="cap" n="412">
+                <p><hi rend="bold">X THEODOSII IMP. V SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Iouinus ac Sebastianus in Galliis tyrannidem
+                    molientes occisi sunt.</p>
+                <p><milestone unit="par" n="2"/> Attalus in mari captus atque Honorio exhibitus
+                    truncata manu uitae relictus est.</p>
+            </div>
+            <div type="cap" n="413">
+                <p><hi rend="bold">XI. LVCII SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Heraclianus Africae comes cum septingentis et
+                    tribus milibus nauium mox ad urbem Romam egressus est. Occursu Marini comitis
+                    territus et in fugam uersus adrepta naue solus Carthaginem rediit ibique ilico
+                    interfectus est.</p>
+            </div>
+            <div type="cap" n="414">
+                <p><hi rend="bold">XII. CONSTANTII ET CONSTANTIS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Pulcheria Theodosii soror Augusta appellata
+                    est.</p>
+                <p><milestone unit="par" n="2"/> Valia rex Gothorum facta cum Honorio principe pace
+                    Placidiam sororem eius eidem uiduam reddidit.</p>
+            </div>
+            <div type="cap" n="415">
+                <p><hi rend="bold">XIII. HONORII X ET THEODOSII VI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Ecclesia Constantinopolitana dudum igne cremata his
+                    consulibus restaurata dedicataque est Attico episcopo eandem regente
+                    ecclesiam.</p>
+                <p><milestone unit="par" n="2"/> Lucianus presbyter uir sanctus, cui reuelauit deus
+                    ‘his consulibus’ locum sepulchri et reliquiarum corporis sancti Stephani primi
+                    martyris, scripsit ipsam relationem Graeco sermone ad omnium ecclesiarum
+                    personam.</p>
+            </div>
+            <div type="cap" n="416">
+                <p><hi rend="bold">XIIII. THEODOSII AVG. VII ET PALLADII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Orosius presbyter Hispani generis septem libros
+                    Historiarum descripsit. Missus ab Augustino episcopo idem Orosius pro discenda
+                    animae ratione ad Hieronymum presbyterum reliquias beati Stephani tunc nuper
+                    inuentas rediens primus intulit Occidenti.</p>
+                <p><milestone unit="par" n="2"/> Atticus Constantinopolitanus episcopus scripsit ad
+                    reginas Arcadii imperatoris filias de fide et uirginitate librum ualde egregium,
+                    in quo praeueniens Nestorianum dogma inpugnat.</p>
+            </div>
+            <div type="cap" n="417">
+                <p><hi rend="bold">XV. HONORIO XI ET CONSTANTII II.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Tenebrae in die factae sunt.</p>
+                <p><milestone unit="par" n="2"/> Cibyra Asiae ciuitas aliquantaque praedia terrae
+                    motu demersa.</p>
+                <p><milestone unit="par" n="3"/> Romanae ecclesiae Zosimus XXXVIIII episcopus
+                    ordinatus uixit annos tres.</p>
+            </div>
+            <div type="cap" n="418">
+                <p><hi rend="bold">I. HONORII XII ET THEODOSII VIII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Plinta comes idemque rebellio aput Palaestinam
+                    prouinciam deletus est.</p>
+                <p><milestone unit="par" n="2"/> Solis defectio facta est.</p>
+                <p><milestone unit="par" n="3"/> Stella ab oriente per septem menses surgens
+                    ardensque apparuit.</p>
+            </div>
+            <div type="cap" n="419">
+                <p><hi rend="bold">II. MONAXII ET PLINTAE.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Valentinianus iunior apud Rauennam patre Constantio
+                    et Placidia matre V nonas Iulias natus est.</p>
+                <p><milestone unit="par" n="2"/> Multae Palaestinae ciuitates uillaeque terrae motu
+                    conlapsae.</p>
+                <p><milestone unit="par" n="3"/> Dominus noster Iesus Christus semper ubique
+                    praesens et super montem oliueti Hierosolymae uicinum sese de nube manifestauit.
+                    Multae tunc utriusque sexus uicinarum gentium nationes tam uisu quam auditu
+                    perterritae atque credulae sacro Christi fonte ablutae sunt omniumque
+                    baptizatorum in tunicis crux saluatoris diuinitatis nutu extemplo inpressa
+                    refulsit.</p>
+            </div>
+            <div type="cap" n="420">
+                <p><hi rend="bold">III. THEODOSII VIIII ET CONSTANTII III.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Romanae ecclesiae Bonifatius quadragensimus
+                    episcopus ordinatus uixit annos tres.</p>
+                <p><milestone unit="par" n="2"/> In Oriente tumultum milites excitarunt ductoremque
+                    suum Maximinum nomine exstinxerunt.</p>
+                <p><milestone unit="par" n="3"/> In Persida Christianis persecutio desaeuiit.</p>
+            </div>
+            <div type="cap" n="421">
+                <p><hi rend="bold">IIII. EVSTATHII ET AGRICOLAE.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Theodosius imperator Eudociam Achiuam duxit
+                    uxorem.</p>
+                <p><milestone unit="par" n="2"/> Patri suo Arcadio in foro eius super inmanem
+                    columnam ingentem statuam idem Theodosius dedicauit.</p>
+                <p><milestone unit="par" n="3"/> Cisterna Aetii constructa est.</p>
+                <p><milestone unit="par" n="4"/> Romani cum Persis conflixere.</p>
+            </div>
+            <div type="cap" n="422">
+                <p><hi rend="bold">V. HONORII XIII ET THEODOSII X.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Theodosius imperator Eudoxiam filiam genuit.</p>
+                <p><milestone unit="par" n="2"/> In tricennalia Honorii Maximus tyrannus et Iouinus
+                    ferro uincti de Hispanias adducti atque interfecti sunt.</p>
+                <p><milestone unit="par" n="3"/> Hunni Thraciam uastauerunt.</p>
+                <p><milestone unit="par" n="4"/> Persae cum Romanis pacem pepigere.</p>
+            </div>
+            <div type="cap" n="423">
+                <p><hi rend="bold">VI. ASCLEPIODOTI ET MARINIANI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Caelestinus Romanae ecclesiae quadragensimus primus
+                    antistes creatus uixit annos nouem.</p>
+                <p><milestone unit="par" n="2"/> Euagrius scripsit altercationem Iudaei Simonis et
+                    Theofili Christiani, quae paene omnibus nota est.</p>
+                <p><milestone unit="par" n="3"/> Terrae motus multis in locis fuit et frugum inedia
+                    subsecuta.</p>
+                <p><milestone unit="par" n="4"/> Philippus et Sallustius philosophi morbo
+                    perierunt.</p>
+                <p><milestone unit="par" n="5"/> Stella saepe ardente crinita Honorius imperator
+                    fatale munus impleuit.</p>
+            </div>
+            <div type="cap" n="424">
+                <p><hi rend="bold">VII. VICTORIS ET CASTINI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Placidia mater Valentiniani Augusta nuncupata
+                    est.</p>
+                <p><milestone unit="par" n="2"/> Valentinianus Caesar creatus Theodosii imperatoris
+                    Eudoxiam filiam sibimet desponsauit.</p>
+                <p><milestone unit="par" n="3"/> Iohannes regnum Occidentale Honorio defuncto
+                    inuasit.</p>
+            </div>
+            <div type="cap" n="425">
+                <p><hi rend="bold">VIII. THEODOSII XI ET VALENTINIANI CAESARIS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Suprafatus Iohannes dolo potius Ardaburis et
+                    Asparis magis quam uirtute occiditur.</p>
+                <p><milestone unit="par" n="2"/> Valentinianus iunior apud Rauennam factus est
+                    imperator.</p>
+            </div>
+            <div type="cap" n="426">
+                <p><hi rend="bold">VIIII. THEODOSII XII ET VALENTINIANI II.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Sisinnius uir sanctae simplicitatis et simplicis
+                    sanctitatis Constantinopolitanus episcopus factus est.</p>
+            </div>
+            <div type="cap" n="427">
+                <p><hi rend="bold">X. HIERII ET ARDABVRIS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Pannoniae, quae per quinquaginta annos ab Hunnis
+                    retinebantur, a Romanis receptae sunt.</p>
+                <p><milestone unit="par" n="2"/> Thermae Theodosianae dedicatae.</p>
+            </div>
+            <div type="cap" n="428">
+                <p><hi rend="bold">XI. FELICIS ET TAVRI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Nestorius Antiochia natus, uir satis quidem
+                    eloquentiae, sapientiae uero parum, Constantinopolitanis ammodum adnitentibus ex
+                    presbytero episcopus ordinatus est.</p>
+                <p><milestone unit="par" n="2"/> Beatissimi Iohannis episcopi, dudum malorum
+                    episcoporum inuidia exsulati, apud comitatum coepit memoria celebrari mense
+                    Septembrio die XXVI.</p>
+            </div>
+            <div type="cap" n="429">
+                <p><hi rend="bold">XII. FLORENTII ET DIONYSII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Orthodoxi nostri Macedonianorum ecclesiam extra
+                    muros urbis positam abstulerunt, quoniam iidem Macedoniani Antoninum Germis
+                    catholicum episcopum interfecerunt.</p>
+                <p><milestone unit="par" n="2"/> Beatissimus Augustinus Hipponensis ecclesiae
+                    elegantissimus Christi sacerdos doctorque praecipuus placida morte quieuit.</p>
+            </div>
+            <div type="cap" n="430">
+                <p><hi rend="bold">XIII. THEODOSII XIII ET VALENTINIANI III.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Theodosius imperator tricennalia gessit.</p>
+                <p><milestone unit="par" n="2"/> Felix apud Rauennam occiditur.</p>
+                <p><milestone unit="par" n="3"/> Caelestinus Romanae arcis pontifex Nestorio
+                    prauitatis episcopo per epistulam suam datis eidem decem dierum indutiis uel
+                    paenitenti ueniam uel dissentienti damnationem denuntiat. Idem Nestorius
+                    ecclesiae Constantinopolitanae perfidus antistes, a quo et Nestoriana perfidia
+                    pullulauit, apud Ephesum ducentorum sanctorum patrum sententia in synodo
+                    condemnatus est, Caelestino Cyrillum Alexandriae ciuitatis episcopum pro tempore
+                    uicarium denuntiante. In locum Nestorii Maximianus episcopus subrogatus.</p>
+            </div>
+            <div type="cap" n="431">
+                <p><hi rend="bold">XIIII. ANTIOCHI ET BASSI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Flaccilla Theodosii Augusti filia extremum spiritum
+                    fudit.</p>
+                <p><milestone unit="par" n="2"/> Barbari urbe augusta enutriti ad ecclesiam nostram
+                    hostili ritu confluunt: ignem in ecclesiam ad comburendum altare dum infesti
+                    iaciunt, inuicem sese resistente deo trucidant.</p>
+                <p><milestone unit="par" n="3"/> Hoc tempore dum ad horrea publica Theodosius
+                    processum celebrat, tritici in plebem ingruente penuria imperator ab esuriente
+                    populo lapidibus inpetitur.</p>
+            </div>
+            <div type="cap" n="432">
+                <p><hi rend="bold">XV. VALERII ET AETII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Romanae ecclesiae Xystus quadragensimus secundus
+                    episcopus ordinatus uixit annos octo.</p>
+                <p><milestone unit="par" n="2"/> Placidiae matris Valentiniani imperatoris instinctu
+                    ingens bellum inter Bonifatium et Aetium patricios gestum est.</p>
+                <p><milestone unit="par" n="3"/> Aetius longiore Bonifatii telo pridie sibimet
+                    praeparato Bonifatium congredientem uulnerauit inlaesus, tertioque mense
+                    Bonifatius uulnere quo sauciatus fuerat emoritur, Pelagiam uxorem suam ualde
+                    locupletem nulli alteri nisi Aetio nupturam fore exhortans.</p>
+            </div>
+            <div type="cap" n="433">
+                <p><hi rend="bold">I. THEODOSII AVG. XIIII ET MAXIMI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Maxima urbis regiae pars septentrionalis per tres
+                    dies continuos incensa conlapsaque est mense Augusto.</p>
+            </div>
+            <div type="cap" n="434">
+                <p><hi rend="bold">II. AREOBINDI ET ASPARIS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Honoria Valentiniani imperatoris soror ab Eugenio
+                    procuratore suo stuprata concepit, palatioque expulsa Theodosio principi de
+                    Italia transmissa Attilanem contra Occidentalem rem publicam concitabat.</p>
+            </div>
+            <div type="cap" n="435">
+                <p><hi rend="bold">III. THEODOSII XV ET VALENTINIANI IIII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Forum Theodosii imperatoris in loco qui Heliane
+                    dicitur aedificatum est.</p>
+                <p><milestone unit="par" n="2"/> Sebastianus Bonifatii quondam patricii gener urbe
+                    augusta fugit atque in Africa interemptus est.</p>
+            </div>
+            <div type="cap" n="436">
+                <p><hi rend="bold">IIII. ISIDORI ET SENATORIS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Theodosius imperator Cyzicum ciuitatem nauibus
+                    petiit multaque eidem ciuitati munificentia praestita urbem augustam
+                    renauigauit.</p>
+            </div>
+            <div type="cap" n="437">
+                <p><hi rend="bold">V. AETII II ET SIGISVVLDI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Valentinianus imperator Roma digressus ad
+                    copulandam sibi in matrimonium Eudoxiam Theodosii principis filiam, quam dudum
+                    desponsauerat, Constantinopolim aduenit eaque sibi nupta aput Thessalonicam
+                    Italiam repetens hiemauit.</p>
+            </div>
+            <div type="cap" n="438">
+                <p><hi rend="bold">VI. THEODOSII XVI ET FAVSTI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Contradis praedo cum piratis suisque comitibus
+                    captus interfectusque est.</p>
+                <p><milestone unit="par" n="2"/> Reliquiae beatissimi Iohannis augustae urbis
+                    quondam episcopi eidem redditae ciuitati ibique sepultae mense Ianuario die
+                    uicensimo octauo.</p>
+                <p><milestone unit="par" n="3"/> Valentinianus imperator cum Eudoxia uxore Rauennam
+                    ingressus.</p>
+            </div>
+            <div type="cap" n="439">
+                <p><hi rend="bold">VII. THEODOSII XVII ET FESTI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Theodosius imperator octaua quinquennalia
+                    edidit.</p>
+                <p><milestone unit="par" n="2"/> Eudocia uxor Theodosii principis ab Hierosolymis
+                    urbem regiam remeauit, beatissimi Stephani primi martyris reliquias, quae in
+                    basilica sancti Laurentii positae uenerantur, secum deferens.</p>
+                <p><milestone unit="par" n="3"/> Hoc tempore Ginsiricus rex Vandalorum Africae
+                    ciuitates Carthaginemque metropolim cum suis satellitibus occupauit X kalendas
+                    Nouembris.</p>
+            </div>
+            <div type="cap" n="440">
+                <p><hi rend="bold">VIII. VALENTINIANI V ET ANATOLII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Paulinus magister officiorum in Caesarea
+                    Cappadociae iubente Theodosio principe interemptus est.</p>
+                <p><milestone unit="par" n="2"/> Romanae Ecclesiae Leo quadragensimus tertius papa
+                    creatus uixit annos uiginti unum.</p>
+            </div>
+            <div type="cap" n="441">
+                <p><hi rend="bold">VIIII. CYRI SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Persae, Saraceni, Tzanni, Isauri, Hunni finibus
+                    suis egressi Romanorum sola uastauerunt. Missi sunt contra hos Anatolius et
+                    Aspar magistri militiae pacemque cum his unius anni fecerunt.</p>
+                <p><milestone unit="par" n="2"/> Iohannes natione Vandalus magisterque militiae
+                    Arnigiscli fraude in Thracia interemptus est.</p>
+                <p><milestone unit="par" n="3"/> Hunuorum reges numerosis suorum cum milibus
+                    Illyricum irruerunt: Naisum, Singidunum aliasque ciuitates oppidaque Illyrici
+                    plurima exciderunt.</p>
+            </div>
+            <div type="cap" n="442">
+                <p><hi rend="bold">X. EVDOXII ET DIOSCORI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Stella quae crinita dicitur per plurimum tempus
+                    ardens apparuit.</p>
+                <p><milestone unit="par" n="2"/> Bleda et Attila fratres multarumque gentium reges
+                    Illyricum Thraciamque depopulati sunt.</p>
+            </div>
+            <div type="cap" n="443">
+                <p><hi rend="bold">XI. MAXIMI ET PATERII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> His consulibus tanta nix cecidit, ut per sex menses
+                    uix liquesci potuerit: multa hominum et animalium milia frigoris rigore confecta
+                    perierunt.</p>
+                <p><milestone unit="par" n="2"/> Theodosius imperator ex Asiana expeditione in urbem
+                    rediit.</p>
+                <p><milestone unit="par" n="3"/> Thermarum quae Achilleae dicuntur encaeniae
+                    factae.</p>
+            </div>
+            <div type="cap" n="444">
+                <p><hi rend="bold">XII. THEODOSII XVIII ET ALBINI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Theodosius princeps nona quinquennalia dedit.</p>
+                <p><milestone unit="par" n="2"/> Arcadia soror Theodosii uiuendi finem fecit.</p>
+                <p><milestone unit="par" n="3"/> Aliquanta Bithyniae oppida atque praedia
+                    continuarum pluuiarum et fluuiorum inundatione crescentium sublabsa dissolutaque
+                    perierunt.</p>
+                <p><milestone unit="par" n="4"/> Seuerum presbyterum et Iohannem diaconum Eudociae
+                    reginae apud Aeliam urbem ministrantes missus ab imperatore Theodosio Saturninus
+                    comes domesticorum occidit. Eudocia nescio quo excita dolore Saturninum protinus
+                    obtruncauit, statimque mariti imperatoris nutu, regiis spoliata ministris, apud
+                    Aeliam ciuitatem moritura remansit.</p>
+            </div>
+            <div type="cap" n="445">
+                <p><hi rend="bold">XIII. VALENTINIANI VI ET NOMI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Bleda rex Hunnorum Attilae fratris sui insidiis
+                    interimitur.</p>
+                <p><milestone unit="par" n="2"/> Aput Byzantium populari orta in circo seditione
+                    multi sese inuicem occiderunt multaque intrinsecus hominum pecudumque morbo
+                    corpora perierunt.</p>
+            </div>
+            <div type="cap" n="446">
+                <p><hi rend="bold">XIV. VALENTINIANI VII ET AETII III.</hi></p>
+
+                <p><milestone unit="par" n="1"/> His consulibus magna fames Constantinopolim
+                    inuasit, pestisque ilico subsecuta.</p>
+                <p><milestone unit="par" n="2"/> Templum regiae ciuitatis igne crematum.</p>
+            </div>
+            <div type="cap" n="447">
+                <p><hi rend="bold">XV. ARDABVRIS ET CALEPII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Ingenti terrae motu per loca uaria inminente
+                    plurimi urbis augustae muri recenti adhuc reaedificatione constructi cum
+                    quinquaginta septem turribus corruerunt. Saxa quoque ingentia in foro Tauri
+                    dudum super sese in aedificio posita statuaeque plurimae sine ullius uidelicet
+                    laesione conlapsae sunt, plurimis nihilominus ciuitatibus conlapsis: fames et
+                    aerum pestifer odor multa milia hominum iumentorumque deleuit.</p>
+                <p><milestone unit="par" n="2"/> Ingens bellum et priore maius per Attilam regem
+                    nostris inflictum paene totam Europam excisis inuasisque ciuitatibus atque
+                    castellis conrasit.</p>
+                <p><milestone unit="par" n="3"/> Eodem anno urbis augustae muri olim terrae motu
+                    conlapsi intra tres menses Constantino praefecto praetorio operam dante
+                    reaedificati sunt.</p>
+                <p><milestone unit="par" n="4"/> Attila rex usque ad Thermopolim infestus
+                    aduenit.</p>
+                <p><milestone unit="par" n="5"/> Arnigisclus magister militiae in ripense Dacia
+                    iuxta Vtum amnem ab Attila rege uiriliter pugnans plurimis hostium interemptis
+                    occisus est.</p>
+            </div>
+            <div type="cap" n="448">
+                <p><hi rend="bold">I. ZENONIS ET POSTVMIANI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Prouincia India Theodosio principi tigrim domitam
+                    pro munere misit.</p>
+                <p><milestone unit="par" n="2"/> Vtramque porticum Troadensem turresque portarum
+                    utrasque ignis subitus exussit: qua ruina continuo repurgata Antiochus
+                    praefectus praetorio in pristinam erexit speciem:</p>
+                <p><milestone unit="par" n="3"/> legatis Attilae a Theodosio depectas olim pecunias
+                    flagitantibus.</p>
+            </div>
+            <div type="cap" n="449">
+                <p><hi rend="bold">II. PROTOGENIS ET ASTVRII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Marina Theodosii regis soror fati munus
+                    impleuit.</p>
+                <p><milestone unit="par" n="2"/> Flauianus episcopus in secunda aput Ephesum synodo
+                    ui Dioscori Alexandriae episcopi et Saturnini spadonis in Epipam exulatus
+                    est.</p>
+                <p><milestone unit="par" n="3"/> Ariobinda et Taurus patricii communi uita defuncti
+                    sunt.</p>
+            </div>
+            <div type="cap" n="450">
+                <p><hi rend="bold">III. VALENTINIANI VII ET AVIENI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Theodosius imperator uiuendi finem fecit: regnauit
+                    post mortem Arcadii patris sui annos XLII.</p>
+                <p><milestone unit="par" n="2"/> Loco eius Marcianus imperium adeptus est.</p>
+                <p><milestone unit="par" n="3"/> Chrysafius eunuchus Pulcheriae Theodosii sororis
+                    nutu sua cum auaritia interemptus est.</p>
+            </div>
+            <div type="cap" n="451">
+                <p><hi rend="bold">IIII. MARCIANI AVGVSTI ET ADELFII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Leone pontifice sedem beati Petri regente
+                    sexcentorum triginta patrum sancta et uniuersalis synodus contra Eutychetem
+                    nefandissimorum praesulem monachorum apud Calchedonam in basilica sanctae
+                    Eufemiae firmata est: solus Dioscorus Alexandrinae ecclesiae episcopus dissensit
+                    statimque ab iisdem catholicis patribus sacerdotio abdicatus est.</p>
+            </div>
+            <div type="cap" n="452">
+                <p><hi rend="bold">V. SPORACII ET HERCVLANII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Marcianus Augustus suis statuit decretis, ut hi qui
+                    consules fieri cupiebant nihil aeris in populum spargerent, sed statutam
+                    pecuniam ad reparandum urbis aquae ductum dependerent.</p>
+                <p><milestone unit="par" n="2"/> Hoc tempore tres magni lapides e caelo in Thracia
+                    ceciderunt.</p>
+                <p><milestone unit="par" n="3"/> Aquileia ciuitas ab Attila Hunnorum rege excisa
+                    est.</p>
+            </div>
+            <div type="cap" n="453">
+                <p><hi rend="bold">VI. VINCOMALI ET OPILIONIS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Iohannes praecursor domini et baptista caput suum,
+                    quod olim Herodias impia nefandaque postulatione ab umeris amputatum et in disco
+                    positum accepit proculque a truncato eius corpore sepeliuit, duobus Orientalibus
+                    monachis ob adorandam apud Hierosolymam Christi domini resurrectionem
+                    introeuntibus reuelauit, ut ad Herodis quondam regis habitaculum accedentes
+                    ammoniti requirerent fideliter humo extollerent. <milestone unit="par" n="2"/>
+                    Hoc ergo caput fide repertum suaque hispida in mantica conditum dum ad propria
+                    remeantes habitacula peruehunt, quidam Emetzenae figulus ciuitatis diutinam
+                    imminentemque sibi fugiens paupertatem sese his exhibuit comitem: quique dum
+                    nescius peram sibi creditam cum sacro capite portat, ab eo cuius caput uehebat
+                    noctu ammonitus utrumque comitem fugiens dereliquit, statimque Emetzenam urbem
+                    cum sancto leuique onere introgressus est, ibique dum aduixit, praecursoris
+                    Christi ueneratus est caput moriensque sorori suae rerum nesciae signatum in
+                    uasculo tradidit recolendum. <milestone unit="par" n="3"/> Illa uero successori
+                    suo repositum signatumque ut erat dereliquit. Porro Eustochius quidam occultus
+                    Arrianae fidei presbyter talem tantumque thesaurum indignus optinuit gratiamque,
+                    quam Christus dominus per Iohannem Baptistam infirmo populo tribuebat, is eam ac
+                    si suam dumtaxat in uulgo disseminabat. Hinc prauitate sua detectus, Emetzena
+                    ciuitate expulsus est. <milestone unit="par" n="4"/> Hoc deinde antrum, in quo
+                    beatissimi Iohannis caput in urnam missum sub terraque reconditum erat, quidam
+                    monachi pro habitaculo habere coeperunt. Marcellus demum presbyter totiusque
+                    monasterii praesul dum in eodem specu uita inreprehensibili habitat, idem beatus
+                    Iohannes Christi praecursor sese eidem suumque ostendit caput, ibidemque
+                    sepultum multis praefulgens uirtutibus patefecit. Hoc igitur uenerabile caput
+                    sub Vranio memoratae episcopo ciuitatis per Marcellum praefatum presbyterum
+                    constat inuentum Vincomalo et Opilione consulibus mense Februario die uicensimo
+                    quarto media ieiuniorum paschalium septimana, imperatoribus uero Valentiniano et
+                    Marciano regnantibus.</p>
+                <p><milestone unit="par" n="5"/> Pulcheria Augusta Marciani principis uxor beati
+                    Laurentii atrium inimitabili opere consummauit beatumque uiuendi finem
+                    fecit.</p>
+            </div>
+            <div type="cap" n="454">
+                <p><hi rend="bold">VII. AETII ET STVDII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Attila rex Hunnorum Europae orbator prouinciae
+                    noctu mulieris manu cultroque confoditur. Quidam uero sanguinis reiectione
+                    necatum perhibent.</p>
+                <p><milestone unit="par" n="2"/> Aetius magna Occidentalis rei publicae salus et
+                    regi Attilae terror a Valentiniano imperatore cum Boethio amico in palatio
+                    trucidatur, atque cum ipso Hesperium cecidit regnum nec hactenus ualuit
+                    releuari.</p>
+            </div>
+            <div type="cap" n="455">
+                <p><hi rend="bold">VIII. VALENTINIANI VIII ET ANTHEMII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Valentinianus princeps dolo Maximi patricii, cuius
+                    etiam fraude Aetius perierat, in campo Martio per Optilam et Thraustilam Aetii
+                    satellites iam percusso Heraclio spadone truncatus est.</p>
+                <p><milestone unit="par" n="2"/> Idem Maximus inuasit imperium tertioque tyrannidis
+                    suae mense membratim Romae a Romanis discerptus est.</p>
+                <p><milestone unit="par" n="3"/> Gizericus rex Vandalorum, ab Eudoxia Valentiniani
+                    uxore epistulis inuitatus ex Africa Romam ingressus est eaque urbe rebus omnibus
+                    spoliata eandem Eudoxiam cum duabus filiabus secum rediens abduxit.</p>
+            </div>
+            <div type="cap" n="456">
+                <p><hi rend="bold">IX. VARANAE ET IOHANNIS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> His consulibus innumera lucustarum agmina fructum
+                    Phrygiae uastauerunt.</p>
+                <p><milestone unit="par" n="2"/> Eucherius Lugdunensis ecclesiae pontifex multa
+                    scripsit tam ecclesiasticis quam monasticis studiis necessaria.</p>
+            </div>
+            <div type="cap" n="457">
+                <p><hi rend="bold">X. CONSTANTINI ET RVFI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Marcianus imperator bonis principibus conparandus
+                    uitae spiritum amisit: imperauit annos sex menses sex. Leo eidem defuncto
+                    successit.</p>
+                <p><milestone unit="par" n="2"/> Cuius uoluntate Maiorianus aput Rauennam Caesar est
+                    ordinatus.</p>
+            </div>
+            <div type="cap" n="458">
+                <p><hi rend="bold">XI. LEONIS AVG. ET MAIORIANI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Leo imperator pro tomo Calchedonense per uniuersum
+                    orbem singulis orthodoxorum episcopis singulas consonantesque misit epistulas,
+                    quo sibi quid de eodem tomo sentirent cuncti suis rescriptionibus indicarent.
+                    Horum omnium episcoporum ita conspirantes suscepit epistulas, ut eas putares uno
+                    tempore uniusque uiri eloquio fuisse dictatas.</p>
+            </div>
+            <div type="cap" n="459">
+                <p><hi rend="bold">XII. PATRICII ET RICIMERIS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Isaac Antiochenae ecclesiae presbyter scripsit Syro
+                    sermone multa praecipuaque aduersus Nestorianos et Eutychianos. Ruinam enim
+                    Antiochiae elego carmine planxit, quemammodum Ephrem diaconus Nicomediae
+                    lapsum.</p>
+            </div>
+            <div type="cap" n="460">
+                <p><hi rend="bold">XIII. APOLLONII ET MAGNI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Cyzicus ciuitas terrae motu concussa murorumque
+                    suorum ambitu interrupto sese suosque diu deplanxit.</p>
+            </div>
+            <div type="cap" n="461">
+                <p><hi rend="bold">XIIII. DAGALAIFI ET SEVERINI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Romanae ecclesiae Hilarus quadragensimus quartus
+                    pontifex factus uixit annos sex.</p>
+                <p><milestone unit="par" n="2"/> Maiorianus Caesar apud Dertonam iuxta fluuium, qui
+                    Hira dicitur, interemptus. Locum eius Seuerus inuasit.</p>
+            </div>
+            <div type="cap" n="462">
+                <p><hi rend="bold">XV. LEONIS AVG. II SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Iacobus natione Achiuus, religione paganus,
+                    medicinae artis peritia tam ingenio quam litteratura perclaruit. Hic ob medendum
+                    Leonem Augustum febre defetigatum sacrum palatii cubiculum uocatus intrauit
+                    statimque in sella iuxta torum imperialem posita sine ullo Augusti nutu
+                    consedit, sicque medicas adhibuit manus. Porro meridie ad eundem sacrum puluinar
+                    reuersus sublatum sui propter solium, in quo matutinus resederat, protinus
+                    intellexit spondamque tori regiam intrepidus supersedit, ueterumque studii sui
+                    repertorum praeceptionibus monitum id sese gessisse, non temere praesumpsisse
+                    aegrotantem docuit principem.</p>
+            </div>
+            <div type="cap" n="463">
+                <p><hi rend="bold">I. VIVIANI ET FELICIS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Prosper homo Aquitanicae regionis sermone
+                    scholasticus et adsertionibus neruosus multa composuisse dicitur. Epistulae
+                    quoque papae Leonis aduersus Eutychen de uera Christi incarnatione ad diuersos
+                    datae ab isto dictatae creduntur.</p>
+            </div>
+            <div type="cap" n="464">
+                <p><hi rend="bold">II. RVSTICI ET OLYBRII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Beorgor rex Halanorum a Ricimere rege
+                    occiditur.</p>
+            </div>
+            <div type="cap" n="465">
+                <p><hi rend="bold">III. BASILISCI ET ARMENARICI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Constantinopolis magno inuasa incendio facieque
+                    foedata deplanxit.</p>
+                <p><milestone unit="par" n="2"/> Seuerus, qui Occidentis arripuit principatum, Romae
+                    interiit.</p>
+            </div>
+            <div type="cap" n="466">
+                <p><hi rend="bold">IIII. LEONIS AVG. III SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Theodoritus episcopus Cyri ciuitatis scripsit de
+                    incarnatione domini aduersus Eutychem presbyterum et Dioscorum Alexandriae
+                    episcopum, qui humanam in Christo carnem fuisse denegant.</p>
+            </div>
+            <div type="cap" n="467">
+                <p><hi rend="bold">V. PVSAEI ET IOHANNIS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Leo imperator Anthemium patricium Romam misit
+                    imperatoremque constituit.</p>
+                <p><milestone unit="par" n="2"/> Romanae ecclesiae Simplicius quadragensimus quintus
+                    pontifex creatus uixit annos quindecim.</p>
+                <p><milestone unit="par" n="3"/> Rauennam ciuitatem terrae motus deterruit.</p>
+            </div>
+            <div type="cap" n="468">
+                <p><hi rend="bold">VI. ANTHEMII AVG. II SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Marcellinus Occidentis patricius idemque paganus
+                    dum Romanis contra Vandalos apud Carthaginem pugnantibus opem auxiliumque fert,
+                    ab iisdem dolo confoditur, pro quibus palam uenerat pugnaturus.</p>
+            </div>
+            <div type="cap" n="469">
+                <p><hi rend="bold">VII. ZENONIS ET MARCIANI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> His consulibus caput Denzicis Hunnorum regis
+                    Attilae filii Constantinopolim adlatum est.</p>
+            </div>
+            <div type="cap" n="470">
+                <p><hi rend="bold">VIII. IORDANIS ET SEVERI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Gennadius Constantinopolitanae ecclesiae pontifex
+                    Danihelem prophetam ex integro ad uerbum commentatus est et homilias multas
+                    composuit.</p>
+            </div>
+            <div type="cap" n="471">
+                <p><hi rend="bold">VIIII. LEONIS AVG. IIII ET PROBIANI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Aspar primus patriciorum cum Ardabure et Patriciolo
+                    filiis, illo quidem olim patricio, hoc autem Caesare generoque Leonis principis
+                    appellato, Arrianus cum Arriana prole spadonum ensibus in palatio uulneratus
+                    interiit.</p>
+            </div>
+            <div type="cap" n="472">
+                <p><hi rend="bold">X. MARCIANI ET FESTI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Vesuuius mons Campaniae torridus intestinis ignibus
+                    aestuans exusta euomuit uiscera nocturnisque in die tenebris incumbentibus omnem
+                    Europae faciem minuto contexit puluere. Huius metuendi memoriam cineris Byzantii
+                    annue celebrant VIII idus Nouemb.</p>
+                <p><milestone unit="par" n="2"/> Anthemius imperator Romae a Recimero genero suo
+                    occiditur. Loco eius Olybrius substitutus septimo mense imperii sui uita
+                    defunctus est.</p>
+                <p><milestone unit="par" n="3"/> In Asia aliquantae ciuitates uel oppida terrae motu
+                    conlapsa sunt.</p>
+            </div>
+            <div type="cap" n="473">
+                <p><hi rend="bold">XI. LEONIS AVG. V SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Glycerius apud Rauennam plus praesumptione quam
+                    electione Caesar factus est.</p>
+                <p><milestone unit="par" n="2"/> Constantinopoli seditione in circo orta multi
+                    Isaurorum a populo interempti sunt.</p>
+            </div>
+            <div type="cap" n="474">
+                <p><hi rend="bold">XII. LEONIS IVNIORIS SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Leo senior imperator Leone iuniore a se iam Caesare
+                    constituto morbo periit, tam sui imperii annis quam huius Leonis regni mensibus
+                    computatis annis decem et septem mensibus sex. Zenonem Leo iunior imperator
+                    idemque filius principem regni constituit.</p>
+                <p><milestone unit="par" n="2"/> Glycerius Caesar Romae imperium tenens a Nepote
+                    Marcellini quondam patricii sororis filio imperio expulsus in Portu urbis Romae
+                    ex Caesare episcopus ordinatus est et obiit.</p>
+            </div>
+            <div type="cap" n="475">
+                <p><hi rend="bold">XIII. ZENONIS AVG. II SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Zeno imperator Verinae socrus suae et Basilisci
+                    fratris eius insidiis circumuentus cum Ariagne uxore sua profugus in Isauriam
+                    tetendit. Regnum Zenonis Basiliscus tyrannus inuasit.</p>
+                <p><milestone unit="par" n="2"/> Nepos, qui Glycerium regno pepulerat, Romae
+                    eleuatus est imperator. Nepote Orestes protinus effugato Augustulum filium suum
+                    in imperium conlocauit.</p>
+            </div>
+            <div type="cap" n="476">
+                <p><hi rend="bold">XIIII. BASILISCI ET ARMATI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Basiliscus tyrannus Marco filio suo Caesare facto,
+                    dum contra fidem catholicam Nestoriana perfidia intumescens conatur adsurgere,
+                    ante inflatus crepuit quam paenitens stare potuerit. Basiliscus cum filio suo et
+                    cum Zenonida uxore sua, iam Zenone pristinum ad imperium remeante, in exilium
+                    missus est atque in oppidulo, quod Limnis in prouincia Cappadociae dicitur,
+                    trusus fame extabuit.</p>
+                <p><milestone unit="par" n="2"/> Odoacar rex Gothorum Romam optinuit. Orestem
+                    Odoacer ilico trucidauit. Augustulum filium Orestis Odoacer in Lucullano
+                    Campaniae castello exilii poena damnauit. Hesperium Romanae gentis imperium,
+                    quod septingentesimo nono urbis conditae anno primus Augustorum Octauianus
+                    Augustus tenere coepit, cum hoc Augustulo periit, anno decessorum regni
+                    imperatorum quingentesimo uigesimo secundo, Gothorum dehinc regibus Romam
+                    tenentibus.</p>
+            </div>
+            <div type="cap" n="477">
+                <p><hi rend="bold">XV. SINE CONSVLIBVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Bracilam comitem Odoacer rex apud Rauennam
+                    occidit.</p>
+            </div>
+            <div type="cap" n="478">
+                <p><hi rend="bold">I. ILLI SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Theodolus presbyter in Coelesyria multa conscripsit
+                    clarusque habetur.</p>
+            </div>
+            <div type="cap" n="479">
+                <p><hi rend="bold">II. ZENONIS AVG. III.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Sabinianus Magnus Illyricianae utriusque militiae
+                    ductor creatus curiam fragilem, conlapsumque iustum rei publicae censum uel
+                    praepauentem fouit uel dependentem tutatus est. Disciplinae praeterea militaris
+                    ita optimus institutor coercitorque fuit, ut priscis Romanorum ductoribus
+                    comparetur.</p>
+                <p><milestone unit="par" n="2"/> Theodoricum idem Sabinianus regem aput Graeciam
+                    debacchantem ingenio magis quam uirtute deterruit.</p>
+            </div>
+            <div type="cap" n="480">
+                <p><hi rend="bold">III. BASILII SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Vrbs regia per quadraginta continuos dies adsiduo
+                    terrae motu quassata magnopere sese adflicta deplanxit. Ambae Troadenses
+                    porticus conruerunt: aliquantae ecclesiae uel scissae sunt uel conlapsae: statua
+                    Theodosii magni in foro Tauri super cochlidem columnam posita conruit duobus
+                    fornicibus eiusdem conlapsis. Hunc formidolosum diem Byzantii celebrant VIII
+                    kal. Octobris.</p>
+                <p><milestone unit="par" n="2"/> His consulibus Nepos, quem dudum Orestes imperio
+                    abdicauerat, Viatoris et Ouidae comitum suorum insidiis haut longe a Salonis sua
+                    in uilla occisus est.</p>
+            </div>
+            <div type="cap" n="481">
+                <p><hi rend="bold">IIII. PLACIDI SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Theodoricus Triari filius rex Gothorum adscitis
+                    suis usque ad Anaplum quarto urbis miliario armatus aduenit: nulli tamen
+                    Romanorum noxius continuo reuersus. Porro in Illyricum properans dum inter
+                    suorum mouentia plaustra progreditur, iacentis super carpentum teli acumine et
+                    pauescentis equi sui inpulsione fixus transuerberatusque interiit.</p>
+                <p><milestone unit="par" n="2"/> Sabinianum Magnum mors, quae huic peccanti mundo
+                    merito imminet, ante ademit quam integrum defetigatae rei publicae subsidium
+                    ferret.</p>
+            </div>
+            <div type="cap" n="482">
+                <p><hi rend="bold">V. TROCONDI ET SEVERINI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Romanae ecclesiae Felix quadragensimus sextus
+                    episcopus ordinatus uixit annos duodecim.</p>
+                <p><milestone unit="par" n="2"/> Theodoricus cognomento Valamer utramque Macedoniam
+                    Thessaliamque depopulatus est, Larissam quoque metropolim depraedatus.</p>
+            </div>
+            <div type="cap" n="483">
+                <p><hi rend="bold">VI. FAVSTI SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Idem Theodoricus rex Gothorum Zenonis Augusti
+                    munificentiis paene pacatus magisterque praesentis militiae factus, consul
+                    quoque designatus creditam sibi Ripensis Daciae partem Moesiaeque inferioris cum
+                    suis satellitibus pro tempore tenuit.</p>
+            </div>
+            <div type="cap" n="484">
+                <p><hi rend="bold">VII. THEODORICI ET VENANTII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Illus natione Isaurus, dignitate magister
+                    officiorum, amputata apud comitatum auricula Orientem Zenoni infestus inuasit.
+                    Porro cum Leontio tyrannidem arripuit.</p>
+                <p><milestone unit="par" n="2"/> Totam namque per Africam crudelis Hunerici
+                    Vandalorum regis in nostros catholicos persecutio inportata est. Nam exulatis
+                    diffugatisque plus quam trecentis triginta quattuor orthodoxorum episcopis
+                    ecclesiisque eorum clausis plebs fidelium uariis subacta suppliciis beatum
+                    consummauit agonem. <milestone unit="par" n="3"/> Nempe tunc idem rex Hunericus
+                    unius catholici adulescentis uitam a natiuitate sua sine ullo sermone ducentis
+                    linguam praecepit excidi, idemque mutus quod sine humano auditu Christo credens
+                    fidem didicerat, mox praecisa sibi lingua locutus est gloriamque deo in primo
+                    uocis suae exordio dedit. <milestone unit="par" n="4"/> Denique ex hoc fidelium
+                    contubernio aliquantos ego religiosissimos uiros praecisis linguis manibus
+                    truncatis apud Byzantium integra uoce conspexi loquentes. Haec Arrianorum
+                    crudelitas in religiosos Christi cultores supra scriptis consulibus mense
+                    Februario coepit infligi.</p>
+            </div>
+            <div type="cap" n="485">
+                <p><hi rend="bold">VIII. SYMMACHI SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Longinus Zenonis frater Augusti post decennalem
+                    custodiam, quam eidem Illus apud Isauriam inflixerat, ad germanum suum
+                    Constantinopolim aduenit.</p>
+            </div>
+            <div type="cap" n="486">
+                <p><hi rend="bold">IX. LONGINI SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Iohannes Antiochenae paroeciae ex grammatico
+                    presbyter scripsit aduersum eos,qui in una tantum substantia adorandum adserunt
+                    Christum nec adquiescunt duas in Christo confitendas naturas.</p>
+            </div>
+            <div type="cap" n="487">
+                <p><hi rend="bold">X. BOETHII SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Theodoricus rex Gothorum Zenonis Augusti numquam
+                    beneficiis satiatus cum magna suorum manu usque ad regiam ciuitatem et
+                    Melentiadam oppidum infestus accessit plurimaque loca igne cremata ad Nouensem
+                    Moesiae ciuitatem, unde aduenerat, remeauit.</p>
+            </div>
+            <div type="cap" n="488">
+                <p><hi rend="bold">XI. DYNAMII ET SIFIDII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Leontius interrex et Illus tyrannus in Papyrio
+                    Isauriae castello capti decollatique sunt. Capita eorum Constantinopolim adlata
+                    praefixa hastilibus tabuere.</p>
+                <p><milestone unit="par" n="2"/> Eodem anno Theodoricus rex omnium suorum
+                    multitudine adsumpta Gothorum in Italiam tetendit.</p>
+            </div>
+            <div type="cap" n="489">
+                <p><hi rend="bold">XII. EVSEBII ET PROBINI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Idem Theodoricus rex Gothorum optatam occupauit
+                    Italiam. Odoacer itidem rex Gothorum metu Theodorici perterritus Rauennam est
+                    clausus. Porro ab eodem Theodorico periuriis inlectus interfectusque est.</p>
+            </div>
+            <div type="cap" n="490">
+                <p><hi rend="bold">XIII. LONGINI II ET FAVSTI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Zenon imperator Pelagii gulam in insula quae
+                    Panormum dicitur laqueo frangi praecepit.</p>
+            </div>
+            <div type="cap" n="491">
+                <p><hi rend="bold">XIIII. OLYBRII SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Zenon Augustus uita decessit tam sui imperii annis
+                    quam Basilisci tyrannidis mensibus conputatis anno XVII mense sexto. Anastasius
+                    ex silentiario imperator creatus est.</p>
+                <p><milestone unit="par" n="2"/> Bellum plebeium inter Byzantios ortum parsque urbis
+                    plurima atque circi igne combusta.</p>
+            </div>
+            <div type="cap" n="492">
+                <p><hi rend="bold">XV. ANASTASII AVG. ET RVFI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Dum bellum paratur Isauricum dumque iidem Isauri
+                    imperium sibi uindicare nituntur, in Frygia iuxta Cottiaium ciuitatem undique
+                    confluunt, ibique Lilingis, segnis quidem pede, sed eques in bello acerrimus a
+                    Romanis primus in proelio trucidatur, omnesque simul Isauri fugae dediti per
+                    montana asperaque loca Isauriam repetunt. Hoc bellum Isauricum per sex annos
+                    tractum est.</p>
+            </div>
+            <div type="cap" n="493">
+                <p><hi rend="bold">I. EVSEBII II ET ALBINI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Bella ciuilia aduersus Anastasii regnum apud
+                    Constantinopolim gesta sunt: statuae regis reginaeque funibus ligatae atque per
+                    urbem tractae.</p>
+                <p><milestone unit="par" n="2"/> Iulianus magister militiae nocturno proelio pugnans
+                    Scythico ferro in Thracia confossus interiit.</p>
+            </div>
+            <div type="cap" n="494">
+                <p><hi rend="bold">II. ASTERII ET PRAESIDII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Anastasius imperator contra orthodoxorum fidei
+                    maiestatem intestina coepit proelia commouere: piaculi sui perfidiam prius in
+                    Eufemium urbis episcopum sibi pro orthodoxorum fide uiriliter resultantem
+                    profano manifestauit ingenio.</p>
+                <p><milestone unit="par" n="2"/> Laudicia, Hierapolis et Tripolis atque Agathicum
+                    uno tempore unoque terrae motu conlapsae sunt.</p>
+                <p><milestone unit="par" n="3"/> Romanae ecclesiae quadragensimus septimus Gelasius
+                    episcopus ordinatus uixit annos quattuor.</p>
+            </div>
+            <div type="cap" n="495">
+                <p><hi rend="bold">III. VIATORIS SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Eufemius augustae ciuitatis antistes, de quo
+                    superius fecimus mentionem, falso ab Anastasio principe accusatus atque damnatus
+                    in exilium ductus est. Locum Eufemii Macedonius tenuit.</p>
+            </div>
+            <div type="cap" n="496">
+                <p><hi rend="bold">IIII. PAVLI SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Augustatico suo dudum Anastasius militibus
+                    praestito donatiuum quoque hoc fratre consule tribuit.</p>
+                <p><milestone unit="par" n="2"/> India Anastasio principi elephantum, quem Plautus
+                    poeta noster lucabum nomine dicit, duasque camelopardalas pro munere misit.</p>
+            </div>
+            <div type="cap" n="497">
+                <p><hi rend="bold">V. ANASTASII AVG. II SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Solis defectus apparuit.</p>
+                <p><milestone unit="par" n="2"/> Bellumque Isauricum hoc sexto anno sedatum.</p>
+                <p><milestone unit="par" n="3"/> Athenodorus Isaurorum primus in Isauria captus
+                    decollatusque est: caput eius Tarsum ciuitatem adlatum pro portis hastili fixum
+                    extabuit.</p>
+            </div>
+            <div type="cap" n="498">
+                <p><hi rend="bold">VI. IOHANNIS SCYTHAE ET PAVLINI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Romanae ecclesiae quadragensimus octauus Anastasius
+                    pontifex ordinatus uixit annos II.</p>
+                <p><milestone unit="par" n="2"/> Longinus Isaurus cognomento Selinunteus apud
+                    Antiochiam Isauriae ciuitatem a comite Prisco captus Constantinopolim missus est
+                    catenatusque per agentem circumductus Anastasio principi et populo ingens
+                    spectaculum fuit, uariisque deinde cruciatibus apud Nicaeam Bithyniae ciuitatem
+                    expensus est.</p>
+                <p><milestone unit="par" n="3"/> Nummis, quos Romani Terentianos uocant, Graeci
+                    follares, Anastasius princeps suo nomine figuratis placibilem plebi
+                    commutationem distraxit.</p>
+            </div>
+            <div type="cap" n="499">
+                <p><hi rend="bold">VII. IOHANNIS GIBBI SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Aristus Illyricianae ductor militae cum quindecim
+                    milibus armatorum et cum quingentis uiginti plaustris armis ad proeliandum
+                    necessariis oneratis contra Bulgares Thraciam deuastantes profectus est. Bellum
+                    iuxta Tzurtam fluuium consertum, ubi plus quam quattuor milia nostrorum aut in
+                    fuga aut in praecipitio ripae fluminis interempta sunt. Ibique Illyriciana
+                    uirtus militum periit, Nicostrato, Innocentio, Tanco et Aquilino comitibus
+                    interfectis.</p>
+                <p><milestone unit="par" n="2"/> Hoc anno ingens terrae motus Ponticam concussit
+                    prouinciam.</p>
+            </div>
+            <div type="cap" n="500">
+                <p><hi rend="bold">VIII. PATRICII ET HYPATII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Romanae ecclesiae quadragensimus nonus Symmachus
+                    episcopus factus uixit annos quindecim.</p>
+                <p><milestone unit="par" n="2"/> Anastasius imperator donatiuum Illyriis militibus
+                    per Paulum tribunum notariorum misit.</p>
+            </div>
+            <div type="cap" n="501">
+                <p><hi rend="bold">IX. POMPEI ET AVIENI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Constantio praefecto urbis ludos theatrales
+                    meridiano tempore spectante pars in eodem spectaculo cerealis parti aduersae
+                    caeruleae occultas praeparauit insidias. Nam enses saxaque in uasis inclusa
+                    fictilibus eademque arma diuersis pomis desuper cumulata sub theatri porticu
+                    ritu uendentium statuit. <milestone unit="par" n="2"/> Dum residente Constantio
+                    ex more ciuium concrepant uoces, ante uisa quam audita arma excutiuntur saxaque
+                    in incautos ciues instar imbrium iaciuntur ensesque uibrantes in amicorum inque
+                    uicinorum sanguine obliti suis cum percussoribus debacchantur: nutat et
+                    congemescit theatri cauea et refugientium huc atque illuc suorum pedibus
+                    conculcata occisorumque foedata cruore deplangit. <milestone unit="par" n="3"/>
+                    Plus enim quam tria milia ciuium saxis gladiisque conpressionibus et aquis
+                    proscaenii amissos urbs augusta defleuit.</p>
+            </div>
+            <div type="cap" n="502">
+                <p><hi rend="bold">X. PROBI ET AVIENI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Consueta gens Bulgarorum depraedatam saepe
+                    Thraciam, nullo Romanorum milite resistente, iterum deuastata est.</p>
+                <p><milestone unit="par" n="2"/> Amidam opulentissimam ciuitatem monachorum eius
+                    astu proditam Choadis rex Persarum quinto mense, quam expugnare eam coeperat,
+                    inrupit, proditoresque eius monachos obtruncauit.</p>
+            </div>
+            <div type="cap" n="503">
+                <p><hi rend="bold">XI. DEXICRATIS ET VOLVSIANI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Tres Romanorum ductores Patricius, Hypatius et
+                    Areobindas, qui cum quindecim milibus armatorum olim in Persas missi fuerant
+                    pugnaturi, iuxta Syficum castellum cum iisdem Persis sine audacia conflixerunt,
+                    multis tunc militum ductoribus de proelio fugientibus caesis. Inmenso dehinc
+                    auri pondere hostibus dato captam rebusque uacuam Amidam ciuitatem iidem nostri
+                    redemere ductores, iam Celere magistro officiorum sibi cum duobus milibus
+                    bellatorum in subsidium destinato.</p>
+            </div>
+            <div type="cap" n="504">
+                <p><hi rend="bold">XII. CETHEGI SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Interea Celer magister officiorum per Callinicum
+                    Mesopotamiae ciuitatem armatum ducens militem ad deuastanda Persarum rura
+                    discurrit, plurimos agrestes rusticis intentos laboribus more pecudum trucidat,
+                    pastores diuersorum pecorum cum numerosa iumenta abducit, castella latere
+                    lutoque constructa inuadit, usque ad pontem Ferreum sic nomine dictum cuncta
+                    uastando progreditur, omnique praeda potitus ad communia castra ditato milite
+                    remeat. Aliquanta dehinc ob percutiendum foedus cum Persis deliberat, misso ad
+                    se pro pepigendo foedere Armonio a secretis.</p>
+            </div>
+            <div type="cap" n="505">
+                <p><hi rend="bold">XIII. SABINIANI ET THEODORI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Idem Sabinianus Sabiniani Magni filius ductorque
+                    militiae delegatus contra Mundonem Getam arma construxit. Decem milia armatorum
+                    sibimet adscitorum plaustraque armis atque conmeatibus secum trahens pugnaturus
+                    accessit. Commissoque ad Horreo Margo proelio multis suorum militibus in hoc
+                    conflictu perditis et in Margo flumine enecatis, amissis praeterea plaustris in
+                    castellum, quod Nato dicitur, cum paucis fugit. Tanta in hoc lamentabili bello
+                    spes militum cecidit, ut quantum apud mortales nequaquam potuerit reparari.</p>
+            </div>
+            <div type="cap" n="506">
+                <p><hi rend="bold">XIIII. AREOBINDAE ET MESSALAE.</hi></p>
+
+                <p><milestone unit="par" n="1"/> His consulibus Anastasii principis statua in eodem
+                    loco, quo dudum Theodosii magni steterat, super inmanem columnam in foro Tauri
+                    statuta est.</p>
+            </div>
+            <div type="cap" n="507">
+                <p><hi rend="bold">XV. ANASTASII AVG. III.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Seditio popularis in circo facta est: miles ei
+                    armatus obstitit.</p>
+                <p><milestone unit="par" n="2"/> Gradus circi septentrionalis sua cum fornice
+                    incensi conlapsique sunt Anastasio Caesare in processibus commorante.</p>
+            </div>
+            <div type="cap" n="508">
+                <p><hi rend="bold">I. CELERIS ET VENANTII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Romanus comes domesticorum et Rusticus comes
+                    scholariorum cum centum armatis nauibus totidemque dromonibus octo milia militum
+                    armatorum secum ferentibus ad deuastanda Italiae litora processerunt et usque ad
+                    Tarentum antiquissimam ciuitatem adgressi sunt, remensoque mari inhonestam
+                    uictoriam, quam piratico ausu Romani ex Romanis rapuerunt, Anastasio Caesari
+                    reportarunt.</p>
+            </div>
+            <div type="cap" n="509">
+                <p><hi rend="bold">II. OPPORTVNI SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Orto augusta urbe incendio utramque porticum a foro
+                    Constantini usque ad Perdicae tenuissimam statuam ignis in puluerem redegit.</p>
+                <p><milestone unit="par" n="2"/> Portus Iuliani undis suis rotalibus machinis prius
+                    exhaustus caenoque effosso purgatus est.</p>
+            </div>
+            <div type="cap" n="510">
+                <p><hi rend="bold">III. BOETHII SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Simulacrum aeneum in foro Strategii super fornicem
+                    residens et cornu copiae Fortunae retinens incendio proflammatum est
+                    conbustumque amisit brachium, quod tamen statuarii continuo solidarunt.</p>
+                <p><milestone unit="par" n="2"/> Appius patricius exsulatus est.</p>
+                <p><milestone unit="par" n="3"/> Constantinus olim magister militiae episcopus
+                    Laodiciae ordinatus.</p>
+            </div>
+            <div type="cap" n="511">
+                <p><hi rend="bold">IIII. SECVNDINI ET FELICIS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Macedonius augustae urbis episcopus, licet olim
+                    Anastasii imperatoris dolis fallaciisque circumuentus prauorumque testimoniis
+                    eidem Caesari accusatus, quoniam tomum sanctorum patrum apud Calchedonam sancta
+                    dudum subscriptione roboratum eidem principi dare distulit, ab eodem Euchaita in
+                    exilium deputatus. Locum Macedonii Timotheus meridiano tempore ab Anastasio
+                    Caesare episcopus ordinatus inuasit.</p>
+            </div>
+            <div type="cap" n="512">
+                <p><hi rend="bold">V. PAVLI ET MVSCIANI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Saepe caelum a septentrionali plaga ardere uisum
+                    est.</p>
+                <p><milestone unit="par" n="2"/> Die dominicorum, dum iubente Anastasio Caesare per
+                    Marinum perque Platonem in ecclesiae pulpito consistentes in hymnum trinitatis
+                    deipassianorum quaternitas additur, multi orthodoxorum pristina uoce psallentes
+                    perfidosque praecones clamoribus obiurgantes in eiusdem ecclesiae gremio caesi
+                    sunt ductique in carceres perierunt. <milestone unit="par" n="3"/> Altera
+                    nihilominus die in atrio sancti Theodori maiore caede catholici pro fide unica
+                    perculsi sunt. Quapropter commota orthodoxorum agmina die sequenti, id est VIII
+                    idus Nouemb., in quo die memoria cineris dudum totam Europam tegentis apud
+                    Byzantios celebratur, in foro Constantini undique confluunt. <milestone
+                        unit="par" n="4"/> Quorum alii quidem, ceteris die noctuque hymnum
+                    trinitatis Christo deo psallentibus, totam peragrant ciuitatem et Anastasii
+                    Caesaris monastico habitu adsentatores ferro flammisque interimunt: alii claues
+                    portarum omniumque signa militaria ad forum, quo religionis castra metati
+                    fuerant, deferunt ibique Anastasio Caesare in processibus degente Areobindam
+                    sibi imperatorem fieri clamitant. <milestone unit="par" n="5"/> Imaginibus
+                    deinde statuisque Anastasii in terram deiectis Celerem et Patricium senatores ad
+                    se supplicandi sibi uel satisfaciendi gratia missos iactis pluuiae instar
+                    lapidibus reppulerunt domibus Marini et Pompei succensis. <milestone unit="par"
+                        n="6"/> In circum ad Anastasium ante suum solium consistentes hymnum
+                    trinitatis iuxta morem catholicorum concinentes coruscansque euangelium
+                    crucemque Christi ferentes e foro plurimi conuenerunt, Marinum Platonemque
+                    prauitatis eius auctores feris subici conclamantes. <milestone unit="par" n="7"
+                    /> Hos ciues idem Anastasius Caesar solitis periuriis simulatisque uocibus, sese
+                    facturum cuncta promittens, tertio die quam in forum aduenerant sine ullo rerum
+                    effectu ad sua fecit habitacula repedare.</p>
+                <p><milestone unit="par" n="8"/> Porro redintegrata Anastasius prauitate infamem et
+                    inridendam synodum apud Sidonem ciuitatem, cuius de nomine in ridiculis nomina
+                    praeponuntur, octoginta ferme perfidorum episcopis congregatis aduersum
+                    orthodoxorum episcopos fieri imperauit.</p>
+                <p><milestone unit="par" n="9"/> Flauianus Antiochiae catholicus patriarcha et
+                    Iohannes Paltensium oppidi pontifex, quoniam hunc coetum sacrilegum refellerant,
+                    in castellum quod Petra dicitur exules missi sunt. Ibi Flauianus confessor
+                    Christi in domino requieuit, Iohannem Iustinus Augustus, mox imperator factus
+                    est, reuocauit.</p>
+                <p><milestone unit="par" n="10"/> His fere temporibus solis defectus contigit.</p>
+                <p><milestone unit="par" n="11"/> Gens Herulorum in terras atque ciuitates Romanorum
+                    iussu Anastasii Caesaris introducta.</p>
+            </div>
+            <div type="cap" n="513">
+                <p><hi rend="bold">VI. CLEMENTINI ET PROBI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Seuerus Eutychetis perfidiae cultor Anastasio
+                    Caesare uolente sedem Flauiani antistitis ex monacho factus episcopus occupauit.
+                    Dorotheus Ancyrae ciuitatis uenerandus antistes Anastasio principi propter
+                    unicam orthodoxorum fidem iugiter aduersarius finem uiuendi, quem sibimet misso
+                    contra se a Caesare magistriano ipse praedixerat, in dicto tempore fecit.</p>
+            </div>
+            <div type="cap" n="514">
+                <p><hi rend="bold">VII. SENATORIS SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Vitalianus Scytha, adsumpta Romanorum equitum
+                    peditumque plus quam sexaginta milia armatorum in triduo congregatorum, in locum
+                    qui Septimus dicitur aduenit ibique castra metatus est, dispositisque a mari in
+                    mare suorum ordinibus ipse ad usque portam, quae aurea dicitur, sine ullius
+                    accessit dispendio, scilicet pro orthodoxorum se fide proque Macedonio urbis
+                    episcopo incassum ab Anastasio principe exulato Constantinopolim accessisse
+                    asserens. Porro Anastasii simulationibus atque periuriis per Theodorum
+                    internuntium inlectus atque inlusus octauo die quam urbem accesserat
+                    remeauit.</p>
+                <p><milestone unit="par" n="2"/> Hinc Odyssum Moesiae ciuitatem Vitalianus
+                    pernoctans astu ingressus est.</p>
+                <p><milestone unit="par" n="3"/> Cyrillum lenocinantem magis quam strenuum militiae
+                    ductorem inter duas paelices Vitalianus repperit dormientem, eumque abstractum
+                    mox cultro Getico iugulauit hostemque se Anastasio Caesari palam aperteque
+                    exhibuit.</p>
+            </div>
+            <div type="cap" n="515">
+                <p><hi rend="bold">VIII. ANTHEMII ET FLORENTII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Romanae ecclesiae quinquagensimus Hormisda
+                    episcopus ordinatus uixit annos nouem.</p>
+                <p><milestone unit="par" n="2"/> Idem Vitalianus eidem Anastasio imperatori immanior
+                    factus est inimicus: praemissis quippe suorum equitibus armatisque nauiculis
+                    sinistro sibi litore decurrentibus ipse peditum armis stipatus Systhenense
+                    praedium ingressus est totiusque loci palatium habuit mansionem. <milestone
+                        unit="par" n="3"/> Missi sunt ad Vitalianum a Caesare senatores, qui pacis
+                    cum eo leges componerent: nongenta pondo auri, exceptis regalibus muneribus, pro
+                    pretio tunc accepit Hypatii, iam mille centum auri libris cum Vranio captiuo
+                    sibi a suis in Sozopoli oblatis. <milestone unit="par" n="4"/> Magister militum
+                    Vitalianus per Thracias factus Hypatium, quem captiuum catenatumque apud Acres
+                    castellum tenebat, reuersus suo remisit auunculo.</p>
+                <p><milestone unit="par" n="5"/> Ea tempestate Hunni Armenia transmissa totam
+                    Cappadociam deuastantes usque Lycaoniam perrexerunt.</p>
+                <p><milestone unit="par" n="6"/> Ariagne Augusta sexaginta annis in palatio exactis
+                    uita decessit.</p>
+            </div>
+            <div type="cap" n="516">
+                <p><hi rend="bold">IX. PETRI SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Mutata fide Anastasius imperator Vitaliano succedit
+                    eidemque Rufinum destinat successorem.</p>
+                <p><milestone unit="par" n="2"/> Helias Hierosolymitanae urbis episcopus in uilla
+                    quae Haila dicitur ab eodem principe relegatus emoritur.</p>
+                <p><milestone unit="par" n="3"/> Laurentium praeterea Lychnidensem, Domnionem
+                    Serdicensem, Alcissum Nicopolitanum, Gaianum Naisitanum et Euangelum
+                    Pantaliensem, catholicos Illyrici sacerdotes, suis Anastasius praesentari iussit
+                    obtutibus. Alcissus et Gaianus episcopi apud Byzantium uita defuncti sunt unoque
+                    sepulchro reconditi. Domnione et Euangelo ad sedes proprias ob metu Illyriciani
+                    catholici militis extemplo remissis solus Laurentius Anastasium imperatorem in
+                    palatio pro fide catholica saepe conuincens apud comitatum ac si in exilio
+                    relegatus retentusque est, mobiliorque deinde corpore, quam Constantinopolim
+                    aduenerat, effectus. Nam septimo infirmitatis suae anno idem Laurentius fide sua
+                    et Christi gratia in atrio Cosmae et Damiani sanatus est pedibusque sistere
+                    propriis gressibusque meruit confirmari suaeque dein patriae incolumis reddi,
+                    ibique maior octogenario requiescit.</p>
+            </div>
+            <div type="cap" n="517">
+                <p><hi rend="bold">X. ANASTASII ET AGAPITI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Olla illa, quae in Hieremia uate ab aquilone
+                    aduersum nos nostraque delicta saepe succenditur, tela ignita fabricauit
+                    maximamque partem Illyrici iisdem iaculis uulnerauit. Duae tunc Macedoniae
+                    Thessaliaque uastatae et usque Thermopylas ueteremque Epirum Getae equites
+                    depraedati sunt. Mille tunc librarum auri denarios per Paulum Anastasius
+                    imperator pro redimendis Romanorum captiuis Iohanni praefecto Illyrici misit:
+                    deficiente pretio uel inclusi suis cum domunculis captiui Romani incensi sunt
+                    uel pro muris clausarum urbium trucidati.</p>
+            </div>
+            <div type="cap" n="518">
+                <p><hi rend="bold">XI. MAGNI SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> In prouincia Dardania adsiduo terrae motu uiginti
+                    quattuor castella uno momento conlapsa sunt: quorum duo suis cum habitatoribus
+                    demersa, quattuor dimidia aedificiorum suorum hominumque amissa parte destructa,
+                    undecim tertia domorum totidemque populi clade deiecta, septem quarta tectorum
+                    suorum totaque plebis parte depressa, uicina uero metu ruinarum despecta sunt.
+                    Scupus namque metropolis, licet sine ciuium suorum hostem fugientium clade,
+                    funditus tamen corruit. Plurimi totius prouinciae montes hoc terrae motu scissi
+                    sunt saxaque suis euulsa conpagibus deuolutaque arborum crepido. Per triginta
+                    passuum milia patens et in duodecim pedum latitudinem dehiscens profundam
+                    aliquantis uoraginem ciuibus castellorum saxorumque ruinas uel adhuc hostium
+                    incursiones fugientibus iussa parauit. Vno in castello regionis Gauisae, quod
+                    Sarnonto dicitur, ruptis tunc terra uenis et ad instar torridae fornacis
+                    exaestuans diutinum altrinsecus feruentemque imbrem euomuit.</p>
+                <p><milestone unit="par" n="2"/> Anastasius imperator subita morte praeuentus maior
+                    octogenario periit: regnauit annos uiginti septem menses duos dies uiginti
+                    nouem.</p>
+                <p><milestone unit="par" n="3"/> Daras ciuitate huiuscemodi condita in Mesopotamia.
+                    Daras quaedam possessio LX ab Amida ciuitate miliario ad austrum sita et
+                    quindecim milibus a Nisibino oppido ad occasum distans Amidensi ecclesiae
+                    reditum pensauit. Huius ergo humilis uillae casas Anastasius imperator ob
+                    condendam ibi ciuitatem dato pretio emit, missisque continuo praefabris construi
+                    praecepit: Calliopium deinde Antiochenae urbis patricium huic operi praefecit.
+                    Nempe hic collem in planitiem desinentem mira sagacitate ob fundamenta locanda
+                    sulcum sarculo designauit, murisque firmissimis fascia tenus consummatis undique
+                    texit. Riuum quoque, qui ex praedii nomine, iuxta quod nascitur, Cordissus
+                    nominatur serpensque murmurat, quintoque miliario eundem collem nouamque diuidit
+                    ciuitatem, concesso utrique ostio prolabentem inclusit. Publicis praeterea
+                    moenibus decoratae ciuitati pristinum nomen uillae reliquit. Ingens huius
+                    frontispicium ciuitatis in editiori loco constructa murisque continuata turris
+                    Herculea sic nomine dicta suscipitur Nisibin quidem ad orientem, Amidam huius ad
+                    aquilonem respiciens.</p>
+                <lb/>
+                <p><hi rend="italic">CONTINVATIO EDITIONIS SECVNDAE</hi></p>
+            </div>
+            <div type="cap" n="519">
+                <p><hi rend="bold">XII. IVSTINI AVG. ET EVTHARICI.</hi></p>
+
+                <p><milestone unit="par" n="1"/><milestone unit="MSS" n="T"/> Iustinus a senatu
+                    electus imperator continuo ordinatus est.</p>
+                <p><milestone unit="MSS" n="S"/> Iustinus imperator creatus.</p>
+                <p><milestone unit="par" n="2"/><milestone unit="MSS" n="T"/> Amantius palatii
+                    praepositus, Andreas, Misahel et Ardabur cubicularii Manichaeorum fautores et
+                    Iustini Augusti deprehensi sunt proditores. Quorum duo Amantius et Andreas ferro
+                    trucidati sunt, Misahel et Ardabur Serdicam in exilium missi. Theocritus Amantii
+                    satelles, quem idem Amantius praepositus ad regnandum clam praeparauerat,
+                    comprehensus et in carcere saxis contusus ingentibus periit salsoque in gurgite
+                    iacuit, sepultura quoque cum inperio, cui inhiarat, caruit.</p>
+                <p><milestone unit="MSS" n="S"/> Amantius palatii praepositus et Andreas
+                    cubicularius uterque regni eius inimicus in insula decapitatus est.</p>
+                <p><milestone unit="par" n="3"/><milestone unit="MSS" n="T"/> Vitalianus Scytha
+                    Iustini principis pietate ad rem publicam reuocatus Constantinopolim ingressus
+                    est septimoque receptionis suae die magister militum ordinatus.</p>
+                <p><milestone unit="MSS" n="S"/> Vitalianus Scytha urbem data acceptaque fide
+                    accitus ingreditur statimque magister militum ordinatus.</p>
+            </div>
+            <div type="cap" n="520">
+                <p><hi rend="bold">XIII. VITALIANI ET RVSTICI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Vitalianus consul septimo mense consulatus sui
+                    sedecim uulneribus confossus, in palatio cum Celeriano et Paulo satellitibus
+                    suis interemptus est.</p>
+            </div>
+            <div type="cap" n="521">
+                <p><hi rend="bold">XIIII. IVSTINIANI ET VALERII.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Famosissimum hunc consulatum Iustinianus consul
+                    omnium Orientalium consulum profecto munificentior his liberalitatibus edidit.
+                    Nam ducenta octoginta octo milia solidorum in populum inque spectacula siue in
+                    spectaculorum machinam distributa, uiginti leones, triginta pardos exceptis
+                    aliis feris in amphitheatro simul exhibuit. Numerosos praeterea faleratosque in
+                    circo caballos iam donatis quoque impertiuit aurigis, una dumtaxat ultimaque
+                    mappa insanienti populo denegata.</p>
+            </div>
+            <div type="cap" n="522">
+                <p><hi rend="bold">XV. SYMMACHI ET BOETHII.</hi></p>
+            </div>
+            <div type="cap" n="523">
+                <p><hi rend="bold">I. MAXIMI SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Plerique lapidatorum, percussorum urbisque
+                    depopulatorum sua ob scelera deprehensi ferro, igni suspendioque expensi sunt,
+                    gratum bonis ciuibus spectaculum exhibentes.</p>
+            </div>
+            <div type="cap" n="524">
+                <p><hi rend="bold">II. IVSTINI AVGVSTI II ET OPILIONIS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> His cons. inopia olei magnam penuriam in populum
+                    inportauit.</p>
+            </div>
+            <div type="cap" n="525">
+                <p><hi rend="bold">III. FILOXENI ET PROBI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Iohannes Romanae ecclesiae papa LI anno Petri
+                    apostolorum pontificumque praesulis quadringentensimo octogensimo quinto
+                    sessionis eius, Theodorico rege sese <gap/> pro Arrianis suae caerimoniae
+                    reparandis, solus dumtaxat Romanorum sibimet decessorum urbe digressus
+                    Constantinopolim uenit. Miro honore susceptus est: dexter dextrum ecclesiae
+                    insedit solium diemque domini nostri resurrectionis plena uoce Romanis precibus
+                    celebrauit.</p>
+            </div>
+            <div type="cap" n="526">
+                <p><hi rend="bold">IIII. OLYBRII SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Totam quidem Antiochiam Syriae ciuitatem repens
+                    inter prandendum terrae motus inuasit: alioquin occiduam urbis magnamque eius
+                    partem sinistris mox uentis undique flantibus flammasque coquinarum pro tempore
+                    aestuantes ruentia in aedificia miscentibus duplex torridumque exitium
+                    inportauit. Eufrasium quoque totius urbis episcopum adempto eius capite combusto
+                    simul obruit sepulchro: obelisco circi inuerso et humi defosso.</p>
+            </div>
+            <div type="cap" n="527">
+                <p><hi rend="bold">V. MAVORTII SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Anno regiae urbis conditae centesimo nonagensimo
+                    septimo Iustinus imperator Iustinianum ex sorore sua nepotem iamdudum a se
+                    Nobilissimum designatum participem quoque regni sui successoremque creauit
+                    kalendas Apriles: ipse uero quarto ab hoc mense uita decessit, anno imperii nono
+                    mense secundo.</p>
+            </div>
+            <div type="cap" n="528">
+                <p><hi rend="bold">VI. IVSTINIANI AVGVSTI SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Anno regiae urbis conditae centesimo nonagensimo
+                    octauo regium uestibulum priscumque in eo solium ob aspicienda probandaque in
+                    circo certamina structum uictor Iustinianus princeps eminentiorem clarioremque
+                    quam fuerat et utramque senatorum ex more spectantium porticum solita
+                    magnanimitate redintegrauit, bonis quidem agitatoribus praemium, ignauis autem
+                    seueritatem innuens.</p>
+            </div>
+            <div type="cap" n="529">
+                <p><hi rend="bold">VII. DECII SOLIVS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Parthis bella mouentibus arma Romanus parauit
+                    exercitus finesque suos rebellans tutatus est. Haec expeditio nostrorum paene
+                    per quinquennium tenuit, digressaque Oriente Africam petiit, contra Vandalos
+                    feliciter dimicatura.</p>
+            </div>
+            <div type="cap" n="530">
+                <p><hi rend="bold">VIII. LAMPADII ET ORESTIS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Mundo Illyricianae utriusque militiae ductor dudum
+                    Getis Illyricum discursantibus primus omnium Romanorum ducum incubuit eosque
+                    haut paucis eorum interemptis fugauit. His autem deinde consulibus idem dux
+                    audaciae suae secundus in Thraciam quoque aduolans praedantes eam Bulgares
+                    felicior pugnans cecidit, quingentis eorum in proelio trucidatis.</p>
+            </div>
+            <div type="cap" n="531">
+                <p><hi rend="bold">IX. POST CONSVLATVM LAMPADII ET ORESTIS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> His consulibus codex Iustinianus orbi promulgatus
+                    est.</p>
+            </div>
+            <div type="cap" n="532">
+                <p><hi rend="bold">X. ITEM POST CONSVLATVM LAMPADII ET ORESTIS.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Hypatius, Pompeius et Probus genere consobrini
+                    diuique Anastasii nepotes imperium, quod sibi singuli indigna ambitione
+                    exoptabant, idibus Ianuariis iam plerisque nobilium coniuratis omnique
+                    seditiosorum turba armis donisque ministratis inlecta dolis inuadere
+                    temptauerunt atque per quinque continuos dies urbem regiam rapinis, ferro
+                    igneque per sceleratos ciues sine certo interrege discursantes hostili
+                    impietate, ipsi se fideles rei publicae in palatio dissimulantes, depopulati
+                    sunt. Quinta uero huius nefandi facinoris die, dum de foro Hypatius sceleratorum
+                    comitum manibus torque redimitus aureo et Pompeius comes eius sua sub ueste
+                    loricatus ad inuadendum conscendunt palatium, uterque eorum ante fores palatii
+                    captus est statimque piissimi principis nostri nutu catenatus trucidatusque
+                    poenas luit et ante imperium perdidit quam haberet, innumeris passim in circo
+                    populis trucidatis et tyrannorum sociis continuo proscriptis. Ecclesia tunc
+                    incensa mox coepit ab eodem Augusto renouari.</p>
+            </div>
+            <div type="cap" n="533">
+                <p><hi rend="bold">XI. IVSTINIANI AVGVSTI III.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Post diuturnum immanemque laborem contra Medos
+                    Romanis gestum sudoribus tandem per Rufinum patricium perque Hermogenem
+                    magistrum officiorum, utrumque legatum a principe nostro missum, pax cum Parthis
+                    depecta est sponsione percussi foederis ab utroque imperatore inuicem sibi
+                    muneraque deinde concordiae missa.</p>
+            </div>
+            <div type="cap" n="534">
+                <p><hi rend="bold">XII. IVSTINIANI AVGVSTI IIII ET PAVLINI.</hi></p>
+
+                <p><milestone unit="par" n="1"/> Prouincia Africa, quae in diuisione orbis terrarum
+                    a plerisque in parte tertia posita est, uolente deo uindicata est. Carthago
+                    quoque ciuitas eius anno excidionis suae nonagensimo sexto pulsis deuictisque
+                    Vandalis et Gelimer rege eorum capto et Constantinopolim misso, quarto
+                    Iustiniani principis consulatu, ipsius moderatione recepta est, sua cum patria
+                    firmius, quam dudum fuerat, redintegrata.</p>
+            </div> 
+            
+            
+            <div type="pr" n="pr"><head>ADDITAMENTVM.</head>
+            <p>Quo tempore Theodahadus rex Gothorum Amalasuentham reginam
+                creatricem suam de regno pulsam in insula laci Vulsinensis occidit. Cuius mortem
+                imperator Iustinianus ut doluit, sic est et ultus.</p></div>
+           
+            <div type="cap" n="535">
+                <p><hi rend="bold">XIII. BELISARII SOLIVS.</hi></p>
+                <p><milestone unit="par" n="1"/> Postquam Carthago Libyaque suo cum rege Gelimero
+                    per Belisarium est subiugata, de Roma Italiaque deliberat imperator: iterumque
+                    expeditio iterumque classis paratur idemque ductor qui consul eligitur, rectoque
+                    nauigio Siciliam properat, Catinam Syracusam sine mora, immo omnem peruadit
+                    Trinacriam. Ibique comperiens quod in Africa ciuile bellum exoritur et miles in
+                    proprio duce insurgit, cum paucis ad Africam tendit, Solomoni qui praeerat
+                    subuenit: exercitum uero partim blandiendo, partim ulciscendo, inimicum tyrannum
+                    effugando, rei publicae consulit utilitati remensoque nauigio Trinacriam
+                    redit.</p>
+                <p><milestone unit="par" n="2"/> Agapitus quinquagesimus Romanae urbis episcopus a
+                    Theodato rege Gothorum in legatione directus Constantinopolim uenit. </p>
+                <p><milestone unit="par" n="3"/> Tzitta patricius in Mysia cum hoste Bulgarum
+                    congrediens ad Iatrum superior inuenitur. </p>
+                <p><milestone unit="par" n="4"/> Epifanius episcopus regiae urbis ante aduentum
+                    Romani praesulis moritur: cuius episcopatum contra canones Anthimus Trapezuntena
+                    ecclesia relicta inuadit. </p>
+            </div><div type="cap" n="536">
+                <p><hi rend="bold">XIIII. POST CONSVLATVM BELISARII. </hi></p>
+                <p><milestone unit="par" n="1"/> Ebremud Theodati genere relicto exercitu regio in
+                    Britios ad Belisarium in Siciliam conuolauit. </p>
+                <p><milestone unit="par" n="2"/> In Africa uero Solomone itidem cum exercitu
+                    dissidente Germanus succedit, Solomonem remittens ad principem. </p>
+                <p><milestone unit="par" n="3"/> Belisarius Campaniam transiens Neapolim uastat. </p>
+                <p><milestone unit="par" n="4"/> Gothorum exercitus Theodahadum regem habens
+                    suspectum Vitigis in regno asciscit: qui mox in campos Barbaricos regnum
+                    peruasit. </p>
+                <p><milestone unit="par" n="5"/> Expeditione soluta Romam ingreditur, ubi iam
+                    Agapito Constantinopoli defuncto Theodahadus rex Siluerium episcopatui
+                    subrogarat: ibique residens dirigit Rauennam. </p>
+                <p><milestone unit="par" n="6"/> Theodatum occidit in loco qui dicitur Quintus iuxta
+                    fluuium Santernum et ipse subsequitur per Tusciam omnes opes Theodati diripiens,
+                    quas in Insula uel in Vrbeuetus congregauerat. </p>
+                <p><milestone unit="par" n="7"/> Rauennamque ingressus Matesuentham nepotem
+                    Theodorici sibi sociam in regno plus ui copulat quam amore. </p>
+                <p><milestone unit="par" n="8"/> Belisarius fauente domino Romam ingreditur. </p>
+                <p><milestone unit="par" n="9"/> Germanus in Africa feliciter administrat. </p>
+                <p><milestone unit="par" n="10"/> Agapitus Constantinopolim, ut diximus, episcopus a
+                    Roma adueniens, Anthimum pellit, dicens eum iuxta ecclesiasticam regulam
+                    adulterum, qui sua dimissa ambierat alienam: in cuius loco Mennam presbyterum
+                    episcopum ordinauit et ipse extremum diem obiit: in nullo tamen, sicut ei a
+                    principe imminebatur, sentiens contra fidem. </p>
+                <p><milestone unit="par" n="11"/> Ipso namque anno ob nimiam siccitatem pastura in
+                    Persida denegata circiter quindecim milia Saracenorum ab Alamundaro cum Chabo et
+                    Hezido fylarchis limitem Eufratesiae ingressa, ubi Batzas dux eos partim
+                    blanditiis, partim districtione pacifica fouit et inhiantes bellare repressit.
+                </p>
+            </div><div type="cap" n="537">
+                <p><hi rend="bold">XV. ITERVM POST CONSVLATVM BELISARII. </hi></p>
+                <p><milestone unit="par" n="1"/> Vitigis tyrannus exercitu aggregato Romam obsidet;
+                    cui tunc fauentem papam Siluerium Belisarius ab episcopatu summouit et loco eius
+                    Vigilium diaconum ordinauit. </p>
+                <p><milestone unit="par" n="2"/> Temporeque longo Romam obsidente Vitigis Belisarius
+                    intus inedia uigiliisque laborans auxilium ab imperatore deposcit. Cui directi
+                    sunt Martinus et Valerianus uterque magister militiae: nec sic tamen Vitigis
+                    obsidionem relinquit. </p>
+                <p><milestone unit="par" n="3"/> In Africa Germanus rebelliones milites cum Stotza
+                    tyranno inter Maurorum deserta bellando effugat. </p>
+                <p><milestone unit="par" n="4"/> In Oriente quoque Iohannes Cottistis arripiens
+                    tyrannidem, antequam aduersi aliquid temptaret, Daras extinctus est. </p>
+                <p><milestone unit="par" n="5"/> Ecclesia maior Constantinopoli ab imperatore
+                    Iustiniano singulariter in mundo constructa dedicatur die VI kalendas Ianuarias.
+                </p>
+            </div><div type="cap" n="538">
+                <p><hi rend="bold">INDICTIONE PRIMA IOHANNIS SOLIVS. </hi></p>
+                <p><milestone unit="par" n="1"/> Adhuc Vitigis in obsidione Romae morante Iohannes
+                    magister militum cum Batza, Conone, Paulo Remaque inlustribus magnoque exercitu
+                    apparato ad Italiam properant castraque ad Portum Romanum conlocant, laboranti
+                    Romae subueniunt. Quorum aduentum Vitigis cernens trium mensium temporis cum
+                    Belisario pacta confirmat suosque legatos ad imperatorem transmittit. </p>
+                <p><milestone unit="par" n="2"/> In qua pace Belisarius Campaniam redit, annonae
+                    copiam Romae inlaturus: reuersusque Campania contrarium sibi de medio aufert
+                    Constantinum patricium. </p>
+                <p><milestone unit="par" n="3"/> Iohannes uero in portu quae posuerat castra
+                    deserens Samnitum regionem ingressus est Aternoque oppido expugnato Tremonem
+                    Gothorum ducem cum suis prosternit, Ortonam quoque similiter inuadit. Picenum
+                    depraedans Ariminum occupat. </p>
+                <p><milestone unit="par" n="4"/> Quo audito Vitigis ab obsidione urbis, in qua adhuc
+                    post turbatam pacem consistebat, relicta Roma per Clodiae aggerem et annonariam
+                    Tusciam transit Appenninum et in Rubiconis fluminis ripa castra metatus Ariminum
+                    obsidet. </p>
+                <p><milestone unit="par" n="5"/> Vnde proturbatus a Narsete de Constantinopoli et a
+                    Belisario de Roma uenientibus fugit Rauennam. </p>
+                <p><milestone unit="par" n="6"/> Cuius nepos Oraio Mediolanum longa inedia deterit,
+                    Mundilam Paulumque duces ibi positos cum suos milites obsidens. </p>
+                <p><milestone unit="par" n="7"/> Narsete uero Arimino residente Belisarius accedens
+                    Romae ad exhiemandum in deditione suscipit Vrbinum et Vrbemuetus et insulam laci
+                    Vulsinensis. </p>
+            </div><div type="cap" n="539">
+                <p><hi rend="bold">II. APPIONIS SOLIVS. </hi></p>
+                <p><milestone unit="par" n="1"/> Narsis reuertitur Constantinopolim. </p>
+                <p><milestone unit="par" n="2"/> Belisarius obsidens Auximum septimo mense
+                    ingreditur, similiterque et Faesulam. </p>
+                <p><milestone unit="par" n="3"/> Gothi Mediolanum ingressi muros diruunt praedamque
+                    potiti omnes Romanos interficiunt, Mundilam Paulumque duces abducunt Rauennam. </p>
+                <p><milestone unit="par" n="4"/> Theudibertus Francorum rex cum magno exercitu
+                    adueniens Liguriam totamque depraedat Aemiliam. Genuam oppidum in litus Tyrrheni
+                    maris situm euertit ac praedat. Exercitu dehinc suo morbo laboranti ut
+                    subueniat, paciscens cum Belisario ad Gallias reuertitur. </p>
+                <p><milestone unit="par" n="5"/> Germanus de Africa Constantinopolim euocatur.
+                    Solomon ibi rursus dirigitur. </p>
+                <p><milestone unit="par" n="6"/> Calluc magister militum cum Gepidas primum
+                    feliciter dimicans secundo infeliciter ruit. </p>
+            </div><div type="cap" n="540">
+                <p><hi rend="bold">III. IVSTINI IVN. SOLIVS. </hi></p>
+                <p><milestone unit="par" n="1"/> Parthi in Syriam ingressi multas urbes subuertunt:
+                    contra quos Germanus arma arripiens Iustinum filium eundemque consulem in ipsis
+                    fascibus secum ducit. </p>
+                <p><milestone unit="par" n="2"/> Antiochia magna depraedata demolitur a Persis. </p>
+                <p><milestone unit="par" n="3"/> Belisarius Rauennam ingreditur, regem Vitigis et
+                    reginam cunctasque opes Gothosque nobiliores tollens secum ad imperatorem
+                    reuertitur euocante se Marcello comite. </p>
+                <p><milestone unit="par" n="4"/> Solomon in Africa feliciter dimicans rebelliones
+                    proturbat. </p>
+                <p><milestone unit="par" n="5"/> Gothi trans Padum residentes Oraio Vitigis nepote
+                    et Heldebado ductantibus Vitigis regem cum regina opibusque palatii nec non et
+                    Gothos audientes sedibus propriis pulsos Orientemque per Belisarium abductos
+                    rebellare disponunt, regem sibi statuentes Heldebadum. </p>
+                <p><milestone unit="par" n="6"/> Contra quem debellaturus Bessa patricius Placentiam
+                    a Rauenna conscendit, Constantino Rauennam de Dalmatiis, ut praeesset exercitui,
+                    ab imperatore directo. </p>
+            </div><div type="cap" n="541">
+                <p><hi rend="bold">IIII. BASILI SOLIVS ANNO PRIMO. </hi></p>
+                <p><milestone unit="par" n="1"/> Parthis persistentibus inimicis Belisarius Orientis
+                    suscipit expeditum Germano regresso ad urbem regiam. </p>
+                <p><milestone unit="par" n="2"/> Gothi Heldibado occiso Erarium sibi ordinant regem. </p>
+                <p><milestone unit="par" n="3"/> Solomon in Africa interficitur. Sergius loco eius
+                    dux successit belli moderatorque prouinciae. </p>
+            </div><div type="cap" n="542">
+                <p><hi rend="bold">V. POST CONSVLATVM BASILII ANNO SECVNDO. </hi></p>
+                <p><milestone unit="par" n="1"/> Milites clam Veronam ingressi dum auaritia inhiante
+                    de praeda concertant, a Gothis egredientibus de latebris cum suo dedecore
+                    ciuitate pelluntur. </p>
+                <p><milestone unit="par" n="2"/> Gothi Erario rege occiso Totilam in regnum
+                    manciparunt. Qui malo Italiae mox Padum transit et ad Fauentiam Aemiliae
+                    ciuitatem Romanum exercitum superat, duces effugat. Caesenam et Vrbinum, Montem
+                    feretris et Petrapertusa occupat, huc illucque discurrens deuastat Italiam. </p>
+                <p><milestone unit="par" n="3"/> Rursus in annonaria Tuscia ad Mucellos per Ruderit
+                    et Viliarid Bledamque duces suos Romanum exercitum superat. Quo proelio Bessa
+                    patricius uulneratus euadit: ceteri uero fugientes per quaqua saluati sunt. </p>
+            </div><div type="cap" n="543">
+                <p><hi rend="bold">VI. POST CONSVLATVM BASILII ANNO III. </hi></p>
+                <p><milestone unit="par" n="1"/> Totila deuastat Campaniam urbesque muratas euertens
+                    per suos Tiburem obsidet. </p>
+                <p><milestone unit="par" n="2"/> Mortalitas magna Italiae solum deuastat, Orientem
+                    iam et Illyricum peraeque attritos. </p>
+                <p><milestone unit="par" n="3"/> In Oriente Persis adhuc tenentibus conflictum cum
+                    nostris Sergius in Africa inquietatur a rebellionibus cum Stotza et Mauris. </p>
+            </div><div type="cap" n="544">
+                <p><hi rend="bold">VII. POST CONSVLATVM BASILII ANNO IIII. </hi></p>
+                <p><milestone unit="par" n="1"/> Totila obsidet Firmum et Asculum inuasamque
+                    Neapolim desolat et Tibur. </p>
+                <p><milestone unit="par" n="2"/> Roma uero obsidetur a longe, in qua praeerat
+                    Iohannes magister militum. </p>
+                <p><milestone unit="par" n="3"/> In Oriente Belisario constituto exulatur Iohannes
+                    ex consule ordinario patricius atque praefectus praetorio et domus eius datur
+                    Belisario. </p>
+            </div><div type="cap" n="545">
+                <p><hi rend="bold">VIII. POST CONSVLATVM BASILI ANNO QVINTO. </hi></p>
+                <p><milestone unit="par" n="1"/> Totila Firmum et Asculum sub iuramento ingressus
+                    est: milite Romano cum rebus suis dimisso crudelitatem suam in Romanos exercuit
+                    eosque omnes nudat et necat. </p>
+                <p><milestone unit="par" n="2"/> In Africa Iohannes inruens super tyrannum Stotiam
+                    interimit eum et ipse ab eius occiditur armigero. In qua tyrannide Iohannes
+                    quidam electus Stotias iunior uocitatur. </p>
+                <p><milestone unit="par" n="3"/> Belisarius de Oriente euocatus in offensam
+                    periculumque incurrens graue et inuidiae subiacens rursus remittitur ad Italiam.
+                    Qui ueniens Romae dirigit Bessam, Iohannem mittit ad imperatorem. </p>
+                <p><milestone unit="par" n="4"/> Totila uastato Piceno pugnansque ad Auximumuincit.
+                    Indeque discurrens per Tusciam Spoletium destruit et Asisium Clusiumque oppida
+                    tenuit et obsidet Perusiam. </p>
+            </div><div type="cap" n="546">
+                <p><hi rend="bold">VIIII. POST CONSVLATVM BASILI ANNO SEXTO. </hi></p>
+                <p><milestone unit="par" n="1"/> Vigilius papa LVIIII ab apostolo Petro euocatus ab
+                    imperatore Roma egreditur et Siciliam uenit. </p>
+                <p><milestone unit="par" n="2"/> Totila occupata Lucania et Brittios Neapolim
+                    subuertit, Romam obsidet. </p>
+                <p><milestone unit="par" n="3"/> De Africa Sergius euocatur et Ariouinda neptem
+                    imperatoris acceptam ibi iudex dirigitur. </p>
+                <p><milestone unit="par" n="4"/> In Oriente cum Parthis foedus initur per
+                    Constantianum magistrum militiae et exercitus reuertitur Constantinopolim. </p>
+            </div><div type="cap" n="547">
+                <p><hi rend="bold">X. POST CONSVLATVM BASILII ANNO VII. </hi></p>
+                <p><milestone unit="par" n="1"/> Gothi legationem mittunt ad imperatorem per
+                    episcopum ciuitatis Asisinatium nomine Auentium. </p>
+                <p><milestone unit="par" n="2"/> Iohannes magister militum ad Italiam properat. </p>
+                <p><milestone unit="par" n="3"/> Bilisarius a Rauenna egressus uenit Dyrracio
+                    indeque directo Iohanne Calabriam ipse per Siciliam Romae perrexit. </p>
+                <p><milestone unit="par" n="4"/> Papa Vigilius ingressus est Constantinopolim VIII
+                    kalendas Februarias. </p>
+                <p><milestone unit="par" n="5"/> Totila dolo Isaurorum ingreditur Roma die XVI kal.
+                    Ianuarias, muros euertit, domos aliquantas igni comburens ac omnium Romanorum
+                    res in praedam accepit: hos ipsos Romanos in Campaniam captiuos abduxit. Post
+                    quam deuastationem quadraginta aut amplius dies Roma ita fuit desolata, ut nemo
+                    ibi hominum nisi bestiae morarentur. Sic ueniens Belisarius murorum partem
+                    restaurat uenienteque Totila ad pugnam resistit. </p>
+                <p><milestone unit="par" n="6"/> Eodem quoque anno de Africa neptis reuertitur imp.
+                    uidua occiso uiro eius Areouinda a Gunthario tyranno, qui cum Stotzia iuniore
+                    tractans eum occiderat. Sed Artabanes utrosque comprehensos Guntharium occidit,
+                    Iohannem id est Stotiam iuniorem uinctum transmittit ad principem. Post
+                    aliquantos dies mittitur in Africam Iohannes et Artabanis euocatus praesentale
+                    accipit magisterium. </p>
+            </div><div type="cap" n="548">
+                <p><hi rend="bold">XI. POST CONSVLATVM BASILII ANNO VIII. </hi></p>
+                <p><milestone unit="par" n="1"/> Iohannes magister militum in Campania praedans
+                    Gothos nonnullas liberat senatrices. Qui postea patitur nocturnum Totilae
+                    superuentum Bulgarum suorum proditione. </p>
+                <p><milestone unit="par" n="2"/> Verus quoque magister militum et ipse in parte alia
+                    Calabriae infestum sustinuit Totilan et Valerianus ab imperatore in eorum
+                    solacia (reliqua desunt).</p>
+            </div>  </body>
+    </text>
+
+</TEI>

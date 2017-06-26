@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Introductio ad syllogismos cathegoricus</title>
+    <author>Boethius (Anicius Manlius Seuerinus Boethius)</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Manuela Ferroni</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Manuela Ferroni</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2015</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000056</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">An. Man. Sev. Boetii Introductio ad Syllogismos Categoricos</hi>, in <hi
+      rend="italic">Manlii Severini Boetii Opera Omnia</hi> accurante J.-P. Migne, PL LXIV, Parisiis
+     1891, coll. 761-794.</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div>
+    <p><milestone n="Col. 761C" unit="page"/> Multa veteres philosophiae duces posteriorum studiis
+     contulerunt, in quibus priusquam ad res profunda mersas caligine pervenirent quadam quasi
+     intelligentiae luctatione praeluderent: hinc institutionum brevior compendii facilitate
+     doctrina, hinc per ea quae illi <foreign xml:lang="grc">προλεγόμενα</foreign> vocant, ad
+     intelligentiam promptior via munitur. Huius igitur aemulus providentiae statui obscurarum
+     aditus doctrinarum praemissae institutionis luce reserare, et praesentem operam syllogismis
+     quorum connexionibus omnis ratio continetur, addicere, modumque eum custodire dicendi, ut
+     facilitati atque intelligentiae servientes, astringamus a veteribus dicta latius, enuntiata
+     brevius porrigamus, obscurata improprii novitate sermonis consueti vocabuli proprietate
+     pandamus. Sed qui ad hoc opus <milestone n="Col. 761D" unit="page"/> lector accedit, ab eo
+     primitus petitum velimus ne in his quae nunquam alias attigerit statim audeat iudicare, neve si
+     quid in ludo puerilium disciplinarum rudis adhuc et nondum firmus acceperit, id amplexandum
+     atque etiam colendum putet; alia enim teneris atque imbuendis adhuc auribus accommodata, alia
+     firmis ac robustioribus doctrina mentibus, reservatur. Quare si quid est quod discrepet, ne
+     statim obstrepat, sed ratione consulta, quid ipse sentiat quid nos afferamus, veriore mentis
+     acumine et subtiliore consideratione diiudicet. Idem namque eveniet, ut quae in primo statim
+     studendi aditu didicerunt, perspecta penitus ac potius deprehensa contemnant. At si iam quisque
+     suae scientiae defensor esse cupidus malit (habent hoc quoque vitii homines quos comprehendit
+      <milestone n="Col. 762C" unit="page"/> discendi vetus ac longa segnities, ut at arreptis semel
+     opinionibus non recedant, ne in senectute discendo, nihil usque in senectutem didicisse
+     videantur), si, inquam, malunt vindicare quam vertere quae vulgatis semel studiis imbiberunt,
+     nemo expetit ut priora condemnent, sed ut maiora quaedam construant atque altiora coniungant.
+     Non enim una atque eadem diversarum ratio disciplinarum, cum sit diversissimis disciplinis una
+     atque eadem substantia materies. Aliter enim de qualibet orationis parte grammatico, aliter
+     dialectico disserendum est, nec eodem modo lineam vel superficiem mathematicus ac physicus
+     tractant. Quo fit ut altera alteram non impediat disciplina, sed multorum consideratione
+     coniuncta fiat vera naturae atque ex omnibus <milestone n="Col. 762D" unit="page"/> explicata
+     cognitio. Sed de his hactenus; nunc de propositis ordinamur. Quoniam igitur nobis hoc opus est
+     in categoricos syllogismos, syllogismorum vero compago propositionibus texitur, propositionum
+     vero partes sunt nomen et verbum, pars autem ab eo cuius pars est, prior est; de nomine et
+     verbo, quae prima sunt, disputatio prima ponatur, dehinc de propositione ad ultimum de
+     syllogismorum connexione tractabitur. Nomen est vox significativa secundum placitum sine
+     tempore, cuius nulla pars significativa est separata; quae diffinitio paulo enodatius
+     explicanda est. Nomen enim vocem esse dicimus, quoniam vox nominum genus est; omne autem genus
+     de sua specie praedicatur, omnisque diffinitio a genere sumitur, ut si diffinias hominem
+      <milestone n="Col. 763A" unit="page"/> prius animal dicas, quod est genus. Post vero
+     differentias iungas quae sunt rationale et mortale. Ita igitur nos quoque in nominis
+     diffinitione vocem quidem ut genus sumimus, caetera autem voci quasi differentias aggregamus,
+     velut quod nomen designativa vox dicitur. Sunt enim voces quae nihil designant, ut syllabae,
+     nomen vero designativa vox est, quoniam nomen designat id semper cuius nomen est. Secundum
+     placitum vero adiunctum est, quoniam nullum nomen natura significat, sed secundum placitum
+     ponentis constituentisque voluntatem. Illud enim unaquaeque res dicitur quod ei placuit qui
+     primus rei nomen impressit. Aliae enim sunt voces naturaliter significantes, ut canum latratus,
+     iras canum significat, et alia eius quaedam vox blandimenta; gemitus etiam designant dolorem,
+      <milestone n="Col. 763B" unit="page"/> sed non sunt nomina, quia non designant secundum
+     placitum, sed secundum naturam. Sine tempore vero, quod et verba voces sunt significativae et
+     secundum placitum, sed distant a nominibus, quia nomina quidem sine tempore sunt, verba vero
+     cum tempore. Cuius nulla pars significativa est separata, nomina ab oratione disiungit. Oratio
+     namque vox est significativa secundum placitum et aliquoties sine tempore, ut hic versus:
+     Nerine Galathea thymo mihi dulcior Hyblae. Sed orationis partes, separatae a tota oratione,
+     designant: nominum vero nihil extra designat, atque in illis quidem nominibus quae figurae sunt
+     simplicis nihil pars omnino significare manifestum est, ut in eo quod est Cicero, nulla pars
+     separata designat neque 'ci', neque 'ce', neque 'ro'. At si <milestone n="Col. 763C"
+      unit="page"/> nomen compositum fiat, significare aliquid separatae partes videntur; sed in
+     eodem nomine quod ex utrisque compositum est, separatae nihil designant, ut si dicam magister,
+     partes eius nominis sunt 'magis' atque 'ter', quae sumpta exstrinsecus et a nominis parte
+     separatae significatione non carent, utraque enim adverbialiter significat quantitatem; sed cum
+     magister quod est compositum nomen alicuius artis peritum doctoremque significet, 'magis' neque
+     partem doctoris, neque totum doctorem poterit designare. Eodem quoque modo 'ter', neque in toto
+     significat, neque in parte doctorem, id est, rem illam quae magistri vocabulo subiecta est
+     nulla ratione designat. Compositorum ergo nominum partes nihil eius rei quam in unum
+     convenientes vocabulum designabant disiunctae <milestone n="Col. 763D" unit="page"/>
+     distractaeque significant; alia vero significare possunt, sed tunc non partes nominis, sed ipsa
+     sunt nomina. Quod enim coniuncta significant, id divisa atque seposita non designant. Iuncta
+     autem 'magis' et 'ter' doctoris significationem tenebant, separata igitur omnem significationem
+     doctoris amittunt. Sed ne quis superius posito calumnietur exemplo, nec magister compositum
+     nomen esse concedat, vir fortis esse compositum nomen, si uno proferatur accentu nullus
+     negabit, cuius partes vir atque fortis quod in eo quod est vir fortis significare dicantur, non
+     iam nominis partes, sed ipsa sunt nomina, nec vir fortis unius erit nomen, sed potius oratio,
+     quae duorum nominum collata significatione convincitur, <milestone n="Col. 764A" unit="page"/>
+     quod vir fortis cum unius accentus intentione prolatum non est oratio, sed nomen, cuius partes
+     nomina esse non poterunt, ac si nomina non sunt, cum neque naturales affectus neque actus, ut
+     verba significent, omnino non nihil designant. Quare concludendum est, cum quaelibet voces
+     propriam significationem tenent, non partes nominum, sed ipsa esse nomina, cum vero unius
+     formam nominis copulaverint, eo considerantur ut partes vim propriae significationis amittere.
+     Sed de his in commentario libri <foreign xml:lang="grc">περὶ Ἑρμηνείας</foreign> Aristotelis
+     satis dictum est, et maior eius rei tractatus est quam ut nunc totus valeat expediri. Sed
+     quoniam sunt quaedam voces quae et designativae sunt et secundum placitum, et sine tempore,
+     quarumque partes nihil extra significant, neque <milestone n="Col. 764B" unit="page"/> tamen
+     proprietates nominis naturamque observent, discernendae prius sunt, additisque differentiis a
+     nomine segregandae, ut quae sit vis nominis evidenter appareat. Adiecta enim semper negatio
+     nomini, vocem dubiam facit, quae neque verbo neque orationi, etsi interius consideratum sit,
+     neque nomini possit annecti, ut si quis dicat, non homo, vox est significativa. Designat enim
+     quidquid homo non fuerit, secundum placitum. Eas enim omnino partes habet quas ad
+     significationem vel negationis vel hominis placitum vocabula ponentis assumpsit. Sine tempore,
+     quae res eam vocem quae dicit non homo separat ac seiungit a verbo, cuius partes nihil extra
+     significant, ne oratio esse videatur. Non homo enim vox seiuncta est ex negativa particula et
+     homine, <milestone n="Col. 764C" unit="page"/> quae in eodem nomine separata nihil designant,
+     significat enim non homo, vel equum, vel canem, vel quidquid (ut dictum est) non homo non
+     fuerit. Sed quae est negativa, neque hominis, neque equi, neque ullius substantiae
+     significationem tenet. Item homo neque canem, neque quidquid homo non fuerit, significare
+     potest, quocirca in ea voce quae est non homo partes nihil separatae significant eius rei quam
+     tota vocis compositio designabat. Atque ideo nec in oratione quidem poni potest. Si quis enim
+     eam vocem quae est non homo orationem concedat, nihil aliud eam esse fatebitur quam negationem.
+     Negatio autem omnis vera vel falsa est. Qui autem dicit non homo, neque veritatem nuntiat,
+     neque mendacium. Praeterea ab omni negatione si quis negativum seiungat <milestone
+      n="Col. 764D" unit="page"/> adverbium, affirmatio relinquetur; ab ea autem voce quae est non
+     homo, si quis aufert id quod est negativum adverbium, homo relinquetur, quod nondum est
+     affirmatio. Quocirca si non homo haec vox negatio esse non potest, nihil autem aliud esse
+     videretur si esset oratio, concludendum est negationem iunctam cum nomine orationem esse non
+     posse. Nomen enim omne certum aliquid definitumque significat, ut homo, equus, canis et
+     caetera; non homo autem vox aufert quidem quod significatura nomine, nec praescribit quid ipse
+     significet. Quocirca quoniam significat quidem aliquid, sed non finitum negatio iuncta cum
+     homine, infinitum nomen vocetur. Addenda est ergo diffinitioni nominis differentia, scilicet
+      <milestone n="Col. 765A" unit="page"/> ut nomen sit quod cum caeteris quae dicta sunt sit
+     definitae significationis. Iam vero casus nominum non altius intuentibus nomina videantur. Quid
+     enim Catonis, et Catoni, atque huiusmodi voces quae rectis nominibus inflectuntur, nomina esse
+     non existimet? Sed hae quoque voces a nomine quadam differentia discrepabunt. Omne enim nomen
+     iunctum cum est verbo, enuntiationem reddit ac suscipit mendacii veritatisque naturam, ut Cato
+     est, vel dies est, at si est verbum casibus adiungatur, neque enuntiatio sit, neque plena
+     sententia orationis absolvitur, ut Catonis est, nec sententiam habet absolutam, nec veri
+     aliquid potest notare nec falsi, atque idcirco non nomina, sed casus nominum nuncupantur. Nam
+     cum id a quo quidquam flectitur primum sit, illud <milestone n="Col. 765B" unit="page"/> vero
+     quod ab inflexione primi nascitur sit secundum, neque idem primum ac secundum esse possit,
+     manifestum est casus nominum non idem esse quod nomina: idcirco caeteros quidem genitivum,
+     dativum, accusativum, casus appellant grammatici, primum vero rectum ac nominativum quod hic
+     locum principem in significatione possederit. Facienda est igitur nominis plena neque ullo
+     diminuta diffinito sic: Nomen est vox significativa secundum placitum sine tempore, cuius nulla
+     pars significativa est separata, aliquid finitum designans, cum est verbo coniuncta faciens
+     enuntiationem. Separat igitur nomen vox quidem ab articulis atque inanimatis sonis; designativa
+     vero a vocibus quae nihil significant; secundum placitum a vocibus aliquid natura
+     significantibus; <milestone n="Col. 765C" unit="page"/> sine tempore a verbo quod a temporis
+     significatione non recedit, cuius nulla pars separata significat, ab oratione, cuius
+     quemadmodum partes extra significent, paulo posterius disseram; aliquid definitum designans, ab
+     his vocibus quae nomen negationemque coniungunt et nomina faciunt infinita, cum est verbo
+     faciens enuntiationem, a casibus qui cum est copulati non possunt plenam perficere atque
+     explicare sententiam. In verbo quoque eadem fere cuncta conveniunt, nisi quod in significatione
+     temporis a nomine separatur. Omne enim verbum actionem passionemve designat, quae fieri sine
+     temporis notatione non potest. Est itaque verbi diffinitio haec: verbum est vox significativa
+     secundum placitum cum tempore, cuius nulla pars significativa est separata, <milestone
+      n="Col. 765D" unit="page"/> ut currit, vincit; sed si verbis negativa copulentur adverbia,
+     fiunt infinita verba, sicut fieri nomina diximus infinita, ut cum currit, aut vincit, certum
+     aliquid finitumve designet, addita negatione, id quidem quod a verbo designatur intercipit,
+     quid vero aliud fieri dicat tali significatione non terminat; praeterea negatio iuncta cum
+     verbo sive in eo quod est, sive in eo quod non est, recte dici potest, ut homo non currit. Non
+     esse autem orationem aut enuntiationem negativam illa prorsus argumenta monstrabunt, quae
+     infinitum nomen ab oratione aut negatione dividebant. Sed quoniam principaliter praesentia
+     quaeque sentimus, his autem rebus quas praesenti sensu concipimus indita esse a mortalibus
+      <milestone n="Col. 766A" unit="page"/> vocabula manifestum est, recte dicis verbum semper
+     significationem temporis habere praesentis, ut currit aut vincit. Curret autem aut vincet, et
+     cucurrerit aut vicerit, non sunt verba, sed verborum casus, scilicet quia a praesentis temporis
+     significatione flectuntur; est ergo verbi plena diffinitio sic: Verbum est vox significativa
+     secundum placitum cum significatione temporis, cuius nulla pars significativa est separata,
+     aliquid finitum designans et praesens. Restat igitur ut de oratione dicamus, sed prius videtur
+     esse monstrandum utrumne nomen et verbum sola in partibus orationis ponantur, an ut grammatici
+     volunt et reliquae orationis partibus debeant aggregari. Grammatici enim considerantes vocum
+     figuras, octo orationis partes annumerant. Philosophi vero, quorum omnis de <milestone
+      n="Col. 766B" unit="page"/> nomine verboque tractatus in significatione est constituta, duas
+     tantum orationis partes esse docuerunt, quidquid plenam significationem tenet, siquidem sine
+     tempore significat, nomen vocantes, verbum vero si cum tempore: atque ideo adverbia quidem
+     atque pronomina nominibus iungunt, sine tempore enim quiddam constitutum definitumque
+     significant, nec interest quod flecti casibus nequeunt, non est hoc nominum proprium ut casibus
+     inflectantur. Sunt enim nomina quae a grammaticis monoptota nominantur, participium vero quia
+     temporis significationem trahit, etsi casibus effertur, verbo tamen recte coniungitur.
+     Interiectiones autem siquidem, naturaliter significent, nec verbo, nec nomini copulandae sunt,
+     verbi enim ac nominis diffinitiones non habent esse <milestone n="Col. 766C" unit="page"/>
+     naturalia, sed ad ponentis placitum constituta, atque ideo nec in orationis partibus
+     numerabuntur. Oratio enim positione significat, nam si naturaliter significaret oratio, non
+     diversa gentes oratione loquerentur. Si quae vero interiectionem positione significant, quoniam
+     finitam sine tempore affectionem designant, recte nominibus annumerantur. Quae vero ipsae
+     quidem nulla propria significatione nituntur, cum aliis vero iunctae designant, ut
+     coniunctiones atque praepositiones, illae ne partes quidem orationis esse dicendae sunt, oratio
+     enim ex significativis partibus iuncta est. Quocirca recte nomen ac verbum solae orationis
+     partes esse dicuntur. Oratio est vox significativa secundum placitum, cuius partes aliquid
+     extra significant ut dictio, non ut affirmatio. Oratio igitur <milestone n="Col. 766D"
+      unit="page"/> habet simul cum verbo et nomine commune, quod vox est, quod significativa est,
+     quod secundum placitum est. Separatim vero cum nomine illi commune, est quod aliquando sine
+     tempore est, ut Virgilianus quem supra diximus versus: Nerine Galathea thymo mihi dulcior
+     Hyblae, et qui sequitur: Candidior cygnis, hedera formosior alba. Cum verbo autem quod interdum
+     cum temporis significatione profertur, ut: Si qua tui Coridonis habet te cura, venito. Differt
+     autem ab utroque quod partes orationis a tota separatae oratione significant. Sunt enim partes
+     orationis nomen et verbum quae significativa esse dum ea diffiniremus ostendimus. Significant
+     igitur partes orationis ut dictio, non ut affirmatio, quanquam aliquoties <milestone
+      n="Col. 767A" unit="page"/> quidem ut affirmatio, sed non semper tamen, semper autem ut
+     dictio. Est enim dictio simplex verbi ac nominis nuncupatio. Nam cum dicimus, si dies est, lux
+     est, hanc totam orationem si dividere in partes velimus, scilicet dies est, lux est, utraque
+     pars ut affirmatio significabit, dies est, lux est, affirmationes esse manifestum est. At si
+     minutatim tota orationis membra carpamus, usque in nomina ac verba postrema fiet resolutio.
+     Dicemus enim partes esse superius positae orationis, dies et lux et est, quae per se prolata
+     non sunt affirmationes, sed tantum dictiones. Omnis vero oratio, quoniam ex verbis nominibusque
+     consistit, in nomina et verba solvi potest. Non enim omnem orationem in affirmationem cedi
+     possibile est, veluti si quis dicat lux est, huius partes <milestone n="Col. 767B" unit="page"
+     /> sunt, lux atque est, quas non esse affirmationes, sed simplices dictiones nullus ignorat.
+     Cum igitur oratio quidem non semper in affirmationem solvi queat, semper autem in simplices
+     dictiones, iure dictum est orationis partes extra aliquid designare non ut affirmationes, sed
+     potius ut dictiones. Orationis autem species (ut arctissime dividamus) sunt quinque,
+     interrogativa, ut Quo te, Meri, pedes? an quo via ducit in urbem? Imperativa, ut Suggere tela
+     mihi. Invocativa, ut Dii maris et terrae, tempestatumque potentes. Deprecativa, Ferte viam,
+     venti, facilem, et spirate secundi. Enuntiativa, Est mihi disparibus septem compacta cicutis
+     Fistula. Quarum quidem praeter enuntiationem nulla vel esse aliquid, vel non esse designat.
+     Caeterae namque vel interrogant, <milestone n="Col. 767C" unit="page"/> vel invocant, vel
+     imperant, vel precantur. Enuntiatio vero semper esse aliquid aut non esse significat. Atque
+     ideo sola enuntiatio est in qua veritas vel falsitas inveniri queant. Vnde etiam enuntiationis
+     nascitur diffinitio, est enim enuntiatio quae verum falsumve denuntiat. Hanc etiam proloquium
+     vel propositionem Tullius vocat, quae quidem partim simplex, partim composita. Simplex est quae
+     conditione seposita esse aliquid vel non esse proponit, ut Plato philosophus est. Composita
+     vero quae ex duabus simplicibus copulante conditione consistit, ut Plato si doctus est,
+     philosophus est. Simplicium vero enuntiationum alias in qualitate sitas, alias in quantitate
+     differentias invenimus. In qualitate quidem quod alia affirmativa, alia negativa est.
+     Enuntiatio affirmativa est enuntiatio <milestone n="Col. 767D" unit="page"/> aliquid de aliquo
+     significans, ut Plato philosophus est, philosophum de Platone praedicamus. Negativa vero est
+     enuntiatio aliquid ab aliquo praedicatione seiungens, ut Plato philosophus non est, philosophum
+     enim a Platone tali praedicatione seiunximus. Secundum quantitatem vero differentiae
+     enuntiationum sunt, quod aliae quidem universales, aliae particulares, aliae indefinitae, aliae
+     singulares. Vniversales sunt quae sive affirment, sive negent, universaliter tamen enuntiant
+     universale subiectum, ut: omnis homo sapiens est, nullus homo sapiens est, homo universale
+     quiddam est. Multos enim sub se individuos coercet et continet, qui universaliter enuntiantur,
+     dum ei omnis vel nullus adiungitur. Particulares <milestone n="Col. 768A" unit="page"/> vero
+     quae vel affirmando vel negando ambitum subiecti universalis in partem redigunt, ut quidam homo
+     sapiens est, quidam homo sapiens non est, hic enim universalitas hominis, adiecta particulari
+     determinatione minuta est, atque in partem redacta. Indefinitae vero sunt quae absque
+     universalitatis et particularitatis determinatione dicuntur, ut est homo sapiens, non est homo
+     sapiens. Singulares vero sunt quae de singulari aliquid et de individuo affirmando negandove
+     proponunt, ut Socrates sapiens est, Socrates sapiens non est. Differt autem particularis
+     propositio a singulari, quod particularis quidem unum aliquem subiicit, nec quis sit iste
+     designat, ut quidam homo sapiens est, quis iste homo sit, propositio non declarat. Singularis
+     vero unum aliquem sumit, <milestone n="Col. 768B" unit="page"/> et quis iste sit significat, ut
+     Socrates sapiens est, unum enim et hunc Socratem sapientem esse proposuit. Amplius particularis
+     omnis universalem quidem terminum ponit, sed ei detrahit universalitatem, dum qualitatem
+     particularitas adiungit, ut in propositione, quidam homo sapiens est. Homo universalis est
+     terminus, multos enim propria praedicatione concludit. Sed quia dicitur quidam, ad unum homo
+     redigitur, qui universale persisteret, nisi particularitas fuisset adiuncta; in singularibus
+     vero propositionibus praedicato termino semper individuum supponitur, ut Socrates sapiens est,
+     Socrates enim singularis est atque individuus; idcirco igitur illa particularis propositio quae
+     partem ex universalitate detrahit, haec singularis quae in singularis atque individui
+     praedicatione <milestone n="Col. 768C" unit="page"/> consistit. Simplicium vero enuntiationum
+     partes sunt subiectum atque praedicatum. Subiectum est quod praedicati suscipit dictionem, ut
+     in ea propositione quae est, Plato philosophus est, Plato subiectum est, de ipso enim
+     philosophus praedicatur, et in eo philosophi suscipit dictionem. Praedicatum vero est quod
+     dicitur de subiecto, ut in eadem propositione, philosophus dicitur de Platone subiecto, semper
+     enim quod subiectum est vel minus est, vel aequale praedicato: minus quidem ut in ea
+     propositione de qua paulo ante tractavimus. Plato enim philosophi nomen non potest aequare,
+     neque solus Plato philosophus est; aequalis vero est subiectus terminus praedicato, ut si quis
+     dicat, homo risibilis est, homo enim qui subiectus est terminus praedicato risibili <milestone
+      n="Col. 768D" unit="page"/> coaequatur. Vnde fit ut possit reddi reciproca praedicatio,
+     scilicet, ut vices subiectum praedicatumque permutent, subiectumque fiat quod erat antea
+     praedicatum, versoque ordine praedicetur quod fuerat ante subiectum, ut si dicatur quod
+     risibile est homo est; omnia enim quae sunt aequalia de se invicem praedicantur. Vt vero id
+     quod subiectum est maius possit esse praedicato, nulla prorsus enuntiatione contingit, ipsa
+     enim praedicata natura minora esse non patitur. Sed quod aequale vel maius est, id semper de
+     aequali vel minore praedicatur. Has vero enuntiationum partes, id est praedicatum atque
+     subiectum terminos appellamus. Termini vero dicuntur quod in eos postrema sit resolutio: itaque
+     in singularibus <milestone n="Col. 769A" unit="page"/> vel indefinitis propositionibus duos
+     terminos semper invenimus, et verbum quod propositionis determinet qualitatem, ut in
+     propositione qua dicimus, Socrates sapiens est, Socrates quidem ac sapiens terminos esse
+     manifestum est. Est vero verbum non est terminus, sed designatio qualitatis, et qualis
+     propositio sit negativa an affirmativa significat, et nunc quidem solo est verbo propositioni
+     accommodato facta est affirmatio. At si non, quod est adverbium negativum, esset adiunctum, ita
+     diceretur: Socrates sapiens non est, atque hoc modo mutata qualitate fieret de affirmatione
+     negatio. Est igitur et non est, non sunt termini, sed, ut dictum est, significatio qualitatis.
+     Eadem omnia etiam in indefinita propositione conveniunt; quod si sint tales orationes,
+      <milestone n="Col. 769B" unit="page"/> Socrates est, dies est, est vi gemina fungitur,
+     scilicet praedicati, est enim verbum de Socrate et die praedicatum, et signi qualitatis, idem
+     namque est solum positum affirmationem efficit, cum negativo adverbio negationem. At si sint
+     propositiones quae differentias secum habeant quantitatum, ut sunt universales ac particulares,
+     eadem vis permanet terminorum; omnis enim ac nullus, et quidam, terminis non annumerantur, sed
+     enuntiationum significant qualitatem. Atque ideo recte quod subiicitur ac praedicatur termini
+     nuncupati sunt, quoniam in eos tantum resolvitur propositio. Caetera enim quae simplicibus
+     enuntiationibus adiunguntur, aut qualitatem propositionum retinent, aut quantitatem
+     significant. Propositionum vero simplicium aliae sunt quae in nulla <milestone n="Col. 769C"
+      unit="page"/> parte conveniunt, ut Plato philosophus est, et virtus bona est; utraque enim
+     aliud quiddam de alio praedicatur, nec habent aliquid in proponendi ratione commune. Illa enim
+     Platonem philosophum dicit, illa virtutem bonam esse pronuntiat. Aliae vero sunt quae aliqua
+     terminorum participatione iunguntur. Id autem duobus fieri modis potest, aut enim ordine eodem,
+     aut per ordinis commutationem. Eodem vero ordine duplici modo, si vel simplices terminos in
+     utrisque constituas, vel si per oppositionem fiat participatio terminorum: quod tribus neque
+     amplius continget modis, nam vel praedicato, vel subiecto, vel utrisque terminis negatio
+     copulatur. Ordinis etiam commutatione conveniunt duobus modis, aut enim per simplicem
+     terminorum praedicationem, aut <milestone n="Col. 769D" unit="page"/> per eorumdem terminorum
+     oppositionem. Haec quoque oppositio terminorum triplicem recipit modum, cum negatio vel
+     praedicato, vel subiecto, vel utrisque coniungitur; illae vero quae altero termino participant
+     et tribus modis, vel cum in una propositione quod praedicatur in altera subiectum est, vel cum
+     idem in utrisque praedicatur, vel cum idem in utrisque subiectus est. Et quoniam omnium sibimet
+     convenientium propositionum ordinatissimam fecimus divisionem, nunc de singulis quibusque
+     tractemus, ac primum de ea propositionum convenientia, quae cum utrisque participet terminis,
+     participandi tamen ordinem servent, ea est huiusmodi, omnis homo sapiens est, nullus homo
+     sapiens est. Vtraque <milestone n="Col. 770A" unit="page"/> enim propositio hominem subiicit,
+     et praedicat sapientiam, et cum utroque termino congruant, sunt tamen diversae, quoniam haec
+     affirmatio est, illa negatio. Et hoc quidem exempli gratia dictum sit, plenius vero fiet de
+     tali participatione tractatus hoc modo. Cunctarum simplicium propositionum differentias, vel in
+     qualitate, vel in quantitate sitas esse ostendimus; in quantitate cum universaliter pronuntiat
+     (F. pronuntiantur), vel particulariter, vel indefinite, vel singulariter proferuntur, in
+     qualitate vero cum hae quidem affirmativae sunt, illae vero negativae. Si igitur duas
+     affirmativas aggregamus, fiunt mixtae cum utrisque octo differentiae, quae simul qualitatem
+     quantitatemque contineant. Sunt autem mixtae hae, affirmatio universalis, negatio universalis,
+     affirmatio particularis, <milestone n="Col. 770B" unit="page"/> negatio particularis,
+     affirmatio indefinita, negatio indefinita, affirmatio singularis, negatio singularis. Quarum
+     quidem indefinitas singularesque segregemus, et de universalibus ac particularibus disseramus.
+     Describatur ergo universalis primum affirmatio, omnis homo iustus est, cuius adversum tenet
+     locum negativa propositio universalis, nullus homo iustus est, item sub universali affirmatione
+     ponatur particularis affirmatio, quidam homo iustus est, hanc adversa fronte respiciat, sitque
+     universali negativae supposita particularis negatio, quidam homo iustus non est.</p>
+    <p><hi rend="bold">Vniversalis affirmatio:</hi> Omnis homo iustus est.<lb/>
+     <hi rend="bold">Vniversalis negatio:</hi> Nullus homo iustus est.<lb/>
+     <hi rend="bold">Particularis affirmatio:</hi> Quidam homo iustus est.<lb/>
+     <hi rend="bold">Particularis negatio:</hi> Quidam homo iustus non est.</p>
+
+    <p>Harum igitur affirmatio atque negatio universalis qualitate quidem discrepant, sed quantitate
+     concordant; nam quod haec quidem affirmatio est, illa vero negativa est, sunt in qualitate
+     diversae, quia vero utraque universalis est, quantitate conveniunt. Harum igitur vel utrasque
+     falsas, vel unam veram, alteram falsam recipere possibile est, utraeque autem simul verae
+     nequeunt inveniri, nam in proposita descriptione affirmatio quae est, omnis homo iustus est, et
+     negatio quae est, nullus homo iustus est, cum utraeque sint universales, neutra tamen est vera.
+     At si sit affirmatio, omnis homo animal est, atque universaliter denegetur ita, nullus homo
+     animal est, vel ita, omnis homo lapis est, nullus homo lapis est, unam <milestone n="Col. 770D"
+      unit="page"/> veram, alteram falsam esse necesse est. Atque ideo quoties ea praedicantur quae
+     et convenire subiecto et ab eo valeant segregari, et universaliter illa confirmat, haec
+     denegat, utrasque falsas contingit, et superius positis declaratur exemplis. Iustitia enim cum
+     esse in hominibus possit, non tamen ita hominibus inhaesit, ut ab eis separari nullo modo
+     queat, atque ideo neque omnis homo iustus est, neque omnis homo iustus non est, contingit
+     utrasque mentiri; at si tale sit quod a subiecto abstrahi separarique non possit, vel quod
+     nunquam possit evenire subiecto, et quae universaliter affirmativa est universaliter abnuatur,
+     evenit uni veritatem, alteri semper adesse mendacium, sed ita ut si a subiecto quod praedicatur
+     non <milestone n="Col. 771A" unit="page"/> potest segregari, vera sit semper affirmatio, falsa
+     negatio; at si quod evenire non potest praedicatur, affirmatio quidem falsa sit, sed vera sit
+     negatio. Nam quoniam animal non ab homine potest segregari, quae hominem animal esse confirmat
+     vera est, falsa vero illa quae denegat; item si quod non potest fieri praedicetur, fiatque
+     affirmatio, omnem hominem esse lapidem, idque adversa propositio neget, nullumque hominem
+     lapidem esse concedat, negatio quidem veritati, affirmatio autem iuncta est mendacio: simul
+     autem veras esse affirmationem universalem, universalemque negationem nulla poterunt exempla
+     monstrare. Atque ideo universalis quidem affirmatio, universalisque negatio contraria dicuntur,
+     nam ut in contrariis aliquid medium continentibus potest neutrum <milestone n="Col. 771B"
+      unit="page"/> inesse subiecto, ut corpus neque nigrum sit neque album, quoniam est quod
+     praeter ea esse possit, ut rubrum, itemque in contrariis medietate carentibus necesse est
+     alterum semper inesse subiecto, ut omne animal aut dormit aut vigilat, quoniam inter dormire ac
+     vigilare nihil medium est; ut autem simul atque in eodem utraque contraria reperiantur fieri
+     nequit. Ita etiam in universalibus affirmatione ac negatione: ut utraeque falsae sint, exemplo
+     contrariorum aliquid medium claudunt; vel altera vera, falsa vero altera, sicut in contrariis
+     quae medio carent fieri posse manifestum est; sed impossibile est ut utriusque sententia in
+     veritate conveniat, sicut nulla contraria simul esse patiuntur. Atque ideo universalis
+     affirmatio universalisque negatio contrariae nominantur. <milestone n="Col. 771C" unit="page"/>
+     Hae igitur non eam vim ipsa semper adversitate conservant, ut eis sit perpetua atque
+     inconciliata discordia, nec se semper invicem perimunt, quae cum sententia dissideant, communi
+     tamen falsitate concordant. Si igitur earum una submota sit, non necesse est ut esse altera
+     consequatur: fieri enim potest ut neutra sit, velut si omnem iustum esse hominem destruat, non
+     est consequens ut nullus homo sit iustus. Quae autem sub his propositionibus collocantur, id
+     est particularis affirmativa atque negatio, subcontrariae nomen habent, idcirco quod
+     universalitati particulare commune subiectum est; cum igitur universales intelliguntur esse
+     contrariae, subcontrarias esse necesse est quae sub universalibus contrariis collocantur. Horum
+     quoque quantitas est eadem, <milestone n="Col. 771D" unit="page"/> quoniam utraeque sunt
+     particulares; diversa qualitas intelligitur, quoniam affirmatio haec est, illa vero negatio;
+     sed quanquam contrariis videantur esse subiectae, converso tamen modo particulares in veritate
+     sibimet, non in falsitate consentiunt. Nam ut haec verum, falsum illa pronuntiet, atque
+     utraeque sint verae facile propositis declaratur exemplis; ut vero utraeque falsae sint, non
+     potest inveniri. Nam si quod neque separari, neque possit adesse subiecto, alterutra enuntiet
+     propositio, una est veritati, altera cognata mendacio. Et siquidem quod a subiecto separari non
+     potest praedicetur, affirmatio sola veritatis calculum tenet; at si quod subiecto impossibile
+     adesse dicatur, sola obtinet negatio veritatem, ut <milestone n="Col. 772A" unit="page"/> si
+     quis enuntiet, quidam homo animal est, et alius neget, quidam homo animal non est, vel ita,
+     quidam homo lapis est, quidam homo lapis non est, utraque affirmationum negationumque oppositio
+     verum inter falsumque partitur. Sed in prioribus quidem affirmatio, in posterioribus autem vera
+     negatio est. At si quod evenire quidem possit, sed a subiecto tamen aliquando valeat segregari,
+     affirmatio particularis, negatioque pronuntietur, utrasque veras esse necesse est, ut quidam
+     homo iustus est, quidam homo iustus non est; ut vero utraeque falsae sint, nulla poterunt
+     exempla congruere. Quocirca ne ista quidem quas subcontrarias appellamus semper sese invicem
+     perimunt, quandoquidem aliquoties in veritate concordant. At si omnibus differentiis
+     dissidentes <milestone n="Col. 772B" unit="page"/> ac invicem destruentes invenire conemur,
+     respiciendae sunt angulares; hae vero sunt universalis affirmatio et negatio particularis, vel
+     universalis negatio et affirmatio particularis; his enim tanta inter se discordia manifesta
+     est, ut neque in falsitate unquam, neque in veritate conveniant, semperque necesse est cum
+     affirmatio sit vera, negationem esse mendacem, cum negationi adsit veritas, affirmationi esse
+     propriam falsitatem. At primum cum geminas esse propositionum differentias dixerimus in
+     qualitate scilicet et quantitate, harum et qualitas divisa esse probatur et quantitas: nam quod
+     haec affirmatio est, illa negatio, in qualitate dissentiunt; quod vero haec universalis, illa
+     particularis quantitate discordant. Item neque in falsitate, neque in veritate unquam
+      <milestone n="Col. 772C" unit="page"/> poterunt convenire. Sive enim de his quae a subiecto
+     abesse non possunt, unam semper veram esse necesse est, alteram falsam, nam si talis terminus
+     praedicatur, ut cum vel adesse subiecto vel non adesse contingat, universales semper falsae
+     sunt, particulares verae sunt, si quis enim ita proponat, omnis homo iustus est, atque alius
+     neget, quidam homo iustus non est, universalis affirmatio falsa est, particularis est vera
+     negatio, similiter autem si quis ita pronuntiet, nullus homo iustus est, universalis negationis
+     falsa, particularis affirmationis vera sententia est; ita in his quae vel adesse subiecto, vel
+     abesse contingant, universales falsitati coniunctae sunt, particulares obtinent veritatem. At
+     si tales termini sint, qui separari atque a subiecto dividi nequeant, sive <milestone
+      n="Col. 772D" unit="page"/> illa sit universalis, sive particularis, haerebit semper
+     affirmationi veritas, negationi mendacium, ut si quis universaliter enuntiet omnem hominem esse
+     animal, aliusque particulariter neget, quemdam hominem non esse animal, affirmatio universalis
+     verum loquitur, particularis negativae falsa sententia est. Item si quis universaliter negando
+     proponat nullum hominem esse animal, particularem affirmationem veritas sequitur, haeret
+     universalis negatio falsitati, quod si sint quae praedicantur ut nunquam possint adesse
+     subiecto, seu illae universaliter seu particulariter proponantur, negationes ornat veritas,
+     affirmationes falsitas decolorat. Si quis enim confirmat dicens omnem hominem lapidem esse,
+     aliusque <milestone n="Col. 773A" unit="page"/> quemdam hominem non esse lapidem respondeat,
+     universalem affirmationem falsitas, particularem negationem veritas tenet; quod si ita quis
+     universaliter neget, nullus homo lapis est, et particulariter affirmet, quidam homo lapis est,
+     universali constat negatione veritas, particularis affirmatio non caret falsitate. Quoquo
+     igitur modo praedicata vel subiecta mutaveris, si tamen universalem affirmativam particulari
+     negativae, vel universalem negativam particulari affirmativae consertam a singulari
+     consideratione committas, si haec falsa, illam veram esse contingit, et si haec vera est, illam
+     falsam necesse est inveniri, atque idcirco has inter se oppositas et contradictorias
+     nuncupamus. Et hactenus quidem affirmationes et negationes aversis intentionibus conferentes,
+      <milestone n="Col. 773B" unit="page"/> quid in eis discordiae ac diversitatis esset
+     ostendimus, nunc universalem affirmationem particulari affirmativae, et universalem negationem
+     particulari negativae ad veritatis falsitatisque convenientiam comparemus. Harum namque inter
+     se nulla discordia est, atque ideo non de earum dissensu, sed de consensu potius videtur esse
+     quaerendum. Primum igitur universalis affirmatio et particularis affirmatio subalternae
+     dicuntur, quoniam altera subiacet alteri, id est particularis affirmatio universali
+     affirmationi supposita est atque subiecta, veluti pars intra totius semper ambitum latet;
+     idemque de universali et particulari negativa dicendum est, subalternae enim vocantur, quod
+     superior atque amplior universalis negatio intra se particularem negationem <milestone
+      n="Col. 773C" unit="page"/> claudit et continet. Haec igitur tali ratione consentiunt, si enim
+     universales in veritate praecedant, particulares veras esse necesse est, ut si quis
+     universaliter affirmando proponat, omnem hominem animal, ea cum sit vera, particularis sibi
+     affirmationis veritatem comitem trahit, ea vero est, quidam homo animal est. Nam si verum est
+     omnem hominem esse animal, verum est esse aliquem; item si quis universaliter enuntiet nullum
+     hominem esse lapidem, et verum dixerit, subiecta ei particularis negatio idem retinet, nec
+     mentitur qui dixerit quemdam hominem lapidem non esse; ita igitur universalibus affirmatione ac
+     negatione vera dicentibus, particularis affirmatio et negatio veram universalium sententiam
+     consequuntur. At si universales falsae sint, non necesse <milestone n="Col. 773D" unit="page"/>
+     est particulares universalium consensu praebere mendacium, velut in his universalibus quae
+     proponunt omnem hominem esse iustum, vel nullum hominem esse iustum, quae cum una sit
+     affirmatio, altera negatio, utraeque sunt falsae; sed eas particularium falsitas non ex
+     necessitate consequitur, nam et quemdam hominem esse iustum, quae particularis est affirmatio,
+     vere quis dixerit, atque ideo falsis universalibus, particulares veras esse non necesse est.
+     Quod enim universalis affirmatio falsa dicatur omnem hominem esse lapidem, errat particularis
+     affirmatio quae proponit quemdam hominem <milestone n="Col. 774A" unit="page"/> esse lapidem.
+     At si universalis negatio falsa proponatur, nullum hominem esse animal, non idcirco
+     particularis erit vera negatio, si pronuntiet quemdam hominem non esse animal, atque ideo
+     universalibus quidem in veritate manentibus, particulares necesse est universalium consentire
+     veritati, at si universalibus falsitas inhaerebit, particulares tum veras, tum etiam falsas
+     esse possibile est, veras quidem si quid tale praedicetur quod adesse subiecto possit, et a
+     subiecto valeat separari, falsas esse utrasque, affirmationem quidem particularem, si in eo sit
+     universalis falsa affirmatio quod subiecto non potest convenire, negationem particularem, si in
+     eo universalis negatio mentiatur quod a subiecto non potest segregari, ut posita superius
+     exempla declarant. Quod si <milestone n="Col. 774B" unit="page"/> ad veritatis et falsitatis
+     consequentiam particulares propositiones locum principem sortiantur, contraria eis universalis
+     propositionis ratione conveniunt. Nam si sint falsae, particulares falsas esse necesse est; sin
+     vero particulares verae sint, tum universales verae sunt, tum etiam falsae. Nam si particularis
+     affirmatio est falsa, quae dicit aliquem hominem esse lapidem, universalis quoque affirmatio
+     falsa est quae proponit omnem hominem esse lapidem. Item si particularis est falsa negatio quae
+     decernit quemdam hominem non esse animal, falsa erit universalis negatio quae nullum hominem
+     animal esse contendit. At si particularis affirmatio vel negatio verae sunt, idque praedicatur
+     quod a subiecto dividi ac segregari queat, affirmationem negationemque universales <milestone
+      n="Col. 774C" unit="page"/> non est dubium posse mentiri, ut quoniam verae sint particulares
+     quae proponunt quemdam hominem esse iustum, et quemdam hominem non esse iustum, his suppositas
+     universales falsas esse manifestum est, ut ea quae dicit, omnis homo iustus est, et nullus homo
+     iustus est. At si quid tale affirmatio particularis pronuntiet quo subiectum carere non possit,
+     vera erit superposita affirmatio universalis, ut cum aliquis enuntiat quemdam hominem esse
+     animal, huic universalis affirmatio in veritate consentit, quae est omnis homo animal est. At
+     si quid particularis negatio tale proponat, quod subiecto nequeat inhaerere, veritatem
+     particularis negationis universalis negativae veritas necesse est consequatur, ut cum aliquis
+     dicit quemdam hominem lapidem non esse, consonat universalis <milestone n="Col. 774D"
+      unit="page"/> veritas propositionis quae nullum hominem lapidem esse pronuntiat: quo fit ut
+     praecedentibus quidem universalibus veris, particulares veras esse necesse sit; praecedentibus
+     vero in falsitate particularibus, universalium veritas non subsequatur; manentibus vero
+     universalibus falsis, particulares mendacium dicere non sit necesse, sicut ne vera quidem
+     particularibus proponentibus, veram universalium necesse est esse sententiam. Et hoc quidem
+     exempla docuerunt: ut autem firma demonstratione clarescat, utilis ad evidentiam rerum
+     descriptio proponatur.</p>
+    <p><hi rend="bold">CONTRARIAE. Vniversalis affirmatio, Vniversalis negatio:</hi> hae tum
+     dividunt verum et falsum, tum falsae sunt utraeque, verae nunquam.<lb/>
+     <hi rend="bold">SVBCONTRARIAE. Particularis affirmatio, Particularis negatio:</hi> hae tum
+     dividunt verum et falsum, tum verae sunt, utraeque falsae nunquam.<lb/>
+     <hi rend="bold">SVBALTERNAE. Vniversalis affirmatio, Particularis affirmatio:</hi> falsa
+     particulari falsa est universalis, sed non convertitur. Vera universali vera est particularis,
+     sed non convertitur.<lb/>
+     <hi rend="bold">SVBALTERNAE. Vniversalis negatio, Particularis negatio:</hi> Vera universali
+     vera est particularis, sed non convertitur. Falsa particulari falsa est universalis, sed non convertitur.<lb/>
+     <hi rend="bold">OPPOSITAE. Vniversalis affirmatio, Particularis negatio:</hi> hae semper
+     dividunt verum et falsum.<lb/>
+     <hi rend="bold">OPPOSITAE. Particularis affirmatio, Vniversalis negatio:</hi> hae semper
+     dividunt verum et falsum.</p>
+    <p><milestone n="Col. 775B" unit="page"/> Ex his ergo quae superius dicta sunt intelligi potest
+     contrarias quidem vel verum inter se falsumque dividere, vel simul posse mentiri, veras simul
+     esse non posse; subcontrarias vero vel utrasque veras esse, vel alteram veram, alteram falsam,
+     nunquam tamen simul proferre mendacium, angulares autem neque in veritate unquam, neque in
+     mendacio consonare, sed uni semper veram, alteri semper falsam esse sententiam: nunc
+     demonstrandum est universalibus veris particulares non posse mentiri, falsis autem <milestone
+      n="Col. 775C" unit="page"/> universalibus posse particulares non falsa proferre. Dico enim si
+     universalis affirmatio sit vera, particularem quoque affirmationem veram futuram; nam si falsa
+     est, erit vera quae particulari affirmationi opponitur universalis negatio, sed posita est vera
+     affirmatio universalis; hoc igitur modo utrasque simul veras esse contingit, affirmationem
+     scilicet universalem, universalemque negationem, quod evenire non posse monstratum est; non
+     igitur fieri potest ut affirmativa universali vera proposita, particularis affirmatio
+     mentiatur. Rursus si vera est universalis negatio, particularem quoque negationem veram esse
+     concedo, nam si falsam quis dixerit universalem affirmationem, quae est ei opposita veram
+     necessario esse fatebitur. At si universalis negatio vera esse proposita <milestone
+      n="Col. 775D" unit="page"/> est, simul igitur universales negationem et affirmationem veras
+     esse contingit: quod fieri non posse superius posita exempla docuerunt. At si falsa est
+     universalis affirmatio, particularis vel falsum poterit enuntiare vel verum: quo posito nihil
+     impossibile comitatur, sive enim falsa sit, erit vera negatio universalis, seu vera illa sit,
+     universalem negationem falsitas obtinebit. Quod fit ut falsa universali affirmatione,
+     universalis negatio, tum ei falsitate consonet, tum ab ea veritate discordet, quod non esse
+     impossibile superioribus docetur exemplis. Eodem quoque modo et si universalis negatio falsa
+     sit, particularem negationem, vel veram, vel falsam esse possibile est, neque idcirco aliquid
+     sequitur incongruum. Particulari <milestone n="Col. 776A" unit="page"/> namque negatione vera,
+     universalis affirmatio mentietur; eadem falsa, verum universalis affirmatio pronuntiat: quo fit
+     ut falsa universali negatione proposita, affirmationem universalem tum veram, tum falsam
+     rationis demonstret eventus, quod impossibile non est. Rursus si particulares falsae sunt,
+     universalis quoque falsitas sequitur. Nam si particularis affirmativa pronuntiet mendacium,
+     universali quoque affirmationi falsitas inhaerebit, nam si haec vera est, falsa erit ei
+     opposita negatio particularis; sed affirmationem particularem constituimus esse mendacem, simul
+     igitur particularis affirmatio et negatio falsa sunt, quod esse inconveniens praecedens
+     tractatus declaravit. Item, si particularis negatio falsa dicatur, universalis quoque
+     negationis falsitas consonabit: <milestone n="Col. 776B" unit="page"/> nam si negatio
+     universalis vera est, falsa est opposita, quae est affirmatio particularis, quomodo utrasque
+     particulares, affirmationem scilicet ac negationem, simul falsas esse contingit, quod fieri non
+     posse praediximus. At si vera sit affirmatio particularis, falsa vel vera universalis
+     affirmatio esse potest: sed si falsa sit particularis, negationem veram esse necesse est; si
+     vera sit, habebit particularis negativa mendacium. Sed cum vera sit affirmatio particularis,
+     negationem particularem vel falsam esse, vel veram nihil est impossibile. Rursus si negatio
+     particularis teneat veritatem, universalis negatio vel veritatem tenere potest, vel proferre
+     mendacium. Nam si vera est, oppositam affirmationem particularem falsam esse manifestum est; si
+     falsa est, veritatem particularis <milestone n="Col. 776C" unit="page"/> affirmativa custodiet:
+     quo fit ut si particularis negatio teneat veritatem, affirmatio particularis vera vel falsa
+     sit, quorum neutrum impossibile non esse praemissa docuerunt, atque haec quidem de
+     universalibus dicta sufficiant. Nunc de infinitis ac singularibus disseramus, quarum quidem
+     indefinitae sunt, quibus nulla significatio determinationis adiungitur, sed praeter universalis
+     et particularis intelligentiam quantitatis proferuntur, ut homo iustus est, homo iustus non
+     est, quibus tametsi ut, dictum est, nulla significatio determinationis adiungitur, vim tamen
+     obtinent particularium propositionum. Namque ut illae quas subcontrarias in priore descriptione
+     signavimus, alias quidem inter se verum falsumque distribuunt, alias quidem invicem veritate
+     conspirant, <milestone n="Col. 776D" unit="page"/> nunquam tamen simul videntur posse mentiri,
+     ita etiam indefinitae, siquidem tale est quod enuntiat quod subiecto semper inesse necesse sit,
+     affirmatio est vera, falsa negatio, ut in his propositionibus: homo animal est, homo animal non
+     est. At si id in indefinitis propositionibus efferatur quod subiecti natura non suscipit,
+     negatio quidem vera est, sed affirmatio iuncta est falsitati, ut si quis dicat: homo lapis est,
+     homo lapis non est, ut vero utraeque in pronuntianda falsitate consentiant, non potest
+     inveniri. Eadem tamen ab universalibus affirmativis atque negativis, ita dissentiunt, ut quoquo
+     modo subiecta permutes, una semper veritatis, altera sit semper plena mendacii. Exemplum vero
+     huiusmodi praedicati, <milestone n="Col. 777A" unit="page"/> quod subiecto semper inhaereat,
+     hoc est, omnis homo animal est, homo animal non est, nullus homo animal est, homo animal est.
+     Hic indefinitae vi eadem funguntur qua et particularis, huius vero quod nunquam inhaeret, hoc
+     est, omnis homo lapis est, homo lapis non est. Nullus homo lapis est, homo lapis est, in his
+     quoque indefinitae universalibus oppositae per unamquamque oppositionem unam veram, falsam
+     alteram reddiderunt, item quod suscipere subiecti naturam valeat et possit amittere. Omnis homo
+     iustus est, homo iustus non est. Nullus homo iustus est, homo iustus est, in his etiam
+     indefinitae particularibus immutatae sent, quae universalibus obiecta per unamquamque
+     propositionum adversitatem, uni semper verum, alteri divisere mendacium. <milestone
+      n="Col. 777B" unit="page"/> Praeterea quoquo modo terminorum exempla ponantur, si
+     affirmationes, affirmationibus, negationes negationibus comparemus, universalibus veris
+     indefinitarum veritas provenit, ut cum verae sent, omnem hominem esse animal, et nullum hominem
+     esse lapidem, constat veritas indefinitis quae proponent, et hominem animal esse, et hominem
+     lapidem non esse. At si universalium falsitas antecedat, indefinitarum vel veritas, vel
+     mendacium variabit, hoc modo. Falsa enim est universalis enuntiatio quae proponit omnem hominem
+     esse iustum, sed ea quae dicit hominem esse iustum, tenet in humanae naturae parte veritatem.
+     Nam si non habet omnis homo iustitiam, cum tamen aliquis habeat, vere dici potest hominem esse
+     iustum. Item, cum proponitur universaliter, <milestone n="Col. 777C" unit="page"/> nullus homo
+     iustus est, falsum est, at si id indefinite denegetur, a veritate non discrepat. Nam cum sit
+     aliquis homo non iustus, non mentietur qui pronuntiaverit hominem esse non iustum. Item cum sit
+     falsa quae universaliter affirmat dicens omnem hominem esse lapidem, falsa est quae idem
+     indefinita enuntiatione confirmat dicens hominem esse lapidem. Rursus cum sit falsa negatio per
+     quam proponitur nullum hominem esse animal, falsa est indefinita negatio quae pronuntiat
+     hominem non esse animal. Hic quoque particularium similitudo servata est. Nam in subalternis
+     vera universalitas veritatem particularitatis trahebat. Falsa vero universalitas nec veritatis,
+     nec mendacii necessitatem particularibus afferebat. Eadem omnia universalium atque <milestone
+      n="Col. 777D" unit="page"/> indefinitarum collatione proveniunt. Rursus indefinitas primum
+     falsas constet, universales quoque necesse est esse mendaces, ut si falsum sit esse hominem
+     iustum, falsum erit omnem hominem esse iustum, quandoquidem non capit veritatem, si iustus vel
+     unus homo non fuerit. Item, si indefinita negatio mentiatur, verum universalis negatio non
+     habebit, veluti si falsa sit ea quae dicit hominem non esse iustum, quandoquidem non potest
+     universaliter ab homine denegari, si vel uni hominum probabitur adesse iustitia. At si
+     indefinitae sententiam veritatis obtineant, universales tum veras, tum eveniet esse mendaces:
+     velut cum dicimus hominem esse iustum, verum est, est enim homo qui iustitia non careat.
+      <milestone n="Col. 778A" unit="page"/> Huius universalis negatio mentietur, cum quis dixerit
+     nullum hominem esse iustum. At si id affirmabitur indefinite quod a subiecto divelli secernique
+     non posit, vera nihilominus erit affirmativa quae proponit omnem hominem esse animal. At si id
+     quod subiecti naturam non recipit proponit indefinita negatio, veluti si dicat hominem lapidem
+     non esse, nihil ab eius veritate universalis negativa dissentiet, ut ea quae nullum animal esse
+     proponit. Nihil igitur dubium est indefinitae particularibus esse consimiles, eamdemque vim
+     veritatis ac falsitatis significationibus obtinere: de quibus sufficienter dictum est. Nunc de
+     singularibus explicemus, quae nihil superioribus similes exstant. Illae namque quoniam
+     constituebant universale subiectum, de quo praedicatum terminum <milestone n="Col. 778B"
+      unit="page"/> dicerent, idcirco suscipiebant etiam differentias quantitatis. Nam quod
+     universale est et universaliter et particulariter et indefinite poterit pronuntiari. At hae
+     quae unum aliquid ponunt, singulariter atque individue differentias quantitatis habere non
+     possunt, atque ideo sola in eis relinquitur discrepantia qualitatis, quod haec quidem
+     affirmatio, illa vero negatio. Semper igitur inter se affirmatio et negatio singularis verum
+     falsumque distribuent, si non caetera impediant quae sensum in alias atque in alias
+     significationes solent deflectere ac detorquere. Cum vero unum atque idem praedicatum atque
+     subiectum in affirmatione et negatione constiterit, uno eodemque sumptum tempore, uno eodemque
+     prolatum modo, ad unum atque idem relatum, de una atque eadem parte propositum, necesse est ex
+     his unam semper <milestone n="Col. 778C" unit="page"/> esse veram, alteram semper esse falsam.
+     Nam sive aequivocos terminos sumant, sive non ad idem tempus procedant, sive alius utrisque
+     insit modus, sive ad alias partes vel ad aliquid aliud referantur, veras utrasque esse
+     contingit. Age enim aequivocum terminum sumat affirmatio, dicatque, Cato Vticae se peremit,
+     negetque negatio, Cato se Vticae non peremit. Hic igitur utraeque sunt verae, quoniam Cato
+     aequivocum est. Namque Cato praetorius Vticae sibi manus intulit, Cato vero censorius minime.
+     Item proponatur affirmativa hoc modo, Nocte lucet, negatio respondeat, Nocte non lucet. Hic
+     igitur lucere aequivocum est. Atque ideo nihil impedit quominus utraeque in veritate
+     permaneant. Affirmatio namque <milestone n="Col. 778D" unit="page"/> cum dicit lucere nocte,
+     lunae loquitur lucem. Illa vero cum negat, de solis luce significat. Hic igitur aequivocum
+     praedicatum utrasque verum conservare permisit. Item si quis de Socrate proponat dicens,
+     Socrates sedet, atque alius neget, Socrates non sedet, utraeque verae esse queunt, si ad
+     diversa tempora referantur. Potest enim nunc quidem Socrates sedere, alio vero tempore non
+     sedere. Rursus si quis humani oculi colorem nigrum esse confirmet, aliusque nigrum non esse
+     contendat, utrique verum loquentur, si ad singulas oculi partes affirmatio negatioque
+     referantur. Nam quod circa orbem est qui medius pupulam tenet, album est. Ipse vero orbis niger
+     visitur. Rursus si de Socrate inter duos locato <milestone n="Col. 779A" unit="page"/> quis
+     dixerit: Socrates dexter est, aliusque respondeat, Socrates dexter non est, utrisque constare
+     veritas potest. Ad eum qui cum sinistra Socratis est, dexter est. Ad eum vero cuius laevo
+     lateris pars Socratis dextra coniungitur, dexter non est. Item, si quis ovum animal esse
+     constituat, aliusque ovum animal esse neget, utraeque a veritate non dissonant: namque ovum
+     potestate animal est, actu animal non est. Ita igitur inter se singularium subiectorum
+     propositiones verum falsumque distribuent, ut unam veritatem necesse sit habere, alteram
+     mendacium, si neque quod subiectum est, neque quod praedicatum, aliqua sit aequivocatione
+     confusum ad idem tempus, ad easdem partes, ad eumdem modum, eamdemque rem ad quam affirmatio
+      <milestone n="Col. 779B" unit="page"/> retulit ea quae proponuntur in negatione afferatur, ut
+     si quis de Socrate pronuntiet, Socrates calvus est, Socrates calvus non est. Si igitur de
+     Socrate eodem affirmatio negatioque proponant, si eamdem calvitii significationem affirmatio
+     sumpserit et negatio, si eamdem utraeque capitis partem loquantur, si vel actum utraeque
+     potestatemve significent, si nulla diversitate temporis erretur, si non ad alium affirmatio,
+      <milestone n="Col. 780A" unit="page"/> ad alium negatio referatur, una semper veritati
+     coniuncta est, retinet semper altera falsitatem. Quoniam de ea convenientia propositionum quae
+     utrisque simplicibus terminis eodemque ordine captaretur explicui, nunc de ea participatione
+     dicendum est quae et utrosque terminos et eumdem ordinem servat; hoc autem (ut dictum est)
+     tribus contingere modis potest, aut enim praedicatus tantum, aut subiectus terminus, aut
+     uterque cum negatione proponitur. At tum enuntiatio vel ab infinito subiecto, vel ab infinito
+     praedicato, vel ab infinitis utrisque consistit. Quoties enim nomini negatio subiungitur, nomen
+     redditur infinitum. Atque ideo per oppositionem participatio fieri dicitur. Nomini enim
+     simplici semper infinitum nomen opponitur, ut homo, non homo, <milestone n="Col. 780B"
+      unit="page"/> animal, non animal, et caetera: quae cum ita sint, disponantur simplices, atque
+     ex earum natura caeteras colligamus. Primo igitur propositionum series describatur, ea scilicet
+     quae utrisque iungitur finitis, propositisque simplicibus ita ex infinitis omnibus copulatarum
+     propositionum ordo iungatur, ut affirmationes affirmationibus, negationes negationibus,
+     adversis frontibus collocentur.</p>
+    <p><hi rend="bold">Simplices, Ex utrisque terminis infinitis</hi></p>
+    <p>Omnis homo rationalis est, Omnis non homo non rationalis est.<lb/> Nullus homo rationalis
+     est, Nullus non homo non rationalis est.<lb/> Quidam homo rationalis est, Quidam non homo non
+     rationalis est.<lb/> Quidam homo rationalis non est, Quidam non homo non rationalis non
+     est.</p>
+
+    <p>Omnis homo grammaticus est, Omnis non homo non grammaticus est.<lb/> Nullus homo grammaticus
+     est, Nullus non homo non grammaticus est.<lb/> Quidam homo grammaticus est, Quidam non homo non
+     grammaticus est.<lb/> Quidam homo grammaticus non est, Quidam non homo non grammaticus non
+     est.</p>
+
+    <p>Omnis homo lapis est, Omnis non homo non lapis est.<lb/> Nullus homo lapis est, Nullus non
+     homo non lapis est.<lb/> Quidam homo lapis est, Quidam non homo non lapis est.<lb/> Quidam homo
+     lapis non est, Quidam non homo non lapis non est.</p>
+
+    <p>Omnis homo iustus est, Omnis non homo non iustus est.<lb/> Nullus homo iustus est, Nullus non
+     homo non iustus est.<lb/> Quidam homo iustus est, Quidam non homo non iustus est.<lb/> Quidam
+     homo iustus non est, Quidam non homo non iustus non est.</p>
+
+    <p>Omnis homo risibilis est, Omnis non homo non risibilis est.<lb/> Nullus homo risibilis est,
+     Nullus non homo non risibilis est.<lb/> Quidam homo risibilis est, Quidam non homo non
+     risibilis est.<lb/> Quidam homo risibilis non est, Quidam non homo non risibilis non est.</p>
+
+    <p><milestone n="Col. 779C" unit="page"/> Harum igitur talis est consocianda falsitate vel
+     veritate proprietas, ut affirmationes quidem inter se universales particularesque negationes
+     vel in veritate vel in mendacio consentire queant, vel verum inter se falsumque dividere. Si
+     quid enim de subiecto tale praedicetur quod vel de subiecto nequeat segregari, ut ab homine
+     rationabilitas, vel a subiecto quidem recedere queat, sed subiecti naturam non possit aequare,
+     ut hominis grammaticus, unam veram, alteram falsam esse proveniet. Nam qui dicit, omnis homo
+     rationalis est, verum loquitur, et qui dixerit, omnis non homo non rationalis est mentietur.
+     Divinae namque substantiae rationis quidem compotes sunt, sed homines non sunt. Item si quis
+      <milestone n="Col. 780C" unit="page"/> pronuntiet, omnis homo grammaticus est, falsum dixerit.
+     At qui proponit, omnis non homo non grammaticus est, verum dixerit. Nam qui homo non est,
+     grammaticus esse non potest. At si id de subiecto praedicetur quod vel nunquam subiecto valeat
+     convenire, ut lapis homini, vel conveniens ab eo possit abscedere, cum sit maius atque
+     universalius subiecto, ut iustitia homini, simul utrisque falsitas provenit. Nam si quis dicit,
+     omnis homo lapis est, falsam fecerit propositionem. Eodem quoque modo qui dixerit, omnis non
+     homo non lapis est, cum silex homo non sit, sed lapis. Item propositio, omnis homo iustus est,
+     falsa est, cuius sequitur falsitatem, omnis non homo non iustus est. Nam <milestone
+      n="Col. 781A" unit="page"/> divinis substantiis adest semper iustitia, cum non sit humanitas.
+     At si quid tale de subiecto praedicetur quod et semper ei copuletur, neque tamen subiectum
+     possit excedere, ut risibile homini, utrinque sententia in significandi veritate concurrit,
+     omnis homo risibilis est, vera est, omnis non homo non risibilis est, haec retinet veritatem.
+     Nam quia risibile hominis proprium est, recte dicitur non esse risibile quidquid homo non
+     fuerit. Eadem omnia in particulari negatione redduntur. Nam sive quae sunt maiora subiecto
+     atque ab eo discedere nequeunt, ut rationabilitas ab homine, vel quae discedunt quidem, sed
+     sunt maiora subiecto, ut grammaticus homine, de subiecto praedicentur, unam veram, alteram
+     falsam faciunt. Nam qui dicit, quidam homo rationalis <milestone n="Col. 781B" unit="page"/>
+     non est, falsum proposuit; qui vero respondet, quidam non homo non rationalis non est, verum
+     loquitur. Divina quippe substantia non est quidam homo, sed carere non potest humanae ratione
+     naturae. Item, quidam homo grammaticus non est, vera est, sed falsa est si dicam, quidam non
+     homo non grammaticus non est. Cum illud sit verius, quoniam qui homo non fuerit, non potest
+     esse grammaticus. At si quae vel nunquam de subiecto possunt vere praedicari, ut lapis de
+     homine, vel praedicantur quidem et sunt maiora subiecto, sed ab eo discedere separarique
+     patiuntur, ut iustitia ab homine, veras protinus utrasque conservant. Nam qui dicit, quidam
+     homo lapis non est, verum dixerit. At si quis respondeat, quidam non homo non <milestone
+      n="Col. 781C" unit="page"/> lapis non est, is quoque verum dixerit; si quidem de silice vel de
+     huiusmodi caeteris velit intelligi, quae cum non sint homines, non lapides non sunt. Item,
+     quidam homo iustus non est, propositio veritatem tenet. Sed ne illa quidem falsa est quae
+     proponit quemdam non hominem non iustum non esse; hoc enim, ut dictum est, divinis substantiis
+     invenitur, ut iustitiam teneant, quamvis ab hominis diffinitione seiunctae sunt. Item, si id
+     quod abesse non potest, et sit aequale subiecto, de eodem subiecto praedicetur, ut risibile
+     homini, incurrit utrisque mendacium. Nam quidam homo risibilis non est, falsa est, cuius
+     falsitati sese aemulam praestat quae proponit, quidam non homo non risibile non est, <milestone
+      n="Col. 781D" unit="page"/> quasi qui homo non sit possit esse risibilis. Ita <milestone
+      n="Col. 782A" unit="page"/> igitur quidem in affirmationibus universalibus et particularibus
+     negativis veritas falsitasque et simul aliquoties invenitur, et inter utrasque dividitur.
+     Negationes vero universales et particulares affirmationes non simili respondent modo. Sed
+     negationes quidem universales, unam verum dicere, alteram falsam, simul utrasque falsas esse
+     possibile est. Simul autem veras nunquam esse contingit. Nam si id quod adesse subiecto non
+     potest, praedicetur, ut lapis homini, unam veram faciunt, alteram falsam, ut est, nullus homo
+     lapis est, vera est, falsa est quae proponit, nullus non homo non lapis est, omnia quippe
+     animalia praeter hominem ita non sunt lapides, sicut ab hominum natura seiuncta sunt. Quidquid
+     vero aliud de subiecto praedicetur, neutri constare <milestone n="Col. 782B" unit="page"/>
+     veritas potest: ut si quis proponat, nullus homo rationalis est, falsum dixerit; aliusque
+     respondeat, nullus non homo non rationalis est, hanc quoque convincit ratio mentiri, equus
+     quippe non homo est, nec eum quis dixerit rationis esse participem; ut autem simul verae sint,
+     nullus poterit terminus approbare. Particulares autem affirmativae in differentiam veritatis
+     falsitatisque discedunt, quoties aliquid tale de subiecto dicitur, quod nunquam possit adesse
+     subiecto, ut lapis: nam si quis enuntiet, quidam homo lapis est, falsa propositio est; at si
+     quis respondeat, quidam non homo non lapis est, tenet contrariam veritatem, equus quippe non
+     homo est, nec lapis esse dicetur. Quidquid vero aliud de subiecto praedicabitur, est eas in
+     veritatis <milestone n="Col. 782C" unit="page"/> significationem convenire, ut, quidam homo
+     rationalis est, vera est, quidam non homo non rationalis est, huic quoque veritas constat,
+     equus quippe non homo est, nec ratione subsistit; ut vero simul falsae sint, nullis reperietur
+     exemplis. Ad hunc igitur modum et de caeteris quae vel subiectum vel praedicatum retinent
+     infinitum, ad veritatis falsitatisque consensum enuntiationum proprietas consideranda est, de
+     quibus modo breviter quid eveniat tetigisse sufficiat, singula vero lectoris exploranda
+     diligentiae, et per convenientes terminos rimanda permittimus. Disponantur igitur propositiones
+     quae ex utrisque simplicibus terminis constant, easque quarum subiectum tantum abnuatur ex
+     adversa parte respiciant.</p>
+
+    <p><hi rend="bold">Simplices, Ex subiectis finitis.</hi></p>
+
+    <p>Omnis homo rationalis est, Omnis non homo rationalis est.<lb/> Nullus homo rationalis est,
+     Nullus non homo rationalis est.<lb/> Quidam homo rationalis est, Quidam non homo rationalis
+     est.<lb/> Quidam homo rationalis non est, Quidam non homo rationalis non est.</p>
+
+    <p>Omnis homo risibilis est, Omnis non homo risibilis est.<lb/> Nullus homo risibilis est,
+     Nullus non homo risibilis est.<lb/> Quidam homo risibilis est, Quidam non homo risibilis
+     est.<lb/> Quidam homo risibilis non est, Quidam non homo risibilis non est.</p>
+
+    <p>Omnis homo iustus est, Omnis non homo iustus est.<lb/> Nullus homo iustus est, Nullus non
+     homo iustus est.<lb/> Quidam homo iustus est, Quidam non homo iustus est.<lb/> Quidam homo
+     iustus non est, Quidam non homo iustus non est.</p>
+
+    <p>Omnis homo grammaticus est, Omnis non homo grammaticus est.<lb/> Nullus homo grammaticus est,
+     Nullus non homo grammaticus est.<lb/> Quidam homo grammaticus est, Quidam non homo grammaticus
+     est.<lb/> Quidam homo grammaticus non est, Quidam non homo grammaticus non est.</p>
+
+    <p>Omnis homo lapis est, Omnis non homo lapis est.<lb/> Nullus homo lapis est, Nullus non homo
+     lapis est.<lb/> Quidam homo lapis est, Quidam non homo lapis est.<lb/> Quidam homo lapis non
+     est, Quidam non homo lapis non est.</p>
+
+    <p><milestone n="Col. 783A" unit="page"/> In harum igitur affirmationibus quidem universalibus
+     veritas et falsitas distribuitur, si quid tale de subiecto praedicetur quod abesse non possit,
+     sive illud maius sit, ut animal homine, sive aequale, ut risibile homini. In his enim unam
+     veram, alteram falsam esse necesse est, quidquid vero praeter ea fuerit praedicatum, unam
+     semper veritas, alteram semper falsitas non sequetur: ut autem simul verae sint nequit ostendi.
+     Particularium vero in affirmationibus quidem, siquidem ea praedicentur quae valeant transire
+     subiectum, sive ab eo separari nequeunt, ut animal ab homine, seu possint, ut iustitia ab
+     homine, <milestone n="Col. 784A" unit="page"/> loquitur utraque vera sententia. Quidquid vero
+     praeter ea fuerit praedicatum, unam veritas, alteram falsitas tenet; falsae vero simul nequeunt
+     inveniri. Negationes vero particulares siquidem id praedicent quod a subiecto non possit
+     abscedere, sive illud maius sit, ut rationale homine, seu aequale, ut risibile homini, uni
+     constabit veritas, altera mentietur. Si quid vero praeter ea fuerit praedicatum, veras semper
+     utrasque constat, ut in eas communis falsitas nunquam possit incidere. Item disponantur in
+     ordinem primum quidem simplices, has e regione respiciant quae subiecto simplici denegantur
+     praedicato.</p>
+
+    <p><hi rend="bold">Simplices, Ex infinito praedicato.</hi></p>
+
+    <p>Omnis homo lapis est, Omnis homo non lapis est.<lb/> Nullus homo lapis est, Nullus homo non
+     lapis est.<lb/> Quidam homo lapis est, Quidam homo non lapis est.<lb/> Quidam homo lapis non
+     est, Quidam homo non lapis non est.</p>
+
+    <p>Omnis homo animal est, Omnis homo non animal est.<lb/> Nullus homo animal est, Nullus homo
+     non animal est.<lb/> Quidam homo animal est, Quidam homo non animal est.<lb/> Quidam homo
+     animal non est, Quidam homo non animal non est.</p>
+
+    <p>Omnis homo risibilis est, Omnis homo non risibilis est.<lb/> Nullus homo risibilis est,
+     Nullus homo non risibilis est.<lb/> Quidam homo risibilis est, Quidam homo non risibilis
+     est.<lb/> Quidam homo risibilis non est, Quidam homo non risibilis non est.</p>
+
+    <p>Omnis homo iustus est, Omnis homo non iustus est.<lb/> Nullus homo iustus est, Nullus homo
+     non iustus est.<lb/> Quidam homo iustus est, Quidam homo non iustus est.<lb/> Quidam homo
+     iustus non est, Quidam homo non iustus non est.</p>
+
+    <p>Omnis homo grammaticus est, Omnis homo non grammaticus est.<lb/> Nullus homo grammaticus est,
+     Nullus homo non grammaticus est.<lb/> Quidam homo grammaticus est, Quidam homo non grammaticus
+     est.<lb/> Quidam homo grammaticus non est, Quidam homo non grammaticus non est.</p>
+
+    <p><milestone n="Col. 783B" unit="page"/> Harum igitur affirmationes universales, siquidem
+     praedicent quod subiecto nequeat convenire, ut lapis homini, vel a subiecto, cum sit aequale
+     vel sit maius, non possit abscedere, ut animal vel risibile ab homine, unam semper necesse est
+     veritatem, alteram proferre mendacium: quidquid vero praeter ea fuerit praedicatum, utrisque
+     falsitas invenitur, ut ad veritatem convenire non possint. Negationes vero universales siquidem
+     id de subiecto praedicent quod subiecto adesse possit et abesse, ita ut excedat, ut virtus
+     hominem, vel id quod adesse quidem queat, sed non possit adaequare subiectum, ut grammaticus
+     hominem, utraeque in falsitate communicant. Quidquid vero aliud fuerit praedicatum, unam
+     veritas, alteram falsitas consequetur; ut autem simul verae sint, <milestone n="Col. 783C"
+      unit="page"/> nequit ostendi. Particularium vero affirmationes quidem simul verae sunt, si id
+     quod vel adesse possit <milestone n="Col. 784B" unit="page"/> vel abesse praedicetur, sive
+     illud maius sit, ut iustitia homine, seu minus, ut grammaticus ab homine. Si quid vero aliud
+     fuerit praedicatum, veritas in eas ac falsitas distribuitur, ita ut nunquam communem consoneat
+     falsitatem. Particulares quoque negativae in similibus terminis veritate concordant. Nam si
+     quod adesse vel abesse potest, sive illud maius sit, ut iustus ab homine, sive minus, ut
+     grammaticus ab homine, de subiecto praedicetur, veritas utrisque constabit. In aliis vero
+     cunctis praedicationibus uni veritas, alteri falsitas cedit. Nunquam tamen utraeque in prodenda
+     falsitate consentient. Praeter hanc autem inter se convenientiam propositionum, habent aliquid
+     hae proprium quae praedicatum adiecta negatione pronuntiant, quod caeteris inesse non possit.
+      <milestone n="Col. 784C" unit="page"/> Affirmationes namque negationibus, negationesque
+     affirmationibus, quarum universalis est propositio, <milestone n="Col. 785A" unit="page"/>
+     itemque particulares affirmationes negationibus, negationes affirmationibus ita conveniunt, ut
+     nunquam neque in falsitate, neque in veritate discordent. Convenientium <milestone
+      n="Col. 786A" unit="page"/> autem ordinem seriemque describimus, quas si quis in superius
+     posita respexerit, videbit angulariter conversas.</p>
+
+    <p>Omnis homo rationalis est, <hi rend="bold">Conveniunt:</hi> Nullus homo non rationalis
+     est.<lb/> Omnis homo non rationalis est, <hi rend="bold">Conveniunt:</hi> Nullus homo
+     rationalis est.<lb/> Quidam homo non rationalis est, <hi rend="bold">Conveniunt:</hi> Quidam
+     homo rationalis non est.<lb/> Quidam homo rationalis est, <hi rend="bold">Conveniunt:</hi>
+     Quidam homo non rationalis non est.</p>
+
+    <p><milestone n="Col. 785A" unit="page"/> Quod idcirco in his tantum videtur evenire, quod de
+     eodem subiecto uterque intelligitur ordo oppositionis. Nam quae dicit, omnis homo rationalis
+     est, de homine rationale praedicavit; item quae proponit, omnis homo non rationalis est, de
+     eodem homine rationale seiunxit, ut merito simplices affirmationes negationi consentiant. At
+     non in aliis intelligitur idem esse subiectum. Nam et illa quae proponit omnem <milestone
+      n="Col. 785B" unit="page"/> non hominem esse rationalem, et illa quae enuntiat omnem non
+     hominem esse non risibilem, de homine non loquuntur, sed quolibet alio quod hominis negatione
+     relinquitur. Atque ideo velut extraneae atque a semet alienae, nec in veritate possident
+     aliquam nec in falsitate concordiam. Indefinitas autem propositiones, quoniam particularibus
+     similes esse monstravimus, adiungendas superioribus non putavi. Id enim indefinitis necesse est
+     evenire, quod particularibus solet incurrere. Expeditis igitur his propositionibus quae ex
+     utrisque communicant terminis atque eodem ordine collocatis, nunc eam propositionum
+     convenientiam vel participationem loquamur, quae in utrisque quidem terminis convenientia, sed
+     ordinis commutatione consistunt, cuius disceptationis <milestone n="Col. 785C" unit="page"/>
+     hic finis est, de propositionum conversione docuisse; quid enim est aliud propositiones mutato
+     ordine convenire utrisque terminis, nisi propositiones converti? Converti autem vel sibi vel
+     aliis propositiones dicuntur, quoties, mutato ordine terminorum, id est quod subiectum fuerat
+     praedicato et quod praedicabatur ante subiecto, veritatem simul obtinent vel falsitatem. De
+     quibus plenissime hic disputandi sumemus exordium. Quatuor propositiones esse praediximus, quae
+     habeant differentias quantitatum et utrisque terminis absque ordinis permutatione participant.
+     Hae vero sunt affirmatio universalis, negatio universalis, affirmatio particularis, negatio
+     particularis. Harum igitur particularis affirmatio particulariter quidem sibi ipsa convertitur,
+      <milestone n="Col. 785D" unit="page"/> universali autem affirmationi per accidens, et rursus
+     universalis negatio, loco principe sui recipit conversionem, ad particularem vero negationem
+     per accidens converti potest. Affirmationis vero universalis ad se ipsam perpetua non potest
+     esse conversio, ad particularem vero affirmationem per accidens potest. Nec vero negationis
+     particularis ad se ipsam principaliter stabilis ac firma conversio est, sed negationi
+     universali secundo loco atque accidentaliter. Quae omnia facilius declarantur exemplis.
+     Affirmatio enim particularis, ut ea quae proponit, quidam homo albus est, facile sibi ipsa
+     convertitur, si dicamus, quoddam album homo est, atque in utrisque simul veritas constat. At si
+     quis proponat quemdam hominem esse lapidem, <milestone n="Col. 786A" unit="page"/> eamque
+     convertat dicens quemdam lapidem esse hominem, mansit in utrisque mendacium. Hoc igitur modo
+     affirmatio particularis sui recipit conversionem. Item negatio universalis converti potest, ut
+     si quis enuntiet nullum hominem esse lapidem, eamdemque conversis terminis dicat nullum lapidem
+     esse hominem, simul veritatem tuentur. At si quis <milestone n="Col. 786B" unit="page"/> dicat
+     nullum hominem esse animal, atque eamdem sub terminorum conversione proponat dicens nullum
+     animal esse hominem, neutra suam perdidit falsitatem. Hoc igitur modo universalis quoque
+     negatio sibi ipsa convertitur, universalis vero affirmatio non tenet perpetuam conversionem:
+     quamvis enim quoties de speciebus propria praedicantur converti universales affirmationes
+     queant, ut si quis dicat omnis homo risibilis est, poterit terminorum ordinem permutare, omne
+     risibile esse hominem, tamen non est haec aequalis atque in omnibus terminis fida conversio.
+     Quid enim cum quis ita proponit, omnis homo animal est? Nunquid convertere vere potest, ut omne
+     animal hominem esse pronuntiet? Quare cum aliquoties universalis affirmatio conversa propriam
+     non teneat veritatem, dicitur conversionis <milestone n="Col. 786C" unit="page"/> naturam non
+     posse suscipere. Negatio quoque particularis interdum videtur posse converti, veluti si quis
+     enuntiet quemdam hominem lapidem non esse, verum loquetur, cum dixerit quemdam lapidem hominem
+     non esse; sed est instabilis et incerta conversio: nam cum quidam homo grammaticus non sit,
+     falsum est dicere quemdam grammaticum hominem non esse. Ita igitur haec quoque conversio
+     protinus a sua veritate deficit. Superius igitur propositarum quatuor enuntiationum duae quidem
+     oppositae, id est particularis affirmatio et universalis negatio, conversionem sui firmam
+     perpetuamque suscipiunt; duae vero oppositae, id est affirmatio universalis et negatio
+     particularis, conversionis non tenent firmitatem, sed quia universalis affirmatio, quae in sui
+      <milestone n="Col. 786D" unit="page"/> conversione videtur instabilis, si vera est,
+     particularem quoque affirmationem veram esse necesse est. Si autem particularis affirmatio
+     conversa non amittit propriam veritatem, universalis quoque affirmatio conversa particulari
+     affirmationi eamdem veritatem sonabit, velut his exemplis probabitur. Si quis enim proponat
+     omnem hominem esse animal, verum dixerit, huius subalterna particularis affirmatio quemdam
+     hominem esse animal, ea quoque vera est, quoniam universalis affirmationis veritas antecessit.
+     Sed eamdem converti sibi verissime potest, dicitur enim quoddam animal esse hominem. Quocirca
+     affirmatio universalis quae proponit omnem hominem esse animal, et conversa particularis
+     affirmatio <milestone n="Col. 787A" unit="page"/> quae pronuntiat quoddam animal esse hominem,
+     utraeque simul a veritatis significatione non deficiunt. Ita igitur universalis affirmatio,
+     quae sui conversionem perpetuam ferre non poterat, per accidens particulari affirmationi
+     conversa est. Per accidens autem ideo quoniam particularis affirmatio principe sibi ipsa loco
+     convertitur, conversae autem particulari affirmationi universalis affirmatio eamdem retinet in
+     veritate sententiam. Eadem ideo est etiam universalis negationis, quae quoniam ipsa
+     principaliter converti potest, conversaeque negationi universali illa quae subalterna est
+     eamdem veritatis refert sententiam. Particularis negatio conversa ad veritatis significationem
+     poterit convenire, ut si quis nullum hominem esse lapidem confirmet, et huius <milestone
+      n="Col. 787B" unit="page"/> conversio est, nullum lapidem esse hominem, quae cum vera
+     praecedat, subalternae particularis negativae perficit veritatem: ea vero est, quidam lapis
+     homo non est, quae comparata universali negationi quae dicit nullum hominem esse lapidem,
+     quamvis terminis discrepans, tamen similis veritate proponitur. Igitur particularis negatio,
+     quae sibi ipsi converti non poterit, universali negationi per accidens converti potest. Per
+     accidens autem idcirco quoniam universalis negatio in se ipsam priore loco converti potest. Per
+     conversionem autem sui cum particulari negationi similem veritatis videtur obtinere sententiam.
+     Itaque concludendum est particularem quoque affirmationem universalemque negationem
+     convertionem sui firmam ac stabilem custodire. Affirmationem <milestone n="Col. 787C"
+      unit="page"/> autem universalem particularemque negationem in convertendo firmas esse non
+     posse, sed hanc affirmationi particulari, illam universali negationi per accidens, posse
+     converti. Restat nunc de ea propositionum convenientia vel participatione disserere, in qua
+     utrinque terminorum ordine permutato, uni vel utrique eorum negativum copulatur adverbium.
+      <milestone n="Col. 788A" unit="page"/> Atque in his enuntiationibus converti termini per
+     oppositionem dicuntur, unusquisque enim terminorum negatione praeposita terminis simpliciter
+     pronuntiatis videtur oppositus. Huius vero participationis est triplex modus: aut enim
+     praedicato tantum termino, negatio iungitur, aut subiecto, aut utrique termini denegantur.
+     Primum igitur supposita descriptione pandantur exempla. Post autem quemadmodum se habent ad
+     veritatis falsitatisve consensum consequentis ordine disputetur. Ac primum quidem de hac
+     disseremus cuius subiectum praedicatumque negatur. Post vero cuius subiectum solum, postremo
+     cuius qui praedicatur terminus cum negatione profertur. Atque earum quidem naturam atque
+     ordinem ex simplicibus informabimus. Simplices autem, in quantitatum <milestone n="Col. 788B"
+      unit="page"/> differentiis constitutas, quatuor esse monstravimus. Sit igitur prima quidem
+     affirmatio universalis, quae proponat omnem hominem esse animal; adversum hanc collocetur
+     affirmatio universalis, quae non solum conversis terminis enuntietur, verum in uno quoque
+     termino negativum adverbium habeat adiunctum hoc modo, omne non animal non homo est. Rursus
+     proponatur universalis negatio, ea quae est, nullus homo animal est; huic adversum teneat locum
+     universalis negatio terminis cum negatione conversis, id est nullum non animal non homo est.
+     Item sit particularis affirmatio simplex, quidam homo animal est; huic terminus atque ex
+     adverso referatur particularis affirmatio, quae, commutatis in ordinem terminis, negationes
+     utrisque gestet oppositas, ut est <milestone n="Col. 788C" unit="page"/> quoddam non animal non
+     homo est. Item sit particularis simplex negatio quae proponat quemdam hominem animal non esse;
+     hanc ex adverso respiciat particularis negatio, quae, permutatis ad ordinem terminis, adverbium
+     negationis adiecerit, ut est, quoddam non animal non homo non est.</p>
+
+    <p><hi rend="bold">Simplices, Conversae utrisque infinitis.</hi></p>
+
+    <p>Omnis homo animal est, Omne non animal non homo est.<lb/> Nullus homo animal est, Nullum non
+     animal non homo est.<lb/> Quidam homo animal est, Quoddam non animal non homo est.<lb/> Quidam
+     homo animal non est, Quoddam animal non homo non est.</p>
+
+    <p><milestone n="Col. 787C" unit="page"/> Sed quanquam huiusmodi participationis plures esse
+     differentias noverimus, ad instructionem tamen Categoricorum Syllogismorum de hac tantum
+     proposuisse sufficiat, quarum quidem propositionum pars ex simplicibus nominibus constat, pars
+     vero ex infinitis. Nam propositio universalis, quae est, omnis homo animal est, ex utrisque
+     nominibus finitis constat. Namque et homo et animal finita nomina esse manifestum est. Ea vero
+     affirmatio quae proponit omne non animal non hominem esse infinitorum terminorum positione
+     coniuncta est. Non animal enim et non homo nomina esse infinita, in nominis definitione
+     praediximus, quae quidem sese ad veritatis falsitatisque rationem sic habent, ut enim
+     negationibus adiunctis infinita nomina simplicibus opponuntur, ita etiam conversio
+     propositionum econtrario contingit quam paulo ante in simplicibus habebatur. <milestone
+      n="Col. 788C" unit="page"/> In illis enim affirmatio universalis particularisque negatio
+     conversionem stabilem non tenebant. Affirmatio autem particularis atque universalis negatio
+      <milestone n="Col. 788D" unit="page"/> conversae certissime tuebantur vel in veritate, vel in
+     falsitate consensum. Hic omne diversum est. Vniversalis namque affirmatio et particularis
+     negatio per oppositionem sibi ipsa convertitur, universalis autem negationis et particularis
+     affirmationis non est ad veritatis falsitatisve consensum fida conversio. Ac primum de
+     universali affirmatione tractemus, quae cum in simplicibus vera sit, veritatem quoque per
+     oppositionem conversa custodit, ut ea quae dicit omnem hominem esse animal, vera est, atque
+     illi per oppositionem convertitur, id est, omne non animal non homo est, eam quoque veram esse
+     necesse est. Propositionis autem huius ista sententia est, quoniam non est homo, quidquid
+     animal non est, quod verum <milestone n="Col. 789A" unit="page"/> esse nullus ignorat. Item si
+     sit falsa universalis affirmatio in simplicibus terminis constituta, falsa quoque eius per
+     oppositionem probabitur esse conversio: nam cum dicimus, omnis lapis animal est, falsa est,
+     atque illi per oppositionem convertitur, id est, omne non animal non lapis est, eam quoque
+     falsam esse necesse est. Id enim ex tali enuntiatione sentitur, quoniam quidquid animal non
+     fuerit, id lapis non est, quod apertissime falsum est, cum lapis ipse animal non sit; quod si
+     universalis affirmatio terminorum oppositionem conversa sibimet in veritate convenit et in
+     falsitate, non est dubium quin universalis simplex affirmatio stabili per oppositionem
+     conversione monstretur. Idem de simplici etiam particulari negatione dicemus. Nam cum haec
+     falsa est, ut <milestone n="Col. 789B" unit="page"/> ea quae dicit, quidam homo animal non est,
+     illa quoque falsitatem tenebit, quae huic terminorum oppositione convertitur, ut ea quae
+     proponit, quoddam non animal non homo non est. Id enim ex hac enuntiatione colligitur, quod res
+     quae non sit animal, sit homo. Etenim hoc est esse hominem, quod non esse non hominem. At si
+     vera sit negatio particularis ex simplicibus terminis iuncta, ut est quidam lapis animal non
+     est, non deerit veritas cum terminorum oppositione conversae quae proponit, quoddam non animal
+     non lapidem non esse. Id enim conversio ita significat, quod res quaedam quae animal non sit
+     lapis sit, hoc est enim esse lapidem quod non esse non lapidem; quod si particularis simplex
+     negatio per oppositiones propriae conversioni et in veritatis et in <milestone n="Col. 789C"
+      unit="page"/> falsitatis significatione concordat, non est dubium particularem simplicem
+     negationem certo sibi ac stabili modo per oppositionem terminorum posse converti. In negatione
+     vero universali non est perpetua neque fida conversio. Quod quidem fallere poterit, si quis ad
+     solam respiciat convenientiam falsitatis. Nam cum sit falsa simplex universalis negatio quae
+     proponit nullum hominem esse animal, falsa est quae ei per oppositionem convertitur, ut est,
+     nullum non animal non homo est. Id enim ex hac propositione monstratur, quoniam omne quod
+     animal non est, id homo est, hominem esse significat, quidquid animal non sit, quae proponit,
+     nullum esse non hominem, qui animal non sit. Sed hic in falsitate consensus ad veritatem usque
+     non pervenit. Age enim <milestone n="Col. 789D" unit="page"/> sit vera simplex universalis
+     negatio, nullus homo lapis est, non vera potest esse, nullus non lapis non homo est. Id namque
+     designat ista conversio, quoniam quidquid lapis non fuerit, id homo est; hominem namque esse
+     designat quod lapis non sit, qui pronuntiat nullum esse non hominem quod lapis non est, quod
+     apertissime falsum est; quamvis enim multa proferam quae cum lapides non sint, tamen ab hominum
+      <milestone n="Col. 790A" unit="page"/> natura seiuncta sunt, ut equus, arbor, atque alia
+     plurima. Si igitur negatio universalis per oppositionem propriae conversioni in falsitate
+     quidem convenit, nec tamen in veritate consentit, recte pronuntiatur conversionem perpetuam
+     atque aequabilem non habere. Eadem quoque ratio est in affirmatione simplici particulari. Nam
+     in hoc quoque saepe error deprehenditur, ut certae propositionum conversiones putentur, si quis
+     non ad falsitatis quoque, sed ad solam convenientiam veritatis aspiciat. Nam cum affirmatio
+     simplex particularis vera sit, ut est quidam homo animal est, si huius termini cum oppositione
+     convertantur, fiatque propositio, quoddam non animal non homo est, a veritate non discrepat.
+     Quid enim aliud enuntiatio ista designat quam esse rem aliquam quae cum <milestone
+      n="Col. 790B" unit="page"/> animal non sit, ne homo quidem sit, ut lapis simul et animalis et
+     hominis natura deficiat. Sed hic in veritate consensus ad falsitatem usque non tendit. Quid
+     enim si sit falsa simplex affirmatio particularis, ut est, quidam homo lapis est? Non erit eius
+     per oppositionem falsa conversio, quidam non lapis non homo est? Atqui haec firma veritate
+     consistit, id enim ex hac propositione datur intelligi quod sit quidam quod cum lapis non sit,
+     ne homo quidem sit, ut equus atque arbor, quae neque hominis, neque lapidis diffinitione
+     clauduntur. Quod si particularis affirmatio, dum per oppositionem convertitur, in veritate
+     quidem tenet secum ipsam concordiam, in falsitate autem sibimet ipsa dissentit, rectum est
+     pronuntiare quod termini negatione coniuncta conversionem firmam <milestone n="Col. 790C"
+      unit="page"/> stabilemque non teneant. Quare cum in simplicibus, ac praeter oppositionem
+     conversionibus, universalis quidem negatio particularisque affirmatio perpetua fidaque
+     terminorum permutatione vertantur, affirmatio vero universalis particularisque negatio minime,
+     dum per terminorum oppositionem simplex propositio sibi ipsa convertitur, omnia, ut dictum est,
+     adversa ratione contingunt, universalis namque affirmatio et particularis negatio firmam
+     negatarum partium retinent conversionem. Vniversalis autem negatio in falsitate quidem recte
+     sibi ipsa convertitur. In veritate autem sibi ipsa discordat. Particularis autem affirmatio in
+     veritate quidem sibi convenit, sed in falsitate dissentit. Similis autem contemplatio est in
+     his quae, converso ordine terminorum, <milestone n="Col. 790D" unit="page"/> praedicato tantum
+     vel subiecto sibi copulant negationem: in quibus, ut in superioribus quoque fecimus,
+     propositionum tantum ordinem describemus, et quid eveniat sub brevitate monstrabimus,
+     perquirenda atque examinanda singula lectoris diligentiae derelinquentes. Descriptis ergo
+     simplicibus ex adversa parte, quae, converso ordine, praedicatum cum negatione pronuntiant,
+     conferantur.</p>
+
+    <p><hi rend="bold">Simplices, Conversae de praedicato infinito.</hi></p>
+
+    <p>Omnis homo animal est, Omne animal non homo est.<lb/> Nullus homo animal est, Nullum animal
+     non homo est.<lb/> Quidam homo animal est, Quoddam animal non homo est.<lb/> Quidam homo animal
+     non est, Quoddam animal non homo non est.</p>
+
+    <p>Omnis homo iustus est, Omnis iustus non homo est.<lb/> Nullus homo iustus est, Nullus iustus
+     non homo est.<lb/> Quidam homo iustus est, Quidam iustus non homo est.<lb/> Quidam omo iustus
+     non est, Quidam iustus non homo non est.</p>
+
+    <p>Omnis homo grammaticus est, Omnis grammaticus non homo est.<lb/> Nullus homo gramaticus est,
+     Nullus grammaticus non homo est.<lb/> Quidam homo grammaticus est, Quidam grammaticus non homo
+     est.<lb/> Quidam homo grammaticus non est, Quidam grammaticus non homo non est.</p>
+
+    <p>Omnis homo lapis est, Omnis lapis non homo est.<lb/> Nullus homo lapis est, Nullus lapis non
+     homo est.<lb/> Quidam homo lapis est, Quidam lapis non homo est.<lb/> Quidam homo lapis non
+     est, Quidam lapis non homo non est.</p>
+
+    <p>Omnis homo risibilis est, Omne risibile non homo est.<lb/> Nullus homo risibilis est, Nullum
+     risibile non homo est.<lb/> Quidam homo risibilis est, Quoddam risibile non homo est.<lb/>
+     Quidam homo risibilis non est, Quoddam risibile non homo non est.</p>
+
+    <p><milestone n="Col. 791A" unit="page"/> Harum igitur in affirmationibus quidem universalibus
+     si ea de subiecto praedicentur quae et adesse et abesse contingant, sive illud subiecto maius
+     sit, ut iustitia homine, sive minus, ut grammaticus homine, vel si ea quae omnino adesse non
+     possunt, ut lapis homini, simul semper falsas esse necesse est. Si quid vero praeter haec
+     fuerit praedicatum, unam veram, falsam alteram esse proveniet, nunquam vero utrique veritas
+     consonabit. In negationibus vero universalibus siquidem ea de subiecto praedicentur quae a
+     subiecto valeant segregari, sive illa maiora sint, ut iustitia homine, sive minora ut eodem
+     homine grammaticus, utrisque aderit falsa sententia. Quidquid vero reliquorum fuerit
+     praedicatum uni verum, alteri faciet adesse mendacium. Nunquam vero in his concors veritas
+     invenitur. In particularibus vero affirmationibus siquidem ea praedicentur, quae <milestone
+      n="Col. 792A" unit="page"/> cum separari possint, tum vel maiora sunt, ut iustus homine, vel
+     minora, ut grammaticus homine, communis affirmationes veritas obtinebit. Alia vero quaelibet
+     praedicatio unam veram, alteram semper faciet esse mendacem, sed nunquam communiter mentientur.
+     In negationibus vero particularibus hic modus est, ut sive ea quae adesse non possunt, ut lapis
+     homini, sive quae possunt ac poterunt segregari, cum tamen eorum aliud maius sit, ut iustitia
+     homine, aliud minus, ut grammaticus homine, praedicentur, veritas utrisque constabit. Quidquid
+     vero absque his praedicabitur, veritatem uni, alteri dividet falsitatem, simul tamen falsas
+     esse non evenit. Item descriptio supponatur quae priore parte simplicibus collocatis, eas quae
+     converso ordine subiectum cum negatione proponunt contraria fronte constituat.</p>
+
+    <p><hi rend="bold">Simplices, Conversae de subiecto infinito.</hi></p>
+
+    <p>Omnis homo animal est, Omne non animal homo est.<lb/> Nullus homo animal est, Nullum non
+     animal homo est.<lb/> Quidam homo animal est, Quoddam non animal homo est.<lb/> Quidam homo
+     animal non est, Quoddam non animal homo non est.</p>
+
+    <p>Omnis homo risibilis est, Omne non risibile homo est.<lb/> Nullus homo risibilis est, Nullum
+     non risibile homo est.<lb/> Quidam homo risibilis est, Quoddam non risibile homo est.<lb/>
+     Quidam homo risibilis non est, Quoddam non risibile homo non est.</p>
+
+    <p>Omnis homo lapis est, Omnis non lapis homo est.<lb/> Nullus homo lapis est, Nullus non lapis
+     homo est.<lb/> Quidam homo lapis est, Quidam non lapis homo est.<lb/> Quidam homo lapis non
+     est, Quidam non lapis homo non est.</p>
+
+    <p>Omnis homo iustus est, Omnis non iustus homo est.<lb/> Nullus homo iustus est, Nullus non
+     iustus homo est.<lb/> Quidam homo iustus est, Quidam non iustus homo est.<lb/> Quidam homo
+     iustus non est, Quidam non iustus homo non est.</p>
+
+    <p>Omnis homo grammaticus est, Omnis non grammaticus homo est.<lb/> Nullus homo grammaticus est,
+     Nullus non grammaticus homo est.<lb/> Quidam homo grammaticus est, Quidam non grammaticus homo
+     est.<lb/> Quidam homo grammaticus non est, Quidam non grammaticus homo non est.</p>
+
+    <p><milestone n="Col. 793A" unit="page"/> Superius igitur descriptarum enuntiationum
+     affirmationes quidem universales, si ea de subiecto praedicentur quae ab eo nunquam valeant
+     amoveri, sive illud maius sit, ut animal homine, seu aequale, ut risibile homini, seu tale quod
+     subiecto nullo modo possit obtingere, ut lapis homini, uni veritatem dispartient, alteri
+     falsitatem. At si quod absque his praedicabitur, utrasque falsitas obtinebit, communi autem
+     propositionum veritati locus esse non poterit. At in negationibus quidem universalia et maiora
+     praedicentur, seu ea quae relinquere subiectum nequeant, ut animal hominem, seu quae possint,
+     ut iustitia hominem, utrisque falsitas inhaerebit. Alia quaelibet praedicamenta unam veram
+     faciunt, alteram falsam, ita ut communis utraeque veritatis non possint esse <milestone
+      n="Col. 793B" unit="page"/> participes. At in particularibus affirmationibus quidem, siquidem
+     maiora de subiecto praedicentur quae vel nunquam subiecti coniunctione discedant, ut animal
+     homine, vel etiam segregentur, ut iustitia ab homine, respondebit utraque veritatem; caeterae
+     vero <milestone n="Col. 794A" unit="page"/> praedicationes veritatem propositionibus
+     falsitatemve distribuunt in commune participantibus falsitatem. Particulares vero negationes,
+     siquidem ea praedicent quae possint a subiecto separari, sive illud maius sit, ut iustitia
+     homine, seu minus, ut grammaticus homine, veras utrasque esse necesse est. Si quid vero extra
+     praedicabitur, uni oportet verum, alteri adesse mendacium, ut simul falsae nequeant inveniri.
+     Atque haec quidem de his propositionibus quae cum determinatione proferuntur dicta sunt. Quae
+     vero indefinitae sunt, quoniam particularium proprietalibus adaequantur, eadem omnia comparatae
+     universalibus obtinebunt quae in superiore descriptione particularium propositionum ordo
+     servavit. Restarent subiectorum singularium propositiones, de quibus, quoniam <milestone
+      n="Col. 794B" unit="page"/> et longum est dicere, et nihil ad operis propositi affert
+     utilitatem, et sibi ipse exemplo earum quas superius proposuimus easdem lector inveniet,
+     praetreundum videtur.</p>
+   </div>
+
+
+  </body>
+ </text>
+
+</TEI>

@@ -1,0 +1,1126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Ars Grammatica</title>
+<author>Dositheus</author>
+<respStmt>
+<resp>transcodifica di base da rtf a xml-tei</resp>
+<name>Piero Colombo - Step srl</name>
+</respStmt>
+<respStmt>
+<resp>Testo</resp>
+<name>Marinone, GL-CD adeguato su ed. Bonnet</name>
+</respStmt>
+<respStmt>
+<resp>Adeguamento testo su nuova edizione</resp>
+<name>Gianmario Cattaneo</name>
+</respStmt>
+<respStmt>
+<resp>Controllo marcatura XML-TEI</resp>
+<name>Alice Borgna</name>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<publisher>digilibLT</publisher>
+<pubPlace>Vercelli</pubPlace>
+<date>2017</date>
+<availability>
+<p>
+<ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
+</p>
+</availability>
+<idno>DLT000159</idno>
+</publicationStmt>
+<sourceDesc>
+<p>Dosithée,<hi rend="italic">Grammaire latine</hi>, texte établi, trad. et
+ commenté par Guillaume Bonnet, Paris, Les Belles Lettres, 2005.</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+<projectDesc>
+<p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+<p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio
+ Lana</p>
+</projectDesc>
+<editorialDecl>
+<p>
+<hi rend="bold">Note di trascrizione e codifica del progetto digilibLT</hi>
+</p>
+<p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non
+ seguendone l'impaginazione. Sono stati invece esclusi dalla digitalizzazione
+ apparati, introduzioni, note e commenti e ogni altro contenuto redatto da
+ editori moderni.</p>
+<p>I testi sono stati sottoposti a doppia rilettura integrale per garantire la
+ massima correttezza di trascrizione</p>
+<p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di
+ riferimento per la distinzione u/v minuscole.</p>
+<p>Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+<p>Non è stata normalizzata la formattazione nell'intero<hi rend="italic"
+ >corpus</hi>: grassetto, corsivo, spaziatura espansa.</p>
+<p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/>
+ espunzioni:<![CDATA[<del>testo</del>]]> si visualizza [testo]<lb/>
+ integrazioni:<![CDATA[<supplied>testo</supplied> si visualizza<testo>]]>
+<lb/>
+<hi rend="italic">loci desperati</hi>:
+<![CDATA[<unclear>testo</unclear> o<unclear/> testo]]> si visualizzano †testo†
+ e †testo<lb/> lacuna materiale:<![CDATA[<gap/>]]> si visualizza [...]<lb/>
+ lacuna integrata dagli editori:
+<![CDATA[<supplied><gap/></supplied> si visualizza<...>]]>
+</p>
+<p>Sono stati marcati i termini in lingua greca
+<![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+</p>
+<p>Ulteriori informazioni sulle norme di trascrizione e codifica su<ref
+ target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+ >Note di trascrizione e codifica di testi latini tardoantichi
+ [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
+</p>
+</editorialDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="la">Latino</language>
+</langUsage>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<head>DOSITHEI ARS</head>
+<div type="cap" n="1">
+<p><milestone unit="page" n="p. 376 vol. VII Keil"/> Ars grammatica est scientia
+ emendati sermonis in loquendo et scribendo poematumque ac lectionis prudens
+ praeceptum. Grammaticus est qui uniuscuiusque rei uim ac proprietatem potest
+ explanare loquela.<lb/> Artis grammaticae officium constat partibus quattuor:
+ lectione, emendatione, enarratione, iudicio. Lectio est uaria cuiusque scripti
+ pronuntiatio seruiens dignitati personarum exprimensque habitum animi cuiusque.
+ Emendatio est recorrectio errorum, qui per scriptum dictionemue fiunt. Enarratio
+ est obscurorum sensuum quaestionumque narratio. Iudicium est quo poemata
+ ceteraque<milestone unit="page" n="p. 377 vol. VII Keil"/> scripta perpendimus
+ et discernimus. Artis grammaticae initia ab elementis surgunt, elementa
+ figurantur in litteras, litterae coguntur in syllabas, syllabis comprehenditur
+ dictio, dictiones coguntur in partes orationis, oratio in uirtutes ac uitia
+ descendit.<lb/> Artis grammaticae initia ab elementis surgunt, elementa
+ figurantur in litteras, litterae coguntur in syllabas, syllabis comprehenditur
+ dictio, dictiones coguntur in partes orationis, oratio in uirtutes ac uitia
+ descendit.</p>
+</div>
+<div type="cap" n="2">
+<head>2. DE ACCENTIBVS</head>
+<p>Accentus est uniuscuiusque syllabae proprius sonus, quem Graeci<foreign
+ xml:lang="grc">προσῳδίαν</foreign> dicunt. Accentus quasi accantus. Accentus
+ in Graeca lingua sunt VII, in Latina V: acutus, grauis, circumflexus, longus,
+ breuis. In omni parte orationis latinae item ut graecae, aut acutum aut
+ circumflexum accentum poni necesse est, nec amplius quam unum uel hunc uel
+ illum. Nam grauis ponitur in pluribus. Acutus cum apud Graecos tria loca teneat:
+ ultimam et paenultimam et ei proximam syllabam, apud nos duobus tantum locis
+ poni potest: in paenultima, ut praelegisti, aut in ea<milestone unit="page"
+ n="p. 378 vol. VII Keil"/>quae a fine sit tertia, ut praelegimus.
+ Circumflexus, si pars orationis trium aut amplius fuerit syllabarum, non ponitur
+ nisi paenultimum locum poterit inuenire, ut turbare. Monosyllaba, quaecumque
+ positione longa fuerint, acutum habebunt accentum, ut pix. Quae natura longa
+ erunt, circumflexo accentu pronuntiabuntur, ut res. In disyllabis, si prior
+ natura longa erit posteriore correpta, prior circumflectetur, ut hora, Roma; si
+ posterior producta sit, prior, seu longa seu breuis fuerit, acuatur necesse est,
+ ut leges, salus; et si ambae breues sint, acuetur prior, ut deus, homo. In
+ trisyllabis tetrasyllabisue aut quae plures syllabas habebunt, si paenultima
+ breuis fuerit, quae eam praecedit acuetur,<supplied>ut Tullius,
+ Hortensius</supplied>; si paenultima positione longa fuerit, ipsa acutum
+ habebit accentum, praecedentem autem grauem faciet, ut Catullus. Si paenultima
+ syllaba naturaliter producta erit, ita ut ultima breuis sit, paenultimam
+ circumflectemus, ut Cethegus; si autem longa fuerit ultima, paenultimae acutum
+ dabimus accentum,<supplied>ut Athenae, Fidenae</supplied>.</p>
+</div>
+<div type="cap" n="3">
+<p>
+<milestone unit="page" n="p. 379 vol. VII Keil"/>Graeca nomina si isdem litteris
+ proferentur, graecos accentus habebunt. Nam et cum dicimus<foreign
+ xml:lang="grc">Θυιάς Ναίς</foreign>, acutum habebit posterior accentum, et
+ cum<foreign xml:lang="grc">Θεμιστῶ Καλυψῶ</foreign>, ultimam circumflecti
+ uidemus. Quod utrumque latinus sermo non patitur, nisi admodum raro sensus
+ discernendi gratia, ut occurrit ergo coniunctio in qua posterior circumflexa
+ deprehenditur. Item aduerbium pone posteriore acutum recipit, ne sit uerbum.
+</p>
+</div>
+<div type="cap" n="4">
+<p>Est autem forma acuti accentus I obliqua in partem dexteram ascendens; grauis
+ accentus forma I obliqua in partem dexteram descendens. Circumflexum designat
+ accentum C deorsum spectans. Longum accentum transuersa I littera notant, breuem
+ C sursum spectante. Sed in illis sonos, in his tempora dinosci
+<supplied>uide</supplied>mus. Aspirationem H adscripta praestabit; si
+ adscripta non erit, siccitatem.<lb/> His adiciunt hyphen, cum duo uerba quasi
+ in unum pronuntiatione colligimus, et formam eius hanc faciunt: utriusque
+<milestone unit="page" n="p. 380 vol. VII Keil"/>uerbi proximas syllabas
+ inflexa subter uirgula iungunt, ut est<quote type="poetry">Turnus ut ante
+ uolans</quote>. Item apostrophon cum uocalem ultimam subtrahimus. Hanc sic
+ notant: ad caput eius consonantis, cui uocalis subtracta est, inflexam uirgulam,
+ quae ad eam spectat, apponunt, ut<quote type="poetry">tanton’ me crimine
+ dignum</quote>.</p>
+</div>
+<div type="cap" n="5">
+<head>5. DE DISTINCTIONE</head>
+<p>Distinctio est silentii nota, quae in legendo dat copiam spiritus recipiendi, ne
+ continuatione deficiat. Hae tres sunt, quarum diuersitas tribus punctis diuerso
+ loco positis indicatur. Vbi plenus est sensus, punctum ad caput litterae
+ ponimus, et est liberum cessare prolixius. Vbi sensu nondum pleno respirari
+ oportet, ad mediam litteram dabimus punctum. Vbi sub ipsum finem implendi sensus
+ ita suspendimus, ut statim id quod sequitur subicere debeamus, imam litteram
+ puncto notamus.</p>
+</div>
+<div type="cap" n="6">
+<head>6. DE VOCE</head>
+<p><milestone unit="page" n="p. 381 vol. VII Keil"/>Vox est aer ictus sensibilis
+ auditu, quantum in ipso est. Omnis uox aut articulata est aut confusa.
+ Articulata est quae litteris comprehendi potest. Confusa est quae scribi non
+ potest.</p>
+</div>
+<div type="cap" n="7">
+<head>7. DE LITTERIS</head>
+<p>Littera est elementum uocis articulatae. Elementum est unius cuiusque rei
+ initium, a quo sumitur incrementum et in quod resoluitur. Accidunt uni cuique
+ litterae nomen, figura, potestas. Nomen est quo appellatur, figura qua notatur,
+ potestas qua ualet. Litterarum sunt aliae uocales, aliae consonantes.<lb/>
+ Vocales<milestone unit="page" n="p. 382 vol. VII Keil"/>sunt quae per se
+ proferuntur et per se syllabam facere possunt. Sunt autem numero V: a e i o u.
+ Ex his duae, i et u, transeunt in consonantium potestatem, cum aut ipsae inter
+ se geminantur aut cum aliis uocalibus iunguntur, ueluti Iuno, uates.<lb/>
+ Consonantium species est duplex: sunt enim aliae semiuocales, aliae mutae.
+ Semiuocales sunt quae per se quidem proferuntur, sed per se syllabam facere non
+ possunt. Sunt autem numero VII: f, l, m, n, r, s, x. Ex his duplex est x:
+ constat enim aut ex g et s, ut rex, regis, aut ex c et s,
+<supplied>ut</supplied> pix, picis. Ideoque littera negatur. Mutae sunt quae
+ nec per se proferri possunt nec syllabam facere. Sunt autem numero VIIII: b, c,
+ d, g, h, k, p, q, t. Ex his superuacuae quibusdam uidentur k et q, quod c
+ littera harum locum possit implere. H quoque aspirationis nota, non littera
+ existimatur. Y et z propter Graeca nomina admittimus.</p>
+</div>
+<div type="cap" n="8">
+<p>A littera uocalis, quae quidem per se facit syllabam breuem et longam itemque
+ conexa cum aliis tam praeposita quam media finiensque, ut Ahala; nota etiam
+ praenominis, cum Aulum sola significat. E littera uocalis per se nominata
+ itemque cum aliis iuncta et breues facit syllabas et longas. I littera uocalis
+ interdum transiens in consonantium potestatem per se nec minus aliis sociata tam
+ breues facit syllabas quam longas. Nota numeri, cum unum significat. O littera
+ uocalis tam corripitur quam producitur et singularis et cum aliis copulata. V
+ littera uocalis non numquam<milestone unit="page" n="p. 383 vol. VII Keil"
+ />transiens in consonantium potestatem corripitur produciturque et sola et cum
+ aliis coniuncta; nota numeri, cum V significat.</p>
+</div>
+<div type="cap" n="9">
+<p>F littera consonans semiuocalis incipit syllabam tam praeposita uocali quam
+ semiuocali, ut flumen fons. l littera consonans semiuocalis liquida tam
+ praeponitur uocalibus in syllaba quam subiungitur: praeponitur, cum laudem,
+ legem et his similia scribimus; subiungitur, tamquam alma. Subiungitur item
+ consonantibus, cum Clodium nominamus. Cum sola ponitur, Lucium significat; item
+ numerum, cum L significat. M littera consonans semiuocalis liquida tam
+ praeponitur uocalibus quam subiungitur, tamquam monet, commonet. Subiungitur et
+ consonantibus, cum agmina dicimus; nota praenominis, cum Marcum sola scripta
+ significat. N littera consonans semiuocalis liquida tam praeponitur uocalibus
+ quam subiungitur, ut natus, ante. Item subiungitur et consonantibus, ut Cnidius,
+ Cynthius. Nota praenominis, cum sola Numerium significat; item consonanti
+ subiuncta g Gnaeum, quem antiqui<milestone unit="page" n="p. 384 vol. VII Keil"
+ />Gnaeuum, nunc uolgo breuius audimus Gnaeum, etiam si nominis causa ponimus. R
+ littera consonans semiuocalis liquida tam praeponitur uocalibus quam
+ subiungitur, ut ramus, arma; item consonantibus subiungitur, ut in Crasso. S
+ littera consonans semiuocalis tam praeponitur uocalibus consonantibusque quam
+ subiungitur uocalibus, ut satis, statis. X littera consonans semiuocalis duplex
+ in media tantum parte locutionum apud nos uocalibus praeposita, ut fraxinus,
+ aliquando finiens, ut uertex. In peregrinis tantum nominibus prima ponitur, ut
+ in Xantho, Xenone; nota numeri, cum decem significat.</p>
+</div>
+<div type="cap" n="10">
+<p>B littera consonans muta tam praeponitur uocalibus quam subiungitur; praeponitur
+ et semiuocalibus, ut in Blesamio; propinqua p litterae, qua saepe mutatur, ut
+ supponunt. C littera consonans muta tam praeponitur uocalibus consonantibusque
+ quam subiungitur, ut capiens, scelestus; nota praenominis,<supplied>cum sola
+ Gaium significat; item numeri,</supplied> cum centum significat. D littera
+ consonans muta tam praeponitur uocalibus quam subiungitur, ut datus, additus.
+ Propinqua litteris consonantibus his: s, c, g, l, p, r, m, t,<milestone
+ unit="page" n="p. 385 vol. VII Keil"/>quae succedunt in locum eius, ut
+<supplied>asside,</supplied> accipe, aggere, alliga, appara, arripe,
+ ammitte, attende; nota praenominis, cum Decimum significat, item numeri, cum
+ quingentos significat. G littera consonans muta tam praeponitur uocalibus quam
+ subiungitur, ut gere, aggere; praeponitur et consonantibus, ut in agmine, magno,
+ grege, glire. H proprie continens aspirationem recepta uolgo ut nos dicimus
+<foreign xml:lang="grc">καταχρηστικῶς</foreign> in numerum mutarum omnibus
+ uocalibus praeponitur, nulli subiungitur nisi consonantibus, ut in Thrasea,
+ Thracia Graecisque nominibus, ut Thebae. Κ littera consonans muta notae tantum
+ causa ponitur, cum aut kalendas sola significat, aut Kaesonem, aut kaput, aut
+ kalumniam, aut Karthaginem. P littera consonans tam praeponitur uocalibus quam
+ subiungitur, ut in his ponit, opponit; praeponitur et consonantibus, ut plaudit,
+ prandit; nota praenominis, cum sola Publium significat, et cum r praeposita
+ populum Romanum et subiecta r rem publicam et praeposita c litterae patres
+ conscripti. Q littera consonans muta ex c et u litteris<milestone unit="page"
+ n="p. 386 vol. VII Keil"/>composita, nota praenominis, cum Quintum sola
+ significat, item honoris uel dignitatis, cum quaestorem indicat, nec minus
+ populum, cum ea notamus Quirites. Soli u litterae praeponitur. T littera
+ consonans muta tam praeponitur uocalibus quam subiungitur, ut tulit, attulit.
+ Praeponitur et consonantibus, ut trabea, Aetna; nota praenominis, cum sola Titum
+ significat. His, ut supra dictum est, accedunt propter peregrinas dictiones z et
+ y, ut in Zenone et Hyacintho.</p>
+</div>
+<div type="cap" n="11">
+<head>11. DE SYLLABA</head>
+<p>Syllaba est littera uocalis uel litterarum coetus per aliquam uocalem
+ comprehensus, hoc est litterarum iuncta enuntiatio. Syllabae dicuntur a Graecis
+ comprehensionibus. Hae autem aut breues sunt aut longae. Breues correpta uocalis
+ facit aut cum antecedente consonante littera uocalis in fine syllabae
+ corripitur, longas producta. In breui syllaba tempus est unum, in longa duo.<lb/>
+<milestone unit="page" n="p. 387 vol. VII Keil"/>Syllabae aut natura longae
+ sunt, aut positione. Natura longae fiunt, cum singulae uocales litterae
+ producuntur, ut a et e, aut cum duae, ut ua, aut cum tres, ut uae; positione
+ autem, cum correpta uocalis sequentes habet duas consonantes. Et hae aut in
+ eadem syllaba inueniuntur, ut ars, aut in proxima, ut amnis, aut in duas
+ syllabas diuisae, ut arma. Sed et duplex littera x duarum consonantium loco
+ fungitur. Haec quoque et in eadem syllaba solet esse, ut nox, et in proxima, ut
+ axis. Item et uocalis loco consonantis posita, ut seruus, iniustus.</p>
+</div>
+<div type="cap" n="12">
+<head>12. DE COMMVNIBVS SYLLABIS</head>
+<p>Communes syllabae fiunt modis IIII: primo, si correpta uocalis excipiatur a
+ duabus consonantibus, quarum prior sit muta, sequens liquida.<lb/> Breuis enim
+ est in hoc:<lb/><quote type="poetry"> tune Clytaemnestrae foedasti uiscera
+ ferro;</quote><lb/>  longa autem in hoc:  <quote type="poetry">Cyclops,
+ Aetnaeus cultor, Neptunia proles.</quote> <lb/> At si duae consonantes in
+ duas syllabas fuerint diuisae, non fit communis,<milestone unit="page"
+ n="p. 388 vol. VII Keil"/>sed positione longa, ut supra retulimus:<lb/>
+  <quote type="poetry">hoc erat alma parens;</quote> <lb/> nec si
+ semiuocalis in unitatem cum liquida ueniat, ut sors.<lb/>Altero modo fiunt
+ communes, cum uocalis producta excipitur a uocali: breuis sic: <lb/>
+<quote type="poetry"> te Corydon o Alexi,</quote> <lb/> longa uero sic:<lb/>
+  <quote type="poetry"> Inoo Melicertae.</quote> <lb/> Natura enim longa est
+ o littera, quae supra pro breui recipitur.<lb/> Tertio modo, ubi breuis syllaba
+ finiens partem orationis a uocali<supplied>excipitur</supplied>: est enim
+<supplied>longa in hoc</supplied>: <lb/><quote type="poetry">hic, ait, et
+ nostris inluserat aduena regnis,</quote><lb/>
+<lb/> breuis in hoc:<lb/>
+<quote type="poetry"> itur in antiquam siluam, stabula alta ferarum.
+</quote><lb/> Quarto modo, si desinat in consonantem et excipiatur a littera h;
+ est enim breuis sic:<lb/>
+<quote type="poetry"> hic uir, hic est, tibi quem promitti saepius audis,
+</quote> <lb/> longa uero sic:<lb/>  <quote type="poetry"> terga fatigamus
+ hasta, nec tarda senectus.</quote></p>
+</div>
+<div type="cap" n="13">
+<head>13. DE DICTIONE</head>
+<p>Dictio est ex syllabis finita cum significatione certa locutio, ut est<milestone
+ unit="page" n="p. 389 vol. VII Keil"/>dico facio. Quaedam dictiones sunt
+ simplices, ut facio, quaedam compositae, ut conficio. Ex compositis dictionibus
+ quaedam fiunt ex duobus imperfectis, ut sinciput, cum intellegatur sematum
+ caput; quaedam ex imperfecto et integro, ut est cismare, quo significatur citra
+ mare; quaedam ex integro et imperfecto, ut est cornucen, cum intellegatur cornu
+ canens; quaedam ex duobus integris, ut est omnipotens.</p>
+</div>
+<div type="cap" n="14">
+<head>14. DE ORATIONE</head>
+<p>Oratio est ore emissa et per dictiones ordinata pronuntiatio, uelut oris ratio.
+ Orationis partes sunt octo, nomen pronomen uerbum participium aduerbium
+ praepositio coniunctio interiectio; quibusdam uidetur et appellatio.</p>
+</div>
+<div type="cap" n="15">
+<head>15. DE NOMINE</head>
+<p>Nomen est pars orationis cum casu sine tempore rem corporalem<supplied>aut
+ incorporalem</supplied> significans proprie communiterue; proprie,
+<supplied>ut</supplied> Roma,<milestone unit="page"
+ n="p. 390 vol. VII Keil"/>Tiberis, communiter,<supplied>ut</supplied>
+ ciuitas, flumen. Nomen dicitur, quod unamquamque rem notat, quasi notamen
+ sublata media syllaba per syncopen, uel a graeca origine<foreign xml:lang="grc"
+ >παρὰ τὸ ὄνομα</foreign>.</p>
+</div>
+<div type="cap" n="16">
+<p><supplied>Nomina aut propria sunt aut appellatiua. Propria sunt</supplied> nomina
+ quae specialiter proprieque dicuntur, item quae unica et sola sunt deorum, ut
+ Iuppiter, hominum: Romulus, urbium, ut Roma, prouinciarum, ut Africa, insularum,
+ ut Sicilia, montium: Apenninus, Pyrenaeus, fluminum, ut Pactolus. Propriorum
+ nominum alia sunt praenomina, quae nominibus gentiliciis praeponuntur: Marcus,
+ Publius; alia propria gentilicia, quae a familia et gente descendunt, ut
+ Porcius, Cornelius; alia cognomina quae nominibus gentiliciis subiunguntur:
+ Cato, Scipio. Ordinantur enim sic: Marcus Porcius Cato, Publius Cornelius
+ Scipio; alia agnomina quae cognominibus ex aliqua ratione aut uirtute adduntur,
+ ut Africanus, Creticus et his similia.<lb/> Appellatiua nomina sunt quae
+ generaliter communiterque dicuntur. haec in duas species diuiduntur. Alia enim
+ significant res corporales, quae uideri tangique possunt, et a quibusdam
+ uocabula appellantur, ut homo,<milestone unit="page" n="p. 391 vol. VII Keil"
+ />arbor, pecus, quae nos corporalia uocamus. Alia quae<supplied>a</supplied>
+ quibusdam appellationes dicuntur et sunt incorporalia, quae intellectu
+ tantummodo percipiuntur, uerum neque uideri nec tangi possunt, ut est pietas,
+ iustitia, decus, dignitas, facundia, doctrina. Ea nos appellatiua dicimus.</p>
+</div>
+<div type="cap" n="17">
+<p>Nomini accidunt haec, qualitas, genus, figura, numerus, casus.<lb/> Qualitas est
+ qua intellegitur proprium sit nomen an appellatiuum.<lb/> Genera nominum sunt
+ IIII, masculinum, femininum,<supplied>neutrum, commune. Masculinum est cui
+ praeponitur hic, ut hic praeceptor; femininum</supplied> est cui praeponitur
+ haec, ut haec schola; neutrum cui praeponitur hoc, ut hoc scrinium; commune est
+ cui praeponitur hic et haec et hoc, felix. Sunt et promiscua, quae Graeci
+<foreign xml:lang="grc">ἐπίκοινα</foreign> appellant; cum quod necessarie
+ masculino genere pronuntiatur etiam feminino intellegitur, uel contra feminino
+ pronuntiatur etiam masculino<supplied>accipitur</supplied>, ut passer, aquila,
+ anser, mustela.<lb/> Figurae nominum sunt duae, simplex et composita: simplex,<supplied>ut</supplied>
+ felix;<supplied>composita, ut infelix</supplied>.<lb/> Componuntur
+<supplied>autem</supplied> nomina modis IIII: ex<milestone unit="page"
+ n="p. 392 vol. VII Keil"/>duobus integris, ut suburbanum; ex duobus
+ corruptis, ut opifex; ex integro et corrupto, ut ineptus, artifex; ex corrupto
+ et integro, ut armipotens; aliquando ex pluribus, ut inexpugnabilis,
+ inexorabilis.<lb/> Numeri sunt II: singularis, ut hic Cato; pluralis, ut hi
+ Catones. Sunt autem quaedam nomina semper pluralia, ut sordes, moenia. Quaedam
+ singularem pluralemque numerum communiter significant, ut dies, nubes; quaedam
+ positione singularia, intellectu pluralia, ut populus, contio; quaedam positione
+ pluralia, intellectu singularia, ut Cumae, Athenae, Thebae.</p>
+</div>
+<div type="cap" n="18">
+<p>Casus sunt VI, nominatiuus, genetiuus, datiuus, accusatiuus, uocatiuus,
+ ablatiuus.<lb/>Adicitur a diligentioribus etiam septimus casus. Semper ablatiuus uno modo
+ profertur, cum a persona aut a loco aut a re ablatum quid
+<supplied>significetur</supplied>, ueluti ab Aenea stirpem deducit Romulus,
+ ab Vrbe in Africam<milestone unit="page" n="p. 393 vol. VII Keil"/>redit, a
+ libris Ciceronis intellectum est. Septimus uero casus modis IIII profertur:
+ primo, cum in persona<supplied>aut in loco</supplied> aut in re intellegitur,
+ ueluti in Scipione militaris uirtus enituit, in monte Caucaso poenas luit
+ Prometheus, in statua Ciceronis uictoria coniuratorum
+<supplied>in</supplied>scribitur, et interpretatur talis figura per datiuum,
+<foreign xml:lang="grc">ἐν τῷ Σκηπίωνι</foreign>,<foreign xml:lang="grc"> ἐν
+ τῷ Καυκάσῳ</foreign>,<foreign xml:lang="grc"> ἐν τῷ ἀνδριάντι</foreign>.
+ Quae regula etiam in nominibus secundae declinationis, quorum ablatiuus et
+ datiuus idem est, obseruatur et in nominibus tertiae declinationis, quorum item
+ ablatiuus et datiuus idem est, ueluti ab hac securi,<supplied>ab hoc</supplied>
+ suaui. Secundo, cum ablatiui copulati genetiuo interpretantur graeco, ueluti
+ ducente dea elapsus est Aeneas<foreign xml:lang="grc">ἡγουμένης τὴς θεοῦ
+ ἐξώλισθεν Αἰνείας</foreign>, incusante Cicerone uictus
+<supplied>est</supplied> Catilina<foreign xml:lang="grc"> κατηγοροῠντος
+ Κικέρωνος ἡττήθη Κατιλίνας</foreign>, studente Sacerdote differentia inuenta
+ est<foreign xml:lang="grc">σπουδάζοντος Σακέρδωτος ἡ διαφορὰ ηὑρέθη</foreign>.
+ Tertio modo, cum hanc figuram graecam<foreign xml:lang="grc">ἐλπίδι τοῦ
+ δύνασθαι</foreign>,<foreign xml:lang="grc"> προαιρέσει τοῦ
+ λῃστεύειν</foreign>,<foreign xml:lang="grc"> σχήματι τοῦ
+ ἐπιβουλεύειν</foreign> latine dixerimus: spe posse, uoluntate latrocinandi,
+ consilio<milestone unit="page" n="p. 394 vol. VII Keil"/>insidiandi. Quarto
+ modo, ueluti in illo: dicimus enim sic: nullo timore hostium castra irrupit,
+ nulla spe per uim potiundi uallo fossaque moenia circumdat, nullis custodibus
+ Palladium ereptum est, nullis insidiis palam uictus est hostis. Vbique enim
+ deficit latinus sermo, scilicet ideo, quoniam duo ablatiui nominales sunt
+ copulati; quodsi unus participialis sit, non deficit latinus sermo, sed plenus
+ est, ut supra: ducente dea elapsus<supplied>est</supplied> et cetera quae in
+ secundo modo exposuimus.</p>
+</div>
+<div type="cap" n="19">
+<p>Quaedam etiam inueniuntur quae flecti declinarique non possunt, ut frugi, nihili.
+ Quaedam duobus uel tribus<supplied>casibus</supplied> tantum, ut Iuppiter
+ nominatiuo et uocatiuo casu, et opis; opis enim et opem et ope inuenimus.</p>
+</div>
+<div type="cap" n="20">
+<p>Sunt nomina quae gentem significant, ut Afer, Dacus, Hispanus; alia numerum, ut
+ unus, duo, alia ordinem, ut primus, secundus; alia qualitatem,<milestone
+ unit="page" n="p. 395 vol. VII Keil"/>ut malus, bonus, decorus albus, niger;
+ alia quantitatem, ut proculus, altus, magnus, sublimis, humilis; quaedam a
+ moribus, ut remissus, lepidus, facetus, asper, ferox; quaedam ominalia, ut
+ uitalis, saecularis, superstes; alia ab accidentibus uel sequentibus tracta, ut
+ beatus, diues, pauper.</p>
+</div>
+<div type="cap" n="21">
+<p>Sunt quaedam primae positionis, ut mons, fons, Peleus, Aeacus; quaedam
+ deriuatiua, ut montanus, fontanus, Pelides, Aeacides, quae Graeci πατρωνυμικὰ
+ appellant; quaedam possessiua, ut Peleius, Aeaceus. Ex hac specie:<lb/>
+<quote type="poetry">
+<p>Aeneia puppis prima tenet</p></quote><lb/> et<lb/>
+<quote type="poetry"> Romuleoque recens horrebat regia culmo.</quote>
+<lb/> Sunt et deminutiua, quae in deminutione absolutorum nominum fiunt sine
+ ulla comparatione, ut paruus paruulus, adulescens adulescentulus. Illud uero
+ memineris, quod semper deminutiones generibus suis unde oriuntur consonant,
+ pauca dissonant, ut haec rana hic ranunculus, glandium glandicula, beta
+ betaceus, malua maluaceus, pistrinum pistrilla, ut Terentius in<milestone
+ unit="page" n="p. 396 vol. VII Keil"/>Adelphis ensis ensicula et ensiculus –
+ Plautus ensicula in Rudente. Monoptota uero nomina et haec quae natura
+ singularia sunt, id est elementa, item fluminum et montium nomina propria, item
+ dies festi, item litterarum elementa, item numeri, deminutionem, quod Graeci
+<foreign xml:lang="grc">ὑποκορισμόν</foreign> appellant, non recipiunt.
+<supplied>Sunt etiam quae ab his<foreign xml:lang="grc"> ῥηματικά</foreign>
+ dicuntur</supplied>, nos non absurde uerbalia dixerimus, ut est a uerbo lego
+ est lectio, et raptor et percussor ex eo quod<supplied>est</supplied> rapio et
+ percutio.</p>
+</div>
+<div type="cap" n="22">
+<p>Quaedam generalia sunt, quibus multa continentur dissimilia, ut animal, arbor. Ex
+ his nascuntur specialia, quae diuiduntur et minuuntur originibus suis
+ generalibus, ut homo, equus, taurus, laurus, pinus, fraxinus. Quaedam facta a
+ sonis uel a uocibus, ut stridor, clangor, tinnitus, hinnitus, ululatus,
+ fremitus, mugitus. Quaedam descendunt ab aduerbiis, ut hesternus,<milestone
+ unit="page" n="p. 397 vol. VII Keil"/>hodiernus, crastinus, serus, nimius,
+ citus. Alia a participiis figurata, ut ludibundus, laudabundus, lacrimabundus,
+ anhelabundus, furibundus, moribundus, hiulcus qui hiat, petulcus qui petit. Sunt
+ etiam quae Graeci<foreign xml:lang="grc">ἐπίθετα</foreign> dicunt, quae
+ cuiuscumque personis adiciuntur laudandi gratia uel uituperandi: laudandi,
+ ueluti:<lb/>
+<quote type="poetry">Lausus equum domitor debellatorque ferarum,</quote>
+<lb/> uituperandi, ueluti:<lb/><quote type="poetry">et ipse doli fabricator
+ Epios</quote>.<lb/> Sed haec omnia quamquam species sunt nominum, absolute
+ tamen nomina dicuntur et quibusque rebus personisue praeposita sunt.</p>
+</div>
+<div type="cap" n="23">
+<p>Quaedam nomina sunt quae per se sine alterius partis orationis amminiculo
+ intellegi non possunt, ut pater, frater; recipiunt enim sibi et illa per quae
+ intelleguntur. Haec a Graecis<foreign xml:lang="grc">τῶν πρός τι</foreign>
+ appellantur, id<milestone unit="page" n="p. 398 vol. VII Keil"/>est ad
+ aliquid.<lb/>Sunt et similia<foreign xml:lang="grc">τῶν πρός τί πως
+ ἔχοντα</foreign>, id est ad aliquid quodam modo attendentia, ut dexterior,
+ sinisterior.<lb/> Sunt quoque quaedam<foreign xml:lang="grc"
+ >ὁμώνυμα</foreign>, quae una appellatione plura significant, ut nepos, acies.
+ Significat enim nepos et certum cognationis gradum et rei auitae consumptorem.
+ Similiter acies et oculorum dicitur et ferri et exercitus.<lb/> Quaedam sunt
+<foreign xml:lang="grc">συνώνυμα</foreign>, quae pluribus loquelis idem
+ significant, ut terra, humus, ensis, gladius.<lb/> Quaedam mediae potestatis,
+ quae significationem a coniunctis sumunt, ut magnus, fortis. Haec enim per se
+ nullum habent intellectum et ideo a quibusdam adiectiones uocantur, ut magnus
+ uir, fortis exercitus.</p>
+</div>
+<div type="cap" n="24">
+<p>Nominibus accidunt etiam collationes. Gradus itaque collationis sunt tres:
+ absolutus, ut doctus; comparatiuus, ut doctior; superlatiuus, ut doctissimus.
+ Nomina collationis imposita parum proprie. Nam et doctus<milestone unit="page"
+ n="p. 399 vol. VII Keil"/>collationis modus non est, cum absolutus sit et
+ nulli comparetur. Item doctior non recte dicitur comparatiuus, quia non
+ comparet, sed superponat. Cum enim dico doctior illo sum, non comparo me illi,
+ sed superpono.</p>
+</div>
+<div type="cap" n="25">
+<p>Non omnia autem nomina gradus collationis recipiunt, sed sola quae aut qualitatem
+ significant, ut bonus, candidus, citus, aut quantitatem, ut longus, altus,
+ magnus. Cetera autem non habent collationem, ueluti quae corpus significant, ut
+ homo, arbor. Quaedam nomina quamquam qualitatem significent gradus tamen
+ collationis non habent, ut rudis, sobrius, mediocris, grandis. Quaedam sunt quae
+ unum tantum gradum recipiunt comparatiuum, ut senex senior, iuuenis iuuenior –
+ iuuenissimus enim numquam; quaedam superlatiuum tantum, ut pius piissimus,
+ bellus bellissimus. Sunt item superlatiua quae absolutum, hoc est<foreign
+ xml:lang="grc">πρωτότυπον</foreign>, non habent, sed ab aduerbio ueniunt, ut
+ ulterior, ultimus ab ultra, uel citerior, citimus<milestone unit="page"
+ n="p. 400 vol. VII Keil"/>a citra, inferior, infimus<supplied>ab
+ infra</supplied>, superior, supremus<supplied>a supra</supplied>, prior
+ etiam<supplied>et</supplied> primus<supplied>ab aduerbio</supplied> prius.
+ Quaedam sunt quibus tantum gradus superlatiuus inuenitur, ut nouissimus, summus.
+ Quaedam sunt quae diuersis figuris in collationem ueniunt, ut malus, peior,
+ pessimus, bonus, melior, optimus. His enim per omnes tres gradus comparatio
+ processit, nec tamen unam formam nominis tenent. Sunt alia absoluta quae nullo
+ quidem gradu collationis figurantur, recipiunt tamen collationem si illis magis
+ aduerbium iungatur, ut magis rudis, magis pius, et maxime similiter, sicut e
+ contrario minus et minime adduntur.</p>
+</div>
+<div type="cap" n="26">
+<p>Vtimur autem gradu comparatiuorum in uno et altero prope aequalibus ac similibus
+ – nam dissimilium comparatio nulla est –, ut hi duo uiri fortes, sed hic altero
+ fortior. Item comparatiuus gradus et his qui sui generis sunt et his qui
+ alterius sunt comparatur, ut equus uelocior equo dicitur, qui eiusdem generis
+ est, item uelocior cane, qui alterius generis<milestone unit="page"
+ n="p. 401 vol. VII Keil"/>est. Superlatiuus uero his tantum qui sui generis
+ sunt praeponitur. Nam uelocissimus equus non dicitur, nisi equis comparatus sit.
+ Itaque superlatiuus gradus aut omnibus sui generis praeponitur, ut:<lb/><quote
+ type="poetry">O Danaum fortissime gentis / Tydides</quote>,<lb/> aut nullis.
+<lb/> Scito autem comparatiuum gradum casum ablatiuum trahere tam numeri
+ singularis quam pluralis, ut doctior illo, doctior illis. Superlatiuus uero
+ casum genetiuum trahit et tantum plurali iungitur numero, ut omnium iustissimus
+ dicitur.</p>
+</div>
+<div type="cap" n="27">
+<head>27. DE PRONOMINE</head>
+<p>Pronomen est pars orationis quae pro ipso posita nomine minus quidem plene, idem
+ tamen significat, ut ego, tu, hic, ille. Pronomini accidunt qualitas, genus,
+ figura, numerus, casus, persona. Qualitas pronominum aut finita est aut
+ infinita: finita est quae notat certam personam, ut ego, tu, ille; infinita est
+ quae cuilibet personae potest accommodari: quis, qualis, quae. Genera pronominum
+ sunt IIII: masculinum, ut hic; femininum, ut haec; neutrum, ut hoc; commune, ut
+ ego. Figura pronominum duplex est: aut enim simplicia sunt, ut quis, ego, aut
+ composita, ut quisquis,<milestone unit="page" n="p. 402 vol. VII Keil"/>egomet.
+ Numeri sunt II, singularis, ut hic, pluralis, ut hi. Communis quoque numerus
+ inuenitur. Dicimus enim qui uir et qui uiri. Casus quibus declinantur totidem
+ quot et nominum. Personae tres: ego, tu, ille. Sunt et pronomina ad aliquid, ut
+ meus, tuus; nam et haec sine altero non possunt intellegi.</p>
+</div>
+<div type="cap" n="28">
+<p>Ego, mei uel mis, mihi, me, o ego – sed uocatiuum exclamatio sit, ut apud
+ Horatium:<quote type="poetry">o ego infelix, quem tu fugis</quote> –, a me;
+ pluralis nos, nostrum, nobis, nos, o nos – nec pluralis habet uocatiuum, nisi
+ aeque exclamatio sit,<supplied>ut</supplied> cum dicimus: «o nos felices» –, a
+ nobis. Pronomen hoc trium generum est commune. Tu, tui uel tis, tibi, te, o tu,
+ a te; pluralis uos, uestrum, uobis, uos, o uos, a uobis. Hoc quoque pronomen
+ omnium generum est commune. Non est refutanda eorum
+<supplied>sententia</supplied>, qui dixerunt in quibusdam pronominibus
+ uocatiuum non posse cadere, cum etiam paene in omnibus<supplied>pronominibus
+ non</supplied> debeat esse uocatiuus. Sed nos, non quod refragamur
+<supplied>rationi</supplied>, uocatiuum adiecimus, sed quoniam contextum
+ declinationis habere uoluimus, inseruimus, quamquam non solum uocatiuum non
+ inuenimus, uerum etiam in quibusdam casus deficere uidemus.</p>
+</div>
+<div type="cap" n="29">
+<p>Trigena abhinc. Hic, haec, hoc, huius, huic, hunc, hanc, hoc, o tu, ab hoc, ab
+ hac, ab hoc; pluraliter: hi, hae, haec, horum, harum, horum, his, hos, has,
+ haec, o uos, ab his. Is, ea, id, eius, ei, eum, eam, id, o is, o tu, o id, ab
+ eo, ea, eo; pluraliter ii, eae, ea, eorum, earum, eorum, iis, eis, eis, eos,
+ eas, ea, o ii, o eae, o ea, ab iis, ab eis, ab eis. Iste, ista et istaec, istud
+ et istuc, istius, isti, istum, istunc,<milestone unit="page"
+ n="p. 403 vol. VII Keil"/>istam, istanc, istud et istuc, o iste, ista,
+ istud, istuc, ab isto, ab istoc; pluraliter isti, istae, ista, et reliqua. Ipse,
+ ipsa, ipsum et reliqua; pluraliter: ipsi, ipsae, ipsa et reliqua. Ipsum: quare
+ non ipsud, ut illud et istud? Quoniam ueteres nominatiuum masculinum non ipse
+ dicebant, sed ipsus, quod etiam in comoediis ueteribus inuenimus. Ille, illa,
+ illud, ab illoc; pluraliter:<supplied>illi, illae, illa</supplied> et reliqua.
+</p>
+</div>
+<div type="cap" n="30">
+<p>Infinitiua: quis et qui, quae, quod, cuius; pluraliter: qui, quae, quae, quorum,
+ quarum, quorum et reliqua. Sed ueteres nominatiuum pluralem quis dixerunt
+ regulam secuti; unde etiam datiuus mansit in consuetudine; nam dicimus quibus
+ pro quis et pro quibus quis non numquam dicimus. Quisque, quaeque, quodque;
+ pluraliter quique, quaeque, quaeque et reliqua. Quiscumque, quaecumque,
+ quodcumque; pluraliter: quicumque, quaecumque. Alius, alia, aliud; pluraliter:
+ alii, aliae, alia. Alter, altera, alterum; pluraliter alteri, alterae, altera.
+ Neuter, neutra, neutrum, neutrius; pluraliter: neutri, neutrae, neutra.
+<milestone unit="page" n="p. 404 vol. VII Keil"/>Vter, utra, utrum;
+ pluraliter: utri, utrae, utra. Vterque, utraque, utrumque; pluraliter: utrique,
+ utraeque, utraque. Alteruter, alterutra, alterutrum. Vnus, una, unum.
+ Vnusquisque. Quidam, quaedam, quoddam; pluraliter: quidam, quaedam, quaedam.
+ Aliquis, aliqua, aliquod; pluraliter: aliqui, aliquae, aliqua; in masculino
+ antiqui aliquis dicebant nominatiuo plurali, unde mansit aliquibus. Vllus, ulla,
+ ullum; pluraliter: ulli, ullae, ulla. Nullus, nulla, nullum; pluraliter: nulli,
+ nullae, nulla. Totus, tota, totum; pluraliter: toti. Qualis, quale; pluraliter:
+ quales, qualia. Talis, tale; pluraliter: tales, talia. Quantus, quanta, quantum;
+ pluraliter: quanti, quantae, quanta et reliqua. Tantus, tanta, tantum;
+ pluraliter: tanti, tantae, tanta. Quotus, quota, quotum; pluraliter: quoti,
+ quotae, quota.</p>
+</div>
+<div type="cap" n="31">
+<p>Possessiua: meus mea meum; pluraliter: mei meae mea. Sed ueteres mius dicebant,
+ ut merito et uocatiuus secundum regulam manserit, ut sit o mi. Nam omnia nomina,
+ quae nominatiuo ante us nouissimam syllabam i habent, uocatiuo i terminantur,
+ ueluti Sallustius o Sallusti.<milestone unit="page" n="p. 405 vol. VII Keil"
+ />Tuus, tua, tuum; pluraliter: tui tuae tua.</p>
+</div>
+<div type="cap" n="32">
+<p>Ex his pronominibus aliquot sunt quae aduerbialiter quodam modo intelleguntur.
+ Sed et si qua alia pronomina inciderunt,<supplied>adnotare</supplied> non
+ pigebit idem eadem idem; pluraliter iidem eaedem eadem. Quispiam quaepiam
+ quidpiam; pluraliter: quipiam quaepiam quaepiam. Cuius cuia cuium. Suus sua
+ suum; pluraliter: sui suae sua. Noster nostra nostrum; pluraliter: nostri
+ nostrae nostra. Vester uestra uestrum; pluraliter: uestri uestrae uestra. Sunt
+ sine nominatiuo et uocatiuo sui sibi se uel sese a se. Ambo.</p>
+</div>
+<div type="cap" n="33">
+<p><foreign xml:lang="grc"> Περὶ συνθέσεως μεσοπτώτων ὀνομάτων</foreign>.<foreign
+ xml:lang="grc"> Παρὰ μὲν Ρωμαίοις πέντε ἡγοῦνται μόρια τἡς ἐπιπλοκἡς ἐν τῇ
+ ἐσχάτῃ συλλαβῇ τῶν πτώσεων</foreign>: que cumque dam dem piam,<foreign
+ xml:lang="grc">ἐξ ὧν τὰ μεσόπτωτα συνίσταται οὕτως</foreign>, quisque
+ quiscumque quidam idem quispiam.<foreign xml:lang="grc"> Τούτων γὰρ ἡ γενικἡ διὰ
+ τοῦ</foreign> cuius<foreign xml:lang="grc">καὶ</foreign> eius<foreign
+ xml:lang="grc"> προηγεῖται</foreign>.<lb/><del><foreign xml:lang="grc">Παρὰ
+ δὲ Ἑλλησιν γ’ ἡγοῦνται μόρια</foreign>·<foreign xml:lang="grc"> ποτε
+ δηποτε δε</foreign>·<foreign xml:lang="grc"> ἐξ ὧν τὰ μεσόπτωτα
+ συνίσταται οὕτως</foreign>·<foreign xml:lang="grc"> τίςποτε ἢ ποιόςποτε
+ καὶ τιςδἡποτε ἢ ποιοςδἡποτε καὶ τοιόςδε</foreign>.<foreign
+ xml:lang="grc"> Τούτων δὲ αἱ γενικαὶ διὰ τἡς κλίσεως τῶν προηγουμένων
+ θέσεων</foreign>,<foreign xml:lang="grc"> ὡς τὸ τινόςποτε καὶ
+ τινοςδἡποτε καὶ τοιοῦδε</foreign></del>.</p>
+</div>
+<div type="cap" n="34">
+<head>34. DE VERBO</head>
+<p>
+<milestone unit="page" n="p. 406 vol. VII Keil"/> Qualitas uerborum in quot est
+ formis? IIII: absoluta, ut lego; meditatiua, ut lecturio; frequentatiua, ut
+ lectito; inchoatiua, ut feruesco, calesco.<lb/> Modi quot sunt? V: indicatiuus,
+ ut amo, doceo, lego; imperatiuus, ut ama, doce, lege; optatiuus, ut amarem et
+ utinam, amarem, docerem, legerem; coniunctiuus: cum amem, doceam, legam;
+ infinitiuus: amare, docere, legere.<lb/> Significationes uerborum V: actiua,
+ passiua, neutra, deponens, communis.<lb/> Tempora uerborum III: praesens, ut
+ amo, doceo, lego; praeteritum, ut amaui; futurum, ut amabo. Quot sunt tempora
+ uariata? V: praesens, praeteritum inperfectum, praeteritum perfectum,
+ praeteritum plusquamperfectum, futurum.</p>
+</div>
+<div type="cap" n="35">
+<p>
+<del>Coniugationes uerborum.</del> Sum es est, pluraliter: sumus estis sunt; fui
+ fuisti fuit fuimus fuistis fuerunt;<milestone unit="page"
+ n="p. 407 vol. VII Keil"/> eram eras erat, pluraliter: eramus eratis erant;
+ fueram fueras fuerat fueramus fueratis fuerant. Essem esses esset, pluraliter:
+ essemus essetis essent; fuissem fuisses fuisset, pluraliter: fuissemus fuissetis
+ fuissent; sim sis sit, pluraliter: simus sitis sint; fuerim fueris fuerit,
+ pluraliter: fuerimus fueritis fuerint. Ero eris erit, pluraliter: erimus eritis
+ erunt; fuero fueris fuerit, pluraliter: fuerimus fueritis fuerint.</p>
+</div>
+<div type="cap" n="36">
+<p>Edo es est estis edi; imperatiuus: es este esto estote, item passiuo estor et
+ editor; uolo uis uelite, uelito uelitote; uolo uolas;<supplied>uolui</supplied>
+ uoluo uoluis. expergefio expergefacio; calfio calfacio; arefio arefacio;
+ assuefio assuefacio; mansuefio mansuefacio; liquefio liquefacio, tepefio.<lb/>
+ Odi odit me.<lb/> Tollo sustuli; ferior ictus sum, meto messem feci; metor
+ messus sum.</p>
+</div>
+<div type="cap" n="37">
+<p>Pudet me, te, illum. Inpersonalia participia non habent neque actiua neque
+ passiua. Sunt autem passiua inpersonalia aut quarti aut primi ordinis. His non
+ qui facit quid, sed quid faciat demonstratur, ut<quote type="poetry">pugnatur
+ comminus armis</quote>, item pugnatum est,<quote type="poetry">discumbitur
+ ostro</quote>. Accommodantur loco, tempori, personis, aduerbio, ut bene illo
+ loco studetur, bene illa hora studetur, bene apud Sacerdotem studetur.
+<milestone unit="page" n="p. 408 vol. VII Keil"/></p>
+</div>
+<div type="cap" n="38">
+<head>38. DE PARTICIPIO</head>
+<p>Participium est dictio originem trahens a nomine et a uerbo cum tempore et casu
+ et genere. Participium autem dictum uidetur quod partem capiat nominis, partem
+ uerbi. Participio accidunt a nomine genus et casus, a uerbo qualitas et tempus,
+ ab utroque numerus et figura. Genera participiis accidunt, masculinum ut hic
+ factus, femininum ut haec facta, neutrum ut hoc factum, commune, ut faciens;
+ tempora: praeteritum ut iaculatus, praesens ut iaculans, futurum ut iaculaturus.
+ Qualitas participiorum sicut uerborum: aut enim agentia sunt aut patientia aut
+ communia aut neutra aut deponentia. Conuiuandus non dicimus. Conuiuandum tamen
+ dicimus figura ista, qua in omnibus uerbis utimur: luctandum mihi est. Numeri
+ duo: singularis et pluralis. Figurae duae: simplex et composita.<lb/> Sunt multa
+ nomina, quae speciem participiorum habent, ut tunicatus, galeatus; quae
+<supplied>quia</supplied> partem a uerbo non habent, non recte participia
+ dicuntur. Sunt aequalia nomina, quae nominatiuo casu participiis similia
+ uidentur, ut cultus, passus, uisus, quorum discretio declinatione detegitur.
+<lb/> Illud obseruandum est, inpersonalium uerborum omnino participia non esse,
+ quamuis uisum fuerit Sallustio dicere<quote type="prose">paenitentem
+ Lepidum</quote>; et pudens. Sed magis appellatio quam participium est:
+<foreign xml:lang="grc">ὁ αἰσχυντηρός</foreign>, unde inpudens.</p>
+</div>
+<div type="cap" n="39">
+<head>39. DE ADVERBIO</head>
+<p>Aduerbia aut suae positionis sunt aut ab aliis transeunt. A se nascuntur, ut
+ heri, nuper; ab aliis<supplied>ut</supplied> docte, prudenter. aduerbio
+ accidunt significatio comparatio figura.</p>
+</div>
+<div type="cap" n="40">
+<p>Significationes aduerbiorum multae sunt.<milestone unit="page"
+ n="p. 409 vol. VII Keil"/>Significant enim tempus finitum, ut hodie, cras,
+ perendie, die tertio, die quarto, here et heri, nudius tertius, nocte, noctu,
+ interdiu, pridie, postridie; tempus infinitum: olim, aliquando,
+ quando<supplied>-cumque</supplied>, nuper, iam pridem, alias, iam, tum, ,
+ etiamtum, inde, dudum, umquam, numquam, mox, cottidie, interea, interim, statim,
+ subito, repente, extemplo, recens, iamdudum, interdum, subinde, cummaxime, nunc,
+ confestim, actutum, tandem aliquando, ilico, nonnumquam, semper, tantisper,
+ paulisper, postea, post, posthac, antehac, dum, donec, simulatque, antequam,
+ postquam, frequenter, uix, diu, diutius, diutissime, sero;<lb/> quantitatis:
+ sat, satis, parum, abunde, etiam, perquam, admodum, plerumque, nimis, insuper,
+ amplius, minus, plene, humiliter, uaste, nimis, ualde, large, affatim;<lb/> in
+ locum<supplied>infinita</supplied>: quo, ubi, huc, illuc, intro, foras,
+ dextrorsum, introrsum, retrorsum, seorsum, utroque, utro,<milestone unit="page"
+ n="p. 410 vol. VII Keil"/>neutro;<lb/> in loco infinita: ubi, ubicumque,
+ ubi, hic, illic, istic, ibidem, intus, penitus, foris, passim, usquam, nusquam,
+ alicubi, utrubi, neutrubi, susum, deorsum, ibi, longe, insuper;<lb/>
+<supplied>e loco infinita</supplied>: unde, undecumque, undique, hinc, istinc,
+ inde, illinc, illim, indidem, utrimque, intus, aliunde, dehinc, eminus,
+ comminus;<lb/> per locum infinita: qua, quacumque, hac, istac, illac, nulla,
+ recta;<lb/> per locum<supplied>et in loco et e loco in</supplied>finita:
+ susum, deorsum, supra, infra, extra, ultra, cis, intra, desuper, subter, extra,
+ ante, post;<lb/> numeri: semel, bis, ter, quater<supplied>et</supplied>
+ deinceps; quotienscumque, primo, secundo, tertio et deinceps; saepe, saepius,
+ saepissime;<lb/> adfirmandi: scilicet, uidelicet, nimirum, ilicet,
+ quid<supplied>-ni</supplied>, utique, quippe, profecto, plane, sane, certe,
+ immo, nonne;<lb/> demonstrandi: en, ecce, em;<lb/> ordinis: deinceps, post,
+ ante, tunc, inde;<lb/> percunctandi: quare, quid, quid ita, cur, numquid, cur
+ ita, nempe, utrumne, ecquid, quomodo, sicine, quidnam;<lb/> congregandi: una,
+ simul,<milestone unit="page" n="p. 411 vol. VII Keil"/>pariter;<lb/>
+ dubitandi: fors, forsitan, fortasse, fortassis;<lb/> similitudinis: ita,
+ perinde, ceu, perinde ac si, aeque, ut, quasi, quemadmodum, qualiter, taliter,
+ similiter, aequaliter, sicut, item, non secus, non aliter, tamquam, prout, adeo;
+ personalia: mecum, tecum, nobiscum, uobiscum, mea tua, nostra, uestra, secum;
+<lb/> hortandi: heia, age, agedum.<lb/> compellandi: heus;<lb/> respondendi:
+ heu.<lb/> optandi: utinam.<lb/> prohibendi: ne, neue.</p>
+</div>
+<div type="cap" n="41">
+<p>Figura in aduerbiis, sicut in omnibus partibus orationis, aut simplex
+<supplied>est</supplied>, ut iuste, aut composita, ut iniuste. Comparationem
+ recipiunt aduerbia, quotiens appellationes unde transeunt comparantur, ut docte
+ doctius doctissime, quod est doctus doctior doctissimus. recipiunt et
+ deminutionem, ut meliuscule. Aduerbiis omnibus praepositio separatim adiungi non
+ debet.</p>
+</div>
+<div type="cap" n="42">
+<p>Omnia aduerbia quae fiunt ex appellationibus a secundae tertiaeque declinationis
+ nominibus sumuntur, ut a lepido lepide et a suaui suauiter. Aduerbia inueniuntur
+ per e productam, ubi genetiuus in i desinit; cum uero per is effertur, tunc
+ etiam per ter, ut mirus mire, prudentis prudenter. Excipiuntur a secundo ordine
+ haec quae non seruant formam, sed confundunt rationem, bonus et malus per e
+ correptam bene et male; item a tertio ordine facilis, uilis, impunis, repens;
+ haec enim facile, uile, impune, repente faciunt. Solent aliqui quaerere, certe
+ an certo, quod nihil referre existimo. Etenim ratio exigit certe, uocalitas uero
+ certo; illud igitur erit rationis, hoc uocalitatis. Illud uero est uitiosum,
+ quod multi dicunt, largiter, duriter, ignorantes rationem et nitentes
+ auctoritate, cum et illi auctores, qui semel largiter ac duriter dixerunt,
+ saepius large et dure dixerint. Sed nec hoc te<supplied>debet</supplied>
+ praeterire,<milestone unit="page" n="p. 412 vol. VII Keil"/>quod nec
+ difficilis, quamquam sit compositum a facilis, rationem sequitur, sed utrumque
+ confundit, et pro difficiliter dicimus difficulter. Similiter et audax audacter,
+ non audaciter.</p>
+</div>
+<div type="cap" n="43">
+<p>Sunt alia aduerbia qualitatis, quae neque per e neque per ter efferuntur, sed per
+ us, ut funditus, caelitus, humanitus, stirpitus, mordicus.<lb/> Item sunt quae
+ in im ac tim terminantur, ut caesim, continuatim, raptim, cursim, strictim,
+ gregatim, separatim, priuatim, partim, pedetemptim, paulatim, minutim, sensim,
+ furtim, deditim, carptim, summatim, statim, passim, praesertim, uicissim.<lb/>
+ Item sunt quae in o terminantur, ut consulto, tuto, clanculo, clandestino,
+ dubio, falso, superuacuo, cito, secreto, bipertito, tripertito, quadripertito,
+ fortuito, infinito, continuo, primo, opinato, profecto, magno, raro, merito,
+ inmerito, otio, crebro, omnino, ultro.<lb/> Item sunt quae in am terminantur,
+ ut clam, nequiquam, palam, obuiam, bifariam, trifariam, quadrifariam,
+ multifariam, coram, perperam.<lb/> Sunt quae in u terminantur, ut dictu, factu.
+<lb/> Item sunt quae in a terminantur, ut frustra, dedita, iniuria.</p>
+</div>
+<div type="cap" n="44">
+<p>Sunt alia in e<supplied>uel ter sine</supplied> prototypo, uelut temere, abunde,
+ iure, obiter.<lb/> Item haec aduerbia non habent<foreign xml:lang="grc"
+ >πρωτότυπον</foreign>, uelut post posterius postremum, supra<milestone
+ unit="page" n="p. 413 vol. VII Keil"/>superius supremum, infra inferius
+ infime,<supplied>prope</supplied> propius proxime, extra exterius extremo,
+ ultra ulterius ultimo, citra citerius citime. Penes et penitus non habent ex se
+ comparatiua nec superlatiua, ut supra scripta aduerbia.</p>
+</div>
+<div type="cap" n="45">
+<head>45. DE PRAEPOSITIONE</head>
+<p>Praepositio est pars orationis, quae praeposita alii parti orationis
+ significationem eius immutat aut implet aut simplicem seruat, ut inscribo.
+ Praepositionum aliae semper componuntur cum aliis partibus orationis, ita ut
+<supplied>in</supplied> unitatem ueniant neque umquam separatim dicantur.
+ Sunt autem hae, con, co, re, di, dis, am, se, ut conplector, coarguor, resero,
+ diduco, discurro, amplector, secedo. aliae sic separantur, ut numquam in
+ unitatem ueniant cum aliis partibus orationis, ut apud, penes. Aliae et
+ coniunguntur et separantur, ut sub, ex, in, de, pro, ab.</p>
+</div>
+<div type="cap" n="46">
+<p>Sunt praepositiones quae accusatiuo casui seruiunt, ut ad, apud, ante, contra
+ aduersum, circa, cis, citra, circum, circiter, erga, extra, intra, inter, iuxta,
+ infra, in, ob, post, propter, prope, pone, praeter, penes, per, subter, subtus,
+ sub, secundum, super, supra, trans, usque, ultra. Sunt praepositiones quae
+ ablatiuo casui seruiunt, ut a, ab abs, cum, coram, de, ex, in, pro, prae, sine,
+ super, sub, tenus; utriusque casus: in, sub, super, subter, ut ad Sacerdotem,
+ ante tribunal, circa scholam, circum muros, cis Renum, contra Tiberim, citra
+ terminum, erga filios, extra ciuitatem, intra muros, inter amicos, iuxta
+ basilicam,<milestone unit="page" n="p. 414 vol. VII Keil"/>infra muros, in
+ parricidam, ob iram, post tempus, propter illum, pone illum, praeter me, subtus
+ lectum, sub umbram, super collem, supra fortunam, trans Tiberim, usque ad mare,
+ ultra aetatem; ablatiui casus sunt, prae bello, sine puero, tenus pube;
+ communes: in parricidam, in agro, in agrum, super Priamo, super collem, sub
+ tecto, sub umbram.<lb/> Verbis autem aptantur hae: as aspellere, di diducere,
+ dis disicere, co coemere, con conuertere, se secernere, re reuocare. Inter eas
+ quae accentu mutato in aduerbia cadunt hae sunt: infra, intra, supra, ultra,
+ citra, circa, iuxta, contra, subtus, coram, ante, post.</p>
+</div>
+<div type="cap" n="47">
+<p>In praepositio significat modo id quod est ualde et uim uerbi cui praeponitur
+ auget, ut increpuit, insonuit; Vergilius:<lb/> <quote type="poetry"> Turnus ut
+ infractos aduerso Marte Latinos;</quote> <lb/>  modo significat idem quod
+ non et uim uerbi imminuit, ut inualidus. Ponitur et pro eo quod est inter, ut
+ in:<lb/>  <quote type="poetry"> Penthesilea furens mediisque in milibus
+ ardet</quote><lb/>  <supplied>et</supplied><lb/>  <quote type="poetry"> aut
+ Capyn aut celsis in puppibus arma Caici.</quote><lb/>  Ponitur et pro
+ aduersus, ut:<lb/>  <quote type="poetry"> quid meus Aeneas in te committere
+ tantum</quote> <lb/>  et<lb/>  <quote type="poetry"> ipse deos in Dardana
+ suscitat arma.</quote><lb/>   Ponitur et pro modo qualitatis, ut:
+<lb/>  <quote type="poetry"> quem pellis aenis<lb/> <supplied>in
+ plumam</supplied> squamis auro conserta tegebat</quote> <lb/> 
+<milestone unit="page" n="p. 415 vol. VII Keil"/>et<lb/>  <quote
+ type="poetry"> atque huic in faciem soror ut conserua Metisci.
+</quote><lb/>  Interdum et pro particula superuacua, ut:<lb/>  <quote
+ type="poetry"> nosco crines incanaque menta<lb/> regis Romani.</quote> 
+<lb/>  Interdum qualitatem habet ad peius deteriusque tendentem, ut:<lb/> <quote
+ type="poetry"> quam semel informem uasto uidisse sub antro Scyllam.
+</quote> <lb/>  Non enim nullius formae significat, sed malae formae et quae
+ uulgo dicitur deformis. Item<lb/>  <quote type="poetry"> et Pyrgi ueteres
+ intempestaeque Grauiscae.</quote> <lb/>  Nam et hic non nullius, sed malae
+ tempestatis dicuntur Grauiscae. Ponitur pro qualitate ordinatiua, cum dicimus:
+ opus in dies crescit, ut Vergilius<lb/>  <quote type="poetry"> inque dies auide
+ surgens caput altius effert.</quote> <lb/>  Ponitur et pro spatio temporali,
+ cum significat usque adhuc,<supplied>ut cum dicimus: a mane in noctem, ut apud
+ Vergilium:</supplied><lb/> <quote type="poetry">
+<supplied> felix si protinus illum</supplied><lb/> <supplied> aequasset
+ nocti ludum in lucemque tulisset.</supplied></quote> <lb/> <supplied>
+ Ponitur et pro praepositione pro</supplied>, ut cum dicimus: hoc munus in
+ magno habeo, ut Vergilius<lb/>  <quote type="poetry"> quem Thracius olim<lb/> 
+ Anchisae genitori in magno munere Cisseus,</quote> <lb/>  et Sallustius in
+ I Historiarum:<lb/> <quote type="prose"><supplied>ut</supplied> et facta in
+ gloria numeret et, si liceat, auidius fecerit</quote>.<lb/> </p>
+</div>
+<div type="cap" n="48">
+<p>Sub praepositio significat modo supra, ut:<lb/> <quote type="poetry"> ter flamma
+ ad summum tecti subiecta reluxit</quote> <lb/> et<lb/> <quote
+ type="poetry"> corpora saltu<lb/> subiciunt in equos</quote> <lb/> id est
+ supra iaciunt; modo infra, ut:<lb/> <quote type="poetry"> caudamque remulcens
+<lb/>subiecit pauitantem<supplied>utero</supplied> siluasque
+ petiuit,</quote> <lb/> et:<lb/> <quote type="poetry"> pedibusque
+ rotarum<lb/> subiciunt lapsus.</quote> <lb/> Significat et prope,
+ ut:<lb/> <quote type="poetry">quo deinde sub ipso<lb/> ecce uolat.
+</quote> <lb/>Ponitur et pro in, ut:<lb/>
+<quote type="poetry"><milestone unit="page" n="p. 416 vol. VII Keil"/>namque sub
+ ingenti lustrat dum singula templo</quote>,<lb/> id est in templo.</p>
+</div>
+<div type="cap" n="49">
+<p>Super praepositio modo ponitur pro de, ut:<lb/>  <quote type="poetry"> multa
+ super Priamo rogitans, super Hectore multa</quote> <lb/> et<lb/><quote
+ type="poetry"> haec super aruorum<supplied>cultu</supplied> pecorumque
+ canebam;</quote> <lb/>modo et pro pro:<lb/>
+<quote type="poetry"> nec super ipse sua molitur laude laborem</quote> <lb/>
+ et:<lb/><quote type="poetry"> nil super imperio moueor;</quote> <lb/>Et
+ pro insuper et amplius, ut:<lb/><quote type="poetry"> cui neque apud Danaos
+ usquam locus, et super ipsi<lb/> Dardanidae infensi poenas cum sanguine
+ poscunt,</quote> <lb/>item:<lb/> <quote type="poetry"> ecce super maesti
+ magna Diomedis ab urbe<lb/> legati responsa ferunt;</quote> <lb/> et pro
+ desuper, ut  :<lb/><quote type="poetry">
+<lb/>haec super e uallo prospectant omnia Troes;<lb/></quote><lb/>et
+<lb/><quote type="poetry"><lb/> superque inmane baratrum<lb/>
+ cernatur;</quote> et pro superest, ut<lb/>
+<quote type="poetry"> ille autem, neque<supplied>enim</supplied> fuga iam super
+ ulla pericli;</quote><lb/>  et<lb/>
+<quote type="poetry"> o mihi sola mei super Astyanactis imago.</quote> 
+<lb/>Interdum et ultra significat, ut  <quote type="poetry"><lb/> super et
+ Garamantas et Indos<lb/> proferet imperium</quote>.</p>
+</div>
+<div type="cap" n="50">
+<p>Pro praepositio significat porro, ut cum profundum dicimus pelagus, cum porro
+ fundus sit, ut:<lb/> <quote type="poetry"> hinc altas cautes proiectaque saxa
+ Pachyni radimus.</quote> <lb/> Significat et ante, ut:<lb/><quote
+ type="poetry"> soli pro portis Messapus et acer Atinas   sustentant aciem
+</quote>.<lb/><milestone unit="page" n="p. 417 vol. VII Keil"/>Item prodere
+ modo ante dare significat, ut prodere patriam dicitur, modo porro dare et
+ propagare,:<lb/> <quote type="poetry"> Italiam regeret, genus alto a
+ sanguine Teucri<lb/> proderet;</quote> <lb/> et pro praepositione in: pro
+ rostris, pro tribunali, ut:<lb/>
+<quote type="poetry"> hirsutumque supercilium promissaque barba</quote>
+<lb/> id est immissa.<supplied>Et pro eo quod est<foreign xml:lang="grc"
+ >ἀντί</foreign> apud Graecos, ut cum dicimus ceruam pro Iphigenia et:
+</supplied>:<lb/><quote type="poetry">
+<supplied> pro dulci Ascanio ueniat</supplied>;</quote> <lb/> et pro eo
+ quod est<foreign xml:lang="grc">ὑπέρ</foreign>:<lb/> <quote type="poetry"> unum
+ illud tibi, nate dea, proque omnibus unum<lb/> praedicam.</quote>
+</p>
+</div>
+<div type="cap" n="51">
+<p>b et ex praepositiones si sequens uerbum a uocali incipiat, integrae efferuntur,
+ ut * ex oppido; si consonantes sequantur, extremam litteram perdunt, ut e foro;
+ similiter, si uocalis sequatur consonantium loco posita, ut e uia. Hae autem non
+ unum idem<supplied>que significant. Nec enim unum</supplied> est a theatro uenio
+ et ex theatro. Nam qui dicit a theatro se uenire, non ex ipso theatro, sed e
+ loco qui est theatro proximus se uenire significat; qui uero ex theatro, ex ipso
+ theatro significat. His praepositionibus pares contraria potestate sunt ad et
+ in, quae et ipsae non unum idemque significant, quia in forum ire est in ipsum
+ forum intrare, ad forum autem ire, in locum foro proximum. Similiter ad tribunal
+ uenit litigator, in tribunal uero praeses aut iudex.</p>
+</div>
+<div type="cap" n="52">
+<head>52. DE CONIVNCTIONE</head>
+<p>Coniunctio est pars orationis nectens ordinansque sententiam. Coniunctioni
+ accidunt figura ordo potestas. Figura est qua apparet: aut simplex sit, ut
+ quidem, aut composita, ut equidem; ordo quo apparet quae praeponi tantum possit,
+ ut nam; quae subiungi, ut que;<supplied>quae</supplied> praeponi et subiungi,
+ ut et.</p>
+</div>
+<div type="cap" n="53">
+<p>Potestas coniunctionum in VI species diuiditur: sunt enim copulatiuae, causales,
+ ratiocinatiuae, repletiuae, disiunctiuae, dubitandi.<lb/> <milestone
+ unit="page" n="p. 418 vol. VII Keil"/>Copulatiuae coniunctiones sunt hae:
+ ac, que, atque, porro, quidem, quoque, etiam, at sed, autem, uero, id porro,
+ equidem;<lb/> causales: nam, enim, quoniam, quia, eo, quod, ideo, ergo,
+ idcirco, gratia, causa, uerum;<lb/>ratiocinatiuae: quatenus, itaque,
+ quapropter, quocirca ergo, quoniam, igitur, quare, quoniamquidem, ideoque,
+ siquidem, quandoquidem;<lb/> repletiuae: saltem, tamen, adeo, tandem;<lb/>
+ disiunctiuae: neque, nec, ne, aut, neu, uel, neue, an, ue;<lb/> dubitandi: si,
+ nisi, seu siue.<lb/> Sunt et quae uix aptantur finitiuae speciei, uelut
+ quamquam, quatenus, dum, si, nisi, tametsi, ut, cum, postquam, antequam;
+ optatiuae speciei: utinam ne, utinam, uelim, dummodo, licet, donec, antequam,
+ postquam, dum; subiunctiuae: si, antequam, donec, quamuis, dummodo licet, cum,
+ dum, postquam, priusquam, an.<lb/> Et ὑποδειγματικοί ueluti ut; et ὁμοιωματικόν
+ aduerbium ut sicut quamquam.</p>
+</div>
+<div type="cap" n="54">
+<p>Nunc dicemus quae coniunctio cui qualitati iungatur. Cum iungitur modo finitiuis,
+ modo subiunctiuis, ut cum dico, cum dicebam, cum dicam, cum dicerem. Sed
+ interest utrum finitiuis an subiunctiuis iungatur.<supplied>Finitiuis enim
+ iungitur</supplied>, quotiens ad id tempus quo agebam refertur, ut apud
+ Vergilium:<lb/> <quote type="poetry">
+<milestone unit="page" n="p. 419 vol. VII Keil"/>cum uenit, aulaeis iam se
+ regina superbis<lb/>aurea composuit sponda,</quote> <lb/> id est «ipso
+ tempore quo uenit se regina composuit»; et apud Ciceronem:<quote type="prose"
+ >tantum profeci, cum te<supplied>a</supplied> consulatu
+ reppuli</quote>,<lb/> id est «ipso tempore quo reppuli profeci». Sic quoque et
+ futuro coniungitur finitiuorum:<quote type="poetry"><lb/> cum dabit amplexus
+ atque oscula dulcia figet,</quote> <lb/> id est «ipso tempore quo dabit
+ amplexus et figet oscula». Sic et Cicero:<quote type="prose">an cum bello
+ uastabitur Italia, uexabuntur urbes, tecta ardebunt, tum te non
+ existimas?</quote> Significat enim se ipso tempore inuidia conflagraturum,
+ quo uastabitur Italia, uexabuntur urbes, tecta ardebunt. Hoc pacto iungitur
+ finitiuis; subiunctiuis autem post factum aliquid significat, ut apud Ciceronem:
+<quote type="prose"> cum ille homo audacissimus conscientia conuictus
+ reticuisset, patefeci</quote>. Nam primum Catilina tacuit, et tunc Cicero
+ patefecit.</p>
+</div>
+<div type="cap" n="55">
+<p>Si modo finitiuis, modo subiunctiuis iungitur; finitiuis hoc modo, quotiens res
+ facta significatur, ut apud Ciceronem:<quote type="prose">si inlustrantur, si
+ erumpunt omnia</quote>; nec enim dubitat, si inlustrentur, sed, quia
+ inlustrantur, suadet ut Catilina mutet mentem. Item Terentius in
+ Hecyra:<lb/><quote type="poetry"> hoc mihi unum e plurimis miseriis reliquum
+ fuerat malum,<lb/> si puerum ut tollam cogit.</quote> <lb/> Sic quoque et
+ perfecto iungitur, ut apud Vergilium:<lb/><quote type="poetry"> si potuit manes
+ arcessere coniugis Orpheus,</quote> <lb/> affirmat enim potuisse. item apud
+ Ciceronem:<quote type="prose">quid? si haec, non dico maiora fuerunt in Clodio
+ quam in Milone</quote>. Subiunctiuis uero iungitur, quotiens condicionalis
+ et incertus est sermo, uelut si faciam, si facerem. Qui enim sic loquitur nihil
+ factum interim declarat. Sed Terentius hanc regulam non est secutus; nam de
+ condicionali sermone finitiuo uerbo usus est, ut in Hecyra:<lb/> <quote
+ type="poetry"> si facies, reprimam me, ne aegre quicquam audias;</quote> 
+<lb/> pro enim si feceris si facies dixit; idem in eadem:<lb/><quote
+ type="poetry"> quod<supplied>si</supplied> perficio,
+<supplied>non</supplied> paenitet me famae,</quote> <lb/> et<lb/> 
+<quote type="poetry"><milestone unit="page" n="p. 420 vol. VII Keil"/>senex
+ si quaeret me, modo isse dicito<lb/> ad portum,</quote> <lb/> pro si
+ quaesiuerit.</p>
+</div>
+<div type="cap" n="56">
+<p>Dum iungitur finitiuis, uelut dum uenio. Quotiens uero pro eo quod est dummodo
+ ponitur, subiunctiua recipit. alii uero dixerunt quod magis optatiua, ut apud
+ Vergilium<lb/>
+<quote type="poetry"> dum conderet urbem,</quote> <supplied> id est</supplied>
+ dummodo conderet urbem. Etiam si alius praegreditur sermo declinationis, ad
+ illum reformatur, uelut petebas<supplied>ut</supplied>, dum uenires, facerem.
+ Sic quoque recipit subiunctiua.<lb/> Donec iungitur subiunctiuis, uelut donec
+ ueniam.</p>
+</div>
+<div type="cap" n="57">
+<p>Num, si praepositum fuerit illi aliud uerbum finitiuum, recipit subiunctiua, ut
+ Cicero<quote type="prose">interrogaui num dubitaret eo proficisci</quote>, ut
+ sit species relatiua – fere enim<supplied>semper</supplied> praeposito finitiuo
+ uerbo parti orationis coniunctiuae subiungitur species subiunctiua, uelut nescio
+ quare uenerit, nescio cur dixerit et cetera similiter; pariter uero infinitiuo,
+ ut apud Ciceronem:<quote type="prose">credo uos mirari quid sit, quod ego
+ potissimum surrexerim</quote>; quamquam idem Cicero in eadem aliter
+ enuntiauit:<quote type="prose">nequid metuas, Glaucia, non te scrutor, si quid
+ forte ferri habuisti</quote>. Aliter uero finitiua, ut apud Terentium<quote
+ type="poetry">num aliud me tibi opus est?</quote>. Item: quare uenisti?
+ Quare id fecisti?, et similia, quia<supplied>non</supplied> praeponitur
+ uerbum.</p>
+</div>
+<div type="cap" n="58">
+<p>Item quamuis subiunctiua: quamuis feceris; item<supplied>dummodo</supplied>:
+ dummodo uenias; item<supplied>licet</supplied>: licet uenias.<lb/> Quamquam
+ finitiua, sicut Vergilius:<lb/>
+<quote type="poetry">quamquam<supplied>animus</supplied> meminisse iubet
+ luctuque refugit.</quote> <lb/>Si uero<foreign xml:lang="grc">καίτοι
+ γε</foreign> significat, optatiua recipit, ut apud Ciceronem:<quote
+ type="prose">quamquam quid ego te inuitem?</quote>.</p>
+</div>
+<div type="cap" n="59">
+<p>Vt recipit finitiua acutoque accentu elatum effertur, quotiens<milestone
+ unit="page" n="p. 421 vol. VII Keil"/>pro eo accipitur quod est quomodo;
+ quotiens uero pro eo quod est apud Graecos<foreign xml:lang="grc"
+ >ἵνα</foreign>, ut recipit optatiua: ut faciam. Non numquam tamen et accentu
+ acuto elatum recipit subiunctiua, praeposito sane finitiuo uerbo, more quo supra
+ formam relatiuam diximus, ut apud Vergilium:<lb/>
+<quote type="poetry">infandum, regina, iubes renouare dolorem,<lb/> Troianas ut
+ opes et lamentabile regnum<lb/> eruerint Danai.</quote> <lb/> Vtinam
+ recipit optatiua, ut utinam ueniat.<lb/> Ne accentu acuto imperatiua, ut ne
+ fac; quotiens uero graui accentu pro eo quod est apud Graecos<foreign
+ xml:lang="grc">ἵνα μή</foreign> accipitur, optatiua, ut apud Horatium:
+<lb/> <quote type="poetry"> ne facias quod<lb/> Vmmidius quidam.</quote> 
+<lb/> Νon numquam uero, etiamsi accentu acuto efferatur, optatiua quoque
+ recipit, ut ne uenias, ne scribas. Sed interest<supplied>inter</supplied> hoc
+ et illud quod dicimus ne fac, quod hoc imperamus, superius suademus. Recipit
+ quoque id ipsum accentu acuto elatum subiunctiua, quotiens<foreign
+ xml:lang="grc">εἰρωνικῶς</foreign> accipimus pro eo quod est apud Graecos
+<foreign xml:lang="grc">πάνυ γε</foreign>, scilicet quotiens rei dubiae et
+ quasi condicionali aptatur, ut apud Ciceronem:<quote type="prose">ne tu, Eruci,
+ accusator esses ridiculus</quote> et Sallustius<quote type="prose">ne illi
+ corruptis moribus uictoriae temperarent</quote>. Quotiens uero rei aptatur
+ certae, eodem accentu elatum finitiua recipit, ut apud Ciceronem:<quote
+ type="prose">ne illi uehementer errant</quote>, affirmat enim eos uehementer
+ errare.</p>
+</div>
+<div type="cap" n="60">
+<p>Postquam modo finitiua, modo subiunctiua: finitiua, quotiens iunctum accipitur,
+ ut Vergilius  <quote type="poetry">
+<lb/>postquam res Asiae Priamique euertere gentem<lb/> inmeritam uisum
+ superis,</quote> <lb/> ut sit «postquam uisum est». Subiunctiua uero,
+ quotiens secernitur, ut post uenit quam exclamasset, post fecit quam dixisset.
+<lb/>  Antequam modo finitiuis, modo subiunctiuis iungitur; finitiuis, ut
+ Vergilius:<lb/><quote type="poetry"> ante, pudor, quam te uiolo.</quote>
+</p>
+</div>
+<div type="cap" n="61">
+<p>Ni et nisi subiunctiua ita: ni fecissent et nisi fecissent, quamquam apud
+ Ciceronem non numquam finitiuis iungitur, tunc maxime, cum parum suspensus et
+ dubius sit sensus, ut apud eundem<quote type="prose">nisi forte maius est
+ patefacere nobis prouincias, quo exire possimus, quam prouidere, ut etiam
+ illi, qui absint, habeant, quo uictores reuertantur</quote>.</p>
+</div>
+<div type="cap" n="62">
+<p>Et coniunctio id ualet quod que;<supplied>sed</supplied> hoc differt, quod haec
+ non modo subiungitur, sed etiam praeponitur, modo geminata:<lb/> <quote
+ type="poetry"> qui foedere certo<lb/> et premere et laxas sciret dare
+ iussus habenas;</quote> <lb/> modo simpliciter elata, sed figurata,
+ ut:<lb/> <quote type="poetry"> labitur uncta uadis abies, mirantur et undae,
+<lb/> miratur nemus insuetum;</quote>  modo interrogatiua, ut:<lb/><quote
+ type="poetry"> et quae tanta fuit Romam tibi causa uidendi?;</quote> <lb/>
+ modo indignatiua:<lb/> <quote type="poetry"> et quisquam
+<supplied>Iunonis</supplied> numen adorat?;</quote><lb/>  modo
+ confirmatiua:<lb/> <quote type="poetry"> et dubitamus adhuc uirtutem
+ extendere factis?</quote> <lb/> modo causalis:<lb/><quote type="poetry">et
+ gens illa quidem sumptis non tarda pharetris;</quote> <lb/> modo
+ adnutatiua et compromissiua, ut:<lb/><quote type="poetry"> dic quibus in terris,
+ et eris mihi magnus Apollo  <lb/> tris pateat caeli spatium non amplius
+ ulnas;</quote> <lb/> modo auctiua pro etiam:<lb/> <quote type="poetry">
+ quorum Iphitus<supplied>aeuo</supplied><lb/> iam grauior Pelias et uulnere
+ tardus Vlixi;</quote> <lb/> modo ordinatiua:<lb/> <quote type="poetry">
+<lb/>corpusque lauant frigentis et ungunt;</quote> <lb/> modo
+ superlatiua:<lb/> <quote type="poetry"> quicquid id est, timeo Danaos et
+ dona ferentes;</quote> <lb/> modo deminutiua per gradus, ut:<lb/>
+<quote type="poetry">
+<milestone unit="page" n="p. 423 vol. VII Keil"/>felix qui potuit rerum
+ cognoscere causas,  <lb/> fortunatus et ille deos qui nouit agrestes.
+</quote></p>
+</div>
+<div type="cap" n="63">
+<p>Aut coniunctio dubitatiuam, si geminetur, habet potestatem: qui enim dicit aut
+ librum uolo aut pretium, utrumque se ex aequo desiderare significat, ut in
+ illis:<lb/> <quote type="poetry"> aut pelago Danaum insidias suspectaque
+ dona<lb/> praecipitare iubet subiectisque urere flammis<lb/> aut terebrare
+ cauas uteri et temptare latebras;</quote> <lb/> aut si semel subicitur,
+ deminutiua est et habet gradum ad inferiora tendentem, ut:<lb/> <quote
+ type="poetry"> incute uim uentis submersasque obrue puppes,  <lb/> aut age
+ diuersas et disice corpora ponto.</quote> <lb/> Nam furens Iuno et irata
+<supplied>quod grauissimum credebat optauit, deinde</supplied> quod secundum
+ intulit.<supplied>Huius</supplied> coniunctionis<supplied>qualitates sunt
+ multae</supplied>. Modo comminatiua est: da mihi, aut rapio, ut:<lb/><quote
+ type="poetry"> Nymphae, noster amor, Libethrides, aut mihi carmen<lb/>
+ quale meo Codro concedite – proxima Phoebi<lb/> uersibus ille facit –, aut
+ si non possumus omnes,<lb/> hic arguta sacra pendebit fistula pinu;
+</quote> <lb/> modo hortatiua, ut:<lb/> <quote type="poetry"> aut tu magne
+<supplied>pater</supplied> diuum miserere</quote> <lb/> et
+ illud:<lb/> <quote type="poetry"> aut tu, quod superest, infesto fulmine
+ morti,  <lb/> si mereor, demitte;</quote> <lb/> modo coniunctiua pro et:
+<lb/> <quote type="poetry"> moliriue moram aut ueniendi poscere causas;
+</quote> <lb/> et pro que:<lb/> <quote type="poetry"> liquidas corui presso ter
+ gutture uoces  <lb/> aut quater ingeminant,</quote> <lb/> pro quaterque;
+ modo pro separatiua:<lb/> <quote type="poetry"> aut onera accipiunt uenientum
+ aut agmine facto,  <lb/>
+<milestone unit="page" n="p. 424 vol. VII Keil"/>ignauum fucos pecus a
+ praesepibus arcent.</quote> <lb/>
+<supplied>Item</supplied>:<lb/> <quote type="poetry"> aut ante ora deum pinguis
+ spatiatur ad aras;</quote> <lb/> modo fundit modo spatiatur.
+<supplied>Item</supplied>:<lb/> <quote type="poetry">
+<supplied>semineces uoluit multos aut agmina curru</supplied>  <lb/>
+<supplied> proterit</supplied> aut raptas fugientibus ingerit hastas
+</quote></p>
+</div>
+<div type="cap" n="64">
+<head>64. DE INTERIECTIONE</head>
+<p>Interiectio est pars orationis significans affectum animi. Vario autem affectu
+ mouemur: aut enim laetitiam significamus, ut uax, euax; aut dolorem, ut uae,
+ heu; aut ammirationem, ut babae, eheu. Ex his colligi deinceps alii motus
+ animorum possunt<del> apex Donati</del>: aut metuentis ut ei, attat, aut
+ optantis, ut o, utinam. Sed haec Graeci aduerbio applicant, quod ideo Latini non
+ faciunt, quia huiusce modi uoces non statim subsequitur uerbum. Licet autem pro
+ interiectione etiam alias partes orationis singulas pluresue subponere, ut
+ nefas, pro nefas. Accentus in interiectionibus certi esse non possunt, ut fere
+ in aliis uocibus, quas inconditas inuenimus.</p>
+</div>
+</body>
+</text>
+</TEI>

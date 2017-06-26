@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Testamentum Porcelli</title>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Raffaella Tabacco</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Simona Musso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2013</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000487</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p>Testamentum Porcelli. Text, Übersetzung und Kommentar. Abhandlung zur Erlangung der Doktorwürde der Phiosophischen Fakultät I der Universität Zürich vorgelegt von Nikolaus Adalbert Bott, Zürich 1972.</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    <p><hi rend="bold">Modifiche apportate al testo dell'edizione di riferimento </hi></p>
+    <p>Il testo è stato rivisto da Raffaella Tabacco: sono state soppresse le <hi rend="italic">cruces desperationis</hi> introdotte da Bott a tre <foreign xml:lang="grc">ἅπαξ</foreign> che possono essere interpretati, anziché come errori di tradizione, come neoformazioni a scopo comico (<hi rend="italic">solivertiator, rixoribus, capitinas</hi>); è stata mutata la punteggiatura per unire <hi rend="italic">de Thebeste usque ad Tergeste</hi> con quanto precede anziché con quanto segue; è stato introdotto l’inciso <hi rend="italic">qui testamento meo interfuistis</hi>, caduto probabilmente per errore materiale nel testo di Bott; è stato introdotto tra i firmatari <hi rend="italic">Tergillus signavit</hi>, caduto anch’esso probabilmente per errore materiale; si è ripristinata la lezione dei codici <hi rend="italic">Celsinus</hi> al posto della correzione <hi rend="italic">Celsinianus</hi> introdotta da Bott, che non appare necessaria.</p>
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div type="opus">
+    <head>>TESTAMENTVM PORCELLI</head>
+   <p>Incipit testamentum porcelli.</p> 
+    <p>Marcus Grunnius Corocotta porcellus testamentum fecit.</p>
+    <p>Quoniam manu mea scribere non potui, scribendum dictavi.</p>
+    <p>Magirus cocus dixit: ‘veni huc, eversor domi, solivertiator, fugitive porcelle, et hodie tibi dirimo vitam’. Corocotta porcellus dixit: ‘Si qua feci, si qua peccavi, si qua vascella pedibus meis confregi, rogo, domine coce, vitam peto, concede roganti’. Magirus cocus dixit: ‘Transi, puer, affer mihi de cocina cultrum, ut hunc porcellum faciam cruentum’. Porcellus comprehenditur a famulis, ductus sub die XVI kal. lucerninas, ubi abundant cymae, Clibanato et Piperato consulibus. Et ut vidit se moriturum esse, horae spatium petiit et cocum rogavit, ut testamentum facere posset. Clamavit ad se suos parentes, ut de cibariis suis aliquid dimitteret eis. Qui ait:</p>
+    <p>‘Patri meo Verrino Lardino do lego dari glandis modios XXX, et matri meae Veturinae scrofae do lego dari Laconicae siliginis modios XL, et sorori meae Quirinae, in cuius votum interesse non potui, do lego dari hordei modios XXX. Et de meis visceribus dabo donabo sutoribus saetas, rixoribus capitinas, surdis auriculas, causidicis et verbosis linguam, bubulariis intestina, esiciariis femora, mulieribus lumbulos, pueris vesicam, puellis caudam, cinaedis musculos, cursoribus et venatoribus talos, latronibus ungulas.</p> 
+    <p>Et nec nominando coco legato dimitto popiam et pistillum, quae mecum attuleram de Thebeste usque ad Tergeste; liget sibi collum de reste.</p> 
+    <p>Et volo mihi fieri monumentum ex litteris aureis scriptum: “Marcus Grunnius Corocotta porcellus vixit annis DCCCC.XC.VIIII S, quod si semis vixisset, mille annos implesset”.</p> 
+    <p>Optimi amatores mei vel consules vitae, rogo vos, ut cum corpore meo bene faciatis, bene condiatis de bonis condimentis nuclei, piperis et mellis, ut nomen meum in sempiternum nominetur. Mei domini vel consobrini mei, qui testamento meo interfuistis, iubete signari’.</p>
+    <p>Lardio signavit. Ofellicus signavit. Cyminatus signavit. Lucanicus signavit. Tergillus signavit. Celsinus signavit. Nuptialicus signavit.</p>
+     <p>Explicit testamentum porcelli sub die XVI kal. lucerninas Clibanato et Piperato consulibus.</p>
+     <p>Feliciter.</p>
+   </div>
+  </body>
+ </text>
+
+</TEI>

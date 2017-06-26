@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title>Fragmentum Berolinense de heroo hexametro</title>
+ <respStmt>
+ <resp>transcodifica di base da rtf a xml-tei</resp>
+ <name>piero colombo - step srl</name>
+ </respStmt>
+  <respStmt>
+   <resp>Testo </resp>
+   <name>Marinone, GL-CD</name>
+  </respStmt>
+  <respStmt>
+   <resp>Controllo marcatura XML-TEI</resp>
+   <name>Ermanno Malaspina</name>
+  </respStmt>
+ </titleStmt>
+ <publicationStmt>
+ <publisher>digilibLT</publisher>
+ <pubPlace>Vercelli</pubPlace>
+ <date>2017</date>
+ <availability>
+ <p>
+ <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/" />
+ </p>
+ </availability>
+ <idno>dlt000196</idno>
+ </publicationStmt>
+ <sourceDesc>
+  <p><hi rend="italic">Grammatici Latini, VI. Scriptores artis metricae. Marius Victorinus, Maximus Victorinus, Caesius Bassus etc.,</hi> ex recensione H. Keilii, Hildesheim 1961, 633-634, 9 (reprografischer  Nachdruck der Ausgabe Leipzig 1874).</p>
+ </sourceDesc>
+ </fileDesc>
+ <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+	<projectDesc>
+ <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+ <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+	</projectDesc>
+	<editorialDecl>
+ <p>
+  <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT</hi>
+ </p>
+	 <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+	  l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+	  e commenti e ogni altro contenuto redatto da editori moderni.</p>
+	 <p>I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+	  correttezza di trascrizione</p>
+	 <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+	  distinzione u/v minuscole.</p>
+	 <p>Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+	 <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi> :
+	  grassetto, corsivo, spaziatura espansa. </p>
+	 <p> Sono stati normalizzati e marcati nel modo seguente i diacritici. <lb/> espunzioni:
+	  <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]>
+	  <lb/>
+	  <hi rend="italic">loci desperati</hi> :
+	  <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo† e †testo <lb/>
+	  lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...] <lb/> lacuna integrata dagli editori:
+	  <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+	 </p>
+	 <p> Sono stati marcati i termini in lingua greca
+	  <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+	 </p>
+	 <p> Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+	  target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+	  >Note di trascrizione e codifica di testi latini tardoantichi
+	  [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
+	 </p>
+	</editorialDecl>
+</encodingDesc>
+ <profileDesc>
+ <langUsage>
+ <language ident="la">Latino</language>
+ </langUsage>
+ </profileDesc>
+ </teiHeader>
+ <text>
+ <body>
+  <head>Fragmentum Berolinense de heroo hexametro</head>
+ <p>
+ <milestone unit="row" n="riga 2 vol. VI Keil" /> hoc creditur ab Apolline inuentum uel ab eius sacerdote Phemonoe, et heroum idcirco appellatum, quod Homerus tali metro res gestas heroum scripsit. dactylicum autem idcirco dici arbitrantur, quia generis huius duos pedes recipit, et ex his iustus constat herous. hexametrum quoque non nulli propterea dici existimant, quia sex pedibus ingreditur, quos metra eodem modo Graeci nominant, quo et illa quibus metimur, cum et trimodia sit iusta mensura et modius et hemina nihilo minus et cyathus, exigua trimodiae portio, similique ratione decempeda et pes et digitus. sic et totus uersus metron et singuli pedes, per quos eum metimur, metra nominantur. item quem ad modum et uas, quo metimur triticum, modius appellatur, et quod illo mensi sumus triticum modius, similiter et pes, quo uerba metimur, et ipsa uerba, quae conpleuerunt pedem, metra nominantur. </p>
+  <p> huic hexametro dactylico trimetrus iambicus iungitur, quem Latine senarium nominamus, id est hexametron. sex enim pedes iambicos habet, quem ad modum herous sex habet dactylicos pedes. trimetrus autem uocatur a Graecis, quia tribus percussionibus feritur. de qua re ingens quaestio est, quid ita, cum sex pedes habeat et herous et iambicus, hic ter, at ille sexies feriatur. quam quaestionem necesse est ut in praesentia differamus. festino enim demonstrare, quid ita et heroum et iambicum uersum antiqui Apollini adsignauerint paresque esse crediderint, cum sint non tantum alio inter se genere sed etiam dispari ratione conpositi. nam ferunt Apollinem obsidentem Delphos draconem depugnantem sagittis acutis adiutum exhortatione hominum et incolentium illa nemora nympharum his fere uerbis, <foreign xml:lang="grc">ἰὴ παιών</foreign>. haec dissyllaba uerba producta ter singula faciunt spondeis sex heroum uersum, et rursum eadem <del>et</del> correptis prioribus utriusque uerbi syllabis faciunt iambicum senarium. ideoque dicitur Homerus in <hi rend="italic">Margite</hi> suo miscuisse hos uersus tamquam pares <foreign xml:lang="grc" /><del><foreign xml:lang="grc">Ὁμήρου</foreign></del>, <milestone unit="page" n="p. 634 vol. VI Keil" /><quote type="poetry">«<foreign xml:lang="grc">ἦλθέ τις εἰς Κολοφῶνα γέρων καὶ θεῖος ἀοιδός</foreign>, / <foreign xml:lang="grc"> Μουσάων θεράπων καὶ ἑκηβόλου Ἀπόλλωνος</foreign>, / <foreign xml:lang="grc"> φίλῃς ἔχων ἐν χερσὶν εὔφθογγον λύρην»</foreign></quote>. </p>
+ <p> quod exemplum posuissem, si in animo esset Latinum librum Graecis conplere uersibus, cum praesertim hoc cognoscere uolentibus liceat Homeri legere <hi rend="italic">Margiten</hi>. igitur cum constet esse quandam his uersibus inter se germanitatem, probabimus omnia metra ex his profluere fontibus et <supplied>ad</supplied> haec referri ueluti capita, neque aliam esse originem metrorum in tam immensa uarietate. </p>
+ </body>
+ </text>
+</TEI>

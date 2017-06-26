@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vita M. Annaei Lucani</title>
+                <author>Vacca</author>
+                <respStmt>
+                    <resp>Correzione linguistica</resp>
+                    <name>Beatrice Strona</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica XML</resp>
+                    <name>Simona Musso</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>digilibLT</publisher>
+                <pubPlace>Vercelli</pubPlace>
+                <date>2012</date>
+                <availability>
+                    <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+                </availability>
+                <idno>dlt000554</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p><hi rend="italic">Le vite antiche di M. Anneo Lucano</hi>, introduzione e testo
+                    critico a cura di C. Braidotti, Bologna 1972</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+                <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio
+                    Lana</p>
+            </projectDesc>
+            <editorialDecl>
+
+
+                <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+                <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non
+                    seguendone l'impaginazione. Sono stati invece esclusi dalla digitalizzazione
+                    apparati, introduzioni, note e commenti e ogni altro contenuto redatto da
+                    editori moderni. </p>
+                <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la
+                    massima correttezza di trascrizione</p>
+                <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di
+                    riferimento per la distinzione u/v minuscole.</p>
+                <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+                <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic"
+                        >corpus</hi>: grassetto, corsivo, spaziatura espansa.</p>
+                <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/>
+                    espunzioni: <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/>
+                    integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+                    <hi rend="italic">loci desperati</hi>:
+                    <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo†
+                    e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...]<lb/>
+                    lacuna integrata dagli editori:
+                    <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+                </p>
+                <p>Sono stati marcati i termini in lingua greca
+                    <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+                </p>
+                <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+                        target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+                        >Note di trascrizione e codifica di testi latini tardoantichi
+                        [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+            </editorialDecl>
+
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latino</language>
+            </langUsage>
+        </profileDesc>
+
+    </teiHeader>
+
+    <text>
+
+
+        <body>
+            <div type="opus"><head>Vita M. Annaei Lucani</head>
+            <p>M. Annaeus Lucanus patrem habuit M. Annaeum Melam ex prouincia Baetica Hispaniae
+                interioris Cordubensem equitem Romanum, inlustrem inter suos, notum Romae et propter
+                Senecam fratrem, clarum per omnes uirtutes uirum, et propter studium uitae
+                quietioris, quod sequens magis a turba recedebat, minus latebat. Matrem habuit et
+                regionis eiusdem et urbis Aciliam nomine, Acilii Lucani filiam, oratoris operae apud
+                proconsules frequentis et apud clarissimos uiros non nullius ingenii: adeo non
+                improbandus, ut in scriptis aliquibus hodieque perduret eius memoria, cuius cognomen
+                huic poetae inditum apparet. Natus est III Nonas Nouembris C. Caesare Germanico II
+                L. Apronio Caesiano coss. Sed in patria sua non ualuit educari, fatorum credo
+                decretis, ut id ingenium, quod orbem fama sui impleturum cresceret, et in domina
+                mundi aleretur urbe. Octauum enim mensem agens Romam translatus est. Ac ne dispar
+                euentus in eo narraretur eius, qui in Hesiodo refertur, cum opinio tunc non
+                dissimilis maneret, cunas infantis, quibus ferebatur, apes circumuolarunt osque
+                insedere complures aut dulcem iam tum spiritum eius haurientes aut facundum et
+                qualem nunc aestimamus, futurum significantes. <supplied>A</supplied> praeceptoribus
+                tunc eminentissimis est eruditus eosque intra breue temporis spatium ingenio
+                adaequauit, una uero studentes superauit profectibus. Declamauit et graece et latine
+                cum magna admiratione audientium. Ob quod puerili mutato in senatorium cultum et in
+                notitiam Caesaris Neronis facile peruenit et honore uixdum aetati debito dignus
+                iudicatus est. Gessit auten quaesturam, in qua cum collegis more tunc usitato munus
+                gladiatorium edidit secundo populi fauore; sacerdotium etiam accepit auguratus.
+                Equidem hactenus tempora habuit secunda. Quae sequuntur autem, mutata inuidia et
+                odio Neronis ipsi exitium, domesticis luctum miserabilem adtulerunt. Cum inter
+                amicos enim Caesaris tam conspicuus fieret profectus <supplied>eius</supplied> in
+                poetica, frequenter ostendebatur; quippe et certamine pentaeterico acto in Pompeii
+                theatro laudibus recitatis in Neronem fuerat coronatus et ex tempore Orphea scriptum
+                in experimentum aduersum conplures ediderat poetas et tres libros, quales uidemus.
+                Quare inimicum sibi fecit imperatorem. Quo ambitiosa uanitate, non hominum tantum,
+                sed et artium sibi principatum uindicante, interdictum est ei poetica, interdictum
+                est etiam causarum actionibus. Hoc factum Caesaris iuuenili aestimans animi calore
+                speransque ultionem a coniuratis in caedem Neronis socius adsumptus est, sed parum
+                fauste. Deceptus est enim a Pisone et consularibus aliisque praetura perfunctis
+                inlustribus uiris: dum uindictam expetit, in mortem inruit. Nam sua sponte coactus
+                uita excedere uenas sibi praecidit periitque pridie Kal. Maias Attico Vestino et
+                Nerua Siliano coss. XXVI aetatis annum agens, non sine iactura utilitatis cum
+                patriae, quae tantam inmature amisit indolem, tum studiorum quoque. Reliqui enim VII
+                belli ciuilis libri locum calumniantibus tamquam mendosi non darent, qui tametsi sub
+                uero crimine non egent patrocinio: in isdem dici, quod in Ouidii libris
+                praescribitur, potest: ‘emendaturus, si licuisset, erat’. Exstant eius complures et
+                alii, ut Iliacon, Saturnalia, Catachthonion, Siluarum X, tragoedia Medea inperfecta,
+                salticae fabulae XIV et epigrammata, prosa oratione in Octauium Sagittam et pro eo,
+                de incendio urbis, epistolarum ex Campania, non fastidiendi quidem omnes, tales
+                tamen, ut belli ciuilis uideantur accessio.</p>
+            </div>
+        </body>
+    </text>
+
+</TEI>

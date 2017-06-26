@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>De salutaribus praeceptis</title>
+        <author>Caelius Aurelianus</author>
+        <respStmt>
+          <resp>Correzione linguistica</resp>
+          <name>David Paniagua</name>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica XML</resp>
+          <name>David Paniagua</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>digilibLT</publisher>
+        <pubPlace>Vercelli</pubPlace>
+        <date>2011</date>
+        <availability>
+          <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+        </availability>
+        <idno>dlt000064</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Caelius Aurelianus, De salutaribus praeceptis, in Anecdota graeca et graecolatina, edidit
+          V. Rose, Amsterdam 1963, pp. 181-205 (Berlin 1864) </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+        <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+      </projectDesc>
+      <editorialDecl>
+
+
+        <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+        <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+          l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni,
+          note e commenti e ogni altro contenuto redatto da editori moderni. </p>
+        <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+          correttezza di trascrizione</p>
+        <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+          distinzione u/v minuscole.</p>
+        <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+        <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+          grassetto, corsivo, spaziatura espansa.</p>
+        <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+          <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+          <hi rend="italic">loci desperati</hi>:
+          <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo† e
+          †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...]<lb/> lacuna integrata
+          dagli editori: <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+        </p>
+        <p>Sono stati marcati i termini in lingua greca
+          <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+        </p>
+        <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+            target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+            >Note di trascrizione e codifica di testi latini tardoantichi
+            [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+      </editorialDecl>
+
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latino</language>
+      </langUsage>
+    </profileDesc>
+
+  </teiHeader>
+  <text>
+    <body>
+      <div type="pr" n="pr">
+        <p>Cum nobis saepius, meus Lucreti, de medicina fuerit sermo quod tam difficilis
+          integritatis causa quam necessaria sanitas esse videatur: quis enim semper liber a morbo
+          aut quis facile est regens integritatem? nihil te video consilii cepisse quatenus integro
+          usui necessaria sanitas esse videatur. non nihil tamen si interrogationibus meis tuae
+          responsionis exhibeas omnia, docuisti hoc tibi fieri pervisum esse. hoc dabit occasionem
+          meis interrogationibus. si ita placet ad perficienda quae petimus, primum a nobis sanitas
+          exploranda est.</p>
+      </div>
+      
+        <div type="par" n="1"><p>Quid est enim sanitas? integra viarum aut officiorum
+          naturalium temperies.</p></div>
+        <div type="par" n="2"><p>Quot appellatur modis? duobus, uno quo animae intellegimus
+          sanitatem, alio quo corporis. </p></div>
+        <div type="par" n="3"><p>Quid a fortitudine sanitas differt? quod oportet totam
+          fortitudinem complementum esse sanitatis. </p></div>
+        <div type="par" n="4"><p>Quid etiam a naturali integritate? quod plus est naturalis
+          integritas a sanitate. quisquis enim integer sanus est, quisquis autem sanus non semper et
+          integer, amissa corporis parte aut cicatrice facta aut corpore carnis immodice pleno, ut
+          athletarum videtur sanitas quam supra memoravimus.</p></div>
+        <div type="par" n="5"><p>Quid a bona valetudine sanitas differt? bona valetudo est
+          inculpata sanitas sanitas autem non est inculpata, labore et indigestione sauciata. </p></div>
+        <div type="par" n="6"><p>Quid a pulcritudine sanitas differt? pulcritudinem vocamus
+          corporis, motum moderatum membrorum cum bono colore. potest antem sanitas sine
+          pulcritudine intellegi. medicorum enim est sanitatem corporis custodire, pulcritudinem
+          autem aliptarum. eorum enim facere, horum factam custodire. Est autem sanitas? secundum
+          aliquos philosophos inprobati sermonis non est, secundum sapientes est.</p></div>
+        <div type="par" n="7"><p>si quis enim in morbos cadit et queritur, cum deest
+          intellegitur esse: nihil enim aut queritur aut in aliud cadit. </p></div>
+        <div type="par" n="8"><p>Quomodo comprehenditur sanus homo? Herophilus sensibus
+          intellegibilem dixit esse sanum, ad veritatem autem incomprehensibilem propter parvitatem
+          causarum quae morbos efficiunt aut nimios celeresque aut tardos creantes motus aut
+          interiectione et longa distantia aut nimia vicinitate supra dictatum causarum. nos autem
+          intellegibilem dicimus eum qui sine querela est et corporis sui vindicat sanitatem : quae
+          praeter relationem cuiusquam esse non potest perspicua.</p></div>
+        <div type="par" n="9"><p>Bonum est sanitas an malum? secundum Stoicos neutrum,
+          secundum Aristotelem et alios bonum: quam nos attestamur opinionem. signum enim: et animae
+          morum tribui tranquillitatem, quod bonum est.</p></div>
+        <div type="par" n="10"><p>nemo enim dicere malum ausus est animae sanitatem. Vniformis
+          est sanitas, an varia cum extenditur et minuitur? secundum Asclepiadem et Erasistratum
+          uniformis: nolunt enim summum sanitatis et quantitudinem esse. secundum Herophilum et
+          methodicos varia, cum extenditur et minuitur. id etiam nos adserimus. si enim modo nos
+          fortes modo fatigatos esse sentimus, manifeste variatur sanitas.</p></div>
+        <div type="par" n="11"><p>Communem vel unigenam nobis et animalibus dicimus salutem?
+          communem: vidimus enim officiis naturalibus eam constare.</p></div>
+        <div type="par" n="12"><p>Intactus erit morborum qui salutaribus utitur praeceptis?
+          non intactus, sed difficile tactus. in multum enim nos fortuna tenet: ex qua casus vulnera
+          nobis aut inversionem sanitatis efficiunt. et est inpossibile quae denuntiata non fuerint
+          vitare.</p></div>
+        <div type="par" n="13"><p>Isdem rationibus passiones curantur quibus sanitas
+          custoditur? non isdem. sanitatem servant salutaria praecepta, passiones tollunt adiutoria
+          gubernationis varie formata.</p></div>
+        <div type="par" n="14"><p>Vtilis est sanitati consuetudo? utilis, si ex utilibus
+          fuerit rebus.</p></div>
+        <div type="par" n="15"><p>Quid est consuetudo? usus in eadem consuetudine perseverans. </p></div>
+        <div type="par" n="16"><p>Quomodo fit aut solvitur consuetudo? per modicam adiectionem
+          aut detractionem. repentina enim mutatio novitatis causa turbat corpora. </p></div>
+        <div type="par" n="17"><p>(Vita qua ratione dicitur?) multis atque variis, ad praesens
+          autem tribus: una qua mortalem vitam dicimus. item sicut Terentius moraliter dicendo vitam
+          hominis dixit. tertia, qua de diaeta ciborum verbum significat, ut ebriosam vel sobriam
+          aut edacem vel tenuem dicimus vitam. </p></div>
+        <div type="par" n="18"><p>Differt vita vitae ad conservandam corporis sanitatem?
+          differt. est enim vacua, et est activa, quae aut communiter aut specialiter effecta: his
+          intellegitur militaris, aut rustica, vel nautica, aut varia gestatione exercitata ut
+          athletarum vel venantium. est autem inordinata, est cauta, est varia, est consueta, est
+          insueta.</p></div>
+        <div type="par" n="19"><p>Quaenam harum melior ad conservandam corporis sanitatem?
+          generaliter activa et ordinata, ut sccundum Hippocratem labor aut gestatio cibum
+          antecedat: specialiter autem inordinata et inaequalis variam et item utilem faciens
+          consuetudinem, nt calidum lavacrum vel frigidum semel vel frequenter accipere, accipere
+          potu aquam vel frigidum vinum vel calidum, et his similia. vacua autem vita corpus
+          infirmat. item in ordine certo consueta tuta non est: mutatur enim frequenter humanis
+          fortuitis. item nimie inordinata facilis in morbos gestatio enim post cibum
+          morbificat.</p></div>
+        <div type="par" n="20"><p>Quid est salutaris vivendi regula? qualitate quantitate
+          tempore atque ordine constans adfectus custodiendae sanitatis.</p></div>
+        <div type="par" n="21"><p>Quid salutare monitum? particula salutaris diaetae qualitate
+          quantitate tempore atque ordine formata, ut supra diximus, dicta causa. </p></div>
+        <div type="par" n="22"><p>Quae sunt differentiae salutarium praeceptorum? aliqua rerum
+          utilium temperativa, ut ante cibum perunctio, aliqua nocentium recusativa, ut ne quid
+          nimis. item aliqua generalia, ut exercitium, aliqua particularia generalibus subiacentia,
+          ut addita specie per palaestram exercitium. aliqua exercentia iniquam corporis requiem,
+          aliqua servantia fortitudinem. </p></div>
+        <div type="par" n="23"><p>Esse oportet omnibus communia salutaria praecepta? generalia
+          oportet, specialia autem iam non oportet. exercitari enim commune omnibus est sanis: at
+          addita specie, ut per palaestram, vectatione, armis, venatione, commune non est. </p></div>
+        <div type="par" n="24"><p>Quot vel quibus constat salutare praeceptum? quattuor:
+          qualitate, quantitate, tempore atque ordine. </p></div>
+        <div type="par" n="25"><p>Quomodo intellegimus bene digerentem? ex somno vigiliisque
+          tranquillia, sincero vultu et capite levi cum bono colore, nihil officiis naturalibus
+          inpeditum, stomacho levi, stercoribus aequalibus atque mollibus, corpore toto facili ad
+          solitos motus. </p></div>
+        <div type="par" n="26"><p>Quomodo intellegimus non digerentem? ex somno turbato atque
+          inaequali, corpore gravi tardo, mentis tristitia, vultus cum inflatione pallore,
+          ructationibus fumidis vel acidis aut male redolentibus, nausia cum fatigatione salivarum,
+          frequentia compunctionis intestinorum vel ventris abstinentia, stercorum inaequali atque
+          aspera effusione: quae supradicta aliquando omnia concurrunt. </p></div>
+        <div type="par" n="27"><p>Quomodo intellegimus tarde digerentem? ex ructationibus
+          foetulentis, hoc est accepti cibi qualitatem redolentibus, cum gravatione levi, ac tardo
+          digestionis effectu.</p></div>
+        <div type="par" n="28"><p>Quomodo intellegimus iam virum? ex asperitate faucium,
+          obtunsione vocis et rauco sonitu, inflatione etiam papillarum et genitalium, et cum
+          repente maceratum corpus in longitudinem viderimus porrectum. </p></div>
+        <div type="par" n="29"><p>Quomodo intellegimus iam virum generantem? Considerantes
+          primo corporis naturam, si eunuchus non est, et aetatem, ne mox pubescat, aut senior
+            <supplied>sit</supplied>, et corpus, ne maiore morbo prematur, et vitam moderatam, ne
+          nimio lusu obtunsa sint genitalia. quorum enim naturae nihil deest et corpus sine morbo et
+          aetas perfecta et vita moderata, eorum semen generabile comprobamus.</p></div>
+        <div type="par" n="30"><p>Qui sunt salutares loci? salutares intellegimus locos ex
+          aere temperatos nulloque odore corruptos et non facile mutabiles temporum qualitate.</p></div>
+        <div type="par" n="31"><p>Interdiano somno utendum est sanis hominibus? si non
+          sufficiens erit nocturnus, aut noctis brevitate aut alia qualibet causa, ad implementum
+          solitae quantitatis utendum. </p></div>
+        <div type="par" n="32"><p>Quod tempus deputandum est interdiano somno? sanis hominibus
+          ante cibum sed paulo temperatius, ut neque vigiliis neque recenti somno sauciatum corpus
+          cibo nutriatur.</p></div>
+        <div type="par" n="33"><p>Quod est sanum exercitium? quod omni tempore ac loco in usum
+          venire potest, ut defricatio vel cursus aut lucratio: fiet enim causa negato sibi consueto
+          exercitio aut luctatione incommoda aut insueta exercitationis novitate. </p></div>
+        <div type="par" n="34"><p>Quae est sufficiens quantitas exercitii? virium
+          possibilitas. necesse enim fatigatum corpus ab exercitio relevare. </p></div>
+        <div type="par" n="35"><p>Qui locus exercitii utilis est? modice temperatus et qui
+          noto non perflatur, aequali et molli ceromate stratus: fervens enim perflatus corpora
+          relaxat, frigidus autem constringit: et ea incommoditate, si calidius non sufficiens
+          exercitium. solvimus sudoribus causam. adeo in balneis auxilium est. item inaequalia vel
+          dura ceromata contundunt supra colluctantes et rasuras corporis efficiunt.</p></div>
+        <div type="par" n="36"><p>Quales esse debent fricatores? periti fricationum modice
+          carnosi, tactu molles, non faciles in sudores. inperiti fricationum inique fricant: item
+          sicci vel ossosi duri corporis causa contundunt, faciles in sudores frigidant.</p></div>
+        <div type="par" n="37"><p>Quid generaliter lavacra prosunt? corpus curare, commotas
+          corporis partes coaequare, conceptum laborem solvere, mundare corpus, animam relaxare. </p></div>
+        <div type="par" n="38"><p>Quod est bonum balneum? magnitudine medium, lucidum, aeris
+          temperati, mundum neque fervidum nimis. breve enim vel obscurum aut aeris incommodi aut
+          ferventi pavimento inmissisve carbonibus calefactum caput inflat. vertiginem efficit
+          oculorum, et ob parvitatem aquae cito sordidatur. ac si rursum nimiae fuerit magnitudinis
+          et in multa divisum cellarum, fatigat ingredientes. tepentes frigidat, item recentes
+          adurit et visum obtundit. </p></div>
+        <div type="par" n="39"><p>Quae sunt lavacrorum differentiae? <supplied>multae atque
+            variae.</supplied> nam sunt Iavacra frigida, sunt et calida, sunt dulcia fontana vel
+          imbrilia, fluminalia vel palustria, item non dulcia maritima, sunt aquarum nativarum sua
+          virtute manantia, et sunt splendida, sunt turbata, sunt redundantia, sunt exigua, sunt
+          media, sub divo vel contecta, maritima loco alto aut humili.</p></div>
+        <div type="par" n="40"><p>Salutare est continuum frigidum lavacrum? secundum aliquos
+          non est salutare: fervore enim nasci vel nutriri hominem adseverant. secundum alios
+          salutare, si quidem et climatorum partes et vitae effectiones frigidae salutares esse
+          debeant. secundum nos salutare est in frigidum et fervens lavacrum consuescere, propter
+          iniquitatem vitae et inruentium morborum diversitates, quin etiam frigidi incommodis
+          sauciatam delectationem. etenim aestate frigida aqua tardius utendum est, ne vi frigoris
+          aut cruditate vexet. </p></div>
+        <div type="par" n="41"><p>Salutare est post lavacra potum vel cibum aliquantum
+          differre? aliqui solis carnosis hominibus prodesse dixerunt ut exinde aliquid corporis
+          insumatur, nos autem omnibus non ea ratione prodesse dicimus, sed ut turbatio spiritus
+          resolvatur. turbato enim corpore accepta corrumpuntur, corrupta non nutriunt.</p></div>
+        <div type="par" n="42"><p>Quid magis post lavacrum salutare est, potum sumere an
+          cibum? secundum aliquos cibum, si quidem potus stomachum fluidum, caput grave, fastidium
+          faciat cibi. secundum alios magis potum, si quidem solidior cibus relaxat eas partes
+          quibus digestio celebratur. secundum nos in utrumque consuescere laudamus, nunc potum nunc
+          cibum ante sumere. siti enim, post vectationem vel lavacrum bibendum est, ut corporis
+          anxietas excludatur. bibenda praeterea nunc aqua calida nunc frigida. si forte stomachus
+          aliqua causa umectatus fuerit, tunc vinum aquatum. si autem nulla sitis fuerit, quod
+          frequenter fit stomachi umectatio umectationis antecedente causa, cibus ante sumendus est. </p></div>
+        <div type="par" n="43"><p>Quae est melior aqua? munda, perspicua sine aliquo odore vel
+          sapore, pondere levi et quae cum requieverit, nullum ex se humi sedimen dimittat.</p></div>
+        <div type="par" n="44"><p>Quid agendum si necessitatem aquae malae incurrimus? post
+          cibum bibenda est aut paulo plus coquenda, plus etiam vini admiscendum a solita
+          consuetudine. sic etiam lac ubi inveniri potuerit bibendum ad compescendam sitim, ubi
+          minus cogamur accipere illud quod nocere possit.</p></div>
+        <div type="par" n="45"><p>Aliquid a sola aqua hauriri potest nutrimenti, aut aqua
+          secundum Erasistratum nihil in se nutrimenti habet? secundum aliquos multum, secundum nos
+          parvum etenim longa ieiunia tolerat et defectos homines sine cibo aliquantulum retinet. </p></div>
+        <div type="par" n="46"><p>Quomodo probatur salutaris atque aptissimus humanis
+          corporibus cibus? salutarem dicimus cibum qui ex rebus constat facilioribus in digestionem
+          quod ex multorum probatur experientia. quae enim multi, facile inprobamus. potest autem
+          res multis contraria uni vel duobus digestibilis esse.</p></div>
+        <div type="par" n="47"><p>Quid magis salutare est sanis hominibus, unius speciei cibum
+          accipere, ut carnes aut holera, an ex multis speciebus variatum? in utroque faciendam
+          consuetudinem laudamus. ut novitate corpus nulla turbetur. cum enim oportuerit morbi vel
+          necessitatis causa, simplex unius cuiusque speciei cibus accipiendus est: in conviviis
+          vero ex multis speciebus variatus. </p></div>
+        <div type="par" n="48"><p>Quis melior ordo est circa homines accipiendi varium cibum?
+          primum accipere ea quae levius nntriunt ut sunt holera, secundo volantium carnes vel
+          piscium, deinde pulmentis uti quae plurimum nutriunt, ut agnorum vel porcorum carnes.</p></div>
+        <div type="par" n="49"><p>Ob quam causam dulcem specie rem edi a re erit ordinari?
+          quoniam si nudo inhaeserint stomacho inflant et cetera quae secum erunt corrumpunt:
+          idcirco prostrata specie dantur et alia supermittitur, contecta atque stomacho suspensa ut
+          facile digerantur.</p></div>
+        <div type="par" n="50"><p>Quis modus est quantitatis accipiendi cibi hominibus?
+          accipiendi modus est tantum sumere quantum facile digeratur. minus accipere defectum facit
+          movente cavo corporis. item plus accipere ex indigestione morbos faciet et corpus pariter
+          infirmat. </p></div>
+        <div type="par" n="51"><p>Salutare est semel cibum accipere et in hoc perseverandum
+          sanis? secundum aliquos salutare est vacuis ab exercitio corporibus hiemis tempore propter
+          dierum brevitatem et strictis corporibus quae minus perdunt quam accipiunt. secundum nos
+          in utrumque laudamus consuescere, ut nunc semel cibus accipiatur, nunc bis vel
+          frequentius, quoniam plerumque nolentes aliquo casu fragilitatis humanae contraria
+          cogimur, ut aut semel accipiamus, aut morbi inruentis necessitate ftequentias si defectio
+          fuerit aut diaphoresis consecuta. pueris autem et maxime aestatis tempore manifeste
+          contrarius semel cibus etiam a nobis affirmatur. plurimum enim cibi crementa corporis
+          vindicant. </p></div>
+        <div type="par" n="52"><p>In prandio an in cena plurimus sumendus est cibus? in cena:
+          quietum enim nos tempus consequitur, et non oportet circa diurnos actus cibi gravatione
+          inpediri.</p></div>
+        <div type="par" n="53"><p>Quid magis prodest ac salutare est vinum an aquam bibere? in
+          utrumque consuescere laudamus sanos homines. vinum etenim fortitudinem corporis praebet,
+          sed etiam aquae consuetudo necessaria est propter inruentium morborum causas ut animus
+          aegrotantium nulla novitate bibendi contristetur. </p></div>
+        <div type="par" n="54"><p>Quod est bonum vinum? vinum album splendens medii saporis
+          neque confusi coloris. nigrum etenim durum est et inflat stomachum et caput. album et
+          faeculentum grave est ob sediminis qualitatem. item dulce plerumque nauseam facit: contra
+          nimis austerum caput et nervos percutit, item fauces inflat. vetustum nervos incommodat.
+          salsum ventrem provocat. </p></div>
+        <div type="par" n="55"><p>Vtilis est ebrietas sanitati ? secundum Mnesitheum utilis,
+          non frequenter sed per intervalla. sic enim adhibita multitudinem umorum purgat et
+          densitatem eorum solvit. est enim vinum ferventis naturae, quo etiam acriores umores
+          temperantur. secundum nos inutilis atque contraria sanitati ebrietas iudicatur : etenim
+          mentem turbat, sensus corrumpit, nervos vitiat, fortitudinem corporis detrahit.</p></div>
+        <div type="par" n="56"><p>Quid magis salutare est, frigidum an calidum potum
+          consumere? secundum aliquos calidum, quod spiramenta relaxet. secundum alios frigidum, ut
+          fortitudinem faciat. secundum nos in utrumque consuescere utilissimum est. etenim fortuito
+          diversa deficiunt aut morbis inruentibus prohibentur, et oportet calidum vel frigidum
+          potum non insuete accipere, sed in contraria haec sanitate consuescere. </p></div>
+        <div type="par" n="57"><p>Quid agendum si vino quisquam fuerit gravatus? praecavenda
+          sunt cetera quae superaddita similiter aut gravius corpus corrumpunt, ut venus vel
+          lavacrum. perunguendum itaque corpus mediocriter, et primo ieiunandum, dehinc siccus
+          accipiendus cibus et a vino abstinendum, bibendum praeterea nunc aquae calidae vel
+          frigidae modicum. ita rursum somno quiescendum, vel si antehac nausea fuerit consecuta,
+          quae gravatos plerumque revocat vomitu alieni atque corrupti cibi, caput fovendum dulci
+          atque calido oleo, dehinc altioribus stramentis sublevato capite quiescendum.</p></div>
+        <div type="par" n="58"><p>Necessariam dicimus venerem sanitati? ad conceptionem
+          animalium necessariam, ad conservandam corporis sanitatem contrariam. quantum enim qui a
+          venere abstinent integra fortitudine perseverant, tantum in eandem proni purgatione virium
+          fatigantur. </p></div>
+        <div type="par" n="59"><p>Quo tempore melius in venerem convenimus? ante cibum. tunc
+          enim corpus tranquillius habet. sed post tantum ne indigestio latens occurrat et corpus
+          incommodet, non aliter quam si statim post cibum corpus exercitio agitetur, unde digestio
+          inpeditur. specialiter in mulieribus conceptionis causa tempus eligendum est, quo se mox
+          materia sanguinis subtraxerit solita purgatione. </p></div>
+        <div type="par" n="60"><p>Salutaris est peregrinatio? moderatione facta salutaris, sed
+          in melioris aeris lueque exemptas regiones: mutatio enim in melius facta qualitate sui
+          animum relaxat, corpus animae consentiens relevat.</p></div>
+        <div type="par" n="61"><p>Quis ordo vitae mandandus peregre profecturis? primo ut
+          paulatim se praemovendo futurae peregrinationi componant. navigetur in navicula, via
+          ambuletur, in vehiculo vel equo vehi disponant, ut praemotum corpus proxima in loca
+          longiori peregrinationi praeparetur.</p></div>
+        <div type="par" n="62"><p>Quomodo gubernanda est sanitas, si communis morbus
+          invaserit? paulo diligentius a solito fugienda sunt ea quae morbos valent infligere, ut
+          labor, frigus et aestus, indigestio. parva enim occasione infusa corpora tempore pestifero
+          morbos incurrunt.</p></div>
+        <div type="par" n="63"><p>Quid agendum si ex his excessibus sanitas fuerit sauciata?
+          requies atque abstinentia cibi adhibenda et sic discussa saucietate unctione est ex calido
+          lavacro corpus curandum, dehinc cibo et potu levi resumendum est.</p></div>
+        <div type="par" n="64"><p>Vtilis est post cibum iucunditas ? etenim avocatus animus
+          aliqua voluptate spectaculi vel fabularum corpus relevat, tantum quantum si fuerit
+          contristatus aut intentione gravatus, premit gravando caput et omnes sensus.</p></div>
+        <div type="par" n="65"><p>Vnguentis et coronis florum utendum est sanis hominibus ad
+          conservandam sanitatem? non utendum: vis enim odoris caput implet. ab communis vitae
+          simplicitatem utendum, sed eligenda sunt unguentorum simplicia et florum minus olentia, et
+          longe a capite inlinienda et adponentia cetero corpori. </p></div>
+        <div type="par" n="66"><p>Vtilis ad conservandam corporis sanitatem vomitus? inutilis,
+          et magis post cibum cottidie quam per intervalla, et omnem cibum excludens quam parvum, et
+          nimia corporis agitatione vel inmissis digitis provocatus. etenim caput implet, oculos
+          confundit et omnes sensus, gingivas corrumpit, dentes excludit, corpus omne pallore atque
+          macie deformat. sed tunc si defluens ad stomachum acrior umor fuerit excludendus, utendum
+          est vomitu: inutilia enim ita excluduntur. </p></div>
+      
+    </body>
+  </text>
+</TEI>

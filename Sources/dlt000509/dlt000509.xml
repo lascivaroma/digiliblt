@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Epistula ad Pentadium nepotem suum</title>
+    <author>Vindicianus</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Chiara Miglietta</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2016</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000509</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Theodori Prisciani Euporiston libri III, cum physicorum fragmento et additamentis pseudoTheodoreis</hi>, editi a Valentino Rose ; accedunt Vindiciani Afri quae feruntur reliquiae Lipsiae 1894, pp. 484-492 (Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana).</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+   <charDecl>
+    <char xml:id="char1">
+     <charName>cum linea</charName>
+     <desc>littera cum linea</desc>
+    </char>
+
+   </charDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div type="pr" n="pr"><salute>Vindicianus
+    Pentadio nepoti suo salutem.</salute>
+    <p>Licet sciam te, carissime nepos, graecis litteris eruditum ad hanc disciplinam posse pervenire, tamen ne quid tibi poscenti ad memoriam denegarem, ex libris medicinalibus Hippocratis intima latinavi. Quae quia dignus es, fideliter trado daturus tibi avi tui patris mei libros, ex quibus totius mundi rationem cognoscas, uti nosse possis quanta fuerit generis nostri sapientia. Per hunc vero librum tibi corporis uniuscuiusque naturam et ordinationem adgrediar explicare. </p>
+    <p>Corpus igitur hominis ex quattuor umoribus constat. Namque habet in se sanguinem choleram rubeam choleram nigram et flegma. Qui quattuor umores habitant vel dominantur in suis locis. Sanguis dominatur in dextro latere in epate quod iecur vocamus. Sed et cholera rubea ibidem dominatur. In sinistro vero latere id est in splene cholera nigra dominatur. Flegma autem in capite, et alia pars eius in vesica. Sanguinis tamen pars dominatur in corde. </p>
+    <p>Virtus sane ipsorum umorum talis est. Sanguis est fervens umidus et dulcis, cholera xanthe id est rubea amara viridis ignea et sicca, melena cholera id est nigra acida frigida et sicca, flegma frigidum salsum et umidum. </p>
+    <p>Haec omnia crescunt suis temporibus. Sanguis crescit verno tempore, ab VIII. id. feb<g ref="#char1">r</g>. usque in VIII. id. maī. Et sunt dies XCI. Cholera rubea aestate, ab VIII. id. maī. usque in VIII. id. au<g ref="#char1">g</g>. Et sunt dies XC. Cholera nigra autumno, ab VIII. id. aug. usque in VIII. id. novem<g ref="#char1">b</g>. Et sunt dies XCII. Flegma vero hieme ab VIII. id. novem<g ref="#char1">b</g>. usque in VIII. id. feb<g ref="#char1">r</g>. et sunt dies XCII.</p>
+    <p>Hi quattuor umores partiuntur sibi diem et noctem. Sanguis dominatur horis sex id est ab hora noctis nona usque in hora diei tertia. Exinde dominatur cholera rubea ab hora diei tertia usque in hora diei nona. Cholera autem nigra dominatur ab hora diei nona usque in hora noctis tertia. Flegma autem dominatur ex hora noctis tertia usque in hora noctis nona.</p>
+    <p>Haec omnia habent respirationes suas per singulas partes corporis, sanguis per nares, cholera rubea per aures, cholera nigra per oculos, flegma per os.</p>
+    <p>Dividuntur etiam hi umores quattuor per quattuor aetates, id est flegma in pueris cum sanguine ab ineunte aetate usque in annos XIIII, exinde cholera rubea dominatur cum parte sanguinis in iuvenibus usque ad annos XXV. Exinde usque in annos XLII maxima pars sanguinis dominatur cum cholera nigra. Exinde usque ad summam aetatem sicut in pueris flegma dominatur. Moriente autem homine haec omnia revertuntur in sua loca.</p>
+    <p>Praeterea hi quattuor umores faciunt hominibus tales mores. Sanguis facit homines boni voti simplices moderatos blandos euchymos seu <supplied>suci</supplied> plenos. Cholera rubea facit homines iracundos ingeniosos acutos leves macilentos, plurimum comedentes et cito digerentes. Cholera nigra facit homines subdolos cum iracundia, avaros timidos tristes somniculosos invidiosos, frequenter habentes cicatrices nigras in pedibus. Flegma facit homines torpore compositos, vigilantes, intra se cogitantes, cito adferentes canos in capite, minus audaces.</p>
+    <p>Omnia ergo quae calidam habent virtutem in superioribus locis corporis dominantur, <supplied>frigida autem inferiora tenent</supplied>.</p>
+    <p>Pulsus autem suos habent hi quattuor umores. Sanguis facit pulsum plenum umidum aequalem. Cholera rubea facit pulsum tenuem et citatum. Cholera nigra facit pulsum plus tenuem sed habentem veluti percussum et asperitatem. Flegma facit pulsum minus plenum umectum aequalem pondere.</p>
+    <p>Hi vero umores sine se esse non possunt et in omnibus aetatibus habentur. Sed quotiens aliquis ex his umoribus excreverit, tunc facit aegritudinem longam nec non et causas veteres per suam voracitatem et <supplied>in</supplied>temperantiam et <supplied>in</supplied>aequalitatem et pro corpore atque aetate hominum. Hi omnes umores singulis aetatibus aegritudines faciunt, quotiens quis eorum augmentum acceperit. Etiam tunc longam aegritudinem faciunt, si <supplied>quis</supplied> inperitum medicum habuerit aut certe neglegentem aut qui causam non intellexerit vel ex quo umore aegritudo nata fuerit <supplied>non cognoverit</supplied>. Equidem diligens et doctus aegrotanti tunc potest sucurrere. Si vero neglegens fuerit aut non intellexerit, tam diu protrahit aegritudinem quam diu transeat umoris ipsius tempus et alius umor ex ceteris augmentum accipiat, ita ut ille umor excludatur ex quo aegritudo fuerit nata. Nam si sit causa sanguinis, qui est dulcis umidus et calidus, occurrendum est sic ut adhibeatur e contrario quod sit frigidum amarum et siccum. Si fuerit causa cholerae rubeae quae est amara et viridis ignea et sicca, debet adhibere quod sit dulce frigidum et umidum. Si de cholera nigra nata fuerit aegritudo, quae est frigida sicca et acra, debet adhibere quod sit calidum umidum et dulce. Si ex flegmate nata fuerit aegritudo, quod est frigidum salsum et umidum, debet adhibere quod sit calidum dulce et siccum. Haec cum adhibita fuerint, tunc et peritus medicus invenitur et aeger ad sanitatem cito revertitur.</p>
+    <p>Haec tibi pro nostri memoria religiose, nepos, dedi, maiora postea noscituro.</p>
+   </div>
+   
+  </body>
+ </text>
+
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Anecdoton Holderi quod dicitur, scilicet excerpta ex Cassiodori libello de ordine generis Cassiodororum </title>
+                <author>Cassiodorus</author>
+                <respStmt>
+                    <resp>Correzione linguistica</resp>
+                    <name>Raffaella Tabacco</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica XML</resp>
+                    <name>Simona Musso</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>digilibLT</publisher>
+                <pubPlace>Vercelli</pubPlace>
+                <date>2012</date>
+                <availability>
+                    <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+                </availability>
+                <idno>dlt000075</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Magni Aurelii Cassiodori, Variarum Libri XII, cura et studio Å.J. Frigh, Turnholti 1973 (Corpus Christianorum. Series Latina XCVI)</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+                <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+            </projectDesc>
+            <editorialDecl>
+               
+                
+                <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+                <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+                    l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+                    e commenti e ogni altro contenuto redatto da editori moderni. </p>
+                <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+                    correttezza di trascrizione</p>
+                <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+                    distinzione u/v minuscole.</p>
+                <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+                <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+                    grassetto, corsivo, spaziatura espansa.</p>
+                <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+                    <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+                    <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+                    si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+                    [...]<lb/> lacuna integrata dagli editori:
+                    <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+                </p>
+                <p>Sono stati marcati i termini in lingua greca
+                    <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+                </p>
+                <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+                    target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+                    >Note di trascrizione e codifica di testi latini tardoantichi
+                    [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+            </editorialDecl>
+           
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latino</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="opus"><head>Anecdoton Holderi quod dicitur, scilicet excerpta ex Cassiodori libello de ordine generis Cassiodororum</head>
+                <p>Excerpta ex libello Cassiodori Senatoris monachi serui dei ex patricio et consule
+                    ordinario, quaestore et magistro officiorum, quem scripsit ad Rufinum Petronium
+                    Nicomachum ex consule ordinario patricium et magistrum officiorum. </p>
+                <p> Ordo generis Cassiodororum: qui scriptores extiterint ex eorum genere uel ex
+                    quibus eruditis. Symmachus patricius et consul ordinarius, uir philosophus, qui
+                    antiqui Catonis fuit nouellus imitator, sed uirtutes ueterum sanctissima
+                    religione transcendit. Dixit sententiam pro allecticiis in senatu parentesque
+                    suos imitatus historiam quoque Romanam septem libris edidit. </p>
+                <p> Boethius dignitatibus summis excelluit, utraque lingua peritissimus orator fuit.
+                    Qui regem Theodericum in senatu pro consulatu filiorum luculenta oratione
+                    laudauit. Scripsit librum de sancta trinitate et capita quaedam dogmatica et
+                    librum contra Nestorium. Condidit et carmen bucolicum. Sed in opere artis
+                    logicae, id est dialecticae, transferendo ac mathematicis disciplinis talis
+                    fuit, ut antiquos auctores aut aequiperaret aut uinceret. </p>
+                <p> Cassiodorus Senator uir eruditissimus et multis dignitatibus pollens iuuenis
+                    adeo, dum patris Cassiodori patricii et praefecti praetorii consiliarius fieret
+                    et laudes Theoderici regis Gothorum facundissime recitasset, ab eo quaestor est
+                    factus, patricius et consul ordinarius postmodum, dehinc magister officiorum et
+                    praefectus praetorio. Composuit et formulas dictionum, quas in duodecim libris
+                    ordinauit et Variarum titulum superposuit. Scripsit praecipiente Theoderico rege
+                    historiam Gothicam, originem eorum et loca mores XII libris enuntians. </p>
+            </div>
+        </body>
+    </text>
+
+</TEI>

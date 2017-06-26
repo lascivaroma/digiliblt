@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Itinerarium Burdigalense</title>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Elisa Rugnone</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2016</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000298</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Itineraria romana. Itineraria Antonini Augusti et Burdigalense</hi>, edidit Otto Cuntz, in aedibus B. G. Teubneri, Lipsiae, 1929.</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+   
+    <p><hi rend="bold">Note di trascrizione e codifica specifiche del file </hi></p>
+    <p>I numerali corredati da tratto orizzontale sono marcati come moltiplicatori.</p>
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+   
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+  
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div><p>ITINERARIVM BVRDIGALENSE</p>
+<div type="cap" n="549"><p><milestone unit="par" n="1"/> ITINERARIVM
+</p><p><milestone unit="par" n="2"/> A BVRDIGALA HIERVSALEM VSQVE
+</p><p><milestone unit="par" n="3"/> ET AB HERACLA PER AVLONAM
+</p><p><milestone unit="par" n="4"/> ET PER VRBEM ROMAM
+</p><p><milestone unit="par" n="5"/> MEDIOLANVM VSQVE
+</p><p><milestone unit="par" n="6"/> SIC:
+</p><p><milestone unit="par" n="7"/> Civitas Burdigala, ubi est fluvius Garonna,
+</p><p><milestone unit="par" n="8"/> per quem facit mare Oceanum accessa et
+</p><p><milestone unit="par" n="9"/> recessa per leugas plus minus centum,
+</p><p><milestone unit="par" n="10"/> mutatio Stomatas leug. VII</p>
+</div><div type="cap" n="550"><p><milestone unit="par" n="1"/> mutatio Sirione leug. VIIII
+</p><p><milestone unit="par" n="2"/> civitas Vasatas leug. VIIII
+</p><p><milestone unit="par" n="3"/> mutatio Tres Arbores leug. V
+</p><p><milestone unit="par" n="4"/> mutatio Oscineio leug. VIII
+</p><p><milestone unit="par" n="5"/> mutatio Scittio leug. VIII
+</p><p><milestone unit="par" n="6"/> civitas Elusa leug. VIII
+</p><p><milestone unit="par" n="7"/> mutatio Vanesia leug. XII
+</p><p><milestone unit="par" n="8"/> civitas Auscius leug. VIII
+</p><p><milestone unit="par" n="9"/> mutatio Ad Sextum leug. VI
+</p><p><milestone unit="par" n="10"/> mutatio Hungunverro leug. VII
+</p><p><milestone unit="par" n="11"/> mutatio Bucconis leug. VII</p>
+</div><div type="cap" n="551"><p><milestone unit="par" n="1"/> mutatio Ad Iovem leug. VII
+</p><p><milestone unit="par" n="2"/> civitas Tolosa leug. VII
+</p><p><milestone unit="par" n="3"/> mutatio Ad Nonum mil. VIIII
+</p><p><milestone unit="par" n="4"/> mutatio Ad Vicesimum mil. XI
+</p><p><milestone unit="par" n="5"/> mansio Elusione mil. VIIII
+</p><p><milestone unit="par" n="6"/> mutatio Sostomago mil. VIIII
+</p><p><milestone unit="par" n="7"/> vicus Hebromago mil. X
+</p><p><milestone unit="par" n="8"/> mutatio Cedros mil. VI
+</p><p><milestone unit="par" n="9"/> castellum Carcassone mil. VIII
+</p><p><milestone unit="par" n="10"/> mutatio Tricensimum mil. VIII</p>
+</div><div type="cap" n="552"><p><milestone unit="par" n="1"/> mutatio Hosverbas mil. XV
+</p><p><milestone unit="par" n="2"/> civitas Narbone mil. XV
+</p><p><milestone unit="par" n="3"/> civitas Beterris mil. XVI
+</p><p><milestone unit="par" n="4"/> mansio Cessarone mil. XII
+</p><p><milestone unit="par" n="5"/> mutatio Foro Domiti mil. XVIII
+</p><p><milestone unit="par" n="6"/> mutatio Sostantione mil. XV
+</p><p><milestone unit="par" n="7"/> mutatio Ambrosi mil. XV
+</p><p><milestone unit="par" n="8"/> civitas Nemauso mil. XV
+</p><p><milestone unit="par" n="9"/> mutatio Ponte Aerarium mil. XII
+</p><p><milestone unit="par" n="10"/> civitas Arelate mil. VIII</p>
+</div><div type="cap" n="553"><p><milestone unit="par" n="1"/> fit a Burdigala Arelate usque milia CCCLXXII,
+</p><p><milestone unit="par" n="2"/> mutationes XXX, mansiones XI.
+</p><p><milestone unit="par" n="3"/> mutatio Arnagine mil. VIII
+</p><p><milestone unit="par" n="4"/> mutatio Bellinto mil. X
+</p><p><milestone unit="par" n="5"/> civitas Avenione mil. V
+</p><p><milestone unit="par" n="6"/> mutatio Cypresseta mil. V
+</p><p><milestone unit="par" n="7"/> civitas Arausione mil. XV
+</p><p><milestone unit="par" n="8"/> mutatio Ad Letoce mil. XIII
+</p><p><milestone unit="par" n="9"/> mutatio Novem Craris mil. X
+</p><p><milestone unit="par" n="10"/> mansio Acuno mil. X</p>
+</div><div type="cap" n="554"><p><milestone unit="par" n="1"/> mutatio Bantianis mil. XII
+</p><p><milestone unit="par" n="2"/> mutatio Vmbenno mil. XII
+</p><p><milestone unit="par" n="3"/> civitas Valentia mil. VIIII
+</p><p><milestone unit="par" n="4"/> mutatio Cerebelliaca mil. XII
+</p><p><milestone unit="par" n="5"/> mansio Augusta mil. X
+</p><p><milestone unit="par" n="6"/> mutatio Darentiaca mil. XII
+</p><p><milestone unit="par" n="7"/> civitas Dea Vocontiorum mil. XVI
+</p><p><milestone unit="par" n="8"/> mansio Luco mil. XII
+</p><p><milestone unit="par" n="9"/> mutatio Vologatis mil. VIIII</p>
+</div><div type="cap" n="555"><p><milestone unit="par" n="1"/> inde ascenditur Gaura mons
+</p><p><milestone unit="par" n="2"/> mutatio Cambono mil. VIII
+</p><p><milestone unit="par" n="3"/> mansio Monte Seleuci mil. VIII
+</p><p><milestone unit="par" n="4"/> mutatio Daviano mil. VIII
+</p><p><milestone unit="par" n="5"/> mutatio Ad Finem mil. XII
+</p><p><milestone unit="par" n="6"/> mansio Vappinco mil. XI
+</p><p><milestone unit="par" n="7"/> mansio Catorigas mil. XII
+</p><p><milestone unit="par" n="8"/> mansio Ebreduno mil. XVI
+</p><p><milestone unit="par" n="9"/> inde incipiunt Alpes Cottiae
+</p><p><milestone unit="par" n="10"/> mutatio Ramae mil. XVII
+</p><p><milestone unit="par" n="11"/> mansio Byrigante mil. XVII</p>
+</div><div type="cap" n="556"><p><milestone unit="par" n="1"/> inde ascendis Matronam
+</p><p><milestone unit="par" n="2"/> mutatio Gesdaone mil. X
+</p><p><milestone unit="par" n="3"/> mansio Ad Marte mil. VIIII
+</p><p><milestone unit="par" n="4"/> civitas Segussione mil. XVI
+</p><p><milestone unit="par" n="5"/> inde incipit Italia
+</p><p><milestone unit="par" n="6"/> mutatio Ad Duodecimum mil. XII
+</p><p><milestone unit="par" n="7"/> mansio Ad Fines mil. XII
+</p><p><milestone unit="par" n="8"/> mutatio Ad Octavum mil. VIII
+</p><p><milestone unit="par" n="9"/> civitas Taurinis mil. VIII
+</p><p><milestone unit="par" n="10"/> mutatio Ad Decimum mil. X</p>
+</div><div type="cap" n="557"><p><milestone unit="par" n="1"/> mansio Quadratis mil. XII
+</p><p><milestone unit="par" n="2"/> mutatio Ceste mil. XI
+</p><p><milestone unit="par" n="3"/> mansio Rigomago mil. VIII
+</p><p><milestone unit="par" n="4"/> mutatio Ad Medias mil. X
+</p><p><milestone unit="par" n="5"/> mutatio ad Cottias mil. XIII
+</p><p><milestone unit="par" n="6"/> mansio Laumello mil. XII
+</p><p><milestone unit="par" n="7"/> mutatio Duriis mil. VIIII
+</p><p><milestone unit="par" n="8"/> civitas Ticino mil. XII
+</p><p><milestone unit="par" n="9"/> mutatio Ad Decimum mil. X
+</p><p><milestone unit="par" n="10"/> civitas Mediolanum mil. X
+</p><p><milestone unit="par" n="11"/> mansio Fluvio Frigido mil. XII</p>
+</div><div type="cap" n="558"><p><milestone unit="par" n="1"/> fit ab Arelato Mediolanum usque milia CCCCLXXV,
+</p><p><milestone unit="par" n="2"/> mutationes LXIII, mansiones XXII.
+</p><p><milestone unit="par" n="3"/> mutatio Argentea mil. X
+</p><p><milestone unit="par" n="4"/> mutatio Ponte Aureoli mil. X
+</p><p><milestone unit="par" n="5"/> civitas Bergamo mil. XIII
+</p><p><milestone unit="par" n="6"/> mutatio Tellegate mil. XII
+</p><p><milestone unit="par" n="7"/> mutatio Tetellus mil. X
+</p><p><milestone unit="par" n="8"/> civitas Brixa mil. X
+</p><p><milestone unit="par" n="9"/> mansio Ad Flexum mil. XI
+</p><p><milestone unit="par" n="10"/> mutatio Beneventum mil. X
+</p><p><milestone unit="par" n="11"/> civitas Verona mil. X
+</p><p><milestone unit="par" n="12"/> mutatio Cadiano mil. X
+</p><p><milestone unit="par" n="13"/> mutatio Aureos mil. X</p>
+</div><div type="cap" n="559"><p><milestone unit="par" n="1"/> civitas Vincentia mil. XI
+</p><p><milestone unit="par" n="2"/> mutatio Ad Finem mil. XI
+</p><p><milestone unit="par" n="3"/> civitas Patavi mil. X
+</p><p><milestone unit="par" n="4"/> mutatio Ad Duodecimum mil. XII
+</p><p><milestone unit="par" n="5"/> mutatio Ad Nonum mil. XI
+</p><p><milestone unit="par" n="6"/> civitas Altino mil. VIIII
+</p><p><milestone unit="par" n="7"/> mutatio Sanos mil. X
+</p><p><milestone unit="par" n="8"/> civitas Concordia mil. VIIII
+</p><p><milestone unit="par" n="9"/> mutatio Apicilia mil. VIIII
+</p><p><milestone unit="par" n="10"/> mutatio Ad Vndecimum mil. XI
+</p><p><milestone unit="par" n="11"/> civitas Aquileia mil. XI
+</p><p><milestone unit="par" n="12"/> fit a Mediolano Aquileia usque milia CCLI,
+</p><p><milestone unit="par" n="13"/> mutationes XXIIII, mansiones VIIII.
+</p><p><milestone unit="par" n="14"/> mutatio Ad Vndecimum mil. XI</p>
+</div><div type="cap" n="560"><p><milestone unit="par" n="1"/> mutatio Ad Fornolus mil. XII
+</p><p><milestone unit="par" n="2"/> mutatio Castra mil. XII
+</p><p><milestone unit="par" n="3"/> inde surgunt Alpes Iuliae
+</p><p><milestone unit="par" n="4"/> ad Pirum summas Alpes mil. VIIII
+</p><p><milestone unit="par" n="5"/> mansio Longatico mil. X
+</p><p><milestone unit="par" n="6"/> mutatio Ad Nonum mil. VIIII
+</p><p><milestone unit="par" n="7"/> civitas Emona mil. XIIII
+</p><p><milestone unit="par" n="8"/> mutatio Ad Quartodecimo mil. X
+</p><p><milestone unit="par" n="9"/> mansio Hadrante
+</p><p><milestone unit="par" n="10"/> fines Italiae et Norci mil. XIII
+</p><p><milestone unit="par" n="11"/> mutatio Ad Medias mil. XIII
+</p><p><milestone unit="par" n="12"/> civitas Celeia mil. XIII</p>
+</div><div type="cap" n="561"><p><milestone unit="par" n="1"/> mutatio Lotodos mil. XII
+</p><p><milestone unit="par" n="2"/> mansio Ragindone mil. XII
+</p><p><milestone unit="par" n="3"/> mutatio Pultovia mil. XII
+</p><p><milestone unit="par" n="4"/> civitas Poetovione mil. XII
+</p><p><milestone unit="par" n="5"/> transis pontem, intras Pannoniam
+</p><p><milestone unit="par" n="6"/> Inferiorem
+</p><p><milestone unit="par" n="7"/> mutatio Ramista mil. VIIII
+</p><p><milestone unit="par" n="8"/> mansio Aqua Viva mil. VIIII
+</p><p><milestone unit="par" n="9"/> mutatio Populis mil. X
+</p><p><milestone unit="par" n="10"/> civitas Iovia mil. VIIII
+</p><p><milestone unit="par" n="11"/> mutatio Sunista mil. VIIII</p>
+</div><div type="cap" n="562"><p><milestone unit="par" n="1"/> mutatio Peritur mil. XII
+</p><p><milestone unit="par" n="2"/> mansio Lentolis mil. XII
+</p><p><milestone unit="par" n="3"/> mutatio Cardono mil. X
+</p><p><milestone unit="par" n="4"/> mutatio Cocconis mil. XII
+</p><p><milestone unit="par" n="5"/> mansio Serota mil. X
+</p><p><milestone unit="par" n="6"/> mutatio Bolentia mil. X
+</p><p><milestone unit="par" n="7"/> mansio Maurianis mil. VIIII
+</p><p><milestone unit="par" n="8"/> intras Pannoniam Superiorem
+</p><p><milestone unit="par" n="9"/> mutatio Serena mil. VIII
+</p><p><milestone unit="par" n="10"/> mansio Vereis mil. X
+</p><p><milestone unit="par" n="11"/> mutatio Iovalia mil. VIII
+</p><p><milestone unit="par" n="12"/> mutatio Mersella mil. VIII
+</p><p><milestone unit="par" n="13"/> civitas Mursa mil. X</p>
+</div><div type="cap" n="563"><p><milestone unit="par" n="1"/> mutatio Leutuoano mil. XII
+</p><p><milestone unit="par" n="2"/> civitas Cibalis mil. XII
+</p><p><milestone unit="par" n="3"/> mutatio Caelena mil. XI
+</p><p><milestone unit="par" n="4"/> mansio Vlmo mil. XI
+</p><p><milestone unit="par" n="5"/> mutatio Spaneta mil. X
+</p><p><milestone unit="par" n="6"/> mutatio Vedulia mil. VIII
+</p><p><milestone unit="par" n="7"/> civitas Sirmium mil. VIII
+</p><p><milestone unit="par" n="8"/> fit ab Aquileia Sirmium usque milia CCCCXII,
+</p><p><milestone unit="par" n="9"/> mansiones XVII, mutationes XXXVIIII.
+</p><p><milestone unit="par" n="10"/> mutatio Fossis mil. VIIII
+</p><p><milestone unit="par" n="11"/> civitas Bassianis mil. X
+</p><p><milestone unit="par" n="12"/> mutatio Noviciani mil. XII
+</p><p><milestone unit="par" n="13"/> mutatio Altina mil. XI
+</p><p><milestone unit="par" n="14"/> civitas Singiduno mil. VIII</p>
+</div><div type="cap" n="564"><p><milestone unit="par" n="1"/> fines Pannoniae et Misiae
+</p><p><milestone unit="par" n="2"/> mutatio Ad Sextum mil. VI
+</p><p><milestone unit="par" n="3"/> mutatio Tricornia Castra mil. VI
+</p><p><milestone unit="par" n="4"/> mutatio Ad Sextum Miliarem mil. VII
+</p><p><milestone unit="par" n="5"/> civitas Aureo Monte mil. VI
+</p><p><milestone unit="par" n="6"/> mutatio Vingeio mil. VI
+</p><p><milestone unit="par" n="7"/> civitas Margo mil. VIIII
+</p><p><milestone unit="par" n="8"/> civitas Viminacio mil. X
+</p><p><milestone unit="par" n="9"/> ubi Diocletianus occidit Carinum
+</p><p><milestone unit="par" n="10"/> mutatio Ad Nonum mil. VIIII</p>
+</div><div type="cap" n="565"><p><milestone unit="par" n="1"/> mansio Munecipio mil. VIIII
+</p><p><milestone unit="par" n="2"/> mutatio Iovis Pago mil. X
+</p><p><milestone unit="par" n="3"/> mutatio Bao mil. VII
+</p><p><milestone unit="par" n="4"/> mansio Idomo mil. VIIII
+</p><p><milestone unit="par" n="5"/> mutatio Ad Octavum mil. VIIII
+</p><p><milestone unit="par" n="6"/> mansio Oromago mil. VIII
+</p><p><milestone unit="par" n="7"/> finis Myssiae et Asiae
+</p><p><milestone unit="par" n="8"/> mutatio Sarmatorum mil. XII
+</p><p><milestone unit="par" n="9"/> mutatio Caminitas mil. XI</p>
+</div><div type="cap" n="566"><p><milestone unit="par" n="1"/> mansio Ipompeis mil. VIIII
+</p><p><milestone unit="par" n="2"/> mutatio Rampiana mil. XII
+</p><p><milestone unit="par" n="3"/> civitas Naisso mil. XII
+</p><p><milestone unit="par" n="4"/> mutatio Redicibus mil. XII
+</p><p><milestone unit="par" n="5"/> mutatio Ulmo mil. VII
+</p><p><milestone unit="par" n="6"/> mansio Romansiana mil. VIIII
+</p><p><milestone unit="par" n="7"/> mutatio Latina mil. VIIII
+</p><p><milestone unit="par" n="8"/> mansio Turribus mil. VIIII
+</p><p><milestone unit="par" n="9"/> mutatio Translitis mil. XII
+</p><p><milestone unit="par" n="10"/> mutatio Ballanstra mil. X
+</p><p><milestone unit="par" n="11"/> mansio Meldia mil. VIIII
+</p><p><milestone unit="par" n="12"/> mutatio Scretisca mil. XII</p>
+</div><div type="cap" n="567"><p><milestone unit="par" n="1"/> civitas Serdica mil. XI
+</p><p><milestone unit="par" n="2"/> fit a Sirmium Serdica usque milia CCCXIIII,
+</p><p><milestone unit="par" n="3"/> mutationes XXIIII, mansiones XIII.
+</p><p><milestone unit="par" n="4"/> mutatio Extuomne mil. VIII
+</p><p><milestone unit="par" n="5"/> mansio Buragara mil. VIIII
+</p><p><milestone unit="par" n="6"/> mutatio Sparata mil. VIII
+</p><p><milestone unit="par" n="7"/> mansio Hilica mil. X
+</p><p><milestone unit="par" n="8"/> mutatio Soneio mil. VIIII
+</p><p><milestone unit="par" n="9"/> fines Daciae et Traciae
+</p><p><milestone unit="par" n="10"/> mutatio Ponte Vcasi mil. VI
+</p><p><milestone unit="par" n="11"/> mansio Bona Mansio mil. VI</p>
+</div><div type="cap" n="568"><p><milestone unit="par" n="1"/> mutatio Alusore mil. VIIII
+</p><p><milestone unit="par" n="2"/> mansio Basapare mil. XII
+</p><p><milestone unit="par" n="3"/> mutatio Tugugero mil. VIIII
+</p><p><milestone unit="par" n="4"/> civitas Filopopuli mil. XII
+</p><p><milestone unit="par" n="5"/> mutatio Sernota mil. X
+</p><p><milestone unit="par" n="6"/> mutatio Paramvole mil. VIII
+</p><p><milestone unit="par" n="7"/> mansio Cillio mil. XII
+</p><p><milestone unit="par" n="8"/> mutatio Carassura mil. VIIII
+</p><p><milestone unit="par" n="9"/> mansio Arzo mil. XI
+</p><p><milestone unit="par" n="10"/> mutatio Palae mil. VII
+</p><p><milestone unit="par" n="11"/> mansio Castozobra mil. XI
+</p><p><milestone unit="par" n="12"/> mutatio Rhamis mil. VII</p>
+</div><div type="cap" n="569"><p><milestone unit="par" n="1"/> mansio Burdista mil. XI
+</p><p><milestone unit="par" n="2"/> mutatio Daphabae mil. XI
+</p><p><milestone unit="par" n="3"/> mansio Nicae mil. VIIII
+</p><p><milestone unit="par" n="4"/> mutatio Tarpodizo mil. X
+</p><p><milestone unit="par" n="5"/> mutatio Vrisio mil. VII
+</p><p><milestone unit="par" n="6"/> mansio Virgoles mil. VII
+</p><p><milestone unit="par" n="7"/> mutatio Narco mil. VIII
+</p><p><milestone unit="par" n="8"/> mansio Drizupara mil. VIIII
+</p><p><milestone unit="par" n="9"/> mutatio Tipso mil. VIII
+</p><p><milestone unit="par" n="10"/> mansio Tunorullo mil. VIII</p>
+</div><div type="cap" n="570"><p><milestone unit="par" n="1"/> mutatio Beodizo mi. VIII
+</p><p><milestone unit="par" n="2"/> civitas Heraclea mil. VIIII
+</p><p><milestone unit="par" n="3"/> mutatio Baunne mil. XII
+</p><p><milestone unit="par" n="4"/> mansio Salambria mil. X
+</p><p><milestone unit="par" n="5"/> mutatio Callum mil. X
+</p><p><milestone unit="par" n="6"/> mansio Atyra mil. X
+</p><p><milestone unit="par" n="7"/> mansio Regio mil. XII
+</p><p><milestone unit="par" n="8"/> civitas Constantinopoli mil. XII</p>
+</div><div type="cap" n="571"><p><milestone unit="par" n="1"/> fit a Serdica Constantinopoli milia CCCCXIII,
+</p><p><milestone unit="par" n="2"/> mutationes XII, mansiones XX.
+</p><p><milestone unit="par" n="3"/> Fit omnis summa a Burdigala Constantinopolim
+</p><p><milestone unit="par" n="4"/> vicies bis centena viginti unum milia,
+</p><p><milestone unit="par" n="5"/> mutationes CCXXX, mansiones CXII.
+</p><p><milestone unit="par" n="6"/> Item ambulavimus Dalmatico et Zenophilo cons. III.
+</p><p><milestone unit="par" n="7"/> kal. Iun. a Calcedonia et reversi sumus Constantinopolim
+</p><p><milestone unit="par" n="8"/> VII kal. Ian. cons. suprascripto.
+</p><p><milestone unit="par" n="9"/> A Constantinopoli transis Pontum, venis Calcedoniam,
+</p><p><milestone unit="par" n="10"/> ambulas provinciam Bithyniam:
+</p><p><milestone unit="par" n="11"/> mutatio Nassete mil. VIIS</p>
+</div><div type="cap" n="572"><p><milestone unit="par" n="1"/> mansio Pandicia mil. VIIS
+</p><p><milestone unit="par" n="2"/> mutatio Pontamus mil. XIII
+</p><p><milestone unit="par" n="3"/> mansio Libissa mil. VIIII
+</p><p><milestone unit="par" n="4"/> ibi positus est rex Annibalianus, qui fuit
+</p><p><milestone unit="par" n="5"/> Afrorum
+</p><p><milestone unit="par" n="6"/> mutatio Brunga mil. XII
+</p><p><milestone unit="par" n="7"/> civitas Nicomedia mil. VIIII
+</p><p><milestone unit="par" n="8"/> fit a Constantinopoli Nicomedia usque mil. LVIII,
+</p><p><milestone unit="par" n="9"/> mutationes VII, mansiones III.</p>
+</div><div type="cap" n="573"><p><milestone unit="par" n="1"/> mutatio Hyribolum mil. X
+</p><p><milestone unit="par" n="2"/> mansio Libum mil. XI
+</p><p><milestone unit="par" n="3"/> mutatio Liada mil. XII
+</p><p><milestone unit="par" n="4"/> civitas Nicia mil. VIIII
+</p><p><milestone unit="par" n="5"/> mutatio Schinae mil. VIII
+</p><p><milestone unit="par" n="6"/> mansio Mido mil. VII
+</p><p><milestone unit="par" n="7"/> mutatio Chogeae mil. VI
+</p><p><milestone unit="par" n="8"/> mutatio Thateso mil. X
+</p><p><milestone unit="par" n="9"/> mansio Tutaio mil. VIIII
+</p><p><milestone unit="par" n="10"/> mutatio Protunica mil. XI
+</p><p><milestone unit="par" n="11"/> mutatio Artemis mil. XII</p>
+</div><div type="cap" n="574"><p><milestone unit="par" n="1"/> mansio Dablae mil. VI
+</p><p><milestone unit="par" n="2"/> mansio Ceratae mil. VI
+</p><p><milestone unit="par" n="3"/> fines Bithiniae et Galatiae
+</p><p><milestone unit="par" n="4"/> mutatio Fines mil. X
+</p><p><milestone unit="par" n="5"/> mansio Dadastano mil. VI
+</p><p><milestone unit="par" n="6"/> mutatio Trans Monte mil. VI
+</p><p><milestone unit="par" n="7"/> mutatio Milia mil. XI
+</p><p><milestone unit="par" n="8"/> civitas Iuliopolis mil. VIII
+</p><p><milestone unit="par" n="9"/> mutatio Hicronpotamum mil. XIII
+</p><p><milestone unit="par" n="10"/> mansio Agannia mil. XI
+</p><p><milestone unit="par" n="11"/> mutatio Petobrogen mil. VI</p>
+</div><div type="cap" n="575"><p><milestone unit="par" n="1"/> mansio Mnizos mil. X
+</p><p><milestone unit="par" n="2"/> mutatio Prasmon mil. XII
+mansio Malogordis mil. VIIII
+</p><p><milestone unit="par" n="3"/> mutatio Cenaxem Palidem mil. XIII
+</p><p><milestone unit="par" n="4"/> civitas Anchira Galatia mil. XIII
+</p><p><milestone unit="par" n="5"/> fit a Nicomedia Ancira Galatia usque
+</p><p><milestone unit="par" n="6"/> milia CCLVIII,
+</p><p><milestone unit="par" n="7"/> mutationes XXVI, mansiones XII.
+</p><p><milestone unit="par" n="8"/> mutatio Delemna mil. X
+</p><p><milestone unit="par" n="9"/> mansio Curveunta mil. XI
+</p><p><milestone unit="par" n="10"/> mutatio Rosolodiaco mil. XII
+</p><p><milestone unit="par" n="11"/> mutatio Aliassum mil. XIII
+</p><p><milestone unit="par" n="12"/> civitas Aspona mil. XVIII</p>
+</div><div type="cap" n="576"><p><milestone unit="par" n="1"/> mutatio Galea mil. XIII
+</p><p><milestone unit="par" n="2"/> mutatio Andrapa mil. VIIII
+</p><p><milestone unit="par" n="3"/> fines Galatiae et Cappadociae
+</p><p><milestone unit="par" n="4"/> mansio Parnasso mil. XIII
+</p><p><milestone unit="par" n="5"/> mansio Iogola mil. XVI
+</p><p><milestone unit="par" n="6"/> mansio Nitalis mil. XVIII
+</p><p><milestone unit="par" n="7"/> mutatio Argustana mil. XIII
+</p><p><milestone unit="par" n="8"/> civitas Colonia mil. XV</p>
+</div><div type="cap" n="577"><p><milestone unit="par" n="1"/> mutatio Momoasson mil. XII
+</p><p><milestone unit="par" n="2"/> mansio Anathiango mil. XIII
+</p><p><milestone unit="par" n="3"/> mutatio Chusa mil. XII
+</p><p><milestone unit="par" n="4"/> mansio Sasima mil. XII
+</p><p><milestone unit="par" n="5"/> mansio Andavilis mil. XVI
+</p><p><milestone unit="par" n="6"/> ibi est villa Pammati, unde veniunt equi curules
+</p><p><milestone unit="par" n="7"/> civitas Thyana mil. XVIII</p>
+</div><div type="cap" n="578"><p><milestone unit="par" n="1"/> inde fuit Apollonius magus
+</p><p><milestone unit="par" n="2"/> civitas Faustinopoli mil. XII
+</p><p><milestone unit="par" n="3"/> mutatio Caena mil. XIII
+</p><p><milestone unit="par" n="4"/> mansio Opodando mil. XII
+</p><p><milestone unit="par" n="5"/> mutatio Pilas mil. XIIII</p>
+</div><div type="cap" n="579"><p><milestone unit="par" n="1"/> fines Cappadociae et Ciliciae
+</p><p><milestone unit="par" n="2"/> mansio Mansucrinae mil. XII
+</p><p><milestone unit="par" n="3"/> civitas Tarso mil. XII
+</p><p><milestone unit="par" n="4"/> inde fuit apostolus Paulus
+</p><p><milestone unit="par" n="5"/> fit ab Anchira Galatia Tarso usque milia CCCXLIII,</p>
+</div><div type="cap" n="580"><p><milestone unit="par" n="1"/> mutationes XXV, mansiones XVIII.
+</p><p><milestone unit="par" n="2"/> mutatio Pargais mil. XIII
+</p><p><milestone unit="par" n="3"/> civitas Adana mil. XIIII
+</p><p><milestone unit="par" n="4"/> civitas Mansista mil. XVIII
+</p><p><milestone unit="par" n="5"/> mutatio Tardequeia mil. XV
+</p><p><milestone unit="par" n="6"/> mansio Catavolo mil. XVI
+</p><p><milestone unit="par" n="7"/> mansio Baiae mil. XVII
+</p><p><milestone unit="par" n="8"/> mansio Alexandria Scabiosa mil. XVI</p>
+</div><div type="cap" n="581"><p><milestone unit="par" n="1"/> mutatio Pictanus mil. VIIII
+</p><p><milestone unit="par" n="2"/> fines Ciliciae et Syriae
+</p><p><milestone unit="par" n="3"/> mansio Pagrios mil. VIII
+</p><p><milestone unit="par" n="4"/> civitas Antiochia mil. XVI
+</p><p><milestone unit="par" n="5"/> fit a Tarso Ciliciae Antiochia usque milia CXLI,
+</p><p><milestone unit="par" n="6"/> mutationes X, mansiones VII.
+</p><p><milestone unit="par" n="7"/> ad palatium Dafne mil. V</p>
+</div><div type="cap" n="582"><p><milestone unit="par" n="1"/> mutatio Hysdata mil. XI
+</p><p><milestone unit="par" n="2"/> mansio Platanus mil. VIII
+</p><p><milestone unit="par" n="3"/> mutatio Baccaias mil. VIII
+</p><p><milestone unit="par" n="4"/> mansio Catelas mil. XVI
+</p><p><milestone unit="par" n="5"/> civitas Ladica mil. XVI
+</p><p><milestone unit="par" n="6"/> civitas Gabala mil. XIIII
+</p><p><milestone unit="par" n="7"/> civitas Balaneas mil. XIII
+</p><p><milestone unit="par" n="8"/> fines Syriae Coelis et Foenicis
+</p><p><milestone unit="par" n="9"/> mutatio Maraccas mil. X
+</p><p><milestone unit="par" n="10"/> mansio Antaradus mil. XVI
+</p><p><milestone unit="par" n="11"/> est civitas in mare a ripa mil. II
+</p><p><milestone unit="par" n="12"/> mutatio Spiclin mil. XII</p>
+</div><div type="cap" n="583"><p><milestone unit="par" n="1"/> mutatio Basiliscum mil. XII
+</p><p><milestone unit="par" n="2"/> mansio Arcas mil. VIII
+</p><p><milestone unit="par" n="3"/> mutatio Bruttus mil. IIII
+</p><p><milestone unit="par" n="4"/> civitas Tripoli mil. XII
+</p><p><milestone unit="par" n="5"/> mutatio Triclis mil. XII
+</p><p><milestone unit="par" n="6"/> mutatio Brutto salia mil. XII
+</p><p><milestone unit="par" n="7"/> mutatio Alcobile mil. XII
+</p><p><milestone unit="par" n="8"/> civitas Birito mil. XII
+</p><p><milestone unit="par" n="9"/> mutatio Heldua mil. XII
+</p><p><milestone unit="par" n="10"/> mutatio Parphirion mil. VIII
+</p><p><milestone unit="par" n="11"/> civitas Sidona mil. VIII inde Sarepta mil. VIIII
+</p><p><milestone unit="par" n="12"/> ibi Helias ad viduam ascendit et petiit sibi cibum
+</p><p><milestone unit="par" n="13"/> mutatio Ad Nonum mil. IIII</p>
+</div><div type="cap" n="584"><p><milestone unit="par" n="1"/> civitas Tyro mil. XII
+</p><p><milestone unit="par" n="2"/> fit ab Antiochia Tyro usque milia CLXXIIII,
+</p><p><milestone unit="par" n="3"/> mutationes XX, mansiones XI.
+</p><p><milestone unit="par" n="4"/> mutatio Alexandroschene mil. XII
+</p><p><milestone unit="par" n="5"/> mutatio Ecdeppa mil. XII
+</p><p><milestone unit="par" n="6"/> civitas Ptolomaida mil. VIII
+</p><p><milestone unit="par" n="7"/> mutatio Calamon mil. XII
+</p><p><milestone unit="par" n="8"/> mansio Sicaminos mil. III</p>
+</div><div type="cap" n="585"><p><milestone unit="par" n="1"/> ibi est mons Carmelus, ibi Helias sacrificium faciebat
+</p><p><milestone unit="par" n="2"/> mutatio Certha mil. VIII
+</p><p><milestone unit="par" n="3"/> fines Syriae Finices et Palestinae
+</p><p><milestone unit="par" n="4"/> civitas Caesarea Palestina id est Iudaea mil. VIII
+</p><p><milestone unit="par" n="5"/> fit a Tyro Caesarea Palestina milia LXXIII,
+</p><p><milestone unit="par" n="6"/> mutationes II, mansiones III.
+</p><p><milestone unit="par" n="7"/> Ibi est balneus Cornelii centurionis, qui
+</p><p><milestone unit="par" n="8"/> multas elymosynas faciebat. Inde est tertio miliario </p>
+</div><div type="cap" n="586"><p><milestone unit="par" n="1"/> mons Syna, ubi fons est, in quem
+</p><p><milestone unit="par" n="2"/> mulier si laverit, gravida fit
+</p><p><milestone unit="par" n="3"/> civitas Maximianopoli mil. XVIII
+</p><p><milestone unit="par" n="4"/> civitas Isdradela mil. X
+</p><p><milestone unit="par" n="5"/> ibi sedit Achab rex et Helias prophetavit;
+</p><p><milestone unit="par" n="6"/> ibi est campus, ubi David Goliat occidit
+</p><p><milestone unit="par" n="7"/> civitas Scithopoli mil. XII</p>
+</div><div type="cap" n="587"><p><milestone unit="par" n="1"/> Aser, ubi fuit villa Iob mil. XVI
+</p><p><milestone unit="par" n="2"/> civitas Neapoli mil. XV
+</p><p><milestone unit="par" n="3"/> Ibi est mons Agazaren; ibi dicunt Samaritani Abraham sacrificium obtulisse,
+</p><p><milestone unit="par" n="4"/> et ascenduntur usque ad summum montem gradi numero MCCC. Inde ad pedem
+</p><p><milestone unit="par" n="5"/> montis ipsius locus est, cui nomen est Sechim. Ibi est monumentum, ubi positus</p>
+</div><div type="cap" n="588"><p><milestone unit="par" n="1"/> est Ioseph in villa, quam dedit ei Iacob pater eius. Inde rapta est et
+</p><p><milestone unit="par" n="2"/> Dina filia Iacob a filiis Amorreorum. Inde passus mille locus est, cui nomen
+</p><p><milestone unit="par" n="3"/> Sechar, unde descendit mulier Samaritana ad eundem locum, ubi Iacob puteum
+</p><p><milestone unit="par" n="4"/> fodit, ut de eo aquam impleret, et dominus noster Iesus Christus cum ea locutus
+</p><p><milestone unit="par" n="5"/> est; ubi sunt et arbores platani, quas plantavit Iacob, et balneus, qui de eo 
+</p><p><milestone unit="par" n="6"/> puteo lavatur.
+</p><p><milestone unit="par" n="7"/> Inde milia XXVIII euntibus Hierusalem in parte 
+</p><p><milestone unit="par" n="8"/> sinistra est villa, quae dicitur Bethar.
+</p><p><milestone unit="par" n="9"/> Inde passus mille est locus, ubi Iacob, cum iret in Mesopotamia, addormivit, et
+</p><p><milestone unit="par" n="10"/> ibi est arbor amigdala, et vidit visum et angelus cum eo luctatus est. Ibi
+</p><p><milestone unit="par" n="11"/> fuit rex Hieroboam, ad quem missus fuit propheta, ut converteretur ad deum</p>
+</div><div type="cap" n="589"><p><milestone unit="par" n="1"/> excelsum; et iussum fuerat prophetae, ne cum pseudoprophetam, quem secum
+</p><p><milestone unit="par" n="2"/> rex habebat, manducaret, et quia seductus est a pseudopropheta et cum eo
+</p><p><milestone unit="par" n="3"/> manducavit rediens, occurrit prophetae leo in via et occidit eum.
+</p><p><milestone unit="par" n="4"/> Inde Hierusalem mil. XII
+</p><p><milestone unit="par" n="5"/> fit a Caesarea Palestina Hierusalem usque milia CXVI,
+</p><p><milestone unit="par" n="6"/> mansiones IIII, mutationes IIII.
+</p><p><milestone unit="par" n="7"/> Sunt in Hierusalem piscinae magnae duae ad latus templi, id est una ad dexteram,
+</p><p><milestone unit="par" n="8"/> alia ad sinistram, quas Salomon fecit, interius vero civitati sunt piscinae gemellares
+</p><p><milestone unit="par" n="9"/> quinque porticus habentes, quae appellantur Betsaida. Ibi aegri multorum
+</p><p><milestone unit="par" n="10"/> annorum sanabantur. Aquam autem habent hae piscinae in modum coccini
+</p><p><milestone unit="par" n="11"/> turbatam. Est ibi et cripta, ubi Salomon daemones torquebat. Ibi est angulus</p>
+</div><div type="cap" n="590"><p><milestone unit="par" n="1"/> turris excelsissimae, ubi dominus ascendit et dixit ei is, qui temptabat eum,
+</p><p><milestone unit="par" n="2"/> et ait ei dominus: Non temptabis dominum deum tuum, sed illi soli servies.
+</p><p><milestone unit="par" n="3"/> Ibi est et lapis angularis magnus, de quo dictum est: Lapidem, quem reprobaverunt
+</p><p><milestone unit="par" n="4"/> aedificantes, hic factus est ad caput anguli. Et sub pinna turris ipsius sunt cubicula
+</p><p><milestone unit="par" n="5"/> plurima, ubi Salomon palatium habebat. Ibi etiam constat cubiculus, in quo
+</p><p><milestone unit="par" n="6"/> sedit et sapientiam descripsit; ipse vero cubiculus uno lapide est tectus. Sunt ibi
+</p><p><milestone unit="par" n="7"/> et excepturia magna aquae subterraneae e piscinae magno opere aedificate. Et</p>
+</div><div type="cap" n="591"><p><milestone unit="par" n="1"/> in aede ipsa, ubi templum fuit, quem Salomon aedificavit, in marmore ante aram
+</p><p><milestone unit="par" n="2"/> sanguinem Zachariae ibi dicas hodie fusum; etiam parent vestigia clavorum
+</p><p><milestone unit="par" n="3"/> militum, qui eum occiderunt, per totam aream, ut putes in cera fixum esse.
+</p><p><milestone unit="par" n="4"/> Sunt ibi et statuae duae Hadriani; est et non longe de statuas lapis pertusus,
+</p><p><milestone unit="par" n="5"/> ad quem veniunt Iudaei singulis annis et unguent eum et lamentant se cum
+</p><p><milestone unit="par" n="6"/> gemitu et vestimenta sua scindunt et sic recedunt. Est ibi et domus Ezechiae
+</p><p><milestone unit="par" n="7"/> regis Iudae.</p>
+ <p>Item exeuntibus Hierusalem, ut ascendas Sion, in parte sinistra</p>
+</div><div type="cap" n="592"><p><milestone unit="par" n="1"/> et deorsum in valle iuxta murum est piscina, quae dicitur Siloa; habet quadriporticum;
+</p><p><milestone unit="par" n="2"/> et alia piscina grandis foras. Haec fons sex diebus atque noctibus
+</p><p><milestone unit="par" n="3"/> currit, septima vero die est sabbatum; in totum nec nocte nec die currit. In eadem
+</p><p><milestone unit="par" n="4"/> ascenditur Sion et paret ubi fuit domus Caifae sacerdotis, et columna adhuc
+</p><p><milestone unit="par" n="5"/> ibi est, in qua Christum flagellis ceciderunt. Intus autem intra murum Sion
+</p><p><milestone unit="par" n="6"/> paret locus, ubi palatium habuit David. Et septem synagogae, quae illic fuerunt,
+</p><p><milestone unit="par" n="7"/> una tantum remansit, reliquae autem arantur et seminantur, sicut Isaias propheta</p>
+</div><div type="cap" n="593"><p><milestone unit="par" n="1"/> dixit. 
+Inde ut eas foris murum de Sion, euntibus ad portam Neapolitanam
+</p><p><milestone unit="par" n="2"/> ad partem dextram deorsum in valle sunt parietes, ubi domus fuit
+</p><p><milestone unit="par" n="3"/> sive praetorium Pontii Pilati; ibi dominus auditus est, antequam pateretur.
+</p><p><milestone unit="par" n="4"/> A sinistra autem parte est monticulus Golgotha, ubi dominus crucifixus est.</p>
+</div><div type="cap" n="594"><p><milestone unit="par" n="1"/> Inde quasi ad lapidem missum est cripta, ubi corpus eius positum fuit et
+</p><p><milestone unit="par" n="2"/> tertia die resurrexit; ibidem modo iussu Constantini imperatoris basilica
+</p><p><milestone unit="par" n="3"/> facta est, id est dominicum, mirae pulchritudinis habens ad latus exceptoria,
+</p><p><milestone unit="par" n="4"/> unde aqua levatur, et balneum a tergo, ubi infantes lavantur.
+</p><p><milestone unit="par" n="5"/> Item ab Hierusalem euntibus ad portam, quae est contra orientem, ut ascendatur
+</p><p><milestone unit="par" n="6"/> in monte Oliveti, vallis, quae dicitur Iosafath, ad partem sinistram, ubi sunt
+</p><p><milestone unit="par" n="7"/> vineae, est et petra ubi Iudas Scarioth Christum tradidit; a parte vero</p>
+</div><div type="cap" n="595"><p><milestone unit="par" n="1"/> dextra est arbor palmae, de qua infantes ramos tulerunt et veniente Christo
+</p><p><milestone unit="par" n="2"/> substraverunt. Inde non longe quasi ad lapidis missum sunt monumenta duo
+</p><p><milestone unit="par" n="3"/> monubiles mirae pulchritudinis facta: in unum positus est Isaias propheta,
+</p><p><milestone unit="par" n="4"/> qui est vere monolitus, et in alio Ezechias rex Iudaeorum. Inde ascendis
+</p><p><milestone unit="par" n="5"/> in montem Oliveti, ubi dominus ante passionem apostolos docuit; ibi
+</p><p><milestone unit="par" n="6"/> facta est basilica iussu Constantini. Inde non longe est monticulus, ubi
+</p><p><milestone unit="par" n="7"/> dominus ascendit orare et apparuit illic Moyses et Helias, quando Petrum</p>
+</div><div type="cap" n="596"><p><milestone unit="par" n="1"/> et Iohannem secum duxit. Inde ad orientem passus mille quingentos est
+</p><p><milestone unit="par" n="2"/> villa, quae appellatur Bethania; est ibi cripta, ubi Lazarus positus fuit,
+</p><p><milestone unit="par" n="3"/> quem dominus suscitavit.
+</p><p><milestone unit="par" n="4"/> Item ab Hierusalem in Hiericho milia XVIII. Descendentibus
+</p><p><milestone unit="par" n="5"/> montem in parte dextra retro monumentum est arbor sicomori,
+</p><p><milestone unit="par" n="6"/> in qua Zachaeus ascendit, ut Christum videret. A civitate passus mille
+</p><p><milestone unit="par" n="7"/> quingentos est ibi fons Helisei prophetae. Antea si qua mulier ex ipsa aqua bibebat,
+</p><p><milestone unit="par" n="8"/> non faciebat natos. Adlatum est vas fictile Heliseo, misit in eo sales et venit
+</p><p><milestone unit="par" n="9"/> et stetit super fontem et dixit: Haec dicit dominus: sanavi aquas has;
+</p><p><milestone unit="par" n="10"/> ex eo si qua mulier inde biberit, filios faciet. Supra eundem vero fontem</p>
+</div><div type="cap" n="597"><p><milestone unit="par" n="1"/> est domus Rachab fornicariae, ad quam exploratores introierunt et occultavit eos,
+</p><p><milestone unit="par" n="2"/> quando Hiericho eversa est, et sola evasit. Ibi fuit civitas Hiericho,
+</p><p><milestone unit="par" n="3"/> cuius muros gyraverunt cum arca testamenti filii Israel et ceciderunt muri. Ex
+</p><p><milestone unit="par" n="4"/> eo non paret nisi locus, ubi fuit arca testamenti et lapides XII, quos filii Israel
+</p><p><milestone unit="par" n="5"/> de Iordane levaverunt. Ibidem Iesus filius Nave circumcidit filios Israel
+</p><p><milestone unit="par" n="6"/> et circumcisiones eorum sepelivit.
+</p><p><milestone unit="par" n="7.8"/> Item ab Hiericho ad Mare Mortuum milia novem.
+</p><p><milestone unit="par" n="9"/> Est aqua ipsius valde amarissima, ubi in totum nullius generis piscis est nec
+</p><p><milestone unit="par" n="10"/> aliqua navis, et si qui hominum miserit se, ut natet, ipsa aqua eum versat.</p>
+</div><div type="cap" n="598"><p><milestone unit="par" n="1.2"/> Inde ad Iordane, ubi dominus a Iohanne baptizatus est, milia quinque.
+</p><p><milestone unit="par" n="3"/> Ibi est locus super flumen, monticulus in illa ripa, ubi raptus est Helias in caelum.
+</p><p><milestone unit="par" n="4"/> Item ab Hierusalem euntibus Bethleem milia quattuor super strata in
+</p><p><milestone unit="par" n="5"/> parte dextra est monumentum, ubi Rachel posita est, uxor Iacob. Inde milia
+</p><p><milestone unit="par" n="6"/> duo a parte sinistra est Bethleem, ubi natus est dominus Iesus Christus;
+</p><p><milestone unit="par" n="7"/> ibi basilica facta est iussu Constantini. Inde non longe est monumentum Ezechiehel,
+</p><p><milestone unit="par" n="8"/> Asaph, Iob et Iesse, David, Salomon, et habet in ipsa cripta ad
+</p><p><milestone unit="par" n="9"/> latus deorsum descendentibus hebraeis litteris scriptum nomina supra scripta.</p>
+</div><div type="cap" n="599"><p><milestone unit="par" n="1.2"/> Inde Bethasora milia XIIII, ubi est fons, in quo Philippus eunuchum baptizavit.
+</p><p><milestone unit="par" n="3.4"/> Inde Terebinto milia VIIII, ubi Abraham habitavit et puteum fodit sub arbore terebintho
+</p><p><milestone unit="par" n="5"/> et cum angelis locutus est et cibum sumpsit; ibi basilica facta est iussu
+</p><p><milestone unit="par" n="6"/> Constantini mirae pulchritudinis.
+</p><p><milestone unit="par" n="7"/> Inde Terebintho Cebron milia II, ubi est
+</p><p><milestone unit="par" n="8"/> memoria per quadrum ex lapidibus mirae pulchritudinis, in qua positi
+</p><p><milestone unit="par" n="9"/> sunt Abraham, Isaac, Iacob, Sarra, Rebecca et Lia.</p>
+</div><div type="cap" n="600"><p><milestone unit="par" n="1"/> Item ab Hierusolyma, sic:
+</p><p><milestone unit="par" n="2"/> civitas Nicopoli mil. XXII
+</p><p><milestone unit="par" n="3"/> civitas Lidda mil. X
+</p><p><milestone unit="par" n="4"/> mutatio Antipatrida mil. X
+</p><p><milestone unit="par" n="5"/> mutatio Betthar mil. X
+</p><p><milestone unit="par" n="6"/> civitas Caesarea mil. XVI.</p>
+</div><div type="cap" n="601"><p><milestone unit="par" n="1"/> Fit omnis summa a Constantinopoli usque Hierusalem
+</p><p><milestone unit="par" n="2"/> milia undecies centena <num value="64000">LXIIII</num> milia,
+</p><p><milestone unit="par" n="3"/> mutationes LXVIIII, mansiones LVIII.
+</p><p><milestone unit="par" n="4"/> Item per Nicopoli Caesarea milia LXXIIIS,
+</p><p><milestone unit="par" n="5"/> mutationes V, mansiones III.
+</p><p><milestone unit="par" n="6"/> Item ab Heraclea per Machedonia:
+</p><p><milestone unit="par" n="7"/> mutatio Aerea mil. XVI
+</p><p><milestone unit="par" n="8"/> mansio Registo mil. XII
+</p><p><milestone unit="par" n="9"/> mutatio Bedizo mil. XII
+</p><p><milestone unit="par" n="10"/> civitas Apris mil. XII</p>
+</div><div type="cap" n="602"><p><milestone unit="par" n="1"/> mutatio Zesutera mil. XII
+</p><p><milestone unit="par" n="2"/> finis Europae et Rhodopeae
+</p><p><milestone unit="par" n="3"/> mansio Sirogellis mil. X
+</p><p><milestone unit="par" n="4"/> mutatio Drippa mil. XIIII
+</p><p><milestone unit="par" n="5"/> mansio Gipsila mil. XII
+</p><p><milestone unit="par" n="6"/> mutatio Demas mil. XII
+</p><p><milestone unit="par" n="7"/> civitas Traianopoli mil. XIII
+</p><p><milestone unit="par" n="8"/> mutatio Ad Unimpara mil. VIII
+</p><p><milestone unit="par" n="9"/> mutatio Salei mil. VIIS
+</p><p><milestone unit="par" n="10"/> mutatio Melalico mil. VIII
+</p><p><milestone unit="par" n="11"/> mansio Berozicha mil. XV</p>
+</div><div type="cap" n="603"><p><milestone unit="par" n="1"/> mutatio Breierophara mil. X
+</p><p><milestone unit="par" n="2"/> civitas Maximianopoli mil. X
+</p><p><milestone unit="par" n="3"/> mutatio Ad Stabulodio mil. XII
+</p><p><milestone unit="par" n="4"/> mutatio Rumbodona mil. X
+</p><p><milestone unit="par" n="5"/> civitas Epyrum mil. X
+</p><p><milestone unit="par" n="6"/> mutatio Purdis mil. VIII
+</p><p><milestone unit="par" n="7"/> finis Rhodopeae et Macedoniae
+</p><p><milestone unit="par" n="8"/> mansio Hercontroma mil. VIIII
+</p><p><milestone unit="par" n="9"/> mutatio Neapolim mil. VIII
+</p><p><milestone unit="par" n="10"/> civitas Philippis mil. X</p>
+</div><div type="cap" n="604"><p><milestone unit="par" n="1"/> ubi Paulus et Sileas in carcere fuerunt
+</p><p><milestone unit="par" n="2"/> mutatio Ad Duodecimum mil. XII
+</p><p><milestone unit="par" n="3"/> mutatio Domeros mil. VII
+</p><p><milestone unit="par" n="4"/> civitas Amphipholim mil. XIII
+</p><p><milestone unit="par" n="5"/> mutatio Pennana mil. X
+</p><p><milestone unit="par" n="6"/> mutatio Peripidis mil. X
+</p><p><milestone unit="par" n="7"/> ibi positus est Euripidis poeta</p>
+</div><div type="cap" n="605"><p><milestone unit="par" n="1"/> mansio Appollonia mil. XI
+</p><p><milestone unit="par" n="2"/> mutatio Heracleustibus mil. XI
+</p><p><milestone unit="par" n="3"/> mutatio Duodea mil. XIIII
+</p><p><milestone unit="par" n="4"/> civitas Thessalonica mil. XIII
+</p><p><milestone unit="par" n="5"/> mutatio Ad Decimum mil. X
+</p><p><milestone unit="par" n="6"/> mutatio Gephira mil. X</p>
+</div><div type="cap" n="606"><p><milestone unit="par" n="1"/> civitas Polli, unde fuit Alexander Magnus Macero
+</p><p><milestone unit="par" n="2"/> mil. X
+</p><p><milestone unit="par" n="3"/> mutatio Scurio mil. XV
+</p><p><milestone unit="par" n="4"/> civitas Edissa mil. XV
+</p><p><milestone unit="par" n="5"/> mutatio Ad Duodecimum mil. XII
+</p><p><milestone unit="par" n="6"/> mansio Cellis mil. XVI
+</p><p><milestone unit="par" n="7"/> mutatio Grande mil. XIIII
+</p><p><milestone unit="par" n="8"/> mutatio Melitonus mil. XIIII
+</p><p><milestone unit="par" n="9"/> civitas Heraclea mil. XIII</p>
+</div><div type="cap" n="607"><p><milestone unit="par" n="1"/> mutatio Parambole mil. XII
+</p><p><milestone unit="par" n="2"/> mutatio Brucida mil. XVIIII
+</p><p><milestone unit="par" n="3"/> finis Macedoniae et Ephyri
+</p><p><milestone unit="par" n="4"/> civitas Cledo mil. XIII
+</p><p><milestone unit="par" n="5"/> mutatio Patras mil. XII
+</p><p><milestone unit="par" n="6"/> mansio Claudanon mil. IIII
+</p><p><milestone unit="par" n="7"/> mutatio In Tabernas mil. VIIII
+</p><p><milestone unit="par" n="8"/> mansio Grandavia mil. VIIII</p>
+</div><div type="cap" n="608"><p><milestone unit="par" n="1"/> mutatio Treiecto mil. VIIII
+</p><p><milestone unit="par" n="2"/> mansio Hiscampis mil. VIIII
+</p><p><milestone unit="par" n="3"/> mutatio Ad Quintum mil. VI
+</p><p><milestone unit="par" n="4"/> mansio Coladiana mil. XV
+</p><p><milestone unit="par" n="5"/> mansio Marusio mil. XIII
+</p><p><milestone unit="par" n="6"/> mansio Absos mil. XIIII
+</p><p><milestone unit="par" n="7"/> mutatio Stefanaphana mil. XII
+</p><p><milestone unit="par" n="8"/> civitas Apollonia mil. XVIII
+</p><p><milestone unit="par" n="9"/> mutatio Stefana mil. XII
+</p><p><milestone unit="par" n="10"/> mansio Aulona treiectum mil. XII</p>
+</div><div type="cap" n="609"><p><milestone unit="par" n="1"/> fit omnis summa ab Heraclea per Machedoniam
+</p><p><milestone unit="par" n="2"/> Aulona usque milia DCLXXXVIII,
+</p><p><milestone unit="par" n="3"/> mutationes LVIII, mansiones XXV.
+</p><p><milestone unit="par" n="4"/> Trans mare stadia mille, quod facit milia centum,
+</p><p><milestone unit="par" n="5"/> et venis Odronto mansio mille passus:
+</p><p><milestone unit="par" n="6"/> mutatio Ad Duodecimum mil. XIII
+</p><p><milestone unit="par" n="7"/> mansio Clipeas mil. XII
+</p><p><milestone unit="par" n="8"/> mutatio Valentia mil. XIII
+</p><p><milestone unit="par" n="9"/> civitas Brindisi mil. XI
+</p><p><milestone unit="par" n="10"/> mansio Spilenaees mil. XIIII
+</p><p><milestone unit="par" n="11"/> mutatio ad Decimum mil. XI
+</p><p><milestone unit="par" n="12"/> civitas Leonatiae mil. X
+</p><p><milestone unit="par" n="13"/> mutatio Turres Aurilianas mil. XV
+</p><p><milestone unit="par" n="14"/> mutatio Turres Iuliana mil. VIIII
+</p><p><milestone unit="par" n="15"/> civitas Beroes mil. XI
+</p><p><milestone unit="par" n="16"/> mutatio Butontones mil. XI</p>
+</div><div type="cap" n="610"><p><milestone unit="par" n="1"/> civitas Rubos mil. XI
+</p><p><milestone unit="par" n="2"/> mutatio Ad Quintumdecimum mil. XV
+</p><p><milestone unit="par" n="3"/> civitas Canusio mil. XV
+</p><p><milestone unit="par" n="4"/> mutatio Undecimum mil. XI
+</p><p><milestone unit="par" n="5"/> civitas Serdonis mil. XV
+</p><p><milestone unit="par" n="6"/> civitas Aecas mil. XVIII
+</p><p><milestone unit="par" n="7"/> mutatio Aquilonis mil. X
+</p><p><milestone unit="par" n="8"/> finis Apuliae et Campaniae
+</p><p><milestone unit="par" n="9"/> mansio Ad Aequum Magnum mil. VIIII
+</p><p><milestone unit="par" n="10"/> mutatio vicus Forno Novo mil. XII
+</p><p><milestone unit="par" n="11"/> civitas Benevento mil. X
+</p><p><milestone unit="par" n="12"/> civitas et mansio Claudiis mil. XII
+</p><p><milestone unit="par" n="13"/> mutatio Novas mil. VIIII
+</p><p><milestone unit="par" n="14"/> civitas Capua mil. XII</p>
+</div><div type="cap" n="611"><p><milestone unit="par" n="1"/> fit summa ab Aulona usque Capua
+</p><p><milestone unit="par" n="2"/> milia CCLXXXVIIII, mutationes
+</p><p><milestone unit="par" n="3"/> XXV, mansiones XIII. 
+</p><p><milestone unit="par" n="4"/> mutatio Ad Octavum mil. VIII
+</p><p><milestone unit="par" n="5"/> mutatio Ponte Campano mil. VIIII
+</p><p><milestone unit="par" n="6"/> civitas Sonuessa mil. VIIII
+</p><p><milestone unit="par" n="7"/> civitas Menturnas mil. VIIII
+</p><p><milestone unit="par" n="8"/> civitas Formis mil. VIIII
+</p><p><milestone unit="par" n="9"/> civitas Fundis mil. XII
+</p><p><milestone unit="par" n="10"/> civitas Tarracina mil. XIII
+</p><p><milestone unit="par" n="11"/> mutatio Ad Medias mil. X
+</p><p><milestone unit="par" n="12"/> mutatio Appi Foro mil. VIIII</p>
+</div><div type="cap" n="612"><p><milestone unit="par" n="1"/> mutatio Sponsas mil. VII
+</p><p><milestone unit="par" n="2"/> civitas Aricia et Albona mil. XIIII
+</p><p><milestone unit="par" n="3"/> mutatio Ad Nono mil. VII
+</p><p><milestone unit="par" n="4"/> in urbe Roma mil. VIIII
+</p><p><milestone unit="par" n="5"/> fit a Capua usque ad urbem Romam milia CXXXVI,
+</p><p><milestone unit="par" n="6"/> mutationes XIIII, mansiones VIIII.
+</p><p><milestone unit="par" n="7"/> Fit ab Heraclea per Aulona in urbe Roma usque
+</p><p><milestone unit="par" n="8"/> milia undecies centena XIII, mutationes
+</p><p><milestone unit="par" n="9"/> CXVII, mansiones XLVI.
+</p><p><milestone unit="par" n="10"/> Ab urbe Mediolanium:
+</p><p><milestone unit="par" n="11"/> mutatio Rubras mil. VIIII</p>
+</div><div type="cap" n="613"><p><milestone unit="par" n="1"/> mutatio Ad Vicensimum mil. XI
+</p><p><milestone unit="par" n="2"/> mutatio Aqua Viva mil. XII
+</p><p><milestone unit="par" n="3"/> civitas Vcriculo mil. XII
+</p><p><milestone unit="par" n="4"/> civitas Narniae mil. XII
+</p><p><milestone unit="par" n="5"/> civitas Interamna mil. VIIII
+</p><p><milestone unit="par" n="6"/> mutatio Tribus Tabernis mil. III
+</p><p><milestone unit="par" n="7"/> mutatio Fani Fugitivi mil. X
+</p><p><milestone unit="par" n="8"/> civitas Spolitio mil. VII
+</p><p><milestone unit="par" n="9"/> mutatio Sacraria mil. VIII
+</p><p><milestone unit="par" n="10"/> civitas Trevis mil. IIII
+</p><p><milestone unit="par" n="11"/> civitas Fulginis mil. V</p>
+</div><div type="cap" n="614"><p><milestone unit="par" n="1"/> civitas Foro Flamini mil. III
+</p><p><milestone unit="par" n="2"/> civitas Noceria mil. XII
+</p><p><milestone unit="par" n="3"/> civitas Ptanias mil. VIII
+</p><p><milestone unit="par" n="4"/> mansio Herbello mil. VII
+</p><p><milestone unit="par" n="5"/> mutatio Ad Hesis mil. X
+</p><p><milestone unit="par" n="6"/> mutatio Ad Cale mil. XIIII
+</p><p><milestone unit="par" n="7"/> mutatio Intercisa mil. VIIII</p>
+</div><div type="cap" n="615"><p><milestone unit="par" n="1"/> civitas Foro Semproni mil. VIIII
+</p><p><milestone unit="par" n="2"/> mutatio Ad Octavo mil. VIIII
+</p><p><milestone unit="par" n="3"/> civitas Fano Furtunae mil. VIII
+</p><p><milestone unit="par" n="4.5"/> civitas Pisauro mil. XXIIII
+</p><p><milestone unit="par" n="6"/> usque Ariminum
+</p><p><milestone unit="par" n="7"/> mutatio Conpetu mil. XII
+</p><p><milestone unit="par" n="8"/> civitas Cesena mil. VI</p>
+</div><div type="cap" n="616"><p><milestone unit="par" n="1"/> civitas Foro Populi mil. VI
+</p><p><milestone unit="par" n="2"/> civitas Foro Livi mil. VI
+</p><p><milestone unit="par" n="3"/> civitas Faventia mil. X
+</p><p><milestone unit="par" n="4"/> civitas Foro Corneli mil. X
+</p><p><milestone unit="par" n="5"/> civitas Claterno mil. XIII
+</p><p><milestone unit="par" n="6"/> civitas Bononia mil. 
+</p><p><milestone unit="par" n="7"/> mutatio Ad Medias mil. XV
+</p><p><milestone unit="par" n="8"/> mutatio Victoriolas mil. X
+</p><p><milestone unit="par" n="9"/> civitas Mutena mil. III
+</p><p><milestone unit="par" n="10"/> mutatio Ponte Secies mil. V
+</p><p><milestone unit="par" n="11"/> civitas Regio mil. VIII
+</p><p><milestone unit="par" n="12"/> mutatio Canneto mil. X
+</p><p><milestone unit="par" n="13"/> civitas Parme mil. VIII
+</p><p><milestone unit="par" n="14"/> mutatio Ad Tarum mil. VII
+</p><p><milestone unit="par" n="15"/> mansio Fidentiae mil. VIII
+</p><p><milestone unit="par" n="16"/> mutatio Ad Fonteclos mil. VIII
+</p><p><milestone unit="par" n="17"/> civitas Placentia mil. XIII</p>
+</div><div type="cap" n="617"><p><milestone unit="par" n="1"/> mutatio Ad Rota mil. XI
+</p><p><milestone unit="par" n="2"/> mutatio Tribus Tabernis mil. V
+</p><p><milestone unit="par" n="3"/> civitas Laude mil. VIII
+</p><p><milestone unit="par" n="4"/> mutatio Ad Nonum mil. VII
+</p><p><milestone unit="par" n="5"/> civitas Mediolanum mil. VII
+</p><p><milestone unit="par" n="6"/> fit omnis summa ab urbe Roma Mediolanium
+</p><p><milestone unit="par" n="7"/> usque milia CCCCXVI,
+</p><p><milestone unit="par" n="8"/> mutationes XLIIII, mansiones XXIIII.
+</p><p><milestone unit="par" n="9"/> Explicit itinerarium.</p></div>
+    </div>
+  </body>
+ </text>
+
+</TEI>

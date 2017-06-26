@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Orationes</title>
+    <author>Quintus Aurelius Symmachus</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Vincenzo del Core</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Alice Borgna</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2013</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000479</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p>Symmaque, texte établi, traduit et commenté par Jean Pierre Callu. Tome V: Discours -
+     Rapports, Paris 2009</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    <p><hi rend="bold">Modifiche apportate al testo dell'edizione di riferimento </hi></p>
+    <p>Si è corretto un errore di stampa (III, 2): <hi rend="italic">uirtuti omina in fascibus laureatis</hi> sostituito con <hi rend="italic">uirtutis omina in fascibus laureatis</hi> </p>
+    
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+  
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+  
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div type="lib" n="I">
+    <head> I. Laudatio in Valentinianum seniorem Augustum prior </head>
+    <div type="cap" n="1">
+     <p>
+      <supplied><gap/></supplied> liem. Totius orbis estis indigenae alibi fructum lucis, alibi usum
+      laboris indepti. An non ipsam quoque Africam iure patriam tuam dixerim, quae te prima in
+      contubernio parentis edocuit qualis princeps esse deberes? Nec umquam te existimes aliis
+      militasse: futurus Augustus sibi quaesiuit quidquid ante defendit; seruauit tenera aetas quod
+      regeret matura felicitas. Ibi primum tolerans solis et pulueris esse didicisti, cuius dudum
+      cunabula Illyriae niues texerant; qui caesam glaciem paulo ante potaueras, is ueluti ad alia
+      elementa translatus arentis Libyae sitim patientia temperabas. Prorsus quasi ad
+       <del>ipsius</del> mundi gubernacula designatus, mutando uarias caeli plagas usum tibi omnium
+      cardinum uindicasti. Merito non potest hodie obesse prouinciis tam longa absentia tua, quas
+      tuetur prima notitia. Similis est princeps deo pariter uniuersa cernenti, qui cunctas partes
+      nouit imperii. </p>
+    </div>
+    <div type="cap" n="2">
+     <p> «Si litteras», inquit Tullius, «Graecas Athenis non Lilybaei, Latinas Romae non in Sicilia
+      didicisses», uidelicet ex locorum ingeniis adprobans ea nescire Caecilium, quae eum dicit ubi
+      innata non erant adsecutum. Sola est enim disciplinarum magistra natura regionum. Tibi ardores
+      Gaetuliae aestiuam consuetudinem, tibi Illyriae pruinae brumalis horroris tolerantiam
+      tradiderunt. Genitus in frigoribus, educatus in solibus, ante fortunae munera totius mundi
+      exempla sumpsisti. Quare seu in Aethiopas atque Indos contra externum militem solo calore
+      munitos felicia signa contuleris, frustra ad aestuantes recessus ac torrida astra confugient -
+      cito enim terrarum talium dominus eris qui uim siderum non timebis - ; seu in Scythiae regna
+      frigentia Tanainque glacialem fines Ponticos proferre censueris, ibi quoque naturam patriae
+      recognoscens fugaces incolas per dorsa fluminum consequeris. Vicisti experientiam singulorum,
+      qui habes omnium. Priuatae hoc industriae tuae debes quod te dignum reddidit principatu: cum
+      tantum munus acceperis ut nihil tibi possit adici, tantum meriti praetulisti ut nullum
+      praemium tibi debeat inputari. </p>
+    </div>
+    <div type="cap" n="3">
+     <p> Meruisti quondam, inclute Gratiane, meruisti ut de te sacra germina pullularent, ut esses
+      seminarium principatus, ut fieres uena regalis: erudisti liberos parentes omnium mox futuros,
+      in quos tantum frugis bonae institutio priuata congessit ut fortuna hodie clarior nil
+      requirat. Hinc factum est quod primaeuum nepotem castrensia decreta legerunt: cum familiae
+      uestrae natura permitteret ut cautela patris in puero nil timeret, cur tardaret aetas quem tot
+      exempla generis adserebant? Praeiudicata bona in examen uocare<supplied><gap/></supplied>
+     </p>
+    </div>
+    <div type="cap" n="4">
+     <p>
+      <supplied><gap/></supplied> aut licentia poetarum dearum aliquam dixerim destrictos a
+      uitalibus tuis detorsisse mucrones, neque te quadrigis pernicibus diua aurigante simulabo
+      subtractum, nec cauae nubis infusa circa te narrabo uelamina: sint haec figmenta carminum, nos
+      habemus exempla factorum. Haesit ante te maestior rebellis instinctus et, si mihi credis,
+      Auguste, tibi magis quam sibi timuere dementes nec ignorabant hoc ipso crimen suum posse
+      cumulari, quod solum principis socerum dignum caede crediderant, iam nec furoris nomine et
+      defensione purgandi qui ab alterius nece consilio temperabant. </p>
+    </div>
+    <div type="cap" n="5">
+     <p> Credamus historiis minora iactantibus, quae ferunt Gaium Marium pressum labe fortunae
+      obiectu quodam prioris euasisse reuerentiae. Cum secundis, inquiunt, rebus eius in aduersa
+      mutatis uirum toto orbe uictorem Minturnensis carcer includeret, percussoris ictum, qui iussus
+      inruperat, maiestate suspendit, quae ei sola restabat. Stetit pro sene uetus gloria nec ualuit
+      carnifex inpia manu ferire, quem necesse habebat agnoscere. Quae, rogo, sunt maiora miracula:
+      ministrum irascentis inhibere an ipsos qui irascuntur obtundere? Vnus cui parcit ignoscit,
+      multi metuunt quem tuentur. Iuuenem terror excusat, senem miseratio. In illo recolebatur, in
+      te sperabatur imperium. Non sunt paria exempli utriusque momenta: Mario adhuc supererat fulgor
+      occidui sideris, in te iam radiabat flamma nascentis. </p>
+    </div>
+    <div type="cap" n="6">
+     <p> Ecquis est motus animorum uel ordo uiuendi qui pro uicissitudine temporum et mutatione
+      causarum non aliquando uaria iactatione quatiatur? Fuerit aliquis in pace iucundus, sed idem
+      rebus trepidis parum felix; hunc timuerint factiosi, sed despectui habuere concordes; hunc
+      uiolandum nemo credidit, non tamen etiam sublimandum aliquis aestimauit, illi honorem regium
+      decreuit exercitus, sed idem latuit ante priuatus. Te unum timent rebelles, eligunt
+      iudicantes, quem nemo audax in furore contempsit, nemo consultus in honore praeteriit. Quid
+      interest saeuiat miles an sapiat? Vbi ira est tu solus euadis; ubi consilium est tu solus
+      eligeris. </p>
+    </div>
+    <div type="cap" n="7">
+     <p> Vrgeor, Auguste uenerabilis, ut mihi tamquam aliquod lumen astrorum post priuatas exuuias
+      iam purpuratus in oratione nascaris. Sentio diuinae lucis adflatum, ut ferme adsolet, cum
+      iubar emicat et mundi splendor aperitur, aut cum solis emergente purpura ruborem ducit aurora.
+      Tandem rogatus exorere sideri nouo similis, quod in rediuiua diei erumpentis officia perfusum
+      sacris undis adtollit oceanus! Procedat imperii candidatus insignis suis armis ante quam
+      publicis. Nam semper enituit qui electioni omnium solus occurrit. Galea diademate, sceptris
+      pila mutentur. Auri praemium ferri labore meruisti. Haec in te mutari sola potuerunt. Nam,
+      quod spectat ad mores, unum hoc tibi fortuna addidit ut plura curares. </p>
+    </div>
+    <div type="cap" n="8">
+     <p> Excesserat diuus Iouianus e terris ac se inprouiso fine subtraxerat. Maestum omnium repente
+      iustitium nec ulla, ut adsolet, murmura factionum. Cessabat ambitus, quia dignus extabat.
+      Ecquis miratur non ilico in te conuersa suffragia? Nulla causa properandi est ubi non est
+      suspecta dilatio et saepe minuit boni facti laudem quisquis ei obesse existimat tarditatem.
+      Ergo seruatus es iudicio multitudinis, ne quis te muttiret praeiudicium captasse paucorum.
+      Nihil circa honorem tuum sibi adsumit euentus: ab his imperator electus es qui deliberarunt.
+      Agimus gratias consilio longiori. Sic de te diu tractatus est habitus, ut palam constet quod
+      dignior non sit inuentus. </p>
+    </div>
+    <div type="cap" n="9">
+     <p> Et iam concilii dies certus instabat. Aderat exercitus ex omni robore Romanae pubis
+      electus. Digna plane comitia tanti imperii principatu! Decernebant liberi cui deberent esse
+      subiecti. Tibi habe, uetustas, redemptas saepe centurias et gratiosas Quiritium classes et
+      tribus plerumque uenales: negotia mandare nesciunt otiosi. Emeritum bellis uirum castrensis
+      senatus adsciuit. Noti testimonio, ignoti suffragio prouehuntur. Vbi hic equinus hinnitus
+      Persici quondam lector imperii et adfectata ad regnum uia libidine pecudis concubitum
+      gestientis? Qualis ille dominus fuit de quo inprudens animal iudicauit? Remoue hinc prisca
+      miracula et theatralibus praestigiis digna conmenta! Armati censeant cui potissimum regenda
+      arma credantur. Ars est boni militis ducem nosse deligere. Merito nunc quoque certatim in
+      omnibus parent, libenter obtemperant. Neque enim tantum imperio tuo, sed etiam iudicio suo
+      militant. </p>
+    </div>
+    <div type="cap" n="10">
+     <p> Vellem nunc tecum ciuica expostulare pietate: cur in medium inuitus existi, cur diu
+      obluctatus, cur sero mollitus es? An et hoc maiestati tuae debebatur ut semper inuictus in
+      accipiendo tantum imperio uincereris? Periclitati sumus ne te superiorem faceret excusatio.
+      Maiore beneficio praestitisti coactus adsensum quam adeptus es probatus imperium. Quae res
+      inuitamento omnibus fuit. Nam res publica uehementius delectatur inuitis. Nemo plus dignitati
+      tuae adfuit quam qui non paruit uoluntati. Stabat ante nobilem candidatum aula uiduata. Erat
+      quidem uerecundiae tuae ut repugnares, sed non minus deuotionis ut cederes. Prodest nonnumquam
+      militaris inprobitas: hodie bo<supplied><gap/></supplied>
+     </p>
+    </div>
+    <div type="cap" n="11">
+     <p>
+      <supplied><gap/></supplied> incredibili prouidentia utrumque complexus ne aut in uno spes
+      staret imperii aut in duobus esset causa certandi. Huc accedit quod, cum duo sint in imperio
+      gradus, ilico in germanum et pariter contulisti, quod noueras bis posse praestari. Adeo ne
+      gratiam quidem captas ut a perfectis beneficiis semper incipias. Exigui animi uices munerum
+      partiuntur. Tua liberalitas desideriis nil reliquit maximeque in imperatore faciundo
+      magnitudinem regiae largitatis minui credidisti, si, cum insperata concederes, adhuc speranda
+      differres. Ergo Augustum pari iure confirmans, curasti ne umquam tibi suspectus esset cui non
+      reliquisti quod ultra optare deberet. </p>
+    </div>
+    <div type="cap" n="12">
+     <p> Hinc plerique principum quos secundos creauerant quasi aemulos mox timebant. Vrget enim
+      potissimos expectatio proximorum semperque similis inuidenti est cui superest quod requirat.
+      Nec istud nimium gratiosa aut populari festinatione fecisti iamdudum cuncta expertus in fratre
+      quae diu explorantur in Caesare. Dubitaretur de iudicio tuo, nisi ab inmodicis inchoasses.
+      Statim perspeximus qualem principem legeres, postquam cognouimus quod nihil tibi quasi
+      sollicitus reseruares. </p>
+    </div>
+    <div type="cap" n="13">
+     <p> Si qua inter cognatas caelitum potestates huiusmodi esset aequatio, paribus cum sole
+      luminibus globus sororis arderet nec radiis fratris obnoxia precarium raperet luna fulgorem.
+      Iisdem curriculis utrumque sidus emergeret, pari exortu diem germana renouaret; per easdem
+      caeli lineas laberetur nec menstruo pigra discursu, aut in renascendo, uarias mutaret
+      ecfigies, aut in senescendo, paruas pateretur aetates. Ecce formam beneficii tui astra
+      nesciunt aemulari. Illis nihil est in mundana luce consimile, uobis totum est in orbe
+      commune.</p>
+    </div>
+    <div type="cap" n="14">
+     <p> Nondum adulta rerum a te gestarum profano monumenta <supplied>et</supplied> iam cedo
+      primitiis. Faciam quod usuuenire nobis in prolixo itinere solet, ubi qui ad destinata
+      properant non omnes obuios consalutant: ergo in duas curas diuidis orbis excubias: inuictum
+      fratrem relinquis Orienti, ipse supra inpacati Rheni semibarbaras ripas raptim uexilla
+      constituens et prouincias luxu superiorum deditas ueteris ignauiae pudore defendens, princeps
+      creatus ad difficilem militiam reuertisti. Statim itinera, statim proelia et primus in acie
+      purpuratus; et regalis aula sub pellibus, somnus sub caelo, potus e fluuio, tribunal in campo.
+      Haec imperio quidem noua sed tibi cognita. Docuisti magis fortunam regiam quid uirum facere
+      conueniret quam didicisti ab ea quid imperatores ante fecissent. </p>
+    </div>
+    <div type="cap" n="15">
+     <p> An exiguum uirtutis et patientiae tuae specimen arbitraris quod rerum summa fastigia et
+      Romani nominis apicem consecutus, inter tot prouincias partim situ amoenas partim pace
+      iucundas aut urbium maiestate mirabiles aut populorum copiis redundantes sedem quodammodo in
+      ea parte posuisti qua totius rei publicae ruina uergebat? Tales sibi terras eligunt qui ut
+      subueniant eliguntur. Nondum degustatis imperii bonis solas difficultates de honore sortiris.
+      Tamdiu te non tenerent Galliae, si placerent.</p>
+    </div>
+    <div type="cap" n="16">
+     <p> Iactet se Punicis Africanus exuuiis, sed diu in Sicilia palliatus errauit. Mithradaticis
+      spoliis Lucullus exultet, sed in Pontico luxu paene uictor elanguit. Orientis tropea ostentet
+      Antonius, sed inter Aegyptias taedas regio amore diffiuxit. Hi sunt illi triumfales uiri,
+      delicatis negotiis frequentibus occupati, amoena litorum terrarumque opima sectantes. Vis
+      petam proximae aetatis exempla? Ecce Baias sibi Augustus a continuo mari uindicat et molibus
+      Lucrinis sumptus laborat imperii. Tiberius in deuorsoriis insularum natans et nauigans
+      adoratur. Pius otia Caietana persequitur. In Lycio et Academia remissior Marcus auditur. Tibi
+      nullae sunt feriae proeliorum. Tibi nullas necessitas remittit indutias maximeque hoc in
+      Galliis delegisti, quod hic non licet otiari. Lustrum imperialium iam condis annorum ubi caelo
+      et terris horror aequalis est, sub crassa nube iugi frigore, feroci hoste, latissima
+      uastitate. Quietem tibi negas quam ceteris praestas. Inter tot milia laurearum nondum
+      digrederis ad triumfum et, cum sis maior Augustis, delegisti tibi prouuinciam de qua Caesares
+      querebantur. </p>
+    </div>
+    <div type="cap" n="17">
+     <p> Et tu quidem bellico intentus operi dudum ferocis Alamanniae terga uertebas, sed parte alia
+      fraterni imperii liberam pacem rebellis exul inruperat. Quod cum ad te primum pernices nuntii
+      et fidae litterae pertulerunt, quis non congruum iudicauit ut a caede barbarica in facinus
+      ciuile arma torqueres ? </p>
+    </div>
+    <div type="cap" n="18">
+     <p> At tu rei publicae plus timebas et inter duas causas hinc intestinam, inde finitimam
+      malebas potentia tua interim frui aemulum quam longa inpunitate uicinum nec ita turpe duxisti
+      plures tecum esse principes quam terras imperii breuiores. Frustra tunc tibi perduelles motus
+      optauit Alamannia cui tantum miseriae inuexit conflictus tuus, quantum proeliis debebatur
+      ambobus. Probasti animum constantissimi ducis minus tibi consulendo quam ceteris. Tutior aput
+      te fuit tuus quam noster inimicus. Non uno igitur beneficio Gallias obligasti quibus pariter a
+      te utrumque delatum est et sui periculi cura et tui neglegentia.</p>
+    </div>
+    <div type="cap" n="19">
+     <p> Quin ipsas contiones tuas et humanis sensibus celsiora retexo conloquia! «Huc», inquis,
+      «fidissimi commilitones, aduersum truces populos et Rheni feroces indigenas uexilla conferte!
+      Hic communis hostis est, ille priuatus; prima uictoriae publicae, secunda uindictae meae causa
+      est; alio bello petitur nostra dignitas, hoc uestra possessio». Quid plura? Contra te suadendo
+      uicisti tantumque ualuit auctoritas tua ut dissimularetur iniuria. Putasses praeceptum tuum
+      parui habitum, si quis te uindicasset inuitum? Quisquamne neglectum sui postulat et deuotionem
+      putat, si se nemo defendat? En animus maior imperio sub quo maiestas neglegitur et eruptio
+      uindicatur!</p>
+    </div>
+    <div type="cap" n="20">
+     <p> Quid quod uis ista naturae est ut ea sint unicuique ad sensum doloris prima quae propria
+      nec quisquam se ipso iudice inpune laedatur? Tu in casibus tuis clemens, seuerus in publicis
+      turpe existimas principi motus odii habere priuati. Merito ergo a nobis amplius amaris, quia
+      pro te minus irasceris. Nescis uti regia manu contra domesticas simultates. Si erubescis tuas
+      iniurias ultum ire, audi, imperator, quod te acuat: nostri inimici sunt qui rebellant.</p>
+    </div>
+    <div type="cap" n="21">
+     <p> Sed illius latronis iustus occasus uenerandi fratris tui laudibus cum ceteris Orientis
+      adoreis reseruetur. Vnum tamen hoc praelibasse sufficiet, cum diu anceps bellum fuerit, sic
+      uictoriae moderatus est quasi contra se nemo pugnarit.</p>
+    </div>
+    <div type="cap" n="22">
+     <p> O mira inter uos similitudo pietatis ! Tu nescis ciuile certamen adripere, ille non potest
+      uindicare. Quamquam illa dissimulatio tua non caret honore germani: satis idoneus tibi ad
+      uincendum uisus est cui auxilium non tulisti. In magna fiducia minor cura est. Merito illi
+      captiuus rebellis in deditionem datus est, merito usurpator tanti nominis oblatus ad poenam.
+      Consilio quippe tui numinis factum est ut imperio iudicaretur indignissimus qui ne hoc quidem
+      meruit ut ei uidereris infensus.</p>
+    </div>
+    <div type="cap" n="23">
+     <p> Inter has belli artes externosque procinctus et semper de hostibus nouas laurus ciuilium
+      rerum nulla cessatio. Possum dicere fugato ambitu uirtuti redditas dignitates nec iam ad
+      honorum infulas opibus uiam patere sed moribus, castrorum curiaeque parem nunc esse fortunam,
+      cum uideas praetorianas cohortes parere nobilibus et ante emeritos duces urbana insignia
+      gestare lictores. Togas paludamentis saepe mutamus, armatis trabeas frequenter
+       induimus<supplied><gap/></supplied>
+     </p>
+    </div>
+    </div>
+    <div type="lib" n="II">
+     <head> II. Laudatio in Valentinianum seniorem Augustum altera </head>
+     <div type="cap" n="1">
+      <p>
+       <supplied><gap/></supplied> soluitur pro labore. Fastidium te forsitan caperet iterati
+       praemii et saepe repetendi, nisi nobis consuleres ne uideamur ingrati. Honor tibi summus in
+       uiribus est, honor plenus in moribus. Tuas ueras secures non lictorum umeri sed ceruices
+       gentium ferunt, reges decreta custodiunt, castella pro fascibus eriguntur. Tu inter obsides
+       uictoris iure disceptans uiam iubes ire quos reddis et redire quos suscipis. Ambiat licet
+       sacros umeros gemmarum cohaerentium uelamen opulentum et trabeam consularem discolora serta
+       praetexant: ille tamen ornatus insignior est quem Rhenus meruit, quem limes accepit.
+       Beneficia tua deuotionem uicere rei publicae: quae sumis annua sunt, quae condis aeterna.
+      </p>
+     </div>
+     <div type="cap" n="2">
+      <p> Nouimus, inuicte moderator, tantis negotiis parem non esse mercedem. Idem tibi praemium
+       plerumque decernitur, cum a te diuersa praestentur. Si non congruit meritis quod solutum est,
+       honor uincitur, non uoluntas. Nam quid tibi adicit consulatus, cum felices annos imperii tui
+       de aetatibus nouarum urbium calculemus? Aliorum tempora fastis numerata sunt, uestra
+       uictoriis. Hoc unum tamen rite curauimus ut in oppidis nuper erectis primum discerent
+       consulem conditorem, inaugurarentur inclutis triumfalia castra nominibus. Fuit euidens causa
+       qua fasces sumere tertio cogereris: etenim ne magistratus Romanos proxime adiuncta terra
+       respueret, ab eo sumptum est principium qui timetur. </p>
+     </div>
+     <div type="cap" n="3">
+      <p> Nihil a te prioribus gestis, Auguste, decerpimus, si recentia sola repetamus. Stupeo non
+       minus illa sane quae conperi, sed haec magis diligo quae probaui. Adque utinam modicum
+       ingenii mei saltem nota commendent! Adempta mihi est honesta defensio: quae ipse non uideram
+       uenia maiore laudabam. </p>
+     </div>
+     <div type="cap" n="4">
+      <p> Quisquis arcana naturae scrutari postulat te sequatur: non fluminum meatibus, non obiectu
+       montium, non itinerum errore tardabitur. Omnia aduersum barbaros patent quae sunt munita pro
+       nobis. Scit bicornis iste uicinus succumbendum esse rostratis ne ei necesse sit uiam praebere
+       uestigiis. Cui possibile est fluenta contegere ludus est nauigare. Nec arduis locorum
+       obicibus inpedimur: testis est haec ipsa ripa barbariae cui altitudo nomen inposuit imis
+       summa cessisse. Ascendentem fugere nuper exercitum qui occurrere per plana potuerunt. Et tu
+       quidem bello uincere maluisses, sed gloriosius factum est ut ferox natio uideret
+        Alamannorum<supplied><gap/></supplied>
+      </p>
+     </div>
+     <div type="cap" n="5">
+      <p>
+       <supplied><gap/></supplied> tenere secretum. Itaque Crassus percontanti filio quid noctis
+       moueri castra iussisset: «Vereris», inquit, «ne tuas aures forte non penetret occentatio
+       bucinarum?» Nobis satis est curare praesentia, futuros exitus tecum Fortuna disponat. Num
+       ambiguum est semper suspicari quae saepe perpessi sunt? Sed inexplorata ueritas magis anxios
+       efficit quam paratos. Sciunt quid <supplied>cauendum sit, nesciunt</supplied> cauere.
+       Altitudo principis utrumque prouidit ut et illorum circumspectio falleretur qui numquam mente
+       securi sunt et nostrorum animus integer permuniret qui ante solliciti non fuerunt. </p>
+     </div>
+     <div type="cap" n="6">
+      <p> Quid ego in te peritiam bellicae rei, quid usum ducendi agminis, quid locorum notitiam,
+       temporum demensiones, laborem sine pernicie, curam sine maerore conlaudem? Vidi fidissimos
+       comitum tuorum solito laetiores, cum, ad destinata praemissi quae uidebant prae ceteris se
+       tantum meruisse cognoscere, gauderent cum omnibus etiam se ante nescisse. Praestitum sibi
+       utrumque dicebant, cum eos iudicio eligeres et auspiciis adiuuares nec dubitabant principem
+       protinus adfuturum. Qui inter diuisas cohortes discretasque legiones et illorum coeptis
+       inprouisus interfuit et nobis praestitit quod resedit. Ita nulla pars questa est uel cito
+       abisse ductorem uel sero uenisse. Diuina consilia post terminum patent: intellegimus te ideo
+       praemisisse nonnullos, ne esset tarda uictoria, ideo plerosque tenuisse, ne esset multitudo
+       suspecta. Ante Alamanniam mancipasti quam interiora quaereres.</p>
+     </div>
+     <div type="cap" n="7">
+      <p> Vides nihil esse prolixum magna curantibus. Nec remanentem relinquis nec a praecedente
+       desereris. Ignosco iam desidiae barbarorum: quid iuuat quaerere ubi potissimum degas, cum
+       ubique semper appareas?</p>
+     </div>
+     <div type="cap" n="8">
+      <p> Cedo mihi, imperator, belli Iliensis historiam! Probabo Graeciam parua mentitam nec
+       magnitudini seruisse nec fidei. Aiunt heroas ad Troiam classe delatos ignoti litoris timuisse
+       contactum, donec formidata responsa uel strenuus temeritate iniret uel fraude uersutus
+       eluderet. Nolo dolos, nolo conmenta! In exercitu principis mei certatum est quis primus
+       exiret necdum extrema riparum naualia rostra pulsauerant et iam miles inpiger desilibat. Sub
+       tali duce tuta deuotio est. Magis unusquisque curauit ne quis anteiret quam ne quis
+       occurreret.</p>
+     </div>
+     <div type="cap" n="9">
+      <p> Plus uideris mihi egisse quam cuncti qui fortunam singulis praestitisti. Non harenis
+       inmersa haesere uestigia nec tardior nisus per adcliue cunctatus est. Mitiora omnia uisa sunt
+       quam fuerunt: Rhenus placidus, cum aestuaret, terra stabilis, cum dehisceret, ripa planior,
+       cum tumeret.</p>
+     </div>
+     <div type="cap" n="10">
+      <p> His uirtutis excursibus non obreptioni uia quaeritur nec repentinae caedi ansa. Parum
+       placet ferire praeuentos. Exaturat animum gloriosum fortunata uelocitas. Abire cum liberis
+       et, quo magis cognoscerent bella exigi, patiebaris et a barbaris arma transferri. Nemo
+       uilibus culmis contecta gurgustia interneciuo igne populatus est nec indormientes lectulis
+       feras matres antelucanus raptor extraxit. Vix desudata in diem crapula et refrigeratis
+       cubilibus fugam ueniae miscuerunt. Vt dammis pernicibus campus aperitur, ut agmina ignaua
+       ceruorum latibulis emota siluestribus in plana coguntur, ita gratius uisum est discurrentem
+       barbarum spectare quam caedere.</p>
+     </div>
+     <div type="cap" n="11">
+      <p> Laus certaminum fortuita est, certa clementiae. Triumphi speciem uicit inpunitas. Si bene
+       aestimo rigidum nationis ingenium, uitam credit infamem cui contemptus ignouerit. Numquam
+       paeniteat pepercisse metuenti. Qui odium hostile non meruit par esse desiuit. Alterum necesse
+       est de miserabili populo suspicemur: si adficitur indulgentia tua, mihi crede, punitus est,
+       si gratulatur, obnoxius est.</p>
+     </div>
+     <div type="cap" n="12">
+      <p> Dicam quod nulla monumenta testantur: tibi incola uiuit Alamanniae. Quos ferro subtrahis,
+       addis imperio. Sat est quod mores gentium parcendo mutasti. Quid illis remansit inmune quorum
+       salus mancipata est beneficiis tuis et terra castellis? Iure interim liberi sunt, sed iam
+       pudore captiui. An ad longinqua diffugient quos non uexilla tantum tua, uerum etiam noua
+       oppida persequuntur?</p>
+     </div>
+     <div type="cap" n="13">
+      <p> Exclusit cultus indigenas et quasi iam uacantibus mediis ulterior accola Romanum foedus
+       efflagitat. Non est, ut auguror, otiosum quod Burgundionum crebra legatio concordiam
+       postulauit: aut arma principis sentiuntur, aut iam celsa eminus castrorum tecta rutilarunt.
+       Optant cohaerere uictoribus prius pace quam limite. Si ulla tibi in otio esset aetas, preces
+       forsitan distulissent. Quidquid interiacet ornando iungetis accessu. Ore rogans
+        <supplied>natio</supplied> tota consumetur: «Vbi illi sunt qui dudum Germaniae ciuitates
+       obsidione ceperunt?». Si fas est dicere: ciuitatibus obsidentur.</p>
+     </div>
+     <div type="cap" n="14">
+      <p> Verum est quod saepe non credidi: etiam <supplied>ab</supplied> hostibus <supplied>tibi
+        gratiam</supplied> facti deberi. Qualem te, inhospita regio, nuper inuenimus? Ignaram
+       uenustatis urbium ac uirgeis domibus et tectis herbidis indecoram. Pro beneficio tibi
+       exprobro quod uicta es: cum ceteris prouinciis et tu iam turrita pingeris. Felicius principi
+       meo terrae seruiunt quam resistunt. Si haec quae nuper adiunxit conferantur intactis, quis
+       non putet illa expugnata quae libera sunt et haec defensa quae capta sunt?</p>
+     </div>
+     <div type="cap" n="15">
+      <p> Audite quam mira adseram qui gesta nescitis: sponte obtulit barbarus diruenda et nouae
+       constructionis adiuuit effectum, credo ueritus ne in occasionem belli cessatio operis
+       uerteretur. Quae possunt tributa esse grauiora! Superat omnem famulandi modum qui contra se
+       huiusmodi praestat officium. O pulchra admodum pompa Fortunae! Seruitus misera quod amiserat
+       extruebat.</p>
+     </div>
+     <div type="cap" n="16">
+      <p> Prospexerant forte finitimi ne quod sibi relinquerent instaurare uictor optaret. Vrebant
+       consciam latrocinii nationem quondam Romanae coloniae antiqua uestigia et tituli sceleris
+       proditores. Obsequio reddidit quod norat gladiis uindicandum. Qua in re animus uictoris
+       apparuit receptae urbis reliquias transferentis. Ostendit enim se potuisse reparare quae
+       licebat euehere. Familiare est magnis animis repudiare conpendia. Incaute positam ciuitatem
+       probarat amissio, captiuam soluimus ut liberam conderemus. Antiquata sunt delicta maiorum:
+       turpiter amissa reuocastis, neglegenter facta corrigitis. In eam condicionem uenit Alamannia
+       ut quae sua conpellebatur amittere, fateretur se nostra tenuisse.</p>
+     </div>
+     <div type="cap" n="17">
+      <p> Carthago Tyriorum quam Punicis glaebis aduena opulentus inposuit pretio
+        <supplied>a</supplied> Libysin uenit. Ecce exempla ueterata saeculorum! Armato populo terra
+       Libyae tuta est nec otiosae, suspicor, auctionis. Inermitas conpulit breue spatium bouini
+       tegminis ambitu definitum postulari, sed, quo magis fieret turpe commercium, dolus circumcisi
+       tergoris auxit dedecus emptionis. Tibi succumbunt regna, non ueneunt nec urbium tuarum fata
+       trutinata sunt. Sic omnia ingrederis, quasi ad propria reuertaris. Non ferro pellimur, non
+       auro aut aere fraudamus. Idem metus auaritiam cohercet hostilem qui conpescit audaciam.
+       Sublata fiducia certaminis nullus locus est pactionis. Aestimet tibi terras
+        <supplied>suas</supplied> barbarus, si audet obsistere. <supplied>Id</supplied> iam a te
+       munus sumit Alamannia, quia nonnulla interim relinquis intacta. </p>
+     </div>
+     <div type="cap" n="18">
+      <p> Inuideant nouis moenibus ceterae ciuitates quas manus designauere priuatae. Si quae sunt
+       conditionis principum, liuore aemulo mordeantur. Habent auctores inclutos: numquid artifices
+       purpuratos? Interfui, Auguste uenerabilis, <supplied>cum</supplied> positis armis fundamenta
+       describeres, felicem dexteram fabrilibus lineis occupares. Hinc ego oppidis tuis perennem
+       promitto fortunam: quae deo proximus auspicatur, aeterna sunt. Hactenus Syracusani Archimedis
+       stetit gloria; docuit namque exitus nihil ualuisse pro ciuibus conmenta prudentis. Qui
+       nequiuit clausa protegere quando potuisset aperta munire? Peritius urbes constituunt qui
+       tuentur.</p>
+     </div>
+     <div type="cap" n="19">
+      <p> Sed quid prius mirer ignoro: ceteros ab usu fabricationis, <supplied>te per</supplied> te
+       solum scisse quid conderes, an sub te uno magistro omnes ilico qui aderant institutos? Nullus
+       inde abiit inscius quod iam <supplied>per</supplied> te erat eruditus. Praetereo quod aliis
+       uices mensium curantibus uim solis aut imbrium iugi patientia pertulisti. Quanto tibi labore
+       constant rei <supplied>publicae</supplied> semper otia uindicata! Solus Epius Troianis
+       arcibus adduxit excidium et Cretaeus Daedalus grassatorem Cecropiae nobilitatis inclusit:
+       quid expectabit Alamannia quam totus exercitus et mancipare nouit et claudere?</p>
+     </div>
+     <div type="cap" n="20">
+      <p> In quod periculum sermo prolapsus est? Formam conditae ciuitatis nec describere audeo nec
+       tacere. <supplied>At</supplied> seruiam fidei quae suadet audaciam. Primum uisentibus naturae
+       munus occurrit: soli tribunal et duorum fluminum benignus adflexus. Inde artifex manus
+       geminas aggerum institutiones mole uallauit. Succedit scaena murorum tantum ex ea parte
+       decliuis qua margines turrium fluenta praestringunt. Nam bracchiis utrinque Rhenus urgetur ut
+       in uarios usus tutum praebeat commeatum. Ipsa illa quae propugnaculis ambiuntur
+        <supplied>ut</supplied> opere suo decenter armata sunt, ita crebris hiatibus distincta
+       coniunctio pandit exitum clandestinis iactibus sagittarum. Stat mediae arcis aurata
+       sublimitas et tecto comitur pro tropaeo cui per ordines in prona decliues leuis plumbi lorica
+       subtexitur. Quem tibi, Auguste, animum, cum haec conderes, fuisse credamus? Quasi sollicitus
+       munita fecisti, quasi securus ornasti.</p>
+     </div>
+     <div type="cap" n="21">
+      <p> Prodidit uetus fabula giganteam manum quondam montanas turres intulisse sideribus. Talia
+       forte temptauit neque enim terrigenas licet iuuenes Pelion adque Ossam conuexisse credibile
+       est. Dum solitis maiora conantur, infirma moliti sunt. Sed fama auxit inuidiam, ut fragilitas
+       operis neglegentius conlocati simulata numinum conspiratione culpa careret incuriae. Aut si
+       rerum talium fides constat, habes testimonium grande meritorum: tanto caeli fauore ista
+       perfecta sunt, quanto illa odio corruerunt.</p>
+     </div>
+     <div type="cap" n="22">
+      <p> Obsidetur oculis subiecta Barbaria et intellegit sibi libertatem pro parte sublatam, cui
+       non licet habere secretum. Non ego montium speculas aut decisa Aegyptiis rupibus procera
+       miracula uel pyramidum uertices angulosos fastigiis celsae urbis aequauerim. Reges ipsos si
+       quis interroget, laudabunt, mehercule, quod institui noluissent. Ipse in hostibus deprehendi
+       ambigua signa formidinis et stuporis. Ita conspicuam moenium dignitatem uario interpretantur
+       adfectu ut adhuc diiudicare non possint utrum eam mirari magis debeant an uereri.</p>
+     </div>
+     <div type="cap" n="23">
+      <p> Dixi, Auguste uenerabilis, negotiis tuis auxilio fuisse caelestes. Facilis adsertio est,
+       cum Rheno teste nitamur. Qui Alpinae niuis defluo liquore cumulatus, cum ripae utriusuis
+       confinia cogeretur excedere, maluit ad uictoris iura transire. Auersatus est solum barbarum
+       totumque principi agmen exposuit more migrantium perfugarum. Non fuit ille, si credis,
+       hostilis excursus: lento per aperta processu uenit similis supplicanti. Deditionem uidimus
+       fluentorum Nili eruptionibus proximam quibus arens Canopus et Memphitica glaeba pinguescit;
+       et ille ut obsequatur egreditur. Accessit aliud, quo magis hoc amice fieri crederemus, quod
+       Nigrum fluuium quasi quoddam pignus accepimus. Iam minus mirum est quod tibi regum liberi pro
+       foederibus offeruntur. Nec Rhenus, ut ita dixerim, Romana pace gauderet, nisi amnem conuenam
+       uelut obsidem tradidisset.</p>
+     </div>
+     <div type="cap" n="24">
+      <p> Ventilemus prisca monumenta, scrutemur annales: inuenies uetustatem paene ignaram fluminum
+       quae tenetis. Ipsi illi uates exoticis nominibus licenter ornati, cum ad Indicum Gangen et
+       Borysthenen Scythicum carmen extenderint, Nigrum parem maximis ignoratione siluerunt. Nunc
+       primum uictoriis tuis externus fluuius publicatur. Gaudeat seruitute: captiuus innotuit.
+       Elementis quodammodo ditatam cerno rem publicam cui amnes incogniti mancipantur, longinqua
+       terra coniungitur. Dum orbis terminos quaeris, gentium sustulisti. Paruum quiddam naturae
+       superest quod adhuc Romanus inquirat. Relabi credis imperium, nisi semper accesserit.</p>
+     </div>
+     <div type="cap" n="25">
+      <p> Quid si impetus tuos institutio moenium non teneret? Nescis transire deserta. Diligentiam
+       iactantiae praetulisti: nam celeritas famae commoda est, munitio firmitati. Quererer, consul
+       inuicte, necdum tibi parere omnia, nisi ea quae adiuncta sunt scirem facta meliora.</p>
+     </div>
+     <div type="cap" n="26">
+      <p> Consulto multa praetereo, ne in poeticos flatus rerum ingentium cothurnus erumpat. Vnum e
+       pluribus stricta insinuatione contingam: Rhenum numquam antehac temere nauigatum tumentibus
+       aquis itinera tuta portasse. Semitae in morem nexa nauigia constrato desuper solo riparum
+       extima momorderunt. Vnius diei negotio pendentis machinae ordo conualuit. Ludo iocoque
+       certatum est ex qua parte uelocius in amnem medium contextio perueniret. Eat nunc Troiani
+       carminis auctor inlustris et pro clade popularium Xanthum fingat iratum, artatas cadaueribus
+       undas scriptor decorus educat: nesciuit flumina posse frenari. Tantumne ualuit riuus Iliacus
+       ut in auxilium Vulcani flamma peteretur? Profundus didicit quid paruus euaserit. Defensio
+       ipsa caelestium tuo operi non meretur aequari: fluuium incendisse uindicta est, calcasse
+       uictoria.</p>
+     </div>
+     <div type="cap" n="27">
+      <p> Vt uideo, aeterne defensor, conscientia tua maior est consulatu. Habes quod tibi alter
+       praestare non possit, animum praemio celsiorem. Nec ideo putes ingratam esse rem publicam:
+       hoc est in ornamentis ciuilibus maximum quod tuis meritis fatemur angustum. Sat est ad
+       remunerationem beneficii ut cui digna rependi nequeunt uel summa soluantur
+        <supplied><gap/></supplied></p>
+     </div>
+     <div type="cap" n="28">
+      <p>
+       <supplied><gap/></supplied>
+       <supplied>Rheni ab</supplied> ortu in Oceani ostia riparum margines operum corona praetexit.
+       Quis credat hoc quoque esse curatum ne portibus indigeret? Nam qua regio Nemetensis
+       extenditur recessum fluminis murorum ambitus uindicauit paruo aditu nec satis libero, ut
+       stationis exitus propugnaculis desuper protegatur. Habent sua quodammodo castra rostratae et
+       intra conclaue Rheni regia classis armatur. Fallit minus intuentes theatrale consaeptum qui,
+       cum uideant per summa discurri, per ima nesciunt nauigari.</p>
+     </div>
+     <div type="cap" n="29">
+      <p> Supererant, Auguste, plura quae dicerem, sed inter tot scriptores rerum tuarum nolo
+       ceteris uniuersa decerpere. Debent tibi ingenia omnium quod loquuntur. Sonet aput te libertas
+       forensis eloquii quam dudum exulem tribunalibus reddidisti ! Ruri emeritus torpebat orator;
+       quibus facundiam natura dederat officium uis negabat. Nusquam maius silentium quam in
+       sacrariis litterarum. Idem uarias aetates tacendi morbus urguebat, cum incipientium studia
+       breuis finis artaret, peritiam ueterum desuetudo longa conrumperet. Exitum litium regebat
+       euentus: quid enim de actore praesumeres in quo haec tantum spes erat quod cum peiore
+       certabat? Nec dubitabamus eum plus in negotiis persequendis habere prudentiae, qui soleret
+       consilium a desinentibus postulare. Haec alieni temporis uulnera in Alamannicis contemplatus
+       excubiis, cum alligares manus hostium, soluisti uincla linguarum.</p>
+     </div>
+     <div type="cap" n="30">
+      <p> Congruebat hoc gloriae tuae, congruebat uigiliis curisque sollertibus ut campi pariter ac
+       fori laude fruereris. Nullae artes silent, nulla friget industria. Vacant ora legibus, arma
+       limitibus. Par fuit ut eloquentiae usum redderes, cum iam totiens scribenda gessisses.
+       Silentium magnis rebus inimicum est. Quid est gloria, si tacetur? Habes tot testimonia quot
+       ingenia liberasti. Inuenisti, principum maxime, genus aliud laurearum: dum orbis secreta
+       rimaris, dum in medullis barbarorum non tentoria sed tecta constituis, triumfum pacis
+       egisti.</p>
+     </div>
+     <div type="cap" n="31">
+      <p> Canant alii quae supersunt; ego testis fungar officio. Ibo per urbes, ibo per populos
+       iactantior uictore laudato. Dicam Senatui plebique Romanae: «Fasces in prouincias nouas
+       mittite, trans Rhenum iudices praeparate ». De te autem, Gratiane uenerabilis, narrabo
+       grandia, sed spondebo maiora. Sciet res publica geminis se custodibus esse munitam sed quasi
+       uni esse munificam, sub communi stipendio duos principes militare, plures necessitates
+       laborum esse quam sumptuum. Felicis saeculi ista commoditas est obsequia utrique iuncta
+       praebere et beneficia diuisa percipere. Moderatum est quod penditur, quia simul sumitis,
+       amplissimum quod geritur, quia certatim ambo praestatis. 32. Quanto parcior uestri numinis
+       cultus est quam deorum! Illis singula templa fundantur et sua cuique locantur altaria. Inde,
+       ut arbitror, maluerunt dispares ritus, ne in consortium cogerentur. Nulli cum altero fas est
+       dicare puluinar; hunc Phrygius antistes placat, hunc pontifex; illas castae matres tuentur
+       aras, has infulata uirgo custodit. Sumpserunt nomina diuersa tot flamines, ne possent dis
+       pluribus esse communes. Ipsas nobilium diuisere gentes: Pinarios Hercules occupauit, Idaea
+       mater legit hospites Scipiones, Veneriis sacris famulata est domus Iulia. Orbem paene ipsum
+       sumptus defecit, quia cultus inpleuit. Vestri imperii iuncta frugalitas est, discreta
+       maiestas. Vnum quodammodo in uobis putamus esse qui regimur, cum duos sentiant qui resistunt.
+      </p>
+     </div>
+     </div>
+     <div type="lib" n="III">
+      <head> III. Laudatio in Gratianum Augustum</head>
+      <div type="cap" n="1">
+       <p>
+        <supplied><gap/></supplied> sollemnibus copulare, sed prima mihi deuotionis causa peragenda
+        est: libens aurea sume munuscula qui talia tempora praestitisti.</p>
+      </div>
+      <div type="cap" n="2">
+       <p> Salue noui saeculi spes parta et in gremio rei publicae nutricis adolesce, laetitia
+        praesentium, securitas posterorum. An ego uerear ne in adulescentem gratiosus existimer,
+        cuius primum est stipendium principatus? Tuis certe auspiciis discis imperium, te imperii
+        candidatum toga picta uestiuit. Neque enim aliud expectare iam poteras qui a perfectis
+        honoribus inchoabas. Vidimus in sellis curulibus nouum lumen, clementiae auspices
+         <supplied>in</supplied> incruentis securibus, uirtutis omina in fascibus laureatis,
+        maiestatis augurium in aquilis scipionum. Tunc primum forensis industria, lege quondam
+        silentiis subiugata, liberos oculos ad tuum tribunal erexit. Cum in amplissimo magistratu
+        inlustre quiddam et dulce resonantia decreta sancires, statim intelleximus ad honesta
+        officia facundiam posse remeare quam uidebamus in consule.</p>
+      </div>
+      <div type="cap" n="3">
+       <p> His ad imperium lectus auspiciis praerogatiuam consulis ad comitia purpurae detulisti. Tu
+        nempe es quem paene intempestiue putabamus electum! Errat quisquis ideo censet aetatem. Pro
+        senibus puer dimicas, pro liberis nostris aequaeuus insudas.</p>
+      </div>
+      <div type="cap" n="4">
+       <p> O militum sincera suffragia! Scit iudicare deuotio! Fortunae publicae fuit ut qui te
+        nouerat parciora promitteret, qui necdum nouerant felicius iudicarent. Quis umquam de indole
+        pueri cum parente contenderet? Et tamen fiducia non peccat exercitus. Spe electus es, re
+        probatus.</p>
+      </div>
+      <div type="cap" n="5">
+       <p> Si quis mihi Zeuxis discoloribus ceris haec comitia spectanda digereret, si quis Apelleus
+        imitator illud caeleste iudicium uerisimili adflatu artis animaret, uiserent posteri uix
+        credenda miracula. Hinc Augustum, inde legiones et inter hos medium regni inpuberem
+        candidatum; turmas supplices, cuneos ambientes; anceps diu utrimque certamen et cunctis
+        alacri fauore plaudentibus patrem sero cedentem. Digna tabula saeculis, digna pictura
+        temporibus quibus magis utiles uidemus eligi quam uolentes!</p>
+      </div>
+      <div type="cap" n="6">
+       <p> Decuit annis florentibus omnium fauere iudicia. Melius unumquemque officii usus exercet.
+        Sic Antiocho ante robur aetatis Syria sponte subiacuit, Pellaeum ducem praecox fortuna
+        delegit, Ptolomaeo inter prima rudimenta lactantis infantiae regnum Roma reparauit. Et,
+        mehercule, tenacius rapit imperii disciplinas teneritudo primaeua. Virtus, cum cito inchoat,
+        diutius perseuerat. Nempe uirentibus ramis artifex rusticandi alienum germen includit, ut
+        nouella praesegmina coagulo libri uuidioris inolescant. Audio in edomandis equis aeui, ut
+        ait <supplied>uates</supplied>, inscios aptius essedis colla
+         subiungere<supplied><gap/></supplied></p>
+      </div>
+      <div type="cap" n="7">
+       <p>
+        <supplied><gap/></supplied>r annos uincis officiis. Seruetur tibi aliquod opus uirtutis in
+        posterum, cui nihil iam remansit ignotum. Quas habes laboris indutias? Tropaeis et litteris
+        occupatus otiosa cum bellicis negotia miscuisti. Agnosco in te non adumbrata uestigiis sed
+        expressa ueterum signa uirtutum. Nempe Fuluium nobilem tam laude quam nomine inter aquilas
+        cantusque lituorum praeceptor Accius frequentauit; Africanum illum terra marique uictorem
+        lectionis particeps et laboris Panaetius non reliquit; cum magno Alexandro mundanam paene
+        militiam philosophorum comitatus exegit. Iam credimus uetustati, cum in isdem tentoriis tuis
+        uolumina et arma tractentur. Nec deest quod pro condicione rerum temporumque percenseas:
+        historia oblectaris in proeliis, in adhortatione suasoriis, actionibus in conloquiis,
+        carminibus in triumphis.</p>
+      </div>
+      <div type="cap" n="8">
+       <p> Sentio me ad exempla ueterum tempestiue esse dilapsum. Iure igitur ex annalium memoria
+        Pompei usurpabo responsa. Is equestri censu equum de more traducens, cum forte
+        interpellaretur uoce censoris sub quo imperatore meruisset, «Me ipso», inquit, «principe
+        militaui». Nolo explorare iactationem ducis tanti fortasse mendacem. Dignius tamen sibi
+        istam gloriam uindicaret qui coepit ea aetate ceteros regere, qua nondum posset ipse parere.
+        Me si quis interroget quando inclytus Gratianus dilectui nomen obtulerit, respondebo libere:
+        «quando imperatoris accepit».</p>
+      </div>
+      <div type="cap" n="9">
+       <p> Si mihi nunc altius euagari poetico liceret eloquio, totum de nouo saeculo Maronis
+        excursum uati similis in tuum nomen excriberem. Dicerem caelo redisse Iustitiam et ultro
+        uberes fetus iam grauidam spondere naturam. Nunc mihi in patentibus campis sponte seges
+        matura flauesceret, in sentibus uua turgeret, de quernis frondibus rorantia mella sudarent.
+        Quis haec sub te negaret esse credenda, cuius indoles multa iam praestitit et adhuc spes
+        plura promittit. Et uere, si fas est praesagio futura conicere, iamdudum aureum saeculum
+        currunt fusa Parcarum. Nec poeticis utar indiciis: ecce iam Rhenus non despicit imperia sed
+        intersecat castella Romana. A nostris Alpibus in nostrum exit Oceanum. Ille libera hucusque
+        ceruice repagulis pontium captiuus urgetur. En noster bicornis, caue aequalem te arbitrere
+        Tiberino, quod ambo principum monumenta gestatis: ille redimitus est, tu subactus. Non uno
+        merito pons uterque censetur : uictus accepit necessarium, uictor aeternum; pretiosior
+        honori datus est, uilior seruituti.</p>
+      </div>
+      <div type="cap" n="10">
+       <p> Queri de paterna gloria Macedonum rex solebat quod subactis longe lateque prouinciis
+        nihil ad uictoriam uirtuti reliquisset heredis. Absit a meo iuuene ista querimonia! Laus
+        omnis amborum est. Filium te exhibes reuerentia, uirtute collegam. Vna est utriusque militia
+        et coniuncta felicitas: tu gaudes magisterio patris, ille contubernio iunioris. Certa
+        ratione naturae numquam inuidet qui cohaeret.</p>
+      </div>
+      <div type="cap" n="11">
+       <p> Quodsi fortunam tuam, Gratiane uenerabilis, quae prima in ducibus aestimatur perpensa
+        examinatione libremus, quid felicius principe sub parentibus imperante? Te placido sinu
+        cunctus orbis amplectitur, cumque sit res publica patri et patruo tuo quadam specie
+        distributa, tibi uni tamen cum utroque communis est. A cubilibus surgentis Aurorae ad metas
+        Solis occidui nihil cernis alienum. Inter cognatos siderum globos quantum adhuc alterutro
+        minor es, tantum singulis ex utroque cumulatior.</p>
+      </div>
+      <div type="cap" n="12">
+       <p> Audio iampridem fatidicos obmurmurare gentium uates hactenus nomen stetisse barbaricum,
+        iam genitum esse, iam crescere cui necesse sit cum toto orbe seruire. Incusant alii
+        senectutem seruatamque in tempora captiua canitiem; alios tenerae taedet aetatis qui,
+        postquam sensum libertatis hauserunt, metu seruitutis agitantur. Merito undique certatim
+        supplices misere legatos. Captiuo similis est qui primus currit ad pacem. Credo hostium
+        responsis, credo praesagiis: quantum gloriae consequeris olim patre incolumi ducturus
+        exercitum, qui quacumque duceris iam rogaris!</p>
+      </div>
+      </div>
+      <div type="lib" n="IV">
+       <head> IV. Pro patre </head>
+       <div type="cap" n="1">
+        <p>
+         <supplied>Si quis miratus cur post patris mei grauissimam orationem ego quoque
+          susceperim</supplied> dicendi munus et gratulationis uerba protulerim, secum reputet
+         quantos huius beneficii habeamus auctores - humanitatem uestram qui postulastis, clementiam
+         principum qui dederunt - desinet profecto mirari non unum pro consulatu gratias agere, quem
+         tam multos uideat detulisse.</p>
+       </div>
+       <div type="cap" n="2">
+        <p> An si uos, patres conscripti, tantopere curastis ut optimae uoluntatis uobis ratio
+         constaret ut omnium pro uno testimonium concordiam senatus et pios mores candidati
+         adsereret, nonne ius hominum <supplied>et</supplied> deorum est aliquid laeti negotii
+         praeter ceteros filium sustinere? Quando de benefactis principum dignius, quando aput uos
+         iustius, quando de patre felicius disseremus? Noua sunt quae adgredimur, sed uestra
+         humanitas auctor est inusitata faciendi. Egistis comitia non petentis; consulatum istum
+         bonorum ambitus impetrauit : uos recepistis candidati officia, nos designati.</p>
+       </div>
+       <div type="cap" n="3">
+        <p> Quid quod etiam mearum partium terminos occupastis modo ac plane paulo ante laudes
+         principum totus ordo celebrauit? Sed omnia mihi non potestis eripere: eadem gratiarum actio
+         debetur et uobis. Creuit igitur et honor imploratus a multis et gratia soluta per multos.
+         Vultis scire qui petitores pro meo parente fueritis ? Merito conpetitores esse possetis.
+         Hicine noster est consulatus an curiae? Quem nos fatemur ab omnius praestitum, uos putatis
+         omnibus esse decretum.</p>
+       </div>
+       <div type="cap" n="4">
+        <p> Vbi sunt qui falso animis inbiberunt magis efficacem esse audaciam factionis quam
+         uoluntates bonorum ? Nempe fugit repulsa uirtutem et contra ambitus omnis ignauus est. Quod
+         honeste poscitur feliciter impetratur. Hoc ius patriciae genti tempora reddiderunt:
+         postulatio uestra iudicium est. Impetrabilius cuncta nunc petitis quam aliquando
+         iussistis.</p>
+       </div>
+       <div type="cap" n="5">
+        <p> Quam raro huic rei publicae, patres conscripti, tales principes contigerunt, qui idem
+         uellent, idem statuerent quod senatus! Nemo olim sibi in illa arce Fortunae potens nimium
+         uidebatur, nisi diuersa sensisset. Quantis plerumque offuit amor publicus ! Neque enim pati
+         poterat sollicitudo domini cuiquam deferri quod ipse non merebatur. Inpatiens est alienae
+         gratiae qui diffidit suae. Hinc saepe mortalium pessimos ad amplissimas potestates fatorum
+         uolatus euexit, scilicet hoc uno placendi suffragio, quia omnibus displicebant. Genus
+         quoddam erat noui ambitus non amari. Hanc inlecebram propositae spei mores publici
+         sequebantur. Ita accidebat ut boni quibus aduersa omnia erant aut opprimerentur improborum
+         insidiis aut mutarentur exemplis.</p>
+       </div>
+       <div type="cap" n="6">
+        <p> . At nunc idem principes nostri quod proceres uolunt. Vnum corpus est rei publicae adque
+         ideo maxime uiget, quia capitis robusta sanitas ualetudinem membrorum tuetur. Amor uester
+         praerogatiua est consulatus. Magistratus boni capiunt, quia non ab uno tantum sed ab
+         omnibus eliguntur. Sciunt enim parentes generis humani diligentiora iudicia esse multorum
+         et de proximo melius spectari cuiusque mentem et infucatum semper esse examen aequalium,
+         quia par dignitas, nisi meritis adquiescat, aemulationi magis opportuna est quam fauori.
+         Ergo in eum locum uenimus ut iam de uestro studio, patres conscripti, de uestra adfectione
+         possit intellegi quos dehinc consules ex hoc numero simus habituri. Quiquis bonus est iam
+         designatus est. Renuntiet ceteris artibus quae spem plerumque frustrantur. Vitam denique
+         subeat consularem. Ad mores rediit honor quem saepius, ut de ambitu taceam, fata
+         praestabant.</p>
+       </div>
+       <div type="cap" n="7">
+        <p> . Sit mihi fas, patres conscripti, in certamen praesentium uetustatem citare. Illa
+         tribus euocet libertina ac plebeia faece pollutas, nos patricios; fauisores classis illa,
+         nos principes. Tales collega uester suffragatores habuit quales antiquitas candidatos.
+         Intellegamus nostri saeculi bona! Abest cera turpis, diribitio corrupta clientelarum
+         cuneis, sitella uenalis. Inter senatum et principes comitia transiguntur: eligunt pares,
+         confirmant superiores. Idem castris quod curiae placet. Quis hoc non putet orbis terrarum
+         esse iudicium?</p>
+       </div>
+       <div type="cap" n="8">
+        <p> Si haec nimis obsoleta adque arida sunt, sequentem scrutemur aetatem. Fasces istos
+         largiri didicerat prisca dominatio et, ne ad aliam munificentiam cogeretur, obtentu honoris
+         tegebat aerarium. Aliis mos fuit fastidita diu onera praetextae priuatorum umeris paulisper
+         inponere. Renuntiauit his iniuriis consulatus. Ipsae dignitates decus suum receperunt; res
+         quae donum solebat esse iam praemium est.</p>
+       </div>
+       <div type="cap" n="9">
+        <p>
+         <supplied><gap/></supplied>
+         <supplied>talia quae singuli accipimus ut in</supplied> cunctos redundent, talia quae in
+         commune consequimur ut perueniant ad gratiam singulorum. Quantum est quod boni mores timere
+         iam nesciunt, quod iudicio non terretur alieno qui fretus est suo, quod totus senatus non
+         refertur in numerum noxiorum, quod sola suspicio reos non facit! In absentes ideo nihil
+         fingitur, quia nihil creditur. Nullius diuitis crimen optatur. Certe innocentes sumus
+         necdum liceret hoc dicere, si eosdem adhuc accusatores haberet Roma quos iudices. Quantum
+         est gratias agere pro nobis! Etiam famam saeculi superioris diligentiores posteri
+         diluerunt. Neque enim fas est negari non alios diuum principem pertulisse hostes
+         existimationis quam nos salutis. Iamne constat fortunam nobilitatis consentire temporibus?
+         Eadem iustitia purgauit imperium quae senatum.</p>
+       </div>
+       <div type="cap" n="10">
+        <p> Gratulamur tibi, iuuenis Auguste, quod paterni successor factus imperii tantum malos
+         iudices quasi hereditatis onera repudiasti. Non satis tibi idonea bona illa uisa sunt cum
+         ministris <supplied>istis</supplied>. At primo consilium tuum deliberatio distulit, dum
+         experiris an improbi atque externi mores exemplo saeculi uincerentur, uel quod optimo
+         congruebat, dum palam facere studes praeterita delicta potestatum fuisse, non temporum.
+         Sciebas enim quo spectaret inuidia cui familiare est maximas insimulare fortunas atque ideo
+         paulisper inpotentiam passus es, ut liqueret eos publici doloris auctores dudum fuisse, qui
+         etiam tum nocendi artem colebant, cum iam nouerant non licere.</p>
+       </div>
+       <div type="cap" n="11">
+        <p> Quid primum igitur admirer, quod circa diuum munus pii filii an quod circa nos partes
+         parentis egisti? Alienorum simulatione criminum Maximinus fidem fecit suorum. Vestra
+         aestimatio sit qualis fuerit in ceteros quem ipsi rerum domini tyrannum paene estis
+         experti. Vrgebat enim nouo fastu patientiam regiam et praefecturae suae putabat esse
+         dispendium, si quid licuisset imperio. Interea nos opperiebamur ut principatus ultro tafia
+         uindicaret, uos expectabatis ut senatus argueret.</p>
+       </div>
+       <div type="cap" n="12">
+        <p> Credo tamen has moras ad suffragium publicae causae parasse Fortunam, ut suscepturus,
+         Gratiane uenerabilis, iudicium doloris nostri adferres testimonium tui. Etsi illud magis
+         confirmare me conuenit nostram legationem nostras egisse querimonias, ut uidereris
+          <supplied>tu</supplied> quoque inter ceteros uindicari. Nam priusquam senatus causa
+         iungeretur tuae, satisfactum tibi putabas, quod insidiator regni exemplo innocentium
+         potestate decesserat. Postquam uentum est ad communes querellas, adhibuisti seueritatem
+         qualem reliqui principes maiestatis tantum negotiis exhibebant. Actum erat, clementissime
+         imperator, de iniuria tua, nisi nobilitas fuisset offensa.</p>
+       </div>
+       <div type="cap" n="13">
+        <p> Bene igitur aput uos locata est tutela rei publicae. Pacem innocentiae reddidistis,
+         abrogata est externis moribus uis nocendi. Creuit principatus, quia liberis imperatis.
+         Tantum potestatibus quantum legibus licet. Nullae iam nuptiae caesa parente iunguntur nec
+         funeri succedit hymenaeus neque flammeo uestis atra mutatur. Credetne posteritas olim talia
+         fuisse iudicia quae conubia satellitum suorum sacrarent auspice pugione, spineam facem de
+         rogo damnatae matris incenderent, ululatibus adultarum carmina fescennina miscerent?</p>
+       </div>
+       <div type="cap" n="14">
+        <p> Quid loquar crimina necdum delata iam uendita et humani sanguinis auctiones aut eruditos
+         in mendacium reos et subornandi artifices ianitores, ueteres calumnias nouas poenas,
+         crimina sine accusatore, iudicia sine iure <supplied>itemque </supplied> sententias?
+         Fortunata esset, optimi principes, ter quaterque res publica, si adhuc promitteretis quae
+         iam praestitistis. Rerum uersa condicio est: paulo ante soli inuidiam felicitatis trahebant
+         quos mors subripuit istis aerumnis, miserabiles nunc habentur quos uita non seruauit his
+         gaudiis.</p>
+       </div>
+       <div type="cap" n="15">
+        <p> Haec est illa Latii ueteris aetas aureo celebrata cognomine qua fertur incola fuisse
+         terrarum necdum moribus offensa Iustitia. Pie regimur et quaedam pignora principum sumus
+         neque alia inter ciues quam inter filios iudicii discretio est: dignus amore praeponitur et
+         tamen quisquis displicet non necatur. Praemiis uirtutis corrigitur ignauia. Quantos iste ad
+         optimam frugem rapiet consulatus! Dum afios honoratis, alios eruditis; nam quibus ab natura
+         recti amor defuit spem sequentur. Vellem nunc truces iudices sciscitari quae ualidior
+         emendatio sit? Olim timor agebat ut bonus quisque trepidaret; nunc honor facit ut malus
+         quisque desperet. Honor<supplied><gap/></supplied></p>
+       </div>
+       </div>
+       <div type="lib" n="V">
+        <head> V. Pro Trygetio</head>
+        <div type="cap" n="1">
+         <p>
+          <supplied>desiderio ues</supplied>tro, cum absumus, testimonio, cum uenimus. Nec
+          formidamus inuidiam: sensit ac experta est quid parenti meo aduersata profuerit. Cesserat
+          quidem sponte ille per uerecundiam paucorum facilitati et, quo melior ad uos rediret,
+          curarum uacuus animum litteris excolebat. Sed hoc ordo amplissimus diu non tulit: statim
+          quasi ex longo ut redire uellet orastis, iussistis malui dicere, nam senatus, cum petit,
+          uehementius praecipit.</p>
+        </div>
+        <div type="cap" n="2">
+         <p> Parum hoc deferentibus uisum est. Adlegantur ad eum cum primis nobiles uiri administri
+          et internuntii publicae uoluntatis. Quanta haec desiderii uestri pompa est quae beneficium
+          suum paene ambitum uult uideri! Credo, haec uestra opinio erat ut per fetiales quodammodo
+          euocaretur. Verbenae tantum et sagmina defuerunt. Certum est quidem, patres conscripti, et
+          inexcusabile quod iubetis. Sed ille sic accitus est, tamquam posset negare.</p>
+        </div>
+        <div type="cap" n="3">
+         <p> Ad te etiam, uenerabilis imperator, laudis istius summa referenda est. Is enim rem
+          publicam liberam tenet, sub quo aliquid inuidendum <supplied>in</supplied> potestate
+          senatus. Ideo magnus, ideo praeclarus es, quia primum te mauis esse quam solum. Quidquid
+          adipiscuntur boni saeculo tuo proficit. Traxerunt olim plerique suspiria et, quasi amari
+          imperatoribus tantum liceret, priuatorum merita presserunt. Mihi autem uere pater patriae
+          uidetur, sub quo laudari uir optimus non timet. Est etiam illa securitas temporis tui quod
+          nemo se apud principem minorem fieri putat, si ipse alterum sibi praeferat. Quis enim est
+          inuidiae locus, cum omnes a te iusto ordine diligantur?</p>
+        </div>
+        <div type="cap" n="4">
+         <p> Sed iam satis multa de nobis! Demus aliquid operae, aliquid temporis etiam Trygetio
+          clarissimo et emendato uiro qui uos oratos per me adque exoratos cupit, ut eius filium
+          functioni praetoriae destinatum decimus annus accipiat. Si uoluntas spectanda est, debetis
+          munificum senatorem probare; si facultates, nihil plus potestis inponere.</p>
+        </div>
+        <div type="cap" n="5">
+         <p> Me quoque in hoc negotio cogitari decet, qui soleo agere gratias, qui obliterari
+          benefacta non patior. Recte locantur officia secunda, ubi prima uiguerunt. Istum nouo
+          debito alligate, me gemino<supplied><gap/></supplied></p>
+        </div>
+        </div>
+        <div type="lib" n="VI">
+         <head> VI. Pro Flauio Seuero</head>
+         <div type="cap" n="1">
+          <p>
+           <supplied><gap/></supplied> posset uindicare uirtuti. Sed quid opus est apud nobilissimos
+           humani generis de cuiusquam familia gloriari? Solis radiis omne lumen obtunditur,
+           stellarum ignes rutilare non sinit candor diei. Vos tamen mementote non diffidentia istud
+           fieri sed reuerentia. Ante sacras quodammodo curiae fores ornamenta maiorum suorum nouus
+           collega deponit: tantum uirtutibus stipatus ingreditur, quae solae etiam genus indicare
+           possunt quod laudare noluimus.</p>
+         </div>
+         <div type="cap" n="2">
+          <p> Si posset ullus in tantis rebus ordo retineri, mores uiri prius adsererem, tunc
+           honores, sed intellego utrumque iungendum. Fideliter enim de ingeniis singulorum potentia
+           iudicat. Quanta uerecundia factum putatis ut tam sero legeretur! Olim peruectus in
+           fastigia summa rei publicae adhuc dubitat an senatorem possit implere. Nempe auxit
+           dignitatem nostram ista cunctatio et superior locus factus est quem sibi optimus uirorum
+           post honores potissimos reseruauit. Fateamur necesse est, patres conscripti, ideo nobis
+           amplius esse delatum, quia properantibus aliis ad hunc ordinem nil negamus.</p>
+         </div>
+         <div type="cap" n="3">
+          <p> Non tenui laude celebranda est uotorum mediocritas, in hac praesertim nostrae aetatis
+           facilitate quae desiderii gradus non habet. Quis credat summatem facundiae diu inter fori
+           ornamenta numeratum praesidalem dudum recepisse prouinciam multoque itinere decurso ad
+           honorem paene exiguum nauigasse, cum plerique hominum uiliorum prope a summis
+           potestatibus inchoarent ? Sed bona conscientia illud ducit eximium quod ipsa susceperit
+           eumque ordinem statuit magistratuum quem fecerint merita rectorum. Nescit publicam curam
+           nominibus aestimare et illud putat esse fastigium quod acceperit digniorem.</p>
+         </div>
+         <div type="cap" n="4">
+          <p> Creuit adeo illo tempore praesidatus seseque ad magnitudinem regentis tetendit. Et,
+           cum potissimi uiri gloriam prouincia una non caperet, egit fama latior negotium suum, ut
+           Theodosio quondam militarium magistrorum celeberrimo consultor belli per Africam
+           iungeretur. Hic iam dissimulare non possum quid testimonii<supplied><gap/></supplied></p>
+         </div>
+         </div>
+         <div type="lib" n="VII">
+          <head> VII. Pro Synesio</head>
+          <div type="cap" n="1">
+           <p> Quod Iuliani c. u. cum primis amici mei filio precator potius quam testis adsum, nemo
+            uiri diffidentia curatum putet, cum statuerim, patres conscripti, non minore a uobis
+            reuerentia memet fidem <supplied>in</supplied> omnia poscere quam ceteros. Opto iurare
+            et, mehercule, debuissem subire partes dicendi testimonii, nisi eius desiderium
+            recepissem, a quo laudatores consuetudo uestra magis exigit quam dubitatio
+            iuratores.</p>
+          </div>
+          <div type="cap" n="2">
+           <p> Nulli igitur suspecta sit ista libertas muneris mei. Rogaturus ut dignitati nostrae
+            nouus senator accedat, habeo praesentem poenam, si iungor indigno, neque eam numero et
+            modo simplicem, si uno facto et meae auctor iniuriae et reus uestrae sim. Quare credatis
+            uelim non mea cautela factum sed securitate suscepti ut hoc potius sortirer officium.
+            Dum iuratoribus abundat, dum meriti sui certus est, adhibuit petitorem quem testem sibi
+            alius reseruasset. Nec me putetis satis absolutum condicione iurantium. Ego uero, cum
+            res amici agitur, etiam de nobis arbitror iudicandum.</p>
+          </div>
+          <div type="cap" n="3">
+           <p> Memini quanta diligentia mihi constet singulorum familiaritas neque ita sum prodigus
+            publicae dignitatis ut de alieno soluam contractum domesticae gratiae. Taceo officiorum
+            nostrorum laudabiles uices. Nolo pro meo debito curiam interuenire, quippe utrumque
+            deforme est: et collegam futurum non censeri merito suo et laudatorem eius de communi
+            esse soluendo. Quanto honestius dico: non ideo Synesius in senatum legendus est, quia
+            mihi amicitia iungitur, sed ideo amicus est mihi, quia dignus est qui legatur !</p>
+          </div>
+          <div type="cap" n="4">
+           <p> Pater huic iuueni est iamdiu adscitus senator, quae res de meritis uenit. Siquidem
+            dignitas innata felicitatis est, delata uirtutum. Ceteri retro maiores illius tunc a
+            uobis probati sunt, cum ipse legeretur. Num distat orationis meae fides a testimonio?
+            Iurasse me existimate, quia praedico quae potestis agnoscere. Nec iniuria quis dixerit
+            Synesium plus decoris <supplied>quam</supplied> genitorem adferre, cui et illud accessit
+            quod ex eadem domo iam secundus admittitur. Etenim propago generis, quanto longius
+            recedit a nouis, tanto altius tendit ad nobiles. Non multum
+             apud<supplied><gap/></supplied></p>
+          </div>
+          <div type="cap" n="5">
+           <p>
+            <supplied><gap/></supplied> timori. Pendet circa illum sollicitae domus pietas, sed ipse
+            de se exigit quidquid omnium sibi humanitas relaxauit. Iam uideo, Iuliane, causas
+            consultissimae placiditatis tuae: tali filio magis securus es quam remissus.</p>
+          </div>
+          <div type="cap" n="6">
+           <p> Illud autem non uereor, patres conscripti, ne quis inparem senatoriis muneribus
+            arbitretur unicum filium non pauperis patris. Atque utinam fortuna germanum quoque eius
+            incolumem senatui tradidisset! Quod nunc alteri superest satis esset ambobus. Synesius
+            quidem meus omnes sibi opes cum fratre credit ablatas. Sed res naturae est ut diuisa,
+            cum in unum redeunt, augeantur. Et quantum, dii boni, in dies proficit domus sobria!
+            Quippe, ut scitis omnes, saepe inopia uel copia ex moribus uenit. Nisi forte excongruam
+            putatis istiusmodi laudem, plane inter facultates censenda est parsimonia. Nam senator
+            qui priuato usui minimum uindicat publico plus reseruat.</p>
+          </div>
+          <div type="cap" n="7">
+           <p> Cetera testibus sedulo addenda seruamus: mihi uberius loqui cautio est ne uidear non
+            tam fide actoris multa dicere quam iniurati securitate. Duobus quidem nitimur Euresio
+            adque Auito cc. uu., quorum religionem si omnes aequare possent, nemo iuraret. Sed horum
+            priori quamquam facundo possem gratiam facere dicendi. Sufficit desiderio nostro ad
+            suffragium quod auunculus petitoris est: siquidem uir honorum frequentium, multae in re
+            publica uigilantiae generi suo quaesiuit omne quod meruit. Enimuero nec Auitus meus
+            orator de summatibus minore momento causam iuuabit, quia ornamentum sic de amicis ut de
+            proximis sumitur: in his dignitas generis, in illis specimen honestatis est; illa pars
+            familiam conmendat, haec uitam.</p>
+          </div>
+          <div type="cap" n="8">
+           <p> Vos nunc, patres conscripti, oro adque obsecro ne tamdiu in una domo sinatis esse
+            dispares dignitates. Hic omnium parentum summus est labor ut magis splendeant qui
+            sequuntur. Dedit natura Synesio bonos mores, pater optimas disciplinas, fortuna commodas
+            facultates. Hoc unum ac potissimum nouo adhuc iuueni decus superest cuius uos eritis
+            auctores.</p>
+          </div>
+          </div>
+          <div type="lib" n="VIII">
+           <head> VIII. Pro Valerio Fortunato</head>
+           <div type="cap" n="1">
+            <p>
+             <supplied><gap/></supplied>
+             <supplied>audierat fibrum, ubi periculo ur</supplied>getur, parte corporis quae in se
+             desideratur abscisa uitam pacisci. Quod mater familias in usum uertit suorum, sed
+             maiore iactura, dum nimis timide consulit aeris angustiis: hoc tamen uerius questa quo
+             minus eripuit quam refudit.</p>
+           </div>
+           <div type="cap" n="2">
+            <p> Subicite oculis, patres conscripti, imaginem quamdam subplicantis matronae et ante
+             principum pedes filii ornamenta ponentis. Dolet misera et quod queritur et quod
+             precatur (id est defectum pecuniae et uoti deformitatem). Nam certe potuerat
+             conuenientem censibus suis, ut nunc facimus, petere quaesturam, sed inopiae suae
+             conscia hoc quoque ut grauissimum timuit quo minus nihil est. Erat censurae uestrae,
+             patres conscripti, Fortunati ostentationem notare, quod nullo postea rei familiaris
+             auctus profectu uel minima fungi optat supra matris confessionem.</p>
+           </div>
+           <div type="cap" n="3">
+            <p> Sed ut narrandi uiam relegam, diu teneritas infelici remedio fuit. Postquam aetas
+             prouenit ad maturitatem, agitur in uotum recuperandi quod genere quaesiuerat inpulsu
+             fortasse boni sanguinis qui se semper agnoscit: nam, quod sciam, nullus illi aduentus
+             noui conpendii fiduciam sui fecerat. Supplicat contra matris orata - quid dico matris?
+             - aduersum se supplicat pro senatu. Et forte eo tempore tamquam uacuum dignitatis
+             Emeritensis ordo pulsabat, ratus saltem mediocritati suae Fortunati conpetere
+             facultates. Lis procedit ad forum; multa de genere et integrato natalium splendore
+             dicuntur, quae licet essent ualida ad uictoriam, plus tamen profuit quod nec illis
+             idoneus uisus est. Ideo rennuerunt sterile certamen adque ita noster hic quaestorius
+             candidatus non magis ut senator obtinuit quam ut pauper euasit.</p>
+           </div>
+           <div type="cap" n="4">
+            <p> Eligite nunc tempus quo potuit, si modo umquam debuit, uocari ad tantae editionis
+             inpensas: primis aeui sui annis senator esse desierat, proximis laborauit ne minori
+             curiae iungeretur. Num designari potuit a uobis aut per beneficium primae
+             supplicationis alienus aut sub periculo secutae litis incertus?</p>
+           </div>
+           <div type="cap" n="5">
+            <p> Intellego amplitudinem uestram diu ista nescisse adque ideo ratum esse non debuit
+             quod statuit ignoratio earum<supplied><gap/></supplied></p>
+           </div>
+          </div>
+         
+  </body>
+ </text>
+</TEI>

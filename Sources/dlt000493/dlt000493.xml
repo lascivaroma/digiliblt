@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>De sepulchris</title>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Beatrice Strona</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2016</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000493</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Gromatici Veteres</hi>, ex recensione C. Lachmanni, diagrammata edidit A. Rudorffius, Berolini 1848, 271-272.</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    <p><hi rend="bold">Modifiche apportate al testo dell'edizione di riferimento </hi></p>
+    <p>Si è ritenuto opportuno correggere e emendare il testo anomalo "quaad iura possessionum pertinere noscuntur" in "quae ad iura possessionum pertinere noscuntur".</p>
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div>
+    <head>DE SEPVLCHRIS.</head>
+
+    <p><del>IMP. TIBERIVS CAESAR TRIVMVIRIS IVLIO M. ANTONIO ET LEPIDO. De ea lege agrorum
+      custodienda et limitum fide constare oportet, quem admodum decumanis antehac adsignatum est,
+      cum ager diuisus militi traderetur, ut extremis ac conpaginantibus agros limitibus uel uiis
+      monumenta sepulchraue sacrarentur. Nam</del> quidam rationem agrorum per eas recturas putant
+     obseruari, quo uergant itinera ante colonias munita: in quibus si monumenta constituta <del>uel
+      constituuntur</del>, putant esse finalia.</p>
+    <p>Nam monumentum plurimis est constitutum rationibus. Est unum quod ad itinera publica propter
+     testimonium perennitatis est constitutum <del>uel quod constituitur</del>: quod rationem finium
+     non recipit, nisi forte inter conuenientes ager diuisus pactione fuerit. Est et aliud quod
+     proximis aedibus suis unus quis miles uel consors condidit in portionibus suis, ut ad progeniem
+     futuram testis loco haredibusue suis uice instrumentorum tabellarumue possessionis causam
+     monstrauerit: quod aeque nullam limitum recipit rationem. Est et aliud quod longe ab aedibus
+      <del>uel itinera publica</del> constitutum <del>id</del> est iuxta legem Semproniam et Iuliam,
+     quod kardinibus et decimanis esse constitutum monstratur: quod rationem finium recipere
+     uidetur, id est concurrentium linearum adque secantium se inuicem, et ordinem in utrosque
+     custodit, limitum rationem discernens. Nam et alia intra agros sunt sita, quae partes limitum
+     seruant et iuxta perennem rationem unam lineam mittunt: haec iugerationis modum seruandi causa
+     sunt sita; quibus etiam termini lapidei adpositi certam distinctionem dant: quos apparet non ad
+     finem nec rationem eorum limitum qui maiorem modum agri respiciunt pertinere.</p>
+    <p>Eorum igitur sepolchrorum sequenda est constitutio, quae extremis finibus concurrentibus
+     plures decursus agrorum spectant adque multo longiores discretiones linearum perennes
+     admittunt.</p>
+    <p>Sunt etiam monumenta in itineribus constituta quae fidem publicam tenent: si tamen idem uiae
+     publicae cursus finitimus repperitur, finalia esse arbitramur. Omne enim monumentum dominorum
+     nomina testatur, quae ad iura possessionum pertinere noscuntur.</p>
+    <p><del>Et ideo hanc legem dedimus rationemue declarauimus, ut aere contineatur. Data Rom. kal.
+    april. Tiberio Caesare consule in aede Veneris genetricis.</del></p>
+    <lb/>
+    <lb/>
+    <lb/>
+    <lb/>
+    <figure>
+     <graphic url="img/dlt000493001.png"/>
+     <head> IMG 1 </head>
+    </figure>
+
+   </div>
+
+  </body>
+ </text>
+
+</TEI>

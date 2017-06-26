@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Chronica</title>
+    <author>Isidorus</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Maria Vittoria Martino</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2016</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000301</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p>J. C. Martín, <hi rend="italic">Isidori Hispalensis Chronica</hi>, Turnhout, Brepols, 2003 (Corpus Christianorum Series Latina 112).</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+   
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+  
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div type="section"><head>Recensio 1</head>
+<p>INCIPIT CHRONICA ISIDORI</p>
+
+<div type="cap" n="1"><p> Breuem temporum per generationes et regna primus ex nostris Iulius Africanus sub imperatore Marco Aurelio Antonino simplici historiae stilo elicuit. Dehinc Eusebius Caesariensis atque sanctae memoriae Hieronymus chronicorum canonum multiplicem ediderunt historiam regnis simula c temporibus ordinatam. Post hos alii atque alii, inter quos praecipue Victor Tonnonensis ecclesiae episcopus recensitis praedictorum historiis gesta sequentium aetatum usque ad consulatum Iustini iunioris expleuit.
+</p></div><div type="cap" n="2"><p> Horum nos temporum summam ab exordio mundi usque ad Augusti Eracli uel Sisebuti regis principatum quanta potuimus breuitate notauimus, adicientes e latere descendentem linea temporum, cuius indicio summa praeteriti saeculi cognoscatur.
+</p></div><div type="cap" n="3"><p> Sex diebus rerum omnium creaturam deus formauit: primo die condidit lucem, secundo <hi rend="italic">firmamentum caeli</hi>, tertio speciem maris et terrae, quarto sidera, quinto pisces et uolucres, sexto <hi rend="italic">bestias atque iumenta</hi>, nouissime <hi rend="italic">ad similitudinem suam hominem</hi> primum Adam.
+</p></div><div type="cap" n="4"><p><hi rend="bold">CCXXX</hi> Adam annorum CCXXX genuit Seth, qui <hi rend="italic">pro Abel</hi> natus est interpretaturque resurrectio quia in ipso resuscitatum est semen iustum, quod est stirpis filiorum dei.
+</p></div><div type="cap" n="5"><p> <hi rend="bold">CCCCXXXV</hi> Seth annorum CCV genuit Enos, qui primus <hi rend="italic">coepit inuocare nomen domini</hi>.
+</p></div><div type="cap" n="6"><p><hi rend="bold">DCXXV</hi> Enos annorum CXC genuit Cainan, cuius nomen interpretatur natura dei.
+</p></div><div type="cap" n="7"><p><hi rend="bold">DCCXCV</hi> Cainan annorum CLXX genuit Malalehel, cuius nomen dicitur plantatio dei.
+</p></div><div type="cap" n="8"><p> <hi rend="bold">DCCCCLX</hi> Malalehel annorum CLXV genuit Iareth, qui interpretatur descendens siue roborans.
+</p></div><div type="cap" n="9"><p> <hi rend="bold"> ĪCXXII</hi> Iareth annorum CLXII genuit Enoch, qui translatus est a deo quique etiam nonnulla scripsisse fertur, sed ob antiquitatem suspectae fidei a patribus refutata sunt.
+</p></div><div type="cap" n="10"><p> <hi rend="bold">ĪCCLXXXVII</hi> Enoch annorum CLXV genuit Matusalam, qui iuxta annorum seriem uixisse quattordecim annis post diluuium reperitur. Propter quod eum nonnulli cum patre suo Enoch, qui translatus fuerat, aliquantulum fuisse, donec diluuium praeteriret, falsa opinione existimant.
+</p></div><div type="cap" n="11"><p> Hac generatione concupierunt filii dei filias hominum.
+</p></div><div type="cap" n="12"><p><hi rend="bold">ĪCCCCLIIII</hi> Matusalam annorum CLXVII genuit Lamech.
+</p></div><div type="cap" n="13"><p> Hac generatione Gigantes nati sunt.
+</p></div><div type="cap" n="14"><p> Hac quoque aetate Iubal ex genere Cain artem musicam repperit, cuius etiam frater Tubalcain <hi rend="italic">aeris ferrique</hi> inuentor fuit.
+</p></div><div type="cap" n="15"><p> <hi rend="bold">ĪDCXLII </hi>Lamech annorum CLXXXVIII genuit Noe, cuius diuino oraculo arca aedificare iubetur anno aetatis suae quingentesimo.
+</p></div><div type="cap" n="16"><p> His temporibus, ut refert Iosephus, scientes illi homines quod aut igne aut aquis perire poterant, in duabus columnis ex latere et lapide factis studia sua conscripserunt ne delerentur memoria quae sapienter inuenerant. Quarum lapidea columna fertur diluuium euasisse et actenus in Syria permanere.
+</p></div><div type="cap" n="17"><p> <hi rend="bold">ĪĪCCXLII</hi> Noe annorum DC factum legitur diluuium, cuius arcam Iosephus sedisse refert in montes Armeniae qui uocatur Ararat.
+</p></div><div type="cap" n="18"><p> Fuerunt autem Noe filii tres, ex quibus septuaginta duae gentes sunt ortae id est XV de Iafeth, XXX de Cham, XXVII de Sem.
+</p></div><div type="cap" n="19"><p><hi rend="bold">ĪĪCCXLIIII</hi> Sem anno secundo post diluuium genuit Arfatax, a quo Chaldei.
+</p></div><div type="cap" n="20"><p> <hi rend="bold">ĪĪCCCLXXVIIII</hi> Arfatax annorum CXXXV genuit Salam, a quo antiqui Samaritae uel Indii.
+</p></div><div type="cap" n="21"><p> <hi rend="bold">ĪĪDVIIII</hi> Sala annorum CXXX genuit Heber, a quo Hebrei nuncupati sunt.
+</p></div><div type="cap" n="22"><p> <hi rend="bold">ĪĪDCXLIII</hi> Heber annorum CXXXIIII genuit Falech, cuius tempore turris aedificata est factaque linguarum diuisio. Huius turris altitudo quinque milia centum septuaginta quattuor dicitur tenere passuum, paulatim a latioribus in angustiis coartata ut pondus inminens facilius sustentaret. Describunt ibi templa marmorea lapidibus pretiosis auroque distincta et multa alia quae uidentur incredibilia. Hanc turrem Nebroth gigans construxit, qui post confusionem linguarum migrauit inde ad Persas eosque ignem colere docuit.
+</p></div><div type="cap" n="23"><p> <hi rend="bold">ĪĪDCCLXXIII</hi> Falech annorum CXXX genuit Ragau.
+</p></div><div type="cap" n="24"><p> His temporibus primum templa constructa sunt et quidam principes gentium tamquam dii adorari coeperunt.
+</p></div><div type="cap" n="25"><p> <hi rend="bold">ĪĪDCCCCV</hi> Ragau annorum CXXXII genuit Seruch.
+</p></div><div type="cap" n="26"><p> Sub quo Scitarum regnum exortum est, ubi primus regnauit Tanus.
+</p></div><div type="cap" n="27"><p> <hi rend="bold">ĪĪĪXXXV</hi> Seruch annorum CXXX genuit Nahor.
+</p></div><div type="cap" n="28"><p> Aegyptiorum regnum sumit principium, ubi primus regnauit Zoes.
+</p></div><div type="cap" n="29"><p> <hi rend="bold">ĪĪĪCXIIII</hi> Nahor annorum LXXVIIII genuit Thara.
+</p></div><div type="cap" n="30"><p> Sub quo regnum Assyriorum Siciniorumque exoritur. Sed primus in Assyriis regnauit Belus, quem quidam Saturnum existimant; primusque in Siciniis Agialeus, a quo Agialea noncupata est, quae actenus Peloponensis uocatur.
+</p></div><div type="cap" n="31"><p> <hi rend="bold">ĪĪĪCLXXXIIII</hi> Thara annorum LXX genuit Abraham.
+</p></div><div type="cap" n="32"><p> Sub quo Zoroastres magiae inuentor a Nino rege occiditur
+</p></div><div type="cap" n="33"><p> murique Babyloniae a Semiramide regina Assyriorum aedificantur.
+</p></div><div type="cap" n="34"><p> <hi rend="bold">ĪĪĪCCLXXXIIII</hi> Abraham annorum C genuit Isaac ex Sarra libera. Nam primum ex ancilla Agar genuerat Ismahel, a quo Ismahelitarum genus, qui postea Agareni, ad ultimum Sarraceni sunt dicti.
+</p></div><div type="cap" n="35"><p> <hi rend="bold">ĪĪĪCCCXLIIII</hi> Isaac annorum LX genuit geminos, quorum primus Esau. a quo Idumei, secundus Iacob, qui cognominatus est Israhel, a quo et Israhelitae sunt nuncupati.
+</p></div><div type="cap" n="36"><p> Hoc tempore regnum Graecorum inchoat, ubi primus regnauit Inachus.
+</p></div><div type="cap" n="37"><p> Cuius filius fuit Foroneus rex, qui primus in Graecia leges iudiciaque conscripsit.
+</p></div><div type="cap" n="38"><p> His temporibus apud lacum Tritonidem Minerua in specie uirginali apparuisse scribitur.
+</p></div><div type="cap" n="39"><p><hi rend="bold">ĪĪĪCCCCXXXIIII</hi> Iacob annorum XC genuit Ioseph.
+</p></div><div type="cap" n="40"><p> His temporibus Sirapis Iouis filius Aegyptiorum rex moriens in deos transfertur.
+</p></div><div type="cap" n="41"><p> et Memphis ciuitas in Aegypto conditur. </p></div>
+<div type="cap" n="42"><p><hi rend="bold">ĪĪĪDXLIIII</hi> Ioseph annos CX.
+</p></div><div type="cap" n="43"><p> Hoc tempore Graecia Argo regnante habere segetes coepit delatis aliunde seminbus.
+</p></div><div type="cap" n="44"><p><hi rend="bold">ĪĪĪDCLXXXVIII</hi> Hebreorum seruitutis in Aegypto annos CXLIIII.
+</p></div><div type="cap" n="45"><p> His temporibus Prometheus fuisse scribitur, quemfingunt fabulae de luto formasse omines.
+</p></div><div type="cap" n="46"><p> Tunc etiam frater eius Atlans magnus est astrologus habitus
+</p></div><div type="cap" n="47"><p> Mercuriusque nepus Atlantis multarum artium peritus et ob hoc post mortem in deos translatus.
+</p></div><div type="cap" n="48"><p> Hac etiam aetate primus Prociclus quadrigam iunxit.
+</p></div><div type="cap" n="49"><p> Eodemque tempore Cecrobs Athenas condidit et ex nomine Mineruae Atticos Athenienses uocauit.
+</p></div><div type="cap" n="50"><p> Iste etiam bouem immolans primus in sacrificio Iouem adorare praecepit.
+</p></div><div type="cap" n="51"><p> Tunc primi Coretes et Coribantes modulatam in armis saltationem et consonam inuenerunt.
+</p></div><div type="cap" n="52"><p> Tunc etiam fuisse scribitur in Tessalia sub Diocalione factum diluuium
+</p></div><div type="cap" n="53"><p> et Faetontis fabulosum incendium.
+
+</p></div><div type="cap" n="54"><p><hi rend="bold">ĪĪĪDCCXXVIII</hi> Moyses annos XL in heremo rexit populum de seruitute Aegyptia liberatum.
+</p></div><div type="cap" n="55"><p> Hoc tempore Iudaei per Moysen simul cum lege et litteras habere coeperunt.
+</p></div><div type="cap" n="56"><p> Tunc templum Delphis construitur,
+</p></div><div type="cap" n="57"><p> Lacedemon conditur,
+</p></div><div type="cap" n="58"><p> uitis in Graecia inuenitur.
+</p></div><div type="cap" n="59"><p> <hi rend="bold">ĪĪĪDCCLV</hi> Iosue successor Moysi rexit populum annos XXVII.
+</p></div><div type="cap" n="60"><p> His temporibus primus Erectonius Athenensium princeps in Graeciam quadrigam iunxit.
+</p></div><div type="cap" n="61"><p> <hi rend="bold">ĪĪĪDCCXCV</hi> Gothonihel annos XL.
+</p></div><div type="cap" n="62"><p> Cadmus regnat Thebis, qui primus Graecas litteras adinuenit.
+</p></div><div type="cap" n="63"><p> Per idem tempus primi Clinus et Anfion apud Graecos in musica arte claruerunt
+</p></div><div type="cap" n="64"><p> Ideique Dactili ferrum eo tempore inuenerunt.
+</p></div><div type="cap" n="65"><p> <hi rend="bold">ĪĪĪDCCCLXXV</hi> Aoth annos LXXX.
+</p></div><div type="cap" n="66"><p> His temporibus fabulae fictae sunt de Treptolemo, quod iubente Cerere serpentium pinnis gestatus indigentibus frumenta uolando distribuerit;
+</p></div><div type="cap" n="67"><p> de Hipocentarius, quod equorum hominumque fuerint natura permixti;
+</p></div><div type="cap" n="68"><p> de Cerbero tricipite inferorum cane;
+</p></div><div type="cap" n="69"><p> de Frixo et Helle sorore sua, quod ariete uecti per aerem uolauerint;
+</p></div><div type="cap" n="70"><p> de Gorgone meretrice, quae crinita serpentibus fuerit et aspicientes conuertebat in lapides;
+</p></div><div type="cap" n="71"><p> de Bellorofonte, quod equo pinnis uolante sit uectus;
+</p></div><div type="cap" n="72"><p> de Anfione, quod citharae cantu lapides et saxa commouerit.
+</p></div><div type="cap" n="73"><p><hi rend="bold">ĪĪĪDCCCCXV</hi> Debbora annos XL.
+</p></div><div type="cap" n="74"><p> Per idem tempus Apollo medicinae artem inuenit.
+</p></div><div type="cap" n="75"><p> Fabula quoque tunc ficta est de fabro Dedalo et eius Icaro filio, quod coaptatis sibi pinnis uolauerint.
+</p></div><div type="cap" n="76"><p> Hac aetate primus regnat Latinis Picus, qui fertur fuisse Saturni filius.
+</p></div><div type="cap" n="77"><p><hi rend="bold">ĪĪĪDCCCCLV</hi> Gedeon annos XL.
+</p></div><div type="cap" n="78"><p> Vrbs Tyria construitur.
+</p></div><div type="cap" n="79"><p> Orfeus Trax Linusque magister Herculis artis musicae inuentores clari habentur.
+</p></div><div type="cap" n="80"><p> Argonautarum nauigatio scribitur.
+</p></div><div type="cap" n="81"><p> <hi rend="bold">ĪĪĪDCCCCLVIII</hi> Abimelech annos III.
+</p></div><div type="cap" n="82"><p> Iste LXX <hi rend="italic">fratres suos</hi> interfecit.
+</p></div><div type="cap" n="83"><p> <hi rend="bold">ĪĪĪDCCCCLXXXI</hi> Tola annos XXIII.
+</p></div><div type="cap" n="84"><p> Huius temporibus in Troia post Laumedontem regnauit Priamus.
+</p></div><div type="cap" n="85"><p> Tunc fabula ficta est de minotauro bestia laberinto inclusa.
+</p></div><div type="cap" n="86"><p> <hi rend="bold">ĪĪĪĪIII</hi> Iait annos XXII.
+</p></div><div type="cap" n="87"><p> Per haec tempora Hercules agonem Olympiacum constituit
+</p></div><div type="cap" n="88"><p> atque in Libia Anteum occidit.
+</p></div><div type="cap" n="89"><p><hi rend="bold">ĪĪĪĪVIIII</hi> Iepte annos VI.
+</p></div><div type="cap" n="90"><p> Huius tempore Hercules quinquagesimum secundum annum agens ob morbi dolorem sese flammis iniecit. 
+</p></div><div type="cap" n="91"><p> Per idem tempus Alexander Helenam rapuit Troianumque bellum decennale surrexit.
+</p></div><div type="cap" n="92"><p> <hi rend="bold">ĪĪĪĪXVI</hi> Abessa annos VII.
+</p></div><div type="cap" n="93"><p> Amazones arma sumpserunt.
+</p></div><div type="cap" n="94"><p><hi rend="bold">ĪĪĪĪXXIIII</hi> Abdon annos VIII.
+</p></div><div type="cap" n="95"><p> Cuius anno tertio Troia capta est
+</p></div><div type="cap" n="96"><p> et Aeneas Italiam uenit.
+</p></div><div type="cap" n="97"><p> Hac aetate Carmentis nympha Latinas litteras repperit.
+</p></div><div type="cap" n="98"><p><hi rend="bold">ĪĪĪĪXLIIII</hi> Samson annos XX.
+</p></div><div type="cap" n="99"><p> Ascanius Aeneae filius Albam condidit.
+</p></div><div type="cap" n="100"><p> Vlixis quoque fabulae uel sirenarum eodem tempore fictae sunt.
+</p></div><div type="cap" n="101"><p> <hi rend="bold">ĪĪĪĪLXXXIIII</hi> Heli sacerdos annos XL.
+</p></div><div type="cap" n="102"><p> Arca testamenti ab alienigenis capitur
+</p></div><div type="cap" n="103"><p> regnumque Siciniorum finitur.
+</p></div><div type="cap" n="104"><p> <hi rend="bold">ĪĪĪĪCXXIII</hi> Samuhel et Saul annos XL.
+</p></div><div type="cap" n="105"><p> Lacedemoniorum regnum exoritur
+</p></div><div type="cap" n="106"><p> atque Homerus fuisse putatur.
+</p></div><div type="cap" n="107"><p> <hi rend="bold">ĪĪĪĪCLXIIII</hi> Dauid regnauit annos XL. 
+</p></div><div type="cap" n="108"><p> Codrus sponte se hostibus offerens interimitur.
+</p></div><div type="cap" n="109"><p> Cartago a Didone aedificatur.
+</p></div><div type="cap" n="110"><p> Prophetantibus in Iudaea Gad, Nathan et Asaph.
+</p></div><div type="cap" n="111"><p> <hi rend="bold">ĪĪĪĪCCIIII</hi> Salomon regnauit annos XL.
+</p></div><div type="cap" n="112"><p> Iste quarto regni sui anno templum Hierusolimis aedificauit consummauitque anno octauo.
+</p></div><div type="cap" n="113"><p> <hi rend="bold">ĪĪĪĪCCXXI</hi> Roboam regnauit annos XVII.
+</p></div><div type="cap" n="114"><p> Sub quo decem tribus a duabus separatae sunt et reges in Samaria habere coeperunt.
+</p></div><div type="cap" n="115"><p> Hac aetate Samus conditur.
+</p></div><div type="cap" n="116"><p> Sibilla Eritria inlustris habetur.
+</p></div><div type="cap" n="117"><p> <hi rend="bold">ĪĪĪĪCCXXIIII</hi> Abia regnauit annos III.
+</p></div><div type="cap" n="118"><p> Sub quo Hebreorum pontifex maximus Abimelech insignis est habitus.
+</p></div><div type="cap" n="119"><p><hi rend="bold">ĪĪĪĪCCLXV</hi> Asa regnauit annos XLI.
+</p></div><div type="cap" n="120"><p> Prophetabant in Iudaea Achias, Ieu, Amos, Iohel et Azarias.
+</p></div><div type="cap" n="121"><p><hi rend="bold">ĪĪĪĪCCXC</hi> Iosaphat regnauit annos XXV.
+</p></div><div type="cap" n="122"><p> Prophetabant Helias et Heliseus, Abdias, Azarias et Micheas.
+</p></div><div type="cap" n="123"><p><hi rend="bold">ĪĪĪĪCCXCVIII</hi> Ioram regnauit annos VIII.
+</p></div><div type="cap" n="124"><p> Prophetabant Helias et Heliseus et Abdias.
+</p></div><div type="cap" n="125"><p><hi rend="bold">ĪĪĪĪCCXCVIIII</hi> Ochozias regnauit annum I.
+</p></div><div type="cap" n="126"><p> Helias rapitur.
+</p></div><div type="cap" n="127"><p><hi rend="bold">ĪĪĪĪCCCVI</hi> Athalia regnauit annos VII.
+</p></div><div type="cap" n="128"><p> Ionadab, filius Recab, sacerdos clarus habetur
+</p></div><div type="cap" n="129"><p> et Ioiade pontifex, qui solus post Moysen uixisse annis CXXX perhibetur.
+</p></div><div type="cap" n="130"><p><hi rend="bold">ĪĪĪĪCCCXLVI</hi> Ioas regnauit annos XL.
+</p></div><div type="cap" n="131"><p> Zacharias propheta interficitur
+</p></div><div type="cap" n="132"><p> et Heliseus moritur.
+</p></div><div type="cap" n="133"><p> Ligurgus quoque legislator Apollinis insignis habetur.
+</p></div><div type="cap" n="134"><p><hi rend="bold">ĪĪĪĪCCCLXXV</hi> Amasias regnauit annos XXVIIII.
+</p></div><div type="cap" n="135"><p> <hi rend="bold">ĪĪĪĪCCCCXXVII</hi> Ozias regnauit annos LII.
+</p></div><div type="cap" n="136"><p> Sardanapallus rex incendio concrematur
+</p></div><div type="cap" n="137"><p> Asyriorumque regnum in Medos transfertur.
+</p></div><div type="cap" n="138"><p> Tunc Esiodus poeta claruit
+</p></div><div type="cap" n="139"><p> atque Fidon Argiuus mensuras et pondera repperit.
+</p></div><div type="cap" n="140"><p> Per idem tempus Olympias prima a Graecis constituitur.
+</p></div><div type="cap" n="141"><p> Osee, Amos, Esaia et Iona in Iudaea prophetantibus.
+</p></div><div type="cap" n="142"><p><hi rend="bold">ĪĪĪĪCCCCXLIII</hi> Ioathan regnauit annos XVI.
+</p></div><div type="cap" n="143"><p> Rremus Romulusque nascuntur.
+</p></div><div type="cap" n="144"><p> Prophetantibus in Iudaea Osee et Iohel, Esaia et Michea.
+</p></div><div type="cap" n="145"><p> <hi rend="bold">ĪĪĪĪCCCCLVIIII</hi> Achaz regnauit annos XVI.
+</p></div><div type="cap" n="146"><p> Huius temporibus Romulus Romam condidit,
+</p></div><div type="cap" n="147"><p> et Sennacherib Assyriorum rex decem tribus in Medis transtulit atque in Iudaea Samaritas accolas misit.
+</p></div><div type="cap" n="148"><p> <hi rend="bold">ĪĪĪĪCCCCLXXXVIII</hi> Ezechias regnauit annos XXVIIII.
+</p></div><div type="cap" n="149"><p> Sub quo prophetabant Esaias et Osee.
+</p></div><div type="cap" n="150"><p> Hoc tempore Romulus primus milites ex populo sumpsit centumque a populo nobilissimos uiros elegit, qui ob aetatem senatores, ob cura mac sollicitudinem rei publicaepatres uocati sunt.
+</p></div><div type="cap" n="151"><p> <hi rend="bold">ĪĪĪĪDXLIII</hi> Manasses regnauit annos LV.
+</p></div><div type="cap" n="152"><p> Per idem tempus Romanis praefuit Numa Pompilius, qui primus Vestales uirgines instituit
+</p></div><div type="cap" n="153"><p> duosque menses Ianuarium et Februarium decem mensibus anni adiecit.
+</p></div><div type="cap" n="154"><p> Tunc quoque Sibilla Samia claruit.
+</p></div><div type="cap" n="155"><p> <hi rend="bold">ĪĪĪĪDLV</hi> Amon regnauit annos XII.
+</p></div><div type="cap" n="156"><p> Huius temporibus Tullius Hostilius prior in re publica censum egit, primusque purpura et fascibus usus est.
+</p></div><div type="cap" n="157"><p> <hi rend="bold">ĪĪĪĪDLXXXVII</hi> Iosias regnauit annos XXXII.
+</p></div><div type="cap" n="158"><p> Tales Milesius primus phisicus clarus habetur.
+</p></div><div type="cap" n="159"><p> Prophetantibus in Iudaea Heremia, Olda et Sofonia.
+</p></div><div type="cap" n="160"><p> <hi rend="bold">ĪĪĪĪDCXVIII</hi> Ioachim regnauit annos XI.
+</p></div><div type="cap" n="161"><p> Huius tertio anno Nabuchodonosor Iudaeam captam tributariam fecit.
+</p></div><div type="cap" n="162"><p> Tunc Danihel, Ananias, Azarias et Misahel in Babylone claruerunt.
+</p></div><div type="cap" n="163"><p><hi rend="bold">ĪĪĪĪDCVIIII</hi> Sedecias regnauit annos XI.
+</p></div><div type="cap" n="164"><p> Hunc rex Babyloniae secundo ueniens ad Hierusalem cum populum captiuum ducit templo incenso anno aedificationis suae CCCCLIIII.
+</p></div><div type="cap" n="165"><p> Per idem tempus Sappho mulier in diuerso poemate claruit.
+</p></div><div type="cap" n="166"><p> Solon leges Atheniensibus dedit.
+</p></div><div type="cap" n="167"><p> <hi rend="bold">ĪĪĪĪDCLXXVIIII</hi> Hebreorum captiuitas annos LXX, in quibus ignis ab altario sublatus et absconditus in puteo post septuagesimo regressionis anno adsumitur inuentus uiuus.
+</p></div><div type="cap" n="168"><p> Per idem captiuitatis tempus Iudith historia conscribitur.
+</p></div><div type="cap" n="169"><p> Pythagoras quoque philosophus et arithmeticae artis inuentor clarus habetur.
+</p></div><div type="cap" n="170"><p><hi rend="bold">ĪĪĪĪDCCXIII</hi> Darius regnauit annos XXXIIII.
+</p></div><div type="cap" n="171"><p> Huius secundo anno Iudaeorum est resoluta captiuitas, a quo tempore in Hierusalem non reges, sed principes fuerunt usque ad Aristobulum.
+</p></div><div type="cap" n="172"><p> Tunc Romani pulsis regibus consules habere coeperunt.
+</p></div><div type="cap" n="173"><p><hi rend="bold">ĪĪĪĪDCCXXXIII</hi> Xerxes regnauit annos XX.
+</p></div><div type="cap" n="174"><p> Escilius, Pindarus, Sophocles et Euripides tragoediarum scriptores celebrantur insignes.
+</p></div><div type="cap" n="175"><p> Herodotus quoque historiarum scriptor et Zeusis agnoscitur pictor.
+</p></div><div type="cap" n="176"><p> <hi rend="bold">ĪĪĪĪDCCLXXIII</hi> Artaxerxes, qui et Longimanus, regnauit annos XL.
+</p></div><div type="cap" n="177"><p> Eo regnante Esdras sacerdos legem renouauit.
+</p></div><div type="cap" n="178"><p> Neemias muros Hierusolimorum restituit.
+</p></div><div type="cap" n="179"><p> Aristarcus etiam et Aristophanes atque Sofocles tragoediarum scriptores habiti sunt.
+</p></div><div type="cap" n="180"><p> Hippocrates quoque medicus ac Socrates philosophus et Democritus claruerunt.
+</p></div><div type="cap" n="181"><p> <hi rend="bold">ĪĪĪĪDCCXCII</hi> Darius, qui et Notus, regnauit annos XVIIII.
+</p></div><div type="cap" n="182"><p> Plautus nascitur.
+</p></div><div type="cap" n="183"><p> <hi rend="bold">ĪĪĪĪDCCCXXXII</hi> Artaxerxes regnauit annos XL.
+</p></div><div type="cap" n="184"><p> Huius tempore Hester historia docetur esse expleta.
+</p></div><div type="cap" n="185"><p> Plato quoque et Xenofon Socratici insignes habentur.
+</p></div><div type="cap" n="186"><p> <hi rend="bold">ĪĪĪĪDCCCLVIII</hi> Artaxerxes, qui et Ochus, regnauit annos XXVI.
+</p></div><div type="cap" n="187"><p> Demosthenes orator agnoscitur.
+</p></div><div type="cap" n="188"><p> Aristoteles philosophus praedicatur.
+</p></div><div type="cap" n="189"><p> Plato moritur.
+</p></div><div type="cap" n="190"><p><hi rend="bold">ĪĪĪĪDCCCLXII</hi> Xerxes Ochi filius regnauit annos IIII.
+</p></div><div type="cap" n="191"><p> Exenocrates philosophus inlustris habetur.
+</p></div><div type="cap" n="192"><p><hi rend="bold">ĪĪĪĪDCCCLXVIII</hi> Darius regnauit annos VI.
+</p></div><div type="cap" n="193"><p> Alexander Illirios et Traces superans dehinc Hierusolimam capit atque templum ingressus deo hostias immolauit.
+</p></div><div type="cap" n="194"><p> Hucusque Persarum regnum stetit, dehinc reges Graecorum incipiunt.
+</p></div><div type="cap" n="195"><p> <hi rend="bold">ĪĪĪĪDCCCLXXIII</hi> Alexander Macedo regnauit annos V. Huius enim quinque anni postremi in ordine numerantur, quibus monarchiam orbis obtinuit, nam septem eius priores in Persarum regibus supputantur. Dehinc Alexandriae reges incipiunt.
+</p></div><div type="cap" n="196"><p><hi rend="bold">ĪĪĪĪDCCCCXII</hi> Ptolomeus Lagi filius regnauit annos XL.
+</p></div><div type="cap" n="197"><p> Hinc Iudaeam capiens plurimos Hebreorum in Aegypto transtulit.
+</p></div><div type="cap" n="198"><p> Hoc tempore Zenon stoicus et Menander comicus et Theufrastes philosophus claruerunt.
+</p></div><div type="cap" n="199"><p> Per idem etiam tempus Machabeorum liber inchoat primus.
+</p></div><div type="cap" n="200"><p><hi rend="bold">ĪĪĪĪDCCCCLI</hi> Ptolomeus Philadephus regnauit annos XXXVIII.
+</p></div><div type="cap" n="201"><p> Hic Iudaeos, qui in Aegypto erant, absoluit et uasa sancta Eleazaro pontifici restituens septuaginta interpretes petit ac diuinas scripturas in Graecum eloquium transtulit.
+</p></div><div type="cap" n="202"><p> Per idem tempus Aratus astrologus agnoscitur
+</p></div><div type="cap" n="203"><p> atque argentei nummi primum Romae constituuntur.
+</p></div><div type="cap" n="204"><p> <hi rend="bold">ĪĪĪĪDCCCCLXXVII</hi> Ptolomeus Euergetes regnauit annos XXVI.
+</p></div><div type="cap" n="205"><p> Sub quo Ihesus filius Sirach sapientiae librum conposuit.
+</p></div><div type="cap" n="206"><p><hi rend="bold">ĪĪĪĪDCCCCXCIIII</hi> Ptolomeus Philopator regnauit annos XVII.
+</p></div><div type="cap" n="207"><p> Ab isto Iudaei proelio uicti, LX milia armatorum corruerunt.
+</p></div><div type="cap" n="208"><p> Siciliamque Marcellus consul obtinuit.
+</p></div><div type="cap" n="209"><p><hi rend="bold"><num value="5000">V</num>XIII</hi> Ptolomeus Epiphanes regnauit annos XXIIII.
+</p></div><div type="cap" n="210"><p> Huius tempore gesta sunt quae secundi libri Machabeorum historia continet.
+</p></div><div type="cap" n="211"><p> Hac aetate poeta Ennius celebratur.
+</p></div><div type="cap" n="212"><p><hi rend="bold"><num value="5000">V</num>LIII</hi> Ptolomeus Philometor regnauit annos XXXV.
+</p></div><div type="cap" n="213"><p> Hunc Antiochus proelio superauit it Iudaeos uaria calamitate oppressit.
+</p></div><div type="cap" n="214"><p> Per idem tempus Scipio Africam uicit.
+</p></div><div type="cap" n="215"><p><hi rend="bold"><num value="5000">V</num>LXXXII</hi> Ptolomeus Euergetes regnauit annos XXVIIII.
+</p></div><div type="cap" n="216"><p> Hoc tempore per consulem Brutum Spania a Romanis obtenta est.
+</p></div><div type="cap" n="217"><p><hi rend="bold"><num value="5000">V</num>XCVIIII</hi> Ptolomeus Soter regnauit annos XVII.
+</p></div><div type="cap" n="218"><p> Varro Ciceroque nascuntur.
+</p></div><div type="cap" n="219"><p> Traces Romanis subiciuntur.
+</p></div><div type="cap" n="220"><p><hi rend="bold"><num value="5000">V</num>CVIIII</hi> Ptolomeus Alexander regnauit annos X.
+</p></div><div type="cap" n="221"><p> Syria per Gabinium ducem in Romanorum dominio transit.
+</p></div><div type="cap" n="222"><p> Poeta quoque Lucretius nascitur, qui postea sese furore amatorio interfecit.
+</p></div><div type="cap" n="223"><p><hi rend="bold"><num value="5000">V</num>CXVII</hi> Ptolomeus Cleopatrae filius regnauit annos VIII.
+</p></div><div type="cap" n="224"><p> Per idem tempus Plotius Gallus Romae Latinam rhetoricam docuit primus.
+</p></div><div type="cap" n="225"><p> Tunc quoque Sallustius historiographus nascitur.
+</p></div><div type="cap" n="226"><p><hi rend="bold"><num value="5000">V</num>CXLVII</hi> Ptolomeus Dionisius regnauit annos XXX.
+</p></div><div type="cap" n="227"><p> Pompeius Hierusolima capta Iudaeos Romanis tributarios efficit.
+</p></div><div type="cap" n="228"><p> Per idem tempus Cato philosophus agnoscitur.
+</p></div><div type="cap" n="229"><p> Virgilius Oratiusque nascuntur.
+</p></div><div type="cap" n="230"><p> Apollodorus praeceptor Augusti clarus habetur.
+</p></div><div type="cap" n="231"><p> Cicero laude oratoria celebratur.
+</p></div><div type="cap" n="232"><p><hi rend="bold"><num value="5000">V</num>CXLVIIII</hi> Cleopatra regnauit annos II, quia tertio eius anno Iulius Caesar sumit imperium.
+</p></div><div type="cap" n="233"><p><hi rend="bold"><num value="5000">V</num>CLIIII</hi> Gaius Iulius Caesar regnauit annos V.
+</p></div><div type="cap" n="234"><p> Hic primus Romanorum singulare obtinuit principatum, a quo etiam Caesares appellati sunt, Abhinc sequuntur imperatores.
+</p></div><div type="cap" n="235"><p><hi rend="bold"><num value="5000">V</num>CCX</hi> Octauianus Augustus regnauit annos LVI.
+</p></div><div type="cap" n="236"><p> Sub cuius imperio LXVIIII ebdomades in Danihelo sciptae conplentur
+</p></div><div type="cap" n="237"><p> et cessante regno ac sacerdotio Iudaeorum Dominus Ihesus Xristus ex Virgine nascitur anno regni eius quadragesimo secundo.
+</p></div><div type="cap" n="238"><p><hi rend="bold"><num value="5000">V</num>CCXXXIII</hi> Tiberius filius Augusti regnauit annos XXIII.
+</p></div><div type="cap" n="239"><p> Huius octauo decimo anno Dominus crucifixus est peractis a principio mundi annis <num value="5000">V</num>CCXXVIII.
+</p></div><div type="cap" n="240"><p><hi rend="bold"><num value="5000">V</num>CCXXXVII</hi> Gaius Caligola regnauit annos IIII.
+</p></div><div type="cap" n="241"><p> Hic in deos se transferens in templo Hierusolimorum statuam Iouis sub nomine suo poni iussit.
+</p></div><div type="cap" n="242"><p> Per idem tempus Matheus apostolus euangelium in Iudaea primus scripsit.
+</p></div><div type="cap" n="243"><p> <hi rend="bold"><num value="5000">V</num>CCLI</hi> Claudius regnauit annos XIIII.
+</p></div><div type="cap" n="244"><p> Petrus ad superandum Simonem magum Romam pergit.
+</p></div><div type="cap" n="245"><p> Marcus quoque euangelista Alexandriae Xristum euangelizat.
+</p></div><div type="cap" n="246"><p> <hi rend="bold"><num value="5000">V</num>CCLXV</hi> Nero regnauit annos XIIII.
+</p></div><div type="cap" n="247"><p> Huius temporibus Simon magus cum altercationem proposuisset cum Petro et Paulo apostolis, <hi rend="italic">dicens se</hi> quendam <hi rend="italic">uirtutem esse dei magnam</hi>, medio die dum ad patrem uolare promittit in caelum, a daemonibus, quibus in aera ferebatur, adiurante eos Petro per deum, Paulo uero orante dimissus crepuit. Ob cuius necem a Nerone Petrus crucifigitur, Paulus gladio caeditur.
+</p></div><div type="cap" n="248"><p>Hac tempestate Persius poeta moritur.
+</p></div><div type="cap" n="249"><p>Lucanus quoque ac Seneca praeceptor Neronis interficiuntur.
+</p></div><div type="cap" n="250"><p><hi rend="bold"><num value="5000">V</num>CCLXXV</hi> Vespasianus regnauit annos X.
+</p></div><div type="cap" n="251"><p>Huius secundo anno Titus Hierusolimam cepit atque subuerit, ubi undecies centena milia Iudaeorum fame et gladio perierunt, sed et praeter hos centum milia publice uenundata sunt.
+</p></div><div type="cap" n="252"><p><hi rend="bold"><num value="5000">V</num>CCLXXVII</hi> Titus regnauit annos II.
+</p></div><div type="cap" n="253"><p>Iste in utraque lingua tanto facundissimus extitit, ut causas Latine ageret, poemata et tragoedias Graece conponeret.
+</p></div><div type="cap" n="254"><p>Tanto autm bellicosissimus ut in expugnatione Hierusolimorum sub patre militans duodecim propugnatores duodecim sagittarum confoderet ictibus.
+</p></div><div type="cap" n="255"><p>Porro in imperio tantae bonitatis fuit, ut nullum omnino puniret, sed conuictos aduersum se coniuratione dimitteret, atuqe in eadem familiaritate, qua antea habuerat, retineret.
+</p></div><div type="cap" n="256"><p>Huius etiam inter omnia fuit illud celbre dictum perdidisse diem, quo nihil boni fecerat.
+</p></div><div type="cap" n="257"><p><hi rend="bold"><num value="5000">V</num>CCXCIII</hi> Domitianus frater Titi regnauit annos XVI.
+</p></div><div type="cap" n="258"><p>Hic post Neronem secundus xristianos persequitur.
+</p></div><div type="cap" n="259"><p>Sub quo et apostolus Iohannes in Pathmos insula religatur.
+</p></div><div type="cap" n="260"><p>Iste multos senatorum in exilio mittit ac perimit
+</p></div><div type="cap" n="261"><p>cunctosque qui de genere Dauid erant interfici iussit, ut nullus Iudaeorum ex regali superesset origine.
+</p></div><div type="cap" n="262"><p><hi rend="bold"><num value="5000">V</num>CCXCIIII</hi> Nerua regnauit annum I.
+</p></div><div type="cap" n="263"><p>Iohannes apostolus ab exilio Ephesum redit atque efflagitatus ab Asiae episcopis euangelium nouissimus edidit.
+</p></div><div type="cap" n="264"><p><hi rend="bold"><num value="5000">V</num>CCCXIII</hi> Traianus regnauit annos XVIIII.
+</p></div><div type="cap" n="265"><p>Iste Asia et Babylonia capta usque ad Indiae fines post Alexandrum accessit.
+</p></div><div type="cap" n="266"><p>Huius temporibus Simon Cleopas Hierusolimorum episcopus crucifigitur
+</p></div><div type="cap" n="267"><p>et requiescit Iohannes apostolus.
+</p></div><div type="cap" n="268"><p><hi rend="bold"><num value="5000">V</num>CCCXXXIIII</hi> Adrianus regnauit annos XXI.
+</p></div><div type="cap" n="269"><p>Hic Iudaeos secundo rebelles subiugat urbemque Hierusolimam restaurat eamque ex nomine suo Heliam uocat.
+</p></div><div type="cap" n="270"><p>Per idem tempus Aquila Ponticus interpres secundus post LXX oritur
+</p></div><div type="cap" n="271"><p> et Basilides heresiarces agnoscitur.
+</p></div><div type="cap" n="272"><p><hi rend="bold"><num value="5000">V</num>CCCLVI</hi> Antoninus Pius regnauit annos XXII.
+</p></div><div type="cap" n="273"><p>Iste ob hoc tale cognomentum accepit, quia in omni regno Romano cautionibus incensis cunctorum debita relaxauit, unde et Pater patriae appellatus est.
+</p></div><div type="cap" n="274"><p>Eo regnante Valentinus et Marcion heresiarces produntur
+</p></div><div type="cap" n="275"><p>atque Gallienus medicus Pergamo genitus Romae clarus habetur.
+</p></div><div type="cap" n="276"><p><hi rend="bold"><num value="5000">V</num>CCCLXXV</hi> Antoninus minor regnauit annos XVIII.
+</p></div><div type="cap" n="277"><p>Montanus Catafrigarum auctor et Titianus, a quo heresis Encratitarum, exorti sunt.
+</p></div><div type="cap" n="278"><p><hi rend="bold"><num value="5000">V</num>CCCLXXXVIII</hi> Commodus regnauit annos XIII.
+</p></div><div type="cap" n="279"><p>Theodotion Ephesius interpres tertius apparuit
+</p></div><div type="cap" n="280"><p>atque Ireneus episcopus Lugdunensis in doctrina habetur insignis.
+</p></div><div type="cap" n="281"><p><hi rend="bold"><num value="5000">V</num>CCCLXXXVIIII</hi> Helius Pertinax regnauit annum I.
+</p></div><div type="cap" n="282"><p>Hic supplicante senatu ut uxorem Augustam et filium Caesaremfaceret, rennuens ait sufficere sibi debere quod ipse imperaret inuitus.
+</p></div><div type="cap" n="283"><p><hi rend="bold"><num value="5000">V</num>CCCCVII</hi> Seuerus Pertinax regnauit annuos XVIII.
+</p></div><div type="cap" n="284"><p>Symmachus interpres quartus agnoscitur.
+</p></div><div type="cap" n="285"><p>Narcissus Hierusolimorum episcopus uirtutibus plurimis celebratur.
+</p></div><div type="cap" n="286"><p>Tertullianus Afer in ecclesia insignis habetur.
+</p></div><div type="cap" n="287"><p>Origenes Alexandriae studiis eruditur.
+</p></div><div type="cap" n="288"><p><hi rend="bold"><num value="5000">V</num>CCCCXIIII</hi> Antoninus Caracalla Seueri filius regnauit annos VII.
+</p></div><div type="cap" n="289"><p>In Hiericho quinta editio diuinarum scripturarum inuenta est, cuius auctor non apparet.
+</p></div><div type="cap" n="290"><p><hi rend="bold"><num value="5000">V</num>CCCCXV</hi> Macrinus regnauit annum I.
+</p></div><div type="cap" n="291"><p><hi rend="bold"><num value="5000">V</num>CCCCXVIII</hi> Aurelius Antoninus regnauit annos III.
+</p></div><div type="cap" n="292"><p>Sexta editio inuenta est Nicopoli.
+</p></div><div type="cap" n="293"><p>Sabellius heresiarces oritur.
+</p></div><div type="cap" n="294"><p><hi rend="bold"><num value="5000">V</num>CCCCXXXI</hi> Alexander regnauit annos XIII.
+</p></div><div type="cap" n="295"><p>Origenes Alexandriae claruit
+</p></div><div type="cap" n="296"><p>et Romae Vlpianus insignis iuris peritus.
+</p></div><div type="cap" n="297"><p><hi rend="bold"><num value="5000">V</num>CCCCXXXIIII</hi> Maximinus regnauit annos III.
+</p></div><div type="cap" n="298"><p>Iste primus ex militari corpore absque decreto senatus imperator efficitur
+</p></div><div type="cap" n="299"><p>et xristianos persequitur.
+</p></div><div type="cap" n="300"><p><hi rend="bold"><num value="5000">V</num>CCCCXLI</hi> Gordianus regnauit annos VII.
+</p></div><div type="cap" n="301"><p>Flauianus testimonio Spiritus sancti in specie columbae super caput eius descendentis Romae episcopus ordinatur, licet quidam hoc uerius de Zeferino adfirment.
+</p></div><div type="cap" n="302"><p><hi rend="bold"><num value="5000">V</num>CCCCXLVIII</hi> Philippus regnauit annos VII.
+</p></div><div type="cap" n="303"><p>Iste prior inter imperatores credidit Xristo.
+</p></div><div type="cap" n="304"><p>Cuius etiam primo anno millesimus annus Romanae urbis fuisse docetur expletus.
+</p></div><div type="cap" n="305"><p><hi rend="bold"><num value="5000">V</num>CCCCXLVIIII</hi> Decius regnauit annum I.
+</p></div><div type="cap" n="306"><p>Sanctus Antonius monahus Aegypto docetur exortus.
+</p></div><div type="cap" n="307"><p><hi rend="bold"><num value="5000">V</num>CCCCLI</hi> Gallus et Volusianus filius regnauerunt annos II.
+</p></div><div type="cap" n="308"><p>Nouatus Cypriani episcopi presbyter Romam ueniens Nouatianam heresem condidit.
+</p></div><div type="cap" n="309"><p><hi rend="bold"><num value="5000">V</num>CCCCLXVI</hi> Valerianus cum Gallieno regnauit annos XV.
+</p></div><div type="cap" n="310"><p>Cyprianus primum rhetor, deinde episcopus martyrio coronatur.
+</p></div><div type="cap" n="311"><p>Gothi quoque Graeciam, Macedoniam, Asiam Pontumque depopulant.
+</p></div><div type="cap" n="312"><p>Valerianus xristianis persecutionem mouens, a rege Persarum captus ibi in dedecore uitae consenuit.
+</p></div><div type="cap" n="313"><p><hi rend="bold"><num value="5000">V</num>CCCCLXVIII</hi> Claudius regnauit annos II.
+</p></div><div type="cap" n="314"><p>Iste Gothos Illiricum Macedoniamque uastantes exsuperat.
+</p></div><div type="cap" n="315"><p>Paulus Samosatenus heresiarces agnoscitur.
+</p></div><div type="cap" n="316"><p><hi rend="bold"><num value="5000">V</num>CCCCLXXIII</hi> Aurelianus regnauit annos V.
+</p></div><div type="cap" n="317"><p>Hic persecutionem aduersus xristianos efficiens fulmine corripitur et nec mora occiditur.
+</p></div><div type="cap" n="318"><p><hi rend="bold"><num value="5000">V</num>CCCCLXXIIII</hi> Tacitus regnauit annum I.
+</p></div><div type="cap" n="319"><p>Huius uitae breuitas gestorum nihil dignum praenotat.
+</p></div><div type="cap" n="320"><p><hi rend="bold"><num value="5000">V</num>CCCCLXXX</hi> Probus regnauit annos VI.
+</p></div><div type="cap" n="321"><p>Manicheorum heresis orta est.
+</p></div><div type="cap" n="322"><p><hi rend="bold"><num value="5000">V</num>CCCCLXXXII</hi> Carus cum filio Carino et Numeriano regnauit annos II.
+</p></div><div type="cap" n="323"><p>Carus postquam de Persis triumphauit, uictor circa Tigridem castra ponens ictu fulminis concidit.
+</p></div><div type="cap" n="324"><p><hi rend="bold"><num value="5000">V</num>DII</hi> Diocletianus et Maximianus regnauerunt annos XX.
+</p></div><div type="cap" n="325"><p>Diocletianus diuinis libris adustis xristianos toto orbe persequitur.
+</p></div><div type="cap" n="326"><p>Iste primus gemmas uestibus calciamentisque inseri iussit, dum sola purpura retro principes uterentur.
+</p></div><div type="cap" n="327"><p><hi rend="bold"><num value="5000">V</num>DIIII</hi> Galerius regnauit annos XXX.
+</p></div><div type="cap" n="328"><p>Huius breuitas imperii nihil dignum historiae contulit.
+</p></div><div type="cap" n="329"><p><hi rend="bold"><num value="5000">V</num>DXXXIIII</hi> Constantinus regnauit annos XXX.
+</p></div><div type="cap" n="330"><p>Iste primus imperatorum xristianus effectus licentiam dedit xristianis libere congregari et in honore Xristi basilicas construi.
+</p></div><div type="cap" n="331"><p>His temporibus heresis Arriana exoritur Nicenumque concilio a Constantino ad condemnationem Arrii congregatur.
+</p></div><div type="cap" n="332"><p>Donatistarum scisma oboritur.
+</p></div><div type="cap" n="333"><p>Per idem tempus crux Domini ab Helena Constantini matre Hierusolimis reperta est.
+</p></div><div type="cap" n="334"><p>Constantinus autem in extremo uitae suae ab Eusebio Nicomediense episcopo baptizatus in Arrianum dogma conuertitur. Heu pro dolor bono usus principio et fine malo !
+</p></div><div type="cap" n="335"><p><hi rend="bold"><num value="5000">V</num>DLVIII</hi> Constantinus et Constans regnauerunt annos XXIIII.
+</p></div><div type="cap" n="336"><p>Constans Arrianus effectus catholicos toto orbe persequitur.
+</p></div><div type="cap" n="337"><p>Cuius etiam fauore Arrius fretus, dum in Constantinopolim ad ecclesiam pergeret aduersus nostros de fide dimicaturus, diuertens per forum Constantini ad necessariam causam, uiscera eius repente simul cum uita effusa sunt.
+</p></div><div type="cap" n="338"><p>Per idem tempus Athanasius et Hilarius doctrina et confessione fidei celebrantur.
+</p></div><div type="cap" n="339"><p>Heresis Antropomorfitarum in Syria et Macedoniana in Constantinopoli nascitur.
+</p></div><div type="cap" n="340"><p>Donatus artis grammaticae scriptor ac praeceptor Hieronymi Romae inlustris habetur.
+</p></div><div type="cap" n="341"><p>Antonius monachus moritur.
+</p></div><div type="cap" n="342"><p>Ossa Andreae et Lucae apostolorum Constantinopoli transferuntur.
+</p></div><div type="cap" n="343"><p><hi rend="bold"><num value="5000">V</num>DLX</hi> Iulianus regnauit annos II.
+</p></div><div type="cap" n="344"><p>Hic ex clerico imperator effectus in idolorum cultu conuertitur martyriaque infert xristianis
+</p></div><div type="cap" n="345"><p>Qui etiam dum in odio Xristi templum in Hierusolimis Iudaeis reparare permisisset atque ex omnibus prouinciis Iudaei collecti noua templi fundamenti iacerent, subito nocte oborto terrae motu saxa ab imo fundamentorum excussa longe lateque sparsa sunt. Igneus quoque globus ab interiore aede templi egressus plurimos eorum suo prostauit incendio. Quo terrore reliqui pauefacti Xristum confitebantur inuiti, et ne hoc casu crederent factum, sequenti nocte in uestimentis cunctorum crucis apparuit signum.
+</p></div><div type="cap" n="346"><p><hi rend="bold"><num value="5000">V</num>DLXI </hi>Iouianus regnauit annum I.
+</p></div><div type="cap" n="347"><p>Qui dum se ab exercitu imperatorem fieri conspiceret seque xristianum adfirmans paganis praeesse non posse adsereret, «et nos», inquit omnis exercitus, «qui per Iulianum nomen Xristi abiecimus, tecum xristiani esse uolumus». Quibus ille auditis imperii sceptra suscepit.
+</p></div><div type="cap" n="348"><p><hi rend="bold"><num value="5000">V</num>DLXXV</hi> Valentinianus et Valens frater eius regnauerunt annos XIIII.
+</p></div><div type="cap" n="349"><p>Gothi apud Strium bifarie in Fridigerno et Atalarico diuisi sunt. Sed Fridigernus Atalaricum Valentis auxilio superans huius beneficii gratia ex catholico Arrianus cum omni gente Gothorum effectus est.
+</p></div><div type="cap" n="350"><p>Tunc Gulfilas eorum episcopus Gothicas litteras repperit et utrumque testamentum in linguam propriam transtulit.
+</p></div><div type="cap" n="351"><p>Fotinus quoque et Eunomius atque Apollinaris heretici eo tempore agnoscuntur.
+</p></div><div type="cap" n="352"><p><hi rend="bold"><num value="5000">V</num>DLXXXI</hi> Gratianus cum fratre Valentiniano regnauit annos VI.
+</p></div><div type="cap" n="353"><p>Ambrosius Mediolanensis episcopus in catholicorum dogmate claruit.
+</p></div><div type="cap" n="354"><p>Priscillanus heresim sui nominis condidit.
+</p></div><div type="cap" n="355"><p>Martinus episcopus Turonorum Galliae ciuitatis multis miraculorum signis effulsit.
+</p></div><div type="cap" n="356"><p><hi rend="bold"><num value="5000">V</num>DXC</hi> Valentinianus cum Theodosio regnauit annos VIIII.
+</p></div><div type="cap" n="357"><p>Synodus Constantinopoli CL sanctorum patrum collegitur, in quo omnes hereses condemnatur.
+</p></div><div type="cap" n="358"><p>Hieronymus presbyter in Bethleem toto mundo clarus habetur.
+</p></div><div type="cap" n="359"><p>Priscillianus accusante Itacio a Maximo tyranno gladio caeditur.
+</p></div><div type="cap" n="360"><p>Per idem tempus caput Iohannis baptistae Constantinopoli est perductum et in septimo miliario ciuitatis humatum.
+</p></div><div type="cap" n="361"><p>Gentium quoque templa per totum orbem iubente Theodosio eodem tempore subuertuntur, nam adhuc intemerata manebant.
+</p></div><div type="cap" n="362"><p><hi rend="bold"><num value="5000">V</num>DXCIII</hi> Theodosius cum Arcadio et Honorio regnauit annos III.
+</p></div><div type="cap" n="363"><p>Per idem tempus Iohannes anachorita insigniter claruit.
+</p></div><div type="cap" n="364"><p>Qui etiam Theodosio consulenti de Eugenio tyranno uictoriam illi praedixit.
+</p></div><div type="cap" n="365"><p><hi rend="bold"><num value="5000">V</num>DCVI</hi> Arcadius cum fratre Honorio regnauit annos XIII.
+</p></div><div type="cap" n="366"><p>Huius temporibus Donatus Epiri episcopus uirtutibus insignis est habitus. Qui draconem ingentem expuens in ore eius necauit, quem octo iuga boum ad locum incendii uix trahere potuerunt, ne aere putredo eius corrumperet.
+</p></div><div type="cap" n="367"><p>Per idem tempus corpora sanctorum Abbacuc et Micheae prophetarum diuina reuelatione produntur.
+</p></div><div type="cap" n="368"><p>Gothi Italiam, Vuandali atque Alani Gallias adgrediuntur.
+</p></div><div type="cap" n="369"><p>Augustinus quoque episcopus doctrinae scientia insignis habetur.
+</p></div><div type="cap" n="370"><p>Iohannes quoque Constantinopolitanus et Theophilus Alexandrinus inlustres episcopi praedicantur.
+</p></div><div type="cap" n="371"><p><hi rend="bold"><num value="5000">V</num>DCXXI</hi> Honorius cum Theodosio minore fratris filio regnauit annos XV.
+</p></div><div type="cap" n="372"><p>His imperantibus Gothi Romam capiunt.
+</p></div><div type="cap" n="373"><p>Vuandali quoque Spanias et Sueui Gallaeciam occupant.
+</p></div><div type="cap" n="374"><p>Hac tempestate Pelagius aduersus Xristi gratiam erroris sui dogmata praedicat, ad cuius damnationem concilium apud Cartaginem CCXIIII episcoporum congregantur.
+</p></div><div type="cap" n="375"><p>Hoc tempore Cyrillus Alexandriae episcopus insignis est habitus.
+</p></div><div type="cap" n="376"><p><hi rend="bold"><num value="5000">V</num>DCXLVIII</hi> Theodosius minor Arcadii filius regnauit annos XXVII.
+</p></div><div type="cap" n="377"><p>Gens Vuandalorum ab Spaniis ad Africam transit ibique catholicam fidem Arriana impietate subuertit.
+</p></div><div type="cap" n="378"><p>Per idem tempus Nestorius Constantinopolitanus episcopus suae perfidiae molitur errorem, aduersus quem Ephesena synodus congregata eius impia dogma condemnat.
+</p></div><div type="cap" n="379"><p>Hoc etiam tempore diabolus in specie Moysi Iudaeis in Creta apparens, dum eos per mare pede sicco ad terram repromissionis promittit perducere, plurimis necatis reliqui, qui saluati sunt, confestim ad Xristi gratiam conuertuntur.
+</p></div><div type="cap" n="380"><p><hi rend="bold"><num value="5000">V</num>DCLIIII</hi> Marcianus regnauit annos VI.
+</p></div><div type="cap" n="381"><p>Cuius initio Calcedonense concilium geritur, ubi Eutices cum Dioscoro Alexandrino episcopo condemnantur.
+</p></div><div type="cap" n="382"><p>Huius etiam sexto imperatoris anno Theudericus rex Gothorum cum ingenti exercitu Spaniam ingreditur.
+</p></div><div type="cap" n="383"><p><hi rend="bold"><num value="5000">V</num>DCLXX</hi> Leo maior cum Leone minore regnauit annos XVI.
+</p></div><div type="cap" n="384"><p>Alexandria et Aegyptus errore Dioscori heretici languens inmundo repleta spiritu canina rabie latrat.
+</p></div><div type="cap" n="385"><p>Per idem tempus apparuit heresis Acefalorum Calcedonense concilium inpugnantium. Atque ideo “Acefali”, id est sine capite, nominantur, quia quis primus eam heresem introduxerit, non inuenitur. Cuius heresis peste plurimi actenus Orientalium languent.
+</p></div><div type="cap" n="386"><p><hi rend="bold"><num value="5000">V</num>DCLXXXVII</hi> Zenon regnauit annos XVII.
+</p></div><div type="cap" n="387"><p>Iste Zenon Leonem Augustum filium suum interficere quaerens, pro eo mater eius alium figura similem obtulit ipsumque Leonem occulte clericum fecit. Quique in clericatu usque ad Iustiniani tempore uixit.
+</p></div><div type="cap" n="388"><p>Per idem tempus corpus Barnabae apostoli et euangelium Mathei eius stilo scriptum ipso reuelante repertum est.
+</p></div><div type="cap" n="389"><p><hi rend="bold"><num value="5000">V</num>DCCXIIII</hi> Anastasius regnauit annos XXVII.
+</p></div><div type="cap" n="390"><p>Trasamundus Vuandalorum rex catholicas ecclesias claudit et CXX episcopos exilio in Sardiniam mittit.
+</p></div><div type="cap" n="391"><p>Fulgentius quoque in confessione fidei et scientia floruit.
+</p></div><div type="cap" n="392"><p>Per idem tempus apud Cartaginem Olimpius quidam Arrianus in balneis sanctam trinitatem blasphemans tribus igneis iaculis angelo emittente uisibiliter est conbustus.
+</p></div><div type="cap" n="393"><p>Barbas quoque quidam Arrianus episcopus, dum contra regulam fidei quendam baptizans dixisset «baptizat te Barbas in nomine Patris per Filium in Spiritu sancto», statim aqua, quae fuerat ad baptizandum deportata, nusquam conparuit. Quod aspiciens qui baptizandus erat confestim ad catholicam ecclesiam abiit et iuxta morem fidei baptismum Xristi suscepit.
+</p></div><div type="cap" n="394"><p><hi rend="bold"><num value="5000">V</num>DCCXXII</hi> Iustinus maior regnauit annos VIII.
+</p></div><div type="cap" n="395"><p>Post Trasamundum Childericus ex Valentiniani imperatoris captiua filia genitus in Vuandalis regnum suscepit.
+</p></div><div type="cap" n="396"><p>Qui sacramento a Trasamundo obstrictus, ne catholicis in regno suo consuleret, antequam regnum susciperet episcopos ab exilio reuerti iussit eisque ecclesias reformari praecepit.
+</p></div><div type="cap" n="397"><p><hi rend="bold"><num value="5000">V</num>DCCLXI</hi> Iustinianus regnauit annos XXXVIIII.
+</p></div><div type="cap" n="398"><p>Belisarius patricius mirabiliter de Persis triumpauit.
+</p></div><div type="cap" n="399"><p>Qui deinde a Iustiniano in Africam missus Vuandalorum gentem deleuit.
+</p></div><div type="cap" n="400"><p>Per idem tempus corpus sancti Antonii monachi diuina reuelatione repertum Alexandria perducitur et ecclesia sancti Iohannis baptistae humatur.
+</p></div><div type="cap" n="401"><p><hi rend="bold"><num value="5000">V</num>DCCLXXII</hi> Iustinus minor regnauit annos XI.
+</p></div><div type="cap" n="402"><p>Narsis patricius postquam sub Iustiniano Augusto Totilanem Gothorum regem in Italiam superauit, Sofiae Augustae Iustini coniugis minis perterritus Langobardos a Pannoniis inuitauit eosque in Italiam introducit.
+</p></div><div type="cap" n="403"><p>Hac tempestate Leuuigildus rex Gothorum quasdam Spaniae regiones sibi rebelles in potestatem sui regni superando redigit.
+</p></div><div type="cap" n="404"><p><hi rend="bold"><num value="5000">V</num>DCCLXXVIIII</hi> Tiberius regnauit annos VII.
+</p></div><div type="cap" n="405"><p>Gothi per Ermenegildum Leuuigildi regis filium bifariae diuisi mutua caede uastantur.
+</p></div><div type="cap" n="406"><p><hi rend="bold"><num value="5000">V</num>DCCC</hi> Mauricius regnauit annos XXI.
+</p></div><div type="cap" n="407"><p>Sueui a Leuuigi rege obtenti Gothis subiciuntur.
+</p></div><div type="cap" n="408"><p>Gothi Reccaredo principe innitente ad fidem catholicam reuertuntur.
+</p></div><div type="cap" n="409"><p>Auares aduersus Romanos dimicantes auro magis quam ferro pelluntur.
+</p></div><div type="cap" n="410"><p><hi rend="bold"><num value="5000">V</num>DCCCVIII</hi> Focas regnauit annos VIII.
+</p></div><div type="cap" n="411"><p>Iste seditione militari imperator effectus Mauricium Augustum nobiliumque multos interfecit.
+</p></div><div type="cap" n="412"><p>Huius tempore Prasini et Veneti per Orientem uel Aegyptum ciuile bellum faciunt ac sese mutua caede prosternunt.
+</p></div><div type="cap" n="413"><p>Proelia quoque Persarum grauissima aduersus rem publicam excitantur. A quibus Romani fortiter debellati plurimas prouincias et ipsam Hierusolimam amiserunt.
+</p></div><div type="cap" n="414"><p><hi rend="bold"><num value="5000">V</num>DCCCXIII</hi> Eraclius dehinc quintum agit annum imperii.
+</p></div><div type="cap" n="415"><p>Sisebutus Gothorum gloriosissimus princeps in Spania plurimas Romanae militiae urbes sibi bellando subiecit
+</p></div><div type="cap" n="416"><p>et Iudaeos sui regni subditos ad Xristi fidem conuertit.
+</p></div><div type="cap" n="417"><p>Fiunt igitur ab exordio mundi usque in eram praesentem, hoc est in anno quinto imperatoris Eraclii et quarto religiosissimi principis Sisebuti, anni <num value="5000">V</num>DCCCXIII.
+</p></div><div type="cap" n="418"><p>Residuum saeculi tempus humanae inuestigationis incertum est. Omnem enim de hac re quaestionem Dominus Ihesus Xristus abstulit dicens <hi rend="italic">«non est uestrum scire tempora uel momenta quae Pater posuit in sua potestate»</hi> et alibi <hi rend="italic">«de die autem»</hi>, inquit, <hi rend="italic">«et hora nemo scit neque angeli caelorum nisi solus Pater»</hi>. Vnus quisque ergo de suo cogitet transitu, sicut sacra scriptura ait <hi rend="italic">«in omnibus operibus tuis memorare nouissima tua, et in aeternum non peccabis »</hi></p>
+<p>Quando enim quisque de saeculo migrat, tunc illi <hi rend="italic">consummatio saeculi est</hi>.</p>
+</div>
+    </div>
+
+
+<div type="section"><head>Recensio 2</head>
+<p>INCIPIT CHRONICA ISIDORI</p>
+
+<div type="cap" n="1"><p> Breuem temporum per generationes et regna primus ex nostris Iulius Africanus sub imperatore Marco Aurelio Antonino simplici historiae stilo elicuit. Dehinc Eusebius Caesariensis atque sanctae memoriae Hieronymus chronicorum canonum multiplicem ediderunt historiam regnis simula c temporibus ordinatam. Post hos alii atque alii, inter quos praecipue Victor Tonnonensis ecclesiae episcopus recensitis praedictorum historiis gesta sequentium aetatum usque ad consulatum Iustini iunioris expleuit.
+</p></div><div type="cap" n="2"><p> Horum nos temporum summam ab exordio mundi usque ad Augusti Eracli uel Suinthilani regis temporibus quanta potuimus breuitate notauimus, adicientes e latere descendentem lineam temporum, cuius indicio summa praeteriti saeculi cognoscatur.
+</p></div><div type="cap" n="2a"><p> Prima aetas saeculi.
+</p></div><div type="cap" n="3"><p> Sex diebus rerum omnium creaturam deus formauit: primo die condidit lucem, secundo <hi rend="italic">firmamentum caeli</hi>, tertio speciem maris et terrae, quarto sidera, quinto pisces et uolucres, sexto <hi rend="italic">bestias atque iumenta</hi>, nouissime <hi rend="italic">ad similitudinem suam hominem</hi> primum Adam.
+</p></div><div type="cap" n="4"><p> <hi rend="bold">CCXXX</hi> Adam annorum CCXXX genuit Seth, qui <hi rend="italic">pro Abel</hi> natus est interpretaturque resurrectio quia in ipso resuscitatum est semen iustum, quod est stirpis filiorum dei.
+</p></div><div type="cap" n="5"><p><hi rend="bold">CCCCXXXV</hi> Seth annorum CCV genuit Enos, qui primus <hi rend="italic">coepit inuocare nomen domini</hi>.
+</p></div><div type="cap" n="6"><p><hi rend="bold">DCXXV</hi> Enos annorum CXC gnuit Cainan.
+</p></div><div type="cap" n="6a"><p> Per idem tempus Cain primus ante diluuium ciuitatem condidit quam de sola multitudine posteritatis suae impleuit.
+</p></div><div type="cap" n="7"><p><hi rend="bold">DCCXCV</hi> Cainan annorum CLXX genuit Malalehel, cui nomen dicitur plantatio dei.
+</p></div><div type="cap" n="8"><p> <hi rend="bold">DCCCCLX</hi> Malalehel annorum CLXV genuit Iareth, qui interpretatur descendens siue roborans.
+</p></div><div type="cap" n="9"><p> <hi rend="bold">ĪCXXII</hi> Iareth annorum CLXII genuit Enoch, qui translatus est a deo quique etiam nonnulla scripsisse fertur, sed ob antiquitatem suspectae fidei a patribus refutata sunt.
+</p></div><div type="cap" n="10"><p> <hi rend="bold">ĪCCLXXXVII</hi> Enoch annorum CLXV genuit Matusalam, qui iuxta annorum seriem uixisse quattordecim annis post diluuium reperitur. Propter quod eum nonnulli cum patre suo Enoch, qui translatus fuerat, aliquantulum fuisse, donec diluuium praeteriret, falsa opinione existimant.
+</p></div><div type="cap" n="11"><p> Hac generatione concupierunt filii dei filias hominum.
+</p></div><div type="cap" n="12"><p><hi rend="bold">ĪCCCCLIIII</hi> Matusalam annorum CLXVII genuit Lamech.
+</p></div><div type="cap" n="13"><p> Hac generatione Gigantes nati sunt.
+</p></div><div type="cap" n="14"><p> Hac quoque aetate Iubal ex genere Cain artem musicam repperit, cuius etiam frater Tubalcain <hi rend="italic">aeris ferrique</hi> inuentor fuit.
+</p></div><div type="cap" n="15"><p><hi rend="bold">ĪDCXLII</hi> Lamech annorum CLXXXVIII genuit Noe, cuius diuino oraculo arca aedificare iubetur anno aetatis suae quingentesimo.
+</p></div><div type="cap" n="16"><p> His temporibus, ut refert Iosephus, scientes illi homines quod aut igne aut aquis perire poterant, in duabus columnis ex latere et lapide factis studia sua conscripserunt ne delerentur memoria quae sapienter inuenerant. Quarum lapidea columna fertur diluuium euasisse et actenus in Syria permanere.
+</p></div><div type="cap" n="17"><p> <hi rend="bold">ĪĪCCXLII</hi> Noe annorum DC factum legitur diluuium, cuius arcam Iosephus sedisse refert in montes Armeniae qui uocatur Ararat.
+</p></div><div type="cap" n="18"><p> Fuerunt autem Noe filii tres, ex quibus septuaginta duae gentes sunt ortae id est XV de Iafeth, XXX de Cham, XXVII de Sem.
+</p></div><div type="cap" n="18a"><p> Secunda aetas saeculi.
+</p></div><div type="cap" n="19"><p><hi rend="bold">ĪĪCCXLIIII</hi> Sem anno secundo post diluuium genui Arfaxat, a quo gens Chaldeorum exorta est
+</p></div><div type="cap" n="19a"><p> Iste Sem fertur fuisse Melchisedech qui primus post diluuium condidit urbem Salem, quae nunc uocatur Hierusalem.
+</p></div><div type="cap" n="20"><p><hi rend="bold">ĪĪCCCLXXVIIII</hi> Arfatax annorum CXXXV genuit Salam, a quo antiqui Samaritae uel Indii.
+</p></div><div type="cap" n="21"><p><hi rend="bold">ĪĪDVIIII</hi> Sala annorum CXXX genuit Heber, a quo Hebrei nuncupati sunt.
+</p></div><div type="cap" n="22"><p><hi rend="bold">ĪĪDCXLIII</hi> Heber annorum CXXXIIII genuit Falech, cuius tempore turris aedificata est factaque linguarum diuisio. Huius turris altitudo quinque milia centum septuaginta quattuor dicitur tenere passuum, paulatim a latioribus in angustiis coartata ut pondus inminens facilius sustentaret. Describunt ibi templa marmorea lapidibus pretiosis auroque distincta et multa alia quae uidentur incredibilia. Hanc turrem Nebroth gigans construxit, qui post confusionem linguarum migrauit inde ad Persas eosque ignem colere docuit.
+</p></div><div type="cap" n="23"><p><hi rend="bold">ĪĪDCCLXXIII</hi> Falech annorum CXXX genuit Ragau.
+</p></div><div type="cap" n="24"><p> His temporibus primum templa constructa sunt et quidam principes gentium tamquam dii adorari coeperunt.
+</p></div><div type="cap" n="25"><p><hi rend="bold">ĪĪDCCCCV</hi> Ragau annorum CXXXII genuit Seruch.
+</p></div><div type="cap" n="26"><p> Sub quo Scitarum regnum exortum est, ubi primus regnauit Tanus.
+</p></div><div type="cap" n="27"><p><hi rend="bold">ĪĪĪXXXV</hi> Seruch annorum CXXX genuit Nahor.
+</p></div><div type="cap" n="28"><p> Aegyptiorum regnum sumit principium, ubi primus regnauit Zoes.
+</p></div><div type="cap" n="29"><p><hi rend="bold">ĪĪĪCXIIII</hi> Nahor annorum LXXVIIII genuit Thara.
+</p></div><div type="cap" n="30"><p> Sub quo regnum Assyriorum Siciniorumque exoritur. Sed primus in Assyriis regnauit Belus, quem quidam Saturnum existimant; primusque in Siciniis Agialeus, a quo Agialea noncupata est, quae actenus Peloponensis uocatur.
+</p></div><div type="cap" n="(33a)"><p> Tertia aetas saeculi.
+</p></div><div type="cap" n="31"><p><hi rend="bold">ĪĪĪCLXXXIIII</hi> Thara annorum LXX genuit Abraham.
+</p></div><div type="cap" n="31a"><p> Per idem tempus Ninus rex Assyriorum regnauit, qui primus bella instituit et armorum instrumenta inuenit.
+</p></div><div type="cap" n="32"><p> <gap/>
+</p></div><div type="cap" n="32a"><p>Hac aetate magica ars in Persida a Zoroastre rege Bactrianorum reperta est.
+</p></div><div type="cap" n="33"><p>Muri quoque Babyloniae a Semiramide regina Assyriorum hoc tempore aedificantur.
+</p></div><div type="cap" n="34"><p> <hi rend="bold">ĪĪĪCCLXXXIIII</hi> Abraham annorum C genuit Isaac ex Sarra libera. Nam primum ex ancilla Agar genuerat Ismahel, a quo Ismahelitarum gens, qui postea Agareni, ad ultimum Sarraceni sunt dicti.
+</p></div><div type="cap" n="35"><p> <hi rend="bold">ĪĪĪCCCXLIIII</hi> Isaac annorum LX genuit geminos, quorum primus Esau. a quo Idumei, secundus Iacob, qui cognominatus est Israhel, a quo et Israhelitae sunt nuncupati.
+</p></div><div type="cap" n="36"><p> Hoc tempore regnum Graecorum inchoat, ubi primus regnauit Inachus.
+</p></div><div type="cap" n="37"><p><gap/>
+</p></div><div type="cap" n="38"><p><gap/>
+</p></div><div type="cap" n="39"><p> <hi rend="bold">ĪĪĪCCCCXXXIIII</hi> Iacob annorum XC genuit Ioseph.
+</p></div><div type="cap" n="40"><p> His temporibus Sirapis Iouis filius Aegyptiorum rex moriens in deos transfertur.
+</p></div><div type="cap" n="(38)"><p>Tunc apud lacum Tritonidem Miuerua in specie uirginali apparuit, quae plurimis claruisse ingeniis praedicatur. Haec enim inuentrix fabricae fuisse dicitur, clipeum et arcum haec repperit, ordire telam et colorare lanas haec docuit.
+</p></div><div type="cap" n="(37)"><p>Hac etiam aetate Foroneus rex Inachi filius claruit, qui primus in Graecia legis iudiciaque instituit.
+</p></div><div type="cap" n="41"><p><gap/>
+</p></div><div type="cap" n="42"><p><hi rend="bold">ĪĪĪDXLIIII</hi> Ioseph annos CX.
+</p></div><div type="cap" n="43"><p>Hoc tempore Graecia Argo regnante habere segetes coepit delatis aliunde seminbus.
+</p></div><div type="cap" n="44"><p><hi rend="bold">ĪĪĪDCLXXXVIII</hi> Hebreorum seruitutis in Aegypto annos CXLIIII.
+</p></div><div type="cap" n="45"><p> His temporibus Prometheus fuisse scribitur, quemfingunt fabulae de luto formasse omines.
+</p></div><div type="cap" n="46"><p><gap/>
+</p></div><div type="cap" n="46a"><p>Tunc etiam frater eius Atlans astrologiam repperit motumque caeli et rationem primus considerauit.
+</p></div><div type="cap" n="47"><p>Tunc fuit et Mercurius nepus Atlantis multarum artium peritus et ob hoc post mortem in deos translatus.
+</p></div><div type="cap" n="48"><p> Hac etiam aetate primus Prociclus quadrigam iunxit.
+</p></div><div type="cap" n="49"><p> Eodemque tempore Cecrobs Athenas condidit et ex nomine Mineruae Atticos Athenienses uocauit.
+</p></div><div type="cap" n="50"><p> Iste etiam bouem immolans primus in sacrificio Iouem adorare praecepit.
+</p></div><div type="cap" n="(46b)"><p>Hoc etiam tempore in Graecia Corinthus condita ibique picturae ars a Cleanthe reperta.
+</p></div><div type="cap" n="51"><p>Coretes et Coribantes modulatam in armis saltationem et consonam primi tunc inuenerunt.
+</p></div><div type="cap" n="52"><p> Tunc etiam fuisse scribitur in Tessalia sub Diocalione factum diluuium
+</p></div><div type="cap" n="53"><p> et Faetontis fabulosum incendium.
+</p></div><div type="cap" n="54"><p><hi rend="bold">ĪĪĪDCCXXVIII</hi> Moyses annos XL in heremo rexit populum de seruitute Aegyptia liberatum.
+</p></div><div type="cap" n="55"><p> Hoc tempore Iudaei per Moysen simul cum lege et litteras habere coeperunt.
+</p></div><div type="cap" n="56"><p> Tunc templum Delphis construitur,
+</p></div><div type="cap" n="57"><p> Lacedemon conditur,
+</p></div><div type="cap" n="58"><p>uitis in Graecia inuenitur.
+</p></div><div type="cap" n="59"><p><hi rend="bold">ĪĪĪDCCLV</hi> Iosue successor Moysi rexit populum annos XXVII.
+</p></div><div type="cap" n="60"><p> His temporibus primus Erectonius Athenensium princeps in Graeciam quadrigam iunxit.
+</p></div><div type="cap" n="61"><p><hi rend="bold">ĪĪĪDCCXCV</hi> Gothonihel annos XL.
+</p></div><div type="cap" n="62"><p> Cadmus regnat Thebis, qui primus Graecas litteras adinuenit.
+</p></div><div type="cap" n="63"><p>Linus quoque et Anfion apud Graecos in musica arte primi tunc claruerunt.
+</p></div><div type="cap" n="64"><p><gap/>
+</p></div><div type="cap" n="64a"><p>Ideique Dactili ferri metallum in Graecia eodem tempore inuenerunt.
+</p></div><div type="cap" n="65"><p><hi rend="bold">ĪĪĪDCCCLXXV</hi> Aoth annos LXXX.
+</p></div><div type="cap" n="66"><p> His temporibus fabulae fictae sunt de Treptolemo, quod iubente Cerere serpentium pinnis gestatus indigentibus frumenta uolando distribuerit ;
+</p></div><div type="cap" n="67"><p> de Hipocentarius, quod equorum hominumque fuerint natura permixti ;
+</p></div><div type="cap" n="68"><p> de Cerbero tricipite inferorum cane ;
+</p></div><div type="cap" n="69"><p> de Frixo et Helle sorore sua, quod ariete uecti per aerem uolauerint;
+</p></div><div type="cap" n="70"><p> de Gorgone meretrice, quae crinita serpentibus fuerit et aspicientes conuertebat in lapides;
+</p></div><div type="cap" n="71"><p> de Bellorofonte, quod equo pinnis uolante sit uectus ;
+</p></div><div type="cap" n="72"><p> de Anfione, quod citharae cantu lapides et saxa commouerit.
+</p></div><div type="cap" n="73"><p> <hi rend="bold">ĪĪĪDCCCCXV</hi> Debbora annos XL.
+</p></div><div type="cap" n="74"><p>Per idem tempus Apollo citharam condidit et medicinae artem inuenit.
+</p></div><div type="cap" n="75"><p> Fabula quoque tunc ficta est de fabro Dedalo et eius Icaro filio, quod coaptatis sibi pinnis uolauerint.
+</p></div><div type="cap" n="76"><p> Hac aetate primus regnat Latinis Picus, qui fertur fuisse Saturni filius.
+</p></div><div type="cap" n="77"><p><hi rend="bold">ĪĪĪDCCCCLV</hi> Gedeon annos XL.
+</p></div><div type="cap" n="77a"><p>Hac aetate alter Mercurius lyram repperit et Orpheo tradidit.
+</p></div><div type="cap" n="77b"><p>Hoc tempore Filemon primus apud Pitium chorum instituit.
+</p></div><div type="cap" n="78"><p><gap/>
+</p></div><div type="cap" n="79"><p><gap/>
+</p></div><div type="cap" n="80"><p>Argonautarum quoque nauigatio tunc scribitur.
+</p></div><div type="cap" n="81"><p><hi rend="bold">ĪĪĪDCCCCLVIII</hi> Abimelech annos III.
+</p></div><div type="cap" n="82"><p><gap/>
+</p></div><div type="cap" n="82a"><p>Hercules Ilium uastat
+</p></div><div type="cap" n="(88)"><p>et Anteum palestrae artis inuentorem interimit.
+</p></div><div type="cap" n="83"><p><hi rend="bold">ĪĪĪDCCCCLXXXI</hi> Tola annos XXIII.
+</p></div><div type="cap" n="84"><p> Huius temporibus in Troia post Laumedontem regnauit Priamus.
+</p></div><div type="cap" n="85"><p> Tunc fabula ficta est de minotauro bestia laberinto inclusa.
+</p></div><div type="cap" n="86"><p> <hi rend="bold">ĪĪĪĪIII</hi> Iait annos XXII.
+</p></div><div type="cap" n="87"><p>Hercules agonem Olympiacum instituit.
+</p></div><div type="cap" n="88"><p><gap/>
+</p></div><div type="cap" n="(97)"><p>Carmentis nympha Latinas litteras repperit.
+</p></div><div type="cap" n="89"><p><hi rend="bold">ĪĪĪĪVIIII</hi> Iepte annos VI.
+</p></div><div type="cap" n="90"><p> Huius tempore Hercules quinquagesimum secundum annum agens ob morbi dolorem sese flammis iniecit. 
+</p></div><div type="cap" n="(91)"><p><gap/>
+</p></div><div type="cap" n="92"><p><hi rend="bold">ĪĪĪĪXVI</hi> Abessa annos VII.
+</p></div><div type="cap" n="(91)"><p>Per idem tempus Alexander Helenam rapuit Troianumque bellum decennale surrexit.
+</p></div><div type="cap" n="93"><p>Amazones arma sumpserunt.
+</p></div><div type="cap" n="94"><p> <hi rend="bold">ĪĪĪĪXXIIII</hi> Abdon annos VIII.
+</p></div><div type="cap" n="95"><p>Troia capitur
+</p></div><div type="cap" n="96"><p>et Aeneas Italiam uenit.
+</p></div><div type="cap" n="97"><p><gap/>
+</p></div><div type="cap" n="98"><p> <hi rend="bold">ĪĪĪĪXLIIII</hi> Samson annos XX.
+</p></div><div type="cap" n="99"><p> Ascanius Aeneae filius Albam condidit.
+</p></div><div type="cap" n="100"><p> Vlixis quoque fabulae uel sirenarum eodem tempore fictae sunt.
+</p></div><div type="cap" n="101"><p><hi rend="bold">ĪĪĪĪLXXXIIII</hi> Heli sacerdos annos XL.
+</p></div><div type="cap" n="102"><p> Arca testamenti ab allofilis capitur
+</p></div><div type="cap" n="103"><p> regnumque Siciniorum finitur.
+</p></div><div type="cap" n="104"><p><hi rend="bold">ĪĪĪĪCXXIII</hi> Samuhel et Saul annos XL.
+</p></div><div type="cap" n="105"><p> Lacedemoniorum regnum exoritur
+</p></div><div type="cap" n="106"><p>atque in Graecia Homerus poeta primus fuisse putatur.
+</p></div><div type="cap" n="106a"><p> Quarta aetas saeculi.
+</p></div><div type="cap" n="107"><p><hi rend="bold">ĪĪĪĪCLXIIII</hi> Dauid regnauit annos XL. 
+</p></div><div type="cap" n="108"><p>Codrus Atheniensium rex sponte se pro salute patriae hostibus offerens interimitur
+</p></div><div type="cap" n="109"><p>et Cartago a Didone aedificatur.
+</p></div><div type="cap" n="110"><p> Prophetantibus in Iudaea Gad, Nathan et Asaph.
+</p></div><div type="cap" n="111"><p><hi rend="bold">ĪĪĪĪCCIIII</hi> Salomon regnauit annos XL.
+</p></div><div type="cap" n="112"><p> Iste quarto regni sui anno templum Hierusolimis aedificauit consummauitque anno octauo.
+</p></div><div type="cap" n="113"><p><hi rend="bold">ĪĪĪĪCCXXI</hi> Roboam regnauit annos XVII.
+</p></div><div type="cap" n="114"><p>Sub quo decem tribus a duabus separatae sunt et reges in Samaria habere coeperunt.
+</p></div><div type="cap" n="115"><p>Hac aetate Samus conditur.
+</p></div><div type="cap" n="116"><p> Sibilla Eritria inlustris habetur.
+</p></div><div type="cap" n="117"><p><hi rend="bold">ĪĪĪĪCCXXIIII</hi> Abia regnauit annos III.
+</p></div><div type="cap" n="118"><p> Sub quo Hebreorum pontifex maximus Abimelech insignis est habitus.
+</p></div><div type="cap" n="119"><p> <hi rend="bold">ĪĪĪĪCCLXV</hi> Asa regnauit annos XLI.
+</p></div><div type="cap" n="120"><p> Prophetabant in Iudaea Achias, Ieu, Amos, Iohel et Azarias.
+</p></div><div type="cap" n="121"><p><hi rend="bold">ĪĪĪĪCCXC</hi> Iosaphat regnauit annos XXV.
+</p></div><div type="cap" n="122"><p> Prophetabant Helias, Abdias et Micheas.
+</p></div><div type="cap" n="123"><p> <hi rend="bold">ĪĪĪĪCCXCVIII</hi> Ioram regnauit annos VIII.
+</p></div><div type="cap" n="124"><p>Prophetabant Helias et Heliseus.
+</p></div><div type="cap" n="125"><p> <hi rend="bold">ĪĪĪĪCCXCVIIII</hi> Ochozias regnauit annum I.
+</p></div><div type="cap" n="126"><p>Helias rapitur, cuius septem insignia miracula numerantur.
+</p></div><div type="cap" n="127"><p><hi rend="bold">ĪĪĪĪCCCVI</hi> Athalia regnauit annos VII.
+</p></div><div type="cap" n="128"><p> Ionadab sacerdos, filius Recab, clarus habetur
+</p></div><div type="cap" n="129"><p> et Ioiade pontifex, qui solus post Moysen uixisse annis CXXX perhibetur.
+</p></div><div type="cap" n="130"><p><hi rend="bold">ĪĪĪĪCCCXLVI</hi> Ioas regnauit annos XL.
+</p></div><div type="cap" n="131"><p> Zacharias propheta occiditur.
+</p></div><div type="cap" n="132"><p> Heliseus moritur,cuius uirtutes quattuordecim praedicantur.
+</p></div><div type="cap" n="133"><p>Ligurgus quoque legislator Apollinis apud Graeciam insignis habetur.
+</p></div><div type="cap" n="134"><p><hi rend="bold">ĪĪĪĪCCCLXXV</hi> Amasias regnauit annos XXVIIII.
+</p></div><div type="cap" n="134a"><p>Cartaginem hoc tempore quidam asserunt conditam, alii ut superius.
+</p></div><div type="cap" n="135"><p><hi rend="bold">ĪĪĪĪCCCCXXVII</hi> Ozias regnauit annos LII.
+</p></div><div type="cap" n="(140)"><p>Olympias primum a Graecis instituitur.
+</p></div><div type="cap" n="(140a)"><p>Agnus in Aegypto loquitur.
+</p></div><div type="cap" n="136"><p>Sardanapallus rex spontaneo oncendio concrematur
+</p></div><div type="cap" n="137"><p>Assyriorumque regnum in Medos transfertur.
+</p></div><div type="cap" n="138"><p>Tunc Esiodus poeta claruit
+</p></div><div type="cap" n="139"><p>atque Fidon Argiuus mensuras et pondera repperit.
+</p></div><div type="cap" n="140"><p><gap/>
+</p></div><div type="cap" n="141"><p> Osee, Amos, Esaia et Iona in Iudaea prophetauerunt.
+</p></div><div type="cap" n="142"><p><hi rend="bold">ĪĪĪĪCCCCXLIII</hi> Ioathan regnauit annos XVI.
+</p></div><div type="cap" n="143"><p>Remus Romulusque nascuntur.
+</p></div><div type="cap" n="144"><p> Prophetantibus in Iudaea Osee et Iohel, Esaia et Michea.
+</p></div><div type="cap" n="145"><p><hi rend="bold">ĪĪĪĪCCCCLVIIII</hi> Achaz regnauit annos XVI.
+</p></div><div type="cap" n="146"><p>Huius temporibus Romulus Romam condidit,
+</p></div><div type="cap" n="147"><p>et Sennacherib Assyriorum rex decem tribus in Medis transduxit atque in Iudaea Samaritas accolas misit.
+</p></div><div type="cap" n="148"><p><hi rend="bold">ĪĪĪĪCCCCLXXXVIII</hi> Ezechias regnauit annos XXVIIII.
+</p></div><div type="cap" n="149"><p> Sub quo prophetabant Esaias et Osee.
+</p></div><div type="cap" n="150"><p> Hoc tempore Romulus primus milites ex populo sumpsit centumque a populo nobilissimos uiros elegit, quos ob aetatem senatores, ob cura mac sollicitudinem rei publicaepatres uocati sunt.
+</p></div><div type="cap" n="151"><p> <hi rend="bold">ĪĪĪĪDXLIII</hi> Manasses regnauit annos LV.
+</p></div><div type="cap" n="152"><p>Per idem tempus Romanis praefuit Numa Pompilius, qui primus pontifices et uirgines Vestales instituit, falsorum deorum numerositate ciuitatem impleuit.
+</p></div><div type="cap" n="153"><p><gap/>
+</p></div><div type="cap" n="153a"><p>Duos menses in annum Romanis ad decem menses adiecit Ianuarium diis superis, Februarium diis inferis dedicauit.
+</p></div><div type="cap" n="154"><p>Tunc quoque Sibilla Samia claruit.
+</p></div><div type="cap" n="155"><p><hi rend="bold">ĪĪĪĪDLV</hi> Amon regnauit annos XII.
+</p></div><div type="cap" n="156"><p>Huius temporibus Tullius Hostilius primus purpura et fascibus usus est priorque in re publica cesum egit, quod adhuc per orbem terrarum incognitum erat.
+</p></div><div type="cap" n="157"><p><hi rend="bold">ĪĪĪĪDLXXXVII</hi> Iosias regnauit annos XXXII.
+</p></div><div type="cap" n="158"><p>Tales Milesius philosophus phisicus claruit, qui defectus solis acutissima perscrutatione, conprehensis astrologiae numeris, primus inuestigauit.
+</p></div><div type="cap" n="159"><p>Prophetantibus in Iudaea Heremia, Olda et Sofonia.
+</p></div><div type="cap" n="160"><p><hi rend="bold">ĪĪĪĪDCXVIII</hi> Ioachim regnauit annos XI.
+</p></div><div type="cap" n="161"><p> Huius tertio anno Nabuchodonosor Iudaeam captam tributariam fecit.
+</p></div><div type="cap" n="162"><p>Tunc Danihel, Ananias, Azarias et Misahel in Babylone claruerunt.
+</p></div><div type="cap" n="163"><p><hi rend="bold">ĪĪĪĪDCVIIII</hi> Sedecias regnauit annos XI.
+</p></div><div type="cap" n="164"><p>Hunc rex Babyloniae secundo ueniens ad Hierusalem cum populum captiuum ducit templo incenso anno aedificationis suae CCCCLIIII.
+</p></div><div type="cap" n="165"><p>Per idem tempus Sappho mulier in Graecia diuerso poemate claruit.
+</p></div><div type="cap" n="166"><p>Solon leges Atheniensibus dedit.
+</p></div><div type="cap" n="166a"><p>Quinta aetas saeculi.
+</p></div><div type="cap" n="167"><p><hi rend="bold">ĪĪĪĪDCLXXVIIII</hi> Hebreorum captiuitas annos LXX, in quibus ignis ab altario dei sublatus et absconditus in puteo post septuagesimo regressionis anno adsumitur inuentus uiuus.
+</p></div><div type="cap" n="168"><p>Per idem captiuitatis tempus Iudith historia conscribitur.
+</p></div><div type="cap" n="169"><p>Pythagoras quoque philosophus et arithmeticae artis inuentor
+</p></div><div type="cap" n="169a"><p>et Ferecides historiarum primus scriptor et Xenofanes tragoediarum inuentor insignes habetur.
+</p></div><div type="cap" n="170"><p><hi rend="bold">ĪĪĪĪDCCXIII</hi> Darius regnauit annos XXXIIII.
+</p></div><div type="cap" n="171"><p>Huius secundo anno Iudaeorum est resoluta captiuitas, a quo tempore in Hierusalem non reges, sed principes fuerunt usque ad Aristobulum.
+</p></div><div type="cap" n="172"><p>Tunc Romani pulsis regibus consules habere coeperunt.
+</p></div><div type="cap" n="173"><p><hi rend="bold">ĪĪĪĪDCCXXXIII</hi> Xerxes regnauit annos XX.
+</p></div><div type="cap" n="174"><p>Escilius, Pindarus, Sophocles et Euripides tragoediarum scriptores insignes celebrantur.
+</p></div><div type="cap" n="175"><p>Herodotus quoque historiarum scriptor et Zeusis agnoscitur pictor.
+</p></div><div type="cap" n="176"><p><hi rend="bold">ĪĪĪĪDCCLXXIII</hi> Artaxerxes, qui et Longimanus, regnauit annos XL.
+</p></div><div type="cap" n="177"><p>Eo regnante Esdras sacerdos incensam ex gentibus legem renouauit.
+</p></div><div type="cap" n="178"><p>Neemias muros Hierusolimorum restituit.
+</p></div><div type="cap" n="179"><p>Aristarcus etiam et Aristophanes atque Sofocles tragoediarum scriptores,
+</p></div><div type="cap" n="180"><p>Cratinus quoque comicus primus et Hippocrates medicus ac Socrates philosophus atque Democritus claruerunt.
+</p></div><div type="cap" n="181"><p><hi rend="bold">ĪĪĪĪDCCXCII</hi> Darius, qui et Notus, regnauit annos XVIIII.
+</p></div><div type="cap" n="182"><p><gap/>
+</p></div><div type="cap" n="182a"><p>Haec aetas habuit philosophum Platonem et Gorgiam primum rhetorem.
+</p></div><div type="cap" n="183"><p><hi rend="bold">ĪĪĪĪDCCCXXXII</hi> Artaxerxes regnauit annos XL.
+</p></div><div type="cap" n="184"><p>Huius tempore Hester historia docetur esse expleta.
+</p></div><div type="cap" n="185"><p>Xenofon quoque Socraticus insignis habetur.
+</p></div><div type="cap" n="186"><p><hi rend="bold">ĪĪĪĪDCCCLVIII</hi> Artaxerxes, qui et Ochus, regnauit annos XXVI.
+</p></div><div type="cap" n="187"><p>Demosthenes orator primus agnoscitur.
+</p></div><div type="cap" n="188"><p>et Aristoteles primus dialecticus praedicatur.
+</p></div><div type="cap" n="189"><p>Plato moritur.
+</p></div><div type="cap" n="190"><p><hi rend="bold">ĪĪĪĪDCCCLXII</hi> Xerxes Ochi filius regnauit annos IIII.
+</p></div><div type="cap" n="191"><p>Xenocrates philosophus inlustris habetur.
+</p></div><div type="cap" n="192"><p><hi rend="bold">ĪĪĪĪDCCCLXVIII</hi> Darius regnauit annos VI.
+</p></div><div type="cap" n="193"><p>Alexander Illirios et Traces superans dehinc Hierusolimam capit atque templum ingressus deo hostias immolauit.
+</p></div><div type="cap" n="194"><p>Hucusque Persarum regnum stetit, dehinc reges Graecorum incipiunt.
+</p></div><div type="cap" n="195"><p><hi rend="bold">ĪĪĪĪDCCCLXXIII</hi> Alexander Macedo regnauit annos V. Huius enim quinque anni postremi in ordine numerantur, quibus monarchiam orbis obtinuit, nam septem eius priores in Persarum regibus supputantur. Dehinc Alexandriae reges incipiunt.
+</p></div><div type="cap" n="196"><p><hi rend="bold">ĪĪĪĪDCCCCXII</hi> Ptolomeus Lagi filius regnauit annos XL.
+</p></div><div type="cap" n="197"><p>Hinc Iudaeam capiens plurimos Hebreorum in Aegypto transtulit.
+</p></div><div type="cap" n="198"><p>Hoc tempore Zenon stoicus et Menander comicus et Theufrastes philosophus claruerunt.
+</p></div><div type="cap" n="199"><p>Per idem etiam tempus Machabeorum liber inchoat primus.
+</p></div><div type="cap" n="200"><p><hi rend="bold">ĪĪĪĪDCCCCLI</hi> Ptolomeus Philadephus regnauit annos XXXVIII.
+</p></div><div type="cap" n="201"><p>Hic Iudaeos, qui in Aegypto erant, absoluit et uasa sancta Eleazaro pontifici restituens septuaginta interpretes petit ac diuinas scripturas in Graecum eloquium transtulit.
+</p></div><div type="cap" n="202"><p>Per idem tempus Aratus astrologus agnoscitur
+</p></div><div type="cap" n="203"><p>atque argentei nummi primum Romae constituuntur.
+</p></div><div type="cap" n="204"><p> <hi rend="bold">ĪĪĪĪDCCCCLXXVII</hi> Ptolomeus Euergetes regnauit annos XXVI.
+</p></div><div type="cap" n="205"><p>Sub quo Ihesus filius Sirach sapientiae librum conposuit.
+</p></div><div type="cap" n="206"><p><hi rend="bold">ĪĪĪĪDCCCCXCIIII</hi> Ptolomeus Filopator regnauit annos XVII.
+</p></div><div type="cap" n="207"><p>Ab isto Iudaei proelio uicti, LX milia armatorum corruerunt.
+</p></div><div type="cap" n="208"><p>Per idem tempus Siciliam Marcellus consul obtinuit.
+</p></div><div type="cap" n="209"><p><hi rend="bold"><num value="5000">V</num>XIII</hi> Ptolomeus Epiphanes regnauit annos XXIIII.
+</p></div><div type="cap" n="210"><p>Huius tempore gesta sunt quae secundi libri Machabeorum historia continet.
+</p></div><div type="cap" n="210a"><p>Hac aetate Romani uictos Graecos liberos esse iusserunt.
+</p></div><div type="cap" n="211"><p><gap/>
+</p></div><div type="cap" n="211a"><p>Hoc tempore Ennius primus poeta Latinus insignis Romae est celebratus.
+</p></div><div type="cap" n="212"><p><hi rend="bold"><num value="5000">V</num>LIII</hi> Ptolomeus Philometor regnauit annos XXXV.
+</p></div><div type="cap" n="213"><p>Hunc Antiochus proelio superauit it Iudaeos uaria calamitate oppressit.
+</p></div><div type="cap" n="214"><p>Per idem tempus Scipio Africam uicit.
+</p></div><div type="cap" n="214a"><p>Terentius comicus claruit.
+</p></div><div type="cap" n="215"><p><hi rend="bold"><num value="5000">V</num>LXXXII</hi> Ptolomeus Euergetes regnauit annos XXVIIII.
+</p></div><div type="cap" n="216"><p>Hoc tempore per consulem Brutum Spania a Romanis obtenta est.
+</p></div><div type="cap" n="217"><p><hi rend="bold"><num value="5000">V</num>XCVIIII</hi> Ptolomeus Soter regnauit annos XVII.
+</p></div><div type="cap" n="218"><p>Varro Ciceroque nascuntur.
+</p></div><div type="cap" n="219"><p>Traces Romanis subiciuntur.
+</p></div><div type="cap" n="220"><p><hi rend="bold"><num value="5000">V</num>CVIIII</hi> Ptolomeus Alexander regnauit annos X.
+</p></div><div type="cap" n="221"><p>Syria per Gabinium ducem in Romanorum dominio transit.
+</p></div><div type="cap" n="222"><p>Poeta quoque Lucretius nascitur, qui postea sese furore amatorio interfecit.
+</p></div><div type="cap" n="223"><p><hi rend="bold"><num value="5000">V</num>CXVII</hi> Ptolomeus Cleopatrae filius regnauit annos VIII.
+</p></div><div type="cap" n="224"><p>Per idem tempus Plotius Gallus Romae Latinam rhetoricam primus docuit.
+</p></div><div type="cap" n="225"><p>Tunc quoque Sallustius historiographus nascitur.
+</p></div><div type="cap" n="226"><p><hi rend="bold"><num value="5000">V</num>CXLVII</hi> Ptolomeus Dionisius regnauit annos XXX.
+</p></div><div type="cap" n="227"><p>Pompeius Hierusolima capta Iudaeos Romanis tributarios efficit.
+</p></div><div type="cap" n="228"><p>Per idem tempus Cato philosophus agnoscitur.
+</p></div><div type="cap" n="229"><p><gap/>
+</p></div><div type="cap" n="229a"><p>Virgilius nascitur Mantua, Oratius Venusina.
+</p></div><div type="cap" n="230"><p>Tunc etiam Apollodorus praeceptor Augusti clarus habetur
+</p></div><div type="cap" n="231"><p>et Cicero laude oratoria celebratur.
+</p></div><div type="cap" n="232"><p><hi rend="bold"><num value="5000">V</num>CXLVIIII</hi> Cleopatra regnauit annos II.
+</p></div><div type="cap" n="232a"><p>Haec Ptolomei regis Aegyptiorum fuit filia et fratris Ptolomei soror et coniunx effecta. Quem dum fraudare regnui uoluisset, tempore belli ciuilis in Alexandria occurrit Caesari et per speciem atque stuprum regnum sibi et necem Ptolomei apud Iulium impetrauit atque Alexandriae regnum in Romanam traniuit dicionem.
+</p></div><div type="cap" n="233"><p><hi rend="bold"><num value="5000">V</num>CLIIII</hi> Gaius Iulius Caesar regnauit annos V.
+</p></div><div type="cap" n="233a"><p>Hic antea consul creatus Gallias obtinuit,
+</p></div><div type="cap" n="233b"><p>de Britannia triumphauit.
+</p></div><div type="cap" n="234"><p><gap/>
+</p></div><div type="cap" n="234a"><p>Postremum ciuile bellum aduersus Pompeium adhibito monarchiam totius imperii Romani obtinuit, ex cuius nomine sequentes imperatores Caesares appellati sunt. Post hunc sequuntur imperatores.
+</p></div><div type="cap" n="(237a)"><p>Sexta aetas saeculi.
+</p></div><div type="cap" n="235"><p><hi rend="bold"><num value="5000">V</num>CCX</hi> Octauianus Augustus regnauit annos LVI.
+</p></div><div type="cap" n="235a"><p>Iste in imperio post Siculum bellum triumphos tres egit: Dalmaticum, Asiaticum, postremu Alexandrinum aduersus Antonium; inde Spanum. Dinde terra marique pace toto orbe parta Iani portas clusit et obserauit.
+</p></div><div type="cap" n="236"><p>Sub cuius imperio LXVIIII ebdomades in Danihelo sciptae conplentur
+</p></div><div type="cap" n="237"><p>et cessante regno ac sacerdotio Iudaeorum Dominus Ihesus Xristus de Virgine nascitur anno regni eius quadragesimo secundo.
+</p></div><div type="cap" n="238"><p><hi rend="bold"><num value="5000">V</num>CCXXXIII</hi> Tiberius regnauit annos XXIII.
+</p></div><div type="cap" n="238a"><p>Iste dum per cupiditatem reges ad se uenientes non remitteret, multas gentes a Romano imperio recesserunt.
+</p></div><div type="cap" n="239"><p>Huius octauo decimo anno regni Dominus crucifixus est peractis a principio mundi annis <num value="5000">V</num>CCXXVIII.
+</p></div><div type="cap" n="240"><p><hi rend="bold"><num value="5000">V</num>CCXXXVII</hi> Gaius Caligola regnauit annos IIII.
+</p></div><div type="cap" n="241"><p>Hic in deos se transferens in templo Hierusolimorum statuam Iouis sub nomine suo poni iussit.
+</p></div><div type="cap" n="242"><p>Per idem tempus Matheus apostolus euangelium in Iudaea primus scripsit.
+</p></div><div type="cap" n="243"><p><hi rend="bold"><num value="5000">V</num>CCLI</hi> Claudius regnauit annos XIIII.
+</p></div><div type="cap" n="243a"><p>Iste medie imperans multa gessit mediocriter, multa crudeliter.
+</p></div><div type="cap" n="244"><p>Hoc regnante Petrus apostolus contra Simonem magum Romam pergit.
+</p></div><div type="cap" n="245"><p>Marcus quoque euangelista Alexandriae Xristum praedicans euangelium scripsit.
+</p></div><div type="cap" n="246"><p><hi rend="bold"><num value="5000">V</num>CCLXV</hi> Nero regnauit annos XIIII.
+</p></div><div type="cap" n="246a"><p>Hic nimiae crudelitatis et luxuriae deditus retibus aureis piscabatur.
+</p></div><div type="cap" n="246b"><p>Matrem et sororem et prostituit et inrfecit.
+</p></div><div type="cap" n="246c"><p>Senatum multum extinxit.
+</p></div><div type="cap" n="246d"><p>Multas rei publicae prouincias uel urbes amisit.
+</p></div><div type="cap" n="246e"><p>Vrbem quoque Romam incendit, ut Troiani excidii imaginem cerneret.
+</p></div><div type="cap" n="247"><p>Huius temporibus Simon magus cum altercationem proposuisset cum Petro et Paulo apostolis, dicens <hi rend="italic">se</hi>quandam <hi rend="italic">uirtutem esse dei magnam</hi>, media die dum ad caelum uolare promittit in caelum, a daemonibus, quibus in aera ferebatur, adiurante eos per deum Petro, Paulo uero orante dimissus crepuit. Ob cuius necem a Nerone Petrus crucifigitur, Paulus gladio caeditur.
+</p></div><div type="cap" n="(249)"><p>Tunc Lucanus ac Seneca praeceptor Neronis ab eodem Nerone interficiuntur.
+</p></div><div type="cap" n="248"><p>Poeta Persius moritur.
+</p></div><div type="cap" n="250"><p><hi rend="bold"><num value="5000">V</num>CCLXXV</hi> Vespasianus regnauit annos X.
+</p></div><div type="cap" n="250a"><p>Iste in disciplina militari strenuus multas prouincias, quas Nero amiserat, bellando rei publicae restituit.
+</p></div><div type="cap" n="250b"><p>Inmemor offensarum fuit, conuicia in se dicta leuiter tulit.
+</p></div><div type="cap" n="251"><p>Huius secundo anno Titus Hierusolimam cepit atque subuerit, ubi undecies centena milia Iudaeorum fame et gladio perierunt, sed et praeter hos centum milia publice uenundata sunt.
+</p></div><div type="cap" n="252"><p><hi rend="bold"><num value="5000">V</num>CCLXXVII</hi> Titus regnauit annos II.
+</p></div><div type="cap" n="253"><p><gap/>
+</p></div><div type="cap" n="254"><p><gap/>
+</p></div><div type="cap" n="255"><p>Iste in imperio tantae bonitatis fuit, ut nullum omnino puniret, sed conuictos aduersum se coniuratione dimitteret, atuqe in eadem familiaritate, qua antea habuerat, retineret.
+</p></div><div type="cap" n="256"><p>Huius etiam inter omnia fuit illud celbre dictum perdidisse diem, quo nihil boni fecerat.
+</p></div><div type="cap" n="257"><p><hi rend="bold"><num value="5000">V</num>CCXCIII</hi> Domitianus frater Titi regnauit annos XVI.
+</p></div><div type="cap" n="257a"><p>Hic post Neronem superbia execrabilis deum se appellari iussit.
+</p></div><div type="cap" n="258"><p><gap/>
+</p></div><div type="cap" n="259"><p><gap/>
+</p></div><div type="cap" n="260"><p>Plurimos senatorum extinguit, xristianos interfecit
+</p></div><div type="cap" n="261"><p>cunctosque qui de genere Dauid erant interfici iussit, ut nullus Iudaeorum ex regali superesset origine.
+</p></div><div type="cap" n="(259a)"><p>Sub hoc et apostolus Iohannes in Pathmos insula relegatus apocalypsim scripsit.
+</p></div><div type="cap" n="262"><p><hi rend="bold"><num value="5000">V</num>CCXCIIII</hi> Nerua regnauit annum I.
+</p></div><div type="cap" n="262a"><p>Vir imperio moderatus aequalem se et communem omnibus praebuit.
+</p></div><div type="cap" n="263"><p>Huius temporibus Iohannes apostolus ab exilio Epheso uenit atque efflagitatus ab Asiae episcopis euangelium nouissimum edidit.
+</p></div><div type="cap" n="264"><p><hi rend="bold"><num value="5000">V</num>CCCXIII</hi> Traianus regnauit annos XVIIII.
+</p></div><div type="cap" n="264a"><p>Iste mirabili uirtute Romanum imperium longe lateque reduxit.
+</p></div><div type="cap" n="265"><p><gap/>
+</p></div><div type="cap" n="265a"><p>Babyloniam et Arabiam cepit et usque ad Indiae fines accessit.
+</p></div><div type="cap" n="265b"><p>Liberalis cunctis atque tranquillus, cuius inter alia dicta illud fertur egregium dum interrogaretur, cur nimius circa omnes communis esset, respondit talem se imperatorem esse priuatis, quales esse sibi imperatores priuatus optasset.
+</p></div><div type="cap" n="(275)"><p>Huius temporibus Gallienus medicus Pergamo genitus Romae clarus est habitus.
+</p></div><div type="cap" n="266"><p>Simon quoque Cleopas Hierusolimorum episcopus hoc tempore crucifigitur
+</p></div><div type="cap" n="267"><p>et requiescit Iohannes apostolus.
+</p></div><div type="cap" n="268"><p><hi rend="bold"><num value="5000">V</num>CCCXXXIIII</hi> Adrianus regnauit annos XXI.
+</p></div><div type="cap" n="268a"><p>Iste Traiani gloriae inuidens prouincias Orientis Persis reddidit et Eufraten fluuium finem Romani imperii posuit.
+</p></div><div type="cap" n="269"><p>Idem quoque Iudaeos effectos rebeles subiugat urbemque Hierusolimam restaurat eamque ex nomine suo Heliam uocat.
+</p></div><div type="cap" n="270"><p>Per idem tempus Aquila Ponticus interpres secundus post LXX oritur
+</p></div><div type="cap" n="271"><p> et Basilides heresiarces agnoscitur.
+</p></div><div type="cap" n="272"><p><hi rend="bold"><num value="5000">V</num>CCCLVI</hi> Antoninus Pius regnauit annos XXII.
+</p></div><div type="cap" n="273"><p><gap/>
+</p></div><div type="cap" n="273a"><p>Iste propter clementiam tale nomen accepit.
+</p></div><div type="cap" n="273b"><p>Iste primus imperium Romanae urbis cum Antonino iunior aequata potestate diuidit.
+</p></div><div type="cap" n="274"><p><gap/>
+</p></div><div type="cap" n="275"><p><gap/>
+</p></div><div type="cap" n="276"><p><hi rend="bold"><num value="5000">V</num>CCCLXXIIII</hi> Antoninus minor regnauit annos XVIII.
+</p></div><div type="cap" n="276a"><p>Iste ad Parthos profectus Seleuciam Assyriae urbem cum quadringentis milibus hominum cepit, de Parthis et Persis triumphauit.
+</p></div><div type="cap" n="277"><p>Eo regnante Montanus Catafrigarum auctor et Titianus, a quo heresis Encratitarum, exorti sunt.
+</p></div><div type="cap" n="278"><p><hi rend="bold"><num value="5000">V</num>CCCLXXXVII</hi> Commodus regnauit annos XIII.
+</p></div><div type="cap" n="278a"><p>Hic luxuriae multae fuit.
+</p></div><div type="cap" n="279"><p>Sub hoc Theodotion Ephesius interpres tertius apparuit
+</p></div><div type="cap" n="280"><p>atque Ireneus episcopus Lugdunensis indoctrina habetur insignis.
+</p></div><div type="cap" n="281"><p><hi rend="bold"><num value="5000">V</num>CCCLXXXVIIII</hi> Helius Pertinax regnauit annum I.
+</p></div><div type="cap" n="282"><p>Hic poscente senatu ut uxorem Augustam et filium Caesaremfaceret, rennuens ait sufficere sibi debere quod uel ipse imperare meruisset inuitus.
+</p></div><div type="cap" n="283"><p><hi rend="bold"><num value="5000">V</num>CCCCVII</hi> Seuerus Pertinax regnauit annuos XVIII.
+</p></div><div type="cap" n="283a"><p>Iste multa bella feliciter gessit, Parthos uicit, Arabiam obtinuit, Britanniam bellando recepit.
+</p></div><div type="cap" n="283b"><p>Litterarum et philosophiae scientiam habuit.
+</p></div><div type="cap" n="284"><p>Huius tempore Symmachus interpres quartus agnoscitur.
+</p></div><div type="cap" n="285"><p>Narcissus Hierusolimorum episcopus uirtutibus plurimis celebratur.
+</p></div><div type="cap" n="286"><p>Tertullianus Afer in ecclesia insignis habetur.
+</p></div><div type="cap" n="287"><p>Origenes Alexandriae studiis eruditur.
+</p></div><div type="cap" n="288"><p><hi rend="bold"><num value="5000">V</num>CCCCXIIII</hi> Antoninus Caracalla Seueri filius regnauit annos VII.
+</p></div><div type="cap" n="288a"><p>Hic inpatientis libidinis fuit nouercam suam uxorem duxit.
+</p></div><div type="cap" n="288b"><p>Nihil memorabile gessit.
+</p></div><div type="cap" n="289"><p>Huius temporibus in Hiericho quinta editio diuinarum scripturarum inuenta est,cuius auctor non apparet.
+</p></div><div type="cap" n="290"><p><hi rend="bold"><num value="5000">V</num>CCCCXV</hi> Macrinus regnauit annum I.
+</p></div><div type="cap" n="290c"><p>Hic cum filio regnans nihil memorabile temporis breuitate gesserunt, nam post unum annum seditione militari pariter interfecti sunt.
+</p></div><div type="cap" n="291"><p><hi rend="bold"><num value="5000">V</num>CCCCXVIII</hi> Aurelius Antoninus regnauit annos IIII.
+</p></div><div type="cap" n="291a"><p>Hic dum obscenissime uiueret, et ipse tumultu militari permptus est.
+</p></div><div type="cap" n="292"><p>Cuius temporibus sexta editio inuenta est Nicopoli.
+</p></div><div type="cap" n="293"><p>Sabellius heresiarces oritur.
+</p></div><div type="cap" n="294"><p><hi rend="bold"><num value="5000">V</num>CCCCXXXI</hi> Alexander regnauit annos XIII.
+</p></div><div type="cap" n="294a"><p>Hic Persas gloriosissime uicit.
+</p></div><div type="cap" n="294b"><p>Ciuibus fauorabilis fuit.
+</p></div><div type="cap" n="295"><p>Huius temporibus Origenes Alexandriae claruit
+</p></div><div type="cap" n="296"><p>et Romae Vlpianus insignis iuris peritus.
+</p></div><div type="cap" n="297"><p><hi rend="bold"><num value="5000">V</num>CCCCXXXIIII</hi> Maximinus regnauit annos III.
+</p></div><div type="cap" n="298"><p>Iste primus ex militari corpore absque decreto senatus imperator efficitur
+</p></div><div type="cap" n="299"><p>et xristianos persequitur.
+</p></div><div type="cap" n="300"><p><hi rend="bold"><num value="5000">V</num>CCCCXLI</hi> Gordianus regnauit annos VII.
+</p></div><div type="cap" n="300a"><p>Rebellantes Parthos et Persas adflixit.
+</p></div><div type="cap" n="300b"><p>Rediens uictor de Persis fraude suorum interiit.
+</p></div><div type="cap" n="301"><p>Huius temporibus Flauianus testimonio Spiritus sancti in specie columbae super caput eius descendentis Romae episcopus ordinatur, licet quidam hoc de Zeferino adfirment.
+</p></div><div type="cap" n="302"><p><hi rend="bold"><num value="5000">V</num>CCCCXLVIII</hi> Philippus regnauit annos VII.
+</p></div><div type="cap" n="303"><p>Iste primus imperatorum xristianus efficitur.
+</p></div><div type="cap" n="304"><p>Cuius etiam primo anno millesimus annus Romanae urbis impletur.
+</p></div><div type="cap" n="305"><p><hi rend="bold"><num value="5000">V</num>CCCCXLVIIII</hi> Decius regnauit annum I.
+</p></div><div type="cap" n="305a"><p>Hic bellum ciuile in Galatia motum oppressit.
+</p></div><div type="cap" n="306"><p>Antonius monachus Aegypto dicitur exortus, a quo prius monasteria condita sunt.
+</p></div><div type="cap" n="307"><p><hi rend="bold"><num value="5000">V</num>CCCCLI</hi> Gallus et Volusianus filio regnauit annos II.
+</p></div><div type="cap" n="307a"><p>Hii nihil memoriale gesserunt.
+</p></div><div type="cap" n="308"><p>Nouatus Cypriani episcopi presbyter Romae Nouatianam heresem condidit.
+</p></div><div type="cap" n="309"><p><hi rend="bold"><num value="5000">V</num>CCCCLXVI</hi> Valerianus cum Gallieno regnauit annos XV.
+</p></div><div type="cap" n="310"><p>Cyprianus primum rhetor, deinde episcopus martyrio coronatur.
+</p></div><div type="cap" n="311"><p>Gothi quoque Graeciam, Macedoniam, Asiam Pontumque depopulant.
+</p></div><div type="cap" n="312"><p>Valerianus xristianis persecutionem mouens, a rege Persarum captus ibi in dedecore uitae consenuit.
+</p></div><div type="cap" n="313"><p><hi rend="bold"><num value="5000">V</num>CCCCLXVIII</hi> Claudius regnauit annos II.
+</p></div><div type="cap" n="314"><p>Iste Gothos Illiricum Macedoniamque uastantes exsuperat.
+</p></div><div type="cap" n="315"><p>Paulus Samosatenus heresiarces agnoscitur.
+</p></div><div type="cap" n="316"><p><hi rend="bold"><num value="5000">V</num>CCCCLXXIII</hi> Aurelianus regnauit annos V.
+</p></div><div type="cap" n="316a"><p>Iste Romanum imperium bellando paene ad fines priores perduxit.
+</p></div><div type="cap" n="317"><p>Hic persecutionem aduersus xristianos efficiens fulmine corripitur et nec mora occiditur.
+</p></div><div type="cap" n="318"><p><hi rend="bold"><num value="5000">V</num>CCCCLXXIIII</hi> Tacitus regnauit annum I.
+</p></div><div type="cap" n="319"><p>Huius uitae breuitas nihil dignum praenotat.
+</p></div><div type="cap" n="320"><p><hi rend="bold"><num value="5000">V</num>CCCCLXXX</hi> Probus regnauit annos VI.
+</p></div><div type="cap" n="320a"><p>Iste militia strenuus et ciuilitate praeclarus Gallias a barbaris occupatas bellando restituit.
+</p></div><div type="cap" n="321"><p>Cuius tempore Manicheorum heresis oritur.
+</p></div><div type="cap" n="322"><p><hi rend="bold"><num value="5000">V</num>CCCCLXXXII</hi> Carus cum filio Carino et Numeriano regnauit annos II.
+</p></div><div type="cap" n="323"><p>Carus postquam de Persis triumphauit, uictorque circa Tigridem castra ponens ictu fulminis concidit.
+</p></div><div type="cap" n="324"><p><hi rend="bold"><num value="5000">V</num>DII</hi> Diocletianus et Maximianus regnauerunt annos XX.
+</p></div><div type="cap" n="325"><p>Diocletianus diuinis libris adustis xristianos toto orbe persequitur.
+</p></div><div type="cap" n="326"><p>Iste primus gemmas uestibus calciamentisque inseri iussit, dum sola purpura retro principes uterentur.
+</p></div><div type="cap" n="326a"><p>Hii autem imperatore suaria bella gesserunt Persis uictis, recepta Mesopotamia.
+</p></div><div type="cap" n="326b"><p>Qui postea pariter fastigio imperii relicto priuati uixerunt.
+</p></div><div type="cap" n="327"><p><hi rend="bold"><num value="5000">V</num>DIIII</hi> Galerius regnauit annos XXX.
+</p></div><div type="cap" n="328"><p>Huius breuitas imperii nihil dignum historiae contulit.
+</p></div><div type="cap" n="329"><p><hi rend="bold"><num value="5000">V</num>DXXXIIII</hi> Constantinus regnauit annos XXX.
+</p></div><div type="cap" n="329a"><p>Hic Persis bellum parauit. Ad cuius aduentum adeo trepidauerunt, ut supplices occurrerent promittentes imperata perficere.
+</p></div><div type="cap" n="330"><p>Iste primus imperatorum xristianus effectus licentiam dedit xristianis libere congregari et in honore Xristi basilicas construi.
+</p></div><div type="cap" n="331"><p>Huius temporibus heresis Arriana exoritur Nicenumque concilio a Constantino ad condemnationem Arrii congregatur.
+</p></div><div type="cap" n="332"><p>Tunc et Donatistarum scisma oboritur.
+</p></div><div type="cap" n="333"><p>Per idem tempus crux Domini ab Helena Constantini matre Hierusolimis reperitur.
+</p></div><div type="cap" n="334"><p>Constantinus autem in extremo uitae suae ab Eusebio Nicomediense episcopo baptizatus in Arrianum dogma prolabitur. Heu pro dolor bono usus principio et fine malo!
+</p></div><div type="cap" n="335"><p><hi rend="bold"><num value="5000">V</num>DLVIII</hi> Constantinus et Constans regnauerunt annos XXIIII.
+</p></div><div type="cap" n="335a"><p>Constans crudelitate morum terribilis a Persis multa perpessus est.
+</p></div><div type="cap" n="336"><p>Deinde Arrianus efficitur, catholicos toto orbe persequitur.
+</p></div><div type="cap" n="337"><p>Cuius etiam fauore Arrius fretus, dum in Constantinopolim ad ecclesiam pergeret aduersus nostros de fide dimicaturus, diuertens per forum Constantini ad necessariam causam, uiscera eius repente simul cum uita effusa sunt.
+</p></div><div type="cap" n="338"><p>Per idem tempus Athanasius et Hilarius doctrina et confessione fidei celebrantur.
+</p></div><div type="cap" n="339"><p>Heresis Antropomorfitarum in Syria et Macedoniana in Constantinopoli nascitur.
+</p></div><div type="cap" n="340"><p>Donatus artis grammaticae scriptor Romae inlustris habetur.
+</p></div><div type="cap" n="341"><p>Antonius monachus moritur.
+</p></div><div type="cap" n="342"><p>Ossa Andreae et Lucae apostolorum Constantinopoli transferuntur.
+</p></div><div type="cap" n="343"><p><hi rend="bold"><num value="5000">V</num>DLX</hi> Iulianus regnauit annos II.
+</p></div><div type="cap" n="344"><p>Hic ex clerico imperator et paganus effectus xristianis martyria intulit
+</p></div><div type="cap" n="344a"><p>et liberales litteras xristianos docere uel discere uetuit.
+</p></div><div type="cap" n="345"><p>Qui etiam dum in odio Xristi templum in Hierusolimis Iudaeis reparare permisisset atque ex omnibus prouinciis Iudaeis collectis noua templi fundamenti iacerent, subito nocte oborto terrae motu saxa ab imo fundamentorum longe lateque excussa sunt. Igneus quoque globus ab interiore aede templi egressus plurimos eorum suo prostauit incendio. Quo terrore reliqui pauefacti Xristum confitebantur inuiti, et ne hoc casu crederent factum, sequenti nocte in uestimentis cunctorum crucis apparuit signum.
+</p></div><div type="cap" n="345a"><p>Iulianus autem contra Persas procedens facta congressione iaculo suscepto interiit.
+</p></div><div type="cap" n="346"><p><hi rend="bold"><num value="5000">V</num>DLXI</hi> Iouianus regnauit annum I.
+</p></div><div type="cap" n="347"><p>Hic dum se ab exercitu imperatorem fieri conspiceret seque xristianum adfirmans paganis praeesse non posse adsereret, «et nos», inquit omnis exercitus, «qui per Iulianum nomen Xristi abiecimus, tecum xristiani esse volumus». Quibus ille auditis imperii sceptra suscepit
+</p></div><div type="cap" n="347a"><p>firmataque pace cum Persis rediit. Qui lege protinus data xristianis priuilegia reddidit ac templa idolorum claudi praecepit.
+</p></div><div type="cap" n="348"><p><hi rend="bold"><num value="5000">V</num>DLXXV</hi> Valentinianus et Valens frater eius regnauerunt annos XIIII.
+</p></div><div type="cap" n="349"><p><gap/>
+</p></div><div type="cap" n="349a"><p>Gothi suadente Valente heretici efficiuntur.
+</p></div><div type="cap" n="350"><p><gap/>
+</p></div><div type="cap" n="351"><p>Fotinus quoque et Eunomius atque Apollinaris heresiarces eo tempore agnoscuntur.
+</p></div><div type="cap" n="352"><p><hi rend="bold"><num value="5000">V</num>DLXXXI</hi> Gratianus cum fratre Valentiniano regnauit annos VI.
+</p></div><div type="cap" n="353"><p>Ambrosius Mediolanensis episcopus in catholicorum dogmate claruit.
+</p></div><div type="cap" n="354"><p>Priscillianus sui nominis heresim in Spania condidit.
+</p></div><div type="cap" n="355"><p>Martinus episcopus Turonorum Galliae ciuitatis multis miraculorum signis effulsit.
+</p></div><div type="cap" n="356"><p><hi rend="bold"><num value="5000">V</num>DXC</hi> Valentinianus cum Theodosio regnauit annos VIIII.
+</p></div><div type="cap" n="357"><p>Synodus a Theodosio Constantinopoli CL sanctorum patrum collegitur, in quo omnes hereses condemnatur.
+</p></div><div type="cap" n="358"><p>Hieronymus presbyter in Bethleem toto mundo clarus habetur.
+</p></div><div type="cap" n="359"><p>Priscillianus accusante Itacio a Maximo tyranno in Gallia gladio caeditur.
+</p></div><div type="cap" n="360"><p>Per idem tempus caput Iohannis baptistae Constantinopoli est perductum et in septimo miliario ciuitatis humatum.
+</p></div><div type="cap" n="361"><p>Gentium quoque templa per totum orbem iubente Theodosio eodem tempore subuertuntur, nam adhuc intemerata manebant.
+</p></div><div type="cap" n="362"><p><hi rend="bold"><num value="5000">V</num>DXCIII</hi> Theodosius cum Arcadio et Honorio regnauit annos III.
+</p></div><div type="cap" n="363"><p>Per idem tempus Iohannes anachorita uirtutum miraculis habetur insignis.
+</p></div><div type="cap" n="364"><p>Qui etiam Theodosio consulenti de Eugenio tyranno uictoriam illi praedixit.
+</p></div><div type="cap" n="365"><p><hi rend="bold"><num value="5000">V</num>DCVI</hi> Arcadius cum fratre Honorio regnauit annos XIII.
+</p></div><div type="cap" n="(369)"><p>Huius temporibus Augustinus episcopus doctrinae scientia insignis habetur.
+</p></div><div type="cap" n="(370)"><p>Iohannes quoque in Constantinopolitanus et Teophilus Alexandrinus inlustres episcopi praedicantur.
+</p></div><div type="cap" n="366"><p>Donatus Epiri episcopus uirtutibus insignis est habitus. Qui draconem ingentem expuens in ore eius necauit, quem octo iuga boum ad locum incendii uix trahere potuerunt, ne aere putredo eius corrumperet.
+</p></div><div type="cap" n="367"><p>Per idem tempus corpora sanctorum Abbacuc et Micheae prophetarum diuina reuelatione produntur.
+</p></div><div type="cap" n="368"><p>Gothi quoque Italiam, Vuandali atque Alani Gallias adgrediuntur.
+</p></div><div type="cap" n="369"><p><gap/>
+</p></div><div type="cap" n="370"><p><gap/>
+</p></div><div type="cap" n="371"><p><hi rend="bold"><num value="5000">V</num>DCXXI</hi> Honorius cum Theodosio fratris filio regnauit annos XV.
+</p></div><div type="cap" n="372"><p>His imperantibus Gothi Romam capiunt.
+</p></div><div type="cap" n="373"><p><gap/>
+</p></div><div type="cap" n="373a"><p>Vuandali quoque, Alani et Sueui Spanias occupant.
+</p></div><div type="cap" n="374"><p>Hac tempestate Pelagius aduersus Xristi gratiam erroris sui dogmata praedicat, ad cuius damnationem concilium apud Cartaginem CCXIIII episcoporum congregantur.
+</p></div><div type="cap" n="375"><p>Hoc tempore Cyrillus Alexandriae episcopus insignis est habitus.
+</p></div><div type="cap" n="376"><p><hi rend="bold"><num value="5000">V</num>DCXLVIII</hi> Theodosius minor Arcadii filius regnauit annos XXVII.
+</p></div><div type="cap" n="377"><p>Vuandali ab Spaniis ad Africam transuerunt ibique catholicam fidem Arriana impietate subuertit.
+</p></div><div type="cap" n="378"><p>Per idem tempus Nestorius Constantinopolitanus episcopus suae perfidiae molitur errorem, aduersus quem Ephesena synodus congregata eius impia dogma condemnat.
+</p></div><div type="cap" n="379"><p>Hoc etiam tempore diabolus in specie Moysi Iudaeis in Creta apparens, dum eos per mare pede sicco ad terram repromissionis promittit perducere, plurimis necatis reliqui, qui saluati sunt, confestim ad Xristi gratiam conuertuntur.
+</p></div><div type="cap" n="380"><p><hi rend="bold"><num value="5000">V</num>DCLIIII</hi> Marcianus regnauit annos VII.
+</p></div><div type="cap" n="381"><p>Cuius initio Calcedonense concilium geritur, ubi Eutices cum Dioscoro Alexandrino episcopo condemnantur.
+</p></div><div type="cap" n="382"><p>Huius etiam sexto imperii anno Theudericus rex Gothorum cum ingenti exercitu Spaniam ingreditur.
+</p></div><div type="cap" n="383"><p><hi rend="bold"><num value="5000">V</num>DCLXX</hi> Leo maior cum Leone minore regnauit annos XVII.
+</p></div><div type="cap" n="384"><p>Aegyptus et Alexandria synodum Calcedonensem detractans inmundo spiritu adrepta canine rabie latrat.
+</p></div><div type="cap" n="385"><p>Tunc primum apparuit heresis Acefalorum Calcedonense concilium inpugnantium. Qui idcirco “Acefali”, id est sine capite, nominantur, quia quis primus eam heresem introduxerit, non inuenitur. Cuius heresis peste plurimi actenus Orientalium languent.
+</p></div><div type="cap" n="386"><p><hi rend="bold"><num value="5000">V</num>SCLXXXVII</hi> Zenon regnauit annos XVII.
+</p></div><div type="cap" n="386a"><p>Ab isto Acefalorum heresis defenditur et decreta Calcedonensis synodi abdicantur.
+</p></div><div type="cap" n="387"><p>Iste Zenon Leonem Augustum filium suum interficere cupiens, pro eo mater eius alium figura similem obtulit ipsumque Leonem occulte clericum fecit. Quique in clericatu usque ad Iustiniani tempore uixit.
+</p></div><div type="cap" n="388"><p>Per idem tempus corpus Barnabae apostoli et euangelium Mathei eius stilo scriptum ipso reuelante repertum est.
+</p></div><div type="cap" n="389"><p><hi rend="bold"><num value="5000">V</num>DCCXIIII</hi> Anastasius regnauit annos XXVII.
+</p></div><div type="cap" n="389a"><p>Iste Acefalorum erroremuindicans episcopos Calcedonensis synodi defensores exilio damnat.
+</p></div><div type="cap" n="389b"><p>Euangelia quoque tamquam ab idiotis euangelistis conposita reprehendit atque emendat.
+</p></div><div type="cap" n="390"><p>Eo tempore Trasamundus in Africa contra catholicos saeuit.
+</p></div><div type="cap" n="391"><p>Fulgentius episcopus fide et scientia claruit.
+</p></div><div type="cap" n="392"><p>Per idem tempus apud Cartaginem Olimpius quidam Arrianus in balneis sanctam trinitatem blasphemans tribus igneis iaculis angelo emittente uisibiliter est conbustus.
+</p></div><div type="cap" n="393"><p>Barbas quoque quidam Arrianus episcopus, dum contra regulam fidei quendam baptizans dixisset «baptizat te Barbas in nomine Patris per Filium in Spiritu sancto », statim aqua fontis illius nusquam conparuit. Quod aspiciens qui baptizandus erat confestim ad ecclesiam catholicam abiit et iuxta morem euangelicae fidei baptismum Xristi suscepit.
+</p></div><div type="cap" n="394"><p><hi rend="bold"><num value="5000">V</num>DCCXXII</hi> Iustinus maior regnauit annos VIII.
+</p></div><div type="cap" n="394a"><p>Iste synodi Calcedonensis amator Acefalorum heresem abdicat.
+</p></div><div type="cap" n="395"><p>Huius tempore post Trasamundum Childericus ex Valentiniani imperatoris captiua filia genitus in Vuandalis regnum suscepit.
+</p></div><div type="cap" n="396"><p>Qui sacramento a Trasamundo obstrictus, ne catholicis in regno suo consuleret, antequam regnum susciperet episcopos ab exilio reuerti iussit eisque ecclesias reformari praecepit.
+</p></div><div type="cap" n="397"><p><hi rend="bold"><num value="5000">V</num>DCCLXI</hi> Iustinianus regnauit annos XL.
+</p></div><div type="cap" n="397a"><p>Iste Acefalorum heresem suscipiens omnes in regno suo episcopos tria Calcedonensis concilii capitula damnare conpellit.
+</p></div><div type="cap" n="397b"><p>In Alexandria Theodosiana et Gaiana heresis oritur.
+</p></div><div type="cap" n="398"><p><gap/>
+</p></div><div type="cap" n="399"><p>In Africa Vuandali per Belisarium extinguntur.
+</p></div><div type="cap" n="399a"><p>In Spaniam per Atanagildum Romanus miles ingreditur.
+</p></div><div type="cap" n="399b"><p>In Italia quoque Totila Ostrogothorum rex a Narse Romano patricio superatur.
+</p></div><div type="cap" n="400"><p>Per idem tempus corpus sancti Antonii monachi diuina reuelatione repertum Alexandria perducitur et in ecclesia sancti Iohannis baptistae humatur.
+</p></div><div type="cap" n="401"><p><hi rend="bold"><num value="5000">V</num>DCCLXXVI</hi> Iustinus minor regnauit annos XI.
+</p></div><div type="cap" n="401a"><p>Hic ea quae aduersus Calcedonensem synodum fuerant edita destruit et symbolum CL patrum tempore sacrificii concinendum a populo praecepit.
+</p></div><div type="cap" n="401b"><p>Armeni tunc primum fidem Xristi suscipiunt.
+</p></div><div type="cap" n="401c"><p>Gypedes Langobardi extingunt.
+</p></div><div type="cap" n="401d"><p>Per idem tempus Martinus Domiensis episcopus Gallaecia in doctrina fidei praedicatur.
+</p></div><div type="cap" n="402"><p><gap/>
+</p></div><div type="cap" n="403"><p><gap/>
+</p></div><div type="cap" n="404"><p><hi rend="bold"><num value="5000">V</num>DCCLXXVIIII</hi> Tiberius regnauit annos VII.
+</p></div><div type="cap" n="404a"><p>Langobardi pulsis Romanis Italiam adeunt.
+</p></div><div type="cap" n="405"><p>Gothi per Ermenegildum Leuuigildi regis filium bifariae diuisi mutua caede uastantur.
+</p></div><div type="cap" n="406"><p><hi rend="bold"><num value="5000">V</num>DCCC</hi> Mauricius regnauit annos XXI.
+</p></div><div type="cap" n="407"><p>Sueui a Leuuigi rege obtenti Gothis subiciuntur.
+</p></div><div type="cap" n="408"><p>Idem quoque Gothi Reccaredo religiosissimo principe prouocante ad fidem catholicam conuertuntur.
+</p></div><div type="cap" n="408a"><p>Hoc tempore Leander episcopus in Spaniis scientia et fide insignis habetur.
+</p></div><div type="cap" n="409"><p><gap/>
+</p></div><div type="cap" n="410"><p><hi rend="bold"><num value="5000">V</num>DCCCVIII</hi> Focas regnauit annos VIII.
+</p></div><div type="cap" n="411"><p>Iste seditione militari imperator effectus Mauricium Augustum nobiliumque multos interfecit.
+</p></div><div type="cap" n="412"><p>Prasini et Veneti per Orientem ual Aegyptum ciuile bellum faciunt.
+</p></div><div type="cap" n="413"><p>Proelia quoque Persarum grauissima aduersus Romanos exoriuntur. A quibus Romanis fortiter debellati quasdam Orientis partes amiserunt.
+</p></div><div type="cap" n="414"><p><gap/>
+</p></div><div type="cap" n="414a"><p><hi rend="bold"><num value="5000">V</num>DCCCXXVII</hi> Eraclius dehinc sextum decimum agit imperii annum. Cuius initio Sclaui Graeciam Romanis tulerunt, Peris Syriam et Aegyptum plurimasque prouincias.
+</p></div><div type="cap" n="415"><p>In Spania quoque Sisebutus Gothorum rex plurimas eiusdem Romanae militiae urbes cepit 
+</p></div><div type="cap" n="416"><p>et Iudaeos sui regni subditos ad Xristi fidem conuertit.
+</p></div><div type="cap" n="416b"><p>Post quem religiosissimus Suinthila princeps bellum cum reliquis Romanis urbibus iniit celerique uictoria totius Spaniae monarchiam regni primus obtinuit.
+</p></div><div type="cap" n="417"><p><gap/>
+</p></div><div type="cap" n="417a"><p>Fiunt igitur ab exordio mundi usque in praesentem eram DCLXIIII, hoc est in anno sexto decimo imperii Eracli et quinto religiosissimi principis Suinthilani, anni <num value="5000">V</num>DCCCXXVII.
+</p></div><div type="cap" n="418"><p>Residuum saeculi tempus humanae inuestigationis incertum est. Omnem enim de hac re quaestionem Dominus Ihesus Xristus abstulit dicens <hi rend="italic">«non est uestrum scire tempora uel momenta quae Pater posuit in sua potestate»</hi> et alibi <hi rend="italic">«de die autem»</hi>, inquit, <hi rend="italic">«et hora nemo scit neque angeli caelorum nisi solus Pater»</hi>. Vnus quisque ergo de suo cogitet transitu, sicut sacra scriptura ait: <hi rend="italic">«in omnibus operibus tuis memorare nouissima tua, et in aeternum non peccabis»</hi>. Quando enim quisque de saeculo migrat, tunc illi <hi rend="italic">consummatio saeculi est</hi>.</p>
+</div>
+
+</div>
+  </body>
+ </text>
+
+</TEI>

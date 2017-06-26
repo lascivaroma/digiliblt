@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praefatio comm. in Verg. Eclogas</title>
+        <author>Aelius Donatus</author>
+        <respStmt>
+          <resp>Correzione linguistica</resp>
+          <name>Fabio Stok</name>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica XML</resp>
+          <name>Simona Musso</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>digilibLT</publisher>
+        <pubPlace>Vercelli</pubPlace>
+        <date>2013</date>
+        <availability>
+          <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+        </availability>
+        <idno>dlt000153</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Vitae Vergilianae antiquae, recc. G. Brugnoli et F. Stok, Romae 1997, pp. 41-56.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+        <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+      </projectDesc>
+      <editorialDecl>
+        <p><hi rend="bold">Note di trascrizione e codifica specifiche del file </hi></p>
+        <p>La paragrafazione fa seguito a quella della <hi rend="italic">Vita Vergilii</hi></p>
+        <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+        <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+          l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni,
+          note e commenti e ogni altro contenuto redatto da editori moderni. </p>
+        <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+          correttezza di trascrizione</p>
+        <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+          distinzione u/v minuscole.</p>
+        <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+        <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+          grassetto, corsivo, spaziatura espansa.</p>
+        <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+          <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+          <hi rend="italic">loci desperati</hi>:
+          <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo† e
+          †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...]<lb/> lacuna integrata
+          dagli editori: <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+        </p>
+        <p>Sono stati marcati i termini in lingua greca
+          <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+        </p>
+        <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+            target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+            >Note di trascrizione e codifica di testi latini tardoantichi
+            [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+      </editorialDecl>
+
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latino</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="opus">
+        <head> Praefatio comm. in Verg. Eclogas</head>
+        <p>
+          <milestone unit="par" n="47"/> Quoniam de auctore summatim diximus, de ipso carmine iam
+          dicendum est, quod bifariam tractari solet, id est ante opus et in ipso opere. Ante opus
+          titulus causa intentio. Titulus, in quo quaeritur cuius sit quid sit; causa, unde ortum
+          sit et quare hoc potissimum ad scribendum poeta praesumpserit; intentio, in qua
+          cognoscitur, quid efficere conetur poeta. In ipso opere sane tria spectantur: numerus ordo
+          explanatio. </p>
+        <p>
+          <milestone unit="par" n="48"/> Quamuis igitur multa <foreign xml:lang="grc">ψευδεπίγραφα
+          </foreign>, id est falsa inscriptione sub alieno nomine sint prolata, ut Thyestes
+          tragoedia huius poetae, quam Varius suo nomine edidit, et alia huiusmodi, tamen Bucolica
+          liquido Vergilii esse minime dubitandum est, praesertim cum ipse poeta, tamquam hoc
+          metuens, principium huius operis et in alio carmine suum esse testatus sit dicendo: </p>
+        <lg>
+          <l> Carmina qui lusi pastorum audaxque iuuenta, </l>
+          <l> Tityre, te patulae cecini sub tegmine fagi.</l>
+        </lg>
+        <p>
+          <milestone unit="par" n="49"/> Bucolica autem et dici et recte dici, uel hoc indicio
+          probasse suffecerat, quod eodem nomine apud Theocritum censeantur; uerum ratio quoque
+          monstranda est. Tria genera pastorum sunt, quae dignitatem in bucolicis habent, quorum
+          minimi sunt qui <foreign xml:lang="grc">αἰπόλοι</foreign> dicuntur a Graecis, a nobis
+          caprarii; paulo honoratiores qui <foreign xml:lang="grc">μηλονόμοι ποιμένες </foreign> id
+          est opiliones dicuntur; honoratissimi et maximi, qui <foreign xml:lang="grc">βουκόλοι
+          </foreign>, quos bubulcos dicimus. Vnde igitur magis decuit pastorali carmini nomen imponi
+          nisi ab eo gradu, qui fere apud pastores excellentissimus inuenitur? </p>
+        <p>
+          <milestone unit="par" n="50"/> Causa dupliciter inspici solet, ab origine carminis et a
+          uoluntate scribentis. </p>
+        <p>
+          <milestone unit="par" n="51"/> Originem autem bucolici carminis alii ob aliam causam
+          ferunt. Sunt enim qui a Lacedaemoniis pastoribus Dianae primum carmen hoc redditum dicant,
+          cum eidem deae per bellum, quod toti Graeciae illo tempore Persae inferebant, exhiberi per
+          uirgines de more non posset. <milestone unit="par" n="52"/> Alii ab Oreste circa Siciliam
+          uago id genus carminis Dianae redditum loquuntur, et redditum per ipsum atque pastores,
+          quo tempore de Scythia Taurica cum sorore profugerat, subrepto numinis simulacro et celato
+          in fasce lignorum unde Fascelinam Dianam perhibent nuncupatam, apud cuius aras Orestes per
+          sacerdotem eiusdem numinis Iphigeniam sororem suam a parricidio fuerat expiatus.
+            <milestone unit="par" n="53"/> Alii Apollini <foreign xml:lang="grc">νομίῳ</foreign>
+          pastorali scilicet deo, qua tempestate Admeto boues pauerat. <milestone unit="par" n="54"
+          /> Alii Libero Nympharum et Satyrorum ed id genus numinum principi, quibus placet rusticum
+          carmen. <milestone unit="par" n="55"/> Alii Mercurio Daphnidis patri, pastorum omnium
+          principis et apud Theocritum et apud hunc ipsum poetam. <milestone unit="par" n="56"/>
+          Alii in honorem Panos scribi putant peculiariter pastoralis dei, item Sileni, Siluani
+          atque Faunorum. <milestone unit="par" n="57"/> Quae cum omnia dicantur, illud erit
+          probabilissimum, bucolicum carmen originem ducere a priscis temporibus, quibus uita
+          pastoralis exercita <supplied>est</supplied>, et ideo uelut aurei saeculi speciem in
+          huiusmodi personarum simplicitate cognosci, et merito Vergilium processurum ad alia
+          carmina non aliunde coepisse nisi ab ea uita, quae prima in terris fuit. Nam postea rura
+          culta et ad postremum pro cultis et feracibus terris bella suscepta, quod uidetur
+          Vergilius in ipso ordine operum suorum uoluisse monstrare, cum pastores primo, deinde
+          agricolas canit, et ad ultimum bellatores. </p>
+        <p>
+          <milestone unit="par" n="58"/> Restat ut, quae causa uoluntatem attulerit poetae Bucolica
+          potissimum conscribendi considerare debeamus. Aut enim dulcedine carminis Theocriti ad
+          imitationem eius illectus est, aut ordinem temporum secutus est circa uitam humanam, quod
+          supra diximus, aut cum tres modi sint elocutionum, quos <foreign xml:lang="grc"
+            >χαρακτῆρας</foreign> Graeci uocant, <foreign xml:lang="grc">ἰσχνός</foreign> qui
+          tenuis, <foreign xml:lang="grc">μέσος</foreign> qui moderatus, <foreign xml:lang="grc"
+            >ἁδρός</foreign> qui ualidus intelligitur, <milestone unit="par" n="59"/> credibile erit
+          Vergilium, qui in omni genere praeualeret, Bucolica ad primum modum, Georgica ad secundum,
+          Aeneidem ad tertium uoluisse conferre. <milestone unit="par" n="60"/> An ideo potius
+          Bucolica scripsit, ut in eiusmodi poemate, quod et paulo liberius et magis uarium quam
+          cetera est, facultatem haberet captandae Caesaris indulgentiae repetendique agri, quem
+          amiserat ob hanc causam: <milestone unit="par" n="61"/> occiso in curia die <del>III</del>
+          Iduum Martiarum C. Caesare, cum Augustum Caesarem paene puerum sibi ueterani non abnuente
+          senatu ducem constituissent, exorto ciuili bello Cremonenses cum ceteris eiusdem studii
+          aduersarios Augusti Caesari adiuuerunt. <milestone unit="par" n="62"/> Vnde factum est, ut
+          cum uictor Augustus in eorum agros ueteranos deduci iussisset, non sufficiente agro
+          Cremonensium Mantuani quoque, in quibus erat etiam poeta Vergilius, maximam partem finium
+          suorum perdidissent, eo quod uicini Cremonensibus fuerant. <milestone unit="par" n="63"/>
+          Sed Vergilius merito carminum fretus et amicitia quorundam potentium centurioni Arrio cum
+          obsistere ausus esset, ille statim, ut miles, ad gladium manum admouit, cumque se in fugam
+          proripuisset poeta, non prius finis persequendi fuit, quam se in fluuium Vergilius
+          coniecisset atque ita in alteram ripam enatauisset. Sed postea, et per Maecenatem et per
+          triumuiros agris diuidendis Varum, Pollionem et Cornelium Gallum fama carminum commendatus
+          Augusto, et agros recepit, et deinceps imperatoris familiari amore perfruitus est. </p>
+        <p>
+          <milestone unit="par" n="64"/> Intentio libri quam <foreign xml:lang="grc"
+            >σκοπόν</foreign> Graeci uocant, in imitatione Theocriti poetae constituitur, qui
+          Siculus ac Syracusanus fuit. Est intentio etiam in laude Caesaris et principum ceterorum,
+          per quos in sedes suas atque agros rediit, unde effectus finisque carminis et
+          delectationem et utilitatem secundum praecepta confecit. <milestone unit="par" n="65"/>
+          Quaeri solet, cur non ultra quam decem eclogas conscripserit, quod nequaquam mirum
+          uidebitur ei, qui considerauerit uarietatem scenarum pastoralium ultra hunc numerum non
+          potuisse proferri, praesertim cum ipse poeta circumspectior Theocrito, ut ipsa res
+          indicat, uideatur metuere, ne illa ecloga, quae ‘Pollio<del>ni</del>’ inscribitur, minus
+          rustica iudicetur, cum id ipsum praestruit, dicens: </p>
+        <lg>
+          <l> Sicelides Musae paulo maiora canamus, </l>
+        </lg>
+        <p>
+          <milestone unit="par" n="66"/> et item similiter in aliis duabus facit. Illud tenendum
+          esse praedicimus, in Bucolicis Vergilii neque nusquam neque ubique aliquid figurate dici,
+          hoc est per allegoriam. Vix enim propter laudem Caesaris et amissos agros haec Vergilio
+          conceduntur, cum Theocritus simpliciter conscripserit, quem hic noster conatur imitari. </p>
+        <p>
+          <milestone unit="par" n="67"/> Sequitur id, quod in ipso ordine tractari solet, id est
+          numerus ordo explanatio. </p>
+        <p>
+          <milestone unit="par" n="68"/> Numerus eclogarum manifestus est, nam decem sunt, ex quibus
+          proprie bucolicae septem esse creduntur, quod ex his excipiantur Pollio, Silenus et
+          Gallus. Prima igitur continet conquestionem publicam, priuatam gratulationem de agro, et
+          dicitur ‘Tityrus’; secunda amorem pueri, et dicitur ‘Alexis’; tertia certamen pastorum, et
+          dicitur ‘Palaemon’; quarta genethliacum, et dicitur ‘Pollio’; quinta <foreign
+            xml:lang="grc">ἐπιτάφιον</foreign>, et dicitur ‘Daphnis’; sexta <foreign xml:lang="grc"
+            >μεταμορφώσεις</foreign>, et dicitur ‘Varus’ uel ‘Silenus’; septima delectationem
+          pastorum, et dicitur ‘Corydon’; octaua amores diuersorum sexuum et dicitur ‘Damon’ uel
+          ‘Farmaceutria’; nona propriam poetae conquestionem de amisso agro et dicitur ‘Moeris’;
+          decima desiderium Galli circa Volum<del>i</del>n<supplied>i</supplied>am Cytheridem, et
+          dicitur ‘Gallus’. </p>
+        <p>
+          <milestone unit="par" n="69"/> Quod ad ordinem spectat, illud scire debemus, in prima
+          tantum et in ultima ecloga poeta uoluisse ordinem reseruare, quando in altera principium
+          constituerit, ut in Georgicis ait: </p>
+        <lg>
+          <l> Tityre, te patulae cecini sub tegmine fagi, </l>
+        </lg>
+        <p> in altera ostenderit finem, quippe cum dicat: </p>
+        <lg>
+          <l> Extremum hunc, Arethusa, mihi concede laborem. </l>
+        </lg>
+        <p> Verum inter ipsas eclogas naturalem consertumque ordinem nullum esse certissimum est.
+          Sed sunt qui dicant, initium Bucolici carminis non ‘Tityre’ esse, sed: </p>
+        <lg>
+          <l> Prima Syracusio dignata est ludere uersu.</l>
+        </lg>
+        <p>
+          <milestone unit="par" n="70"/> Superest explanatio, quam in ordinem digeremus, cum
+          praedixerimus, illud imprimis tenendum esse, bucolicum poema usque adeo ab heroico
+          charactere distare, ut uersus quoque huius carminis suas quasdam caesuras habeant et suis
+          legibus distinguantur. Nam, cum tribus his probetur metrum: caesura scansione
+          modificatione, non erit bucolicus uersus, nisi in quo et primus pes partem orationis
+          absoluerit, et tertius trochaeus fuerit in caesura, et quartus pes dactylus magis quam
+          spondeus partem orationis terminauerit, <supplied>et</supplied> quintus et sextus pes cum
+          integris dictionibus fuerint, quod tamen Vergilius a Theocrito saepe seruatum uictus
+          operis difficultate neglexit, in solo principio incertum industria siue casu bucolico
+          uersu posito. Nam ‘Tityre’ dactylus pes partem orationis absoluit; ‘Tityre tu patulae
+          recubans’ tertium trochaeum circa praepositionem quamuis de composita dictione conclusit;
+          ‘Tityre tu patulae recubans sub tegmine fagi’ quartum spondeum pro dactylo cum parte
+          orationis exhibuit; ‘tegmine fagi’ integrum comma perfecit, cuius rei diligentiam licet in
+          Theocriti multis uersibus admirari.</p>
+      </div>
+
+
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Alexandri Magni Macedonis epitoma rerum gestarum</title>
+        <author>Anonymus</author>
+        <respStmt>
+          <resp>Correzione linguistica</resp>
+          <name>Raffaella Tabacco</name>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica XML</resp>
+          <name>David Paniagua</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>digilibLT</publisher>
+        <pubPlace>Vercelli</pubPlace>
+        <date>2011</date>
+        <availability>
+          <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+        </availability>
+        <idno>dlt000166</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Incerti auctoris Epitoma rerum gestarum Alexandri Magni cum libro De morte testamentoque
+          Alexandri, iterum edidit P. H. Thomas, Lipsiae, in aedibus B. G. Teubneri, 1966.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+        <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+      </projectDesc>
+      <editorialDecl>               
+        <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+        <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+          l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+          e commenti e ogni altro contenuto redatto da editori moderni. </p>
+        <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+          correttezza di trascrizione</p>
+        <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+          distinzione u/v minuscole.</p>
+        <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+        <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+          grassetto, corsivo, spaziatura espansa.</p>
+        <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+          <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+          <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+          si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+          [...]<lb/> lacuna integrata dagli editori:
+          <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+        </p>
+        <p>Sono stati marcati i termini in lingua greca
+          <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+        </p>
+        <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+          target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+          >Note di trascrizione e codifica di testi latini tardoantichi
+          [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+      </editorialDecl>
+         </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latino</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="opus"><head>Alexandri Magni Macedonis epitoma rerum gestarum</head>
+        <p>
+          <milestone unit="par" n="1"/>Magnus Alexander rex Macedoniae postquam omne imperium Asiae
+          ad se redegisse credidit <unclear>neque id quod Dario vivo ostendere ausus
+          esset</unclear>, postea patefecit voluntatem. <milestone unit="par" n="2"/>Deinde corporis
+          sui custodes multos instituit, itemque Darii fratrem Oxyathrem instituit
+            <supplied><gap/></supplied>; <supplied>circum</supplied> deditque sibi diadema et
+          tunicam mesoleucum et caduceum zonam<supplied>que</supplied> Persicam ceteraque ornamenta
+          regia omnia, quae Darius habuerat; itemque equites stipatores, quos habebat, Persico
+          ornatu <del>et</del> sequi iussit. <milestone unit="par" n="3"/>Deinde Alexander audivit
+          Bessum vestem regiam sumpsisse. Agrianos et hypaspistas armari iussit eiusque confidentiam
+          admiratus exercitum per montes, qua proximum putavit, ad eum ducere intendit. Devenit ad
+          Arios, ubi erat Ariobazanes, qui cum Besso Darium interfecerat. <supplied>Hic</supplied>
+          adventum Alexandri pertimuit atque in Indiam profugit. </p>
+        <p>
+          <milestone unit="par" n="4"/>Deinde Alexander exercitum ad Euergetas, qui antea Arimaspi
+          vocabantur, duxit. Ibi oppidum, qua in Indiam iter est, constituit et nomen Alexandriam
+          imposuit. Deinde pervenit ad oppidum Paropanisadarum, quod est positum in <unclear>flumine
+            medorum</unclear>. <milestone unit="par" n="5"/>Spitamenes, qui proximus erat Besso,
+          postquam audivit Alexandrum adesse, Dataphernen et Catanen ceterosque Darei propinquos
+          convenit demonstrans tempus advenisse Darii ulciscendi et Alexandri
+            <supplied>in</supplied> amicitiam insinuandi, Bessumque cohortabatur conprehensum ut
+          Alexandro quam primum traderent. Quibus id facile et cito persuasit, nam cotidie
+            magis<del>que</del> Darium desiderantes Besso iniquiores fiebant. <milestone unit="par"
+            n="6"/>Itaque Spitamenes, quod familiarissimus Besso erat, facile custodes ab
+          tabernaculo ablegavit. Deinde ipsi universi introierunt et Bessum constrinxerunt
+          ornamentaque regia ademerunt itaque ad Alexandrum profecti sunt. Hosque ubi repente
+          advenientes Alexander Bessumque vinctum adduci conspexit, <del>et</del> ex ea re summa
+          laetitia adfectus eos, qui adduxerunt, collaudatos donatosque dimisit.</p>
+        <p>
+          <milestone unit="par" n="7"/>Deinde iter <supplied>ad</supplied> Tanaim flumen facere
+          coepit et quartum post diem ad Maracanda devenit, quod abest a flumine Tanai dierum
+            <supplied><gap/></supplied> via. Id oppidum pulcherrimum ac munitissimum est propter
+          multitudinem fluminis eius, quod oppidum circumfluit; quod <supplied>in</supplied>
+          circuitu murus stadia LXX continuus continebat. <milestone unit="par" n="8"/>Ibi praesidio
+          relicto ad Tanaim, quo contenderat, perrexit, castraque secundum flumen collocavit.
+          Interim Scytharum imperator fratrem suum Carthasim cum copia magna misit, qui Alexandrum
+          flumen transire prohiberet. <milestone unit="par" n="9"/>Deinde Alexandro nuntiatur
+          Spitamenen et Catanen ab amicitia discessisse et Graiorum copiam, quam in arce regia cum
+          praesidiis reliquerat, fugasse multosque occidisse; reliquos in quendam locum munitum
+          cuneatim confugisse in praefectura Bactrina eosque Spitamenen oppugnare. Haec ubi
+          Alexander audivit, praeter consuetudinem indignissime tulit noctemque circa offensas
+          pervigilavit in cogitando. </p>
+        <p>Itaque ante utilissimum visum est <del>et</del> quo coepisset perseverare, atque
+          postridie rates in flumine iubet apparari. Quod Macedones studiose regi parentes brevi
+          tempore fecerunt; nam duo milia ratium secundum fluminis ripam destinatam appulerunt.
+          Postea exercitum in ratis ascendere iussit signoque dato omnes universas solvere iussit.
+            <milestone unit="par" n="11"/>Itaque in altum provecti ratium multitudine ut agmine
+          quadrato per campum ac non per flumen ire videbantur, barbari autem, mentibus destinati
+          non pati eos in terram descensionem facere, <del>sed</del> in ripa telis contentis
+          praestolabantur. Postquam medium iter fluminis praestiterunt, signo dato Macedones
+          clamorem sustulerunt; simul strepitu remorum ac signorum sonu remigumque cohortatione
+          animi militum exacuebantur. <milestone unit="par" n="12"/>Barbari autem clamore facto
+          Macedones sagittis ceterisque telis figere coeperunt; multos sauciarunt conpluresque
+          occiderunt ideo, quod tela evitare propter angustias nullo modo poterant. Deinde, simul
+          rates ad ripam accesserunt, Alexander turmas impressionem facere phalangesque consequi
+          iussit, brevique tempore, postquam primi animo constanti impressionem fecerunt, omnes
+          barbari se in fugam dederunt. Eos Macedones per noctem sequentes usque ad Liberi Patris
+          columnam pervenisse dicuntur. Inde ad flumen Tanaim et castra reversionem fecerunt.</p>
+        <p>
+          <milestone unit="par" n="13"/>Dein triduo post ad Maracanda versus iter festinans facere
+          intendit, ut Spitamenen inprudentem opprimeret. Quem ubi Spitamenes reverti audivit,
+          Graios oppugnare destitit. Ille autem ad Maracanda profectus quarto die devenit.
+            <supplied>Vbi magnae</supplied> Graiorum caedes erant factae. Mortuos sepeliri
+          Menedemoque praefecto sepulchrum fieri iussit. <milestone unit="par" n="14"/>Deinde per
+          agrum Sogdianum agmen duxit. Ex eo porro in Bactriam pervenit et Bessum adduci iussit
+          eumque suspensum more Persarum fundis necavit. <milestone unit="par" n="10"/>Deinde post
+          diem undecimum ad flumen Ochum pervenit. Id transit. Inde ad Oxum flumen devenit.
+            <milestone unit="par" n="15"/>Ex eis regionibus quaedam hominum multitudo timore inpulsa
+          in quendam montem praeruptum atque excelsum confugerant, cuius altitudo horribilem
+          aspectum in se habebat; nam ab imo ad summum non minus XX stadiis
+            <supplied>eminebat</supplied>. Eo aditus uno loco per speluncam patebat, reliquae partes
+          inpendentibus saxis erant praeruptae. <milestone unit="par" n="16"/>Hunc ubi Alexander
+          expugnari non posse vidit, de cuncto exercitu homines CCC, quos fortissumos esse putavit,
+          elegit hosque grandi praemio <supplied>in</supplied>pulsos post montem adduxit
+          demonstravitque, ut in saxis clavos ferreos <supplied>cum</supplied> angulis factos
+          figerent et lineas transducerent atque ita minutatim scandent<supplied>es alius
+            al</supplied>ium adlevando in summum montis verticem reperent; id in nocte adgrederentur
+          et, cum diluxisset, linteis candidis sibi significarent. <milestone unit="par" n="17"/>Id
+          illi citius Alexandri opinione fecerunt. Cum plures praecipitantes perissent, reliqui
+          perfecerunt. Alexander cum primo mane mittit quendam ex suis Daren ad Ariomazen hostium
+          ducem, qui ei persuaderet, uti se dederet; si id impetrare non potuisset, iubet Daren, uti
+          eos, qui in summo essent, significaret. <milestone unit="par" n="18"/>Id ubi Ariomazes
+          conspexit, admiratus est, quasi Alexander in exercitu homines volaticos haberet. Cum de ea
+          re timidus consultaret, quid ageret, multitudo hominum, quae ibi erat, Ariomazen
+          interfecerunt. Deinde ipsi se dediderunt. Alexander autem eo interfecto reliquis
+          ignovit.</p>
+        <p>
+          <milestone unit="par" n="19"/>Deinde diebus post paucis partem exercitus in Bactros
+          Nautacen in hiberna praemisit; ipse cum reliquis Xeiniptam eiusdem rei causa concessit.
+          Ibi cum Sisimithre, qui more barbaro e matre sua duos filios et tres filias produxerat,
+          foedus fecit.</p>
+        <p>
+          <milestone unit="par" n="20"/>Deinde hieme exacta exercitum <supplied>ad</supplied> Dahas
+          duxit. <unclear>quo Spitamenes ex eo loco</unclear> ob hanc causam non profugerat, quod
+          uxorem quandam Bactrinam forma praecellenti, quam magnificabat, ibi habebat. Hanc in
+          omnibus itineribus et laboribus secum ducebat. Ea cum Alexandri adventum audisset,
+            nega<supplied>vi</supplied>t se ex oppido exituram; deinde post virum multis precibus
+          orare coepit, ut Alexandri fidei se traderet; at ille noluit. <milestone unit="par" n="21"
+          />Id ubi impetrare non potuit, in convivio eum coegit, ut <unclear>poculum</unclear>
+          biberet, eumque defessum somno dedit. At ubi silentium esse sensit, de lecto surrexit et
+          pulvinar viro a capite subduxit. Ita gurgulione extenso caput a corpore gladio abscidit et
+          ita cum uno servulo porta progressa ad Alexandrum in castra devenit. <milestone unit="par"
+            n="22"/>Eam custodes ad regem deduxerunt decoram ornatu ac formae dignitate,
+            <supplied>etsi</supplied> cruenta erat. At ubi Alexander <supplied>eam</supplied>
+          repente conspicatus est multimodisque admiratus, quae esset vel quid venisset, tum illa
+          caput viri extulit. <milestone unit="par" n="23"/>Tum rex exclamavit: <said>o
+              <supplied>im</supplied>piissime Spitamene, tandem poenas pro sceleribus
+            pependisti!</said> Deinde mulieris manum adprehendit gratiasque egit. Neque quicquam
+          honoris habuit, ne existimaretur ob eius formae cupiditatem fecisse. Quod ubi factum Dahae
+            <del>Spitamenen occisum</del> audierunt, Catanen et Dataphernen conprehensos ad
+          Alexandrum adduxerunt. Ideo Alexander exercitum in oppidum ducere noluit.</p>
+        <p>
+          <milestone unit="par" n="24"/>Deinde Alexander ex eo loco profectus est. Cum iam tertium
+          diem iter faceret, repente nocte caelo obducta nivis multitudo terram contexit; deinde
+          undique vis ventorum cum turbinibus maximo cum caeli strepitu creberrimisque cum
+          fulgoribus exorta est, ut omnia everti ac perturbari viderentur. <milestone unit="par"
+            n="25"/>Cum frigore omnis humor terrae coiret ac glaciesceret, ut tabernacula ac
+          vestimenta militum rigida obdurescerent, eum laborem aliquandiu Macedones perpessi sunt.
+          At ubi frigus augescit ac vis tempestatum non intermittit, <supplied>ut neque in manibus
+            arma habere possent, ita ut vento differrentur,</supplied> ad quos quisque potuit vicos
+          ac villas passim profugit. <milestone unit="par" n="26"/>Partim se ad arbores adplicabant,
+          nonnulli sub rupes atque inpendentia saxa confugiebant. Alii cum ex equo descendere
+          conarentur, ob torporem nequibant ac vestigio se movere non poterant. Tum si quis
+          cubuerat, cum exsurgere conaretur, veste concreta ad terram haerebat, <del>ut neque in
+            manibus arma habere possent, ita ut vento differrentur,</del> ut neque quisquam se neque
+          alterum adiuvare posset. <milestone unit="par" n="27"/>Huius vi tempestatis miserrima
+          morte ad hominum XXX milia, iumentorum IV milia perierunt consumpti; praeterea multi, qui
+          aut corporis dolore aut aliqua parte membrorum debilitati essent, in castra
+          revertebantur.</p>
+        <p>
+          <milestone unit="par" n="28"/>Deinde iter coeptum ad Gazabes perseverare intendit. Hoc in
+          itinere satrapes quidam Chorienes obviam venit. Cum eo amicitiam fecit. Isque cum
+          Alexandrum hospitio apud se accepisset, in convivium filias suas virgines
+            <supplied>cum</supplied> ceteris amicorum filiis virginibus saltatum introduxit.
+            <milestone unit="par" n="29"/>In his fuit Oxyartis filia Rhoxane <supplied>ex</supplied>
+          omnibus formosissima, cuius aspectu captus Alexander in cupiditatem adductus est. Tum
+          quaesivit, quis ea aut cuius filia esset. <supplied>Inveniebat</supplied> Oxyartis eius,
+          qui ibidem cenabat, esse. Tum poculum prehendit deosque conprecatus haec dicere coepit:
+          multa multis <supplied>in</supplied>sperantibus obtingere solere; <milestone unit="par"
+            n="30"/>multos reges ex captivis procrea<supplied>sse filios; mul</supplied>tos filias
+          suas ad exteras gentes nuptum misisse et ita communicatione facta amicitias firmasse.
+          “Quare," inquit, “neque Macedones vobis genere antestare neque vos, si victi in amicitiam
+          venissetis, adfinitate indignos ducerem. Hoc cum ego <supplied>fecero</supplied>, idem
+          quoque ut ceteri faciant Macedones curabo." <milestone unit="par" n="31"/>His verbis
+          amicos cohortabatur, et sibi quisque in convivio virginem matrimonio iunctam abduxit. Quod
+          factum Oxyartes ceterique barbari magno opere gavisi sunt.</p>
+        <p>
+          <milestone unit="par" n="32"/>His rebus gestis Alexander in agrum
+            <unclear>beionem</unclear> profectus est. <unclear>castra</unclear> praeterit et
+            <unclear>oxurum</unclear> flumen transit. Deinde stadia XXX per loca sola exercitum
+          transduxit, ut Indiam versus iter faceret. Pervenit <unclear>drapim</unclear>. Huc rex
+            <unclear>arines</unclear> cum liberis maximoque commeatu obviam venit, quem exercitui
+          divisit, ipsique Alexandro plurimam vestem barbaricam et equorum tria milia et argenti
+          talenta L milia adportavit. <milestone unit="par" n="33"/>Cum ab eo quaereret Alexander,
+          quid vellet, Indus respondit: <said>tuam,</said> inquit, <said>magne rex,
+            amicitiam.</said> Alexander dixit: <said>pater,</said> inquit, <said>vester moriens
+              <supplied>vobis</supplied> hanc pecuniam tradidit eamque ego <del>vobis</del> condono.
+            Equis in bello utar. Vos nostri memineritis; officium hoc erit vestrum.</said>
+          <milestone unit="par" n="34"/>Hinc progressus <unclear>per phuten</unclear>, quod abest ab
+          Indo dierum IX via. Tum <del>et</del> hi, qui trans flumen habitabant, ubi vident
+          Alexandrum advenisse, gavisi sunt. Primum Iovis filium <supplied>Liberum
+          Patrem</supplied>, alterum Herculem, tertium Alexandrum venisse commemorabant. Id rex
+          gavisus fluvium transit et ducibus sumptis ad flumen Indum pervenit. <milestone unit="par"
+            n="35"/>Ibi naves aedificare iussit exercitumque transportavit. Ipse cum equitatu et
+          levi armatura secundum flumen antecessit; Cratero cum reliqua copia ut sequeretur
+          imperavit. Deinde ad oppidum primum Indiae Silicem cum accederet, ex oppido armati
+          exierunt. Hos effugatos intra portam redegit. Postea exercitum eorum consecutus est.
+          Oppidum expugnavit puberesque omnes, ut metum iniceret, occidit. </p>
+        <p>Inde progressus ad oppidum praecinctum venit. Ibi obsidibus acceptis praesidium
+          collocavit. <milestone unit="par" n="36"/>Ex eo protinus <supplied>progressus</supplied>
+          CCXXX stadia per agrum Nysaeum pervenit ad oppidum Nysam inprudentibus Nysaeis. Oppidani
+          ubi id senserunt, legatos ad eum maiores natu pacificatum miserunt; hisque placuit in
+          deprecando regi demonstrare, quem ad modum Liber Pater, cum perambulasset, oppidum Nysam
+          et civitatem Nysaeorum, hominum L milia, constituisset, montemque procul ostenderunt, quem
+          ille ex progenie sua Meron appellasset, quantaque amoenitate esset demonstraverunt.
+            <milestone unit="par" n="37"/>Deinde simul omnes flentes, ne Liberi Patris monimenta ac
+          beneficia tolleret, obsecrare coeperunt, hisque Alexander oppidi libertatem suaque omnia
+          reddidit Acuphinque imperio praefecit. Eumque Alexander petit, ut viros bonos centum
+          electos secum mitteret. <milestone unit="par" n="38"/>Acuphis respondit nullam civitatem
+          stare posse, ex qua optimi C abducti essent. <said>Si nos,</said> inquit, <said>vis
+            salvos, potius inprobissimos abduc ducentos.</said> Id Alexandro ridiculum et verum
+          visum est. — Deinde et Meron ascendit. Totus ager aqua abundabat et omnium generum arborum
+          feracissimarum <del>et</del> ubertate erat repletus.</p>
+        <p>
+          <milestone unit="par" n="39"/>Inde profectus Cordiaeos montes transit. Ad satrapeam
+          Assacanam devenit; deinde ad oppidum Mazaga accessit, in quo regnavit Assacenus, cuius
+          post mortem mater Cleophis cum eius filio patrium imperium obtinebat. In quo regis frater
+          Amminais mercennariorum IX milia, <supplied>quae</supplied> introduxerat in civitatem,
+          cohortatus contra Alexandrum armaverat. <del>pugna Indorum et Alexandri. <milestone
+              unit="par" n="40"/>Alexander et rex Indorum Aminais</del> id oppidum in circuitu XXXV
+            <del>milia</del>
+          <supplied>stadia</supplied> murus ex saxo cingebat fossaque erat vasta munitum. Hoc
+          Alexander militum corona circumdata oppugnare intendit. Hic dum ipse circum moenia
+          adequitans suos hortatur, repente a muro missa sagitta crure sinistro percussus est. Id
+          telum postquam evolsum est, vis magna sanguinis secuta est. Neque <del>eo magis male
+            adfectus</del> proelio discessit: despecto vulnere eoque magis magisque <supplied>male
+            adfectus</supplied> milites hortatur, <unclear>testudinesque</unclear> ac turris ut ad
+          murum appellant. <milestone unit="par" n="41"/>Tum Macedones eo cupidius rege saucio
+          scalis appositis oppido potiri nituntur. Alii e turribus tela tormentis concitata in
+          defensores mittunt, alii machinationes ad murum applicant. Id ubi Cleophis animadvertit,
+          turris tanta multitudine ad oppidum accurrere vimque tantam<del>que</del> telorum
+          tormentis missorum, re invisitata pertimuit. Credit ea saxa nervis missa scorpionis
+            <supplied>et</supplied> catapultae arcu expressa volare. <milestone unit="par" n="42"
+          />Cum tantis viribus hostes esse putaret, <unclear>ariplicem</unclear> ceterosque amicos
+          convocat; cohortatur, ut oppidum Alexandro dedant. Mercennarii contra reclamantes impedire
+          ac seditionem facere coeperunt. Postero die Cleophis clam legatos ad Alexandrum
+            <supplied>de</supplied> deditione mittit oratum, uti ignosceret ipsis; vi conductorum
+          adactos. <milestone unit="par" n="43"/>Quae fecerint, se fecisse. Id mercennarii suspicati
+          de suo numero ad Alexandrum legatos miserunt oratum, uti ex oppido exire suaque exportare
+          liceret. His utrisque quod postulaverunt concessit. Illi cum uxoribus liberisque et cum
+          impedimentis porta foras exierunt et ab oppido haud longe consederunt. Postero die
+          Alexander copias expeditas ad eos ducere coepit pronuntiavitque, ut omnes interficerentur.
+            <milestone unit="par" n="44"/>Illi ubi quid ageretur senserunt, inpedimentis in medium
+          collectis ipsi armati circumsteterunt parati aut iniuriam refutare aut pro uxoribus ac
+          liberis mortem fortiter obire. Simul clamare coeperunt Alexandrum in fide non manere.
+          Alexander dixit se ex oppido exeundi, non abeundi potestatem fecisse. <milestone
+            unit="par" n="45"/>Itaque impressione facta multi paucos diuque resistentes acerrimo
+          certamine aegre superatos omnes interfecerunt. Deinde ad oppidum reversionem fecerunt. Eis
+          obviam venit Cleophis cum populi principibus ac nepote parvo, prae se velatas verbenas ac
+          fruges supplicii signa portantes. Tum Alexandro facies mulieris pulchra visa est. Erat
+          enim statu ac dignitate ea, uti nobili loco orta atque imperio digna videretur. Deinde
+          Alexander cum paucis in oppidum introiit ibique complures dies commoratus est. </p>
+        <p>
+          <milestone unit="par" n="46"/>Hinc profectus <unclear>bagasdaram</unclear> oppidum
+          devenit, quod dicebatur Hercules expugnare non potuisse. Hunc ubi barbari conspexerunt, in
+          montem Aornum confugerunt, cuius circuitus stadia <supplied>C, altitudo</supplied> XVII
+            <del>milia</del> erant in summo vertice. Hic <supplied>erat</supplied> plenissimus
+          omnium generum avium, quae voces imitarentur hominum. <del>psittaci erant multi.</del>
+          <milestone unit="par" n="47"/>Eum cum montem Alexander adire conaretur, barbari e loco
+          superiore <supplied>veniret</supplied> dictitabant, si Alexander se fortiorem quam
+          Herculem putaret. Itaque Alexander exercitum cohortatus ad montem adduxit. Ipse primus
+          maximo cum labore ac periculo <supplied><gap/></supplied> versari paulatim scandens. Sed
+          cum multi utrimque interissent, <supplied>in</supplied> locum summum ad planitiem
+          penetravit et ita victoria potitus omnes interfici iussit.</p>
+        <p>
+          <milestone unit="par" n="48"/>Postquam haec transegit, XVI. die ad Indum flumen
+          reversionem fecit. Inde naves aedificatas, ut imperaverat, magnumque commeatum ab
+          Hephaestione compara<supplied>tum in</supplied>venit. <milestone unit="par" n="49"/>Vltra
+          id flumen quidam Mophis, Taxilis filius, qui iam patre vivo Alexandri amicitiae ob eius
+          res gestas cupidus fuisset, patre mortuo legatos ad Alexandrum misit oratum, qui
+          renuntiarent, quid vellet: utrum se regnum paternum obtinere an
+            ali<supplied>um,</supplied> quem missurus esset. Id ubi Alexander audivit, animum eius
+          ac sententiam singularem admiratus est. Mophis autem neque nomen mutare neque vestem
+          regiam volebat sumere; itaque Alexandri adventum expectabat.</p>
+        <p>
+          <milestone unit="par" n="50"/>Deinde Alexander commeatu militibus dispertito exercitum in
+          navis oneravit flumenque transportavit. Id ubi Mophis audivit, Alexandrum advenisse,
+          libens cum exercitu ac elephantis profectus est. <milestone unit="par" n="51"/>Hunc ubi
+          Alexander agmine conferto obviam venientem conspexit, veritus <del>est</del>, ne hostis
+          adventus esset, continuo pronuntiare iussit, ut milites armarentur et ita armati sub
+          signis loco suo irent. Hoc tumultu <del>metu</del> commoti Macedones taciti in loco
+          constiterunt. Id ubi Mophis intellexit, iussit suos consistere atque hastas erigere; ipse
+          solus adequitans longe antecessit. <milestone unit="par" n="52"/><del>item</del> Alexander
+          ubi id vidit, item contra suos antecessit solus soli parem se existimans. <del>Ibi
+            Alexander et Mophis, rex Indorum, qui postea Taxiles appellatus est, pacem
+            fecerunt.</del> Deinde congressi dextras dederunt et amicitiam fecere. Deinde exercitum
+          atque equitatum omnem et elephantos LVIII et argenti talenta DC, tauros infulis velatos
+            <supplied><gap/></supplied>, multa praeterea vasa aurea et argentea et vestimenta omnis
+          generis compluraque animalia silvestria inusitata Alexandro tradidit. <milestone
+            unit="par" n="53"/>His acceptis Alexander cum <supplied>quaereret</supplied>, quae causa
+          fuisset exercitum comparandi, respondit, quoniam is <supplied>in</supplied> animo
+          habuisset quod voluerat ut faceret. <del>at</del>
+          <supplied>Tum</supplied> Alexander eum interrogavit, num quis ei finitimus molestus esset.
+          Ille respondit trans flumen esse duos reges; <supplied>eos</supplied> sibi bellum parare;
+          Abisaren in montibus habitare, Porum autem in campo secundum flumen imperare.</p>
+        <p>
+          <milestone unit="par" n="54"/>Alexander autem pro eius bonitate animi ei gratiam restituit
+          dixitque uti regnum paternum obtineret nomenque mutare iussit Taxilemque eum appellari.
+          Tunc deinde ad fluminis ripam cum Taxile accessit viditque hostium copias in campis passim
+          secundum fluvium consedisse. Cum <supplied>a</supplied> Taxile quaereret, quid copiarum in
+          castris esset, invenit Porum LXXXV elephantos habere, quadrigas CCC, peditatum XXX milia
+          ampliorem; ipsum Porum cubita V esse altum. <milestone unit="par" n="55"/>Ea cum Taxiles
+          narrasset, ille studio incensus nihilominus, qua flumen transiret, cogitabat. </p>
+        <p>Non multis post diebus Abisares fratrem suum legatum ad Alexandrum de amicitia misit. Cum
+          hoc Alexander Nicoclen ad Abisaren, ad Porum Cleocharen legatos remisit, qui ab utrisque
+          stipendium et obsides postularent; simul Poro iubet dici, ut ad fines sibi praesto sit.
+            <milestone unit="par" n="56"/>Abisares legatum remittere noluit; Porus autem ubi
+          audivit, ira commotus Cleocharen caesum plagis vulneravit. </p>
+        <p>Simul et epistulam conscriptam tradidit hoc exemplo: Rex Indorum Porus Alexandro dicit:
+          Quisquis es - nam te audio Macedonem esse - procul, opinor, abesse satius est et ad tuas
+          miserias spectare, non alteri invidere. <milestone unit="par" n="57"/>Porus ad hoc tempus
+          invictus dicitur. Darius me non commovet. Proinde, stulte, noli imperare. Sed infer modo
+          hostilem pedem in meum agrum et cognosces me Indorum regem esse, mihi autem dominum
+          neminem nisi Iovem. Et per ignem magnum rectorem caeli Porus iurat: si quem tuorum in meo
+          agro deprehendero, eius sanguine meam hastam cruentabo ac tua bona servis meis dividam;
+          nam mihi divitiae supersunt. Vnum id, quod iubes, faciam: ut tibi armatus
+            <supplied>in</supplied> confiniis praesto sim. <milestone unit="par" n="58"/>Hac
+          epistula perlecta incensus Alexander dicit quibusdam coactis cohortibus ac turmis, ut
+          confestim sequerentur. Apud exercitum reliquit Attalum quendam Macedonem non dissimilem
+          sui eique imperavit, ut suam chlamydem atque ornamenta regia sumeret et interdiu identidem
+          ad fluminis ripam cum comitatu accederet. <milestone unit="par" n="59"/>Imperat Cratero,
+          cum se trans flumen conspexisset, exercitum ut transportaret. Ipse cum delecta copia prima
+          nocte secundum amnem circiter stadia CL progressus in loco deserto ac silvestri quodam
+          consedit. Ibi follibus inflatis ac materia multa iniecta copias flumen transduxit. Deinde
+          expeditos ad hostem ducere coepit. Tunc Craterus, qui castris praeerat, ubi
+            <supplied>ea</supplied> vidit, ipse quoque flumen in his navibus, quarum copiam
+          habuerat, ac ratibus exercitum transportavit. <milestone unit="par" n="60"/>Porus, ubi
+          repente duos exercitus vidit, comminus proelium cum Alexandro committere intendit. Interim
+          Craterus descensione facta impetum ex altera parte dat. Ita ancipiti periculo Pori copiae
+          cum urguerentur, fugae se mandavit. Alexander imperat iis. quos hippotoxotas dicunt,
+          sagittas in Porum uti conicerent, ceteris parcerent. Ille ubi eorum multitudinem ire ad se
+          vidit, cum ipse in elephanto <supplied><gap/></supplied> instaret, ne se hosti dedere
+          cunctaretur, manus ambas alte vitam deprecans sustulit.</p>
+        <p>
+          <milestone unit="par" n="61"/>Ita fine facto elephantos atque iumenta exercitumque
+          Alexandro tradidit, de se ipso ut animo regio consuleret obsecrare coepit. Alexander ita
+          facturum pollicitus est fecitque, nam non modo ei suum regnum reddidit, sed et alias
+          quoque <unclear>finium</unclear> regiones eius regno attribuit. Eo proelio de exercitu
+          Pori XII milia ceciderunt, elephanti LXXX; de Alexandri pedites DCCCC, equites CCC occisi,
+          saucii multi facti; <milestone unit="par" n="62"/>item <del>ere</del> equi occisi multi,
+          in quibus equus Alexandri nomine Bucephalus occisus est, quo equo omnibus proeliis semper
+          vicerat. Igitur in eo loco oppidum eo cognomine condidit, quod nunc Bucephala nominatur.
+          Post, ut solitus erat, mortuos sepeliri iussit suos atque hostium fortissimos.</p>
+        <p>
+          <milestone unit="par" n="63"/>Hac pugna Alexander cogitabat ad ultimos fines Indiae atque
+          Oceanum penetrare, ut, cum inde redisset, ad mare Rubrum atque ad Atlanticum mare
+            <del>ut</del> deveheretur. Eius rei causa multas naves aedificare iussit. Itaque XXXIII
+          diebus navis prima perfecta est. <milestone unit="par" n="64"/>Interim
+            <supplied>Poro</supplied> postquam ex vulneribus melius factum est, eum ad se accersiri
+          iussit. Ille ubi venit, petiit ab eo, ut sec<supplied>um su</supplied>um in agrum
+          proficisceretur. <said>uti,</said> inquit, <said>patriam tuam, o magne Alexander, videam,
+            dimidium vitae amittere velim; ut me tui cives captivum videant, <supplied>impetrare a
+              me non poteris</supplied>; immortalis fieri nolo; si me exempli causa deportare vis,
+            habes potestatem deportandi mortuum</said>. Huic Alexander denegavit contra voluntatem
+          suam facturum. <milestone unit="par" n="65"/>Interim ab rege Abisare legati venerunt, qui
+          eum omnia facturum, quae imperasset, dicerent, praeterquam ut in conspectum veniret. Eo
+          Alexander exercitum duxit eumque subiugavit. <milestone unit="par" n="66"/>Deinde protinus
+          cetera oppida adiit. Multa vi subegit; <supplied>ab iis, quae</supplied> cepit, partim
+          obsidibus acceptis stipendium exegit; cum aliis pacem fecit. Ita progressus pervenit ad
+          oppidum, in quo Sopithes regnabat. Hic cum multis muneribus obviam venit Alexandro. In his
+          canes maximos fortissimosque donavit. <milestone unit="par" n="67"/>Horum cum virtutem
+          ostendere regi vellet, in clusum quendam locum intromisit leonem; deinde canes admisit
+          duo. Cum leonem ad terram datum urguerent, interim uni crus ferro abscidi praecepit, cum
+          ille neque vocem mitteret neque leonem ideo magis amitteret. Ita dentibus appressis eo
+          usque tenuit, dum anima cum sanguine ipsi crure secto omnis effluxit. Horum virtutum
+          causam cum rex quaereret, Sopithes tigrim esse quandam bestiam dixit, quae in his locis
+          formidolosissima mirabili cum velocitate ac viribus esset. Ob celeritatem id nomen esse
+          impositum. Ideo Persas sagittas tigres vocare eademque causa flumen Tigrin appellari, quod
+          is rapidissimus esset omnium fluminum. His canes feminas solere noctu in silvis alligatas
+          relinqui hasque ab ea bestia partim interfici, partim iniri et <del>quod inde natum
+            esset</del> eum fetum canum multo acerrimum esse demonstravit. </p>
+        <p>
+          <milestone unit="par" n="68"/>Hinc progressus pervenit in regnum Phegei. Is quoque cum
+          multis donis obviam venit. Deinde cum eo prodit ad flumen Hyphasin, qui fluit
+            <supplied>apud</supplied> oppidum, quod dicitur <unclear>altusacra</unclear>,
+            <del>a</del> latitudine stadiorum VI <del>milia</del>. Tum rex a Phegeo quaerere coepit,
+          quid trans esset. Inveniebat ab eo flumine XII dierum <supplied>via</supplied> per solas
+          terras flumen abesse Gangen latum stadiorum XXX; trans habitare Prasios et Gangaridas,
+          quorum rex Xandrames CC milia peditum, XX equitum coegisset, quadrigarum II milia
+          comparasset; praeterea elephantorum habere <supplied><gap/></supplied> CLXXX. <milestone
+            unit="par" n="69"/>Id rex usque eo non credidit, donec a Poro eadem omnia percontando
+          repperit. Re cognita aras conplures secundum fluvium constituit turresque aedificare
+          iussit, quae signa suae militiae forent. Hinc re divina facta fossas pro castris maiores
+          lecticarumque vestigia ampliora, quam hominis status postulabat, scutaque omnium generum
+          maiora frenosque item equorum ampliores, quam usus postulabat, fieri atque in castris
+          passim relinqui iussit. Ipse ad flumen Acesinem reversionem fecit. <milestone unit="par"
+            n="70"/>Ibi naves, quas Porus ac Taxiles aedificaverunt, offendit, biremes DCCC,
+          penarias CCC, hasque commeatu et militibus oneravit. Interim filius Alexandri ex Rhoxane
+          moritur. Hoc sepulto ac re divina facta, priusquam ad Oceanum proficisceretur, Porum et
+          Taxilem in gratiam reduxit eosque inter se affinitate coniunxit. Deinde classe velis
+          discoloribus passis flumine secundo devehi coepit. Vbi ad <unclear>eleumezen</unclear> cum
+          classe venit, exercitum trans flumen exposuit.</p>
+        <p>
+          <milestone unit="par" n="71"/>Interim Indorum philosophi, qui in his regionibus
+          habitabant, qui amiculo duplici contenti reliquo vestitu carebant, litteras Alexandro hoc
+          exemplo miserunt: <milestone unit="par" n="72"/>Indorum philosophi Alexandro Macedoni.
+          Auditum est te ab amicis induci, nostris ut regionibus bellum inferas nobisque uti manus
+          adferas; quibus nostrae modus vitae ne in somnum quidem venit umquam. Quibus si
+          oboedieris, corpora modo nostra loco movebis, animos quidem neque deduces neque invitos
+          facere quicquam coges vi maxima, <supplied><gap/></supplied>. <milestone unit="par" n="73"
+          />Superamus humanis <supplied>corporibus</supplied> ignem. Super <supplied>hunc</supplied>
+          nosmet incedimus et corporis nostri partes <unclear>si partim</unclear> movemus.
+            <supplied><gap/></supplied> quorum per terram est potestas <supplied><gap/></supplied>.
+          quod vero divinitus tributum est, id potissimum in manu deorum erit. Nos, quae cara atque
+          utilia in vita esse putamus, ea damus operam ut cognoscamus, hisque gratis abutimur, quae
+          ceteri possident. Quae cum <supplied>alii</supplied> impensa consequi nequiverint, nos
+          laudant libenter. <milestone unit="par" n="74"/>Neque nos Graecorum philosophorum, modo
+          qui verbis valent, sumus similes. Apud nos digna verba factis, <supplied>facta</supplied>
+          similia verbis existunt. Itaque maximum pretium accipimus, quod veritatem ac libertatem
+          habemus antiquissimam. Noli igitur studere vim adhibere his, quibus invitis adimere nihil
+          potes. Haec si contra tendes, iniustus atque alienus virtute videbere, quam viri boni
+          colunt studiose.</p>
+        <p>
+          <milestone unit="par" n="75"/>His litteris commotus Alexander exercitum ad eas regiones
+          ducere intendit, quo in loco hostium Oxydracarum ac Mallorum milia peditum consederunt C,
+          equitum XX milia. Cum his paratus ut confligeret acie, ex Macedonibus quidam catapulta
+          telum tripedale misit. Id accidit ut eorum imperatorem Sambum utrumque femur transfigeret,
+          uti procedere nequiret. <milestone unit="par" n="76"/>Id ubi barbari conspexerunt,
+          perterriti ac fugientes se partim <supplied><gap/></supplied> in oppidum confugerunt. Hos
+          persecuti Macedones oppidum corona circumdata oppugnare adorti sunt. Deinde Alexander
+          scalas erectas ad murum ponit celeriterque eo cum tribus ascendit ac muro potitus protenus
+          in oppidum desiluit. Reliqui non sunt subsecuti. <milestone unit="par" n="77"/>Quos ubi
+          barbari conspicantes circumsteterunt, illi ad murum adplicati repugnantes multos
+          occiderunt, plurimos sauciaverunt; multisque telis contra missis Leonnatus saucius fit
+          femore dextro. Alexander item per loricam pectore adverso <supplied>circa</supplied>
+          stomachum ac caput vehementer ictus est. Cum <supplied>hoc</supplied> malo accepto in
+          summis periculis versaretur, Macedones portis refractis regi subsidio cucurrerunt
+          oppidanisque omnibus interfectis suos saucios in castra abstulerunt. <milestone unit="par"
+            n="78"/>Sed ubi Alexandro melius factum est, rebus, quas voluerat, transactis Mallos
+          atque Oxydracas, qui proelio superfuerant, regi suo dicto audientes iussit esse. </p>
+        <p>Tum philosophos, qui in oppido erant deprehensi numero X, hosce adortus sic est:
+            <said>quandoquidem, Indi philosophi, vos hostes nobis esse declaravistis,
+              <supplied><gap/></supplied> melius est enim animadvertere, quae dicam. Vnumquemque
+            vestrum quod interrogavero, ad id respondeat. <supplied><gap/></supplied> ceteri
+            moriantur.</said>
+          <milestone unit="par" n="79"/>Deinde princeps eorum petiit, ut unicuique eorum
+            <supplied>rationem ad</supplied> responsum addere liceret. Id Alexander permisit. Vt
+          eorum principem eum <supplied><gap/></supplied> interrogavit. </p>
+        <p> (I) Alexander dixit, utrum mortuorum an vivorum numerus esset maior. Indus respondit:
+            <said>vivorum. Nam</said>, inquit, <said>illis, qui nulli sunt, nullus numerus potest
+            esse.</said></p>
+        <p> (II) Alexander dixit, marinae an terrenae bestiae plures essent. Indus respondit:
+              <said><supplied>terrenae. Nam</supplied> in terra</said>, inquit, <said>ipsum mare
+            continetur.</said></p>
+        <p> (III) Alexander dixit: <said>quae bestiarum sapientissima est?</said> Indus respondit:
+            <said>ea</said>, inquit <said><supplied>quam nemo</supplied> hominum quae sit
+            novit.</said></p>
+        <p>
+          <milestone unit="par" n="80"/>(IV) Alexander dixit: <said>quam ob causam Sambo regi
+            consilium dedistis, ut mecum bellum gereret?</said> Indus respondit: <said>ut</said>,
+          inquit, <said>aut honeste viveret aut honeste moreretur</said>.</p>
+        <p> (V) Alexander dixit: <said>utrum nox an dies prior natus?</said> Indus respondit uno die
+          prius noctem quam diem natam.</p>
+        <p> Deinde cum Alexander dubitaret, quid interrogaret, animadvertit Indus et ait:
+            <said>dubitationem interrogandi dubitatio solet respondendi sequi</said>.</p>
+        <p>
+          <milestone unit="par" n="81"/>(VI) Alexander dixit: <said>quid homo debet facere, ut
+            omnibus iocundus sit ?</said> Indus respondit: <said>si</said>, inquit, <said>cum
+            potentissimus erit, dabit operam, ne acerbus esse videatur</said>.</p>
+        <p> (VII) Alexander dixit, quo pacto ipse homo deus posset existimari. Indus respondit:
+            <said>si</said>, inquit, <said>quod mortalium facere nemo potest, fecerit</said>.</p>
+        <p> (VIII) Alexander dixit, utrum plus mors an vita valeret. Indus respondit:
+            <said>vita</said>, inquit, <said>ideo, quod vita ex nullis, ut sint, facit; mors autem
+            ex his, qui sunt, ut nulli sint, efficit</said>.</p>
+        <p>
+          <milestone unit="par" n="82"/>(IX) Alexander dixit: <said>quandiu utile est homini
+            vivere?</said> Indus respondit: <said>adeo</said>, inquit, <said>dum ipse intellegit
+            sibi utiliorem mortem esse quam vitam</said>.</p>
+        <p> (X) Deinde Alexander, <del>cum nollet suo iudicio quemquam perire</del> reliquus qui
+          erat, eum interrogavit, quis eorum, qui dixerant, videretur deterrime respondisse. Simul
+          interdixit, ne quid gratiae causa iudicaret.</p>
+        <p>
+          <milestone unit="par" n="83"/>Et ille, cum nollet suo iudicio quemquam perire, dixit alium
+          alio deterius respondisse. Alexander dixit: <said>videlicet</said>, inquit, <said>omnes
+            emoriamini et tu princeps, qui tam male iudicasti</said>. Indorum princeps:
+            <said>at</said>, inquit, <said>Alexander, non est regium mentiri. Tu dixisti: quem de
+            vobis iudicare iussero, si recte iudicarit, eum missum faciam
+              <supplied><gap/></supplied>. Non igitur falsum, sed verum iudicavi.
+              <supplied><gap/></supplied> non est enim aequum aliquem nostrum meo iudicio damnari.
+              <supplied><gap/></supplied> neminem igitur nostrum ex tuo praescripto perire convenit.
+            Nam <supplied><gap/></supplied> ne iniuria interficiamur, non nobis, sed tibi est
+            praevidendum</said>.</p>
+        <p>
+          <milestone unit="par" n="84"/>Hos ubi Alexander audivit, sapientes esse existimans
+          vestimenta dari ac missos fieri iussit. Deinde exercitum <del>in</del> naves iussit
+          conscendere et signo dato solvere iussit <del>unde <supplied>ad</supplied> Atlanticum ac
+            Rubrum mare flumine Indo devehitur</del>. Cum inde progressus aliquot dies navigaret,
+          venit ad insulam Patala quae appellatur in <unclear>ophiorum</unclear>. In ea regione
+          dextra fluminis <unclear>bigandar</unclear> inest; habitant in sinistra
+            <unclear>mamalces</unclear>. Ab his commeatum et duces propter latitudinem fluminis
+          sumpsit. </p>
+        <p>
+          <milestone unit="par" n="85"/>Deinde diebus aliquot post devenit in insulam desertam.
+          Iussit requiri, si quem locorum possent non ignarum invenire. Vbi neminem inveniunt, deos
+          conprecatus ex insula profectus est. Iamque stadia CCCC decucurrerunt, cum repente auram
+          marinam eius rei non inperiti senserunt. Spe salutis iniecta laeti regem
+            <supplied><gap/></supplied> atque inter se alius alium hortari, ut remigarent, cum mare
+          non longe abesset.</p>
+        <p>
+          <milestone unit="par" n="86"/>Deinde naves ad ripam applicare iussit et si quis locorum
+          peritus esset quaerere iussit. Diu cum quaesissent, quosdam agrestes inventos ad regem
+          adduxerunt. Ei interrogati, quam longe navigandum esset <supplied>ad mare, mare</supplied>
+          negaverunt se scire, sed tridui iter esse, dum ad aquam commixtam pervenirent. Tum
+          intellectum est eos aquam marinam demonstrare. Animis libentibus properantes naves
+          conscenderunt, ut quam primum ad mare pervenirent. Itaque post diem tertium fluctus
+          marinos conspexerunt et <unclear>redientes</unclear> campos aqua salsa conpleri vimque
+          fluminis citatim supprimi senserunt. <supplied><gap/></supplied>. </p>
+      
+      </div>
+    </body>
+  </text>
+</TEI>

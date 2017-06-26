@@ -1,0 +1,2565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Chronica</title>
+    <author>Chronographus anni CCCLIV - Furius Dionysius Filocalus</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Gianmario Cattaneo</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2015</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000088</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Chronographus anni CCCLIIII</hi>, ed. T. Mommsen, in <hi rend="italic">Monumenta Germaniae Historica. Auctorum antiquissimorum tomus IX. Chronica minora saec. IV. V. VI. VII, I</hi>, apud Weidmannos, Berolini 1892, pp. 50-76.</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    <p><hi rend="bold">Note di trascrizione e codifica specifiche del file </hi></p>
+    <p>L'edizione di riferimento utilizza tre modalità grafiche diverse: corpo di testo, corpo
+     maggiorato e corsivo. Il corpo di testo è rimasto inalterato anche nell'edizione digitale; il
+     corpo maggiorato è stato reso con il maiuscolo; il corsivo è stato reso con il grassetto.</p>
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+  <div type="lib" n="I"><head>DEDICATIO.</head>
+<p>VALENTINE FLOREAS IN DEO<lb/>
+VALENTINE LEGE FELICITER<lb/>
+VALENTINE VIVAS FLOREAS<lb/>
+VALENTINE VIVAS GAVDEAS<lb/>
+FVRIVS DIONYSIVS FILOCALVS TITVLAVIT</p>
+</div>
+
+<div type="lib" n="II"><head> IMAGINES VRBIVM. </head>
+<p>ROMA<lb/>
+ALEXANDRIA<lb/>
+CONSTANTINOPOLIM<lb/>
+TREBERIS</p>
+</div>
+
+<div type="lib" n="III"><head> DEDICATIO ET NATALES CAESARVM </head>
+<p>SALVIS AVGVSTIS FELIX VALENTINVS<lb/>
+NATALES CAESARVM</p>
+</div>
+
+<div type="lib" n="IV"><head> IMAGINES PLANETARVM VII CVM LATERCVLO DIERVM HORARVMQVE NOXIARVM COMMVNIVM BONARVM.</head>
+
+<p>Noct.<lb/>
+I Mar. N<lb/>
+II Sol. C<lb/>
+III Ven. B<lb/>
+IIII Mer. C<lb/>
+V Lun. C<lb/>
+VI Sat. N<lb/>
+VII Iov. B<lb/>
+VIII Mar. N<lb/>
+VIIII Sol. C<lb/>
+X Ven. B<lb/>
+XI Mer. C<lb/>
+XII Lun. C<lb/></p>
+
+<p>Diur. <lb/>
+I Sat. N<lb/>
+II Iov. B<lb/>
+III Mar. N<lb/>
+IIII Sol. C<lb/>
+V Ven. B<lb/>
+VI Mer. C<lb/>
+VII Lun. C<lb/>
+VIII Sat. N<lb/>
+VIIII Iov. B<lb/>
+X Mar. N<lb/>
+XI Sol. C<lb/>
+XII Ven. B<lb/></p>
+
+<p>Saturni dies N</p>
+<p>Saturni dies horaque eius cum erit nocturna sive diurna, omnia obscura laboriosaque fiunt; qui nascentur periculosi erunt; qui recesserit non invenietur; qui decubuerit periclitabitur; furtum factum non invenietur.</p>
+
+<p>Noct. <lb/>
+I Ven. B<lb/>
+II Mer. C<lb/>
+III Lun. C<lb/>
+IIII Sat. N<lb/>
+V Iov. B<lb/>
+VI Mar. N<lb/>
+VII Sol. C<lb/>
+VIII Ven. B<lb/>
+IX Mer. C<lb/>
+X Lun. C<lb/>
+XI Sat. N<lb/>
+XII Iov. B<lb/></p>
+
+<p>Diur. <lb/>
+I Mar. N<lb/>
+II Sol. C<lb/>
+III Ven. B<lb/>
+IIII Mer. C<lb/>
+V Lun. C<lb/>
+VI Sat. N<lb/>
+VII Iov. B<lb/>
+VIII Mar. N<lb/>
+VIIII Sol. C<lb/>
+X Ven. B<lb/>
+XI Mer. C<lb/>
+XII Lun. C<lb/></p>
+
+<p>Martis dies N</p>
+<p>Martis dies horaque eius cum erit nocturna sive diurna, nomen militiae dare, arma militaria comparare utile est. Qui nascentur periculosi erunt; qui recesserit non invenietur; qui decubuerit periclitabitur; furtum factum non invenietur.</p>
+
+<p>Noct. <lb/>
+I Sat. N<lb/>
+II Iov. B<lb/>
+III Mar. C<lb/>
+IIII Sol. N<lb/>
+V Ven. B<lb/>
+VI Mer. C<lb/>
+VII Lun. C<lb/>
+VIII Sat. N<lb/>
+VIIII Iov. B<lb/>
+X Mar. N<lb/>
+XI Sol. C<lb/>
+XII Ven. B<lb/></p>
+
+<p>Diur. <lb/>
+I Mer. C<lb/>
+II Lun. C<lb/>
+III Sat. N<lb/>
+IIII Iov. B<lb/>
+V Mar. N<lb/>
+VI Sol. C<lb/>
+VII Ven. B<lb/>
+VIII Mer. C<lb/>
+VIIII Lun. C<lb/>
+X Sat. N<lb/>
+XI Iov. B<lb/>
+XII Mar. N<lb/></p>
+
+<p>Mercuri dies C</p>
+<p>Mercuri dies horaque eius cum erit nocturna sive diurna, vilicum actorem institorem in negotio ponere utile est. Qui nascentur vitales erunt; qui recesserit invenietur; qui decubuerit cito convalescet; furtum factum invenietur.</p>
+
+<p>Noct. <lb/>
+I Iov. B<lb/>
+II Mar. N<lb/>
+III Sol. C<lb/>
+IIII Ven. B<lb/>
+V Mer. C<lb/>
+VI Lun. C<lb/>
+VII Sat. N<lb/>
+VIII Iov. B<lb/>
+VIIII Mar. N<lb/>
+X Sol. C<lb/>
+XI Ven. B<lb/>
+XII Mer. C<lb/></p>
+
+<p>Diur. <lb/>
+I Lun. C<lb/>
+II Sat. N<lb/>
+III Iov. B<lb/>
+IIII Mar. N<lb/>
+V Sol. C<lb/>
+VI Ven. B<lb/>
+VII Mer. C<lb/>
+VIII Lun. C<lb/>
+VIIII Sat. N<lb/>
+X Iov. B<lb/>
+XI Mar. N<lb/>
+XII Sol. C<lb/></p>
+
+<p>Lunae dies C</p>
+<p>Lunae dies horaque eius cum erit nocturna sive diurna, stercus in agro mittere, putea cisternas fabricare utile est. Qui nascentur vitales erunt; qui recesserit invenietur; qui decubuerit convalescet; furtum factum non invenietur.</p>
+
+<p>Noct. <lb/>
+I Mer. C<lb/>
+II Lun. C<lb/>
+III Sat. N<lb/>
+IIII Iov. B<lb/>
+V Mar. N<lb/>
+VI Sol. C<lb/>
+VII Ven. B<lb/>
+VIII Mer. C<lb/>
+VIIII Lun. C<lb/>
+X Sat. N<lb/>
+XI Iov. B<lb/>
+XII Mar. N<lb/></p>
+
+<p>Diur. <lb/>
+I Sol. C<lb/>
+II Ven. B<lb/>
+III Mer. C<lb/>
+IIII Lun. C<lb/>
+V Sat. N<lb/>
+VI Iov. B<lb/>
+VII Mar. N<lb/>
+VIII Sol. C<lb/>
+VIIII Ven. B<lb/>
+X Mer. C<lb/>
+XI Lun. C<lb/>
+XII Sat. N<lb/></p>
+
+<p>Solis dies C</p>
+<p>Solis dies horaque eius cum erit nocturna sive diurna, viam navigium ingredi, navem in aquam deducere utile est. Qui nascentur vitales erunt; qui recesserit invenietur; qui decubuerit convalescet; furtum factum invenietur.</p>
+
+<p>Iovis dies B</p>
+<p>Iovis dies horaque eius cum erit nocturna sive diurna, beneficium petere, cum potente colloqui, rationem reddere utile est. Qui nascentur vitales erunt; qui recesserit cito invenietur; qui decubuerit convalescet; furtum factum invenietur.</p>
+
+<p>Veneris dies B</p>
+<p>Veneris dies horaque eius cum erit nocturna sive diurna, sponsalia facere, pueros puellas in disciplina mittere utile est. Qui nascentur vitales erunt; qui recesserit invenietur; qui decubuerit convalescet; furtum factum invenietur.</p>
+</div>
+
+<div type="lib" n="V"><head> SIGNA ZODIACI EORVMQVE VTILITATES.</head>
+
+<p>ARI. CAN. LIB. CAP.</p>
+<p>In his signis tropicis luna cum erit, nummos mutuos dare vel accipere, testamentum facere, telam ordiri, lanas lavare, pecora castrare, conductum facere, migrare utile.</p>
+
+<p>TAV. LEO. SCO. AQV.</p>
+<p>In his signis solidis luna cum erit, beneficium petere, cum potente colloqui, rationem reddere, instrumenta conficere, pueros puellas in disciplina mittere, fundamenta ponere, arbores inserere, propagines facere, vites deprimere, terram proscindere, serere, metere utile est.</p>
+
+<p>GEM. VIR. SA. PIS.</p>
+<p>In his signis duplicibus luna cum erit, viam navigium ingredi, navem in aquam deducere, olivam legere, vindemiam facere, calcem carbonem coquere, vina diffundere, barbam capillos facere utile est.</p>
+</div>
+
+<div type="lib" n="VI"><head> IMAGINES MENSIVM XII CVM FASTIS MENSTRVIS.</head>
+</div>
+
+<div type="lib" n="VII"><head>IMAGINES IMPERATORVM.</head>
+</div>
+
+<div type="lib" n="VIII"><head> VIII. FASTI CONSVLARES A REGIBUS EXACTIS AD A. P. CHR. 354</head>
+<p>u. c.</p>
+<div type="cap" n="u.c. 245"><p> Bruto et Collatino Lun. XXIIX</p>
+</div>
+<div type="cap" n="u.c. 246"><p> Publicola II et Tricipitino Mar. X</p>
+</div>
+<div type="cap" n="u.c. 247"><p> Publicola III et Pulbillio Mer. XXI</p>
+</div>
+<div type="cap" n="u.c. 248 b."><p> Rufo et Aquilino Iov. II</p>
+</div>
+<div type="cap" n="u.c. 249"><p> Voleto et Tuberto Sat. XIII</p>
+</div>
+<div type="cap" n="u.c. 250"><p> Publicola IIII et Tribicitino Sol. XXIIII</p>
+</div>
+<div type="cap" n="u.c. 251"><p> Tuberto II et Lanato Lun. V</p>
+</div>
+<div type="cap" n="u.c. 252 b."><p> Tricosto et Bigellino Mar. XVI</p>
+</div>
+<div type="cap" n="u.c. 253"><p> Aurunco et Rufo Iov. XXVI</p>
+</div>
+<div type="cap" n="u.c. 254"><p> Cornuto et Longo Ven. VIII</p>
+</div>
+<div type="cap" n="u.c. 255"><p> Helva et Cicurino Sat. XIX</p>
+</div>
+<div type="cap" n="u.c. 256 b."><p> Rufo II et Vocula Sol. XXX</p>
+</div>
+<div type="cap" n="u.c. 257"><p> Atratino et Augurino Mar. XI</p>
+</div>
+<div type="cap" n="u.c. 258"><p> Regellese et Tricostro Mer. XXIII</p>
+</div>
+<div type="cap" n="u.c. 259"><p> Inreligiense et Structo Iov. IIII</p>
+</div>
+<div type="cap" n="u.c. 260 b."><p> Celimontiano et Cicurino Ven. XV</p>
+</div>
+<div type="cap" n="u.c. 261"><p> Aurunco et Vigellino Sol. XXVI</p>
+</div>
+<div type="cap" n="u.c. 262"><p> Macerino et Augurino Lun. VII</p>
+</div>
+<div type="cap" n="u.c. 263"><p> Aurgurino II et Atratino II Mar. XIIX</p>
+</div>
+<div type="cap" n="u.c. 264 b."><p> Cornuto et Labo II Mer. XXIX</p>
+</div>
+<div type="cap" n="u.c. 265"><p> Iulo et Mamertino Ven. X</p>
+</div>
+<div type="cap" n="u.c. 266"><p> Rutilo et Vigellino II Sat. XXI</p>
+</div>
+<div type="cap" n="u.c. 267"><p> Tusco et Sabino Sol. II</p>
+</div>
+<div type="cap" n="u.c. 268 b."><p> Rutilo et Vigellino III Lun. XIII</p>
+</div>
+<div type="cap" n="u.c. 269"><p> Vivulano et Malucinense Mar. XXIIII</p>
+</div>
+<div type="cap" n="u.c. 270"><p> Mamerco et Vivulano Iovis VI</p>
+</div>
+<div type="cap" n="u.c. 271"><p> Vivulano et Potito Ven. XVII</p>
+</div>
+<div type="cap" n="u.c. 272 b."><p> Pelos et Vivulano II Sat. XXVIII</p>
+</div>
+<div type="cap" n="u.c. 273"><p> Vivulano III et Pelos Lun. IX</p>
+</div>
+<div type="cap" n="u.c. 274"><p> Cincinnato et Vivulano Mar. XX</p>
+</div>
+<div type="cap" n="u.c. 275"><p> Vivulano IIII et Trutillo Mer. I</p>
+</div>
+<div type="cap" n="u.c. 276 b."><p> Mamerco II et Structo Iov. XII</p>
+</div>
+<div type="cap" n="u.c. 277"><p> Pulvillo et Lanato Sat. XXIII</p>
+</div>
+<div type="cap" n="u.c. 278"><p> Rutilo et Structo Sol. IIII</p>
+</div>
+<div type="cap" n="u.c. 279"><p> Publicula et Rutillo Lun. XV</p>
+</div>
+<div type="cap" n="u.c. 280 b."><p> Volso et Medullino Mar. XXVI</p>
+</div>
+<div type="cap" n="u.c. 281"><p> Mamerco III et Volsco Iov. VII</p>
+</div>
+<div type="cap" n="u.c. 282"><p> Ruto et Volsco Ven. XIX</p>
+</div>
+<div type="cap" n="u.c. 283"><p> Inreligiense et Barbato Sat. XXX</p>
+</div>
+<div type="cap" n="u.c. 284 b."><p> Potito II et Mamerco Sol. XI</p>
+</div>
+<div type="cap" n="u.c. 285"><p> Caelimontiano II et Prisco Mar. XXII</p>
+</div>
+<div type="cap" n="u.c. 286"><p> Barbato II et Volsco Mer. III</p>
+</div>
+<div type="cap" n="u.c. 287"><p> Mamerco II et Vivulano Iov. XIII</p>
+</div>
+<div type="cap" n="u.c. 288 b."><p> Rigelliense et Prisco II Ven. XXV</p>
+</div>
+<div type="cap" n="u.c. 289"><p> Vivulano II et Capitolino Sol. VI</p>
+</div>
+<div type="cap" n="u.c. 290"><p> Religiense et Medullino III Lun. XVII</p>
+</div>
+<div type="cap" n="u.c. 291"><p> Prisco et Helva Mar. XXVIII</p>
+</div>
+<div type="cap" n="u.c. 292 b."><p> Tricipitino et Cicurino Mer. VIIII</p>
+</div>
+<div type="cap" n="u.c. 293"><p> Amentino et Cornuto Ven. XX</p>
+</div>
+<div type="cap" n="u.c. 294"><p> Publicula II et Inreligiense Sat. I</p>
+</div>
+<div type="cap" n="u.c. 295"><p> Vivullano et Malluginense Sol. XII</p>
+</div>
+<div type="cap" n="u.c. 296 b."><p> Rutullo et Carbeto Lun. XXIII</p>
+</div>
+<div type="cap" n="u.c. 297"><p> Pulvillo et Augurino Mer. IIII</p>
+</div>
+<div type="cap" n="u.c. 298"><p> Maximo et Celemontino Iov. XV</p>
+</div>
+<div type="cap" n="u.c. 299"><p> Vaticano et Cicurino Ven. XVI</p>
+</div>
+<div type="cap" n="u.c. 300 b."><p> Capitolano et Fontinalae Sat. VII</p>
+</div>
+<div type="cap" n="u.c. 301"><p> Vero et Trigemino Lun. XIIX</p>
+</div>
+<div type="cap" n="u.c. 302"><p> Vaticano et Lanato Mar. XXIX</p>
+</div>
+<div type="cap" n="u.c. 303"><p> Sabino II et Augurino Mer. X</p>
+</div>
+<div type="cap" n="u.c. 304 b."><p> Sabino III et Vivullano Iov. XXI</p>
+</div>
+<div type="cap" n="u.c. 305"><p> Barbato et Potito Sat. II</p>
+</div>
+<div type="cap" n="u.c. 306"><p> Coritinesano et Tricosto Sol. XIIII</p>
+</div>
+<div type="cap" n="u.c. 307"><p> Macrino et Iulio Lun. XXV</p>
+</div>
+<div type="cap" n="u.c. 308 b."><p> Fuso et Barbato IIII Mar. VI</p>
+</div>
+<div type="cap" n="u.c. 309"><p> Augurino et Philo Iov. XVII</p>
+</div>
+<div type="cap" n="u.c. 310"><p> Siculo et Luscino Ven. XXVIII</p>
+</div>
+<div type="cap" n="u.c. 311"><p> Macerino II et Barbato V Sat. VIIII</p>
+</div>
+<div type="cap" n="u.c. 312 b."><p> Vivullano et Helva Sol. XX</p>
+</div>
+<div type="cap" n="u.c. 313"><p> Fuso et Grasso Mar. I</p>
+</div>
+<div type="cap" n="u.c. 314"><p> Macerino et Lanato II Mer. XII</p>
+</div>
+<div type="cap" n="u.c. 315"><p> Lanato et Capitolino VI Iov. XXIII</p>
+</div>
+<div type="cap" n="u.c. 316 b."><p> Fidenato et Cincinnato Ven. IIII</p>
+</div>
+<div type="cap" n="u.c. 317"><p> Fidenati et Maximo Sol. XV</p>
+</div>
+<div type="cap" n="u.c. 318"><p> Maluginense et Grasso Lun. XXVII</p>
+</div>
+<div type="cap" n="u.c. 319"><p> Iulio II et Tricoisto Mar. VIII</p>
+</div>
+<div type="cap" n="u.c. 320 b."><p> Capitolino et Cosso Mer. XIX</p>
+</div>
+<div type="cap" n="u.c. 321"><p> Vivullano et Faccintore Ven. XXX</p>
+</div>
+<div type="cap" n="u.c. 322"><p> Mamercino et Medullino Sat. XI</p>
+</div>
+<div type="cap" n="u.c. 323"><p> Cincinnato et Mento Sol. XXII</p>
+</div>
+<div type="cap" n="u.c. 324 b."><p> Crasso et Iulo Lun. III</p>
+</div>
+<div type="cap" n="u.c. 325"><p> Tricipitino et Fidenas Mer. XIIII</p>
+</div>
+<div type="cap" n="u.c. 326"><p> Cosso et Cincinnato II Iov. XXV</p>
+</div>
+<div type="cap" n="u.c. 327"><p> Structo et Mugilliano Ven. VI</p>
+</div>
+<div type="cap" n="u.c. 328 b."><p> Cosso et Fiso Sat. XVII</p>
+</div>
+<div type="cap" n="u.c. 329"><p> Arretino et Mevulliano Lun. XXIIX</p>
+</div>
+<div type="cap" n="u.c. 330"><p> Crasso et Fidenas Mar. X</p>
+</div>
+<div type="cap" n="u.c. 331"><p> Arretino et Vivullano Mer. XXI</p>
+</div>
+<div type="cap" n="u.c. 332 b."><p> Capitolino et Mugilliano Iov. II</p>
+</div>
+<div type="cap" n="u.c. 333"><p> Capitolino et Vivullano Sat. XIII</p>
+</div>
+<div type="cap" n="u.c. 334"><p> Cincinnato III et Vulso II Sol. XXIIII</p>
+</div>
+<div type="cap" n="u.c. 335"><p> Lanato et Rufillo Lun. V</p>
+</div>
+<div type="cap" n="u.c. 336 b."><p> Structo II et Fidenas III Mar. XVI</p>
+</div>
+<div type="cap" n="u.c. 337"><p> Tricipitino et Structo III Iov. XXVII</p>
+</div>
+<div type="cap" n="u.c. 338"><p> Arratino III et Mugellano II Ven. VIII</p>
+</div>
+<div type="cap" n="u.c. 339"><p> Casso et Cincinnato Sat. XIX</p>
+</div>
+<div type="cap" n="u.c. 340 b."><p> Vivullano II et Potito Sol. XXX</p>
+</div>
+<div type="cap" n="u.c. 341"><p> Medulliano et Cosso Mar. XI</p>
+</div>
+<div type="cap" n="u.c. 342"><p> Vivullano et Filippo Mer. XXIII</p>
+</div>
+<div type="cap" n="u.c. 343"><p> Mugiliano et Rutillo Iov. IIII</p>
+</div>
+<div type="cap" n="u.c. 344 b."><p> Mamertino et Volusio Ven. XV</p>
+</div>
+<div type="cap" n="u.c. 345"><p> Cosso et Medulliano Sol. XXVI</p>
+</div>
+<div type="cap" n="u.c. 346"><p> Iulo et Cosso Lun. VII</p>
+</div>
+<div type="cap" n="u.c. 347"><p> Voluso II et Structo III Mar. XVIII</p>
+</div>
+<div type="cap" n="u.c. 348 b."><p> Cosso et Potito Mer. XXIX</p>
+</div>
+<div type="cap" n="u.c. 349"><p> Iulo II et Mamertino Ven. X</p>
+</div>
+<div type="cap" n="u.c. 350"><p> Maluginense et Cicurino III Sat. XXI</p>
+</div>
+<div type="cap" n="u.c. 351"><p> Mamertino et Fuso Sol. II</p>
+</div>
+<div type="cap" n="u.c. 352 b."><p> Structo III et Cornuto Lun. XIII</p>
+</div>
+<div type="cap" n="u.c. 353"><p> Camello et Iulo Mer. XXIIII</p>
+</div>
+<div type="cap" n="u.c. 354"><p> Volso et Capitolino Iov. VI</p>
+</div>
+<div type="cap" n="u.c. 355"><p> Augurino et Longo Ven. XVII</p>
+</div>
+<div type="cap" n="u.c. 356 b."><p> Potito et Medulliano Sat. XXVIII</p>
+</div>
+<div type="cap" n="u.c. 357"><p> Iulo II et Fidenas Luna VIIII</p>
+</div>
+<div type="cap" n="u.c. 358"><p> Pansa II et Volso Mar. XX</p>
+</div>
+<div type="cap" n="u.c. 359"><p> Cosso et Medulliano Mer. I</p>
+</div>
+<div type="cap" n="u.c. 360 b."><p> Camello III et Publicula Iov. XII</p>
+</div>
+<div type="cap" n="u.c. 361"><p> Potito et Malliginense Sat. XXIII</p>
+</div>
+<div type="cap" n="u.c. 362"><p> Potito III et Capitolino Sol. IIII</p>
+</div>
+<div type="cap" n="u.c. 363"><p> Tricipitino et Mamertino Lun. XV</p>
+</div>
+<div type="cap" n="u.c. 364 b."><p> Longo et Ambusto Mar. XXVI</p>
+</div>
+<div type="cap" n="u.c. 365"><p> Tricosto et Albino Iov. VII</p>
+</div>
+<div type="cap" n="u.c. 366"><p> Capitolino et Corbo Ven. XIX</p>
+</div>
+<div type="cap" n="u.c. 367"><p> Cursore et Lanato Sat. XXX</p>
+</div>
+<div type="cap" n="u.c. 368 b."><p> Aluginense et Cincinnato Sol. XI</p>
+</div>
+<div type="cap" n="u.c. 369"><p> Capitolino et Cincinnato Mar. XXII</p>
+</div>
+<div type="cap" n="u.c. 370"><p> Rufo et Camillo Mer. III</p>
+</div>
+<div type="cap" n="u.c. 371"><p> Publicola III et Flavo III Iov. XIIII</p>
+</div>
+<div type="cap" n="u.c. 372 b."><p> Fidenas et Grasso Ven. XXV</p>
+</div>
+<div type="cap" n="u.c. 373"><p> Publicola IIII et Tricipitino Sol. VI</p>
+</div>
+<div type="cap" n="u.c. 374"><p> Publicola V et Mamertino VI Lun. XVII</p>
+</div>
+<div type="cap" n="u.c. 375"><p> Capitolino et Albino Mar. XXVIII</p>
+</div>
+<div type="cap" n="u.c. 376 b."><p> Fidenas II et Siculo Mer. VIIII</p>
+</div>
+<div type="cap" n="u.c. 377"><p> Mamertino et Cincinnato Ven. XX</p>
+</div>
+<div type="cap" n="u.c. 378"><p> Lanato IIII et Praetextato Sat. I</p>
+</div>
+<div type="cap" n="u.c. 379"><p> Baccho solo Sol. XII</p>
+</div>
+<div type="cap" n="u.c. 380 b."><p> Papirio et Vivio Lun. XXIII</p>
+</div>
+<div type="cap" n="u.c. 381"><p> Sacrabiense et Cellemontano Mer. IIII</p>
+</div>
+<div type="cap" n="u.c. 382"><p> Prisco et Cominio Iov. XV</p>
+</div>
+<div type="cap" n="u.c. 383"><p> Mamertino solo Ven. XXVI</p>
+</div>
+<div type="cap" n="u.c. 384 b."><p> Medullino et Potito Sat. VII</p>
+</div>
+<div type="cap" n="u.c. 385"><p> Fidenas III et Maluginense Lun. XIIX</p>
+</div>
+<div type="cap" n="u.c. 386"><p> Capitolino et Structo Mar. XXIX</p>
+</div>
+<div type="cap" n="u.c. 387"><p> Cosso II et Grasso Mer. X</p>
+</div>
+<div type="cap" n="u.c. 388 b."><p> Mamercino et Laterano Iov. XXI</p>
+</div>
+<div type="cap" n="u.c. 389"><p> Abentinense et Haala Sat. III</p>
+</div>
+<div type="cap" n="u.c. 390"><p> Petico et Calbo Sol. XIIII</p>
+</div>
+<div type="cap" n="u.c. 391"><p> Mamercino et Apuentinense Lun. XXV</p>
+</div>
+<div type="cap" n="u.c. 392 b."><p> Haala II et Abentinense Mar. VI</p>
+</div>
+<div type="cap" n="u.c. 393"><p> Stola et Vetico Iov. XVII</p>
+</div>
+<div type="cap" n="u.c. 394"><p> Ambusto et Proculo Ven. XXIIX</p>
+</div>
+<div type="cap" n="u.c. 395"><p> Rotillo et Capitolino Sat. VIIII</p>
+</div>
+<div type="cap" n="u.c. 396 b."><p> Ambusto et Lenas II Sol. XXI</p>
+</div>
+<div type="cap" n="u.c. 397"><p> Rutillo et Capitolino Mar. I</p>
+</div>
+<div type="cap" n="u.c. 398"><p> Ambusto II et Lenas II Mer. XII</p>
+</div>
+<div type="cap" n="u.c. 399"><p> Petico III et Publicula Iov. XXIII</p>
+</div>
+<div type="cap" n="u.c. 400 b."><p> Ambusto III et Capitolino Ven. IIII</p>
+</div>
+<div type="cap" n="u.c. 401"><p> Petico IIII et Publicula II Sol. XV</p>
+</div>
+<div type="cap" n="u.c. 402"><p> Publicula et Rutillo II Lun. XXVII</p>
+</div>
+<div type="cap" n="u.c. 403"><p> Petico V et Penno II Mar. VIII</p>
+</div>
+<div type="cap" n="u.c. 404 b."><p> Lenas III et Scipione Mer. XIX</p>
+</div>
+<div type="cap" n="u.c. 405"><p> Camello et Crasso Ven. XXX</p>
+</div>
+<div type="cap" n="u.c. 406"><p> Lenas IIII et Corvino Sat. XI</p>
+</div>
+<div type="cap" n="u.c. 407"><p> Venno et Torquato Sol. XXII</p>
+</div>
+<div type="cap" n="u.c. 408 b."><p> Corvo II et Visulo II Lun. III</p>
+</div>
+<div type="cap" n="u.c. 409"><p> Dorsuo et Rufo Mer. XIIII</p>
+</div>
+<div type="cap" n="u.c. 410"><p> Rutillo III et Torquato Iov. XXV</p>
+</div>
+<div type="cap" n="u.c. 411"><p> Corvo III et Cosso III Ven. VI</p>
+</div>
+<div type="cap" n="u.c. 412 b."><p> Hala III et Rutillo IIII Sat. XVII</p>
+</div>
+<div type="cap" n="u.c. 413"><p> Venno II et Mamerco Lun. XIIX</p>
+</div>
+<div type="cap" n="u.c. 414"><p> Torquato III et Mure Mar. X</p>
+</div>
+<div type="cap" n="u.c. 415"><p> Mamercino et Philo Mer. XXI</p>
+</div>
+<div type="cap" n="u.c. 416 b."><p> Camello et Nepote Iov. II</p>
+</div>
+<div type="cap" n="u.c. 417"><p> Peto et Longo Sat. XIII</p>
+</div>
+<div type="cap" n="u.c. 418"><p> Crasso et Hella Sol. XXIIII</p>
+</div>
+<div type="cap" n="u.c. 419"><p> Caleno et Corvo IIII Lun. V</p>
+</div>
+<div type="cap" n="u.c. 420 b."><p> Caudino et Calvino Mar. XVI</p>
+</div>
+<div type="cap" n="u.c. 421"><p> Hoc anno dictatores non fuerunt Iov. XXVII</p>
+</div>
+<div type="cap" n="u.c. 422"><p> Calvino et Arvinas II Ven. VIII</p>
+</div>
+<div type="cap" n="u.c. 423"><p> Cotito et Marcello Sat. XIX</p>
+</div>
+<div type="cap" n="u.c. 424 b."><p> Crasso III et Venio Sol. XXX</p>
+</div>
+<div type="cap" n="u.c. 425"><p> Privernas II et Declao Mar. XI</p>
+</div>
+<div type="cap" n="u.c. 426"><p> Deciano II et Barbato II Mer. XXIII</p>
+</div>
+<div type="cap" n="u.c. 427"><p> Lentulo et Philo II Iov. IIII</p>
+</div>
+<div type="cap" n="u.c. 428 b."><p> Libone III et Cursore II Ven. XV</p>
+</div>
+<div type="cap" n="u.c. 429"><p> Camello II et Bruto Sol. XXVI</p>
+</div>
+<div type="cap" n="u.c. 430"><p> Hoc anno dictatores non fuerunt Lun. VII</p>
+</div>
+<div type="cap" n="u.c. 431"><p> Lanto II et Ceretano Mar. XVIII</p>
+</div>
+<div type="cap" n="u.c. 432 b."><p> Corvo et Rulliano Mer. XXIX</p>
+</div>
+<div type="cap" n="u.c. 433"><p> Calvino II et Albino II Ven. X</p>
+</div>
+<div type="cap" n="u.c. 434"><p> Cursore II et Philo III Sat. XXI</p>
+</div>
+<div type="cap" n="u.c. 435"><p> Murillano III et Cerritano Sol. II</p>
+</div>
+<div type="cap" n="u.c. 436 b."><p> Venno et Flaccinatore Lun. XIII</p>
+</div>
+<div type="cap" n="u.c. 437"><p> Barbula et Bruto Mer. XXIIII</p>
+</div>
+<div type="cap" n="u.c. 438"><p> Lucillo et Lenas Iov. VI</p>
+</div>
+<div type="cap" n="u.c. 439"><p> Cursore IIII et Pilo III Ven. XVII</p>
+</div>
+<div type="cap" n="u.c. 440 b."><p> Libone et Longo Sat. XXIIX</p>
+</div>
+<div type="cap" n="u.c. 441"><p> Cursore V et Bruto II Lun. VIIII</p>
+</div>
+<div type="cap" n="u.c. 442"><p> Maximo et Mure Mar. XX</p>
+</div>
+<div type="cap" n="u.c. 443"><p> Bruto IIII et Barbula II Mer. I</p>
+</div>
+<div type="cap" n="u.c. 444 b."><p> Tulliano III et Rutilo Iov. XII</p>
+</div>
+<div type="cap" n="u.c. 445"><p> Hoc anno dictatores non fuerunt Sat. XXIII</p>
+</div>
+<div type="cap" n="u.c. 446"><p> Mure II et Rulliano I Sol. IIII</p>
+</div>
+<div type="cap" n="u.c. 447"><p> Ceto et Violense Lun. XV</p>
+</div>
+<div type="cap" n="u.c. 448 b."><p> Tremulo et Arvina Mar. XXVI</p>
+</div>
+<div type="cap" n="u.c. 449"><p> Megello et Augurino Iov. VII</p>
+</div>
+<div type="cap" n="u.c. 450"><p> Sofo et Saberio ven. XIX</p>
+</div>
+<div type="cap" n="u.c. 451"><p> Rufo et Adventinense Sat. XXX</p>
+</div>
+<div type="cap" n="u.c. 452 b."><p> Dextro et Paulo Sol. XI</p>
+</div>
+<div type="cap" n="u.c. 453"><p> Corvo II et Rulliano II Mar. XXII</p>
+</div>
+<div type="cap" n="u.c. 454"><p> Corvo V et Pansa Mer. III</p>
+</div>
+<div type="cap" n="u.c. 455"><p> Petino et Torquato Iov. XIIII</p>
+</div>
+<div type="cap" n="u.c. 456 b."><p> Scipione et Centumalo Ven. XXV</p>
+</div>
+<div type="cap" n="u.c. 457"><p> Ruliano IIII et Mure Sol. VI</p>
+</div>
+<div type="cap" n="u.c. 458"><p> Ceco et Violense Lun. XVII</p>
+</div>
+<div type="cap" n="u.c. 459"><p> Rulliano V et Mure IIII Mar. XXIIX</p>
+</div>
+<div type="cap" n="u.c. 460 b."><p> Megello II et Regulo Mer. VIIII</p>
+</div>
+<div type="cap" n="u.c. &lt;461&gt;"> </div>
+<div type="cap" n="u.c. 462"><p> Curgis et Scevola Ven. XX</p>
+</div>
+<div type="cap" n="u.c. 463"><p> Megello III et Bruto Sat. I</p>
+</div>
+<div type="cap" n="u.c. 464"><p> Dentato et Rufino Sol. XII</p>
+</div>
+<div type="cap" n="u.c. 465 b."><p> Corvino II et Noctua Lun. XXIII</p>
+</div>
+<div type="cap" n="u.c. 466"><p> Tremulo II et Arvina Mer. IIII</p>
+</div>
+<div type="cap" n="u.c. 467"><p> Marcellino et Rutillo Iov. XV</p>
+</div>
+<div type="cap" n="u.c. 468"><p> Maximo et Peto Ven. XXVI</p>
+</div>
+<div type="cap" n="u.c. 469 b."><p> Canina et Lepido Sat. VII</p>
+</div>
+<div type="cap" n="u.c. 470"><p> Tucco et Metello Lun. XVIII</p>
+</div>
+<div type="cap" n="u.c. 471"><p> Calvo et Maximo Mar. XXIX</p>
+</div>
+<div type="cap" n="u.c. 472"><p> Luscino et Labo Mer. X</p>
+</div>
+<div type="cap" n="u.c. 473 b."><p> Barbula et Philippo Iov. XXI</p>
+</div>
+<div type="cap" n="u.c. 474"><p> Laevino et Cornunciano Sat. II</p>
+</div>
+<div type="cap" n="u.c. 475"><p> Saberno et Pirrico Sol. XIIII</p>
+</div>
+<div type="cap" n="u.c. 476"><p> Luscino II et Pato II Lun. XXV</p>
+</div>
+<div type="cap" n="u.c. 477 b."><p> Rufino II et bruto II Mar. VI</p>
+</div>
+<div type="cap" n="u.c. 478"><p> Gurgis II et Clepsena Iov. XVII</p>
+</div>
+<div type="cap" n="u.c. 479"><p> Dentato II et Lentulo Ven. XXIIX</p>
+</div>
+<div type="cap" n="u.c. 480"><p> Dentato III et Merenda Sat. VIIII</p>
+</div>
+<div type="cap" n="u.c. 481 b."><p> Licino et Cinna Sol. XX</p>
+</div>
+<div type="cap" n="u.c. 482"><p> Cursore II et Maximo Mar. I</p>
+</div>
+<div type="cap" n="u.c. 483"><p> Claudio et Clepsina Mer. XII</p>
+</div>
+<div type="cap" n="u.c. 484"><p> Clepsina II et Lesio Iov. XXIII</p>
+</div>
+<div type="cap" n="u.c. 485 b."><p> Gallo et Pictore Ven. IIII</p>
+</div>
+<div type="cap" n="u.c. 486"><p> Sofo et Russo Sol. XV</p>
+</div>
+<div type="cap" n="u.c. 487"><p> Regulo et Libone Lun. XXVII</p>
+</div>
+<div type="cap" n="u.c. 488"><p> Pera et Pistore Mar. VIII</p>
+</div>
+<div type="cap" n="u.c. 489 b."><p> Maximo et Vitulo Mer. XIX</p>
+</div>
+<div type="cap" n="u.c. 490"><p> Caudex et Flacco Ven. XXX</p>
+</div>
+<div type="cap" n="u.c. 491"><p> Maximo et Grasso Sat. XI</p>
+</div>
+<div type="cap" n="u.c. 492"><p> Megello et Vitulo Sol. XXII</p>
+</div>
+<div type="cap" n="u.c. 493 b."><p> Flacco et Grasso Lun. III</p>
+</div>
+<div type="cap" n="u.c. 494"><p> Asina et Duillio Mer. XIIII</p>
+</div>
+<div type="cap" n="u.c. 495"><p> Scipione et Floro Iov. XXV</p>
+</div>
+<div type="cap" n="u.c. 496"><p> Calatino et Paterculo Ven. VI</p>
+</div>
+<div type="cap" n="u.c. 497 b."><p> Regulo et Blesio II Sat. XVII</p>
+</div>
+<div type="cap" n="u.c. 498"><p> Longo et Rugulo Lun. XXIIX</p>
+</div>
+<div type="cap" n="u.c. 499"><p> Nobiliore et Paulo Mar. X</p>
+</div>
+<div type="cap" n="u.c. 500"><p> Asina II et Calatino II Mer. XX</p>
+</div>
+<div type="cap" n="u.c. 501 b."><p> Cepio et Bleso Iov. II</p>
+</div>
+<div type="cap" n="u.c. 502"><p> Cotta et Gemino Sat. XIII</p>
+</div>
+<div type="cap" n="u.c. 503"><p> Megello et Pacilo Sol. XXIIII</p>
+</div>
+<div type="cap" n="u.c. 504"><p> Regulo II et Volso II Lun. V</p>
+</div>
+<div type="cap" n="u.c. 505 b."><p> Pulchro et Pullo Mar. XVI</p>
+</div>
+<div type="cap" n="u.c. 506"><p> Cotta II et Gemino II Iov. XXVII</p>
+</div>
+<div type="cap" n="u.c. 507"><p> Megello II et Butilo II Ven. VIII</p>
+</div>
+<div type="cap" n="u.c. 508"><p> Grasso II et Licinio II Sat. XIX</p>
+</div>
+<div type="cap" n="u.c. 509 b."><p> Buteo et Pulbo Sol. XXX</p>
+</div>
+<div type="cap" n="u.c. 510"><p> Attico et Bleso Mar. XI</p>
+</div>
+<div type="cap" n="u.c. 511"><p> Fundulo et Gallo Mer. XXIII</p>
+</div>
+<div type="cap" n="u.c. 512"><p> Catulo et Albino Iov. IIII</p>
+</div>
+<div type="cap" n="u.c. 513 b."><p> Attico II et Cerco Ven. XV</p>
+</div>
+<div type="cap" n="u.c. 514"><p> Cento et Tuditano Sol. XXVI</p>
+</div>
+<div type="cap" n="u.c. 515"><p> Turrino et Falco Lun. VII</p>
+</div>
+<div type="cap" n="u.c. 516"><p> Gracco et Falto Mar. XVIII</p>
+</div>
+<div type="cap" n="u.c. 517 b."><p> Caudino et Flacco Mer. XXIX</p>
+</div>
+<div type="cap" n="u.c. 518"><p> Caudino II et Varo Ven. X</p>
+</div>
+<div type="cap" n="u.c. 519"><p> Torquato et Bulbo Sat. XXI</p>
+</div>
+<div type="cap" n="u.c. 520"><p> Albino et Maximo Sol. II</p>
+</div>
+<div type="cap" n="u.c. 521 b."><p> Verrucoso et Matho Lun. XIII</p>
+</div>
+<div type="cap" n="u.c. 522"><p> Lepido et Malliolo Mer. XXIIII</p>
+</div>
+<div type="cap" n="u.c. 523"><p> Matho et Maso Iov. V</p>
+</div>
+<div type="cap" n="u.c. 524"><p> Barbula et Pera Ven. XVII</p>
+</div>
+<div type="cap" n="u.c. 525 b."><p> Albino II et Centumalo Sat. XXIIX</p>
+</div>
+<div type="cap" n="u.c. 526"><p> Maximo II et Verrucoso II Lun. VIIII</p>
+</div>
+<div type="cap" n="u.c. 527"><p> Flacco et Regulo Mar. XX</p>
+</div>
+<div type="cap" n="u.c. 528"><p> Torquato II et Flacco II Mer. I</p>
+</div>
+<div type="cap" n="u.c. 529 b."><p> Papo et Regulo Iov. XII</p>
+</div>
+<div type="cap" n="u.c. 530"><p> Torquato III et Flacco III Sat. XXIII</p>
+</div>
+<div type="cap" n="u.c. 531"><p> Flamio et Pilo Sol. IIII</p>
+</div>
+<div type="cap" n="u.c. 532"><p> Marcello et Calbo Lun. XV</p>
+</div>
+<div type="cap" n="u.c. 533 b."><p> Asina et Rufo Mar. XXVI</p>
+</div>
+<div type="cap" n="u.c. 534"><p> Levino et Scevola Iov. VII</p>
+</div>
+<div type="cap" n="u.c. 535"><p> Paulo et Salinatore Ven. XIIX</p>
+</div>
+<div type="cap" n="u.c. 536"><p> Scipio et Longo Sat. XXX</p>
+</div>
+<div type="cap" n="u.c. 537 b."><p> Gemino et Flaminino Sol. XI</p>
+</div>
+<div type="cap" n="u.c. 538"><p> Paulo et Varo Mar. XXII</p>
+</div>
+<div type="cap" n="u.c. 539"><p> Gracco et Albino Mer. III</p>
+</div>
+<div type="cap" n="u.c. 540"><p> Verrucoso IIII et Marcello III Iov. XIIII</p>
+</div>
+<div type="cap" n="u.c. 541 b."><p> Maximo et Gracco II Ven. XXV</p>
+</div>
+<div type="cap" n="u.c. 542"><p> Pulchro et Flacco III Sol. VI</p>
+</div>
+<div type="cap" n="u.c. 543"><p> Maximo et Centimalo Lun. XVII</p>
+</div>
+<div type="cap" n="u.c. 544"><p> Levino II et Marcello IIII Mar. XXIIX</p>
+</div>
+<div type="cap" n="u.c. 545 b."><p> Verrucoso V et Flacco IIII Mer. VIIII</p>
+</div>
+<div type="cap" n="u.c. 546"><p> Marcello V et Crispino Ven. XX</p>
+</div>
+<div type="cap" n="u.c. 547"><p> Nerone et Salinatore Sat. I</p>
+</div>
+<div type="cap" n="u.c. 548"><p> Metello et Pilo Sol. XII</p>
+</div>
+<div type="cap" n="u.c. 549 b."><p> Africano et Divite Lun. XXIII</p>
+</div>
+<div type="cap" n="u.c. 550"><p> Cethego et Tuditano Mer. IIII</p>
+</div>
+<div type="cap" n="u.c. 551"><p> Caepio et Tervillo Iov. XV</p>
+</div>
+<div type="cap" n="u.c. 552"><p> Nerone et Gemino Ven. XXVI</p>
+</div>
+<div type="cap" n="u.c. 553 b."><p> Lentulo et Peto Sat. VI</p>
+</div>
+<div type="cap" n="u.c. 554"><p> Maximo II et Cotta Lun. XVIII</p>
+</div>
+<div type="cap" n="u.c. 555"><p> Lentulo et Tribulo Mar. XXIX</p>
+</div>
+<div type="cap" n="u.c. 556"><p> Flaminio et Cato Mer. X</p>
+</div>
+<div type="cap" n="u.c. 557 b."><p> Cethego et Rufo Iov. XXI</p>
+</div>
+<div type="cap" n="u.c. 558"><p> Purpureo et Marcello Sat. III</p>
+</div>
+<div type="cap" n="u.c. 559"><p> Catone et Flacco Sol. XIIII</p>
+</div>
+<div type="cap" n="u.c. 560"><p> Africano et Longo Lun. XXV</p>
+</div>
+<div type="cap" n="u.c. 561 b."><p> Merula et Termo Mar. VI</p>
+</div>
+<div type="cap" n="u.c. 562"><p> Flaminino et Enobarbo Iov. XVII</p>
+</div>
+<div type="cap" n="u.c. 563"><p> Glabrione et Nasica Ven. XXIIX</p>
+</div>
+<div type="cap" n="u.c. 564"><p> Asiatico et Lelio Sat. VIIII</p>
+</div>
+<div type="cap" n="u.c. 565 b."><p> Volso et Nobiliore Sol. XX</p>
+</div>
+<div type="cap" n="u.c. 566"><p> Salinatore et Messala Mar. I</p>
+</div>
+<div type="cap" n="u.c. 567"><p> Lepido et Flaminino Mer. XII</p>
+</div>
+<div type="cap" n="u.c. 568"><p> Albino et Phylippo Iov. XXIII</p>
+</div>
+<div type="cap" n="u.c. 569 b."><p> Pulchro et Tuditano Ven. IIII</p>
+</div>
+<div type="cap" n="u.c. 570"><p> Pulchro et Licino Sol. XV</p>
+</div>
+<div type="cap" n="u.c. 571"><p> Libone et Marcello Lun. XXVII</p>
+</div>
+<div type="cap" n="u.c. 572"><p> Paulo et Tamphilo Mar. VIII</p>
+</div>
+<div type="cap" n="u.c. 573 b."><p> Cethego et Amphilo Mer. XIX</p>
+</div>
+<div type="cap" n="u.c. 574"><p> Albino et Pisone Ven. XXX</p>
+</div>
+<div type="cap" n="u.c. 575"><p> Fulviano et Fleco Sat. XI</p>
+</div>
+<div type="cap" n="u.c. 576"><p> Bruto et Volso Sol. XXII</p>
+</div>
+<div type="cap" n="u.c. 577 b."><p> Pulchro et Gracco Lun. III</p>
+</div>
+<div type="cap" n="u.c. 578"><p> Spalo et Levino Mer. XIIII</p>
+</div>
+<div type="cap" n="u.c. 579"><p> Scevola et Lepido Iov. XXV</p>
+</div>
+<div type="cap" n="u.c. 580"><p> Paulo et Scevola Ven. VI</p>
+</div>
+<div type="cap" n="u.c. 581 b."><p> Abino et Lenas Sat. XVII</p>
+</div>
+<div type="cap" n="u.c. 582"><p> Lenas et Ligo Lun. XXIIX</p>
+</div>
+<div type="cap" n="u.c. 583"><p> Grasso et Longino Mar. X</p>
+</div>
+<div type="cap" n="u.c. 584"><p> Mancino et Serrano Mer. XXI</p>
+</div>
+<div type="cap" n="u.c. 585 b."><p> Philippo II et Ceplo Iov. II</p>
+</div>
+<div type="cap" n="u.c. 586"><p> Paulo II et Grasso Sat. XIII</p>
+</div>
+<div type="cap" n="u.c. 587"><p> Peto et Penno Sol. XXIIII</p>
+</div>
+<div type="cap" n="u.c. 588"><p> Gallo et Marcello Lun. V</p>
+</div>
+<div type="cap" n="u.c. 589 b."><p> Torquato et Octavo Mar. XVI</p>
+</div>
+<div type="cap" n="u.c. 590"><p> Torquato et Longo Iov. XXVII</p>
+</div>
+<div type="cap" n="u.c. 591"><p> Graccho II et Haina Ven. VIII</p>
+</div>
+<div type="cap" n="u.c. 592"><p> Nasica et Siculo Sat. XIX</p>
+</div>
+<div type="cap" n="u.c. 593 b."><p> Messala et Strabo Sol. XXX</p>
+</div>
+<div type="cap" n="u.c. 594"><p> Gallo et Cethego Mar. XI</p>
+</div>
+<div type="cap" n="u.c. 595"><p> Dolabella et Nobiliore Mer. XXIII</p>
+</div>
+<div type="cap" n="u.c. 596"><p> Lepido et Lenas II Iov. IIII</p>
+</div>
+<div type="cap" n="u.c. 597 b."><p> Caesare et Horesten Ven. XV</p>
+</div>
+<div type="cap" n="u.c. 598"><p> Lentulo et Figulo II Sol. XXVI</p>
+</div>
+<div type="cap" n="u.c. 599"><p> Nasica et Marcello II Lun. VII</p>
+</div>
+<div type="cap" n="u.c. 600"><p> Opimio et Albino Mar. XVIII</p>
+</div>
+<div type="cap" n="u.c. 601 b."><p> Nobiliore et Fuso Mer. XXIX</p>
+</div>
+<div type="cap" n="u.c. 602"><p> Marcello II et Flacco Ven. X</p>
+</div>
+<div type="cap" n="u.c. 603"><p> Lucillo et Albino Sat. XXI</p>
+</div>
+<div type="cap" n="u.c. 604"><p> Flaminio et Balbo Sol. II</p>
+</div>
+<div type="cap" n="u.c. 605 b."><p> Censorino et Manilio Lun. XIII</p>
+</div>
+<div type="cap" n="u.c. 606"><p> Magno et Cesoniano Mer. XXIIII</p>
+</div>
+<div type="cap" n="u.c. 607"><p> Aemiliano et Druso Iov. VI</p>
+</div>
+<div type="cap" n="u.c. 608"><p> Lentulo et Mumnio Ven. XVII</p>
+</div>
+<div type="cap" n="u.c. 609 b."><p> Aemiliano et Mancino Sat. XXVIII</p>
+</div>
+<div type="cap" n="u.c. 610"><p> Gallo et Cotta Lun. VIIII</p>
+</div>
+<div type="cap" n="u.c. 611"><p> Pulchrino et Macedonico Mar. XX</p>
+</div>
+<div type="cap" n="u.c. 612"><p> Celvo et Serviliano Mer. I</p>
+</div>
+<div type="cap" n="u.c. 613 b."><p> Ceplo et Nepote Iov. XII</p>
+</div>
+<div type="cap" n="u.c. 614"><p> Lellio et Coepio Sat. XXIII</p>
+</div>
+<div type="cap" n="u.c. 615"><p> Pisone et Lenas Sol. IIII</p>
+</div>
+<div type="cap" n="u.c. 616"><p> Nasica et Bruto Lun. XV</p>
+</div>
+<div type="cap" n="u.c. 617 b."><p> Porcina et Mancino Mar. XXVI</p>
+</div>
+<div type="cap" n="u.c. 618"><p> Pilo et Serrano Iov. VII</p>
+</div>
+<div type="cap" n="u.c. 619"><p> Flacco et Pisone Ven. XIIX</p>
+</div>
+<div type="cap" n="u.c. 620"><p> Aemiliano II et Flacco Sat. XXX</p>
+</div>
+<div type="cap" n="u.c. 621 b."><p> Scepula et Pisone Sol. XI</p>
+</div>
+<div type="cap" n="u.c. 622"><p> Lenas et Calibo Mar. XXII</p>
+</div>
+<div type="cap" n="u.c. 623"><p> Muciano et Flacco Mer. III</p>
+</div>
+<div type="cap" n="u.c. 624"><p> Lentulo et Mepote Iov. XIIII</p>
+</div>
+<div type="cap" n="u.c. 625 b."><p> Tuditano et Aquilino Ven. XXV</p>
+</div>
+<div type="cap" n="u.c. 626"><p> Optavio et Rufo Sol. VI</p>
+</div>
+<div type="cap" n="u.c. 627"><p> Ravilla et Cinna Lun. XVII</p>
+</div>
+<div type="cap" n="u.c. 628"><p> Lepido et Horesten Mar. XXVIII</p>
+</div>
+<div type="cap" n="u.c. 629 b."><p> Hypseo et Flacco Mer. VIIII</p>
+</div>
+<div type="cap" n="u.c. 630"><p> Longino et Calvino Ven. XX</p>
+</div>
+<div type="cap" n="u.c. 631"><p> Metello et Appellate Sat. I</p>
+</div>
+<div type="cap" n="u.c. 632"><p> Enobarbo et Fanno Sol. XII</p>
+</div>
+<div type="cap" n="u.c. 633 b."><p> Opimio et Maximo Lun. XXIII</p>
+</div>
+<div type="cap" n="u.c. 634"><p> Manilio et Balbo Mer. IIII</p>
+</div>
+<div type="cap" n="u.c. 635"><p> Metello et Cotta Iov. XV</p>
+</div>
+<div type="cap" n="u.c. 636"><p> Catone et Rige Ven. XXVI</p>
+</div>
+<div type="cap" n="u.c. 637 b."><p> Diademmo et Scevola Sat. VII</p>
+</div>
+<div type="cap" n="u.c. 638"><p> Geta et Eburno Lun. XVIII</p>
+</div>
+<div type="cap" n="u.c. 639"><p> Scauro et Megello Mar. XXIX</p>
+</div>
+<div type="cap" n="u.c. 640"><p> Bulbo et Cato Mer. X</p>
+</div>
+<div type="cap" n="u.c. 641 b."><p> Caprario et Carpo Iov. XXI</p>
+</div>
+<div type="cap" n="u.c. 642"><p> Druso et Caesoniano Sat. II</p>
+</div>
+<div type="cap" n="u.c. 643"><p> Nasica et Bestia Sol. XIIII</p>
+</div>
+<div type="cap" n="u.c. 644"><p> Rufo et Albino Lun. XXV</p>
+</div>
+<div type="cap" n="u.c. 645 b."><p> Megello et Silano Mar. VI</p>
+</div>
+<div type="cap" n="u.c. 646"><p> Calva et Hotensio Iov. XVII</p>
+</div>
+<div type="cap" n="u.c. 647"><p> Longino et Nepote Ven. XXIIX</p>
+</div>
+<div type="cap" n="u.c. 648"><p> Serrano et Ceplo Sat. VIIII</p>
+</div>
+<div type="cap" n="u.c. 649 b."><p> Rufo et Maximo Sol. XX</p>
+</div>
+<div type="cap" n="u.c. 650"><p> Mario II et Frimbrio Mar. I</p>
+</div>
+<div type="cap" n="u.c. 651"><p> Mario III et Horeste Mer. XII</p>
+</div>
+<div type="cap" n="u.c. 652"><p> Mario IIII et Catulo Iov. XX</p>
+</div>
+<div type="cap" n="u.c. 653 b."><p> Mario V et Aquilio Ven. IIII</p>
+</div>
+<div type="cap" n="u.c. 654"><p> Mario VI et Flacco Sol. XV</p>
+</div>
+<div type="cap" n="u.c. 655"><p> Antonino et Albino Lun. XXVII</p>
+</div>
+<div type="cap" n="u.c. 656"><p> Metello et Vivio Mar. VIII</p>
+</div>
+<div type="cap" n="u.c. 657 b."><p> Lentulo et Grasso Mer. XIX</p>
+</div>
+<div type="cap" n="u.c. 658"><p> Aenobarbo et Longino Ven. XXX</p>
+</div>
+<div type="cap" n="u.c. 659"><p> Crasso et Scelvola Sat. XI</p>
+</div>
+<div type="cap" n="u.c. 660"><p> Calddo et Aenobarbo Sol. XXII</p>
+</div>
+<div type="cap" n="u.c. 661 b."><p> Flacco et Herennio Lun. III</p>
+</div>
+<div type="cap" n="u.c. 662"><p> Pulchro et Perpenno Mer. XIIII</p>
+</div>
+<div type="cap" n="u.c. 663"><p> Philippo et Caesare Iov. XXV</p>
+</div>
+<div type="cap" n="u.c. 664"><p> Caesare et Lupo Ven. VI</p>
+</div>
+<div type="cap" n="u.c. 665 b."><p> Pompeio et Stravo Sat. XVII</p>
+</div>
+<div type="cap" n="u.c. 666"><p> Sulla et Rufo Lun. XXIIX</p>
+</div>
+<div type="cap" n="u.c. 667"><p> Octavio et Cinna Mar. X</p>
+</div>
+<div type="cap" n="u.c. 668"><p> Cinna et Mario Mer. XXI</p>
+</div>
+<div type="cap" n="u.c. 669 b."><p> Cinna III et Carvo Iov. II</p>
+</div>
+<div type="cap" n="u.c. 670"><p> Carvo II et Cinna IIII Sat. XIII</p>
+</div>
+<div type="cap" n="u.c. 671"><p> Asiatico II et Pulbo Sol. XXIIII</p>
+</div>
+<div type="cap" n="u.c. 672"><p> Gratilliano et Carbo III Lun. V</p>
+</div>
+<div type="cap" n="u.c. 673 b."><p> Decola et Dolabella Mar. XVI</p>
+</div>
+<div type="cap" n="u.c. 674"><p> Sulla et Pio Iov. XXVII</p>
+</div>
+<div type="cap" n="u.c. 675"><p> Vatio et Pulchro Ven. VIII</p>
+</div>
+<div type="cap" n="u.c. 676"><p> Lepido et Catulo Sat. XIX</p>
+</div>
+<div type="cap" n="u.c. 677 b."><p> Mamerco et Iuliano Sol. XXX</p>
+</div>
+<div type="cap" n="u.c. 678"><p> Octavio et Curio Mar. XI</p>
+</div>
+<div type="cap" n="u.c. 679"><p> Octavio et Cotta Mer. XXIII</p>
+</div>
+<div type="cap" n="u.c. 680"><p> Lucullo et Cotta Iov. IIII</p>
+</div>
+<div type="cap" n="u.c. 681 b."><p> Varro et Licinio Ven. XV</p>
+</div>
+<div type="cap" n="u.c. 682"><p> Publicula et Lentulo Sol. XXVI</p>
+</div>
+<div type="cap" n="u.c. 683"><p> Lentulo et Horeste Lun. VII</p>
+</div>
+<div type="cap" n="u.c. 684"><p> Magno et Grasso Mar. XVIII</p>
+</div>
+<div type="cap" n="u.c. 685 b."><p> Nepote et Metello Mer. XXIX</p>
+</div>
+<div type="cap" n="u.c. 686"><p> Metello et Vatia Ven. X</p>
+</div>
+<div type="cap" n="u.c. 687"><p> Pisone et Glabria Sat. XXI</p>
+</div>
+<div type="cap" n="u.c. 688"><p> Lepido et Tullo Sol. II</p>
+</div>
+<div type="cap" n="u.c. 689 b."><p> Sulla et Peto Lun. XIII</p>
+</div>
+<div type="cap" n="u.c. 690"><p> Caesare et Turmo Mer. XXIIII</p>
+</div>
+<div type="cap" n="u.c. 691"><p> Cicerone et Antonino Iov. VI</p>
+</div>
+<div type="cap" n="u.c. 692"><p> Siliano et Murena Ven. XVII</p>
+</div>
+<div type="cap" n="u.c. 693 b."><p> Calpurniano et Messala Sat. XXIIX</p>
+</div>
+<div type="cap" n="u.c. 694"><p> Afranio et Metello Lun. VIIII</p>
+</div>
+<div type="cap" n="u.c. 695"><p> Caesare et Vivulo Mar. XX</p>
+</div>
+<div type="cap" n="u.c. 696"><p> Calsoniano et Cavonio Mar. I</p>
+</div>
+<div type="cap" n="u.c. 697 b."><p> Lentulo et Nepotae Iov. XII</p>
+</div>
+<div type="cap" n="u.c. 698"><p> Marcellino et Philippo Sat. XXIII</p>
+</div>
+<div type="cap" n="u.c. 699"><p> Magno II et Grasso Sol. IIII</p>
+</div>
+<div type="cap" n="u.c. 700"><p> Aenobarbo et Phucro Lun. XV</p>
+</div>
+<div type="cap" n="u.c. 701 b."><p> Carvino et Messala Mar. XXVI</p>
+</div>
+<div type="cap" n="u.c. 702"><p> Magno III solo Iov. VII</p>
+</div>
+<div type="cap" n="u.c. 703"><p> Rufo et Marcello Ven. XVIIII</p>
+</div>
+<div type="cap" n="u.c. 704"><p> Paulo et Marcello Sat. XXX</p>
+</div>
+<div type="cap" n="u.c. 705 b."><p> Marcello II et Cruscello Sol. XI</p>
+<p>Hoc usque dictatores fuerunt</p>
+</div>
+<div type="cap" n="u.c. 706"><p> G. Iulio Caesare II et Isaurio</p>
+</div>
+<div type="cap" n="u.c. 707"><p> Caleno et Vatino</p>
+</div>
+<div type="cap" n="u.c. 708"><p> Caesare III et Lepido</p>
+</div>
+<div type="cap" n="u.c. 709 b."><p> Caesare IIII et solo</p>
+</div>
+<div type="cap" n="u.c. 710"><p> Caesare V et Antonino</p>
+</div>
+<div type="cap" n="u.c. 711"><p> Pansa et Hirstio</p>
+</div>
+<div type="cap" n="u.c. 712"><p> Lepido et Planco</p>
+</div>
+<div type="cap" n="u.c. 713 b."><p> Petate et Isaurico</p>
+</div>
+<div type="cap" n="u.c. 714"><p> Calvino et Pollione</p>
+</div>
+<div type="cap" n="u.c. 715"><p> Censorino et Sabino Sat. I</p>
+</div>
+<div type="cap" n="u.c. 716"><p> Pulchro et Flacco Sol. XII</p>
+</div>
+<div type="cap" n="u.c. 717 b."><p> Agrippa et Gallo Lun. XXIII</p>
+</div>
+<div type="cap" n="u.c. 718"><p> Publicula et Nerva Mer. IIII</p>
+</div>
+<div type="cap" n="u.c. 719"><p> Cornificio et Pompeio Iov. XV</p>
+</div>
+<div type="cap" n="u.c. 720"><p> Libone et Atratino Ven. XXVI</p>
+</div>
+<div type="cap" n="u.c. 721 b."><p> Augusto II et Tullo Sat. VII</p>
+</div>
+<div type="cap" n="u.c. 722"><p> Henobulbo et Sossio Lun. XVIII</p>
+</div>
+<div type="cap" n="u.c. 723"><p> Augusto III et Messala Mar. XXIX</p>
+</div>
+<div type="cap" n="u.c. 724"><p> Augusto IIII et Grasso Mer. X</p>
+</div>
+<div type="cap" n="u.c. 725 b."><p> Augusto V et Apuleio Iov. XXI</p>
+</div>
+<div type="cap" n="u.c. 726"><p> Augusto VI et Agrippa II Sat. II</p>
+</div>
+<div type="cap" n="u.c. 727"><p> Augusto VII et Agrippa III Sol. XIII</p>
+</div>
+<div type="cap" n="u.c. 728"><p> Augusto VIII et Tauro Lun. XXIIII</p>
+</div>
+<div type="cap" n="u.c. 729 b."><p> Augusto VIIII et Silano Mar. V</p>
+</div>
+<div type="cap" n="u.c. 730"><p> Augusto X et Flacco Iov. XVII</p>
+</div>
+<div type="cap" n="u.c. 731"><p> Augusto XI et Pisone Ven. XXIIX</p>
+</div>
+<div type="cap" n="u.c. 732"><p> Marcello et Arrutio Sat. VIIII</p>
+</div>
+<div type="cap" n="u.c. 733 b."><p> Lollio et Lepido Sol. XX</p>
+</div>
+<div type="cap" n="u.c. 734"><p> Apuleio et Nerva Mar. I</p>
+</div>
+<div type="cap" n="u.c. 735"><p> Saturnino et Lucretio Mer. XI</p>
+</div>
+<div type="cap" n="u.c. 736"><p> Lentulo et Lentulo Iov. XXIII</p>
+</div>
+<div type="cap" n="u.c. 737 b."><p> Turnio et Silato Ven. IIII</p>
+</div>
+<div type="cap" n="u.c. 738"><p> Henobarbo et Scipione Sol. XV</p>
+</div>
+<div type="cap" n="u.c. 739"><p> Libone et Pisone Lun. XXVII</p>
+</div>
+<div type="cap" n="u.c. 740"><p> Grasso et Augure Mar. VIII</p>
+</div>
+<div type="cap" n="u.c. 741 b."><p> Nerone et Varo Mer. XIX</p>
+</div>
+<div type="cap" n="u.c. 742"><p> Messala et Quirino Ven. XXX</p>
+</div>
+<div type="cap" n="u.c. 743"><p> Tuberone et Maximo Sat. XI</p>
+</div>
+<div type="cap" n="u.c. 744"><p> Africano et Maximo Sol. XXII</p>
+</div>
+<div type="cap" n="u.c. 745 b."><p> Druso et Crispino Lun. III</p>
+</div>
+<div type="cap" n="u.c. 746"><p> Censorino et Gallo Mer. XIIII</p>
+</div>
+<div type="cap" n="u.c. 747"><p> Nerone et Pisone Iov. XXV</p>
+</div>
+<div type="cap" n="u.c. 748"><p> Balbo et Vetere Ven. VI</p>
+</div>
+<div type="cap" n="u.c. 749 b."><p> Augusto XII et Sulla Sat. XVII</p>
+</div>
+<div type="cap" n="u.c. 750"><p> Sabino et Rufo Lun. XXIIX</p>
+</div>
+<div type="cap" n="u.c. 751"><p> Lentulo et Messalino Mar. X</p>
+</div>
+<div type="cap" n="u.c. 752"><p> Augusto XIII et Silvano Mer. XXI</p>
+</div>
+<div type="cap" n="u.c. 753 b."><p> Lentulo et Pisone Iov. II</p>
+</div>
+<div type="cap" n="p. Chr. 1"><p> Caesare et Paulo Sat. XIII</p>
+<p>Hoc cons. dominus Iesus Christus natus est VIII kal. Ian. d. Ven. luna xv. </p>
+</div>
+<div type="cap" n="p. Chr. 2"><p> Vinicio et Varo Sol. XXIIII</p>
+</div>
+<div type="cap" n="p. Chr. 3"><p> Lamia et Servilio Lun. V</p>
+</div>
+<div type="cap" n="p. Chr. 4 b."><p> Catulo et Saturnino Mar. XVI</p>
+</div>
+<div type="cap" n="p. Chr. 5"><p> Voleso et Magno Iov. XXVII</p>
+</div>
+<div type="cap" n="p. Chr. 6"><p> Lepido et Arruntio Ven. VIII</p>
+</div>
+<div type="cap" n="p. Chr. 7"><p> Cretico et Nerva Sat. XIX</p>
+</div>
+<div type="cap" n="p. Chr. 8 b."><p> Camello et Quintiliano Sol. XXX</p>
+</div>
+<div type="cap" n="p. Chr. 9"><p> Camerino et Sabino Mar. XI</p>
+</div>
+<div type="cap" n="p. Chr. 10"><p> Dolabella et Silano Mer. XXII</p>
+</div>
+<div type="cap" n="p. Chr. 11"><p> Lepido et Tauro Iov. IIII</p>
+</div>
+<div type="cap" n="p. Chr. 12"><p> Caesare et Capitone Ven. XV</p>
+</div>
+<div type="cap" n="p. Chr. 13"><p> Planco et Silano Sol. XXVI</p>
+</div>
+<div type="cap" n="p. Chr. 14"><p> duobus Sextis Lun. VII</p>
+</div>
+<div type="cap" n="p. Chr. 15"><p> Druso Caes. et Flacco Mar. XVIII</p>
+</div>
+<div type="cap" n="p. Chr. 16 b."><p> Tauro et Libone Mer. XXIX</p>
+</div>
+<div type="cap" n="p. Chr. 17"><p> Flacco et Rufo Ven. X</p>
+</div>
+<div type="cap" n="p. Chr. 18"><p> Tito Caes. III et Germanico Caes. II Sat. XXI</p>
+</div>
+<div type="cap" n="p. Chr. 19"><p> Silano et Balbo Sol. II</p>
+</div>
+<div type="cap" n="p. Chr. 20 b."><p> Messala et Cotta Lun. XIII</p>
+</div>
+<div type="cap" n="p. Chr. 21"><p> Tito Caes. IIII et Druso Caes. II Mer. XXIIII</p>
+</div>
+<div type="cap" n="p. Chr. 22"><p> Agrippa et Galba Iov. VI</p>
+</div>
+<div type="cap" n="p. Chr. 23"><p> Pollione et Vetere Ven XVII</p>
+</div>
+<div type="cap" n="p. Chr. 24 b."><p> Caethego et Varro Sat. XXVIII</p>
+</div>
+<div type="cap" n="p. Chr. 25"><p> Agrippa et Lentulo Lun. IX</p>
+</div>
+<div type="cap" n="p. Chr. 26"><p> Getulico et Sabino Mar. XX</p>
+</div>
+<div type="cap" n="p. Chr. 27"><p> Grasso et Pisone Mer. I</p>
+</div>
+<div type="cap" n="p. Chr. 28 b."><p> Silano et Nerva Iov. XII</p>
+</div>
+<div type="cap" n="p. Chr. 29"><p> Gemino et Gemino Sat. XXIII</p>
+<p>His consulibus dominus Iesus Christus passus est die Ven. luna XIIII</p>
+</div>
+<div type="cap" n="p. Chr. 30"><p> Vinicio et Longino Sol. IIII</p>
+</div>
+<div type="cap" n="p. Chr. 31"><p> Tiberio Caes. V solo Lun. XV</p>
+</div>
+<div type="cap" n="p. Chr. 32 b."><p> Arruntio et Ahenobarbo Mar. XXVI</p>
+</div>
+<div type="cap" n="p. Chr. 33"><p> Galba et Sulla Iov. VII</p>
+<p>His cons. Petrus et Paulus ad urbem venerunt agere episcopatum. </p>
+</div>
+<div type="cap" n="p. Chr. 34"><p> Vitello et Persico Ven. XIX</p>
+</div>
+<div type="cap" n="p. Chr. 35"><p> Camerino et Noniano Sat. XXX</p>
+</div>
+<div type="cap" n="p. Chr. 36 b."><p> Allieno et Plautino Sol. XI</p>
+</div>
+<div type="cap" n="p. Chr. 37"><p> Proculo et Nigrino Mar. XXII</p>
+</div>
+<div type="cap" n="p. Chr. 38"><p> Iuliano et Asprenatae Mer. III</p>
+</div>
+<div type="cap" n="p. Chr. 39"><p> C. Caesare II et Caesiano Iov. XIIII</p>
+</div>
+<div type="cap" n="p. Chr. 40 b."><p> C. Caesare III solo Ven. XXV</p>
+</div>
+<div type="cap" n="p. Chr. 41"><p> C. Caesare IIII et Saturnino Sol. VI</p>
+</div>
+<div type="cap" n="p. Chr. 42"><p> Tito Claudio II et Longo Lun. XVII</p>
+</div>
+<div type="cap" n="p. Chr. 43"><p> Tito Claudio III et Vitellio Mar. XXIIX</p>
+</div>
+<div type="cap" n="p. Chr. 44 b."><p> Crispo II et Tauro Mer. VIIII</p>
+</div>
+<div type="cap" n="p. Chr. 45"><p> Vinicio et Corvino Ven. XX</p>
+</div>
+<div type="cap" n="p. Chr. 46"><p> Asiatico II et Silano Sat. I</p>
+</div>
+<div type="cap" n="p. Chr. 47"><p> Tito Claudio IIII et Vitellio III Sol. XII</p>
+</div>
+<div type="cap" n="p. Chr. 48 b."><p> Vitellio et Publicula Lun. XXIII</p>
+</div>
+<div type="cap" n="p. Chr. 49"><p> Verannio et Gallo Mer. IIII</p>
+</div>
+<div type="cap" n="p. Chr. 50"><p> Vetere et Nerviliano Iov. XV</p>
+</div>
+<div type="cap" n="p. Chr. 51"><p> Tito Claudio V et Orfito Ven. XXVI</p>
+</div>
+<div type="cap" n="p. Chr. 52 b."><p> Sulla et Othone Sat. VII</p>
+</div>
+<div type="cap" n="p. Chr. 53"><p> Silano et Antonino Lun. XVIII</p>
+</div>
+<div type="cap" n="p. Chr. 54"><p> Marcello et Aviola Mar. XXIX</p>
+</div>
+<div type="cap" n="p. Chr. 55"><p> Nerone Caes. et Vetere Mer. X</p>
+<p>His cons. passi sunt Petrus et Paulus III kal. Iul. </p>
+</div>
+<div type="cap" n="p. Chr. 56 b."><p> Saturnino et Scipione Iov. XXI</p>
+</div>
+<div type="cap" n="p. Chr. 57"><p> Nerone II et Pisone Sat. II</p>
+</div>
+<div type="cap" n="p. Chr. 58"><p> Nerone III et Messala Sol. XIII</p>
+</div>
+<div type="cap" n="p. Chr. 59"><p> Capitone et Aproniano Lun. XXV</p>
+</div>
+<div type="cap" n="p. Chr. 60 b."><p> Nerone IIII et Lentulo Mar. VI</p>
+</div>
+<div type="cap" n="p. Chr. 61"><p> Turpillino et Peto Iov. XVII</p>
+</div>
+<div type="cap" n="p. Chr. 62"><p> Mario et Gallo Ven. XXIIX</p>
+</div>
+<div type="cap" n="p. Chr. 63"><p> Regulo et Rufo Sat. VIIII</p>
+</div>
+<div type="cap" n="p. Chr. 64 b."><p> Grasso et Basso Sol. XX</p>
+</div>
+<div type="cap" n="p. Chr. 65"><p> Nerva et Vestino Mar. I</p>
+</div>
+<div type="cap" n="p. Chr. 66"><p> Telesino et Paulo Mer. XII</p>
+</div>
+<div type="cap" n="p. Chr. 67"><p> Capitone et Rufo Iov. XXIII</p>
+</div>
+<div type="cap" n="p. Chr. 68 b."><p> Trachala et Italico Ven. IIII</p>
+</div>
+<div type="cap" n="p. Chr. 69"><p> Galva II et Vinio Sol. XV</p>
+</div>
+<div type="cap" n="p. Chr. 70"><p> Vespasiano II et Tito Lun. XVII</p>
+</div>
+<div type="cap" n="p. Chr. 71"><p> Vespasiano III et Nerva Mar. VIII</p>
+</div>
+<div type="cap" n="p. Chr. 72 b."><p> Vespasiano IIII et Tito II Mer. XVIIII</p>
+</div>
+<div type="cap" n="p. Chr. 73"><p> Domitiano II et Messalino Ven. XXX</p>
+</div>
+<div type="cap" n="p. Chr. 74"><p> Vespasiano V et Tito III Sat. XI</p>
+</div>
+<div type="cap" n="p. Chr. 75"><p> Vespasiano VI et Tito IIII Sol. XXII</p>
+</div>
+<div type="cap" n="p. Chr. 76 b."><p> Vespasiano VII et Tito V Lun. III</p>
+</div>
+<div type="cap" n="p. Chr. 77"><p> Vespasiano VIII et Domitiano V Mer. XIIII</p>
+</div>
+<div type="cap" n="p. Chr. 78"><p> Commodo et Prisco Iov. XXV</p>
+</div>
+<div type="cap" n="p. Chr. 79"><p> Vespasiano VIIII et Tito VI Ven. VI</p>
+</div>
+<div type="cap" n="p. Chr. 80 b."><p> Tito VII et Domitiano VII Sat. XVII</p>
+</div>
+<div type="cap" n="p. Chr. 81"><p> Silva et Pollione Lun. XXVIII</p>
+</div>
+<div type="cap" n="p. Chr. 82"><p> Domitiano VIII et Sabino Mar. VIIII</p>
+</div>
+<div type="cap" n="p. Chr. 83"><p> Domitiano VIIII et Rufo Mer. XXI</p>
+</div>
+<div type="cap" n="p. Chr. 84 b."><p> Domitiano X et Sabino Iov. II</p>
+</div>
+<div type="cap" n="p. Chr. 85"><p> Domitiano XI et Furvo Sat. XIII</p>
+</div>
+<div type="cap" n="p. Chr. 86"><p> Domitiano XII et Dolabella Sol. XXIIII</p>
+</div>
+<div type="cap" n="p. Chr. 87"><p> Domitiano XIII et Saturnino Lun. V</p>
+</div>
+<div type="cap" n="p. Chr. 88 b."><p> Domitiano XIIII et Rufo Mar. XVI</p>
+</div>
+<div type="cap" n="p. Chr. 89"><p> Fulvo et Atratino Iov. XXVII</p>
+</div>
+<div type="cap" n="p. Chr. 90"><p> Domitiano XV et Nerva Ven. VIII</p>
+</div>
+<div type="cap" n="p. Chr. 91"><p> Clabrione et Traiano Sat. XIX</p>
+</div>
+<div type="cap" n="p. Chr. 92 b."><p> Domitiano XVI et Saturnino Sol. XXX</p>
+</div>
+<div type="cap" n="p. Chr. 93"><p> Collega et Priscino Mar. XI</p>
+</div>
+<div type="cap" n="p. Chr. 94"><p> Asprenate et Laterano Mer. XXII</p>
+</div>
+<div type="cap" n="p. Chr. 95"><p> Domitiano XVII et Clemente Iov. IIII</p>
+</div>
+<div type="cap" n="p. Chr. 96 b."><p> Valeriano et Vetere Ven. XV</p>
+</div>
+<div type="cap" n="p. Chr. 97"><p> Nerva II et Rufo III Sol. XXVI</p>
+</div>
+<div type="cap" n="p. Chr. 98"><p> Nerva III et Traiano II Lun. VII</p>
+</div>
+<div type="cap" n="p. Chr. 99"><p> Palma et Senecione Mar. XVII</p>
+</div>
+<div type="cap" n="p. Chr. 100 b."><p> Traiano III et Frontino Mer. XXIX</p>
+</div>
+<div type="cap" n="p. Chr. 101"><p> Traiano IIII et Peto Ven. X</p>
+</div>
+<div type="cap" n="p. Chr. 102"><p> Servillo II et Sura II Sat. XXI</p>
+</div>
+<div type="cap" n="p. Chr. 103"><p> Traiano V et Maximo II Sol. II</p>
+</div>
+<div type="cap" n="p. Chr. 104 b."><p> Surano II et Marcello Lun. XIII</p>
+</div>
+<div type="cap" n="p. Chr. 105"><p> Candido II et Quadrato Mar. XXIIII</p>
+</div>
+<div type="cap" n="p. Chr. 106"><p> Commodo et Cereale Iov. VI</p>
+</div>
+<div type="cap" n="p. Chr. 107"><p> Sura et Senecione Ven. XVII</p>
+</div>
+<div type="cap" n="p. Chr. 108 b."><p> Gallo et Bradua Sat. XXIII</p>
+</div>
+<div type="cap" n="p. Chr. 109"><p> Palma II et Tullo Lun. IIII</p>
+</div>
+<div type="cap" n="p. Chr. 110"><p> Priscina et Ortito Mar. XV</p>
+</div>
+<div type="cap" n="p. Chr. 111"><p> Pisone et Bolano Mer. I</p>
+</div>
+<div type="cap" n="p. Chr. 112 b."><p> Traiano VI et Africano Iov. XII</p>
+</div>
+<div type="cap" n="p. Chr. 113"><p> Celso et Crispino Sat. XXIII</p>
+</div>
+<div type="cap" n="p. Chr. 114"><p> Vopisco et Asta Sol. IIII</p>
+</div>
+<div type="cap" n="p. Chr. 115"><p> Messala et Pedone Lun. XV</p>
+</div>
+<div type="cap" n="p. Chr. 116 b."><p> Aeliano et Vetere Mar. XXVI</p>
+</div>
+<div type="cap" n="p. Chr. 117"><p> Nigro et Aproniano Iov. VII</p>
+</div>
+<div type="cap" n="p. Chr. 118"><p> Adriano II et Salinatore Ven. XIX</p>
+</div>
+<div type="cap" n="p. Chr. 119"><p> Adriano II et Rustico Sat. XXX</p>
+</div>
+<div type="cap" n="p. Chr. 120 b."><p> Severo II et Fulvo Sol. XI</p>
+</div>
+<div type="cap" n="p. Chr. 121"><p> Vero II et Augure Mar. XXII</p>
+</div>
+<div type="cap" n="p. Chr. 122"><p> Aviola et Pansa Mer. III</p>
+</div>
+<div type="cap" n="p. Chr. 123"><p> Petino et Aproniano Iov. XIIII</p>
+</div>
+<div type="cap" n="p. Chr. 124 b."><p> Glabrione et Torquato Ven. XXV</p>
+</div>
+<div type="cap" n="p. Chr. 125"><p> Asiatico II et Aquilino Sol. VI</p>
+</div>
+<div type="cap" n="p. Chr. 126"><p> Vero III et Ambibulo Lun. XVII</p>
+</div>
+<div type="cap" n="p. Chr. 127"><p> Titiano et Gallicano Mar. XXVIII</p>
+</div>
+<div type="cap" n="p. Chr. 128 b."><p> Asprenate et Libone Mer. VIIII</p>
+</div>
+<div type="cap" n="p. Chr. 129"><p> Marcello II et Marcello II Ven. XX</p>
+</div>
+<div type="cap" n="p. Chr. 130"><p> Catulino et Apro Sat. I</p>
+</div>
+<div type="cap" n="p. Chr. 131"><p> Pontiano et Rutino Sol. XII</p>
+</div>
+<div type="cap" n="p. Chr. 132 b."><p> Augurino et Sergiano Lun. XXIII</p>
+</div>
+<div type="cap" n="p. Chr. 133"><p> Hibero et Sisenna Mer. IIII</p>
+</div>
+<div type="cap" n="p. Chr. 134"><p> Serviano et Varo Iov. XV</p>
+</div>
+<div type="cap" n="p. Chr. 135"><p> Luperco et Attico Ven. XXVI</p>
+</div>
+<div type="cap" n="p. Chr. 136 b."><p> Commodo et Pompeiano Sat. VII</p>
+</div>
+<div type="cap" n="p. Chr. 137"><p> Caesare II et Balbino Lun. XVIII</p>
+</div>
+<div type="cap" n="p. Chr. 138"><p> Nigro et Camerino Mar. XXIX</p>
+</div>
+<div type="cap" n="p. Chr. 139"><p> Antonino II et Praesente II Mer. X</p>
+</div>
+<div type="cap" n="p. Chr. 140 b."><p> Antonino III et Aureliano Caes. Iov. XXI</p>
+</div>
+<div type="cap" n="p. Chr. 141"><p> Siloga et Severo Sat. II</p>
+</div>
+<div type="cap" n="p. Chr. 142"><p> Rufino et Quadrato Sol. XIIII</p>
+</div>
+<div type="cap" n="p. Chr. 143"><p> Torquato et Attico Lun. XXV</p>
+</div>
+<div type="cap" n="p. Chr. 144 b."><p> Avito et Maximo Mar. VI</p>
+</div>
+<div type="cap" n="p. Chr. 145"><p> Antonino IIII et Aureliano Caes. II Iov. XVII</p>
+</div>
+<div type="cap" n="p. Chr. 146"><p> Claro et Severo Ven. XXVIII</p>
+</div>
+<div type="cap" n="p. Chr. 147"><p> Largo et Messalino Sat. VIIII</p>
+</div>
+<div type="cap" n="p. Chr. 148 b."><p> Torquato et Iuliano Sol. XX</p>
+</div>
+<div type="cap" n="p. Chr. 149"><p> Orfito et Prisco Mar. I</p>
+</div>
+<div type="cap" n="p. Chr. 150"><p> Gallicano et Vetere Mer. XII</p>
+</div>
+<div type="cap" n="p. Chr. 151"><p> Maximo et Condiano Iov. XXIII</p>
+</div>
+<div type="cap" n="p. Chr. 152 b."><p> Glabrione et Homullo Ven. IIII</p>
+</div>
+<div type="cap" n="p. Chr. 153"><p> Praesente et Rufino Sol. XV</p>
+</div>
+<div type="cap" n="p. Chr. 154"><p> Commodo et Laterano Lun. XXVII</p>
+</div>
+<div type="cap" n="p. Chr. 155"><p> Severo et Sabino Mar. VIII</p>
+</div>
+<div type="cap" n="p. Chr. 156 b."><p> Silvato et Augurino Mer. XXVIIII</p>
+</div>
+<div type="cap" n="p. Chr. 157"><p> Barbato et Regulo Ven. XXX</p>
+</div>
+<div type="cap" n="p. Chr. 158"><p> Tertullo et Sacerdote Sat. XI</p>
+</div>
+<div type="cap" n="p. Chr. 159"><p> Quintillo et Prisco Sol. XXII</p>
+</div>
+<div type="cap" n="p. Chr. 160 b."><p> Bradua et Varo Lun. III</p>
+</div>
+<div type="cap" n="p. Chr. 161"><p> duobus Augustis Mer. XIIII</p>
+</div>
+<div type="cap" n="p. Chr. 162"><p> Rustico et Aquilino Iov. XXV</p>
+</div>
+<div type="cap" n="p. Chr. 163"><p> Lelliano et Pastore Ven. VI</p>
+</div>
+<div type="cap" n="p. Chr. 164 b."><p> Macrino et Celso Sat. XVII</p>
+</div>
+<div type="cap" n="p. Chr. 165"><p> Orfito et Pudente Lun. XXVII</p>
+</div>
+<div type="cap" n="p. Chr. 166"><p> Pudente et Pollione Mar. X</p>
+</div>
+<div type="cap" n="p. Chr. 167"><p> Vero III et Quadrato Mer. XXI</p>
+</div>
+<div type="cap" n="p. Chr. 168 b."><p> Aproniano et Paulo Iov. II</p>
+</div>
+<div type="cap" n="p. Chr. 169"><p> Prisco et Apollinare Sat. XIII</p>
+</div>
+<div type="cap" n="p. Chr. 170"><p> Claro et Caethego Sol. XXIIII</p>
+</div>
+<div type="cap" n="p. Chr. 171"><p> Severo et Herenniano Lun. V</p>
+</div>
+<div type="cap" n="p. Chr. 172 b."><p> Orfito et Maximo Mar. XVI</p>
+</div>
+<div type="cap" n="p. Chr. 173"><p> Severo II et Pompeiano Iov. XXVII</p>
+</div>
+<div type="cap" n="p. Chr. 174"><p> Gallo et Flacco Ven. VIII</p>
+</div>
+<div type="cap" n="p. Chr. 175"><p> Pisone et Iuliano Sat. XIX</p>
+</div>
+<div type="cap" n="p. Chr. 176 b."><p> Pollione et Apro Sol. XXX</p>
+</div>
+<div type="cap" n="p. Chr. 177"><p> Commodo et Quintilio Mar. XI</p>
+</div>
+<div type="cap" n="p. Chr. 178"><p> Orfito et Rufo Mer. XXIII</p>
+</div>
+<div type="cap" n="p. Chr. 179"><p> Commodo II et Vero Iov. IIII</p>
+</div>
+<div type="cap" n="p. Chr. 180 b."><p> Praesente et Condiano Ven. XV</p>
+</div>
+<div type="cap" n="p. Chr. 181"><p> Commodo III et Birro Sol. XXVI</p>
+</div>
+<div type="cap" n="p. Chr. 182"><p> Mamertino et Rufo Lun. VII</p>
+</div>
+<div type="cap" n="p. Chr. 183"><p> Commodo IIII et Victorino Mar. XVIII</p>
+</div>
+<div type="cap" n="p. Chr. 184 b."><p> Marulo et Eliano Mer. XIX</p>
+</div>
+<div type="cap" n="p. Chr. 185"><p> Materno et Bradua ven. X</p>
+</div>
+<div type="cap" n="p. Chr. 186"><p> Commodo V et Glabrione Sat. XXI</p>
+</div>
+<div type="cap" n="p. Chr. 187"><p> Crispino et Eliano Sol. I</p>
+</div>
+<div type="cap" n="p. Chr. 188 b."><p> Fusciano et Silano Lun. XIII</p>
+</div>
+<div type="cap" n="p. Chr. 189"><p> duobus Silanis Mer. XXIIII</p>
+</div>
+<div type="cap" n="p. Chr. 190"><p> Commodo VI et Septimiano Iov. VI</p>
+</div>
+<div type="cap" n="p. Chr. 191"><p> Aproniano et Bradua ven. XVII</p>
+</div>
+<div type="cap" n="p. Chr. 192 b."><p> Commodo VI et Pertinace Sat. XXVIII</p>
+</div>
+<div type="cap" n="p. Chr. 193"><p> Falcone et Claro Lun. VIIII</p>
+</div>
+<div type="cap" n="p. Chr. 194"><p> Severo II et Bino Mar. XX</p>
+</div>
+<div type="cap" n="p. Chr. 195"><p> Tertullo et Clemente Mer. I</p>
+</div>
+<div type="cap" n="p. Chr. 196 b."><p> Dextro et Prisco Iov. XII</p>
+</div>
+<div type="cap" n="p. Chr. 197"><p> Laterano et Rufino Sat. XXIII</p>
+</div>
+<div type="cap" n="p. Chr. 198"><p> Saturnino et Gallo Sol. IIII</p>
+</div>
+<div type="cap" n="p. Chr. 199"><p> Anulino et Frontone Lun. XV</p>
+</div>
+<div type="cap" n="p. Chr. 200 b."><p> Severo III et Victorino Mar. XXVI</p>
+</div>
+<div type="cap" n="p. Chr. 201"><p> Fabiano et Mutiano Iov. VII</p>
+</div>
+<div type="cap" n="p. Chr. 202"><p> Severo IIII et Antonino Ven. XIX</p>
+</div>
+<div type="cap" n="p. Chr. 203"><p> Plautiano et Geta Sat. XXX</p>
+</div>
+<div type="cap" n="p. Chr. 204 b."><p> Cillone et Libone Sol. XI</p>
+</div>
+<div type="cap" n="p. Chr. 205"><p> Antonino II et Geta Mar. XXII</p>
+</div>
+<div type="cap" n="p. Chr. 206"><p> Albino et Miliano Mer. III</p>
+</div>
+<div type="cap" n="p. Chr. 207"><p> Apro et Maximo Iov. XIIII</p>
+</div>
+<div type="cap" n="p. Chr. 208 b."><p> Antonino III et Geta II Ven. XXV</p>
+</div>
+<div type="cap" n="p. Chr. 209"><p> Pompeiano et Avito Sol. VI</p>
+</div>
+<div type="cap" n="p. Chr. 210"><p> Faustino et Rufino Lun. XVII</p>
+</div>
+<div type="cap" n="p. Chr. 211"><p> Gentiano et Basso Mar. XXVIII</p>
+</div>
+<div type="cap" n="p. Chr. 212 b."><p> duobus Aspris Mer. VIIII</p>
+</div>
+<div type="cap" n="p. Chr. 213"><p> Antonino IIII et Balbino Ven. XX</p>
+</div>
+<div type="cap" n="p. Chr. 214"><p> Messala et Sabino Sat. I</p>
+</div>
+<div type="cap" n="p. Chr. 215"><p> Laeto et Cereale Sol. XII</p>
+</div>
+<div type="cap" n="p. Chr. 216 b."><p> Sabino et Anulino Lun. XXIII</p>
+</div>
+<div type="cap" n="p. Chr. 217"><p> Praesente et Extricato Mer. IIII</p>
+</div>
+<div type="cap" n="p. Chr. 218"><p> Antonino et Advento Iov. XV</p>
+</div>
+<div type="cap" n="p. Chr. 219"><p> Antonino II et Sacerdote Ven. XXVI</p>
+</div>
+<div type="cap" n="p. Chr. 220 b."><p> Antonino III et Comazonte Sat. VII</p>
+</div>
+<div type="cap" n="p. Chr. 221"><p> Grato et Seleuco Lun. XVIII</p>
+</div>
+<div type="cap" n="p. Chr. 222"><p> Antonino IIII et Alexandro Mar. XXIX</p>
+</div>
+<div type="cap" n="p. Chr. 223"><p> Maximo et Cheliano Mer. X</p>
+</div>
+<div type="cap" n="p. Chr. 224 b."><p> Iuliano et Crispino Iov. XXI</p>
+</div>
+<div type="cap" n="p. Chr. 225"><p> Fusco et Dextro Sat. II</p>
+</div>
+<div type="cap" n="p. Chr. 226"><p> Alexandro II et Marcello Sol. XIIII</p>
+</div>
+<div type="cap" n="p. Chr. 227"><p> Albino et maximo Lun. XXV</p>
+</div>
+<div type="cap" n="p. Chr. 228 b."><p> Modesto et Probo Mer. VI</p>
+</div>
+<div type="cap" n="p. Chr. 229"><p> Alexandro III et Dione Iov. XVII</p>
+</div>
+<div type="cap" n="p. Chr. 230"><p> Agricola et Clementino Ven. XXIIX</p>
+</div>
+<div type="cap" n="p. Chr. 231"><p> Pompeiano et Peligniano Sat. VIIII</p>
+</div>
+<div type="cap" n="p. Chr. 232 b."><p> Lupo et Maximo Sol. XX</p>
+</div>
+<div type="cap" n="p. Chr. 233"><p> Maximo et Paterno Mar. I</p>
+</div>
+<div type="cap" n="p. Chr. 234"><p> Maximo II et Urbano Mer. XII</p>
+</div>
+<div type="cap" n="p. Chr. 235"><p> Severo et Quintiano Iov. XXIII</p>
+</div>
+<div type="cap" n="p. Chr. 236 b."><p> Maximo et Afriacno Ven. IIII</p>
+</div>
+<div type="cap" n="p. Chr. 237"><p> Perpetuo et Corneliano Sol. XV</p>
+</div>
+<div type="cap" n="p. Chr. 238"><p> Pio et Pontiano Lun. XXVII</p>
+</div>
+<div type="cap" n="p. Chr. 239"><p> Gordiano et Aviola Mar. VIII</p>
+</div>
+<div type="cap" n="p. Chr. 240 b."><p> Sabino et Venusto Mer. XIX</p>
+</div>
+<div type="cap" n="p. Chr. 241"><p> Gordiano II et Pompeiano Ven. XXX</p>
+</div>
+<div type="cap" n="p. Chr. 242"><p> Attico et Protextato Sat. XI</p>
+</div>
+<div type="cap" n="p. Chr. 243"><p> Arriano et Papo Sol. XXII</p>
+</div>
+<div type="cap" n="p. Chr. 244 b."><p> Peregrino et Aemiliano Lun. III</p>
+</div>
+<div type="cap" n="p. Chr. 245"><p> Philippo et Titiano Mer. XIIII</p>
+</div>
+<div type="cap" n="p. Chr. 246"><p> Praesente et Albino Iov. XXV</p>
+</div>
+<div type="cap" n="p. Chr. 247"><p> Philippo II et Philippo Ven. VI</p>
+</div>
+<div type="cap" n="p. Chr. 248 b."><p> Philippo III et Philippo II Sat. XVII</p>
+</div>
+<div type="cap" n="p. Chr. 249"><p> Aemiliano et Aquilino Lun. XXVIII</p>
+</div>
+<div type="cap" n="p. Chr. 250"><p> Decio II et Grato Mar. VIIII</p>
+</div>
+<div type="cap" n="p. Chr. 251"><p> Decio III et Decio Caes. Mer. XXI</p>
+</div>
+<div type="cap" n="p. Chr. 252 b."><p> Gallo II et Volusiano Iov. II</p>
+</div>
+<div type="cap" n="p. Chr. 253"><p> Volusiano II et Maximo Sat. XIII</p>
+</div>
+<div type="cap" n="p. Chr. 254"><p> Valeriano II et Gallieno Sol. XXIIII</p>
+</div>
+<div type="cap" n="p. Chr. 255"><p> Valeriano III et Gallieno II Lun. V</p>
+</div>
+<div type="cap" n="p. Chr. 256 b."><p> Maximo et Glabrione Mar. XVI</p>
+</div>
+<div type="cap" n="p. Chr. 257"><p> Valeriano IIII et Gallieno III Iov. XXVII</p>
+</div>
+<div type="cap" n="p. Chr. 258"><p> Tusco et Basso Ven. VIII</p>
+</div>
+<div type="cap" n="p. Chr. 259"><p> Aemiliano et Basso Sat. XIX</p>
+</div>
+<div type="cap" n="p. Chr. 260 b."><p> Seculare et Donato Sol. XXX</p>
+</div>
+<div type="cap" n="p. Chr. 261"><p> Gallicano IIII et Volusiano Mar. XI</p>
+</div>
+<div type="cap" n="p. Chr. 262"><p> Gallicano V et Fausiano Mer. XXIII</p>
+</div>
+<div type="cap" n="p. Chr. 263"><p> Albino et Dextro Iov. IIII</p>
+</div>
+<div type="cap" n="p. Chr. 264 b."><p> Gallicano VI et Saturnino Ven. XV</p>
+</div>
+<div type="cap" n="p. Chr. 265"><p> Valeriano II et Lucillio Sol. XXVI</p>
+</div>
+<div type="cap" n="p. Chr. 266"><p> Gallieno VII et Sabinillo Lun. VII</p>
+</div>
+<div type="cap" n="p. Chr. 267"><p> Paterno et Arcesilao Mar. XVIII</p>
+</div>
+<div type="cap" n="p. Chr. 268 b."><p> Paterno II et Mariniano Mer. XXIX</p>
+</div>
+<div type="cap" n="p. Chr. 269"><p> Claudio et Paterno Ven. X</p>
+</div>
+<div type="cap" n="p. Chr. 270"><p> Antiociano et Orfito Sat. XXI</p>
+</div>
+<div type="cap" n="p. Chr. 271"><p> Aureliano et Basso Sol. II</p>
+</div>
+<div type="cap" n="p. Chr. 272 b."><p> Quieto et Veldumiano Lun. XIII</p>
+</div>
+<div type="cap" n="p. Chr. 273"><p> Tacito et Placidiano Mer. XXIIII</p>
+</div>
+<div type="cap" n="p. Chr. 274"><p> Aureliano II et Capitolino Iov. VI</p>
+</div>
+<div type="cap" n="p. Chr. 275"><p> Aureliano III et Marcellino Ven. XVII</p>
+</div>
+<div type="cap" n="p. Chr. 276 b."><p> Tacito II et Aemiliano Sat. XXVIII</p>
+</div>
+<div type="cap" n="p. Chr. 277"><p> Probo et Paulino Lun. VIIII</p>
+</div>
+<div type="cap" n="p. Chr. 278"><p> Probo II et Lupo Mar. XX</p>
+</div>
+<div type="cap" n="p. Chr. 279"><p> Probo III et Paterno Mer. I</p>
+</div>
+<div type="cap" n="p. Chr. 280 b."><p> Messala et Grato Iov. XII</p>
+</div>
+<div type="cap" n="p. Chr. 281"><p> Probo IIII et Tiberiano Sat. XXIII</p>
+</div>
+<div type="cap" n="p. Chr. 282"><p> Probo V et Victorino Sol. IIII</p>
+</div>
+<div type="cap" n="p. Chr. 283"><p> Caro et Carino Lun. XV</p>
+</div>
+<div type="cap" n="p. Chr. 284 b."><p> Carino II et Numeriano Mar. XXVI</p>
+</div>
+<div type="cap" n="p. Chr. 285"><p> Diocletiano II et Aristobulo Iov. VII</p>
+</div>
+<div type="cap" n="p. Chr. 286"><p> Maximo II et Aquilino Ven. XVIII</p>
+</div>
+<div type="cap" n="p. Chr. 287"><p> Diocletiano III et Maximiano Sat. XXX</p>
+</div>
+<div type="cap" n="p. Chr. 288 b."><p> Maximiano II et Ianuarino Sol. XI</p>
+</div>
+<div type="cap" n="p. Chr. 289"><p> Basso II et Quintiniano Mar. XXII</p>
+</div>
+<div type="cap" n="p. Chr. 290"><p> Diocletiano IIII et Maximiano III Mer. III</p>
+</div>
+<div type="cap" n="p. Chr. 291"><p> Tiberiano et Dione Iov. XIIII</p>
+</div>
+<div type="cap" n="p. Chr. 292 b."><p> Annibaliano et Asclepiodoto Ven. XXV</p>
+</div>
+<div type="cap" n="p. Chr. 293"><p> Diocletiano V et Maximiano IIII Sol. VI</p>
+</div>
+<div type="cap" n="p. Chr. 294"><p> Constantio et Maximiano Lun. XVII</p>
+</div>
+<div type="cap" n="p. Chr. 295"><p> Tusco et Annullino Mar. XXVIII</p>
+</div>
+<div type="cap" n="p. Chr. 296 b."><p> Diocletiano V et Constancio II Mer. VIIII</p>
+</div>
+<div type="cap" n="p. Chr. 297"><p> Maximiano V et Maximiano II Ven. XX</p>
+</div>
+<div type="cap" n="p. Chr. 298"><p> Fausto II et Gallo Sat. I</p>
+</div>
+<div type="cap" n="p. Chr. 299"><p> Diocletiano VII et Maximiano VI Sol. XII</p>
+</div>
+<div type="cap" n="p. Chr. 300 b."><p> Constantio III et Maximiano III Lun. XXIII</p>
+</div>
+<div type="cap" n="p. Chr. 301"><p> Titiano et Nepotiano Mer. IIII</p>
+</div>
+<div type="cap" n="p. Chr. 302"><p> Constantio IIII et Maximiano IIII Iov. XV</p>
+</div>
+<div type="cap" n="p. Chr. 303"><p> Diocletiano VIII et Maximiano VII Ven. XVI</p>
+</div>
+<div type="cap" n="p. Chr. 304 b."><p> Diocletiano VIIII et Maximiano VIII Sat. VII</p>
+</div>
+<div type="cap" n="p. Chr. 305"><p> Constantio V et Maximiano V Lun. XVIII</p>
+</div>
+<div type="cap" n="p. Chr. 306"><p> Constantio VI et Maximiano VI Mar. XXIX</p>
+</div>
+<div type="cap" n="p. Chr. 307"><p> novies et Constantino Mer. X</p>
+</div>
+<div type="cap" n="p. Chr. 308 b. "><p> decies et Maximiano VII Iov. XXI</p>
+</div>
+<div type="cap" n="p. Chr. 309"><p> post consul. X et septimum Sat. II</p>
+</div>
+<div type="cap" n="p. Chr. 310"><p> ann. II post cons. X et septimum Sol. XIII</p>
+</div>
+<div type="cap" n="p. Chr. 311"><p> Maximiano VIII solo Lun. XXV</p>
+</div>
+<div type="cap" n="p. Chr. 312 b."><p> Constantino II et Licinio II Mar. VI</p>
+</div>
+<div type="cap" n="p. Chr. 313"><p> Constantino III et Licinio III Iov. XVII</p>
+</div>
+<div type="cap" n="p. Chr. 314"><p> Volusiano et Anniano Ven. XXVIII</p>
+</div>
+<div type="cap" n="p. Chr. 315"><p> Constantino IIII et Licinio IIII Sat. VIIII</p>
+</div>
+<div type="cap" n="p. Chr. 316 b."><p> Sabino et Rufino Sol. XX</p>
+</div>
+<div type="cap" n="p. Chr. 317"><p> Gallicano et Basso Mar. I</p>
+</div>
+<div type="cap" n="p. Chr. 318"><p> Licinio V et Crispo Mer. XII</p>
+</div>
+<div type="cap" n="p. Chr. 319"><p> Constantino V et Licinio Iov. XXIII</p>
+</div>
+<div type="cap" n="p. Chr. 320 b."><p> Constantino VI et Constantino Ven. IIII</p>
+</div>
+<div type="cap" n="p. Chr. 321"><p> Crispo II et Constantino II Sol. XV</p>
+</div>
+<div type="cap" n="p. Chr. 322"><p> Probiano et Iuliano Lun. XXVII</p>
+</div>
+<div type="cap" n="p. Chr. 323"><p> Severo et Rufino Mar. VIII</p>
+</div>
+<div type="cap" n="p. Chr. 324 b."><p> Crispo III et Constantino III Mer. XIX</p>
+</div>
+<div type="cap" n="p. Chr. 325"><p> Paulino et Iuliano Ven. XXX</p>
+</div>
+<div type="cap" n="p. Chr. 326"><p> Constantino VII et Constantio Sat. XI</p>
+</div>
+<div type="cap" n="p. Chr. 327"><p> Constancio et Maximo Sol. XXII</p>
+</div>
+<div type="cap" n="p. Chr. 328 b."><p> Ianuarino et Iusto Lun. III</p>
+</div>
+<div type="cap" n="p. Chr. 329"><p> Constantino VIII et Constantio III Mer. XIIII</p>
+</div>
+<div type="cap" n="p. Chr. 330"><p> Gallicano et Symaco Iov. XXV</p>
+</div>
+<div type="cap" n="p. Chr. 331"><p> Basso et Ablavio Ven. VI</p>
+</div>
+<div type="cap" n="p. Chr. 332 b."><p> Pacatiano et Hilariano Sat. XVII</p>
+</div>
+<div type="cap" n="p. Chr. 333"><p> Dalmatio et Zeofilo Lun. XXVII</p>
+</div>
+<div type="cap" n="p. Chr. 334"><p> Optato et Paulino Mar. X</p>
+</div>
+<div type="cap" n="p. Chr. 335"><p> Constantio et Albino Mer. XXI</p>
+</div>
+<div type="cap" n="p. Chr. 336 b."><p> Nepotiano et Facundo Iov. II</p>
+</div>
+<div type="cap" n="p. Chr. 337"><p> Feliciano et Titiano Sat. XIII</p>
+</div>
+<div type="cap" n="p. Chr. 338"><p> Vrso et Polemio Sol. XXIIII</p>
+</div>
+<div type="cap" n="p. Chr. 339"><p> Constantio II et Constante II Lun. V</p>
+</div>
+<div type="cap" n="p. Chr. 340 b."><p> Aquilino et Proculo Mar. XVI</p>
+</div>
+<div type="cap" n="p. Chr. 341"><p> Marcellino et Probino Iov. XXVII</p>
+</div>
+<div type="cap" n="p. Chr. 342"><p> Constantio III et Constante III Ven. VIII</p>
+</div>
+<div type="cap" n="p. Chr. 343"><p> Placidio et Romulo Sat. XVIIII</p>
+</div>
+<div type="cap" n="p. Chr. 344 b."><p> Leontio et Salustio Sol. XXX</p>
+</div>
+<div type="cap" n="p. Chr. 345"><p> Amantio et Albino Mar. XI</p>
+</div>
+<div type="cap" n="p. Chr. 346"><p> post Amantio et Albino Mer. XXIII</p>
+</div>
+<div type="cap" n="p. Chr. 347"><p> Rufino et Eusebio Iov. IIII</p>
+</div>
+<div type="cap" n="p. Chr. 348 b."><p> Philippo et Salia Ven. XV</p>
+</div>
+<div type="cap" n="p. Chr. 349"><p> Limenio et Catulino Sol. XXVI</p>
+</div>
+<div type="cap" n="p. Chr. 350"><p> Sergio et Nigriniano Lun. VII</p>
+</div>
+<div type="cap" n="p. Chr. 351"><p> post Sergio et Nigriniano Mar. XVIII</p>
+</div>
+<div type="cap" n="p. Chr. 352 b."><p> Constancio V et Constantio iun. Mer. XXVIII</p>
+</div>
+<div type="cap" n="p. Chr. 353"><p> Constancio VI et Constantio II Ven. X</p>
+</div>
+<div type="cap" n="p. Chr. 354"><p> Constancio VII et Constantio III Sat. XXII</p>
+</div>
+</div>
+
+<div type="lib" n="IX"><head> CYCLVS PASCHALIS AB A. 312 IN ANNOS CENTVM</head>
+
+<div type="cap" n="p. Chr. 312 b."><p> Constantino II et Licinio II idus Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 313"><p> Constantino III et Licinio III III kal. Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 314"><p> Valeriano et Anniano XIIII kal. Mai. </p>
+</div>
+<div type="cap" n="p. Chr. 315"><p> Constantino IV et Licinio IIII III idus Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 316 b."><p> Sabino et Rufino VIII kal. Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 317"><p> Gallicano et Basso XVIII kal. Mai. </p>
+</div>
+<div type="cap" n="p. Chr. 318"><p> Licinio V et Crispo VIII kal. Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 319"><p> Constantino V et Licinio IIII kal. Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 320 b."><p> Constantino VI et Constantino III idus Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 321"><p> Crispo II et Constantino II III non. April. </p>
+</div>
+<div type="cap" n="p. Chr. 322"><p> Probiano et Iuliano VIII kal. Apri. </p>
+</div>
+<div type="cap" n="p. Chr. 323"><p> Severo et Ruffo VII idus Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 324 b."><p> Crispo III et Constantino III IIII kal. Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 325"><p> Paulino et Iuliano XIIII kal. Mai. </p>
+</div>
+<div type="cap" n="p. Chr. 326"><p> Constantino VII et Constantio III idus Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 327"><p> Constantio et Maximo VII kal. Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 328 b."><p> Ianuarino et Iusto XVIII kal. Mai. </p>
+</div>
+<div type="cap" n="p. Chr. 329"><p> Constantino VIII et Constantio IIII VIII idus Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 330"><p> Gallicano et Syrmaco III kal. Mai. </p>
+</div>
+<div type="cap" n="p. Chr. 331"><p> Basso et Ablavio VIII idus Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 332 b."><p> Pacatiano et Hilariano III non. Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 333"><p> Dalmatio et Zenofilo XVII kal. Mai. </p>
+</div>
+<div type="cap" n="p. Chr. 334"><p> Optato et Paulino VII idus Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 335"><p> Constantio et  Albino III kal. Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 336 b."><p> Nepotiano et Facundo XIIII kal. Mai. </p>
+</div>
+<div type="cap" n="p. Chr. 337"><p> Feliciano et Titiano III non. Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 338"><p> Vrso et Polemio VIII kal. Apri. </p>
+</div>
+<div type="cap" n="p. Chr. 339"><p> Constancio II et Constante XVII kal. Mai. </p>
+</div>
+<div type="cap" n="p. Chr. 340 b."><p> Acyndino et Proculo III kal. Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 341"><p> Marcellino et Probino XIII kal. Mai. </p>
+</div>
+<div type="cap" n="p. Chr. 342"><p> Constancio III et Constante II III idus Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 343"><p> Placidio et Romulo III non. Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 344 b."><p> Leontio et Salustio XVII kal. Mai. </p>
+</div>
+<div type="cap" n="p. Chr. 345"><p> Amantio et Albino VII id. Apri. </p>
+</div>
+<div type="cap" n="p. Chr. 346"><p> post Amantio et Albino III kal. Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 347"><p> Rufino et Eusebio pri. id. April. </p>
+</div>
+<div type="cap" n="p. Chr. 348 b."><p> Philippo et Salia III non. Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 349"><p> Limenio et Catulino VI kal. Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 350"><p> Sergio et Nigriniano XVII kal. Mai. </p>
+</div>
+<div type="cap" n="p. Chr. 351"><p> post Sergio et Nigriniano prid. kal. Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 352 b."><p> Constantio V et Constantio iun. XI kal. Mai. </p>
+</div>
+<div type="cap" n="p. Chr. 353"><p> Constantio VI et Constantio II III id. Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 354"><p> Constantio VII et Constantio III VI kal. Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 355"><p> Arbitione et Lolliani XVI kal. Mai. </p>
+</div>
+<div type="cap" n="p. Chr. 356 b."><p> Constantio VIII et Iuliano I VII id. Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 357"><p> Constantio VIIII et Iuliano II III kal. Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 358"><p> Datiano et Caereale prid. idus Apr. </p>
+</div>
+<div type="cap" n="p. Chr. 368"><p> Valentiniano et Valente II prid. non. Apr. 359. </p>
+</div>
+<div type="cap" n="p. Chr. 369 b."><p> Valentiniano novili et Victore XVI kal. Mai. 360. </p>
+</div>
+<div type="cap" n="p. Chr. 370"><p> Valentiniano III et Valente III VI id. Apr. 361. </p>
+</div>
+<div type="cap" n="p. Chr. 371"><p> Gratiano II et Provo VI id. Apr. 361b. </p>
+</div>
+<div type="cap" n="p. Chr. 372"><p> Modesto et Arintheo XVI kal. Mai. 355b</p>
+</div>
+<div type="cap" n="p. Chr. 373 b."><p> Valentiniano IIII et Valente IIII VII idus Apr. 356b</p>
+</div>
+<div type="cap" n="p. Chr. 374"><p> Gratiano III et Equitio III kal. Apr. 357b</p>
+</div>
+<div type="cap" n="p. Chr. 375"><p> p. c. Gratiani III et Equiti II id. Apr. 358b</p>
+</div>
+<div type="cap" n="p. Chr. 376"><p> Valente V et Valentiniano Caes. iun. prid. non. Apr. 359b </p>
+</div>
+<div type="cap" n="p. Chr. 377 b."><p> Gratiano IIII et Merobaude XVI kal. Mai. 360b</p>
+</div>
+<div type="cap" n="p. Chr. 378a"><p> p. c. Gratiani et Merobaudes VI id. April. 361c</p>
+</div>
+<div type="cap" n="p. Chr. 378b"><p> Valente VI et Valentiniano iun. prd. kal. Apr. 362</p>
+</div>
+<div type="cap" n="p. Chr. 379"><p> Olibrio et Ausonio XII kal. Mai. 363</p>
+</div>
+<div type="cap" n="p. Chr. 380 b."><p> Gratiano V et Theodosio prid. non. Apr. 364</p>
+</div>
+<div type="cap" n="p. Chr. 381"><p> Syagrio et Eucerio VI kal. Apr. 365</p>
+</div>
+<div type="cap" n="p. Chr. 382"><p> Antonio et Euagrio XVI kal. Mai. 366</p>
+</div>
+<div type="cap" n="p. Chr. 383"><p> Saturnino et Syagrio kal. Apr. 367</p>
+</div>
+<div type="cap" n="p. Chr. 384 b."><p> Ricomede et Clearco XII kal. Mai. 368</p>
+</div>
+<div type="cap" n="p. Chr. 385"><p> Arcadio et Bautone prid. id. April. 369</p>
+</div>
+<div type="cap" n="p. Chr. 386"><p> Onorio et Evodio V kal. Apr. 370</p>
+</div>
+<div type="cap" n="p. Chr. 387"><p> Valentiniano II et Eutropio XV kal. Mai. 371</p>
+</div>
+<div type="cap" n="p. Chr. 388 b."><p> Theodosio II et Cinegio VI idus Apr. 372</p>
+</div>
+<div type="cap" n="p. Chr. 389"><p> Timasio et Promoto VIII kal. Apr. 373</p>
+</div>
+<div type="cap" n="p. Chr. 390"><p> Valentiniano IIII et Neoterio id. Apr. 374</p>
+</div>
+<div type="cap" n="p. Chr. 391"><p> Taciano et Symmacho non. Apr. 375</p>
+</div>
+<div type="cap" n="p. Chr. 392 b."><p> Arcadio Aug. II et Rufino VI kal. Apr. 376</p>
+</div>
+<div type="cap" n="p. Chr. 393"><p> Theodosio Aug. III et Abundantio XVI kal. Mai 377</p>
+</div>
+<div type="cap" n="p. Chr. 394"><p> Arcadio Aug. III et Honorio Aug. II kal. Apr. 378</p>
+</div>
+<div type="cap" n="p. Chr. 395"><p> Olibrio et Probino XI kal. Mai. 379</p>
+</div>
+<div type="cap" n="p. Chr. 396 b."><p> VI Arcadio Aug. IV. et Honorio Aug. III prid. id. April. 380</p>
+</div>
+<div type="cap" n="p. Chr. 397"><p> Caesario I et Attico VI kal. Apr. 381</p>
+</div>
+<div type="cap" n="p. Chr. 398"><p> Honorio Aug. IIII et Eutychiano XV kal. Mai. 382</p>
+</div>
+<div type="cap" n="p. Chr. 399"><p> Eutropio et Theodoro V id. Apr. 383</p>
+</div>
+<div type="cap" n="p. Chr. 400 b."><p> VI Stilichone et Auriliano VIII kal. Apr. 384</p>
+</div>
+<div type="cap" n="p. Chr. 401"><p> Vincentio et Fravio idus Apr. 385</p>
+</div>
+<div type="cap" n="p. Chr. 402"><p> Arcadio Aug. V. et Honorio Aug. V non. Apr. 386 </p>
+</div>
+<div type="cap" n="p. Chr. 403"><p> Theodosio Aug. et Rumorido XIIII kal. Mai. 387 </p>
+</div>
+<div type="cap" n="p. Chr. 404 b. "><p> VI Honorio VI et Aristenito V id. April. 388 </p>
+</div>
+<div type="cap" n="p. Chr. 405"><p> Stilichone II et Anthemio kal. Apr. 389 </p>
+</div>
+<div type="cap" n="p. Chr. 406"><p> Arcadio VI et Probo XI kal. Mai. 390 </p>
+</div>
+<div type="cap" n="p. Chr. 407"><p> Theodosio II et Honorio VII VIII id. Apr. 391</p>
+</div>
+<div type="cap" n="p. Chr. 408 b."><p> Basso et Philippo V kal. Apr. 392</p>
+</div>
+<div type="cap" n="p. Chr. 409"><p> Theodosio III et Honorio VIII XV kal. Mai. 393</p>
+</div> 
+<div type="cap" n="p. Chr. 410"><p> Varana et IIII non. Apr. 394<lb/>
+VII kal. Apr. 395<lb/>
+b. idus Apr. 396<lb/>
+non. Apr. 397<lb/>
+XIII kal. Mai. 398<lb/>
+III id. Apr. 399<lb/>
+b. kal. Apr. 400<lb/>
+XVII kal. Mai. 401<lb/>
+VII idus Apr. 402<lb/>
+IIII kal. Apr. 403<lb/>
+b. IIII idus Apr. 404<lb/>
+IIII non. Apr.405<lb/>
+VII kal. Apr. 406<lb/>
+XVIII kal. Mai. 407<lb/>
+b. IIII non. Apr. 408<lb/>
+XIIII kal. Mai. 409<lb/>
+IIII idus Apr. 410<lb/>
+VII kal. Apr. 411<lb/>
+Anno centesimo</p>
+</div>
+</div>
+
+<div type="lib" n="X"><head> PRAEFECTI VRBIS ROMAE AB A. P. CHR. 254 AD A. 354
+EX TEMPORIBVS GALLIENI QVIS QVANTVM TEMPORIBVS PRAEFECTVRAM VRBANAM ADMINISTRAVIT</head>
+<div type="cap" n="p. Chr. 254"><p> Valeriano II et Gallieno Lollianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 255"><p> Valeriano III et Gallieno II Valerius Maximus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 256"><p> Maximo et Glabrione Numnius Albinus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 257"><p> Valeriano IIII et Gallieno III Iunius Donatus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 258"><p> Tusco et Basso Cornelius Saecularis praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 259"><p> Aemiliano et Basso Cornelius Saecularis praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 260"><p> Saeculare II et Donato Cornelius Saecularis praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 261"><p> Gallicano IIII et Volusiano Numnius Albinus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 262"><p> Gallieno V et Faustino Numnius Albinus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 263"><p> Albino II et Dextro Numnius Albinus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 264"><p> Gallicano VI et Saturnino Paternus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 265"><p> Valeriano II et Lucillo Paternus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 266"><p> Gallieno VII et Sabinillo Paternus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 267"><p> Paterno et Harcesilao Petronius Volusianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 268"><p> Paterno II et Mariniano Petronius Volusianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 269"><p> Claudio et Paterno Flavius Antiocianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 270"><p> Antiochiano et Orfito Flavius Antiocianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 271"><p> Aureliano et Basso Postumius Varus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 272"><p> Quieto et Veldumiano Flavius Antiocianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 273"><p> Tacito et Placidiano Virius Orfitus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 274"><p> Aureliano II et Capitolino Virius Orfitus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 275"><p> Aureliano III et Marcellino Postumius Suagrus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 276"><p> Tacito II et Aemiliano Ovinius Pacatianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 277"><p> Probo et Paulino Ovinius Pacatianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 278"><p> Probo et Lupo Virius Lupus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 279"><p> Probo III et Paterno Virius Lupus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 280"><p> Messala et Grato Virius Lupus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 281"><p> Probo IIII et Tiberiano Ovinius Paternus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 282"><p> Probo V et Victorino Pomponius Victorianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 283"><p> Caro et Carino Titucius Roburrus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 284"><p> Carino II et Numeriano Ceionius Varus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 285"><p> Diocletiano II et Aristobulo Ceionius Varus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 286"><p> Maximo II et Aquilino Iunius Maximus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 287"><p> Diocletiano III et Maximiano Iunius Maximus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 288"><p> Maximiano II et Ianuario III kal. Mar. Pomponius Ianuarius praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 289"><p> Basso II et Quintiano Pomponius Ianuarianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 290"><p> Diocletiano IIII et Maximiano III Turranius Gratianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 291"><p> Tiberiano II et Dione XII kal. Mart. Iunius Tiberianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 292"><p> Annibaliano et Asclepiodoto III non. Aug. Cl. Marcellus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 293"><p> Diocletiano V et Maximiano IIII III idus Mar. Septimius Acyndinus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 294"><p> Constantio et Maximiano Septimius Aquindinus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 295"><p> Tusco et Anulino III idus Ian. Aristobolus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 296"><p> Diocletiano VI et Constantio II XII kal. Mar. Cassius Dion praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 297"><p> Maximiano V et Maximiano II Afranius Annibalianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 298"><p> Fausto II et Gallo Artorius Maximus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 299"><p> Diocletiano VI et Maximiano VI  Anicius Faustus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 300"><p> Constantio III et Maximiano III kal. Mar. Pompeius Faustinus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 301"><p> Titiano II et Nepotiano  Aelius Dionisius praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 302"><p> Constantio IIII et Maximiano IIII XI kal. Mar. Nummius Tuscus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 303"><p> Diocletiano VIII et Maximiano VII prid. idus Septemb. Iunius Tiberianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 304"><p> Diocletiano VIIII et Maximiano VIII prid. non. Ian. Aradius Rufinus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 305"><p> Constantio V et Maximiano V prid. idus Febr. Postumius Titianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 306"><p> Constantio VI et Maximiano VI XIIII kal. Apr. Annius Anulinus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 307"><p> Maximiano VII et Maximino.<lb/>
+Ex mense Aprili factum est<lb/>
+sextum consulatum, quod est<lb/>
+novies et Constantino. 3 VI kal. Sep. Insteius Tertullus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 308"><p> consules quos iusserint D. D. N. N. Augusti.<lb/>
+ex XII. kal. Mai. factum est<lb/>
+Maxentio et Romulo. quod est<lb/>
+decies et Maximiano VII. idus April. Statius Rufinus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 309"><p> Maxentio II et Romulo II III kal. Novem. Aurelius Hermogenes praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 310"><p> Maxentio III consule V kal. Nov. Rufius Volusianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 311"><p> consules quos iusserint D. D. N. N. AVG.<lb/>
+ex mense Septembro factum est<lb/>
+Rufino et Eusebio. V kal. Nov. Iunius Flavianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 312"><p> Maxentio IIII consule. qui sunt<lb/>
+Constantino II et Licinio II V idus Febr. Aradius Rufinus praefectus urbis<lb/>
+VI kal. Nov Annius Anulinus d. XXXIIII praefectus urbis<lb/>
+III kal. Decemb. Aradius Rufinus iterum praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 313"><p> Constantino III et Licinio III VI idus Decemb. Rufius Volusianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 314"><p> Volusiano et Anniano  Rufius Volusianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 315"><p> Constantino III et Licinio IIII XIII kal. Septemb. Vetius Rufinus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 316"><p> Sabino et Rufino prid. non. Aug. Ovinius Gallicanus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 317"><p> consules quos iusserint D. D. N. N. AVG.<lb/>
+ex die XIII kal. Mar.<lb/>
+Gallicano et Basso idus Mai. Septimius Bassus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 318"><p> Licinio V et Crispo Caes.  Ex die III idus Iul. in idus Aug. vice illius cognovit Iulius Cassius eo quod ad Augustum profectus est. Septimius Bassus regressus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 319"><p> Constantino V et Licinio Caes. kal. Sept. Valerius Maximus Basilius praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 320"><p> Constantino VI et Constantino Caes. Valerius Maximus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 321"><p> Crispo II et Constantino II Valerius Maximus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 322"><p> Probiano et Iuliano Valerius Maximus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 323"><p> Severo et Rufino idus Sept. Lucer. Verinus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 324"><p> Crispo III et Constantino III Lucer. Verinus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 325"><p> Paulino et Iuliano prid. non. Ian. Acilius Severus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 326"><p> Constantino VII et Constantino Caes. idus Novemb. Anicius Iulianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 327"><p> Constantio et Maximo Anicius Iulianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 328"><p> Ianuarino et Iusto Anicius Iulianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 329"><p> Constantino VIII et Constantino IIII VII idus Sept. Publilius Optatianus praefectus urbis d. XXXI.<lb/>
+Item VIII idus Oct. Petronius Probianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 330"><p> Gallicano et Symmaco  Petronius Probianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 331"><p> Basso et Ablavio prid. idus Apr. Anicius Paulinus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 332"><p> Pacatiano et Hilariano  Anicius Paulinus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 333"><p> Dalmatio et Zenofilo VII idus April. Publilius Optatianus praefectus urbis<lb/>
+item in dies XXXII.<lb/>
+item VI idus Maias Ceionius Iulianus Kamenius praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 334"><p> Optato et Paulino V kal. Mai. Anicius Paulinus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 335"><p> Constantio et Paulino III kal. Ian. Rufius Albinus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 336"><p> Nepotiano et Facundo Rufius Albinus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 337"><p> Feliciano et Titiano VI idus Martias Valerius Proculus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 338"><p> Vrso et Polemio idus Ianuarius Mecilius Hilarianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 339"><p> Constantio II et Constante prid. idus Iulias Turgius Apronianus menses III praefectus urbis<lb/>
+Item VIII kal. Novemb. Fabius Titianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 340"><p> Acyndino et Proculo ex die III non. Maias in IIII idus Iun. Iunius Tertullus vicarius cognovit, eo quod ad Augustum profectus est, postea reversus Fabius Titianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 341"><p> Marcellino et Probino V kal. Mar. Aurelius Celsinus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 342"><p> Constantio III et Constante II kal. Apri. Fl. Lollianus Mavortius m. III d. VI. praefectus urbis<lb/>
+Item prid. non. Iul. Aco Catulinus Philomatius praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 343"><p> Placido et Romulo Aco Catulinus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 344"><p> Leontio et Salustio Aco Catulinus praefectus urbis<lb/>
+III idus Apr. Q. Rusticus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 345"><p> Amantio et Albino Quintus Rusticus praefectus urbis<lb/>
+III non. Iul. Probinus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 346"><p> post cons. Amanti et Albini Probinus praefectus urbis<lb/>
+VII kal. Ianuar. Placidus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 347"><p> Rufino et Eusebio Placidus praefectus urbis<lb/>
+prid. idus Iunias Limenius praefectus pretorio et urbis</p>
+</div>
+<div type="cap" n="p. Chr. 348"><p> Filippo et Salia Ulpius Limenius praefectus pretorio et urbis</p>
+</div>
+<div type="cap" n="p. Chr. 349"><p> Limenio et Catulino Limenius praefectus pretorio et urbis<lb/>
+cessaverunt praefecture dies XLI a die VI idus April. usque in XV kal. Iun.<lb/>
+XIIII kal. Iun. Hermogenes praefectus pretorio et urbis</p>
+</div>
+<div type="cap" n="p. Chr. 350"><p> Sergio et Nigriniano Hermogenes praefectus pretorio et urbis<lb/>
+III kal. Mar. Fabius Titianus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 351"><p> Magnentio et Gaisone  Fabius Titianus praefectus urbis iterum<lb/>
+kal. Mar. Aur. Celsinus praefectus urbis iterum<lb/>
+IIII idus Maias Celius Probatus praefectus urbis<lb/>
+VII idus Iun. Clodius Adelfius praefectus urbis<lb/>
+XV kal. Ian. Valerius Proculus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 352"><p> Decentio et Paulo Valerius Proculus praefectus urbis iterum<lb/>
+V idus Sept. Septimius Mnasea praefectus urbis<lb/>
+VI kal. Oct. Neratius Caerealis praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 353"><p> Constantio VI et Constantio II Neratius Caerealis praefectus Urbis<lb/>
+VI idus Decemb. Vitrasius Orfitus praefectus urbis</p>
+</div>
+<div type="cap" n="p. Chr. 354"><p> Constantio VII et Constantio III  Vitrasius Orfitus praefectus urbis</p>
+</div>
+<div type="lib" n="XI"><head> DEPOSITIONES EPISCOPORVM ROMANORVM. <lb/>
+DEPOSITIO EPISCOPORVM</head>
+<p>VI kal. Ianuarias Dionisi, in Callisti.<lb/>
+III kal. Ianuar. Felicis, in Callisti. <lb/>
+prid. kal. Ianuar. Silvestri, in Priscillae. <lb/>
+IIII idus Ianuarias Miltiadis, in Callisti. <lb/>
+XVIII kal. Feb. Marcellini, in Priscillae. <lb/>
+III non. Mar. Luci, in Callisti. <lb/>
+X kal. Mai. Gai, in Callisti. <lb/>
+IIII non. Augustas Stephani, in Callisti. <lb/>
+VI kal. Octob. Eusebii, in Callistus. <lb/>
+VI idus Decemb. Eutychniani, in Callisti. <lb/>
+non. Octob. Marci, in Balbinae. <lb/>
+prid. idus Apr. Iuli, in via Aurelia miliario III, in Callisti. </p>
+</div>
+
+<div type="lib" n="XII"><head>FERIALE ECCLESIAE ROMANAE. <lb/>
+ITEM DEPOSITIO MARTIRVM</head>
+<p>VIII kal. Ian. natus Christus in Betleem Iudeae. <lb/>
+mense Ianuario. <lb/>
+XIII kal. Feb. Fabiani in Callisti. <lb/>
+et Sebastiani in Catacumbas, <lb/>
+XII kal. Feb. Agnetis in Nomentana. <lb/>
+mense Februario. <lb/>
+VIII kal. Martias. natale Petri de cathedra. <lb/>
+mense Martio. <lb/>
+non. Martias. Perpetuae et Felicitatis, Africae. <lb/>
+mense Maio. <lb/>
+XIIII kal. Iun. Partheni et Caloceri in Callisti, Diocletiano VIIII et Maximiano VIII. <lb/>
+mense Iunio.
+III kal. Iul. Petri in Catacumbas. <lb/>
+et Pauli Ostense, Tusco et Basso cons. <lb/>
+mense Iulio. <lb/>
+VI idus Felicis et Filippi in Priscillae. <lb/>
+et in Iordanorum, Martialis Vitalis Alexandri. <lb/>
+et in Maximi Silani. hunc Silanum martirem Novati furati sunt. <lb/>
+III kal. Aug. Abdos et Semnes in Pontiani, quod est ad ursum piliatum. <lb/>
+mense Augusto. <lb/>
+VIII idus Aug. Xysti in Callisti. <lb/>
+et in Praetextati Agapiti et Felicissimi. <lb/>
+VI idus Aug. Secundi Carpofori Victorini et Severiani Albano. <lb/>
+et Ostense VII ballistaria Cyriaci Largi Crescentiani Memiae Iulianetis et Ixmaracdi. <lb/>
+IIII idus Aug. Laurenti in Tiburtina. <lb/>
+idus Aug. Ypoliti in Tiburtina. <lb/>
+et Pontiani in Callisti. <lb/>
+XI kal. Septemb. Timotei, Ostense. <lb/>
+V kal. Sept. Hermetis in Basillae Salaria vetere. <lb/>
+mense Septembre. <lb/>
+non. Sep. Aconti, in Porto, et Nonni et Herculani et Taurini. <lb/>
+V idus Sept. Gorgoni, in Lavicana. <lb/>
+III idus Sept. Proti et Iacinti, in Basillae. <lb/>
+XVIII kal. Octob. Cypriani, Africae. Romae celebratur in Callisti. <lb/>
+X kal. Octob. Basillae, Salaria vetere, Diocletiano IX et Maximiano VIII consul. <lb/>
+mense Octobre. <lb/>
+pri. idus Octob. Callisti in via Aurelia. miliario III. <lb/>
+mense Novembre. <lb/>
+V idus Nov. Clementis Semproniani Claui Nicostrati in comitatum. <lb/>
+III kal. Dec. Saturnini in Trasonis. <lb/>
+mense Decembre. <lb/>
+idus Decem. Ariston in pontum.</p>
+</div>
+
+<div type="lib" n="XIII"><head>EPISCOPI ROMANI.</head>
+
+<p>IMPERANTE TIBERIO CAESARE PASSVS EST DOMINVS NOSTER IESVS CHRISTVS DVOBVS GEMINIS CONS. VIII KAL. APR. ET POST ASCENSVM EIVS BEATISSIMVS PETRVS EPISCOPATVM SVSCEPIT. EX QVO TEMPORE PER SVCCESSIONEM DISPOSITVM, QVIS EPISCOPVS QVOT ANNIS PREFVIT VEL QVO IMPERANTE.</p>
+<p><hi rend="italic">Petrus</hi> ann. XXV mens. uno d. VIIII. fuit temporibus Tiberii Caesaris et Gai et Tiberi Claudi et Neronis, a consul. Minuci et Longini usque Nerine et Vero. Passus autem cum Paulo die III kal. Iulias consul. ss. imperante Nerone. </p>
+<p><hi rend="italic">Linus</hi> ann .XII m. IIII d. XII. fuit temporibus Neronis, a consulatu Saturnini et Scipionis usque Capitone et Rufo</p>
+<p><hi rend="italic">Clemens</hi> ann. VIIII m. XI d. XII. fuit temporibus Galbe et Vespasiavi, a cons. Tracali et Italici usque Vespasiano VI et Tito. </p>
+<p><hi rend="italic">Cletus</hi> ann. VI m. duo dies. X. fuit temporibus Vespasiani et Titi et initia Domitiani, a cons. Vespasiano VIII et Domitiano V usque Domitiano VIIII et Rufo</p>
+<p><hi rend="italic">Anaclitus</hi> ann. XII m. X d. III. fuit temporibus Domitiani, a cons. Domitiano X et Sabino usque Domitiano XVII et Clemente. </p>
+<p><hi rend="italic">Aristus</hi> annos XIII m. VII d. duos. fuit temporibus novissimis Domitiani et Nervae et Traiani, a cons. Valentis et Veri usque Gallo et Bradua. </p>
+<p><hi rend="italic">Alexander</hi> ann. VII m. II d. uno. fuit temporibus Traiani a cons. Palmae et Tulli usque Veliano et Vetere. </p>
+<p><hi rend="italic">Sixtus</hi> ann. X m. III d. XXI. fuit temporibus Adriani a cons. Nigri et Aproniani usque Vero III et Ambibulo. </p>
+<p><hi rend="italic">Telesforus</hi> annos XI m. III d. III. fuit temporibus Antonini Macrini a cons. Titiani et Gallicani usque Caesare et Balbino. </p>
+<p><hi rend="italic">Higinus</hi> ann. XII m. III d. VI. fuit temporibus <gap/></p>
+<p><gap/> a cons. Gallicani et Veteris usque Presente et Rufino. </p>
+<p><hi rend="italic">Pius</hi> ann. XX m. IIII m. XXI. fuit temporibus Antonini Pii, a cons. Clari et Severi usque duobus Augustis. sub huius episcopatu frater eius Ermes librum scripsit, in quo mandatum continetur, quae ei precepit angelus, cum venit ad illum in habitu pastoris. </p>
+<p><hi rend="italic">Soter</hi> ann. IX <gap/></p>
+<p><gap/> m. III d. II. fuit temporibus Antonini et Commodi, a cons. Veri et Hereniani usque Paterno et Bradua. </p>
+<p><hi rend="italic">Victor</hi> ann. VIIII m. II d. X. fuit temporibus <gap/></p>
+<p><gap/> Antonini, a cons. Saturnini et Galli usque Presente et Extricato</p>
+<p><hi rend="italic">Calixtus</hi> ann. V m. II d. X. fuit temporibus Macrini et Eliogabali, a cons. Antonini et Adventi usque Antonino III et Alexandro. </p>
+<p><hi rend="italic">Vrbanus</hi> ann. VIII mens. XI d. XII. fuit temporibus Alexandri, a cons. Maximi et Eliani usque Agricola et Clementino. </p>
+<p><hi rend="italic">Pontianus</hi> ann. V m. II d. VII. fuit temporibus Alexandri, a cons. Pompeiani et Peligniani. Eo tempore Pontianus episcopus et Yppolitus presbiter exoles sunt deportati in Sardinia in insula uocina Severo et Quintiano cons. in eadem insula discinctus est IIII kal. Octobr. et loco eius ordinatus est Antheros XI kal. Dec. cons. ss. </p>
+<p><hi rend="italic">Antheros</hi> m. uno dies. X. Dormit III non. Ian. Maximo et Africano cons. </p>
+<p><hi rend="italic">Fabius</hi> ann. XIIII m. I d. X. fuit temporibus Maximini et Cordiani et Filippi, a cons. Maximini et Africani usque Decio II et Grato. passus XII kal. Feb. hic regiones divisit diaconibus et mul|tas fabricas per cimiteria fieri iussit. post passionem eius Moyses et Maximus presbyteri et Nicostratus diaconus comprehensi sunt et in carcerem sunt missi. eo tempore supervenit Novatus ex Africa et separavit de ecclesia Novatianum et quosdam confessores, postquam Moises in carcere defunctus est, qui fuit ibi m. XI d. XI. </p>
+<p><hi rend="italic">Cornelius</hi> ann. II m. III d. X. a cons. Decio IIII et Decio II usque Gallo et Volusianuo. sub episcopatu eius Novatus extra ecclesiam ordinavit Novatianum in urbe Roma et Nicostratum in Africa. hoc facto confessores, qui se separaverunt a Cornelio, cum Maximo presbytero, qui cum Moyse fuit, ad ecclesiam sunt reversi. post hoc Centumcellis expulsi. ibi cum gloria dormitionem accepit. </p>
+<p><hi rend="italic">Lucius</hi> ann. II m. VIII d. X. fuit temporibus Galli et Volusiani usque Valeriano III et Gallieno II. hic exul fuit et postea nutu dei incolumis ad ecclesiam reversus est <gap/></p>
+<p><hi rend="italic">Lucius</hi> ann. II m. VIII d. X. fuit temporibus Galli et Volusiani usque Valeriano III et Gallieno II. hic exul fuit et postea nutu dei incolumis ad ecclesiam reversus est <gap/></p>
+<p><hi rend="italic">Steffanus</hi> ann. IIII m. II d. XXI. fuit temporibus Valeriani et Gallieni, a cons. Volusiani et Maximi usque Valeriano III et Gallieno II. </p>
+<p><hi rend="italic">Xystus</hi> ann. II m. XI. d. VI. coepit a cons. Maximi et Glabrionis usque Tusco et Basso et passus est VIII id. Aug. <gap/> a cons. Tusci et Bassi usque in diem XII kal. Aug. Aemiliano et Basso cons.</p>
+<p><hi rend="italic">Dionisius</hi> ann. VIII m. II d. IIII. fuit temporibus Gallieni, ex die XI kal. Aug. Aemiliano et Basso cons. usque in diem VII kal. Ian. cons. Claudi et Paterni. </p>
+<p><hi rend="italic">Felix</hi> ann. V m. XI d. XXV. fuit temporibus Claudi et Aureliani, a cons. Claudi et Paterni usque in consulatum Aureliano II et Capitolino. </p>
+<p>Eutycianus ann. VIII m. XI d. III. fuit temporibus Aureliani, a cons. Aureliano III et Marcellino usque in diem VII idus Dec. Caro II et Carino cons. </p>
+<p><hi rend="italic">Gaius</hi> ann. XII m. IIII d. VII. fuit temporibus Cari et Carini, ex die XVI kal. Ian. cons. Carino II et Carino usque in X kal. Mai. Diocletiano VI et Constantio II. </p>
+<p><hi rend="italic">Marcellinus</hi> ann. VIII m. III d. XXV. fuit temporibus Diocletiani et Maximiani ex die prid. kal. Iulias a cons. Diocletiano VI et Constantio II usque in consul. Diocletiano VIIII et Maximiano VIII. quo tempore fuit persecutio et cessavit episcopatum ann. VII m. VI d. XXV. </p>
+<p><hi rend="italic">Marcellus</hi> annum unum m. VI d. XX. fuit temporibus Maxenti, a cons. X et Maximiano usque post consulatum X et septimium. </p>
+<p>Eusebius m. IIII d. XVI, a XIIII kal. Maias usque in diem XVI kal. Sept. </p>
+<p><hi rend="italic">Miltiades</hi> ann. III m. VI d. VIII, ex die VI nonas Iulias a consulatu Maximiano VIII solo, quod fuit mense Sep. Volusiano et Rufino, usque in III idus Ianuarias Volusiano et Anniano coss. </p>
+<p><hi rend="italic">Silvester</hi> ann. XXI m. XI. fuit temporibus Constantini, a consulatu Volusiano et Anniani ex die prid. kal. Feb. usque in diem kal. Ian. Constancio et Albino coss. </p>
+<p><hi rend="italic">Marcus</hi> mens. VIII dies XX. et hic fuit temporibus Constantini, Nepotiano et Facundo coss. ex die XV. kal. Feb. usque in diem non. Octob. coss. ss. </p>
+<p><hi rend="italic">Iulius</hi> ann. XV m. I d. XI. fuit temporibus Constantini, a consulatu Feliciani et Titiani ex die VIII id. Feb. in diem pridie idus Apr. Constancio V et Constancio Caes. hic multas fabricas fecit: basilicam in via Portese miliario III; basilicam in via Flaminia mil. II quae appellatur Valentini; basilicam Iuliam, quae est regione VII iuxta forum divi Traiani; basilicam trans Tiberim regione XIIII iuxta Callistum; basilicam in via Aurelia mil. III ad Callistum. </p>
+<p><hi rend="italic">Liberius</hi> <gap/> fuit temporibus Constanti et Constanti ex die XI kal. Iun. in diem <gap/> a consulatu Constantio V et Constantio Caes. coss.</p>
+</div>
+ </div>
+
+
+  </body>
+ </text>
+
+</TEI>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>De comoedia uel de fabula</title>
+    <author>Euantius</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Beatrice Strona</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2016</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000173</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p>Evanzio, <hi rend="italic">De fabula</hi>, introduzione, testo critico, traduzione e note di commento a cura di G. Cupaiuolo, Napoli 1992 (I. ed. 1979).</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    <p><hi rend="bold">Modifiche apportate al testo dell'edizione di riferimento </hi></p>
+    <p>Si è corretto al cap. 3 l'errore di stampa "inudcatur" in "inducatur"</p>
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+   <charDecl>
+    <char xml:id="char1">
+     <charName>char1</charName>
+     <desc>carattere 1</desc>
+    </char>
+
+    <char xml:id="char2">
+     <charName>char2</charName>
+     <desc>carattere 2</desc>
+    </char>
+   </charDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <change>[evento 2]</change>
+   <change>[evento 1]</change>
+  </revisionDesc>
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+ 
+   <div type="cap" n="1"><p> <milestone unit="par" n="1"/> Initium tragoediae et comoediae a rebus diuinis est incohatum, quibus pro fructibus uota soluentes operabantur antiqui.</p>
+    <p><milestone unit="par" n="2"/>Namque, incensis iam altaribus et admoto hirco, id genus carminis, quod sacer chorus reddebat Libero patri, ‘tragoedia’ dicebatur uel <foreign xml:lang="grc">ἀπὸ τοῦ τράγου καὶ τῆς ᾠδῆς</foreign>, hoc est ab hirco hoste uinearum et a cantilena — cuius ipsius rei etiam apud Vergilium plena fit mentio —, uel quod hirco donabatur eius carminis poeta, uel quod uter eius musti plenus sollemne praemium cantatoribus fuerat, uel quod ora sua faecibus perlinebant scaenici ante usum personarum ab Aeschylo repertum: faeces enim Graece dicuntur <foreign xml:lang="grc">τρύγες</foreign>. Et his quidem causis tragoediae nomen inuentum est.</p>
+    <p><milestone unit="par" n="3"/> At uero nondum coactis in urbem Atheniensibus, cum Apollini <foreign xml:lang="grc">Νομίῳ</foreign> uel <foreign xml:lang="grc">Ἀγυιαίῳ</foreign>, id est pastorum uicorumue praesidi deo, instructis aris in honorem diuinae rei circum Atticae uicos uillas pagos et compita festiuum carmen sollemniter cantaretur, <foreign xml:lang="grc">ἀπὸ τῶν κωμῶν καὶ τῆς ᾠδῆς</foreign> comoedia uocitata est, ut opinor, a pagis et cantilena composito nomine, uel <foreign xml:lang="grc">ἀπὸ τοῦ κωμάζειν καὶ ἄδειν</foreign>, quod est comessatum ire cantantes; quod appotis sollemni die uel amatorie lasciuientibus <del>choris comicis</del> non absurdum est.</p>
+    <p><milestone unit="par" n="4"/> Itaque, ut rerum, ita etiam temporum reperto ordine, tragoedia prior prolata esse cognoscitur. Nam ut ab incultu ac feris moribus paulatim peruentum est ad mansuetudinem urbesque sunt conditae et uita mitior atque otiosa processit, ita res tragicae longe ante comicas inuentae.</p>
+    <p><milestone unit="par" n="5"/> Quamuis igitur retro prisca uoluentibus reperiatur Thespis tragoediae primus inuentor et comoediae ueteris pater Eupolis cum Cratino Aristophaneque esse credatur, Homerus tamen, qui fere omnis poeticae largissimus fons est, etiam his carminibus exempla praebuit et uelut quandam suorum operum legem praescripsit: qui Iliadem ad instar tragoediae, Odyssiam ad imaginem comoediae fecisse monstratur. Nam post illius tale tantumque documentum ab ingeniosissimis imitatoribus et digesta sunt in ordinem et diuisa sunt ea, quae etiam tum temere scribebantur, adhuc impolita atque in ipsis rudimentis, haud quaquam, ut postea facta sunt, decora atque leuia.</p>
+    <p><milestone unit="par" n="6"/> Postquam demonstrandae originis causa de utriusque generis initio diximus, quod necesse est iam dicamus, adeo ut ea, quae proprie de tragoedia dicenda sunt, titulo propositi nunc operis instantes, in alia tempora differamus et de his fabulis iam loquamur, quas Terentius imitatus est.</p></div>
+   
+   <div type="cap" n="2"><p> <milestone unit="par" n="1"/> Comoedia fere uetus, ut ipsa quoque olim tragoedia, simplex carmen, quemadmodum iam diximus, fuit, quod chorus circa aras fumantes nunc spatiatus nunc consistens nunc reuoluens gyros cum tibicine concinebat.</p>
+    <p><milestone unit="par" n="2"/> Sed pirmo una persona est subducta cantatoribus, quae respondens alternis id est choro locupletauit uariauitque rem musicam; tum altera, tum tertia, et ad postremum crescente numero per auctores diuersos personae, pallae, cothurni, socci et ceteri ornatus atque insignia scaenicorum reperta, et ad hoc unicuique suus habitus; et ad ultimum qui primarum partium, qui secundarum partium tertiarumque, quarti loci atque quinti actores essent, distributum et diuisa quinquepartito actu est tota fabula.</p>
+    <p><milestone unit="par" n="3"/> Quae tamen in ipsis ortus sui uelut quibusdam cunabulis et uixdum incipiens <foreign xml:lang="grc">ἀρχαία κωμῳδία</foreign> es <foreign xml:lang="grc">ἐπ’ὀνόματος</foreign> dicta est: <foreign xml:lang="grc">ἀρχαία</foreign>, idcirco, quia nobis pro nuper cognitis uetus est, <foreign xml:lang="grc">ἐπ’ὀνόματος</foreign> autem, quia inest in ea uelut historica fides uerae narrationis et denominatio ciuium, de quibus libere describebatur.</p>
+    <p><milestone unit="par" n="4"/> Etenim per priscos poetas non, ut nunc, penitus ficta argumenta, sed res gestae a ciuibus palam cum eorum saepe, qui gesserant, nomine decantabantur, idque ipsum suo tempore moribus multum profuit ciuitatis, cum unus quisque caueret culpam, ne spectaculo ceteris extitisset et domestico probro. Sed cum poetae licentius abuti stilo et passim laedere ex libidine coepissent plures bonos, ne quisquam in alterum carmen infame componeret lata lege siluerunt.</p>
+    <p><milestone unit="par" n="5"/> Et hinc deinde aliud genus fabulae, id est satyra, sumpsit exordium, quae a satyris, quos in iocis semper ac petulantes deos scilus esse, uocitata est, etsi <supplied>alii</supplied> aliunde nomen praue putant habere. Haec satyra igitur eiusmodi fuit, ut in ea quamuis duro et uelut agresti ioco de uitiis ciuium, tamen sine ullo proprii nominis titulo, carmen esset. Quod item genus comoediae multis obfuit poetis, cum in suspicionem potentibus ciuium uenissent illorum facta descripsisse in peius ac deformasse genus stilo carminis. Quod primus Lucilius nouo conscripsit modo, ut poesin inde fecisset, id est unius carminis plurimos libros.</p>
+    <p><milestone unit="par" n="6"/> Hoc igitur quod supra diximus malo coacti omittere satyram aliud genus carminis, <foreign xml:lang="grc">νέαν κωμῳδίαν</foreign>, hoc est nouam comoediam, reppererunt poetae, quae argumento communi magis et generaliter ad omnes homines, qui mediocribus fortunis agunt, pertineret et minus amaritudinis spectatoribus et eadem opera multum delectationis afferret, concinna argumento, consuetudini congrua, utilis sententiis, grata salibus, apta metro.</p>
+    <p><milestone unit="par" n="7"/> Vt igitur superiores illae suis quaeque celebrantur auctoribus, ita haec <foreign xml:lang="grc">νέα κωμῳδία</foreign> cum multorum ante ac postea, tum praecipue Menandri Terentiique est. De qua cum multa dicenda sint, sat erit tamen uelut admonendi lectoris causa quod de arte comica in ueterum chartis retinetur exponere.</p></div>
+   
+   <div type="cap" n="3"><p> <milestone unit="par" n="1"/>Comoedia uetus, ut ab initio chorus fuit paulatimque personarum numero in quinque actus processit, ita paulatim uelut attrito atque extenuato choro ad nouam comoediam sic peruenit, ut in ea non modo non inducatur chorus, sed ne locus quidem ullus iam relinquatur choro. Nam postquam otioso tempore fastidiosior spectator effectus tum, cum ad cantatores ab actoribus fabula transibat, consurgere et abire coepisset, admonuit <supplied>id</supplied> poetas, ut primo quidem choros tollerent locum eis relinquentes — ut Menander fecit hac de causa, non ut alii existimant, alia —; postremo ne locum quidem reliquerunt — quod Latini fecerunt comici, unde apud illos dirimere actus quinquepartitos difficile est —.</p>
+    <p><milestone unit="par" n="2"/> Tum etiam Graeci prologos non habent more nostrorum, quos Latini habent. Deinde <foreign xml:lang="grc">θεοὺς ἀπὸ μηχανῆς</foreign>, id est deos argumentis narrandis machinatos, ceteri Latini ad instar Graecorum habent, Terentius non habet. Ad hoc <foreign xml:lang="grc">προτατικὰ πρόσωπα</foreign>, id est personas extra argumentum accersitas, non facile ceteri habent, quibus Terentius saepe utitur, ut per harum inductiones facilius pateat argumentum.</p>
+    <p><milestone unit="par" n="3"/> Veteres etsi ipsi quoque in metris neglegentius egerunt, iambici uersus dumtaxat in secundo et quarto loco, tamen a Terentio uincuntur resolutione huius metri quantum potest comminuti ad imaginem prosae orationis.</p>
+    <p><milestone unit="par" n="4"/> Tum personarum leges circa habitum, aetatem, officium, partes agendi nemo diligentius a Terentio custodiuit. Quin etiam solus ausus est, cum in fictis argumentis fidem ueritatis assequeretur, etiam contra praescripta comica meretrices interdum non malas introducere, quibus tamen et causa cur bonae sint, et uoluptas per ipsum, non defit.</p>
+    <p><milestone unit="par" n="5"/> Haec cum artificiosissima Terentius fecerit, tum illud est admirandum, quod et morem retinuit, ut comoediam scriberet, et temperauit affectum, ne in tragoediam transiliret. Quod cum aliis rebus minime obtentum et a Plauto et ab Afranio et <unclear>appio</unclear> et multis fere magnis comicis inuenimus. Illud quoque inter Terentianas uirtutes mirabile, quod eius fabulae eo sunt temperamento, ut neque extumescant ad tragicam celsitudinem neque abiciantur ad mimicam uilitatem.</p>
+    <p><milestone unit="par" n="6"/> Adde quod nihil abstrusum ab eo ponitur aut quod ab historicis requirendum sit, quod saepius Plautus facit et eo est obscurior multis locis.</p>
+    <p><milestone unit="par" n="7"/> Adde quod argumenti ac stili ita attente memor est, ut nusquam non aut cauerit aut curauerit quae obesse potuerunt, tum quod media primis atque postremis ita nexuit, ut nihil additum alteri, sed et aptum ex se totum et uno corpore uideatur esse compositum.</p>
+    <p><milestone unit="par" n="8"/> Illud quoque mirabile in eo, primo quod non ita miscet quattuor personas, ut obscura sit earum distinctio, et item quod nihil ad populum facit actorem uelut extra comoediam loqui, quod uitium Plauti frequentissimum.</p>
+    <p><milestone unit="par" n="9"/> Illud etiam inter cetera eius laude dignum uidetur, quod locupletiora argumenta ex duplicibus negotiis delegerit ad scribendum. Nam excepta Hecyra, in qua unius Pamphili amor est, ceterae quinque binos adulescentes habent.</p></div>
+   
+   <div type="cap" n="4"><p> <milestone unit="par" n="1"/>Illud uero tenendum est post <foreign xml:lang="grc">νέαν κωμῳδίαν</foreign> Latinos multa fabularum genera protulisse, ut togatas ab scaenicis atque argumentis Latinis, praetextatas a dignitate personarum tragicarum ex Latina historia, Atellanas a ciuitate Campaniae ubi actitatae sunt primae, Rhintonicas ab auctoris nomine, tabernarias ab humilitate argumenti ac stili, mimos a diuturna imitatione uilium rerum ac leuium personarum.</p>
+    <p><milestone unit="par" n="2"/> Inter tragoediam autem et comoediam cum multa tum inprimis hoc distat, quod in comoedia mediocres fortunae hominum, parui impetus pericula laetique sunt exitus actionum, at in tragoedia omnia contra: ingentes personae, magni timores, exitus funesti habentur; et illic prima turbulenta, tranquilla ultima, in tragoedia contrario ordine res aguntur; tum quod in tragoedia fugienda uita, in comoedia capessenda exprimitur; postremo quod omnis comoedia de fictis est argumentis, tragoedia saepe de historica fide petitur.</p>
+    <p><milestone unit="par" n="3"/> Latinae fabulae primo a Liuio Andronico scriptae sunt adeo ut ad has res etiam tum recentes idem poeta et actor suarum fabularum fuisset.</p>
+    <p><milestone unit="par" n="4"/> Comoediae autem motoriae sunt aut statariae aut mixtae. Motoriae turbulentae, statariae quietiores, mixtae ex utroque actu consistentes.</p>
+    <p><milestone unit="par" n="5"/> Comoedia per quattuor partes diuiditur: prologum, protasin, epitasin, catastrophen. Est prologus uelut praefatio quaedam fabulae, in quo solo licet praeter argumentum aliquid ad populum uel ex poetae uel ex ipsius fabulae uel actoris commodo loqui; protasis primus actus initiumque dramatis; epitasis incrementum processusque turbarum ac totius, ut ita dixerim, nodus erroris; catastrophe conuersio rerum ad iucundos exitus, patefacta cunctis cognitione gestorum.</p></div>
+   
+  </body>
+ </text>
+
+</TEI>

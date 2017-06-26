@@ -1,0 +1,1300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>De sophisticis elenchis liber Aristotelis latine uersus</title>
+                <author>Boethius (Anicius Manlius Seuerinus Boethius)</author>
+                <respStmt>
+                    <resp>Correzione linguistica</resp>
+                    <name>Manuela Ferroni</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica XML</resp>
+                    <name>Manuela Ferroni</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>DigilibLT Project</publisher>
+                <pubPlace>Vercelli</pubPlace>
+                <date>2015</date>
+                <availability>
+                    <p>
+                        <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
+                    </p>
+                </availability>
+                <idno>dlt000046</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Aristoteles Latinus VI 1-3, <hi rend="italic">De sophisticis elenchis. Translatio
+                        Boethii, Fragmenta Translationis Iacobi, et Recensio Guillelmi de
+                        Moerbeke</hi>, edidit B. G. Dod, Leiden-Bruxelles 1975, 5-60 (Corpus
+                    Philosophorum Medii Aeui).</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+                <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio
+                    Lana</p>
+            </projectDesc>
+            <editorialDecl>
+                
+                <p><hi rend="bold">Note di trascrizione e codifica specifiche del file </hi></p>
+                <p>Per facilitare la visualizzazione a schermo si è deciso di indicare dopo il numero di pagina l'edizione di riferimento utilizzando la sigla AL = Aristoteles Latinus.</p>
+                
+                <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+                <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+                    l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+                    e commenti e ogni altro contenuto redatto da editori moderni. </p>
+                <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+                    correttezza di trascrizione</p>
+                <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+                    distinzione u/v minuscole.</p>
+                <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+                <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+                    grassetto, corsivo, spaziatura espansa.</p>
+                <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+                    <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+                    <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+                    si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+                    [...]<lb/> lacuna integrata dagli editori:
+                    <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+                </p>
+                <p>Sono stati marcati i termini in lingua greca
+                    <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+                </p>
+                <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+                    target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+                    >Note di trascrizione e codifica di testi latini tardoantichi
+                    [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latino</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                <p>
+                    <hi rend="bold"> DE SOPHISTICIS ELENCHIS</hi>
+                </p>
+                <p><milestone unit="page" n="p. 5 AL"/> De sophisticis autem elenchis et de
+                    his qui videntur quidem elenchi, sunt autem paralogismi sed non elenchi dicemus,
+                    incipientes secundum naturam a primis.</p>
+                <p>Quoniam ergo alii quidem sunt syllogismi, alii autem cum non sint videntur,
+                    manifestum. Nam quemadmodum et in aliis hoc fit per quandam similitudinem, sic
+                    et in orationibus se habet. Et enim habitum alii quidem habent bene, alii autem
+                    videntur, tribualiter inflantes et fingentes se, et pulcri alii quidem propter
+                    decorem, alii autem videntur, componentes se. Et in inanimatis quoque similiter;
+                    nam et horum haec quidem argentum illa vero aurum est vere, alia autem non sunt
+                    quidem, videntur autem secundum sensum, ut litargirea quidem et stagnea
+                    argentea, felle vero tincta aurea. Eodem autem modo et syllogismus et elenchus
+                    hic quidem est, ille vero non est quidem, videtur autem propter imperitiam; nam
+                    imperiti velut distantes longe speculantur. Nam syllogismus quidem ex quibusdam
+                    positis est ut dicatur diversum quid ex necessitate ab his quae posita sunt,
+                    elenchus <milestone unit="page" n="p. 6 AL"/> autem syllogismus cum
+                    contradictione conclusionis. Illi vero hoc quidem non faciunt, videntur autem ob
+                    multas causas, quorum unus locus aptissimus est et publicissimus per nomina. Nam
+                    quoniam non est ipsas res ferentes disputare, sed nominibus pro rebus utimur
+                    notis, quod accidit in nominibus in rebus quoque arbitramur accidere, velut in
+                    compotis ratiocinantibus. Hoc autem non est simile. Nam nomina quidem finita
+                    sunt et orationum multitudo, res autem numero infinitae. Necesse est ergo plura
+                    eandem orationem et nomen unum significare. Quemadmodum igitur illic qui non
+                    sunt prompti numeros ferre a scientibus expelluntur, eodem modo et in
+                    orationibus qui nominum virtutis sunt ignari paralogizantur et ipsi disputantes
+                    et alios audientes. Ob hanc ergo causam et quae dicendae sunt est et syllogismus
+                    et elenchus apparens, non existens autem. Quoniam autem est quibusdam magis
+                    operae pretium videri esse sapientes quam esse et non videri (est enim
+                    sophistica apparens sapientia, non existens autem, et sophista copiosus ab
+                    apparente sapientia sed non existente), palam quoniam necessarium est his et
+                    sapientis opus videri facere magis quam facere et non videri. Est autem, ut sit
+                    ad unum dicere, in unoquoque opus scientis non mentiri quidem eum de quibus
+                    novit, mentientem autem manifestare posse. Haec autem sunt hoc quidem in eo quod
+                    potest dare orationem, illud autem in eo quod sumere. Necesse est ergo eos qui
+                    volunt sophistice agere dictarum disputationum genus quaerere; operae pretium
+                    enim est; nam huiusmodi potestas faciet videri sapientem, cuius sunt desiderium
+                    habentes.</p>
+                <p><milestone unit="page" n="p. 7 AL"/> Quoniam ergo est quid huiusmodi
+                    genus disputationum, et quoniam huiusmodi appetunt potestatem quos vocamus
+                    sophistas, manifestum est; quot sunt autem species disputationum sophisticarum,
+                    et ex quot numero potestas ea constat, et quot partes contingit esse negotii, et
+                    de aliis quae suffragantur ad hanc artem, nunc dicemus.</p>
+                <p>Sunt ergo disputationum genera quatuor, doctrinales dialecticae temptativae
+                    litigiosae; doctrinales quidem quae ex propriis principiis cuiusque disciplinae
+                    et non ex his quae respondenti videntur syllogizant (oportet enim credere eum
+                    qui discit), dialecticae autem quae ex probabilibus collectivae contradictionum,
+                    temptativae vero quae ex his quae videntur respondenti, et necessarium est scire
+                    ei qui simulat habere scientiam (quomodo autem, determinatum est in aliis),
+                    litigiosae vero quae ex his quae videntur probabilia, non sunt autem,
+                    syllogizant. Ergo de demonstrativis quidem in Analecticis dictum est, de
+                    dialecticis vero et temptativis in aliis, de agonisticis autem et litigiosis
+                    nunc dicemus.</p>
+                <p>Primum ergo sumendum quot coniectant qui in disputationibus decertant et
+                    corrixantur. Sunt autem quinque haec numero, redargutio falsum inopinabile
+                    soloecismus et quintum facere nugari eum qui contraagit (hoc autem est
+                    frequenter cogere idem dicere); aut quod non sit, sed quod videatur esse
+                    singulum horum. Nam maxime volunt videri redarguentes, secundum <milestone
+                        unit="page" n="p. 8 AL"/> autem falsum aliquid monstrare, tertium ad
+                    hoc quod praeter opinionem est ducere, quartum vero soloecismo uti facere (hoc
+                    autem est facere secundum locutionem barbarizare ex oratione respondentem);
+                    ultimum autem frequenter idem dicere.</p>
+                <p>Modi autem sunt arguendi quidem duo; nam alii quidem sunt secundum dictionem,
+                    alii vero extra dictionem. Sunt autem ea quidem quae secundum dictionem faciunt
+                    fantasiam sex numero; sunt autem haec aequivocatio, amphibolia, compositio,
+                    divisio, accentus, figura dictionis. Huius autem fides et quae per inductionem
+                    est et syllogismus, si quis sumatur alius, et quoniam totidem modis si eisdem
+                    nominibus et orationibus non idem significamus. Sunt autem secundum
+                    aequivocationem huiusmodi orationes, ut quoniam discunt scientes; nam secundum
+                    os discunt grammatici. Discere enim aequivocum, et intelligere eum qui utitur
+                    disciplina, et accipere disciplinam. Et rursum quoniam mala bona; nam quae
+                    expediunt bona, mala autem expediunt. Duplex enim expediens; et necessarium,
+                    quod accidit plerumque etiam in malis (est enim malum quid necessarium), et bona
+                    quoque expedientia dicimus esse. Amplius eundem sedere et stare, et laborare et
+                    sanum esse. Nam qui surgebat stat, et qui sanabatur sanus est. Surgebat autem
+                    sedens et sanabatur laborans. Nam laborantem quidlibet facere aut pati non unum
+                    significat, sed quandoque quidem quoniam qui nunc laborat aut sedet, quandoque
+                    autem qui laborabat prius. Verum sanabatur quidem et laborans et non laborans;
+                    sanus est autem non laborans, <milestone unit="page" n="p. 9 AL"/> sed
+                    laborans non nunc, sed prius. Secundum amphiboliam autem tales: velle accipere
+                    me pugnantes, et 'putas quod quis scit hoc scit?' Nam et scientem et scitum
+                    contingit ut scientem significari hac oratione. Et 'putas quod videt quis, hoc
+                    videt? Videt autem columnam, quare videt columna'. Et 'putas quod tu dicis esse,
+                    hoc tu dicis esse? Dicis autem lapidem esse; tu ergo dicis lapis esse'. Et
+                    'putas est tacentem dicere?' Duplex enim est tacentem dicere, et hunc dicentem
+                    tacere et quae dicuntur. Sunt autem tres modi secundum aequivocationem et
+                    amphiboliam: unus quidem quando vel oratio vel nomen principaliter significat
+                    plura, ut piscis et canis; alius autem quando soliti sumus sic dicere; tertius
+                    vero quando compositum plura significat, separatum vero simpliciter, ut 'scit
+                    saeculum'; nam utrumque, si contingit, unum quid significat, et scire et
+                    saeculum; ambo autem plura, aut saeculum ipsum scientiam habere aut saeculi
+                    alium.</p>
+                <p>Ergo amphibolia et aequivocatio circa hos modos sunt, secundum compositionem
+                    autem huiusmodi, ut posse sedentem ambulare et non scribentem scribere. Non enim
+                    idem significat si dividens quis dicat et componens, quoniam possibile 'sedentem
+                    ambulare' et 'non scribentem scribere'. Et hoc similiter si quis componat 'non
+                    scribentem scribere'; significat enim quoniam habet potestatem ut non scribens
+                    scribat, si autem non componat, quoniam habet potestatem, quando non scribit, ut
+                    scribat. Et 'discere nunc litteras, si quidem didicit quas scit'. Amplius quod
+                    unum solum potest ferre plura posse ferre.</p>
+                <p><milestone unit="page" n="p. 10 AL"/> Secundum divisionem vero, quoniam
+                    quinque sunt et duo et tria, et paria et imparia, et maius aequale; tantundem
+                    enim maius et adhuc amplius. Nam eadem oratio divisa et composita non idem
+                    semper significare videbitur, ut 'ego te posui servum entem liberum, et
+                    'quinquaginta virorum centum reliquit divus Achilles'.</p>
+                <p>Secundum accentum autem, in his quidem quae sunt sine scriptura dialecticis non
+                    idoneum facere orationem, in scriptis autem et poematibus magis, ut 'me tuo
+                    longas pereunte noctes' et, heu quia nam tanti cinxerunt aethera nimbi'. Ergo
+                    circa accentum quidem huiusmodi sunt.</p>
+                <p>Quae autem sunt secundum figuram dictionis accidunt quando non idem similiter
+                    interpretatur, ut masculinum femininum vel femininum masculinum, vel quod inter
+                    haec est alterum horum, vel rursum quale quantum vel quantum quale, vel faciens
+                    patiens vel dispositum facere, et alia ut determinatum est prius. Est enim quod
+                    non est eorum quae sunt facere velut eorum quae sunt facere quid dictione
+                    significare. Vt vigere similiter figura dictionis dicitur ei quod est secare vel
+                    aedificare; quamvis hoc quidem quale quid et affectum quodammodo indicat, illud
+                    vero facere quid. Eodem autem modo et in aliis.</p>
+                <p>Ergo secundum dictionem redargutiones ex his locis sunt, eorum vero qui extra
+                    dictionem sunt paralogismorum species <milestone unit="page"
+                        n="p. 11 AL"/> sunt septem: una quidem secundum accidens, secunda
+                    autem in eo quod simpliciter vel non simpliciter sed quo aut ubi aut quando aut
+                    ad aliquid dicitur, tertia autem secundum elenchi ignorantiam, quarta vero
+                    secundum consequens, quinta autem secundum quod in principio est sumere, sexta
+                    quod non causa est ut causam ponere, septima vero plures interrogationes unam
+                    facere.</p>
+                <p>Ergo secundum accidens quidem paralogismi sunt quando similiter quidlibet
+                    assignatum fuerit rei subiectae et accidenti inesse. Nam quoniam eidem multa
+                    accidunt, non necesse est omnibus praedicatis, et de quo praedicantur, haec
+                    omnia inesse. Nam omnia sic erunt eadem, ut si Coriscus alterum est ab homine,
+                    ipse a se alter; est enim homo. Aut si a Socrate alter, Socrates autem homo,
+                    alterum ab homine aiunt concessum esse, eo quod accidit, a quo dixit alterum
+                    esse, hunc esse hominem.</p>
+                <p>Secundum autem quod simpliciter hoc aut quo dicitur et non proprie, quando quod
+                    particulariter dicitur ut simpliciter dictum sumitur, ut si quod non est
+                    opinabile est, quoniam quod non est est; non enim idem esse quid et esse
+                    simpliciter. Aut rursum, quoniam quod est non est, si eorum quae sunt quid non
+                    est, ut si non homo. Non enim idem non esse quid et simpliciter non esse;
+                    videtur autem eo quod proxima sint dictione et parum differant esse quid et
+                    esse, et non esse quid et non esse. Similiter autem et quod secundum quid et
+                    simpliciter. Vt si Indus, cum sit niger, albus est dentibus; albus ergo et non
+                    albus est. Aut si ambo quo, quoniam simul contraria inerunt. Huiusmodi autem
+                        <milestone unit="page" n="p. 12 AL"/> in quibusdam quidem omni
+                    considerare facile, ut si sumens Aethiopem esse nigrum, dentibus dicat quoniam
+                    albus; si ergo ibi albus, quoniam niger et non niger putabitur disputasse
+                    syllogistice cum perfecerit interrogationem. In quibusdam vero latet frequenter,
+                    in quibus, quando quo dicitur, et simpliciter videtur sequi, et in quibus non
+                    facile est considerare utrum eorum proprie sit assignandum. Fit autem huiusmodi
+                    in quibus similiter sunt opposita; videtur enim aut ambo aut neutrum esse
+                    concedendum simpliciter praedicare, ut si dimidium quidem album, dimidium vero
+                    nigrum, utrum album vel nigrum.</p>
+                <p>Qui autem secundum quod non determinatur quid est syllogismus aut quid elenchus,
+                    secundum diminutionem fiunt rationis; nam elenchus est contradictio eiusdem et
+                    unius, non nominis sed rei, et nominis non sinonimi sed eiusdem, ex his quae
+                    data sunt ex necessitate, non connumerato quod erat in principio, secundum idem
+                    et ad idem et similiter et in eodem tempore. Eodem autem modo et mentiri de
+                    aliquo. Quidam autem omittentes aliquid ex his quae dicta sunt videntur arguere,
+                    ut quoniam idem duplum et non duplum; nam duo unius quidem duplum, trium autem
+                    non duplum. Aut si idem eiusdem duplum et non duplum, sed non secundum idem; nam
+                    secundum longitudinem duplum, secundum latitudinem vero non duplum. Aut si
+                    eiusdem et secundum idem et similiter, sed non simul; quare est apparens
+                    elenchus. Trahet autem aliquis hunc et in eos qui secundum dictionem sunt.</p>
+                <p>Qui autem in eo quod id quod in principio erat sumitur fiunt quidem sic et
+                    totidem modis quotiens contingit quod ex principio <milestone unit="page"
+                        n="p. 13 AL"/> est petere, videntur autem arguere eo quod non
+                    possint inspicere idem et diversum.</p>
+                <p>Qui vero secundum consequens est elenchus eo quod putent converti consequentiam.
+                    Nam si cum hoc est ex necessitate illud sit, et cum illud est putant et alterum
+                    esse ex necessitate. Vnde et quae circa opinionem sunt ex sensu fallaciae fiunt.
+                    Saepe enim fel mel suspicati sunt eo quod sequitur rubeus color mel; et quoniam
+                    accidit terram pluvia fieri madidam, et si sit madida opinamur pluisse. Hoc
+                    autem non necessarium. Et in rethoricis quae secundum signum sunt
+                    demonstrationes ex adiunctis sunt. Volentes enim ostendere quoniam adulter, quod
+                    adiunctum est accipiunt, quoniam compositus aut quoniam in nocte videtur
+                    errabundus. Pluribus autem haec quidem insunt, praedicatum vero non inest.
+                    Similiter autem et in syllogisticis, ut Melissi ratio quoniam infinitum est
+                    universum, sumens universum quidem ingenitum (nam ex nichilo nichil fieri), quod
+                    autem factum est ex principio fieri. Si ergo non factum est, principium non
+                    habet universum, quare infinitum. Non necesse est autem hoc accidere; non enim
+                    si omne quod factum est principium habet, et quicquid principium habet factum
+                    est, velut non si febris est calor, et calidum necesse est febrire.</p>
+                <p>Qui vero secundum non causam ut causam, cum assumitur quod non causa est velut
+                    propter illud fiat redargutio. Accidit autem huiusmodi in ad impossibile
+                    syllogismis; nam in his necessarium interimere aliquid ex his quae posita sunt.
+                    Si ergo enumeretur in necessariis interrogationibus ad quod accidit impossibile,
+                    videbitur propter hoc fieri saepe redargutio, ut quoniam non est anima et vita
+                    idem; nam si corruptioni generatio <milestone unit="page" n="p. 14 AL"
+                    /> contrarium, et alicui corruptioni erit quaedam generatio contrarium; mors
+                    autem corruptio quaedam et contrarium vitae, quare vita generatio et vivere
+                    generari; hoc autem impossibile; non ergo idem anima et vita. Non autem
+                    syllogizatum est; accidit enim, et si non aliquis idem dicat vitam et animam,
+                    impossibile, sed solum contrarium vitam quidem morti cum sit corruptio,
+                    corruptioni autem generationem. Ergo insyllogizatae quidem simpliciter non sunt
+                    huiusmodi orationes, ad propositum autem insyllogizatae. Et latet plerumque non
+                    minus ipsos interrogantes huiusmodi.</p>
+                <p>Ergo propter consequens et propter non causam argumentationes huiusmodi sunt; qui
+                    autem in eo quod duas interrogationes unam faciunt, quando latet plures esse et
+                    quasi unius assignatur responsio una. In aliquibus ergo facile videre quoniam
+                    plures et quoniam non reddenda responsio, ut utrum terra mare est aut caelum? In
+                    aliquibus vero minus, et quasi una sit aut concedunt in eo quod non respondeat
+                    interrogatum, aut redargui videntur, ut putas hic et hic est homo? Quare cum
+                    aliquis percusserit hunc et hunc, hominem sed non homines percutiet. Aut rursum,
+                    quorum haec quidem sunt bona illa autem non bona, omnia bona aut non bona? Vtrum
+                    enim dixerit, est quidem cum elenchum aut falsum apparens videbitur facere; nam
+                    dicere eorum quae non bona sunt aliquid esse bonum aut eorum quae bona sunt non
+                    bonum falsum. Quandoque autem assumptis quibusdam etiam elenchus fiet verus, ut
+                    si quis concedat similiter unum et plura dici alba et nuda et caeca. Nam si
+                    caecum <milestone unit="page" n="p. 15 AL"/> est quod non habet visum,
+                    natum autem habere, et caeca erunt quae non habent visum, nata autem habere.
+                    Quando ergo hoc quidem habet visum, illud autem non habet, ambo erunt vel
+                    videntia vel caeca; quod est impossibile.</p>
+                <p>Aut ergo sic dividendum apparentes syllogismos et elenchos, aut omnes reducendum
+                    in elenchi ignorantiam his qui hanc principium faciunt; est enim omnes resolvere
+                    dictos modos in elenchi diffinitionem. Primum quidem si immodificati; oportet
+                    enim ex his quae posita sunt accidere conclusionem, ut dicatur ex necessitate
+                    sed non videatur. Deinde et secundum partes diffinitionis. Nam eorum qui sunt in
+                    dictione hi quidem sunt secundum duplex, ut aequivocatio et oratio et similis
+                    figuratio (consuetum enim omnia ut hoc aliquid significare), compositio autem et
+                    divisio et accentus in eo quod non eadem est oratio vel nomen differens.
+                    Oportebat autem et hoc, quemadmodum et rem eandem, si debeat elenchus vel
+                    syllogismus fieri, ut si tunica, non vestis syllogizetur sed tunica. Nam verum
+                    et illud, sed non syllogizatum est, sed adhuc interrogatione indiget, quoniam
+                    idem significat ad eum qui interrogat quare.</p>
+                <p>Qui vero secundum accidens diffinito syllogismo manifesti fiunt. Nam eandem
+                    diffinitionem oportet et elenchi fieri, verum adiacere contradictionem; nam
+                    elenchus syllogismus contradictionis. Si ergo non est syllogismus accidentis,
+                    non fit elenchus. Non enim si cum haec sint necesse est hoc esse, hoc autem est
+                    album, necesse est album esse per syllogismum. Neque si triangulus duobus rectis
+                    aequales habet, accidit autem ei figuram esse vel primum vel principium, quoniam
+                    figura vel principium vel <milestone unit="page" n="p. 16 AL"/> primum
+                    hoc. Non enim in eo quod figura vel primum, sed in eo quod triangulus
+                    demonstratio. Similiter autem et in aliis. Quare si elenchus syllogismus quis,
+                    non erit qui secundum accidens fit elenchus. Sed secundum hoc et artifices et
+                    omnino scientes ab insciis arguuntur. Secundum accidens enim faciunt syllogismos
+                    contra sapientes. Qui vero non possunt dividere, aut interrogati concedunt, aut,
+                    cum non dent, putantur dedisse.</p>
+                <p>Qui autem secundum quid et simpliciter, quoniam non de eodem affirmatio et
+                    negatio. Nam secundum quid albi secundum quid non album, simpliciter autem albi
+                    simpliciter non album negatio. Si ergo dato secundum quid esse album ut
+                    simpliciter dictum accipit, non facit elenchum, videtur autem eo quod ignoretur
+                    quid est elenchus.</p>
+                <p>Manifestissimi autem omnium qui prius dicti sunt secundum elenchi diffinitionem;
+                    quare et nuncupati sunt sic; nam secundum rationis omissionem fantasia fit, et
+                    dividentibus sic communis in omnibus his ponenda est rationis diminutio.</p>
+                <p>Qui vero in eo quod sumitur hoc quod erat in principio et non causa ut causa
+                    ponitur, manifesti per diffinitionem. Oportet enim conclusionem eo quod haec
+                    sunt accidere, quod non erat in non causis; et rursum non enumerato eo quod ex
+                    principio, quod non habent qui sunt secundum petitionem eius quod in
+                    principio.</p>
+                <p>Qui vero secundum consequens partes sunt accidentis; nam consequens accidit,
+                    differt autem ab accidente, quoniam accidens quidem est in uno solo sumere, ut
+                    idem esse rubeum et mel et album et cignum; quod autem secundum consequens
+                    semper in pluribus; nam quae uni et eidem eadem, et sibi invicem <milestone
+                        unit="page" n="p. 17 AL"/> probamus esse eadem; propter quod fit
+                    secundum consequens elenchus. Est autem non omnino verum, ut si sit secundum
+                    accidens; nam nix et cignus albo idem. Aut rursum ut in Melissi ratione, idem
+                    esse accipit factum esse et principium habere, aut aequalia fieri et eandem
+                    magnitudinem accipere. Quoniam enim quod factum est habet principium, et quod
+                    habet principium factum esse probat, tamquam ambo eadem sint in eo quod
+                    principium habent, factum esse et terminatum. Similiter autem et in his quae
+                    aequalia facta sunt, si eandem magnitudinem et unam sumentia aequalia fiunt, et
+                    quae aequalia facta sunt unam magnitudinem accipiunt. Quare consequens sumit.
+                    Quoniam ergo secundum accidens elenchus in ignorantia elenchi est, manifestum
+                    quoniam et qui secundum consequens. Perspiciendum autem hoc et aliter.</p>
+                <p>Qui vero in eo quod plures interrogationes unam faciunt in eo quod non enodamus
+                    propositionis diffinitionem. Nam propositio unum de uno est. Nam eadem
+                    diffinitio unius solius et simpliciter rei, ut hominis et unius tantum hominis;
+                    similiter autem et in aliis. Si ergo una tantum propositio est quae unum de uno
+                    assignat, et simpliciter erit propositio huiusmodi interrogatio. Quoniam autem
+                    syllogismus ex propositionibus est, elenchus autem syllogismus, et elenchus erit
+                    ex propositionibus. Si igitur propositio unum de uno, manifestum quoniam et hic
+                    in elenchi ignorantia; videtur enim esse propositio quae non est propositio. Si
+                    ergo dedit responsionem ut ad unam interrogationem, erit elenchus, si autem non
+                    dedit sed videtur, apparens elenchus. Quare omnes loci cadunt in elenchi
+                    ignorantiam; ergo qui sunt secundum dictionem, quoniam apparens contradictio,
+                        <milestone unit="page" n="p. 18 AL"/> quod erat proprium elenchi,
+                    alii autem secundum syllogismi diffinitionem.</p>
+                <p>Fallacia autem fit in his quidem quae sunt secundum aequivocationem et orationem
+                    cum non potest dividi quod multipliciter dicitur (quaedam enim non est idoneum
+                    dividere, ut unum et ens et idem), in his autem quae sunt secundum compositionem
+                    et divisionem eo quod nichil putatur differre composita et divisa oratio, velut
+                    in plurimis. Similiter autem et in his quae sunt secundum accentum; non enim
+                    aliud videtur significare remissa et intensa oratio, in nullo aut non in
+                    pluribus. Eorum vero quae sunt secundum figuram propter similitudinem dictionis.
+                    Difficile enim dividere quae similiter et quae diverse dicuntur (paene enim qui
+                    hoc potest facere prope est videre verum, maxime autem sciet annuere), quoniam
+                    omne quod de aliquo praedicatur opinamur hoc aliquid et ut unum intelligimus;
+                    nam unum et substantiam maxime videtur sequi hoc aliquid et ens. Quare in his
+                    quae sunt secundum dictionem hic locus ponendus, primum quidem quoniam magis
+                    fallacia fit his qui cum aliis considerant quam qui per se (nam quae cum alio
+                    est consideratio per orationes, quae autem per se non minus per ipsam rem),
+                    deinde et per se falli accidit, cum in oratione facit considerationem; amplius
+                    fallacia quidem ex similitudine, similitudo autem ex dictione. In his autem quae
+                    sunt secundum accidens eo quod non potest diiudicare idem et diversum et unum et
+                    multa, neque qualibus praedicationibus omnia haec et rei acciderunt. Similiter
+                    autem et in his quae sunt secundum consequens; pars enim quaedam accidentis est
+                    consequens. Amplius autem et in <milestone unit="page" n="p. 19 AL"
+                    /> pluribus videtur et probatur sic, si hoc ab illo non separatur, neque ab
+                    altero separari alterum. In his vero quae sunt secundum diminutionem rationis et
+                    in his quae secundum quid et simpliciter in eo quod paene fallacia est; nam
+                    quasi nichil consignificat quid aut quo aut quomodo aut nunc universaliter
+                    concedimus. Similiter autem et in his quae quod in principio sumunt et in non
+                    causis, et quaecumque plures interrogationes ut unam faciunt; in omnibus enim
+                    est fallacia in eo quod paene; non enim subtiliter discernimus neque
+                    propositionis neque syllogismi diffinitionem propter praedictam causam.</p>
+                <p>Quoniam autem habemus secundum quot fiunt apparentes syllogismi, habemus et
+                    secundum quot sophistici fiunt syllogismi et elenchi. Dico autem sophisticum
+                    elenchum et syllogismum non solum eum qui videtur syllogismus vel elenchus, non
+                    est autem, sed et qui est quidem, videtur autem non conveniens rei. Sunt autem
+                    hi qui non secundum rem arguunt et monstrant ignorantes, quod erat temptativae,
+                    est autem temptativa pars dialecticae; haec autem potest syllogizare falsum
+                    propter ignorantiam eius qui dat orationem. Sophistici autem elenchi, et si
+                    syllogizent contradictionem, non faciunt manifestum si ignorat; nam et scientem
+                    impediunt his orationibus.</p>
+                <p>Quoniam autem habemus eos eadem via, manifestum; nam secundum quae videtur
+                    audientibus velut interrogata syllogizare, secundum haec et respondenti
+                    videbitur, quare erunt syllogismi falsi per haec aut omnia aut quaedam; quod
+                    enim non interrogatus arbitratur dandum, et interrogatus ponet. Verum in
+                    quibusdam simul accidit et interrogare quod deest et falsum <milestone
+                        unit="page" n="p. 20 AL"/> apparere, ut in his qui sunt secundum
+                    dictionem et soloecismum. Si ergo paralogismi contradictionis secundum
+                    apparentem elenchum sunt, manifestum quoniam propter tot erunt et falsorum
+                    syllogismi secundum quot et apparens elenchus. Apparens autem secundum
+                    particulas veri, nam cum singulum deerit videbitur elenchus, ut secundum
+                    accidere propter orationem qui ad impossibile, et qui duas interrogationes unam
+                    facit secundum propositionem, et pro secundum idem qui secundum accidens, et
+                    huius pars qui secundum consequens; amplius non in re sed in oratione accidere;
+                    deinde pro universali contradictionem et secundum idem et ad idem et similiter
+                    secundum quod in aliquo vel secundum singulum horum; amplius secundum non
+                    connumerato quod in principio quod erat in principio accipere. Quare habebimus
+                    secundum quot fiunt paralogismi; nam secundum plura non erunt, secundum autem
+                    quae dicta sunt erunt omnes.</p>
+                <p>Est autem sophisticus elenchus non simpliciter elenchus, sed ad aliquem; et
+                    syllogismus similiter. Nam si non sumat et qui secundum aequivocum est unum
+                    significare et qui secundum similem formam solum hoc et alii similiter, neque
+                    elenchi neque syllogismi erunt, neque simpliciter neque ad eum qui interrogatur;
+                    si autem sumant, ad eum quidem qui interrogatur erunt, simpliciter autem non
+                    erunt; non enim unum significatum sumpserunt sed apparens, et secundum
+                    reliqua.</p>
+                <p>Secundum quae autem arguunt qui elenchis utuntur, non oportet temptare sumere
+                    sine omnium quae sunt scientia. Hoc <milestone unit="page" n="p. 21 AL"
+                    /> autem non unius est artis; infinitae enim sunt fortasse scientiae, quare
+                    manifestum quoniam et demonstrationes. Elenchi autem sunt et veri, nam
+                    quaecumque est demonstrare, erit et redarguere eum qui ponet contradictionem
+                    veri, ut si commensurabilem diametrum posuit, arguet quis demonstratione quoniam
+                    incommensurabilis. Quare omnium oportebit scientes esse; nam alii quidem erunt
+                    secundum ea quae in geometria sunt principia et horum conclusiones, alii autem
+                    secundum ea quae in medicina, alii vero secundum ea quae sunt aliarum
+                    disciplinarum. Sed et falsi elenchi similiter in infinitis erunt; nam secundum
+                    unamquamque artem est falsus syllogismus, ut secundum geometriam geometricus et
+                    secundum medicinam medicinalis. Dico autem secundum artem secundum illius
+                    principia. Manifestum ergo quoniam non omnium elenchorum sed eorum qui sunt
+                    secundum dialecticam sumendi sunt loci; nam hi communes ad omnem artem et
+                    potentiam. Et eum quidem qui est secundum quamque disciplinam elenchum scientis
+                    est considerare, sive cum non sit videtur, sive est, quare est; eum autem qui ex
+                    communibus est et sub nullam artem dialecticorum. Nam si habemus ex quibus
+                    probabiles syllogismi in quolibet, habebimus ex quibus elenchi; nam elenchus est
+                    contradictionis syllogismus, quare aut unus aut duo syllogismi contradictionis
+                    elenchus est. Habemus ergo secundum quae omnes huiusmodi sunt. Si autem hoc
+                    habemus, et solutiones habemus; nam horum instantiae solutiones sunt. Habemus
+                    autem secundum quae fiunt, et apparentes, apparentes autem non cuilibet sed
+                    talibus; infinita enim sunt si quis consideret <milestone unit="page"
+                        n="p. 22 AL"/> secundum quae appareant quibuslibet. Quare manifestum
+                    quoniam dialectici est posse sumere secundum quae fit per communia vel qui est
+                    elenchus vel apparens elenchus, et vel dialecticus vel apparens dialecticus vel
+                    temptativus.</p>
+                <p>Non est autem differentia orationum quam dicunt quidam, esse has quidem ad nomen,
+                    illas autem ad intellectum; inconveniens enim est opinari alias quidem esse ad
+                    nomen orationes, alias autem ad intellectum, sed non easdem. Quid enim est non
+                    ad intellectum nisi quando non utitur nomine qui putatur interrogare ad quod is
+                    qui interrogatus est dedit? Idem autem hoc est et ad nomen. Ad intellectum
+                    autem, quando ad quod dedit intelligens. Si autem aliquis plura significante
+                    nomine unum putet significare et interrogans et interrogatus, ut forte ens et
+                    unum plura significat, sed et respondens et interrogans Zeno unum putans esse
+                    interrogat, et est oratio quoniam unum omnia, haec ad nomen est aut ad
+                    intellectum interrogati disputata. Si vero aliquis multa putet significare,
+                    palam quoniam non ad intellectum. Primum ergo circa huiusmodi orationes est ad
+                    nomen et ad intellectum quaecumque plura significant, deinde circa quemlibet
+                    est; non enim in oratione est ad intellectum esse, sed in eo quod respondens se
+                    habet aliquo modo ad ea quae dantur. Deinde ad nomen omnes contingit eas esse.
+                    Nam ad nomen non ad intellectum esse est hoc loco. Nam si non omnes, erunt
+                    quaedam aliae neque ad nomen neque ad intellectum, hi vero dicunt omnes, et
+                    dividunt vel ad nomen vel ad intellectum esse omnes, alias autem non. At tamen
+                    quicumque syllogismi sunt in eo quod multipliciter, horum sunt aliqui qui
+                    secundum nomen. Nam inconvenienter dictum est secundum nomen dicere <milestone
+                        unit="page" n="p. 23 AL"/> esse omnes qui sunt secundum dictionem;
+                    sed sunt quidam paralogismi non in eo quod respondens ad eos se habeat aliquo
+                    modo, sed quod huiusmodi interrogationem oratio ipsa habeat, quae plura
+                    significet.</p>
+                <p>Et omnino inconveniens de elencho disputare, et non prius de syllogismo; nam
+                    elenchus syllogismus est, quare oportet et de syllogismo prius quam de falso
+                    elencho; est enim huiusmodi elenchus apparens syllogismus contradictionis. Quare
+                    aut in syllogismo erit causa aut in contradictione (adiacere enim oportet
+                    contradictionem), quandoque autem in utrisque erit apparens elenchus. Est autem
+                    de eo quidem quod est tacentem dicere in contradictione, non in syllogismo, de
+                    eo autem quod est, quae non habet aliquis, dare in utrisque, de eo vero quod est
+                    quoniam Homeri poema figura est per circulum in syllogismo. Qui autem in neutro
+                    verus syllogismus.</p>
+                <p>Sed unde sermo venit, prius quae in disciplinis sunt orationes ad intellectum
+                    sunt vel non. Et si cui videtur plura significare triangulus, et dedit non ut
+                    hanc figuram de qua concludebat quoniam duo recti, utrum ad intellectum hic
+                    disputavit illius vel non?</p>
+                <p>Amplius si plura quidem significat nomen, ille autem non intelligit neque putat,
+                    quomodo hic non ad intellectum disputavit? Aut quomodo oportet interrogare nisi
+                    dantem divisionem, sive interroget aliquis si est tacentem dicere vel non, aut
+                    est quidem ut non, est autem ut sic? Si autem aliquis det nullo modo, ille autem
+                    disputet, ergo non ad intellectum disputat, quamvis oratio videatur earum quae
+                    secundum nomen sunt <milestone unit="page" n="p. 24 AL"/> esse? Non est
+                    ergo genus aliquod orationum ad intellectum. Sed hae quidem ad nomen sunt et
+                    huiusmodi non omnes, non quoniam elenchi, sed neque apparentes elenchi. Sunt
+                    enim et non secundum dictionem apparentes elenchi, ut qui secundum accidens et
+                    reliqui.</p>
+                <p>Si autem aliquis probet dividere, quoniam dico autem tacentem dicere haec quidem
+                    sic illa autem sic; tamen hoc est primum quidem inconveniens probare (quandoque
+                    enim non videtur interrogatum multipliciter habere, impossibile autem dividere
+                    quod non putat); deinde docere quid aliud erit? Manifestum enim faciet ut habet
+                    ei qui neque considerat neque scit neque opinatur quoniam aliter dicitur. Deinde
+                    et in non duplicibus quid prohibet hoc pati vel facere? Vt putas aequales sunt
+                    unitates binariis in quaternariis? Sunt autem binarii hi quidem sic uniti illi
+                    autem sic. Et putas contrariorum una disciplina vel non? Sunt autem contraria
+                    haec quidem nota illa vero ignota. Quare videtur ignorare qui hoc probat quoniam
+                    aliud est docere quam disputare, et quoniam oportet docentem quidem non
+                    interrogare sed eum manifesta facere, ilium autem interrogare.</p>
+                <p>Amplius ut dicant vel negent probare non monstrantis est, sed experimentum
+                    sumentis. Nam temptativa est dialectica quaedam, quapropter de omnibus inspicit
+                    et considerat non scientem sed ignorantem et assimulantem. Qui ergo secundum rem
+                    considerat communia dialecticus, qui autem hoc apparenter facit sophista. Et
+                    syllogismus litigiosus et sophisticus <milestone unit="page"
+                        n="p. 25 AL"/> est unus quidem apparens syllogisticus, de quibus
+                    dialectica temptativa est, et si vera sit conclusio; nam eius qui propter quid
+                    deceptorius est; et quicumque, cum non sint, secundum singulorum viam
+                    paralogismi videntur esse secundum artem. Nam falsae descriptiones non
+                    litigiosae (nam secundum ea quae sub arte sunt paralogismi), neque si qua est
+                    falsa descriptio circa verum, ut Ypocratis aut quadratura per lunulas. Sed ut
+                    Brisso quadravit circulum, nam et si quadratur circulus, tamen quia non secundum
+                    rem, ideo sophisticus. Quare et qui de his est apparens syllogismus litigiosa
+                    oratio, et qui secundum rem est apparens syllogismus, et si sit syllogismus,
+                    litigiosa oratio; nam apparens est secundum rem, quare fallax et iniustus.
+                    Quemadmodum enim quae in certamine est iniuria speciem quandam habet et est
+                    quaedam iniusta certatio, sic in contradictione iniusta contentio est litigiosa.
+                    Nam et illic qui omnino vincere volunt omnia apprehendunt et hic litigiosi. Ergo
+                    qui ob victoriam ipsam tales sunt litigiosi homines et rixae amici videntur
+                    esse, qui autem propter gloriam quae in divitias sophistici. Nam sophistica est,
+                    ut diximus, ditativa quaedam ab apparente sapientia, propter quod apparentem
+                    demonstrationem appetunt. Et in orationibus eisdem quidem sunt litium amatores
+                    et sophistae, sed non propter eadem. Et oratio eadem quidem erit sophistica et
+                    litigiosa, sed non secundum idem, sed in eo quidem quod propter victoriam
+                    apparentem, litigiosa, in eo vero quod propter sapientiam, sophistica; nam
+                    sophistica est <milestone unit="page" n="p. 26 AL"/> apparens quaedam
+                    sapientia, non autem existens. Litigiosus autem est qui quodammodo sic se habet
+                    ad dialecticum ut falsigraphus ad geometricum; nam ex eisdem dialecticae
+                    paralogizat velut et falsigraphus geometriae; sed hic quidem non litigiosus,
+                    quoniam ex principiis et conclusionibus quae sunt sub arte falso describit; qui
+                    autem ex his est quae sunt sub dialectica circa alia quidem quoniam litigiosus
+                    erit manifestum. Vt quadratura quae est quidem per lunulas non litigiosa,
+                    Brissonis autem litigiosa; et hunc quidem non est transferre nisi ad geometriam
+                    tantum, eo quod ex propriis sit principiis, ilium autem ad plures, quicumque non
+                    sciunt quid possibile est in unoquoque et quid impossibile; aptabitur enim. Vel
+                    ut Antipho quadravit. Vel si quis non dicat melius esse post cenam deambulare
+                    per Zenonis rationem, non medicinalis; communis enim. Si ergo omnino similiter
+                    se haberet litigiosus ad dialecticum ut falsigraphus ad geometrem, non esset de
+                    illis litigiosus. Nunc autem non est dialecticus circa genus aliquod
+                    determinatum, neque ostensivus ullius, neque talis qualis universalis. Neque
+                    enim sunt omnia in uno aliquo genere, neque si essent, possibile sub eisdem
+                    principiis esse ea quae sunt. Quare nulla ars monstrativa alicuius naturae
+                    interrogativa est; non enim possibile utramlibet partium dare; nam syllogismus
+                    non fit ex utrisque. Dialectica autem interrogativa est. Si autem ostendit, et
+                    si non omnia, sed prima et propria, principia non interrogavit. Nam si non daret
+                    non iam haberet ex quibus amplius disputaret ad instantiam. Talis autem et
+                    temptativa. Neque enim temptativa talis est qualis geometria, <milestone
+                        unit="page" n="p. 27 AL"/> sed quam habeat et non sciens aliquis.
+                    Est enim experimentum sumere et non scientis eum qui nescit rem, si quidem dat
+                    non ex quibus novit neque ex propriis, sed ex consequentibus, quaecumque talia
+                    sunt quae scientem quidem nichil prohibet non scire artem, non scientem autem
+                    necesse est ignorare. Quare manifestum quoniam nullius determinati temptativa
+                    disciplina est, eo quod de omnibus est. Nam omnes artes utuntur communibus
+                    quibusdam; quare omnes etiam idiotae quodam modo utuntur dialectica et
+                    temptativa; nam omnes usque ad quid conantur diiudicare pronunciantes. Haec
+                    autem sunt communia; nam ea nichil minus sciunt ipsi, quamvis videantur valde
+                    extra dicere. Arguunt ergo omnes; nam sine arte participant id de quo
+                    artificialiter dialectica est, et arte syllogistica temptativus dialecticus.
+                    Quoniam autem sunt multa quidem haec et de omnibus, non talia autem ut natura
+                    quaedam sit et genus, sed velut negationes, alia autem non talia sed propria,
+                    est ex his de omnibus experimentum sumere, et esse artem quandam, et non talem
+                    esse quales quae monstrant, eo quod litigiosus non est sic se habens omnino ut
+                    falsigraphus; non enim erit paralogisticus ex determinati cuiusdam generis
+                    principiis, sed circa omne genus erit litigiosus.</p>
+                <p>Loci ergo de sophisticis elenchis hi sunt; quoniam autem est dialectici
+                    considerare de his et posse ea facere, non difficile videre; nam quae circa
+                    propositiones est methodus omnem habet hanc speculationem.</p>
+                <p><milestone unit="page" n="p. 28 AL"/> Et de elenchis quidem apparentibus
+                    dictum est; falsum autem in aliquo ostendere et rationem ad inopinabile ducere
+                    (hoc enim fuit secundum sophisticae voluntatis) primum quidem ex eo quod
+                    interrogat quodammodo et per interrogationem accidit maxime. Nam ad nullum
+                    determinatum positum interrogare venativum est horum; nam vane dicentes peccant
+                    magic; vane autem dicunt quando nichil habent propositum. Et interrogare multa,
+                    quamvis determinatum sit ad quod disputat, et ea quae videntur dicere probare
+                    facit quandam idoneitatem ut ad inopinabile ducat vel falsum; et si interrogatus
+                    dicat aut neget horum aliquid, ducere ad quae argumentari idoneus est. Possunt
+                    autem nunc minus laedere per haec quam prius; exiguntur enim quid hoc ad id quod
+                    in principio. Elementum autem eveniendi aut falsum aliquod aut inopinabile
+                    nullam statim interrogare positionem, sed confiteri ob hoc se interrogare quod
+                    discere velit; locum enim argumentationis consideratio facit.</p>
+                <p>Ad mentientem autem ostendendum proprius modus sophisticus est, ducere ad talia
+                    ad quae habundet orationibus. Est autem et bene et non bene hoc facere,
+                    quemadmodum dictum est prius.</p>
+                <p>Rursum, ut quod extra opinionem est dicat, considerare ex quo genere est qui
+                    disputat, deinde interrogare quod pluribus hi dicunt inopinabile; est autem
+                    singulis aliquid tale. Elementum autem horum singulorum sumere positiones in
+                    propositionibus. Solutio vero horum competens fertur ostendere quoniam non
+                    propter orationem accidit improbabile; semper autem hoc vult qui contendit.</p>
+                <p><milestone unit="page" n="p. 29 AL"/> Amplius autem ex voluntatibus et
+                    manifestis opinionibus. Non enim eadem et volunt et dicunt, sed dicunt quidem
+                    decoratissimas orationes, volunt autem ea quae videntur prodesse, ut bene mori
+                    magis quam vivere voluptuose dicunt oportere, et egere iuste magis quam divitiis
+                    affluere prave, volunt autem contraria. Ergo eum qui dicit secundum voluntates
+                    ad manifestas opiniones ducendum, eum vero qui secundum has ad absconsas;
+                    utrimque enim necessarium extra opinionem dicere; aut enim ad manifestas aut ad
+                    obscuras opiniones dicunt contraria.</p>
+                <p>Plurimus autem locus est faciendi quae extra opinionem sunt dicere, sicut et
+                    Calicles in Gorgia scriptus est dicens, et veteres autem omnes arbitrati sunt
+                    accidere, in eo quod secundum naturam et secundum legem; contraria enim esse
+                    naturam et legem, et iustitiam secundum legem quidem esse bonum, secundum
+                    naturam autem non bonum. Oportere ergo ad eum quidem qui dicit secundum naturam
+                    secundum legem obviare, ad eum vero qui secundum legem in naturam ducere;
+                    utrimque enim dicere esse quod extra opinionem est. Erat autem eis secundum
+                    naturam quidem verum, secundum legem autem quod pluribus videtur. Quare
+                    manifestum quoniam et illi, quemadmodum et qui nunc, aut arguere aut quod extra
+                    opinionem esset dicere respondentem conabantur facere.</p>
+                <p>Quaedam autem interrogationes habent utrimque improbabilem esse responsionem, ut
+                    utrum sapientibus aut patri oporteat oboedire, et expedientia facere aut iusta,
+                    et iniuriam pati melius quam nocere. Oportet autem ducere ad ea quae pluribus et
+                        <milestone unit="page" n="p. 30 AL"/> sapientibus sunt contraria;
+                    nam si dicat aliquis ut qui circa rationes, ad ea quae pluribus, si autem ut
+                    plures, in ea quae his qui in ratione. Dicunt enim hi quidem ex necessitate
+                    beatum iustum esse, pluribus autem improbabile est regem non felicem esse. Erit
+                    autem ad ea quae sic sunt improbabilia ducere idem quod et in eam quae est
+                    secundum naturam et secundum legem contrarietatem ducere; nam lex opinio
+                    plurium, sapientes autem secundum naturam et secundum veritatem dicunt.</p>
+                <p>Et ea quidem quae sunt extra opinionem ex his oportet quaerere locis; de facere
+                    nugari, quid dicimus nugari, iam monstravimus. Omnes autem huiusmodi orationes
+                    hoc volunt facere; si nichil differat nomen vel orationem dicere, duplum autem
+                    et duplum dimidii idem, si ergo est duplum dimidii duplum, erit dimidii dimidii
+                    duplum. Et rursum si pro duplo duplum dimidii ponatur, ter erit dictum, dimidii
+                    dimidii dimidii duplum. Et putas est concupiscentia delectationis? Hoc autem est
+                    appetitus delectationis; est ergo concupiscentia appetitus delectationis
+                    delectationis.</p>
+                <p>Sunt autem omnes huiusmodi orationes et in ad aliquid, quaecumque non solum
+                    genera sed et ipsa ad aliquid dicuntur, et ad idem et unum assignantur. Vt
+                    appetitus alicuius appetitus et concupiscentia alicuius concupiscentia, et
+                    duplum alicuius duplum et duplum dimidii. Et quorumcumque substantia, cum non
+                    sint ad aliquid omnino, quorum sunt habitus aut passiones aut aliquid huiusmodi,
+                    in ratione eorum condesignatur praedicatorum de his. Vt habundans est numerus
+                    medium habens; <milestone unit="page" n="p. 31 AL"/> est autem numerus
+                    habundans; est ergo numerus numerus medium habens. Et si simum cavitas naris
+                    est, est autem naris sima, est igitur naris naris cava.</p>
+                <p>Videntur autem facere non facientes quandoque eo quod non adinterrogant si
+                    significat aliquid per se dictum duplum aut nichil, et si aliquid significat,
+                    utrum idem aut diversum, sed conclusionem dicunt statim. Et videtur eo quod
+                    nomen idem sit idem et significare.</p>
+                <p>Soloecismus autem quale quidem est dictum est prius. Est autem hoc et facere et
+                    non facientem videri et facientem non videri, quemadmodum Caecilianus dicit, si
+                    ficus secundae declinationis. Nam qui dicit ficus maturas soloecismum quidem
+                    facit secundum illum, non videtur autem pluribus; qui vero ficos videtur quidem
+                    sed non facit. Eodem modo si finis solum masculini generis secundum quosdam, nam
+                    qui dicit certam soloecismum facit secundum eos. Manifestum ergo quoniam et ars
+                    quaedam hoc potest facere, eo quod multae orationes non colligentes soloecismum
+                    videntur syllogizare, velut in elenchis.</p>
+                <p>Sunt autem omnes paene apparentes soloecismi secundum hoc, et quando casus neque
+                    masculinum neque femininum indicat sed neutrum. Nam 'hic' masculinum significat,
+                    'haec' autem femininum, 'hoc' vero vult quidem neutrum significare, saepe autem
+                    significat et illa utraque, ut 'quid hoc?' 'Calliope, lignum, Coriscus'. Ergo
+                    masculini et feminini differunt casus omnes, neutri autem alii quidem, alii
+                    autem non. Dato ergo saepe 'hoc', syllogizant quasi dictum sit 'hunc'; similiter
+                    autem et alium casum pro alio. Paralogismus autem fit eo quod commune sit 'hoc'
+                    plurium casuum; nam 'hoc' significat <milestone unit="page"
+                        n="p. 32 AL"/> quandoque quidem 'hic' quandoque autem 'hunc'.
+                    Oportet autem permutatim significare, cum 'est' quidem hic, cum 'esse' autem
+                    hunc, ut 'est Coriscus', 'esse Coriscum'. Et in femininis nominibus similiter;
+                    nam in omnibus similiter 'est' et 'esse' faciet differentiam. Et quodam modo
+                    similis est in his soloecismus elenchis qui dicuntur secundum quod non similia
+                    similiter. Nam quemadmodum illis in rebus, sic his in nominibus accidit
+                    soloecismum facere; nam homo et album et res et nomen est.</p>
+                <p>Manifestum ergo quoniam soloecismum temptandum ex dictis casibus syllogizare.</p>
+                <p>Species igitur sunt hae agonisticarum disputationum et partes specierum et modi
+                    qui dicti sunt. Differt autem non parum, si ordinentur quodammodo ea quae circa
+                    interrogationem sunt ut lateant, velut in dialecticis. Deinceps ergo his quae
+                    dicta sunt haec primum dicendum.</p>
+                <p>Est ergo ad arguendum unum quidem longitudo; difficile enim simul multa
+                    conspicere. Ad longitudinem vero praedictis elementis utendum. Vnum vero
+                    festinatio; nam tardiores minus praevident. Est autem ira et contentio;
+                    conturbati enim minus possunt conservari omnes. Elementa autem irae et
+                    manifestum eum facere qui velit iniuste agere et circa omne impudentem esse.
+                    Amplius permutatim interrogationes ponere, sive ad idem plures aliquis habeat
+                    orationes, sive et quoniam sic et quoniam non sic; simul enim accidit aut ad
+                    plura aut ad contraria facere observationem. Omnino autem omnia quae ad
+                    occultationem <milestone unit="page" n="p. 33 AL"/> dicta sunt prius
+                    utilia et ad agonisticas disputationes; nam occultatio est latendi causa, latere
+                    autem fallaciae.</p>
+                <p>Ad abnuentes autem quaecumque opinantur esse ad orationem, ex negatione
+                    interrogandum, velut contrarium velit, aut etiam ex aequo interrogationem
+                    facere; nam cum dubium est quid velit sumere minus graves fiunt. Et quando in
+                    partibus dederit aliquis singulare, inducenti universale saepe non
+                    interrogandum; sed ut concesso utendum; nam quandoque putant et ipsi dedisse et
+                    audientibus videntur propter inductionis memoriam, velut non interrogata stulte.
+                    Et in quibus non nomine significatur universale, sed similitudine utendum ad hoc
+                    quod expedit; latet enim similitudo plerumque. Et ad sumendum propositionem
+                    contrarium oportet admittentem inquirere. Vt si debeat sumere quoniam oportet
+                    patri omnia oboedire, utrum omnia oportet oboedire parentibus aut omnia
+                    inoboedire? Et saepe multa, utrum multa concedenda aut pauca? Magis enim, si
+                    necesse est, videbuntur esse multa; appositis enim iuxta se contrariis, et
+                    maiora et magna videntur et peiora et meliora hominibus.</p>
+                <p>Valde autem et saepe facit videri redargui maxime sophistica calumnia
+                    interrogantium, cum nichil syllogizantes non interrogationem faciunt hoc quod
+                    ultimum est, sed conclusive dicunt, velut syllogizantes, non ergo hoc et
+                    hoc.</p>
+                <p>Sophisticum autem et posito inopinato probare hoc quod videtur respondere,
+                    proposito eo quod videtur ex principio, et interrogationem talium sic facere,
+                    utrum tibi videtur? Necesse est enim, si sit interrogatio ex quibus syllogismus,
+                    aut elenchum aut inopinabile fieri, cum dat quidem elenchum, cum autem non dat
+                    neque videri fatetur inopinabile, cum autem non dat, videri autem fatetur
+                    elenchi simile.</p>
+                <p><milestone unit="page" n="p. 34 AL"/> Amplius quemadmodum in rethoricis,
+                    et in elenchicis similiter contrarietates considerandum aut ad ea quae ab eo
+                    sunt dicta, aut ad quos confitetur bene dicere vel facere; amplius ad eos qui
+                    videntur huiusmodi aut ad similes vel ad plures vel ad omnes. Et sicut
+                    respondentes saepe, cum redarguuntur, faciunt duplex, si debeat accidere
+                    redargui, et interrogantibus utendum quandoque hoc contra instantes, si sic
+                    quidem accidit sic autem non, quoniam sic sumpsit, ut Cleophon facit in
+                    Mandrabulo. Oportet etiam absistentes ab oratione reliqua argumenta incidere, et
+                    respondenti, si praesenserit, prius instare et praedicere. Conandum autem
+                    quandoque et ad alia ab eo quod dictum est, illud extra sumentibus, si non ad
+                    hoc quod positum est habeat aliquis argumentari; quod Licophron fecit proposito
+                    liram extollere. Ad eos autem qui exigunt ad quid conatur, quia videtur oportere
+                    assignare causam, dictis autem quibusdam observabilius quod universaliter
+                    accidit in elenchis, dicere contradictionem, quoniam quod dixit negare, aut quod
+                    negavit dicere, sed non quoniam contrariorum eadem disciplina. Non oportet autem
+                    conclusionem ut propositionem interrogare; quasdam autem nec interrogare, sed ut
+                    concessis uti.</p>
+                <p>Ex quibus ergo interrogationes, et quomodo interrogandum in agonisticis
+                    exercitationibus, dictum est.</p>
+                <p><milestone unit="page" n="p. 35 AL"/> De responsione autem, et quomodo
+                    oportet solvere et quid, et ad quam utilitatem huiusmodi orationes prosunt, post
+                    haec dicendum.</p>
+                <p>Vtiles ergo sunt ad philosophiam quidem propter duo. Primum quidem quoniam saepe
+                    quae secundum dictionem fiunt melius habere faciunt quotiens singulum dicitur,
+                    et quae similiter et quae aliter in rebus accidunt et in nominibus. Secundo
+                    autem ad eas quae per eundem sunt quaestiones; nam qui ab alio facile
+                    paralogizatur et hoc non sentit et ipse a se hoc patitur saepe. Tertium vero et
+                    reliquum adhuc ad gloriam, circa omnia exercitatum esse videri et in nullo
+                    inscie se habere; nam si is qui communicat orationibus spernit orationes, cum
+                    nichil habeat determinare de vitio earum, suspectionem dat quod videtur gravis
+                    esse non quia verum sed propter imperitiam.</p>
+                <p>Respondentibus autem quomodo obviandum ad huiusmodi orationes, manifestum, si
+                    quidem recte diximus prius ex quibus sunt paralogismi, et quae in inquirendo
+                    sunt superhabundantias sufficienter divisimus. Non est autem idem sumentem
+                    orationem videre et solvere vitium, et interroganti posse obviare velociter. Nam
+                    quod scimus, saepe transpositum ignoramus. Amplius autem, quemadmodum in
+                    disputationibus citius et tardius ex exercitatione fit magis, sic et in aliis se
+                    habet, quare, si manifestum quidem nobis sit, immeditati autem simus, fallimur
+                    temporibus frequenter. Accidit autem quandoque, sicut in descriptionibus; nam et
+                    illic solventes quandoque componere rursum non possumus; sic et in elenchis,
+                    scientes secundum quid orationem accidit connectere solvere orationem
+                    dubitamus.</p>
+                <p><milestone unit="page" n="p. 36 AL"/> Primum ergo sicuti syllogizare
+                    dicimus probabiliter quandoque magis quam vere eligere oportere; sic et
+                    solvendum quandoque magis probabiliter quam secundum verum. Omnino enim contra
+                    litigiosos obstandum non ut arguentes sed ut apparentes; non enim dicimus eos
+                    syllogizare, quare ut non videantur corrigendi sunt. Nam si est elenchus
+                    contradictio non aequivoca ex quibusdam, nil opus est dividere ad amphibola et
+                    aequivocationem; non enim facit syllogismum. Sed ob nil aliud condividendum nisi
+                    quia conclusio videtur elencho similis. Non ergo redargui sed videri cavendum,
+                    eo quod interrogare amphibola et quae sunt secundum aequivocationem, et
+                    quaecumque aliae huiusmodi obtusiones, et verum elenchum obnubilant et arguentem
+                    et non arguentem dubium faciunt. Nam quia licet in fine conclusi non quod
+                    affirmavit negare dicere, sed aequivoce, et si quam maxime contigit in idem
+                    ferat, dubium si redargutus est; dubium enim si vera dicit nunc. Si vero
+                    dividens interrogasset aequivocum aut amphibolum, non dubius esset elenchus, et
+                    quod requirunt nunc quidem minus prius autem magis litigiosi, vel 'sic' vel
+                    'non' respondere interrogatum, necesse. Nunc autem, quia non bene interrogant
+                    inquirentes, necesse est ut respondeat aliquid is qui interrogatur, corrigens
+                    vitium propositionis, quoniam diviso sufficienter vel 'sic' vel 'non' necesse
+                    est dicere respondentem.</p>
+                <p>Si autem aliquis putet eum qui secundum aequivocationem est elenchum esse, quodam
+                    modo non erit respondentem effugere redargutionem; nam in visibilibus
+                    necessarium quod dixit negare nomen, et quod negavit affirmare. Nam ut corrigunt
+                    quidam, nichil prodest. Non enim Coriscum aiunt esse musicum et non <milestone
+                        unit="page" n="p. 37 AL"/> musicum, sed hunc Coriscum musicum et
+                    hunc Coriscum non musicum. Nam eadem erit oratio Coriscum vel hunc Coriscum non
+                    musicum esse vel musicum; quod simul affirmant et negant. Sed fortasse non idem
+                    significat; nam nec illic nomen. Quare aliquo differt. Si autem huic quidem
+                    simpliciter dicere Coriscum assignet, illi autem addat aliquem aut hunc,
+                    inconveniens; nichil enim magis alteri; utrolibet enim nichil differet.</p>
+                <p>Non autem sed quia dubius quidem est qui non determinavit amphiboliam utrum
+                    redargutus est vel non, concessum est autem in disputationibus dividere,
+                    manifestum quoniam non determinantem dare interrogationem sed simpliciter
+                    peccatum est; quare et si non ipse, tamen disputatio redargutae similis est.
+                    Accidit autem saepe videntes amphiboliam pigrescere dividere eo quod frequenter
+                    talia proponantur, ne ad omnia videantur graves esse; deinde non putantibus
+                    propter hoc fieri orationem, saepe obviavit improbabile. Quare quoniam datum est
+                    dividere, non pigritandum, quemadmodum dictum est prius.</p>
+                <p>Si autem duas interrogationes non unam faceret quis, non propter aequivocationem
+                    et amphiboliam fieret paralogismus, sed vel elenchus vel non. Quid enim differt
+                    interrogare si Callias et Themistocles musici sunt quam si ambobus unum nomen
+                    esset existentibus diversis? Nam si plura significat uno, plura interrogavit. Si
+                    ergo non rectum ad duas interrogationes unam responsionem probare sumere
+                    simpliciter, manifestum quoniam nulli eorum quae aequivoca sunt convenit
+                    respondere simpliciter; <milestone unit="page" n="p. 38 AL"/> nec si de
+                    omnibus verum sit, ut volunt quidam. Nichil enim hoc differt quam si
+                    interrogasset, Coriscus et Callias utrum domi sint vel non domi, sive
+                    praesentibus utrisque sive non praesentibus; utrimque enim plures propositiones;
+                    non enim si verum est dicere, propter hoc una est interrogatio. Possibile enim
+                    et mille alia interrogata omnia vel sic vel non verum esse dicere; at tamen non
+                    respondendum una responsione; interimitur enim disputare. Hoc autem simile
+                    tamquam si idem nomen ponatur diversis. Si ergo non oportet ad duas
+                    interrogationes unam responsionem dare, manifestum quoniam nec in aequivocis sic
+                    vel non dicendum. Neque enim qui dixit respondit, sed dixit. Sed concedunt
+                    quodammodo in disputationibus eo quod lateat quod accidit.</p>
+                <p>Sicut ergo diximus, quoniam elenchi quidam videntur esse qui non sunt, eodem modo
+                    et solutiones videntur esse quaedam quae non sunt; quas dicimus quandoque magis
+                    oportere ferre quam veras in agonisticis disputationibus et ad duplex
+                    obviatione. Respondendum autem in his quidem quae videntur sit dicentem; et enim
+                    sic minime fiet ad se elenchus; si vero aliquid quod extra opinionem sit cogatur
+                    dicere, hic maxime addendum videri; sic enim neque elenchus neque inopinatum
+                    videbitur fieri. Quoniam autem quomodo petitur quod est in principio manifestum,
+                    putant autem omnino, si sit propinquum, interimendum et non concedendum esse
+                    quaedam velut quod in principio est petente, et quando aliquid tale probaverit
+                    quis quod necessarium quidem accidere ex positione, est autem falsum vel
+                    inopinatum, idem dicendum; nam quae ex necessitate accidunt <milestone
+                        unit="page" n="p. 39 AL"/> eiusdem videntur esse positionis. Amplius
+                    quando universale non nomine sumitur sed parabola, dicendum quoniam non ut datum
+                    est neque ut proposuit sumit; nam propter hoc fit saepe elenchus.</p>
+                <p>Si autem prohibeatur his ad hoc quoniam non bene ostensum est eundum, obviando
+                    secundum dictam determinationem.</p>
+                <p>In his ergo quae proprie dicuntur nominibus necesse est respondere vel
+                    simpliciter vel divisum. Quae autem subintelligentes ponimus, ut quaecumque non
+                    plane sed truncatim interrogantur, propter hoc accidit elenchus, ut putas ne
+                    quicquid est Danaum, possessio est Danaum? Vtique. Similiter autem et in aliis.
+                    Sed homo est animalium? Vtique. Possessio ergo homo animalium. Nam hominem
+                    animalium dicimus, quoniam animal est, et Lisandrum Lacedaemoniorum, quoniam
+                    Lacedaemonius. Manifestum ergo quoniam in quibus obscurum est quod proponitur,
+                    non concedendum simpliciter.</p>
+                <p>Quando autem duobus existentibus, cum alterum quidem est ex necessitate alterum
+                    esse videtur, cum autem alterum hoc non ex necessitate, interrogatum prius
+                    oportet quod minus est dare; difficilius enim syllogizare de pluribus. Si autem
+                    conetur quoniam huic quidem est contrarium illi autem non est, si oratio vera
+                    sit, contrarium dicere, nomen autem non esse alterius.</p>
+                <p>Quoniam autem quaedam quidem eorum quae dicunt plures eum qui non concedit
+                    mentiri inquient, quaedam autem non, ut quaecumque utrimque opinantur (utrum
+                    enim corruptibilis vel immortalis sit anima animalium, non determinatum est
+                    multis), in quibus ergo dubium est utro modo soleat dici propositum utrum ut
+                    conceptiones (vocant enim conceptiones et veras <milestone unit="page"
+                        n="p. 40 AL"/> opiniones et totas negationes), ut diameter
+                    incommensurabilis. Amplius cuius verum utrimque opinantur, maxime transferens
+                    aliquis nomina in his latebit. Nam quia dubium est utro modo se habet verum, non
+                    opinabitur sophisma agere, quia vero utrimque opinantur, non putabitur mentiri;
+                    nam translatio faciet orationem sine elencho videri.</p>
+                <p>Amplius quascumque aliquis praesenserit interrogationum, prius insurgendum et
+                    praedicendum; sic enim maxime interrogantem prohibebit.</p>
+                <p>Quoniam autem est recta quidem solutio manifestatio falsi syllogismi, secundum
+                    quamlibet interrogationem accidit falsum, falsus autem syllogismus fit
+                    dupliciter (aut enim si syllogizatum est falsum, aut si cum non est syllogismus
+                    videtur esse syllogismus), erit et quae nunc dicta est solutio et apparentis
+                    syllogismi secundum quam videtur interrogationum correctio. Quare accidit
+                    orationes syllogizatas quidem interimentem, apparentes autem dividentem solvere.
+                    Rursum autem quoniam syllogizatarum orationum hae quidem veram illae autem
+                    falsam habent conclusionem, eas quidem quae secundum conclusionem sunt falsae
+                    duobus modis contingit solvere; nam et in eo quod interimitur aliquid eorum quae
+                    interrogata sunt, et in eo quod ostenditur conclusio non sic se habere; eas vero
+                    quae secundum propositiones in eo quod interimitur quid tantum; nam conclusio
+                    vera. Quare volentibus solvere orationem primum quidem perspiciendum si
+                    syllogizata est aut non syllogizata, deinde utrum vera sit conclusio vel falsa,
+                    quatinus vel dividentes vel interimentes solvamus, et interimentes vel hoc modo
+                    vel illo, sicut dictum est prius. Differt autem plurimum interrogatam <milestone
+                        unit="page" n="p. 41 AL"/> vel non solvere orationem; nam providere
+                    quidem difficile, per vacationem autem videre facile.</p>
+                <p>Eorum ergo qui sunt secundum aequivocationem et amphiboliam elenchorum alii
+                    quidem habent interrogationum aliquam plura significantem, alii autem
+                    conclusionem multipliciter dictam, ut in eo quidem quod est tacentem loqui
+                    conclusio est duplex, in eo vero quod est non conscire scientem una
+                    interrogationum amphibola. Et duplex quandoque quidem est, quandoque autem non
+                    est, sed significat duplex hoc quidem ens illud vero non ens.</p>
+                <p>Quibus ergo in fine est multipliciter, nisi prius sumpserint contradictionem, non
+                    fit elenchus, ut in eo quod est caecum videre; nam sine contradictione non erat
+                    elenchus. Quibus vero in interrogationibus non necesse est prius negare quod
+                    duplex est; nam non ad hoc sed propter hoc oratio. Ergo in principio quidem
+                    duplex et nomen et orationem sic respondendum, quoniam est ut, est autem ut non,
+                    ut tacentem loqui, quoniam est ut sic, est autem ut non. Et quae expediunt
+                    faciendum sunt quae sic, sunt autem quae non; nam expedientia dicuntur
+                    multipliciter. Si autem lateat, in fine addentem interrogationi corrigere; ergo
+                    est tacentem loqui? Non, sed hunc tacentem. Et in his autem quae habent
+                    multipliciter in propositionibus similiter. Non ergo consciunt quoniam sciunt?
+                    Vtique, sed non sic scientes. Non enim idem est quoniam non est conscire et
+                    quoniam sic scientes non est. Et omnino obstandum, etiam si simpliciter
+                    syllogizet, quoniam non rem quam dixit negavit, sed nomen; quare non
+                    elenchus.</p>
+                <p><milestone unit="page" n="p. 42 AL"/> Manifestum autem et eos qui sunt
+                    secundum divisionem et compositionem quomodo solvendum; nam si divisa et
+                    composita oratio aliud significat, conclusa contrarium dicendum. Sunt autem
+                    omnes huiusmodi orationes secundum compositionem vel divisionem. Putas ne quo
+                    vidisti tu hunc percussum, hoc percussus est hic? Et quo percussus est, hoc tu
+                    vidisti? Habet ergo aliquid et dubiarum interrogationum, sed est secundum
+                    compositionem. Non enim est duplex quod secundum divisionem; non enim eadem
+                    oratio fit divisa, si quidem non et malum et malum secundum accentum prolata
+                    significant aliud. Sed in scriptis quidem idem nomen, cum ex eisdem elementis
+                    scriptum est et similiter, et illic autem iam signa faciunt, prolata autem non
+                    eadem. Quare non duplex quod secundum divisionem est. Manifestum etiam quoniam
+                    non omnes elenchi secundum duplex, sicut quidam dicunt.</p>
+                <p>Dividendum ergo ei qui respondet; non enim idem est videre oculis percussum et
+                    dicere videre oculis percussum. Et Euthidimi autem oratio, putas ne vidisti tu
+                    nunc coexistentes in Pirai naves in Sicilia ens? Et rursum, putas ne est bonum
+                    sutorem malum esse? Erit autem quis bonus sutor malus. Putas ne quorum scientiae
+                    bonae, bonas disciplinas? Mali autem bona disciplina; bona ergo disciplina
+                    malum. At vero et malum et disciplina est malum, quare mala disciplina malum.
+                    Sed est malorum disciplina bona. Putas ne verum dicere nunc quoniam tu factus
+                    es? Factus es ergo nunc. Aut aliud significat divisum; verum enim dicere nunc
+                    quoniam tu factus es, sed non nunc factus es. Putas<milestone unit="page"
+                        n="p. 43 AL"/>ne ut potes et quae potes, sic et ipsa facies? Non
+                    citharizans autem habes potestatem citharizandi; citharizabis ergo non
+                    citharizans. Aut non huius habet potestatem ut non citharizans citharizet, sed,
+                    cum non facit, ut faciat.</p>
+                <p>Solvunt autem quidam hunc et aliter. Nam si dedit ut potest facere, non dicunt
+                    accidere non citharizantem citharizare; non enim omnino ut potest facere, datum
+                    esse quoniam faciet; non idem autem esse ut potest et omnino ut potest facere.
+                    Sed manifestum quoniam non bene solvunt; nam orationum quae propter idem eadem
+                    solutio, haec autem non conveniet in omnes nec omnino interrogatas, sed est ad
+                    interrogantem, non ad orationem.</p>
+                <p>Secundum accentum autem orationes non sunt, neque in his quae scribuntur neque in
+                    his quae dicuntur, excepto si quae paucae fiant, ut haec: iustos viros oportet
+                    pendere, iustos viros non oportet pendere; idem ergo oportet iustos viros pati
+                    et non. Quomodo autem solvendum, palam; non enim idem significat graviter et
+                    acute prolatum.</p>
+                <p>Palam autem et his qui fiunt in eo quod similiter dicuntur quae non sunt eadem,
+                    quomodo obviandum, eo quod habemus genera praedicamentorum. Nam hic quidem dedit
+                    interrogatus non esse quid horum quae quid est significant; ille vero ostendit
+                    esse quid eorum quae sunt ad aliquid vel quantitates, videntur autem quid est
+                    significare secundum dictionem, ut in hac oratione, putas ne contingit idem
+                    simul et facere et fieri? Non; at vero videre aliquid simul et videri idem et
+                    secundum idem contingit. Putas ne est quid eorum quae sunt pati facere quid?
+                    Ergo secatur uritur operatur similiter dicuntur, et omnia pati quid significant;
+                    rursum autem dicere currere scribere similiter sibi invicem dicuntur; sed
+                    scribere quidem operari quid est, quare <milestone unit="page"
+                        n="p. 44 AL"/> et pati quid simul autem et facere. Si autem aliquis
+                    illic dans non contingere simul idem facere et fieri, videre et videri dicat
+                    contingere, nondum elenchus factus est, si non dicat videre facere quid sed
+                    pati; indiget enim hac interrogatione; sed ab audiente opinatur datum esse, cum
+                    et secare facere quid et secari fieri dedit, et quaecumque alia similiter
+                    dicuntur. Nam reliquum ipse addit qui audit velut similiter dictum; hoc autem
+                    dicitur quidem non similiter, videtur autem secundum dictionem. Idem autem
+                    accidit quod in aequivocationibus; putat enim in aequivocis inscius orationum
+                    quod dixit negare rem, non nomen; hoc autem adhuc eget interrogatione, si ad
+                    unum aspiciens dicat aequivocum; sic enim dante erit elenchus.</p>
+                <p>Similes autem et hae orationes his, si quod quis habens postea non habet amisit;
+                    nam unum solum amittens digitum non habebit decem digitos. Aut quod non habet
+                    quidem prius habens, amisit, quantum autem non habet vel quanta, non necesse
+                    tanta amittere. Ergo interrogans quod habet, colligit in eo quod quanta; nam
+                    decem quanta. Si ergo dixisset ex principio si quanta quis non habet prius
+                    habens, putas ne amisit tanta, nullus dedisset, sed aut tanta aut horum aliquid.
+                    Et quoniam dabit quis quod non habet. Non enim habet unum solum denarium. Aut
+                    non dedit quod non habuit, sed ut non habuit, unum. Nam solum non hoc
+                    significat, neque tale, neque tantum, sed ut habet ad aliquid, ut quoniam non
+                    cum alio. Quemadmodum si dicat putas ne quod non aliquis habet dabit, non
+                    dicente autem interroget si dabit quis quid cito quod non habeat cito, dicente
+                    autem syllogizet quoniam dabit quis quod non habet. Et manifestum quoniam non
+                    syllogizavit; nam cito non hoc dare, sed hoc modo dare est; ut autem non habet,
+                    dabit aliquis, ut quod delectabiliter habet cum tristitia dabit.</p>
+                <p><milestone unit="page" n="p. 45 AL"/> Similes autem et huiusmodi omnes.
+                    Putas ne quam non habet manu percutiet? Aut quern non habet oculo videbit? Non
+                    enim habet unum solum. Solvunt autem quidam dicentes et ut habet unum solum et
+                    oculum et aliud quidlibet qui plura habet. Quidam vero et ut quod habet accepit;
+                    dedit enim unum solum hic denarium; et hic habet, dicunt, unum solum ab hoc
+                    denarium; accepit enim ab hoc. Alii autem statim interrogationem interimentes,
+                    quoniam contingit quod non accepit habere, ut vinum accipientem suave, corrupto
+                    in acceptione, habere acre. Sed quod dictum est et prius, hi omnes non ad
+                    orationem sed ad hominem solvunt. Nam si esset haec solutio, dantem oppositum
+                    non possibile solvere, sicut in aliis; ut si 'est quidem quod, est autem quod
+                    non' sit solutio, si simpliciter det dici, concludit; si autem non concludat,
+                    non erit solutio; in praedictis autem omnibus datis nec dicimus fieri
+                    syllogismum.</p>
+                <p>Amplius autem et hae sunt ex huiusmodi orationibus. Putas ne quod scriptum est,
+                    scripsit quis? Scriptum est autem nunc quoniam tu sedes, falsa oratio; erat
+                    autem vera cum scribebatur; ergo simul scribebatur falsa et vera. Nam falsam vel
+                    veram orationem vel opinionem esse non hoc sed tale significat; nam eadem oratio
+                    et in opinione. Et putas quod discit discens, hoc est quod discit? Discit autem
+                    aliquis hoc quod est tarde cito. Non ergo quod discit sed ut discit dixit. Et
+                    putas quod ambulat aliquis calcat? Ambulat autem totam diem. Aut non quod
+                    ambulat sed cum ambulat dixit; nec quando cyphum bibere, quod bibit, sed ex quo.
+                    Et putas quod quis novit vel inveniens vel discens novit? Ex quibus autem hoc
+                    quidem invenit, illud autem didicit, ambo neutrum. Aut quod quidem omne, illa
+                    autem non omnia. Et quoniam est quis tertius homo a se et ab unoquoque. Nam homo
+                    et omne commune non hoc aliquid, sed <milestone unit="page"
+                        n="p. 46 AL"/> quale quid vel ad aliquid aliquo modo vel huiusmodi
+                    quid significat. Similiter autem et in Coriscus et Coriscus musicus, utrum ipsum
+                    vel alterum? Nam hoc quidem hoc aliquid, illud autem quale significat, quare non
+                    est ipsum exponere; verum exponere non facit tertium hominem, sed idem quod hoc
+                    aliquid esse concedere. Non enim erit hoc aliquid esse idem quod Callias et idem
+                    quod homo est. Neque si quis expositum non idem quod hoc aliquid esse dicat, sed
+                    idem quod quale, nichil distabit; erit enim quod praeter plures unum quid, ut
+                    homo. Manifestum ergo quoniam non dandum hoc aliquid esse quod communiter
+                    praedicatur de omnibus, sed aut quale aut ad aliquid aut quantum aut talium
+                    aliquid significare.</p>
+                <p>Omnino autem in his quae secundum dictionem sunt orationibus semper per oppositum
+                    erit solutio quam secundum quod est oratio. Vt si secundum compositionem oratio,
+                    solutio dividenti, si autem secundum divisionem, componenti. Rursum si secundum
+                    accentum acutum, gravis accentus solutio, si vero secundum gravem, acutus. Si
+                    autem secundum aequivocationem, est oppositum nomen dicentem solvere, ut si
+                    animatum accidit dicere negantem non esse, monstrare quod est inanimatum; si
+                    vero inanimatum dixit, hic autem animatum collegit, dicere qui est inanimatus.
+                    Similiter autem et in amphibolia. Si autem secundum similitudinem dictionis,
+                    oppositum erit solutio. Ergo quod non habet dabit aliquis? Aut non quod non
+                    habet, sed ut non habet, ut unum solum denarium. Ergo quod scit, discens vel
+                    inveniens scit? Sed non quae scit. Et si quod ambulat calcat, sed non cum.
+                    Similiter autem et in aliis.</p>
+                <p>Ad illos vero qui sunt secundum accidens una quidem eadem solutio ad omnes. Nam
+                    quia indefinitum est quando dicendum <milestone unit="page"
+                        n="p. 47 AL"/> de re, cum in accidente inest, et in quibusdam quidem
+                    videtur et dicunt, in quibusdam autem non dicunt necessarium esse, dicere
+                    concordes similiter ad omnes quoniam non necessarium. Habere autem oportet
+                    proferre ut. Sunt autem omnes huiusmodi orationes secundum accidens. Ergo nosti
+                    quod debeo to interrogare? Ergo cognoscis venientem vel coopertum? Ergo statua
+                    tuum opus est aut tuus canis pater? Ergo raro pauca pauca? Manifestum enim in
+                    omnibus his quoniam non necesse est quod de accidente et de re verum esse, solis
+                    enim his quae secundum substantiam sunt indifferentia et quae unum sunt omnia
+                    videntur eadem inesse; bono autem non idem est et bonum esse et futurum
+                    interrogari, neque venienti vel cooperto et venientem esse et Coriscum; quare
+                    non si cognosco Coriscum, ignoro autem venientem, eundem cognosco et ignoro;
+                    neque si hoc est meum, est autem opus, meum est opus, sed vel possessio vel res
+                    vel aliud quid. Eodem autem modo et in aliis.</p>
+                <p>Solvunt autem quidam interimentes interrogationem; dicunt enim contingere eandem
+                    rem nosse et ignorare, sed non secundum idem; nam venientem quidem non
+                    noscentes, Coriscum autem noscentes, eundem quidem nosse et ignorare dicunt, sed
+                    non secundum idem, quamvis primum quidem, sicut iam diximus, oportet earum quae
+                    secundum idem sunt orationum eandem esse correctionem. Haec autem non erit, si
+                    quis non in nosse sed in esse vel aliquo modo se habere idem probamentum
+                    accipiat, ut si hic est pater, est autem tuus; nam si in quibusdam hoc est verum
+                    et contingit idem nosse et ignorare, tamen hic nichil communicat quod dictum
+                    est. Nichil autem prohibet eandem orationem plures fallendi occasiones habere.
+                    Sed non omnis fallaciae manifestatio solutio est; contingit enim quoniam
+                        <milestone unit="page" n="p. 48 AL"/> falsum quidem syllogizavit
+                    ostendere aliquem, secundum quid autem non ostendere, ut Zenonis orationem
+                    quoniam non est movere. Quare et si quis conetur colligere velut impossibile,
+                    deducens ad impossibile, peccat et si milies syllogizet; non enim est haec
+                    solutio. Erat enim solutio manifestatio syllogismi falsi, secundum quod falsus;
+                    si ergo non syllogizavit vel verum vel falsum conetur colligere, illius
+                    manifestatio solutio est. Fortasse autem et hoc in quibusdam nichil prohibet
+                    accidere; verum in his nec hoc videbitur, nam et Coriscum quoniam Coriscus
+                    noscit, et veniens quoniam veniens. Contingere autem videtur idem nosse et non,
+                    ut quoniam album quidem nosse, quoniam autem musicum non nosse; sic enim idem
+                    noscit et non noscit, sed non secundum idem. Venientem autem et Coriscum, et
+                    quoniam veniens et quoniam Coriscus noscit.</p>
+                <p>Similiter autem peccant et qui solvunt quoniam omnis numerus paucus, sicut quos
+                    diximus; nam si non concluso, hoc omittentes, verum conclusum esse dicant, omnia
+                    enim esse et multum et paucum, peccant.</p>
+                <p>Quidam autem et duplice solvunt syllogismos, ut quoniam tuus est pater vel filius
+                    vel servus. Quamvis manifestum quoniam si in eo quod multipliciter dicitur
+                    videtur elenchus, oportet nomen vel orationem principaliter esse plurium; hunc
+                    autem esse huius natum nemo dicit proprie, si dominus est nati; sed secundum
+                    accidens compositio est. Putas ne est hoc tuum? Vtique. Est autem hoc natum;
+                    tuum ergo hoc natum; quoniam accidit esse et tuum et natum, sed non tuum
+                    natum.</p>
+                <p><milestone unit="page" n="p. 49 AL"/> Et esse malorum quoddam bonum; nam
+                    prudentia est disciplina malorum. Hoc autem horum esse non dicitur
+                    multipliciter, sed possessio. Quod si forte multipliciter (nam et hominem
+                    animalium dicimus esse, sed non possessionem, et si quid ad mala dicitur ut
+                    alicuius, propter hoc malorum est, sed non hoc malorum), secundum quo ergo et
+                    simpliciter videtur; quamvis contingit fortasse bonum esse aliquid malorum
+                    dupliciter, at non in oratione hac, sed si quid servum sit bonum mali, magis.
+                    Fortasse autem nec sic; non enim si bonum et huius, bonum huius. Simul autem
+                    neque hominem dicere animalium esse dicitur multipliciter; non enim si quandoque
+                    quid significamus auferentes, hoc dicitur multipliciter; nam et dimidium
+                    dicentes versum 'da mihi Iliada' significamus, ut 'iram pande dea'.</p>
+                <p>Eos vero qui sunt in eo quod principaliter hoc vel quo vel ubi vel aliquo modo
+                    vel ad aliquid dicuntur et non simpliciter, solvendum consideranti conclusionem
+                    ad contradictionem, si contingit horum aliquid passam esse. Nam contraria et
+                    opposita et affirmationem et negationem simpliciter quidem impossibile inesse
+                    eidem, quo autem utrumque vel ad aliquid vel aliquo modo, aut hoc quidem quo
+                    illud autem simpliciter, nichil prohibet. Quare si hoc quidem simpliciter, illud
+                    autem quo, nondum elenchus. Hoc autem in conclusione considerandum ad
+                    contradictionem.</p>
+                <p>Sunt autem omnes huiusmodi orationes hoc habentes. Ergo contingit quod non est
+                    esse? Est autem quid quod non est. Similiter autem et quod est non erit; non
+                    enim erit quid eorum quae sunt. Ergo contingit eundem simul bene iurare et
+                    periurare? Ergo possibile est eundem simul eidem suadere et dissuadere, aut non
+                    et esse quid et esse idem? Quod autem non est, non si est quid, et est
+                    simpliciter; neque si bene iurat, hoc aut secundum <milestone unit="page"
+                        n="p. 50 AL"/> hoc, necesse est et bene iurare; nam qui iurat
+                    periuraturum bene iurat periurans hoc solum, bene autem iurat non; neque qui
+                    dissuadet suadet, sed quid suadet; similis autem ratio et de eo quod est mentiri
+                    eundem simul et verum esse, sed quia non est facile inspicere, utro modo quis
+                    assignet simpliciter verum esse vel mentiri, difficile videtur. Prohibet autem
+                    eundem nichil simpliciter quidem esse mendacem, quo autem verum vel aliquo, et
+                    esse verum aliquem, verum autem non. Similiter autem et in ad aliquid et ubi et
+                    quando; omnes enim huiusmodi orationes secundum hoc accidunt. Ergo sanitas vel
+                    divitiae bonum? Sed insipienti et non recte utenti non bonum; bonum ergo et non
+                    bonum. Ergo sanum esse vel posse in civitate bonum? Sed est quando non melius,
+                    idem ergo eidem bonum et non bonum. Aut nichil prohibet quod simpliciter est
+                    bonum huic non esse bonum, aut huic quidem bonum sed non nunc vel non in hoc
+                    bonum. Ergo quod non volet sapiens, malum? Amittere autem non vult bonum; malum
+                    ergo bonum. Non enim idem dicere malum esse bonum et amittere bonum. Similis
+                    autem et quae de fure est oratio. Non enim si malum est fur, et sumere est
+                    malum; non ergo malum vult sed bonum; nam sumere bonum, bonum. Et aegritudo
+                    malum est, sed non amittere aegritudinem. Ergo iustum iniusto et quod iuste eo
+                    quod iniuste magis eligendum? Sed mori iniuste magis eligendum. Ergo iustum est
+                    sua habere quemque? Quae autem aliquis iudicat secundum opinionem suam, et si
+                    sit falsus, sua sunt singula ex lege; idem ergo iustum et non iustum. Et utrum
+                    oportet iudicare eum qui iusta dicit vel qui iniusta? At vero eum qui iniuriam
+                    passus est iustum est sufficienter dicere quae passus est; ea autem erant
+                    iniusta. Non <milestone unit="page" n="p. 51 AL"/> enim si pati aliquid
+                    iniuste eligendum, hoc quod iniuste eligendum magis quam quod iuste; sed
+                    simpliciter quidem quod iuste, hic autem nichil prohibet iniuste quam iuste. Et
+                    habere sua iustum, aliena autem non iustum; iudicium vero hoc iustum esse nichil
+                    prohibet, ut si sit secundum opinionem iudicantis; non enim si iustum hic vel
+                    sic, et simpliciter iustum. Similiter autem et quae iniusta sunt nichil prohibet
+                    dicere ea iustum esse, non enim si dicere iustum necesse est iusta esse, sicut
+                    nec si utile est dicere, utilia. Similiter autem et in iustis. Quare non si quae
+                    dicuntur iniusta, qui dicit iniusta vincit; dicit enim quae dicere est iusta,
+                    simpliciter autem et pati iniusta.</p>
+                <p>His autem qui secundum diffinitionem fiunt elenchi, quemadmodum scriptum est
+                    prius, obviare considerantes conclusionem ad contradictionem, ut sit idem et
+                    secundum idem et ad idem et similiter et in eodem tempore. Si vero in principio
+                    interroget, non fatendum quoniam impossibile est idem esse duplum et non duplum,
+                    sed dicendum, non sic autem, ut erat redarguere concessum. Sunt autem omnes hae
+                    orationes secundum hoc. Putas qui scit singulum quoniam singulum, novit rem? Et
+                    qui ignorat similiter? Sciens autem quis Coriscum quoniam Coriscus, ignorabit
+                    quoniam musicus, quare idem scit et ignorat. Putas ne tetracubitum tricubito
+                    maius? Fiet autem ex tricubito tetracubitum secundum longitudinem; maius autem
+                    minore maius; ipsum ergo ipso secundum idem maius et minus.</p>
+                <p>Illos vero qui sunt in eo quod petunt et accipiunt quod in principio est
+                    quaesitum, si sit manifestum, non dandum nec si probabile sit, dicenti verum. Si
+                    autem lateat, ignorantiam <milestone unit="page" n="p. 52 AL"/> propter
+                    molestiam talium orationum ad interrogantem transvertendum velut non arguentem;
+                    nam elenchus sine eo quod ex principio. Deinde quia datum est non ut hoc
+                    uteretur, sed ut ad hoc disputaret, contrarium vel in extra elenchis.</p>
+                <p>Et eos qui per consequens concordes in ipsa oratione monstrare. Est autem duplex
+                    sequentium consequentia. Aut enim ut particulare sequitur universale, ut hominem
+                    animal; probant enim, si hoc cum illo, et illud esse cum hoc. Aut secundum
+                    oppositiones; nam si huic est illud consequens, et opposito oppositum. Secundum
+                    quod et Melissi ratio; nam si quod factum est habet principium, ingenitum probat
+                    non habere, quare si ingenitum est caelum, et infinitum. Hoc autem non est; e
+                    contrario enim consequentia.</p>
+                <p>Qui autem in eo quod additur aliquid syllogizantur, considerandum si ablato
+                    accidit nichil minus impossibile. Deinde hoc ostendendum, et dicendum quoniam
+                    dedit non ut videretur, sed ut ad orationem, qui vero usus est nichil ad
+                    orationem.</p>
+                <p>Ad eos autem qui plures interrogationes unam faciunt statim in principio
+                    determinandum. Nam interrogatio una ad quam una responsio est, quare neque plura
+                    de uno neque unum de multis, sed unum de uno dicendum vel negandum. Sicut autem
+                    in aequivocis quandoque quidem ambobus quandoque autem neutro inest, quare cum
+                    non simplex est interrogatio simpliciter respondentibus nichil accidit pati,
+                    similiter et in his. Quando ergo plura uni vel unum pluribus inest vel non
+                    inest, simpliciter danti et delinquenti hoc peccatum nichil contrarium accidit;
+                    quando autem huic quidem illi autem non, aut plura de pluribus, et est quoniam
+                    insunt ambo ambobus, est autem quoniam non <milestone unit="page"
+                        n="p. 53 AL"/> insunt rursum, quare hoc formidandum. Vt in his
+                    orationibus, si hoc quidem est bonum illud autem malum, quoniam hoc verum est
+                    dicere bonum et malum, et rursum neque bonum neque malum; non enim est utrumque
+                    utrumque, quare idem bonum et malum et neque bonum neque malum. Et si singulum
+                    ipsum sibi idem, et alii diversum; quoniam autem non aliis eadem sed sibi, et
+                    diversa aliis, ipsa sibimet diversa et eadem. Amplius si bonum quidem malum fit,
+                    malum autem bonum est, duo fient. Et duum et inaequalium utrumque ipsum sibi
+                    aequale, quare aequalia et inaequalia ipsa sibi.</p>
+                <p>Cadunt ergo hae orationes et in alias solutiones; nam ambo et omnia plura
+                    significant; non ergo idem praeter nomen accidit dicere et negare, hoc autem non
+                    erat elenchus. Sed manifestum quoniam si non una interrogatio plures fiant, sed
+                    unum de uno dicat vel neget, non erit impossibile.</p>
+                <p>In illis autem qui deducunt ad idem frequenter dicere, manifestum quoniam non
+                    dandum eorum quae ad aliquid dicuntur significare quid separatas per se
+                    praedicationes, ut duplum sine eo quod est duplum dimidii, quoniam in eo
+                    videtur. Nam et decem in uno minus decem et facere in non facere, et omnino in
+                    negatione dictio; non tamen si quis dicit hoc non esse album, dicit idem album
+                    esse. Duplum autem neque significat nichil fortasse, quemadmodum neque quod in
+                    dimidio est; quod si forte significat, at non idem et copulatum. Neque scientia
+                    in specie, ut si est medicina scientia, ipsum quod commune; illud autem erat
+                    scientia scibilis. In his autem per quae ostenduntur praedicatis hoc dicendum,
+                    quoniam non idem est extra et in <milestone unit="page" n="p. 54 AL"
+                    /> oratione quod ostenditur. Nam cavum communiter quidem idem significat in simo
+                    et rico, additum autem nichil prohibet, hoc quidem naso illud autem cruri
+                    significare; nam hinc quidem simum, illinc autem ricum significat; et nichil
+                    differt dicere nasus simus et nasus cavus. Amplius non danda est dictio secundum
+                    nominativum; falsum enim est. Non enim est simum nasus cavus, sed nasi hoc ut
+                    passio, quare nichil inconveniens, si nasus simus nasus est habens cavitatem
+                    nasi.</p>
+                <p>De soloecismis autem secundum quid quidem videntur accidere, diximus prius;
+                    quomodo autem solvendum, in ipsis orationibus erit manifestum. Omnes enim
+                    huiusmodi hoc volunt construere. Putas quod dicis vere, et est hoc vere? Dicis
+                    autem esse quid lapidem; est ergo quid lapidem. Aut dicere lapidem non est
+                    dicere quod sed quem, nec hoc sed hunc; si ergo dicat aliquis, putas quem vere
+                    dicis, est hunc, non videtur romane loqui, quemadmodum neque si dicat, putas
+                    quam dicis esse, est hic? Lignum autem dicere sic, vel quaecumque neque
+                    femininum neque masculinum significant, nichil differt. Quare et non fit
+                    soloecismus, si quod dicis esse, est hoc? Lignum autem dicis esse; est ergo
+                    lignum. Lapis autem et hic masculini habent declinationem. Quod si quis dicat
+                    putas ne est hic illa? Deinde rursum, quid autem? Non hic est Coriscus? Ita
+                    dicat, 'est ergo hic illa', non syllogizavit soloecismum, nec si Coriscus
+                    significet idem quod illa, non det autem qui respondet, sed oportet hoc
+                    adinterrogare. Si autem neque est neque dat, non syllogizavit neque in eo quod
+                    est quid neque ad eum qui interrogatus est. <milestone unit="page"
+                        n="p. 55 AL"/> Similiter ergo oportet et illic lapidem significare
+                    hic. Si autem neque est neque datur, non dicenda est conclusio; apparet autem in
+                    eo quod dissimilis casus nominis similis videtur. Putas verum est dicere quoniam
+                    est ista, id quod esse ais eam? Esse autem ais aspidem, est ergo ista aspidem.
+                    Aut non necesse est, si non ista aspidem significat sed aspis, aspidem autem
+                    istam. Neque si quod dicis esse hunc, est hic, dicis autem esse Cleonem, est
+                    ergo hic Cleonem, non enim est hic Cleonem, dictum est enim quoniam quem dico
+                    esse hunc, est hic, non hunc; neque enim romane dicetur sic interrogatio dicta.
+                    Putas scis hoc? Hoc autem est lapis; scis ergo lapis. Aut non idem significat
+                    hoc in 'putas scis hoc' et in 'hoc autem lapis', sed in primo quidem 'hunc', in
+                    posteriore autem 'hic'. Putas ne cuius scientiam habes, scis hoc? Scientiam
+                    autem habes lapidis, scis ergo lapidis. Aut huius quidem lapidis dicis, hunc
+                    autem lapidem; datum est autem, cuius scientiam habes, scis non huius, sed hoc,
+                    quare non lapidis sed lapidem.</p>
+                <p>Quoniam ergo huiusmodi orationes non syllogizant soloecismum sed videntur, et
+                    propter quid videntur et quomodo est obviandum eis, manifestum ex his quae dicta
+                    sunt.</p>
+                <p>Oportet etiam intelligere quoniam omnium orationum aliae quidem sunt faciles
+                    conspici aliae autem difficiliores, secundum quid et in quo paralogizant
+                    audientem, frequenter eaedem illis. Nam eandem orationem oportet vocare quae
+                    secundum idem fit; eadem autem oratio aliis quidem secundum dictionem, aliis
+                        <milestone unit="page" n="p. 56 AL"/> vero secundum accidens, aliis
+                    autem secundum aliud videbitur esse, eo quod translatum unumquodque non
+                    similiter est manifestum. Quemadmodum ergo in his quae sunt secundum
+                    aequivocationem, qui modus videtur esse levissimus paralogismorum, haec quidem
+                    et quibuslibet sunt manifesta (nam et orationes paene ridiculae omnes sunt
+                    secundum dictionem, ut vir ferebatur gradatim sedens, et Boreas purus? Non;
+                    perdidit enim pauperem, et utra boum antea pariet? Neutra, sed posterius ambo.
+                    Eodem autem modo et aliarum paene plures), illa autem et peritissimos videntur
+                    latere; signum autem horum quoniam litigant saepe de nominibus, ut utrum idem
+                    significet de omnibus ens et unum vel aliud. Aliis enim videtur idem significare
+                    ens et unum, alii autem Zenonis orationem et Parmenidis solvunt eo quod
+                    multipliciter dicant unum dici et ens. Similiter autem et in accidente et in
+                    aliis singulis aliae quidem orationum erunt faciles videri, aliae vero
+                    difficiliores; et sumere in quo genere, et utrum elenchus vel non elenchus, non
+                    facile similiter in omnibus. Est autem acris oratio quae dubitare facit maxime,
+                    mordet enim haec maxime. Dubitatio autem est duplex, haec quidem in
+                    syllogizatis, quam eligat quis interrogationum, illa autem in litigiosis,
+                    quomodo dicat quis propositum. Quapropter in syllogisticis acriores orationes
+                    quaerere magis faciunt. Est autem syllogistica quidem oratio acerrima, si ex
+                    quam maxime apparentibus quam maxime probabile interimit. Nam cum una est
+                    oratio, transposita contradictione omnes similiter habebit syllogismos; semper
+                    enim ex probabilibus similiter probabile interimet vel construet, quapropter
+                    dubitare necessarium. Maxime ergo huiusmodi acris, quae ex aequo conclusionem
+                    facit interrogationibus, secunda autem quae ex omnibus similibus; haec
+                        <milestone unit="page" n="p. 57 AL"/> enim similiter faciet dubitare
+                    quae interrogationum interimenda est. Hoc autem difficile; nam interimendum
+                    quidem, quid autem interimendum dubium. Litigiosarum autem acerrima quidem quae
+                    primum statim dubia est utrum syllogizata est vel non, et utrum secundum falsum
+                    vel divisionem solutio, secunda autem aliarum quae manifesta quidem quoniam
+                    secundum divisionem vel interemptionem est, non est autem evidens per quam
+                    interrogationum interemptio vel divisio solvenda est, sed utrum secundum
+                    conclusionem aut secundum aliquam interrogationum est.</p>
+                <p>Quandoque ergo non syllogizata oratio facilis est, si sint valde improbabilia vel
+                    falsa quae sumuntur, quandoque autem non digna despici. Nam quando deest aliqua
+                    talium interrogationum, de qua oratio et propter quam, et non assumit hanc et
+                    non syllogizat, fatuus est syllogismus, quando autem earum quae extrinsecus, non
+                    despiciendus ullo modo, sed oratio quidem habilis, interrogans autem
+                    interrogavit non bene.</p>
+                <p>Et est, quemadmodum solvere quandoque quidem ad orationem, quandoque autem ad
+                    interrogantem et interrogationem, quandoque vero ad neutrum horum, similiter et
+                    interrogare et syllogizare est et ad positionem et ad respondentem et ad tempus,
+                    quando est pluris temporis egens solutio quam praesentis temporis disputatio ad
+                    solutionem.</p>
+                <p>Ex quantis igitur et qualibus fiunt disputantibus paralogismi, et quomodo
+                    ostendemus falsum et quae extra opinionem sunt dicere faciemus, amplius autem ex
+                    quibus accidit syllogismus, <milestone unit="page" n="p. 58 AL"/> et
+                    quomodo interrogandum et quis ordo interrogationum, amplius autem ad quid sunt
+                    utiles omnes huiusmodi orationes, et de responsione simpliciter omni, et quomodo
+                    solvendum disputationes et syllogismos, dicta sunt de omnibus nobis haec.
+                    Reliquum est autem de eo quod ex principio erat propositum reminiscentibus
+                    dicere aliquid breviter et finem imponere dictis.</p>
+                <p>Ergo sumpsimus invenire potestatem quandam syllogisticam de proposito ex his quae
+                    insunt quam probabilissima; hoc enim opus est dialecticae per se et temptativae.
+                    Quoniam autem conformatur ad eam propter sophisticae vicinitatem, ut non solum
+                    experimentum possit sumere dialectice sed etiam quasi sciens, propter hoc non
+                    tantum dictum opus negotii proposuimus, orationem posse sumere, sed etiam ut
+                    orationem sustinentes observemus positionem velut per probabilissima simili
+                    modo. Causam autem diximus huius, quia et propter hoc Socrates interrogabat, sed
+                    non respondebat; fatetur enim non scire. Manifestum est autem in prioribus et ad
+                    quot et ex quot hoc erit, et unde idonei erimus horum, amplius autem quomodo
+                    interroganda vel ordinanda quaestio omnis, et de responsionibus et solutionibus
+                    quae sunt ad syllogismos. Patefactum est autem et de aliis, quaecumque eiusdem
+                    viae sunt orationes. Praeter haec autem de paralogismis pertractavimus, sicut
+                    diximus iam prius. Quoniam ergo habent finem sufficienter quae proposuimus,
+                    manifestum.</p>
+                <p>Oportet autem nos non latere quod accidit circa hoc negotium. Nam eorum quae
+                    inveniuntur omnium quae quidem ab aliis sumpta sunt prius elaborata
+                    particulariter augentur ab eis qui <milestone unit="page" n="p. 59 AL"
+                    /> accipiunt postea; quae autem ex principio inveniuntur parvum in primis
+                    augmentum sumere solent, utilius autem plurimum illo quod postea ex his fit
+                    augmentum. Maximum enim fortasse principium omnium, ut dicitur; quare et
+                    difficillimum; quanto enim optimum potestate tanto parvissimum magnitudine
+                    difficillimum est videri. Hoc autem invento facile est addere et augere
+                    reliquum; quod et circa rethoricas orationes accidit, paene autem et circa alias
+                    omnes artes. Nam qui principia invenerunt omnino ad parvum quid perduxerunt; qui
+                    autem nunc famosiores sunt assumentes a multis velut ex successione
+                    particulariter colligentibus sic auxerunt, Tysias quidem post priores,
+                    Thrasimacus vero post Tysiam, Theodorus autem post hunc, et multi multas
+                    coadunaverunt partes; quapropter nichil mirum si habet multum quid ars. Huius
+                    autem negotii non hoc quidem erat illud autem non erat perscrutatum, sed nichil
+                    omnino inerat. Nam eorum qui circa litigiosas orationes erant mercenarii similis
+                    quaedam erat doctrina Gorgiae negotio. Orationes enim hi quidem rethoricas illi
+                    autem interrogativas docebant ediscere, in quas saepius cadere solebant utrique
+                    alternorum orationes. Quapropter velox quidem sine arte autem erat doctrina
+                    discentibus ab eis; non enim artem sed quae ab arte sunt dantes erudire
+                    arbitrati sunt, velut si quis disciplinam dicat tradere ut non doleant pedes,
+                    deinde sutoriam quidem non doceat, neque unde possint inveniri talia, det autem
+                    plura genera omnimodorum calceorum; hic enim profuit quidem ad utilitatem, artem
+                    autem non tradidit. Et de rethoricis quidem erant multa et antiqua <milestone
+                        unit="page" n="p. 60 AL"/> dicta, de syllogismis autem omnino nichil
+                    habuimus prius aliud dicere, quam attritione quaerentes multum tempus
+                    laboraremus. Si autem videtur considerantibus nobis velut ex his quae a
+                    principio essent habere ars sufficienter supra alia negotia quae ex traditione
+                    adaucta sunt, reliquum erit omnium vestrum vel eorum qui audierint opus, omissis
+                    quidem artis indultionem, inventis autem multas habere grates.</p>
+            </div>
+        </body>
+    </text>
+
+</TEI>

@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>De fluminibus fontibus lacubus nemoribus paludibus montibus gentibus per litteras libellus</title>
+    <author>Vibius Sequester</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Alice Borgna</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>David Paniagua</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2011</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000504</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p>Vibius Sequester, De fluminibus fontibus lacubus nemoribus paludibus montibus gentibus, edidit Remo Gelsomino, Lipsiae in aedibus Teubneri, 1967</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+        
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+     target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+     >Note di trascrizione e codifica di testi latini tardoantichi
+     [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+  
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <body>
+    <div type="pr" n="pr"><head>Praefatio</head>
+    <salute>Vibius Sequester Virgiliano filio salutem</salute>
+    <p><milestone unit="par" n="1"/> Quanto ingenio ac studio, fili carissime, apud plerosque poetas fluminum mentio habita est, tanto labore sum secutus eorum et regiones et vocabula et qualitates in litteram digerens. Quod ipsi tibi non inutile factum scio fore. Fontium etiam et lacuum, paludumque et montium, nemorumque et gentium, qua tamen persequi potui sicut amnium, huic libello in litteram digesta nomina subieci. Quo lecto non minimum consequeris notitiae, praesertim cum professioni tuae sit necessarium. Et ne pluribus epistola oneretur, incipiemus ab eo fluvio, qui et litteram et nomen obtinet primum.</p>
+   </div>
+   <div type="section">
+    <head>Flumina</head>
+    <p>
+     <milestone unit="par" n="1"/> Achelous, Aetoliae, primus erupisse terram dicitur.
+     </p><p><milestone unit="par" n="2"/> Arar, Germaniae, e Vogeso monte. Miscetur Rhodano. Ita lene decurrit, ut vix intellegi possit decursus eius.
+     </p><p><milestone unit="par" n="3"/> Amphrysus, Thessaliae, ubi Apollo Admeti pecus fertur pavisse.
+     </p><p><milestone unit="par" n="4"/> Alpheus, Elidis, qui per mare decurrens in Siciliam insulam, Arethusae fonti miscetur.
+     </p><p><milestone unit="par" n="5"/> Ascanius, Mysiae.
+     </p><p><milestone unit="par" n="6"/> Achates, Siciliae, qui pari nomine lapillos edit, unde gemmae fiunt.
+     </p><p><milestone unit="par" n="7"/> Acheron, Inferorum.
+     </p><p><milestone unit="par" n="8a"/> Avens, lacui Vel<supplied>ino Sab</supplied>inorum infunditur.
+     </p><p><milestone unit="par" n="8b"/> <supplied>Anien</supplied>, per Tiburtinorum fines in Tiberim fluit; ab Aniene filio Apollinis.
+     </p><p><milestone unit="par" n="9"/> Allia, Salaria via ad mil. XIIII a Roma, ubi Galli victoria sunt potiti de Romanis.
+     </p><p><milestone unit="par" n="10"/> Araxes, Armeniae, <unclear>Arabiam</unclear> a Medis dividit.
+     </p><p><milestone unit="par" n="11"/> Atesis, Veronensium, in Padum decurrit.
+     </p><p><milestone unit="par" n="12"/> Amasenus, Privernatium.
+     </p><p><milestone unit="par" n="13"/> Aufidus, Apuliae, proximus Canusio.
+     </p><p><milestone unit="par" n="14"/> Alentos, Lucaniam a Veliensibus dividit.
+     </p><p><milestone unit="par" n="15"/> Asinius, <unclear>Catinae</unclear>, in litore Tauromenitanorum defluit.
+     </p><p><milestone unit="par" n="16"/> Anapus, Siciliae, qui per duo milia passus sub terram mergens, Syracusis miscetur mari, appellaturque <foreign xml:lang="grc">ἅναπος κυάνεος</foreign>, superior <foreign xml:lang="grc">ἅναπος φαιός</foreign>.
+     </p><p><milestone unit="par" n="17"/> Alabon, Megarensium, cuius fontem Daedalus dilatavit, agrumque reddidit eam regionem, quam idem fluvius devastabat.
+     </p><p><milestone unit="par" n="18"/> Acis, ex Aetna monte mari decurrit. Ex huius ripis Polyphemus saxa in Vlixen egisse dicitur.
+     </p><p><milestone unit="par" n="19"/> Atax, Rutenorum, circa Narbonam decurrit in Tyrrhenum mare.
+     </p><p><milestone unit="par" n="20"/> Atyr, Tarbellicae civitatis, Aquitaniae, in Oceanum fluit. 
+     </p><p><milestone unit="par" n="21"/> Almon, Romae, ubi Mater deum VI Kalendas Apriles lavatur.
+     </p><p><milestone unit="par" n="22"/> Albis, Germaniae, Suevos a Cheruscis dividit.
+     </p><p><milestone unit="par" n="23"/> Aous, Apolloniae, in mare Ionium decurrens.
+     </p><p><milestone unit="par" n="24"/> Alto, Dyrrachiae, decurrit in Illyricum.
+     </p><p><milestone unit="par" n="25"/> Arimaspae gentis Scytharum, unde aurum Scythae legunt.
+     </p><p><milestone unit="par" n="26"/> Aeas, Macedoniae, decurrit in Ionium mare.
+     </p><p><milestone unit="par" n="27"/> Achelous, ex Pindo monte <supplied>per</supplied> Perrhaebiorum fines in Maliacum mare decurrit; qui Aetoliam ab Acarnania dividit. 
+     </p><p><milestone unit="par" n="28"/> Anaurus, Thessaliae, ita denominatus quod ex se neque auram neque nebulam emittat.
+     </p><p><milestone unit="par" n="29"/> Apidanos, Thessaliae, in quo Enipeus, Asopos, Melas, Phoenix miscentur; ipse in Peneon decurrit.
+     </p><p><milestone unit="par" n="30"/> Asopos, Thessaliae, in Apidanon fluit.
+     </p><p><milestone unit="par" n="31"/> Agragas, Siciliae, a quo et oppidum dicitur.
+     </p><p><milestone unit="par" n="32"/> Aniger, qui ex cruore Centaurorum, quos Hercules interfecit, odore suo advenientes fugat, cum fuerit dulcissimus.
+     </p><p><milestone unit="par" n="33"/> Apud Cicones flumen est, cuius liquor epotus praecordia vertit in silicem, et rebus raptis marmora inducit. 
+     </p><p><milestone unit="par" n="34"/> Aternus, Hadriae, decurrens per Marsos <unclear>ubi et ostia vitas</unclear>.
+     </p><p><milestone unit="par" n="35"/> Benacus, Galliae, ex quo nascitur Mantuanorum Mincius.
+     </p><p><milestone unit="par" n="36"/> Baetis, Hispaniae; unde Baetica.
+     </p><p><milestone unit="par" n="37"/> Bagrada, Africae, iuxta oppidum Musti, ubi Regulus serpentem, longum pedibus centum viginti, exercitu adhibito interfecit.
+     </p><p><milestone unit="par" n="38"/> Barbanna, Illyrico mari miscetur.
+     </p><p><milestone unit="par" n="39"/> Bactros, Scythiae, fines Hyrcanos adluit.
+     </p><p><milestone unit="par" n="40"/> Brictates, ex Thymaro monte. <unclear>Arino</unclear> miscetur.
+     </p><p><milestone unit="par" n="41"/> Caystros, per Hypaepam decurrit, proximus paludi Asiae. 
+     </p><p><milestone unit="par" n="42"/> Camicos, Siciliae, ex quo urbs Camicos. Dividit Agragantinos.
+     </p><p><milestone unit="par" n="43"/> <unclear>Calos, Moesiae</unclear>.	
+     </p><p><milestone unit="par" n="44"/> Cocytos, Inferorum, ex quo Styx palus.
+     </p><p><milestone unit="par" n="45"/> Crinisos, Siciliae, civitatis <unclear>Atilae</unclear>.
+     </p><p><milestone unit="par" n="46"/> Calor, Beneventi, oppido iunctus.
+     </p><p><milestone unit="par" n="47"/> Chrysas, Syracusis, ex monte Heraeo.
+     </p><p><milestone unit="par" n="48"/> Cydnos, per mediam urbem Tarson Ciliciae decurrit.
+     </p><p><milestone unit="par" n="49"/> Cirta, Massiliensium, secundum Agatham urbem.
+     </p><p><milestone unit="par" n="50"/> Casilinum, Campaniae, a quo oppidum.
+     </p><p><milestone unit="par" n="51"/> Crustumium, a quo oppidum, in Adriaticum mare decurrit.
+     </p><p><milestone unit="par" n="52"/> Cephisos, ex Lilaea urbe Phocidos descendit et circa Boeotiam flectitur.
+     </p><p><milestone unit="par" n="53"/> Cinybs, Africae, in quo plurima genera gemmarum inveniuntur et camelis deportantur in oppidum <unclear>Thybrestrum</unclear>.
+     </p><p><milestone unit="par" n="54"/> Crathis, confinis Sybari, capillos facit aurei coloris.
+     </p><p><milestone unit="par" n="55"/> Clitumnus, Vmbriae, ubi Iuppiter eodem nomine est.
+     </p><p><milestone unit="par" n="56"/> Danuvius, qui et Hister, <supplied>Scythiae,</supplied> in Pontum decurrit per septem ostia.
+     </p><p><milestone unit="par" n="57"/> Drinus, e palude Lychniti, adluens Scodram, oppidum Illyricorum.
+     </p><p><milestone unit="par" n="58"/> Enipeus, e monte Othry, Thessaliae.
+     </p><p><milestone unit="par" n="59-60"/>Evenus, qui et Lycormas, per quem Nessus Centaurus Deianiram Herculis traiecit. 
+     </p><p><milestone unit="par" n="61"/> Euphrates, Parthiae.
+     </p><p><milestone unit="par" n="62"/> Eridanus, Galliae Cisalpinae, qui et Padus; ubi Heliades mutantur in populos.
+     </p><p><milestone unit="par" n="63"/> Eurotas, Laconices.
+     </p><p><milestone unit="par" n="64"/> Erasinus, <unclear>Lyciae</unclear>.
+     </p><p><milestone unit="par" n="65"/> <del>Esia gallie. in sequanam fluit.</del>
+     </p><p><milestone unit="par" n="66"/> Faneus et qui Siris, <unclear>Beneventi</unclear>.
+     </p><p><milestone unit="par" n="67"/> Fabaris, Sabinorum; is Farfar corrupte dicitur.
+     </p><p><milestone unit="par" n="68"/> Ganges, in Oriente, Indiam cingens, latissimus, quem Alexander post Oceanum navigare timuit; qui solus adversum orientem fluit.
+     </p><p><milestone unit="par" n="69"/> Galaesus, Tarentinorum.
+     </p><p><milestone unit="par" n="70"/> Gallus, in Phrygia, unde qui bibit insanit more fanatico.
+     </p><p><milestone unit="par" n="71"/> Gela, Siciliae, a quo oppidum.
+     </p><p><milestone unit="par" n="72"/> Genusus, Dyrrachium ab Apollonia dividit; decurrit ex Epiro.
+     </p><p><milestone unit="par" n="73"/> Hebrus, Thraciae, proximus oppido Aeno.
+     </p><p><milestone unit="par" n="74"/> Hermus, Lydiae, Pactolo confunditur.
+     </p><p><milestone unit="par" n="75"/> Hiberus, Hispaniae, a quo Hiberia.
+     </p><p><milestone unit="par" n="76"/> Hydaspes, Indiae vel Mediae, defluit Indo ex Caucaso. 
+     </p><p><milestone unit="par" n="77"/> Hypanis, Scythiae, qui ut ait Gallus <q>"uno tellures dividit amne duas".</q> Asiam enim ab Europa separat.
+     </p><p><milestone unit="par" n="78"/> Halys, Lydiae; Croesos transiit.
+     </p><p><milestone unit="par" n="79"/> Helorus, Syracusarum, a quo civitas.
+     </p><p><milestone unit="par" n="80"/> Himella, Sabinorum, prope Casperiam urbem.
+     </p><p><milestone unit="par" n="81"/> Hermus, Lydiae.	
+     </p><p><milestone unit="par" n="82"/> Herbesos, qui et <unclear>endrius</unclear> oppido <unclear>alurina</unclear> decurrit per fines Helori.
+     </p><p><milestone unit="par" n="83"/> Himera, oppido Thermitanorum, dedit nomen Himerae. Hoc flumen in duas partes findi ait Stesichorus, unam in Tyrrhenum mare, aliam in Libycum decurrere.
+     </p><p><milestone unit="par" n="84"/> Hypsa, secundum <unclear>irecon</unclear> urbem Sicaniae decurrit, gratam Herculi.
+     </p><p><milestone unit="par" n="85"/> Hipparis, quem et Hiccarin vocant, ex quo Camerinis aqua inducta est.
+     </p><p><milestone unit="par" n="86"/> Hermus, Lydiae.
+     </p><p><milestone unit="par" n="87"/> Hapsus <unclear>a undeae</unclear> finibus Apolloniae decurrens in sinum Ionium.
+     </p><p><milestone unit="par" n="88"/> Indus, Indiam definit ab occasu, a quo India dicta; hic <supplied>de Caucaso</supplied> descendentem Hydaspem recipit.
+     </p><p><milestone unit="par" n="89"/> Isara, Galliae, currit in Rhodanum.
+     </p><p><milestone unit="par" n="90"/> Isamnus, Dyrrachi, ab Isamno castello dictus.
+     </p><p><milestone unit="par" n="91"/> Ilerda, Hispaniae, a quo Ilerda.
+     </p><p><milestone unit="par" n="92"/> Inachus, Thessaliae.	
+     </p><p><milestone unit="par" n="93"/> Kaicus, Moesiae.
+     </p><p><milestone unit="par" n="94"/> Lyncestius, Thraciae, cuius aquam bibentes ebrii fiunt. 
+     </p><p><milestone unit="par" n="95"/> Lethe, Inferorum, quod oblivii sit causa.	
+     </p><p><milestone unit="par" n="96"/> Liris, non longe a Marsis Vestinisque, cuius in ripa nymphae Maricae Minturnensis templum est.
+     </p><p><milestone unit="par" n="97"/> Lycus, Asiae, unde <unclear>lycis</unclear>.
+     </p><p><milestone unit="par" n="98"/> <del>Liger. Gallie. Dividens aquitanos et celtas in occeanum brittannicum evolvitur.</del>
+     </p><p><milestone unit="par" n="99"/> Lycastus, <unclear>coae</unclear>, a quo Lyca<supplied>stum</supplied> civitas.
+     </p><p><milestone unit="par" n="100"/> Lethaeus, insulae Cretae, ita dictus, quod Harmonia Veneris filia Cadmon <supplied><gap/></supplied> oblita dicitur.
+     </p><p><milestone unit="par" n="101"/> Mincius, Galliae Cisalpinae, proximus Mantuanis; agitur ex Benaco.
+     </p><p><milestone unit="par" n="102"/> <del>Mosella belgicae. Defluit in renum.</del>
+     </p><p><milestone unit="par" n="103"/> Maeandros, Cariae. <del>gentis Asiae.</del> Hic tam flexuosus est, ut in sese recurrat.
+     </p><p><milestone unit="par" n="104"/> Minion, Etruriae, a Minone.
+     </p><p><milestone unit="par" n="105"/> Metaurus, Vmbriae, in sinum Adriaticum decurrens.
+     </p><p><milestone unit="par" n="106"/> Macra, Liguriae, secundum Lunam urbem.
+     </p><p><milestone unit="par" n="107"/> Mathis, Dyrrachi, non longe a Lisso.
+     </p><p><milestone unit="par" n="108"/> Marsyas, Phrygiae, urbis Celaenae.
+     </p><p><milestone unit="par" n="109"/> Melas, Thessaliae, in Apidanum fluens.
+     </p><p><milestone unit="par" n="110"/> Nilus, Aegypti, ex Aethiopia decurrens.
+     </p><p><milestone unit="par" n="111"/> Nar, Sabinorum, ex Appennino in Tiberim decurrit; per Narniam fluit.
+     </p><p><milestone unit="par" n="112"/> Numicus, in agro Laurenti.
+     </p><p><milestone unit="par" n="113"/> Niphates, Armeniae, ex monte Niphate.
+     </p><p><milestone unit="par" n="114"/> Oaxes, Cretae, a quo et civitas Oaxus. Varro hoc docet: <q>"<supplied>Et</supplied> geminis cupiens tellurem Oeaxida palmis".</q>
+     </p><p><milestone unit="par" n="115"/> Orethus, Panhormi, Siciliae.
+     </p><p><milestone unit="par" n="116"/> Orontes, Syriae, e monte Casio.	
+     </p><p><milestone unit="par" n="117"/> Padus, Galliae Cisalpinae, qui et Eridanus.
+     </p><p><milestone unit="par" n="118"/> Permessos, Boeotiae.
+     </p><p><milestone unit="par" n="119"/> Peneos, Thessaliae, ubi silvae quas Tempe vocant; hunc Bebryces possederunt.
+     </p><p><milestone unit="par" n="120"/> Phasis, in Colchide, qui de monte Amaranto fluit.
+     </p><p><milestone unit="par" n="121"/> Pantagyas, Siciliae, ita dictus, quod sonitus eius decurrentis per totam insulam auditus est usque eo donec Ceres filiam quaerens conprimeret eum.
+     </p><p><milestone unit="par" n="122"/> Pitonius, qui per medium lacum Fucinum Marsorum ita decurrit, ut aqua eius non misceatur stagno.
+     </p><p><milestone unit="par" n="123"/> Pactolus, Lydiae, qui decurrens aurum trahit.
+     </p><p><milestone unit="par" n="124"/> Phacelinus, Siciliae, iuxta Peloridem, confinis templo Dianae.
+     </p><p><milestone unit="par" n="125"/> Pisaurus, a quo civitas Pisauria; decurrit in Adriaticum mare.
+     </p><p><milestone unit="par" n="126"/> Phoenix, Thessaliae, in Apidanum fluit.
+     </p><p><milestone unit="par" n="127"/> Pachynos, Siciliae, ubi Sextus Pompeius iuvenis interfectus est.
+     </p><p><milestone unit="par" n="128"/> Rhenus, Germaniae, <unclear>medos</unclear> a Germanis segregans.	
+     </p><p><milestone unit="par" n="129"/> Rubicon, Galliae, iuxta Ariminum, olim Gallos dividens. 
+     </p><p><milestone unit="par" n="130"/> Rutuba, ex Appennino in Thybrin fluit.
+     </p><p><milestone unit="par" n="131"/> Strymon, Thraciae, plurimo gelu strictus.	
+     </p><p><milestone unit="par" n="132"/> <del>Sequana gallie. luteciam parisiorum circumfluit vel insula<supplied>m</supplied> facit.</del>
+     </p><p><milestone unit="par" n="133"/> Sperchios, Thessaliae, in Maliacum mare decurrens usque ad oram Locridis.
+     </p><p><milestone unit="par" n="134"/> Silarus, Lucaniae.
+     </p><p><milestone unit="par" n="135"/> Selinus, Megareorum, a quo civitas Selinus dicta quod apium ibi plurimum nascitur.
+     </p><p><milestone unit="par" n="136"/> Sagaris, Phrygiae, ad castellum Berecynthium.
+     </p><p><milestone unit="par" n="137"/> Sebethos, Neapoli, in Campania.
+     </p><p><milestone unit="par" n="138"/> Sarnus, Nuceriae, ex Sarone fluvio <unclear>hadriae</unclear>, per Campaniam decurrens.
+     </p><p><milestone unit="par" n="139"/> Symaethos, Siciliae, vicinus Palicis.
+     </p><p><milestone unit="par" n="140"/> Siler, in Lucania, oppido Alburno.
+     </p><p><milestone unit="par" n="141"/> Sicoris, Hispaniae, iuxta Ilerdam.
+     </p><p><milestone unit="par" n="142"/> Saron, Hadriae.	
+     </p><p><milestone unit="par" n="143"/> Tigris, Parthiae, qui sub terra means Rubro mari miscetur.
+     </p><p><milestone unit="par" n="144"/> Tauromenius, inter Syracusas et Messanam, a quo oppidum Tauromenium, quod oppidum <foreign xml:lang="grc">Εὐσεβῶν χώρα</foreign> dicitur.
+     </p><p><milestone unit="par" n="145"/> <del>Turia hispaniae. quod valentiam parvo intervallo praeterfluit.</del>
+     </p><p><milestone unit="par" n="146"/> Tanager, Lucaniae.
+     </p><p><milestone unit="par" n="147"/> Thybris, idem Tiberis, idem Albula, qui ex radicibus montis Appennini ex Etruria Romam decurrit, quondam Tuscos dividens.
+     </p><p><milestone unit="par" n="148"/> Tanais, Scythiae, Asiam ab Europa dividit.
+     </p><p><milestone unit="par" n="149"/> Thermodoon, Colchos et Amazonas dividit.
+     </p><p><milestone unit="par" n="150"/> Thrasymenos, Lydiae.	
+     </p><p><milestone unit="par" n="151"/> Thapsus, Africae, iuxta Rusiccade.
+     </p><p><milestone unit="par" n="152"/> Triocala, qui et Assorus, iuxta Alabon Megarensium.
+     </p><p><milestone unit="par" n="153"/> Thermus, Vmbriae.
+     </p><p><milestone unit="par" n="154"/> Taygeta, Laconices, ubi filios suos moris habent durare frigore aquae.
+     </p><p><milestone unit="par" n="155"/> Titaressos, Thessaliae, qui et Horcus, in Peneum decidit, nec ei miscetur, sed super eum funditur; quem Stygia palude crescere quidam adfirmant.
+     </p><p><milestone unit="par" n="156"/> Vulturnus, Campaniae, a quo oppidum iuxta Puteolos Vulturnum.
+     </p><p><milestone unit="par" n="157"/> Virbius <unclear>Laconices</unclear>, ubi Hippolytum Aesculapius arte medicinae reddidit vitae, unde et Virbius dictus.
+     </p><p><milestone unit="par" n="158"/> Vfens, Tarracinae proximus.
+     </p><p><milestone unit="par" n="159"/> Varus, hic nunc Galliam ab Italia dividit, antea Rubicon.
+     </p><p><milestone unit="par" n="160"/> Vluleus, Dyrrachii, unde aqua his ducta. 
+     </p><p><milestone unit="par" n="161"/> Xanthus, Troiae, Ilio proximus.	
+     </p><p><milestone unit="par" n="162"/> Xanthus, Lyciae, unde et civitas.
+    </p>
+   </div>
+   <div type="section">
+    <head>Fontes</head>
+    <p>
+     <milestone unit="par" n="163"/> Aganippe, Boeotiae. 
+     </p><p><milestone unit="par" n="164"/> Acidalia, in Orchomeno.
+     </p><p><milestone unit="par" n="165"/> Clitumnus, Mevaniae.
+     </p><p><milestone unit="par" n="166"/> Clanius, Acerrae, in Campania, qui cum creverit pestem terrae meditatur.
+     </p><p><milestone unit="par" n="167"/> Castalius, Delphis.
+     </p><p><milestone unit="par" n="168"/> Clitor, Arcadiae, qui potus vinum in odium adducit. 
+     </p><p><milestone unit="par" n="169"/> Camenarum, Romae.
+     </p><p><milestone unit="par" n="170"/> Dircaeus, Boeotiae.
+     </p><p><milestone unit="par" n="171"/> <unclear>Essus. phodo.</unclear> 
+     </p><p><milestone unit="par" n="172"/> Gargaphie, Boeotiae, ubi Actaeon laceratur.
+     </p><p><milestone unit="par" n="173"/> Hippocrene, Boeotiae. <del>in Arcadia.</del> 
+     </p><p><milestone unit="par" n="174"/> Inessa, Rhodi, a quo Siciliae civitas Inessa.
+     </p><p><milestone unit="par" n="175"/> Libethris, Boeotiae.
+     </p><p><milestone unit="par" n="176"/> Liriope, ubi Narcissus se conspexit.
+     </p><p><milestone unit="par" n="177"/> Menais, Leontinorum per quem timent iurare cives eius loci.
+     </p><p><milestone unit="par" n="178"/> Spandaeus, in insula Coa, Asiae.
+     </p><p><milestone unit="par" n="179"/> Salmacis, Cariae, ex quo qui bibit mollescit, id est obscenus fit. 
+     </p><p><milestone unit="par" n="180"/> Timavus, Aquileiae, Galliae.
+     </p><p><milestone unit="par" n="181"/> Virbinus, <unclear>Laconices</unclear>.
+    </p>
+   </div>
+   <div type="section">
+    <head>Lacus</head>
+    <p>
+     <milestone unit="par" n="182"/> Avernus, <supplied>Campaniae,</supplied> inmensae altitudinis, cuius ima pars deprehendi non potest.
+     </p><p><milestone unit="par" n="183"/> Acheros, qua ad Inferos creditur iri.
+     </p><p><milestone unit="par" n="184"/> Aecicus, Apolloniae.
+     </p><p><milestone unit="par" n="185"/> Ampsanctus, Lucaniae, cuius halitus volucres necat.
+     </p><p><milestone unit="par" n="186"/> Cyane, Syracusis, per quem Anapus transit.
+     </p><p><milestone unit="par" n="187"/> Cocytos, Inferorum, prope Styga paludem.
+     </p><p><milestone unit="par" n="188"/> Cimini, Etruriae.	
+     </p><p><milestone unit="par" n="189"/> Feronia, Tarracinae.
+     </p><p><milestone unit="par" n="190"/>Fucinus, Marsis.	
+     </p><p><milestone unit="par" n="191"/>Hammonis, Africae, qui ortu solis et occasu incandescit, reliquo tempore gelidus est.
+     </p><p><milestone unit="par" n="192a"/>In Athamania lacus, luna tenuata, ligna adcendit.
+     </p><p><milestone unit="par" n="192b"/><supplied>In Aethiopia lacus est,</supplied> ex quo qui bibit, aut in insaniam vertitur, aut in soporem.
+     </p><p><milestone unit="par" n="193"/>Larius, Galliae Cisalpinae.
+     </p><p><milestone unit="par" n="194"/>Lucrinus, Campaniae.
+     </p><p><milestone unit="par" n="195"/>Lemannus, Galliae.
+     </p><p><milestone unit="par" n="196"/>Mareotis, Aegypti, unde vites Mareoticae.
+     </p><p><milestone unit="par" n="197"/>Triviae lacus, Ariciae.
+     </p><p><milestone unit="par" n="198"/>Velinus, inter Nar et Aventem.	
+     </p><p><milestone unit="par" n="199"/><del>Venacus, Galliae, unde Mincius fluit.</del>
+    </p>
+   </div>
+   <div type="section">
+    <head>Nemora</head>
+    <p>
+     <milestone unit="par" n="200"/>Angitiae vel Anguitiae <supplied><gap/></supplied> Lucaniae.
+     </p><p><milestone unit="par" n="201"/>Clarium, Colophoniae.
+     </p><p><milestone unit="par" n="202"/>Dodona, Epiri.	
+     </p><p><milestone unit="par" n="203"/>Idalium, in insula Cypro.
+     </p><p><milestone unit="par" n="204"/>Molorchos, in Nemea, a Molorcho hospite Herculis.
+     </p><p><milestone unit="par" n="205"/>Sila, Bruttiorum.
+     </p><p><milestone unit="par" n="206"/>Thymbra, Phrygiae, ab herbae nomine quae Latine cunela dicitur.
+     </p><p><milestone unit="par" n="207"/>Tempe, Thessaliae.
+    </p>
+   </div>
+   <div type="section">
+    <head>Paludes</head>
+    <p>
+    <milestone unit="par" n="208"/>Ambracia, Acarnaniae.
+     </p><p><milestone unit="par" n="209"/>Asia, Asiae, cui Caystros prope est.
+     </p><p><milestone unit="par" n="210"/>Camerina nunc, ante Hyperie dicta, Syracusis.	
+     </p><p><milestone unit="par" n="211"/>Lerna, Arcadiae unde Hydra centum capitum, quam Hercules occidit.
+     </p><p><milestone unit="par" n="212"/>Maeotis, Scythiae.	
+     </p><p><milestone unit="par" n="213"/>Pomptinae, Terracinae, <supplied>a</supplied> Foro Appi.	
+     </p><p><milestone unit="par" n="214"/>Padusa, Galliae, a Pado dicta.
+     </p><p><milestone unit="par" n="215"/>Styx, Inferorum, a Styge Oceani filia.	
+     </p><p><milestone unit="par" n="216"/>Satura, inter Antium et Cerceos, eadem Stura.	
+     </p><p><milestone unit="par" n="217"/>Strymon, Thraciae.
+     </p><p><milestone unit="par" n="218"/>Salpina, in Hadriatico.
+     </p><p><milestone unit="par" n="219"/>Triton, <supplied>Africae; alius in Pallene</supplied> Thraciae, in quo qui se novies merserit in avem convertitur.
+     </p><p><milestone unit="par" n="220"/>Tyraco, Syracusis.
+    </p>
+   </div>
+   <div type="section">
+    <head>Montes</head>
+    <p>
+    <milestone unit="par" n="221"/>Aracynthus, in Attica, quidam in Acarnania dicunt.	
+    </p><p><milestone unit="par" n="222"/>Arius<supplied>ius</supplied>, in insula Chio, unde vinum Ariusium.
+     </p><p><milestone unit="par" n="223"/>Atlas, in ultima Africa, cingens Mauritaniam.
+     </p><p><milestone unit="par" n="224"/>Ascraeus, unde vicus, in Boeotia, unde Hesiodus.	
+     </p><p><milestone unit="par" n="225"/>Aventinus, Romae, unus ex septem montibus.	
+     </p><p><milestone unit="par" n="226"/>Alburnus, Lucaniae.
+     </p><p><milestone unit="par" n="227"/>Alpes, Galliam Togatam a Comata dividunt.
+     </p><p><milestone unit="par" n="228"/>Aethna, Siciliae, flammam emittens.
+     </p><p><milestone unit="par" n="229"/>Agragas, Siciliae, iuxta Gelam.
+     </p><p><milestone unit="par" n="230"/>Athos, Thraciae.
+     </p><p><milestone unit="par" n="231"/>Appenninus, Italiae, usque ad Anconem porrectus.
+     </p><p><milestone unit="par" n="232"/>Albanus, in Latio.
+     </p><p><milestone unit="par" n="233"/>Arentinus, in quo civitas Praeneste.
+     </p><p><milestone unit="par" n="234"/>Amanus, Cappadociae.
+     </p><p><milestone unit="par" n="235"/>Aganippe, Boeotiae, ante Enippe dictus.	
+     </p><p><milestone unit="par" n="236"/>Berecynthus, Phrygiae.	
+     </p><p><milestone unit="par" n="237"/>Bebius, Campaniae, flammam emittens.	
+     </p><p><milestone unit="par" n="238"/>Boreas, Dyrrachi.	
+     </p><p><milestone unit="par" n="239"/>Cithaeron, Thebis.	
+     </p><p><milestone unit="par" n="240"/>Cynthus, Deli.	
+     </p><p><milestone unit="par" n="241"/>Caucasus, Indiae, Parthis et Hyrcanis iunctus.
+     </p><p><milestone unit="par" n="242"/>Cytorus, in Ponto, Paphlagoniae, buxo potens.
+     </p><p><milestone unit="par" n="243"/>Caelius, Romae, unus e septem montibus.
+     </p><p><milestone unit="par" n="244"/>Cybelus, Phrygiae.
+     </p><p><milestone unit="par" n="245"/>Clarius, Colophoniae, a quo Apollo Clarius.
+     </p><p><milestone unit="par" n="246"/>Cyllenius, Arcadiae, unde Mercurius.
+     </p><p><milestone unit="par" n="247"/>Catillus, Tiburti.
+     </p><p><milestone unit="par" n="248"/>Coras, item Tiburti.
+     </p><p><milestone unit="par" n="249"/>Cinyrus, Piceno.
+     </p><p><milestone unit="par" n="250"/>Chimaera, Lyciae.	
+     </p><p><milestone unit="par" n="251"/><unclear>Calpe, Siciliae, freto imminet.</unclear> 	
+     </p><p><milestone unit="par" n="252"/>Ciminus, Etruriae.	
+     </p><p><milestone unit="par" n="253"/>Calpe, Hispaniae <supplied>, freto inminet</supplied>.
+     </p><p><milestone unit="par" n="254"/>Corycos, Ciliciae, ubi optimum crocum nascitur.	
+     </p><p><milestone unit="par" n="255"/>Castalia, in Delphis.
+     </p><p><milestone unit="par" n="256"/>Dictaeus, Cretae.
+     </p><p><milestone unit="par" n="257"/>Dodona, Chaoniae, Epiri.	
+     </p><p><milestone unit="par" n="258"/>Dindyma, Phrygiae.	
+     </p><p><milestone unit="par" n="259"/>Eryx, Siciliae.
+     </p><p><milestone unit="par" n="260"/>Erymanthus, Arcadiae.
+     </p><p><milestone unit="par" n="261"/>Esquilinus, Romae, unus e septem montibus.
+     </p><p><milestone unit="par" n="262"/>Epidamnus, Dyrrachii.
+     </p><p><milestone unit="par" n="263"/>Gargarus, in Phrygia, Idae montis cacumen.
+     </p><p><milestone unit="par" n="264"/>Gaurus, Campaniae.
+     </p><p><milestone unit="par" n="265"/>Helicon, Aoniae Boeotiaeve, Musis sacer.
+     </p><p><milestone unit="par" n="266"/>Hyperborei, Thraciae, ultra plagam aquiloniam.
+     </p><p><milestone unit="par" n="267"/>Haemus, Thraciae.
+     </p><p><milestone unit="par" n="268"/><unclear>Haemimedymnus</unclear>, Hiberiae Ponticae.	
+     </p><p><milestone unit="par" n="269"/>Ismarus, Thraciae, insignis oleo et vino.	
+     </p><p><milestone unit="par" n="270"/>Ida, in Troade; alius in Creta.	
+     </p><p><milestone unit="par" n="271"/>Lycaeus, Arcadiae, ubi Pan praecipue colitur.
+     </p><p><milestone unit="par" n="272"/>Libethrus, <unclear>Aetoliae</unclear>.
+     </p><p><milestone unit="par" n="273"/>Maenalus, Arcadiae, in Tegeaea.	
+     </p><p><milestone unit="par" n="274"/>Massicus, Campaniae, in Falerno.	
+     </p><p><milestone unit="par" n="275"/>Marpessos, in insula Paro.
+     </p><p><milestone unit="par" n="276"/>Monoecus, Liguriae.
+     </p><p><milestone unit="par" n="277"/><unclear>Maxteria</unclear>. Iuxta oppidum <unclear>auronae</unclear>. Hispaniae.
+     </p><p><milestone unit="par" n="278"/><unclear>Maesulus</unclear>, qui et Vesulus, in Campania.
+     </p><p><milestone unit="par" n="279"/>Niphates, Armeniae. <del>in Perside.</del>
+     </p><p><milestone unit="par" n="280"/>Neritos, Ithacae, a quo et portus.
+     </p><p><milestone unit="par" n="281"/>Nysa, Indiae.
+     </p><p><milestone unit="par" n="282"/>Nemeus, Cleonensium.
+     </p><p><milestone unit="par" n="283"/>Olympus, Macedoniae, altissimus qui altitudine sua super pluvias et nubes excedit.
+     </p><p><milestone unit="par" n="284"/>Ossa, Thessaliae.
+     </p><p><milestone unit="par" n="285"/>Othrys, Thessaliae.
+     </p><p><milestone unit="par" n="286"/>Oetaeus, Thessaliae, ubi Hercules conbustus est.
+     </p><p><milestone unit="par" n="287"/>Oeniphile, Dyrrachii.
+     </p><p><milestone unit="par" n="288"/>Parnasos, Phocidis, duobus verticibus surgens.
+     </p><p><milestone unit="par" n="289"/>Pindus, Thessaliae.
+     </p><p><milestone unit="par" n="290"/>Parthenius, Arcadiae.
+     </p><p><milestone unit="par" n="291"/>Phanaeus, Chii, vino insignis.
+     </p><p><milestone unit="par" n="292"/>Palatinus, Romae, unus e septem montibus.
+     </p><p><milestone unit="par" n="293"/>Pelios, Thessaliae, in quo Lapithae morati.
+     </p><p><milestone unit="par" n="294"/>Pangaeus, Thraciae. <del>in Thessalia.</del>
+     </p><p><milestone unit="par" n="295"/>Pholoe, Thraciae, ubi Centauri nati.
+     </p><p><milestone unit="par" n="296"/>Pyrenaeus, Galliam ab Hispania dividit.
+     </p><p><milestone unit="par" n="297"/>Pylartes, Dyrrachi.
+     </p><p><milestone unit="par" n="298"/>Petra, Dyrrachi. castra Pompei Magni.
+     </p><p><milestone unit="par" n="299"/>Quirinus, Romae, unus e septem montibus.
+     </p><p><milestone unit="par" n="300"/>Rhodope, Thraciae.
+     </p><p><milestone unit="par" n="301"/>Riphaei, Scythiae.
+     </p><p><milestone unit="par" n="302"/>Rhamnusium, Scodrae.
+     </p><p><milestone unit="par" n="303"/>Saturnius, Romae, qui et Capitolinus, idem et Tarpeius. 
+     </p><p><milestone unit="par" n="304"/>Soractis, Faliscorum.	
+     </p><p><milestone unit="par" n="305"/>Sarnus, Nuceriae.	
+     </p><p><milestone unit="par" n="306"/>Sipylus, Lydiae.	
+     </p><p><milestone unit="par" n="307"/>Tmarus, Molossiae.
+     </p><p><milestone unit="par" n="308"/>Tarpeius, Romae, unus e septem montibus.	
+     </p><p><milestone unit="par" n="309"/>Taenarus, Laconices.	
+     </p><p><milestone unit="par" n="310"/>Tmolus, Lydiae, vino insignis.
+     </p><p><milestone unit="par" n="311"/>Taburnus, Samnitium, olivifer.
+     </p><p><milestone unit="par" n="312"/>Taygeta, Laconices.
+     </p><p><milestone unit="par" n="313"/>Tetrica, Sabinorum.
+     </p><p><milestone unit="par" n="314"/>Tomarus, Macedoniae, proximus Apolloniae, in conspectu Dyrrachi.
+     </p><p><milestone unit="par" n="315"/>Velinus, Romae, unus e septem montibus.
+     </p><p><milestone unit="par" n="316a"/>Vesulus, <supplied>Liguriae.</supplied>
+     </p><p><milestone unit="par" n="316b"/><supplied>Vultur,</supplied> Apuliae.
+    </p>
+   </div>
+   <div type="section">
+    <head>Gentes</head>
+    <p>
+     <milestone unit="par" n="317"/>Agathyrsi, Scythiae, partis Europae. 
+     </p><p><milestone unit="par" n="318"/>Acarnanii, Epirotae, Europae.
+     </p><p><milestone unit="par" n="319a"/>Apuli, Italici <supplied>, Europae</supplied>.	
+     </p><p><milestone unit="par" n="319b"/><supplied><gap/></supplied> partis Asiae.
+     </p><p><milestone unit="par" n="320"/>Aethiopes, Indi, Asiae.
+     </p><p><milestone unit="par" n="321"/>Aegyptii, partis Asiae.	
+     </p><p><milestone unit="par" n="322"/>Barcaei, Mauri, Libyae.	
+     </p><p><milestone unit="par" n="323"/>Chalybes, in Ponto. <del>Europae.</del>
+     </p><p><milestone unit="par" n="324"/>Cicones, Thraciae <supplied>, Europae</supplied>.	
+     </p><p><milestone unit="par" n="325"/>Dryopes, Phocenses, Europae.	
+     </p><p><milestone unit="par" n="326"/>Dahae, Scythiae, Europae.	
+     </p><p><milestone unit="par" n="327"/>Gaetuli, Afri, Libyae.
+     </p><p><milestone unit="par" n="328"/>Germani, Europae.
+     </p><p><milestone unit="par" n="329"/>Getae, Thraces, Europae.
+     </p><p><milestone unit="par" n="330"/>Geloni, <unclear>Thraciae</unclear>, picti corporis parte.
+     </p><p><milestone unit="par" n="331"/>Garamantes, Mauri, Libyae.
+     </p><p><milestone unit="par" n="332"/>Gangaridae, Indiae.
+     </p><p><milestone unit="par" n="333"/>Hispani, Europae.
+     </p><p><milestone unit="par" n="334"/>Indi, Arabes, Asiae.
+     </p><p><milestone unit="par" n="335"/>Ityraei, Syri, usu sagittae periti.
+     </p><p><milestone unit="par" n="336"/>Kares, Asiae.
+     </p><p><milestone unit="par" n="337"/>Lydi, partis Asiae. <del>in Aegypto.</del>
+     </p><p><milestone unit="par" n="338"/>Lapithae, Thessali, Europae.
+     </p><p><milestone unit="par" n="339"/>Lycii, Asiae.
+     </p><p><milestone unit="par" n="340"/>Leleges, Carii, <unclear>Europae</unclear>.
+     </p><p><milestone unit="par" n="341"/>Lucani, Italici, Europae.	
+     </p><p><milestone unit="par" n="342"/>Massylii, Afri <supplied>, Libyae</supplied>.	
+     </p><p><milestone unit="par" n="343"/><supplied>Maurusii,</supplied> Mauri, Libyae, proximi <supplied>Oceano</supplied>.	
+     </p><p><milestone unit="par" n="344"/><unclear>Mage,</unclear> Mauri, Libyae.	
+     </p><p><milestone unit="par" n="345"/>Marsi, Italici, Europae.
+     </p><p><milestone unit="par" n="346"/>Medi, Parthiae proximi.	
+     </p><p><milestone unit="par" n="347"/>Morini, Oceano iuncti, Europae.	
+     </p><p><milestone unit="par" n="348"/>Numidae, Mauri, Libyae.	
+     </p><p><milestone unit="par" n="349"/>Osci Samnites, Italici, Europae.
+     </p><p><milestone unit="par" n="350"/>Parrhasii, Arcades, Europae. 
+     </p><p><milestone unit="par" n="351"/>Pannonii, Illyrici, Europae.	
+     </p><p><milestone unit="par" n="352"/>Phillyridae, Europae. <del>in Venetia.</del> 
+     </p><p><milestone unit="par" n="353"/>Rutuli idem Dauni, Italici, Europae.
+     </p><p><milestone unit="par" n="354"/>Seres, Asiae, sub Oriente.
+     </p><p><milestone unit="par" n="355"/>Sabaei, Arabes.
+     </p><p><milestone unit="par" n="356"/>Sauromatae, Europae.
+     </p><p><milestone unit="par" n="357"/>Teutones, Galli, Europae.
+     </p><p><milestone unit="par" n="358"/>Tusci, Italici, Europae.
+     </p><p><milestone unit="par" n="359"/>Thraces, <del>Thessali,</del> Europae.
+     </p><p><milestone unit="par" n="360"/>Thessali, Macedones, Europae.
+     </p><p><milestone unit="par" n="361"/>Vulsci, Italici, Europae.
+    </p>
+   </div>
+   
+  </body>
+ </text>
+</TEI>

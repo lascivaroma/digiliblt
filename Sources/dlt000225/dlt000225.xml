@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Expositio sermonum antiquorum</title>
+    <author>Fulgentius (Fabius Planciades Fulgentius)</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Beatrice Strona</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2015</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000225</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Fabii Planciadis Fulgentii V. C. Opera; Accedunt Fabii Claudii Gordiani
+      Fulgentii V. C. De aetatibus mundi et hominis et S. Fulgentii episcopi super Thebaiden</hi>,
+     recensuit Rudulfus Helm, addenda adiecit Jean Preaux. Ed. stereotypa ed. anni 1898, Stutgardiae
+     1970 (Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana).</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+
+   <div type="pr" n="pr">
+    <p><milestone unit="page" n="p. 111 Helm"/> Ne de tuorum praeceptorum, domine, serie nostra
+     quicquam curtasse inoboedientia putaretur, libellum etiam quem de abstrusis sermonibus
+     impertiri iussisti, in quantum memoriae enteca subrogare potuit absolutum retribui, non
+     faleratis sermonum studentes spumis quam rerum manifestationibus dantes operam lucidandis.</p>
+   </div>
+
+   <div type="cap" n="1">
+    <p>
+     <del>Quid sit sandapila.</del> Sandapilam antiqui dici uoluerunt feretrum mortuorum, id est
+     loculum, non in. quo nobilium corpora, sed in quo plebeiorum atque damnatorum cadauera
+     portabantur, sicut Stesimbrotus Tasius de morte Policratis regis Samiorum descripsit dicens:
+     ‘Posteaquam de cruce depositus, sandapila etiam deportatus est’.</p>
+   </div>
+
+   <div type="cap" n="2">
+    <p>
+     <del>Quid sit uispillo.</del> Vispillones dicti sunt baiules, quamuis Antidamas Eracleopolites
+     uispillones dixerit nudatores cadauerum, sicut in historia Alexandri Macedonis <milestone
+      unit="page" n="p. 112 Helm"/> scripsit dicens: ‘Plus quam trecentos cadauerum uispillones
+     repperiens crucibus fixit’. Tamen Mnaseas scribit in Europae libro Apollinem, posteaquam a Ioue
+     uictus atque interfectus est, a uispillonibus ad sepulturam delatus est.</p>
+   </div>
+
+   <div type="cap" n="3">
+    <p>
+     <del>Quid sit pollinctor.</del> Pollinctores dicti sunt qui funera morientia accurant; unde et
+     Plautus in Menecmi comoedia ait: ‘Sicut pollinctor dixit qui eum pollinxerat’. Pollinctores
+     dicti sunt quasi pollutorum unctores, id est cadauerum curatores, unde et Apuleius in Ermagora
+     ait: ‘Pollincto eius funere domuitionem paramus’.</p>
+   </div>
+
+   <div type="cap" n="4">
+    <p>
+     <del>Quid sint manales lapides.</del> Labeo qui disciplinas Etruscas Tagetis et Bacitidis
+     quindecim uoluminibus explanauit, ita ait: ‘Fibrae iecoris sandaracei coloris dum fuerint,
+     manales tunc uerrere opus est petras’, id est quas solebant antiqui in modum cilindrorum per
+     limites trahere pro pluuiae commutandam inopiam.</p>
+   </div>
+
+   <div type="cap" n="5">
+    <p>
+     <del>Quid sint neferendi sues.</del> Diofontus Lacedemonius, <milestone unit="page"
+      n="p. 113 Helm"/> qui de sacris deorum scripsit, ait aput Athenas Marti solere sacrificare
+     sacrum quod ecatonpefoneuma appellatur; si quis enim centum hostes interfecisset, Marti de
+     homine sacrificabat aput insulam Blennon, quod sacrificatum est a duobus Cretensibus et uno
+     Locro, id est Timne Cortiniensi, <supplied><gap/></supplied> Proculo Locro, sicut Solicrates
+     scribit. Sed posteaquam hoc Atheniensibus displicuit, coeperunt offerre porcum castratum quem
+     neferendum uocabant, id est quasi sine renibus. Et aput Romanos Varro scribit Sitium Dentatum
+     centies et uicies pugnasse singulari certamine, cicatrices habere econtra quadraginta quinque,
+     pos tergum nullam, coronas accepisse uiginti sex, armillas centum quadraginta; et istum primum
+     sacrum fecisse Marti.</p>
+   </div>
+
+   <div type="cap" n="6">
+    <p>
+     <del>Quid sint ambignae oues.</del> Bebius Macer, qui fastalia sacrorum scripsit, ait Iunoni
+     eas quae geminos parerent oues sacrificare cum duobus agnis altrinsecus religatis; quas oues
+     ambignas uocari quasi ex utraque parte agnos habentes.</p>
+   </div>
+
+   <div type="cap" n="7">
+    <p>
+     <del>Quid sint suggrundaria.</del> Priori tempore suggrundaria antiqui dicebant sepulchra
+     infantium qui necdum <milestone unit="page" n="p. 114 Helm"/> quadraginta dies implessent, quia
+     nec busta dici poterant, quia ossa quae conburerentur non erant, nec tanta inmanitas cadaueris
+     quae locum tumisceret; unde et Rutilius Geminus in Astianactis tragoedia ait: ‘Melius
+     suggrundarium miser quereris quam sepulchrum’.</p>
+   </div>
+
+   <div type="cap" n="8">
+    <p>
+     <del>Quid sit silicernius.</del> Silicernios dici uoluerunt senes iam incuruos quasi iam
+     sepulchrorum suorum silices cernentes; unde et Cincius Alimentus in historia de Gorgia Leontino
+     scribit dicens: ‘Qui dum iam silicernius finem sui temporis expectaret, etsi morti non potuit,
+     tamen infirmitatibus exultauit’.</p>
+   </div>
+
+   <div type="cap" n="9">
+    <p>
+     <del>Quid sint aruales fratres.</del> Acca Laurentina Romuli nutrix consueuerat pro agris semel
+     in anno sacrificare cum duodecim filiis suis sacrificium praecedentibus; unde dum unus mortuus
+     esset, propter nutricis gratiam Romulus in uicem defuncti se succedere pollicetur; unde et
+     ritus processit cum XII iam deinceps sacrificare et aruales dici fratres, sicut Rutilius
+     Geminus in libris pontificalibus memorat.</p>
+   </div>
+
+   <div type="cap" n="10">
+    <p>
+     <del>Quid sint iniuges boues.</del> Manilius Crestus in <milestone unit="page" n="p. 115 Helm"
+     /> libro quem de deorum himnis scribit ait Mineruae iniuges boues sacrificare, id est iugum
+     numquam ferentes, illa uidelicet causa, quod et uirginitas iugum nesciat maritale et uirtus
+     numquam sit iugo prementi subiecta.</p>
+   </div>
+
+   <div type="cap" n="11">
+    <p>
+     <del>Quid sint semones.</del> Semones dici uoluerunt deos quos nec caelo dignos ascriberent ob
+     meriti paupertatem, sicut sunt Priapus, Epona, Vertumnus, nec terrenos eos deputare uellent pro
+     gratiae ueneratione, sicut Varro in mistagogorum libro ait: ‘Semoneque inferius derelicto deum
+     depinnato orationis attollam alloquio’.</p>
+   </div>
+
+   <div type="cap" n="12">
+    <p>
+     <del>Quid sit blatterare.</del> Pacuuius in Seudone comedia inducit Sceparnum seruum ancillae
+     dicentem: ‘Ni ego te blatterantem aspicerem, his mintium iudicassem’; blatterare enim quasi
+     uerba trepidantia metu balbutire dixerunt.</p>
+   </div>
+
+   <div type="cap" n="13">
+    <p>
+     <del>Quid sit luscicius.</del> Luscicios dici uoluerunt in die parum uidentes, quos Greci
+     miopes uocant; unde et Plautus in mercatoris comedia ait: ‘Mirum lolio uictitare <milestone
+      unit="page" n="p. 116 Helm"/> te, tam uili tritico, quia lusciciosus es’; dicunt enim quod
+     lolium comedentibus oculi obscurentur.</p>
+   </div>
+
+   <div type="cap" n="14">
+    <p>
+     <del>Quid sit tutulus.</del> Varro in pontificalibus ait tutulos sacerdotes dici breuium
+     deorum. Numa uero Pompilius et ipse de pontificalibus scribens tutulum dici ait pallium quo
+     sacerdotes caput tutabant, cum sacrificium accessissent, sicut et Virgilius: ‘Et capita ante
+     aras Frigio uelamur amictu’.</p>
+   </div>
+
+   <div type="cap" n="15">
+    <p>
+     <del>Quid sit oria.</del> Oriam dicunt nauicellam modicam piscatoriam; unde et Plautus in
+     Cacisto ait: ‘Malo hunc alligari ad oriam, ut semper piscetur, etsi sit tempestas maxima’.</p>
+   </div>
+
+   <div type="cap" n="16">
+    <p>
+     <del>Quid sit problema.</del> Problema dicta est propositio in capite libri quaestionaliter
+     posita; unde et Demostenes pro Philippo ait — sed ne quid te Grecum turbet exemplum, ego pro
+     hoc tibi Latinum feram — ait enim: ‘Problematis autenticum gradum tradamus astanti, cui nostra
+     subsequens occurset oratio’. Nam et Tertullianus in libro quem de fato scripsit ita ait: ‘Redde
+     huic fratri primum problematis mancipatum’.</p>
+   </div>
+
+   <div type="cap" n="17">
+    <p>
+     <del>Quid sit pumilior, quid sit glabrior.</del> Apuleius in <milestone unit="page"
+      n="p. 117 Helm"/> asino aureo inducit sorores Psicae maritis detrahentis; dicit: ‘quouis puero
+     pumiliorem et cucurbita glabriorem’; pumilios enim dicunt molles atque enerues, glabrum uero
+     lenem et inberbem.</p>
+   </div>
+
+   <div type="cap" n="18">
+    <p>
+     <del>Quid sint sutelae.</del> Sutelam dici uolunt astutiam, quasi subtilia tela; unde et
+     Plautus in Cassina ait: ‘Possis clam me sutelis tuis praeripere Cassinam uxorem, proinde ut
+     postulas’.</p>
+   </div>
+
+   <div type="cap" n="19">
+    <p>
+     <del>Quid sit friguttire.</del> Friguttire dicitur subtiliter adgarrire; unde et Plautus in
+     Cassina ait: ‘Quidnam friguttis?’ et Ennius in Telestide comedia sic ait: ‘Haec anus admodum
+     friguttit; nimirum sauciauit se flore Liberi’.</p>
+   </div>
+
+   <div type="cap" n="20">
+    <p>
+     <del>Quid sit tittiuilicium.</del> Tittiuilicium dici uoluerunt fila putrida quae de telis
+     cadunt; ut Plautus in Cassina ait: ‘Non ego hoc uerbum empsim tittiuilicio’, id est re admodum
+     uilissima. Nam et Marcus Cornutus in satyra sic ait: ‘Tittiuiles Flacce do tibi’.<milestone
+      unit="page" n="p. 118 Helm"/></p>
+   </div>
+
+   <div type="cap" n="21">
+    <p>
+     <del>Quid sint isculponeas.</del> Sculponeas dici uoluerunt cestus plumbo ligatos; unde et
+     Neuius in Philemporo comedia ait: ‘Sculponeis battenda huic sunt latera probe’ et Plautus in
+     Cassina simili modo ait: ‘Melius sculponeas, quibus battuatur tibi os, senex nequissime’.</p>
+   </div>
+
+   <div type="cap" n="22">
+    <p>
+     <del>Quid sit catillatum.</del> Catillare dicitur per alienas domus infrontate girare, a
+     catulis tractum, quod per omnes domus circuant; unde et Propertius: ‘Catillata geris uadimonia,
+     puplicum prostibulum’ et Plautus similiter ait: ‘Quin meam uxorem mittam catillatum?’</p>
+   </div>
+
+   <div type="cap" n="23">
+    <p>
+     <del>Quid sit capularis.</del> Capularem dici uoluerunt senem iam morti contiguum, sed et reos
+     capulares dicebant, qui capulo digni fuerunt; unde et Lucilius ait: ‘Pergit capulare cadauer’
+     et Flaccus Tibullus in Melene comedia ait: ‘Tune amare audes, edentule et capularis senex?’;
+     edentulum enim quasi iam sine dentibus dici uoluit.</p>
+   </div>
+
+   <div type="cap" n="24">
+    <p>
+     <del>Quid sit promus et condus.</del> Promos et condos dici uoluerunt cellaritas, eo quod
+     deintus promant et intus <milestone unit="page" n="p. 119 Helm"/> condant; unde et Plautus in
+     Asinaria ait: ‘Ego sum promus condus procurator peni’; penum enim cellarium dicimus.</p>
+   </div>
+
+   <div type="cap" n="25">
+    <p>
+     <del>Quid sint suppetiae.</del> Suppetias dicimus auxilium; unde et Memos in tragoedia Herculis
+     ait: ‘Ferte suppetias, optimi comites’.</p>
+   </div>
+
+   <div type="cap" n="26">
+    <p>
+     <del>Quid sit auctio.</del> Auctionem dici uoluerunt uenditionem, quasi quod et ementem augeat
+     et uendentem; unde et Plautus in Curculione comedia ait: ‘Auctionem facio parasiticiam’.</p>
+   </div>
+
+   <div type="cap" n="27">
+    <p>
+     <del>Quid sit mnasiterna.</del> Mnasiternam dicunt aquae urnam, id est orceum; unde et
+     Calpurnius in Fronesi comedia ait: ‘Vbi tu mnasiternatus aquam petas?’ et Plautus in Baccide
+     ait: ‘Effer mnasiternam cum aqua foras’.</p>
+   </div>
+
+   <div type="cap" n="28">
+    <p>
+     <del>Quid est antistare.</del> Antistare dicimus praecellere; unde et Crispinus in Eraclea ait:
+     ‘Diuinis uirtutibus antistans Alcides’.</p>
+   </div>
+
+   <div type="cap" n="29">
+    <p>
+     <del>Quid sit istega.</del> Stega est nauis proscenium uel <milestone unit="page"
+      n="p. 120 Helm"/> tabulatum, super quod nautae ambulant, sicut Plautus ait in Crisalo: ‘Forte
+     ego ut in stega consederam’.</p>
+   </div>
+
+   <div type="cap" n="30">
+    <p>
+     <del>Quid sit lembum.</del> Lembum est genus nauicellae uelocissimae, quos dromones dicimus,
+     sicut Virgilius ait: ‘Quam qui auerso uix flumine lembum remigiis subigit’.</p>
+   </div>
+
+   <div type="cap" n="31">
+    <p>
+     <del>Quid sint ramenta.</del> Ramenta dici uoluerunt quasi quoddam proiecticium purgamentum;
+     unde et Quintus Fabius Lucullus in epico carmine ait: ‘Vilissimum ramentum, proluuiosa
+     pestis’.</p>
+   </div>
+
+   <div type="cap" n="32">
+    <p>
+     <del>Quid sint diouolares.</del> Diobolares dicuntur uilissimae meretrices quae sub paruo
+     stipendio prostant, sicut Pammacius ait: ‘Diobolare prostibolum, quem ego actutum ut Dircem
+     partitam reddam’; nam et Pacuuius similiter ait: ‘Non ego ita fui ut nunc sunt meretrices
+     diobolae, quae suam nummi causa parui pendunt gratiam’.</p>
+   </div>
+
+   <div type="cap" n="33">
+    <p>
+     <del>Quid sit ueruina.</del> Veruina est genus iaculi longum quod aliquanti uerrutum uocant,
+     sicut Gauius Bassus in satiris ait: ‘Veruina confodiende, non te nauci <milestone unit="page"
+      n="p. 121 Helm"/> facio’; nauci enim quasi pro nihilo dici uoluerunt. Nam et Plautus in
+     Baccide sic ait: ‘Si tibi macera est foris, at mihi ueruina est domi, qua te ego et illos
+     conficiamus soricina nenia’.</p>
+   </div>
+
+   <div type="cap" n="34">
+    <p>
+     <del>Quid sint diuidiae.</del> Diuidias dixerunt tristitias, sicut Propertius <del>ait</del>:
+     ‘Diuidias mentis conficit omnis amor’.</p>
+   </div>
+
+   <div type="cap" n="35">
+    <p>
+     <del>Quid sit iustitium.</del> Iustitium dicitur luctus puplicus, unde et Fronto in oratione
+     pro Nucerinis ait: ‘Denique iustitium plebi indicitur’.</p>
+   </div>
+
+   <div type="cap" n="36">
+    <p>
+     <del>Quid sit coragium.</del> Coragium dicitur uirginale funus, sicut Apuleius in metamorfoseon
+     ait: ‘Coragio itaque perfecto omnes domuitionem parant’.</p>
+   </div>
+
+   <div type="cap" n="37">
+    <p>
+     <del>Quid sit desiduo.</del> Desiduo dicitur diuturno; unde et Varro in Corallaria ait:
+     ‘Diuidiae mihi fuerunt tum desiduo afuisse te’.</p>
+   </div>
+
+   <div type="cap" n="38">
+    <p>
+     <del>Quid sit floccio.</del> Flocci dixerunt quasi nihili, unde et Plautus ait: ‘Flocci pendo
+     quid rerum geras’.</p>
+   </div>
+
+   <div type="cap" n="39">
+    <p>
+     <del>Quid sit lentaculum.</del> Lentaculum dicitur gustatio, sicut Calimacus in Thesia:
+     ‘Lentaculum proferre Ioui’.<milestone unit="page" n="p. 122 Helm"/></p>
+   </div>
+
+   <div type="cap" n="40">
+    <p>
+     <del>Quid sit edulium.</del> Edulium dicitur ab edendo dictum, id est quasi praegustatiua
+     comestio; unde et Apuleius in asino aureo ait: ‘Edulibus opipare excepta’.</p>
+   </div>
+
+   <div type="cap" n="41">
+    <p>
+     <del>Quid sint tucceta.</del> Tucceta dicuntur escae regiae, sicut Callimorfus in Piseis
+      <del>ait</del>: ‘Ambrosio redolent tucceta fauore’.</p>
+   </div>
+
+   <div type="cap" n="42">
+    <p>
+     <del>Quid sit ferculum.</del> Ferculum dicitur missum carnium, unde et Petronius Arbiter ait:
+     ‘Postquam ferculum allatum est’.</p>
+   </div>
+
+   <div type="cap" n="43">
+    <p>
+     <del>Quid sit miropola, quid sit adfatim, quid sit uenustare.</del> Miropolam dicunt qui
+     unguenta uendunt, ut sunt pigmentarii, unde et Neuius in Diobolaria ait: ‘Miropola adfatim mihi
+     unguentum largitus est, quo me uenustarem’; adfatim dicitur abundanter, uenustare uero
+     exhilarare est.</p>
+   </div>
+
+   <div type="cap" n="44">
+    <p>
+     <del>Quid sit celocem.</del> Celocem dicunt genus nauicellae modicissimum, quod bamplum
+     dicimus, unde et <milestone unit="page" n="p. 123 Helm"/> Apuleius in libro de re puplica ait:
+     ‘Qui celocem regere nequit, onerariam petit’.</p>
+   </div>
+
+   <div type="cap" n="45">
+    <p>
+     <del>Quid sit celibatum.</del> Celibatum dici uoluerunt uirginitatis abstinentiam, unde et
+     Felix Capella in libro de nuptiis Mercurii et Philologiae ait: ‘Placuit Mineruae pellere
+     celibatum’.</p>
+   </div>
+
+   <div type="cap" n="46">
+    <p>
+     <del>Quid sit exercitus, quid sit nictare, quid sint ualgia.</del> Exercitus dicitur
+     contemptus, unde et Plautus in milite glorioso ait: ‘Itane nos nostramque familiam habes
+     exercitam’, et ubi supra ait: ‘Plus uideas ualgis quam sabiis, denique omnes nictant eum’;
+     nictare enim dicimus cinnum facere, ualgia uero sunt labellorum obtortiones in subinatione
+     factae, sicut et Petronius ait: ‘Obtorto ualgiter labello’.</p>
+   </div>
+
+   <div type="cap" n="47">
+    <p>
+     <del>Quid sint summates, quid sint simpolones, quid sit ganium.</del> Summates dicuntur uiri
+     potentes, simpolones dicuntur conuiuae; nam et amicus sponsi qui cum eo per conuiuia ambulat
+     simpolator dicitur; ganeum uero taberna <milestone unit="page" n="p. 124 Helm"/> est, unde et
+     Sutrius in comedia Piscatoria ait: ‘Summates uiri simpolones facti sunt ganei’.</p>
+   </div>
+
+   <div type="cap" n="48">
+    <p>
+     <del>Quid sint praesegmina.</del> Praesegmina sunt partes corporis incisae, ut Tages in
+     aruspicinis ait: ‘Praesegminibus amputatis’.</p>
+   </div>
+
+   <div type="cap" n="49">
+    <p>
+     <del>Quid sit congerra.</del> Congerrones dicuntur qui aliena ad se congregant, unde et aput
+     Romanos gerrones Brutiani sunt dicti.</p>
+   </div>
+
+   <div type="cap" n="50">
+    <p>
+     <del>Quid sit cistella, quid sint crepundia.</del> Cistellam dicunt capsellam, ut Plautus
+      <del>ait</del>: ‘Cistellam mihi effers cum crepundiis’, id est cum puerilibus ornamentis.</p>
+   </div>
+
+   <div type="cap" n="51">
+    <p>
+     <del>Quid sit fabre, quid sit pecuatum, quid sit aricinas.</del> Antidamas in moralibus libris
+     ait: ‘Fabre conpactum animal hominem quis ferat sic ire pecuatum’ et ‘Auerruncassit deus tam
+     aricinas hominum mentes’; fabre dicitur perfecte, auerruncare eradicare, aricinas testeas uel
+     argilleas, pecuatum stultum.</p>
+   </div>
+
+   <div type="cap" n="52">
+    <p>
+     <del>Quid sit alucinare.</del> Alucinare dicitur uana somniari tractum ab alucitas quos nos
+     conopes dicimus, sicut <milestone unit="page" n="p. 125 Helm"/> Petronius Arbiter ait: ‘Nam
+     centum uernali me alucitae molestabant’.</p>
+   </div>
+
+   <div type="cap" n="53">
+    <p>
+     <del>Quid sit culleum.</del> Culleum dicitur saccum, in quo rei conclusi in mare mittuntur,
+     sicut Plautus ait in Vidularia: ‘Iube hunc insui in culleo atque in altum deportari, si uis
+     annonam bonam’.</p>
+   </div>
+
+   <div type="cap" n="54">
+    <p>
+     <del>Quid sit elogium.</del> Elogium est hereditas in malo, sicut Cornelius Tacitus in libro
+     facetiarum ait: ‘Cessit itaque morum elogio in filiis derelicto’.</p>
+   </div>
+
+   <div type="cap" n="55">
+    <p>
+     <del>Quid sit lixa.</del> Lixa dicitur mercennarius, unde et Lucanus ait: ‘Stat dum lixa
+     bibat’.</p>
+   </div>
+
+   <div type="cap" n="56">
+    <p>
+     <del>Quid sit sudum.</del> Sudum dicitur serenum; unde et Tiberianus ait: ‘Aureos subducit
+     ignes sudus ora Lucifer’.</p>
+   </div>
+
+   <div type="cap" n="57">
+    <p>
+     <del>Quid sit luteum.</del> Luteum dicitur splendidum, unde et Pacuuius in tragoedia Tiestis
+     ait: ‘Non illic luteis aurora biiugis’.</p>
+   </div>
+
+   <div type="cap" n="58">
+    <p>
+     <del>Quid sit abstemius.</del> Abstemius dicitur obseruans, <milestone unit="page"
+      n="p. 126 Helm"/> sicut Rabirius in satira ait: ‘Abstemium merulenta fugit Mettenia
+     nomen’.</p>
+   </div>
+
+   <div type="cap" n="59">
+    <p>
+     <del>Quid sit uadatus.</del> Vadatus dicitur obstrictus uel sub fideiussione ambulans, sicut
+     Fenestella ait: ‘Penes quem uadatus, amicitiae nodolo tenebantur’.</p>
+   </div>
+
+   <div type="cap" n="60">
+    <p>
+     <del>Quid sint manubies.</del> Manubies dicuntur ornamenta regum, unde et Petronius Arbiter
+     ait: ‘Tot regum manubies penes fugitiuum repertae’.</p>
+   </div>
+
+   <div type="cap" n="61">
+    <p>
+     <del>Quid sit aumacium.</del> Aumatium dicitur locum secretum puplicum sicut in theatris aut in
+     circo, unde et Petronius Arbiter ait: ‘In aumatium memet ipsum conieci’.</p>
+   </div>
+
+   <div type="cap" n="62">
+    <p>
+     <del>Quid sit delenificus.</del> Delenificus dicitur blandilocus, unde et Lucretius comicus in
+     Nummolaria ait: ‘Nescio quorsum mihi eueniant tua uerba tam delenifica’.</p>
+   </div>
+
+
+
+  </body>
+ </text>
+
+</TEI>

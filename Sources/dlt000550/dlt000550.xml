@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>De uerbis dubiis</title>
+    <author>Caper (Ps.)</author>
+    <respStmt>
+     <resp>transcodifica di base da rtf a xml-tei</resp>
+     <name>piero colombo - step srl</name>
+    </respStmt>
+    <respStmt>
+     <resp>Testo</resp>
+     <name>Marinone, GL-CD</name>
+    </respStmt>
+    <respStmt>
+     <resp>Controllo marcatura XML-TEI</resp>
+     <name>Ermanno Malaspina</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2017</date>
+    <availability>
+     <p>
+      <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
+     </p>
+    </availability>
+    <idno>dlt000550</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Grammatici Latini, VII. Scriptores de orthographia. Terentius Scaurus, Vellius Longus etc.</hi>, ex recensione H. Keilii, Hildesheim 1961, 107-112 (reprografischer Nachdruck der Ausgabe, Leipzig 1880).</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    <p>
+     <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT</hi>
+    </p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni.</p>
+    <p>I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p>Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi> :
+     grassetto, corsivo, spaziatura espansa. </p>
+    <p> Sono stati normalizzati e marcati nel modo seguente i diacritici. <lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]>
+     <lb/>
+     <hi rend="italic">loci desperati</hi> :
+     <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo† e †testo <lb/>
+     lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...] <lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p> Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p> Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
+    </p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <head>[Caper] de uerbis dubiis</head>
+   <p>
+    <milestone unit="row" n="riga 4 "/> in singularibus uerbis multa dubia habentur. ea per ordinem
+     <supplied>litterarum</supplied> exequemur. </p>
+   <p> auellanae nuces et abellinae. acris et acer, quamuis dicant plerique acris femininum, acer
+    masculinum: sic alacris et alacer. accersere ab acciendo; accersi, non accersiui. accusare
+    arguere, incusare queri. accipiter, non acceptor. adulor illi. adsentio, quia adsensi, non
+    adsentior. adstringe, non astringe. adulterina adulterata, at adultera quae adulterat.
+    aduenticia caena, non aduentoria. aemulor illum, non illi. alium, non alius, quia alia.
+    aluearia, non aluinae. aluus haec nunc, sed apium hic. alica, non halica. alioquin adfirmatiuum
+    est. amolum, non amulum, quod non molatur. ambobus non ambis, et ambabus. amplector semel,
+    amplexor saepius. ambitio, quando fit; ambitus, cum factus est. amaracus haec. anas et anus,
+    utrumque femininum est. angor nomen et uerbum est. antidotus haec. <milestone unit="page"
+     n="p. 108 "/> aquilus color nigro proximus. arcubus pugnatur: sunt enim ab arcu: arces autem
+    arcibus faciunt. artus artubus, artes artibus faciunt. arteriae hae. artolagoenus <del>ab
+     assidendo</del>. attagenae hae. atramentarium, non atramentale, ut lignarium et armarium.
+    austerus, non austeris <del>et austera</del>, et austere, non austeriter; item austera et
+    austerum. assiduus, non adsiduus, ab assidendo. ausculta, non asculta. axiculus hic, quia hic
+    axis. baculum hunc, non hoc. balneum et balneas, non balineum. binas tabulas dicimus, non duas:
+    semper enim pluraliter tabulas dicimus: at epistolas duas, non binas, quoniam singulariter
+    epistola dicitur. sic et Graeci obseruant. bibere, non biber. bracas, non braces. cannabe hoc,
+    non cannabis. carbasus haec, non hic. caduceus hic, non caduceum. catinus hic, non catinum.
+    canulus haec, canuli hae. cardo hic, non haec. camarus, non cambarus. cetariae tabernae, quae
+    nunc cretariae non recte dicuntur. cercinus, non circinus <del>cucumis haec, non cucumer</del>.
+    cinctus, non cinctum. cinis hic uel haec, non hoc <supplied>ciner</supplied>. cliens tam hic
+    quam haec. clibanus hic, non clibanum. clatri hi, non haec clatra. clunis hic, non haec.
+    coturnices, non cocturnices. colus haec <milestone unit="page" n="p. 109 "/> lanificii. corbes
+    hae, non hi. cornu bouis, cornus arbor. consueo, non consuo; consuere, ut feruere. congius hic.
+    coclea sine h. cocinaria, non cocinatoria. colustrum recte. crustulum hoc. crebro, non crebre.
+    cucurbicium pirum, non cucurbitinum. cucumis, non cucumer. curriculum hoc, ut Varro, alii hunc. </p>
+   <p> delirare et delerare <foreign xml:lang="grc">ἀπὸ τοῦ λήρου</foreign>. dei, non dii: nam et
+    deabus Cicero dixit: igitur deis ratio, diis consuetudo. deletum, non delitum quod quis deleuit.
+    diploma, non duploma aut duplomum. Dis pater, non Ditis. dorsum, non dorsus. </p>
+   <p> erumna, non eramna. ebur, non ebor. elephantus, non elephans. enutrire alica recte. eliganter
+    ab eligendo. exemplar, non exemplare: exemplar autem quod transfertur, exemplum quod fertur,
+    quamquam alii contra. exenterauit <foreign xml:lang="grc">ἀπὸ τῶν ἐντέρων</foreign>
+    <del>ab interioribus</del> a uisceribus. fabrica ars, opera fabrilia. fascinum hoc. faex
+    pluralem non habet. feruunculus a feruore, non furunculus. ficos, non ficus, nec ficibus, sed
+    ficis. fido, non fideo. fibres hi, non fibrae. filiabus recte. forcipes fabri. <milestone
+     unit="page" n="p. 110 "/> freni hi et haec frena et hoc frenum: nam hic
+     <supplied>frenus</supplied> non est. fruges hae. frons et frontes hominum, frons et frondes
+    arborum. gelu sine s. gibber uitium, homo gibberosus. glutinum non glus: Virgilius gluten dixit.
+    gluttus et gluttire et ingluuies gula. gratuito ratio, gratis consuetudo. </p>
+   <p> hapsus lanae uellera, non apsus. </p>
+   <p> intro in locum, intus in loco. incudem hanc recte. insipiens non insapiens. itiner ratione,
+    iter consuetudine. iuuentus multitudo, Iuuenta dea, iuuentas aetas. </p>
+   <p> marginem hunc, non hanc. manulei hi. maeandrum recte dicunt. males bestiae quaedam, non
+    melones. materia, non materies, quia materiarius. malleus hic, non hoc malleum. menda et mendum
+    recte. margarita haec <supplied>singulariter generis</supplied> feminini et haec pluraliter
+    neutri. mereor de te, mereo aera. mergites messorum, mergi aues. mordicus recte. motacilla
+    recte. </p>
+   <p> ninguit sic effer, non ningit. nomenculator recte. ostrea et ostreas, quia nullum animal
+    speciale neutrum est. </p>
+   <p> palmus in mensura, palma in manu. partus partubus, at partes partibus. palpetrae per t genae,
+    palpebrae per b pili. pexo capillos et repexo <milestone unit="page" n="p. 111 "/> recte.
+    pelagus neutrale est nec habet pluralem. pessulum, non pestulum. priuilegium, quod priuet lege,
+    non primilegium. prunam feminine dicimus carbonem, pruna neutraliter poma. pumex hic recte.
+    puteanam, non putealem. puluis hic, non puluer. quadrata amphora. quatinus coniunctio causalis
+    est, quatenus <supplied>aduerbium</supplied> loci aut temporis. quando temporale, quanto
+    causatiuum. rapum hoc, non rapa. horum retium, non retum, quia genetiuus numquam pauciores
+    syllabas habet quam nominatiuus. </p>
+   <p> sartum, non sarsum. sanguis hic, non sanguen. sarcinatorem recte. saepes haec recte. sal hic,
+    sales ioci sunt. scrupulus hic. serpentium, non serpentum. similaginem farinam recte.
+    sterquilinium hoc. striges <del>strigis</del>, non strigae: striga interuallum turmarum, ubi
+    equi stringuntur. </p>
+   <p> stipes, non stips. sternuit, non sternutat. stimulus hic. succilus, cum sanguis se cilio
+    subfundit. cilium autem inter oculos et supercilium est. <milestone unit="page" n="p. 112 "/>
+    talio haec. tenta et extenta recte. tersum, non tertum. tundo tutudi. uallus haec, qua frumentum
+    excutitur. uatillum hoc. uates olim uatios dicebant. uas, alii uasum. uesper stella, uespera
+    tempus. uectes hae et hi, ut ueteres. unguis, non ungis. uulpes, quasi uolipes. utensilia et
+    utilia. upilio, nunc opilio. utrisque manibus et utraque manu recte. <milestone unit="page"
+     n="p. 32 "/></p>
+  </body>
+ </text>
+</TEI>

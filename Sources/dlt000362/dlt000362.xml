@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>De herba uettonica liber</title>
+                <author>Antonius Musa</author> 
+                <respStmt>
+                    <resp>Correzione linguistica</resp>
+                    <name>David Paniagua</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica XML</resp>
+                    <name>David Paniagua</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>digilibLT</publisher>
+                <pubPlace>Vercelli</pubPlace>
+                <date>2011</date>
+                <availability>
+                    <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+                </availability>
+                <idno>dlt000362</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Corpus medicorum latinorum. Vol. IV.  Antonii Musae De herba Vettonica liber, Pseudoapulei Herbarius, Anonymi De taxone liber, Sexti Placiti Liber medicinae ex animalibus, ediderunt E. Howald et H. E. Sigerist, Leipzig et Berlin 1927. 
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+                <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+            </projectDesc>
+            <editorialDecl>
+                              
+                <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+                <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+                    l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+                    e commenti e ogni altro contenuto redatto da editori moderni. </p>
+                <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+                    correttezza di trascrizione</p>
+                <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+                    distinzione u/v minuscole.</p>
+                <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+                <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+                    grassetto, corsivo, spaziatura espansa.</p>
+                <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+                    <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+                    <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+                    si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+                    [...]<lb/> lacuna integrata dagli editori:
+                    <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+                </p>
+                <p>Sono stati marcati i termini in lingua greca
+                    <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+                </p>
+                <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+                    target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+                    >Note di trascrizione e codifica di testi latini tardoantichi
+                    [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+            </editorialDecl>
+            
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latino</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+  <text>
+    <body>
+        <div type="pr" n="pr">
+            <head>Praefatio</head>
+            <salute>Antonius Musa M. Agrippae salutem.</salute>
+            <p> <milestone unit="par" n="1" /> Caesari Augusto, praestantissimo omnium mortalium, sed et iudicibus ipsius proximum esse auxilium quodque artis meae carissimum Caesaris iudicio. Quo praesens semper esse tecum possim, hunc commentarium artis meae ad te peruenire uolo munusculum. Ipse itaque <unclear>mereri ante</unclear> habebis, M. Agrippa, opus hoc, curae meae experimentum, ex omnium medicorum summorum disciplinis et ex usu ordinatum meo, uelut praesentem semper habeas Musam tuum. Cum proposuerim mihi medicamina dicere, piaculi genus existimaui transire effectus herbae uettonicae, cuius salubritates habent corporibus <unclear>alias res</unclear>, ut conueniant in omnia. Tamen ante potestates eius dicenda sunt (neque enim remedia eius tantum aspici maius est), quod sine offensa stomachi prosit, non gustus asperos offerat et aegrotantibus remedia tormenta sint: Mediocri quadam lenitate parata nec dulcedinis fastidium nec acrimoniae offensam praestat; itaque potest effectus sanitatis eleganter, non ut aloe uel absintium, quorum non est tanti sentire auxilium, quam ut amaritudinem sentias. Vettonica tantum potest, ut eam laborantes non tantum sine labore sumant, sed etiam libenter. Odore est tam amabilis, ut ignorantem cogat suspicari herbam utilem corpori. Haec tantum potest effectus uettonica, ut etiam numero VII et XL morbos remediet, licet fieri potest, ut omnibus uitiis prodesse possit. Maxime mulierum ad salutem est. Proponendum putaui qualibus salubritatibus <gap/> in subiectis exsequar. Hanc et pauci nouerunt medici, et si qui adfines sunt, non totis perspexerunt uiribus. Sciunt fortasse utilem, sed quibus modis ignorant; quod proinde est ac si organa idraulica habeant, quibus uti nesciant. Haec proloqui non esse necessarium putaui, tantum profectus herbae uettonicae noscerentur. Hanc autem suo tempore colliges, id est mense Augusto, cum ceterae herbae maturescere incipiunt, cum semine et radicibus, sine ferro, eamque excussam, ne terra ei inhaereat, in umbra arefacies atque ita teres cum radicibus suis cribro aromatico; mollissime in puluerem redacta cum uolueris uti, sic uteris.
+        </p>
+        </div>
+        <div type="cap" n="1"> 
+            <head>I Ad capitis fracturam.</head> 
+            <p> <milestone unit="par" n="1" />  Herba uettonica contusa et super capitis ictum inposita uulnus mira celeritate glutinatum sanabit; eo quidem efficacius, si tertio quoque die refectam, id est recentiorem, frequentius inposueris, donec sanet. Eius potestas tantum habere fertur utilitatem, ut ossa quoque fracta ui sua extrahat.</p>
+        </div>
+        <div type="cap" n="2"> 
+            <head>II Ad oculorum uitia uel dolores.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae herbae radices ex aqua ad tertias coquito, et ex ea aqua oculos foueto; ipsius autem folia trita supra frontem et in oculos inponito.</p>
+        </div>
+        <div type="cap" n="3"> 
+            <head>III Ad aurium uitia uel dolores.</head> 
+            <p> <milestone unit="par" n="1" />  Herbae uettonicae recentis folia uel per se aut in aqua madefacta perterito sucumque eorum excipito, deinde adiecta rosa liquida tepefacito et in aure stillato lanaque spissato, mire proficere creditur.</p>
+        </div>
+        <div type="cap" n="4"> 
+            <head>IV Ad caliginem oculorum.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae dragmam I, aquae calidae ciatos IV, ieiunus bibat, deducit ad inferiorem partem eum sanguinem, qui caliginem oculorum facit.</p>
+        </div>    
+        <div type="cap" n="5"> 
+            <head>V Ad lacrimosos oculos.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicam manducet, aciem oculorum clariorem facit.</p>
+        </div>
+        <div type="cap" n="6"> 
+            <head>VI Ad sanguinem de naribus nimium profluentem.</head> 
+            <p> <milestone unit="par" n="1" />  Herba uettonica contrita, paululum salis adicito, digitis duobus, pollice et medio, quantum tolli potest sublata, rotundulam facis et naribus inseris.</p>
+        </div>
+        <div type="cap" n="7"> 
+            <head>VII Ad dentium uitia.</head> 
+            <p> <milestone unit="par" n="1" />  Herba uettonica ex uino ueteri aut aceto ad tertias decocta, gargariza, dolorem dentium discutiet.</p>
+        </div>  
+        <div type="cap" n="8"> 
+            <head>VIII Ad uomitus et suspiriosos et toracis dolorem.</head> 
+            <p> <milestone unit="par" n="1" />  Herbae uettonicae dragma I S ex aqua tepida ciatis II, bibendum si dederis; idem suspiriosis prodesse creditur.</p>
+        </div> 
+        <div type="cap" n="9"> 
+            <head>IX Ad tisicos et qui purulentum eiciunt.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae herbae dragmas III dato cum melle cocleario et gluttiat ieiunus.</p>
+        </div>       
+        <div type="cap" n="10"> 
+            <head>X Ad stomachi dolorem.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae dragmas III dato manducare per triduo uel in aqua frigida ciatis IV, bibat.</p>
+        </div>   
+        <div type="cap" n="11"> 
+            <head>XI Ad iocineris dolorem.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae dragmas III, aquae calidae ciatos IV, da ut bibat per triduo.</p>
+        </div>
+        <div type="cap" n="12"> 
+            <head>XII Ad lienosos id est spleneticos.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonica herba ex uino decocta et potui data lienosis prodesse experti adfirmant.</p>
+        </div>  
+        <div type="cap" n="13"> 
+            <head>XIII Ad renum dolorem.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae dragmas II ex mulso ciatis II, dum biberit, sanus erit.</p>
+        </div>  
+        <div type="cap" n="14"> 
+            <head>XIV Ad lateris dolorem.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae dragmas II ex mulso ciatis II, dum biberit, sanus erit.</p>
+        </div>    
+        <div type="cap" n="15">
+            <head>XV Ad lumborum dolorem.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae dragmas III ex uino Amineo ciatis III, piperis grana XVII, contritum et calefactum bibat.</p>
+        </div>
+        <div type="cap" n="16"> 
+            <head>XVI Ad uentris dolorem.</head> 
+            <p> <milestone unit="par" n="1" />  Herbae uettonicae dragma I in aqua calida ciatis II, bibendum da. His autem dumtaxat haec apta erit conpositio, quorum non ex cruditate intestina torquentur.</p>
+        </div>
+        <div type="cap" n="17"> 
+            <head>XVII Ad alueum concitandum.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae dragmas IV, idromelitos ciatos IX, bibendum dato, uentrem mox mouet.</p>
+        </div>
+        <div type="cap" n="18"> 
+            <head>XVIII Ad colum.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonica cum uino austeri aeque proficit.</p>
+        </div>
+        <div type="cap" n="19"> 
+            <head>XIX Ad tussim.</head> 
+            <p> <milestone unit="par" n="1" />  Herbae uettonicae uncias II cum melle accipiat per dies IX.</p>
+        </div>
+        <div type="cap" n="20"> 
+            <head>XX Ad cotidianas.</head> 
+            <p> <milestone unit="par" n="1" />  Herbae uettonicae dragmas II, arnoglossae dragmam I ex aqua calida ciatis IV dato, bibat sub accessione.</p>
+        </div>
+        <div type="cap" n="21"> 
+            <head>XXI Ad tertianas.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae et pulei dragmas singulas, aquae calidae ciatos X, sub ipsa accessione dato, bibat, sanabitur.</p>
+        </div>
+        <div type="cap" n="22"> 
+            <head>XXII Ad quartanas.</head> 
+            <p> <milestone unit="par" n="1" />  Herbae uettonicae dragmas III, mellis Attici unciam I, aquae calidae ciatos III, in unum miscebis et ante accessionem dato, bibat, mire sanabitur.</p>
+        </div>
+        <div type="cap" n="23"> 
+            <head>XXIII Ad uesicae dolorem.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae dragmas IV, apii radices dragmas III; decoque apii radices in sextario aquae ad medias; cum decoctum fuerit, uettonicam in se permiscebis, dabis bibere, dolorem in perpetuo sanat.</p>
+        </div>
+        <div type="cap" n="24"> 
+            <head>XXIV Ad cauculosos.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae dragmas III ex aceto scillitico et mellis unciam I et aquae calidae ciatos IX, bibat.</p>
+        </div>
+        <div type="cap" n="25"> 
+            <head>XXV Ad idropicos.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae dragmam I ex aqua calida ciato I, da, triduo bibat.</p>
+        </div>
+        <div type="cap" n="26"> 
+            <head>XXVI Ad mulieres, quae a partu laborant et febricitant.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae dragmas II, aquae calidae ciatos IV; si sine febre fuerit, ex mulso ciatis II dabis bibere.</p>
+        </div>
+        <div type="cap" n="27"> 
+            <head>XXVII Ad paralisin.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonica trita et inposita neruos etiam praecisos glutinare et persanare creditur.</p>
+        </div>
+        <div type="cap" n="28"> 
+            <head>XXVIII Ad horrores.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae dragmas II, aquae calidae ciatos II, ex uino austeri ciatis II sub accessione dato bibere.</p>
+        </div>
+        <div type="cap" n="29"> 
+            <head>XXIX Ad mulieres locosas, quibus loca frigore uexantur.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae dragmas III ex aqua calida ciatis III ieiunae da, bibat per triduo.</p>
+        </div>
+        <div type="cap" n="30"> 
+            <head>XXX Ad sanguinem qui per os eiciunt et purulentum.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae dragmas III et lactis recentis caprini ciatos III, bibat triduo continenti.</p>
+        </div>
+        <div type="cap" n="31"> 
+            <head>XXXI Ne ebrius fiat.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicam prius sumat.</p>
+        </div>
+        <div type="cap" n="32"> 
+            <head>XXXII Euersis de uehiculo.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae dragmas III ex uino ueteri ciatos II, calefactum bibat. </p>
+        </div>
+        <div type="cap" n="33"> 
+            <head>XXXIII Ictericis id est morbo regio qui sunt auriginosi.</head> 
+            <p> <milestone unit="par" n="1" />  Herbam uettonicam ex uino ciatis III frequenter sumptam proficere esperti sumus.</p>
+        </div>
+        <div type="cap" n="34"> 
+            <head>XXXIV Ad carbunculum.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae dragmam I, aquae calidae ciatos II, bibat. Idem: Vettonicam cum axungia tritam plagae inponat.</p>
+        </div>
+        <div type="cap" n="35"> 
+            <head>XXXV Qui perfricationibus laborant.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae unciam I ex uino ciatis III, bibat per triduo.</p>
+        </div><div type="cap" n="36"> 
+            <head>XXXVI Lassis de uia.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae dragmam I ex oximelli ciatis III, potui dato.</p>
+        </div>
+        <div type="cap" n="37"> 
+            <head>XXXVII Cibi fastidiosis ex aegritudine.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae dragmas II ex aqua mulsa ciatis III bibat.</p>
+        </div>
+        <div type="cap" n="38"> 
+            <head>XXXVIII Vt facile concoquat.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae dragmas III, mellis unciam I, coquito mel, donec indurescat, ex aqua calida ciatis II bibat.</p>
+        </div>
+        <div type="cap" n="39"> 
+            <head>XXXIX Ad eos, qui cibum continere non possunt et reiciunt.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae dragmas IV, mellis decocti unciam I, pastillos ex eo facito IV, ex his pastillum I gluttiat et aquae calidae ciatos II bibat.</p>
+        </div>
+        <div type="cap" n="40"> 
+            <head>XL Ad ueretri tumorem uel dolorem.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonica ex uino trita tumores foueto ipsamque tritam opponito, potenter facit.</p>
+        </div>
+        <div type="cap" n="41"> 
+            <head>XLI Ad uenenum qui sumpserit.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae dragmas III ex uino ciatis IV, statim dato, bibat, reiciet uenenum.</p>
+        </div>
+        <div type="cap" n="42"> 
+            <head>XLII Ad serpentium morsus.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae dragmas III, in uini eminis III dilutum, potui datum, omnium serpentium morsus sanat.</p>
+        </div>
+        <div type="cap" n="43"> 
+            <head>XLIII  Idem ad serpentium morsus.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae dragmas VI, uini nigri ciatos III, tritum inlinito super uulnus.</p>
+        </div>
+        <div type="cap" n="44"> 
+            <head>XLIV Ad canis rabidi morsum.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonica contusa morsui inponitur.</p>
+        </div>
+        <div type="cap" n="45"> 
+            <head>XLV Ad fistulas.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonica contrita, turundulas facito et paululum salis inserito, obligat et expurgat.</p>
+        </div>
+        <div type="cap" n="46"> 
+            <head>XLVI Ad lumborum et coxarum dolorem.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonicae dragmas II, ex mulso potui datura, febricitanti ex aqua calida, lumborum dolores sanare creditur.</p>
+        </div>
+        <div type="cap" n="47"> 
+            <head>XLVII Ad podagram.</head> 
+            <p> <milestone unit="par" n="1" />  Vettonica decocta ad tertias, aqua potui data, ipsamque tritam et inpositam mire dolorem lenire experti adfirmant.</p>
+                </div>
+        
+        <div type="ptext" n="ptext">
+            <head>Nomina herbae</head>
+            <p> <milestone unit="par" n="1" /> A Graecis dicitur prionitis, alii cestron, alii <unclear>cirone</unclear>, alii <unclear>adanton</unclear>, alii Indicem, alii <unclear>cosmicem</unclear>, alii psicrotrofos, alii Tias riza, alii terofonion, alii teriofonon, alii <unclear>pandonia</unclear>, alii sideritis, alii diprionion, profetae hiera corine, Galli uettonicam, Itali serratulam uel uettonicam, cuius uirtutes infra scriptae sunt.</p>
+        </div>
+        <div type="ptest" n="ptext">
+            <head>Praecatio huius.</head>
+               <p> <milestone unit="par" n="1" />  <said>Herba uettonica, quae prima inuenta es ab Aesculapio uel a Cirone centauro, his precibus adesto! Te peto, magna herbarum, per hunc qui te iussit creari et remediis plurimis adesse, bis numero quadraginta septem adesse digneris!</said>
+            Hoc incantas, sed mundus ante solis ortum, et sic colligis mense Augusto.</p>
+        </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Praeceptum deliberatiuae</title>
+    <author>Emporius Rhetor</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Beatrice Strona</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2015</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000559</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Rhetores Latini Minores</hi>, ex codicibus maximam partem primum adhibitis
+     emendabat Carolus Halm, Lipsiae 1863, 570-574 (Bibliotheca Scriptorum Graecorum et Romanorum
+     Teubneriana)</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+
+    <p><hi rend="bold">Note di trascrizione e codifica specifiche del file </hi></p>
+    <p>L'edizione di riferimento utilizza tre modalità grafiche diverse: corpo di testo, corpo
+     maggiorato e corsivo. Il corpo di testo è rimasto inalterato anche nell'edizione digitale; il
+     corpo maggiorato è stato reso con il maiuscolo; il corsivo è stato reso con il grassetto.</p>
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div>
+    <head>PRAECEPTVM DELIBERATIVAE.</head>
+    <p><hi rend="expanded">Deliberatio</hi> est, sicut M. Tullio placet, genus causae tertium
+     substantiae oratoris adpositum: si quidem universam rhetoricam in tria causarum genera partitus
+     est: <hi rend="expanded">laudativum</hi>, <hi rend="expanded">deliberativum</hi>, <hi
+      rend="expanded">iudiciale</hi>, quae Graeci <foreign xml:lang="grc">ἐγκωμιαστικόν</foreign>,
+      <foreign xml:lang="grc">συμβουλευτικόν</foreign>, <foreign xml:lang="grc">δικανικόν</foreign>
+     nominant.</p>
+    <p>Deliberaliones aut simplices sunt aut ex incurrenti aut comparativae. Simplices, ut si
+     deliberent Scythae urbes condere: ex incurrenti, ut si deliberent Scythae urbes condere, cum
+     pestilentia laborarent: comparativae, ut si deliberent Scythae, cum pestilentia laborarent,
+     utrum urbes instituant an sedes novas quaerant: quod genus deliberationum saepe non solum
+     duplici, sed et triplici et multiformi ratione subsistit, ut cum deliberat Pompeius acie
+     Pharsalica victus, Africam an Parthiam an Aegyptum petat.</p>
+    <p>Locos autem, per quos deliberativa tractetur, frustra quidam maiore quam ratio desiderat
+     numero augere voluerunt, si quidem in suadendo vel in dissuadendo duodecim veluti elementa, id
+     est, ut Graeci appellant, <foreign xml:lang="grc">στοιχεῖα</foreign> consideranda esse
+     dixerunt: legitimum, iustum, aequum, conveniens, honestum, utile, religiosum, pium, civile,
+     facile, possibile, necessarium. Quae universa nominum multitudo verum spectantibus duobus
+     tantummodo locis, honesto et utili, aut, ut plurimum ab his, quibus omnia continentur subiecta,
+     species tamquam genera distinguas, quattuor locis, id est honesto et utili, aequo et facili
+     continetur. Honestati enim subiacet religiosum et pium, utilitati conveniens et civile,
+     aequitati legitimum et iustum, facultati possibile et necessarium: quamquam Stoici ne duo
+     quidem illa, id est honestum et utile, existimant separanda, qui nihil esse utile nisi quod
+     honestum, nihil inutile nisi quod turpe definiunt. Sed quoniam nobis omisso illo rigore
+     philosophiae in consiliis dandis civiliter disputandum est, proposita deliberatione, quid
+     potissimum in ea tractandum sit, incipere definire debemus.</p>
+    <p>Deliberandi enim quinque rationes sunt, sicut in primo de officiis libro ad filium scribit
+     orator. Vna est, cum quaeritur utile an inutile sit, altera, cum ambigitur honestum an turpe
+     sit, tertia, cum inter duo utilia, quarta, cum inter duo honesta dubitatio est, quinta, cum ex
+     una parte consilii honestas, ex diversa pugnat utilitas. Ex quibus illae primae quattuor partes
+     difficile in ulla oratione suasoria separata sui ratione tractantur. Quippe etiam, cum plurimum
+     quaeri videtur utilitas, ut si deliberet Scipio exercitum in Africam classe transvehere, tamen
+     ex parte aliqua observatur et honestas, cum relinquere vastandam hostibus Italiam et Hannibalis
+     declinare praesentiam inreligiosum esse ac turpe dicatur. Et cum fere causam deliberandi
+     honestatis respectus induxit, ut si deliberet Cato victis partibus mori, non potest a consilio
+     eius utilitatis tractatus prorsus excludi, cum et servare se patriae talem virum et non
+     destruere domum ac liberos utile disputetur. Sed tamen id quod plurimum in praesenti
+     deliberatione valeat, sedulo adnotandum est, ut ad vitationem eius aut appetitionem
+     deliberantis animum trahamus; necesse est enim, quae causa praecipue dubitantem movet, eius aut
+     cohortatione aut dehortatione ducatur.</p>
+    <p>Si igitur quod sit utile suadeamus, id quidem praecipue firmabimus, sed nihilo minus probato
+     utili etiam honestum id esse cum subiacentibus honesto partibus adseverabimus: et contra, si
+     pro honestate dicemus, prius honestatis ipsius adsertione tractata etiam utile id quod
+     suadeamus demonstrare temptabimus; nam facultas semper utilitatem sequitur, aequitas
+     honestatem. Sed haec quidem quasi ad fundamenta iacienda, quibus innitatur oratio, antequam
+     arripiamus stilum vel meditationem ingrediamur, prospicere ac definire debemus. Principiis
+     deinde vel brevibus, sicut ipsi Tullio placet, vel nullis plerumque factis (sunt enim, ut ait,
+     qui deliberant, sua causa parati), narratione etiam aut omnino praetermissa (quoniam narratio
+     aut praeteritarum rerum est aut praesentium, suasio autem futurarum aut admonendi causa, maxime
+     si quid populo suadeatur) <hi rend="italic">aut</hi> breviter strictimque decursa, sicut de
+     imperio Gnaei Pompei eiusdem demonstrat oratio, gradus, per quos eundum sit, scire conveniet.
+     Sunt autem hi gradus quinque: generalis, proprius, personalis, causalis, coniecturalis. <hi
+      rend="expanded">Generalis</hi> est, in quo veluti summatim delibatis partibus, quas causa
+     conplectitur, sine manifesta ipsarum commemoratione disserimus: <hi rend="expanded"
+      >proprius</hi> est, qui tractatur ex facto: <hi rend="expanded">personalis</hi>, qui ex ipsius
+     deliberantis vel de quo deliberatur fortuna vel moribus ducitur: <hi rend="expanded"
+      >causalis</hi>, in quo id ipsum, ad quod sententia nostra dirigitur, quale sit explicatur; <hi
+      rend="expanded">coniecturalis</hi>, quo eventus hanc aut illam sententiam secuturus
+     ostenditur.</p>
+    <p>Sed ut proposito deliberationis exemplo magis eluceat, quemadmodum generalis quaestio
+     deprehendatur, posita sit deliberatio Lucretiae, an propter inlatum sibi stuprum semet occidat.
+     Sepone quod est in causa proprium, id est factum, vim scilicet inlatam pudicitiae; item segrega
+     personam, hoc est Lucretiam et regis filium, sepone causam, id est ipsam rem, quam deliberet
+     adgredi, id est voluntariam mortem, et ex his singulis decerpe generalem. Est autem generale
+     stupri, contumelia et iniuria; multae sunt enim species infamiae et iniuriae subiacentes, ut
+     inlata manus, abrepti liberi, inrogata debilitas atque his similia. Lucretiae autem et Sexti
+     Tarquini generale est, femina nobilis et adulescens potens; quippe multae nobiles sunt, multi
+     potentes. Sed et mortis voluntariae generale est atrox et difficile consilium et sine ulla
+     exceptione praeceps impetus indignationis; sub hoc enim animi motu et Medea de parricidio
+     cogitat et Aiax de caede Agamemnonis atque Vlixis. Et porro multi accepta ignominia diversa
+     ineunt, sed generaliter tamen extrema consilia. Haec igitur ex facto et persona delibata
+     generalia coniunge in unam sententiam quaestionis, et fiet huiusmodi generalis quaestio: ‘an ob
+     inlatam sibi contumeliam atque iniuriam femina nobilis et pudica, cum se in auctorem doloris
+     sui ob ipsius potentiam aliter non possit ulcisci, nihil non debeat pro satisfactione sui
+     doloris audere’: vel e diverso: ‘an ulla tanta sit iniuria vel contumelia, ut sapienti feminae
+     sine respectu sui deliberandum sit’. Observare sane in generali quaestione debebimus, ut eam
+     quam brevissime conprehendamus, quoniam ista communia, quae in multas deliberationes cadunt,
+     minus valida sunt quam propria causarum, in quibus multo magis nos conveniet immorari: ad quae
+     descendere post generalem gradum hoc modo oportebit, ut reddamus proprium quod seposueramus, id
+     est, ut fiat huiusmodi quaestio: ‘An, cum tam gravis contumelia et iniuria inrogata sit, ut
+     pudicitia, qua nihil est prope carius, alienae sit inpotentiae violata ludibriis, et ob hoc
+     ipsum violata, quod eius gloriae invideretur, non sit ferendus dolor’: vel contra: ‘an
+     tolerabilis sit iniuria pudicitiae, cum sufficiat castitati bona conscientia, nec libidini
+     possit adscribi, quod acciderit invitae’. Deinde similiter redde personam, quam summatim in
+     generali parte tractaveras, ut dicatur hoc modo: ‘An Romana mulier et Lucretia, Tricipitini
+     filia, quae virilem animum etiam in muliebri figura gerat quaeque omnes feminas et castitate et
+     omni morum sanctitate superaverit, vim sibi a filio regis inlatam ferre non debeat’: vel e
+     diverso: ‘an id ipsum congruat constantiae eius atque animi magnitudini, aequiore animo pati
+     iniuriam sceleris alieni, praesertim cum nihil voluntate, sed omnia accidisse necessitate
+     declaret illius impotentia, qui temeraverit castitatem’. Post quae redde causam, id est
+     consilii speciem suis viribus et proprietate manifestam, ut expositis per superiores gradus,
+     quae incitaverint animum vel mitigaverint, tum demum adgrediaris ipsum illud, de quo
+     deliberatur: ‘an tantae contumeliae tali feminae ab huiusmodi auctore factae nullum sit aliud
+     vel perfugium vel solacium quam mors voluntaria’. Quo loco est rursum generaliter dicendum,
+     mortem aut omnino bonum esse aut certe malum non esse, et vitam non nisi salva honestate esse
+     ducendam, et specialiter multas hoc fortes et nobiles feminas dedisse gloriae suae, ut iniuriam
+     aut infamiam morieodo vitarent, et verendum non esse, ne tanti mulier animi temptata morte
+     deficiat; adicienda etiam descriptio mortis ipsius, in qua vulnus non quasi feminea manu factum
+     cruentumque telum populus ipse Romanus cum admiratione visurus sit: at ex altera parte, etiam
+     si intolerabilis illic iniuria sit, etiam si Lucretiae praeter ceteras non ferenda, posse tamen
+     eam aliter vindicari; mortem vero, ultimum malum et natura a petitione humanae mentis alienum
+     et ab ipsis quodammodo etiam diis inmortalibus adcelerari vetitum et certe hoc minus de femina
+     quamvis fortissima exigendum, quo magis sexus iste remotus a ferro est, eo minus esse sumendam,
+     praesertim cum verendum sit, ne coepto vulnere non perseveret, ne infirmiorem ad perniciem suam
+     reddat animum bona conscientia, et facilius sit ut pertinacius in necessitate meriti inpudica
+     moriatur. Iam coniecturalis gradus utrumque ex his, quae secutura videntur, hac ratione
+     conplectitur: ‘an, si se interfecerit mulier tantae familiae, tantae pudicitiae, vindictam ex
+     indignatione publica consecutura sit, nec populus Romanus superbos reges sit passurus ulterius,
+     atque hoc inmortalis Lucretiae futura sit gloria, quae non solum pudicitiam fortiter
+     vindicasse, sed etiam patriae libertatis causam tribuisse videatur’: aut ex repugnante
+     sententia: ‘an, si se interfecerit, occasionem malis interpretationibus relictura sit, ut
+     paenitentia stupri sponte tolerati ad mortem confugisse videatur, cum facilius in defunctam
+     possint falsa confingi; et an multo magis incitatura sit et patris animum et mariti ad fortius
+     aliquid in vindictam doloris audendum, cum praesentia sua et perseverantibus lacrimis ac
+     luctibus plus ad inflammandam indignationem adfectus et adsiduitatis habitura sit’. Haec igitur
+     in simplicibus et ex incurrenti deliberativis dividendi ratio sufficiet. In comparationis autem
+     vicissim per singulos gradus utrarumque partium intentiones ac depulsiones alternare
+     debebimus.</p>
+    <p>In omni autem deliberativa id potissimum custodire debebimus, ut his, quibus consilium demus,
+     etiam si detestabilia cogitent, sine convicio ac sine execratione dicamus, si quidem nemo
+     consiliarium de populo advocat nec sibi vere aut benigne suaderi putat, nisi in ipsa oratione
+     suadentis veluti consulentem sibi benevolentiam recognoscat.</p>
+   </div>
+
+  </body>
+ </text>
+
+</TEI>

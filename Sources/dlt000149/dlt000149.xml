@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Donatiani fragmentum</title>
+    <author/>
+    <respStmt>
+     <resp>transcodifica di base da rtf a xml-tei</resp>
+     <name>Piero Colombo - STEP srl</name>
+    </respStmt>
+    <respStmt>
+     <resp>Testo </resp>
+     <name>Marinone, CD-GL, adeguato su edizione Morelli </name>
+    </respStmt>
+    <respStmt>
+     <resp>Adeguamento testo su nuova edizione</resp>
+     <name>Alice Borgna </name>
+    </respStmt>
+    <respStmt>
+     <resp>Controllo marcatura XML-TEI</resp>
+     <name>Alice Borgna </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2016</date>
+    <availability>
+     <p>
+      <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
+     </p>
+    </availability>
+    <idno>dlt000149</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Caesii Bassi De metris et Atilii Fortunatiani De metris Horatianis</hi>, a
+     cura di Giuseppe Morelli, Hildesheim 2011-2012 (Collectanea Grammatica Latina 11), vol.1, pp.
+     52-55</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    <p>
+     <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT</hi>
+    </p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni.</p>
+    <p>I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p>Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi> :
+     grassetto, corsivo, spaziatura espansa. </p>
+    <p> Sono stati normalizzati e marcati nel modo seguente i diacritici. <lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]>
+     <lb/>
+     <hi rend="italic">loci desperati</hi> :
+     <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo† e †testo <lb/>
+     lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...] <lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p> Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p> Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
+    </p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <head>Donatiani fragmentum</head>
+   <div type="section">
+    <p>
+     <milestone unit="row" n="riga 11 vol. VI Keil"/> Ars grammatica accepta ex auditorio Donatiani.
+     Artificialia cum contrariis. </p>
+    <p> Loquendi facultatem usus inuenit, ratio comprobauit. Ratio digeritur in duas species, quarum
+     alteram ἐτυμολγίαν, alteram ἀναλογίαν Graeci dixerunt. ἐτυμολογία est uerborum in usu
+     credibilis enumeratio, ideoque quasi ἀληθινολογία dicta est. ἀναλογίαν sic Graeci definierunt:
+      <foreign xml:lang="grc">ἀναλογία ἐστὶν συμπλοκὴ λόγων ἀκολούθων</foreign>, id est
+      con<del>n</del>exus orationum consequentium. </p>
+    <p> Huiusce generalis analogiae species quaedam spectantur in rebus, quaedam in rationibus. Hanc
+     analogiam Graeci, quae spectatur in dictionibus, sic definierunt: <foreign xml:lang="grc">
+      ἀναλογία ἐστὶν συμπλοκὴ λόγων ἀκολούθων ἐν λέξει </foreign>, id est <milestone unit="page"
+      n="p. 276 vol. VI Keil"/> conexus orationis in dictione. Huic uero ἀναλογίᾳ, quae est in
+     uerbis, illa quoque ἀναλογία subiecta est, quae procedit per similium comparationem, quae sic
+     definitur a quibusdam: <foreign xml:lang="grc">ἀναλογία ἐστὶν συμπλοκὴ λόγων ἀκολούθων
+       <supplied>ἐν κλίσεσι μερῶν λέξεως</supplied></foreign>, id est con<del>n</del>exus orationum
+     consequentium in declinationibus partium orationis. In analogia
+     <supplied>A</supplied>ristophanes quinque obseruationes tradit, per quas possent inueniri
+     similia, ut eiusdem sint generis, casus, exitus, numeri syllabarum, soni. Aristarchus, auditor
+     eius, adicit differentiam, id est ne simplicia cum compositis comparemus. Hactenus de nomine
+     analogiae: nunc de ipsa analogia incipiamus. </p>
+    <p> ‛a’ littera finiuntur romana nomina et masculina et feminina et neutralia, sed in
+     multitudine, hoc est pluraliter: singularia enim peregrina sunt neutra. Masculina, ut
+     ‛Catilina’, ‛Pansa’, feminina, ut ‛amicitia’, ‛auaritia’, communia et masculino et feminino, ut
+     ‛adsecla’ ‛conuiua’ ‛ebria’: <supplied>‛conuiua’</supplied> feminino Pomponius in Auctorato:<lb/>
+     <quote type="poetry">‛postquam conueni omnis conuiuas meas’</quote>; <lb/> ‛ebria’ masculino in
+     eodem Pomponius: <lb/><quote type="poetry">‛<unclear>neque ego sum Memmi neque Cassia neque
+       Munatius ebria</unclear>’</quote>. </p>
+    <p> Neutralia in multitudine, hoc est pluraliter, ut ‛Saturnalia’, ‛compitalia’. Horum genetiuus
+     quamuis uarie elatus sit apud auctores (‛Saturnalium’ enim et ‛Saturnaliorum’, ‛compitalium’ et
+     ‛compitaliorum’ dixerunt), datiui tamen mansit regula, ut ‛bus’ syllaba finiretur. Nam neutra
+     quae semper pluralia sunt, si ante nouissimam syllabam ‛i’ litteram habeant in genetiuo, datiuo
+     ‛bus’ syllaba finientur, ut ‛Saturnalia’, ‛Saturnalium’ ‛Saturnalibus’. Nam ‛arma’ ‛castra’
+     ‛exta’, quia non habent ‛i’ ante ‛a’ syllabam, datiuo casu in ‛is’ finientur: ‛armis’ enim et
+     ‛castris’ ‛extis’que dicemus. Singularia autem neutra ‛a’ littera terminata nulla inueniuntur
+     nisi peregrina, ut ‛toreuma’, ‛emblema’, ‛poema’, de quibus dubitatur, quem casum genetiuum et
+     ablatiuum habeant. Legimus enim ‛toreumatum’ et ‛toreumatorum’, ‛toreumatibus’ et ‛toreumatis’
+     et sic similia. Commodius tamen senserunt qui ‛toreumatum’ et ‛poematum’ dicendum putauerunt,
+     primum quia haec magis ad romanum <milestone unit="page" n="p. 277 vol. VI Keil"/> colorem
+     uidentur accedere, deinde quod quaecumque nomina genetiuo plurali apud Graecos per<foreign
+      xml:lang="grc"> ων</foreign> litteras finiuntur translata in latinum<foreign xml:lang="grc">
+      ω</foreign> et <foreign xml:lang="grc">ν</foreign> in ‛u’ et ‛m’ mutant, ut <foreign
+      xml:lang="grc"><supplied>Ἑκτόρων Νεστόρων,</supplied></foreign>, ‛Hectorum’, ‛Nestorum’. Sic
+     ergo, cum illi dicant <foreign xml:lang="grc">ἐμβλημάτων, τορευμάτων, ποιημάτων</foreign>, nos
+     recte ‛toreumatum’, ‛emblematum’, ‛poematum’ dicemus. Similiter in genetiuo quoque singulari
+     ‛o’ graecum in ‛i’ latinum mutamus, ut <foreign xml:lang="grc">ἐμβλήματος </foreign>
+     ‛emblematis’, <foreign xml:lang="grc">κηρώματος</foreign> ‛ceromatis’, <foreign xml:lang="grc"
+      >ποιήματος</foreign> ‛poematis’,<foreign xml:lang="grc"> πήγματος</foreign> ‛pegmatis’. </p>
+    <p> Nam nominatiuum pluralem graece proferimus, ‛poemata’, ‛ceromata’, ‛pegmata’, ‛emblemata’ et
+     similia. Romana uero nomina nominatiuo casu in ‛a’ exeuntia accipiunt ‛e’ litteram et faciunt
+     genetiuum et datiuum singularem, ut ‛haec amicitia, huius amicitiae’; accipiunt ‛m’ et faciunt
+     accusatiuum, ut ‛hanc amicitiam’. Quorum ablatiuus tantum producitur, quoniam omnia nomina quae
+     ‛a’ littera terminantur seu singulari seu plurali numero necesse est corripiantur excepto
+     ablatiuo casu, qui numquam corripitur, nisi cum ‛e’ littera terminatur, in tertia scilicet
+      declinatione.<milestone unit="page" n="p. 278 vol. VI Keil"/>
+    </p>
+   </div>
+  </body>
+ </text>
+</TEI>

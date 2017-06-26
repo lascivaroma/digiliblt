@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>De b muta et u uocali</title>
+    <author>Martyrius</author>
+    <respStmt>
+     <resp>transcodifica di base da rtf a xml-tei</resp>
+     <name>piero colombo - step srl</name>
+    </respStmt>
+    <respStmt>
+     <resp>Testo</resp>
+     <name>Marinone, GL-CD</name>
+    </respStmt>
+    <respStmt>
+     <resp>Controllo marcatura XML-TEI</resp>
+     <name>Ermanno Malaspina</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2017</date>
+    <availability>
+     <p>
+      <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
+     </p>
+    </availability>
+    <idno>dlt000356</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Grammatici Latini, VII. Scriptores de orthographia. Terentius Scaurus, Vellius Longus etc.</hi>, ex recensione H. Keilii, Hildesheim 1961, 165-199 (reprografischer Nachdruck der Ausgabe, Leipzig 1880).</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    <p>
+     <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT</hi>
+    </p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni.</p>
+    <p>I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p>Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi> :
+     grassetto, corsivo, spaziatura espansa. </p>
+    <p> Sono stati normalizzati e marcati nel modo seguente i diacritici. <lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]>
+     <lb/>
+     <hi rend="italic">loci desperati</hi> :
+     <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo† e †testo <lb/>
+     lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...] <lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p> Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p> Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
+    </p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <head>Martyrius de b muta et u uocali</head>
+   <p>
+    <milestone unit="row" n="riga 3 vol. VII Keil"/> artem quidem grammaticam nostris auctoribus
+    recte scribendi loquendique gratia uisum fuit insistere et illustrissimis suis nos conlucere
+    sudoribus, ut manifesta luce per eorum regulas gradientes sine quodam errore signa uiamque
+    litterarum sequamur. b autem litteram, quam ipsi mutam nominare maluerunt, et u uocalem, quam
+    poni saepe pro eius potestate cognoscimus, non diligentius exercitatas dedere, quo modo cunctis
+    dictionibus inseri debeant, nescio qua de causa. aut enim huiusce operis auctores latuit, aut
+    eas contempsere quasi leues aut ut certas ipsis neglexere nimium. sed quoniam nec tale studium
+    cuiusquam inspexisse cognoscimus, et quae apud illos humilia manifestaque sunt, apud nos magna
+    et obscura consistunt, placet hoc commentario nostro acceptis seminibus ab Adamantio meo patre,
+    qui sanctissimo grauissimoque iudicio auctor doctorque <milestone unit="page"
+     n="p. 166 vol. VII Keil"/> elocutionis Latinae uisus est non futilis, quantum natura
+    ministrauit, exponere duorum gratia. ex hoc enim prodesse quidem licet parua legentibus atque
+    scribentibus, aeternam uero gloriam nostro labori parare sine dubio credimus. syllabas igitur
+    unius cuiusque dictionis supra dictis litteris accommodatas siue capite fulgentes siue medio
+    uallatas seu finem obseruantes, quantum ratio exposcit, tractabimus inspectis praecipue
+    diligenter antiquis exemplariis, quae sunt a nostris iam dudum probata maioribus. et quia sine
+    uocalium ordine syllabas posse nullo modo consistere ipsa primum natura, institutionibus deinde
+    praeceptisque doctorum instructi cognoscimus <del>tum uocalium</del>, pro earum dignitate
+    inceptum operis huiusce proponemus. summa itaque et generalis nostra diuisio in nomine uerboque
+    spectabitur. sed hae quoque partes diuidentur trifariam, id est in primam mediam atque ultimam
+    syllabam, haec distributio quamuis apud Graecos Herodiano displicuit. et primum incipiamus de
+    nomine ac de prima nominis syllaba, exercentes ubique scilicet nominatiuum, quod alii casus
+    notabuntur similiter. et quoniam in quibusdam istum deficere nouimus, per quoscumque casus
+    inueniemus, illa quoque nomina tractare temptabimus. </p>
+   <milestone unit="page" n="p. 167 vol. VII Keil"/>
+   <div type="section">
+    <head>de nomine</head>
+    <p>
+     <hi rend="bold"> de nomine ac de prima nominis syllaba</hi>
+    </p>
+    <p> ua syllaba praefulgens in capite nominis per u uocalem loco positam consonantis scribetur,
+     quoniam haec apud Latinos littera plus ualet quam <supplied>b</supplied> muta, eo quod et
+     uocalis habetur et consonans, quando usus poposcerit, ut uates uagus uanus ualidus uacuus
+     uagina, excepto basio. balineum enim et baculum, a quo etiam bacillum nascitur diminutiuum, ex
+     Graeca elocutione transfigurata consistunt. praeterea excipi cognouimus haec quae subiecta sua
+     cum interpretatione reddemus, quae nusquam nisi in diuersis cottidianis glossematibus repperi,
+     batiola <foreign xml:lang="grc">ποτήριον</foreign>, basus<foreign xml:lang="grc">
+      φαλλός</foreign>,<foreign xml:lang="grc"> τὸ αἰδοῒον τῶν βιολόγων</foreign>, batulus <foreign
+      xml:lang="grc">μογίλαλος</foreign>. haec nos, quoniam lecta non inuenimus, inscrutata
+     relinquimus. illa quoque nomina, quorum secunda syllaba in a litteram desinet, per b mutam
+     scribentur, ut <del>bambalo <foreign xml:lang="grc"> ψελλιστής</foreign></del> baca <foreign
+      xml:lang="grc">κόκκος</foreign>, balatro<foreign xml:lang="grc"> ἄσωτος</foreign>,
+      balatus<foreign xml:lang="grc"> βληχηθμός</foreign>, barathrum ac talia. </p>
+    <milestone unit="page" n="p. 168 vol. VII Keil"/>
+    <p> ue correpta nominis principium obsidens u digammon similiter habeat in scriptura, ut Venus
+     uenia uerecundus uenerabilis uetus uenenum uehemens uehiculum, ita tamen si non ab aduerbio
+     bene compositionem habuerint nomina. haec namque per b mutam notabuntur, eo quod aduerbium bene
+     per b mutam scribi ratio regularum compellit hac de causa. quaedam aduerbiorum a nomine uenire
+     non dubium est, et si nominis datiuus casus singularis in o desinat, ultima o littera in e tam
+     breuem quam longam conuersa facit aduerbium, ut doctus docti docto docte, malus mali malo male.
+     ergo et bonus boni bono bone debebat facere. sed ne uocatiuus casus, non aduerbium putetur, ut
+     o bone uir, uisum est etiam paenultimam o litteram in e conuertere, ut hoc aduerbium, illud
+     nomen iudicetur. igitur a bono factum est aduerbium bene. bonum uero per hanc litteram signari
+     monstrabunt sequentia. sic itaque si ab aduerbio bene composita fuerint nomina, per b mutam
+     scribentur, ut benignus beniuolens <milestone unit="page" n="p. 169 vol. VII Keil"/> benificus.
+     meminerimus tamen beatum a superius dicta abhorrere regula, quod primam syllabam nulla sequitur
+     consonans. et quoniam huic etiam opponitur regulae uehemens et uehiculum, admonemus
+     adspirationem, ut in multis, hic quoque inseri pro consonante possibile. ue producta in eadem
+     sede conlocata, siquidem masculini uel neutri generis erunt nomina, quibus haec fuerit
+     praeposita syllaba, per u uocalem pro consonante signabitur, ut uenator uelum <del>ueretrum
+       <foreign xml:lang="grc">τὸ μόριον</foreign></del> ueratrum uenabulum. si erunt uero feminina
+     tantummodo, quorum origo a masculino uenire non cernitur, per b mutam scribentur,
+      besica<foreign xml:lang="grc"> ἡ φῦσα</foreign>, belua, bestia, ita tamen si non duarum
+     fuerint syllabarum: nam mutabunt scripturam, ut uena, uespa<foreign xml:lang="grc">
+      ἀνθηδών</foreign> et similia. his quoque opponitur beta, quae Graece<foreign xml:lang="grc">
+      σεῦτλον ἢ κατὰ Ἀττικοὺς τεῦτλον</foreign> uocatur, quoniam in Graeco idem genus obseruare non
+     potuit. praeterea quaerimus, cur ueritas et feminini generis <milestone unit="page"
+      n="p. 170 vol. VII Keil"/> existens et superans disyllaborum mensuram per u, non per b
+     scribitur; et dicimus, quod non est primae positionis nomen, sed descendit a mobili genere. est
+     enim uerus uera uerum, ex quo nascitur appellatio ueritas, et ideo primiformis sui regulam
+     necessario defendit. simili modo et uenatrix masculini sui originem sequitur. </p>
+    <p> ui longa uel breuis nomini praebens initium, si a numero bis, id est secundo, composita
+     fuerit, per b mutam scribetur. discretionis enim gratia bis numerus per hanc litteram
+     scribitur, ut separetur a nomine monosyllabo, quod uim et necessitatem significat, ueluti
+     biceps bilinguis biformis bipatens biennium bimum biga biduum bicolor bipinnis biiugum ac
+     talia. </p>
+    <p> si hoc autem pura remaneat numero, u traducta in consonantium potestatem fuerit posita, ut
+     uictor uinum uitis uictus uinitor uita uia uidua uipera uiator uitisator, praeter bitumen, quia
+     neutri generis consistens numerum disyllaborum excessit; bilem etiam discretionis causa: nam si
+     fellem <milestone unit="page" n="p. 171 vol. VII Keil"/> significet, per b mutam scribetur; si
+     breue aliquod, per u digammon scribetur. </p>
+    <p> bibula enim a bibo uerbo traducitur, cuius postea regulas meditemur. </p>
+    <p> uo breuis uel producta obseruans principium per u litteram uocalis amissa potestate
+     scribetur, ut uoluntas uoluptas uorago uocabulum uomis uotum, bono tantummodo regulam
+     spernente, eo quod in tria genera dispertitur, cum praedictorum nihil figuram mobilium recipit. </p>
+    <p> bu siue producta seu correpta fuerit praeposita, b mutam habebit in scriptura, ut buxus,
+     bufo <foreign xml:lang="grc">φυσίγναθος</foreign>, bustum, bucina, bucula et huiusce modi
+     omnia. nullo enim modo poterat ipsa sibi <supplied>u</supplied> littera praeponi alia etiam
+     consonante in prima non coniuncta syllaba. cum tamen dissimilis continuo littera fuerit
+     subsecuta, ut uultus uulgus Vulcanus ac talia, per u digammon scribetur. nam si prima syllaba
+     desinat in consonantem, ex qua etiam secunda incipiat, b mutam repetit in scriptura, ut bucca
+     bulla et similia. </p>
+    <milestone unit="page" n="p. 172 vol. VII Keil"/>
+    <p> bab uel alia intercedente uocali nullam repperi nominis incipientem syllabam. uac syllaba
+     quotiens praeposita fuerit, u uocalem habeat pro consonante, ut uacca uaccinium. nam Bacchus et
+     baccar sibi Graeca uindicauit prudentia. uec uic syllabas inueni deficere. boc unum barbarum
+     didici, id est Bocchus, quod b mutam habere cognouimus in scriptura. et sciendum quod nomina
+     peregrina, si trahuntur ad Latinum sermonem, b mutam sibi plerumque defendunt. ideo autem
+     diximus plerumque, quia sunt quae Latinis seruiunt regulis, ut Massiua. hoc enim nomen licet
+     barbarum consistat, tamen regulam in scriptura conseruat, quam suus locus monstrabit. buc
+     primam syllabam in uno repperi solummodo nomine, hoc est bucca, quod per b mutam scribitur, ceu
+     paulo ante rationem reddidimus. bad baf bag bak syllabas uel intercedentibus aliis uocalibus
+     Latina minus connumerauit facundia. </p>
+    <p> ual prima syllaba, siquidem l fuerit littera subsecuta, per u <milestone unit="page"
+      n="p. 173 vol. VII Keil"/> scribetur, ut <del>Valentinianus</del> uallis et uallum. nam
+     ballaenam et ballistram a Graeco sermone dici mea putauit sententia, hanc <foreign
+      xml:lang="grc">παρὰ τὸ βάλλειν ἑαυτὴν καὶ ῥίπτειν</foreign>, illam <foreign xml:lang="grc"
+      >παρὰ τὸ βάλλειν καὶ στρωννύναι</foreign>,<foreign xml:lang="grc"> τουτέστιν
+      ἀναιρεῒν</foreign>. </p>
+    <p> si uero haec non sequetur littera, per b mutam signabitur, ut baluus <foreign xml:lang="grc"
+      >ὁ ψελλός</foreign>, balteus et balbae<foreign xml:lang="grc"> θύραι</foreign>, nisi a
+     uestibulo et albo nomen hoc arbitremur compositum: praeter aduerbium ualde, eo quod per
+     detractionem i litterae dictum esse non dubium est. ualide enim integra dictio consistit, ut
+     arbitror, et hoc namque uenit de nomine: facit enim ualidus ualidi ualido. ergo ualide
+     aduerbium facere debebat, unde si uoluerimus incorruptam emittere dictionem, primae syllabarum
+     subiaceat regulae. uel syllaba, siquidem sola permaneat, erit coniunctio disiunctiua, quae per
+     u digammon omnifariam scribetur. si uero caput fuerit nominis, b mutam habebit in scriptura, ut
+     bellum bellissimum et bellaria<foreign xml:lang="grc"> τὰ τραγήματα</foreign>: praeter uellus
+     discretionis gratia. nam si per u digammon scribatur uellus, genere neutro ac declinatione
+     tertia nuncupetur, ut uillum significet: hoc uellus enim huius uelleris dicitur. si autem per b
+     mutam notetur, genere masculino ac declinatione secunda declinabitur, ut scitum denuntiet: hic
+     enim bellus <milestone unit="page" n="p. 174 vol. VII Keil"/> huius belli, scitus uel iocosus,
+     per casus declinatur. uil syllaba si fuerit antecedens, u uocalem habebit pro consonante, ut
+     uillus <foreign xml:lang="grc">ὁ μαλλός</foreign>, uilla <foreign xml:lang="grc"> ὁ
+      ἀγρός</foreign>. uol primam nominis syllabam neque breuem inueni neque longam, nisi antiquitus
+     pro uul figuratam, ut uoltus pro eo quod est uultus, uolnus pro uulnus et similia. quae si
+     libido fuerit adhibere, iuxta rationem uul syllabae necessario scribentur, per u digammon
+     scilicet, ut uultus uulgus uulpes uultur Vulcanus; bulla quippe notata solummodo iuxta quam
+     superius dedimus rationem. </p>
+    <p> bam et uocalibus aliis interuenientibus in prima syllaba nullius nominis enuntiari cognoui,
+     nisi in glossematibus bamma<foreign xml:lang="grc"> ὀξύγαρον</foreign> atque bambalo <foreign
+      xml:lang="grc"> ὁ ψελλιστής</foreign>, quae per b mutam scribuntur. uan uen uin syllabae u
+     uocalem habebunt pro consonante, ut uannus uentus uindicta. bon bun syllabas non inueni
+     praepositas. </p>
+    <p> uap praefinita syllaba u uocalem habebit pro consonante, ut uappa <milestone unit="page"
+      n="p. 175 vol. VII Keil"/><foreign xml:lang="grc">ὑδαρὴς οἶνος</foreign>. alias uocales inter
+     u et p conlocatas inueni deficere. in q syllabam definitam similiter inuenire non potui. </p>
+    <p> bar cum incipit syllaba, b mutam habuerit positam, ut barrus <foreign xml:lang="grc">
+      ἐλέφας</foreign>, bardus <foreign xml:lang="grc">ἀναίσθητος</foreign>, bargus <foreign
+      xml:lang="grc">ἀφυής</foreign>, barba et quod in glossematibus inueni bargina<foreign
+      xml:lang="grc"> ἡ προσφώνησις βαρβαρική</foreign>. excipitur nomen proprium Varro tantummodo a
+     regula. uer uir syllabae longae uel breues u uocalem loco positam consonantis habebunt, ut
+     uertex, uergiliae <foreign xml:lang="grc">πλειάδες</foreign>, uerbum, uir uirga uirgo uirtus
+     Virbius. excipitur a regula tantummodo berna, quod nomen licet ego inueni per u digammon
+     scriptum, tamen, quia illustris memoriae audiui Memnonium, omnis hominem facundiae iudicem, se
+     dicentem de hoc reprehensum a Romano quodam disertissimo, ut per hanc enuntiauerit litteram,
+     nos quoque notamus ac temptamus rationem reddere quasi diuersitatis causa. si enim berna domi
+     genitum significat, id est <foreign xml:lang="grc">ὁ οἰκογενής</foreign>, commune est duum
+     generum secundum ueteres, trium uero <milestone unit="page" n="p. 176 vol. VII Keil"/> secundum
+     meam sententiam, et per b mutam scribitur. si uero temporale quoddam denuntiet, erit mobile: a
+     uere namque uernus uerna uernum fit, ut siquis dicat uernus sol, uerna hirundo, uernum tempus,
+     et u digammon sicut<foreign xml:lang="grc"> πρωτότυπον</foreign> eius in scriptura tenebit. his
+     ita se habentibus possumus etiam intellegere bernam dictum esse eum qui in bonis hereditariis
+     natus est: bona uero per hanc litteram scribi supra dicta demonstrant. </p>
+    <p> uor syllabam neque breuem neque longam in Latino sermone ulli inueni praepositam nomini,
+     nisi uortex pro eo quod est uertex, sicuti uolnus pro eo quod dicitur uulnus antiquos figurasse
+     meminimus. uur similiter cognoui deficere praeter hoc quod in proprio didicimus nomine, id est
+     Burria, quod etiam per b mutam scriptum esse secundum regulam nouimus in supra dictis
+     expositam. </p>
+    <p> uas monosyllabum recognoui solum, quod per u litteram loco scribitur consonantis, ut uas.
+     bassus etiam, id est grassus, in glossematibus repperi et per b mutam scribi cognoui. </p>
+    <milestone unit="page" n="p. 177 vol. VII Keil"/>
+    <p> bes longam similiter nomen monosyllabum repperi; significat autem uncias octo, quod
+      <del>per</del> b mutam tenere consuetudo tradidit in scriptura. </p>
+    <p> breuem non inuenire potui. nam uesper uestis ac similia, licet per u uocalem pro consonante
+     scribantur, tamen iuxta rationem supra dictam, ubi fecimus mentionem ue correptam debere per u
+     digammon scribi, quoniam s littera sequenti syllabae sine dubio iungitur. uis nomen
+     monosyllabum numero non subiacens, sed quod interpretatur uiolentia uel potestas, u digammon
+     tenebit in scriptura. nam quod significat numerum propter discretionem per b mutam scribitur,
+     ceu superius fecimus mentionem. </p>
+    <p> bissum etiam, quod integrum significat <foreign xml:lang="grc">ἀκέραιον</foreign>, per b
+     mutam in glossematibus repperi. uos longa, si pronomen fuerit, per u uocalem pro consonante
+     positam, si nomen, per b mutam scribetur, aliis scilicet casibus in utroque numero hanc quae
+     est in priore syllaba scripturam sequentibus. </p>
+    <p> sed quoniam in genetiuo et in aliis casibus praeter uocatiuum hoc nomen crescere cognouimus
+     et per u litteram posteriorem quoque syllabam enuntiari (bos enim bouis, licet similem genetiuo
+     nominatiuum quidam decernant, et boui datiuo et accusatiuo bouem facit), euenit etiam quibusdam
+     nominibus in casu nominatiuo u litteram penitus non habere, in aliis uero <milestone
+      unit="page" n="p. 178 vol. VII Keil"/> eandem litteram inueniri, ut Iuppiter Iouis, notandum
+     quod etiam illa per u uocalem pro consonante scribentur ultimae uis syllabae seruantia regulam,
+     quam paulo post suus locus monstrabit. bus syllabam in capite nominis positam nullo modo
+     inuenire potui. </p>
+    <p> bat in uno tantum repperi nomine genere neutro pluraliter enuntiato, id est battualia, quod
+     b mutam habere cognouimus. exercitationes autem militum uel gladiatorum significat. inde etiam
+     battuatores <foreign xml:lang="grc">τοὺς βασανιστάς </foreign> dici puto. bet deficere comperi.
+     uit per u digammon scribitur, ut uitta. bot but syllabas Romanum penitus non admittit eloquium. </p>
+    <p> uix uox monosyllaba didici tantummodo, quae per u litteram uocalem in consonantium
+     potestatem traductam scribentur. alias uocales x quidem antepositas, b autem litterae
+     cohaerentes per articulatas uoces consistere Latina nimium ignorauit facundia. </p>
+    <milestone unit="row" n="riga 15 vol. VII Keil"/>
+    <p>
+     <hi rend="bold"> de mediis</hi>
+    </p>
+    <p>
+     <hi rend="bold"> syllabis</hi>
+    </p>
+    <p> de syllabis in capite nominum positis, quantum potuimus, sine <milestone unit="page"
+      n="p. 179 vol. VII Keil"/> praetermissione tractauimus. notum enim omnibus credo consistere
+     quod necesse est, litteram nostro labori propositam si consonans fuerit consecuta, in quacumque
+     dictione b mutam sine dubio scribi, ut blandus, gibbus <foreign xml:lang="grc"
+     >κυρτός</foreign>, bratteum, latebrae, tenebrae atque omnia talia. nunc rationabiliter mediae
+     syllabae nostrum sortientur laborem. </p>
+    <p> ua syllaba in medio nominis posita per u digammon scribetur, ut auarus caluaria, praeter
+     carbasum, quod nomen Graecum magis quam Latinum arbitror. ambages enim per b mutam notatur, aut
+     quia praeposita est m littera, aut quod ex duobus corruptis nomen arbitramur compositum, quasi
+     ambo actae: unde dicitur et ambire. ergo composita uel appellationes uel traducticia siue
+     facticia, id est quae ex aliis facta sunt, notare debemus sequentes<foreign xml:lang="grc">
+      πρωτότυπα</foreign>, ut nouus noualis, et deriuatiua, ut Alba Albanus, silua Siluanus, priuo
+     priuatum, libo libatum uel inlibatum. </p>
+    <milestone unit="page" n="p. 180 vol. VII Keil"/>
+    <p> quorum quia alia ex posteritatis syllaba nominum, alia ex uerbis composita uel deriuata
+     sunt, suis locis rationem festinabimus reddere. </p>
+    <p> ue correpta siue sola fuerit siue adiecta consonante, per u uocalem loco positam consonantis
+     notetur, ut iuuenis alueus fouea aduena iuuencus cauerna nouerca et aduersus praepositio,
+     praeter trabeam. gubernator enim licet per b mutam scribatur, tamen hoc nomen arbitror a
+     guberno uerbo figuratum consistere, cuius regulas postea meditabimur. ita tamen, si non
+     diminutiua nomina uel deriuatiua fuerint. illa enim, sicut superius diximus, prototypa sua
+     sequentur, ut liber libertus libellus, labrum labellum, hiems uel imber hibernus, flabrum
+     flabellum, tabula taberna, bellator imbellis uel imbecillus, quae omnia per b mutam ceu
+     primiformia scribentur certissime. be producta per b mutam omnifariam scribetur, ut uerbena,
+     rubeta <foreign xml:lang="grc">ὁ φρῦνος</foreign>, ambesum, habena. excipitur auena, quae
+     significat tibiam <milestone unit="page" n="p. 181 vol. VII Keil"/> uel stipulam, discretionis
+     causa. nam seuerus a saeuo ueniens posteritatis uus syllabae consequitur regulam, cuius
+     rationem suus locus monstrabit. </p>
+    <p> ui breuis per u uocalem habentem uim consonantis scribetur, ut Fauius auidus Flauius fauilla
+     prouincia exuuiae obliuium diluuium sauium liuidum, simpuuium<foreign xml:lang="grc"> εἶδος
+      σκεύους ἱερατικοῦ</foreign>: praeter obitum nomen et subito atque obiter<foreign
+      xml:lang="grc"> κατὰ ταὐτόν</foreign> aduerbia, quia ob et sub utpote praepositiones antiquos
+     puto in scriptura seruasse, b litteram non mediae sed primae adiungentes syllabae. Virbius
+     etiam abstractus a regula, quoniam uirum bis factum esse memorant, quem numerum per b mutam
+     scribi ante lata declarant: quidam uirum bonum, alii herobium, tamquam sit <foreign
+      xml:lang="grc">ἥρως ἀναβεβιωκώς</foreign>, alii deum esse qui uiribus praeest interpretantur
+      <del>ipsum nomen</del>: et aduerbium, quod uerbum habet <foreign xml:lang="grc"
+      >πρωτότυπον</foreign>, cuius regulam monstrabunt quae fuerint exposita postea. his praeterea
+     notatur <milestone unit="page" n="p. 182 vol. VII Keil"/> ambiguus. namque m semiuocali
+     praeposita in una eademque dictione numquam u littera pro consonante sequitur. huic opponitur
+     quamuis; sed hoc uidetur esse compositum, cum posterior uis syllaba subiungitur plurimis, ut
+     abs quouis quorumuis utrumuis ac talia. obseruandum tamen ne es pura syllaba terminauerit
+     nomina: si enim ita fuerint enuntiata, per b mutam sine dubio mediae syllabae scribentur, ut
+     abies scabies rabies. </p>
+    <p> atque haec quoque species bipartita consistit. nam si trisyllaborum maiorem habuerint
+     numerum, per u digammon necessario notentur, ut inluuies. </p>
+    <p> lis etiam syllaba terminata per b mutam scribi compulerit nomina, ut nobilis mobilis
+     laudabilis mirabilis, excepto <del>seruili</del> ciuili et ouili, quod a <del>seruo
+      seruilis</del> ciue ciuilis atque oue ouilis uis syllaba posteritatis deducunt originem, cuius
+     postea regulas meditabimur. licet enim habitus excubiae probitas arbitrium dubium ac talia per
+     b mutam scribuntur, tamen hac de <milestone unit="page" n="p. 183 vol. VII Keil"/> causa,
+     quoniam a uerbis figurata consistunt, et sciendum quod quaecumque nomina cum uerbis habent
+     societatem, uerborum regulis, quas postea loco suo dederimus, ipsa quoque necesse subiaceant. </p>
+    <p> bi longa, si paenultima fuerit, per b mutam scribetur, ut libido rubigo tibicen ambitus
+     concubina cubile. sed hoc etiam manifestamus, quod horum quaedam in transfiguratione
+     corripiuntur, ut tibicen tibia, cubile cubitus uel concubium, quae licet uim longarum
+     amiserint, tamen eandem scripturam etiam in remutatione seruare desiderant. sciendum praeterea
+     quod, si in compositis nominibus uel antepaenultima sede ui longa inciderit syllaba, per u
+     uocalem pro consonante scribetur, ut inuitus diuigenus Lauinia priuilegium ac talia. priuignum
+     etiam huic regulae inseruire non dubito, quia per detractionem e litterae dici puto: priuigenum
+     enim integram magis esse dictionem noster animus arbitratur. admonemus quoque quod in
+     deriuatiuis hic etiam, sicut ubique, spectabimus primiformium <milestone unit="page"
+      n="p. 184 vol. VII Keil"/> regulas, ut ceruix ceruical, puluis puluinarium, quas a
+     posteritatis syllaba uenientes paulo post retegemus. et conubium uel ex nubtiis uel ex nubo
+     uerbo compositum esse quis abneget? siue igitur a nubtiis, b mutam habebit secundum regulam
+     quam ante posuimus, ubi diximus numquam u digammon consonanti praeponi, siue de nubo uerbo
+     factum esse dicamus, eandem scripturam tenebit secundum rationem quam in uerbis festinabimus
+     reddere. hanc regularum diuisionem confirmat scriptura conuiuii: nam dissimili tempore uiui
+     syllabae constitutae notantur similiter, quod prior, id est antepaenultima, longa est et
+     speciem regulae meruit paulo ante memoratae, ubi meminimus ui longam in antepaenultima sede
+     constitutam per u uocalem habentem uim consonantis necessario scribi; manens altera breuis
+     supra dictae seruiuit regulae, ubi diximus ui breuem in medio nominis positam per u digammon
+     notari. ergo regulam absurde esse diuisam non arbitror. </p>
+    <milestone unit="page" n="p. 185 vol. VII Keil"/>
+    <p> uo syllaba longa uel breuis in medio nominis posita per u digammon scribetur, ut aduocatus
+     friuolum diuortium deuotus fauonius, abortu et sobole regulam propter praepositiones, ut puto,
+     negantibus. bu syllaba per b mutam notetur certissime, ut tribunal robustus uocabulum ebulum
+     cunabulum moribundus furibundus atque omnia talia, auunculo tantum minus regulae connumerato,
+     ideo quod formam diminutiui uel deriuatiui seruare minime dubitatur et quasi uenire ab auo
+     demonstratur, ut auus auunculus. auum uero per u digammon scribi suus locus monstrabit. <hi
+      rend="bold"> de ultimis</hi></p>
+    <p>
+     <milestone unit="row" n="riga 11 vol. VII Keil"/> haec de mediis syllabis. reliquum est ultimis
+     nominum syllabis imponere studium. </p>
+    <p> ua syllaba nominis terminata, siquidem l antelata littera uel uocalis <milestone unit="page"
+      n="p. 186 vol. VII Keil"/> natura longa in paenultima fuerit, per u digammon scribetur, ut
+     silua malua calua uua oliua, praeter balbas, si tamen prior syllaba per b mutam scribetur,
+     discretionis gratia, ideo ne non tam fores quam ineffabiles uoces denuntient. nam per b mutam
+      enuntiatae<foreign xml:lang="grc"> θύρας ἤγουν πυλῶνα λαμπρόν</foreign>, per u digammon ultima
+     scilicet syllaba, de qua etiam nunc loquimur,<foreign xml:lang="grc"> τὰς ψελλάς</foreign>
+     significant: Persius <quote type="poetry">«balua de nare locutus»</quote>. si uero haec, id est
+     l, non praefulgeat littera uel ex una uocali natura longa non erit paenultima, b mutam decenter
+     in scriptura tenebit, ita tamen si non a masculino genere nomina fuerint figurata, ut herba
+     tuba turba iuba, larba <foreign xml:lang="grc"> δαιμόνιον</foreign>, barba, obba<foreign
+      xml:lang="grc"> ποτήριον</foreign>, glaeba, pronuba. excipiuntur caterua Minerua, quia
+     disyllaborum huius regulae superantia numerum habuere longam positione paenultimam. </p>
+    <p> ue syllaba correpta per u digammon sine dubio scribetur, siue a se <milestone unit="page"
+      n="p. 187 vol. VII Keil"/> oriantur nomina, siue ab aliis ueniant, ut conclaue suaue siue
+     quidue atque his similia. ue productam inuenire non potui. bi non inueni terminatam nisi in
+     pronominibus datiui casus et in aduerbiis, quae per b mutam omnifariam scribentur, ut tibi sibi
+     ubi ibi, et in pluralibus nobis uobis. et semel sciendum quod quaecumque siue nomina siue
+     pronomina in datiuo casu singulari uel plurali b litteram habeant in alio casu penitus eadem
+     non fulgente littera, per b mutam scribentur, ut omnibus similibus pluribus ac talia. </p>
+    <p> bo syllaba definita per b mutam scribetur, ut turbo bubo et tabo, licet per ablatiuum casum
+     enuntiatur, solummodo excepto pauone. bu syllabam ac mutas omnes atque f semiuocalem ua
+     syllabae cohaerentes uel intercedentibus aliis uocalibus cognoui deficere. unde suscepto
+     reliquarum semiuocalium numero regulas, quantum uires sufficiunt, meditemur. </p>
+    <p> bal syllaba terminata per b mutam scribetur, quam in barbaris nominibus <del>aut
+      Latinis</del> nouimus inuenisse, ut Hannibal Hasdrubal Adherbal. alias uocales inter b et l
+     conlocatas reperire non potui. </p>
+    <milestone unit="page" n="p. 188 vol. VII Keil"/>
+    <p> bam ban syllabas cum aliis uocalibus in nominatiuo casu a Latino sermone abhorrere
+     cognouimus, excepto nouem: significat autem indeclinabilem numerum, qui per u digammon
+     scribitur: notatis etiam quibusdam neutralibus, quae postmodo aliis subiciemus generibus. </p>
+    <p> bar ber syllabae terminatae per b mutam scribentur, si disyllaborum non egredierint numerum,
+     quorum naturali longa minime carebit paenultima, id est si non fuerint trisyllaba, quae
+     naturalem longam non habebunt paenultimam, ut iubar imber faber uber suber coluber Mulciber
+     liber et per analogiam uerber. si enim trisyllaba fuerint neutri generis, quae longam
+     paenultimam naturaliter habebunt, per u uocalem loco positam consonantis notentur, ut cadauer
+     papauer et similia. nam puluer, licet est disyllabum, tamen, quoniam antiqui duplicem
+     nominatiuum enuntiari maluerunt (non solum enim puluer sed etiam puluis dixerunt), hac de causa
+     per u digammon scribitur, uis syllabae posteritatis, cuius rationem suo loco monstrabimus,
+     arripiens regulam. uir per u uocalem uim consonantis habentem scribetur, ut semiuir triumuir,
+     licet composita, non sunt <milestone unit="page" n="p. 189 vol. VII Keil"/> simplicia. uor per
+     u digammon notetur, ut liuor et Mauors, si hoc nomen in hac parte poni necessarium dicimus:
+     quidam enim non solum Mars sed etiam Mauors, unde et Mauortia, dici uolunt: excepto arbore,
+     quoniam nuncupatur et arbos, quod per b mutam scribi docuit consuetudo. nam labor fauor feruor
+     pauor ex uerbo figurata uerbi quoque non abnegant regulam. bur syllaba terminata b mutam in
+     scriptura tenebit, ut ebur robur. bas syllabam terminari in Latino sermone parum inuenire
+     potuimus. </p>
+    <p> ues breuis definita syllaba per u uocalem pro consonante scribetur, ut diues. </p>
+    <p> bes longa cum fuerit terminata, b mutam tenebit in scriptura, ut labes tabes pubes nubes,
+     quamuis nubis quidam nominatiuum enuntiari maluerunt. </p>
+    <p> uis per u uocalem loco positam consonantis, ut ciuis niuis nauis clauis grauis puluis
+     suauis. licet enim scrobis et orbis per b mutam scribantur, tamen hac de causa, quoniam quidam
+     nominatiuum singularem sine i littera enuntiari uoluerunt. bos per b mutam, ut arbos, ceu
+     superius meminisse cognoscimus. bus, siquidem masculini generis tantum nomina fuerint, per b
+     mutam scribetur, ut cibus naebus morbus rubus globus nimbus lembus <milestone unit="page"
+      n="p. 190 vol. VII Keil"/> lumbus, neruo notato solummodo, quia, si e longa fuerit praeposita,
+     faciet uerbum: eneruo enim <foreign xml:lang="grc">ἐκνευρίζω</foreign> positio uerbi dicitur,
+     cuius rationem, cum de uerbo locuti fuerimus, maturabimus reddere. obseruabimus tamen
+     disyllaborum ut non egredierint numerum aut paenultimam longam ex una uocali minus naturaliter
+     habeant: nam mutabunt scripturam, ut riuus cliuus aceruus genetiuus nominatiuus et cetera. sed
+     quia Coroebus supergrediens numerum disyllaborum per b mutam notatur, sciendum quod ideo hanc
+     litteram tenuit in scriptura, uel quia peregrinum nomen, haut Latinum existit, uel quia
+     paenultimam longam non ex una uocali, sed ex diphthongo meruit. </p>
+    <p> si uero mobilia uel ex parte mobilia uel promiscua fuerint, per u uocalem loco positam
+     consonantis, ut nouus noua nouum, saeuus saeua saeuum, curuus curua curuum, baluus balua
+     baluum, toruus torua toruum et clauus claua clauum, licet aliam per genera significationem
+     suscipiunt; auus auia, <milestone unit="page" n="p. 191 vol. VII Keil"/> ceruus cerua, fauus
+     faua, quam similiter alter intellectus sequitur, nisi femininum discretionis gratia per b mutam
+     uoluerimus scribere; caluus caluarium et coruus promiscue et hic et haec clauus alterum per
+     genus significans: orbo gibbo probo subductis a regula, albo etiam discretionis gratia. nam cum
+     uentrem significat, per digammon u, cum colorem, per b mutam scribetur certissime. sciendum
+     similiter quod hic quoque disyllaborum superantia numerum eandem scripturam non retinent, ut
+     superbus superba superbum, acerbus acerba acerbum et palumbus promiscue, licet Vergilius
+     feminino genere extulit <quote type="poetry">«nec tamen interea raucae, tua cura,
+      palumbes»</quote>. </p>
+    <p> excipitur proteruus: nam lasciuus per u digammon scribitur, quoniam longam <milestone
+      unit="page" n="p. 192 vol. VII Keil"/> naturaliter paenultimam tenuit, et sciendum quod, siue
+     erunt disyllaba, siue hunc ampliauerint numerum, siue unius seu trium generum fuerint, si
+     secundam ab ultima longam habeant, omnia per u uocalem pro consonante scribentur, ut riuus
+     cliuus flauus positiuus comparatiuus et talia. </p>
+    <p> meminerimus tamen quod mobilium nominum feminina neutraque genera similem masculinorum
+     suorum scripturam suscipiunt, ut flauus flaua flauum, albus alba album ac talia. sed quia non
+     omnia in bus desinentia existunt mobilia, sicut in principio huius regulae genera diuidentes
+     disseruisse meminimus (quaedam enim masculini generis inueniuntur solummodo, ut cibus nimbus,
+     quaedam masculini et feminini, ut ceruus cerua, quaedam neutra, ut aeuum), sciendum quod etiam
+     neutra quae a posteritate bus syllabae non ueniunt per u digammon scribuntur, ut ouum aruum
+     eruum, excepto libo <foreign xml:lang="grc">ποπάνῳ</foreign>. uerbi enim ultima syllaba per b
+     mutam scribitur hac de causa, quod a uerbere dictum esse ueteres existimauerunt, cuius rationem
+     in ante latis tradidisse cognoscimus. </p>
+    <milestone unit="page" n="p. 193 vol. VII Keil"/>
+    <p> uax uex uix: unum tantummodo nomen per unam quamque syllabam repperi terminatum, ut uiuax,
+     uibex <foreign xml:lang="grc">ὁ μώλωψ</foreign>, uerbex<foreign xml:lang="grc"> τὸ
+      πρόβατον</foreign>, ceruix, quorum media per b mutam, quae utrimque uel extrinsecus sunt per u
+     digammon signari cognouimus. reliquas <del>ab</del> his consonantibus insertas uocales Latinum
+     minus adsciuit eloquium. </p>
+    <milestone unit="row" n="riga 8 vol. VII Keil"/>
+    <p> de b littera trifariam in nomine posita, quantum natura ualuit ministrare, sufficienter, ut
+     puto, tractauimus. ab expositis enim recte iam intellegere possumus, siquid eueniet dictorum
+     contrarium. ibi namque considerare debebimus ne aliquid dissimile fuerit uel genere uel numero
+     syllabarum, tempore, significatione, uel si ex alia parte orationis descenderit. </p>
+    <p> quae obseruantes minus, ut reor, errabimus. restat nobis de b littera, <milestone
+      unit="page" n="p. 194 vol. VII Keil"/> quae similiter in uerbis etiam inuenitur, tractare
+     plenam imponentes, ut puto, labori rationem. nam si ex nomine uerboque oratio perfecta
+     componitur, hanc quoque partem et immeditatam relinquere non necessarium et supra eam laborare
+     superuacaneum iudico. de hac igitur parte regulas, quantum possumus, breuiter meditemur,
+     indicatiui modi primam inspicientes personam, uerbi scilicet actiui uel etiam neutri. sicut
+     enim actiuum, sic et passiuum scribetur: nam in communibus et deponentibus nullam inuenire
+     potui quaestionem <del>recipiens</del>. ex datis enim in nomine regulis exponendisque in uerbo
+     quae inueniuntur iudicabuntur facilius. primae autem personae similem formam sequentes personas
+     etiam <del>reliquas</del> retinere non dubium est. et quia omnis prima syllaba uerborum, in
+     communibus autem et deponentibus media quoque per u uocalem loco positam consonantis <milestone
+      unit="page" n="p. 195 vol. VII Keil"/> scribitur, excepto baiulo, bullio <foreign
+      xml:lang="grc">ἀναπηδῶ</foreign> etiam iuxta quam in prima nominum bu syllaba dedimus
+     rationem, bibo quoque propter discretionem, et abeo obeo subeo ac similia praepositionum
+     gratia, arbitror etiam deponens b mutam in scriptura tenere usus et consuetudo antiquitus
+     tradidit; reliquas, ut uires sufficiunt, una regula generaliter tractare temptabimus, quippe
+     regulis in nominibus datis firmis manentibus, etiam si in uerba figurantur. ut enim uerba in
+     nomen ducta uerborum regulas non amittunt, ita nomina loco posita uerborum origine regularum
+     carere non poterunt. </p>
+    <p> ergo si tempus praeteritum modi indicatiui in ui terminauerit syllaba, media atque ultima
+     syllaba personae primae temporis instantis per u uocalem loco positam consonantis scribentur,
+     eo quod omne praeteritum perfectum ui syllaba terminatum praeter bibi per u digammon scribitur,
+     foueo foui, faueo faui, moueo moui, paueo paui uel expaui, lauo laui, iuuo iuui, <milestone
+      unit="page" n="p. 196 vol. VII Keil"/> seruio seruiui; exceptis lambo lambiui ac talibus, quia
+     m littera praeposita scripturam mutauit: ferueo etiam, perfectum si ferui facit, per u
+     digammon, cui etiam ego magis adsentio, si ferbui facit, per b mutam scribetur: ita tamen, si
+     primae coniugationis ac primae speciei uerba non fuerint. illa enim per b mutam scribentur, ut
+     libero liberas liberaui, guberno gubernas gubernaui, sibilo sibilas sibilaui, dubito dubitas
+     dubitaui, hebeto hebetas hebetaui, titubo titubas titubaui, habito habitas habitaui.
+     excipiuntur inuito et deriuo iuxta rationem quam superius diximus, omnem primam uerborum
+     syllabam praeter haec quae paulo ante enumerauimus per u digammon scribi, quoniam in et de
+     praepositiones esse a nemine dubitatur. nauigo enim et aceruo <foreign xml:lang="grc">ἐπὶ τοῦ
+      σωρεύω</foreign> ac talia in nomine datis subseruiunt regulis. et haec quoque species in duas
+     partes diuiditur. nam si disyllaba fuerint, scripturam mutabunt, ut leuo leuas leuaui, seruo
+     seruas seruaui, curuo curuas curuaui, nouo nouas nouaui, ouo ouas ouaui, excepto orbo. </p>
+    <p> nam turbo a turba nomine descendens ba syllabae posteritatis detinuit <milestone unit="page"
+      n="p. 197 vol. VII Keil"/> regulam. probo enim puto dici per detractionem r litterae, cum
+     contrarium eius exprobro nuncupatur, et ideo b mutam arbitror in scriptura tenere iuxta regulam
+     quam in nominibus dedisse meminimus. et libo a Graeco translatum esse confidimus, ut est <quote
+      type="poetry">«<foreign xml:lang="grc">ἐπὶ δ' αἴθοπα οἶνον λεῖβε»</foreign></quote>. </p>
+    <p> praeterea quaerimus, quare uerbum eneruo disyllaborum supergrediens numerum et coniugationis
+     primae ac primae speciei consistens non per b mutam sed per u digammon scribitur, et dicimus
+     quaestionem soluentes, quod e longa praepositio est, et ideo disyllaborum arripuit regulam. </p>
+    <p> sed quia euenit quaedam uerba in ultima quidem aut antecedente syllaba primae personae u
+     litteram non habere, in secunda uero continere persona, ut uolo uis, malo mauis, quaedam in
+     praeterito tantum perfecto, non tamen in positione sua, ut gaudeo gauisus sum, et rursus
+      <del>in</del> praeterito perfecto u litteram penitus non habente, alias personas in temporibus
+     aliis eandem tenere litteram, ut uiuo uixi, sciendum quod etiam illa u litteram uocalem pro
+     consonante habeant in scriptura. si uero praeteritum supra dictum in bui aut in si aut in psi
+     syllabas desinat, per b mutam sine dubio scribentur, ut praebeo praebui, iubeo iussi, scribo
+     scripsi ac talia. </p>
+    <milestone unit="page" n="p. 198 vol. VII Keil"/>
+    <p> credo etiam de uerbis hanc regulam dedisse plenissimam, cum temporis omnis praeteriti
+     imperfecti ultimam syllabam modi scilicet indicatiui per b mutam <del>scribi</del>, ut amabam
+     uoluebam, et praeteriti perfecti eandem ultimam et plusquamperfecti paenultimam per u uocalem
+     loco positam consonantis, ut amaui amaueram, uolui uolueram, futuri quoque eiusdem modi
+     terminum, si in bo desinat, per b mutam, ut amabo docebo, et subiunctiui seu coniunctiui
+     ultimas et paenultimas per u uocalem pro consonante antiquos scribi tradidisse cognoscimus, ut
+     uoluam uoluerem uoluerim uoluissem uoluero ac talia, eorum scilicet uerborum, quorum prima
+     persona aut u uocalem habuerit pro consonante in ultima syllaba, ut leuo priuo, aut penitus
+     eadem littera in eodem loco eiusdem non fulgente personae, ut <milestone unit="page"
+      n="p. 199 vol. VII Keil"/> habito hiberno amo doceo ac talia. nam quae habebunt b mutam in
+     prima persona, quorum praeteritum in bui aut in psi syllabas desinet, eandem b mutam in omni
+     tempore modorum omnium, ubicumque inciderit, seruare desiderant. </p>
+    <milestone unit="page" n="p. 8 vol. VII Keil"/>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>De figuris sententiarum et elocutionis</title>
+    <author>Iulius Rufinianus</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Beatrice Strona</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2016</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000315</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Rhetores Latini Minores</hi>, ex codicibus maximam partem primum adhibitis emendabat Carolus Halm, Lipsiae 1863, 38-47 (Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana)</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+   
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+  
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+
+
+   <div type="pr" n="pr">
+    <p>Hactenus Aquila Romanus ex Alexandro Numenio: exinde ab eo praeteritas, aliis quidem
+     proditas, subtexuimus.</p>
+   </div>
+
+   <div type="cap" n="1">
+    <p><foreign xml:lang="grc">Εἰρωνεία</foreign> elocutiuncula Sallustiana commodissime exprimitur,
+     cum aliud in pectore reclusum, aliud in lingua promptum habemus, et sententia enuntiationis in
+     contrarium verbis accipitur, ut apud Vergilium:</p>
+    <l><hi rend="expanded">Scilicet is superis labor est</hi>.</l>
+    <p>Apud Tullium pro Ligario: <hi rend="expanded">Novum crimen, Gai Caesar</hi>, et cetera.</p>
+    <p>In Clodium et Curionem: <hi rend="expanded">Tu vero festivus, tu elegans, tu solus urbanus,
+      quem decet muliebris ornatus</hi>, et cetera. Ironiae autem species sex, chleuasmos sive
+     epicertomesis, charientismos sive scomma, asteismos, diasyrmos, exuthenismos, sarcasmos.</p>
+   </div>
+
+   <div type="cap" n="2">
+    <p><foreign xml:lang="grc">Χλευασμός</foreign> sive <foreign xml:lang="grc"
+      >ἐπικερτόμησις</foreign>. Haec figura risum excitat et severe proposita vafre excutit, eludens
+     personarum aut rerum comparatione, ut apud Vergilium:</p>
+    <lg>
+     <l><hi rend="expanded">meque timoris</hi></l>
+     <l><hi rend="expanded">Argue, tu, Drance</hi>.</l>
+    </lg>
+    <p>Apud Ciceronem: <hi rend="expanded">Quasi vero ego de facie tua, catamite, dixerim</hi>. Vel
+     alias: <hi rend="expanded">Potuistine contumeliosius facere, si tibi hoc Parmeno alioqui ac non
+      ipse Parmeno nuntiasset</hi>.</p>
+   </div>
+
+   <div type="cap" n="3">
+    <p><foreign xml:lang="grc">Χαριεντισμός</foreign> sive <foreign xml:lang="grc">σκῶμμα</foreign>.
+     Hac figura fit <hi rend="expanded">festiva dictio</hi>, cum amoenitate mordax, ut apud
+     Ciceronem: <hi rend="expanded">Infirmo corpore atque aegro, colore, ut ipsi iudicare potestis,
+      u.</hi> Et apud eundem: <hi rend="expanded">Facite enim, ut vultum ipsius et illam usque ad
+      talos demissam purpuram cogitetis</hi>.</p>
+   </div>
+
+   <div type="cap" n="4">
+    <p><foreign xml:lang="grc">Ἀστεϊσμός</foreign>, <hi rend="expanded">urbana dictio</hi>. Hac
+     figura fit excitatis aliis ingenua festivitas, ut apud Ciceronem: <hi rend="expanded"
+      >Respicite, respicite, iudices, hominum fortunas, respicite Fabricii senectutem. Cum hoc
+      ‘respicite’ ornandae orationis causa saepe dixisset, respexit ipse. At Fabricius a subselliis
+      demisso capite discesserat</hi>. Et alias: <hi rend="expanded">Negabant mirum, ius tam nequam
+      esse verrinum</hi>. Et alibi: <hi rend="expanded">Alii execrabantur Sacerdotem, qui tam nequam
+      verrem reliquisset</hi>.</p>
+   </div>
+
+   <div type="cap" n="5">
+    <p><foreign xml:lang="grc">Διασυρμός</foreign>. Haec figura fit, cum rem aliquam aut personam
+     elevamus, ut apud Tullium: <hi rend="expanded">Est adhuc, quod admirari vos video, non Verres,
+      sed Quintus Mutius</hi>. Et in eodem: <hi rend="expanded">Sed repente, tanquam epoto Circaeo,
+      factus est Verres: redit ad se atque ad mores suos</hi> Et alibi: <hi rend="expanded">Quid ad
+      haec Naevius? Ridet scilicet nostram amentiam, qui in vita sua rationem summi officii
+      desesideremus et instituta bonorum virorum requiramus</hi>.</p>
+   </div>
+
+   <div type="cap" n="6">
+    <p><foreign xml:lang="grc">Ἐξουθενισμός</foreign>. Figura haec fit, cum rem aliquam extenuamus
+     et contemtam facimus, ut apud Horatium in Lucilium:</p>
+    <lg>
+     <l><hi rend="expanded">At magnum fecit, quod verbis Graeca Latinis</hi></l>
+     <l><hi rend="expanded">Miscuit</hi>.</l>
+    </lg>
+    <p>Apud Tullium pro Caecina: <hi rend="expanded">Eieci ego te armatis hominibus, non deieci, ut
+      tantum facinus non in aequitate iuris, sed in una litera latuisse videatur</hi>. Item in
+     Philippicarum secunda: <hi rend="expanded">Nam quod quaerebas, quo modo redissem: primum luce,
+      non tenebris, deinde cum calceis et toga, nullis caligis nec lacerna</hi>. Cato apud
+     Athenienses: <hi rend="expanded">Antiochus epistolis bellum gerit, calamo et atramento
+      militat</hi>.</p>
+   </div>
+
+   <div type="cap" n="7">
+    <p><foreign xml:lang="grc">Σαρκασμός</foreign>. Haec figura quibusdam videtur eadem, quae
+     chleuasmos, sed a peritissimis propria significatione descripta est. Peculiariter enim foediora
+     ea significamus, non tamen sine dicacitate concinna, ut apud Vergilium:</p>
+    <l><hi rend="expanded">Novimus et qui te transversa tuentibus hircis</hi>.</l>
+    <p>Apud Ciceronem: <hi rend="expanded">Sexte noster, quoniam etiam iura ligurris</hi>. Et pro
+     Caelio: <hi rend="expanded">Quod facerem vehementius, nisi mihi intercederent inimicitiae cum
+      istius mulieris viro, fratre volui dicere: semper hic erro</hi>.</p>
+   </div>
+
+   <div type="cap" n="8">
+    <p><foreign xml:lang="grc">Ἀπόφασις</foreign> sive <foreign xml:lang="grc">Αἰτιολογία</foreign>,
+     venustum schema, ubi quasi alio interrogante nobis ipsis respondemus et rationem reddimus.
+     Cicero pro Tullio: <hi rend="expanded">Si qui furem occiderit, iniuria occiderit. Quam ob rem?
+      Quia ius constitutum nullum est. Quid si se telo defenderit? Non iniuria. Quid ita? Quia
+      constitutum est</hi>. Caesar pro Bithynis: <hi rend="expanded">Quid ergo? Syngraphae non sunt,
+      sed res aliena est</hi>. Et hactenus, ubi nobis rcspondemus, alias, ubi aliis: quod nisi arte
+     procedit, causam prodit: ut apud Vergilium interrogante altero, quod negare non poterat,
+     subtiliter <supplied>alter</supplied> occurrit, ne furtum fecisse existimetur:</p>
+    <l><hi rend="expanded">An mihi cantando victu non redderet ille?</hi></l>
+    <p>Testis interrogatus in reum, <hi rend="expanded">an fustibus vapulasset</hi>: <hi
+      rend="expanded"> ‘et innocens,’</hi> inquit. Aut cum dicitur, <hi rend="expanded">quaero an
+      occideris hominem?</hi> et respondetur <hi rend="expanded"> ‘latronem’</hi>, ut confessionem
+     praecurrat defensio. </p>
+   </div>
+
+   <div type="cap" n="9">
+    <p><foreign xml:lang="grc">Ἀπορία</foreign>, eadem est et <foreign xml:lang="grc"
+      >διαπόρησις</foreign>, addubitatio quaedam, cum simulamus quaerere nos, unde incipiendum, <hi
+      rend="italic">ubi desinendum</hi>, quid potissimum dicendum an omnino dicendum, cumque
+     artificialiter simulamus nos ibi res invenire, non paratos venisse. Cicero in Verrem: <hi
+      rend="expanded">Quem? Quemnam? Recte admones: Polyclitum esse dicebant</hi>. Et de domo sua
+     apud pontifices: <hi rend="expanded">Tibi literas ille misit? Quas? <supplied>Quas</supplied>
+      aut numquam misit, aut si misit, in contione recitari noluit. Itaque sive ille misit sive tu
+      protulisti, certe consilium tuum de honore Catonis nudatum est</hi>.</p>
+   </div>
+
+   <div type="cap" n="10">
+    <p><foreign xml:lang="grc">Ἀνακοίνωσις</foreign>
+     <hi rend="expanded">communicatio</hi> est, cum aut ipsos adversarios consulimus aut cum
+     iudicibus deliberamus. Cicero in divinatioue: <hi rend="expanded">De te, Caecili — iam me
+      hercules extra hanc contentionem certamenque nostrum</hi> et reliqua. Est et idiotismos. Idem
+     pro Quinctio; <hi rend="expanded">Si dupondius tuus ageretur, Sex. Naevi si in parvula re
+      captionis aliquid vererere, statim ad Gaium Aquilium aut eorum aliquem qui consuluntur
+      cucurrisses: cum ius amicitiae, societatis, adfinitatis ageretur . . .</hi> Item ibidem: <hi
+      rend="expanded">Ego nunc pro te hos consulo post tempus et in aliena re, quoniam tu in tua re,
+      cum tempus erat, consulere oblitus es. Quaero abs te, Gai Aquili, L. Lucili, P. Quinctili, M.
+      Marcelle: vadimonium mihi non obiit quidam socius et adfinis meus, quocum mihi necessitudo
+      vetus, controversia de re pecuniaria recens intercedit</hi>, et cetera. Item: <hi
+      rend="expanded">Profecto si recte vestram bonitatem atque prudentiam agnovi, non multum me
+      fallit, si consulamini, quid sitis responsuri: primum exspectare . . .</hi> Cato: <hi
+      rend="expanded">Si vos in eo loco essetis, quid aliud faceretis?</hi> Et alibi: <hi
+      rend="expanded">Communem rem putatote, ac vos huic praepositos</hi>. Vergilius:</p>
+    <lg>
+     <l><hi rend="expanded">fuit et tibi talis</hi></l>
+     <l><hi rend="expanded">Anchises genitor, Dauni miserere senectae</hi>.</l>
+    </lg></div>
+
+    <div type="cap" n="11">
+     <p><foreign xml:lang="grc">Ἀγανάκτησις</foreign>, <hi rend="expanded">indignatio</hi>, quae fit
+      maxime pronuntiatione. Ennius in Iphigenia:</p>
+     <l><hi rend="expanded">Menelaus me obiurgat: id meis rebus regimen restat</hi>.</l>
+     <p>Vergilius:</p>
+     <lg>
+      <l><hi rend="expanded">Cantando tu illum? Aut umquam tibi fistula cera</hi></l>
+      <l><hi rend="expanded">Iuncta fuit?</hi></l>
+     </lg>
+     <p>Cicero pro Sulla: <hi rend="expanded">Fero ego te, Torquate, iam dudum fero</hi>.</p>
+    </div>
+
+    <div type="cap" n="12">
+     <p><foreign xml:lang="grc">Ἀποδίωξις</foreign>, <hi rend="expanded">reiectio</hi> vel
+      reprobatio quarundam rerum, quasi in quaestionem non venire dignarum, neque oportuisse aut ab
+      adversariis poni aut a nobis quaeri aut a iudice postulari. Quod schema mire facit
+       <supplied>ad</supplied> accelerate fugiendum, ut et tacuisse et tamen non timuisse videamur
+      ut in re difficili et contraria non haereamus. In qua figura breviter morati ad aliud statim
+      transire debemus. Cicero pro Caelio: <hi rend="expanded">Equitis Romani autem esse filium
+       criminis ioco poni ab accusatoribus, neque his iudicantibus . . .</hi></p>
+    </div>
+
+    <div type="cap" n="13">
+     <p><foreign xml:lang="grc">Ἀποπλάνησις</foreign> est <del>aut</del> iudicis a re contraria
+      nobis avocatio, quam cum desiderat aut ab adversario commonetur ut quaerat, nos obscurando et
+      miscendo et promittendo quidem dicturos nos, sed suo loco, ad aliam rem avocamus, et rursum
+      dum dicimus, sensim ad aliud transimus, et ab eo, quod contra nos est, avocatur et suspenditur
+      iudex vel coniuncta rerum multitudine implicatur, ut non de uno, sed de pluribus putet sibi
+      sententiam esse dicendam, ut pro Cluentio fecit Cicero, in qua oratione tenebras se offudisse
+      iactavit iudicibus Cluentianis: <hi rend="expanded">Intellegant nihil me nec subter fugere
+       voluisse reticendo nec obscurare dicendo. Ego me, iudices, ad eam causam accedere, quae iam
+       per annos octo continuos</hi> usque eo <hi rend="expanded">efficiam profecto</hi>. Deinde:
+       <hi rend="expanded">Versatam esse in iudicio pecuniam constat</hi>: totum caput. Deinde: <hi
+       rend="expanded">Vnum quidem, nemo erit tam inimicus Cluentio</hi> usque ad finem capitis
+      ipsius. </p>
+    </div>
+
+    <div type="cap" n="14">
+     <p><foreign xml:lang="grc">Ἀφορισμός</foreign> vel <foreign xml:lang="grc">διορισμός</foreign>,
+      descriptio rerum per reprehensionem, quae exprimit et corrigit vim sententiae et potestatem.
+      Quare potest videri species emendationis; nam quae temere dixeris, reprehendit. Tullius: <hi
+       rend="expanded">Quamquam illa non poena, sed prohibitio sceleris fuit</hi>. Aut alias: <hi
+       rend="expanded">Cives,</hi>
+      <hi rend="italic">cives</hi>
+      <hi rend="expanded">inquam, si hoc nomine appellare fas est</hi>.</p>
+    </div>
+
+    <div type="cap" n="15">
+     <p><foreign xml:lang="grc">Ἀρά</foreign>, <hi rend="expanded">execratio</hi>. Execratio
+      oratoria apud Ciceronem: <hi rend="expanded">O scelus! o portentum in ultimas terras
+       exportandum!</hi> Apud Vergilium:</p>
+     <lg>
+      <l><hi rend="expanded">At tibi pro scelere, exclamat, pro talibus ausis</hi>,</l>
+      <l><hi rend="expanded">Di, si qua est caelo pietas, quae talia curet</hi>,</l>
+      <l><hi rend="expanded">Persolvant grates dignas</hi>.</l>
+     </lg>
+    </div>
+
+    <div type="cap" n="16">
+     <p><foreign xml:lang="grc">Δέησις</foreign>, <hi rend="expanded">obsecratio</hi> vel <hi
+       rend="expanded">obtestatio</hi>, qua deos oramus aut homines. Cicero pro Deiotaro: <hi
+       rend="expanded">Per dexteram istam tuam ego obtestor</hi>. Pro Roscio <foreign xml:lang="grc"
+       >μετὰ εἰρωνείας˙</foreign>
+      <hi rend="expanded">Rogat oratque te, Chrysogone</hi>. Apud deos Vergilius:</p>
+     <lg>
+      <l><hi rend="expanded">Per superos atque hoc caelum . . .</hi></l>
+      <l><hi rend="expanded">Per ego has lacrimas dextramque tuam te</hi>.</l>
+     </lg>
+     <p>Plautus:</p>
+     <l><hi rend="expanded">Ita te obtestor per senectutem tuam</hi>.</l>
+    </div>
+
+    <div type="cap" n="17">
+     <p><foreign xml:lang="grc">Διαβολή</foreign>, criminatio et quasi denuntiatio eorum, quae
+      futura sunt. Cicero pro Milone: <hi rend="expanded">Erit ille atque inlucescet dies</hi> et
+      cetera. Terentius:</p>
+     <lg>
+      <l><hi rend="expanded">Videre videor iam illum diem, quom hinc egens</hi></l>
+      <l><hi rend="expanded">Profugiet aliquo militatum</hi>.</l>
+     </lg>
+     <p>Apud Vergilium:</p>
+     <l><hi rend="expanded">Sed non ante datam cingetis moenibus urbem</hi>,</l>
+     <p>et cetera. </p>
+    </div>
+
+    <div type="cap" n="18">
+     <p><foreign xml:lang="grc">Διάνοια</foreign>. Haec figura fit proprie, cum proponitur non id
+      quod fieri oportet, sed quod fit. Tullius: <hi rend="expanded">Dolabella autem, quem ad modum
+       homines nobiles</hi>, usque <hi rend="expanded">iniuriam</hi>
+      <hi rend="italic">facere</hi>
+      <hi rend="expanded">fortissime perseverat</hi>. Vergilius: <hi rend="expanded">Furor arma
+       ministrat</hi>. Applicatur huic figurae etiam <foreign xml:lang="grc">χρεία</foreign>, <hi
+       rend="expanded">sententia necessaria</hi>, ut Cato in Thermum post censuram: <hi
+       rend="expanded">Qui ventrem suum non pro hoste habet, qui pro re publica, non pro sua
+       obsonat, qui stulte spondet, qui cupide aedificat</hi>.</p>
+    </div>
+
+    <div type="cap" n="19">
+     <p><foreign xml:lang="grc">Ἀποφώνημα</foreign>, <hi rend="expanded">sententia responsiva</hi>,
+      ut apud Caecilium: <hi rend="expanded">Fac velis, perficies</hi>. Apud Tullium: <hi
+       rend="expanded">Literarum radices amaras, fructus dulces</hi>.</p>
+    </div>
+
+    <div type="cap" n="20">
+     <p><foreign xml:lang="grc">Διαλογισμός</foreign>. Haec fit ita, cum quis secum disputat et
+      volutat, quid agat vel quid agendum putet. Apud Terentium: <hi rend="expanded">Quid igitur
+       faciam?</hi> Vergilius:</p>
+     <lg>
+      <l><hi rend="expanded">En, quid ago? Rursusne procos irrisa priores</hi></l>
+      <l><hi rend="expanded">Experiar?</hi></l>
+     </lg>
+     <p>Cicero pro Cluentio: <hi rend="expanded">Dem iudicibus? Mihi igitur nihil quaeretur?</hi> In
+      Verrinarum libro I. <hi rend="expanded">Si pupillo redimitur, mihi praeda de manibus eripitur.
+       Quod est igitur remedium? Quod?</hi></p>
+    </div>
+
+    <div type="cap" n="21">
+     <p><foreign xml:lang="grc">Ἐπίπληξις</foreign> sive <foreign xml:lang="grc"
+       >ἐπιτίμησις</foreign>. Fit haec figura, cum iurgamus aut coarguimus. Cicero in Catilinam: <hi
+       rend="expanded">Patere tua consilia non sentis? Quem nostrum ignorare arbitraris?</hi>
+      Terentius: <hi rend="expanded">Non ego te vidi manum?</hi> Vergilius:</p>
+     <l><hi rend="expanded">Non ego te vidi Damonis, pessime, caprum?</hi></l>
+    </div>
+
+    <div type="cap" n="22">
+     <p><foreign xml:lang="grc">Ὁμοίωσις</foreign> est, cum per similitudinem res praesentantur.
+      Cuius species sunt primae duae, <foreign xml:lang="grc">παράδειγμα</foreign> et <foreign
+       xml:lang="grc">παραβολή</foreign>. Harum distantia est, quod paradigma facit vera exempla,
+      parabole ficta ostendit. </p>
+    </div>
+
+    <div type="cap" n="23">
+     <p><foreign xml:lang="grc">Παραδείγματος</foreign> quidem triformis est ratio. Nam exemplum aut
+      personas tantum exhibet sine sermone, aut sermonem sine personis, aut simul utrumque. Personam
+      sine sermone, ut Cicero in Catilinam: <hi rend="expanded">Neque enim potuisset aut ille
+       Ahala</hi>, usque ad <hi rend="expanded">si sceleratos cives interimere</hi>. Sermonem sine
+      persona: <hi rend="expanded">Catonis est dictum: pedibus compensari pecuniam</hi>. Sed
+      sermonem pariter et personam: Cicero pro Roscio: <hi rend="expanded">Estne hoc illi dicto
+       atque facto Fimbriano simillimum?</hi> Rursum parabola et ipsa tripartita est, per <foreign
+       xml:lang="grc">εἰκόνα</foreign>, <foreign xml:lang="grc">ὅμοιον</foreign>, <foreign
+       xml:lang="grc">ἐπαγωγήν</foreign>.</p>
+    </div>
+
+    <div type="cap" n="24">
+     <p>Icon fit, cum perfectae formae similes conferuntur. Vergilius:</p>
+     <l><hi rend="expanded">Talis Amyclaei domitus Pollucis habenis</hi>.</l>
+     <p>Cicero de populo Romano: <hi rend="italic">ut</hi>
+      <hi rend="expanded">mare, quod sua natura tranquillum sit, ventorum vi agitari et conturbari
+       solet: sic populus Romanus . . .</hi></p>
+    </div>
+
+    <div type="cap" n="25">
+     <p>Homoeon. Haec figura fit, cum ex partibus aliqua similitudo colligitur, ut Vergilius:</p>
+     <l><hi rend="expanded">Sic oculos, sic ille manus, sic ora tenebat</hi>.</l>
+     <p>Etiam in actu fit homoeon, ut idem Vergilius:</p>
+     <lg>
+      <l><hi rend="expanded">Non aliter, quam si immissis ruat hostibus omnis</hi></l>
+      <l><hi rend="expanded">Carthago aut antiqua Tyros</hi>.</l>
+     </lg>
+     <p>Cicero in Verrinis: <hi rend="expanded">Subcinctam Scyllam lupis et canibus, cum pube tenus
+       virgo sit, similem esse Verris et comitum illius, quibus quasi canibus succinctus
+      sit</hi>.</p>
+    </div>
+
+    <div type="cap" n="26">
+     <p><foreign xml:lang="grc">Ἐπαγωγή</foreign>. Fit haec ex rerum similium collatione vel
+      argumentorum, salva tamen similitudine. Rerum, ut Vergilius:</p>
+     <lg>
+      <l><hi rend="expanded">Improvisum aspris veluti qui sentibus anguem</hi></l>
+      <l><hi rend="expanded">Pressit humi nitens</hi>.</l>
+     </lg>
+     <p>Et Cicero pro Roscio comparat occupationes Iovis optimi maximi Sullae rebus gestis propius.
+      Argumentorum autem, ut Lucilius:</p>
+     <lg>
+      <l><hi rend="expanded">Nam si tu fluctus undasque e gurgite salso</hi></l>
+      <l><hi rend="expanded">Tollere decreris, ventum prius Emathium</hi>,</l>
+      <l><hi rend="expanded">Ventum, inquam, tollas t. c. q. i. l.</hi></l>
+     </lg>
+    </div>
+
+    <div type="cap" n="27">
+     <p><foreign xml:lang="grc">Ἐπιτροπή</foreign>. Haec fit, cum figurate concedimus, quod velit
+      quis faciat, ut Vergilius Aeneidos primo:</p>
+     <l><hi rend="expanded">Sequere Italiam ventis, pete regna per undas</hi>.</l>
+     <p>Et Cicero: <hi rend="expanded">Quid exspectas? Proficiscere: nimium iam diu te imperatorem
+       tua illa Manliana castra desiderant</hi>.</p>
+    </div>
+
+    <div type="cap" n="28">
+     <p><foreign xml:lang="grc">Εὐχαί</foreign>, <hi rend="expanded">precationes</hi>.
+      Vergilius:</p>
+     <l><hi rend="expanded">Da nunc, Tybri pater, ferro, quod missile libro</hi>.</l>
+     <p>Cicero in Catilinam, cum invocat Iovem ad poenam coniuratorum atque ita concludit: <hi
+       rend="expanded">Aeternis suppliciis vivos mortuosque mactabis</hi>.</p>
+    </div>
+
+    <div type="cap" n="29">
+     <p><foreign xml:lang="grc">Ἐπιφώνημα</foreign>. Hac sententia in fine expositae rei cum affectu
+      enuntiatur. Cicero in Verrinis: <hi rend="expanded">non vitam liberum, sed mortis celeritatem
+       p recabantur</hi>.</p>
+    </div>
+
+    <div type="cap" n="30">
+     <p><foreign xml:lang="grc">Ἐνθύμημα</foreign> fit, cum periodos orationis ex contrariis
+      sententiis astringitur. Apud Lucilium:</p>
+     <lg>
+      <l><hi rend="expanded">Si me nescire hoc nescis, quod quaerere dico</hi>,</l>
+      <l><hi rend="expanded">Quare divinas quicquam, <unclear/> aut quare debes</hi></l>
+      <l><hi rend="expanded">Ipse? et si scis q. b. e. scire hoc d. t.</hi></l>
+     </lg>
+     <p>Cicero in divinatione: <hi rend="expanded">Qui te neque velle sua causa, nec, si cupias,
+       </hi><hi rend="italic">posse arbitrantur</hi>
+      <hi rend="expanded">r. i. id est, mea fuit his</hi>, et cetera. </p>
+    </div>
+
+    <div type="cap" n="31">
+     <p><foreign xml:lang="grc">Ἐπανάληψις</foreign>, repetitio sententiae propter aliam necessariam
+      causam, non ut fit in figuris elocutionis. Sic apud Lucilium:</p>
+     <lg>
+      <l><hi rend="expanded">Vellem concilio vestrum, quod dicitis, olim</hi></l>
+      <l><hi rend="expanded">Vellem, caelicolae, <supplied>olli</supplied> adfuissemus
+       priorei</hi></l>
+      <l><hi rend="expanded">Concilio</hi>.</l>
+     </lg>
+     <p>Cicero pro Rabirio: <hi rend="expanded">Libenter, si esset integrum, profiterer idem,
+       Saturninum C. Rabiri manu interfectum. Nihil me iste clamor commovet</hi>, usque hoc, <hi
+       rend="expanded">libenter, inquam, profiterer</hi>.</p>
+    </div>
+
+    <div type="cap" n="32">
+     <p><foreign xml:lang="grc">Προϋπεργασία</foreign> vel <foreign xml:lang="grc"
+       >προπαρασκευή</foreign>, <hi rend="expanded">praemunitio</hi>, qua ante utimur, ut
+      confirmetur id, quod subiecturi sumus. Vt si testem producturi sumus, ante
+       <supplied>necesse</supplied> est ei fidem habendam esse doceamus. Quare velut generalis locus
+      et tractatus communis est. Cicero pro Milone ante praemunit, licere hominem occidere, et tum
+      subicit occisum P. Clodium iure, et sine invidia, cum ita dicit: <hi rend="expanded">Negant
+       intueri lucem esse fas ei, qui a se esse hominem occisum fateatur. In qua tandem civitate hoc
+       homines stultissimi disputant?</hi></p>
+    </div>
+
+    <div type="cap" n="33">
+     <p><foreign xml:lang="grc">Παρρησία</foreign>, oratio libera, quam Cornificius <hi
+       rend="expanded">licentiam</hi> vocat. Cicero pro Ligario: <hi rend="expanded">Suscepto bello,
+       Caesar, gesto etiam ex parte magna, nulla vi coactus</hi>, et cetera. Contra idem: <hi
+       rend="expanded">Quid aliud egimus, Tubero, nisi ut, quod hic potest, nos possemus?</hi>
+      Interdum adulanter inducitur. Sic adulatio est pro Rabirio perduellionis, libere cum ait: <hi
+       rend="expanded">Quin continetis vocem vestram, indicem stultitiae, testem
+      paucitatis?</hi></p>
+    </div>
+
+    <div type="cap" n="34">
+     <p><foreign xml:lang="grc">Παράδοξον</foreign> sive <foreign xml:lang="grc">ὑπομονή</foreign>,
+       <hi rend="expanded">sustentatio</hi> vel <hi rend="expanded">inopinatum</hi>. Hoc schema
+      suspendit sensum, deinde subicit aliquid eo, contra exspectationem auditoris, sive maius sive
+      minus, et ideo sustentatio vel inopinatum dicitur. Cicero pro Ligario: <hi rend="expanded"
+       >Hinc prohibitus non ad Caesarem, ne iratus, non ad domum, ne iners, non aliquam in regionem,
+       ne condemnare causam illam, quam secutus</hi> et cetera. </p>
+    </div>
+
+    <div type="cap" n="35">
+     <p><foreign xml:lang="grc">Προτροπή</foreign>
+      <hi rend="expanded">adhortatio</hi> ad aliquam rem est <del>et palilogia</del>.</p>
+     <p>Vergilius:</p>
+     <lg>
+      <l><hi rend="expanded">Nunc, nunc insurgite remis</hi>,</l>
+      <l><hi rend="expanded">Hortor vos, socii</hi>.</l>
+     </lg>
+     <p>Cicero in Verrem II. actionis libro I: <hi rend="expanded">Vos, quod ad vestram famam
+       senatusque consulta pertinet, iudices, prospicite atque consulite</hi>, et cetera. </p>
+    </div>
+
+    <div type="cap" n="36">
+     <p><foreign xml:lang="grc">Παθοποιία</foreign>. Hac vel odium vel iracundia vel misericordia
+      commovetur. Vergilius:</p>
+     <lg>
+      <l><hi rend="expanded">Domus interior gemitu miseroque tumultu</hi></l>
+      <l><hi rend="expanded">Miscetur</hi>.</l>
+     </lg>
+     <p>Cicero pro Roscio: <hi rend="expanded">Nemo erat, qui non ardere illa omnia mallet quam
+       videre in Sex. Roscii bonis dominantem</hi>, et cetera. Apud eundem in Verrem: <hi
+       rend="expanded">Clamor interea fit tota domo, pugna inter servos Rubri atque hospitis</hi>,
+      et cetera. Alio loco: <hi rend="expanded">Caedere ianuam saxis, instare ferro, ligna et
+       sarmenta circumdare ignemque subicere coeperunt</hi>.</p>
+    </div>
+
+    <div type="cap" n="37">
+     <p><foreign xml:lang="grc">Σύγκρισις</foreign> sive <foreign xml:lang="grc"
+      >ἀντίθεσις</foreign>, comparatio rerum atque personarum inter se contrariarum, ut:</p>
+     <lg>
+      <l><hi rend="expanded">Ego proiector, quod tu peccas; tu delinquis, ego arguor?</hi></l>
+      <l><hi rend="expanded">Pro malefactis Helena redeat, virgo pereat innocens?</hi></l>
+      <l><hi rend="expanded">Tua reconcilietur uxor, mea necetur filia?</hi></l>
+     </lg>
+     <p>Cicero pro Murena: <hi rend="expanded">Vigilas tu de nocte, ut consultoribus tuis
+       respondeas: ille, ut mature, quo intendit, cum exercitu perveniat</hi>, et cetera. Item in
+      Verrinis; <hi rend="expanded">Iste multo sceleratior et nequior quam ille Adrianus, aliquanto
+       etiam felicior fuit</hi>, et cetera.</p>
+    </div>
+
+    <div type="cap" n="38">
+     <p><foreign xml:lang="grc">Ὑπερβολή</foreign> aliis tropus videtur: ceterum fit, cum excedit
+      veritatem sententia. Apud Vergilium:</p>
+     <l><hi rend="expanded">Qui candore nives anteirent, cursibus auras</hi>.</l>
+     <p>Apud Tullium: <hi rend="expanded">Campus ipse me causam paene docuit Leontinus</hi>.</p>
+    </div>
+
+
+
+  </body>
+ </text>
+
+</TEI>

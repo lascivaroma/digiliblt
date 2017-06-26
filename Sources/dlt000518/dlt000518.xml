@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>De morte testamentoque Alexandri Magni</title>
+        <author>Anonymus</author>
+        <respStmt>
+          <resp>Correzione linguistica</resp>
+          <name>Raffaella Tabacco</name>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica XML</resp>
+          <name>David Paniagua</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>digilibLT</publisher>
+        <pubPlace>Vercelli</pubPlace>
+        <date>2011</date>
+        <availability>
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
+          </p>
+        </availability>
+        <idno>dlt000518</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Incerti auctoris Epitoma rerum gestarum Alexandri Magni cum libro De morte testamentoque
+          Alexandri, iterum edidit P. H. Thomas, Lipsiae, in aedibus B. G. Teubneri, 1966</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+        <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+      </projectDesc>
+      <editorialDecl>
+        <p><hi rend="bold">Modifiche apportate al testo dell'edizione di riferimento </hi></p>
+        <p>Si è corretto al paragrafo 92 "IIII venerunt" in "Illi venerunt".</p>
+        <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+        <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+          l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+          e commenti e ogni altro contenuto redatto da editori moderni. </p>
+        <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+          correttezza di trascrizione</p>
+        <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+          distinzione u/v minuscole.</p>
+        <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+        <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+          grassetto, corsivo, spaziatura espansa.</p>
+        <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+          <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+          <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+          si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+          [...]<lb/> lacuna integrata dagli editori:
+          <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+        </p>
+        <p>Sono stati marcati i termini in lingua greca
+          <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+        </p>
+        <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+          target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+          >Note di trascrizione e codifica di testi latini tardoantichi
+          [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+      </editorialDecl>
+          </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latino</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="opus"><head>De morte testamentoque Alexandri Magni</head>
+        <p>
+          <milestone unit="par" n="87"/>
+          <supplied><gap/></supplied> Litterae ab Olympiade matre Alexandro afferuntur, in quibus
+          perscripserat iniurias Antipatri, qui praefectus in Macedonia erat relictus; eumque inde
+          nisi abduceret, adfirmaverat ire in Epirum profugam. Id cum Alexander aegre ferret, voluit
+          inimicitiarum minuendarum causa Antipatrum ad se accersire Craterumque in eius locum
+          submittere. <milestone unit="par" n="88"/>Antipater suspicans criminationem factam et,
+          quod Alexandrum audierat fortuna secunda sublatum superbiorem crudelioremque esse factum,
+          sibi praemetuens iniit consilium, ut Alexandrum interficeret, eique venenum paratum
+            <unclear>in pyxidem ferream coniecit. Hanc in ungulam mulinam ferro vinctam clusit, ut
+            vim veneni continere posset</unclear>. </p>
+        <p>
+          <milestone unit="par" n="89"/>Hanc filio Cassandro tradidit remque edocet simulque dona,
+          regi quae Babylonem portaret, dat praescribitque, cum venisset, cum Iolla fratre minore
+            <del>iolla</del> praeministro Alexandri, uti colloqueretur et ita communi animo negotium
+          transigerent.</p>
+        <p>
+          <milestone unit="par" n="90"/>Interim Alexander cum aliquot dies Babylone esset
+            <supplied>et</supplied> in meridiano tempore in cubiculo quiesceret, mulier quaedam
+          rustica in regiam venit. Haec monstrum, quod pepererat, secum involutum attulerat. Id erat
+          huiusmodi figura: pars superior inguinum fine puerilis, inferior circumdata bestiarum
+          partibus prioribus, in quibus erat una leonis, altera lupi, tertia pantherae, quarta
+          canis, quinta apri, ita ut tota figura simillima videretur, cuiusmodi pingitur
+            <supplied>Scylla</supplied>. <milestone unit="par" n="91"/>Sed hae bestiae vivebant,
+          omne <supplied>autem</supplied> puerile corpus mortuum erat ac lividum. Haec mulier
+          cubicularios regis conventos rogat, ut nuntient se eum de mirifica re certiorem velle
+          facere. Id ubi Alexandro nuntiatum est et vocata introiit, rogat, ut iubeat <supplied>eos,
+            qui aderant</supplied>, foras exire. His summotis portentum regi ostendit ac se
+          peperisse dicit.</p>
+        <p>
+          <milestone unit="par" n="92"/>Alexander ubi id vidit, pertimuit; simul et magos
+          Chaldaeosque familiares convocari iussit. Illi venerunt; Philippus, qui aetate ante
+          ceteros antecedebat familiarissimusque erat regi, minus cito <unclear>fuit
+            conventus</unclear>. Deinde <del>fuit</del> Alexander iis, qui venerunt, id prodigium
+          ostendit mortemque interminatus est, nisi omnia, quae ex ea re portenderentur, sibi
+          dixissent. Tum illi responderunt ostentum pulcherrimum esse eumque, ut illud corpus
+          humanum supernatum feris bestiis esset, item eum nationes feras barbarasque esse omnium
+          gentium sub sua dominatione habiturum. Haec ubi dixerunt, foras abierunt.</p>
+        <p>
+          <milestone unit="par" n="93"/>Non multo post supervenit <supplied>Philippus</supplied>
+          ille, quem supra scripsimus. Haec ubi aspexit, maxima voce conclamavit; simul et
+          vestimenta sibi dilaniavit et manu utraque comam scindens regem tantum ac talem hominem
+          cum <supplied>in</supplied> extremo vitae fine videret lamentatus est. Haec ubi Alexander
+          vidit, animo advertit conturbatusque est; sed tamen cohortatur, ut animo forti quae
+          viderentur diceret; se hominem esse; quae fato acciderent, mutari nequire. <milestone
+            unit="par" n="94"/>Ille graviter suspirans ait: <said>o rex,</said> inquit, <said>nihil
+              <supplied>est,</supplied> quod te in vivorum numero adnumeres; nam tuum corpus prope
+            iam ex humanitate excessit.</said> Tunc interrogatus, qua ratione id diceret, respondit:
+            <said>o mortalium vir summe, adtende, quae dicam. Haec humana pars, quam vides, tu es;
+            bestiarum simulacra, quae vides, <unclear>gentes sunt ferae ac barbarae, quibus tu
+              imperas</unclear>. quod si humana pars viveret, esset, ut tu imperium in eos
+            obtineres; <supplied>set <gap/></supplied> et ut hae bestiae humano generi sunt
+            infestae, ita hi, quos circum te habes, <supplied>tibi</supplied> sunt inimici, brevique
+            spatio tua morte orbis terrae imperia commutabuntur.</said>
+          <milestone unit="par" n="95"/>Haec ubi dixit, foras excessit monstrumque secum, ut
+          combureret, abstulit. Tum Alexander ait: <said>o Iuppiter,</said> inquit, <said>utinam
+            conatus meos me perficere passus esses! Sed quoniam ita tibi visum est, accipe me ut
+            tertium mortalem.</said> — his, ut videtur, Liberum Patrem primum adnumerabat immortalem
+          factum, secundum Herculem, tertium se non minoribus factis dignum deorum mensis dixerat.
+          Itaque post illa vitae diffidens animo forti futura expectabat. <milestone unit="par"
+            n="96"/>Interim Cassandrus, Antipatri filius, Babylonem venit muneraque, quae attulerat,
+          regi dedit. Deinde Iollam fratrem eductum convenit, patris mandata, Olympiadis
+          inimicitias, Alexandri animum ac superbiam, periculum totius familiae proponit et veneno
+          tradito cohortatur, uti occasionem ne quam praetermitteret. <milestone unit="par" n="97"
+            /><supplied><gap/></supplied>
+          <unclear>deinde Alexander</unclear>
+          <supplied><gap/> Medius</supplied> id Iollae se effecturum dixit; <supplied>rogaturum
+            se</supplied> eum diem festum agentem, amicorum conventum habere vellet.
+            <supplied><gap/></supplied></p>
+        <p>Iam non alienum videtur qui fuerint demonstrare, quorum Onesicritus fugiens simultatem
+          mentionem facere noluit. Fuit Perdiccas, Medius, Leonnatus, <unclear>Erat teon </unclear>,
+          Meleagrus, <unclear>Theoclus</unclear>, Asandrus, Philippus, Nearchus, Stasanor,
+          Heraclides Thracus, <unclear>Polydorus</unclear>, Holcias, Menander,
+            <supplied><gap/></supplied>.</p>
+        <p>
+          <milestone unit="par" n="98"/>Quorum quid ageretur nemo fuit ignarus praeter Eumenem et
+          Perdiccam et Ptolemaeum et Lysimachum et Asandrum et Holciam. Ceteri, qui omnes conscii
+          Iollae fuerunt et rerum novarum studentes potentiamque Alexandri verentes, quo exitu
+          futura foret, etiam antea inter se erant collocuti, ut eum interficerent.</p>
+        <p>
+          <milestone unit="par" n="99"/>In convivio accubanti Iollas poculum venenatum tradidit.
+          Quod ille ubi ebibit, sermone parvo interiecto repente dolore commotus conclamavit, veluti
+          sagittatus esset. Deinde ipse <supplied>se</supplied> conprimens in cubiculum abiit. Illi
+          continuo discesserunt animo conscio timentes exitum rerum. Interim Alexandro male factum
+          est. Cum vomere vellet ac posceret pinnam, eam pinnam Iolaus veneno perunctam tradidit
+          regi. Ille ubi in fauces demisit, quod <supplied><gap/></supplied>, redintegratis
+          doloribus acrioribus non intermittitur cruciari. Ita noctem pervigilavit. </p>
+        <p>
+          <milestone unit="par" n="100"/>Postero die cum intellegeret linguam obturgescere, cunctos
+          e cubiculo exire iussit, ut quod vellet secum posset solus excogitare. Sed Cassandrus, ut
+          venenum traditum erat, de nocte erat profectus in Ciliciam. <supplied>Iollam</supplied>
+          ibidem expectare coepit; nam ita constitutum erat, <supplied>ut</supplied> Alexandro
+          mortuo statim profugeret atque ad se veniret. Ipse quendam de suis Macedoniam ad patrem
+          praemisit atque inversis verbis rem gestam descripsit.</p>
+        <p>
+          <milestone unit="par" n="101"/>Sed Alexander, ubi nox facta est, Rhoxanen uxorem
+          ceterosque amicos a cubiculo iubet recedere, quo facilius ipse quiescere posset. Vbi
+          silentium esse sensit, ipse, ut potuit, exsurrexit et lumen extinxit. Deinde quadrupes
+          ostium, quod ad flumen Euphratem exitum habebat, aperuit — nam id flumen per medium
+          oppidum fluit — ac protinus progressus interim respexit. Vidit Rhoxanen uxorem
+            <supplied>ac</supplied>currentem, conquexit, ut eam, si posset, praeteriret.</p>
+        <p>
+          <milestone unit="par" n="102"/>At illa ubi ad lectum venit, tum, quoniam eum non invenit
+          ostiumque patens vidit, nancta per tenebras gemitum flentis prosequensque eum, cum repente
+          Alexandrum iacentem in terra conspexisset, eum amplexa flens allevavit. Ille se in eam
+          iniecit et vix locutus est: <said>o Rhoxane, parvum fructum cum tibi largiris, mihi
+            inmortalitatem ademisti. Sed cave,<supplied>ne</supplied> ex te hoc quisquam
+            audiat.</said> Ita ea adiutrice nisus in cubiculum rediit. </p>
+        <p>
+          <milestone unit="par" n="103"/>At ubi diluxit, iussit ad se vocari Perdiccam, Holciam,
+          Lysimachum, Ptolemaeum hisque interdixit, ut ne quem introire ad se paterentur, donec
+          ipse, quae voluisset, fecisset. Illi exierunt. Ipse Hermogenem et Combaphum, pueros
+          impuberes, alterum ad testamentum scribendum, alterum ad lumen curandum retinuit. Ita diem
+          et noctem testamento scribendo consumpsit. <milestone unit="par" n="104"/>Interim in
+          exercitu clamor et seditio orta est minante se eos, qui circum regem essent,
+          interfecturos, nisi Alexandri corpus in conspectum daretur, cum eum mortuum celari
+          putarent. Itaque ad regiam concursus erat maximus factus cum tumultu.
+            <supplied>Quem</supplied> ubi Alexander audivit, percontatus est, quid esset. Tunc
+          Perdiccas Macedonum suspicionem et concursum denarravit. Alexander iussit se proferri et
+          in excelso loco poni, ita uti multitudo intromissa per alteram portam emitti posset.
+            <milestone unit="par" n="105"/>Hunc milites centuriatim visitabant cum singulis tunicis
+          intromissi, lacrimantesque eum salutabant, deinde altero ostio foras exibant. Ille omnes
+          manu ac nutu, utpote qui iam in extremo vitae fine esset neque loqui posset, tacitus
+          salutabat.</p>
+        <p>Inter hos quidam Peucolaus <supplied>ignobili loco</supplied> natus ante eum adstitit
+          lacrimans et ait: "o Alexander," inquit, "pater tuus rex fuit Macedoniae utilissimus, qui
+            <unclear>cum partem</unclear>
+          <supplied><gap/> eo</supplied> laudium extulisti, ut deum gloriam aequares. Nunc quoniam,"
+          inquit, "tu nos relinquis, et nomen patriae et omnes Macedones perierunt. Vtile est igitur
+          omnibus nobis tecum una mori."</p>
+        <p>
+          <milestone unit="par" n="106"/>Ea ubi dixit, Alexander conlacrimavit et manum Macedonis
+          apprehendit et conpressit significans, ut animo forti esset.</p>
+        <p> Postquam omnes milites transierunt et in cubiculum relatus est, iussit Perdiccam
+          ceterosque intro vocari. Holciae testamentum, ut sibi perlegeret, tradidit et prius
+          epistulam, quam ad Rhodios scripserat, clare recitari iussit. Hoc fuit exemplo:</p>
+        <p>
+          <milestone unit="par" n="107"/>Rex Alexander senatu et populo Rhodiensi salutem. Nos ultra
+          columnas Herculis patrii nostri <supplied><gap/></supplied>
+          <unclear>finibusque ab hostibus abeuntes</unclear> regni ac rerum nostrarum divisionem
+          fecimus. Quarum rerum procuratores custodesque vos maxime idoneos duximus, quod fide et
+          virtute singulari cognitos vos habuimus, et ideo urbem vestram semper maximi fecimus.
+          Quocirca <unclear>Cebetem</unclear>, ut ex oppido vestro praesidium educeret, scripsimus,
+          reliquisque in rebus vestris me ut memorem intellegeretis testamento prospeximus, cuius
+          exemplar vobis misimus. </p>
+        <p>
+          <milestone unit="par" n="108"/>Nos iudicio facto, ut cuiusque meritum ac dignitas
+          postulabat, imperia agrosque adtribuimus hisque omnibus praescripsimus, ut ex pecunia
+          regia, quod cuique dari iussimus, dandum curarent, in his vobis ad urbem ornandam auri
+          signati talenta CCC et in annos singulos tritici medimna XL milia et naves longas XL. Item
+          scripsimus, corpus uti nostrum in Aegyptum portaretur ibique sacerdotes id componendum
+          curarent. Vos igitur aequum est vestra virtute atque auctoritate, ut ea ita fiant, operam
+          dare nostraque mandata cum cura curare. Valete.</p>
+        <p>
+          <milestone unit="par" n="109"/>Cum haec in epistula scripta essent, testamentum ad aurem
+          sibi iussit recitari. Id obsignatum signis multis tradidit Holciae eique imperat, ut
+          aliquem fidelem inveniret, qui epistulam et exemplar testamenti Rhodum quam primum
+          perferret. Holcias Thebaeum quendam nomine Ismenian introduxit eique litteras tradidit et
+          uti rex Thebaeos testamento tractasset demonstrat. Ille patriae commodis gavisus eo
+          diligentius celeriusque Rhodum epistulam pertulit.</p>
+        <p>
+          <milestone unit="par" n="110"/>Sed Alexandri quoddam cataplasma ab Rhoxane uxore in
+          praecordia impositum levabat dolores produxeratque eius vitam dies quinque. Deinde cum
+          bibere vellet <supplied>aquam, rursus</supplied> poculum veneno pollutum <del>aquam</del>
+          ei ab Iolla dabatur. Ille ubi ebibit, dolore novato exclamavit; deinde se continuit et
+          despirans apud amicos locutus est: "ego quae post mortem meam fieri vellem, testamento
+          scripsi. Nunc interim tu Perdicca et Antipater videte ac negotia procurate".</p>
+        <p>
+          <milestone unit="par" n="111"/><del>ubi</del> Tunc Holcias causeam de capite sibi dempsit,
+          eam ante oculos flens opposuit et ita foras exiit. Deinde Alexander Lysimachum ad se
+          vocavit eique: "proficiscere," inquit, "in Thraciam." Lysimachus autem lacrimans e
+          cubiculo excessit. itemque Ptolemaeo: "tu quoque," inquit, "proficiscere in Aegyptum et
+          corpus meum ut diligenter collocetur fac curae habeas." Ceteraque quae voluit in aurem
+          dixit. Ille cum audisset lacrimasque continere non posset, caput sibi obvolvit
+            <supplied>et</supplied> ita e conspectu recessit.</p>
+        <p>
+          <milestone unit="par" n="112"/>Iamque vis veneni linguam debilitabat tenebraeque oculis
+          obversabantur: conixus aegre cum gemitu dixit: "accipe me, sancte Hercules ac Minerva,
+          vosque amici, bene valete." Tunc ipse sibi anulum de digito detraxit et Perdiccae
+          tradidit. At Rhoxane magno cum clamore capillos sibi ipsa scindens conata est ad Perdiccae
+          pedes se advolvere. Hanc Holcias excepit et eam ad Alexandrum adduxit. Ille dentibus
+          frendens cum se iam in extremo spiritu videret, eam complexus osculari coepit dexteramque
+          eius tenens in dexteram Perdiccae indidit nutuque commendationem fecit. Deinde cum morte
+          opprimeretur, oculos eius Rhoxane oppressit animamque eius ore suo excepit.</p>
+        <p>
+          <milestone unit="par" n="113"/>Ita Alexander Magnus annos XXXIII natus, cum annos XIII
+          regnasset, vitam commutavit. Tum repente, <supplied>cum</supplied> exercitus regem mortuum
+          nondum etiam sciret, terror ac tumultus sine causa exortus est. Pro se quisque ad arma cum
+          clamore currebat, neque enim quid rei esset quisquam sciebat. Interim Perdiccas cum his,
+          qui in regia erant, regem mortuum in alveo collocant eique tunicam et chlamydem purpuream
+          induunt caputque diademate vinciunt; et eodem multos odores melle commixtos addiderunt
+          alveumque pallio purpureo et insuper babylonico cooperuerunt.</p>
+        <p>
+          <milestone unit="par" n="114"/>Post ipsi capitibus coopertis terram intuentes ad exercitum
+          in suggestum processerunt. Hic concursu magno per praeconem silentio facto verba Perdiccas
+          fecit: "scitote, Macedones, regem vestrum Alexandrum ad deos abisse. Vos igitur convenit
+          inter vos bene dicere et obscoenis parcere." Deinde iterum per praeconem silentio facto
+          Holciam testamentum recitare iussit. Fuit hoc exemplo:</p>
+        <p>
+          <milestone unit="par" n="115"/>"Rex Alexander, Ammonis et Olympiadis filius, testamentum
+          fecit. Si mihi filius ex Rhoxane uxore mea natus erit, is potissimum Macedoniae rex esto;
+          tantisper Arrhidaeus, Philippi filius, Macedonibus imperator sit. Si mihi filia ex Rhoxane
+          uxore mea nata erit, eam Macedones ex fide sua meaque dignitate educandam collocandamque
+          curent ipsique sibi regem, quem videbitur, cooptent. Qui ita cooptatus fuerit, is
+          Macedoniae rex <supplied>esto <gap/></supplied>.</p>
+        <p>
+          <milestone unit="par" n="116"/>Olympiadi matri meae potestatem facio Rhodi habitandi sive
+            <del>alicubi</del> uspiam, <supplied>ubi</supplied> voluerit, eique rex Macedoniae eadem
+          omnia in annos singulos dentur curato, quae me vivo dabantur. Leonnato satrapeam in
+          Hellesponto eique uxorem Cleonicen, Holciae sororem, do. Cappadociae et Paphlagoniae
+          imperatorem facio Eumenem, qui mihi hypomnematographus fuit. Insulas omnes liberas esse
+          iubeo: quae possederant, possideant et legibus suis utantur.</p>
+        <p>
+          <milestone unit="par" n="117"/>Pamphyliae, Lyciae, Phrygiae maiori Antigonum imperatorem
+          facio. Cariae Asandrum praeesse iubeo. <unclear>et ager qui est ultra</unclear> fluvium,
+          qui Halys vocatur; in eum agrum Antipatrum imperatorem do. Ciliciae imperatorem facio
+          Nicanorem. Syriae ad eum finem, qui Mesopotamius vocatur, Pithonem imperatorem facio.
+          Babylonem et agrum Babylonicum, qui postea adiunctus est, Seleuco, qui mihi armiger fuit,
+          sub imperium do. Phoenicen et Coelen Syriam Meleagro adtribuo. Aegyptiorum regnum
+          Ptolemaeo trado et Cleopatram, sororem meam, uxorem do.</p>
+        <p>
+          <milestone unit="par" n="118"/>Regiones, quae inter Babyloniae <supplied>et</supplied>
+          Bactrianae fines intersunt, satrapes, quas quisque obtinet, habeat; hisque omnibus summum
+          imperatorem Perdiccam facio, eique uxorem Rhoxanen, Oxyartis filiam Bactrianam, quae mihi
+          uxor fuit, trado. Populo Rhodiensi ad urbem ornandam ex pecunia regia auri signati talenta
+          CCC dentur et naves triremes XL frumentique ex Aegypto in annos singulos gratis medimna XX
+            <supplied>milia</supplied> et ex Asiae locis proximis item gratis in annos singulos
+          tritici medimna XX <supplied>milia</supplied>; praesidiumque, quod ibi reliqui, ex oppido
+          exigere iubeo.</p>
+        <p>
+          <milestone unit="par" n="119"/>Sacerdotibus, qui Aegypti sunt, auri signati talenta duo
+          milia ex pecunia publica dentur corpusque meum Ptolemaeus <supplied>in Aegyptum</supplied>
+          portandum curet. Id sacerdotes Aegypti, uti iis videbitur, procurent, alveusque, ubi id
+          corpus ponatur, fiat ex auri talentis CC.</p>
+        <p>
+          <milestone unit="par" n="120"/>Thebanis Boeotiis ad urbem reficiendam auri signati talenta
+          MMM do exulibusque, qui inde <supplied>propter</supplied> bellum profugerant, bona sua,
+          quae ademeram, reddo. Quos ego satis supplicii ob temeritatem, quod mihi adversati sunt,
+          dedisse existimo. Atheniensibus detur in aedem Minervae sella aurea atque
+            <del>amictus</del> peplus ex auro. In aedem Iunonis Argis dentur arma atque insignia mea
+          et argenti talenta M. Apollini Delphos dentur dentes eburnei omnes et coria <unclear>duo
+          </unclear> serpentium et paterae aureae C; Milesiis argenti talenta CL, Cnidiis argenti
+          talenta CL.</p>
+        <p>
+          <milestone unit="par" n="121"/>Indiae quae partes sunt secundum flumen Indum,
+            <supplied>ibi</supplied> imperator sit Taxiles. Indiae quae partes sunt inter flumen
+          Hydaspen atque Indum, ibi imperator sit Porus. Paropanisadarum imperatorem Oxyartem
+          Bactrianum, patrem Rhoxanes, uxoris meae, facio. Arachosiis et Gedrosiis imperet
+          Sibyrtius. Stasanori Solei Arium et Drangarum imperium do.<lb/>Bactrianis imperet
+          Philippus. Parthyaeam et quod proximum est Hyrcaniae, do Phratapherni; Carmaniam
+          Tlepolemo. Persis omnibus imperet Peucestes. Ex <unclear>eis</unclear> imperiis omnibus
+          excedat Oxydates, et pro eo Medis imperator sit Craterus. Excedat item ex Susianis
+          Argaeus; imperator sit <supplied>pro eo</supplied> Coenus.</p>
+        <p>
+          <milestone unit="par" n="122"/>Illyriis omnibus imperatorem do Holciam, eique equorum
+          quingentorum evectionem et argenti signati talenta MMM do. Ex ea pecunia Holcias faciat
+          statuas Alexandri, Ammonis, Minervae, Herculis, Olympiadis, Philippi patris. Eas in fano
+          Olympico ponat. Imperatores summos quos feci, statuas inauratas Alexandri dent Delphis,
+          Athenis <unclear>hiolce </unclear>. Ptolemaeus ponat in Aegypto statuas inauratas
+          Alexandri, Ammonis, Minervae, Herculis, Olympiadis, Philippi patris.</p>
+        <p>
+          <milestone unit="par" n="123"/>His rebus omnibus testes sint Iuppiter Olympius, Hercules
+          patrius noster, Minerva, Mars, Ammon Sol et Alexandri regis Fortuna.<lb/>Si quis horum
+          adversus meum testamentum fecerit, Iovem deosque Olympios obtestor, id ut ne inpune
+          fecerit utique is adversus deos hominesque impius periurusque sit."</p>
+      </div>
+    </body>
+  </text>
+</TEI>

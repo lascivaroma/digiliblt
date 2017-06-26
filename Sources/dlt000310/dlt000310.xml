@@ -1,0 +1,772 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cosmographia</title>
+        <author>Honorius</author>
+        <respStmt>
+          <resp>Correzione linguistica</resp>
+          <name>Mauro Ciusani</name>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica XML</resp>
+          <name>Mauro Ciusani</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>digilibLT</publisher>
+        <pubPlace>Vercelli</pubPlace>
+        <date>2015</date>
+        <availability>
+          <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+        </availability>
+        <idno>dlt000310</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Salvatore Monda, <hi rend="italic">La</hi> Cosmographia <hi rend="italic">di Giulio Onorio. Un</hi> excerptum <hi rend="italic">scolastico tardo-antico</hi>, Roma 2013</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+        <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+      </projectDesc>
+      <editorialDecl>
+        <p><hi rend="bold">Modifiche apportate al testo dell'edizione di riferimento </hi></p>
+        <p>Al cap. 30 è stato aggiunto un punto dopo milia CCCCXVI.</p>
+        <p>Al cap. 46 è stato aggiunto un punto al termine del capitolo.</p>
+        <p>Ai capitoli 13 e 41 per riportare l'elenco disposto su due colonne nell'edizione cartacea si è inserita una barretta verticale tra ciascun termine della prima colonna e della seconda colonna</p>
+        
+        
+        <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+        <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+          l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+          e commenti e ogni altro contenuto redatto da editori moderni. </p>
+        <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+          correttezza di trascrizione</p>
+        <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+          distinzione u/v minuscole.</p>
+        <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+        <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+          grassetto, corsivo, spaziatura espansa.</p>
+        <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+          <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+          <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+          si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+          [...]<lb/> lacuna integrata dagli editori:
+          <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+        </p>
+        <p>Sono stati marcati i termini in lingua greca
+          <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+        </p>
+        <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+          target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+          >Note di trascrizione e codifica di testi latini tardoantichi
+          [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+      </editorialDecl>
+      
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latino</language>
+      </langUsage>
+    </profileDesc>
+    
+  </teiHeader>
+
+<text>
+  <body>
+  <head>COSMOGRAPHIA IVLII CAESARIS</head>
+    <div type="section">
+    <div type="cap" n="1"><p>Iulio Caesare et Marco Antoni<del>n</del>o consulibus omnis orbis peragratus est per sapientissimos et electos uiros quattuor: Nicodemo orientis, Didymo occidentalis, Theudoto septemtrionalis, Polyclito meridiani.</p></div>
+    <div type="cap" n="2"><p>A consulibus supra scriptis usque in consulatum Augusti III et Crassi annis XXI mensibus quinque diebus nouem oriens dimensa est. Et a consulibus supra scriptis usque in consulatum Augusti VII et Agrippae III annis XXVI mensibus III diebus XVII occidui pars dimensa est. A consulibus supra scriptis usque in consulatum Augusti X annis XXVIIII mensibus VIII septemtrionalis pars dimensa est. A consulibus supra scriptis usque in consulatum Saturnini et Cinnae annis XXXII mense I diebus XX meridiana pars dimensa est.</p>
+     <p>INCIPIT EXPOSITIO</p></div>
+    <div type="cap" n="3"><p>Omnis orbis habet maria XXVIII<lb/>
+        insulas LXXIIII<lb/>
+        montes XXXV<lb/>
+        prouincias LXX<lb/>
+        oppida CCLXIIII<lb/>
+        fluuios LII<lb/>
+        gentes CXXVIIII.</p></div>
+    <div type="cap" n="4"><p>Oriens habet maria VIII<lb/>
+        insulas VIII<lb/>
+        montes VII<lb/>
+        prouincias VII<lb/>
+        oppida LXX<lb/>
+        flumina XVII<lb/>
+        gentes XXXXVI.</p></div>
+    <div type="cap" n="5"><p>Occidens pars habet maria VIII<lb/>
+        insulas IVII<lb/>
+        montes VIIII<lb/>
+        prouincias XXIIII<lb/>
+        oppida LXXVII<lb/>
+        fluuios XIIII<lb/>
+        gentes XXVIIII.</p></div>
+    <div type="cap" n="6"><p>Septemtrionalis pars habet maria X<lb/>
+        insulas XXXII<lb/>
+        montes XII<lb/>
+        prouincias XVI<lb/>
+        oppida LXI<lb/>
+        fluuios XVI<lb/>
+        gentes XXVIIII.</p></div>
+    <div type="cap" n="7"><p>Meridiana pars habet maria II<lb/>
+        insulas XVI<lb/>
+        montes VI<lb/>
+        prouincias XXIII<lb/>
+        oppida XXXXVI<lb/>
+        flumina V<lb/>
+        gentes XXIIII.</p>
+      <p>EXPLICIT EXPOSITIO</p></div></div>
+<div type="section">
+  <head>EXCERPTA EIVS SPHAERAE VEL CONTINENTIA</head>
+    <div type="cap" n="1"><p>Propter aliquos anfractus ne intellectum forte legentis perturbet et uitio nobis acrostichis esset, hic excerpendam esse credidimus.</p></div>
+    <div type="sec" n="2"><p>Ergo oceanus orientalis haec maria habet: mare Caspium<lb/>
+        mare Persicum<lb/>
+        mare Tiberiadem<lb/>
+        mare Asphaltites, hoc est mare Mortuum<lb/>
+        mare Rubrum<lb/>
+        mare Arabicum, quem sinum Arabicum dicunt<lb/>
+        mare Carpathium.</p></div>
+    <div type="cap" n="3"><p>Insulae orientalis oceani quae sunt: Hippopodes insula<lb/>
+        Iannessi insula<lb/>
+        Solis Perusta insula<lb/>
+        Taprobane insula<lb/>
+        Silenfantine insula<lb/>
+        Teron insula<lb/>
+        Carpathon insula<lb/>
+        Cypros insula<lb/>
+        Rhodos insula<lb/>
+        Cythera insula<lb/>
+        Creta insula.</p></div>
+    <div type="cap" n="4"><p>Montes oceani orientalis qui sunt: Caucasus mons<lb/>
+        Caumestes mons<lb/>
+        Nysa mons<lb/>
+        Bodia mons<lb/>
+        Libanus mons<lb/>
+        Cassius mons<lb/>
+        Armenius mons<lb/>
+        Amanus mons.</p></div>
+    <div type="cap" n="5"><p>Prouinciae oceani orientalis quae sunt: India prouincia<lb/>
+        Adonis Phoenice prouincia<lb/>
+        Mesopotamia prouincia<lb/>
+        Syria Palaestina prouincia<lb/>
+        Commagene prouincia<lb/>
+        Syria Apamea prouincia<lb/>
+        Media prouincia<lb/>
+        Assyria prouincia.</p></div>
+    <div type="cap" n="6"><p>Oppida oceani orientalis quae sunt: Seres magnum oppidum<lb/>
+        Theriodes oppidum<lb/>
+        Sigotani oppidum<lb/>
+        Palibothra oppidum<lb/>
+        Alexandropolis oppidum<lb/>
+        Sallenites oppidum<lb/>
+        Colice oppidum<lb/>
+        Patale oppidum<lb/>
+        Patalete oppidum<lb/>
+        Tarchi oppidum<lb/>
+        Talloni oppidum<lb/>
+        Coprates oppidum<lb/>
+        Carmaniae oppidum<lb/>
+        Ortaciae oppidum<lb/>
+        Euergetae oppidum<lb/>
+        Pasargadae oppidum<lb/>
+        Ariduli oppidum<lb/>
+        Tarchi oppidum<lb/>
+        Scythae Thuni oppidum<lb/>
+        Dahae oppidum<lb/>
+        Salfamies oppidum<lb/>
+        Babylonia oppidum<lb/>
+        Chaldaei oppidum<lb/>
+        Eudaemon oppidum<lb/>
+        Nabataei oppidum<lb/>
+        Sabaei oppidum<lb/>
+        Macae oppidum<lb/>
+        Persepolis oppidum<lb/>
+        Andis oppidum<lb/>
+        Augae oppidum<lb/>
+        Susiani oppidum<lb/>
+        Persis oppidum<lb/>
+        Elymaei oppidum<lb/>
+        Paropanodae oppidum<lb/>
+        Adiabena oppidum<lb/>
+        Carrha oppidum<lb/>
+        Alexandria oppidum<lb/>
+        Nisibi oppidum<lb/>
+        Arbaei oppidum<lb/>
+        Commagene oppidum<lb/>
+        Dolicha oppidum<lb/>
+        Palmyra <supplied>oppidum</supplied><lb/>
+        Damascos oppidum<lb/>
+        Iordanes oppidum<lb/>
+        Heliupolis oppidum<lb/>
+        Apamia oppidum<lb/>
+        Antiochia oppidum<lb/>
+        Daphne oppidum<lb/>
+        Laudicia oppidum<lb/>
+        Byblos oppidum<lb/>
+        Berytos oppidum<lb/>
+        Sidona oppidum<lb/>
+        Tyros oppidum<lb/>
+        Ptolomais oppidum<lb/>
+        Caesarea Palaestina oppidum<lb/>
+        Ascalona oppidum<lb/>
+        Gaza oppidum<lb/>
+        Ostracine oppidum<lb/>
+        Scythopolis oppidum<lb/>
+        Philadelphia oppidum<lb/>
+        Cyrupolis oppidum<lb/>
+        Arabia <supplied>oppidum</supplied><lb/>
+        Pelusium <supplied>oppidum</supplied><lb/>
+        Moptis <supplied>oppidum</supplied><lb/>
+        Nampamon <supplied>oppidum</supplied><lb/>
+        Niphatem <supplied>oppidum</supplied><lb/>
+        Marmarites <supplied>oppidum</supplied><lb/>
+        Sebaste <supplied>oppidum</supplied><lb/>
+        Amphipolim <supplied>oppidum</supplied><lb/>
+        Piraeum <supplied>oppidum</supplied><lb/>
+        Eleusinum <supplied>oppidum</supplied><lb/>
+        Coptis <supplied>oppidum</supplied><lb/>
+        Mitylene <supplied>oppidum</supplied><lb/>
+        Lampsaco <supplied>oppidum</supplied>.</p></div>
+    <div type="cap" n="7"><p>Fluminum ortus et egestio oceani orientalis.</p>
+      <p>Theriodes fluuius nascitur ex campis <supplied>Scythicis</supplied>. Tribus locis natus unus efficitur. Egerit in mare Caspium. Currit per milia DCCCXLII.</p>
+      <p>Oxos fluuius nascitur de monte Caumestes. In quinque fluminibus brachia facit. Ea transeunt per montem Caucasum et appellantur Saleantes; fundunt in flumen magnum qui appellatur Ganges. Hic eos suscipiens egeritur in oceanum orientalem sub insula Solis appellata Perusta. Circuit milia DCCXXVII.</p></div>
+  <div type="cap" n="8"><p>Sygogan fluuius nascitur de monte Caucaso. Ex se duo effecti in coronam occupant montem supra dictum Caumesten. <unclear/>Sane ex una parte eius montis, ex quo supra diximus quinque flumina procedunt, quae dicta sunt Saleantes, per eos torrens transiens ita ut nec eorum aqua nec eius misceri uideatur. Omnes iter suum agentes reuertuntur ad suum; id est: ad eandem coronam, unde sparsus se geminauerat, iterum ad unum reuertitur. Effundit in mare Caspium. Sed ante <supplied>ex</supplied> eo exit fluuius, qui per Caucasum montem inrumpens exit et accipit nomen Ganges. Cui adiungitur alius, cuius capita quinque, quos reliquerat Sygaton fluuius, ex alia parte montis Caucasi nascuntur. Huic etiam se ad unum iungens effectus unus de octo ‒<unclear/>occurrit ei Ganges‒ ubiubi confirmatur in unum. Item se duo iungentes effecti in unum qui fuerant octo, facti decem transeunt ad oppida Patale et Patalete, et hi decem unum efficiunt fluuium. Et sic egeritur in mare oceanum orientalem ad insulam Silenfantinam. Ergo de decem fluminibus adimpletur Ganges fluuius, qui in superioribus partibus omnes Sygaton uocitantur, quoniam de una nympha meant. Currit per milia decies quadringenta quinquaginta tria milia sexcentos triginta unum passus.</p></div>
+    <div type="cap" n="9"><p>Fluuius Hydaspes Indiae prouinciae nascitur in campis Indorum tribus crinibus. Hic se ex omnibus adunans unus efficitur, inlustrans omnem regionem supra dictam, infundens se in oceanum orientalem. Qui currit milia DCCCXIIII.</p>
+      <p>Fluuius Coprates nascitur in campis Indiae. Inlustrans Indos infundit se in oceanum orientalem sub insula Teron. Currit milia DCXII.</p>
+      <p>Armuzia fluuius nascitur in Aethiopia in campis supra scriptis Aethiopiae. Inlustrans Adonis et Mesopotamiam prouincias influit in sinum Persicum. Currit milia DCCXXIIII.</p>
+      <p>Fluuius Carmanta nascitur in campis Commagenae regionis. Influit in sinum Persicum. Currit milia DCLXXIII.</p>
+      <p>Fluuius Cortaciae prouinciae Mediae nascitur in campis Arabicis. Effluit in sinum Persicum. Currit milia DCCCCXVII.</p>
+      <p>Fluuius Susas Mediae prouinciae nascitur bicornius. Efficit unus. Effluit in sinum Persicum. Currit milia DIIII.</p></div>
+    <div type="cap" n="10"><p>Fluuius Chrysorroas nascitur in campis Assyriis de monte Caucaso. Vicinatur ei Tigris fluuius. Etiam ipse Tigris de monte Caucaso quasi uidetur natus, cum aestiuis temporibus sub humo sit currens, ut uiriditas eum indicet desuper Aethiopiam posse uideri, quoniam superius de obscuritate promitur. Nam ambo, includentes Corduenam oppidum ad unum redacti, magnam faciunt coronam, ut oppida includant Ctesiphon et Seleuciam. Currunt ad Auge oppidum, quod est in sinu Persico. Circuit milia DCCCLXXII.</p>
+      <p>Fluuius Alibotra nascitur in monte Liseo. Diffundit in orientalem oceanum. Currit milia CCCCXVI.</p>
+      <p>Flumina tria Ichthyophagi dicta ex campis Indiae nati ad oceanum festinantes in eum fluunt. Circueunt milia CCII.</p></div>
+    <div type="cap" n="11"><p>Fluuius Axius nascitur de monte Armeno transiens per montem Caucasum ad Mesopotamiam. In ea prouincia ei alius adiungitur fluuius, qui uidetur ex ipso monte Caucaso nasci, cui uocabulum Pactolus est. Efficiuntur unum per Parthos transeuntes. Eius cursus congregat aquam eius. Facis lacus octo. Ibi nomen accipit Eufrates. Exinde se diffundit in sinum Persicum. Currit milia DCCCLXII.</p>
+      <p>Fluuius Chrysorroas nascitur in campis Syriae inlustrans Syriam, Antiochiam et Palaestinam et ceteras Syriae ciuitates. Diffundit se in mare Aegaeum, ubi est insula Cypros. Currit milia DCCCXXX.</p></div>
+    <div type="cap" n="12"><p>Fluuius Eleuther nascitur in campis Syriae. Diffundit se in mare Aegaeum, ubi est insula Cypros. Currit milia DCXXX.</p>
+      <p>Adonis fluuius nascitur prope Tiberiadem lacum. Diffundit in mare Adriaticum contra insulam Cretam. Currit milia DCCCLXIIII.</p>
+      <p>Iordanes fluuius nascitur sub Libano monte. Circuiens eum pergit in lacum Tiberiadem. De quo exiens suo cursu excurrit ad Scythopolin, quam secans mediam et ab ea exiens fundit in mare Mortuum. Currit milia DCCXXXII.</p></div>
+    <div type="cap" n="13"><p>Quae gentes sint in prouinciis oceani orientalis:</p>
+    <p>Scythae Anthropophagi | Scythae Thuni<lb/>
+      Sigotani | Derbiccae<lb/>
+      Pasicae | <unclear/>Parosmi<lb/>
+      Anartacae | Geloni<lb/>
+      Chorasmii | Massagetae<lb/>
+      Bactriani | Paropanisidae<lb/>
+      <unclear/>Traumeda | Hypergenes<lb/>
+      <unclear/>Pambothi | Arachosia<lb/>
+      Arachoti | Ariani<lb/>
+      Oraccae | Anydros<lb/>
+      Arabii | Sittacene<lb/>
+      Armuzia | Ichthyophagi<lb/>
+      Parthi | Idumaei<lb/>
+      Hieromices | Chatti. Chauci<lb/>
+      Cherusci | Vsipii<lb/>
+      Quadi | Vaccaei<lb/>
+      Vardaei | Frisiones<lb/>
+      Canninefates | Allobroges<lb/>
+      <unclear/>Alaudes | Ruteni<lb/>
+      Teutoni | Cimbri<lb/>
+      <unclear/>Antequini | Cenomanni<lb/>
+      Aedui</p></div>
+    <div type="cap" n="14"><p>ORIENTALIS OCEANI CONTINENTIA EXPLICIT.</p>
+      <p>INCIPIT CONTINENTIA OCEANI OCCIDENTALIS.</p></div>
+    <div type="cap" n="15"><p>Oceanus occidentalis haec maria habet. Mare freti Gaditani<lb/>
+        mare quod Orcades appellant<lb/>
+        mare <unclear/>mades<lb/>
+        mare Thyle<lb/>
+        mare quod Columnas Herculis appellant<lb/>
+        mare Tyrrenum<lb/>
+        mare Britannicum<lb/>
+        mare Adriaticum.</p></div>
+    <div type="cap" n="16"><p>Oceani occidentalis insulae quae et quantae sint. Hibero insula<lb/>
+        Meuania insula<lb/>
+        Britannia insula<lb/>
+        Ebusos insula<lb/>
+        Balearis maior insula<lb/>
+        Balearis minor insula<lb/>
+        Corsica insula<lb/>
+        Orcades insulae sunt nouem<lb/>
+        Illyricum<lb/>
+        Noricum<lb/>
+        Lingonici<lb/>
+        Histrici<lb/>
+        Matrona<lb/>
+        <unclear/>Coaetiae<lb/>
+        Marciana<lb/>
+        Iuliae<lb/>
+        <unclear/>Emin Gaulo.</p></div>
+    <div type="cap" n="17"><p>Montes quos habet oceanus occidentalis. Mons Pyrenaeus<lb/>
+        mons Alpium<lb/>
+        mons Appenninus<lb/>
+        montes II: Britanniae uallum<lb/>
+        mons Haemus<lb/>
+        mons Rhodope<lb/>
+        Albanus<lb/>
+        Marsus.</p></div>
+    <div type="cap" n="18"><p>Prouincias quas habeat oceanus occidentalis. Hispania prouincia<lb/>
+        Baetica prouincia<lb/>
+        Lusitania prouincia<lb/>
+        Gallicia prouincia<lb/>
+        Aquitania prouincia<lb/>
+        Britannia prouincia<lb/>
+        Germania prouincia<lb/>
+        Belgica prouincia<lb/>
+        Gallia Bracata <supplied>prouincia</supplied><lb/>
+        Gallia Comata <supplied>prouincia</supplied><lb/>
+        Gallia Togata <supplied>prouincia</supplied><lb/>
+        Gallia Cisalpina <supplied>prouincia</supplied><lb/>
+        Gallia Transalpina <supplied>prouincia</supplied><lb/>
+        Pannoniae prouinciae tres<lb/>
+        Italia prouincia<lb/>
+        Etruria prouincia<lb/>
+        Vmbria prouincia<lb/>
+        Liburnia prouincia<lb/>
+        Delmatia prouincia<lb/>
+        Illyricum prouincia<lb/>
+        Moesia prouincia<lb/>
+        Noricum prouincia<lb/>
+        Venetia prouincia<lb/>
+        Aemilia <supplied>prouincia</supplied>.</p></div>
+    <div type="cap" n="19"><p>Quae oppida in prouinciis suis habeat oceanus occidentalis. Calpos oppidum<lb/>
+        Calpis oppidum<lb/>
+        Hispalis <supplied>oppidum</supplied><lb/>
+        Gades <supplied>oppidum</supplied><lb/>
+        Corduba oppidum<lb/>
+        Vettones oppidum<lb/>
+        Toletum oppidum<lb/>
+        Bracara oppidum<lb/>
+        Lucus Augusti oppidum<lb/>
+        Asturica oppidum<lb/>
+        Vaccaei oppidum<lb/>
+        Celtiberia oppidum<lb/>
+        Caesarea Augusta oppidum<lb/>
+        Tarraco oppidum<lb/>
+        Gesoriacum oppidum<lb/>
+        Ambiani oppidum<lb/>
+        Tungri oppidum<lb/>
+        Agrippini oppidum<lb/>
+        Treueri oppidum<lb/>
+        Senones oppidum<lb/>
+        Augustodunum oppidum<lb/>
+        Augusta Treuerorum <supplied>oppidum</supplied><lb/>
+        Augusta Nemetum <supplied>oppidum</supplied><lb/>
+        Augusta Vindelicum <supplied>oppidum</supplied><lb/>
+        Augusta Praetoria <supplied>oppidum</supplied><lb/>
+        Augusta Taurinorum <supplied>oppidum</supplied><lb/>
+        Lugdunum oppidum<lb/>
+        Mogontiacum oppidum<lb/>
+        Vienna oppidum<lb/>
+        Arelate oppidum<lb/>
+        Massilia oppidum<lb/>
+        Taurini oppidum<lb/>
+        Aquileia oppidum<lb/>
+        Emona oppidum<lb/>
+        Altinum oppidum<lb/>
+        Patauis oppidum<lb/>
+        Verona oppidum<lb/>
+        Brixia oppidum<lb/>
+        Vicentia <supplied>oppidum</supplied><lb/>
+        Concordia <supplied>oppidum</supplied><lb/>
+        Ticinum <supplied>oppidum</supplied><lb/>
+        Mantua <supplied>oppidum</supplied><lb/>
+        Tortona <supplied>oppidum</supplied><lb/>
+        Cremona <supplied>oppidum</supplied><lb/>
+        Vercellis <supplied>oppidum</supplied><lb/>
+        Mediolanum oppidum<lb/>
+        Laude <supplied>oppidum</supplied><lb/>
+        Placentia oppidum<lb/>
+        Mutina oppidum<lb/>
+        Bononia oppidum<lb/>
+        Rauenna oppidum<lb/>
+        Fauentia oppidum<lb/>
+        Ariminum oppidum<lb/>
+        Pisaurum oppidum<lb/>
+        Iadera oppidum<lb/>
+        Salona oppidum<lb/>
+        Brecantium oppidum<lb/>
+        Naissos oppidum<lb/>
+        Viminacium oppidum<lb/>
+        Peuce oppidum<lb/>
+        Singidunum oppidum<lb/>
+        Sirmium oppidum<lb/>
+        Mursa oppidum<lb/>
+        Siscia oppidum<lb/>
+        Aquincum oppidum<lb/>
+        Brigetione oppidum<lb/>
+        Carnunto oppidum<lb/>
+        Sauaria oppidum<lb/>
+        Petauione oppidum<lb/>
+        Bona Mansio <supplied>oppidum</supplied><lb/>
+        Argentaria <supplied>oppidum</supplied><lb/>
+        Sauromatae <supplied>oppidum</supplied><lb/>
+        Nemauso <supplied>oppidum</supplied><lb/>
+        Lingones <supplied>oppidum</supplied><lb/>
+        Durocortorum <supplied>oppidum</supplied><lb/>
+        Samarobriua <supplied>oppidum</supplied><lb/>
+        Santones <supplied>oppidum</supplied><lb/>
+        Menapium <supplied>oppidum</supplied>.</p></div>
+    <div type="cap" n="20"><p>Oceani occidentalis fluminum ortus et occasus.</p>
+      <p>Fluuius Baetis nascitur in campis Hispaniae. Cui occurrit Singillius fluuius qui oritur de radice montis Saluri, et mergit se in eum, et faciunt unum meatum, salua reliqua flumina quae in Baetis alueo fluunt. Occidit uero in oceano occidentali. Currit milia CCCCX.</p>
+      <p>Fluuius Tagus nascitur in campis Hispaniae. Cui occurrunt flumina minora multa. Occidit in oceano occidentali. Currit milia CCCCII.</p>
+      <p>Fluuius Durius nascitur in Carpitania, exiens de monte Caia iuxta Pyrenaeum, currit per campos Hispaniae inlustrans <unclear/>paramum. Deinde disrumpens loca montuosa, diuidens Galliciam et Lusitaniam, ducens aquas multas ualde, occidit in oceano occidentali. Currit milia CCCCXCV.</p></div>
+    <div type="cap" n="21"><p>Fluuius Minio nascitur prope Pyrenaeum. In rutunditate uertitur, ut Brigantium oppidum maritimum includat, et sic se in oceanum occidentalem recipit. Currit milia CCLXII.</p>
+      <p>Fluuius Hiberus nascitur sub Asturibus montis Pyrenaei uicinus. Inlustrans Hispanias infundit se in mari iuxta Tarracona. Currit milia CCIIII.</p></div>
+    <div type="cap" n="22"><p>Fluuius Rhodanus nascitur in medio campo Galliarum. Occurrit ei Bicornis a Patauione ueniens relicta cauda ortus sui quod Araris nuncupatur. Omnes simul, hoc est unum facientes, in mare <supplied>se</supplied> mittunt, egerentes Arelatem <del>mergunt</del>. Sed hic quem Bicornem diximus, ante coniunctionem Rhodani uel commixtionem in supernis nomen aliud accipit praeter Bicornem: hic Bicornis, hic Rhenus, hic Araris appellatur. Ita ergo fit ut hic fluuius tribus nominibus nuncupetur, cum sit unus et dimidius, quod Araris, ut supra diximus, nuncupatur. Ducit autem a mari Patauionis usque ad mare Tyrrenum contra insulas Baleares. Eius autem medietas qua inruit, habet aquileum pertortuosum Lugdunum. Vbi et nascitur ubi autem inruit, utrum in oceano occidentis an in mari Tyrreno, non potest in praesenti uideri, quia ab aqua ad aquam uidetur currere. Currit milia DCCCLII.</p></div>
+    <div type="cap" n="23"><p>Fluuius Garumna nascitur in Aquitaniae campis. Influit in oceanum occidentalem. Currit milia CCVIIII.</p>
+      <p>Fluuius Geobonna nascitur in Galliarum campis. Influit in oceanum occidentalem. Currit milia CCCII.</p>
+      <p>Fluuius qui Bicornis dicitur iunctus nascitur in campo Germaniae. Inlustrans eam influit ad Patauiam. Currit milia CCXXXII.</p></div>
+    <div type="cap" n="24"><p>Fluuius Danuuius (hic Phison) nascitur ex Alpibus. Procedens geminatur, hoc est, efficiuntur duo, id est Danuuius et Draus. Intra se includunt Pannoniarum ciuitates quattuor, id est Aquincum, Brigetionem, Carnuntum et Sauariam. Et redeunt ad unum qui fuerant duo facti, et per non parua solus procurrens efficitur in oblongam rutunditatem, quae rutunditas oppidum Peuce includit. Ex ipso fluminali circulo septem crines fluminum procedunt infundentes se in Pontum. Ergo Danuuius exiens de Alpibus; in proximo de eo Draus fluuius exit, sed unus infunditur per crines supra dictos in Pontum. Currit milia DCCCCXXXIII.</p>
+      <p>Fluuius Margus nascitur in campo Viminacio Moesiae. Alluens excurrensque infundit se in Danuuium supra dictum. Currit milia DCCI.</p>
+      <p>Fluuius Tiberis nascitur ex monte Appennino. Occidit in Tyrreno mari. Currit milia <unclear/>CCCC.</p></div>
+    <div type="cap" n="25"><p>Fluuius Sauus nascitur aput Noricum de monte Alpium. Currens per campos se in modicam rutunditatem concludit in modum uisionis amygdalae. Intus includit Sisciam. Iterum se ad unum redigens transit per Sirmium oppidum et Singidunum coloniam, et iungit se Danuuio ad locum Mursae oppidi. Et omnes simul per crines supra dictos in Pontum ingrediuntur et uocantur Hister. Apparet autem <supplied>quod</supplied> Danuuius et Draus et Margus simul in Pontum exundant. Currit milia decies DCCCLXXXVII.</p>
+      <p>Fluuius Strymon nascitur in campis Dardaniae. Influit in mare Aegaeum. Currit milia DCCCCVII.</p></div>
+    <div type="cap" n="26"><p>Quas gentes oceanus occidentalis habeat. Tolosates gens<lb/>
+        Nouempopuli gens<lb/>
+        Narbonenses gens<lb/>
+        Morini gens<lb/>
+        Franci gens<lb/>
+        Alani gens<lb/>
+        Amsiuari gens<lb/>
+        <unclear/>Langiones gens<lb/>
+        Suebi gens<lb/>
+        Langobardi gens<lb/>
+        Iuthungi gens<lb/>
+        Burgundiones gens<lb/>
+        Armilausini gens<lb/>
+        Marcomanni gens<lb/>
+        <unclear/>manni gens<lb/>
+        Heruli gens<lb/>
+        Quadi gens<lb/>
+        Sarmatae gens<lb/>
+        Basternae gens<lb/>
+        Carpi gens<lb/>
+        Gothi gens<lb/>
+        Duli gens<lb/>
+        Gippedi gens.</p></div>
+    <div type="cap" n="27"><p>OCEANI OCCIDENTALIS CONTINENTIA EXPLICIT.</p>
+      <p>INCIPIT OCEANI SEPTENTRIONALIS CONTINENTIA.</p></div>
+    <div type="cap" n="28"><p>Oceanus septentrionalis quae maria habeat. Mare Myrtilum<lb/>
+        mare Maeotis<lb/>
+        mare Bosphorum<lb/>
+        mare Cimmerium<lb/>
+        mare Pontum<lb/>
+        mare Bosphorus Thracius<lb/>
+        mare Propontis<lb/>
+        mare Hellespontum<lb/>
+        mare Aegaeum<lb/>
+        mare Caspium<lb/>
+        mare Ionium.</p></div>
+    <div type="cap" n="29"><p>Oceani septentrionalis insulae quae et quantae sint. Cyclades insulae. Sunt XXIIII. Cum eis sunt insulae duae Euboea et Delos<lb/>
+        Hippopodes insula<lb/>
+        Rhodos insula<lb/>
+        Cypros insula<lb/>
+        <unclear/>Cypros alia insula.</p></div>
+    <div type="cap" n="30"><p>Montes quos habeat oceanus septentrionalis. Hyperborei Ripaei mons<lb/>
+        Hypanis mons<lb/>
+        Caucasus ex alia parte mons<lb/>
+        Haemus mons<lb/>
+        Taurus mons<lb/>
+        item Caucasus mons<lb/>
+        Amanus mons<lb/>
+        <unclear/>Germania minor mons<lb/>
+        Bodua mons<lb/>
+        Rhodope mons<lb/>
+        Aetna<lb/>
+        Caumestes<lb/>
+        Cragus montes sunt.</p></div>
+    <div type="cap" n="31"><p>Oceanus septentrionalis quas prouincias habeat. Macedonia prouincia<lb/>
+        Epirus prouincia<lb/>
+        Thracia prouincia<lb/>
+        Achaia prouincia<lb/>
+        Lydia prouincia<lb/>
+        Asia prouincia<lb/>
+        Lycia prouincia<lb/>
+        Phrygia prouincia<lb/>
+        Pamphylia prouincia<lb/>
+        Galatia prouincia<lb/>
+        Bithynia prouincia<lb/>
+        Paphlagonia prouincia<lb/>
+        Cappadocia prouincia<lb/>
+        Cilicia prouincia<lb/>
+        Armenia maior prouincia<lb/>
+        Armenia minor prouincia.</p></div>
+    <div type="cap" n="32"><p>Quae oppida in prouinciis suis habeat oceanus septentrionalis. Heraclea oppidum<lb/>
+        Serdica oppidum<lb/>
+        Pella oppidum<lb/>
+        Thessalonice oppidum<lb/>
+        Perinthos oppidum<lb/>
+        Byzantium oppidum: haec Anthusa Constantinopolis dicitur<lb/>
+        Chalcedon oppidum<lb/>
+        Nicomedia oppidum<lb/>
+        Amisos oppidum<lb/>
+        Comani oppidum<lb/>
+        Tarsos oppidum<lb/>
+        Pompeiopolis <supplied>oppidum</supplied><lb/>
+        Olympos <supplied>oppidum</supplied><lb/>
+        Cibyra oppidum<lb/>
+        Artaxata oppidum<lb/>
+        Tigranocerta oppidum<lb/>
+        Sindi Taurica oppidum<lb/>
+        Side oppidum<lb/>
+        Cnidos oppidum<lb/>
+        <unclear/>Haternassos oppidum<lb/>
+        Myndos oppidum<lb/>
+        Ephesos oppidum<lb/>
+        Cercyra oppidum<lb/>
+        Colophon oppidum<lb/>
+        Smyrna oppidum<lb/>
+        Philadelphia <supplied>oppidum</supplied><lb/>
+        Pergamum oppidum<lb/>
+        Callipolis oppidum<lb/>
+        Coelia oppidum<lb/>
+        Sestos oppidum<lb/>
+        Abydos oppidum<lb/>
+        Lampsacum oppidum<lb/>
+        Pario oppidum<lb/>
+        Cyzicus oppidum<lb/>
+        Ilium oppidum<lb/>
+        Troas oppidum<lb/>
+        Antandron oppidum<lb/>
+        Nicaea oppidum<lb/>
+        Larissa oppidum<lb/>
+        Phocis oppidum<lb/>
+        Cirrha oppidum<lb/>
+        Delphis oppidum<lb/>
+        Buthroton oppidum<lb/>
+        Acroceraunia oppidum<lb/>
+        Dyrrhachium oppidum<lb/>
+        Athenae oppidum<lb/>
+        Corinthos oppidum<lb/>
+        Epidauros oppidum<lb/>
+        Sicyon oppidum<lb/>
+        Patrae <supplied>oppidum</supplied><lb/>
+        Tegeas oppidum<lb/>
+        Maleos oppidum<lb/>
+        <unclear/>Canzaca oppidum<lb/>
+        Philopolis <supplied>oppidum</supplied><lb/>
+        Chrysopolis <supplied>oppidum</supplied><lb/>
+        Hierapolis oppidum.</p></div>
+    <div type="cap" n="33"><p>Oceani septentrionalis fluminum ortus et egestio.</p>
+      <p>Fluuius Tanais nascitur de monte Hyperborei Ripaei. Influit in paludibus Maeotiis. Currit milia DCLIIII.</p>
+      <p>Fluuius Borysthenes nascitur de monte Hyperborei Ripaei. Influit in Ponticum mare. Currit milia CCX.</p>
+      <p>Fluuius Maeotae nascitur de monte Hypanis. Influit in mare Maeotis. Currit milia CCIIII.</p></div>
+    <div type="cap" n="34"><p>Fluuius <unclear/>Nais nascitur de Tauro monte. Influit in mare Ponticum. Currit milia CCCV.</p>
+      <p>Fluuius Themysos nascitur de monte Caucaso. Influit se in Pontum. Currit milia CCX.</p>
+      <p>Fluuius Phasis nascitur in campo sub monte Caucaso. Egerit in mare Ponticum. Currit milia DCCCV.</p>
+      <p>Fluuius <unclear/>Chorestes nascitur de monte Tauro. Influit in mare Tyrrenum, ubi insula Rhodos. Currit milia DCXX.</p></div>
+    <div type="cap" n="35"><p>Fluuius Eurotas nascitur in campis Phrygiae. Influit in mare Tyrrenum. Currit milia DCCXXV.</p>
+      <p>Fluuius Thimnis nascitur de monte Tauro. Influit in mare Tyrrenum ad insulas Cycladas. Currit milia CCCCXXII.</p>
+      <p>Fluuius Cnydus nascitur de monte Tauro. Influit in mare Tyrrenum ad Cycladas. Currit milia CCCLXV.</p>
+      <p>Fluuius Pyramus nascitur de monte Tauro. Infunditur in mare Adriaticum contra insulam Cypros. Currit milia CCCXXII.</p></div>
+    <div type="cap" n="36"><p>Fluuius Sperchius nascitur de monte Ida Macedoniae prouinciae. Influit in mare Aegaeum. Currit milia DCII.</p>
+      <p>Fluuius Achelous nascitur in campis Epiri. Infunditur in mare Ionium. Currit milia DCCXC.</p>
+      <p>Fluuius Alpheus nascitur in campis Achaiae. Influit in mare Tyrrenum. Currit milia CCCCLXX.</p>
+      <p>Fluuius Ryndacus nascitur in campis Phrygiae. Influit in mare Hellespontum. Currit milia CCCC.</p></div>
+    <div type="cap" n="37"><p>Fluuius Hermus nascitur in campis Asiae. Influit in mare Cycladum. Currit milia DCVIIII.</p>
+      <p>Fluuius Maeandros nascitur in campis Asiaticis. Bicornis currit, quasi sint duo. Redigunt se ad unum, et influit in mare Cycladum. Currit milia DCCCXCVII.</p>
+      <p>Fluuius Sarus nascitur in campis Pamphyliae. Per anfractus tortuosos influit in mare insulae Rhodos. Currit milia CCCCXXII.</p>
+      <p>Fluuius <unclear/>Asdrubelena nascitur de monte Bodua. Influit in mare Caspium, inrumpens montem Caucasum. Currit milia CCCXV.</p></div>
+    <div type="cap" n="38"><p>Gentes oceani septentrionalis quae sint. Scythae gens<lb/>
+        Borysthenes <supplied>gens</supplied><lb/>
+        Nomades gens<lb/>
+        Sauromatae gens<lb/>
+        Cercetae gens<lb/>
+        Heniochi gens<lb/>
+        Colchi gens<lb/>
+        Phasis gens<lb/>
+        barbari albi<lb/>
+        ignobiles gens<lb/>
+        Thermonos gens<lb/>
+        Ryndacos gens<lb/>
+        Xanthii gens<lb/>
+        Mossynoeci gens<lb/>
+        Leucosyri gens<lb/>
+        Arimaspi gens<lb/>
+        Futtui gens<lb/>
+        Dahae gens<lb/>
+        Scythae Anthropophagi gens<lb/>
+        Derbiccae gens<lb/>
+        Pasicae gens<lb/>
+        Seres gens<lb/>
+        Theriodes gens<lb/>
+        Anartacae gens<lb/>
+        Chorasmii gens<lb/>
+        Massagetae gens<lb/>
+        Bactriani gens<lb/>
+        Paropanisidae gens<lb/>
+        <unclear/>Traumeda gens<lb/>
+        Sigotani gens.</p></div>
+    <div type="cap" n="39"><p>OCEANI SEPTENTRIONALIS CONTINENTIA EXPLICIT.</p>
+      <p>INCIPIT OCEANI MERIDIANI CONTINENTIA.</p></div>
+    <div type="cap" n="40"><p>Quae maria <supplied>oceanus meridianus</supplied> habeat. Mare Carpathium<lb/>
+        mare Tyrrenum.</p></div>
+    <div type="cap" n="41"><p>Oceani meridiani quae sunt insulae.<lb/>
+        Sicilia insula | Pontiae insula<lb/>
+        Carpathos insula | Pandatoria insula<lb/>
+        Sardinia insula | Corsica insula<lb/>
+        Galata insula | Capraria insula<lb/>
+        Fortunatae insulae | Igilio insula<lb/>
+        Cossura insula | Aenaria insula<lb/>
+        Syrtis maior insula | <unclear/>Luci Caprea insula<lb/>
+        Syrtis minor insula | Catabathmon insula<lb/>
+        Melita insula | Girbe insula</p></div>
+    <div type="cap" n="42"><p>Oceani meridiani montes qui sint. Mons Pyramides<lb/>
+        mons Beronice<lb/>
+        mons Panchaeus<lb/>
+        mons Feratus<lb/>
+        mons Atlas<lb/>
+        mons Gurbessa.</p></div>
+    <div type="cap" n="43"><p>Oceani meridiani quae prouinciae sint. Aegyptus prouincia<lb/>
+        Aethiopia prouincia<lb/>
+        Aethiopes prouincia<lb/>
+        Africa prouincia<lb/>
+        Gaetulia prouincia<lb/>
+        Byzacium prouincia<lb/>
+        Zeugis prouincia<lb/>
+        Numidia prouincia<lb/>
+        Libya prouincia<lb/>
+        Pentapolis prouincia<lb/>
+        Tripolis prouincia<lb/>
+        Mauritania Caesariensis prouincia<lb/>
+        Mauritania Sitifensis prouincia.</p></div>
+    <div type="cap" n="44"><p>Oceani meridiani oppida quae sint. Arabia Nitriotes oppidum<lb/>
+        Fossa Traiani oppidum<lb/>
+        Thebe oppidum<lb/>
+        Thebais oppidum<lb/>
+        Beronice oppidum<lb/>
+        Ammon <supplied>oppidum</supplied><lb/>
+        Ptolomais oppidum<lb/>
+        Cyrene oppidum<lb/>
+        Philaenon arae oppidum<lb/>
+        Leptis magna oppidum<lb/>
+        Oea oppidum<lb/>
+        Sabrata oppidum<lb/>
+        Tacapas oppidum<lb/>
+        Thenas oppidum<lb/>
+        Thusdrum oppidum<lb/>
+        Tapsus oppidum<lb/> 
+      Leptis minor oppidum<lb/>
+        Hadrumetum oppidum<lb/>
+        Neapolis oppidum<lb/>
+        Clipea oppidum<lb/>
+        Karthago oppidum<lb/>
+        Vtica oppidum<lb/>
+        Hippone Zaryto oppidum<lb/>
+        Tabraca oppidum<lb/>
+        Hippone Regio oppidum<lb/>
+        Rusiccade oppidum<lb/>
+        Culli oppidum<lb/>
+        Saldis oppidum<lb/>
+        Quinquegentiani oppidum<lb/>
+        Rusuccuru oppidum<lb/>
+        Tipasa oppidum<lb/>
+        Caesarea oppidum<lb/>
+        Cartennas oppidum<lb/>
+        Portus Magnus oppidum<lb/>
+        Hesperides oppidum<lb/>
+        Vallis oppidum<lb/>
+        Lares oppidum<lb/>
+        Sicca oppidum<lb/>
+        Obba oppidum<lb/>
+        Sululis <supplied>oppidum</supplied><lb/>
+        Assuris <supplied>oppidum</supplied><lb/>
+        Zama Regia oppidum<lb/>
+        Sufetulae oppidum<lb/>
+        Sufes oppidum<lb/>
+        Cilio oppidum<lb/>
+        Teleptis oppidum<lb/>
+        Capsa oppidum<lb/>
+        Theueste oppidum<lb/>
+        Admedera oppidum<lb/>
+        Madauris oppidum<lb/>
+        Tubursicunumidorum oppidum<lb/>
+        Calama oppidum<lb/>
+        Constantina oppidum<lb/>
+        Mileu oppidum<lb/>
+        Tamugade oppidum<lb/>
+        Lambese oppidum<lb/>
+        Lamasba oppidum<lb/>
+        Lamuiridi oppidum<lb/>
+        Sitifi oppidum<lb/>
+        Macri oppidum<lb/>
+        Zabi oppidum<lb/>
+        Tubusubtu oppidum<lb/>
+        Bida oppidum.</p></div>
+    <div type="cap" n="45"><p>Oceani meridiani fluminum ortus et egestio.</p>
+      <p>Nilus fluuius nascitur in Aethiopia. Currit usque ad lacum Foloen. Inde exit et cadit per cataractas. Astapus uenit de monte Panchaeo, ex quo monte ad illum excurrit fluuius alius Astaboris; non leui cum magnitudine miscentes se: Nilus ibi congeminatur atque concurrens per anguillationem, coronam faciens contortuosam, ergo repetens sui iter impetus, demittens illam coronulam, quae Meroe appellatur, ascendit non in paruum gradum girum iterum faciens. Geminatus includit Philas usque ad reparatum iter exiens de loco memorato, qui Blemyes uocatur <supplied>et</supplied> cataractae, iterum in circuitu circulum conponens, quod Oxyrynchum Heracleum appellatur, et iam hinc exiens Aegypto festinus.</p></div>
+  <div type="cap" n="46"><p>Bracchium de eo fluminale procedit procliue, quod pergit usque Rubri maris ripas, id est sinum Arabicum, ubi consumitur et hic memoratus fluuius ‘fossa Traiani’ appellatur. Nam et oppidum, ibi quod est, hoc nomine nuncupatur. Ergo ad Pyramides Nilus ueniens per diuersa se camporum dispergit spatia, quo Aegyptiorum inrigare possit terras, tendens ad Pelusium, Chrysorroas et Alexandriam oppida. His omnibus peractis per octo fluminum magna bracchia procurrens se inuergit mari Carpathio, ubi et inest insula Carpathos. Currit <supplied>milia</supplied> sex milia DCLXXXVIII.</p></div>
+    <div type="cap" n="47"><p>Fluuius Nilotis nascitur in Athlantico campo; qui currens lacum efficit, qui Nilotis appellatur, sine aliquo exitu. Currit milia CL.</p>
+      <p>Fluuius Bagrada nascitur in Tubursicunumidorum. Pergens per Zeugi inlustrans regionem egerit in mari Tyrreno. Dispersis crinibus Vticae oppido diffunditur. Currit milia CCCXVIII.</p>
+      <p>Fluuius Cartennas nascitur in campo Mauro, inde inlustrans litori maritimo Caesariensi mari inuergit. Currit milia DCCCCXXII.</p>
+      <p>Fluuius Malua nascitur sub insulas Fortunatas. Circuiens externam partem Mauritaniae, intercludens inter Barbares et Bacuates uergit in mari quod appellatur Columnae Herculis. Currit quattuor milia DCCCCXX.</p>
+      <p>Fluuius Hesperides nascitur <supplied>ad</supplied> Lix oppidum in campo <supplied><gap/></supplied>. In circini rutunditate uoluitur. Influit in oceani ripas meridiani. Currit milia DCCCCXX.</p></div>
+    <div type="cap" n="48"><p>Oceanus meridianus quas gentes habeat. Hierasycamini gens<lb/>
+        Nabatae gens<lb/>
+        Ifansenses <supplied>gens</supplied><lb/>
+        Bostraei gens<lb/>
+        Marmaridae gens<lb/>
+        Nasamones gens<lb/>
+        Garamantes gens<lb/>
+        Theriodes gens<lb/>
+        Curbissenses gens<lb/>
+        Beitani gens<lb/>
+        Begguenses gens<lb/>
+        Feratenses gens<lb/>
+        Barzufulitani gens<lb/>
+        Fluminenses gens<lb/>
+        Quinquegentiani gens<lb/>
+        Bures gens<lb/>
+        Mazices gens<lb/>
+        Musunei gens<lb/>
+        Vaniures <supplied>gens</supplied><lb/>
+        Artennites gens<lb/>
+        Barbares gens<lb/>
+        Salamaggenites gens<lb/>
+        Bacuates gens<lb/>
+        Massyli gens<lb/>
+        Abenna gens.</p></div>
+    <div type="cap" n="49"><p>QVATTVOR OCEANORVM CONTINENTIA EXPLICIT</p>
+      <p>INCIPIVNT EXCEPTORVM HAEC.</p>
+      <p>Oceanus orientalis maria habet VII<lb/>
+        insulas XI<lb/>
+        montes VIII<lb/>
+        prouincias VII<lb/>
+        oppida LXI<lb/>
+        flumina XVII<lb/>
+        gentes XXVII.</p>
+      <p>Oceanus occidentalis maria habet VIIII<lb/>
+        insulas VII<lb/>
+        montes VI<lb/>
+        prouincias XX<lb/>
+        oppida LIII<lb/>
+        flumina XII<lb/>
+        gentes XXIII.</p>
+      <p>Oceanus septentrionalis maria habet VII<lb/>
+        insulas XXIIII<lb/>
+        montes XII<lb/>
+        prouincias XVI<lb/>
+        oppida XLVIII<lb/>
+        flumina XX<lb/>
+        gentes XXI.</p>
+      <p>Oceanus meridianus maria habet II<lb/>
+        insulas VIIII<lb/>
+        montes IIII<lb/>
+        prouincias XII<lb/>
+        oppida LVI<lb/>
+        flumina VI<lb/>
+        gentes XVIIII.</p></div>
+    <div type="cap" n="50"><p><del>Et ut haec ratio ad conpe<supplied>n</supplied>dia ista deducta in nullum errorem cadat sicut a magistro dictum est hic liber exceptorum ab sphera ne separetur sequuntur enim compe<supplied>n</supplied>dia quae infra scribta uidebis. Quattuor, ut iterum dicam, oceanorum ratio non praetermittenda. Sunt enim per orbem totum terrae cosmographiae maria XXV, insulae LI, montes famosi XXX, prouinciae LV, oppida CCXVIIII, flumina LV, gentes XC.</del></p></div>
+    <div type="cap" n="51"><p><del>Haec omnia in describtione recta orthografiae transtulit publice rei consulens Iulius Honorius magister peritus atque sine aliqua duuitatione doctissimus: illo nolente ac subterfugiente nostra paruitas protulit, diuulgauit et publicae scientiae obtulit.</del></p></div></div>
+<div type="section"><head>Appendix</head>
+  <div type="cap" n="45"><p>Fluuius Nilus, qui et Geon, de secretis promitur, sed in exordio in Aethiopia uidetur; et facit lacum magnum, id est stagnum, qui currit in circulo milia passuum CLIII; exiens ab eo loco peruenit ad cataractas ulteriores. Conficit milia passuum CCCCLXXIIII: inlustrans montem Panchaeum milia passuum CLXXXIII, et a monte Panchaeo usque ad caput fluminis Astroboris, unde nascitur et cum quo miscetur, milia passuum CCL. Cum magna magnitudine et mugitu miscentur et congeminatur, sed discolores currunt in unum per magnam anguilationem, et unam coronam faciunt, et ea corona includit omnem regionem Acarnaniae, et a corona usque ad Acarnaniam milia CCCLXXXII. Inibi coronae podismum in circuitu, et suo cursu descendunt ad Hyrcaniam et Scythiae regiones, et sunt ab Acarnania usque ad Hyrcaniam et Scythiam milia DXXV, et ab Scythia usque ad Meroen et Samson milia CLXX. Ascendunt simul non in paruum gradum et separantur ab inuicem Nilus fluuius a fluuio Astrobori defendentes colorem corporis sui inuicem, id est Astroboris fluuius tenuem habens nebulam et corpore gelido meat, Nilus uero arenosum colorem gustu suaui tepidum materia, et pergit contra meridianam plagam. Hic Astroboris a Nilo elongans efficit circulum inmensum, quod circulum includit magnitudinem terrarum, in qua est ciuitas metropolis, quae Meroe appellatur, a diuisione Nili uel a separatione fluuii Astroboris. Vsque ad Meroen oppidum milia CCLX. Et ad Meroen oppidum means item facit lacum angulis tribus. Huc usque milia LXXX. Currens contra oppidum Sebastopolim milia CXXX, inde currens ad Blemyas magnum oppidum currit milia CLXXXIII, ubi sunt cataractae. It quasi circulum coniungens, sed non coniungit, in uicem litterae C. In cuius litore sita sunt oppida uicina septem, quibus metropolis Oxyrynchum Heracleum. A Blemyis usque Oxyrynchum Heracleum milia CCCX. Hinc exiens Aegypto festinans in brachio Nili incidit ‒sunt milia CCXC‒ quod 'ceras' Nili uocitatur. Secat hunc brachium per magnam inundationem per milia XII, et currens meat in mare Rubrum ad oppidum, cui uocabulum est Ouilia, et Castra Moyseia. A brachio Nili usque Ouilia et Castra Moyseia milia CCCXL. Nam a separatione Nili et Astroboris fluuii superius dicti solus fluuius Nilus suo cursu meauit ab Hyrcania usque Chrysorroas per prouincias diuersas milia passuum DCCCXXV. Exhinc iam mitis per brachia diuisus meat inlustrans omnem Arabiam et Nampamonem prouinciam. Currit per milia DXX. Nullum ostendit diuerticulum, sed iter suum contentus pergit per Aegyptum. Deinde inlustrans Traianopolim <supplied>currit</supplied> milia LXXX; inde pyramides quae 'horrea Ioseph' dicuntur et palatium regis Thetharcis, id est Pharaonis, sunt milia CCXII; inde Carpathos milia L. Exhinc per diuersa camporum spatia <supplied>et</supplied> per octo brachia exiens effluit. Totam Aegyptiorum terram inrigat tendens Alexandriae, Chrysorroas et Pelusium oppida, et uergit partim Adriatico mari et partim mari Carpathio, ubi est insula Carpathos magna.</p></div> 
+  <div type="cap" n="46"><p>Habet ramum de se exiens ab Aethiopia hic Nilus, quod meat ab Aegypto usque ad terminum Libyae (id est Africae), ubi est templum Neptuni inter Pentapolim et Tripolim, ubi est statua Libyae Epaphi filiae in similitudinem Africae, tenens frugem et calcans modium et manu sinistra ebur elefantinum. Haec Libya Epaphi filia a Neptuno conpressa <supplied>est</supplied> et post ibi senex humata regia dignitate. De eo flumine superius dicto capiuntur corcodrilli paruae magnitudinis, quos plerumque ad pigmentarios uidemus, ut certo sciant mortales, Nilus fluuium ad Aethiopiam Aegyptum Libyam Africam meare. Fluuius per diuersa spatia prouinciae meat et exitum nusquam habet; sed aestiuis temporibus magnam habet uirtutem, sed paruus uidetur quoniam a capite lenis meat. Qui Nilus fluuius currit <supplied>milia</supplied> sex milia DCLXXXVIII.</p></div>
+  <div type="cap" n="47"><p>Fluuius Nilotis nascitur in Athlantico campo; procurrens lacum efficit, qui Nilotis appellatur, sine aliquo exitu. Currit milia CL.</p>
+    <p>Fluuius Bagrada nascitur <supplied>in</supplied> Tubursicunumidorum. Inlustrans eam prouinciam pergit per campos Bullensium Regiorum, libat Zeugi, inlustrat oppidum Vticense, infunditur in mare Tyrrenum. Currit milia CCCXVIII.</p>
+    <p>Fluuius Cartennas nascitur in campo <unclear/>Martio. Inde lustrat litore maritimo Caesariensem et Sabrate et Lepti magna. Inuergit in supernis partibus Nabataeorum. Currit in mare oceanum per milia DCCCCXXII.</p>
+    <p>Fluuius Malua nascitur sub insulas Fortunatas. Circuiens includit omnem partem Mauritaniae Caesariensis, intercludens per anguilationem tortuosam et amplectitur gentes Africanas quinque, id est Nasamones, Baccuates, Garamantas, Bures et Bacuenses. Torrens inuenit heremum ubi efficitur bicornius et includit duo oppida regionis Pentapolitanae, quae fuere Sodoma et Gomorra. Inuenies ibi Columnas Herculeas, ubi oppidum Bethulia uicinum montis Sinai. Ex uno in unum redigitur, qui fuerunt duo, et per heremum superiorem peruenit ad Hesperides, ubi hominum genus nullum. Egerit in mare oceani meridiani. Currit quattuor milia DCCCCXX.</p>
+    <p>Fluuius Hesperides qui et Lixus, nascitur in campo <supplied><gap/></supplied>. In circini rutunditate uoluitur. Influit in oceani ripas partis meridianae. Currit milia DCCCCXX.</p></div></div>
+  </body>
+</text>
+  </TEI>

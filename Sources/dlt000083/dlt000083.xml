@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragmentum Censorini(epitoma disciplinarum)</title>
+                <author>Censorinus (ps.)</author>
+                <respStmt>
+                    <resp>Correzione linguistica</resp>
+                    <name>Simona Musso</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica XML</resp>
+                    <name>Simona Musso</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>digilibLT</publisher>
+                <pubPlace>Vercelli</pubPlace>
+                <date>2011</date>
+                <availability>
+                    <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+                </availability>
+                <idno>dlt000083</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Censorini De die natali liber ad Q. Caerellium ; accedit anonymi cuiusdam epitoma
+                    disciplinarum (Fragmentum Censorini), edidit N. Sallmann, Leipzig 1983 (Bibliotheca Scriptorum graecorum et 
+                romanorum teubneriana)</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+                <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+            </projectDesc>
+            <editorialDecl>
+              
+                
+                <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+                <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+                    l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+                    e commenti e ogni altro contenuto redatto da editori moderni. </p>
+                <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+                    correttezza di trascrizione</p>
+                <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+                    distinzione u/v minuscole.</p>
+                <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+                <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+                    grassetto, corsivo, spaziatura espansa.</p>
+                <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+                    <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+                    <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+                    si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+                    [...]<lb/> lacuna integrata dagli editori:
+                    <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+                </p>
+                <p>Sono stati marcati i termini in lingua greca
+                    <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+                </p>
+                <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+                    target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+                    >Note di trascrizione e codifica di testi latini tardoantichi
+                    [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+            </editorialDecl>
+            
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latino</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="cap" n="1">
+                <head>I. DE NATVRALI INSTITVTIONE</head>
+                <p><lb/><milestone unit="par" n="1"/> Initia rerum eadem elementa et principia
+                    dicuntur. Ea stoici credunt tenorem adque materiam; tenorem, qui rarescente
+                    materia a medio tendat ad summum, eadem concrescente rursus a summo referatur ad
+                    medium. Thales Milesius aquam principium omnium dixit, et alias opiniones supra
+                    rettuli. <milestone unit="par" n="2"/> Stoicorum opinio probanda, qui, cum arte
+                    conpositum opus mundi considerarent, introduxerunt naturam providam ac
+                    sapientem, quam ordo inpermutabilis ostenderet, <supplied>et</supplied>
+                    industria factum pronuntiaverunt. <milestone unit="par" n="3"/> Sive perpetuus
+                    sive longaevus est mundus, et in flammas abit et vicissim ex flammis renovatur
+                    ac restituitur, durantibus tamen principiis; nec reccidere ad nihilum videri
+                    potest, quod in se deficit <supplied>et</supplied> in se regignitur. <milestone
+                        unit="par" n="4"/> Et constat quidem quattuor elementis, terra, aqua, igne,
+                    aere. Cuius principalem solem quidam putant, ut Cleanthes, et Chrysippus
+                    aethera, cuius motu perenni subiecta tenentur et administrantur, et ipse quidem
+                    aether nihil patitur. Aer aethera supra, infra aquam; aera supra aquam, infra
+                    terram. <milestone unit="par" n="5"/> Terra omnia ex se omnium permixtione
+                    progignit, et temperantia fovetur, intemperantia laeditur. Invicem porro
+                    elementa succedere et interitu singulorum universa fieri sempiterna manifestum
+                    est.</p>
+                <lb/>
+            </div>
+            <div type="cap" n="2">
+                <head>II. DE CAELI POSITIONE</head>
+                <lb/>
+                <p><milestone unit="par" n="1"/> Caelum circulis quinque distinguitur. Quorum duo
+                    extremi maxime frigidi, australis humillimus et aquilonius excelsissimus. His
+                    utrimque proximi duo paralleloe vocantur, ut ita dixerim, aeque distantes, idem
+                    tropici, idem solistitiales: alter hibernus, per quem sol transmittens octava
+                    parte capricorni solistitium hibernum facit; alter aestivus, per quem sol octava
+                    parte cancri solistitium aestivum facit. Medius est aequinoctialis, qui octava
+                    parte arietis aequinoctium vernum, octava librae autumnale constituit.<lb/>Vt
+                    circuli <supplied>in</supplied> caelo, ita in terra zonae vocantur.
+                    Inhabitabilis infra frigidos circulos ob rigorem, quod ab his longissime sol
+                    abest, item intra medium aequinoctialem, quod sub vertice solis est. <milestone
+                        unit="par" n="3"/> Sub quo quidem habitari putant
+                    <supplied>Ge</supplied>drosiae et Aethiopiae maximam partem, item plurimas
+                    insulas maris rubri aliosque vertices eminentiasque terrarum nostris ampliores.
+                    Sub tropicis habitari nihil dubium est. Noster solistitialis aestivus est
+                    excelsus adque arduus. <milestone unit="par" n="4"/> Divisi a nobis circulo
+                    aequinoctiali antichthones nominantur. Videntur humiles adque depressi
+                        <del>quibusque antipodes infra sunt</del>, quod ut posse videatur, efficiunt
+                    flexus obliquitatesque terrarum. Antichthones idem et antistoechoe et antiscioe
+                    nominantur.<lb/>Incipit signifer non ab extremo circulo nec ad extremum
+                    pertenditur, sed ab infimo tropico australi brumalique eodem per aequinoctialem
+                    ad summum solistitialem eundemque aestivalem per medium longitudinis
+                    latitudinisque porrectus oblique. <milestone unit="par" n="5"/> Circuli
+                    signiferi partes CCCLX. Signa duodecim, partium singula tricenarum, quorum
+                    quaedam minora, quaedam ampliora et <foreign xml:lang="grc">πόλων
+                        ἁναφορά</foreign> dicuntur: sed conpensatio <supplied>in</supplied> quinque
+                    partes creditur adplicari, ut sint omnes signiferi partes CCCLXV. Horum
+                    incipientia ab ariete altera sunt <del>masculinis femininis</del> masculorum
+                    natalibus, alia feminarum convenientia. <milestone unit="par" n="6"/> Item
+                    quartum quodque eorum aut tropicum aut solidum aut biforme. Incipiet dinumeratio
+                    ab ariete, quod signum tropicum est. Tropicorum duo sunt aequinoctialia,
+                        <supplied>aries</supplied> et libra, duo solistitialia, capricornus et
+                    cancer, tropicis proxima solida, anteposita his biformia.</p>
+                <lb/>
+            </div>
+            <div type="cap" n="3">
+                <head>III. DE STELLIS FIXIS ET <supplied>VAG</supplied>ANTIBVS</head>
+                <lb/>
+                <p><milestone unit="par" n="1"/> Stellarum aliae cum caelo feruntur, ideoque quod
+                    non excedunt suos locos fixae nominantur, aliae contra caelum et in ortus caeli
+                    eunt, sed mundi celeritate victae occidere videntur cum eo, quamvis cursum suum
+                    peragant. <milestone unit="par" n="2"/> Sol maximum sidus aetheris medii limite
+                    ignescit, singulis diebus et noctibus peragit singulas partes, signiferum
+                    pervadit anno. Luna de sole flammatur, ambit circuitu brevissimo terram triginta
+                    diebus, adeo vicina vertici terrae iunctaque, ut in umbram eius incidere soleat
+                    et videri deficere. Eadem cum subiit solem et substitit radiis, facit
+                    obscurationem, quae defectio solis videtur. Interim tamen cava paucioribus quam
+                    triginta diebus circulum suum transit. <milestone unit="par" n="3"/> Saturni
+                    stella per maximum ambitum fertur, ideoque tricenis mensibus singulis signis
+                    resistit, per triginta annos signiferum pertransit, frigida et sterilis,
+                    infecunda terris, nascentibus non salutaris, facit adversa
+                        di<supplied>ut</supplied>urna nec subita. Iovis stella in singulis signis
+                    anno manet, signiferum duodecim annis evadit, salutaris et temperata et
+                    universis eventibus prospera. <milestone unit="par" n="4"/> Martis stella non
+                    eodem spatio signis singulis haeret, sed signiferum novem fere annis pervagatur,
+                    ignea intemperans et in adversis et in mortibus subita, vel ferit repentinis
+                    morbis vel ferro perimit. Stellae Mercuri et Veneris solem sequuntur eademque
+                    spatia custodiunt. <milestone unit="par" n="5"/> Mercuri stella fit similis illi
+                    quam videt. Veneris genitalis et roscida et prospera et salutaris. Luna globum
+                    suum creditur habere, sed ignem a sole concipere et quantum percutitur
+                    ardescere. Quantum igitur a sole descendit, augetur; cum vero contra stetit,
+                    toto feritur adverso et velut speculum non vim, sed imaginem reddit. Hac
+                    universa gignentia crescente pubescunt, tenuescente tenuantur. <milestone
+                        unit="par" n="6"/> Vmor etiam et spiritus omnis augescit, tumescit oceanus,
+                    deinde cum ipsius fulgore considit. Diversi ergo caeli et vagantium stellarum
+                    concursu quod temperatum utrimque deteritur et infra fluit, id excipit luna et
+                    soli tradit, quo et animalia vigescunt et humus quodam modo animatur genitali
+                    calore, ut ita dixerim <del>vivo</del>.<lb/>Plurimum in originibus valent, quae
+                    in ortu sunt, languent in occasu. <milestone unit="par" n="7"/> Ortum facit
+                    stella, quam sol praeterit, deinde stationem matutinam, cum a quinto loco solis
+                    stetit. In eodem manet signo, donec ab eodem sole moveatur. Quae contraria est
+                    soli, mane occidit, oritur simul nocte et vocatur <foreign xml:lang="grc"
+                        >ἀκρόνυχος</foreign>, deinde rursus altero latere a quinto signo deprehensa
+                    postmeridianam stationem facit, donec ingresso sole idem signum sub radiis eius
+                    delitescat et in totum occidat.<lb/><milestone unit="par" n="8"/> Aspiciunt
+                    inter se stellae ex quinto signo, quod dicitur <foreign xml:lang="grc"
+                        >τρίγωνον</foreign>, et habent maximam consensionem. Item a quarto, quod
+                    dicitur <foreign xml:lang="grc">τετράγωνον</foreign>
+                    <del>et centron vocatur</del> et in alterutrum maximum praestat effectum. Item
+                    ex contrario, quod est septimum signum et <foreign xml:lang="grc"
+                        >διάμετρον</foreign> vocatur estque maxime adversum. Cetera dissident vel
+                    leviter aspiciunt<supplied>ur</supplied>, ut tertium quodque, quod dicitur
+                        <foreign xml:lang="grc">ἑξάγωνον</foreign>.<lb/><milestone unit="par" n="9"
+                    /> Signa tropica peregrinationibus praesunt et omnino mobilibus, et in consiliis
+                    subinde variant adque permutant. Biformia geminatione rerum omnium repetitionem
+                    significant et interim dilationem. Solida vehementer et instanter efficiunt et
+                    ad exitum vel prospera vel adversa perducunt, sicut aspiciuntur a stellis vel
+                    faventibus vel repugnantibus.<lb/><milestone unit="par" n="10"/> Multum tamen
+                    refert, cuius quaeque stellae domus, aliena an ipsius sit. Domus solis leo,
+                    lunae cancer, Mercuri virgo et gemini, Veneris libra et taurus, Martis scorpio
+                    et aries, Iovis sagittarius et piscis, Saturni capricornus et aquarius.
+                    Nocturnis originibus favent luna Mars Venus, plus die possunt sol Saturnus
+                    Iuppiter, Mercurius varie et quomodo consensit aut visus est.</p>
+                <lb/>
+            </div>
+            <div type="cap" n="4">
+                <head>IV. DE TERRA</head>
+                <p><lb/><milestone unit="par" n="1"/> Terra media omnium rerum est, forma globosa.
+                    Aquis cingitur, in aera prominet, excipit caelum. Aquae omni vel
+                        <supplied>aeris</supplied> temperie quantum adficitur, ita quaecumque
+                    sustinet afficit et movet.<lb/><milestone unit="par" n="2"/> Poterat finem liber
+                    plenus omnibus necessariis iam videri consecutus: sed cum et mundi dimensiones
+                    et plurima praeterea in universis rebus ratio geometrica inpleverit, pauca de
+                    numeris mensurisque dicemus.</p>
+                <lb/>
+            </div>
+            <div type="cap" n="5">
+                <head>V. DE GEOMETRICA</head>
+                <p><lb/><milestone unit="par" n="1"/> Geometrica est scientia digerendi figuras
+                        <supplied>earumque</supplied> numeros emetiendi cum suis resolutionibus.
+                    Numerus est congregatio singulorum finita semper et infinita natura.</p>
+                <lb/>
+            </div>
+            <div type="cap" n="6">
+                <head>VI. DE FORMIS</head>
+                <p><lb/><milestone unit="par" n="1"/> Nota est cuius pars nulla est, linea longitudo
+                    sine latitudine, lineae fines notae. Recta linea est quae super se positis notis
+                    aequaliter posita est. Summitas est quod longitudinem <supplied>et
+                        latitudinem</supplied> tantum habet. <milestone unit="par" n="2"/>
+                    Summitatis fines lineae sunt. Plana, quae dicitur epipedos, summitas est quae
+                    super se positis rectis lineis aequaliter posita est, vel quae suis finibus
+                    aequaliter posita est. Planus angulus est in planitie duarum linearum non e
+                    regione positarum ad<supplied>que</supplied> unum signum contingentium curvatio.
+                    Haec lineae quae angulum continent cum rectae sunt, is angulus rectis lineis
+                    contineri dicitur. <milestone unit="par" n="3"/> Si recta linea supra rectam
+                    lineam stans continuos angulos inter se pares facit, tum uterque ex paribus
+                    angulis rectus dicitur, et ea linea Graece <foreign xml:lang="grc"
+                        >κάθετος</foreign>, Latine normalis dicitur. Rectus angulus est modicus et
+                    sibi congruens, hebes maior recto, acutus minor recto.</p>
+                <lb/>
+            </div>
+            <div type="cap" n="7">
+                <head>VII. DE FIGVRIS</head>
+                <p><lb/><milestone unit="par" n="1"/> Figura est quae aliquo fine aut aliquibus
+                    finibus continetur. Circulus est figura plana una linea conprehensa,
+                        <supplied>quae circuitus vocatur,</supplied> in quem e medio omnes lineae
+                    inter se pares sunt. Centron est nota circuli medii. <milestone unit="par" n="2"
+                    /> Diametron est recta linea per centron inmissa et in utramque partem, secans
+                    circulum, hemicyclium circuli dimidium. Euthygrammoe formae sunt quae rectis
+                    lineis continentur. Trigonum trilaterum, <supplied>tetragonum</supplied> quod
+                    quattuor, multilaterum quod pluribus. <milestone unit="par" n="3"/> Triangulum
+                    aequilaterum quod paribus trinis lateribus, isosceles quod duo tantum latera
+                    paria habet, scalenon quod tria latera inaequalia habet, orthogonium quod habet
+                    rectum angulum, amblygonium quod habet <del>idem</del> angulum hebetem,
+                    oxygonium quod omnes tres acutos angulos habet. <milestone unit="par" n="4"/>
+                    Quadrilaterarum formarum quadratum est quod omnia quattuor latera
+                        <supplied>paria</supplied> habet et angulos rectos, heteromeces quod angulos
+                        <supplied>rectos</supplied> nec latera paria habet, scutula, id est rombos,
+                    quod latera paria habet nec angulos rectos; simile scutulae, cuius contraria
+                    latera et contrarii anguli inter se pares sunt, sed neque aequilaterum neque
+                    rectis angulis est; trapezia cetera nominantur. <milestone unit="par" n="5"/>
+                    Paralleloe lineae sunt quae in eadem planitie positae numquam inter se
+                    contingunt.</p>
+                <lb/>
+            </div>
+            <div type="cap" n="8">
+                <head>VIII. DE POSTVLATIS</head>
+                <p><lb/><milestone unit="par" n="1"/> Postulata geometrarum sunt quinque: ut liceat
+                    ab omni signo ad omne <supplied>signum</supplied> rectam lineam ducere, et omnem
+                    finitam rectam lineam e regione eicere, et omni medio et intervallo circulum
+                    scribere, et omnes rectos angulos inter se pares esse, et si in lineas
+                        <supplied>duas rectas</supplied> recta linea inmissa interiores angulos
+                    minores duobus rectis <del>pares</del> fecerit, eiectas lineas
+                        concurrere.<lb/><milestone unit="par" n="2"/> Si paribus paria adiecta
+                    fuerint, omnia paria erunt, et si paribus paria dempta. Et quae isdem paria
+                    sunt, et inter se paria sunt.</p>
+                <lb/>
+            </div>
+            <div type="cap" n="9">
+                <head>IX. DE MVSICA</head>
+                <p><lb/><milestone unit="par" n="1"/> Prior est musica inventione metrica. Cum sint
+                    enim antiquissimi poetarum Homerus Hesiodus Pisander, hos secuti elegiarii
+                    Callinus Mimnermus Euenus, mox Archilochus et Simonides trimetrum iambicum,
+                        <supplied>tum</supplied> chorium catalecticum tetrametron conposuerint,
+                        <milestone unit="par" n="2"/> Archilochus etiam commata versibus adplicando
+                    variavit ea et potius per plurimas species secuit, Alcman numeros etiam minuit
+                    in carmen. Hinc poetice melice. At Telesilla etiam Argiva minutiores edidit
+                    numeros. Quae species cum iam displiceret et integra brevior videretur,
+                    magnitudine Pindari adserta est, qui liberos etiam numeros modis edidit. Hos
+                    secuti musici Timotheus et Polyidos et Hyperides et Phyllis et clarissimus cum
+                    peritia tum eloquentia Aristoxenus. Modulati protinus cantus. <milestone
+                        unit="par" n="3"/> Nec tamen <del>an</del> non putes antiquiores cantus esse
+                    numeris, sed rusticos et inconditos, postque hos poetica valuit veluti legitima.
+                    Musica licentior magisque modulata.</p>
+                <lb/>
+            </div>
+            <div type="cap" n="10">
+                <head>X. DE NOMINE RHYTHMI</head>
+                <p><lb/><milestone unit="par" n="1"/> Rhythmus creditur dictus a Rhythmonio Orphei
+                    filio et Idomenae nymphae Ismaricae, ut tradit Nicocrates libro quem conposuit
+                    de Musio. Fratrem Rhythmoni tradit Hymenem; ac Rhythmoni autem et Chloridis
+                    Tirisiae filiae <supplied>filium</supplied> Periclymenum <del>et
+                    Peridemem</del>, qui primus cecinerit res gestas heroum musicis cantibus.</p>
+                <lb/>
+            </div>
+            <div type="cap" n="11">
+                <head>XI. DE MVSICA</head>
+                <p><lb/><milestone unit="par" n="1"/> Musica est peritia faciendorum et canendorum
+                    modorum. Eius partes harmonica, organica, rhythmica, crusmatica. Crusmata pulsus
+                    decori sine carmine vocantur; <milestone unit="par" n="2"/> harmonia est
+                    consonantia; organica <supplied><gap/></supplied>; rhythmos Graece <del>modus dicitur Latine</del>
+                    nominatus <del>versus</del> ab eo, quod fluat seque ipse circumeat. Modus autem
+                    est lex quaedam et ordo vocalium intervallorum et differentia, vel, ut
+                    Aristoxenus finit, non utcumque conpositum vocalium temporum intervallum.
+                        <milestone unit="par" n="3"/> Carmen est modus vocibus iunctus, cuius
+                    discrimina cantus, modus, motus. <supplied><gap/></supplied> tempus est syllabae spatium, huius elementum
+                    brevis syllaba. Divisione <del>brevi</del> alia alogum a logio, ut utrius ratio
+                    est.</p>
+                <lb/>
+            </div>
+            <div type="cap" n="12">
+                <head>XII. DE MODVLATIONE</head>
+                <p><lb/><milestone unit="par" n="1"/> Modulatio est modorum prudens dispositio; eius
+                    tres species, <foreign xml:lang="grc">διάτονος, χρῶμα, ἁρμονία</foreign>.
+                    Species carminum tredecim, ex quibus primi dorius, phrygius, lydius. <milestone
+                        unit="par" n="2"/> His accesserunt gravissimus hypodorius, mox duo
+                    hypophrygii, gravior et acutior, deinde hypolydii totidem et perinde gravior et
+                    acutior, deinde dorius medius, tum phrygius gravis et alter excelsus, totidem
+                    lydii, gravis et acutus, tum mixolydii pari diversitate, postremus
+                    hypermixolydius acutissimus.<lb/><milestone unit="par" n="3"/> Organum quondam
+                    habuit tres intentiones, gravem, mediam et acutam. Inde Musae quoque tres olim
+                    existimatae, hypate, mese, nete. Nunc in ampliore numero soni considerantur, ut
+                    sit proslambanomenos, hypate hypaton, deinde parypate hypaton, deinde lichanos
+                    hypaton, deinde hypate meson, deinde parypate meson, deinde lichanos meson,
+                        <supplied>mese</supplied>, deinde trite synemmenon, paramese, trite
+                    diezeugmenon, nete synemmenon, paranete diezeugmenon, <supplied>nete
+                        diezeugmenon</supplied>, trite hyperbolaeon, <supplied><gap/></supplied>.<lb/><milestone unit="par"
+                        n="4"/> Animadvertisse chordae sonantis suavitatem in arcu <del>soro</del>
+                    Apollinem tradunt et intendisse protinus citharam, tum notasse quod adstrictiora
+                    fila nervorum in acumen excitarentur, gravibus responderent remissa, inde
+                    fecisse tres primos de quibus supra dictum est: hanc excepisse intentionem
+                    Lycorum, quem quidam Apollinis filium tradunt et nymphae Parnasiae,
+                        <supplied>et</supplied> Chrysothemidi reliquisse. Ab eo adiunctum modum qui
+                    synemmenos dicitur. Hunc numerum auxisse Terpandrum adiectione diezeugmenu, qui
+                    primus a gravibus in acumen avertitur. Deinde Timotheus addidit duos, paramesen
+                    et hyperbolaeon.<lb/><milestone unit="par" n="5"/> Initium modi dicitur diesis,
+                    dimidium semitonium, totum tonos. Toni duo et dimidius diatessaron nominantur,
+                    tres et dimidius diapente, sex diapason.<lb/>Haec musicae summa sunt.</p>
+                <lb/>
+            </div>
+            <div type="cap" n="13">
+                <head>XIII. DE METRIS ID EST NVMERIS</head>
+                <p><lb/><milestone unit="par" n="1"/> Metra Graece, Latine numeri vocantur. Numerus
+                    est aequalium pedum legitima ordinatio. Huius pars integra pes. Partes sunt
+                    pedum syllabae, elementa numerorum. Modorum elementa spatia syllabarum ac
+                    tempora. <milestone unit="par" n="2"/> Pedes conponuntur ex syllabis minimum
+                    binis, plurimum ternis; incipiunt temporibus binis, ad sena perveniunt.
+                    bisyllabi quattuor, trisyllabi octo; plures quam duodecim esse non
+                    possunt.<lb/>Pyrrichius ex duabus brevibus, cuius exemplum <hi rend="italic"
+                        >Cato</hi>; iambus ex brevi et longa, cuius exemplum <hi rend="italic"
+                        >salus</hi>; chorius ex longa et brevi, ut <hi rend="italic">Roma</hi>;
+                    spondius ex duabus longis, cuius exemplum <hi rend="italic">vates</hi>.
+                        <milestone unit="par" n="3"/> Duo igitur quantitate contrarii, spondius et
+                    pyrrichius, duorum alter, alter quattuor temporum; duo ordine, quorum uterque
+                    trinorum temporum, iambus et chorius. Ita non plures quam quattuor pedes sunt
+                    nec esse possunt.<lb/><milestone unit="par" n="4"/> Trinarum syllabarum primus
+                    est dactylus, qui constat ex longa et duabus brevibus, cuius exemplum <hi
+                        rend="italic">Annibal</hi>; anapaestus contra <supplied>ex duabus brevibus
+                        et longa</supplied>, cuius exemplum <hi rend="italic">Capaneus</hi>;
+                    amphibrachys ex brevi et longa et brevi, cuius exemplum <hi rend="italic"
+                        >avarus</hi>; brachysyllabus ex tribus brevibus, cuius exemplum <hi
+                        rend="italic">Cicero</hi>; <milestone unit="par" n="5"/> ei contrarius
+                    molossus ex tribus longis, cuius exemplum <hi rend="italic">Maecenas</hi>. Item
+                    tres quinum temporum, bacchius ex duabus longis et brevi, cuius exemplum <hi
+                        rend="italic">Latona</hi>; huic ordine adversus palinbacchius ex brevi et
+                    duabus longis, ut <hi rend="italic">Aquinas</hi>; creticus <del>et
+                        amphimacrus</del> ex longa et brevi et longa, ut <hi rend="italic"
+                        >sanitas</hi>. <milestone unit="par" n="6"/> Duos habent quantitate
+                    contrarios, brachysyllabon et molosson, quorum alter trium temporum est, alter
+                    sex; ordine tres in quaternis, tres in quinis temporibus.</p>
+                <lb/>
+            </div>
+            <div type="cap" n="14">
+                <head>XIV. DE LEGITIMIS NVMERIS</head>
+                <p><lb/><milestone unit="par" n="1"/> Primus est et legitimus maxime numerus
+                    hexameter heroicus. Huius pedes aut dactyli sunt aut spondii: raro et in extremo
+                    versu reperietur trochaeus. Eius exemplum:<lb/></p><l>Avia Pieridum peragro
+                            loca nullius ante.</l><p>Totus iste dactylicus fuit et habuit
+                    summum trochaeum. Sed mixtus <del>ex</del> spondiis hic erit:<lb/><milestone
+                        unit="par" n="2"/>
+                    </p><l>Italiam fato profugus Laviniaque venit;</l><p>totus ex
+                            spondiis:<lb/></p><l>Cives Romani tunc facti sunt
+                        Campani.</l><p>hoc genus numeri paucissimarum duodecim syllabarum,
+                    plurimarum decem et octo. Tempora recipit viginti quattuor, interim viginti
+                        <del>tres pedibus</del> tribus tantum conficitur. Formas excipit triginta
+                    duas, quas enumerare festinantibus longum est.<lb/><milestone unit="par" n="3"/>
+                    Pentameter elegiacus habet exemplum:<lb/></p><l>Dum meus adsiduo luceat igne
+                            focus.</l><p>Recipit dactylum, spondium, anapaestos duos, in fine
+                    versus aliquando brachysyllabum. Fit syllabarum paucissimarum duodecim,
+                    plurimarum quattuordecim. Tertium pedem spondium semper habet, quartum et
+                        <supplied>quintum anapaestos,</supplied> quintum aliquando
+                        brachysyllabum.<lb/><milestone unit="par" n="4"/> Trimetros iambicus Latine
+                    senarius dicitur, cuius exemplum:<lb/></p><l>Phaselus iste, quem videtis,
+                            hospites.</l><p>Duodecim syllabarum est. Recipit aliquando praeter
+                    ceteros iambos in extremo pyrrichion.<lb/>Trimetros tragicus:<lb/></p><l>Pro
+                            veste pinnis membra textis
+                            contegit,</l><p>et:<lb/></p><l>Aquilonis stridor gelidas molitur
+                            nives.</l><p>Recipit in parte prima gressionis spondium, et
+                        <supplied>eius</supplied> loco dactylon et anapaestum, et pro iambo chorium
+                    et tribrachyn. Fit syllabarum paucissimarum duodecim, plurimarum septendecim.
+                    Recipit tempora plurima viginti tria, paucissima decem et octo. <milestone
+                        unit="par" n="5"/> Comicus trimetros solet magis in breves
+                    minui.<lb/>Trimetros Hipponactius pedem novissimum adsumens spondium vel chorium
+                    talis est:<lb/></p><l>Calentibusque lympha fontibus semper.</l><p>Eosdem
+                    pedes quos reliqui trimetri praeter novissimum recipit.
+                        <del>et</del><lb/><milestone unit="par" n="6"/> Tetrametros, qui Latine
+                    quadratus vocatur, choriacus talis est: <lb/></p><l>Tela famuli, tela
+                            propere, <supplied>tela</supplied> ; sequitur me
+                    Thoas.</l><p>Recipit eosdem pedes, pervenit ad septem et semipedem. Summum
+                    pedem patitur aut creticum aut dactylum.<lb/>Octonarius iambus:<lb/>Proin demet
+                    abs te regimen Argos, dum est potestas consili. <lb/><milestone unit="par" n="7"
+                    /> Septenarius:<lb/></p><l>Haec, bellicosus cui pater, mater cluet
+                            Minerva.</l><p>constat ex pedibus isdem.<lb/><milestone unit="par"
+                        n="8"/> Ionicus septenarius:<lb/></p><l>Ibant malaci viere Veneriam
+                            coronam.</l><p>
+                    Ionicus <supplied>a</supplied> maiore:<lb/></p><l>Ille ictus retro
+                            reccidit in natem supinus.</l><p>
+                    Habet vitium in tertia syllaba. <supplied>A</supplied>
+                            minore:<lb/></p><l>Metuentis patruae verbera
+                    linguae.</l><p>recipiunt pedes maxime pyrrichios et spondios et solent
+                    divisis syllabis longis plurium syllabarum pedes admittere.<lb/><milestone
+                        unit="par" n="9"/> Aristophanius anapaestus:<lb/></p><l>Axena Ponti per
+                            freta Colchos denique delatus adhaesi.</l><p>Recipit pedes
+                    quaternorum temporum omnis, inplet pedes septem et semipedem.<lb/>Anapaestus
+                            octonarius:<lb/></p><l>Orte beato lumine, volitans qui per caelum
+                            candidus equitas.</l><p>Recipit eosdem pedes praeter
+                            semipedem.<lb/>Aristobolius:<lb/></p><l>Quae tam terribilis tua
+                            pectora turbat, terrifico sonitu inpulit?</l><p>Is circuitus magis
+                    quam versus est. Dactylum crebrum habet, rarum spondium.<lb/><milestone
+                        unit="par" n="10"/> Paeon duodenarius:<lb/></p><l>Quis meum nominans
+                            nomen <supplied>aede</supplied> exciet? Quis tumultu invocans incolarum
+                            fidem?</l><p>et hic circuitus magis quam versus est. Huic suberit
+                                denarius:<lb/></p><l><unclear>Qui repens semipulsas onere gravi
+                                fores crepitu terrent.</unclear></l><p>Recipiunt pedes
+                    creticos, chorios, spondios, brachysyllabos, iambos, anapaestos.<lb/><milestone
+                        unit="par" n="11"/> Vndecim syllabarum Phalaecius:<lb/></p><l>Passer
+                            deliciae meae puellae.</l><p>Recipit pedes spondium, dactylum,
+                    creticum, palinbacchium.<lb/><milestone unit="par" n="12"/> Angelicus numerus
+                    syllabam coartat hexametro, ut<lb/></p><l>Hectoris Andromacha, Pyrrin conubia
+                            servas?</l><p><milestone unit="par" n="13"/>
+                            Anacreontius:<lb/></p><l>Miseri invidi <del>vivimus</del>
+                            scientes.</l><p>recipit pyrrichium, chorium, spondium,
+                    brachysyllabum, anapaestum. Primus est semper pyrrichius.<lb/><milestone
+                        unit="par" n="14"/> Numerus Saturnius:<lb/></p><l>Magnum numerum
+                            triumphat hostibus devictis.</l><p>Sunt qui hunc Aristobolion
+                    vocant. Recipit pedem spondium, iambum, pyrrichium, chorium, dactylum,
+                    brachysyllabum, anapaestum.<lb/><milestone unit="par" n="15"/>
+                            Priapeus:<lb/></p><l>Hunc lucum tibi dedico consecroque
+                        Priape.</l><p>Tertium pedem pro dactylo creticum habet, alioqui
+                    hexametros esset.</p>
+                <lb/>
+            </div>
+            <div type="cap" n="15">
+                <head>XV. DE NVMERIS SIMPLICIBVS</head>
+                <p><lb/><milestone unit="par" n="1"/>Pyrrichius:<lb/></p><l>Rapite, agite, ruite
+                            celeripedes.</l><p>Contrarius est huic et dodecasyllabus
+                            spondiazon:<lb/></p><l>Olli crateris ex auratis
+                        hauserunt.</l><p>Dactylus:<lb/></p><l>Pulverulenta putrem sonitu
+                            quatit ungula campum.</l><p>Amphibrachys non facit numerum.
+                            <lb/>Anapaestus:<lb/></p><l>Agilis sonipes rapitur celeri sonitu
+                            trepidans.</l><p>Creticus:<lb/></p><l>Horridi transeunt ad pedes
+                            ex equis.</l><p>Palinbacchius:<lb/></p><l>Amicos ad hanc rem, si
+                            voles, advoca.</l><p>Bacchius non facit numerum. <lb/>Molossus idem
+                    est qui spondiazon.<lb/><milestone unit="par" n="2"/> Nunc quemadmodum a
+                    principali heroico plures numeri transfigurentur ostendam. Ac primus trimetros
+                    sit heroicus spondiazon:<lb/></p><l>Cives Romani tunc facti sunt
+                        Campani.</l><p>syllabam unam, quae est ante extremam, ex longa
+                    contraho, ut sit: <lb/></p><l>Cives Romani tunc facti sunt
+                    Apuli,</l><p>et esse coepit trimetros.<lb/><supplied>Heroicus, si partem
+                        priorem tantum sumo bis positam, in pentametrum</supplied> elegiacum
+                            transibit:<lb/></p><l>Bella per Emathios <supplied>bella per
+                                Emathios</supplied>.</l><p>rursus a pentametro ut conponam
+                    heroicos, sumo partem posteriorem: <lb/></p><l>Dum meus adsiduo luceat igne
+                            focus,</l><p>et conpono:<lb/></p><l>Luceat igne focus Troiae qui
+                            primus ab oris.</l><p><milestone unit="par" n="3"/> Phalaecium
+                    numerum, qui est:<lb/></p><l>Altis flumina vallibus
+                    tumescunt,</l><p>insertis verbis facio heroicum:<lb/></p><l>Altis
+                            flumina prodita vallibus inde tumescunt.</l><p>Ionicus
+                            est:<lb/></p><l>Metuentis patruae verbera linguae.</l><p>adiciam
+                    trinis verbis singulas syllabas:<lb/></p><l>Nunc metuentis nunc patruae nunc
+                            verbera linguae.</l><p>retro:<lb/></p><l>Italiam fato profugus
+                            Laviniaque venit.</l><p>cui est simile:<lb/></p><l>Patriam tum
+                            profugus <del>La</del>vinaque cepit.</l><p>Aristophanius fit
+                            heroico:<lb/></p><l>Arma virumque cano Troiae qui primus ab
+                        oris:</l><p></p><l>Nunc arma virumque cano <supplied>nunc</supplied>
+                            Troiae qui primus ab oris nunc.</l><p>Angelicum syllaba breviata
+                    heroicum esse monstravi, item Priapeum, si syllabam subripias, fieri
+                    heroicum.</p>
+            </div>
+        </body>
+    </text>
+
+</TEI>

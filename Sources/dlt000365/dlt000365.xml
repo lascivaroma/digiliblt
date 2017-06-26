@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitoma</title>
+                <author>Ianuarius Nepotianus</author>
+                <respStmt>
+                    <resp>Correzione linguistica</resp>
+                    <name>Nadia Rosso</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica XML</resp>
+                    <name>Nadia Rosso</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>digilibLT</publisher>
+                <pubPlace>Vercelli</pubPlace>
+                <date>2012</date>
+                <availability>
+                    <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+                </availability>
+                <idno>dlt000365</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Valeri Maximi Facta et dicta memorabilia, libri VII-IX, Iuli Paridis Epitoma, Fragmentum de praenominibus, Ianuari Nepotiani Epitoma, edidit John Briscoe, vol. II, Stutgardiae et Lipsiae 1998 (Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana).</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+                <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+            </projectDesc>
+            <editorialDecl>
+                
+                <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+                <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+                    l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+                    e commenti e ogni altro contenuto redatto da editori moderni. </p>
+                <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+                    correttezza di trascrizione</p>
+                <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+                    distinzione u/v minuscole.</p>
+                <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+                <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+                    grassetto, corsivo, spaziatura espansa.</p>
+                <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+                    <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+                    <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+                    si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+                    [...]<lb/> lacuna integrata dagli editori:
+                    <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+                </p>
+                <p>Sono stati marcati i termini in lingua greca
+                    <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+                </p>
+                <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+                    target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+                    >Note di trascrizione e codifica di testi latini tardoantichi
+                    [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+            </editorialDecl>
+            
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latino</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="pr" n="pr">
+                <head>Praefatio</head>
+                
+                <salute>Ianuarius Nepotianus Victori suo salutem.</salute>
+                <p> Impensius quam ceteri adolescentes litteris studes, quo tantum proficis ut
+                    exigas scripta ueterum coerceri, mi Victor. Quod iudicium etiam in senibus rarum
+                    est, quia recte dicendi scientia in paucis. Igitur de Valerio Maximo mecum
+                    sentis opera eius utilia esse, si sint breuia: digna enim cognitione componat,
+                    sed colligenda producat, dum se ostentat sententiis, locis iactat, fundat
+                    excessibus, et eo fortasse sit paucioribus notus, quod legentium auiditati mora
+                    ipsa fastidio est. Recidam itaque, ut uis, eius redundantia et pleraque
+                    transgrediar, nonnulla praetermissa conectam. Sed hoc meum neruum antiquorum
+                    habebit nec fucum nouorum. Et cum integra fere in occulto sint, praeter nos duo
+                    profecto nemo epitomata cognoscat, hoc tutius abutor otio tibique pareo. Heus,
+                    censor, piueteres, caue hic aliud quam breuitatem requiras, quam solam
+                    poposcisti. Cura, mi Victor, ut ualeas.</p>
+            </div>
+           
+           
+            <div type="lib" n="I"><head>I. DE RELIGIONE</head>
+                <div type="cap" n="1">
+                    <p>
+                        <milestone unit="par" n="1"/>Romani aeque armis ac sacris studentes ex
+                        senatus consulto decem optimatum liberos ob noscendas aruspicum disciplinas
+                        Etruriam miserunt. Qui ut ceteras quoque caerimonias Graecorum Callifanas
+                            petierunt.</p><p><milestone unit="par" n="2"/> Metellus pontifex max.
+                        Postumium cons. in Africam profecturum sub denuntiatione multae continuit,
+                        eo quod esse<supplied>t</supplied> consul idem flamen Martialis, ut
+                        uidelicet priore loco haberet sacerdos sacro quos consul
+                            uictoriam.</p><p><milestone unit="par" n="5"/> Gaius Flaminius eodem
+                            om<supplied>i</supplied>ne magis<supplied>ter</supplied>
+                                equi<supplied>tum</supplied> esse noluit.</p><p><milestone unit="par"
+                            n="8"/> Syracusis cum Clastidio captis M. Marcellus quinquies consul,
+                        cum ex uoto aedem Honori et Virtuti construeret, a collegio pontificum
+                        prohibitus est duobus numinibus unum delubrum dicare, nec non contumelia
+                        praetermissi alteri sacrificaretur, aut si quod accidisset prodigium de
+                        placando esset incertus. Marcellus duplo sumptu duo templa
+                        constituit.</p><p><milestone unit="par" n="9"/> L. Furius Bibaculus,
+                        praetor a patre magistro Saliorum iussus, ancilia tulit, cum id
+                            praetor<supplied>i</supplied> necesse non esset. Sed tamen Bibaculus
+                            patri et sacris paruit. </p><p><milestone unit="par" n="13"/> M. Atilius
+                        duumuir iussu Tarquinii regis culleo insutus est, quod librum occultioris
+                        sacri describendum, subtractum e regiis secretis,
+                        prodidisset.</p><p><milestone unit="par" n="1"/> Gracchis rem p.
+                        uexantibus repertum in Sibyllinis libris antiquissimam Cererem placandam.
+                        Tunc quindecim uiri <supplied>H</supplied>ennam profecti sunt — is enim
+                        locus a uirgine cultus putatur — ut des satis receret. Propitiata Gracchorum
+                        exitu putatur. <milestone unit="par" n="3"/> Tiber<supplied>ius</supplied>
+                        Gracchus ad augurum collegium e prouincia scripsit comperisse se consules
+                        non auspicato creatos. Recitata in senatu epistola, reuocati sunt consules,
+                        Figulus ex Gallia, Scipio Nasica ex Corsica et magistratu se abdicauerunt.
+                        Tanta uis religionis inerat ut de ea crederetur absenti.</p><p><milestone
+                            unit="par" n="5"/> Vm. Sulpicio sacrificanti apex cecidit. Significatum
+                            est instare iacturam sacerdoti.</p><p>Fabius Maxim<supplied>u</supplied>s cum
+                        crearetur dictator, sorex sonuit. Ille ob omen dictaturam
+                        deposuit.</p><p><milestone unit="par" n="6"/> P. Licinius pont. max.
+                        uirginem Vestae, quod quadam nocte ignem perpetuum indiligenter seruasset,
+                        flagris c<supplied>o</supplied>ercuit. <milestone unit="par" n="7"/> Verum
+                        seueritas ad pellendam neglegentiam adeo parum profecit ut postea ignis
+                        extinctus est. Sacerdos uero uel pontifex, pro peccato amplius poenae
+                        metuens, ornamentum ex suis pretiosissimum cineri superposuit, moxque flamma
+                        surrexit.</p><p><milestone unit="par" n="10"/> Albanus insignis uir
+                        religione. Qui cum capta urbe a Gallis fugeret plaustroque eueheret familiam
+                        suam, uirginesque Vestales cum sacris pone uidisset, deiecit uxorem ac
+                        filios et sacerdotes cum piis oneribus suscepit, iussusque iter mutare Caere
+                        peruexit. Ex cuius oppidi obsequio in publicas religiones caerimonias
+                        appellauerunt.</p><p><milestone unit="par" n="11"/> C. Fabius Dorsuo
+                        flamen Quirinalis, cum idem Galli o<supplied>b</supplied>siderent
+                        Capitolium, sollemni die gabinatus, sacra praeferens, per hostium tentoria
+                        sacrificio rediit.</p><p><milestone unit="par" n="12"/> Sub Ianiculo arca
+                        inuenta est P. Cornelio et M. Baebio Pamphilo conss. plena libris nostra
+                        lingua atque Attica; qua in arca Latini pontificum disciplinas, at Graeci
+                        philosophiam habebant. Seruatis igitur nostris Graecos igni dedere, quia non
+                        probauerint contra religiones sapientiam. Quos libros iussu senatus P.
+                        Petilius praetor urbanus exussit.</p><p><milestone unit="par" n="14"/> M.
+                        Atilius Regulus, missus a Carthaginiensibus Romam inter legatos Punicos sub
+                        sacramento, ut si captiuorum commutatio facta non fuisset, ad supplicium
+                        rediret, de captiuis permutandis populo Romano ipse dissuasit, et ad Poenos
+                        rediit, ne peieraret.</p><p><milestone unit="par" n="15"/> Post Cannensem
+                        cladem cum satis iuste tota ciuitas in maerore esset, senatus censuit ut
+                        dies xxx tantum luctibus darentur: instabant enim sacra Cereris, quae
+                        oportebant a laetis celebrari.</p><p><milestone unit="par" n="16"/>
+                            Varro<supplied>ne</supplied>m Cannis male aduersus Poenos rem gessisse
+                        fuere qui credere<supplied>n</supplied>t eo quod puerum speciosissimum
+                        tensae imposuisset. Ob laesam saeuisse Iunonem. Vix denique post aliquot
+                        annos sacrificiis culpa expiata est.</p><p><milestone unit="par" n="17"/>
+                        Hercules Italiae hospitem sacra fertur Potiti<supplied>i</supplied>s
+                        tradidisse, quae per familias seruata sunt. Sed postea Appius censor seruis
+                        publicis ea tradidit, ob quod piaculum Potiti<supplied>i</supplied> omnes
+                        puberes fere xxx eodem occubuere anno. Dehinc Appius eiusdem uir generis
+                        excaecatus est.</p><p><milestone unit="par" n="18"/> Carthagine a Romanis
+                        capta, spoliatus Apollo ueste aurea. Inuentae sunt cum frustis tunicae manus
+                        eorum qui abstulerant.</p><p><milestone unit="par" n="19"/> Lucum Aesculapii
+                        Turulus Antoni praefectus in usum nauium succidit. Postea uictus a Caesare
+                        in eodem luco Turulus interemptus est. </p><p><milestone unit="par" n="20"/>
+                        Fuluius Flaccus censor senatus, cum aedem Fortunae equestris Romae faceret,
+                        tegulas et marmore de templo Laciniae transtulit, moxque mente caruit
+                        filiumque militantem in Illyrico amisit. Tum referri senatus usurpata
+                        iussit.</p><p><milestone unit="par" n="21"/> Pleminius Scipionis legatus
+                        Proserpinae thesaurum uacuauit. Quem Scipio catenatum Romam direxit, ubi in
+                        carcere taetro lang<supplied>u</supplied>ore periit. Senatus uero duplam
+                            pecuniam reddendam censuit.</p><p><milestone unit="par" n="ext. 1"/> Eius deae
+                        opes rex Pyrrhus Locris populatus est, cumque nauigaret, subitis
+                        tempestatibus cum classe illisus est, rapta autem in litore inuenta ac
+                        reddita sunt.</p><p><milestone unit="par" n="ext. 2"/> Ad Masinissam
+                            rege<supplied>m</supplied> inmensae magnitudinis elefanti dentes
+                        praefectus classis detulit. Quos cum cognouisset e templo Iunonis Melitensis
+                        ablatos, remisit, inscripsitque gentilibus litteris accepisse regem
+                        ignorantem, supplicem remisisse.</p><p>
+                        <hi rend="bold">QVI RELIGIONEM DISSIMVLAVERINT VEL DE CONTEMPTV OBSERVANTIAE</hi>
+                        </p><p><milestone unit="par" n="ext. 3"/> Dionysius Syracusanorum tyrannus
+                        Locris fanum Proserpinae spoliauit, et nauigans suis flatibus dixit ʻsic
+                        sacrilegi nauigantʼ. Idem Dionysius Iouem Olympium pallio aureo nudauit,
+                        quod Gelo de spoliis Carthaginis dederat, et apposuit laneum, dicens hoc
+                        potius conuenire, quod hieme apricaret non quod grauaret
+                        aestate.</p><p>Aesculapio quoque Dionysius barbam auream dempsit et ait patre
+                        leui filium incongrue esse barbatum. Hic quidem impunitus fuit, sed eius
+                        filius, heres dominationis, poenas aree delectus exilio soluit. </p>
+                </div>
+                
+                <div type="cap" n="4">
+                    <p>
+                        <milestone unit="par" n="ext. 2"/> Deiotaro regi tetrarchae in
+                            <supplied>i</supplied>ter necessarium intento saeuum augurium aquila
+                        cecinit. Rex territus rediit. Ea nocte hospitium corruit quod regi fuit
+                        praeparatum. </p>
+                </div>
+                
+                <div type="cap" n="5">
+                    <p>
+                    <hi rend="bold">DE OMINIBVS</hi>
+                </p><p>
+                        <milestone unit="par" n="1"/> Postquam ceperant Galli de urbe uictoriam,
+                        patres conscripti deliberabant migrare Veios, cum centurio cohortibus signa
+                        referentibus exclamat ʻsignifer, hic fige signa: optime manebimusʼ. Paritum
+                        omini est.</p><p><milestone unit="par" n="2"/> Camillus precatus deos est p.
+                        R. florente fortuna, ut si quis deorum felicitati rei p. inuideret, per
+                        Camillum sibi satisfaceret, et sub uerbo decidit. Probauit omen exilium,
+                        quod insecutum est.</p><p><milestone unit="par" n="3"/> L. Paulo consuli sorte
+                        euenit prouincia Macedonia aduersus Persem regem. Reuersus domum inuenit
+                        paruam filiam flentem. Quaerenti causas illa respondit ʻmi pater, Macedonis
+                        est mortuusʼ. Hoc <supplied>n</supplied>om<supplied>i</supplied>ne catellus
+                        fuerat. Ille in triumphi spem omen accepit.</p><p><milestone unit="par" n="5"
+                        /> G. Marius, a senatu iudicatus hostis, Minturnis custodiebatur in domo
+                        Fanniae. In conspectu eius asello pabulum forte oblatum est: contempto
+                        animal ad aquam contendit. Obtinuit Marius a multitudine auxiliatrice ut ad
+                        litus deduceretur. Tum parua naui Africam euectus euasit arma
+                            Sullana.</p><p><milestone unit="par" n="6"/> Pompeius uictus a Caesare
+                        Cyprum tendens Paphum uenit. Ammiratusque aedificium in litore interrogauit
+                        quod esset. Gubernator ait <foreign xml:lang="grc"
+                            >κα<supplied>τ</supplied>ωβασιλέα</foreign> dici. Saeuum omen statim
+                        tristi uultu prodidit et effugit locum.</p><p><milestone unit="par" n="8"/> L.
+                        Cassium, Rhodum spoliantem, incolae rogabant ut deorum simulacris
+                        abstineret. Ille ait Solem se relinquere. Nec mora; <supplied>in</supplied>
+                        Macedonia uictus periit.</p><p><milestone unit="par" n="9"/> A Petilio consule
+                        obpugnabatur in Liguria ciuitas Letum nomine. Adhortans militem ait consul
+                        ʻLetum hodie capiamʼ, moxque occisus est. </p>
+                </div>
+               
+              
+                <div type="cap" n="6">
+                    <p><hi rend="bold">DE PRODIGIIS</hi></p>
+                    <p>
+                        <milestone unit="par" n="1"/> Seruio Tullio in Tarquini Prisci regia
+                        dormienti caput ardere uisum est: quod prodigium cum Tanaquil uxor regis
+                        audisset, puerum inter liberos educauit. Denique idem Romae rex fuit gradu
+                            sexto.</p><p><milestone unit="par" n="2"/> L. Marcius post interitum Pub.
+                        et Gnaei Scipionum perturbatum exercitum ducis alloquebatur officio. Ait
+                        capite apex flammae summus emicuit. Postea cecidit hostium milia xxxvii
+                        plurimosque cepit. Dehinc Punicis castris potitus est.</p><p><milestone
+                            unit="par" n="nou. 1"/> Scipio, ut in Africanam terram descendit,
+                        cecidit. Hoc factum pauente exercitu exclamauit ʻteneo te, terra Africaʼ, et
+                            uicit.</p><p><milestone unit="par" n="4"/> Sulla, contra
+                            Samn<supplied>i</supplied>t<supplied>e</supplied>s gerens bellum, inter
+                        sacrificandum ad sinistram serpentem uidit. M<supplied>ox</supplied>
+                        adhortante Postumio aruspice produxit exercitum et uicit.</p><p><milestone
+                            unit="par" n="5"/> Bos locuta Romae est Volumnio et Seruio Sulpicio
+                        conss.</p><p>Carnes etiam caelo lapsae sunt, quarum pars ab auibus intercepta
+                        est, pars incorrupta diu iacuit. Quo anno grauia fuere bella.</p><p>Item
+                        sequenti tumultu infans sex mensium in boario foro triumphum clamauit
+                        quieuitque.</p><p>Tum infans alter natus est capite elephantino. Imbre
+                        saxatili Picena regio uerberata. In Gallia eisdem temporibus lupus e uagina
+                        gladium sustulit uigili. Tunc et sanguinem duo scuta in
+                            Sardin<supplied>i</supplied>a sudarunt.</p><p>Apud Antium quoque messores
+                        sanguinulentis spicis impleuere corbes et pluuiae deciderunt cruentae.
+                        </p><p>Gnaei Domiti bos bello Punico secundo sonuit ʻcaue tibi,
+                            Romaʼ.</p><p><milestone unit="par" n="6"/> G. Flaminius consul sine
+                        auspiciis creatus conflicturusque cum Annibale ad lacum Trasumenum, cum equo
+                        suo cecidit. Et cum post hoc omen rapi signa iussisset, conuelli nequaquam
+                        potuerunt. Denique effodere ea imperauit. Eo proelio fusa sunt
+                            Roma<supplied>noru</supplied>m m. xv, capta sex, reliqui fugerunt m. x.
+                        ipse consul occisus est. Quem cum Annibal humari iussisset, non
+                            repererunt.</p><p><milestone unit="par" n="7"/> Mancinus consul ad
+                        Hispaniam directus est, bellum contra Numantinos acturus. Cum Lauinii
+                        sacrificaturus esset, emisit cauea pullarius pullos, qui in siluam
+                        euolauerunt, nec reperti sunt, diu multumque quaesiti. Nauigaturus idem e
+                        portu Herculis sine auctore uocis audiuit ʻMancine, maneʼ. Cumque scapham
+                        conscendisset, immensum anguem illic exhorruit. Tribus prodigiis nuntiata
+                        sunt infelicia tria: pugna foedus deditio.</p><p><milestone unit="par" n="8"/>
+                        Ti. Gracchus, ciuis optimus, cum consul rem diuinam in Lucanis faceret bello
+                        Punico, gemini serpentes allapsi sunt caesaeque hostiae iecur
+                        comederunt.</p><p>Refugit turba territa sacrificium. Quod cum rursus repetitum
+                        esset, idem accidit. Tertio quoque, cum diligentissime hostia seruaretur et
+                        serpentum prohiberetur incursus, arceri non potuerunt quin idem facerent.
+                        Postea consul, quamuis uir cautissimus, a Flauo hospite inductus in insidias
+                        est atque ita praeuentus dolo, ut inermis ad eum locum ueniret in quo
+                        latebat Poenus Mago, et ab eo occisus est.</p><p><milestone unit="par" n="9"/>
+                        Marcellus Syracusarum uictor et fugator Hannibalis, cum sollemne sacrum eo
+                        lemenibus faceret, primae hostiae iecur sine capite habuit, secundae duplici
+                        capite. Aruspici displicuit post prima tristia sequentia nimis laeta esse.
+                        Itaque Marcellus, cum exploratum noctu processiset, in
+                            Brut<supplied>t</supplied>iis a Poenis interemptus est.</p><p><milestone
+                            unit="par" n="10"/> Octauius collega Cinnae uidit Apollinis caput e
+                        statua cecidisse, quod caput euelli terra omnino non potuit. Nec longum: cum
+                        Cinna dissidens a collega periit. Caput statuae post Octaui poenam leuatum
+                            est.</p><p><milestone unit="par" n="11"/> Crassus triumuir, dimicaturus
+                        Charris cum gente Persarum, pullum accepit paludamentum, cum moris fuerit
+                        candidum offerri siue purpureum. Vna etiam aquilarum uix potuit euelli. In
+                        proelium prodeuntibus est altera aquila, cum ferretur, retrorsum uersa est.
+                        Mox innumerae Romanorum cecidere legiones, in conspectu patris filius
+                        periit, Crassus ipse iacuit inhumatus et ludibriis patuit.</p><p><milestone
+                            unit="par" n="12"/> Cn. Pompeio mouenti signa Dyrrachio fulmina aduersa
+                        occurrerunt, apes quoque obsedere uexilla, quo uiso subitus maeror confudit
+                        exercitum, fugerunt hostiae, in templis simulacra conuersa sunt, alia
+                        fleuerunt alia sudauerunt. Tantus uero in aere armorum strepitus fuit ut
+                        Antiochiae quasi ad aduentum hostium in muros concurreretur.</p><p>Sub statua
+                        Caesaris eisdem temporibus Trallibus in aede Victoriae procera palma nata
+                        est, ac mox P<supplied>h</supplied>arsalica est nuntiata
+                            uictoria.</p><p><milestone unit="par" n="13"/> Antequam Caesar occideretur
+                        in curia, ante dies paucos boue ex more mactata cor in extis non est
+                        repertum. Quod cum Spurinna pronuntiasset ad uitae periculum pertinere, ait
+                        Caesar, constantiae memor, ʻmiraris, si cor bos non habet?ʼ sed mox ei uitae
+                        finis fuit.</p><p><milestone unit="par" n="ext. 1"/> Xerxi regi Persarum equa
+                        leporem peperit in castris. Quo prodigio pronuntiatum est milites eius
+                        pauore fugituros. Omen secutum est: nam diu uictor miser recessit.</p><p>Idem
+                        Xerxes cum Lacedaemonem uellet inuadere, inter conuiuandum accipiens uinum
+                        patera excepit sanguinem: hoc iterum ac tertio. Tunc magi monuerunt ut ab
+                        incepta intentione desisteret.</p><p><milestone unit="par" n="ext. 2"/> Midae
+                        regi futuro, cum paruus esset, formicae grana frumenti in os ingesserunt.
+                        Ditissimus omnium fuit. </p>
+                </div>
+                              
+                
+                <div type="cap" n="7">
+                    <p><hi rend="bold">DE SOMNIIS</hi></p>
+                    <p>
+                        <milestone unit="par" n="1"/> Octauianus Augustus aeger in castris
+                        Pharsalicis erat. Cumque apud Philippos luce uentura certaturae ciuile inter
+                        bellum Romanae manus essent, Minuerua in somnis uisa medico eius Artorio
+                        iussit ne eo bello Augusto opus esset. Ad quod proelium cum lectica latus
+                        est, sed intento eo in aduentum uictoriae Brutus castra eius
+                            cepit.</p><p><milestone unit="par" n="2"/> Calpurnia uxor Iulii Caesaris
+                        uidit in somnis maritum suum confossum uulneribus in sinu suo iacere. Orauit
+                        Caesarem ne eo mane abiret in senatum. Sed ille, auspiciorum saepe
+                        neglegens, contempsit somnium, sed exitu probauit.</p><p><milestone unit="par"
+                            n="3"/> P. Decius Mus et Manlius Torquatus consules bello Latino
+                        somniarunt diis Manibus Terraeque matri alterius partis ducem alterius
+                        exercitum deberi. Cum consulum somnia conuenirent, consulti dii sunt. Idem
+                        ex auspicio responsum est. Inter eosdem duces ut is se morti offerret cuius
+                        cornu et acies prius cedere coepisset in proelio. Decium gloriosa fata
+                        rapuerunt, quamuis et Torquatus mori pro patria praeoptasset.</p><p><milestone
+                            unit="par" n="5"/> Ciceroni exuli, cum quiesceret in uilla campi
+                        Altinatis, in somnis occurrit imago G. Marii cum insignibus consulatus,
+                        uisusque eum lictori tradere, qui in monumentum Marianum deduceret,
+                        praemissa uoce illic spem ei meliorem fore. Deinceps in templo Iouis a Mario
+                        exstructo de reditu Ciceronis senatus decreuit.</p><p><milestone unit="par"
+                            n="7"/> Cassius Parmensis, percusso Antonio, uidit in somnio hominem
+                        praegrandem, concretum coma et barba. Rogauit quis esset. Respondit se esse
+                        Orcum. Inclamauit pueros quaesiuitque ecquem talem
+                            uidisse<supplied>n</supplied>t. Negantibus indormiuit. Occurrit iterum
+                        species. Accenso dehinc lumine uigilatum est. Paucis post diebus iussu
+                        Caesaris punitus est.</p><p><milestone unit="par" n="ext. 1"/> Hannibal
+                        somniauit iuuenem humana forma augustiorem, qui se hortaretur in excidium
+                        Italiae, auctore Ioue secuturum. Deinde post tergum respiciens intueri sibi
+                        uisus est serpentem uastum cuncta populantem, audire etiam caeli fragorem,
+                        nec non et nimbos cum maligna luce uisere. Interrogauit iuuenem praeeuntem
+                        qui subsequatur. Ille ad haec ʻuidesʼ inquit ʻuides excidium Italiae: tace
+                        et cetera permitte fatisʼ.</p><p><milestone unit="par" n="ext. 2"/> Alexander
+                            Magn<supplied>u</supplied>s quiescens se interfici Cassandri dextera
+                        uidit. Eodem ipso postea insidias ordinante, bibit uenenum.</p><p><milestone
+                            unit="par" n="ext. 3"/> Simonides poeta Graecus ad littus appulit et
+                        naufragum illic cadauer repertum sepeliuit. Dehinc quiescens ammonitus est
+                        ab umbra sepulti ne die postero nauigaret. Quicumque soluerunt, in conspectu
+                        eius summersi sunt. Simonides somnium uersibus cum laude
+                            celebrauit.</p><p><milestone unit="par" n="ext. 4"/> Cum Persarum regi
+                        uisum est per quietem quod Atys filius suus
+                        pulcherrim<supplied>u</supplied>s fortissim<supplied>u</supplied>sque ferro
+                        interficeretur, iuuenem bellis abstinuit, armamentarium adire non siuit,
+                        remouit armigeros. Sed circum Olympum aper nimius coepit cuncta uastare et
+                        rusticos sternere. Orauit filius ut ad interficiendam beluam mitteretur.
+                        Optinuit. Sed lancea qua petitus aper fuerat ab eo adolescens cui commissus
+                        fuerat occisus est.</p><p><milestone unit="par" n="ext. 8"/> Hamilcar dux
+                        Carthaginiensium audissem sibi somnio uisus est quod Syracusis, quas
+                        obsidebat, alio die cenaturus esset. Pugnauit spe uictoriae et in urbem
+                            <supplied>h</supplied>arpagonibus raptus est.</p><p><milestone unit="par"
+                            n="ext. 9"/> Alcibiades somniauit pallio se opertum; et amicae suae
+                        tecto interea opertus est. </p>
+                </div>
+                                
+                <div type="cap" n="8">
+                    <p><hi rend="bold">DE MIRACVLIS</hi></p>
+                    <p>
+                        <milestone unit="par" n="1"/> Aulus Postumius dictator contra Mamilium ducem
+                        Tusculanorum cum diu pugnaret ad lacum Regillum, Castor et Pollux inter
+                        Romanos uisi sunt pugnantes.</p><p>P. Vatienus, ad urbem Romam nocte uadens,
+                        uidit iuuenes albis equis sedentes, qui iusserunt ut die sequenti senatui
+                        nuntiaret Persen regem Macedonum a Paulo esse captum. Vatienus quidem libens
+                        laeta executus est, sed iussu senatus missus in carcerem est tamquam
+                        incertorum locutor. Mox litteris Pauli de die uictoriaque certa res patuit.
+                        Vatienus, solutus custodia, agrum dono accepit. Et Vatieno idem gemini uisi
+                        ad lacum Iuturnae sudorem suum equorumque abluentes.</p><p><milestone
+                            unit="par" n="2"/> Roma, laborans pestilentia per triennium, libros
+                        consuluit Sibyllinos, quibus iubebatur ut ab Epidauro Aesculapius
+                        exhiberetur. Missi legati sunt ad Graecam urbem, quos libenter Epidaurii
+                        atque humaniter susceperunt. Ibidem se legatis serpens ostendit, raro ab
+                        incolis nisi feliciter uisus. Cumque per triduum familiariter apparuisset,
+                        cunctis inspectantibus subiit in trirerem Romanam et in tabernaculo legati
+                        Quinti Burgoni collecto quieuit.</p><p>Vrbe profecti Romam sunt: anguis in
+                        naui semper apparuit. Antium uentum est: descendit serpens ad limen templi
+                        Aesculapii et triduo inter myrtos latuit, nec ad solitos cibos processit.
+                        Dehinc rediit ad nauem, cumque uentum esset ad Tiberim, enatauit insulam, in
+                        qua illi templum est constitutum, et mox sanitas Romanis
+                            data.</p><p><milestone unit="par" n="3"/> Furius Camillus Veios cepit,
+                        iussitque statuam Iunonis Monetae transferri. Vnus e militibus per iocum
+                        interrogauit simulacrum num uellet ire Romam. Respondit
+                            ʻuoloʼ.</p><p><milestone unit="par" n="4"/> Tum cum Coriolanum mater ab
+                        urbis Romae reuocauit excidio, ad quartum lapidem uia Latina Fortunae
+                        effigies bis locuta est his uerbis ʻrite m<supplied>e</supplied>, matronae,
+                        dedistis, rite dicaruntʼ.</p><p><milestone unit="par" n="5"/> Valerius
+                        Publicola, consul primus, cum expulso urbe Tarquinio contra Etruscos
+                        Veientesque pugnaret, e proximo luco audita uox est ʻuno plus Etrusci
+                        cadent, Romanus uictor abibit.ʼ Vtrumque uerum fuit.</p><p><milestone
+                            unit="par" n="6"/> Gaius Fabricius Luscinius, consul et praecipuus
+                        imperator, Thurinis auxilio erat contra Brut<supplied>t</supplied>ios
+                        Lucanosque. Id cum militibus Romanis arduum uideretur, ut contra duas gentes
+                        ualidas congrederentur, apparuit subito iuuenis ignotus, ad uirtutem Romanos
+                        exercitus acuens, et cum tardiores forte sentiret, scalas gerens per
+                        aduersas acies in hostium, accenditque Romanos pulchrae uirtutis hortatu.
+                        Denique eo proelio a Romanis caesa sunt m. xx, capta m. v cum signis tribus
+                        et duce <supplied>S</supplied>tat<supplied>i</supplied>o
+                            <supplied>S</supplied>ta<supplied>t</supplied>ilio. Mane alio consul
+                        Fabricius renuntiauit ei se uallarem coronam daturum qui in castrum primus
+                        irruperat. Cum petere praemium nullus auderet, honos et manubiae Marti a
+                        cunctis militibus cum deuota supplicatione delatae.</p><p><milestone
+                            unit="par" n="7"/> Deos penates Aeneae Ascanius Lauinio Albam
+                        transtulerat. Simulacra Lauinium sponte redieret. Rursus traducta Albam
+                        repetiuere antiquiora delubra.</p><p><milestone unit="par" n="8"/> L. Cassium,
+                        percussorem auunculi sui G. Iulii Caesaris, Octauianus Augustus bello est
+                        persecutus.</p><p>Itaque, cum ad Philippos pugnaretur, Cassio uisum est quod
+                        purpuratum Iulium Caesarem equo incitato in se irruentem uideret, et gemens
+                        exclamauit: ʻcedamus, quando nec occidisse prodestʼ.</p><p><milestone
+                            unit="par" n="9"/> L. Lentulus in Aegyptio littore forte conspexit
+                        fragmentis scaphae humanum corpus exuri et militibus ait ʻqui scimus an
+                        Pompei rogus sit?ʼ ignorans rem locutus est.</p><p><milestone unit="par"
+                            n="11"/> Cum sacrarium Saliorum crematum esset, solus Romuli lituus
+                        integer repertus est.</p><p>Exusta similiter aede Fortunae Serui Tulli statua
+                        illaesa inuenta est, aliis concrematis.</p><p>Statua Quintae Claudiae uirginis
+                        Vestae in area deum geminum euasit incendium, eius uidelicet quae
+                        inhaerentem in uado Tiberis nauem uita dumtaxat: nam cum rea haberetur
+                        incesti, ligauit proram zonula et ait ʻsi uirgo sum, sequereʼ, moxque nauis
+                        mota ingressaque Romam est cum simulacro Matris deum, quod a Pessinunte
+                        motum naui aduehebatur.</p><p><milestone unit="par" n="12"/> L. Lamia, uir
+                        praetorius, mortuus rogoque impositus exclamauit, sed accensa extingui
+                        flamma non potuit.</p><p><milestone unit="par" n="ext. 1"/> Pheretem Pamphilum
+                        uirum Plato scribit in acie cecidisse et post decem dies collectum biduo
+                        iacuisse. Dehinc in rogo recepisse uitam, plurimaque locutum quae uidisset
+                        in morte.</p><p><milestone unit="par" n="ext. 2"/> Athenis quidam uir longe
+                        doctissimus ictus lapide omnes sensus retinuit, oblitus est litterarum.
+                        Durum homini, praesertim Atheniensi, damnum.</p><p><milestone unit="par"
+                            n="ext. 3"/> Nausimenis Atheniensis uxor in incestu deprehendit filiam
+                        filiumque permixtos. Muta exin perpetuo fuit.</p><p><milestone unit="par"
+                            n="ext. 4"/> E contrario Echecles Samius athleta, cum uicisset nec
+                        praemium ei daretur, antea mutus indignatione locutus est.</p><p><milestone
+                            unit="par" n="ext. 5"/> Gorgias, apud Epirotas longe primus, in feretro
+                        matris natus est: nam dum mulieris cadauer effertur, subito uagitus auditus
+                            est.</p><p><milestone unit="par" n="ext. 6"/> Pheraeo Iasoni uomica uitae
+                        periculum saepe faciebat. Hunc quidam gladio ex insidiis percussit et
+                        uulnere rupit uomicam, sanauitque occisuri uoluntate.</p><p><milestone
+                            unit="par" n="ext. 7"/> Simonides cenabat apud Scopan in
+                            Thes<supplied>s</supplied>aliae oppido Cranone. Duo iuuenes ingressi
+                        specie decora exegere Simonidem ut prodiret. Egresso eo triclinium cecidit
+                        conuiuasque obruit. Cumque discerni ad sepulturam corpora confusa non
+                        possent, Simonides ordinem quo quis accubuerat dixit, laudesque Pollucis et
+                        Castoris salutis suae gratia carminibus celebrauit.</p><p><milestone
+                            unit="par" n="ext. 9"/> Consulenti Philippo Apollo respondit ut a
+                        quadriga caueret. Rex iussit equos numquam iugari. Vitauit etiam locum in
+                            Boe<supplied>o</supplied>tia cui Arma nomen est. Sed princeps uel rex
+                        Bithyniae Pausanias, qui eum uicit, <supplied>in</supplied> uagina gladii
+                        cum quo Philippus occisus est caelatam quadrigam habuit.</p><p><milestone
+                            unit="par" n="ext. 10"/> Calanus Indus, uictus ab Alexandro Macedone,
+                        cum rogo se imposuisset, irridenter ab hoste uictore interrogatus est ecquid
+                        uellet aut mandasset. Respondit ei Indus ʻcito te uideboʼ. Nec diu Alexander
+                        superstes fuit. </p><p><milestone unit="par" n="ext. 12"/> Pausanias, filius
+                        Prusiae Bithyni regis, pro superioribus dentibus unum os continuum pertinens
+                        habuit, nec loquenti obstitit nouitas.</p><p><milestone unit="par" n="nou. 2"
+                        /> Pyrrhi regis Epirotarum pollex e dextro pede remedio erat, si cuius renes
+                        tumentes eo tetigisset. Idem Pyrrhus, cum ab Antigono uictore iussus esset
+                        exuri, sic arsit ut pollex igni inueniretur intactus. Qui digitus aureo
+                        loculo inclusus est et in antiquissimo templo Dodonaei Iouis conditus.
+                        Praedictus Pyrrhus et Pausanias unum os pro dentibus habuerunt, sed
+                        distinctum ad dentium similitudinem.</p><p><milestone unit="par" n="ext. 13"/>
+                        Mitridatis et Laudiciae filia Tricipitina geminatis dentium ordinibus turpis
+                        fuit. Quae patrem a Pompeio uictum secuta est.</p><p><milestone unit="par"
+                            n="ext. 14"/> A Lilybaeo egredientes naues Clipea Africae ciuitate
+                        Strabo quidam speculans numerabat.</p><p><milestone unit="par" n="ext. 15"/>
+                        Aristomenes Messenius callidissimus aduersus Athenienses fuit. Quem tandem
+                        captum aperuerunt, corque pilosum repererunt.</p><p><milestone unit="par"
+                            n="ext. 17"/> Polystratus et Hippoclides et uno die nati sunt et ambo
+                        Epicurei fuerunt, communibus usi discipulis sunt et patrimoniis, eodemque
+                        momento sunt mortui.</p><p><milestone unit="par" n="ext. 18"/> Creteneses
+                        caprae, cum confixae sunt, herbam diptamum comedunt et tela uisceribus
+                        eiectant.</p><p>Caprae in Cephalia non semper aquas potant, sed per maiorem
+                        anni partem aperto ore sunt cadentesque aquas excipiunt.</p><p>In templo
+                        Iunonis Laciniae numquam ex ara cinis uento depellitur.</p><p><milestone
+                            unit="par" n="nou. 3"/> In Assyria et apud Medos ea
+                            ui<supplied>s</supplied> interdum uento est ut correpti equites
+                        peditesque in ducenta stadia per aerem leuentur.</p><p><milestone unit="par"
+                            n="ext. 19"/> Non est incognitum tantae magnitudinis serpentem exercitui
+                        Atilii Reguli iuxta Bagradam Africae amnem infestum fuisse, ut pugna contra
+                        eum esset in unda, cumque configi iaculis pro corii uastitate non posset,
+                        balistis et saxis esse intere<supplied>m</supplied>ptum, eiusque tergum
+                        centum et uiginti pedibus extentum in ostentationem miraculi Romam
+                            missum.</p><p><milestone unit="par" n="nou. 4"/> Bura et Helice urbes in
+                        Achaico littore fluctibus obrutae sunt terraeque motu esse
+                        desierunt.</p><p>Item et Myrna, Asiae ciuitas potens. </p>
+                </div>
+            </div>
+           
+            <div type="lib" n="II"><head>II. DE INSTITVTIS ANTIQVIS</head>
+                <div type="cap" n="1">
+                    <p>
+                        <milestone unit="par" n="1"/> Inituri matrimonium ueteres, sicut in rebus
+                        cunctis, auspicia colligebant. Qua consuetudine taedae auspices dicuntur
+                        quae nuptiis adhibentur.</p><p><milestone unit="par" n="2"/> Olim accumbentes
+                        uiri cibum capiebant uxoribus ad mensam sedentibus. Hinc illa pictura,
+                        discumbens Iupiter sedentes Iuno et Minerua.</p><p><milestone unit="par" n="3"
+                        /> Pudicitiae in tantum fautum Romae est ut mulier post primum maritum uidua
+                        permanens publice coronaretur. Sed bello ciuili Caesaris atque Pompei in
+                        tantum est pop. Rom. at<supplied>t</supplied>ritus ut poena orbis et
+                        caelibibus dicaretur. <milestone unit="par" n="4"/> Tam sancta fides
+                        matrimoniorum fuit ut per annos n. cl ab urbe condita nulli Romae
+                        diuorterint. Primus igitur Spurius Caruillus sterilem repudiauit notatusque
+                            est.</p><p><milestone unit="par" n="5"/> Matrona, si in ius uocata est,
+                        pro pudicitiae reuerentia ab apparitore publico tacta non est.</p><p>Matronis
+                        Romae aliquandiu uino uti non licuit in custodiam pudoris.</p><p>Securi
+                        pudicitiae Romani auro et gemmis et purpura uti matronas siuerunt: neque
+                        culta enim concupiscenda sedebat aut quisquam alienum matrimonium impudice
+                            uidebat.</p><p><milestone unit="par" n="6"/> Nulla uel certe rara iurgia
+                        inter coniuges erant, uerum si quid, ibatur in templum Viriplacae ad
+                        Palatinum montem. Illic dictis quae inter ipsos erant, concordes
+                            reuertebantur.</p><p><milestone unit="par" n="7"/> Apud priscos nec gener
+                        cum socero nec puber cum patre filius lauauit, nec in conspectu simulacrorum
+                        turpia corporis nudabantur.</p><p><milestone unit="par" n="8"/> Sollemni
+                        conuiuio tantum cognati conueniebant, quod charistia uocabatur. Tum diis
+                        arbitris et consanguineis mediis, si qua erant, iurgia proferebantur, et
+                        dicta atque aestimata deponebantur.</p><p><milestone unit="par" n="9"/> Senes
+                        olim alienos iuuenes pro suis habebant. Inuicem adolescentes grandioribus
+                        quasi patribus deferebant, oluuos prosequebantur ad curiam, manebantque in
+                        obseruatione donec reducerent.</p><p>Adolescentes ad conuiuium rogati
+                        quaerebant de conuiuis, ne forte ob reuerentiam senum habituri locos non
+                        essent. Ammissi ad mensam parcissime loquebantur, primique
+                            surgebant.</p><p><milestone unit="par" n="10"/> Senes in conuiuiis maiorum
+                        laudes carminibus celebratas tibiis canebant ad incendendam exemplis
+                        iuuentutem. </p>
+                </div>
+               
+                <div type="cap" n="2">
+                    <p>
+                        <milestone unit="par" n="1"/> Multis saeculis durauit ut dicta in curia in
+                        uulgus non exirent. Senatus autem secreto decreuerat bellum Punicum tertium.
+                        Hoc Q. Fabius Maximus P. C<supplied>r</supplied>asso quaestorio uiro in
+                        itinere narrauit, ob quod factum Maximus a consulibus tanquam proditor
+                        secreti obiurgatus est.</p><p>Eumenes, rex Asiae, senatui prodidit Persen
+                        bellum parare. Quid tum rex locutus sit, quid senatus decreuerit, ante
+                        Persen captum sciuit nemo.</p><p><milestone unit="par" n="4"/> Inter consulem
+                        proximumque nullus ammittebatur. Denique Quintus Fabius Maximus uir ultimae
+                        senectutis post quintum consulatum suum rogatus a filio annixus iret ad
+                        colloquium Samnitum, noluit memor moris.</p><p>Idem Fabius ad
+                            <supplied>filium</supplied> consulem legatus Suessam missus, cum in
+                        conspectu consulis nec equo desiluerit nec caput deoperuerit, rectius per
+                        lictorem mandante filio utrumque fecit. Quod probauit pater. Scilicet
+                        reputans consuli publice obsequendum fuisse, privatim patri, Fabius ad
+                        explorandam filii constantiam non obsequebatur.</p><p><milestone unit="par"
+                            n="6"/> Ne qua mora consiliis publicis esset, certo loco extra curiam
+                        senatus sedebat, qui locus hodie senaculum dicitur. Inde citabatur in
+                        curiam, non ut nunc cogebatur edictis.</p><p><milestone unit="par" n="9"/>
+                        Remus et Romulus sub monte Palatino permissu Numitoris aui Romae fundamenta
+                        iecerunt, eoque loco sacris operati sunt. Tum largiore uino usi indutique
+                        caprarum pellibus, quas immolauerant, iocantes cum pastoribus in obuios
+                        irruerunt. Sacrorum morem diu equites Rom. exercuere.</p><p>Q. Fabius
+                            instituit ut equites idibus Iuliis trabeati incederent.</p><p>Cum P. Decius
+                        comitia in uulgi potestate posuisset, censor Fabius fore sequentes in
+                        quatuor ordines descripsit urbanasque tribus appellauit. Hoc Maximi
+                        cognomentum meruit, quamuis bello clarus esset. </p>
+                </div>
+               
+                <div type="cap" n="3">
+                    <p>
+                        <milestone unit="par" n="1"/>Sponte se iuuentus olim militiae offerebat, ne
+                        censi capite militarent ac periculose committerentur arma qui tributa
+                        penderent. Primus G. Marius capite censos in sacramentum
+                            rogauit.</p><p><milestone unit="par" n="2"/> Fisi uirtute Romani sine
+                        artificio dimicabant. Itaque P. Ru<supplied>ti</supplied>lio et Gn. Mallio
+                        conss. e ludo gladiatorio doctores accersiti sunt, ut inferre ictus ac
+                        declinare monstrarent, adiutaque est artificio fortitudo. </p>
+                </div>
+                              
+                <div type="cap" n="4">
+                    <p><hi rend="bold">DE SPECTACVLIS</hi></p>
+                    <p>
+                        <milestone unit="par" n="2"/>Messala censor primus theatrum Romae fecit.
+                        Senatus decreuit ne sedentes ludos spectarent, siue urbani siue qui a foris
+                        mille passibus abessent, ne fortitudo mollesceret.</p><p><milestone unit="par"
+                            n="3"/>Indiscretus a senatu populus per annos dlviii in spectaculis
+                        fuit. Atilius itaque Serranus et L. Scribonius aediles, cum Megalensia
+                        ederent, senatui locum dederunt. Quod prius facere conatus Scipio est, sed
+                        populum laesit nouitatem praecepit.</p><p><milestone unit="par" n="4"/>Praeter
+                        circenses spectacula Romae aliquandiu nulla erant, sed populo pestilentia
+                        laborante in laudes deorum carmina incompta conscripta sunt. Adiectae
+                        Etruscae saltationes eque Etruria accersitus ludius, id est princeps
+                        scenicorum, qui Histrio uoca<supplied>ba</supplied>tur, isque et motu
+                        corporis et sono uocis rudem populum delectauit. In cuius honorem istius
+                        modi artifices histriones dicti sunt. A ludio tracta est editio
+                        ludorum.</p><p>Atellana scaena uel comica fabula ab Oscis accita est, ceteris
+                        seuerior et digna grauitate Romana. Et cum alii scenici infames sint, hi
+                            <supplied>n</supplied>ec tribu arcebantur nec a stipendiis militaribus
+                            repellebantur.</p><p><milestone unit="par" n="6"/>Catulus primus exemplo
+                        Campanae luxuriae uelis in theatro spectantes ab aestu defendit.</p><p>Gn.
+                        Pompeius aquas induxit per quasdam semitas fistularum, ut uaporem leniret
+                            aestatis.</p><p><milestone unit="par" n="5"/>Saeculares ludi, qui post
+                        annum centesimum ueniunt, a Valerio Publicola imperatore primum instituti et
+                        in honorem Ditis patris Proserpinaeque celebrati sunt apud eam
+                            ara<supplied>m</supplied> quam ipsorum numinum titulo inscriptam
+                        Valesius locuples rusticanus pro trium filiorum sibi reddita sospitate
+                        celebratur inuenerat, ad quam et nigris hostiis immolabatur et
+                            lectiste<supplied>r</supplied>nia excitabantur et nocturnis ludis festa
+                        agebantur, uotis publice nuncupatis pro salute Romana.</p><p><milestone
+                            unit="par" n="6"/> Q. Claudius primus scenam pictis tabulis adornauit,
+                        G. Antonius auro, Petreius ebore. P. Lentulus <supplied>S</supplied>pinther
+                        exquisitum cultum uestis induxit. Piget longius prosequi et tibicinum cultus
+                            a<supplied>c</supplied> multitudinem loqui aut canentium eneruatos
+                        modos, ut etiam mimorum turpitudines. Quae omnia prius in dissimulationem
+                        laboris parabantur, nunc dantur in incendium libidinis.</p><p><milestone
+                            unit="par" n="7"/> Munus gladiatorium datum Romae est primum in honorem
+                        defunctorum, scilicet filii Bruti Marco et Deci<supplied>m</supplied>o
+                        Brutis conss. tum Appii Claudii et Quinti Fuluii. Athletas Marcus Scaurus
+                        aedilis primus induxit. </p>
+                </div>
+                
+                <div type="cap" n="5">
+                    <p><hi rend="bold">DE STATVA AVRATA</hi></p>
+                    <p>
+                        <milestone unit="par" n="1"/> Marcus Acilius G<supplied>l</supplied>abrio ex
+                        uoto aedem dedicauerat ob id quod regem Antiochum apud
+                            T<supplied>h</supplied>ermopylas felici uicisset euentu. In aede statuam
+                        auratam patri posuit. Nec in Italia nec Romae cuiquam prius inaurata statua fuit.</p><p>
+                        <hi rend="bold">DE IVRE RELIGIONIS PVBLICATO</hi>
+                        </p><p><milestone unit="par" n="2"/> Solis pontificibus ius sacrorum et ciuile
+                        notum ante fuit. Verum Gn. Flauius scriba, natus a patre libertino, formulas
+                        sacras uerbis apertioribus expediuit et in notitiam populi publicauit. Ob
+                        hoc a populo creatus est aedilis curulis. Idem, cum uenisset ad collegam
+                        aegrum, refertum nobilibus cubiculum forte deprehendit. Cui cum locus non
+                        daretur, sellam curule<supplied>m</supplied> ex<supplied>h</supplied>iberi
+                        sibi iussit atque in ea, quae erat potestatis sella, consedit.</p><p>
+                        <hi rend="bold">DE RITV PERSONARVM CAPITI INDVCENDARVM</hi>
+                        </p><p><milestone unit="par" n="4"/> Tibicines in templo Iouis quaedam ex ritu
+                        antiquitatis ludicra et liberiora faciebant. Quae exercere prohibiti per
+                        senatus consultum, irati deinde se Tibur sponte propria transtulerunt.
+                        Cumque sacris usuique deessent, repetiti sunt per legatos. Noluerunt
+                        reuerti. Quodam tempore Tiburtini ferias simulauerunt, ebriosque eos
+                        plaustris Romam reuexerunt. Tum secutum est ut personas sumerent uelarentque
+                        uultus pudore, quo<supplied>d</supplied> temulenti fuerant. Exinde usu
+                        personarum est consuetudo seruata.</p><p><milestone unit="par" n="nou. 5"/>
+                        Nobili cuique quaestum facere turpe erat Romae. Apud Poenos uero uel
+                        turpiter lucrum facere honestum putabatur.</p><p>
+                        <hi rend="bold">DE RITV DIVERSARVM GENTIVM</hi>
+                        </p><p><milestone unit="par" n="5"/> Veteres Romani ad frugalitatem probandam
+                        pro foribus uescebantur et crebrius pulte quam pane. </p>
+                </div>
+                
+                <div type="cap" n="6">
+                    <p>
+                        <milestone unit="par" n="1"/> Spartana ciuitas aliquamdiu ciues suos adire
+                        Asiam uetuit ex metu ne luxuriam imitatione consuescerent: acceperat enim
+                        districtissimorum hominum disciplinam supra satietatem illic epulas in usu
+                        esse, uestem delicatam, unguenti odorem, quae etiam seueros emolliunt
+                        mores.</p><p>Iones primi in conuiuiis unguenta coronasque sumpserunt, et
+                        induxerunt se<supplied>cun</supplied>dae mensae delicatiora conuiuia et uini
+                        haustum uetustioris. Pausanias rex Lacedaemoniorum, ut primus in Asiam
+                        uidit, in eius luxuriam ac lasciuiam solutus est, exercitumque praedurum
+                        indulgentius habendo corrupit.</p><p><milestone unit="par" n="2"/> Spartani
+                        dimicaturi tibiae modulo impellebantur in bellum anapaestico metro.</p><p>Idem
+                        rursus et coccinis tunicis utebantur in proelio, ne sanguinem eorum hostis
+                        uideret alacriorque fieret, cum se uulnus intulisse
+                            cognosceret.</p><p><milestone unit="par" n="nou. 6"/> Apud eosdem
+                        Spartanos pueri et mitti cocco flagris tenuissimis caedebantur, hortantibus
+                        ad patientiam uerberum parentibus. Quorum puerorum si quis uel corpus
+                        subtraxisset uel gestu aliquo doloris sensum significasset, remouebatur ut
+                        uictus. Plerumque autem usque in periculum uitae et largam sanguinis
+                        effusionem plagas perferentes quales futuri essent a prima aetate
+                            pollicebantur.</p><p><milestone unit="par" n="3"/> Vt
+                            Laced<supplied>aem</supplied>onii militaribus disciplinis, ita
+                        Athenienses ciuicis officiis impense studebant. Illic erat pulcrum
+                        adolescentem fortiter facere, hic bene in foro dicere siue in gumnosus
+                            eminere.</p><p><milestone unit="par" n="4"/> Principes Atheniensium uitas
+                        omnium requirebant et eas in consiliis publica<supplied>ba</supplied>nt, ut
+                        laus uel poena meritis apteque decerneretur.</p><p><milestone unit="par" n="5"
+                        /> Bonos ciues ramis duobus olivae innexis publice coronabant, qui honos
+                        primum Pericli delatus est. Apud eosdem ciues Atticos ingratus libertus in
+                        seruitute reuocabatu<supplied>r</supplied>.</p><p><milestone unit="par" n="7"
+                        /> Massilienses tres pariter manu mitti uetabant. Ingratis libertis tres
+                        culpas remittebant, post quartam in seruitutis iura reuocabant.</p><p>Idem
+                        Massilienses s<supplied>c</supplied>enicis ludis abstinebant, ne assiduitas
+                        spectaculi ueniret in morum corruptelam.</p><p>Idem mendicis cibum non dabant
+                        quasi petris.</p><p>Apud eosdem glad<supplied>i</supplied>us publice erat, quo
+                        noxii iugulabantur.</p><p>Funera idem sine lacrimis prosequebantur et sacro
+                        die suos quisque efferebat epulis celebratis: mortem quippe in bonis
+                        aestimabant.</p><p>Venenum apud eosdem Massilienses confectum ex cicuta
+                        seruatum publice habebatur, ac licito reddenti in senatu causas mortis
+                        uoluntariae haurire permittebatur. Quae consuetudo de Graecia in Galliam cum
+                        gente translata est: nam illic dolore aut aliquo genere acerbitatis accepto
+                        ad mortem confugiebatur. Multi etiam senes et anus uitae ultimum non
+                        expectauerunt, auidi melioris per mortem condicionis.</p><p><milestone
+                            unit="par" n="9"/> Cum telo portas hospes non ingrediebatur, ne esset
+                            formidini.</p><p><milestone unit="par" n="nou. 7"/> Capillum rutilum sibi
+                        cocta faciebant Spartani. Docebant etiam filios furari.</p><p><milestone
+                            unit="par" n="nou. 8"/> Eraclei Thebanique permisere passim ut ingenui
+                        pueri amarentur, nec inhonestum putauere eosdem corrumpi.</p><p><milestone
+                            unit="par" n="nou. 9"/> Lacedaemonii osculorum licentiam dedere et
+                        concubitus, uerum palliis interiectis.</p><p><milestone unit="par" n="nou. 10"
+                        /> Apud Romanos triennio pubes inducebantur in castra ante
+                            militiam.</p><p><milestone unit="par" n="11"/> Cimbri et Celtiberi laeti
+                        in bello peribant, in morbo cum lamentis.</p><p>Amisso duce uiuere Celtiberis
+                        illicitum uidebatur.</p><p><milestone unit="par" n="12"/> Thraces natales
+                        hominum deflent, at funera canticis celebrant. <milestone unit="par" n="13"
+                        /> Si quis uero contra morem gentis luget, feminea ueste utitur, quoniam in
+                        sexu uidetur esse mollitus.</p><p><milestone unit="par" n="14"/> Apud Indos
+                        plurimae singulis uxores sunt. Defuncto uiro in iudicium uenitur a feminis,
+                        ut clareat quem impensissime amauerit. Victrix rogum laeta conscendit,
+                        ceteris inuidentibus.</p><p><milestone unit="par" n="15"/> Apud Cirtenses
+                        corporis quaestu dotem parabant, auctumque turpiter matrimonium pecuniae
+                        foeditate faciebant.</p><p><milestone unit="par" n="16"/> Persae ante
+                        septennium liberos non uident, orbitatem de immaturis
+                            timentes.</p><p><milestone unit="par" n="17"/> Numidarum reges humile
+                        putauerunt cuiquam priuato osculum dare. Et in castris mos idem. </p>
+                </div>
+                
+               
+                <div type="cap" n="7">
+                    <p><hi rend="bold">DE MILITARI DISCIPLINA</hi></p>
+                    <p>
+                        <milestone unit="par" n="1"/> Scipio Africanus, Numantiam missus, omnia quae
+                        uoluptatis causa haberentur in castris seuero mox summoueri iussit edicto.
+                        Denique scortorum duo milia cum lixis e procinctu loci eius eiecta sunt,
+                        tantumque subito sub districto duce profecit exercitus ut Numantiam diu
+                        perniciosissimam nobis breui solo exaequaret.</p><p><milestone unit="par"
+                            n="3"/> P. Rupilius, consul in Siciliam dimicans contra fugitiuos, Q.
+                        Fabium generum conuiciis publice lacessitum prouincia expulit, quia
+                            Taurom<supplied>en</supplied>itanam arcem in cursu belli fugitiuorum
+                            prodidisset.</p><p><milestone unit="par" n="5"/> Censor Fuluius Flaccus
+                        fratrem Fuluium, quod quosdam iniussu consulis sub commeatu dimisisset,
+                        senatu depulit.</p><p><milestone unit="par" n="6"/> Postumius dictator Aulum
+                        Postumium filium, quod iniussu in hostem processerat, quamuis uictorem
+                        iussit securi percuti.</p><p>Torquatus quoque consul bello Gallico, ad comitia
+                        Romana descendens, filio castra commisit sub praecepto tali, ne eo absente
+                        pugnaret. Adolescens tamen prouocatus erupit et uicit. Regressus Mallius pro
+                        uictoria filium in contione laudauit, sed morte eius militarem tenuit
+                        disciplinam: securi enim est percussus adolescens.</p><p><milestone unit="par"
+                            n="7"/> L. Minucius cons. missus est contra Aequos et Faliscos, cumque
+                        eius castra coepissent ab hostibus obsideri, L.
+                        Quint<supplied>i</supplied>us Cincin<supplied>n</supplied>atus in auxilium
+                        missus hostes subiugauit et consulem magistratu depulit, quod castris se non
+                        armis defendisset.</p><p><milestone unit="par" n="12"/> Africanus Scipio
+                        deuicta Carthagine Romanos transfugas crucibus affixit, Latinos securi
+                            percussit.</p><p><milestone unit="par" n="13"/> Posterior Africanus
+                        desertores de auxiliis sociorum in spectaculo bestiis
+                            obiecit.</p><p><milestone unit="par" n="14"/> L. Paulus eos qui pugnante
+                        se contra Persen deseruerant subdidit elephantis, ut eorum pedibus
+                            tererentur.</p><p><milestone unit="par" n="15"/> Rex
+                            Pyrr<supplied>h</supplied>us, cum plurimos ex Romanis sub Tarento
+                        cepisset, ultro remisit. Senatus decreuit ut qui equites fuerant pedites
+                        militarent, qui pedites funditores fierent. Insuper adiectum ne intra castra
+                        essent neue uel uallo uterentur, ne pellibus tentoria haberent: isque miles
+                        ad tentoria rediret qui ex hoste duo spolia retulisset. Haec eos poena
+                        fortissimos fecit.</p><p>Eos qui Cannensi clade deseruerant socios omni
+                        ignominia senatus affici iussit.</p><p>Q. Petilius cons., aduersus Ligures
+                        pugnans, cessante exercitu interemptus est. Decreuit senatus ut legio quae
+                        se pro imperatore morti non obiecisset annonae stipendio careret, aes
+                        solitum non acciperet, ut ignominia affectos seruatae inhoneste uitae
+                            pigeret.</p><p><milestone unit="par" n="ext. 1"/> Apud Carthaginienses
+                        imp., si male usus consilio fuisset in bello, quam uictor cruci
+                            figebatur.</p><p><milestone unit="par" n="ext. 2"/> Clearchus, dux
+                        Lacedaemoniorum, dicebat a milite plus imp. timeri quam hostem
+                        debere.</p><p>Lacedaemoniorum matres procedentibus in bellum filiis dicebant
+                        ut aut uictores redirent aut occisi scutis referrentur. </p>
+                </div>
+              
+                <div type="cap" n="8">
+                    <p><hi rend="bold">DE IVRE TRIVMPHANDI</hi></p>
+                    <p>
+                        <milestone unit="par" n="1"/> Lege cautum fuit ne quis triumpharet nisi
+                        hostium .m. v una acie strauisset.</p><p><milestone unit="par" n="3"/> G.
+                        Fuluius Flaccus, cum rem bene gessisset, delatum a senatu triumphum
+                            spreuit.</p><p><milestone unit="par" n="4"/> Q. Fuluius et L. Opimius,
+                        Fuluius unus Capua recepta, alter idem Opimius uictis Fregellanis, contra
+                        petitum triumphum triumphandi ius non tenuerunt, non quod strenui non
+                        fuerint, sed pronuntiatum est his triumphum deberi qui imperium p. R.
+                        auxissent, non qui recuperassent quae fuissent rei publicae.</p><p><milestone
+                            unit="par" n="7"/> Belli ciuilis uictor neque imperatoris nomen meruit
+                        neque triumphauit neque diis gratias egit: quamuis enim imperatoribus,
+                        ciuium tamen uictoribus inuiti fauerunt. </p>
+                </div>
+                
+                <div type="cap" n="9">
+                    <p><hi rend="bold">DE CENSORIA NOTA</hi></p>
+                    <p>
+                        <milestone unit="par" n="8"/> Post Cannensem cladem M. Metellus quaestor
+                        multique equites Romani dignitate deiecti et in
+                            aerario<supplied>s</supplied> relati sunt a M. Atilio Regulo et L. Furio
+                            P<supplied>h</supplied>ilo censoribus, ob id quod iurauerant se Italia
+                        abituros. </p>
+                </div>
+               
+                <div type="cap" n="10">
+                    <p><hi rend="bold">DE VENERATIONE</hi></p>
+                    <p>
+                        <milestone unit="par" n="2"/> Superioris Africani filium captum rex
+                        Antiochus et liberaliter habuit et maturissime ad patrem remisit, a quo
+                        finibus pellebatur.</p><p>Idem Africanus priuatus in
+                            Liter<supplied>n</supplied>ino rure egebat. Subito aduertit ad uillam
+                        uenientium multitudinem piratarum. Tecta per domesticos iussit
+                        armari.</p><p>Quod cum duces piratarum aduertissent, remotis sociis
+                        abiectisque armis orare coeperunt ne quid in eos aspere facerent aut ne ab
+                        his timerent. Venisse uti liceret his frui conspectu tanti uiri. Quod cum
+                        Scipio audisset, patefieri ianuam introuocarique eos iubet. Tum piratae
+                        tanquam templi postibus adoratis ingressi sunt, et amplexi dexteram
+                        Scipionis osculis coluerunt, ac reliquere dona tamquam deo dicata, et laeti
+                        ac beatudine suam classem conscenderunt. </p>
+                </div>
+            </div>
+            
+            
+            <div type="lib" n="III"><head>III. DE INDOLE PVERILI</head>
+                <div type="cap" n="1">
+                    <p>
+                        <milestone unit="par" n="2"/> Idem Cato, cum proscriptorum ciuium capita in
+                        atrio Sullae uideret, interrogauit Sarpedonem suum paedagogum cur tam
+                        cruentum tyrannum nullus occideret. Respondit deesse uolentibus facultatem.
+                        Dari sibi Cato ferrum a proprio pedissequo poposcit, eo quod timeri ad haec
+                        audenda non posset. Postea paedagogus numquam intromisit Catonem
+                            qui<supplied>n</supplied> prius sinum eius scrutaretur.</p><p><milestone
+                            unit="par" n="3"/> Faustus, filius Sullae, in
+                        sc<supplied>h</supplied>ola degens patrem proscribentem aperta saepe uoce
+                        laudabat, dicens idem se facturum cum potitus rerum fuisset. Audit G.
+                        Cassius condiscipulum et colapho ferit. O manum iam
+                            tyrannicidam!</p><p><milestone unit="par" n="1"/> Aemilius Lepidus uix
+                        pubes in acie hostem strauit, tum cum res militaris sola laudi erat, et
+                        ciuem protexit. Ob quae merita ex senatus consulto statua eius posita est in
+                        Captolio cum bulla atque praetexta. </p>
+                </div>
+               
+                <div type="cap" n="2">
+                    <p> <hi rend="bold">DE FORTITVDINE</hi></p>
+                    <p>
+                        <milestone unit="par" n="1"/> Horatius Cocles, cum Etrusci in urbem Romam
+                        insistenter irruerent per pontem sublicium Tiberis, in pontis fronte hosti
+                        obstitit solus, donec quod leonem erat dirueretur. Denique soluta compage
+                        per ciues, ubi accepit fragorem, cum armis se in Tiberim dedit, ac pariter
+                        et hostium uictor et fluminis superiecta Etruscorum tela
+                            uitauit.</p><p><milestone unit="par" n="2"/>Cloelia uirgo haud dissimilis
+                        facti et uirtutis. Haec post exiguum temporis interuallum per eundem alueum
+                        ruptis uinculis innatauit. Obses quip<supplied>pe</supplied> Porsennae data,
+                        uigiles fefellit et conscenso equo per Tiberim Romam rediit. Statua ei
+                        equestris ex senatus consulto data.</p><p><milestone unit="par" n="nou. 11"/>
+                        Sertorius loricatus, hastam rixam oculo gerens, Rhodanum
+                            transnatauit.</p><p><milestone unit="par" n="7"/>Gallis uictoribus duce
+                        Brenno cum sola arx et Capitolium ad tuitionem p. R. esse coepisset neque
+                        his spatiis omnis recipi turba uel nobilium ciuium posset, ex consilio senes
+                        planis recepti sunt, et electi missi iuuenes ad tutiora ut ualerent tuenda.
+                        Tum senatores cum insignibus honorum quos gesserant et sacerdotiorum,
+                        apertis ubi <gap/></p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+
+</TEI>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Rufinus, <hi rend="italic">Commentaria in metra Terentiana</hi></title>
+    <author/>
+    <respStmt>
+     <resp>transcodifica di base da rtf a xml-tei</resp>
+     <name>Piero Colombo - Step srl</name>
+    </respStmt>
+    <respStmt>
+     <resp>Testo </resp>
+     <name>Marinone, GL-CD adeguato su ed. D'Alessandro</name>
+    </respStmt>
+    <respStmt>
+     <resp>Adeguamento testo su nuova edizione</resp>
+     <name>Alice Borgna </name>
+    </respStmt>
+    <respStmt>
+     <resp>Controllo marcatura XML-TEI</resp>
+     <name>Alice Borgna </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2017</date>
+    <availability>
+     <p>
+      <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
+     </p>
+    </availability>
+    <idno>DLT000433</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Rufini Antiochensis Commentaria in metra terentiana et de compositione et
+      de numeris oratorum</hi>, edizione critica a cura di P. D'Alessandro, Hildesheim - Zürich -
+     New York 2004 (Collectanea Grammatica Latina 3), 7-20.</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    <p>
+     <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT</hi>
+    </p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni.</p>
+    <p>I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V.</p>
+    <p>Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi> :
+     grassetto, corsivo, spaziatura espansa. </p>
+    <p> Sono stati normalizzati e marcati nel modo seguente i diacritici. <lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]>
+     <lb/>
+     <hi rend="italic">loci desperati</hi> :
+     <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo† e †testo <lb/>
+     lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...] <lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p> Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p> Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
+    </p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <head>Commentarium Rufini V.D. Grammatici Antiochensis in metra terentiana</head>
+   <div type="section">
+    <p>
+     <milestone unit="page" n="p. 554 vol. VI Keil"/>
+     <milestone unit="row" n="riga 4 vol. VI Keil"/> Euanthius in commentario Terentii de fabula hoc
+     est de comoedia sic dicit: «concinna argumento, consuetudini congrua, utilis sententiis, grata
+     salibus, apta metro». <lb/> Et postea sic: «ueteres etsi ipsi quoque in metris neglegentius,
+     iambici uersus dumtaxat in secundo et quarto loco, tamen a Terentio uincuntur resolutione huius
+     metri, quantum potest, comminuti ad imaginem prosae orationis». </p>
+    <milestone unit="page" n="p. 555 vol. VI Keil"/>
+    <p> Asper in commentario Terentii sic: « <supplied><gap/></supplied> hosce uersus agere
+     coepisset: <lb/><quote type="poetry">‛itane patris ais aduentum ueritum hinc abiisse. -
+      Admodum’</quote>; et deinceps qui secuntur quadrati». </p>
+    <p> Diomedes sic: «septenarium uersum Varro fieri dicit hoc modo, cum ad iambicum trisyllabus
+     pes additur, et fit tale: <lb/> ‛quid inmerentibus noces, quid inuides amicis?’. <lb/>
+     Similiter in Terentio uersus est:<lb/>
+     <quote type="poetry">‛nam si remittent quippiam Philumenae dolores’</quote>; <lb/> et in Plauto
+     saepius tales reperiuntur». </p>
+    <p> Varro de lingua Latina ad Marcellum sic: «quare in huiusce modi locis poni oportet notam /
+     transuersam inter syllabas frequentius ad extremum uersum senarium et similes, si pro longa
+     breuem habebunt extremam, ut in hoc:<lb/>
+     <quote type="poetry">‛amicus summus meus et popularis Geta’»</quote>. </p>
+    <p> Charisius sic: «septenarium uersum fieri dicit Varro hoc modo, cum ad iambicum trisyllabus
+     pes additur, et fit tale: <lb/> ‘quid inmerentibus noces, quid inuides amicis?’; <lb/> similis
+     in Terentio uersus est: <lb/>
+     <quote type="poetry">‘nam si remittent quippiam Philumenae dolores’</quote>; <lb/> et in Plauto
+     saepius tales reperiuntur». </p>
+    <p> Bass<del>i</del>us ad Neronem de iambico sic dicit: «Iambicus autem, cum pedes etiam
+     dactylici generis adsumat, desinit iambicus uideri, nisi percussione ita moderaueris, ut, cum
+     pedem supplodes, iamb<del>ic</del>um ferias; ideoque illa loca percussionis non recipiunt alium
+     quam iambum et ei parem tribrachyn, aut alterius exhibuerint metri speciem. Quod dico exemplo
+     faciam illustrius: est in Eunucho Terentii statim in prima pagina hic uersus trimetrus:
+      <milestone unit="page" n="p. 556 vol. VI Keil"/><lb/><quote type="poetry">‘exclusit, reuocat,
+      redeam? non, si me obsecret’</quote>.</p>
+    <p> Hunc incipe ferire: uideberis heroum habere inter manus; ad summam paucis syllabis in
+     postremo mutatis totus erit herous: <lb/> ‘exclusit, reuocat, redeam? Non, si mea fiat’. </p>
+    <p> Ponam dubium secundo loco pedem, quo propius accedam: <lb/> ‘heros Atrides caelitum testor
+     fidem’». </p>
+    <p> Varro VII <quote type="prose">«clausulas quoque primum appellatas dicunt quod clauderent
+      sententiam, ut apud Accium: <lb/>
+      <quote type="poetry">‘an haec iam obliti sunt Phryges?’</quote>; <lb/> nonnumquam ab his
+      initium fit, ut apud Caecilium:<lb/>
+      <quote type="poetry">‘dei boni, quid hoc?’</quote>; <lb/> apud Terentium: <quote type="poetry"
+       >‘discrucior animi’</quote>»</quote>. </p>
+    <p> Idem Varro in eodem septimo de lingua Latina ad Marcellum sic dicit: «at in extremum
+     senarium totidem semipedibus adiectis fiet comicus quadratus, ut hic: <quote type="poetry"
+      >‘heri aliquot adulescentuli coimus in Piraeo</quote>’». </p>
+    <p> Trimetros uersus iambicos Terentii et Plauti et ceterorum comicorum et tragicorum M. Tullius
+     senarios dicit et nominat, Quintilianus et trimetros et senarios nominauit, et Flauius Caper in
+     artibus suis trimetros uersus iambicos Terentii senarios appellauit. </p>
+    <p> De metris Terentii et Plauti et ceterorum comicorum et tragicorum Victorinus sic dicit:
+     «quantum autem ad metrum comicum spectat, ut paululum euagemur, scio plurimos adfirmare
+     Terentianas uel maxime <milestone unit="page" n="p. 557 vol. VI Keil"/> fabulas metrum ac
+     disciplinam Graecarum comoediarum non custodisse, id est quas Menander Philemon, Diphilus et
+     ceteri ediderunt. Nostri enim in modulandis rhythmis seu metris ueteris comoediae scriptores
+     sequi maluerunt, id est Eupolin Cratinum Aristophanem: prologos itaque et primarum scaenarum
+     actus trimetris comprehenderunt, deinde longissimos, id est tetrametros, subdiderunt, qui
+     appellantur quadrati; postea in sequentibus uariauerunt: modo enim trimetros, modo addito
+     quadrante uel semisse posuerunt, id est semipede adiecto uel integro pede iambo uel sesquipede:
+     haec per medios actus uarie; rursus in exitu fabularum quadratos, quales diximus in secunda
+     scaena, locauerunt. Sed iidem quadrati legitimi, cum sedecim syllabis iuxta ius proprium
+     constare debeant, plerumque inueniuntur uiginti aut amplius syllabarum: hinc existimantur
+     metrum non tenuisse nec sua lege composuisse. Quod uero ad clausulas id est minuscula cola,
+     pertinet, quot genera uersuum sunt, totidem membra pro clausulis poni possunt et solent in
+     canticis magis quam deuerbiis, quae ex trimetro magis subsistunt, collocari, et praecipue apud
+     Plautum et Naeuium et Afranium. Nam hi maxime ex omnibus membris uersuum colis ab his separatis
+     licenter usi reperiuntur in clausulis». </p>
+    <p> Idem Victorinus in alio loco de iambico sic dicit: «improbatur autem apud tragicos uersus ex
+     omnibus iambis compositus: nam quo sit amplior et par tragicae dignitati, interponunt
+     frequentius locis dumtaxat imparibus pedum dactylicorum moras et spondeum. Similiter apud
+     comicos laxius spatium datum est: nam et illi loca, quae propria iambo debentur, spondeis
+     occupant dactyloque et anapaesto locis adaeque disparibus. Ita dum cotidianum sermonem imitari
+     nituntur, metra uitiant studio, non imperitia, quod frequentius apud nostros quam Graecos
+     inuenies. Genera autem iambici metri sunt duo: nam ex his alia integra, alia clauda, quae
+     scazonta seu choliamba uocant, inducuntur, quorum differentiam paenultima uersus syllaba
+     demonstrabit. Nam si breuis contigerit, erit rectum et integrum iambicum ita: <milestone
+      unit="page" n="p. 558 vol. VI Keil"/>
+     <lb/> ‘uigoris adde concitum celerem pedem’;</p>
+    <p> sin uero longa, delumbe et claudum, ut est: <lb/> ‘nouitate ductus, non ut inscius legis’. </p>
+    <p> ‘le’ longa, quae paenultima reperitur, metrum corrumpit. Huius repertor Hipponax: nam pro
+     iambo inductus trochaeus contra legem trimetri iambici metrum innouauit, quod adaeque et ex
+     spondeo contigit». </p>
+    <p> Versus Rufini grammatici de metris Terentii et Plauti et ceterorum. </p>
+    <p> Agnoscit metrum seruatque Terentius artem: <lb/> nam prologos trimetro didicit componere
+     uersu<lb/> scaenarumque actus primos pede claudit eodem, <lb/> ut sunt hi uersus prologi:
+      <lb/><quote type="poetry">‘poeta cum primum animum ad scribendum appulit, <lb/> id sibi negoti
+      credidit solum dari</quote>’:<lb/> primae scaenae similes:<lb/>
+     <quote type="poetry">‘uos istaec intro auferte, abite. Sosia, <lb/> adesdum, paucis te uolo. -
+      Dictum puta</quote>’. <lb/> Tetrametros sequitur, quem finxerat ille Boiscus, quales sunt isti
+     uersus: <lb/>
+     <quote type="poetry">‘mirabar, hoc si sic abiret et heri semper lenitas’</quote>. </p>
+    <p> Qui sequitur dimetrus est, id est pedes simplices quattuor habet: <lb/><quote type="poetry"
+      >‘uerebar quorsum euaderet’</quote>. </p>
+    <p> Alii tetrametri similes hi: <lb/><quote type="poetry">‘enimuero, Daue, nihil loci est
+      segnitiae neque socordiae’</quote>. </p>
+    <p>
+     <unclear> De iambo trochaicum archilochium unde fieri dicunt metrum.</unclear>
+    </p>
+    <milestone unit="page" n="p. 559 vol. VI Keil"/>
+    <p> creticon Archilochus supra caput addit iambi, <lb/> quales sunt isti: <lb/>
+     <quote type="poetry">‘di boni, boni quid porto? sed ubi inueniam Pamphilum?’<lb/> ‘laetus est
+      nescio quid, nihil est, nondum haec resciuit mala’</quote>. <lb/>De iambo hipponacteo.
+     <lb/></p>
+    <p> Ultimus amphibrachys uelocem claudit iambum, <lb/> aut bacchius erit finis discrimine nullo:
+     <lb/> utitur Hipponax hoc metro maximus auctor; <lb/> quales sunt isti uersus: <lb/><quote
+      type="poetry">‘ne forte inprudens faciam quod nolit sciens cauebo’</quote>. <lb/>
+     <quote type="poetry">‘Nam si remittent quippiam Philumenae dolores’</quote>. </p>
+    <p> Legitimum interdum sub scaenis ponit iambum, </p>
+    <p> qualis est iste: <lb/>
+     <quote type="poetry">‘obsequium amicos, ueritas odium parit’</quote>. </p>
+    <p> Vtitur his Plautus metris et mille poetae. </p>
+    <p> De pedibus quibus haec consistunt metra. </p>
+    <p> Dactylus aut spondeus inest uel cursor iambus, <lb/> aut anapaestus erit, positi discrimine
+     nullo <lb/> partibus in quinis. Nam post celer extat iambus, <lb/> pyrrichiusue citus finem
+     concludere possit; <lb/> ut sunt hi tales: <lb/>
+     <quote type="poetry">‘exclusit, reuocat, redeam? non, si me obsecret’</quote>.<lb/>
+     <quote type="poetry">‘quod plerique omnes faciunt adulescentuli’</quote>. </p>
+    <p> De nomine talium uersuum siue metrorum. </p>
+    <p> Graecus apemphaenonta solet memorare poeta, <lb/> inmanifesta uocant haec carmina uoce
+     Latina. <lb/> Hunc trimetron ueteres Graii cognomine dicunt, <lb/> quod pedibus iunctis hunc
+     scandere saepe solebant. </p>
+    <p> De choliambo. </p>
+    <p> Ponitur aut scazon, spondeum finis habebit, <lb/> quales sunt isti: <milestone unit="page"
+      n="p. 560 vol. VI Keil"/><lb/><quote type="poetry">‘nec fonte labra prolui caballino, <lb/>
+      nec in bicipiti somniasse Parnasso’</quote>. </p>
+    <p>De metris comicis. <lb/> Tetrametros trimetrosque capit comoedia uersus. <lb/> Tetrametrum
+     primus fertur posuisse Boiscus. <lb/> Creticon Archilochus trimetro superaddidit ingens. <lb/>
+     Amphibrachyn trimetro Hipponax supponit iambo.<lb/> Fulserat hac Plautus pulcherque Terentius
+     arte. </p>
+    <p> Terentianus de iambis fabularum sic dicit: <lb/> «culpatur autem uersus in tragoediis <lb/>
+     et rarus intrat ex iambis omnibus, <lb/> ut ille, contra qui secundo et talibus <lb/> spondeon
+     aut quem comparem receperit. <lb/> Sed qui pedestres fabulas socco premunt, <lb/> ut quae
+     locuntur sumpta de uita putes, <lb/> uitiant iambum tractibus spondiacis <lb/> et in secundo et
+     ceteris aeque locis, <lb/> fidemque fictis dum procurant fabulis, <lb/> in metra peccant arte,
+     non inscitia, <lb/> ne sint sonora uerba consuetudinis, <lb/> paulumque rursus a solutis
+     differant. <lb/> Magis ista nostri: nam fere Graecis tenax <lb/> cura est iambi uel nouellis
+     comicis <lb/> uel qui in uetusta praecluent comoedia. <lb/> Aristophanis ingens
+     <del>e</del>micat sollertia, <lb/> qui saepe metris multiformibus nouus <lb/> Archilochon arte
+     est aemulatus musica». </p>
+    <p> Sisenna in commentario Poenuli Plautinae fabulae sic: <quote type="prose">«Halonium
+       <milestone unit="page" n="p. 561 vol. VI Keil"/> Poeni dicunt deum, et producenda
+       <supplied>primam</supplied> syllabam metri gratia exigit iambus. <lb/> In Pseudulo sic:
+      «‘Malai’: <foreign xml:lang="grc">διαίρεσις</foreign> metri causa»</quote>. <lb/> Scaurus in
+     eadem fabula sic: <quote type="poetry">«<quote type="poetry">«‘nunc iam’</quote>: ‘iam’ diuisit
+      in duas syllabas»</quote>. <lb/> Sisenna in Rudente sic: <quote type="prose">«‘fuit’: extendit
+      primam syllabam metri gratia»</quote>. <lb/> Et postea sic: <quote type="prose">«habiliore
+      metro usus est, ut solet in mulierum oratione»</quote>.<lb/> Postea sic: <quote type="prose"
+      >«‘latronem’: producit metri causa»</quote>. <lb/> In Amphitrione sic: <quote type="prose"
+      >«his quattuor generibus quintum accedit de genere uersuum qui non sunt unius modi»</quote>. </p>
+    <p> In Captiuis sic: <quote type="poetry">«<quote type="poetry">hic ‘ornatu’</quote> ‘s‘
+      litteram metri causa amisit»</quote>.<lb/> In Aulularia sic: <quote type="prose">«haec scaena
+      anapaestico metro est, sed concisa sunt, ut non intellegas»</quote>. </p>
+    <p> Iuba in libro quarto sic dicit: «iamborum itaque exempla, quae maxime frequentata sunt,
+     subdidi: <lb/><quote type="poetry">«<foreign xml:lang="grc">πάτερ Λυκάμβα</foreign>,<foreign
+       xml:lang="grc"> ποῖον ἐφράσω τόδε</foreign>; <lb/>
+     </quote><quote type="poetry">«<foreign xml:lang="grc">Δαναὸς ὁ πεντἡκοντα θυγατέρων
+       πατἡρ»</foreign></quote>. <lb/>
+     <quote type="poetry"><foreign xml:lang="grc">Ξάνθῃ παλαιῇ γρη<supplied>ὶ</supplied> πολλῇσιν
+       φίλῃ</foreign></quote>, <milestone unit="page" n="p. 562 vol. VI Keil"/>
+     <lb/>
+     <quote type="poetry"><foreign xml:lang="grc">οἶδἡ ὑπὸ γὰρ ἡμῶν παρετάθη καὶ
+       Περικλέους.</foreign></quote>
+     <quote type="poetry"><foreign xml:lang="grc">ἱμάτιον ἐφόρει μαλακὸν ἐρίων
+      Σικελικῶν.</foreign></quote>, <quote type="poetry"><foreign xml:lang="grc">τὸ δὲ προσκεφάλαιόν
+       φησιν ἅμα σοὶ βούλομαι</foreign></quote>. </p>
+    <p> ‘Videre non uult Caelium Panaetius’. <lb/>‘Misera marino quae timid<supplied>ul</supplied>a
+      <del>in</del> litore’. <lb/> ‘Vallis per imas amne labens caerulo’. <lb/> ‘Armiger in Ida pede
+     uago litora petens’. <lb/>
+     <supplied><gap/></supplied> ‘Caerula nec aliter superans liquida malaciae’. <foreign
+      xml:lang="grc"> παρὰ σοφοῠ μάθε κλύων ὅσα τις ἂν καταμάθοι</foreign>. <lb/> ‘Rape faces, cape
+     puer, sopor abit, cane melos‘». </p>
+    <p> In alio loco sic: «iambicum metrum non ex solis iambis conscribitur, sed quinque suscipit
+     pedes, id est iambum tribrachyn, anapaestum, dactylum et spondeum, hoc est iambum et spondeum
+     et solutiones eorum, scilicet ex iambi solutione tribrachyn (nam si sequentem longam syllabam
+     in duas breues diuidas, fiat de iambo tribrachys); spondei autem solutiones duas, dactylum et
+     anapaestum: nam si prior syllaba spondei soluatur in duas breues, fiat anapaestus; si uero
+     secunda, dactylus fiet. Vnde intellegi datur iambica metra de iambo et spondeo fieri et de
+     eorum solutionibus». </p>
+    <p> De choliambo sic: «Est autem proceritatis eiusdem uersus qui unius pedis differentia nomen
+     amittit. Nam quod sexto loco, qui locus par est, <milestone unit="page" n="p. 563 vol. VI Keil"
+     /> non iambus, sed spondeus uel trochaeus accipitur et a longa syllaba incipit, claudum carmen
+     facit et choliambus nominatur, ut est: <lb/>
+     <foreign xml:lang="grc">ὦ Κλαζομένιοι Βούπαλος κατέκτεινεν</foreign>. <lb/><foreign
+      xml:lang="grc"> ἀκούσαθ' Ἱππώνακτος οὐ γὰρ ἀλλ‘ἥκω</foreign>. <lb/>
+     <quote type="poetry">‘O quae tenerulae comparis tenes crinem, <lb/> sudes in ista Veia latent
+      fossa’</quote>. </p>
+    <p> Quod autem binis pedibus et non singulis scanditur, uetus institutum est, </p>
+    <p> quippe Herodotus, antiquus historiae auctor, cum de heroo diceret uersu, quem singulis
+     partiri pedibus moris est, ita dixit: <quote type="poetry">‘<foreign xml:lang="grc">καί σφιν ἡ
+       Πυθίη ἀφικομ<supplied>έ</supplied>νοισιν χρῇ ἐν ἑξαμέτρῳ τόνῳ τάδε</foreign>˙ <lb/>
+      <foreign xml:lang="grc">ἀλλ‘ ὅταν ἡμίονος βασιλεὺς Μήδοισι γένηται</foreign>, <lb/>
+      <foreign xml:lang="grc"> καὶ τότε</foreign>,<foreign xml:lang="grc"> Λυδὲ
+       ποδαβρέ</foreign>,<foreign xml:lang="grc"> πολυψήφιδα παρ' Ἕρμον</foreign>, <lb/>
+      <foreign xml:lang="grc"> φεύγειν μηδὲ μένειν μηδ' αἰδεῒσθαι κακὸς εἶναι’</foreign></quote>. </p>
+    <p> Vnde apparet heroum singulis pedibus scandi etiam apud ueteres solitum; iambicum autem
+     binis: id enim ait cum de Archilocho Pario referret, qui Gygae fabulam optime complexus est,
+     ita: <quote type="poetry">‘<foreign xml:lang="grc">Γύγης</foreign>,<foreign xml:lang="grc"> τοῠ
+       καὶ Ἀρχίλοχος ὁ Πάριος κατὰ τὸν αὐτὸν χρόνον γεγονὼς ἐπεμνἡσ<supplied>θη</supplied> ἐν ἰάμβῳ
+       τριμέτρῳ</foreign>’</quote>. <lb/>Meminit autem uersus eius Herodotus, quem applicui: <lb/>
+     <quote type="poetry"><foreign xml:lang="grc">ὤ μοι τὰ Γύγεω τοῠ πολυχρύσου
+      μέλει</foreign></quote>. </p>
+    <p> Et hactenus de acatalecto trimetro dictum». </p>
+    <milestone unit="page" n="p. 564 vol. VI Keil"/>
+    <p> De octametro boiscio idem sic dicit: «octametrum catalecticum, quod appellatur boiscion: <lb/>
+     <foreign xml:lang="grc"> Βοίσκος ὁ ἀπὸ Κυζικοῠ</foreign>,<foreign xml:lang="grc"> παντὸς
+      γραφεὺς ποιήματος</foreign>, <lb/>
+     <foreign xml:lang="grc"> τὸν ὀκτάπουν εὑρὼν στίχον</foreign>,<foreign xml:lang="grc"> Φοίβῳ
+      τίθησι δῶρον</foreign>. <lb/> Boiscus is de Cyzico, noui repertor carminis: <lb/> nam primus
+      <unclear>octano pede</unclear> uersum deo dicauit». </p>
+    <p> Firmianus ad Probum de metris comoediarum sic dicit: «nam quod de metris comoediarum
+     requisisti, et ego scio plurimos existimare Terentianas uel maxime fabulas metrum non habere
+     comoediae Graecae, id est Menandri Philemonos, Diphili et ceterorum, quae trimetris uersibus
+     constat. Nostri enim ueteris comoediae scriptores in modulandis fabulis sequi maluerunt,
+     Eupolin Cratinum Aristophanem: prologos igitur et primarum scaenarum actiones trimetris
+     comprehenderunt; deinde longissimos, id est tetrametros, subdiderunt, qui appellantur quadrati;
+     in consequentibus deinceps uariauerunt: modo enim trimetros, modo addito quadrante uel semisse
+     posuerunt, id est uel semipede adiecto uel integro pede iambo uel sesquipede: haec per medios
+     actus uarie; rursus in exitu fabularum quadratos, quales diximus in secunda scaena. Sed iidem
+     quadrati, cum sedecim syllabis constare debeant, tamen plerumque fiunt uiginti aut amplius
+     syllabarum: hinc putantur metro carere nec lege ulla contineri <del>feliciter</del>».
+      <milestone unit="page" n="p. 565 vol. VI Keil"/> <lb/> Mensuram hoc est <foreign xml:lang="grc">
+      μέτρον </foreign> esse in fabulis Terentii et Plauti et ceterorum comicorum et tragicorum
+     dicunt hi: Cicero, Scaurus, Firmianus, Varro, Victorinus, Caesius Bassus, Terentianus,
+     Caecilius Vindex, Cinna, Sisenna, Diomedes, Albinus, Quintilianus, Sosipater Charisius,
+      Helen<add>i</add>us, Asper, Fl. Caper, Arruntius, Probus, Plinius, Euanthius,
+      <unclear>sacerdos qui et domatus</unclear>, Iuba. </p>
+    <p> Haec ego Rufinus collegi mente benigna <lb/> discipulisque dedi munera pulchra libens. </p>
+   </div>
+  </body>
+ </text>
+</TEI>

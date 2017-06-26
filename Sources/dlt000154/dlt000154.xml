@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Vita Terentii</title>
+    <author>Donatus, Aelius</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Raffaella Tabacco</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Simona Musso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2013</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000554</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p>Svetonio <hi rend="italic">De poetis</hi> e biografi minori, restituzione e commento di Augusto Rostagni, Biblioteca di Filologia classica diretta da G. De Sanctis e A. Rostagni, Torino 1956, pp. 28-46.</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    <p><hi rend="bold">Modifiche apportate al testo dell'edizione di riferimento </hi></p>
+    <p>Accanto alla suddivisione in sezioni identificate da lettere, adottata da Rostagni, è stata riportata la numerazione dei paragrafi in numeri arabi presente nell'edizione di Wessner.</p>
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+   
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+  
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+  <div type="cap" n="b"><p><milestone unit="par" n="1"/>Publius Terentius Afer, Carthagine natus, servivit Romae Terentio Lucano senatori, a quo ob ingenium et formam non institutus modo liberaliter, sed et mature manu missus est. Quidam captum esse existimant: quod fieri nullo modo potuisse Fenestella docet, cum inter finem secundi Punici belli et initium tertii <supplied>et</supplied> natus sit et mortuus: nec, si a Numidis vel Gaetulis captus sit, ad ducem Romanum pervenire potuisse nullo commercio inter Italicos et Afros nisi post deletam Carthaginem coepto.</p>
+   <p><milestone unit="par" n="2"/>Hic cum multis nobilibus familiariter vixit, sed maxime cum Scipione Africano et C. Laelio, quibus etiam corporis gratia conciliatus existimatur: quod et ipsum Fenestella arguit contendens utroque maiorem natu fuisse, quamvis et Nepos aequales omnes fuisse tradat et Porcius suspicionem de consuetudine per haec faciat: </p>
+   <lg><l>dum lasciviam nobilium et laudes fucosas petit,</l> 
+    <l>dum Africani vocem divinam inhiat avidis auribus,</l> 
+    <l>dum ad Philum se cenitare et Laelium pulchrum putat,</l> 
+    <l>dum se ab his amari credit, crebro in Albanum ˘ ˉ</l>
+    <l>ˉ ˘ ˉ ˘ ˉ ˘ rapitur ob florem aetatis suae.</l> 
+    <l>Post, sublatis rebus, ad summam inopiam redactus est.</l> 
+    <l>Itaque ex conspectu omnium abit Graeciae in terram ultimam.</l> 
+    <l>Mortuust Stymphali, Arcadiae oppido. Nil Publio</l> 
+    <l>Scipio tum profuit, nil Laelius, nil Furius,</l> 
+    <l>tres per idem tempus qui agitabant nobiles facillime.</l> 
+    <l>Eorum ille opera ne domum quidem habuit conducticiam,</l> 
+    <l>saltem ut esset quo referret obitum domini servulus.</l></lg>
+   <p><milestone unit="par" n="3"/>Scripsit comoedias sex. Ex quibus primam Andriam cum aedilibus daret, iussus ante Caecilio recitare ad cenantem cum venisset, dicitur initium quidem fabulae, quod erat contemptiore vestitu, subsellio iuxta lectulum residens legisse, post paucos vero versus invitatus ut accumberet cenasse una, dein cetera percucurrisse non sine magna Caecilii admiratione. Et hanc autem et quinque reliquas aequaliter populo probavit, quamvis Volcatius <supplied>in</supplied> denumeratione omnium ita scribat:</p>
+   <l>sumetur Hecyra sexta, ex his fabula.</l>
+   <p>Eunuchus quidem bis die acta est meruitque pretium, quantum nulla antea cuiusquam comoedia, id est octo milia nummorum. Propterea summa quoque titulo ascribitur.</p> 
+   <p>
+    <supplied><gap/></supplied>
+   </p>
+   <p>Nam Adelphorum principium Varro etiam praefert principio Menandri.</p> 
+   <p><milestone unit="par" n="4"/>Non obscura fama est adiutum Terentium in scriptis a Laelio et Scipione eamque ipse auxit numquam nisi leviter refutare conatus, ut in prologo Adelphorum:</p>
+   <lg><l>nam quod isti dicunt malevoli, homines nobiles</l> 
+    <l>hunc adiutare assidueque una scribere:</l> 
+    <l>quod illi maledictum vehemens existimant,</l> 
+    <l>eam laudem hic ducit maximam, quom illis placet,</l> 
+    <l>qui vobis universis et populo placent,</l> 
+    <l>quorum opera in bello, in otio, in negotio</l> 
+    <l>suo quisque tempore usus est sine superbia.</l></lg> 
+   <p>Videtur autem levius <supplied>se</supplied> defendisse, quia sciebat et Laelio et Scipioni non ingratam esse hanc opinionem, quae tum magis et usque ad posteriora tempora valuit. C. Memmius in oratione pro se ait: «P. Africanus, qui a Terentio personam mutuatus, quae domi luserat ipse, nomine illius in scaenam detulit».</p> 
+   <p>Nepos auctore certo comperisse se ait C. Laelium quondam in Puteolano Kalendis Martiis admonitum ab uxore, temperius ut discumberet, petisse ab ea ne interpellaretur seroque tandem ingressum triclinium dixisse non saepe in scribendo magis sibi successisse: deinde rogatum ut scripta illa proferret, pronuntiasse versus, qui sunt in Heautontimorumeno:</p> 
+   <l>satis pol proterve me Syri promissa huc induxerunt.</l> 
+   <p>Santra Terentium existimat, si modo in scribendo adiutoribus indiguerit, non tam Scipione et Laelio uti potuisse, qui tunc adulescentuli fuerint, quam C. Sulpicio Gallo, homine docto et quo consule Megalensibus ludis initium fabularum dandarum fecerit, vel Q. Fabio Labeone et M. Popillio, consulari utroque ac poeta. Ideo ipsum non iuvenes designare, qui se adiuvare dicantur, sed viros, quorum operam et in bello et in otio et in negotio populus sit expertus.</p> 
+   <p><milestone unit="par" n="5"/>Post editas comoedias, nondum quintum atque vicesimum egressus annum, animi causa et vitandae opinionis qua videbatur aliena pro suis edere, seu percipiendi Graecorum instituta moresque, quos non perinde exprimeret in scriptis, egressus <supplied>urbe</supplied> est neque amplius rediit.</p> 
+   <p>De morte eius Volcatius sic tradit:</p>
+   <lg><l>sed ut Afer populo sex dedit comoedias,</l>
+    <l>iter hinc in Asiam fecit. Vt nauem semel</l> 
+    <l>conscendit, visus numquam est: sic vita vacat.</l></lg>
+   <p>Q. Cosconius redeuntem e Graecia perisse in mari dicit cum C et VIII fabulis conversis a Menandro.</p>
+   <p>Ceteri mortuum esse in Arcadia Stymphali sive Leucadiae tradunt, Cn. Cornelio Dolabella M. Fulvio Nobiliore consulibus, morbo aut implicitum ex dolore ac taedio amissarum sarcinarum, quas in nave praemiserat, ac simul fabularum quas novas fecerat.</p> 
+   <p><milestone unit="par" n="6"/>Fuisse dicitur mediocri statura, gracili corpore, colore fusco.</p> 
+   <p>Reliquit filiam, quae post equiti Romano nupsit: item hortulos XX iugerum via Appia ad Martis <del>villam</del>. Quo magis miror Porcium scribere: «Scipio nihil ei profuit, nihil Laelius, nihil Furius: eorum ille opera ne domum quidem habuit conducticiam, saltem ut esset quo referret obitum domini seruulus».</p>
+   <p><milestone unit="par" n="7"/>Hunc Afranius quidem omnibus comicis praefert scribens in Compitalibus:</p> 
+   <l>Terenti non consimilem dicas quempiam</l> 
+   <p>Volcatius autem non solum Naevio et Plauto et Caecilio, sed Licinio quoque et Atilio postponit.</p> 
+   <p>Cicero in Limone hactenus laudat:</p> 
+   <lg><l>tu quoque, qui solus lecto sermone, Terenti,</l> 
+    <l>conversum expressumque latina uoce Menandrum</l> 
+    <l>in medium nobis sedatis motibus effers,</l> 
+    <l>quiddam come loquens atque omnia dulcia dicens.</l></lg>
+   <p>Item C. Caesar:</p> 
+   <lg><l>tu quoque, tu in summis, o dimidiate Menander,</l> 
+    <l>poneris, et merito, puri sermonis amator.</l> 
+    <l>Lenibus atque utinam scriptis adiuncta foret vis,</l> 
+    <l>comica ut aequato virtus polleret honore</l> 
+    <l>cum Graecis, neve hac despectus parte iaceres!</l> 
+    <l>Vnum hoc maceror ac doleo tibi deesse, Terenti.</l></lg>
+  </div><div type="cap" n="c">
+   <p><milestone unit="par" n="8"/>Haec Suetonius Tranquillus.</p>
+   <p>Nam duos Terentios poetas fuisse scribit Maecius, quorum alter Fregellanus fuerit Terentius Libo, alter libertinus Terentius Afer patria, de quo nunc loquimur.</p>
+   <p><milestone unit="par" n="9"/>Scipionis fabulas edidisse Terentium Valgius in actione ait:</p> 
+   <lg><l>tuae, <supplied>Terenti</supplied>, quae vocantur fabulae</l> 
+    <l>cuiae sunt? non has, iura qui populis dabat,</l> 
+    <l>Summo <supplied>ille</supplied> honore affectus, fecit fabulas?</l></lg>
+   <p><milestone unit="par" n="10"/>Duae ab Apollodoro translatae esse dicuntur comico, Phormio et Hecyra: quattuor reliquae a Menandro. Ex quibus magno successu et pretio stetit Eunuchus fabula, Hecyra, saepe exclusa, vix acta est.</p>
+  </div>
+  </body>
+ </text>
+
+</TEI>

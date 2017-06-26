@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>De ethopoeia</title>
+    <author>Emporius Rhetor</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Beatrice Strona</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2015</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000164</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Rhetores Latini Minores</hi>, ex codicibus maximam partem primum adhibitis emendabat Carolus Halm, Lipsiae 1863, 561-563 (Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana)</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+
+    <p><hi rend="bold">Note di trascrizione e codifica specifiche del file </hi></p>
+    <p>L'edizione di riferimento utilizza tre modalità grafiche diverse: corpo di testo, corpo
+     maggiorato e corsivo. Il corpo di testo è rimasto inalterato anche nell'edizione digitale; il
+     corpo maggiorato è stato reso con il maiuscolo; il corsivo è stato reso con il grassetto.</p>
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div><head>DE ETHOPOEIA.</head>
+    <p>Etsi <hi rend="expanded">adlocutio</hi> non est officii oratorum plena materies, est tamen vel materiae portio vel omnium praeparatio. Adfectus etenim inesse omnibus orationibus debet, cuius imitandi prima hic exercitatio datur. Denique a nonnullis haec materia <hi rend="expanded">ethopoeia</hi> nominatur, quod ethos, id est adfectum dicentis effingat. Dat praeterea et eligendi stili disciplinam. Nam cum sint tres figurae, vasta, humilis, temperata, quas Graeci characteres vocant, Asianum, Atticum, Rhodium, hinc aptam materiae, sensuum, sententiarum verborumque formam accommodare meditamur. Aliter enim orationem vel incipit vel exequitur iratus, aliter timens, aliter gaudens, aliter tristis, aliter senex, aliter iuvenis, aliter vir, aliter femina. Refert in dicendo, deus an homo sit, lascivus an tetricus, ignavus an fortis, doctus an rusticus. Sit igitur alacris laetantis oratio, tumens vani, brevis et concisa properantis, meretriculae mollis et blanda, matronae seria, senum gravis, temeraria pueri, misera humilis, longa et multa ambiens confitentis, parasiti faceta, matris anxia, incondita rustici, oratoris ornata. Postremo in omnibus dictionibus mores eius, cuius verba fingenda sunt, exprimamus. Quod genus adlocutionis, ut supra diximus, ethopoeia nominatur.</p>
+    <p>Est sane praeter ethos et <hi rend="expanded">pathopoeia</hi>, qua imitamur adfectum non naturalem, sed incidentem. Quam materiam ab ethopoeia prave distinguunt, qui putant esse ethicas, quae laetos fingant, patheticas vero, quae tristium sint, cum ideo hoc sit pathetica nomine nuncupata, quod accidens alter affectus naturalem illum morem saepe subvertat, patiaturque natura velut vim quandam, cum is qui loquitur a suo loquendi more declinat, ut cum Hercules, cuius constans fuit semper oratio, parricidium suum luget, vel cum apud Homerum Achilles semper minax circumventum se a flumine gemit, aut cum Mezentius semper crudelis vel Turnum precatur, ut se suscipiat, vel Aenean, ut sibi tribuat sepulturam. Denique ethos personam sequitur, pathos causam. Igitur cum incurrens praeponderabit adfectus, tum vocabitur quidem pathopoeia, nec tamen plene adfectus, qui ingeneratus est, deseretur. Nam neque ipse Mezentius sic precatur ut Turnus, nec sic vulnere suo Mars maeret ut Venus. Valeat ergo interdum mos ingenitus, dumtamen eum, qui supervenit, propensius exequamur, si plus in materiem vis ipsius praevalebit: sin mediocris sit, qui accessit adfectus, leviter inseratur. Tertium genus est ethopoeiae, quod rei gerendae causa tantum inducitur, quale est illud: <hi rend="expanded">vade age, nate, voca Zephyros: et vidimus, o cives, Diomedem</hi>: quae materies <hi rend="expanded">pragmatica</hi> nominatur. Raro tamen ita ponitur, ut non vel leviter aliquis illic adfectus operetur, sicut in hac operam suam sedulo commendat Venulus, exlollit Diomedem. Est et illud quartum genus adlocutionis, quod ab oratoribus magnis in causis gravioribus et tragicis frequeiilcr adsumitur, cum mutis damus verba et fingitur persona quae non est, sicuti M. Tullius verba provinciae Siciliae vel rei publicae loquentis inducit: id <hi rend="expanded">prosopopoeia</hi> nominatur.</p>
+    <p>Perspecto igitur genere materiae et formato habitu mentis ad speciem dicendi principium quaerendum est. Sumitur autem aut de personis aut de re aut de tempore aut de loco. De personis ante omnia de nostra, vel de eius apud quem sermonem habemus, vel de illius de quo loquimur. De nostra, ut est apud Vergilium in verbis Iunonis: <hi rend="expanded">mene incepto desistere victam?</hi> vel in Turni verbis: <hi rend="expanded">equidem merui nec deprecor, inquit</hi>. De persona eius apud quem loquimur, ut est in eodem: <hi rend="expanded">Aeole, namque tibi</hi>: et illud: <hi rend="expanded">o fama ingens</hi>. De persona de qua loquimur, ut: <hi rend="expanded">Iunonis gravis ira</hi>, et illud: <hi rend="expanded">Exulibusne datur?</hi> De re, ut est illud: <hi rend="expanded">non haec sollemnia nobis has ex more dapes</hi>: et illud: <hi rend="expanded">maxima res</hi>. De tempore, ut: <hi rend="expanded">dum bello Argolici</hi>, et illud: <hi rend="expanded">venisti tandem</hi>. De loco: <hi rend="expanded">nulli certa domus.</hi></p>
+    
+    <p>Nec tamen haec in omnibus materiis universa ponenda sunt, sed universa reputanda, ut tractatis omnibus, id quod sit aptissimum, deligatur: quamquam aliquando et duas res ex istis aut etiam tres recipit una materies, raro tamen, ut est in Ilionei verbis. A pensona ad quam loquimur: <hi rend="expanded">o regina novam</hi>. Ab ea quae loquitur, ut est: <hi rend="expanded">Troes te miseri</hi>. De re: <hi rend="expanded">non nos aut ferro Libycos populare</hi>.</p>
+    <p>Repertis ergo principiis apteque conscriptis ipsa materia per temporum ordinem digeratur. Est enim secundum naturam, ut primum, quae gesta sunt, explicemus, deinde, quae nunc geruntur, ad ultimum, quae gerenda sunt. In qua divisione discrimen est, ne omnia per narrationem ac fabulam transigantur. Itaque id solum deligemus, quod pertinebit ad rem, quac themate continetur. Sane et hic cogitemus non omnia omnes ferre materias, sed alias uberius, alias parcius, nonnullis pleraque deesse. Sit ergo exemplo ex eodem Vergilio sermo Iunonis, cum Aenean in Italia videret. Est enim persona, de qua loquitur: <hi rend="expanded">heu stirpem invisam</hi>. Deinde de praeterito: <hi rend="expanded">num Sigaeis occumbere campis</hi>, et deinceps usque illud: <hi rend="expanded">quid vasta Charybdis profuit?</hi> De praesenti: <hi rend="expanded">optata potiuntur Troes harena</hi>. De futuro: <hi rend="expanded">non dabitur regnis, esto, prohibere Latinis, et cetera quae sequuntur</hi>.</p>
+   </div>
+   
+
+
+  </body>
+ </text>
+
+</TEI>

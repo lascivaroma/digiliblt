@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Augustini Ars Breuiata </title>
+        <author/>
+        <respStmt>
+          <resp>transcodifica di base da rtf a xml-tei</resp>
+          <name>Piero Colombo - Step srl</name>
+        </respStmt>
+        <respStmt>
+          <resp>Adeguamento testo su nuova edizione</resp>
+          <name>Alice Borgna </name>
+        </respStmt>
+        <respStmt>
+          <resp>Controllo marcatura XML-TEI</resp>
+          <name>Alice Borgna </name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>digilibLT</publisher>
+        <pubPlace>Vercelli</pubPlace>
+        <date>2017</date>
+        <availability>
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
+          </p>
+        </availability>
+        <idno>DLT000573</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Abrégé de la grammaire de Saint Augustin. Texte établi, introduit et commenté par Guillaume Bonnet, Paris 2013</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+      <projectDesc>
+        <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+        <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>
+          <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT</hi>
+        </p>
+        <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+          l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni,
+          note e commenti e ogni altro contenuto redatto da editori moderni.</p>
+        <p>I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+          correttezza di trascrizione</p>
+        <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+          distinzione u/v minuscole.</p>
+        <p>Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+        <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi> :
+          grassetto, corsivo, spaziatura espansa. </p>
+        <p> Sono stati normalizzati e marcati nel modo seguente i diacritici. <lb/> espunzioni:
+          <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]>
+          <lb/>
+          <hi rend="italic">loci desperati</hi> :
+          <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo† e †testo
+          <lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...] <lb/> lacuna integrata
+          dagli editori: <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+        </p>
+        <p> Sono stati marcati i termini in lingua greca
+          <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+        </p>
+        <p> Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+            target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+            >Note di trascrizione e codifica di testi latini tardoantichi
+            [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latino</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body> <div type="section">
+      <div type="paragraph" n="1">
+        <head>Ars Sancti Augustini pro fratrum mediocritate breviata</head>
+        <p> Latinitas est obseruatio incorrupte loquendi secundum Romanam linguam. constat autem
+          modis tribus, id est ratione, auctoritate, consuetudine; ratione secundum artem,
+          auctoritate secundum eorum scripta, quibus ipsa est auctoritas adtributa, consuetudine
+          secundum ea quae loquendi usu placita adsumptaque sunt </p>
+      </div></div>
+      <div type="section">
+        <head>DE PARTIBVS ORATIONIS</head>
+        <div type="paragraph" n="2">
+          <p> Partes orationis sunt octo: nomen, pronomen, verbum, adverbium, participio,
+            coniuncitio, praepositio. interiectio. </p>
+        </div>
+      </div>
+      <div type="section">
+        <head>DE NOMINE</head>
+        <div type="paragraph" n="3">
+          <p> Nomen est pars orationis cum casu sine tempore significans plene quae aliquo genere
+            quod sexum adtinet enuntiantur. Quamquam enim genus neutrum nec masculinum nec femininum
+            sit, tamen quia negato utroque sexu signatur, ex eo ipso habet causam ut inter genera
+            nominaretur. Nomini accidunt multa sed animadversione maxime digna sunt qualitas, genus,
+            numerus, comparatio, figura, casus. </p>
+        </div>
+        <div type="paragraph" n="4">
+          <p> In qualitate consideratur utrum sit proprium an appellativum. Proprium est quaecumque
+            res a ceterarum omnium quantum potest commune secernitur; appellativum quod commune cum
+            multis est. Nam <hi rend="italic">civitas</hi> multarum civitatum commune nomen est, et
+            ideo appellativum est. «Roma» vero cum dicimus a ceterarum eam commune seiungimus;
+            itaque hoc nomen proprium est. Sic et <hi rend="italic">fluvius</hi> appellativum <hi
+              rend="italic">Tiberis</hi> proprium, et <hi rend="italic">homo</hi> appellativum <hi
+              rend="italic">Cicero</hi> proprium. </p>
+        </div>
+        <div type="paragraph" n="5">
+          <p> Genera nominum simplicia tria sunt: masculinum ut <hi rend="italic">vir</hi>,
+            femininum ut <hi rend="italic">mulier</hi>, neutrum ut <hi rend="italic">scrinium</hi>.
+            Ex his varie coniunctis fiunt alia tria: commune utriusque sexus ut <hi rend="italic"
+              >hic</hi> et <hi rend="italic">haec homo</hi>, commune ex masculino et neutro ut <hi
+              rend="italic">hic</hi> et <hi rend="italic">hoc victor</hi>: dicimus enim «victor
+            iuvenis, victor numen» (feminino enim <hi rend="italic">victrix</hi> facit); commune
+            omnium generum, ut <hi rend="italic">hic</hi> et <hi rend="italic">haec</hi> et <hi rend="italic">hoc felix</hi>. Dicuntur quaedam
+            etiam promiscua, quando uno genere uterque sexus includitur. Nam «hic passer» dicitur,
+            sive masculus sive sit femina, et «haec aquila» etiamsi non sit femina. Sed ideo non
+            adnumerantur quia vel masculino vel feminino generi adtributa sunt. </p>
+        </div>
+        <div type="paragraph" n="6">
+          <p> Numeri sunt duo: singularis ut <hi rend="italic">hic vir</hi>, pluralis ut <hi rend="italic">hi viri</hi>.</p>
+        </div>
+        <div type="paragraph" n="7">
+          <p> Comparationis gradus tre sunt: positivus ut <hi rend="italic">iustus</hi>, comparativus ut
+              <hi rend="italic">iustior</hi>, superlativus ut <hi rend="italic">iustissimus</hi>. Per positivum fit comparatio
+            ut aequalitas quaedam ostendatur, ut cum dicimus «tam est hic <hi rend="italic">iustus </hi>quam
+            ille», et ideo nominativum casum regit. In comparativo autem et superlativo non est
+            aequalitas sed aliud alii praeponitur, ita tamen ut comparativus ablativum casum regat —
+            aliquando etiam genetivum pluralem regit, ut cum de tribus episcopis interrogamus «quis
+            illorum prior est?», unum de ipsis tribus priorem volentes cognoscere. Si autem dicamus
+            «quis illis prior est?», nescioquam personam quartam videmur inquirere quae illis tribus
+            prior est. Vnde etiam Paulus apostolus cum diceret: «manent autem fides spes caritas
+            tria haec», quoniam caritas inter tria iam connumerata fuerat: «maior autem horum
+            caritas». Nam si diceret: «maior autem his caritas», aliam caritatem quasi quartum
+            aliquid inducere videretur, quod tribus dinumeratis, id est fidei et spei et caritati,
+            praeponeret. Cuius rationis minus capaces quidam in aliquantis codicibus emendaverunt
+              <hi rend="italic">maior autem his est caritas</hi> —, ut cum dicimus «iustior hic illo», et
+            nominativum ut cum dicimus «iustior hic quam ille». Deinde non solum suo generi, velut
+            «velocior homo homine», sed alieno etiam comparatur, ut «velocior lepus homine»; et
+            singularis plurali, ut «hic fortior est illis» aut «fortior est quam illi», et pluralis
+            singulari, ut «hi fortiores illo» vel «quam ille». Superlativus vero et tantummodo suo
+            generi comparatur et non nisi per genetivum pluralem: non enim possumus dicere
+            «velocissimus equus» nisi equorum aut «sapientissimum homo» nisi hominum, et similia.
+            Sive singularis plurali comparatur ut ea quae dicta sunt, sive utrumque plurale sit, ut
+            «fortissimi homines hominum». Aliquando etiam genetivum singularem sequitur, cum idem
+            genetivus sono quidem singularis, intellectu autem pluralis est, ut cum dicimus
+            «fortissimus gentis illius», unde etiam ille dixit: <lb/>
+            <hi rend="italic">O Danaum fortissime gentis Tydide</hi>.</p>
+        </div>
+        <div type="paragraph" n="8">
+          <p> Figura nominum est per quam consideratur utrum simplex an compositum nomen sit. Est
+            autem compositum nomen cum fit unum ex duabus vel pluribus partibus orationis, ut cum
+            dicimus <hi rend="italic">ineptus </hi>vel <hi rend="italic">inexpugnabilis</hi>. Nam illud de duabus, hoc ex tribus
+            partibus orationis confectum est. Sane particulae quibus nomina componuntur aut integrae
+            sunt omnes, aut corruptae omnes, aut partim integrae partim corruptae. Corruptas dico
+            quando per ipsam compositionem integritatem amittunt, nec ex eo tamen minus latinum
+            nomen efficiunt. Nam cum <hi rend="italic">ineptus</hi> dicitur, <hi rend="italic">in</hi> utique Latinum est, et
+            tamen <hi rend="italic">eptus</hi> Latinum non est: ex eo enim quod est <hi rend="italic">aptus</hi> corruptum est.
+            Si quis itaque non diceret <hi rend="italic">ineptus</hi> sed <hi rend="italic"> inaptus,</hi> eo minus Latinum
+            nomen esset quod corruptum nihil haberet.</p>
+        </div>
+        <div type="paragraph" n="9">
+          <p> Casus est gradus quidam declinationis mutatione novissimae syllabae. Casus sunt sex:
+            nominativus, genetivus, dativus, accusativus, vocativus, ablativus. Nominativus est cui
+            praeponi potest <hi rend="italic">hic </hi>aut <hi rend="italic">haec</hi> aut <hi rend="italic">hoc</hi>. Genetivus cui praeponi
+            potest <hi rend="italic">huius</hi>. Dativus cui praeponi potest <hi rend="italic">huic</hi>. Accusativus cui
+            praeponi potest <hi rend="italic">hunc, hanc</hi> vel <hi rend="italic">hoc</hi>. Vocativus cui praeponi potest
+              <hi rend="italic">o</hi>. Ablativus cui praeponi potest <hi rend="italic">ab hoc</hi>, vel <hi rend="italic">ab hac</hi> vel
+              <hi rend="italic">ab hoc</hi>. Hoc autem in numero singulari: nam in plurali <hi rend="italic">hi</hi> et
+              <hi rend="italic">hae</hi> et <hi rend="italic">haec</hi> in nominativo praeponitur, genetivo <hi rend="italic">horum </hi>et
+              <hi rend="italic">harum </hi>et <hi rend="italic">horum</hi>, dativo <hi rend="italic">his</hi>, accusativo<hi rend="italic"> hos</hi> vel
+              <hi rend="italic">has</hi> vel <hi rend="italic">haec</hi>, vocativo <hi rend="italic">o</hi>, ablativo <hi rend="italic">ab his</hi>. Sunt
+            qui alium casum velint adiungere, quem septimum vocant, ut cum dicimus «virtute beatus»
+            et «navi vectus», id est «per virtutem» et «per navem» et similia. </p>
+        </div>
+        <div type="paragraph" n="10">
+          <p> Ergo nomina hoc modo declinantur: <hi rend="italic">Tullius </hi>nomen proprium generis masculini
+            numeri singularis figurae simplicis casus nominativi quod declinabitur sic: nominativo
+            singulari <hi rend="italic">hic Tullius</hi>, genetivo <hi rend="italic">huius Tulli</hi>, dativus <hi rend="italic">huic
+              Tullio</hi>, accusativo <hi rend="italic">hunc Tullium</hi>, vocativo <hi rend="italic">o Tulli</hi>, ablativo
+              <hi rend="italic">ab hoc Tullio</hi>; et pluraliter nominativo <hi rend="italic">hi Tullii</hi>, genetivo
+              <hi rend="italic">horum Tulliorum</hi>, dativus <hi rend="italic">his Tulliis</hi>, accusativo <hi rend="italic">hos
+              Tullios</hi>, vocativus <hi rend="italic">o Tullii</hi>, ablativuus <hi rend="italic">ab his Tulliis</hi>.</p>
+        </div>
+        <div type="paragraph" n="11">
+          <p> Femininum hoc modo: <hi rend="italic">Tullia </hi>nomen proprium generis feminini numeri singularis
+            figurae simplicis casus nominativi et vocativi quod declinabitur sic: nominativo
+            singulari <hi rend="italic">haec Tullia</hi>, genetivo <hi rend="italic">huius Tulliae</hi>, dativo <hi rend="italic">huic
+              Tulliae</hi>, accusativo <hi rend="italic">hanc Tulliam</hi>, vocativo <hi rend="italic">o Tullia</hi>, ablativo
+              <hi rend="italic">ab hac Tullia</hi>; et pluraliter nominativo <hi rend="italic">hae Tulliae</hi>, genetivo
+              <hi rend="italic">harum Tulliarum</hi>, dativo <hi rend="italic">his Tulliis</hi>, accusativo <hi rend="italic">has
+            Tullias</hi>, vocativo <hi rend="italic">o Tulliae</hi>, ablativo <hi rend="italic">ab his Tulliis</hi>. </p>
+        </div>
+        <div type="paragraph" n="12">
+          <p>Neutrum hoc modo: <hi rend="italic">scrinium</hi> nomen appellativum generis neutri numeri singularis
+            figurae simplicis casus nominativi accusativi et vocativi, quod declinabitur sic:
+              <hi rend="italic">hoc scrinium, huius scrinii, huic scrinio, hoc scrinium, o scrinium, ab hoc
+              scrinio</hi>. Pluraliter: <hi rend="italic">haec scrinia, horum scriniorum, his scriniis, haec
+              scrinia, o scrinia, ab his scriniis</hi>. </p>
+        </div>
+        <div type="paragraph" n="13">
+          <p>Commune generis masculini et feminini hoc modo: <hi rend="italic">homo</hi> nomen appellativum,
+            generis masculini et feminini, numeri singularis , figurae simplicis, casus nominativi
+            et vocativi, quod declinabitur sic: nominativo <hi rend="italic">hic</hi> et <hi rend="italic">haec homo</hi>,
+            genetivo <hi rend="italic">huius hominis</hi>, dativo <hi rend="italic">huic homini</hi>, accusativo <hi rend="italic">hunc</hi>
+            et <hi rend="italic">hanc hominem</hi>, vocativo<hi rend="italic"> o homo</hi>, ablativo <hi rend="italic">ab hoc</hi> et <hi rend="italic">ab
+              hac homine</hi>, et pluraliter nominativo <hi rend="italic">h</hi>i et <hi rend="italic">hae homines</hi>,
+            genetivo <hi rend="italic">horum </hi>et <hi rend="italic">harum hominum</hi>, dativo <hi rend="italic">his hominibus</hi>,
+            accusativo <hi rend="italic">hos</hi> et <hi rend="italic">has homines</hi>, vocativo <hi rend="italic">o homines</hi>, ablativo
+              <hi rend="italic">ab his hominibus</hi>.</p>
+        </div>
+        <div type="paragraph" n="14">
+          <p>Commune ex masculino et neutro hoc modo:<hi rend="italic"> infector</hi> nomen appellativum, generis
+            masculini et neutri, numeri singularis, figurae compositae, casus nominativi et
+            vocativi, quod declinabitur sic: numero singulari et casu nominativo <hi rend="italic">hic</hi> et
+              <hi rend="italic">hoc infector</hi>, deinceps <hi rend="italic"> huius infectoris, huic infectori, hanc
+              infectorem</hi> et <hi rend="italic">hoc infector, o infector, ab hoc infectore</hi>, et pluraliter
+              <hi rend="italic">hi infectores</hi> et <hi rend="italic">haec infectricia, horum infectorum, his infectoribus,
+              hos infectores</hi> et <hi rend="italic">haec infectricia, o infectores</hi> et <hi rend="italic">infectricia, ab
+              his infectoribus</hi>. </p>
+        </div>
+        <div type="paragraph" n="15">
+          <p>Commune generis omnis hoc modo: <hi rend="italic">prudens</hi> nomen appellativum, generis omnis,
+            numeri singularis, figurae simplicis, casus nominativi et vocativi, quod declinabitur
+            sic: <hi rend="italic">hic</hi> et <hi rend="italic">haec</hi> et <hi rend="italic">hoc prudens, huius prudentis, huic prudenti,
+              hunc</hi> et<hi rend="italic"> hanc prudentem</hi> et <hi rend="italic">hoc prudens o prudens, ab hoc</hi> et
+              <hi rend="italic">ab hac</hi> et<hi rend="italic"> ab hoc prudente</hi>; et pluraliter: <hi rend="italic">hi</hi> et <hi rend="italic">hae
+              prudentes</hi> et h<hi rend="italic">aec prudentia, horum</hi> et <hi rend="italic">harum </hi>et <hi rend="italic">horum
+              prudentium, his prudentibus, hos</hi> et <hi rend="italic">has prudentes</hi> et <hi rend="italic">haec prudentia,
+              o prudentes</hi> et <hi rend="italic">prudentia, ab his prudentibus</hi>.</p>
+        </div>
+        <div type="paragraph" n="16">
+          <p>Sunt nonnulla nomina quae per casus non flectuntur sed tamen per casus currunt.
+            Quaecumque autem generis omnis sunt et declinantur sic: <hi rend="italic">nequam </hi>nomen
+            appellativum, generis omnis, numeri utriusque figurae simplicis, casus omnis quod
+            declinabitur sic: nominativo <hi rend="italic">hic</hi> et <hi rend="italic">haec</hi> et <hi rend="italic">hoc nequam</hi>, et
+            deinceps <hi rend="italic">huius nequam, huic nequam, hunc</hi> et <hi rend="italic">hanc</hi> et <hi rend="italic">hoc nequam, o
+              nequam, ab hoc</hi> et <hi rend="italic">ab hac</hi> et <hi rend="italic">ab hoc nequam</hi>; et pluraliter:
+              <hi rend="italic">hi</hi> et <hi rend="italic">hae </hi>et <hi rend="italic">haec nequam, horum</hi> et<hi rend="italic"> harum</hi> et
+              <hi rend="italic">horum nequam, his nequam, hos</hi> et <hi rend="italic">has</hi> et <hi rend="italic">haec nequam, o nequam,
+              ab his nequam</hi>. </p>
+        </div>
+        <div type="paragraph" n="17">
+          <p>Sunt item quae neque flecti possunt, neque per casus currunt, sed in uno aliquo casu
+            aut aliquibus, nec tamen omnibus casibus manent, ut <hi rend="italic">instar</hi>, generis neutri et
+            numeri tantum singularis, et casus tantum nominativi et vocativi; et <hi rend="italic">Iuppiter</hi>
+            nomen proprium generis masculini, numeri tantum singularis, casus tantum nominativi et
+            vocativi: et <hi rend="italic">sponte</hi> nomen appellativum, generis feminini, numeri tantum
+            singularis, casus tantum ablativi. Illa quae currunt per casus sed non flectuntur
+            inflexibilia, ista vero quae neque flectuntur neque per casus currunt indeclinabilia
+            dicuntur.</p>
+        </div>
+        <div type="paragraph" n="18">
+          <p>Omnis ablativus casus singularis, exceptis quibusdam inflexibilibus et
+            indeclinabilibus, aliqua littera quinque vocalium terminatur. Quaecumque igitur nomina
+            ablativo casu singulari <hi rend="italic">a</hi> vel <hi rend="italic">o</hi> littera terminantur, genetivum
+            pluralem in <hi rend="italic">rum</hi> syllabam mittunt, dativum et ablativum in <hi rend="italic">is</hi> ut <hi rend="italic">ab
+              hac docta, harum doctarum, his</hi> et a<hi rend="italic">b his doctis</hi>. Item <hi rend="italic">ab hoc docto</hi>,
+            <hi rend="italic">horum doctorum, his</hi> et <hi rend="italic">ab his doctis</hi>. Quaecumque ablativo caso singulari <hi rend="italic">i</hi> littera
+            terminantur vel <hi rend="italic">u</hi> vel <hi rend="italic">e</hi> correpta genetivum pluralem in <hi rend="italic">um</hi> syllabam mittunt, dativum et
+            ablativum in <hi rend="italic">bus</hi>, ut <hi rend="italic">ab hac puppi, harum puppium, his</hi> et <hi rend="italic">ab his puppibis</hi>, et <hi rend="italic">ab hoc
+            fluctu, horum fluctuum, his</hi> et <hi rend="italic">ab his fluctibus</hi>, et <hi rend="italic">ab hac mente, harum mentium, his</hi> et
+            <hi rend="italic">ab his mentibus</hi>. </p>
+        </div>
+        <div type="paragraph" n="19">
+          <p>Si autem nomen ablativo casu singulari e littera producta terminatur, genetivum
+            pluralem in <hi rend="italic">rum </hi>syllabam mittit, dativum et ablativum in <hi rend="italic">bus</hi> ut <hi rend="italic">ab hac specie, harum
+            specierum, his</hi> et <hi rend="italic">ab his speciebus</hi>. Intellegitur autem utrum produci debeat ablativus
+            exiens in <hi rend="italic">e</hi>, si nominativus singularis in <hi rend="italic">es</hi> et genetivus in <hi rend="italic">ei</hi> mittitur, ut <hi rend="italic">species
+            speciei, res rei, spes spei</hi>, et similia.</p>
+        </div>
+        <div type="paragraph" n="20">
+          <p>Sane istae regulae a casu ablativo ductae, non servantur quando sexus discernendus est.
+            Nam cum <hi rend="italic">ab hac filia</hi> dicatur, dativo tamen et ablativo plurali <hi rend="italic">filiabus</hi> dicendum est, ut
+            a maribus discernantur; ita et <hi rend="italic">mula mulabus, anima animabus</hi> propter <hi rend="italic">mulos</hi> et <hi rend="italic">animos</hi>. In
+            his tamen nominibus quae adiunctiva dicuntur, ista differentia non servatur: non enim
+           <hi rend="italic"> iustabus</hi> propter <hi rend="italic">iustos</hi>, aut <hi rend="italic">verabus</hi> propter <hi rend="italic">veros</hi> dicendum est. Propterea quia, cum
+            dicitur <hi rend="italic">iustus</hi>, aut verus necesse habemus addere quis <hi rend="italic">iustus</hi> et quis <hi rend="italic">verus</hi> dicatur aut
+            certe intellegendum dimittere. Vnde ista nomina recte adiunctiva nomina sunt. </p>
+        </div>
+        <div type="paragraph" n="21">
+          <p> Item quibusdam nominibus generis neutri, quae a Graecis sumpsimus, et nominativo
+            singulari <hi rend="italic">ma</hi> syllaba terminantur, ista regula casus ablativi non servatur. Ab eo enim
+            quod est <hi rend="italic">physema</hi>, cum ablativo singulari <hi rend="italic">ab hoc physemate</hi> faciant, licet tamen dicere
+            dativo et ablativo plurali non solum <hi rend="italic">his</hi> et <hi rend="italic">ab his physematibus</hi>, quod postulat regula,
+            sed etiam <hi rend="italic">physematis</hi>, quod magis auctoritate quam ratione permittitur. Auctoritas autem
+            in latina lingua plurimum et paene sola dominatur. Quamobrem in omnibus, et quae supra
+            diximus, et quae deinceps dicenda sunt, multo plus auctoritatis quam huius veluti
+            rationis, per quam grammatica nomen accepit, meminisse debemus. Ipsa enim certior in
+            grammatica ratione est, per quod intellegitur non rationi cum loquimur quam auctoritati
+            esse serviendum. </p>
+        </div>
+      </div>
+      <div type="section">
+        <head> DE PRONOMINE </head>
+        <div type="paragraph" n="22">
+          <p> Pronomen est pars orationis quae pro ipso nomine posita minus quidem plene idem tamen
+            significat. Pronomini accidunt quae considerare nunc oportet: qualitas, genus, numerus,
+            figura, persona, casus. </p>
+        </div>
+        <div type="paragraph" n="23">
+          <p> In qualitate adtenditur utrum finitum pronomen sit an infinitum. Finitum intellegitur
+            si responderi per id potest; per infinitum autem nonnisi interrogari potest. Finitorum
+            pronominum exempla sunt <hi rend="italic">hic, iste, ille ipse, ego</hi>, et similia; infinitorum vero ut <hi rend="italic">quis</hi>.
+            Sunt quaedam quae aliquando infinita, aliquando finita sunt, ut <hi rend="italic">qui, quantus, qualis</hi>.
+            Nam quando per haec interrogatio fit, infinita sunt; sunt alias finita. Haec nonnulli
+            minus quam finita vocaverunt. Secundum autem hanc distinctionem si diligentius adtendas,
+            unum pronomen est infinitum et in solo nominativo casu singulari et genere masculino, id
+            est <hi rend="italic">quisnam</hi>, et huius pronominis ceteri utriusque numeri casus et genera et omnia
+            reliqua pronomina partim finita sunt, quia per ea tantum responderi potest, partim minus
+            quam finita sunt, quia et interrogationi et responsioni serviunt. Itaque nonnulli minus
+            quam finita pronomina esse voluerunt, quae non rem praesentem demonstrant, sed vel
+            absentem vel longius positam, qualia sunt <hi rend="italic">is, ipse, ille</hi>. Quae vero rem ita praesentem
+            ostendunt, ut quasi digito demonstretur, finita nominaverunt, qualia sunt <hi rend="italic">ego, tu, hic,
+            iste</hi>; cetera infinita, id est omnia per quae inquisitio fieri potest, ut sunt haec:
+            <hi rend="italic">quis, qui, quantus, qualis</hi>.</p>
+        </div>
+        <div type="paragraph" n="24">
+          <p> Genus et numerus, figura et casus, et in pronominibus eodem modo quo in nominibus
+            observantur. Personae vero, quibus nomina carent, in pronominibus tres sunt: prima,
+            secunda, tertia. Prima est quae dicit, secunda cui dicitur, tertia de qua dicitur, ut
+            <hi rend="italic">ego, tu, ille</hi>. </p>
+        </div>
+        <div type="paragraph" n="25">
+          <p> Sane possessiva quaedam dicuntur pronomina, per quae solet quaeri vel demonstrari quid
+            ad quem pertineat, sed cum quaeritur infinita sunt, cum demonstratur finita sunt. Sane
+            quando gens cuiusque inquiritur vel ostenditur pronomine, gentile pronomen appellatur.
+            Exempla infinitorum sunt <hi rend="italic">cuius, cuia, cuium</hi>, finitorum <hi rend="italic">meus, tuus, noster, vester,</hi>
+            gentile infinitum <hi rend="italic">cuias</hi>, gentile finitum <hi rend="italic">nostras</hi>.</p>
+        </div>
+        <div type="paragraph" n="26">
+          <p> Declinantur autem pronomina hoc modo ut casum vocativum omittamus, pro quo semper <hi rend="italic">o</hi>
+            litteram, ponunt incuriosi et neglegentes magistri. Non enim pronomen primae personae et
+            alia pleraque vocativum casum habere possunt, et quae habent non omnia o tantum
+            desiderant sed etiam ipsius pronominis enuntiationem ut est <hi rend="italic">o noster</hi>. Ergo in ipsis
+            declinationibus quod dico apparebit. </p>
+        </div>
+        <div type="paragraph" n="27">
+          <p> <hi rend="italic">Ego</hi> pronomen finitum, personae primae, figurae simplicis, numeri singularis, generis
+            omnis quod declinabitur sic: <hi rend="italic">ego, mei, mihi, me, a me</hi>; et pluraliter <hi rend="italic">nos, nostri, nobis,
+            nos, a nobis</hi>. </p>
+        </div>
+        <div type="paragraph" n="28">
+          <p> <hi rend="italic">Tu</hi> pronomen finitum, personae secundae, generis omnis, numeri singularis, figurae
+            simplicis, casus nominativi et vocativi, quod declinabitur sic:<hi rend="italic"> tu, tui, tibi, te, tu, a
+            te</hi>, et pluraliter <hi rend="italic">vos, vestri, vobis, vos, o vos, a vobis</hi>. Hoc pronomen quidam
+            diligentius considerantes non habere nominativum sed a vocativo incipere
+            intellexerunt.</p>
+        </div>
+        <div type="paragraph" n="29">
+          <p> <hi rend="italic">Hic </hi>pronomen finitum, personae tertiae, generis masculini, numeri singularis, figurae
+            simplicis, casus nominativi quod declinabitur sic: <hi rend="italic">hic, huius, huic, hunc, ab hoc</hi>; et
+            pluraliter: <hi rend="italic">hi, horum, his, hos, ab his</hi>. Genere feminino: <hi rend="italic">haec, huius, huic, hanc, ab
+            hac</hi>, et pluraliter:<hi rend="italic"> hae, harum, his, has, ab his</hi>. Genere neutro: <hi rend="italic">hoc, huius, huic, hoc,
+            ab hoc</hi>, et pluraliter: <hi rend="italic">haec, horum, his, haec, ab his</hi>.</p>
+        </div>
+        <div type="paragraph" n="30">
+          <p> <hi rend="italic">Is</hi> pronomen minus quam finitum, personae tertiae, generis masculini, numeri
+            singularis, figurae simplicis, casus nominativi, quod declinabitur sic: <hi rend="italic">is, eius, ei,
+            eum, ab eo</hi>; et pluraliter: <hi rend="italic">ei</hi> vel <hi rend="italic">ii</hi>, <hi rend="italic">eorum, eis, eos, ab eis</hi>. Genere feminino: <hi rend="italic">ea,
+            eius, ei, eam, ab ea</hi>; et pluraliter <hi rend="italic">eae, earum, eis, eas, ab eis.</hi> Genere neutro: <hi rend="italic">id,
+            eius, ei, id ab eo</hi>; et pluraliter <hi rend="italic">ea, eorum, eis, ea, ab eis</hi>.</p>
+        </div>
+        <div type="paragraph" n="31">
+          <p> <hi rend="italic">Iste </hi>pronomen finitum, personae tertiae, generis masculini, numeri singularis, figurae
+            simplicis, casus nominativi, quod declinabitur sic:<hi rend="italic"> iste istius, isti, istum, ab isto</hi>,
+            et pluraliter <hi rend="italic">isti, istorum, istis, istos, ab istis.</hi> Genere feminino:<hi rend="italic"> ista, istius,
+            isti, istam, ab ista</hi>; et pluraliter:<hi rend="italic"> istae, istarum, istis, istas, ab istis</hi>. Genere
+            neutro:<hi rend="italic"> istuc vel istud, istius, isti, istuc vel istud, ab isto</hi>; et pluraliter <hi rend="italic">ista,
+            istorum, istis, istas, ab istis</hi>. </p>
+        </div>
+        <div type="paragraph" n="32">
+          <p> <hi rend="italic">Ille </hi>pronomen minus quam finitum in ceteris ita ut superius declinatur, excepto eo
+            quod huius neutrum non facit <hi rend="italic">illuc</hi>, quemadmodum superius facit <hi rend="italic">istuc</hi>, sed tantummodo
+           <hi rend="italic"> illud</hi> tamquam <hi rend="italic">istud</hi>. </p>
+        </div>
+        <div type="paragraph" n="33">
+          <p> <hi rend="italic">Ipse</hi> pronomen minus quam finitum quod ita ut duo superiora declinatur, nisi quod huius
+            neutrum neque <hi rend="italic">ipsud</hi> sed <hi rend="italic">ipsum</hi> facit. </p>
+        </div>
+        <div type="paragraph" n="34">
+          <p> <hi rend="italic">Se </hi>pronomen minus quam finitum, personae tertiae, generis omnis, numeri utriusque,
+            figurae simplicis, casus accusativi. Nam diligenter animadversum est huius pronominis
+            declinationem ab accusativo incipere, sicut secundae personae a vocativo, quod est tu.
+            Sed si quis, quia nominativo caret, a genetivo putet inchoandum, nihil repugnandum est;
+            ergo ita declinatur a genetivo: <hi rend="italic">sui, sibi, se, a se</hi>; et pluraliter eodem modo. </p>
+        </div>
+        <div type="paragraph" n="35">
+          <p> <hi rend="italic">Quis</hi> pronomen infinitum personae indefinitae —cuilibet enim aptari potest— numeri
+            singularis, figurae simplicis, casus nominativi quod declinabitur sic: <hi rend="italic">quis, cuius, cui,
+            quem, a quo</hi> vel <hi rend="italic">a qui</hi>; et pluraliter: <hi rend="italic">qui, quorum, quibus, quos, a quibus</hi>. Genere
+            feminino: <hi rend="italic">quae, cuius, cui, quam, a qua</hi>; et pluraliter: <hi rend="italic">quae, quarum, quibus, quas, a
+            quibus</hi>. Genere neutro: <hi rend="italic">quod</hi> vel <hi rend="italic">quid, cuius, cui, quod, a quo</hi>; et pluraliter: <hi rend="italic">quae,
+            quorum, quibus, quae, a quibus.</hi> Sane <hi rend="italic">quod</hi>, quando interrogamus, nominativuum vel
+            accusativuum casum nominis regit, <hi rend="italic">quid</hi> genetivum. Dicimus enim «quod aurum est» vel
+            «quod aurum abstulisti», «quid aurum» non dicimus sed «quid auri». </p>
+        </div>
+        <div type="paragraph" n="36">
+          <p><hi rend="italic">Qui</hi> pronomen infinitum, personae indefinitae, numeri utriusque, in ceteris ita
+            declinatur ut <hi rend="italic">quis</hi>. </p>
+        </div>
+        <div type="paragraph" n="37">
+          <p> Iam vero <hi rend="italic">quantus, quanta, quantum</hi> pronomina indefinita, personae indefinitae, ita ut
+            similia nomina declinantur, id est <hi rend="italic">iustus, iusta, iustum</hi>. Hoc modo etiam <hi rend="italic">tantus, tanta,
+            tantum</hi> quae pronomina finita sunt. Sic et alia infinita <hi rend="italic">quotus, quota, quotum</hi> et eorum
+            finita <hi rend="italic">totus, tota, totum</hi>, quae sex pronomina ordinis sunt. Numeri infinitum <hi rend="italic">quot</hi> et
+            finitum <hi rend="italic">tot</hi>, numeri sunt tantum pluralis et per casus non flectuntur. </p>
+        </div>
+        <div type="paragraph" n="38">
+          <p> <hi rend="italic">Qualis</hi> pronomen infinitum et finitum eius <hi rend="italic">talis</hi> masculini et feminini generis sunt et
+            ita ut similia declinantur, ut <hi rend="italic">agilis</hi> vel <hi rend="italic">facilis</hi>. Neutrum autem ipsorum, id est <hi rend="italic">quale</hi>
+            vel <hi rend="italic">tale</hi>, ita ut <hi rend="italic">agile</hi> vel <hi rend="italic">facile</hi>. </p>
+        </div>
+        <div type="paragraph" n="39">
+          <p><hi rend="italic">Cuius</hi> pronomen infinitum, personae indefinitae, possessivum — tamquam cum dicimus
+            «cuius servus est» —, figurae simplicis, generis masculini, numeri singularis, quod ita
+            declinabitur: <hi rend="italic">cuius, cui, cuio, cuium, a cuio;</hi> et pluraliter <hi rend="italic">cui, cuiorum, cuiis, cuios,
+            a cuiis</hi>. Sed haec declinatio plus artis quam auctoris gerit; nam nimis vetus est et a
+            nostra consuetudine repudiata. Ita et in genere feminino <hi rend="italic">cuia</hi> declinatur ut <hi rend="italic">tabula</hi>,
+           <hi rend="italic"> cuium</hi> ut <hi rend="italic">lignum</hi>, sed etiam ista quamvis in eis auctoribus repperiantur, qui sunt in
+            manibus et in ore omnium, tamen consuetudo contempsit: per unum enim pronomen, id est
+            <hi rend="italic">cuius</hi> vel <hi rend="italic">quorum</hi>, omnia infinita possessiva significantur. Dicimus enim «cuius» vel
+            «quorum servus» sive «ancilla» sive «templum» sed, quod fatendum est, cum molestia
+            discernendae ambiguitatis in genitivo singulari, quando «cuius» dicimus, et in plurali,
+            quando «quorum»; <hi rend="italic">cuius</hi> enim et quorum quando possessiva sunt per casus non flectuntur.
+          </p>
+        </div>
+        <div type="paragraph" n="40">
+          <p> <hi rend="italic">Meus </hi>pronomen finitum personae primae possessivum generis masculini, numeri
+            singularis, figurae simplicis casus nominativi et vocativi, quod declinabitur sic: <hi rend="italic">meus,
+            mei, meo, meum, meus, a meo</hi>; et pluraliter <hi rend="italic">mei, meorum, meis, meos, mei, a meis.</hi>
+            Secundum regulam similis nominis tamquam si <hi rend="italic">reus</hi> declinetur; ergo genere feminino <hi rend="italic">mea</hi>
+            sicut <hi rend="italic">rea</hi>, neutro <hi rend="italic">meum</hi> sicut <hi rend="italic">reum</hi>. </p>
+        </div>
+        <div type="paragraph" n="41">
+          <p> <hi rend="italic">Noster </hi>pronomen finitum personae primae possessivum numeri singularis, figurae
+            simplicis, casus nominativi et vocativi, ita declinatur ut nomen simile quod est <hi rend="italic">niger</hi>
+            et in ceteris generibus <hi rend="italic">nostra, nostrum</hi>, ut <hi rend="italic">nigra, nigrum</hi>. </p>
+        </div>
+        <div type="paragraph" n="42">
+          <p> <hi rend="italic">Tuus, tua, tuum</hi> pronomina finita personae secundae ita in ceteris declinantur ut <hi rend="italic">meus,
+            mea, meum</hi>. </p>
+        </div>
+        <div type="paragraph" n="43">
+          <p> Item <hi rend="italic">suum, sua, suum</hi> pronomina finita possessiva personae tertiae ita ut <hi rend="italic">tuus, tua,
+            tuum</hi> declinantur. </p>
+        </div>
+        <div type="paragraph" n="44">
+          <p> <hi rend="italic">Vester, vestra, vestrum</hi> pronomina finita personae secundae possessiva ita declinantur
+            ut <hi rend="italic">noster, nostra, nostrum.</hi> </p>
+        </div>
+        <div type="paragraph" n="45">
+          <p><hi rend="italic">Cuias</hi> pronomen infinitum personae indefinitae possessivum, gentile, generis omnis,
+            numeri singularis, figurae simplicis casus nominativi, quod declinabitur sic: <hi rend="italic">cuias,
+              cuiatis, cuiati, cuiatem</hi>, et <hi rend="italic">cuias,</hi> neutrum <hi rend="italic">a cuiate</hi>; et pluraliter: <hi rend="italic">cuiates</hi> et <hi rend="italic">cuiatia</hi>,
+            <hi rend="italic">cuiatium, cuiatibus, cuiates</hi> et <hi rend="italic">cuiatia, a cuiatibus</hi>. Cum autem quaerimus «cuias est?»,
+            «cuius gentis est, quaerimus, hic homo?» vel «mulier» vel «frumentum» — et «cuiatis
+            hominis» vel «mulieris» vel «frumenti pretium aestimasti?». Simili ratione ceteri casus
+            intellegendi sunt. </p>
+        </div>
+        <div type="paragraph" n="46">
+          <p> <hi rend="italic">Nostras</hi> pronomen finitum personae primae possessivum, gentile, generis omnis, numeri
+            singularis, figurae simplicis casus nominativi et vocativi, quod declinabitur sic <hi rend="italic">hic</hi> et
+           <hi rend="italic"> haec </hi>et <hi rend="italic">hoc nostras, huius nostratis, huic nostrati, hunc</hi> et <hi rend="italic">hanc nostratem</hi>, et <hi rend="italic">hoc
+            nostras o nostras, ab hoc</hi> et <hi rend="italic">ab hac</hi> et <hi rend="italic">ab hoc nostrate</hi>, et pluraliter <hi rend="italic">hi</hi> et <hi rend="italic">hae
+            nostrates</hi> et <hi rend="italic">haec nostratia, horum</hi> et <hi rend="italic">harum</hi> et <hi rend="italic">horum nostratium, his nostratibus, hos</hi> et
+           <hi rend="italic"> has nostrates</hi> et <hi rend="italic">haec nostratia o nostrates nostratia, ab his nostratibus</hi>. Hac ratione
+            facit <hi rend="italic">vestras, vestratis, vestrati</hi> et cetera, quod pronomen est secundae personae, sed
+            huius auctorum, in cuius libris inveniatur, non habemus tanti ponderis, ut imperitorum
+            consuetudini per eum resistere valeamus: nam duorum superiorum ipse Tullius auctor est.
+          </p>
+        </div>
+      </div>
+      <div type="section">
+        <head>DE VERBO</head>
+        <div type="paragraph" n="47">
+          <p> Verbum est pars orationis cum tempore et persona sine casu. Verbo accidunt genus,
+            numerus, figura, persona, modus, tempus, coniugatio, forma. </p>
+        </div>
+        <div type="paragraph" n="48">
+          <p> Genus in verbis non sexu consideratur, sed grammaticorum praeiudicante consuetudine;
+            genus verbi dicitur quod vel activum vel passivum vel deponens vel neutrum vel commune
+            significatur. Activum dicunt quod <hi rend="italic">o</hi> littera terminatur et accepta <hi rend="italic">r</hi> littera passivum
+            facit ut <hi rend="italic">scribo</hi>: passivum ergo ut <hi rend="italic">scribor</hi>. Deponens est quod <hi rend="italic">r</hi> littera terminatur, qua
+            deposita Latinum non est neque vim activi et passivi potest implere, ut est <hi rend="italic">luctor</hi>.
+            Neutrum est quod <hi rend="italic">o</hi> littera terminatur et <hi rend="italic">r</hi> si acceperit Latinum non est, ut est <hi rend="italic">fulgeo</hi>.
+            Commune est quod <hi rend="italic">r</hi> littera terminatur et vim activi atque passivi habet, ut est
+            <hi rend="italic">criminor</hi>: dicimus enim <hi rend="italic">criminor illum, criminor ab illo</hi> tamquam <hi rend="italic">scribo illum</hi> et <hi rend="italic">scribor
+            ab illo</hi>. Sunt alia verba quae in nullam memoratarum syllabam exeunt sed inter neutra
+            deputantur, ut <hi rend="italic">odi, novi, memini</hi>; item <hi rend="italic">sum, prosum, possum</hi>. </p>
+        </div>
+        <div type="paragraph" n="49">
+          <p> Numerus singularis verborum est ut <hi rend="italic">scribo</hi>, pluralis ut <hi rend="italic">scribimus</hi>. Figura simplex ut
+            <hi rend="italic">scribo</hi>, composita ut <hi rend="italic">describo</hi>. </p>
+        </div>
+        <div type="paragraph" n="50">
+          <p>Persona prima ut <hi rend="italic">scribo</hi>, secunda ut <hi rend="italic">scribis</hi>, tertia ut <hi rend="italic">scribit</hi>. Sunt etiam verba quae
+            inpersonalia dicuntur, quae quasi in tertiis personis manserunt. Horum alia sunt quae a
+            personalibus trahuntur, ut <hi rend="italic">scribitur, legitur, curritur</hi>. Alia quae suum genus possident,
+            ut <hi rend="italic">pudet, taedet, poenitet, libet</hi>: non enim Latinum est <hi rend="italic">pudeo</hi>, aut <hi rend="italic">pudeor</hi>, aut <hi rend="italic">pudes</hi>,
+            aut <hi rend="italic">puderis</hi>, et similia. Cum autem declinantur, additis personis pronominum percurrenda
+            sunt, ut <hi rend="italic">curritur a me, a te, ab illo, a nobis, a vobis, ab illis; currebatur a me, a
+            te, ab illo, a nobis, a vobis, ab illis</hi> et cetera. Item pudet me, te, illum, nos, vos,
+            illos et talia. </p>
+        </div>
+        <div type="paragraph" n="51">
+          <p> Modi verborum ab aliis plures ab aliis pauciores numerantur, salva tamen ratione
+            declinandi. Nobis illi placent, qui pauciores notaverunt, id est Indicativum,
+            imperativum, coniunctivum, optativum, infinitivum. Indicativus est per quem aliquid
+            adfirmamus, ut <hi rend="italic">scribo, scribebam, scripsi, scripseram, scribam</hi>. Imperativus per quem ut
+            aliquid fiat compellimus, ut est <hi rend="italic">scribe, scribite</hi>. Coniunctivus cui praeponitur cum et
+            quo enunciato pendet adhuc sententia, et aliquid coniungendum manet, ut est <hi rend="italic">cum
+            scriberem</hi>. Optativus per quem optamus ut est <hi rend="italic">utinam scribam</hi>. Infinitivus qui neque
+            numeris neque personis certus est et aliquando nec tempore ut <hi rend="italic">scribere scripsisse</hi>. </p>
+        </div>
+      </div>
+      <div>
+        <head>DE TEMPORIBVS </head>
+        <div type="paragraph" n="52">
+          <p> Tempora verborum tria sunt: praesens, ut <hi rend="italic">scribo</hi>, praeteritum ut <hi rend="italic">scripsi</hi>, futurum ut
+            <hi rend="italic">scribam</hi>. </p>
+        </div>
+        <div type="paragraph" n="53">
+          <p> Coniugationes sunt tres, prima, secunda, tertia. Prima est quae indicativo modo in
+            praesenti tempore numero singulari secunda persona a habet ante novissimam litteram, in
+            passivis autem, ante novissimam syllabam ut <hi rend="italic">clamas, clamaris, vocas, vocaris</hi>. Secunda
+            est quae modo supradicto et tempore numero et persona e habet productam ante novissimam
+            litteram. In passivis autem ante syllabam ut <hi rend="italic">mones, moneris, doces, doceris</hi>. Tertia est
+            quae in eodem loco activi i habet correptam, in passivis vero e correptam ante
+            novissimam syllabam ut <hi rend="italic">scribis, scriberis, legis, legeris</hi>. Est tertia producta quae
+            dicitur, quam nonnulli distinctius quartam vocant, haec eisdem locis i productam habet,
+            ut <hi rend="italic">audis, audiris, nutris, nutriris</hi>. Dinosci autem facile potest animadverso imperativo
+            modo: nam cum verbum est huius quartae coniugationis imperativus modus in<hi rend="italic"> i</hi> exit, ut
+            <hi rend="italic">audi, nutri</hi>. Futurum autem tempus indicativi modi prima et secunda coniugatio in <hi rend="italic">bo</hi>
+            syllabam mittit, tertia correpta in <hi rend="italic">am</hi>, tertia producta —sive quartam eam dici placet —
+            et in <hi rend="italic">am</hi> et in <hi rend="italic">bo</hi>: dicimus enim a prima <hi rend="italic">clamabo, vocabo</hi>; a secunda <hi rend="italic">movebo, docebo</hi>, a
+            tertia <hi rend="italic">scribam, legam</hi>, a quarta et <hi rend="italic">audiam</hi> et <hi rend="italic">audibo</hi>, et <hi rend="italic">nutriam</hi> et <hi rend="italic">nutribo</hi>. Quae syllaba
+            in passivis in <hi rend="italic">bor</hi> et ar commutatur, ut <hi rend="italic">clamabor, monebor, scribar, audiar</hi> et <hi rend="italic">audibor</hi>.
+          </p>
+        </div>
+        <div type="paragraph" n="54">
+          <p> Formae verborum sunt quattuor: prima perfecta est, a qua tres ceterae derivantur:
+            inchoativa enim est <hi rend="italic">calesco</hi>, cuius perfecta est <hi rend="italic">caleo</hi>; meditativa est <hi rend="italic">parturio</hi>, cuius
+            perfecta est <hi rend="italic">pario</hi>; frequentativa est <hi rend="italic">cursito</hi>, cuius perfecta est <hi rend="italic">curso</hi>. </p>
+        </div>
+        <div type="paragraph" n="55">
+          <p> Declinantur autem verba hoc modo: <hi rend="italic">scribo</hi> verbum activum temporis praesentis personae
+            primae coniugationis tertiae, quod declinabitur sic: modo indicativo tempore praesenti
+            numero singulari personis omnibus: <hi rend="italic">scribo, scribis, scribit</hi>, et pluraliter: <hi rend="italic">scribimus,
+            scribitis, scribunt</hi>; eodem modo tempore praeterito specie imperfecta: <hi rend="italic">scribebam,
+            scribebas, scribebat, scribebamus, scribebatis, scribebant</hi>; eodem modo eodem tempore
+            specie perfecta <hi rend="italic">scripsi, scripsisti, scripsit, scripsimus, scripsistis, scripserunt</hi> vel
+            scripsere; eodem modo eodem tempore specie plusquamperfecta: <hi rend="italic">scripseram, scripseras,
+            scripserat, scripseramus, scripseratis, scripserant</hi>; eodem modo tempore futuro: <hi rend="italic">scribam,
+            scribes, scribet, scribemus, scribetis, scribent</hi>. </p>
+        </div>
+        <div type="paragraph" n="56">
+          <p> Imperativo modo tempore praesenti ad secundam et tertiam persona tantum: haberi namque
+            prima negatur, <hi rend="italic">scribe, scribat, scribite, scribant</hi>. Sunt qui et primas addant singulari
+            numero <hi rend="italic">scribam</hi>, plurali <hi rend="italic">scribamus</hi>. Sunt qui singulari non addant et plurali addant.
+            Eodem modo tempore futuro singulariter: <hi rend="italic">scribito, scribito</hi>; pluraliter <hi rend="italic">scribitote,
+            scribunto</hi>. </p>
+        </div>
+        <div type="paragraph" n="57">
+          <p>Modo coniunctivo tempore praesenti singulariter: <hi rend="italic">cum scribam, scribas, scribat</hi>;
+            pluraliter <hi rend="italic">cum scribamus, scribatis, scribant</hi>; eodem modo tempore praeterito specie
+            imperfecta: <hi rend="italic">cum scriberem, scriberes, scriberet, cum scriberemus, scriberetis,
+            scriberent</hi>; eodem modo eodem tempore specie perfecta: <hi rend="italic">cum scripserim, scripseris,
+            scripserit, cum scripserimus, scripseritis, scripserint</hi>; eodem modo eodem tempore specie
+            plusquamperfecta: <hi rend="italic">cum scripsissem, scripsisses, scripsisset, cum scripsissemus,
+            scripsissetis, scripsissent</hi>; eodem modo tempore futuro: <hi rend="italic">cum scripsero, scripseris,
+            scripserit, cum scripserimus, scripserint</hi>. Sane sciendum est in omnibus verbis
+            indicativi modi addi posse <hi rend="italic">cum</hi>, et ab hoc eum in coniunctivi conditionem verti. </p>
+        </div>
+        <div type="paragraph" n="58">
+          <p>Modo optativo tempore praesenti: <hi rend="italic">utinam scriberem, scriberes, scriberet, utinam
+            scriberemus, scriberetis, scriberent</hi>; eodem modo tempore praeterito specie perfecta:
+            <hi rend="italic">utinam scripserim, scripseris, scripserit, utinam scripserimus, scripseritis,
+            scripserint</hi>; eodem modo eodem tempore specie plusquamperfecta: <hi rend="italic">utinam scripsissem,
+            scripsisses, scripsisset, utinam scripsissemus, scripsissetis, scripsissent</hi>; eodem modo
+            tempore futuro: <hi rend="italic">utinam scribam, scribas, scribat, utinam scribamus, scribatis, scribant</hi>.
+            Sunt qui putant istum modum non habere praeteriti temporis perfectam speciem, quod quasi
+            nemo optet quod iam perfectum est; quod si verum esset, multo magis habere non debuit
+            plusquamperfectum! Sunt item qui negent habere inperfectum, ut a nobis modo declinatum
+            est; sunt vero qui quod nos ista declinatione praesenti tempori tribuimus, hoc
+            inperfectae speciei praeteriti temporis tribuant, et quod nos futuro, hoc illi praesenti
+            tempore declinent: sed cum res in aperto sit, de appellationibus certare superfluum est.
+          </p>
+        </div>
+        <div type="paragraph" n="59">
+          <p>Modo infinitivo numeris temporibus et personis <hi rend="italic">scribere</hi> solo tempore finito, praeterito
+            <hi rend="italic">scripsisse</hi>, futuro <hi rend="italic">scriptum ire</hi>. Eodem modo quarta specie <hi rend="italic">scribendi, scribendo,
+            scribendum, scriptum, scriptu</hi>, quemadmodum participalem a nonnullis vocari comperi. </p>
+        </div>
+        <div type="paragraph" n="60">
+          <p> Participia veniunt a verbo activo duo, praesentis temporis ut <hi rend="italic">scribens</hi>, futuri ut
+            <hi rend="italic">scripturus</hi>. </p>
+        </div>
+        <div type="paragraph" n="61">
+          <p> Fiunt de verbo nomina quae verbialia dicuntur: unum quod est generis masculini et
+            neutri, ut <hi rend="italic">scriptor</hi>, et femininum mittit in <hi rend="italic">trix</hi> ut <hi rend="italic">scriptrix</hi>, alterum est generis
+            tantum feminini, ut <hi rend="italic">scriptio</hi>. Quae nomina magis a participio praeteriti temporis
+            flectuntur: ab eo enim quod est <hi rend="italic">scriptus</hi>, mutata <hi rend="italic">us</hi> syllaba in <hi rend="italic">or</hi>, <hi rend="italic">scripto</hi>r facit, in
+            <hi rend="italic">io, scriptio</hi>. Sed multa propter asperitatem non faciunt ex illo primo genere femininum,
+            neque neutrum pluraliter: ab eo enim, quod est <hi rend="italic">pressor</hi>, nemo dicit <hi rend="italic">prestrix</hi> aut
+            <hi rend="italic">prestricia</hi>. Facit tamen <hi rend="italic">tonsor tonsirix</hi>, tanta est vis auctoritatis et consuetudinis in
+            loquendo. </p>
+        </div>
+      </div>
+      <div>
+        <head> DE VERBO PASSIVO </head>
+        <div type="paragraph" n="62">
+          <p>Verbum passivum declinatur hoc modo: <hi rend="italic">scribor</hi> verbum passivum temporis
+            praesentis personae primae coniugationis tertiae, quod declinabitur sic: modo indicativo
+            tempore praesenti: <hi rend="italic">scribor, scriberis, scribitur, scribimur, scribimini, scribuntur</hi>;
+            eodem modo tempore praeterito specie imperfecta: <hi rend="italic">scribebar, scribebaris, scribebatur,
+            scribebamur, scribebamini, scribebantur</hi>; eodem modo eodem tempore specie perfecta:
+            <hi rend="italic">scriptus sum, es, est, scripti sumus, estis, sunt</hi> et ulteriore perfecta: <hi rend="italic">scriptus fui,
+            fuisti, fuit, scripti fuimus, fuistis, fuerunt</hi> vel <hi rend="italic">fuere</hi>; eodem modo eodem tempore
+            specie plusquamperfecta: <hi rend="italic">scriptus eram, eras, erat, scripti eramus, eratis, erant</hi>, et
+            ulteriore plusquamperfecta: <hi rend="italic">scriptus fueram, fueras, fuerat, scripti fueramus, fueratis,
+            fuerant</hi>; eodem modo tempore futuro: <hi rend="italic">scribar, scriberis, scribetur, scribemur,
+            scribemini, scribentur</hi>. </p>
+        </div>
+        <div type="paragraph" n="63">
+          <p>Modo imperativo tempore praesenti: <hi rend="italic">scribere, scribatur, scribimini, scribantur</hi>; eodem
+            modo tempore futuro: <hi rend="italic">scribitor, scribitor, scribiminor, scribuntor</hi>. </p>
+        </div>
+        <div type="paragraph" n="64">
+          <p> Modo coniunctivo tempore praesenti: <hi rend="italic">cum scribar, scribaris, scribatur, cum scribamur,
+            scribamini, scribantur</hi>; eodem modo tempore praeterito specie imperfecta: c<hi rend="italic">um scriberer,
+            scribereris, scriberetur, cum scriberemur, scriberemini, scriberentur</hi>; eodem modo eodem
+            tempore specie perfecta: <hi rend="italic">cum scriptus sim, sis, sit, cum scripti simus, sitis, sint</hi>; et
+            ulteriore specie perfecta: <hi rend="italic">cum scriptus fuerim, fueris, fuerit, cum scripti fuerimus,
+            fueritis, fuerint</hi>; eodem modo eodem tempore specie plusquamperfecta: <hi rend="italic">cum scriptus essem,
+            esses, esset, cum scripti essemus, essetis, essent</hi>; et ulteriore specie
+            plusquamperfecta: <hi rend="italic">cum scriptus fuissem, fuisses, fuisset, cum scripti fuissemus,
+            fuissetis, fuissent</hi>; eodem modo tempore futuro: <hi rend="italic">cum scriptus ero, eris, erit, cum
+            scripti erimus, eritis, erunt</hi>; et ulteriore futuro <hi rend="italic">cum scriptus fuero, fueris, fuerit,
+            cum scripti fuerimus, fueritis, fuerint</hi>. </p>
+        </div>
+        <div type="paragraph" n="65">
+          <p> Modo optativo tempore praesenti: <hi rend="italic">utinam scriberer, scribereris, scriberetur, utinam
+            scriberemur, scriberemini, scriberentur</hi>; eodem modo tempore praeterito specie perfecta:
+            <hi rend="italic">utinam scriptus sim, sis, sit, utinam scripti simus, sitis, sint</hi>; ulteriore perfecta
+           <hi rend="italic"> utinam scriptus fuerim, fueris, fuerit, utinam scripti fuerimus, fueritis, fuerint</hi>;
+            eodem modo eodem tempore specie plusquamperfecta: <hi rend="italic">utinam scriptus essem, esses, esset,
+            utinam scripti essemus, essetis, essent</hi>; ulteriore plusquamperfecta: <hi rend="italic">utinam scriptus
+            fuissem, fuisses, fuisset, utinam scripti fuissemus, fuissetis, fuissent</hi>; eodem modo
+            tempore futuro: <hi rend="italic">utinam scribar, scribaris, scribatur, utinam scribamur, scribamini,
+            scribantur</hi>. </p>
+        </div>
+        <div type="paragraph" n="66">
+          <p> Modo infinitivo, numeris, temporibus et personis <hi rend="italic">scribi</hi> solo tempore finito,
+            praeterito <hi rend="italic">scriptum esse</hi>, ulteriore praeterito <hi rend="italic">scriptum fuisse</hi>, futuro <hi rend="italic">scriptum iri</hi>.
+          </p>
+        </div>
+        <div type="paragraph" n="67">
+          <p> Participia veniunt a verbo passivo praeteriti temporis ut <hi rend="italic">scriptus</hi>, futuri ut
+            <hi rend="italic">scribendus</hi>. </p>
+        </div>
+        <div type="paragraph" n="68">
+          <p> Neutrum verbum quod in <hi rend="italic">o</hi> exit ita ut activum declinatur. Deponens vero et commune ita
+            ut passivum nisi quod a verbo deponenti participia tria veniunt: praesens, praeteritum
+            et futurum, ut <hi rend="italic">luctans, luctatus, luctaturus</hi>; a communi autem quattuor praesens ut
+            <hi rend="italic">criminan</hi>s, praeteritum ut <hi rend="italic">criminatus</hi>, et duo futura ut <hi rend="italic">criminaturus, criminandus</hi>. </p>
+        </div>
+        <div type="paragraph" n="69">
+          <p> Verba quae in <hi rend="italic">i</hi> exeunt ut <hi rend="italic">odi, novi, memini</hi> declinantur hoc modo: <hi rend="italic">odi</hi> verbum neutrum
+            numeri singularis figurae simplicis temporis praesentis personae primae coniugationis
+            nullius, quod declinabitur sic: modo indicativo tempore praesenti: <hi rend="italic">odi, odisti, odit,
+            odimus, odistis, oderunt</hi> vel <hi rend="italic">odere</hi>. Eodem modo tempore praeterito specie imperfecta:
+           <hi rend="italic"> oderam, oderas, oderat, oderamus, oderatis, oderant.</hi> Perfectam speciem et
+            plusquamperfectam non habet. Futurum tempus habet quod est <hi rend="italic">odero, oderis, oderit,
+            oderimus, oderitis, oderint</hi>. Imperativum modum non habet. Modo coniunctivo tempore
+            praesenti: <hi rend="italic">cum oderim, oderis, oderit, cum oderimus, oderitis, oderint</hi>. Cetera
+            coniunctivi modi non habet. Modo optativo tempore praeterito: <hi rend="italic">utinam odissem, odisses,
+            odisset, utinam odissemus, odissetis, odissent.</hi> Eodem modo, tempore futuro: <hi rend="italic">utinam
+            oderim, oderis, oderit, utinam oderimus, oderitis, oderint</hi>. Cetera optativi non habet.
+            Modo infinito numeris et personis solo tempore finito praeterito <hi rend="italic">odisse</hi>. Cetera non
+            habet nisi forte <hi rend="italic">osum ire</hi> dici possit. Participium facit unum futuri temporis <hi rend="italic">osurus</hi>, et
+            unum praeteriti osus, quod tamen vim praesentis tenet et omnino praesens habendum est
+            propter vim verbi neutri a quo praeteritum participium non venit; et manifestum est, cum
+            dicimus «osus illum sum» pro eo nos dicere quod est «odi illum» — tamquam cum dicimus
+            «fulgens sum» nihil aliud quam «fulgeo» dicimus vel potius «scribens sum illum» nihil
+            quam «scribo illum» dicimus. Quam ob rem ista verba quamvis propterea neutra dicta sunt,
+            quod passiva non faciant, tamen quia adiunguntur accusativis casibus — dicimus enim «odi
+            illam rem» et «novi illam rem» quemadmodum «scribo illam rem» — vim activi tenent, et
+            omnino arbitror activa appellanda, sed more suo, ut in multis deficiunt, ita deficere ne
+            faciant passiva. </p>
+        </div>
+        <div type="paragraph" n="70">
+          <p><hi rend="italic">Memini</hi> simile verbum est et similiter declinatur excepto eo quod imperativum futuri
+            temporis facit quod est <hi rend="italic">memento</hi>, <unclear>tamquam et praeteriti temporis f<hi rend="italic">aciat
+              meminerit</hi> </unclear> et declinantur ipsa imperativa more superiorum verborum —, et
+            quod unum participium facit quod est <hi rend="italic">mementurus</hi>. </p>
+        </div>
+        <div type="paragraph" n="71">
+          <p> <hi rend="italic">Novi</hi> simile verbum est et ita declinatur ut <hi rend="italic">odi</hi>, nisi quod participium praesens tantum
+            habet et simile praeterito quod est <hi rend="italic">notus</hi> quemadmodum <hi rend="italic">osus</hi>, sed quia et <hi rend="italic">notus est mihi</hi>
+            et <hi rend="italic">notus sum illi</hi> dicimus, <hi rend="italic">osus sum</hi> autem <hi rend="italic">illi</hi> negatur posse dici, videtur etiam hinc
+            esse dissimile.</p>
+        </div>
+        <div type="paragraph" n="72">
+          <p> Verba quae in <hi rend="italic">um</hi> syllabam exeunt ut <hi rend="italic">sum, possum</hi> hoc modo declinantur; <hi rend="italic">sum</hi> verbum
+            neutrum numeri singularis figurae simplicis temporis praesentis personae primae
+            coniugationis nullius, quod declinabitur sic: modo indicativo tempore praesenti: <hi rend="italic">sum,
+            es, est, sumus, estis, sunt</hi>; eodem modo tempore praeterito specie imperfecta: <hi rend="italic">eram,
+            eras, erat, eramus, eratis, erant</hi>; eodem modo eodem tempore specie perfecta: <hi rend="italic">fui,
+            fuisti, fuit, fuimus, fuistis, fuerunt</hi> vel <hi rend="italic">fuere</hi>; eodem modo eodem tempore specie
+            plusquamperfecta: <hi rend="italic">fueram, fueras, fuerat, fueramus, fueratis, fuerant</hi>; eodem modo
+            tempore futuro: <hi rend="italic">ero, eris, erit, erimus, eritis, erunt.</hi> </p>
+        </div>
+        <div type="paragraph" n="73">
+          <p> Modo imperativo tempore praesenti: <hi rend="italic">es, sit, este, sint</hi>; eodem modo tempore futuro:
+            <hi rend="italic">esto, esto, estote, sunto</hi>. </p>
+        </div>
+        <div type="paragraph" n="74">
+          <p> Modo coniunctivo tempore praesenti: <hi rend="italic">cum sim, sis, sit, cum simus, sitis, sint</hi>; eodem
+            modo tempore praeterito specie imperfecta: <hi rend="italic">cum essem, esses, esset, cum essemus,
+            essetis, essent</hi>; eodem modo eodem tempore specie perfecta: <hi rend="italic">cum fuerim, fueris, fuerit,
+            fuerimus, fueritis, fuerint</hi>; eodem modo eodem tempore specie plusquamperfecta: <hi rend="italic">cum
+            fuissem, fuisses, fuisset, cum fuissemus, fuissetis, fuissent</hi>; eodem modo tempore
+            futuro: <hi rend="italic">cum ero, eris, erit, cum erimus, eritis, erint</hi>; futuro ulteriore <hi rend="italic">cum fuero,
+            fueris, fuerit, cum fuerimus, fueritis, fuerint</hi>. </p>
+        </div>
+        <div type="paragraph" n="75">
+          <p> Modo optativo tempore praesenti: <hi rend="italic">utinam essem, esses, esset, utinam essemus, essetis,
+            essent</hi>; eodem modo tempore praeterito specie perfecta: <hi rend="italic">utinam fuerim, fueris, fuerit,
+            utinam fuerimus, fueritis, fuerint</hi>; eodem modo eodem tempore specie plusquamperfecta:
+            <hi rend="italic">utinam fuissem, fuisses, fuisset, utinam fuissemus, fuissetis, fuissent</hi>; eodem modo
+            tempore futuro <hi rend="italic">utinam sim, sis, sit, utinam simus, sitis sint</hi>. </p>
+        </div>
+        <div type="paragraph" n="76">
+          <p> Modo infinitivo numeris temporibus et personis <hi rend="italic">esse </hi>solo tempore finito, praeterito
+            <hi rend="italic">fuisse</hi>, futuro <hi rend="italic">fore</hi>. In quarta specie deficit et in participio praesentis temporis, sed
+            docti quidam temporis recentioris cum haberent necessitatem magna et divina quaedam
+            interpretandi explicandique et <hi rend="italic">essendi</hi> et <hi rend="italic">essendo</hi> et <hi rend="italic">essendum</hi> et <hi rend="italic">essens</hi> dixerunt,
+            quemadmodum <hi rend="italic">scribendi, scribendo, scribendum, scribens</hi>. </p>
+        </div>
+        <div type="paragraph" n="77">
+          <p> <hi rend="italic">Possum</hi> simile verbum est. Eodem modo declinatur, sed de secunda persona imperativi
+            dubitatur, et quod illa verba in quarta specie deficiunt, nemo extitit qui etiam in hoc
+            verbo novaret. In participiis autem videtur <hi rend="italic">potens</hi> huius verbi esse participium
+            praesentis temporis, sed rectius nomen esse intellegitur: ab eo enim quod est <hi rend="italic">sum</hi>,
+            participium futuri temporis est cum <hi rend="italic">futurum</hi> dicimus.</p>
+        </div>
+        <div type="paragraph" n="78">
+          <p> Sane inventa coniugatione facilius verba declinantur excepta praeteriti temporis
+            specie perfecta et plusquamperfecta, et tempore futuro modi coniunctivi, et infinitivi
+            praeterito futuro et participiis futuro ab activo et a neutro et omni praeterito.
+            Quamobrem tres sunt in declinatione verborum connexiones, quarum singulae retinent verba
+            plura ita sibi connexa ut unum horum si fuerit inventum cetera facillime inveniantur.
+            Harum connexionum prima dicitur coniugatio, quae ob hoc artificialis est, aliae duae ab
+            auctoritate vel probata consuetudine </p>
+        </div>
+        <div type="paragraph" n="79">
+          <p> Nam inventa consuetudine verbi simul inveniuntur haec verba, velut in prima
+            coniugatione: <hi rend="italic">clamo, clamabam, clamabo, clama, clamato, clamem, clamarem, clamare,
+            clamandi, clamando, clamandum</hi>, et participia: <hi rend="italic">clamans, clamandus</hi>. Horum si unum inventum
+            fuerit, non potest nisi prima esse coniugatio, et ita declinantur haec verba omnia et
+            participia quae memoravimus in omnibus primae coniugationis. Secundae coniugationis haec
+            sunt ad primam connexionem pertinentia: <hi rend="italic">moneo, monebam, monebo, mone</hi> (producta <hi rend="italic">e</hi>),
+            <hi rend="italic">moneto, moneam, monerem, monere, monendi, monendo, monendum</hi>, et participia: <hi rend="italic">monens</hi> et
+            <hi rend="italic">monendus</hi>, sed haec quinque ultima et imperfecta species indicativi communia sunt
+            secundae et tertiae coniugationis. Tertiae itaque coniugationis haec sunt ad eandem
+            connexionem pertinentia: <hi rend="italic">scribo, scribebam, scribam, scribe, sed e
+              correpta, scribito, scribam, scriberem, scribere, scribendi, scribendo, scribendum</hi> et
+              participia <hi rend="italic">scribens, scribendus</hi>. Quartae coniugationis haec sunt ad eandem
+            connexionem pertinentia: <hi rend="italic">audio, audiebam, audibo</hi> vel <hi rend="italic">audiam, audi, audito, audiam,
+            audirem, audire, audiendi, audiendo, audiendum</hi>, et participia <hi rend="italic">audiens</hi> et <hi rend="italic">audiendus</hi>, sed
+            ea verba quae quarta coniugatione <hi rend="italic">e</hi> habent ante <hi rend="italic">o</hi>, qualia sunt <hi rend="italic">eo</hi> et <hi rend="italic">ineo</hi>, aliquantum
+            diversa sunt, itaque ista hoc modo sunt <hi rend="italic">ineo, inibam, ineundi, ineundo, ineundum</hi>, et
+            participium <hi rend="italic">ineundus</hi>, cetera similia sunt superiori declinationi. </p>
+        </div>
+        <div type="paragraph" n="80">
+          <p> Secunda est quae a praeterito perfecto indicativi modi sumit initium, cuius verba sunt
+            haec: <hi rend="italic">clamavi, clamaveram, clamaverim, clamavissem, clamavisse; monui,
+              monueram, monuerim, monuissem, monuisse; scripsi, scripseram, scripserim, scripsissem,
+              scripsisse; audivi, audiveram, audiverim, audivissem, audivisse</hi> vel <hi
+              rend="italic">audii, audieram, audierim, audissem, audisse </hi>. Hae namque syllabae
+              <hi rend="italic">va ve vi vo vu</hi> crassius sonant et propter aurium suavitatem
+            subtrahi solent vel totae, ut cum dicimus <hi rend="italic">clamaram</hi> non <hi
+              rend="italic">clamaveram</hi>, vel v tantum detracta tenuari, ut hoc quod dictum est
+            audieram pro audiveram. </p>
+        </div>
+        <div type="paragraph" n="81">
+          <p> Tertia connexio, a qua res ceterae describuntur, ab infinitivo quartae speciei, quod
+            ultimum in declinatione est, sumit initium. Ad hanc connexionem pertinet unum hoc verbum
+            et participium futuri ab activo et praeteritum et nomina verbialia, quae sunt haec:
+            <hi rend="italic">clamatum, clamatus, clamaturus, clamator, clamatio; monitum, monitus, moniturus,
+            monitor, monitio; scriptum, scriptus, scripturus, scriptor, scriptio; auditum, auditus,
+            auditurus, auditor, auditio</hi>. </p>
+        </div>
+        <div type="paragraph" n="82">
+          <p> Istae tres connexiones hanc habent vim, ut si cuius connexionis unum verbum inveneris,
+            cetera ad eandem connexionem pertinentia facile percurres modis, numeris et personis.
+            Nam si verba alterius connexionis ad alteram connexionem et regulam ducere volueris,
+            fallaris necesse est. </p>
+        </div>
+      </div>
+      <div>
+        <head> DE ADVERBIO</head>
+        <div type="paragraph" n="83">
+          <p> Adverbium est pars orationis verbo adicienda, ut cum dicimus <hi rend="italic">fortiter fecit, mansuete
+            vixit, hodie venit, loco est, longe est, hic sedet, simul comitatur</hi> et alia. Nam fecit,
+           <hi rend="italic"> vixit, venit, sedet, comitatur verba sunt, fortiter, mansuete, hodie, hic, simul</hi>
+            adverbia sunt. Adverbio accidunt significatio, comparatio, figura. </p>
+        </div>
+        <div type="paragraph" n="84">
+          <p> Significatio qua significant vel qualitatem, ut <hi rend="italic">sapienter, candide</hi> vel quantitatem, ut
+           <hi rend="italic"> magne, granditer,</hi> vel tempus, ut <hi rend="italic">hodie, cras</hi>, vel locum, ut <hi rend="italic">hic, ibi</hi> et alia paene
+            innumerabilia. Nonnulli addunt adverbiis etiam qualitatem et recte. Haec enim sicut
+            pronomina vel finita sunt adverbia vel infinita vel minus quam finita: finita sunt
+           <hi rend="italic"> fortiter, hodie, Romane</hi>; infinita ut <hi rend="italic">quomodo, quando, ubi</hi>; minus quam finita, ut <hi rend="italic">sic,
+            tunc, illic</hi>. </p>
+        </div>
+        <div type="paragraph" n="85">
+          <p>Comparatio accidit adverbiis, quae de nominibus conparationem recipientibus veniunt ut
+            <hi rend="italic">ab hoc, forti, fortiter</hi>; ergo quemadmodum <hi rend="italic">fortis, fortior, fortissimus</hi>, ita <hi rend="italic">fortiter,
+            fortius, fortissime</hi>, et quemadmodum <hi rend="italic">castus, castior, castissimus</hi>, ita <hi rend="italic">caste, castius,
+            castissime</hi>, itaque comparativus nominis generis neutri: nam <hi rend="italic">sanctius templum</hi> nomen est,
+           <hi rend="italic"> sanctius</hi> dixit adverbium. In his hoc observandum est, ut quaecumque nomina casum dativum
+            in <hi rend="italic">i</hi> mittunt, inde adverbia in <hi rend="italic">ter</hi> exeant, ut <hi rend="italic">huic forti fortiter, sapienti sapienter,
+            agili agiliter</hi>; quaecumque autem dativum casum in <hi rend="italic">o</hi> mittunt, inde adverbia exeunt in <hi rend="italic">e</hi>,
+            ut <hi rend="italic">huic magno magne, casto caste, docto docte</hi>. </p>
+        </div>
+        <div type="paragraph" n="86">
+          <p> Figura adverbiorum ut nominum et verborum aut simplex est, ut <hi rend="italic">sapienter</hi>, aut
+            composita, ut <hi rend="italic">insipiente</hi>r. </p>
+        </div>
+      </div>
+      <div type="section">
+        <head> DE PARTICIPIO</head>
+        <div type="paragraph" n="87">
+          <p> Participium est pars orationis cum casu et tempore et inde participium dictum, quod
+            nominis verbique participet; casum namque illinc, tempus hinc traxit. Sunt autem
+            participia duo futuri temporis, unum praesentis, unum praeteriti. Futuri temporis ut
+            <hi rend="italic">scripturus, scribendus</hi>; praesentis ut <hi rend="italic">scribens</hi>; praeteriti ut <hi rend="italic">scriptus</hi>. Declinatur autem
+            <hi rend="italic">scribens</hi> tamquam nomen quod est <hi rend="italic">prudens</hi>, nam est generis omnis. Reliqua vero tria per
+            omnia genera flectuntur: tamquam <hi rend="italic">iustus, iusta, iustum</hi>, eodem modo declinantur.</p>
+        </div>
+        <div type="paragraph" n="88">
+          <p>Sunt quaedam participia eadem et nomina, ut <hi rend="italic">cultus, sapiens</hi>, ratione diversa: nam
+            <hi rend="italic">cultus</hi> casu genetivo discernitur: a participium enim <hi rend="italic">huius culti</hi> facit, -venit autem a
+            verbo <hi rend="italic">color</hi>-, a nomine autem <hi rend="italic">huius cultus</hi> facit. <hi rend="italic">Sapiens</hi> vero ideo etiam nomen dicitur,
+            quod recipit conparationem: facit enim <hi rend="italic">sapiens, sapientior, sapientissimus</hi>. Quae ratio
+            mihi non admodum placet: nam participia videntur conparationem recipere, si loquendi
+            consuetudo permittat vel hortetur auctoritas, sed tantum praeteriti temporis. Nam duo
+            futura non admittunt: quis enim non audet dicere <hi rend="italic">armatissimus</hi>, quod Tullius ait? Nec
+            tamen <hi rend="italic">armaturior</hi> aut <hi rend="italic">armandior</hi> ab eo quod est <hi rend="italic">armaturus</hi> et <hi rend="italic">armandus</hi> dici potest. Quod
+            fatendum est, si cum tempore accipiantur participia, difficile videntur posse
+            conparationem recipere: nam et illud quod <hi rend="italic">cultus</hi> dictum est facit <hi rend="italic">cultior </hi>et
+            <hi rend="italic">cultissimus</hi>, sed si ad tempus praeteritum referas non facit. <hi rend="italic">Cultus</hi> enim ager ex ipso
+            habitu suo est, <hi rend="italic">cultus est</hi> autem si ad tempus adtendas, praeterea utique actione
+            cultoris. </p>
+        </div>
+        <div type="paragraph" n="89">
+          <p> Accidunt participiis etiam figurae sicut ceteris partibus orationis, simplex ut
+            <hi rend="italic">scribens</hi>, composita ut <hi rend="italic">describens</hi>. </p>
+        </div>
+      </div>
+      <div type="section">
+        <head> DE CONIVNCTIONE</head>
+        <div type="paragraph" n="90">
+          <p> Coniunctio est pars orationis adnectens ordinansque sententiam. Coniunctioni accidit
+            potestas. Est vel quae copulat verba ut <hi rend="italic">et, que, ac</hi>, vel disiungit, ut <hi rend="italic">aut, vel, nec,
+            neque</hi>, aut explet ut <hi rend="italic">prorsus, videlicet, scilicet, quin etiam</hi> et similia, aut quasi
+            causam reddit ut <hi rend="italic">nam, namque, enim, quamobrem, itaque</hi>, aut quasi ratiocinatur, ut <hi rend="italic">ergo,
+            igitur, propterea</hi>, et similia. Et ideo partim copulativae dicuntur, partim disiunctivae,
+            partim expletivae, partim causales, partim rationales. Sed multae omnino coniunctiones
+            sunt, de quibus diligenter grammatici deliberant, quo istorum quinque nominum eas
+            vocent, vel utrum aliae differentiae sint adiciendae. Quam litem quia et longum et
+            difficile est solvere, illud de coniunctionibus breve praeceptum sit, ut cum legimus
+            viros locutionis auctoritate dignissimos, advertamus quo quaeque loco et in qua
+            sententia poni soleat, ut consuetudine intellegendi bene coniunctionibus uti possimus.
+            Nam si quis quaerat quid sit <hi rend="italic">immo</hi>, non facile dixerim quomodo ei vel definire vel
+            interpretari hanc coniunctionem possimus: proferendo ergo multas sententias, in quibus
+            posita est, miro quodam modo quid valeat insinuamus cum quodam etiam gestu pronuntiandi,
+            ut est <lb/> «immo, ait, o cives, arrepto tempore Turnus, <lb/> cogite concilium» et
+            <lb/> «immo age et a prima dic, hospes origine nobis», nostrasque sententias ad tempus
+            fictas adiungere utile est: «immo tu vade qui cogis alium», «immo adde rationi qui
+            detrahere studes». Huic autem coniunctioni utcumque vicinum est cum dicimus <hi rend="italic">potiu</hi>s; et
+            ideo et ad libros, ut dixi, redeundum est. </p>
+        </div>
+        <div type="paragraph" n="91">
+          <p> Figurae in coniunctionibus sicut in ceteris partibus orationis observantur. Nam
+            simplex coniunctio est <hi rend="italic">at</hi>, composita <hi rend="italic">atque</hi>. </p>
+        </div>
+        <div type="paragraph" n="92">
+          <p> Ordo coniunctionum est per quem observatur quae praeponi tantum possit, quae tantum
+            subiungi, quae et praeponi et subiungi: <hi rend="italic">nam</hi> tantum praeponitur, <hi rend="italic">que</hi> tantum subiungitur,
+            <hi rend="italic">scilicet</hi> et praeponitur et subiungitur. Nam si quis quaerat, verbi causa, «cui dicis?»,
+            respondemus «huic et tibi»: non possumus dicere «huic tibi et»; item respondemus «huic
+            tibique»: non potest dici «huicque tibi». Respondere possumus «scilicet tibi» et «tibi
+            scilicet». </p>
+        </div>
+      </div>
+      <div type="section">
+        <head> DE PRAEPOSITIONE</head>
+        <div type="paragraph" n="93">
+          <p> Praepositio est pars orationis quae aut componendis partibus orationis praeponitur,
+            aut casibus duobus tantum accusativo aut ablativo, aut utrique non componendis sed ad
+            certas significationes adiuvandas. Itaque aliae praepositiones tantum componuntur, ut
+            <hi rend="italic">di, dis, re, am</hi> - dicimus enim <hi rend="italic">diiudico, discurro, removeo, ambio</hi> -, aliae tantum
+            casibus serviunt, ut <hi rend="italic">apud, pone, secundum, ultra, adversum, cis, citra, circa, erga,
+            intra, infra, iuxta, penes, propter, usque, coram, absque, palam, sine, tenus</hi>. Ceterae
+            et componuntur et casibus serviunt ut <hi rend="italic">adnuam</hi> et <hi rend="italic">adduco</hi> dicimus et <hi rend="italic">ad amicum</hi>. </p>
+        </div>
+        <div type="paragraph" n="94">
+          <p> Ergo accusativo serviunt hae: <hi rend="italic">ad amicum, apud patrem, ante cenam, adversus hostem, cis
+            Tiberim, citra domum, circum murum, circa ianuam, contra portam, erga fratrem, extra
+            matrem, inter montes, intra domum, infra urbem, iuxta lacum, ob rem, penes Eurum, per
+            spatium, prope circum, propter salutem, praeter sonum, post tergum, pone balneas,
+            secundum viam, trans Galliam, ultra Aethiopiam, usque Romam</hi>. </p>
+        </div>
+        <div type="paragraph" n="95">
+          <p> Ablativo casui serviunt hae: <hi rend="italic">a socio, ab Olympo, abs tecto, absque damno, cum amico,
+            coram vicino, de domo, e foro, ex edicto, pro patria, prae ceteris, palam omnibus, sine
+            invidia, tenus facie</hi>. </p>
+        </div>
+        <div type="paragraph" n="96">
+          <p> Vtrique casui serviunt hae: <hi rend="italic">in villam vado</hi> et <hi rend="italic">in villa sum, sub tectum venio</hi> et <hi rend="italic">sub
+            tecto sto, subter arborem eo</hi> et <hi rend="italic">subter arbore sedeo, super arborem saliunt</hi> et <hi rend="italic">super
+            arbore sidunt</hi>. Et <hi rend="italic">super</hi>, quando <hi rend="italic">de</hi> significat, sicuti est <lb/> «multa super Priamo
+            rogitans», ablativo tantum servit.</p>
+        </div>
+      </div>
+      <div type="section">
+        <head> DE INTERIECTIONE</head>
+        <div type="paragraph" n="97">
+          <p> Interiectio est pars orationis aliquem motum animi significans atque exprimens ut <hi rend="italic">heu,
+            papae, hem</hi>, et si qua sunt alia. </p>
+        </div>
+      </div>
+      <div type="section">
+        <head>DE SOLOECISMO</head>
+        <div type="paragraph" n="98">
+          <p> Soloecismus est vitium locutionis quod fit per Latinas quidem partes orationis, sed
+            male sibimet nexas. Qui enim dicit «inter hominibus», si consideres singula, nullum
+            fecit vitium: nam et <hi rend="italic">inter</hi> Latinum est et <hi rend="italic">hominibus</hi>: sed vitiosum est sic utrumque
+            coniunctum. Hoc ergo modo quando peccatur in qualibet ratione, quae de octo partibus
+            orationis reddita est, soloecismus vocatur. </p>
+        </div>
+        <div type="paragraph" n="99">
+          <p> Nonnulli a soloecismo seiungunt improprium quod graece acyrologia dicitur. Si quis,
+            verbi causa, dicat «libidinem amicitiarum» pro «amore», et «factionem bonorum» pro
+            «cessione», nisi vituperans aut inridens dicat sed bono animo arbitrans ita esse
+            dicendum, nunquam solet ita reprehendi ut soloecismum fecisse arguatur. Hoc ergo
+            interest inter soloecismum et improprium, quod in soloecismo reprehenditur ordinis
+            ignorantia, in improprio autem significationis: aliud est enim nescire quomodo se verba
+            consequi debeant, aliud nescire quid significent. </p>
+        </div>
+      </div>
+      <div type="section">
+        <head> DE BARBARISMO</head>
+        <div type="paragraph" n="100">
+          <p> Barbarismus quo singula ipsa verba Latina non sunt. Nam si quis dicat «hominem»,
+            retracta aspiratione, barbarismum facit; aut «coronam», addita aspiratione, peccat; aut
+            «luctat», detracta syllaba, scilicet peccabit; aut «potestur» pro «potest», addita
+            syllaba, Latinum non est; aut si dicat «pone» et primam syllabam corripiat detractione
+            temporis, barbarismus est; aut si dicat «bonus» et primam syllabam producat adiectione
+            temporis, vitium est; aut si enuntiet nomen et nullam in eo acuat syllabam, acuminis
+            detractione peccat. Si autem duas acuat syllabas in una parte orationis, adiectione
+            acuminis offendit auditum. Si dicat «vulla» pro «villa», commutatione litterae; si dicat
+            «displicina» pro «disciplina», transmutatio syllabae in vitio est, quia detractione et
+            adiectione commutatione et transmutatione aut aspirationis aut litterae aut syllabae aut
+            accentuum aut temporum fit barbarismus. </p>
+        </div>
+        <div type="paragraph" n="101">
+          <p> Sed ad cetera vitanda potest quaecumque lectio boni auctoris subvenire. Propter
+            tempora autem et accentus alia eruditio et poetae maxime necessarii sunt, aut si ab his
+            tempus excludit animadvertendus diligenter in colloquio sermo doctorum est. Nam in eodem
+            quod tempore in locutione rectum est, et quod eiusdem temporis docti qui habentur vel
+            dixerint vel probaverint, a summo sunt consensu, quod in scriptis eorum quibuslibet et
+            in sermone cum cura edito facillime apparet. </p>
+        </div>
+        <div type="paragraph" n="102">
+          <p> Sane quidam discernunt inter barbarismum et barbarum ut barbarismus sit si pars
+            orationis secundum redditam rationem aliqua superet vitiosa, barbarum autem si alicuius
+            gentis verbum est non receptum, ut si quis dicat in Latino sermone «bdellas» pro
+            »carica», quod utique Punicum est. Esse autem nullius omnino gentis verbum pro verbo
+            enuntiatum, tali vitio nec nomen impositum est. </p>
+        </div>
+        <div type="paragraph" n="103">
+          <p> Verbe quae genetivo casui conveniunt: <hi rend="italic">obliviscor iniuriae, memor sum bonorum, misereor
+            puerorum, pudet facti, piget gratiae, penitet laboris, taedet operis, memini lectionis,
+            reminiscor doloris, ignarus malorum.</hi> <lb/> Verba accusativi casui: <hi rend="italic">decet dominum,
+            poenitet amicum, piget inertem, ridet fratrem, calumniatur Catonem, concedo pretium,
+            lego Homerum, scribo historiam, consolor inimicum, odi turpes, novi bonos</hi>. <lb/> Nomina
+            appellativa: <hi rend="italic">expers bonorum, dubius itineris, cupidus honoris, neglegens picturae,
+            conscius facti.</hi><lb/> Dativo casui serviunt <hi rend="italic">maledico hosti, suadeo iudicibus, indico
+            tibi, cedo potenti, ministro parenti, largior amico, dono propinquo, obsequor domino,
+            adversor inimico, gratificor illis, subscribo epistulis, adsum clementi, pareo legibus.</hi>
+            <lb/>Nomina vocativi casus: <hi rend="italic">Virgili scribe, Cicero responde</hi>. <lb/> Verba ablativi casui:
+           <hi rend="italic"> fruor fratre, potior pecunia, utor toga, privor potestate, egeo laude, careo molestia,
+            cedo possessione, abstineo cibo, fungor officiis, sacrifico victima, glorior viribus.
+            <lb/> Donatus torque, dignus honore</hi>. <lb/> Nomina dativi casui: <hi rend="italic">intentus studiis,
+            inimicus virtuti, audiens dicto, invidens bono, malivolus studenti, utilis civibus,
+            aptus scenae.</hi> </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

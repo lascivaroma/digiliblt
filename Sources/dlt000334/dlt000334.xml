@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Liber de asse</title>
+    <author>Balbus (Ps.)</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Beatrice Strona</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2015</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000334</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Metrologicorum scriporum reliqiae</hi>, collegit recensuit partim nunc primum edidit F. Hultsch, vol. II, Lipsiae 1866 72-75 (Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana).</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+   
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+  
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div><head>Liber de asse.</head>
+    <p><del>Balbus ad Celsum de asse minutisque eius portiunculis.</del></p>
+    <p><milestone unit="par" n="1"/> Quicquid unum est et quod ex integrorum divisione remanet, assem ratiocinatores vocant. Quotquot ergo de integra divisione singulares res unitatesve remanebunt, totidem asses erunt: si unitas una remanebit, unus erit assis asve; si duae, duo; si plures, plures erunt asses. Sed quia pauciores inter aequales aequaliter dividi non possunt, nisi in minutias, quemadmodum dictum est, secentur, oportet eum qui docet ostendere quibus rationibus ab integris deriventur minutiae. <milestone unit="par" n="2"/> Assis quidem asve in duas partes sectus sex principales generat divisiones, <unclear>quibuslibet binis partibus toti suo aequatus et eiusdem sui totus constitutus</unclear>. Aut enim assis altera pars est deunx, altera uncia; aut altera dextans, altera sextans; aut altera dodrans, altera quadrans; aut altera bessis (sic enim potius dicendum est, quam aut bes aut des, quoniam binas ex tribus assis partes sibi vindicat), altera triens; aut altera septunx, altera quincunx; aut utraeque partes erunt semis. <milestone unit="par" n="3"/> Harum omnium partium nullae parem quantitatem habent praeter duas ultimas, quemadmodum patuit; principales ideo dicuntur hae partes, quoniam unaquaeque illarum et in alias partes dividitur quae secundariae sunt ad totum; omnis enim pars partis totius pars est. <milestone unit="par" n="4"/> Quod diximus explanandum est: cuiuslibet integrae rei in duodecim partes divisae semper duodecima pars uncia dicitur, restat vero deunx; et hae sunt partes primae divisionis. <milestone unit="par" n="5"/> Haec de assis partibus tractamus nisi eo modo quo simpliciter sunt partes ut integri totius, species enim illius innumerabiles sunt; nam quotquot sunt integrae unitates, totidem necesse est intelligi assis esse species. <milestone unit="par" n="6"/> Earum unitatum quaelibet divisa in aequales partes sex sextam habebit sextantem, reliquas dextantem; ergo sic potest dividi: pars una assis dextans, altera sextans. <milestone unit="par" n="7"/> Item cuiuslibet rei integrae in quatuor partes aequales divisae quarta pars quadrans vocabitur, reliquae dodrans. <milestone unit="par" n="8"/> Item cuiuslibet rei in tres partes divisae duae illarum bessis nominabitur, reliquae triens. <milestone unit="par" n="9"/> Rursus cuiusvis rei divisae in tales duas partes, quarum altera alteram septima sui totius parte superat, septunx nuncupabitur, superata quincunx. <milestone unit="par" n="10"/> Sexto modo res aliqua integra in duas aequales minutias separatur, quae utraeque semis dicuntur. <milestone unit="par" n="11"/> Septima divisio his adiungi potest; nam rei integrae in octo partes distributae pars quaelibet ex illis sine aliis considerata sescuncia dici potest, reliquae semuncideunx.</p>
+    <p><milestone unit="par" n="12"/> Licet assis plures sint divisiones, tamen his septem numerarii ratiocinatores magis utuntur, et pars illa quae est semuncideunx, in frequenti usu non est, unde characterem non habet quo designetur. <milestone unit="par" n="13"/> As ergo habet unum deuncem, unum dextantem, unum dodrantem, unum bessem, unum septuncem, duos semisses, duos quincunces, tres trientes, quatuor quadrantes, sex sextantes, octo sescuncias, duodecim uncias. <milestone unit="par" n="14"/> Et uncia ablata de asse remanet deunx, sublata uncia de deunce remanet dextans, sublata uncia de dextante remanet dodrans, sublata uncia de dodrante remanet bessis, sublata uncia de besse remanet septunx, sublata uncia de septunce remanet semis, sublata uncia de semisse remanet quincunx, sublata uncia de quincunce remanet triens, sublata uncia de triente remanet quadrans, sublata uncia de quadrante remanet sextans, sublata uncia de sextante remanet uncia, sublata semuncia de sextante remanet sescuncia, hoc est uncia et dimidia, sublata semuncia de sescuncia remanet uncia.</p>
+    <p><milestone unit="par" n="15"/> Et uncia quidem sic dividitur: unciae pars alia semuncia, alia duella, alia siciliquus, alia sextula, alia drachma, alia hemisescla, alia tremissis, alia scripulus scrupulusve. Semuncia quidem est medietas unciae, duella tertia pars, siciliquus quarta, sextula sexta, drachma octava, hemisescla duodecima, tremissis sextadecima, scrupulus quarta et vigesima. <milestone unit="par" n="16"/> Quare tremissis continet scrupulum et dimidium, hemisescla duos scrupulos, drachma tres, sextula quatuor, siciliquus sex, duella octo, semuncia duodecim, uncia quatuor et viginti, sescuncia sex et triginta, sextans octo et quadraginta, quadrans duos et septuaginta, triens sex et nonaginta, quincunx centum et viginti, semis centum et quatuor et quadraginta, septunx centum et octo et sexaginta, bessis centum et duos et nonaginta, dodrans ducentos et sedecim, dextans ducentos et quadraginta, deunx ducentos et quatuor et sexaginta, as ducentos et octo et octoginta.</p>
+   </div>
+   
+   
+   
+   
+  </body>
+ </text>
+
+</TEI>

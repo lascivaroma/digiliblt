@@ -1,0 +1,2336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Relationes</title>
+    <author>Quintus Aurelius Symmachus</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Vincenzo del Core </name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Alice Borgna</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2013</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000480</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p>Symmaque, texte établi, traduit et commenté par Jean Pierre Callu. Tome V: Discours -
+     Rapports, Paris 2009</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+   
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+  
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <head>Q. AVRELII SYMMACHI V C. PRAEFECTI VRBIS RELATIONES</head>
+   <div type="lib" n="I">
+    <head> I. D. N. VALENTINIANO SEMPER AVG. SYMMACHVS V C. PRAEFECTVS VRBIS. </head>
+    <div type="cap" n="1">
+     <p> Quieto mihi et iam pridem a desideriis honorum remoto Praefecturam multis cupitam sponte
+      tribuistis. Ago gratias tot bonorum erga me Principum uoluntati, sed intellego quanto plus
+      sollicitudinis habeat magistratus qui ex iudicio, quam qui ex gratia uenit. Ille enim, ut
+      meritis datus, spem sui debet aequare, iste, ut per beneficium quaesitus, a periculo
+      expectationis alienus est, Domine Imperator Valentiniane inclyte, uictor ac triumphator semper
+      Auguste. </p>
+    </div>
+    <div type="cap" n="2">
+     <p> Quis ergo me huic honori parem faciet? Scilicet Vestra Clementia cuius interest ne temere
+      existimer electus; mihi ad conscientiam satis est non adfectasse publicam curam. Iam qualis
+      inueniar in manu temporum est; bonos enim magistratus fauor Principum facit semperque de
+      moribus Vestris uirtutes iudicum fluunt. </p>
+    </div>
+    <div type="cap" n="3">
+     <p> Facite ut omnes intellegant, si forte desit rectoribus integer uigor et iusta conscientia,
+      hominis culpam esse, non saeculi. Non sum uoti inmodicus, cum honorem meum commendo auctoribus
+      suis. Quantum est enim quod ego Numini Vestro ago gratias? Facite ut Vobis etiam Res p. pro me
+      grata sit. </p>
+    </div>
+    </div>
+    <div type="lib" n="II">
+     <head> II. DD. NN. THEODOSIO ET ARCADIO SEMPER AVGG. SYMMACHVS V. C. PRAEFECTVS VRBIS.</head>
+     <div type="cap" n="1">
+      <p> Olim me, ut res indicat, cogitationes Numinis Vestri secundo fauore respiciunt: neque enim
+       aliter Imperatoribus nihil temere praestantibus inter primos aut primus occurrerem. Dilatus
+       ergo hactenus mihi cum Re p. uideor, quae ubi in longinquas Imperii partes Maiestatis Vestrae
+       curam uocauit, repperit apud Vos meditata iudicia, Domini Imperatores Theodosi et Arcadi
+       inclyti, uictores ac triumphatores semper Augusti. </p>
+     </div>
+     <div type="cap" n="2">
+      <p> Angustum est igitur ut Aeternitati Vestrae pro solo honore quem cepi gratias agam.
+       Praefectos saepe fecistis et inmensa aetate facietis, sed quos adsiduitas et usus ingesserit;
+       me dudum proconsularem uirum cedentem iam diu potentium moribus ante capere magistratum quam
+       expectare uoluistis. Nunc Vos oro atque obsecro ut fauore perpetuo factum Vestrum iuuetis.
+       Amabile est praeesse ciuibus, sed placere difficile. Multum enim sibi <supplied>quisque
+        adfectat</supplied> et inter cognitos semper dura constantia est. </p>
+     </div>
+     <div type="cap" n="3">
+      <p> Quid, quod plerumque euenit, ut <supplied>obsequi</supplied> aliqui longae potentiae usu
+       iam nesciant? Honorem meum non deseruerint qui dederunt; ego enitar, ut potero, ne Clementiam
+       Vestram fefellisse de me prior fama uideatur: Vestri Numinis erit communem causam tueri. Nam
+       in bonis magistratibus maiorem gloriam quaerit temporum fama quam iudicum. </p>
+     </div>
+    </div>
+     <div type="lib" n="III">
+      <head>III. D. N. VALENTINIANO SEMPER AVG. SYMMACHVS V C. PRAEFECTVS VRBIS.</head>
+      <div type="cap" n="1">
+       <p> Vbi primum Senatus amplissimus semperque Vester subiecta legibus uitia cognouit et a
+        Principibus piis uidit purgari famam temporum proximorum, boni saeculi auctoritatem secutus
+        euomuit diu pressum dolorem atque iterum me querellarum suarum iussit esse legatum. Cui ideo
+        diui Principis denegata est ab inprobis audientia, quia non erat iustitia defutura, Domine
+        Imperator Valentiniane inclyte, uictor ac triumphator semper Auguste. </p>
+      </div>
+      <div type="cap" n="2">
+       <p> Gemino igitur functus officio et ut Praefectus Vester gesta publica prosequor et ut
+        legatus ciuium mandata commendo. Nulla est hic dissensio uoluntatum, quia iam credere
+        homines desierunt aulicorum se studio praestare, si discrepent. Amari, coli, diligi maius
+        imperio est. Quis ferat obfuisse Rei publicae priuata certamina! Merito illos Senatus
+        insequitur, qui potentiam suam famae Principis praetulerunt; noster autem labor pro
+        Clementia Vestra ducit excubias. Cui enim magis commodat, quod instituta maiorum, quod
+        patriae iura et fata defendimus, quam temporum gloriae? Quae tunc maior est, cum Vobis
+        contra morem parentum intellegitis nil licere. </p>
+      </div>
+      <div type="cap" n="3">
+       <p> Repetimus igitur religionum statum qui Reip. diu profuit. Certe dinumerentur Principes
+        utriusque sectae, utriusque sententiae: pars eorum prior caerimonias patrum coluit,
+        recentior non remouit. Si exemplum non facit religio ueterum, faciat dissimulatio
+        proximorum. Quis ita familiaris est barbaris, ut aram Victoriae non requirat! Cauti in
+        posterum sumus et aliarum rerum ostenta uitamus. Reddatur saltem nomini honor qui numini
+        denegatus est. Multa Victoriae debet Aeternitas Vestra et adhuc plura debebit: auersentur
+        hanc potestatem, quibus nihil profuit; uos amicum triumphis patrocinium nolite deserere.
+        Cunctis potentia ista uotiua est; nemo colendam neget, quam profitetur optandam. </p>
+      </div>
+      <div type="cap" n="4">
+       <p> Quodsi huius ominis non esset iusta uitatio, ornamentis saltem Curiae decuit abstineri.
+        Praestate, oro Vos, ut ea quae pueri suscepimus, senes posteris relinquamus. Consuetudinis
+        amor magnus est; merito diui Constantii factum diu non stetit. Omnia Vobis exempla uitanda
+        sunt, quae mox remota didicistis. Aeternitatem curamus famae et nominis Vestri, ne quid
+        futura aetas inueniat corrigendum. </p>
+      </div>
+      <div type="cap" n="5">
+       <p> Vbi in leges Vestras et uerba iurabimus? Qua religione mens falsa terrebitur ne in
+        testimoniis mentiatur? Omnia quidem deo plena sunt nec ullus perfidis tutus est locus, sed
+        plurimum ualet ad metum delinquendi etiam praesentia numinis urgueri. Illa ara concordiam
+        tenet omnium, illa ara fidem conuenit singulorum neque aliud magis auctoritatem facit
+        sententiis nostris, quam quod omnia quasi iuratus Ordo decernit. Patebit ergo sedes profana
+        periuriis et hoc inclyti Pricipes mei probabile iudicabunt, qui sacramento publico tuti
+        sunt? </p>
+      </div>
+      <div type="cap" n="6">
+       <p> Sed diuus Constantius idem fecisse dicetur. Cetera potius illius Principis aemulemur, qui
+        nihil tale esset adgressus, si quis ante se alius deuiasset. Corrigit enim sequentem lapsus
+        prioris et de reprehensione antecedentis exempli nascitur emendatio. Fas fuit, ut parens
+        ille Clementiae Vestrae in re adhuc noua non caueret inuidiam. Num potest etiam nobis eadem
+        defensio conuenire, si imitemur quod memínimus inprobatum? </p>
+      </div>
+      <div type="cap" n="7">
+       <p> Accipiat Aeternitas Vestra alia eiusdem Principis facta quae in usum dignius trahat.
+        Nihil ille decerpsit sacrarum uirginum priuilegiis, repleuit nobilibus sacerdotia. Romanis
+        caerimoniis non negauit inpensas et per omnes uias Aeternae Vrbis laetum secutus Senatum
+        uidit placido ore delubra, legit inscripta fastigiis deum nomina, percontatus templorum
+        origines est, miratus est conditores, cumque alias religiones ipse sequeretur, has seruauit
+        Imperio. </p>
+      </div>
+      <div type="cap" n="8">
+       <p> Suus enim cuique mos, suus ritus est: uarios custodes urbibus cultus mens diuina
+        distribuit; ut animae nascentibus, ita populis fatales genii diuiduntur. Accedit utilitas
+        quae maxime homini deos adserit. Nam, cum ratio omnis in operto sit, unde rectius quam de
+        memoria atque documentis rerum secundarum cognitio uenit numinum? Iam si longa aetas
+        auctoritatem religionibus faciat, seruanda est tot saeculis fides et sequendi sunt nobis
+        parentes qui secuti sunt feliciter suos. </p>
+      </div>
+      <div type="cap" n="9">
+       <p> Romam nunc putemus adsistere atque his Vobiscum agere sermonibus: «Optimi Principum,
+        Patres Patriae, reueremini annos meos in quos me pius ritus adduxit ! Vtar caerimoniis
+        auitis, neque enim paenitet! Viuam meo more, quia libera sum! Hic cultus in leges meas orbem
+        redegit, haec sacra Hannibalem a moenibus, a Capitolio Senonas reppulerunt. Ad hoc ergo
+        seruata sum, ut longaeua reprehendar? </p>
+      </div>
+      <div type="cap" n="10">
+       <p> Videro quale sit quod instituendum putatur; sera tamen et contumeliosa est emendatio
+        senectutis.» Ergo diis patriis, diis indigetibus pacem rogamus. Aequum est quidquid omnes
+        colunt unum putari. Eadem spectamus astra, commune caelum est, idem nos mundus inuoluit:
+        quid interest qua quisque prudentia uerum requirat? Vno itinere non potest perueniri ad tam
+        grande secretum. Sed haec otiosorum disputatio est; nunc preces, non certamina offerimus.
+       </p>
+      </div>
+      <div type="cap" n="11">
+       <p> Quanto commodo sacri aerarii Vestri Vestalium uirginum praerogatiua detracta est? Sub
+        largissimis Imperatoribus denegetur quod parcissimi praestiterunt? Honor solus est in illo
+        ueluti stipendio castitatis: ut uittae earum capiti decus faciunt, ita insigne ducitur
+        sacerdotii uacare muneribus. Nudum quoddam nomen inmunitatis requirunt, quoniam paupertate a
+        dispendio tutae sunt. Itaque amplius laudi earum tribuunt qui aliquid rei detrahunt;
+        siquidem saluti publicae dicata uirginitas crescit merito, cum caret praemio. </p>
+      </div>
+      <div type="cap" n="12">
+       <p> Absint ab aerarii Vestri puritate ista conpendia! Fiscus bonorum Principum non sacerdotum
+        damnis sed hostium spoliis augeatur! Illud tenue lucrum conpensat inuidiam? Atqui auaritia
+        in mores Vestros non cadit. Hoc miseriores sunt quibus subsidia uetera decerpta sunt; etenim
+        sub Imperatoribus qui alieno abstinent, quia resistunt cupiditati, ad solam detrahitur
+        amittentis iniuriam quod desiderium non mouet auferentis. </p>
+      </div>
+      <div type="cap" n="13">
+       <p> Agros etiam uirginibus et ministris deficientium uoluntate legatos fiscus retentat. Oro
+        Vos, iustitiae sacerdotes, ut Vrbis Vestrae sacris reddatur priuata successio. Dictent
+        testamenta securi et sciant sub Principibus non auaris stabile esse quod scripserint.
+        Delectet Vos ista felicitas generis humani. Coepit causae huius exemplum sollicitare
+        morientes. Ergo Romanae religiones ad Romana iura non pertinent? Quod nomen accipiet ablatio
+        facultatum quas nulla lex, nullus casus fecit caducas? </p>
+      </div>
+      <div type="cap" n="14">
+       <p> Capiunt legata liberti, seruis testamentorum iusta commoda non negantur: tantum nobiles
+        uirgines et fatalium sacrorum ministri excludentur praesidiis hereditate quaesitis? Quid
+        iuuat saluti publicae castum corpus dicare et Imperii aeternitatem caelestibus fulcire
+        praesidiis, armis uestris, aquilis uestris amicas adplicare uirtutes, pro omnibus efficacia
+        uota suscipere, et ius cum omnibus non habere? Itane melior est seruitus quae hominibus
+        inpenditur? Rem publicam laedimus, cui numquam expediit ut ingrata sit. </p>
+      </div>
+      <div type="cap" n="15">
+       <p> Nemo me putet tueri solam causam religionum: ex huiusmodi facinoribus orta sunt cuncta
+        Romani generis incommoda. Honorauerat lex parentum Vestales uirgines ac ministros deorum
+        uictu modico iustisque priuilegiis; stetit muneris huius integritas usque ad degeneres
+        trapezitas qui ad mercedem uilium baiulorum sacra castitatis alimenta uerterunt: secuta est
+        hoc factum fames publica et spem prouinciarum omnium messis aegra decepit. </p>
+      </div>
+      <div type="cap" n="16">
+       <p> Non sunt haec uitia terrarum, nihil inputemus austris, nec rubigo segetibus obfuit, nec
+        auena fruges necauit: sacrilegio annus exaruit. Necesse enim fuit perire omnibus quod
+        religionibus negabatur. Certe si est huius mali aliquod exemplum, inputemus tantam famem
+        uicibus annorum: grauis hanc sterilitatem causa contraxit. Siluestribus arbustis uita
+        producitur et rursus ad Dodonaeas arbores plebis rusticae inopia conuolauit. </p>
+      </div>
+      <div type="cap" n="17">
+       <p> Quid tale prouinciae pertulerunt, cum religionum ministros honor publicus pasceret?
+        Quando in usum hominum concussa quercus, quando uulsae sunt herbarum radices, quando
+        alternos regionum defectus deseruit fecunditas mutua, cum populo et uirginibus sacris
+        communis esset annona? Commendabat enim terrarum prouentum uictus antistitum et remedium
+        magis quam largitas erat. An dubium est semper pro copia omnium datum quod nunc inopia
+        omnium uindicauit ? </p>
+      </div>
+      <div type="cap" n="18">
+       <p> Dicet aliquis sumptum publicum denegatum alienae religionis inpendiis. Absit a bonis
+        Principibus ista sententia ut, quod olim de communi quibusdam tributum est, in iure fisci
+        esse uideatur. Nam cum Res publica de singulis constet, quod ab ea proficiscitur, fit rursus
+        proprium singulorum. Omnia regitis, sed suum cuique seruatis plusque apud Vos iustitia quam
+        licentia ualet. Consulite certe munificentiam Vestram an adhuc publica uelit existimari quae
+        in alios transtulistis. Semel honori Vrbis delata conpendia desinunt esse tribuentium et
+        quod a principio beneficium fuit usu atque aetate fit debitum. </p>
+      </div>
+      <div type="cap" n="19">
+       <p> Inanem igitur metum diuino animo Vestro temptat incutere, si quis adserit conscientiam
+        Vos habere praebentium, nisi detrahentium subieritis inuidiam. Faueant Clementiae Vestrae
+        sectarum omnium arcana praesidia et haec maxime quae maiores Vestros aliquando iuuerunt. Vos
+        defendant, a nobis colantur. Eum religionum statum petimus, qui diuo parenti Numinis Vestri
+        seruauit Imperium, qui fortunato Principi legitimos suffecit heredes. </p>
+      </div>
+      <div type="cap" n="20">
+       <p> Spectat senior ille diuus ex arce siderea lacrimas sacerdotum et se culpatum putat more
+        uiolato, quem libenter ipse seruauit. Praestate etiam diuo fratri Vestro alieni consilii
+        correctionem; tegite factum, quod senatui displicuisse nesciuit. Siquidem constat ideo
+        exclusam legationem, ne ad eum iudicium pubficum perueniret. Pro existimatione est temporum
+        superiorum ut non dubitetis abolere quod probandum est Principis non fuisse. </p>
+      </div>
+     </div>
+      <div type="lib" n="IV">
+       <head>IV. D. N. VALENTINIANO SEMPER AVG. SYMMACHVS V C. PRAEFECTVS VRBIS.</head>
+       <div type="cap" n="1">
+        <p> Quod apud germanum Clementiae Vestrae diuum principem non sileremus, si eo res Romana
+         frueretur, custodibus famae eius insinuo ea deuotione qua Praefectum Vestrum decet fidem
+         praeferre blanditiis, Domine Imperator Valentiniane inclyte, uictor ac triumphator semper
+         Auguste. Falso creditum est quod urbanae fastigium potestatis peregrini ac superbi uehiculi
+         usus adtolleret; haec ratio sola nouum statutum benigno tunc persuasit ingenio, ut ueterem
+         magistratum diues pompa gestaret. </p>
+       </div>
+       <div type="cap" n="2">
+        <p> Recusat istius modi decus honor sobrius quem numquam paenitet sui; cui si quid patimur
+         accedere, fatemur hactenus defuisse. Itaque oculi quaerunt ciuitatis priuati uehiculi
+         nobilem modum et degenerem Praefecturam Populus Romanus existimat, quae posteriora traxit
+         exempla. Absit ut moderator Vrbis liberae atque ideo deuotae tamquam Salmoneus Elius
+         inuehatur. Nihil moramur externa miracula. </p>
+       </div>
+       <div type="cap" n="3">
+        <p> Inritamentum superbiae Roma Vestra non patitur memor scilicet bonorum parentum quos
+         Tarquinius fastus et ipsius Camilli currus offendit. Nam tanto illi uiro albentes quadrigae
+         exilium triste pepererunt. At contra Publicolae decus tribuit inclinatio potestatis;
+         submisit enim contioni ciuium consularem securem et honoris sui culmen infregit, ut
+         libertatem ciuitatis erigeret. Ergo moribus potius quam insignibus aestimemur. Non culpamus
+         nouum beneficium, sed bona nostra praeferimus. Submouete uehiculum cuius cultus insignior
+         est; illud maluimus cuius usus antiquior. </p>
+       </div>
+      </div>
+       <div type="lib" n="V">
+        <head>V DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO SEMPER AVGGG. SYMMACHVS V C. PRAEFECTVS
+         VRBIS.</head>
+        <div type="cap" n="1">
+         <p> Inter praecipua negotiorum saepe curatum est ut erudiendis nobilibus philosophi
+          praeceptores ex Attica poscerentur; itaque nonnullos etiam auctoritas publica in usum
+          nostrae urbis acciuit, Domini Imperatores Valentiniane, Theodosi et Arcadi inclyti,
+          uictores ac triumphatores semper Augusti. Nunc Vestri saeculi bonitas ultro optimatem
+          sapientiae Romanis gymnasiis adrogauit. </p>
+        </div>
+        <div type="cap" n="2">
+         <p> Siquidem Celsus, ortus Archetimo patre quem memoria litteratorum Aristoteli subparem
+          fuisse, consentit iuuentuti nostrae magisterium bonarum artium pollicetur, nullum quaestum
+          professionis adfectans atque ideo dignus in amplissimum Ordinem cooptari, ut animum uitiis
+          auaritiae liberum dignitatis praemio muneremur. Sunt huius rei exempla nobilia quae
+          prudens aemuletur imitatio. Nam et Carneaden Cyrenaeum et Poenum Clitomachum Atheniensis
+          curia societate dignata est, itidem ut nostri Zaleucum legum Locrensium conditorem
+          ciuitate donarunt. </p>
+        </div>
+        <div type="cap" n="3">
+         <p> Dignum est igitur aeternitate Numinis Vestri Celsum genere, eruditione, uoluntate
+          laudabilem adiudicare nobilibus pignore dignitatis, cum praerogatiua scilicet consulari,
+          ne sumptum eius magis quam magisterium quaesisse uideamur non sine auaritiae nota, si ab
+          eo munia publica postulemus, qui spondet gratuita praecepta. </p>
+        </div>
+       </div>
+        <div type="lib" n="VI">
+         <head>VI. DD. NN. THEODOSIO ET ARCADIO SEMPER AVGG. SYMMACHVS V C. PRAEFECTVS VRBIS.</head>
+         <div type="cap" n="1">
+          <p> Praecipua quidem beneficia Numinis Vestri Populus Romanus expectat, Domini Imperatores
+           Theodosi et Arcadi inclyti, uictores ac triumphatores semper Augusti, sed ea iam quasi
+           debita repetit, quae Aeternitas Vestra sponte promisit; non quod sibi tribuenda diffidat
+           - nusquam enim maior fides quam in bonorum principum sponsione - , uerum ne existimetur
+           oblata fastidiose sperare, nisi instanter exegerit. </p>
+         </div>
+         <div type="cap" n="2">
+          <p> Orat igitur Clementiam Vestram ut, post illa subsidia quae uictui nostro largitas
+           Vestra praestauit, etiam curules ac scaenicas uoluptates circo et Pompeianae caueae
+           suggeratis. His enim gaudet urbana laetitia cuius desiderium pollicitatione mouistis.
+          </p>
+         </div>
+         <div type="cap" n="3">
+          <p> Expectantur cotidie nuntii qui propinquare Vrbi munera promissa confirment; aurigarum
+           et equorum fama colligitur; omne uehiculum, omne nauigium scaenicos artifices aduexisse
+           iactatur. Et tamen amor Perennitatis Vestrae acuit desideria plebis, non cupiditas
+           ludicrorum. Date igitur interim quae petantur, ut sit locus ceteris quae sine fine
+           tribuetis. </p>
+         </div>
+        </div>
+         <div type="lib" n="VII">
+          <head>VII. DD. NN. THEODOSIO ET ARCADIO SEMPER AVGG. SYMMACHVS V C. PRAEFECTVS
+           VRBIS.</head>
+          <div type="cap" n="1">
+           <p> Kalendas anni auspices quibus mensium recursus aperitur inpertiendis strenis dicauit
+            antiquitas, Domini Imperatores Theodosi et Arcadi inclyti, uictores ac triumphatores
+            semper Augusti. Huius instituti usum munificentiae festinatione praeuertitis, seram
+            putantes liberalitatem quae statutis temporibus admouetur. Felix me hercule saeculum quo
+            Principes cohibere diu nesciunt tribuenda deuotis, cum sibi debita cunctentur exigere!
+           </p>
+          </div>
+          <div type="cap" n="2">
+           <p> Quid ergo primum, quid potissimum praedicem? Promptamne Numinis Vestri et celerem
+            largitatem, an circa absentes memorem diligentiam, an quod sacrum munus auxistis honore
+            uerborum? Dicam, ut res est, curasse Clementiam Vestram ut, tamquam coram locatus, et
+            adloquiis Principum fruerer et augusta in ipsis donis ora uenerarer. Quando mihi eueniet
+            expressa potius et uiua gaudia capere de Vobis? Quantum ueritatis est bonum cuius
+            species et imago mirabilis est! </p>
+          </div>
+          <div type="cap" n="3">
+           <p> Ago igitur atque habeo gratias et meam uicem, qui soluendo non sum, caelestibus
+            delego uirtutibus. Illae Clementiam Vestram dignis processibus munerentur; nos colimus,
+            nos amamus quod scitis omnibus rebus esse praestantius, qui ideo salutariter rem
+            pubficam regitis, ut haec sola mereamini. </p>
+          </div>
+         </div>
+          <div type="lib" n="VIII">
+           <head>VIII. DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO SEMPER AVGGG. SYMMACHVS V C.
+            PRAEFECTVS VRBIS.</head>
+           <div type="cap" n="1">
+            <p> Omnium beneficiorum quae tribuit potior fortuna subiectis certa sunt tempora, Domini
+             Imperatores Valentiniane, Theodosi et Arcadi inclyti, uictores ac triumphatores semper
+             Augusti; solae leges quae in bonum commune procedunt numquam patiuntur occasum. Agit
+             igitur diuinis sanctionibus Vestris gratias Ordo reuerendus etiam nomine posterorum
+             quibus res publica emendata tradetur. Nam cum foeda iactatio senatorias functiones
+             grauibus inpendiis obruisset, et moribus et sumptibus nostris sanitatem ueterem
+             reddidistis, ne aut inpares facultate collegas tenuis decoloraret editio aut per
+             uerecundiam uiribus maiora conatos effusio inconsulta demergeret. </p>
+           </div>
+           <div type="cap" n="2">
+            <p> Eiusdem praeterea orationis salubritate uetus dicendarum sententiarum forma reparata
+             est, <supplied>ut</supplied> summum cuique decernendi locum non ratio munerum, sed
+             honorum fortuna praestaret atque id assensio ceterorum, uel inuita, sequeretur quod
+             ante omnes felicior censuisset. Credimus igitur his remotis ad regnum suum redisse
+             uirtutes: in editionibus parsimonia, in Senatu ordo retinebitur, nec se ostentabit
+             opulentia semper bonis infirma temporibus. </p>
+           </div>
+           <div type="cap" n="3">
+            <p> Superest ut ea quae Serenitas Vestra patribus deliberanda legauit, cognito Senatus
+             consulto, lex augusta confirmet. Nullo enim dissentiente decretum est quis modus
+             censuum semel aut saepius fungendis mediocriter editionibus adplicetur, quae
+             gladiatorio muneri et quae scaenicis ludis sumptuum temperamenta conueniant, quid
+             libertatis habere mereatur praesentis expensio, quid damni absentium contumacia debeat
+             experiri. </p>
+           </div>
+           <div type="cap" n="4">
+            <p> Haec Aeternitas Vestra uenerabilis cum Senatui statuenda mandaret, referri ad se
+             protinus imperauit, ut placita cunctis inmortali lege solidentur. Iussis paruimus;
+             expectamus oraculum quo salutariter, ut Vestro Numini familiare est, patrum decreta
+             firmetis, adiecta comminatione, si ullus aliquando ambitus haec uel illa corruperit
+             quae consilio caelesti pro Ordinis dignitate sanxistis. </p>
+           </div>
+          </div>
+           <div type="lib" n="IX">
+            <head>IX. DD. NN. THEODOSIO ET ARCADIO SEMPER AVGG. SYMMACHVS V C. PRAEFECTVS
+             VRBIS.</head>
+            <div type="cap" n="1">
+             <p> Gratias beneficiis Vestris agere pro Vrbe Roma ut officii probabilis ita insolentis
+              audaciae est. Nam neque ingentibus rebus uerba conueniunt et personam Populi Romani
+              nulla inplet oratio, Domini Imperatores Theodosi et Arcadi inclyti, uictores ac
+              triumphatores semper Augusti. Sed quia in talibus negotiis uoti magis quam ingenii
+              ratio uersatur, non metuo inparis famam, dum fugio nomen ingrati. </p>
+            </div>
+            <div type="cap" n="2">
+             <p> Vrbem caelo et sideribus acceptam! Cui bona terrarum omnium congeste praestauistis
+              atque id praecipue Vobis putatis accedere, quod Roma quaesiuerit. Recepimus ueteris
+              praerogatiuae fidem securitatem. Siquidem constat imperantibus Vobis Populi esse
+              Romani quidquid ubique generosum uel gignit natura uel informat industria. Enimuero
+              etiam posteris egregium dedistis exemplum: scient futuri ita demum adfluere pubficas
+              uoluptates, si eas Palatia non requirant. Hoc est specimen animi continentis sibi
+              negare quod aliis deferatur et laetitiam ceterorum propriis anteferre solaciis; hic
+              usus bonos Principes decet. Namque aurium et oculorum fructus caducus est, largitatis
+              aeternus. </p>
+            </div>
+            <div type="cap" n="3">
+             <p> Alii triumphis suis haec dona seruassent, ut posita lauru nouis actoribus
+              personarent Pompeiana proscaenia, ut pro captiuis tetrarchis Indicae currum beluae
+              praeuenirent, ut equorum longus ordo instar gentium duceretur: Vester triumphus
+              Arsacidas post tergum reuinctos et gazas uictae Babylonis accipiet. In magnos quippe
+              animos non cadit adfectata iactatio. Nescitis tribuenda differre; quidquid nationum
+              famulatus obtulerit, statim publicum est. </p>
+            </div>
+            <div type="cap" n="4">
+             <p> Merito Vos Senatus ac Populus ore celebrat, deuotione ueneratur, amore
+              conplectitur. Mihi credite: arcana omnium pectorum possidetis, illa bonarum
+              necessitudinum loca quibus liberorum, quibus parentum inmoratur adfectio. Et quia omne
+              praemium, dum beneficiis Vestris confertur, angustum est, inuenit Ordo amplissimus
+              amabilem uicem qua se gratum probaret. Nam familiae Vestrae et stirpis auctorem,
+              Africanum quondam et Brittannicum ducem statuis equestribus inter prisca nomina
+              consecrauit; qui felici satu numen in imperium salutare progenuit. Sic coluntur quorum
+              liberi ad bonum publicum nati sunt. </p>
+            </div>
+            <div type="cap" n="5">
+             <p> At uero populus imperialis munificentiae muneribus expletus in amorem Vestrum
+              prompta inclinatione concessit. Qui ubi conperit meo praefatu, adfore dona publicorum
+              parentum, portis omnibus in longinqua fusus erupit, feliciorem ceteris iudicans, qui
+              primus bona Vestra uidisset. Ergo cum expectari munera Principum soleant, nunc accita
+              uenerunt. Praetereo illum diem quo elefantos regios per conferta agmina equorum
+              nobilium pompa praecessit; </p>
+            </div>
+            <div type="cap" n="6">
+             <p> malo fremitum Murciae uallis exponere atque illam quadrigarum distributionem in qua
+              sibi cum fortunatior uideretur cui electionem mox urna tribuebat, par uel potior erat
+              quem sors fecisset extremum. Quotiens seguenti primus inuidit? Dubia est optio, cum de
+              similibus iudicatur. Nec putetis istiusmodi uoluptatem plebi Martiae paruam uideri,
+              cui delenimenta circensium finitimorum conubium praestiterunt, cui summus honor uisus
+              est, ut ouantes equorum dorsa gestarent, ut triumphantes currus inueheret. Quare
+              Victoria genti Romuleae familiaris Clementiam Vestram pro uoto omnium muneretur. </p>
+            </div>
+            <div type="cap" n="7">
+             <p> Fecistis ut Vrbs cana luxuriet in primam reducta laetitiam et uer illud quondam
+              uigentis aetatis. Audeo iam sperare potiora: mittetis etiam regiam classem quae
+              annonariis copiis augeat deuotae plebis alimoniam. Hanc uero in Tiberinis ostiis
+              mixtus Populo Senatus excipiet; uenerabimur tamquam sacras puppes quae felicia onera
+              Aegyptiae frugis inuexerint. Non sunt auara uota quae saeculi excitauit humanitas: de
+              exemplis uenit ista fiducia; magna sumendo maiora praesumimus. </p>
+            </div>
+            <div type="cap" n="8">
+             <p> Nunc legite Senatus ac Populi fausta suffragia, licet sciam plus inesse animis quam
+              uocibus explicari et quaedam libamina publici in Vos amoris accipite. Si parua adhuc
+              dicta sunt, munerum Vestrorum inputate miraculis; nam magnitudo stuporis locum multis
+              plausibus non reliquit. </p>
+            </div>
+           </div>
+            <div type="lib" n="X">
+             <head>X. D. N. VALENTINIANO SEMPER AVG. SYMMACHVS V C. PRAEFECTVS VRBIS.</head>
+             <div type="cap" n="1">
+              <p> Laetarum rerum index esse malueram, Domine Imperator Valentiniane inclyte, uictor
+               ac triumphator semper Auguste, sed ratio officii publici necessitatem mihi nuntii
+               tristis inposuit. Praetextatus Vester, Praetextatus bonorum, antiquae probitatis
+               adsertor, inuida sorte subtractus est, uir omnium domi forisque uirtutum, in cuius
+               locum Vestrae quoque Aeternitati quae optimos nouit eligere nimis arduum est similem
+               subrogare. </p>
+             </div>
+             <div type="cap" n="2">
+              <p> Itaque summum sui in Re publica desiderium magnumque ciuibus gratis reliquit
+               dolorem. Nam ubi primum Romae amarus de eo rumor increpuit, recusauit Populus
+               sollemnes theatri uoluptates memoriamque eius inlustrem multa adclamatione testatus
+               grauiter egit cum liuore Fortunae, quod sibi inclytorum Principum beneficia
+               sustulisset. Et ille quidem functus est lege naturae, nos uero socios animi sui
+               Vestrique iudicii tanto dolore confudit, ut otii remedium postulemus. </p>
+             </div>
+             <div type="cap" n="3">
+              <p> Sileo cetera quae me non sinunt Praefecturam ferre patienter: uel haec una
+               consortis amissio iusta est ad impetrandam uacationem. Ament alii perpetuas
+               potestates: mihi summus est fructus felicitatis, ut coram Vestrum Numen aduenerer,
+               intuear benigna salutis meae sidera. Hoc unum pro omnibus quae praestitistis exopto.
+               Simplex petitio est nec uiam capessendi honoris adfectat; semel enim claruerit nihil
+               aliud esse quod cupiam, cum supplex refuderim magistratum. </p>
+             </div>
+            </div>
+             <div type="lib" n="XI">
+              <head>XI. DD. NN. THEODOSIO ET ARCADIO SEMPER AVGG. SYMMACHVS V. C. PRAEFECTVS
+               VRBIS.</head>
+              <p> Licet arbitrer litteras meas nuntiis aut rumore praeuentas - quid enim fama potest
+               esse uelocius, Domini Imperatores Theodosi et Arcadi inclyti, uictores ac
+               triumphatores semper Augusti? - ego tamen officii publici necessitate cogente
+               excessum uiri inlustris crudo adhuc dolore non sileo. Vettium Praetextatum ueteribus
+               parem uirtutum omnium uirum fata rapuerunt summo patriae gemitu, cui decus insigne
+               praestabat. Cuius ego laudes et iusta praeconia animi consternatione praetereo; neque
+               enim locus est cuiusquam testimonio, cum uitae eius gloriam Clementiae Vestrae
+               iudicia testentur, mortem celebrem dolor omnium fecerit. </p>
+             </div>
+                       
+   <div type="lib" n="XII">
+              <head>XII. DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO SEMPER AVGGG. SYMMACHVS V C.
+               PRAEFECTVS VRBIS.</head>
+              <div type="cap" n="1">
+               <p> Licet Vettius Praetextatus naturae lege resolutus sit, uiuit tamen in memoria et
+                amore cunctorum, felicior ciuium lacrimis quam quisquam gaudiis suis atque hoc uno
+                punit inuidiam, quod tantum ei mors ad gloriam contulit, ut huic quoque Fortunae
+                liuor debeat inuidere, Domini Imperatores Valentiniane, Theodosi et Arcadi inclyti,
+                uictores ac triumphatores semper Augusti. </p>
+              </div>
+              <div type="cap" n="2">
+               <p> Nam praeter illum Populi Romani inusitatum dolorem etiam Senatus inpatiens
+                dispendii sui solacium petit de honore uirtutis Vestnimque Numen precatur, ut uirum
+                nostra aetate mirabilem statuarum diuturnitas tradat oculis posterorum, non quod
+                ille praemia terrena desideret, qui gaudia corporis, etiam cum hominem ageret, ut
+                caduca calcauit, sed quia ornamentis bonorum incitatur imitatio et uirtus aemula
+                alitur exemplo honoris alieni. Hinc factum est, ut rusticis adhuc saeculis optimi
+                quique ciuium manu et arte formati in longam memoriam mitterentur. Atque utinam
+                nihil huic decori facilitas adulantium postea derogasset! Quamuis paria non sint
+                quae dispari arte quaeruntur. </p>
+              </div>
+              <div type="cap" n="3">
+               <p> Dignum est igitur ut qui in pectoribus omnium manet sit in ore populorum: ille
+                semper magistratibus suis celsior, in alios temperatus, in se seuerus; sine
+                contemptu facilis, sine terrore reuerendus; indecorae nescius largitatis ille cui si
+                quod commodum successionis euenit, ad testatoris proximos mox reuertit; qui nullius
+                prosperis fractus est, nullius risit aduersa; quem semper inuitum secutus est honor;
+                cuius aequitati conterminus quisque limites suos credidit. </p>
+              </div>
+              <div type="cap" n="4">
+               <p> Plura de eo uellem, plura deberem, sed Clementiae Vestrae testimonio cuncta
+                seruanda sunt; inlustrior enim laus est de caelesti profecta iudicio. Ergo, ut
+                probitatis patroni, bona temporum Vestrorum futuris quoque uisenda proponite. Certe
+                ille est Praetextatus quem iure Consulem feceratis, ut fasti memores celebre nomen
+                extenderent. Aliis titulis fatalia damna reparate. Abierit cum homine praemium, sed
+                iudicium post hominem perseueret. Probate casibus aduersum gloriam nihil licere. Nam
+                quod meruit a ciuibus singulare est, illud multis commune quod perdidit. </p>
+              </div>
+   </div>         
+    <div type="lib" n="XIII">
+               <head>XIII. D. N. VALENTINIANO SEMPER AVG. SYMMACHVS V C. PRAEFECTVS VRBIS.</head>
+               <div type="cap" n="1">
+                <p> Si diuinae Clementiae Tuae merita cogitentur, nullae opes quas aut natura
+                 sufficit aut fortuna circumfert gratiam nostri erga Te amoris aequabunt, sed, ut
+                 mea fert opinio, publicum de optimo Imperatore iudicium non est muneribus
+                 aestimandum. </p>
+               </div>
+               <div type="cap" n="2">
+                <p> Senatus tamen promptus obsequii omnes officiorum partes ultro adripit, quibus
+                 indicatur adfectio et salutare Numen Tuum precatur, ut in hac oblatione quae
+                 nonnihil superioribus addidit intellegas hoc esse curatum, ne sub Te minus posse
+                 uideamur. Nam diuis parentibus Tuis ob decennium singulis minor summa decreta est;
+                 etiam diuus frater Mansuetudinis Tuae, cum tertium lustrum aeui imperialis
+                 exigeret, parciore munificentia honoratus adseritur. Nunc in amorem Tuum studia
+                 nostra creuerunt. Nam mille sescentas auri libras decennalibus imperii Tui festis
+                 deuotus Ordo promisit urbanis ponderibus conferendas, id est trutinae largioris
+                 examine. </p>
+               </div>
+               <div type="cap" n="3">
+                <p> Quodsi pares animo uires Senatus habuisset, scires in publico amore Perennitatis
+                 Tuae esse diuitias. Sed maluit Clementiae Tuae solutionis fide placere quam
+                 magnitudine perfidae sponsionis. Dehinc sub Imperatore primaeuo sanus muneris modus
+                 uotum est saepe faciendi. Absit ut bono Principi plus quam possumus ingeramus;
+                 amantium quippe largitio non iure deterit offerentes. Ergo et nunc libens sume
+                 sacro aerario decreta subsidia et futuris processibus imperii Tui obsequiorum
+                 similium spem reserua. </p>
+               </div>
+    </div>          
+     <div type="lib" n="XIV">
+                <head>XIV D. N. VALENTINIANO SEMPER AVG. SYMMACHVS V C. PRAEFECTVS VRBIS.</head>
+                <div type="cap" n="1">
+                 <p> Habeant hoc publicae necessitates ut inpossibilia plerumque persuadeant, Domine
+                  Imperator Valentiniane inclyte, uictor ac triumphator semper Auguste, sed cauto
+                  opus est ne asperitas negotii effectu inrito solas arcessat offensas quae nulli
+                  magis euitandae sunt quam iuueni et Principi cuius gratia cum aetate debet
+                  adolescere. Ergo Numinis Vestri famam simulque arduum rei cogitans corporatos
+                  negotiatores, membra Aeternae Vrbis, ad equorum conlationem quam litteris
+                  imperastis uocare dubitaui, ne librationem Clementiae Vestrae querella publica
+                  praeueniret. Integra res est: adhuc salubritatem consilii diligentioris expectat.
+                  Iustitiae praestate quod remittetis inuidiae. </p>
+                </div>
+                <div type="cap" n="2">
+                 <p> De exemplo ueniunt quae cauemus: siquidem caeli particeps parens Clementiae
+                  Vestrae, cum munus exiguum huic hominum generi mandare temptasset, motus libertate
+                  plebis abstinuit. Et certe paucorum curam res illa poscebat magisque officium
+                  desiderabatur tractandae pecuniae publicae quam dispendium conferendae. Consuluit
+                  tamen gloriae suae, ne quid iuberet inuitis, et diligentissimus ac serius
+                  imperator speratum emolumentum tamquam popularis ignouit. </p>
+                </div>
+                <div type="cap" n="3">
+                 <p> Nec putet Aeternitas Vestra ab incepto temere destitisse deo proximum uirum;
+                  nouerat horum corporum ministerio tantae urbis onera sustineri. Hic lanati pecoris
+                  inuector est, ille ad uictum populi cogit armentum, hos suillae carnis tenet
+                  functio, pars urenda lauacris ligna conportat, sunt qui fabriles manus augustis
+                  operibus adcommodent, per alios fortuita arcentur incendia. Iam caupones et
+                  obsequia pistoria, frugis et olei baiulos multosque id genus patriae seruientes
+                  enumerare fastidium est. Ad summam liquet priuilegium uetus magno inpendio
+                  constare Romanis; iugi obsequio inmunitatis nomen emerunt. </p>
+                </div>
+                <div type="cap" n="4">
+                 <p> Quod si adiciantur insolita, forsitan consueta cessabunt. Quare paternum
+                  Clementiae Tuae ingerimus exemplum. Praetuli oraculum quod pius successor
+                  imiteris. Oro atque obsecro ne Populum quem triumphantes saepe ueneramini ceteris
+                  urbibus conferatis. Dabit fortuna melior quidquid castrensis usus effiagitat;
+                  humanitatis merito necessitas Vestra sedabitur. </p>
+                </div>
+     </div>          
+      <div type="lib" n="XV">
+                 <head>XV DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO SEMPER AVGGG. SYMMACHVS V C.
+                  PRAEFECTVS VRBIS.</head>
+                 <div type="cap" n="1">
+                  <p> Ab exortu paene Vrbis Martiae strenarum usus adoleuit auctore Tatio rege qui
+                   uerbenas felicis arboris ex luco Streniae anni noui auspices primus accepit,
+                   Domini Imperatores Valentiniane, Theodosi et Arcadi inclyti, uictores ac
+                   triumphatores semper Augusti. Nomen indicio est uiris strenuis haec conuenire
+                   uirtute atque ideo Vobis huiusmodi insigne deberi, quorum diuinus animus magis
+                   testimonium uigilantiae quam omen expectat. </p>
+                 </div>
+                 <div type="cap" n="2">
+                  <p> Sumite igitur, defensores publicae salutis, sollemniter auro ducta munuscula,
+                   non quia diuitis metalli honore gaudetis, sed ut nostra deuotio felicis saeculi
+                   testetur opulentiam. Bonis Principibus bene parta libamus. Suscipite a iudicibus
+                   aperta obsequia, qui pretia occulta damnatis. Merito Vobis sollemnes pateras cum
+                   quinis solidis ut Numinibus integritatis offerimus, quibus nec Vester pudor nec
+                   noster census oneratur. </p>
+                 </div>
+                 <div type="cap" n="3">
+                  <p> Maneat aeuum talis circa Vos usus officii et honorem Clementiae Vestrae
+                   interminus annorum recursus instauret. Libenter strenis sollemnibus Praefectura
+                   fungetur strenuis deferenda. </p>
+                 </div>
+      </div>    
+       <div type="lib" n="XVI">
+                  <head>XVI. DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO SEMPER AVGGG. SYMMACHVS V
+                   C. PRAEFECTVS VRBIS.</head>
+                  <div type="cap" n="1">
+                   <p> Profiteor ultro quod scio Clementiam Vestram posse rescribere: uerecunde
+                    potius quam iure suscepi prouocationem non extante sententia, ne existimarer
+                    offensus liberae quidem sed inmaturae uocis obiectu, Domini Imperatores
+                    Valentiniane, Theodosi et Arcadi inclyti, uictores ac triumphatores semper
+                    Augusti. Nam cum inter proximos Euphasii c. m. uiri itemque heredes scriptos qui
+                    olim beneficio Praetoris corporibus defruuntur super testamenti iure actio
+                    uerteretur, et sententiam de possessione inpatienter exigerent quibus ab
+                    intestato bonorum possessio minime conpetebat, quia heredibus scriptis secundum
+                    tabulas docebatur indulta, Priscianus et Polemonianus ad denuntiationem dilato
+                    negotio prouocarunt. </p>
+                  </div>
+                  <div type="cap" n="2">
+                   <p> Et cum ab his ratio quaereretur, alios uocis suae incentores fuisse testati
+                    sunt, ut gesta litteris conexa monstrabunt. Nec officium partibus defuit ad
+                    multam praeiudicii suggerendam, sed iudicem Vestri saeculi decuit uim
+                    constitutionis sacro oraculo reseruare, cum allegauerint petitores quod se ad
+                    incautam prouocationem alienus hortatus inpulerit. </p>
+                  </div>
+       </div>    
+        <div type="lib" n="XVII">
+                   <head>XVII. DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO SEMPER AUGGG. SYMMACHVS V
+                    C. PRAEFECTVS VRBIS.</head>
+                   <div type="cap" n="1">
+                    <p> Fidem meam conuenit amor saeculi Vestri et cura Rei publicae ne corrigenda
+                     dissimulem, Domini Imperatores Valentiniane, Theodosi et Arcadi inclyti,
+                     uictores ac triumphatores semper Augusti. Cum ad Praefecturam urbanam ciuilium
+                     rerum summa pertineat, minoribus officiis certa quaedam membra creduntur;
+                     quibus regendis industrios et probatos oportebat adhiberi, ut suum quisque
+                     munus inculpata facilitate promoueat. </p>
+                   </div>
+                   <div type="cap" n="2">
+                    <p> Tales nunc de iudicio Numinis Vestri publicus usus expectat. Sed nolo
+                     culpare praesentes, cum satis sit sollicitudini meae, si melioribus uiris
+                     officia intramurana mandetis. Meis quippe umeris rerum omnium pondera
+                     sustinentur cedentibus reliquis quos Clementiae Vestrae multiplex occupatio
+                     probare non potuit. Habet temporum felicitas digniores; bonorum uirorum uena
+                     fecunda est. Melius Vrbi Vestrae in posterum consuletis, si legatis inuitos.
+                    </p>
+                   </div>
+        </div>    
+         <div type="lib" n="XVIII">
+                    <head>XVIII. DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO SEMPER AVGGG. SYMMACHVS
+                     V. C. PRAEFECTVS VRBIS.</head>
+                    <div type="cap" n="1">
+                     <p> Felicitas quidem Vestra Aeternae Vrbi sollemnis alimoniae copiam
+                      pollicetur, Domini Imperatores Valentiniane, Theodosi et Arcadi inclyti,
+                      uictores ac triumphatores semper Augusti, sed re magis quam spe tuti esse
+                      debemus. Quod facile factu est, si hanc quoque partem Clementiae Vestrae cura
+                      respexerit. </p>
+                    </div>
+                    <div type="cap" n="2">
+                     <p> Nam aestate prouecta cum ex Africanis portibus minimum deuehatur, non inani
+                      tangimur metu ne res annonaria in graues cogatur angustias, et ideo oro
+                      quaesoque Perennitatis Vestrae salubre praesidium, ut iudices Africanos et
+                      notarium cui Aeternitas Vestra mandauit frumentarios commeatus seueriora
+                      scripta destimulent, missis in hoc negotium strenuis qui onera consueta, dum
+                      tractabilis nauigatio est, uictui Vrbis exhibeant. </p>
+                    </div>
+                    <div type="cap" n="3">
+                     <p> Hoc saeculo Vestro, hoc diuinis uirtutibus dignum est, ut securitatem
+                      Romani Populi inter praecipua et prima curetis. Aderunt optatis cursibus piena
+                      nauigia et Romanos portus frequens atque onusta classis intrabit, si
+                      adspirauerint Numinis Vestri secunda suffragia. </p>
+                    </div>
+         </div>    
+          <div type="lib" n="XIX">
+                     <head>XIX. DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO SEMPER AVGGG. SYMMACHVS
+                      V C. PRAEFECTVS VRBIS.</head>
+                     <div type="cap" n="1">
+                      <p> Difficilis est exitus uetentm iurgiorum: res enim multis agitata iudiciis
+                       et actionum uarietate et cognoscentium motu et personarum mutationibus
+                       inplicatur, Domini Imperatores Valentiniane, Theodosi et Arcadi inclyti,
+                       uictores ac triumphatores semper Augusti. Vt mihi nunc uenit usus, cum inter
+                       Gaudentium curatorem Marcianae clarissimae feminae itemque Liberium
+                       procuratorem amitae eius, eodem nomine dum uiueret nuncupatae, annosum
+                       luctamen audirem. </p>
+                     </div>
+                     <div type="cap" n="2">
+                      <p> Nam in ipso limine quaestionis, cum procuratio quam c. m. f. senior
+                       Marciana mandauerat inualida diceretur, quod ante cuidam Principio esset
+                       iniuncta, ubi refusas in dominam conperimus actiones atque actis praetoriis
+                       in Liberium denuo iure translatas, obiectum cassae praescriptionis amouimus.
+                      </p>
+                     </div>
+                     <div type="cap" n="3">
+                      <p> Tunc defensio partis aduersae negauit stare personam cuius procurationem
+                       superioris gesta iudicii non tenerent. Contra neque exactam prius mandati
+                       recitationem et inter partes tributum procuratori beneficium reparationis
+                       aiebant. Huic parti longius quam oportuit inmorata contentio est. Sed quia
+                       prior cognitor ut iusto defensori restituerat temporum cursum qui per actores
+                       non potest impetrari, et procuratio legebatur Praetoris allegata iudicio,
+                       haec quoque praescriptio conquieuit. </p>
+                     </div>
+                     <div type="cap" n="4">
+                      <p> Successit aliud, ut obitu Marcianae c. m. f. mandatum diceretur extinctum.
+                       Sed contra uenerabilis Iuliani sanctio stare procuratorum iussit officia,
+                       causarum dominis uiuentibus inchoata. Ergo cum et reparationem superstite
+                       Marciana et conuentionem partis aduersae super aestimandis bonis Liberius
+                       impetrasset, pronuntiauimus non perisse mandatum. </p>
+                     </div>
+                     <div type="cap" n="5">
+                      <p> Dehinc petitore properante ut ex constitutione Numinis Vestri seruandi
+                       debiti causa in materna corpora mitteretur, quod aduersaria aestimationem
+                       bonorum conuenta facere noluisset, responsum est de supplicationis fide prius
+                       esse tractandum. Id quia probabile uidebatur, admisi. </p>
+                     </div>
+                     <div type="cap" n="6">
+                      <p> Facto autem aditu de precibus disputandi defensor c. f. Marcianae notare
+                       sibi uisus est mendacium supplicantis, quod, cum Priscae matris suae
+                       testamento neptes eius ex Placidiano genitas hereditatem cepisse dixisset,
+                       non omnes neptes ab ea scriptas probaret heredes. Responsum est de his tantum
+                       quas auia heredes instituit supplicatum nec usquam factam omnium mentionem,
+                       sed earum quibus fuerat delata successio. </p>
+                     </div>
+                     <div type="cap" n="7">
+                      <p> His deiectum curatoris patrocinium coepit exigere ut petitor ediceret, ex
+                       quibus nominibus propositae descenderent actiones. Tunc e diuerso ueniens ex
+                       Placidiani c. m. uiri nomine, qui pater adultae fuit, inmodicarum donationum
+                       causam manasse respondit; supplementum uero unciarum ut ab herede Placidae
+                       cui soror Marciana successit adservit postulari. Haec aduersarius eatenus
+                       refellebat, ut diceret c. f. iuniorem Marcianam non Placidiani tantum patris
+                       successionem sed etiam Placidae germanae suae pro certis unciis consecutam
+                       nec tamen ullam Placidae mentionem precum serie contineri. </p>
+                     </div>
+                     <div type="cap" n="8">
+                      <p> Sed cum allegatio diuersae partis adstrueret rem se obnoxiam persequi
+                       designatis titulis actionum et id quod in litem uenit pro certa parte
+                       Marcianam c. f. possidere eiusque nomen cum designatione causarum doceret
+                       precibus conprehensum, stetit iudicii mei deliberatio, hoc adserente personam
+                       Placidae supplicationi adici debuisse, illo negante post designationem rei et
+                       eius personae quae hodie possessione corporum defruitur quidquam esse
+                       quaerendum. </p>
+                     </div>
+                     <div type="cap" n="9">
+                      <p> Accessit cunctationi meae causa uehementior, quod iubente lege ut intra
+                       quattuor menses ad aestimationem bonorum possessor a petitore teneatur, nunc,
+                       ut gesta monstrabunt, angustum nimis ex conuentione tempus fuisse uisum est
+                       peregrinis corporibus aestimandis. </p>
+                     </div>
+                     <div type="cap" n="10">
+                      <p> Et ideo motus ambiguis oraculo Numinis Vestri discingenda cuncta seruaui;
+                       nam in rebus dubiis una salubritatis est uia, ut diuina quaeque uel deo
+                       proxima consulantur. Coniunctae paginae allegationes partium et supplementa
+                       sumpserunt ; quae cum Maiestatis Vestrae iustitia perpenderit, precor ut
+                       metas curiosae liti absoluta definitione ponatis. </p>
+                     </div>
+          </div>    
+           <div type="lib" n="XX">
+                      <head>XX. D. N. VALENTINIANO SEMPER AVG. SYMMACHVS V C. PRAEFECTVS
+                       VRBIS.</head>
+                      <div type="cap" n="1">
+                       <p> Cum Clementia Vestra meminisset faciendae carrucae inpendium de sacro
+                        aerario esse decretum, censuit, ut eius argentum publicis conditis
+                        redderetur, Domine Imperator Valentiniane inclyte, uictor ac triumphator
+                        semper Auguste. Sed examinis repperit fides ex aliis titulis adsumptam
+                        speciem quam uehiculi ornatus accepit. Cuius rei etiam uir inlustris
+                        prodecessor meus Auchenius Bassus Perennitati Vestrae rationem dicitur
+                        intimasse; et ideo saeculi Vestri aequitas imperauit ut examinata et
+                        conperta suggererem. </p>
+                      </div>
+                      <div type="cap" n="2">
+                       <p> Cum fiscus in tempore quod praebendum fuerat non haberet, ex arca
+                        quaestoria itemque ex formarum conditis, praeterea ex argentariorum
+                        parsimonia argentum iusso operi ministratum est, cuius solutio, si carrucae
+                        usus maneret, de thesauris imperialibus iure peteretur. </p>
+                      </div>
+                      <div type="cap" n="3">
+                       <p> Sed nunc carpenti nouitate submota suum quisque deposcit nec difficile
+                        credimus impetrari quod a legum parentibus postulatur. Quaeso ut digna
+                        temporibus responsa reddatis, quo u. c. et inlustris sacrarum Largitionum
+                        Comes refundendum esse cognoscat publicis titulis priuatisque personis quod
+                        sine lacuna imperialis aerarii deprompsit aliena conlatio. </p>
+                      </div>
+           </div>    
+            <div type="lib" n="XXI">
+                       <head>XXI. D. N. VALENTINIANO SEMPER AVG. SYMMACHVS V C. PRAEFECTVS
+                        VRBIS.</head>
+                       <div type="cap" n="1">
+                        <p> Scio quidem naturae humanae uitio probitatem subiacere liuori, sed miror
+                         eo progressas insidias aemulorum, ut crudo mendacio insontis fama
+                         peteretur, Domine Imperator Valentiniane inclyte, uictor ac triumphator
+                         semper Auguste. Quid enim non audeant quidue intemptatum relinquant qui in
+                         arce terrarum Christianae legis iniuriis uindicata fana finxerunt? </p>
+                       </div>
+                       <div type="cap" n="2">
+                        <p> Fleuit, credo, scaenae istius fabricator, cum de ecclesiae penetralibus
+                         raptos ad tormenta simularet, cum de longinquis ac finitimis urbibus duci
+                         antistites in uincla describeret; neque enim serenum Clementiae Tuae animum
+                         sine his argutiis conpulisset sacro edicto Populum conuenire, ut
+                         asperioribus quam Pietati Tuae mos est litteris Praefectum quem sine ambitu
+                         legistis argueres. </p>
+                       </div>
+                       <div type="cap" n="3">
+                        <p> Reddat nunc, quisquis ille est, causas fallaciae suae, qui sub occasione
+                         iustae inquisitionis qua me cultum spoliatorum moenium inuestigare
+                         iussistis tragicas quaestiones de ministris catholicae iactauit agitatas;
+                         respondeat litteris episcopi Damasi, quibus adsectatores eiusdem religionis
+                         negauit ullam contumeliam pertulisse. Non magnopere officii mei praetendo
+                         responsa, a quo ideo quaesita est rerum fides, ne factum aliquod
+                         recordationem cognitoris effugeret: credatur eius legis antistiti, quae
+                         laesa simulatur, credatur Populo Romano qui Perennitatis Vestrae admonitus
+                         edicto miratur in procinctu creditum quod Roma nescit admissum. </p>
+                       </div>
+                       <div type="cap" n="4">
+                        <p> Omitto iniuriam Praefecturae et conscientiae meae, quando eo processit
+                         insimulatio, ut Vos quoque ipsos auctores honoris mei quadam reprehensione
+                         praestringat. Nam qui summi loci iudices decolorant, sacri testimonii
+                         facilitatem uidentur incessere. Iam dudum me diuus genitor Numinis Tui
+                         praecipuo honore dignatus est, ille meritorum arbiter singularis cuius
+                         Imperium cum moribus recepisti. Paternum sequere, Tuum tuere iudicium: qui
+                         Praefecturam sine ambitu meruimus, sine offensione ponamus. </p>
+                       </div>
+                       <div type="cap" n="5">
+                        <p> Suggestionibus uiri excellentis et de Re publica bene meriti Praetextati
+                         Praefecti Praetorio abusus existimor. Quid, si ex illo decreto quod
+                         probabiliter impetrauit necdum a me quaestio ulla temptata est? Praeuidi
+                         enim quid possint aemuli suspicari atque ideo obsignata officio
+                         Praefecturae sacra iussa commiseram. Nec me huiusmodi coniectura decepit:
+                         siquidem seuere executus insimulor, quod non conuincor adgressus. </p>
+                       </div>
+                       <div type="cap" n="6">
+                        <p> Haec omnia fide actorum conprehensa subieci, unum illud adiciens, ut me
+                         Perennitas Vestra necessitate inquisitionis huius absoluat, cuius
+                         auctoritatem referri ad scrinia palatina iussistis. Nam si tantum de me
+                         inprobis licuit extante praecepto, quid retractatis litteris non licebit?
+                         Sane laudabili uiro episcopo denegante ullum e suis aut carcere aut
+                         uinculis adtineri et officio eadem suggerente, ignoro quos potissimum
+                         praeceperitis absolui. Tenent quidem leges uariorum criminum reos, sed ut
+                         conperi, a ministerio Christianae legis alienos. </p>
+                       </div>
+                       <div type="cap" n="7">
+                        <p> Quid igitur Aeternitas Vestra decernat deuotus opperior et quaeso ut
+                         fallaciam retundatis, quae diuini pectoris Tui sollicitauit quietem, quae
+                         ad edicti necessitatem uenerandi Principis curam coegit. Me muniuit
+                         inuidia: apud aures enim sacras locum postea non habebit conuicta mendacii.
+                         Si quid tamen denuo obtrectantium murmur ingesserit, opto iudicium:
+                         experientur me sub imperiali disceptatione constantem, qui nocentem probare
+                         non possunt. </p>
+                       </div>
+            </div>    
+             <div type="lib" n="XXII">
+                        <head>XXII. DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO SEMPER AVGGG.
+                         SYMMACHVS V C. PRAEFECTVS VRBIS.</head>
+                        <p> De tribunatu suarii fori nuper orta contentio causam mihi adtulit legum
+                         arbitros consulendi, Domini Imperatores Valentiniane, Theodosi et Arcadi
+                         inclyti, uictores ac triumphatores semper Augusti. Prouectus instabat, ut
+                         delatum sibi sortiretur officium; uetus e lege quae tempora istiusmodi
+                         actibus certa decreuit recusabat honore decedere. Secutus morem longa
+                         aetate seruatum eum qui recens Maiestatis Vestrae beneficium praeferebat,
+                         admisi; sed ut deinceps, si forte usus tulerit, cunctationem iudicii
+                         absoluta forma submoueat, statui sacrum Numinis Vestri oraculum sciscitari,
+                         utrum fas sit nouos tribunos seruata lege differri an magis ueteres
+                         oporteat praelata deuotione remouere. </p>
+                       </div>
+                       <div type="lib" n="XXIII">
+                        <head>XXIII. DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO SEMPER AVGGG.
+                         SYMMACHVS V C. PRAEFECTVS VRBIS.</head>
+                        <div type="cap" n="1">
+                         <p> Vnum leuamen iniuriis meis tribuit euentus, Domini Imperatores
+                          Valentiniane, Theodosi et Arcadi inclyti, uictores ac triumphatores semper
+                          Augusti, ut Romam publicae utilitatis gratia u. c. et inlustris
+                          Clementiaeque Vestrae semper dicatus Comes Hesperius mitteretur; nam si
+                          eum testem contumeliarum quas pertuli non haberem, quis dubitaret eam
+                          Praefecturam quae Romae est superior ceteris turbidum aliquid pro
+                          potestate fecisse? Is, quoniam semper amicus est ueritati et famam bonorum
+                          temporum colit, si dederit Aeternitas Vestra copiam, contemptum legum ac
+                          saeculi non silebit: ego, ut potero, de multis pauca narrabo, repetitis
+                          paululum causis quae mihi, ut arbitror, has insidias excitarunt. </p>
+                        </div>
+                        <div type="cap" n="2">
+                         <p> Cum pro diligentia quae debet omnibus inesse iudicibus argenti publici
+                          ratio quaereretur, quod censualium editores munerum contulerunt, inter
+                          ceteras fraudes repertum est quosdam functionibus absolutos sumptum
+                          debitum Rei publicae non dedisse et, ut fallacia ista tegeretur, ex alieno
+                          argento tantundem censualibus falsis titulis inputatum, quantum duo
+                          conferre debuerant. Hoc cum clarissimi uiri sponte sine adiectione
+                          dispendii reddidissent, Senatum prisco more consului, quid in communi
+                          causa Patrum innueret auctoritas. Dictis aliquot sententiis factum meum
+                          reuerendi Ordinis probauit adsensio. </p>
+                        </div>
+                        <div type="cap" n="3">
+                         <p> Interiectis diebus cum Romam u. c. et laudabilis Vicarius commeasset,
+                          u. c. causidicus fori mei Celsus, socius eius qui debitum refudit
+                          inpendium tuitionem contra me et annonae Praefectum clarissimum uirum de
+                          sede uicaria postulauit, cum ego aditus in causa publica ciuilem
+                          conuentionem matri eius, quae retinere adseritur patrimonium candidati,
+                          super nepotis sui munere detulissem responsione seruata, Praefectus uero
+                          annonae u. c. pistorem publicae annonae uerbo tantum reposcere diceretur,
+                          quem manibus officialium Celsus eruerat. Hic iam Vestrae Perennitatis est
+                          aestimare contumeliam Praefecturae cuius causidicus nihil passus auxilium
+                          secundi iudicis impetrauit. </p>
+                        </div>
+                        <div type="cap" n="4">
+                         <p> Parua haec uisa sunt: quoniam patientiam meam minime perculerunt,
+                          adiectum est quod dissimulare non possem. Nam cum ad examinandos actus u.
+                          c. Bassi ex Praefecto Vrbi potestas uicaria ad secretarium commune
+                          prodiisset, nescio quis, ut aiunt, libello dato de officii mei conludio
+                          uel iniquitate, conquestus est, quod Memorius litigator iussus a Basso
+                          soluendi debiti gratia ad iudicia Africana deduci, cum et a uiro inlustri
+                          decessore meo Auentio et a me per libellos, ne eo pergeret, postulasset,
+                          naui esset abductus. Hunc ilico u. c. et laudabilis Vicarius, ut
+                          subscriptio libelli indicat, adesse praecepit. </p>
+                        </div>
+                        <div type="cap" n="5">
+                         <p> Vbi pariter ambo consedimus et seriem querellarum recitatione cognoui,
+                          admonui ut is qui adierat uicariam sedem probaturus intraret. Tunc
+                          officium eius hominem deesse respondit, quem praecepto iudicis sui in
+                          examen accire debuerat. Quid hic aestimandum sit relinquo sapientibus.
+                          Semel atque iterum praeconis uocibus aduocatur nec tamen inclamatus
+                          adcurrit. </p>
+                        </div>
+                        <div type="cap" n="6">
+                         <p> Tunc nullo adsistente apparitio urbana coepit urgueri, quod ad Africam
+                          transuectus esset qui Bassum clarissimum uirum criminis posset arguere.
+                          Suggestum est paritum esse sententiae quam, cum Bassus post luctamen
+                          partium protulisset, prouocatio non remouit. Ad haec Fulgentius u. c.
+                          tribunus et notarius conuentos adiutores urbanae sedis adseruit, ne
+                          Memorius nauigaret. A quo curia requireretur an ad eum aliquid super Bassi
+                          criminibus Memorius detulisset, ait querellas eius libellorum paginis
+                          contineri, credo, simulare non ausus quod accusator esse uoluisset. </p>
+                        </div>
+                        <div type="cap" n="7">
+                         <p> Ad hoc urbani adiutor officii per Felicem sibi a clarissimo uiro
+                          Fulgentio mandatum esse respondit, ut secundum sententiam Memorius ad
+                          Africam duceretur. Mox Felicem censuimus adtinendum, quo posset liquere an
+                          huius mandati internuntius extitisset. Interea uir laudabilis Vicarius,
+                          cum adessent alii quos in Bassi causis possemus audire, ob eius absentiam,
+                          quem facile est ex Africanis reuocare prouinciis, iudicium omne deseruit,
+                          nescio an ex usu eorum qui, ut audirentur, adfluxerant. Promissa relatione
+                          discedo. </p>
+                        </div>
+                        <div type="cap" n="8">
+                         <p> Felix qui in communi iudicio iussus est adtineri officii executione
+                          corripitur. Is cum a me inseguenti <supplied>die</supplied> tuitionis
+                          auxilium poposcisset et unius nomenclatoris, ut in urbe pacata, adminiculo
+                          fretus incederet post uehiculum Praefecturae, iussu Fulgentii c. u. per
+                          Gaudentium et Victorem agentes in rebus et Bonifatium palatinum qui
+                          hactenus in officio urbano militauit uiolenter adreptus deducitur in eius
+                          aedes, de cuius mandatis fuerat audiendus. </p>
+                        </div>
+                        <div type="cap" n="9">
+                         <p> Quod cum sibi Fulgentius u. c. auctor contumeliae meae inuidiosum
+                          putaret, ad circi secretarium conuolauit facti inliciti uolens praestare
+                          rationem, quod sibi metum fuisse dicebat ne officii subornaretur inpulsu.
+                          Expectatis, credo, Augustissimi Principes, ut Praefectus et iudicii Vestri
+                          securus et innocentiae suae aliquid seuerum censuisse dicatur: fateor
+                          neque paenitet, animum temperaui, dum certam de uobis spero uindictam.
+                         </p>
+                        </div>
+                        <div type="cap" n="10">
+                         <p> Statui ut Felix uadibus qui Fulgentio non essent cogniti traderetur.
+                          Quid mitius decerni, quid remissius potuit? Tunc ille tamquam cessurus
+                          egreditur; sed cum ad eius aedes semel atque iterum princeps officii
+                          commeasset et obstinatam hominis contumaciam non posset inflectere, inanem
+                          syngrapham reportauit, qua redhibitionem Felicis in alterum diem sponsione
+                          distulerat. Tenet domi testem quem de se nouerat audiendum; etiam huius
+                          iniuriae adsumo patientiam. Culpate, ut uultis, ut dignum est: sciui
+                          meliorem esse iudicum causam quae rerum dominis reseruatur. </p>
+                        </div>
+                        <div type="cap" n="11">
+                         <p> Expectamus, ut altero die quamuis instructus officio redderetur; at
+                          ille crastina luce, ut gesta monstrabunt, aduersum cautionis fidem
+                          uicariae potestati tradendus abducitur. Hoc ubi princeps officii conperit,
+                          paucis comitatus excurrit; retinet Felicem celebri Vrbis loco nec tamen
+                          eripit; ita Fulgentius qui se simulat uerberatum manu ualidiore legibus
+                          repugnauit. Interea Felix a militibus uicariae potestatis abducitur et,
+                          cum princeps officii mei sub conspectu Romanae plebis caeditur, uidero
+                          quid de hoc facto Perennitas Vestra debeat iudicare; ego ordinem tenebo
+                          gestorum. </p>
+                        </div>
+                        <div type="cap" n="12">
+                         <p> Fatetur sub alterius cognitoris examine litigator nihil sibi ab
+                          apparitoribus meis aduersum Fulgentium esse mandatum. Hinc iussu eius ad
+                          commune secretarium quo faciendae oblationis gratia summates quosque
+                          conduxeram a principibus officii utriusque perducitur; nihil enim repertum
+                          fuerat, quod Praefecturam posset inuoluere. </p>
+                        </div>
+                        <div type="cap" n="13">
+                         <p> Tunc Fulgentius facti sui conscientia percitus, caesum se esse
+                          conqueritur; sed mox eiusdem Felicis ac deuotissimi uiri principis
+                          responsione pars ista purgata est. Et tamen querellae eius audientiam non
+                          negaui, clarissimo et spectabili uiro Vicario in societatem cognitionis,
+                          si uellet, adscito. Iste uero nomina testium plebeiorum danda promisit,
+                          credo, ut per moram uel meus dolor praeter satisfactionem mitesceret uel
+                          ipse rursus afias moliretur insidias. </p>
+                        </div>
+                        <div type="cap" n="14">
+                         <p> Qui, ut res indicat, conscientia hominis subornati a quo uicariae
+                          potestati libellus oblatus est, domestice confectis apud eundem actis,
+                          ausus est postulare ne apparitores eius, quos ob discessum litigatoris
+                          custodia carceris iusserat adtineri, iniuriae subiacerent. Post haec
+                          usurpato cursu publico neglectoque iudicio audacis facti conscius
+                          euolauit, ut Praefecturae iustas querimonias praeueniret, ignarus, ut res
+                          est, parentes generis humani magis iustitia quam inuidia commoueri. </p>
+                        </div>
+                        <div type="cap" n="15">
+                         <p> Haec ita esse gesta nec ulla arte fucari instructio subiecta
+                          testabitur. In qua repperiet Aeternitas Vestra Praefecturam quam in me
+                          puro iudicio contulistis nihil saltem ad uindictam publicae disciplinae
+                          esse molitam, cum omnibus iniuriis cederetur, quas boni quique praesumunt
+                          pro uigore saeculi uindicandas. Haec enim spes et fiducia ius creditae
+                          mihi potestatis infregit, ut auctores honoris mei et publicae dignitatis
+                          et iudicii sui contumeliam iusta seueritate defendant. Ss. IIII. kl. Aug.
+                          Aeliano <del>o</del> cab. </p>
+                        </div>
+                       </div>
+                        <div type="lib" n="XXIV">
+                         <head>XXIV. DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO SEMPER AVGGG.
+                          SYMMACHVS V C. PRAEFECTVS VRBIS.</head>
+                         <div type="cap" n="1">
+                          <p> Per uices mensium singulorum ad Perennitatis Vestrae scrinia Senatus
+                           et Populi acta mittuntur, quae poterunt indicare quid uir praecelsae et
+                           inlustris memoriae Praetextatus uel ad amplissimum Ordinem uel ad deuotum
+                           uobis Populum pro saeculi uestri commendatione pertulerit, Domini
+                           Imperatores Valentiniane, Theodosi et Arcadi inclyti, uictores ac
+                           triumphatores semper Augusti. </p>
+                         </div>
+                         <div type="cap" n="2">
+                          <p> Sed quia speciatim sacris litteris imperastis ut, si qua ab eo Romae
+                           in his coetibus gesta sunt, agenti in rebus excerpta tradantur, misi
+                           omnia iussis caelestibus obsecutus, quae ipso praesente uenerabilium
+                           orationum uestrarum sanctio definiuit et patrum probauit auctoritas;
+                           praeterea quae apud plebem locutus est, ut cunctos in amorem bonorum
+                           temporum prouocaret, adiunxi. </p>
+                         </div>
+                         <div type="cap" n="3">
+                          <p> Iudicium uero ciuium, quod supremo die de uirtute atque innocentia
+                           eius habuerunt, speciatim u. c. et inlustri Officiorum Magistro subditis
+                           exemplaribus gestorum intimaui, licet uehiculo publico cum ceteris quae
+                           ex more mittuntur omnia necesse sit rursus ad Serenitatis Vestrae
+                           notitiam peruenire. </p>
+                         </div>
+                        </div>
+                         <div type="lib" n="XXV">
+                          <head>XXV. DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO SEMPER AVGGG.
+                           SYMMACHVS V C. PRAEFECTVS VRBIS.</head>
+                          <div type="cap" n="1">
+                           <p> Iam pridem rescriptum Numinis Vestri Cyriades u. c. Comes et
+                            mechanicae professor exhibuit, Domini Imperatores Valentiniane, Theodosi
+                            et Arcadi inclyti, uictores ac triumphatores semper Augusti, quo
+                            statuerat Aeternitas Vestra, ut se ipse a quorundam criminatione
+                            purgaret ac rursus urgueret obiectis, si quos fraudis incesseret. </p>
+                          </div>
+                          <div type="cap" n="2">
+                           <p> Qui cum Auxentium u. c. sub examine decessoris mei coepisset arguere,
+                            postquam ad cognitionem meam uentum est, super basilicae atque pontis
+                            inmodico sumptu Auxentii u. c. uoce perstrictus est, quem Cyriades uir
+                            parilis dignitatis mutua accusatione credidit remordendum. Visum est
+                            igitur adcommodum ut utriusque aedificationem fida aestimaret inspectio.
+                            Dedi negotium sollicitis, quantum arbitror, uiris et Cyriade paene
+                            recusante decreui fabrilis artis magistros quos aduersario aequiores
+                            putabat aestimationi operis admouendos, manente nihilominus penes
+                            Auxentium cura atque administratione coeptorum, quod necdum Aeternitas
+                            Vestra officium eius successore mutasset. </p>
+                          </div>
+                          <div type="cap" n="3">
+                           <p> Itaque exactis aliquot diebus et adhuc pendente operis examine,
+                            apparitio quae Auxentio fuerat deputata per notoriam mihi fecit indicium
+                            deseruisse clarissimum uirum susceptorum curam locorum et sub ipso
+                            aestatis exordio quo posset prouectus aedificationis adsurgere nihilum
+                            promoueri; sed quia senatoris fuga non uidebatur temere credenda, ut
+                            inpensius requireretur admonui. Diu nusquam gentium deprehensus, ubi
+                            comitatum sacrum Numinis Vestri adire iussus est, euolauit. Interea
+                            Cyriades u. c. Comes et mechanicus, cum statutum meum discessu eius
+                            uideret elusum, multum anxius ne quid in absentem aduersarius moliatur,
+                            ut Aeternitati Vestrae et relationem u. c. prodecessoris mei et nunc
+                            acta suggererem depoposcit. </p>
+                          </div>
+                          <div type="cap" n="4">
+                           <p> Cui audientiam negare non potui, eadem uia praecepto Numinis Vestri
+                            cupiens edoceri quid facto usus sit de aestimatione sumptuum quos
+                            utriusque insumpsit expensio; siquidem meum spectat officium lacunam
+                            pecuniae publicae non tacere. Fidem litteris sociata gesta praestabunt.
+                            Quae ubi ad sacras aures Perennitatis Vestrae recitata peruenerint, oro
+                            atque obsecro ut incertum animi mei responsis imperialibus instrùatur.
+                           </p>
+                          </div>
+                         </div>
+                          <div type="lib" n="XXVI">
+                           <head>XXVI. DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO SEMPER AVGGG.
+                            SYMMACHVS V C. PRAEFECTVS VRBIS.</head>
+                           <div type="cap" n="1">
+                            <p> Certum est quidem, Clementiam Vestram fidei amore et studio
+                             ueritatis in examen adsiduum saepe explorata reuocare, Domini
+                             Imperatores Valentiniane, Theodosi et Arcadi inclyti, uictores ac
+                             triumphatores semper Augusti, sed cum Auxentius u. c. et Cyriades Comes
+                             ac mechanicus parilis dignitatis quadam inter se concertatione
+                             dissentiunt, nonnihil superioribus iudicibus derogatur. </p>
+                           </div>
+                           <div type="cap" n="2">
+                            <p> Iam dudum enim u. c. et inlustris Auchenius Bassus noui pontis opere
+                             perspecto sub actorum confectione signauit culpam uel diligentiam
+                             singulorum; denuo successor eius eadem loca rimatus adseritur; dehinc
+                             cum apud me ex rescripto quod Cyriades u. c. impetrauit, recidiua
+                             cognitione confligerent atque ipsis insistentibus censuissem ut
+                             utriusque tam sumptus quam aedificationem inuestigatio discussionis
+                             inquireret, u. c. Auxentius repente deseruit iudicatum. </p>
+                           </div>
+                           <div type="cap" n="3">
+                            <p> De cuius facto missurus relationem quam sollicitudo intermissi
+                             operis exigebat, alia Numinis Vestri decreta rursus accepi, quibus
+                             examini meo u. c. et laudabilem Vicarium copulastis, ut utroque
+                             residente accusata pontis uitia quaererentur. Nec obsequium defuit
+                             imperatis. Itaque adhibito u. c. tribuno et notario Aphrodisio cui post
+                             Auxentium u. c. nouarum molitionum cura legata est, habita est de his
+                             quaestio, qui pontis eiusdem fundamenta posuerunt. </p>
+                           </div>
+                           <div type="cap" n="4">
+                            <p> Atque ita constitit partem breuem atque discretam sub exordio hiemis
+                             inchoatam ui fluminis corruisse, cuius inpendium uiginti solidorum
+                             definitione artifices aestimarunt. Sed casus partis istius utpote adhuc
+                             a cetero corpore segregatae nihil uidetur iniuriae locis distantibus
+                             adtulisse; ipsam facili aedificatione reparandam Cyriades u. c.
+                             pollicetur. </p>
+                           </div>
+                           <div type="cap" n="5">
+                            <p> Post haec alterius loci exploratio hiulcam conpagem lapidum
+                             deprehendit, quam Cyriades Comes et mechanicus consilio suo et ratione
+                             artis ita positam suggerebat, ut infuso postea inpensarum liquore
+                             hiantia stringerentur. Quod cum facere debuisset succedentis industria,
+                             adfectasse potius dicitur, ut in auctoris inuidiam patula quaeque faeni
+                             et sparti manipulis clauderentur. Quod cum adstrueret recitatione
+                             gestorum, factum quidem urinandi artifex non negauit, sed ex usu
+                             operis, non in dehonestamentum Cyriadis c. u. adserebat remedium
+                             huiusmodi esse prouisum. </p>
+                           </div>
+                           <div type="cap" n="6">
+                            <p> Tunc responsionum uarietate conmoti coercuimus a praeteritis
+                             discrepantem; at ille Cyriadem sibi ait dudum fuisse terrori. Quod
+                             credibile non uidetur, cum illius temporis cognitor ad fidem ueri
+                             districta quaestione peruenerit. Interea Cyriades u. c. facilem
+                             profectum esse suggessit operis sarciendi cuius stabilitatem, sicuti
+                             adsertum est, hiems tertia non resoluit. </p>
+                           </div>
+                           <div type="cap" n="7">
+                            <p> Ipse autem de aedificationibus Auxentii u. c. et de usurpatione
+                             inmodici auri nonnulla iudiciis intimauit, quae ideo gestorum paginis
+                             placuit adplicari, ut Aeternitas Vestra cunctis per ordinem patienter
+                             auditis prouidere dignetur quem ad modum concertantium aemulatione
+                             conpressa et integritati sumptuum et firmitati operis consulatur. </p>
+                           </div>
+                          </div>
+                           <div type="lib" n="XXVII">
+                            <head>XXVII. D. N. VALENTINIANO SEMPER AVG. SYMMACHVS V C. PRAEFECTVS
+                             VRBIS.</head>
+                            <div type="cap" n="1">
+                             <p> Vt Vestri Numinis ueneror sanctiones, ita obseruantiam iugem
+                              saluberrimis diui genitoris Vestri inpendo decretis. Quid enim ille
+                              constituit, quod possit publica cura deserere? Is inter alia quae in
+                              bonum publicum contulit etiam medendi professoribus dedit ordinem
+                              successionis, si locum quempiam decedentis fortuna nudasset. Qua lege
+                              cautum est ut primi artis eiusdem de nouorum scientia iudicarent. Hanc
+                              formam, quantum adserunt, aetas secuta seruauit, Domine Imperator
+                              Valentiniane inclyte, uictor ac triumphator semper Auguste. </p>
+                            </div>
+                            <div type="cap" n="2">
+                             <p> Nunc Iohannes u. p. non eum gradum quem subrogandis dederunt scita
+                              diualia, sed summo proximum conatur adipisci fultus palatinae militiae
+                              priuilegio et impetratione specialis oraculi quo Epicteti archiatri
+                              locum tunc adhuc superstitis inpetrauit. Sed quia lege et more
+                              cogentibus summates eiusdem professionis par fuit in examen acciri,
+                              adhibitum est iudicio collegium omne medicorum. </p>
+                            </div>
+                            <div type="cap" n="3">
+                             <p> Quorum potissimi inter uenerationem legis et noui beneficii
+                              reuerentiam iudicare non ausi eum locum Iohanni u. p. statuerunt
+                              deferendum, quem tenere potuisset, si eo tempore quo aulae obsequiis
+                              deputatus est archiatrorum numero fuisset adiunctus. Sed cum ab eo
+                              palatini honoris indicia poscerentur, ut codicillorum praerogatiua
+                              monstraret quis illi inter archiatros ordo conpeteret, adseruit
+                              domestica expilatione etiam documenta dignitatis ablata. </p>
+                            </div>
+                            <div type="cap" n="4">
+                             <p> At uero pars magna medicorum munita lege diuali eorum exempla
+                              deprompsit, qui e Palatio in hunc gradum seruato ordine transierunt.
+                              Quare motus ambiguis et neque diui genitoris Vestri ausus rumpere
+                              sanctionem neque obuiam specialibus uenire praeceptis, diuino arbitrio
+                              Numinis Vestri subditis allegationibus partium summam negotii
+                              reseruaui, opperiens quid deliberatio augusta constituat, cui soli fas
+                              est de scitis diualibus iudicare. </p>
+                            </div>
+                           </div>
+                            <div type="lib" n="XXVIII">
+                             <head>XXVIII. DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO SEMPER AVGGG.
+                              SYMMACHVS V C. PRAEFECTVS VRBIS.</head>
+                             <div type="cap" n="1">
+                              <p> Quid possint iusti Principes culpare praesentio: in causis etenim
+                               quibus momenti reformatio postulatur appellationes recipi non
+                               oportet. Sed consulto nunc obiectum prouocationis admisi, ut in
+                               examen Clementiae Vestrae et inuasionis indignitas et modus iudicii
+                               perueniret, Domini Imperatores Valentiniane, Theodosi et Arcadi
+                               inclyti, uictores ac triumphatores semper Augusti. </p>
+                             </div>
+                             <div type="cap" n="2">
+                              <p> Nam Scirtius u. p. ereptam sibi partem Caesarianae massae crebra
+                               aditione conquestus, cum integrationem status quem amiserat
+                               inpetrasset, heredes Thesei, qui reluctarentur, obiecti sunt, dum
+                               reuera Artemisius Olybri clarissimi atque inlustris uiri actor
+                               executori, ut ipse professus est, obuiauit et, cum ad pernoscendum
+                               possessionis statum loci habitatores adesse iussissem, in iniuriam
+                               legum Rufino iussa curanti, qui deducebantur abrepti sunt. Gesta
+                               indicabunt facti inciuilis auctores. Interea distuli uindictam
+                               iudicionim et rursus officio negotium dedi, ut necessarios euocaret.
+                              </p>
+                             </div>
+                             <div type="cap" n="3">
+                              <p> Tunc cessantibus actoribus clarissimae domus ad contradicendum
+                               Thesei subrogantur heredes ceterisque subtractis unus tantum
+                               exhibitus qui se adsereret libertum esse defuncti. Is interrogatus
+                               quo abissent incolae praediorum, delituisse nonnullos, Scirti uero
+                               mancipia ad suburbanam uillam quae est clarissimi et inlustris uiri
+                               Olybrii translata respondit. Cetera ut a liberto Thesei dicta
+                               praetereo, licet in eum praescriptio ista non conpetat, cum a patre
+                               minorum beneficium libertatis acceperit. </p>
+                             </div>
+                             <div type="cap" n="4">
+                              <p> His ita positis, Praenestini curiales quorum in regione Caesariana
+                               possessio iacet, missis apparitoribus, exhibentur. Tunc demum u. c.
+                               et spectabilis Olybrii procurator emergit tandem cogentibus indiciis
+                               postulatus; adest etiam defensor minorum. Scirtio aduersum duos pugna
+                               proponitur, quamuis patrocinia clarissimae domus et successorum
+                               Thesei quadam specie dissiderent. </p>
+                             </div>
+                             <div type="cap" n="5">
+                              <p> Itur in quaestionem possessionis; quae partium uariis agitata
+                               conflictibus ad interrogationem testium iure transiuit. Admoueri
+                               singillatim, ut mos est, iubeo curiales, nominum et dignitatis ab uno
+                               quoque posco responsa; tunc locorum iustos possessores requiro; de
+                               hinc percontor quis annuas functiones aut indicta persoluerit. Cum
+                               secundum Scirtium testimonia cuncta procederent atque eam
+                               possessionem cum Theseo tenuisse constaret, quando et per quos
+                               deiectus esset examino. Secundum fere uel tertium mensem manere
+                               consentiunt, ut eum clarissimae atque inlustris domus homines
+                               expulerunt. </p>
+                             </div>
+                             <div type="cap" n="6">
+                              <p> Auditis optimatium testimoniis denuo cum defensoribus admitto
+                               iurgantes; quaesita et responsa partibus intimantur. Ibi Tarpeius u.
+                               c. procurator inlustris uiri Olybrii adseruit ei sex uncias
+                               praediorum Thesei morte quaesitas. Contra Scirtius de sex unciis quas
+                               minores etiam se consentiente retinebant non ibat infitias nec sua
+                               interesse dicebat actores clarissimae domus an heredes Thesei eadem
+                               parte fruerentur. </p>
+                             </div>
+                             <div type="cap" n="7">
+                              <p> Tunc actionibus copulatis Scirtium urguere coeperunt quod secundum
+                               mandatum c. m. feminae Farianae sex uncias Theseo per epistulam
+                               reddidisset, sex uero alias in eius liberos contulisset spontanea
+                               largitate. Ad haec Scirtius idem litteris familiaribus quod
+                               donationibus in Theseum uel paruulos transfusum esse dicebat ipsius
+                               petitu, ut actorum fides beneficium roboraret. Et re uera cum
+                               posteriora gesta pro indiuiso sex uncias massae in eos conlatas esse
+                               testentur, intelleximus partem donatoris exceptam. Cur enim pro
+                               indiuiso daret, si nihil resederat, quod ipse retineret ? </p>
+                             </div>
+                             <div type="cap" n="8">
+                              <p> Sed haec cum ad proprietatis causam dicerem pertinere, recitata
+                               est a defensoribus constitutio quae iudicibus tribuit copiam, non
+                               inponit necessitatem, ut quotiens de possessione successionis
+                               iudicant, continuo, si casus tulerit, etiam de iure cognoscant. Qua
+                               actione confessi sunt ad aliam causam se malle transire. Praeterea
+                               non solus Scirtius proprietatis quaestione uidebatur urguendus, cum
+                               ipsi quoque inter se super hac parte quodammodo dissiderent. </p>
+                             </div>
+                             <div type="cap" n="9">
+                              <p> Quare de possessione secundum documenta Scirtii et principalium
+                               testimonia iudicaui, aduersariis eius sex unciarum retentione et iure
+                               firmatis; principalem uero causam saluis allegationibus partium
+                               futuro examini reseruaui, et mox sententiae exemplar emisi, cum eius
+                               editionem procurator spectabilis uiri continuo postulasset. </p>
+                             </div>
+                             <div type="cap" n="10">
+                              <p> Tunc Scirtius optulit sanctiones quibus doceret in reformatione
+                               momenti nullum esse appellationibus locum. Postridie procurator
+                               clarissimi et inlustris <supplied>uiri</supplied> ac defensor minorum
+                               qui putabantur in iudicio discrepare concordiam suam iunctis
+                               prouocationibus indicarunt. </p>
+                             </div>
+                             <div type="cap" n="11">
+                              <p> Haec est omnis summa luctaminis; nunc oraculum Numinis Vestri
+                               fortuna litis expectat. Gesta et supplementa partis utriusque
+                               subieci; quibus instructa Perennitas Vestra exemplo unius causae
+                               securitati omnium dignabitur commodare. </p>
+                             </div>
+                            </div>
+                             <div type="lib" n="XXIX">
+                              <head>XXIX. D. N. VALENTINIANO SEMPER AVG. SYMMACHVS V C. PRAEFECTVS
+                               VRBIS.</head>
+                              <div type="cap" n="1">
+                               <p> Vendendis solidis, quos plerumque publicus usus exposcit
+                                collectariorum corpus obnoxium est, quibus arca uinaria statutum
+                                pretium subministrat. Huic hominum generi taxationis exiguae
+                                uilitate nutanti diuus frater Numinis Vestri tantum pro singulis
+                                solidis statuit conferendum, quantum aequitas illius temporis
+                                postulabat, Domine Imperator Valentiniane inclyte, uictor ac
+                                triumphator semper Auguste. Sed paulatim auri enormitate crescente
+                                uis remedii diualis infracta est et, cum in foro uenalium rerum
+                                maiore summa solidus censeatur, nummulariis pretia minora penduntur.
+                               </p>
+                              </div>
+                              <div type="cap" n="2">
+                               <p> Petunt igitur de Aeternitate Vestra pro ratione praesenti iusta
+                                definitionis augmenta, qui iam tanto oneri sustinendo pares esse non
+                                possunt. Haec est causa querimoniae quam diuinis sensibus Vestris
+                                fides gestorum plenius intimabit; si petitionis genus probabile
+                                iudicatis, quaeso ut huic quoque parti praecepto Mansuetudinis
+                                Vestrae salubre remedium deferatur. </p>
+                              </div>
+                             </div>
+                              <div type="lib" n="XXX">
+                               <head>XXX. D. N. VALENTINIANO SEMPER AVG. SYMMACHVS V C. PRAEFECTVS
+                                VRBIS.</head>
+                               <div type="cap" n="1">
+                                <p> Palatini munerationum sacrarum Auitus et Castor quaestus
+                                 publicos eruentes, inter cetera nomina quae iudicio persequuntur,
+                                 heredes Postumiani c. m. u. in examen meum conuentionibus
+                                 euocarunt, Domine Imperator Valentiniane inclyte, uictor ac
+                                 triumphator semper Auguste, Luciano monente qui census senatorios
+                                 ante tractauit, quod oblatiuis functionibus eadem domus esset
+                                 obnoxia. Pars debiti Lollianam, pars Cattianillam pariter ac
+                                 Seuerillam suggerebatur urgere. </p>
+                               </div>
+                               <div type="cap" n="2">
+                                <p> Interea sequestrato Lollianae c. f. nomine, quam pro sex unciis
+                                 stringit exactio, harum orta refragatio est, quas pro singulis
+                                 bonorum quadrantibus solutionis cura mordebat. Conperendinato
+                                 plerumque iudicio, res eo deducta est, ut fisci patrocinium
+                                 securitates a clarissimis personis inpleti per uices muneris
+                                 flagitaret, Cattianillae uero ac Seuerillae defensio rescripto ad
+                                 relationem diui Principis niteretur. </p>
+                               </div>
+                               <div type="cap" n="3">
+                                <p> Vetus enim quaestio et cognitionibus Praefecturae frequenter
+                                 agitata usque ad inclyti semperque uerendi genitoris Vestri
+                                 cucurrit arbitrium, qui Viuentii clarissimae et inlustris memoriae
+                                 uiri tunc Praefecti Vrbi insinuatione consultus quadam rescripti
+                                 parte signauit suis quibusque temporibus a Cattianilla ac Seuerilla
+                                 clarissimis feminis oblatiua munera soluta constare. </p>
+                               </div>
+                               <div type="cap" n="4">
+                                <p> Hic me nodus iam promptum atque decliuem ad efflagitanda
+                                 inlationum documenta defixit, cum uideretur omnibus securitatibus
+                                 esse uehementior Imperatoris adsertio. De cuius responsis iugi
+                                 honore mansuris Vestrae Clementiae fas est esse iudicium: nos
+                                 uenerari potius quam interpretari oracula diuina consueuimus.
+                                 Praesto sunt monumenta gestorum, partium quoque supplementa non
+                                 desunt. Aequum est ut Maiestatis Vestrae informetur arbitrio humana
+                                 cunctatio. </p>
+                               </div>
+                              </div>
+                               <div type="lib" n="XXXI">
+                                <head>XXXI. DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO SEMPER
+                                 AVGGG. SYMMACHVS V C. PRAEFECTVS VRBIS.</head>
+                                <div type="cap" n="1">
+                                 <p> Moribus scaeuis familiare atque cognatum est armare spiritus
+                                  inpunitatis exemplo, Domini Imperatores Valentiniane, Theodosi et
+                                  Arcadi inclyti, uictores et triumphatores semper Augusti. Cur enim
+                                  secundum desperet effugium, qui laqueos criminis prioris euasit?
+                                  Praesenti causae congrnit praemissa sententia. Siquidem Valerianus
+                                  uir clarissimus, cui lar in Epiro esse suggeritur, neque
+                                  rescriptorum ueneratione neque legum seueritate uel pactionum fide
+                                  aut iudiciorum reuerentia permouetur. </p>
+                                </div>
+                                <div type="cap" n="2">
+                                 <p> Qui primo in examen praetorianae sedis iussus acciri ad
+                                  supplicationem u. c. Iunioris uim rescripti, statutum praecelsae
+                                  potestatis elusit; dehinc proconsularibus euocatus edictis leges
+                                  pari arte frustratus est; nunc cum et actione ciuili et criminali
+                                  accusatione premeretur, statutis inciuiliter repugnauit, ut
+                                  apparitores Praefecturae urbanae partim notoriis partim
+                                  suggestione signarunt. Quorum unus, agente in rebus eo mortuo ad
+                                  quem sacri praecepti executio pertinebat, adfectum se a Valeriano
+                                  grauibus iniuriis indicauit. </p>
+                                </div>
+                                <div type="cap" n="3">
+                                 <p> Motus igitur indignitate talium querellarum, cum uiderem rursus
+                                  inludi posse iudiciis, si quid seuerius censuissem, factu optimum
+                                  credidi ut Aeternitati Vestrae causae istius pontificium
+                                  reseruarem; soli enim iure corrigitis admissa potissimae
+                                  dignitatis. Fides rerum gestis cohaerentibus explicatur;
+                                  nihilominus adseruatur regressus apparitor qui contumaciam
+                                  senatoris et seruiles impetus nuntiauit, suggestionibus suis, cum
+                                  forte usus tulerit, adfuturus. Quaeso aeternam Clementiam Vestram
+                                  ut, omnibus solita aequitate perpensis, euagari ulterius
+                                  frustratorem tot iudicum non sinatis. </p>
+                                </div>
+                               </div>
+                                <div type="lib" n="XXXII">
+                                 <head>XXXII. DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO SEMPER
+                                  AVGGG. SYMMACHVS V C. PRAEFECTVS VRBIS. </head>
+                                 <div type="cap" n="1">
+                                  <p> Difficile est ut bona causa sit, cuius actio in ius alterius
+                                   desperatione transfertur. Id adeo res probauit, Domini
+                                   Imperatores Valentiniane, Theodosi et Arcadi inclyti, uictores ac
+                                   triumphatores semper Augusti. Nam Theodorus, ut adseruit ex
+                                   protectoribus, ab Anniana quadam in rem suam procurator creatus,
+                                   iam pridem clarissimo atque emendatissimo uiro Eupraxio urbanis
+                                   tribunalibus praesidente, Flauianum quendam denuntiata lite
+                                   pulsauit, sed diem legitimum causae lapsus excessit. </p>
+                                 </div>
+                                 <div type="cap" n="2">
+                                  <p> Longo interuallo a me petita reparatio cum partes ad
+                                   necessarium contraxisset examen, post multas allegationes quas
+                                   iudicia ut inualidas respuerunt, orta praescriptio est, quae
+                                   adsereret nouari tempora possessore mortuo debuisse; nam
+                                   constabat non modo Flauianum qui propositam legibus quaestionem
+                                   primus exceperat, sed etiam successorem eius finem fecisse
+                                   uiuendi. </p>
+                                 </div>
+                                 <div type="cap" n="3">
+                                  <p> Ad hoc promissa est lectio, ueluti probatura indiciis
+                                   nouationem tantum petitoris heredi esse decretam; quod uerbo
+                                   quidem adsertum sed sanctionibus non probatum contrariae legis
+                                   recitatione conpressum est. Secutus igitur scita manifesta et
+                                   nullis Principum uacuata responsis, cessare processum negotii
+                                   indicaui, cum lis alteri denuntiata aliam personam, temporibus
+                                   nouationis etiam exactis, tenere non posset. </p>
+                                 </div>
+                                 <div type="cap" n="4">
+                                  <p> Tunc oblatis prouocationis libellis suspensa sententia. Cuius
+                                   meritum Perennitas Vestra lectis gestis ac refutatoriis
+                                   cohaerentibus aestimabit: ego in referendo prolixus esse non
+                                   debui, cum paene in ipso actionum uestibulo repulsa legibus causa
+                                   constiterit. </p>
+                                 </div>
+                                </div>
+                                 <div type="lib" n="XXXIII">
+                                  <head>XXXIII. DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO SEMPER
+                                   AVGGG. SYMMACHVS V C. PRAEFECTVS VRBIS.</head>
+                                  <div type="cap" n="1">
+                                   <p> In causis appellationum malo ius potestatis infringere quam
+                                    interpretationum dubia sustinere, praesertim conscius haud
+                                    iniquae iudicationis cui nonnihil honoris eueniet, si
+                                    Aeternitatis Vestrae oraculo roboretur, Domini Imperatores
+                                    Valentiniane, Theodosi et Arcadi inclyti, uictores ac
+                                    triumphatores semper Augusti. </p>
+                                  </div>
+                                  <div type="cap" n="2">
+                                   <p> Tuli igitur Constantium suarium temere prouocantem, cum ex
+                                    rescripto Numinis Vestri statum quem Theodosio absenti ademerat
+                                    reformassem. Mota enim Vestra Clementia supplicationibus
+                                    querulis breui examine iussit inquiri an Theodosio extra
+                                    conflictum locato ac deinde, ne rebus excederet, prouocante
+                                    possessionem corporum Constantius esset indeptus. Allegata
+                                    igitur praeceptione diuina primo cognitionem totius negotii,
+                                    quamuis speciatim mihi Tranquillitatis Vestrae delegatione
+                                    mandatam, uiri clarissimi Vicarii praesentiae reseruaui.
+                                    Siquidem uidebatur haec causa ceteris prouocationibus esse
+                                    coniuncta, quae u. c. prodecessori meo negabantur admissae et
+                                    alterum mecum sumpserant cognitorem. </p>
+                                  </div>
+                                  <div type="cap" n="3">
+                                   <p> Dehinc ubi eam partem quae ad illius temporis iudicem
+                                    pertinebat Vestro retinuistis examini, appellationis
+                                    inquisitione discreta, cum iam participem iudicii non haberem,
+                                    turbatae possessionis querellam rescripto obsecutus audiui; et
+                                    quia Theodosium iudicio non interfuisse constabat, quo sibi
+                                    demptas questus est facultates, nec ulla precum mendacia
+                                    Constantius detegebat, executus sum circa germanum supplicatoris
+                                    heredem caeleste iudicium, reformato statu quem claruit mox
+                                    proposita appellatione defensum. Licet custos subditus
+                                    quaestioni libellos quos Theodosius publicauit, apud se
+                                    resedisse memorauerit, nihilominus oboediens imperatis statui ut
+                                    fides gestorum superiorum ad augusta scrinia mitteretur. </p>
+                                  </div>
+                                  <div type="cap" n="4">
+                                   <p> Hinc orta est prouocatio cuius uel iustitia uel contumacia
+                                    sacro expendetur arbitrio. Interea constitutionis memor
+                                    sequestrari mobilia fructusque praecepi, ne medii temporis
+                                    usurpatio abutatur indebitis. Omnium gestorum fida documenta cum
+                                    supplementis partium relationi ex more sociata sunt, ut diu
+                                    fluctuanti causae tandem stabilem terminum diuino ore ponatis.
+                                   </p>
+                                  </div>
+                                 </div>
+                                  <div type="lib" n="XXXIV">
+                                   <head>XXXIV D. N. VALENTINIANO SEMPER AVG. SYMMACHVS V C.
+                                    PRAEFECTVS VRBIS.</head>
+                                   <div type="cap" n="1">
+                                    <p> Omnes qui ad amplissimos honorum gradus iudicio Clementiae
+                                     Vestrae uel fauore prouehimur summo studio debemus eniti, ut
+                                     famam saeculi suggestionum ueritate tueamur, Domine Imperator
+                                     Valentiniane inclyte, uictor ac triumphator semper Auguste.
+                                     Quod enim genus gratiae beneficiis Principum rependendae
+                                     fortuna inpar inueniet, si fidem deserat, quae sola munit
+                                     imperium? </p>
+                                   </div>
+                                   <div type="cap" n="2">
+                                    <p> Contemplanti mihi igitur rescriptum Numinis Vestri, quo
+                                     arcae uinariae debita a Praefecto eius temporis quo contracta
+                                     dicuntur erui censuistis, silere fas non fuit quid temporum
+                                     uestrorum congruat aequitati. Iam primum stupere me fateor
+                                     caelesti Mansuetudini Vestrae totius orbis negotiis occupatae
+                                     et cui ideo inter multa curarum summatim nonnulla tractanda
+                                     sunt litteras diui Constantii ita esse suggestas, ut comminatio
+                                     sub condicione deprompta instar cuiusdam debiti duceretur;
+                                     dehinc tacitum quodam casu de ea parte rescripti, quae tenebat
+                                     officium, ut persona iudicis tamquam uilior apparitorum suorum
+                                     inpunitate premeretur; </p>
+                                   </div>
+                                   <div type="cap" n="3">
+                                    <p> tertio quod ea summa solidorum, quam cognitio et relatio
+                                     uiri inlustris decessoris mei ex maiore parte solutam probauit
+                                     aerario, tamquam debita et intacta deposcitur. Namque XI milia
+                                     CCCCXLVI solidos ex eo anno qui Sergii et Nigriniani sequitur
+                                     consulatum sacris accessisse thesauris et Praefecturae
+                                     inquisitio et discussorum litterae et u. c. decessoris mei
+                                     scripta docuerunt. </p>
+                                   </div>
+                                   <div type="cap" n="4">
+                                    <p> Inter haec igitur tam multa ualida fidem Clementiae Vestrae
+                                     debitam silentio uiolare non potui, cum Vestrum quoque Numen
+                                     aduerterem solita cautione neque iudicis nomen signasse
+                                     rescripto et aestimasse, quod conueniendus luce frueretur. Nam
+                                     quando Clementia Vestra uim ueteris comminationis in mortuum
+                                     tetendisset, cum etiam grauium noxarum poena in uitae fine
+                                     soluatur? At uero iste terror diui Principis litteris
+                                     conprehensus ne uiuentem quidem posset urgere; grauia enim
+                                     subiectis saepe minitamini acuendi potius studio quam nocendi.
+                                     Hoc etiam diuus genitor Tuus in omnium semper animis et ore
+                                     uicturus pia lege constituit, qui sententias quoque sub
+                                     comminatione depromptas effectu atque exsecutione uacuauit.
+                                    </p>
+                                   </div>
+                                   <div type="cap" n="5">
+                                    <p> Hanc uero condicionem quam diuus Constantius adiecit
+                                     litteris suis multa quae post uisa sunt subruerunt. Nam eodem
+                                     Principe adhuc orbem regente, ad Tertullum Praefectum Vrbi
+                                     memorabilem uirum migrauit exactio quae si hominis, non
+                                     potestatis fuisset, circa personam prioris iudicis oportuisset
+                                     haerere; nec multo post tempore inclyti Iuliani Maximum pari
+                                     honore tunc praeditum tituli istius cura conuenit; </p>
+                                   </div>
+                                   <div type="cap" n="6">
+                                    <p> diuo etiam parente Numinis Tui Romana iura et fata
+                                     moderante, Praefectis ac discussoribus
+                                      <supplied>haec</supplied> mandata prouincia est et per uices
+                                     administrantium publici debiti cucurrit exactio. Nouissime
+                                     relatus in caelum germanus Clementiae Tuae, cum ipsum Basilium
+                                     c. u. haberet adpositum, qui personis iudicum non pepercit,
+                                     primiscrinios urbani officii, quorum sollicitudo per
+                                     successiones exigenda curauerat, uel soluendo nomini uel
+                                     edendae rationi fecit obnoxios. </p>
+                                   </div>
+                                   <div type="cap" n="7">
+                                    <p> Itaque a u. c. ac probatissimo Anicio Basso et Auentio uiro
+                                     spectabili frequentata cognitio et solutam maiorem partem
+                                     debiti deprehendit et prouincialium iudicum repperit sponsionem
+                                     qua professi sunt, si urbanum cessaret officium, per se huius
+                                     tituli integritatem posse sarciri. Si igitur haec legibus
+                                     conferantur, pronuntiabit Aeternitas Vestra in professione
+                                     uerum esse nexum, in comminatione terrorem. Quid quod proxime
+                                     apparitio cogendis prouinciarum iudicibus admota spem debiti
+                                     emendi fecisse suggeritur? Non est meum famae incerta sectari;
+                                     inueniet diuina Maiestas Tua, cur huic exactioni perpes cura
+                                     defuerit. </p>
+                                   </div>
+                                   <div type="cap" n="8">
+                                    <p> Nam socerum meum clarissimae memoriae uirum Orfitum petit
+                                     ista molitio, cuius heredes u. c. et inlustris Officiorum
+                                     Magister adscripsit litteris suis, cum Tuae Mansuetudinis
+                                     uerecundia nullum sacro oraculo nomen expresserit. Quid ergo?
+                                     Existimem merito illius factum, qui maior honoribus quam
+                                     facultatibus ante annos fere quindecim uitam peregit, ut
+                                     comminatio saepe lecta, semper omissa et nouis post sepulta
+                                     decretis, quam neque lex diualis admittit et solutio magnae
+                                     partis exclusit, resurgat in mortuum, quae non obfuit ante
+                                     uiuenti? </p>
+                                   </div>
+                                   <div type="cap" n="9">
+                                    <p> An meae potius contumeliae causa et ordinem tot ac talium
+                                     statutorum et diui Gratiani recentem praeceptionem et
+                                     discussorum diligentiam et Praefectorum cognitiones et
+                                     relationis fidem nouis suggestionibus arbitrer sauciari? Testor
+                                     custodem Numinis Vestri deum nihil esse, quod iniuria dignus
+                                     existimer. Quieto mihi hanc Praefecturam sine ulla adfectatione
+                                     tribuistis: si quem forte mordet inuidia, si alicuius
+                                     desideriis Rei publicae amore non cessimus, cogitet priuata
+                                     odia aduersum leges exercenda non esse; </p>
+                                   </div>
+                                   <div type="cap" n="10">
+                                    <p> postremo cognoscat, si quis ille est, me meosque
+                                     successionem clarissimae atque inlustrissimae memoriae uiri
+                                     Orfiti neque ratione iuris neque bonorum aditione cepisse.
+                                     Quaeso igitur ne in contumeliam iudicii Vestri et iuri et
+                                     innocentiae fraus paretur. Quando enim absentibus atque
+                                     ignorantibus inter alios gesta nocuerunt? Quis umquam
+                                     sententiam Numinis Vestri inauditus excepit? Quando comminatio
+                                     ad heredes usque porrecta est? Certe, ut ipsam causam loquar,
+                                     quae me ac necessitudines meas Vobis propitiis nullo iure
+                                     contingit, pars maior debiti soluta monstratur, in euidentibus
+                                     nominibus pars resedit: cuius studio absoluendi sunt debitores,
+                                     ut inplicentur innoxii? </p>
+                                   </div>
+                                   <div type="cap" n="11">
+                                    <p> Quare insitam diuinis sensibus Vestris oro iustitiam ne
+                                     aduersum diui Gratiani definitionem, aduersum rescripta tot
+                                     Principum, quae Praefectis debita eruenda mandarunt, aduersum
+                                     relationem quae uberiorem summam docuit exsolutam, reliquum
+                                     uero secundum rectorum litteras exculpendum ab obnoxiis
+                                     intimauit, ignaros negotii et paternae hereditatis alienos
+                                     pulsari incongrua conuentione patiaris neue exemplum nouum pius
+                                     Imperator inducas ut successio omnium qui Rei publicae
+                                     profuerant ad liberos secura non transeat. </p>
+                                   </div>
+                                   <div type="cap" n="12">
+                                    <p> Multos haec forma retinuit et plerosque, ut arbitror,
+                                     iustius, si qui forte prouinciis male Vestris abusi sunt; at
+                                     uero posteritas inlustris memoriae uiri Orfiti nihil ex illo
+                                     aliud quam generis insigne quaesiuit. Meae tantum iniuriae
+                                     studet ista suggestio, nam tenuitati illius frequenter
+                                     exhaustae nemo testamento, nemo nostrum bonorum aditione
+                                     successit. Vnde intellegit Clementia Vestra quod non metu
+                                     familiaris causae quae legibus tuta est sed temporum amore
+                                     solliciter ne ad innocentiam fisci Vestri infructuosa tantum
+                                     recurrat inuidia. Et haec quidem cursim, ne mandatum negotium
+                                     conperendinatio differret, tantum pro coniugis meae Rusticianae
+                                     c. f. parte quaesita sunt, cuius germana multo angustior
+                                     facultatibus ex Etruriae longinquis adesse praecepta est. </p>
+                                   </div>
+                                   <div type="cap" n="13">
+                                    <p> Vestrum uero salutare Numen omnes precamur ne quod de tot
+                                     prouinciis pro maiore parte iam redditum adhuc difficilis
+                                     exculpat exactio senatoriae domus inopinata labes speretur
+                                     posse persoluere. Multis nocuit ista condicio, qui Rei publicae
+                                     praefuerunt: neque enim ius sit, ut una familia nouo opprimatur
+                                     exemplo. Quaeso igitur ut gesta quae fidem relationis adserunt
+                                     audire dignemini legesque percenseatis, quarum plerumque
+                                     duritiam pro Clementia Vestra decretis moderatioribus
+                                     temperastis. </p>
+                                   </div>
+                                  </div>
+                                   <div type="lib" n="XXXV">
+                                    <head>XXXV DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO SEMPER
+                                     AVGGG. SYMMACHVS V C. PRAEFECTVS VRBIS.</head>
+                                    <div type="cap" n="1">
+                                     <p> Felicitas quidem Vestra indefessas Populo Romano copias
+                                      pollicetur, Domini Imperatores Valentiniane, Theodosi et
+                                      Arcadi inclyti, uictores ac triumphatores semper Augusti, sed
+                                      cautio iudicum suggerenda non deserit, ut diligentia muniat
+                                      quod melior fortuna promittit. </p>
+                                    </div>
+                                    <div type="cap" n="2">
+                                     <p> Frumenti cotidianus usus in facili est; olei tantum species
+                                      uictum plebis tenuiter inuecta sollicitat. Cuius rei u. c.
+                                      Praefectus annonae, partium suarum diligens executor,
+                                      praetorianae amplissimae Praefecturae, ut ipse adserit, dudum
+                                      fecit indicium missis de more breuibus qui angustias
+                                      patefacerent conditorum. Sed ingrauescente defectu, sileri
+                                      apud Clementiam Vestram patriae cura non debuit, cuius spes
+                                      atque opes bonorum Principum fauore cumulantur. </p>
+                                    </div>
+                                    <div type="cap" n="3">
+                                     <p> Quare omnes suppliciter oramus, si expectatis preces, qui
+                                      uota omnium beneficiis praeuenitis, ut quam primum iudices
+                                      Africanos super hac specie Romanis horreis inferenda diuinus
+                                      sermo destimulet. Nam properato opus est, priusquam reliquum
+                                      profliget diurna praebitio. Addite igitur hoc munus ceteris
+                                      quae praestare consuestis, ut cuncta saeculi bona pari
+                                      adfluant largitate. </p>
+                                    </div>
+                                   </div>
+                                    <div type="lib" n="XXXVI">
+                                     <head>XXXVI. DDD. NNN. VALENTINANO THEODOSIO ET ARCADIO SEMPER
+                                      AVGGG. SYMMACHVS V C. PRAEFECTVS VRBIS.</head>
+                                     <div type="cap" n="1">
+                                      <p> Dies noctesque sollicitor, ut prompto obsequio diuinae
+                                       Clementiae Vestrae iussa promoueam; siquidem non licet longa
+                                       conperendinatione differri iustitiae ac legibus amica
+                                       decreta, Domini Imperatores Valentiniane, Theodosi et Arcadi
+                                       inclyti, uictores ac triumphatores semper Augusti. Vnde cauto
+                                       opus est, ne existimationem meam per alios adlata praeceptis
+                                       tarditas deuenustet. </p>
+                                     </div>
+                                     <div type="cap" n="2">
+                                      <p> Nam cum de Macedonio secus de Re publica merito itemque
+                                       Ammiano dudum mihi iudicium Perennitas Vestra legauerit,
+                                       Ammianum quidem protectorum adtestatione cognoui, cum Vrbis
+                                       uicina contingeret, languore consumptum; de Macedonio uaria
+                                       iactantur, quem iam pridem debuit custodum sollicitudo
+                                       perducere. </p>
+                                     </div>
+                                     <div type="cap" n="3">
+                                      <p> Quaeso igitur Mansuetudinem Vestram, ne mihi fraudi sit
+                                       mora alieno studio aut torpore contracta, simulque deprecor
+                                       ut uenerabilis Aeternitas Vestra singulatim quaerenda
+                                       distinguat, si forte designatum reum cognitioni meae
+                                       prosequentium cura tradiderit. </p>
+                                     </div>
+                                    </div>
+                                     <div type="lib" n="XXXVII">
+                                      <head>XXXVII. DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO
+                                       SEMPER AVGGG. SYMMACHVS V C. PRAEFECTVS VRBIS.</head>
+                                      <div type="cap" n="1">
+                                       <p> Soli omnium potestis Aeternae Vrbis expensas a defectu
+                                        sumptuum uindicare, Domini Imperatores Valentiniane,
+                                        Theodosi et Arcadi inclyti, uictores ac triumphatores semper
+                                        Augusti. Maiestati autem Vestrae subditae potestates tantum
+                                        mediocribus causis ualent ferre medicinam, magnarum uero
+                                        rerum mole superantur. </p>
+                                      </div>
+                                      <div type="cap" n="2">
+                                       <p> Ad Vos igitur, salutaria Numina, conuolamus et opem
+                                        largam Populi Romani inploramus aerario, cum iam diu nihil
+                                        solitorum uectigalium decretae prouinciae contulerunt atque
+                                        ideo iustus est metus ne, cessantibus subsidiis, necessaria
+                                        deserantur, quae hactenus personae tenues alieno, ut
+                                        queruntur, aere tolerarunt. Super hoc etiam reuerendus Ordo
+                                        consultus, cum per se mederi adfectis rebus nequiret, opem
+                                        Vestrae Perennitatis orauit. Edita ratio est uectigalium
+                                        quae Hispaniensis atque Alexandrinus inuehere debuit
+                                        commeatus; expensionum quoque titulos conpetentes officii
+                                        cura digessit: </p>
+                                      </div>
+                                      <div type="cap" n="3">
+                                       <p> quaeso ut, omnibus quae cohaerent libenter inspectis,
+                                        utilitati publicae uelox remedium porrigatis. Vrgentibus
+                                        enim causis negari non potest inlatio sollemnis inpendii.
+                                        Quare ferte, propitii ut soletis, auxilium et, qui mentibus
+                                        piis noua Populo Romano beneficia defertis, etiam prisca
+                                        seruate atque Vrbi Vestrae adnuere dignamini et quod
+                                        praetermissio praeterita suspendit et quod futurus usus
+                                        expectat. </p>
+                                      </div>
+                                     </div>
+                                      <div type="lib" n="XXXVIII">
+                                       <head>XXXVIII. DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO
+                                        SEMPER AVGGG. SYMMACHVS V C. PRAEFECTVS VRBIS.</head>
+                                       <div type="cap" n="1">
+                                        <p> In negotiis tempore ac iudicatione finitis cessare
+                                         aequum est longae orationis excursum, ne et Numinis Vestri
+                                         salutares actus oneret sermo prolixior et sine argumento
+                                         rerum loquacitas morosa displiceat, Domini Imperatores
+                                         Valentiniane, Theodosi et Arcadi inclyti, uictores ac
+                                         triumphatores semper Augusti. </p>
+                                       </div>
+                                       <div type="cap" n="2">
+                                        <p> Cum in iudicio moderatoris Apuli inter Marcellum qui se
+                                         deiectum possessione questus est itemque Venantium
+                                         stratorem, ut ipse confirmat, eiusque germanam Batrachiam
+                                         causa uiolentiae disceptaretur, prouocatio a reis
+                                         inconsulta processit, quod prouincialis cognitor, promissis
+                                         litteris ad uicariam potestatem, susceptum retineret
+                                         examen, tunc auditorii sacri iudex, rectoris adfatu super
+                                         appellatione consultus, et praeiudicialem multam statuit a
+                                         prouocatoribus inferendam et ipsum quaesitorem crimini
+                                         dedit cum executione uindictae. </p>
+                                       </div>
+                                       <div type="cap" n="3">
+                                        <p> Post haec obreptionibus partium nonnulla gesta sunt, ut
+                                         iudicatio consummata traheretur. Nam et uir spectabilis
+                                         decessor meus, cum multam didicisset exactam, quam decreto
+                                         sacri auditorii appellatio praeiudicialis agnouerat,
+                                         statuit causam criminis ad se debere transferri et ego idem
+                                         secutus partes in examen acciui. </p>
+                                       </div>
+                                       <div type="cap" n="4">
+                                        <p> Sed cum et tempus reparationis esset emensum et poenam
+                                         prouocationis aut expectaret aut sumpsisset aerarium,
+                                         uiolentiae quoque causam Venantii ac Batrachiae professio
+                                         ac quorundam capitalis damnatio terminasset, pronuntiaui
+                                         cognitionem sacri cessare iudicii et Venantium quem u. c.
+                                         et inlustris Officiorum Magister iusserat exhiberi censui
+                                         agenti in rebus Decentio quo proseguente uenerat esse
+                                         reddendum. </p>
+                                       </div>
+                                       <div type="cap" n="5">
+                                        <p> Sed cum Venantii stratoris inlicitam usurpatamque
+                                         militiam Marcellus argueret, quod decurionum adscriptus
+                                         albo, ut gesta docuerunt, aduersum leges ad palatina castra
+                                         transisset, non debui obiecta reticere, ut in ea re quae
+                                         modum mei egrediebatur examinis Aeternitas Vestra ipsis
+                                         legibus quas tuetur augustior iudicaret. </p>
+                                       </div>
+                                      </div>
+                                       <div type="lib" n="XXXIX">
+                                        <head>XXXIX. DDD. NNN. VALENTINANO THEODOSIO ET ARCADIO
+                                         SEMPER AVGGG. SYMMACHVS V C. PRAEFECTVS VRBIS.</head>
+                                        <div type="cap" n="1">
+                                         <p> Facit plerumque ratio aut fortuna causarum ut in
+                                          controuersiis alter aequitate, alter iure nitatur; tunc
+                                          humano labante consilio, deliberatio cognitoris ad
+                                          Clementiae Vestrae recurrit oraculum, Domini Imperatores
+                                          Valentiniane, Theodosi et Arcadio inclyti, uictores ac
+                                          triumphatores semper Augusti, quod etiam praesentis
+                                          negotii qualitas depoposcit. </p>
+                                        </div>
+                                        <div type="cap" n="2">
+                                         <p> Nam Musa annos egressa legitimos, cum in partem rerum
+                                          paternarum Syntrophium quereretur admissum, quem ueluti
+                                          adultae suae fratrem dolus Acholii curatoris adsciuerat,
+                                          integri restaurationem suffragio iuris accepit, sed multis
+                                          prouocationibus uariisque tracta, iudiciis intra metas
+                                          iusti temporis nequiuit exequi propositas actiones. </p>
+                                        </div>
+                                        <div type="cap" n="3">
+                                         <p> Vt res monebat, amissum beneficium remedio integrauit
+                                          supplicationis; sed idem mulierem casus etiam rescripti
+                                          sacri humanitate fraudauit. Siquidem mensium quattuor
+                                          dilata curriculis, supremo die temporis impetrati excidit
+                                          cognitore quem successor adueniens praemisso interdicto
+                                          potestate priuauerat. Post haec cum uellet infelicem
+                                          causae lapsum reparatione sarcire, obiectu Constantinianae
+                                          legis explosa est, quae extra ordinem temporibus indultis
+                                          longiorem negauit excursum. </p>
+                                        </div>
+                                        <div type="cap" n="4">
+                                         <p> Secuta est prouocatio iudicatum. Vbi uentum ad sacrae
+                                          sedis examen et eadem constitutio a Faustino, herede
+                                          Acholii curatoris, rursus ingesta est, pars procuratoris
+                                          cui actiones Musa mandauerat non suo uitio causam
+                                          cecidisse temporibus adprobauit. Ad hoc parentum Numinis
+                                          Vestri diuorum Principum protulit sanctionem quae inter
+                                          reliquas exceptiones reparationem iurgantibus tribuit, si
+                                          per cognitorem causa labatur. </p>
+                                        </div>
+                                        <div type="cap" n="5">
+                                         <p> Cum igitur et in Constantiniana lege qua reparatio
+                                          adimitur temporibus extra ordinem datis casus iste
+                                          cessantis disceptatoris non sit exceptus et recentiora
+                                          scita diualia cunctis negotiis reparatione subuenerint, si
+                                          forte a iudice deserantur, facilis in alteram partem esse
+                                          non potui, sed quod unum remedium conuenit rebus ambiguis,
+                                          fortunam curiosi luctaminis augustissimis legum arbitris
+                                          reseruaui gestis omnibus de more subiectis, ut eorum
+                                          lectio insinuationis meae adstruat ueritatem. </p>
+                                        </div>
+                                       </div>
+                                        <div type="lib" n="XL">
+                                         <head>XL. D. N. VALENTINIANO AVG. SYMMACHVS V C. PRAEFECTVS
+                                          VRBIS.</head>
+                                         <div type="cap" n="1">
+                                          <p> Vrbium populorumque luctamina, quoniam sunt maiora
+                                           priuatis, cedenda sunt iudicio augustiori, Domine
+                                           Imperator Valentiniane inclyte, uictor ac triumphator
+                                           semper Auguste. Merito Puteolanorum ac Tarracinensium
+                                           causam quae post Campani moderatoris examen ad sacrum
+                                           auditorium ex prouocatione migrauit, cum perspicerem pari
+                                           lance libratam, Maiestatis Vestrae arbitrio reseruaui.
+                                          </p>
+                                         </div>
+                                         <div type="cap" n="2">
+                                          <p> Est autem, de quo agitur, eiusmodi: Puteolanis
+                                           municipibus diuus Constantinus centum quinquaginta milia
+                                           modiorum in alimoniam ciuitatis indulsit, quae summa a
+                                           diuo Constante regente Rem publicam media parte mutilata
+                                           est. Post Constantius aeque relatus in caelum,
+                                           supplicatione deposita, annonam Puteolani populi uiginti
+                                           et quinque milium adiectione cumulauit atque ita factum
+                                           est, ut centum milia eiusdem populi uictus acciperet.
+                                          </p>
+                                         </div>
+                                         <div type="cap" n="3">
+                                          <p> Sed diuo Iuliano moderante Rem publicam, cum Lupus
+                                           consulari iure Campaniae praesideret
+                                            <supplied>et</supplied> Tarracinensium contemplaretur
+                                           angustias, quod nihil subsidii decreta dudum oppida
+                                           conferebant, ne commoda Populo Romano ciuitas quae
+                                           lauacris publicis ligna et calcem reparandis moenibus
+                                           subministrat defectu subito exhausta succumberet, quinque
+                                           milia et septingentos modios Puteolanis municipibus
+                                           derogatos Tarracinensium usui deputauit et amplissimae
+                                           praetorianae sedi statuta et definita suggessit.
+                                           Mamertinus id temporis Praefecturae honore pollebat. Is
+                                           cum disposita roborasset, nihilominus arbitrium imperiale
+                                           consuluit neque ullum responsum, quod eo tempore bello
+                                           Persico rector Imperii tenebatur, accepit. </p>
+                                         </div>
+                                         <div type="cap" n="4">
+                                          <p> Exhinc per aliquot annos cucurrit ista praebitio,
+                                           donec Capuana legatio apud diuum atque inclytum Gratianum
+                                           germanum Numinis Vestri sua tantum damna deplorans eum
+                                           frumenti numerum quem Cerealis ex multis urbibus Romano
+                                           Populo uindicarat restitui omnibus impetraret. Sed
+                                           occasione rescripti cum sola triginta et octo milia
+                                           modium quae horreis Aeternae Vrbis accesserant
+                                           prouincialium recuperasset alimoniae, etiam quinque milia
+                                           et septingentos modios Puteolani municipes
+                                           Tarracinensibus abnuerunt. </p>
+                                         </div>
+                                         <div type="cap" n="5">
+                                          <p> Cum igitur haec causa in iudicium prouinciale
+                                           uenisset, u. c. Consularis non considerata summa quae
+                                           rescripto diui Principis tenebatur iudicatione generali
+                                           omnia Puteolanis reddenda decreuit. Verum post
+                                           appellationem cognitio auditorii sacri, cum illum
+                                           frumenti modum qui Campanis fuerat restitutus a quinque
+                                           milibus et septingentis modiis quos ob necessitates Vrbis
+                                           Aeternae ciuitas Tarracinensis accepit discretum esse
+                                           perspiceret, manente decreto diualis oraculi, ea subsidia
+                                           quae Tarracinenses iudicio Lupi et Mamertini Praefecti
+                                           confirmatione capiebant nec roborare potuit, cum responsi
+                                           sacri nulla extaret auctoritas, nec demere ciuitati, ne
+                                           populus utilitatibus Aeternae Vrbis obnoxius iustis
+                                           commodis indigeret. </p>
+                                         </div>
+                                         <div type="cap" n="6">
+                                          <p> Ergo ut in rebus dubiis fieri amat, ad Clementiae
+                                           Vestrae salubre iudicium conuolamus, licet defensio
+                                           Puteolana post promissam relationem in cassum crediderit
+                                           prouocandum. Praesto est gestorum fides quae Perennitatem
+                                           Vestram possit instruere. Quaeso atque obsecro ut negotio
+                                           multa aetate nutanti tandem stabile remedium deferatur.
+                                          </p>
+                                         </div>
+                                        </div>
+                                         <div type="lib" n="XLI">
+                                          <head>XLI. DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO
+                                           SEMPER AVGGG. SYMMACHVS V C. PRAEFECTVS VRBIS.</head>
+                                          <div type="cap" n="1">
+                                           <p> Certum atque dilucidum est nihil esse tam familiare
+                                            legibus quam Vestra decreta, Domini Imperatores
+                                            Valentiniane, Theodosi et Arcadi inclyti, uictores ac
+                                            triumphatores semper Augusti, sed executorum praua
+                                            interpretatio, dum supplicantibus fauet, plerumque iussa
+                                            corrumpit. Statuerat receptus in caelum germanus Numinis
+                                            Vestri, cum Marcianus dudum protector Aggareae bona
+                                            tamquam uacantia postulasset, ut, si ea hereditas
+                                            scriptum successorem uel legitimum non haberet, in ius
+                                            fisci tamquam domino nuda concederet; tunc insinuato per
+                                            rationalem patrimonii modo opperiretur petitor, quid ei
+                                            sacra deferret humanitas. </p>
+                                          </div>
+                                          <div type="cap" n="2">
+                                           <p> Annus fere secundus est, ut per defensores et
+                                            rationales augustissimae Domus contra iustitiam
+                                            sollemnis oraculi scripti fatigantur heredes. Licet iam
+                                            sextus annus a testamenti recitatione numeretur,
+                                            nouissime fortuna causae inpetibilem scopulum foedae
+                                            cognitionis incurrit. Nam cum apud uirum perfectissimum
+                                            rationalem Bassianum primo delator bonorum secundum
+                                            sacra scita proderetur, nouo ausu calcata praescriptio
+                                            est. </p>
+                                          </div>
+                                          <div type="cap" n="3">
+                                           <p> Dehinc cum testamenti iure confecti fidem recitatio
+                                            publicaret, cahunnia inanis obiecta est, quod signatores
+                                            nescio quid legati ex eadem uoluntate cepissent.
+                                            Adduntur etiam rescripta diualia quibus adstipulatio
+                                            cuiusdam remota est, qui suam iuuisse causam testimonio
+                                            diceretur, quasi uero simile esset exemplum aut tenuis
+                                            honor quo subscriptores ob amicitiam defunctus
+                                            adsperserat legitimum posset abolere iudicium. Nam si
+                                            his legibus uiueremus, inimicis signatoribus tutius
+                                            uterennur, quorum offensa nihil de testatore humanitatis
+                                            exigeret. </p>
+                                          </div>
+                                          <div type="cap" n="4">
+                                           <p> Piget dicere in quinque numero solidis potissimum
+                                            subscriptoris fuisse legatum; ceteris enim magis
+                                            commemoratio honesta quam pecuniae quaestus accessit.
+                                            Ergo aut extremae paupertatis successio fuit, si putatur
+                                            exiguus honor fidem legitimi iudicii sauciasse, aut si
+                                            census hereditarius existimatur uberior, aliena est a
+                                            suspicionibus breuis summa legati. Quis non
+                                            familiarissimum quemque signandis adhibet, cum extrema
+                                            conduntur? lam quid mirum est, si in oculis positus
+                                            mereatur aliquod monumentum religionis, qui meruit
+                                            aduocari? </p>
+                                          </div>
+                                          <div type="cap" n="5">
+                                           <p> Non fero signatorem cui pars bonorum magna defertur,
+                                            nam etsi integra conscientia, non tamen sincero pudore
+                                            ditatur; at uero haec leuia pignora aut amoris gratia
+                                            aut testatoris uerecundia relinquuntur. Nihil huic
+                                            religioni nouis legibus derogatum est; manet iste usus
+                                            et, Vobis iura seruantibus, semper manebit: unus et
+                                            solus post humani <supplied>generis</supplied> memoriam
+                                            rationalis emersit, qui exemplum nouae iudicationis
+                                            induceret. </p>
+                                          </div>
+                                          <div type="cap" n="6">
+                                           <p> Hinc orta est prouocatio quae ubi auditorium sacrum
+                                            decreto etiam Vestrae legis intrauit, rursus eludendi
+                                            iudicii causa propositum est inane commentum, ut ab
+                                            inlustri uiro priuatae Rei Comite delegata cognitio
+                                            diceretur rationalis examini atque ideo rursus ad
+                                            eiusdem iudicium debere transferri, cum omnis quaestio
+                                            ex precibus Marciani dudum protectoris et Vestrae
+                                            Clementiae largitate descendens sacro potius auditorio
+                                            ex prouocatione conpeteret, accedente etiam proxima
+                                            sanctione quae indiscrete huiusmodi appellationes sedi
+                                            quae uicem Principum tuetur prisco iure commisit. </p>
+                                          </div>
+                                          <div type="cap" n="7">
+                                           <p> Examinatis igitur omnibus, pronuntiaui bona obnoxia
+                                            non esse rescripto, cum Vestri Numinis aeterna iustitia,
+                                            si scriptis aut legitimis successoribus uacaret
+                                            hereditas, fiscum statuisset admitti, has autem
+                                            facultates Marcellus Bizias et Heliodorus iusta defuncti
+                                            uoluntate cepissent. Tunc sententiam meam defensor
+                                            uenerabilis Domus inusitata prouocatione suspendit. </p>
+                                          </div>
+                                          <div type="cap" n="8">
+                                           <p> Sed cum huius rei nullum exemplum cognitionalis
+                                            extare suggereret, nihilo minus obiectam uocem libenter
+                                            admisi et relatione summatim cuncta conplexus gestorum
+                                            quoque documenta subtexui, praesumens bonis placitura
+                                            Principibus, quae secundum leges pro fama temporum
+                                            iudicaui. XLII. DDD. NNN. VALENTINIANO THEODOSIO ET
+                                            ARCADIO SEMPER AVGGG. SYMMACHVS V C. PRAEFECTVS VRBIS.
+                                            Petronianus urbanarum dudum cohortium miles ad
+                                            corniculorum gradum inculpati laboris diuturnitate
+                                            prouectus more institutoque maiorum testimonium meruit
+                                            castrensis industriae, quod ceteris quoque post honestum
+                                            cursum stipendiorum iudicia detulerunt, Domini
+                                            Imperatores Valentiniane, Theodosi et Arcadi inclyti,
+                                            uictores ac triumphatores semper Augusti. Dignum est
+                                            igitur diuina temporum Vestrorum felicitate, ut peractam
+                                            sine offensione militiam, si Perennitatis Vestrae pius
+                                            uultus adriserit, praerogatiua sollemnis exornet. </p>
+                                          </div>
+                                         </div>
+                                          <div type="lib" n="XLIII">
+                                           <head>XLIII. D. N. VALENTINIANO SEMPER AVG. SYMMACHVS V
+                                            C. PRAEFECTVS VRBIS.</head>
+                                           <div type="cap" n="1">
+                                            <p> Curae mihi est ut qui animis et maiestate congruitis
+                                             mutua honorificentia gaudeatis. Dignum est igitur,
+                                             Domine Imperator Valentiniane inclyte, uictor ac
+                                             triumphator semper Auguste, ut decretum Senatus ad
+                                             inuictissimos fratres Numinis Tui, si ita placet,
+                                             Clementia Tua insinuante, perueniat. </p>
+                                           </div>
+                                           <div type="cap" n="2">
+                                            <p> Quonim auctor et parens, ut dudum u. c. et inlustri
+                                             Officiorum Magistro scripsisse memini, statuarum
+                                             equestrium honore decoratus est, quas ei Ordo
+                                             uenerabilis Africani et Brittannici belli recordatione
+                                             decreuit ea scilicet causa, ut iustis superiorum ducum
+                                             titulis praesentium circa Vos deuotio prouocetur. </p>
+                                           </div>
+                                          </div>
+                                           <div type="lib" n="XLIV">
+                                            <head>XLIV DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO
+                                             SEMPER AVGGG. SYMMACHUS V C. PRAEFECTVS VRBIS.</head>
+                                            <div type="cap" n="1">
+                                             <p> Cum mancipes salinarum magno ex numero ad paucos
+                                              redacti necessitatis publicae molem ferre non possent,
+                                              delata supplicatione meruerunt, ut his obsequiis ante
+                                              secreti atque excusati fuerant redderentur et ex aliis
+                                              corporibus seu uacantibus iusta supplementa
+                                              incunctanter acciperent, Domini Imperatores
+                                              Valentiniane, Theodosi et Arcadi inclyti, uictores ac
+                                              triumphatores semper Augusti. Allegata igitur
+                                              praeceptione diuina, cum plerosque consortio suo ante
+                                              secretos muniri Macedonii suffragio repperissent,
+                                              relationem super eorum muniminibus impetrarunt.
+                                              Vestrae tantum Clementiae liberum est inique elicita
+                                              rescripta rescindere. </p>
+                                            </div>
+                                            <div type="cap" n="2">
+                                             <p> Tunc urgente defectu nauicularios aeque lignorum
+                                              obnoxios functioni ad parem sollicitudinem uocare
+                                              coeperunt, ut utriusque corporis cura coniuncta
+                                              indiscretum munus agnosceret. At illi nonnullos de
+                                              turmalibus suis tradere maluerunt quam in societatem
+                                              tanti oneris conuenire. Itaque factum est ut
+                                              uolentibus iisdem certi homines mancipibus
+                                              iungerentur. Nunc Perennitatis Vestrae stabilem
+                                              censionem publica causa deposcit, ne obreptiuis
+                                              supplicationibus subsidia integrati corporis
+                                              subruantur. </p>
+                                            </div>
+                                            <div type="cap" n="3">
+                                             <p> Relationi gesta coniunxi tam de his habita, quos
+                                              Macedonii interuentus absoluerat, quam me disceptante
+                                              confecta, quibus sine uexatione cuiusquam uoluntas
+                                              nauiculariorum nonnullos mancipibus deputauit. Erit
+                                              iam sacrosancti Numinis Vestri et illorum antiquare
+                                              suffragia, quos ostenditur ambitus liberasse, et his
+                                              obstruere aditum supplicandi, quos sui corporis
+                                              adiudicauit adsensus. </p>
+                                            </div>
+                                           </div>
+                                            <div type="lib" n="XLV">
+                                             <head>XLV D. N. VALENTINIANO SEMPER AVG. SYMMACHVS V C.
+                                              PRAEFECTVS VRBIS.</head>
+                                             <p> Deuotione et more commonitus magistratuum nomina,
+                                              quibus uarias functiones designationum tempore
+                                              amplissimus Ordo mandauit, Aeternitatis Vestrae
+                                              perfero notionem, ut muneribus exhibendis aut
+                                              subeundis fascibus destinatos cognitio imperialis
+                                              accipiat. His copulati sunt quos Senatui uestro recens
+                                              ortus adiecit. Prolixus in talibus rebus esse non
+                                              debeo, cum decreti publici fides gestorum potius
+                                              insinuationem postulet quam largum referentis
+                                              eloquium. </p>
+                                            </div>
+                                            <div type="lib" n="XLVI">
+                                             <head>XLVI. DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO
+                                              SEMPER AVGGG. SYMMACHVS V C. PRAEFECTVS VRBIS.</head>
+                                             <div type="cap" n="1">
+                                              <p> Etiamsi prisca institutio mittendis ad Clementiam
+                                               Vestram censuum breuibus cursum uel ordinem non
+                                               dedisset, Domini Imperatores Valentiniane, Theodosi
+                                               et Arcadi inclyti, uictores ac triumphatores semper
+                                               Augusti, diligentia tamen boni saeculi fidem publicae
+                                               instructionis exigeret. Siquidem conuenit Principes
+                                               et parentes humani generis edoceri quid reuerendo
+                                               Ordini uel senatorum nouorum accessus adiciat uel
+                                               glebae excusationibus detrahatur. </p>
+                                             </div>
+                                             <div type="cap" n="2">
+                                              <p> Harum rerum Aeternitati Vestrae fidum exhibebit
+                                               indicium trimestris instructio, quam sollemniter
+                                               sumptam de officio censuali paginis relationis
+                                               adnexui, ut Maiestas Vestra cognoscat qui in
+                                               amplissimam Curiam collegarum numerus influxerit et
+                                               quid censibus senatoriis aut noui professio
+                                               incrementi dederit aut exemptio ueteris amputarit.
+                                              </p>
+                                             </div>
+                                            </div>
+                                             <div type="lib" n="XLVII">
+                                              <head>XLVII. DDD. NNN. VALENTINIANO THEODOSIO ET
+                                               ARCADIO SEMPER AVGGG. SYMMACHVS V C. PRAEFECTVS
+                                               VRBIS.</head>
+                                              <div type="cap" n="1">
+                                               <p> Bellorum quidem Vestrorum gloriosos exitus fama
+                                                non occulit, sed maior est uictoriae fides quae
+                                                oculis adprobatur, Domini Imperatores Valentiniane,
+                                                Theodosi et Arcadi inclyti, uictores ac
+                                                triumphatores semper Augusti. Dudum fando acceperat
+                                                Romanus Populus caesorum funera Sarmatarum; at nunc
+                                                confirmata est nuntiorum laetitia spectaculo
+                                                triumphali. Iam minores non sumus uetustatis
+                                                exemplis: uidimus quae lecta mirabamur, catenatum
+                                                agmen uictae gentis induci illosque tam truces
+                                                pridem uultus misero pallore mutatos. Stetit harenae
+                                                medio subiecta uoluptati, quae fuit ante formidini,
+                                                et adsuetae armis gentilibus manus gladiatoria
+                                                instrumenta timuerunt. </p>
+                                              </div>
+                                              <div type="cap" n="2">
+                                               <p> Felicem nimis belli istius ducem qui diuinae
+                                                Clementiae Vestrae fretus auspiciis ex hostium
+                                                numero alios ad securitatem prouinciarum penitus
+                                                extinxit, alios ad laetitiam plebis Martiae
+                                                reseruauit. Merito illi iudicia Vestra respondent,
+                                                iure in litteris imperialibus saepe celebratur;
+                                                neque enim tanta deuotio digniorem possit inuenire
+                                                praeconem. Sit uobis frequens usus ac facilis
+                                                laurearum et eos qui forte ausus inpios in Romanum
+                                                nomen extulerint fortitudo militum capiat, harena
+                                                Vrbis expendat. Perpetua haec deuotis ciuibus
+                                                uirtutis Vestrae tamquam tributa praestetis. </p>
+                                              </div>
+                                             </div>
+                                              <div type="lib" n="XLVIII">
+                                               <head>XLVIII. D. N. VALENTINIANO SEMPER AVG.
+                                                SYMMACHVS V.C. PRAEFECTVS VRBIS.</head>
+                                               <div type="cap" n="1">
+                                                <p> Certa officia sunt omnium potestatum:
+                                                 Praefecturae urbanae proprium negotium est
+                                                 senatorum iura tutari, Domine Imperator
+                                                 Valentiniane inclyte, uictor ac triumphator semper
+                                                 Auguste. Quare partium mearum conuentus necessitate
+                                                 allegationibus clarissimorum uirorum iusta
+                                                 poscentium deesse non potui. A quibus pleraque
+                                                 seruitia palatinus Eusebius iussus eruere, ut
+                                                 bonorum Catuli clarissimae memoriae uiri quaestio
+                                                 iudicationibus sacrisque responsis consumpta
+                                                 repetatur, optimatium querimonias, qui dudum partis
+                                                 fruuntur, exciuit. </p>
+                                               </div>
+                                               <div type="cap" n="2">
+                                                <p> Ventum est igitur ad leges, executore cupiente
+                                                 quae contradictio repellebat inplorataeque Vestri
+                                                 Numinis sanctiones quae senatorum controuersias
+                                                 transferri ab urbano foro ad peregrina uetuerunt.
+                                                 Sed cum adsererem non eandem praerogatiuam esse
+                                                 seruorum quibus supplicantibus certum Perennitas
+                                                 Vestra detulit cognitorem, responsum est quod
+                                                 fortunas clarissimarum personarum precatio subtilis
+                                                 incesserit.</p>
+                                               </div>
+                                               <div type="cap" n="3">
+                                                <p> Inter haec cum Donatus adsisteret ceteris
+                                                 precatoribus sacro iunctus oraculo, quaesiui, ut
+                                                 mos est, ne eodem nomine alius subderetur, quae
+                                                 hominem condicio haberet et an ipse de Catuli
+                                                 iudicio suppficasset. Tunc ille Hilariani
+                                                 clarissimi uiri seruum professus ab illarum precum
+                                                 conscientia, quas dicitur obtulisse cum ceteris,
+                                                 alienum se constanter adseruit atque ita uisa est
+                                                 supplicationis fides etiam de auctore nutare. </p>
+                                               </div>
+                                               <div type="cap" n="4">
+                                                <p> Adiecta sunt alia plena iuris atque rationis,
+                                                 quod post crebras cognitiones et rescripta ad
+                                                 relationem numerosa poenam legis inciderint qui
+                                                 denuo contra uetitum supplicarunt. Extant quippe
+                                                 sententiae quas, cum prouocatio temptasset
+                                                 inhibere, consultus relatione diuus genitor
+                                                 Clementiae Vestrae finem posuit quaestioni. Cui
+                                                 uictoriae fiscus accessit emolumentum bonorum
+                                                 Catuli clarissimae memoriae uiri, ut adsertum est,
+                                                 pro certa parte sortitus. </p>
+                                               </div>
+                                               <div type="cap" n="5">
+                                                <p> Cum igitur senatorum allegatio rescriptis ac
+                                                 legibus niteretur, maluerunt causam suam Vestrae
+                                                 per me aperire iustitiae quam legitimo uindicare
+                                                 iudicio, securi decretorum quae et necessitate
+                                                 iuris et diui patris ueneratione seruabitis. Itaque
+                                                 seruos bona fiducia tradiderunt; quos in
+                                                 praeiudicium absentium post consummationem negotii
+                                                 aequitas temporum, quantum praesumimus, non
+                                                 patietur audiri. </p>
+                                               </div>
+                                              </div>
+                                               <div type="lib" n="XLIX">
+                                                <head>XLIX. DDD. NNN. VALENTINANO THEODOSIO ET
+                                                 ARCADIO SEMPER AVGGG. SYMMACHVS V C. PRAEFECTVS
+                                                 VRBIS.</head>
+                                                <div type="cap" n="1">
+                                                 <p> Quid habeat condicionis inscriptio prae ceteris
+                                                  nostis iuris publici conditores, Domini
+                                                  Imperatores Valentiniane, Theodosi et Arcadi
+                                                  inclyti, uictores ac triumphatores semper Augusti.
+                                                  Prouisum est enim, ne quis temere in alieni
+                                                  capitis discrimen irrueret, ut se eiusdem prius
+                                                  poenae sponsione uinciret. </p>
+                                                </div>
+                                                <div type="cap" n="2">
+                                                 <p> Secundum haec scita legum agens in rebus
+                                                  Africanus accusationem professus Campano et Hygino
+                                                  clarissimis uiris uiolentiae crimen obiecit.
+                                                  Continuo, ut seueritas exigebat, reos custodia
+                                                  militaris dissimulata dignitate circumdedit; sed
+                                                  ubi partes sub examine constiterunt, multo
+                                                  luctamine patronorum decursa cognitio oratione
+                                                  magis quam probationibus redundauit. </p>
+                                                </div>
+                                                <div type="cap" n="3">
+                                                 <p> Cum longa uerborum serie causa traheretur,
+                                                  summates Aricinae urbis, quos ut conscios
+                                                  accusator exciuerat, adhibuimus quaestioni.
+                                                  Gestorum ordinem sciscitamur: omnium conuenit
+                                                  adsertio nihil turbarum esse conflatum. Tunc ad
+                                                  eludendum iudicium praesentia cuiusdam coepit
+                                                  exposci, quem non tenebat inscriptio. Eo denique
+                                                  res rediit, ut a partibus Africani accusationis
+                                                  omissio desperatione peteretur. Supererat ut,
+                                                  crimine non probato, in accusatorem formidata reis
+                                                  poena transiret; </p>
+                                                </div>
+                                                <div type="cap" n="4">
+                                                 <p> sed cum me Africani militia pariter atque
+                                                  incauta adolescentia permoueret, malui iudicium de
+                                                  eo clementibus reseruare. Alia est enim condicio
+                                                  magistratuum quorum corruptae uidentur esse
+                                                  sententiae, si sint legibus mitiores, alia est
+                                                  diuinorum Principum potestas, quos decet
+                                                  acrimoniam seueri iuris inflectere. Relationi
+                                                  gesta subtexui, partium quoque supplementa
+                                                  sociaui. Quaeso augustissimam Perennitatem Vestram
+                                                  ut, perpensis omnibus, sequenda iubeatis. </p>
+                                                </div>
+                                               </div>
+                                              
+  </body>
+ </text>
+</TEI>

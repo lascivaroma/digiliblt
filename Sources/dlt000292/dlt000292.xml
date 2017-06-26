@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Incerti auctoris tractatus de adtributis personae et negotio (siue Commentarius in Ciceronis de Inuentione)</title>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Beatrice Strona</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2015</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000292</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Commenta in Ciceronis Rhetorica. Accedit Incerti Auctoris Tractatus de adtributis personae et negotio</hi>, Thomas Riesenweber (ed.), Teubner-De Gruyter, Berlin-Boston 2013.</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+  
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div type="section">
+    <head>De attributis personae</head>
+    <milestone unit="page" n="p. 305 Halm"/>
+    <p>Cum sint undecim attributa personis, quibus adprobatur cuiusque persona, nomen hominis certis
+     suis designans et sanguinem et hominem nominibus explicatur, cum nullo socium neque nomine
+     neque attributo.</p>
+    <p>Natura est attributum extra ipsum hominem <del>praeter</del> in patria, gente, sanguine
+     ceterisque (haec enim licet dent homini commodum, non tamen proprium); in ipso uero homine
+     circa corpus et animam, quia natura dat plurimas et animo et corpori qualitates. Ergo natura
+     accidens res est, quae aptiorem hominem ad unumquidque facit. Itaque non <hi rend="italic"
+      >orator</hi> natura est, sed <hi rend="italic">oratorius</hi>, id est qui orator esse possit.
+     Verum has qualitates uel diligentia conparat facitque perfectas, et <hi rend="italic"
+      >habitus</hi> nominatur; aut in has casu quodam ac repentino motu frequenter incidimus, et <hi
+      rend="italic">adfectio</hi> dicitur; aut in has inclinamur <hi rend="italic">studio</hi>
+     quodam, quod ipsum studium per se nihil aliud est quam uoluntas adplicata in aliquas
+     qualitates. Ergo adficimur qualitatibus tribus modis: ortu et natali, et est natura; adficimur
+     repentinis casibus, et adfectio est; adficimur industria ac constantia et perseueratione, et
+     habitus est.</p>
+    <p>At uero ipsum studium, quod esse definiuimus adplicatam in qualitatem aliquam animi
+     uoluntatem, hoc, inquam, studium nunc adfectio est, si pro tempore est, nunc, si
+     perseuerauerit, habitus <del>ipsum studium</del>; nam iam quasi perceptio quaedam in me est rei
+     eius, cui nomen est <hi rend="italic"><supplied>habitus</supplied></hi>, studium si perseuerat.
+     Sed ut studium intellegam, illud debeo considerare, quod ipso studio petitur, ut litteratura
+     aut geometria; quod si perceptum sit, habitus <del>studio perceptus</del> est.</p>
+    <p>Ergo natura <milestone unit="page" n="p. 306 Halm"/> accidens qualitas est, ut animae uel
+     corpori uel extrinsecus, et accidens ab ortu ac natali. Accidit autem mari uel feminae; nam
+     marem esse aut feminam non iam inter commoda conputatur.</p>
+    <p>Adfectio est accidens qualitas uel repente uel <del>studio</del> mox desitura (nam si
+     permaneat, fit habitus), dicta <hi rend="italic">adfectio</hi>, quod adficiat qualitate. Et
+     erit adfectio incipiens habitus uel uictus; non enim omnia ad exitum tendunt.</p>
+    <p>Habitus est perceptio qualitatum; nam haec <hi rend="italic">percepta</hi> philosophi
+     dixerunt. Hae qualitates uel commoda sunt uel incommoda; quae quoniam tribus modis
+      <del>qualitatis</del> eueniunt <del>multa his</del> (<supplied>non</supplied> enim omnia
+     communiter eueniunt, uerum per existentiam ea, quae euenient, secernentur; nam alias uis in eo
+     commodo, quod per naturam est, alias quod per adfectionem, alias quod per habitum), habitus non
+     potest esse <hi rend="italic">quod non aliud est atque illud, quod habetur</hi>. Nam ignis quia
+     calet putant aliqui habitum esse, quia perpetuum sit, cum ipsum ignis hoc sit, ut caleat;
+     itaque potius natura est. Habitum multi non nisi deo dant, et uerum est: ille habet omnia
+     percepta. At uero homo numquam ita quid perceptum habet, ut non in profectu cotidie sit, et
+     hunc profectum <foreign xml:lang="grc">ὁρμὴν</foreign> dixerunt <del>id est progressionem, quam
+       <foreign xml:lang="grc">ὁρμὴν</foreign> habitum dixerunt</del>. Ergo pro existimatione
+     maioris perceptionis in homine habitum intellegimus, ut si adfectione quadam aliquid quis agat:
+     ut orator in foro non perfectus, tamen si in eo progressio est aliqua, habitus dicetur; et
+     certe pro commodo suo uel habitum uel adfectionem faciet <del>non ex uero: in rebus enim nomina
+      sunt certa, quae alterum significent, ut <hi rend="italic">iracundus</hi> habitus est, <hi
+       rend="italic">iratus</hi> adfectionis</del>. Et haec <foreign xml:lang="grc">ὁρμή</foreign>,
+     cum studio et diligentia euenit, habitus est, cum naturaliter, natura.</p>
+    <p>Studium est autem uel adipiscendi aliquid uel retinendi uoluntas, quo uel adipisci aliquid
+     uel retinere optamus uel adepta retinemus.</p>
+    <p>Victus est uel quod ipse homo agit uel quod circa ipsum agitur, omniaque habet, quae natura,
+     habitus, adfectio, studium. Nam oratorem esse, quod est habitus, et uictus est, si in ea
+     exercitatione uiuit. Itaque Cicero, quia adsidua <supplied>ac</supplied> perseueranti
+     diligentia ita rhetoricam percepit, ut ea in eo perpetua esset, habitum consecutus est; sed
+     quia eius actum sibi instituit ad usum uitae, est idem in eadem re et in habitu et in uictu.
+     Itaque multum plerumque de uirtute habitus detrahit si uictus afuisse dicatur. Nam licet orator
+     plenus sit perceptione ipsius artis, tamen aliquantum argumento detrahit si neges in eadem
+     exercitatione uixisse, ut ipse contra Caecilium, quia aufert uictum, infirmat habitum, cum
+     dicit: <hi rend="italic">Quando tute tui periculum fecisti?</hi> Plerumque etiam si nihil agat
+     ex <milestone unit="page" n="p. 307 Halm"/> habitu, hoc ipsum, quod nihil agit, est illi
+     uictus, id est uitae modus (nam ut in uictu est, quibus amicis utatur, item in uictu est, et si
+     non utatur). Et certe, quia nihil horum debet deesse personae, potest habitum habere ex
+     geometriae perceptione, in qua nihil agit, et uictum de usu rhetoricae. Victus autem omnis ad
+     qualitatem tendit, sed ea qualitas uel in adfectione uel in habitu erit; deinde uti oratione
+     uel aliquid rhetoricae nosse, quod est adfectionis, et ad loquendum aut discendum aptum esse,
+     quod est naturae, et loqui aut studere uelle, quod est studii, et cetera huiusmodi habet
+     uictus. Verum in hoc considerabitur uictus circa haec omnia, si ita agat uitam, ut haec
+     exerceat. Non enim quia natura loqui aut studere possumus, quod proprium naturae est, idcirco
+     et inde uiuimus: sed <supplied>si</supplied> sic ordinata sit uita nostra ad omnem substantiam
+     rei familiaris quaerendam, ut inde uiuamus, id est inde nobis omnia suggerantur ad uictum,
+     merito uictus <supplied>ex</supplied> exercitatione dicetur. Item et si sit habitus et non in
+     ipso habitu agat uitam et uirtutem oratoriae consecutus sit, erit habitus, non uictus. Eodem
+     modo et adfectio est, si pro tempore, id est prout res aliqua tulerit, locutus fuerit, non
+     perpetua consuetudine inde uiuendi. Eodem modo et studio est, si non <del>studium</del>
+     quodlibet in exercitatione uitae tulerit, unde uictus nominandus sit uerbo tenus: ut causas
+     agere, ut docere est adhuc studii, sed cum ordinata uoluntas est ad usum uitae, merito dicetur
+     et uictus. Singulis enim his res suae in eo, quod sunt, tribuendae sunt: ut item etiam seruus
+     circa hoc, quod in hac condicione est, fortunae est; si seruitutem seruiat tota uita, uictus
+     est. Sic cetera de fortuna.</p>
+    <p>Facta uero et casus et orationes et consilia ut superuenientia si accipimus erunt suis
+     nominibus. Nam uictus non est sine factis, casu, orationibus, consiliis, sed si euenit, ut
+     diceret, ut faceret, ut ei aliquid accideret, ut consilio uteretur. Et haec omnia, si sic
+     accipiamus ut actiones non ordinatas neque institutas toto uiuendi tempore, erunt suis
+     nominibus; sin autem in eo genere uiuendi posita fuerint omnia, <unclear>quae tibi
+      constituendi</unclear> ad uitam uniuersam, uictus nominabitur, non suo quidque nomine.</p>
+    <p>Facta autem, casus, orationes, cum ex futuro tempore argumentum dabunt, ex praeteritis
+     confirmabuntur: <hi rend="italic">Nam ideo hoc illi accidit, quia hoc fecit, hoc dixit; ideo
+      hoc dicturus est, quia hoc illi accidit</hi>.</p>
+   </div>
+   <div type="section">
+    <head>De attributis negotio</head>
+    <p>Negotium factum ipsum est, unde iudicium est; in iudicium enim uel in deliberationem uel in
+     demonstrationem non uenitur, nisi propter factum. Singula igitur quaeque, quae homini aut
+     obiciuntur aut de homine quaeruntur, <milestone unit="page" n="p. 308 Halm"/> facta sunt: ipsa
+     igitur singula facta negotium sunt. Sunt alia facta, quae probationem tribuunt ipsi facto, unde
+     quaeritur sub quolibet statu. Sunt tertia facta, quae extra ipsum factum et extra facta, quae
+     uicina sunt ad factum et probant factum, uitae praeteritae: haec <hi rend="italic">personae
+      attributa</hi> dicuntur. Ergo cum negotium factum dictumue sit, habet attributa quattuor: <hi
+      rend="italic">continentia cum negotio</hi>, inquit, <hi rend="italic">in gestione negotii,
+      adiuncta negotio, quae gestum negotium consequuntur</hi>. Ex his duo prima, <hi rend="italic"
+      >continentia cum negotio</hi> et <hi rend="italic">in gestione</hi>, totum tenent, quidquid
+     habere potest causa omnis, id est negotium omne per partes suas gestum; duo alia
+      <supplied><gap/></supplied>, ex quibus adsumuntur primum ab oratore ea, quae <hi rend="italic"
+      >negotio adiuncta</hi> sunt; quartum autem illud, quod est <hi rend="italic">consecutio</hi>,
+     non negotii ipsius gestio est, sed aut extrinsecus uenientia per homines habet aut per naturam
+     generaliter, ut post docebimus.</p>
+    <p>Igitur prima de attributis, continentia, habent partes quinque: summam, causam, facta illa,
+     quae probant factum, diuisa per tria tempora. Et omne ipsum, quod diximus negotium esse, factum
+     scilicet, continetur ab his: a summa, quae breuem propositionem habet totum claudens, ut <hi
+      rend="italic">patriae</hi>, inquit, <hi rend="italic">proditio</hi> et cetera. Habet et
+     causam, quae gemina est: inpulsio et ratiocinatio. Inpulsio est, per quam
+      <supplied>quaeritur</supplied>, cuius causa factum sit, ratiocinatio est, quamobrem factum
+     sit. Sequitur per tria tempora factorum enumeratio: quid ante rem factum, quid in re, quid post
+     rem sit. Sic igitur negotium quodlibet; <del>de statibus</del> interim, exempli modo, <hi
+      rend="italic">occidit—non occidit</hi> partes sunt singulae quaestionis. Sed iam parentis
+     occisio, hominis occisio, patriae proditio summa est. Ergo factum solum negotium est;
+     propositio facti cum persona uel quolibet alio modo inuidiam conparans aut extenuans <hi
+      rend="italic">summa</hi> dicetur. Et haec est, quam Cato in libro suo appellat <hi
+      rend="italic">uires causae</hi>. Hoc argumentum sequitur causa, quam partiti sumus; quae
+     utique aduersus negantem factum danda est, ut fecisse doceatur. Quemadmodum autem tractetur uel
+     ab accusatore uel ab reo in secundo habemus. Quod si alius status fuerit praeter coniecturam,
+     non causa erit, sed ratio; de cuius tractatu in secundo docuit. Post haec secuntur facta omnia
+     ante, in, post, in quibus omnia illa, quae in gestione negotii posita sunt, si tamen prosunt,
+     adsumentur; unicuique enim facto inest locus, tempus, modus, occasio, facultates.</p>
+    <p>IN GESTIONE NEGOTII. Locus uel naturalis est uel qualitatiuus. Naturalis locus cum argumentum
+     praestat, non erit illud argumentum a loco, sed a facultate. Qualitatiuus autem locus praestat
+     argumentum ex opportunitate; quae opportunitas quibus rebus possit intellegi ipse posuit.</p>
+    <p>Tempus quid esset, diu generaliter docuit: <hi rend="italic">pars quaedam</hi>, inquit, <hi
+      rend="italic">aeternitatis</hi>. Hoc quoque in tria tempora diuisit, quae ipsa tempora
+      <milestone unit="page" n="p. 309 Halm"/> partitus est; nam praeteritum tribus modis
+     consideratur, consideratur praesens et futurum binis. Verum haec omnia magis ad cognitionem
+     temporis dixit, quod quid esset insinuare cupiebat, quam ut apta sint in gestione negotii. Quid
+     ergo aptum erit huic parti (nam huic attributum est tempus)? Aestimatio eiusdem temporis et
+     conlatio cum gestione, ut id, quod factum dicis, eo tempore, ex quo argumentum sumis, fieri
+     potuisse uideatur. Itaque sic ait: <hi rend="italic">Nam saepe oportet commetiri cum tempore
+      negotium</hi>.</p>
+    <p>Occasio autem opportunitas est quaedam temporis ad aliquid faciendum; haec opportunitas
+     tribus modis consideratur.</p>
+    <p>Modus autem est, quo non solum factum indicatur, sed quemadmodum factum; qui modus et animum
+     indicat, id est uoluntatem. Quam uoluntatem diuidit aut per prudentiam aut per inprudentiam.
+     Prudentia his quaeritur: <hi rend="italic">clam—palam</hi>, <hi rend="italic"
+      >ui—persuasione</hi>. Inprudentia purgatur inscientia, casu, necessitudine et adfectione
+     animi.</p>
+    <p>Facultates autem duplici modo argumentum praestant; nam eiusmodi sunt, 〈ut〉 per eas aut
+     facilius aliquid fiat aut sine iis effici non possit.</p>
+    <p>ADIVNCTA NEGOTIO. Factum quod in negotio ponitur, unde iudex laturus sententiam est, ut
+     probari quoquo modo possit per quamlibet constitutionem, sumuntur de his rebus argumenta, quae
+     res possunt in ipsum factum adfectione quadam conuenire. Has res <hi rend="italic">adfecta</hi>
+     nominamus; uerum adfecta accipimus nunc de ipso negotio, id est de omni causa rebusque in causa
+     gestis, nunc ad res in causa gestas alia quasi quodammodo extrinsecus quae conuenire uideantur,
+     aut inde ut proueniant aut ad illa coniuncta sint. Haec adfecta, quae supra diximus, <hi
+      rend="italic">negotio adiuncta</hi> dicuntur, illa prima continentia uel in gestione. Sed de
+     illis iam supra dictum est; adiuncta uero ea sunt, quae illis ipsis supra positis singulis
+     aliquo modo uel extrinsecus cohaerent, ut summae, ut causae ceterisque, sed cum non ipsa sint,
+     sed aliunde adsumantur, conuenientia tamen erunt (siue aliena sunt, non hinc nata) in
+     conlatione, cui erit aut maius aut minus aut par, itemque simile, contrarium, disparatum. Si
+     uero his adiuncta ita sunt, ut extra tamen sint, erunt aut genus aut pars aut euentus; nihil
+     enim horum non <del>ex is</del> ad haec est, non tamen in causa positum, et si positum in causa
+     (id est in negotio, quae <foreign xml:lang="grc">ὑπόθεσις</foreign> est, id est quaestio
+     personae propriae circa personam propriam) ueluti non positum. Ergo genus sit licet causae,
+     tamen, quia genus est, uelut extra causam est, cum persona propria inest in causa, id est
+     species. Iam uero euentus cum tria tempora teneat, potest esse ex causa, id est ex negotio, de
+     quo loquor; qui probat quidem, de negotio quod euenit rebus gestis, id, quod
+      <supplied>in</supplied> negotio est. Quoniam tamen et praeteriti temporis euentus et futuri
+     temporis euentus aliquotiens sumitur, et hic uideri extraneus potest a negotio, ex negotio
+      <milestone unit="page" n="p. 310 Halm"/> tamen oriens. Vnde probatum est adiuncta nunc
+     omnimodis externa, adfecta tamen aliquo modo adiungi, ut certa, quae supra diximus, nunc aliqua
+     ex ipso uel in ipso negotio, alio modo tamen se habentia, quam gesti negotii textus ipse et
+     ordo consistit, circa personam certissimae quaestionis.</p>
+    <p>MAIVS ET MINVS ET AEQVE MAGNVM EX VI ET EX NUMERO ET EX FIGVRA NEGOTII CONSIDERATVR] <hi
+      rend="italic">Vis</hi> in eo est, quo ipsa significatione uerborum diuersas res intellegimus.
+     Itaque cum prolata uerba distant sensibus nostris significatione ea, qua proferuntur, ui
+     distant, id est potentia quadam, qua quid quaeque res possit intellegimus. De <hi rend="italic"
+      >numero</hi> perspicuum est; <hi rend="italic">figura</hi> est textus et ordo negotii per
+     circumstantias suas.</p>
+    <p>SIMILE AVTEM EX SPECIE CONPARABILI AVT EX CONFERENDA ATQVE ADSIMVLANDA NATVRA IVDICATVR] <hi
+      rend="italic">Simile</hi>, hoc est species conparabilis et simulanda natura, est in illis
+     octo: genere, natura, ui, magnitudine, tempore, loco, persona, opinione. Sed ipsum simile, quod
+     per haec supra posita efficitur, illic est in contrariis partibus et quae sub eandem rationem
+     cadunt. Hoc distinctius positum in differentiis.</p>
+    <p>DE CONSECVTIONE. In superioribus duobus attributis negotio negotium omne teneri diximus;
+     tertium, quod est adiunctum negotio, ueluti extra esse praecepimus, sed naturaliter cohaerere
+      <del>extra ipsam <foreign xml:lang="grc">ὑπόθεσιν</foreign></del> aut ab oratore adsumi;
+     quamquam et ea, quae extra sunt, naturaliter ab oratore sumantur. Et de hoc praecepta iam
+     dedimus. Quarta attributio, quae <hi rend="italic">consecutio</hi> nominatur, et ipsa ea tenet,
+     quae extra sunt, adhaerentia tamen rebus negotii; quae non ab oratore ex uoluntate sumantur,
+     sed quae ipsis rebus negotii rationabiliter acciderunt. Ac prope ea omnia, quae in quarta
+     attributione <del>in consecutione</del> sunt, id uidentur esse quod euentus; uerum euentus
+     aliud est, aliud consecutio uel res consecutionis. Etenim euentus consideratio est
+      <supplied>ex</supplied> quadam natura rerum, qua perspicitur, quid ex quaque re euenerit,
+     eueniat, euenturum sit; in consecutione autem non, ex rebus quid eueniat, tractat orator, sed
+     quid rebus eueniat, id est quid rebus contingat. Deinde quod in euentu duo sunt, ut adrogantia
+     et odium, in hac consecutione unum; nam ipsi facto consecutio est, quod uel raro uel frequenter
+      <supplied>contingit rebus</supplied>. Haec autem omnia conlocata sunt in hac consecutione, ut
+     nomen <del>contingit rebus</del>, inuentor, imitator, lex de ipsa re, consuetudo, pactum, ut
+     frequenter fiat, non frequenter, uel utilitas uel honestas ceteraque quae, ut dixi, rebus
+     accidunt, non ex rebus ipsis, sed ad res ipsas quadam gestione proueniunt.</p>
+   </div>
+
+
+  </body>
+ </text>
+
+</TEI>

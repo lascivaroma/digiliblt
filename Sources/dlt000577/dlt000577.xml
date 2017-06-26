@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Ars, sive Regulae </title>
+    <author> Palaemon (Ps.) </author>
+    <respStmt>
+     <resp>transcodifica di base da rtf a xml-tei</resp>
+     <name>piero colombo - step srl</name>
+    </respStmt>
+    <respStmt>
+     <resp>Testo </resp>
+     <name>Marinone, GL-CD adeguato su ed. Rosellini</name>
+    </respStmt>
+    <respStmt>
+     <resp>Adeguamento testo su nuova edizione</resp>
+     <name>Alice Borgna </name>
+    </respStmt>
+    <respStmt>
+     <resp>Controllo marcatura XML-TEI</resp>
+     <name>Alice Borgna </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2016</date>
+    <availability>
+     <p>
+      <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
+     </p>
+    </availability>
+    <idno>dlt000577</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p> Ps. Remmii Palaemonis, <hi rend="italic">Regulae</hi>. Introduzione, testo critico e
+     commento di M. Rosellini, Hildesheim 2001 (Collectanea grammatica latina, 1)</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    <p>
+     <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT</hi>
+    </p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non segvendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni.</p>
+    <p>I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V segvendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p>Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi> :
+     grassetto, corsivo, spaziatura espansa. </p>
+    <p> Sono stati normalizzati e marcati nel modo segvente i diacritici. <lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]>
+     <lb/>
+     <hi rend="italic">loci desperati</hi> :
+     <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo† e †testo <lb/>
+     lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...] <lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p> Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p> Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
+    </p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <head>REGVLAE</head>
+   <div type="section" n="1">
+    <head>I. De nomine</head>
+    <p>
+     <milestone unit="row" n="riga 2 vol. V Keil"/>
+     <milestone unit="par" n="1"/> Omnia nomina quinque vocalibus ablativo casu terminantur, ‛a’ ‛e’
+     ‛i’ ‛o’ ‛u’, id est quicquid declinaveris de nomine ablativum casum in has litteras ducit, ut
+     puta ‛haec Iulia ab hac Iulia’, ‛hic paries ab hoc pariete’, ‛agilis ab agili’, ‛doctus a
+     docto’, ‛hic versus ab hoc versu’; <milestone unit="par" n="2"/>praeter pauca aptota, quae nos
+     turbare non debent quia pauca sunt, ut puta ‛nequam homo’ ‛a nequam’ dicimus, ‛nugas homo’ ‛a
+     nugas’ dicimus: hic videtur ablativus suscepisse ‛m’ et ‛s’, sed in aptotis, non in legitimis
+     et regularibus nominibus quae certo ordine declinantur.<lb/>
+     <milestone unit="par" n="3"/> Ergo ablativus casus singularis dat nobis regulam ad
+     declinationem pluralis numeri, id est ad genetivum, dativum et ablativum casum, quomodo recte
+     inveniantur: unde si ablativus habuerit aut ‛a’ <supplied> aut </supplied> ‛o’ parem regulam
+     dant, id est ut genetivum pluralem in ‛rum’ mittant, dativum et ablativum in ‛is’, <milestone
+      unit="par" n="4"/>ut ‛a docto doctorum’, ‛a docta doctarum’, sic dativum <supplied>et
+      ablativum</supplied> in ‛is’, ‛a doctis viris’, ‛ a doctis mulieribus;’ praeter illa pauca,
+     quae discernendi sexus gratia in ‛bus’ mittunt dativum et ablativum, ut ‛his’ et ‛ab his
+     deabus’ ‛filiabus’. <lb/>
+     <milestone unit="par" n="5"/> Diximus de duabus vocalibus, id est de ‛a’ et ‛o’, quia parem
+     regulam habent. Restant tres vocales ‛i’ ‛e’ ‛u’, quae similiter et ipsae parem regulam habent:
+     nam si ablativus ‛i’ vel ‛e’ vel ‛u’ habuerit, genetivum in ‛um’ mittit, dativum et ablativum
+     in ‛bus’, ut puta ‛ab hoc forti fortium fortibus’, ‛ab hoc homine hominum hominibus’, ‛ab hoc
+     versu versuum versibus’. <lb/>
+     <milestone unit="par" n="6"/> Sed ut colligas ablativus quando exeat in has litteras, regulam
+     genetivi singularis attende. Si in ‛ae’ exierit genetivus ablativum in <milestone unit="page"
+      n="p. 534 vol. V Keil"/> ‛a’ mittit, ut ‛huius Iuliae ab hac Iulia’, ‛huius Musae ab hac
+     Musa’. <milestone unit="par" n="7"/>Genetivus si in ‛is’ exierit plerumque in ‛e’, aliquando in
+     ‛i’, numquam in ‛o’ mittit ablativum, ut puta ‛huius parietis ab hoc pariete’, ‛huius hominis
+     ab hoc homine’. Genetivus et nominativus si habuerint ‛is’, ablativum in ‛i’ mittunt, ut
+     ‛agilis’, ‛facilis’, ‛ab agili’, ‛facili’. <milestone unit="par" n="8"/> Si qua sunt quae
+     defecerunt ab hac regula magis usu quam ratione factum est, ut puta ‛haec ovis huius ovis’:
+     ergo ablativum in ‛i’ mittere debuit et tamen in ‛e’ mittit, ut ‛ab hac ove’, non ‛ovi’. Sed
+     hoc, ut diximus, usu factum est. <milestone unit="par" n="9"/> Genetivus si habuerit ‛i’ in
+     genere masculino ablativum in ‛o’ mittit, ut ‛huius docti’, ‛huius iusti’, ‛ab hoc docto’, ‛ab
+     hoc iusto’. Sed ideo dixi in genere masculino hoc observari debere, quia in genere feminino
+     invenitur genetivus ‛i’ habere et in ‛e’ exire, non in ‛o’, ut puta ‛huius rei ab hac re’,
+     ‛huius speciei ab hac specie’. <milestone unit="par" n="10"/> Genetivus si habuerit ‛us’
+     ablativum in ‛u’ mittit, ut ‛huius versus’, ‛fluctus’, ‛ab hoc versu’, ‛fluctu’. Si ergo de
+     genetivo trahis regulam ad ablativum singularem, ablativus dat regulam ad genetivum et dativum
+     pluralem, quam supra memoravi. <lb/>
+     <milestone unit="par" n="11"/> Nominativus si ‛is’ habuerit aut parem habebit genetivum, ut
+     ‛hic ignis huius ignis’, ‛haec puppis huius puppis’; aut si crescit genetivus per has litteras
+     crescit, per ‛n’ ‛r’ ‛t’ ‛d’: per ‛n’, ut puta ‛sanguis sanguinis’; per ‛r’, ut ‛cinis
+     cineris’, ‛pulvis pulveris’; per ‛t’, ‛Samnis Samnitis’; per ‛d’, ‛cuspis cuspidis’. <lb/>
+     <milestone unit="par" n="12"/> Ablativus cum habuerit ‛e’ numquam <supplied>ad</supplied>mittit
+     in nominativo ‛um’, ut puta legimus ‛verbere’ in ablativo: quaeritur utrum in nominativo ‛um’
+     habeat, ut dicas ‛hoc verberum’; sed prohibemur regula: ablativus cum habuerit ‛e’ numquam
+      a<supplied>d</supplied>mittit in nominativo ‛um’. <milestone unit="par" n="13"/> Ergo, si ‛hoc
+     verberum’ non dicimus, quomodo dicendum est? ‛Hoc verber’, quomodo ac ‛uber’, et pluraliter
+     ‛verbera’, ‛ubera’. Huic regulae contrarius venit nominativus ‛um’: nam si nominativus ‛um’
+     habuerit numquam admittit ablativum in ‛e’; hoc observabis perpetuo. <lb/>
+     <milestone unit="par" n="14"/> Genetivus cum habuerit ‛is’ numquam mittit ablativum in ‛o’, ut
+     puta ne dicas ‛paupero patre natus sum’. Genetivus enim singularis ‛is’ habet (dicimus enim
+     ‛huius pauperis’), ergo ablativus non potest exire in ‛o’, sed aut in ‛e’ aut in ‛i’. <lb/>
+     <milestone unit="par" n="15"/> Genus neutrum in nominativo si habuerit ‛e’, in ‛i’ terminatur
+     ablativus, ne dicas ‛ab hoc monile’, sed ‛ab hoc monili’, et ‛hoc mare ab hoc mari’, non ‛ab
+     hoc mare’: numquam enim genus neutrum quattuor casus similes habet, ut in nominativo ‛e’, sic
+     in accusativo, sic in vocativo, sic in ablativo, <milestone unit="par" n="16"/> deinde quia in
+     his nominibus generis neutri ablativo casui adici debet ‛a’ littera et statim fieri nominativus
+     pluralis, ut puta ‛ab hoc monili’, adice ‛a’, ‛monilia’, ‛ab hoc sedili’ adice ‛a’, <milestone
+      unit="page" n="p. 535 vol. V Keil"/> ‛facilia’. Sic ergo per omnia observabis, in talibus
+     dumtaxat nominibus. <lb/>
+     <milestone unit="par" n="17"/> Genus neutrum numquam in nominativo habet ‛a’ nisi in Graecis,
+     ut puta ‛schema’, ‛thema’, ‛huius schematis’, ‛thematis’, quomodo genus femininum in nominativo
+     numquam exit in ‛e’ nisi in Graecis, ut ‛Andromache’, ‛Hecabe’, nec in ‛um’ exit generis
+     feminini nominativo, ut puta in Terentio ‛haec Glycerium’, ‛Phanium’, et alia. <lb/>
+     <milestone unit="par" n="18"/> Genus neutrum, cum in ‛us’ exit nominativo, necesse est ut
+     crescat una syllaba in genetivo; et ablativum in ‛e’ mittit, ut puta ‛hoc pecus huius pecoris
+     ab hoc pecore’, ‛hoc pectus huius pectoris ab hoc pectore’, ‛hoc facinus huius facinoris ab hoc
+     facinore’; praeter ‛vulgus’ et ‛pelagus’, quia ‛vulgus’ plus apud antiquos masculino genere
+     dictum est quam neutro; ‛pelagus’ vero ideo ad hanc regulam non pertinet quia nomen de Graeco
+     est. <lb/>
+     <milestone unit="par" n="19"/> Genus neutrum, quando in nominativo habet ‛um’, genetivo pares
+     syllabas dat, ut puta ‛hoc templum huius templi’, ‛hoc telum huius teli’. Genus neutrum, quando
+     in nominativo ‛ium’ habet, in genetivo geminat ‛i’ litteram, ut puta ‛hoc gaudium huius
+     gaudii’, ‛hoc imperium huius imperii’, ‛hoc ingenium huius ingenii’. Sic observabis in ceteris,
+     quia genetivus minor esse non debet nominativo. <milestone unit="par" n="20"/> Nam et in genere
+     masculino si nominativus ‛ius’ habuerit necesse est in genetivo geminet ‛i’, ut puta ‛hic
+     filius huius filii’ dicimus per duo ‛i’, ‛hic Mercurius huius Mercurii’, ‛hic genius huius
+     genii’, ‛hic Iulius huius Iulii’. Si vero nominativus ‛us’ habuerit, non ‛ius’, non geminat ‛i’
+     in genetivo, ut puta ‛hic Coronatus huius Coronati’, ‛hic Honoratus huius Honorati’, non
+     ‛Honoratii’. <lb/><milestone unit="par" n="21"/> Genus neutrum, si habuerit in nominativo in
+     ‛e’, ut puta ‛hoc monile’, ‛hoc sedile’, necesse est ut genetivo ‛is’ habeat, ut ‛monilis’
+     ‛sedilis’, ablativo ‛i’, ut ‛monili’, ‛sedili’. <lb/>
+     <milestone unit="par" n="22"/> Quodcumque nomen in nominativo ‛er’ syllabam habet, tunc exit in
+     ‛o’ ablativus ipsius quando genetivus ‛is’ habuerit, non ‛is’, ut puta ‛hic aper’ facit
+     ablativum ‛ab hoc apro’, quia genetivum ‛huius apri’ facit. <milestone unit="par" n="23"/> Si
+     vero nominativus ‛er’ habuerit et genetivus ‛is’, ablativum non mittit in ‛o’, ut puta ‛hic
+     pater’, ablativum in ‛e’, ‛ab hoc patre’, quia genetivus ‛is’ habet; sic ‛hic et haec pauper ab
+     hoc et ab hac paupere ’ quia genetivus ‛is’ habet, ‛huius pauperis’. <lb/>
+     <milestone unit="par" n="24"/>Omnia monosyllaba generis masculini et feminini accusativum in
+     ‛em’ mittunt excepto uno nomine, id est ‛vir virum’. Nam cetera in ‛em’ mittunt, ut diximus, ut
+     puta ‛sol solem’, ‛Mars Martem’, ‛ars artem’, ‛sors sortem’, ‛mors mortem’, ‛frons frontem’,
+     ‛ros rorem’, ‛lex legem’, ‛mas marem’, ‛mos morem’ ‛lar larem’, ‛par parem’, ‛fur furem’. Vides
+     omnia monosyllaba, ut diximus, in ‛em’ exire accusativo casu. <lb/><milestone unit="par" n="25"
+     />Genus neutrum tres casus habet similes, nominativum accusativum et vocativum. Ideo hoc
+     monemus ut si de ‛pelago’ tibi fit mentio, sic dicas: ‛per medium pelagus navigavi’, ideo quia
+     accusativus similis est nominativo, sed in genere neutro. <lb/>
+     <milestone unit="par" n="26"/>Nunc regulam comparationis accipe.<lb/> Masculinum genus
+     comparatur per has syllabas: per ‛us’, per ‛er’, per ‛ex’; per ‛us’, ut ‛doctus doctior
+     doctissimus’; per ‛er’, ut ‛asper asperior asperrimus’, sic ‛niger nigrior <milestone
+      unit="page" n="p. 536 vol. V Keil"/> nigerrimus’ et cetera talia; per ‛ex’ in genere masculino
+     unum nomen est quod vadit per gradus, ut ‛senex senior’; superlativum non habet, nec enim
+     dicimus ‛senissimus’. <lb/><milestone unit="par" n="27"/> Commune genus quod comparari potest
+     per has syllabas exit, per ‛is’ et ‛er’. Per ‛is’, ut ‛agilis agilior agilissimus’, vel
+     ‛agilissima’, ‛levis levior levissimus’ vel ‛levissima’; sed ab hac regula defecerunt pauca
+     euphoniae gratia, ut ‛facillimus’ dicatur, non ‛facilissimus’, quomodo ‛fortissimus’, et
+     ‛simillimus’, non ‛similissimus’: sed haec perpauca sunt, turbare nos non debent. <milestone
+      unit="par" n="28"/> Per ‛er’ vero comparatur genus commune, sed in paucis nominibus, ut ‛hic
+     et haec acer acrior acerrimus’ vel ‛acerrima’, ‛hic’ et ‛haec pauper pauperior pauperrimus’ vel ‛pauperrima’.<lb/>
+     <milestone unit="par" n="29"/> Genus omne per has syllabas comparatur: per ‛ax’, ‛ex’, ‛ix’,
+     ‛ox’, ‛ans’, ‛ens’, ‛ons’, ‛ers’, ‛ors’, ‛am’, ‛us’. ‛Ax’, ut ‛efficax’, ‛fallax’, ‛ex’, ut
+     ‛simplex’, ‛ix’, ut ‛felix’, ‛pernix’ ‛ox’, ut ‛velox’, ‛ferox’, <milestone unit="par" n="30"/>
+     ‛ans’, ut ‛amans’, ‛ens’, ut ‛sapiens’, ‛ons’, ut ‛insons’, ‛ers’, ut ‛iners’, ‛sollers’,
+     ‛ors’, ut ‛vecors’, ‛am’, ut ‛nequam’; ‛us’, ut ‛vetus’: <milestone unit="par" n="31"/> dativis
+     ipsorum adicis ‛or’ et facis comparativum, genetivis adicis ‛simus’, et facis superlativum;
+     praeter ‛nequam’ et ‛vetus’, quia, ut dicas ‛nequior’ de quovis casu tollis ‛am’, adicis ‛i’ et
+     ‛or’ et facis ‛nequior’; adicis ‛issimus’ et facis ‛nequissimus’; <milestone unit="par" n="32"
+     /> ab eo vero quod est ‛vetus’ dativo adicis ‛or’ et facis comparativum ‛veterior’; subducis
+     huic dativo ‛i’, adicis ‛rimus’ et facis ‛veterrimus’; sic observabis et in femininis et in
+     neutris, ut faciat ‛veterrima veterrimum’. ‛Vetustissimus’ autem a ‛vetusto’ venit et facit
+     ‛vetustus vetustior vetustissimus‛; sic feminino ‛vetusta vetustior vetustissima’; sic neutro
+     ‛vetustum vetustius vetustissimum’. <lb/>
+     <milestone unit="par" n="33"/>Sunt nomina generis neutri quae tres casus habent in plurali
+     tantum, nominativum accusativum, vocativum, ut ‛iura’, ‛haec iura’ in nominativo, ‛haec iura’
+     in accusativo, ‛o iura’ in vocativo; sic et ‛maria’ et ‛vina’ et ‛mella’ et ‛fella’ et ‛aera’.
+     Vocantur autem triptota in plurali, in singulari vero omnibus casibus declinantur. <lb/>
+     <milestone unit="par" n="34"/> Genetivus aut par esse debet nominativo aut plus una syllaba
+     excedere. Sed inventa sunt pauca nomina contra regulam venire, ut ‛anceps’, quod duarum
+     syllabarum est, in genetivo duabus syllabis crevit, facit enim ‛ancipitis’, ‛praeceps
+     praecipitis’, ‛supellex supellectilis’, ‛iter itineris’. <lb/>
+     <milestone unit="par" n="35"/> Quaestio est, si ‛princeps principis’ et ‛praeceps praecipitis’,
+     quare non ‛praecipis’, quomodo ‛principis’. Sed ‛princeps’, quod primus capiat dictus est et
+     venit a capiendo, ‛praeceps’ a capitis significatione dicitur, quod praebeat caput. <lb/>
+     <milestone unit="par" n="36"/> Quaestio est quando producimus ‛decoris’, quando corripimus. A
+     genere neutro corripimus ab eo quod est ‛decus’; a genere masculino producimus ab eo <milestone
+      unit="page" n="p. 537 vol. V Keil"/> quod est ‛decor’. Producitur enim ‛decoris’, quomodo
+     ‛honoris’ ‛caloris’, ‛candoris’, ‛coloris’. <lb/>
+     <milestone unit="par" n="37"/> Omnia quae finem significant non diminuuntur, ut puta ipse
+     ‛finis’: non dicimus ‛finiculus’, nec a ‛novissimo’ ‛novissimulus’, ea ratione, quia quae in
+     fine sunt non habent quod imminuantur. <lb/>
+     <milestone unit="par" n="38"/> Sunt nomina in singulari numero neutro genere, in plurali
+     masculino, ut ‛caelum’: ‛caeli’ dicimus, non ‛caela’; quomodo sunt quae in singulari masculino
+     genere dicuntur, in plurali neutro, ut ‛Tartarus’, ‛Tartara’ in plurali. <lb/>
+     <milestone unit="par" n="39"/> Omnia quae in ‛go’ exeunt generis sunt feminini, excepto uno, ut
+     est ‛ligo’. Nam cetera feminine enuntiamus, ut ‛Carthago Carthaginis’, ‛virgo virginis’, ‛imago
+     imaginis’, ‛indago indaginis’, ‛siligo siliginis’, ‛sartago sartaginis’, ‛ferrugo ferruginis’,
+     ‛farrago farraginis’ et talia. <lb/>
+     <milestone unit="par" n="40"/> Quaestio est quare, cum dicamus ‛ab hoc arcu arcubus’, non sic
+     faciat ‛ab hoc versu versubus’, <supplied>‛ab hoc fluctu fluctubus’</supplied>, sed ‛versibus’
+     et ‛fluctibus’. Ea ratione fit, propter differentiam alterius similis nominis. Si enim ab eo
+     quod sunt ‛arcus’ ‛arcibus’ diceremus, non ‛arcubus’, fieret nobis confusio illius nominis ab
+     eo quod sunt ‛arces’. <milestone unit="par" n="41"/> ‛Versus’ vero et ‛fluctus’ et cetera
+      <del>quae</del> in dativis vel ablativis pluralibus ‛i’ habent, non ‛u’, ideo quia haec nomina
+     non conturbat similium nominum confusio vel similitudo. Ergo quomodo ‛arcubus’ dicimus ab eo
+     quod sunt ‛arcus’ <supplied>propter ‛arces’</supplied>, sic ‛artubus’ ab eo quod sunt ‛artus’
+     propter ‛artes’; ‛hic vitus’ ‛ab hoc vitu vitubus’ facit, nam ‛vitibus’ ab eo quod sunt
+     ‛vites’. Sic ergo observabis, cum similia nomina inveneris. <lb/>
+     <milestone unit="par" n="42"/> Quaestio est, unde intellegitur ‛e’ productum in ablativo, unde
+     correptum. Si acceperit ‛rum’ et facit genetivum pluralem, ‛e’ productum est; si non, correptum
+     est. <milestone unit="par" n="43"/> Sed melior regula est ut de dativo cognoscamus utrum
+     productum est ‛e’ an correptum. Si productum est ‛e’ in ablativo singulari accipit ‛bus’ et
+     facit dativum pluralem; nam, si correptum est ‛e’, mutat in ‛i’ ut faciat dativum; <milestone
+      unit="par" n="44"/> ut puta ‛ab hac re’, adice ‛bus’, ‛rebus’; ‛ab hac facie’, adice ‛bus’,
+     ‛faciebus’; ergo sic intellegis productum esse ‛e’; ‛ab hoc’ vero ‛pariete’ si adicias ‛bus’
+     non faciet ‛parietibus’, sed ‛parietebus’, nec ‛ab hoc homine’ ‛hominibus’, sed ‛hominebus’,
+     sed mutat ‛e’ in ‛i’ et accipit ‛bus’, et sic erit Latinum. <lb/>
+     <milestone unit="par" n="45"/> Omnes litterae generis neutri sunt, numeri tantum singularis:
+     aptote declinantur ita: ‛hoc a, huius a, huic a, hoc a, o a, ab hoc a’; sic ‛b’, sic ‛c’,
+      <milestone unit="page" n="p. 538 vol. V Keil"/> sic ‛d’, sic omnes; si vero adicias ‛littera’,
+     fiunt generis feminini, ut dicas ‛a littera’, ‛b littera’, ‛c littera’. <lb/><milestone
+      unit="par" n="46"/> Multa nomina quae ad pondus vel ad mensuram veniunt numeri sunt tantum
+     singularis, ut puta ‛aurum’, ‛argentum’, ‛triticum’, ‛oleum’; sed multa diximus, non omnia. <lb/>
+     <milestone unit="par" n="47"/> Nomina quae in ‛al’ exeunt, in ‛el’, in ‛il’, in ‛ol’, in ‛ul’,
+     in ‛ar’, in ‛er’, in ‛ir’, in ‛or’, in ‛ur’, in ‛an’, in ‛en’, in ‛in’, in ‛on’, in ‛un’, ‛e’
+     habent in ablativo, ut puta, in ‛al’, ‛Hannibal, <supplied>ab</supplied> Hannibale’; ‛el’, ut
+     ‛fel’, ‛mel’, ‛a felle’, ‛melle’; ‛il’, ut ‛vigil’ ‛pugil’, ‛a vigile’, ‛pugile’; ‛ol’, ut
+     ‛sol’, ‛a sole’; ‛ul’, ‛ab exule’; <milestone unit="par" n="48"/> ‛ar’, ut ‛far’, ‛a farre’;
+     ‛nectar’, ‛a nectare’; ‛er’ si habuerit nominativus, attende genetivum: si ‛is’ habuerit, tunc
+     demum mittit in ‛e’, ut ‛pater patris a patri’; in ‛ir’, praeter ‛vir’, cetera in ‛e’ mittunt,
+     si inveniuntur; ‛or’, ‛marmor’, ‛a marmore’; ‛ur’, ut ‛fur’, ‛a fure’, ‛augur’, ‛ab augure’;
+      <milestone unit="par" n="49"/> ‛an’, ‛Paean’, <supplied>‛a Paeane’</supplied>; ‛en’, in
+     masculino, ‛pecten’, ‛a pectine’, ‛flamen’, ‛a flamine’, in feminino, ut ‛lien’, a
+     ‛liene’,‛rien’, ‛a riene’, in neutro, ut ‛carmen’, ‛a carmine’ in commune, ut ‛tibicen’;
+     ‛fidicen’, <supplied>‛a</supplied> tibicine’, ‛fidicine’, in epiceno<del>n</del>, ut ‛oscen’,
+     ‛ab oscine’. <milestone unit="par" n="50"/> Et quae in ‛in’ syllaba exeunt, si inveniuntur,
+     necesse est in ablativo casu ‛e’ habeant, ut puta ‛delphin<supplied>a</supplied> delphine’ et
+     talia; in ‛on’, ut ‛Memnon’, ‛Orion’, ‛a Memnone’, ‛Orione’; in ‛un’ si inveniuntur aliqua,
+     necesse est etiam haec in ‛e’ mittant ablativum. <lb/>
+     <milestone unit="par" n="51"/>Sane quia dixi, quae exeunt in ’al’ nominativo in ‛e’ exire
+     ablativo, verum est. Sed ne occurrat quaestio nominis illius quod est ‛tribunal’ - facit enim
+     ‛tribunali’, non ‛tribunale’, et ‛cervicali’, non ‛cervicale’ -, debes scire quia magis ad
+     rationem ‛hoc tribunale’ et ‛hoc cervicale’ facere quam ‛tribunal’, ‛cervical’, quia
+     nominativus singularis non debet esse minor nominativo plurali duabus syllabis. Sed in his
+     nominibus, quae perpauca sunt, usus magis obtinuit. <lb/>
+     <milestone unit="par" n="52"/>Quaeritur utrum ‛hoc ossum’ dicamus an ‛hoc os’. Sed, si ‛hoc
+     ossum’ diceremus, numquam dativus pluralis in ‛bus’ exiret, sed in is. Ait enim Virgilius
+      <lb/><quote type="poetry">«atque ossibus implicat ignem»</quote>. <lb/> Etenim nomina generis
+     neutri in nominativo ‛um’ habentia in ablativo ‛o’ habent, ut ‛hoc templum ab hoc templo’,
+     dativo plurali ‛templis’ facit; unde, si ‛ossibus’ legimus in Vergilio, non exiret dativus
+     pluralis in ‛bus’ nisi ablativo singulari ‛e’ terminato aut ‛u’ aut ‛i’. <milestone unit="par"
+      n="53"/>. Sed quia nec ‛u’ exit, nec nominativus pluralis ‛ossua’ facit, nec ‛i’ terminatur
+     nec ‛ossia’ dicimus, remanet ‛ab osse’. Nec ablativus ergo singularis exiret in ‛e’ nisi
+     genetivus ‛is’ haberet. Genetivus ideo exit in ‛is’ quia nominativus ‛os’ habet, non ‛um’. Vnde
+     declinamus sic: ‛hoc os huius ossis huic <milestone unit="page" n="p. 539 vol. V Keil"/> ossi
+     hoc os o os ab hoc osse’, et pluraliter ‛haec ossa horum ossuum his ossibus haec ossa o ossa ab
+     his ossibus’. <milestone unit="par" n="54"/> Sed hoc nomen corripimus in nominativo singulari;
+     ab eo vero quod sunt ‛ora’, id est vultus, nominativo singulari producitur ‛os’, et facit ‛hoc
+     os huius oris huic ori hoc os o os ab hoc ore’, et pluraliter ‛haec ora horum orum his oribus
+     haec ora o ora ab his oribus’. <lb/>
+     <milestone unit="par" n="55"/>Quomodo declines ‛terga’ et ‛tergora’? Sed ‛tergora’ veniunt a
+     genere neutro quod in ‛us’ exit in nominativo singulari, ut ‛tergus’, et declinabilis hoc nomen
+     sic quomodo ‛pecus’ et ‛vulnus’; ‛tergum’ autem declinabis quomodo ‛templum’. <milestone
+      unit="par" n="56"/>Nomina semper generis masculini femininique, si nominativo habuerint ‛a’,
+     genetivum et dativum in ‛ae‛ mittunt, ut puta ‛hic Seneca huius Senecae huic Senecae’, ‛haec
+     Iulia huius Iuliae huic Iuliae’. <milestone unit="par" n="57"/> Sed inveniuntur pauca nomina
+     vel pronomina contra hanc regulam venientia, ut, cum in nominativo ‛a’ solum habeant, in
+     genetivo ‛ius’ accipiant, in dativo ‛i’, ut ‛sola solius soli’, ‛tota totius toti’, ‛una unius
+     uni’, ‛ulla ullius ulli’, ‛nulla nullius nulli’, ‛utra utrius utri’, ‛aliqua alicuius alicui’,
+     ‛illa illius illi’; sed pauca sunt, turbare nos non debent. <milestone unit="par" n="58"/>
+     Superior autem regula in immensum tenditur, ut ‛Iulia’ genetivo ‛Iuliae‛ dativo ‛Iuliae’
+     ‛Musa’, ‛huius Musae huic Musae’; haec analogia est, id est regula perpetua; horum vero nominum
+     paucorum vel pronominum anomalia est, inaequalis declinatio contra regulam audens; sed impar
+     vis est, ut dixi. <lb/>
+     <milestone unit="par" n="59"/>Nomina quae in ‛as’ exeunt tunc exeunt in ‛e’ ablativo si in
+     genetivo ‛is’ habuerint, ut ‛Maecenas Maecenatis a Maecenate’. Ideo dixi attendendum esse et
+     genetivum singularem, quia inveniuntur nomina quae in ‛as’ exeunt et tamen non in ‛e’ mittunt
+     ablativum, sed in ‛a’, ut puta ‛Aeneas ab hoc Aenea’, ‛Menalcas ab hoc Menalca’. <milestone
+      unit="par" n="60"/> Ergo, cum inveneris in nominativo ‛as’, genetivum attende si habuerit ‛is’
+     et sic pronuntia de ablativo <unclear/> si in ‛e’ exit. Sed si tibi ablativus notus est et de
+     genetivo dubitas, scito quia in ‛is’ exit cum in ‛e’ fuerit ablativus terminatus. <milestone
+      unit="par" n="61"/> ‛Es’ si fuerit nominativus, in ‛e’ mittit ablativum. <milestone unit="par"
+      n="62"/> ‛Is’ si fuerit nominativus, in genere masculino et in communi in ‛i’ mittunt
+     ablativum, in ‛e’ vero mittunt cum genus femininum fuerit, ut ‛lis lite’, ‛vitis vite’, ‛cutis
+     cute’, ‛cotis cote’. <milestone unit="page" n="p. 540 vol. V Keil"/>
+     <milestone unit="par" n="63"/> ‛Os’ si fuerit nominativus, in ‛e’ mittunt ablativum, ut ‛dos
+     dote’, ‛mos more’, ‛os osse’. <milestone unit="par" n="64"/> ‛Vs’ si fuerit nominativus
+      <supplied>et</supplied> genetivum in ‛i’ mittit, non in ‛us’, ablativum in ‛o’ mittit, ut ‛hic
+     doctus docti a docto’; sic et in femininis quae exeunt in ‛us’, si genetivus ‛i’ habuerit, in
+     ‛o’ mittunt ablativum, ut ‛haec laurus huius lauri ab hac lauro’, ‛haec cupressus huius
+     cupressi ab hac cupresso’. <milestone unit="par" n="65"/> Si vero nominativus ‛us’ habuerit et
+     genetivus ‛us’, ablativum in ‛u’ mittit, sic in masculinis, sic in femininis: in masculinis, ut
+     ‛hic versus’, ‛fluctus’, ‛huius versus’, ‛fluctus’, ‛ab hoc versu’, ‛fluctu’; in femininis
+     ‛haec porticus’, ‛quercus’, ‛huius porticus’, ‛quercus’, ‛ab hac porticu’, ‛quercu’. Sic per
+     cetera talia observabis. <lb/><milestone unit="par" n="66"/> Sed, si talium nominum te
+     declinatio turbaverit, tanta est vis regularum, ut aut de genetivo aut de dativo aut de
+     ablativo, scilicet de <supplied>h</supplied>is tribus uno invento, doceant te de totius nominis
+     declinatione singularis pluralisque numeri. <milestone unit="par" n="67"/> Quare hoc dixerim,
+     adverte: puta si sint nomina ‛fluctus’ aut ‛versus’, quorum declinationem nescias: mihi crede
+     quia in quacumque lectione aut ablativum invenies aut dativum aut genetivum, quorum trium unum
+     si habeas notum, docebit te de omnibus casibus; ut puta si scias quia ‛ab hoc fluctu’ facit:
+     sequitur ut nominativus singularis ‛us’ habeat, sic et genetivus, dativus ‛ui’ habeat,
+     accusativus ‛um’, vocativus ‛us’. <milestone unit="par" n="68"/> Ecce unus casus docuit te
+     declinationem omnium; sic si inveneris dictum ‛huius versus’ docebit te quod ablativus docuit;
+     sic, si inveneris ‛hiuc versui’, et ipse hoc te docebit, quod ablativus et genetivus. Vides
+     ergo quia uno invento casu in quacumque auctoritate lectionis doceri te posse, quemadmodum
+     totum nomen declines. <milestone unit="par" n="69"/> In <supplied>i</supplied>is vero
+     nominibus, quae in ‛o’ mittunt ablativum regula est ut genetivos ‛i’ habeant, dativos in ‛o’,
+     ut puta si legas ablativo casu positum ‛lauro’: sequitur ut genetivum in ‛i’ habeat, ‛huius
+     lauri’, et dativum ‛o’, ‛huic lauro’; sequitur ut nominativus ‛us’ habeat, ‛laurus’. Verum quia
+     lapsi sumus ab his supradictis regulis, redeamus ad rem. <lb/>
+     <milestone unit="par" n="70"/> Loquebamur enim, si nominativus in ‛as’ exierit, quando mittat
+     in ‛a’, quando in ‛e’. Diximus de ‛es’ regula nominativi, quia in ‛e’ mittit ablativum. Diximus
+     et de regula ‛os’, quia semper in ‛e’ mittit ablativum. <milestone unit="par" n="71"/> Diximus
+     et de ‛us’ regula, quomodo observandum sit, quae regula solum in genere neutro in ‛e’ mittit,
+     praeter illa duo, ‛vulgus’ et ‛pelagus’; in genere masculino vel feminino aut in ‛o’ aut in
+     ‛u’. Quod ut cognoscas quando in ‛o’, quando in ‛u’, genetivum attende: si habuerit et ipse
+     ‛us’, in ‛u’ mittit ablativum tam in masculino quam in feminino. <lb/>
+     <milestone unit="par" n="72"/> Ergo quantum necessitas temporis passa est regulas non parvas
+      <milestone unit="page" n="p. 541 vol. V Keil"/> nominum scripsimus. Pauca de pronominibus
+     dicamus, in quibus non ardua moles est. </p>
+   </div>
+   <div type="section" n="2">
+    <head>II. De pronomine</head>
+    <p>
+     <milestone unit="par" n="1"/> Pronomina aut finita sunt aut infinita aut minus quam finita.
+     Finita sunt quae notant certam personam, ut ‛ego’; infinita, ut ‛quis’, ‛quicumque’, ‛aliquis’;
+     minus quam finita sunt pronomina quae non sic plene definiunt personam ut non egeant
+     demonstratore, quomodo ‛ego’. <milestone unit="par" n="2"/> Nam et ipsum ‛tu’ non plene finitum
+     est nisi in personam direxeris digitum. Sic ergo haec minus quam finita dicenda sunt: habent
+     enim quandam designationem sed non plenae significationis quomodo ‛ego’; ut puta pone esse
+     turbam: non significantius dicitur in turba, quomodo de turba cum unus dixerit ‛ego’.
+      <milestone unit="par" n="3"/> Sed ut de multis significemus quem quaerimus aut nomen adicimus
+     aut digitum intendimus, ut appareat certius quem vocemus. Ergo et ‛tu’ et ‛ille’ et ‛iste’ et
+     ‛hic’ et alia, quae quasi possunt ex parte definire personam, minus quam finita vocanda sunt. <lb/>
+     <milestone unit="par" n="4"/> Prima persona quae dicitur ‛ego’, tam in singulari numero quam in
+     plurali non habet vocativum casum, quia nemo se vocat; sed cum forte contigerit ut dicamus ‛o
+     ego’, ‛o nos’, non tam pronominis ratione quam interiectionis, id est dolendi gratia. non
+     vocandi. <lb/>
+     <milestone unit="par" n="5"/> Quaestio est a qua declinatione veniat ‛quis’, quod significat
+     ‛quibus’, et unde veniat ipsum ‛quibus’ cum dicimus. Sed dativus pluralis, cum exit ‛quis’, ab
+     ablativo venit singulari qui exit ‛a quo’ (cuius nominativus erit ‛qui’, non ‛quis’); quomodo
+     in nominibus a ‛docto’ ‛doctis’, a ‛iusto’ ‛iustis’, sic a ‛quo’ ‛quis’. <milestone unit="par"
+      n="6"/> Dativus vero pluralis qui exit in ‛bus’, id est ‛quibus’, ab ablativo venit singulari
+     qui exit ‛a qui’: quomodo in nominibus omnia quae exeunt in ablativo in ‛i’ dativum pluralem in
+     ‛bus’ mittunt, sic in hoc pronomine a ‛qui’ ablativo, dativum in ‛bus’, ‛quibus’, cuius
+     nominativus erit ‛quis’, non ‛qui’, quod antiqui communi genere dixerunt ‛hic’ et ‛haec quis’,
+     ‛ab hoc’ et ‛ab hac qui’; adeo ut frequenter invenimus lectum ‛quicum’, quod significat ‛cum
+     quo’ vel ‛cum qua’: nam Virgilius ait, cum de femina loqueretur, <lb/><quote type="poetry"
+      >«quicum partiri curas»</quote>
+     <lb/> id est ‛cum qua partiri’. <lb/>
+     <milestone unit="par" n="7"/>Quaestio est alia pronominis, quae ita obscura est ut vix a paucis
+     solvatur: quare, cum dicamus ‛illud’ vel ‛istud’ in genere neutro, ut puta ‛illud’ vel ‛istud
+     templum’, ‛ipsud’ non dicamus, sed ‛ipsum’. Sed quae in ‛e’ exierunt in masculinis ipsa sunt
+     quae genus neutrum sic fecerunt, ‛illud’, ‛istud’. ‛Ipsum’ vero ideo, non ‛ipsud’, quia apud
+     antiquos magis in ‛us’ mittebant nominativum generis masculini, ut dicerent ‛ipsus’; hoc
+     habemus et in Terentio, <quote type="poetry">«ipsus Pamphilus»</quote> dixit, non ‛ipse
+     Pamphilus’. <milestone unit="par" n="8"/> Et quomodo in regula nominum omnia quae in masculino
+     genere ‛us’ habent in nominativo singulari in feminino ‛a’ habent, in neutro ‛um’, ut ‛iustus
+     iusta iustum’, ‛doctus docta doctum’, ‛pius pia pium’, sic ex nominum regula emanavit analogia
+     et ad hoc pronomen, ut quia ‛ipsus’ dicebant antiqui, fiat in feminino ‛ipsa’, in neutro
+     ‛ipsum’, quomodo dicimus de nomine ‛iustus iusta iustum’. <milestone unit="page"
+      n="p. 542 vol. V Keil"/>
+     <lb/>
+     <milestone unit="par" n="9"/> Pronomen quod dicitur ‛idem’ et masculino servit et neutro: nam
+     et ‛idem homo’ dicimus et ‛idem tempus’. <lb/>
+     <milestone unit="par" n="10"/> ‛Is’ pronomen sic declinabis: ‛is homo eius ei eum is ab eo’, et
+     pluraliter ‛ii eorum eis eos ii ab eis’; feminino ‛ea eius ei eam ab ea’, et pluraliter ‛eae
+     earum eis eas eae ab eis’; neutro ‛id eius ei id o id ab eo’, et pluraliter ’ea eorum eis ea o
+     ea ab eis’. Ideo volui hoc pronomen declinare quia facit aliquibus dubietatem, praecipue in
+     accusativo casu. Vnde, si tibi fuerit mentio neutralis nominis in accusativo singulari, sic
+     dices, ut puta ‛per id templum transeamus’, ‛per id pelagus navigemus’, ‛per id iter
+     gradiamur’. <milestone unit="par" n="11"/> Cui ad ornamentum adiecta est ‛em’ syllaba et fecit
+     ‛idem’, non quia aliud significat ‛id’ et aliud ‛idem’, sed ‛idem’ ornatius dicimus; quomodo
+     ‛quidam cuiusdam’ syllaba ‛dam’ ad ornamentum accessit, non quia aliud significat ‛qui’ et
+     aliud ‛quidam’, sic et ‛idem’, sic et ‛eadem’, acceperunt ‛dem’ syllabam, non ut aliud
+     significarent, sed ut euphona esset. <milestone unit="par" n="12"/> Etenim studium fuit omnibus
+     eruditis musicare Latinitatem et id addere quod in aures dulcius laberetur, id demere quod
+     rancidius offendisset auditum. <lb/>
+     <milestone unit="par" n="13"/> Dicta sunt de pronomine illa quae paulo obscura videntur. Cetera
+     enim a diligentibus artigraphis plene declinata sunt, quae facile reperias. </p>
+   </div>
+   <div type="section" n="3">
+    <head>III. De verbo</head>
+    <p><milestone unit="par" n="1"/> Verborum ratio ita lata est ut nominis, ita musicata est ut in
+      <supplied>pro</supplied>nominibus demonstravi. Namque plurima in verbis quae rancidule
+     audiebantur polita sunt et per anomaliam mollius sonuerunt quam per rectam regulam, quod postea dicam.<lb/>
+     <milestone unit="par" n="2"/> Verba tribus modis accipimus: dicimus verba pro fallacia, ut puta
+     ‛dedit mihi verba’; dicimus pro sermonibus quibusque, ut puta ‛fecit verba Cicero’; dicimus
+     verba et haec quae per modos et tempora et personas declinamus. <lb/>
+     <milestone unit="par" n="3"/> Principalia verba sunt autem activa, passiva, neutra, communia,
+     deponentia. De ceteris vero dicemus istis catholicis et generalibus explicatis. Activa sunt
+     quibus nos aliquid agere significamus, ut ‛lego legis legit’, ‛scribo scribis scribit’. Passiva
+     sunt quae de activis nascuntur, quibus nos pati aliquid enuntiamus, ut ‛legor legeris legitur’,
+     ‛scribor scriberis scribitur’. Neutra sunt quibus nos nec agere nec pati aliquid monstramus, ut
+     ‛sedeo’, ‛iaceo’, ‛sto’ et ‛alia’, in quibus nullum negotium est nec agendi nec patiendi.
+      <milestone unit="par" n="4"/>Communia sunt quae in ‛or’ exeunt, numquam in ‛o’, et tam agere
+     quam pati significant, ut ‛criminor illum’ et ‛criminor ab illo’, nec enim dicimus ‛crimino
+     illum’. Deponentia sunt quod deponant speciem activitatis et cum passive enuntientur, id est
+     ‛r’ littera, nihil tamen patiuntur, sed agunt solum, ut ‛luctor luctaris luctatur’,
+     ‛convicior’, ‛loquor’, ‛nascor’ et cetera talia. <milestone unit="par" n="5"/> Sane illud
+     monemus: quomodo in nominibus maior quantitas est masculini et feminini generis, minor neutri
+     et communis, sic et in verbis multa sunt activa, multa aeque passiva, non tanta neutralia nec
+     communia nec deponentia. Ac per hoc regula activorum passivorumque in immensum tenditur,
+     ceterorum vero verborum regulae a diligentibus colliguntur. <milestone unit="page"
+      n="p. 543 vol. V Keil"/>
+     <lb/>
+     <milestone unit="par" n="6"/> Ergo diximus de generibus verborum, quot sint; nunc dicendum de
+     coniugationibus, per quarum regulas omnia verba sine offensione funduntur. Quas coniugationes
+     si quis diligenter animadverterit, quasi ex vado vitiorum emergens citius ad portum Latinitatis
+     accedet. <milestone unit="par" n="7"/> Quaerendum est autem de illis quot sint, quae sint, ubi
+     quaerantur, quo proficiant, id est quid te doceant cavere. Sunt autem tres, ‛as’, ‛es’, ‛is’;
+     haec tertia tam correpta est quam producta, sed correpta aliam vim habet potestatis suae,
+     producta aliam. <milestone unit="par" n="8"/> Diximus quot sint et quae sint: dicendum est ubi
+     quaerantur. Quaeruntur autem in indicativo modo, in tempore presenti, secunda persona, ante
+     novissimam litteram, sed in activis et neutralibus; in aliis vero tribus verbis, passivis,
+     communibus et deponentibus, ante novissimam syllabam, quod ut scias post apertius intimabo.
+      <milestone unit="par" n="9"/> Dixi nihilominus ubi quaerendae sunt; restat quarta pars, quae
+     nos docet quare inventae sunt, id est ob quam utilitatem. Earum igitur utilitas duplex est:
+     docet te de futuro tempore, quando in ‛am’ syllabam exeat, quando in ‛bo’; docet iterum
+     infinitum modum, quando corripiatur, quando producatur.<lb/>
+     <milestone unit="par" n="10"/> Ergo redeamus ad primam coniugationem et de eadem lucidius
+     tractemus. Prima coniugatio, quae est ‛a’, quaeritur in activis et neutralibus verbis, ut
+     diximus, ante novissimam litteram in secunda persona; venit ab his quattuor modis: ab ‛o’, ut
+     ‛clamo clamas clamat’, ab ‛eo’, ut ‛commeo commeas commeat’, ab ‛io’, ut ‛lanio lanias laniat’,
+     ab ‛uo’, ut ‛fluctuo fluctuas fluctuat’. Ergo, si videris secundam personam per ‛as’ exire,
+     intellege primam coniugationem esse, ut ‛clamo clamas’, ‛lanio lanias’, ‛fluctuo fluctuas‛,
+     ‛commeo commeas‛. <milestone unit="par" n="11"/> Cognoscis utique primam esse; iam quid te
+     doceat hinc attentius considera, ut, talia cum inveneris, in ‛bo’ mittas futurum tempus
+     ipsorum, ut ‛clamabo’ dicas, ‛laniabo’, ‛aestuabo’, ‛commeabo’. Ecce docui te de <del>futuro
+      tempore</del> promissivo modo; doceo te et quia producere debes cum dicis ‛clamare’,
+     ‛laniare’, ‛aestuare’, ‛commeare’, ut ante ‛re’ novissimam ‛a’ littera producas semper. <lb/>
+     <milestone unit="par" n="12"/> Diximus de prima; dicamus et de secunda, quae dicitur ‛e’, quae
+     venit ab uno modo, id est ab ‛eo’ tantum, ut ‛terreo terres’, ‛doceo doces’, ‛praebeo praebes’,
+     ‛sedeo sedes’. Ergo et haec quomodo superior parem regulam dat, ut promissivum modum in ‛bo’
+     mittat, ut ‛terrebo’, ‛docebo’, ‛praebebo’, ‛sedebo’ et sic omnia huius regulae observabis. Sic
+     et infinitum modum producit quomodo prima coniugatio,ut dicamus ‛terrere’, ‛docere’, ‛monere’,
+     ‛sedere’. Ergo duae istae parem regulam habent. <lb/>
+     <milestone unit="par" n="13"/> Remanet tertia coniugatio, quae tam producta est ‛i’ quam
+     correpta, quae et ipsa quaeritur ubi et superiores, sed in activis, ut diximus, et neutralibus
+     verbis. Venit autem ab his modis: ab ‛o’, ut ‛lego legis’, ‛scribo scribis’, ab ‛io’, ut ‛rapio
+     rapis’, ‛facio facis’, ab ‛uo’, ut ‛ruo ruis’, ‛fluo fluis’. <milestone unit="par" n="14"/>
+     Ergo haec quid te docet nisi ut futurum tempus in ‛am’ mittas, non in ‛bo’, quomodo superiores?
+     Et facit futurum in ‛am’, ut ‛faciam’, ‛scribam’, ‛legam’, ne dicas ‛faciebo’, ‛scribebo’,
+     ‛legebo’, quia tertia coniugatio in am semper promissivum mittit. Quam coniugationem, ut dixi,
+     quaeris in secunda persona ante novissimam litteram. <lb/>
+     <milestone unit="par" n="15"/>Infinitum vero modum corripit, ut ‛legere’, ‛scribere‛, ‛facere’,
+     ‛ruere’, non, quem <milestone unit="page" n="p. 544 vol. V Keil"/> admodum superiores
+     producunt. Quantum exixstimo apertius dictum est de tertia correpta. <lb/>
+     <milestone unit="par" n="16"/>Nunc attende, quae sit ratio tertiae productae, vel quomodo
+     potest discerni a tertia correpta, cum utraque in uno ‛i’ constent, quod ante novissimam
+     litteram inventurus es, ut puta exempli gratia dicimus ‛fugio fugis’ et ‛sentio sentis’:
+     secundae personae ambarum formarum per ‛is’ exeunt quia et ‛fugis’ per ‛is’ et ‛sentis’ per
+     ‛is’; unde habet intellegi an correpta est tertia an producta? Sed intellegitur sic, id est de
+     imperativo modo: <milestone unit="par" n="17"/> si exit in ‛i’ a tertia producta venit, ut
+     ‛sentio sentis’ imperativum ‛senti’, facit; ‛haurio hauris’, imperativum ‛hauri’, facit;
+     ‛servio servis’, imperativum ‛servi’ facit; tertia vero correpta, licet simili forma exeat in
+     secunda scilicet persona, tamen et haec discernitur de ipso imperativo, quem semper in ‛e’
+     mittit, ut ‛fugio fugis’, ‛fuge’ facit, ‛scribo scribis‛ ‛scribe’ facit. Ergo discernuntur sic,
+     quia correpta in ‛e’ mittit imperativum, producta in ‛i’.<milestone unit="par" n="18"/> Sed
+     quid docet ipsa tertia producta? Attende futurum tempus: et in ‛am’ exit et in ‛bo’, sed magis
+     in ‛am’, ut puta de futuro si dicamus et ‛serviam’ et ‛servibo’ et ‛nesciam’ et ‛nescibo’; sed
+     magis in ‛am’ mittit, ut dixi, quam in ‛bo’. Infinitum vero producit semper, ut puta ‛haurire’,
+     ‛sentire’, ‛servire’, ‛nescire’. <milestone unit="par" n="19"/> Nam regula est ut imperativis
+     modis activorum et neutralium verborum, a quacumque coniugatione, addas ‛re’ syllabam et facit
+     infinitum, ut puta a prima coniugatione exit imperativus in ‛a’, ut ‛clama’, ‛voca’, ‛lania’,
+     adicis ‛re’ et facit ‛clamare’, ‛laniare’, ‛vocare’; a secunda coniugatione exit imperativus in
+     ‛e’ productum, huic adicis ‛re’ et facit infinitum, ut ‛mone monere’ ‛doce docere’ ‛praebe
+     preaebere’; a tertia coniugatione correpta exit imperativum in ‛e’, huic adice ‛re’ et facit
+     infinitum, ut ‛scribe scribere’, ‛lege legere’, ‛tolle tollere’; a tertia coniugatione producta
+     imperativus exit in ‛i’; huic adice ‛re’, et facit infinitum, ut ‛servi servire’, ‛audi
+     audire’, ‛hauri haurire’. <lb/>
+     <milestone unit="par" n="20"/> Sed quaestio est de ‛dic’ et ‛fac’, numquid adiecta ‛re’ integre
+     sonavit infinitus. Sed usus plurimum valuit: nam recte ‛dice’ et ‛face’ legimus. Nam Vergilius
+     dixit ‛dice’ et Terentius ‛face’, quibus si adicias ‛re’, facient integre sonare infinitum
+     modum, ‛dicere’ et ‛facere’. <lb/>
+     <milestone unit="par" n="21"/> Abunde dicta sunt de coniugationibus activorum seu neutralium,
+     quae quaeruntur, ut diximus, in secunda persona ante novissimam litteram. Nunc restat de
+     passivorum et communium et deponentium verborum coniugationibus dicere, quae quaeruntur in
+     secunda persona ante novissimam syllabam, non litteram, ut puta ‛clamor clamaris’: ante ‛ris’
+     ‛a’ est, prima coniugatio, quae in ‛bor’ habet mittere promissivum, ut ‛clamabor clamaberis
+     clamabitur clamabimur clamabimini clamabuntur’; <milestone unit="par" n="22"/> in communibus
+     primae coniugationis, ut puta ‛criminor criminaris’: ante ‛ris’ ‛a’ est, in ‛bor’ habet mittere
+     promissivum, ut ‛criminabor criminaberis criminabitur criminabimur criminabimini
+     criminabuntur’; <milestone unit="par" n="23"/> in deponentibus primae coniugationis, ut puta
+     ‛luctor luctaris’: ante ‛ris’ ‛a’ littera est, prima coniugatio, quae in ‛bor’ mittit
+     promissivum modum, ut ‛luctabor luctaberis luctabitur luctabimur luctabimini luctabuntur’. <lb/>
+     <milestone unit="par" n="24"/> Diximus de prima coniugatione passivorum et communium
+     deponentiumque verborum, quae ante novissimam syllabam quaeritur. Nunc dicendum et de secunda
+     coniugatione ipsorum verborum, quae similiter illic quaeritur ubi et prima. In <milestone
+      unit="page" n="p. 545 vol. V Keil"/> passivis, ut ‛moneor moneris’: ante ‛ris’ ‛e’ invenimus,
+     quae est secunda coniugatio, quae exit in ‛bor’, ut ‛monebor moneberis monebitur monebimur
+     monebimini monebuntur’;<milestone unit="par" n="25"/> in communibus, ut ‛vereor vereris’, ante
+     ‛ris’ ‛e’ invenis, quae mittit in ‛bor’, ut ‛verebor vereberis verebitur verebimur verebimini
+     verebuntur’ (commune est enim ut dicimus ‛vereor te’ et ‛vereor a te’); in deponentibus, ut
+     ‛medeor mederis, ante ‛ris’ ‛e’ invenies, quae mittit in ‛bor’, ut ‛medebor medeberis medeberis
+     medebitur medebimur medebimini medebuntur’. <lb/>
+     <milestone unit="par" n="26"/> Remanet tertia coniugatio, cuius locum implevit ‛e’ littera
+     correpta, ut puta in passivis ‛legor legeris’: ante ‛ris’ ‛e’ est, sed quia correptum est locum
+     tenet pro ‛i’ ac per hoc, quoniam ‛e’ correptum est, quod cedit pro ‛i’, quomodo in activis
+     promissivum modum in ‛am’ mittit, non in ‛bo’, sic in passivis in ‛ar’ mittit, non in ‛bor’;
+     sic in communibus, <supplied>ut puta . . . ; in deponentibus</supplied> ut puta ‛sequor
+     sequeris’: ante ‛ris’ ‛e’ correptum est pro ‛i’ correpto; mittit promissivum in ‛ar’, ut
+     ‛sequar’ dicas, non ‛sequebor’.<lb/>
+     <milestone unit="par" n="27"/> Remanet tertia coniugatio producta, ut puta in passivis, ut
+     ‛nutrior nutriris’: ante ‛ris’ ‛i’ productum est, ergo, quia tertia est, exit in ‛ar’, ut
+     dicamus de futuro ‛nutriar’, quia producta est, exit in ‛bor’, ut dicamus ‛nutribor’. Haec ergo
+     sic observabis et in communibus et deponentibus. <milestone unit="par" n="28"/> Infinitivus
+     vero modus ipsorum verborum, a prima coniugatione et secunda et tertia producta, in ‛ri’ exit,
+     ut puta a prima ut ‛clamari’, a secunda ut ‛moneri’, a tertia producta ‛nutriri’; a tertia vero
+     correpta numquam exit in ‛ri’, sed in ‛i’, ut puta ‛legi’, ‛scribi’ dicimus, et ‛ungi’, non
+     ‛ungeri’, quia ‛ungo’ dicimus, non ‛ungeo’. <milestone unit="par" n="29"/> Nam quoniam de
+     ‛ungeri’ et ‛ungi’ habita quaestio est, quid dicemus sic de ‛tergeri’ et de ‛tergi’? Sed
+     ‛tergeri’, non ‛tergi’ quia ‛tergeo’ facit, non ‛tergo’. Sic <supplied>et</supplied>iam in
+     ceteris observabis, ut, ubi inveneris secundam coniugationem ‛ri’ habeat infinitus modus in his
+     verbis, ut ‛caveo caveri’, ‛doceo doceri’, ‛terreo terreri’, ‛coerceo coerceri’.<lb/>
+     <milestone unit="par" n="30"/> Quantum ratio postulavit de coniugationibus ordine tractavimus.
+     Nunc de participiis pauca dicenda sunt. </p>
+   </div>
+   <div type="section" n="4">
+    <head>IV. De participio</head>
+    <p>
+     <milestone unit="par" n="1"/>Participia dicta sunt quod partem capiant nominis, partemque
+     verbi. Trahunt enim a nomine casus, a verbo tempora, ut puta ‛legens lecturus’: ecce iam
+     tractum est a verbo aliquid, id est tempus; nam ‛legens’ praesentis temporis participium est,
+     ‛lecturus’ futuri; <milestone unit="par" n="2"/> et declinantur quomodo nomina, ut puta ‛hic
+     legens huius legentis huic legenti’; et sic per omnes casus declinas tam singulari quam in
+     plurali; sic et ‛lecturus’, ‛hic lecturus huius <milestone unit="page" n="p. 546 vol. V Keil"/>
+     lecturi huic lecturo’ et cetera: ecce traxit a nomine declinationem. <lb/>
+     <milestone unit="par" n="3"/> Sane omnia participia in praesenti tempore aut in ‛ans’ exeunt,
+     et veniunt a prima coniugatione, ut ‛amans’, ‛clamans’, aut in ‛ens’ et veniunt a secunda vel
+     tertia correpta vel producta, ut ‛monens’, ‛legens’, ‛serviens’: nam ‛monens’ a secunda
+     coniugatione est, ‛legens’ a tertia correpta, ‛serviens’ a tertia producta. <milestone
+      unit="par" n="4"/>Futuri temporis participia semper in ‛rus’ exeunt ab omnibus verbis.
+     Praeteriti temporis semper aut in ‛tus’ aut in ‛sus’: in ‛tus’, ut ‛scriptus’, in ‛sus’, ut
+     ‛visus’, ‛falsus’. Futuri temporis participia a passivis vel communibus semper in ‛dus’: nam
+     deponens numquam habet duo futura (nec enim dicimus ‛luctandus est ille’ aut ‛nascendus est’),
+     sed habet unum, ut ‛luctaturus’, ‛nasciturus’, ‛locuturus’. <milestone unit="par" n="5"/>Sane
+     regula est participia omnia praesentis temporis generis esse omnis, id est quaeque exeunt in
+     ‛ans’ quaeque in ‛ens’, ut ‛hic’ et ‛haec’ et ‛hoc amans’, ‛legens’, ‛serviens’. </p>
+   </div>
+   <div type="section" n="5">
+    <head>V. De adverbiis</head>
+    <p>
+     <lb/>
+     <milestone unit="par" n="1"/>Adverbia aut ab aliis veniunt aut ex se. <supplied>Ex
+      se</supplied> sunt loci, temporis, ut puta loci ‛hic’, ‛istic’, ‛illic’ et cetera quae locum
+     significant; temporis, ut ‛hodie’, ‛cras’, ‛heri’ et cetera quae tempus significant. Ab aliis
+     adverbia veniunt aut nomine aut participio, ut a ‛docto’ ‛docte’, a nomine a ‛iusto’ ‛iuste’. <lb/>
+     <milestone unit="par" n="2"/> Sane adverbiorum biformis regula est: ablativo enim diriguntur
+     adverbia. Vnde si habuerit ‛o’ ablativus, adverbium in ‛e’ mittit, ut supra diximus, a ‛docto’
+     ‛docte’, a ‛iusto’ ‛iuste’, a ‛pio’ ‛pie’, a ‛religioso’ ‛religiose’. Si vero ablativus in ‛i’
+     exierit, adverbium in ‛ter’ mittit, ut a ‛simili’ ‛similiter’, ab ‛agili’ ‛agiliter’, a
+     ‛veloci’ ‛velociter’, a ‛forti’ ‛fortiter’, a ‛grandi’ ‛granditer’ et cetera talia. </p>
+   </div>
+   <div type="section" n="6">
+    <head>VI. De praepositionibus</head>
+    <p>
+     <milestone unit="par" n="1"/> Praepositiones notae sunt accusativae et ablativae, ut puta ‛ad’
+     praepositio: masculinis, ut ‛ad illum vado’, in femininis, ‛ad illam vado’, in neutris ‛ad
+     illud vado templum’ vel ‛theatrum’; et pluraliter in masculinis ‛ad illos’, in femininis ‛ad
+     illas’, in neutris ‛ad illa templa’. <milestone unit="par" n="2"/> Sane si tibi de hoc
+     pronomine interrogatio fit, ut dicas puta: ‛ad quem vadis?’ vel ‛ad quam vadis?’, vel ‛ad quod
+     templum?’ in plurali vero vide ne dicas ‛ad qua templa vadis’ sed ‛ad quae’, sic ‛ad quae loca
+     pergis’, sic ‛ad quae palatia’, sic ‛ad quae spatia’ et alia similia. <milestone unit="par"
+      n="3"/> Remanent praepositiones utriusque, quae discernuntur de motu et situ. De motu, ut
+     puta: ‛quo is?’ Vides quia moves se qui it, ergo respondebit accusativu casu, ut dicat ‛in
+     forum’ ‛in templumi’ ‛in balneum’. Si vero situs est, et significat se fuisse alicubi, ablativo
+     respondet, ut dicat ‛in foro fui’ non ‛in forum fui’, sic ‛in templo fui’, sic ‛in thermis
+     fui’. Ergo tu sic attende, ut, si fuit iam alicubi, <milestone unit="page"
+      n="p. 547 vol. V Keil"/> ablativo respondeat; si it adhuc, accusativo. <milestone unit="par"
+      n="4"/> Abunde dictum sit de praepositionibus. Iam cetera in artibus habes plenissime dicta.
+    </p>
+   </div>
+  </body>
+ </text>
+</TEI>

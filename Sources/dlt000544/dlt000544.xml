@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prologi historiarum Philippicarum Pompei Trogi</title>
+                <author></author>
+                <respStmt>
+                    <resp>Correzione linguistica</resp>
+                    <name>Alice Borgna</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica XML</resp>
+                    <name>Alice Borgna</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>digilibLT</publisher>
+                <pubPlace>Vercelli</pubPlace>
+                <date>2011</date>
+                <availability>
+                    <p>
+                        <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
+                    </p>
+                </availability>
+                <idno>dlt000544</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>M. Iuniani Iustini Epitoma historiarum Philippicarum Pompei Trogi ; accedunt
+                    prologi in Pompeium Trogum / post Franciscum Ruehl iterum edidit Otto Seel. -
+                    Stuttgart : B. G. Teubner, 1972</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+                <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+            </projectDesc>
+            <editorialDecl>
+                              
+                <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+                <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+                    l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+                    e commenti e ogni altro contenuto redatto da editori moderni. </p>
+                <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+                    correttezza di trascrizione</p>
+                <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+                    distinzione u/v minuscole.</p>
+                <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+                <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+                    grassetto, corsivo, spaziatura espansa.</p>
+                <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+                    <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+                    <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+                    si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+                    [...]<lb/> lacuna integrata dagli editori:
+                    <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+                </p>
+                <p>Sono stati marcati i termini in lingua greca
+                    <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+                </p>
+                <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+                    target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+                    >Note di trascrizione e codifica di testi latini tardoantichi
+                    [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+            </editorialDecl>
+                   </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latino</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="pr" n="pr I">
+                <head> PROLOGVS LIBRI I </head>
+                <p><lb/>Primo volumine continentur haec. Imperium Assyriorum a Nino rege usque ad
+                    Sardanapallum: post quem translatum est per Arbacem ad Medos, usque ad ultimum
+                    regem Astyagem. Is a nepote suo Cyro pulsus regno, et Persae regno potiti. Vt
+                    Croeso Lydiae regi bellum intulit Cyrus victumque cepit. Hic in excessu dicti
+                    Aeolicarum et Ionicarum urbium situs originesque Lydorum et in Italia Tuscorum.
+                    Post Cyrum filius Cambyses Aegyptum domuit. Repetitae Aegypti origines urbium.
+                    Extincto Cambyse Darius occisis magis regnum Persicum accepit captaque Babylone
+                    bella Scythica molitus est.<lb/></p>
+            </div>
+            <div type="pr" n="pr II">
+                <head> PROLOGVS LIBRI II </head>
+                <p><lb/>Secundo volumine continentur haec. Scythiae et Ponti situs originesque
+                    Scythiae usque ad bellum, quo est inde pulsus Darius: qui post hanc fugam
+                    Graeciae bellum intulit per Datim et Tisaphernem, quod soli Athenienses
+                    sustinuere. Hic origines Athenarum repetitae et reges usque ad Pisistrati
+                    tyrannidem, qua extincta Marathone vicere Persas. Vt mortuo Dario filius eius
+                    Xerxes bellum Graeciae intulit: ac repetitae origines Thessaliae: expulsoque
+                    Graecia Xerxe bellum ab Atheniensibus translatum in Asiam usque ad Xerxis
+                    interitum.<lb/></p>
+            </div>
+            <div type="pr" n="pr III">
+                <head> PROLOGVS LIBRI III </head>
+                <p><lb/>Tertio volumine continentur haec. Vt mortuo Xerxe filius Artaxerxes ultus
+                    interfectorem patris Artabanum bellum cum defectore Aegypti habuit, primoque dux
+                    eius Achaemenes victus est, iterum per Bagabaxum Aegyptus recepta. Vt Graecis
+                    cum rege pacificatis bella inter ipsos orta sint. Inde repetitae Peloponnensium
+                    origines: ut ab Herculis posteris Dorico populo sit occupata. Deinde bella
+                    Argolica et Messania, coalitique Sicyone et Corinthio tyranni. Bellum Crisaeum
+                    et quod Athenienses primo cum Boeotis, dein cum Peloponnesiis
+                    gesserunt.<lb/></p>
+            </div>
+            <div type="pr" n="pr IV">
+                <head> PROLOGVS LIBRI IV </head>
+                <p><lb/>Quarto volumine continentur res Siculae, ab ultima origine usque ad deletam
+                    Syracusis Atheniensium classem.<lb/></p>
+            </div>
+            <div type="pr" n="pr V">
+                <head> PROLOGVS LIBRI V </head>
+                <p><lb/>Quinto volumine continentur haec. Bellum inter Athenienses et Lacedaemonios,
+                    quod Deceleicum vocatur, usque ad captas Athenas. Vt expulsi sunt Athenis XXX
+                    tyranni. Bellum quod Lacedaemonii in Asia cum Artaxerxe gesserunt propter Cyrum
+                    adiutum. Hinc repetitum in excessu Cyri cum fratre bellum et Graecorum, qui sub
+                    eo militaverunt.<lb/></p>
+            </div>
+            <div type="pr" n="pr VI">
+                <head> PROLOGVS LIBRI VI </head>
+                <p><lb/>Sexto volumine continentur haec. Bellum Lacedaemoniorum gestum in Asia cum
+                    Persicis praefectis, ducibus belli Dercylide et Agesilao, usque ad proelium
+                    navale factum Cnido: quo victis illis Athenienses repetiere imperium. Dein
+                    bellum Corinthiacum et bellum Boeotium, quo Leuctris et Mantineae victi Spartani
+                    amisere imperium. In Thessalia deinde Iasonis et post illum Alexandri Pheraei
+                    coalitum atque extinctum imperium. Tum sociale bellum gestum adversus
+                    Athenienses a Chiis et Rhodiis et Byzantiis. Transitus hinc ad res
+                    Macedonicas.<lb/></p>
+            </div>
+            <div type="pr" n="pr VII">
+                <head> PROLOGVS LIBRI VII </head>
+                <p><lb/>Septimo volumine continentur origines Macedonicas regesque a conditore
+                    gentis Carano usque ad magnum Philippum: ipsius Philippi res gestae usque ad
+                    captam urbem Mothonen. Additae in excessu Illyriorum et Paeonum
+                    origines.<lb/></p>
+            </div>
+            <div type="pr" n="pr VIII">
+                <head> PROLOGVS LIBRI VIII </head>
+                <p><lb/>Octavo volumine continentur res gestae Philippi magni post captam urbem
+                    Mothonen, a principio belli Phocensis, quod sacrum vocant, usque ad finem eius,
+                    interiectumque huic bellum, quod Philippus cum Chalcidicis urbibus gessit,
+                    quarum clarissimam delevit Olynthon. Vt Illyrici reges ab eo victi sunt, et
+                    Thracia atque Thessalia subactae, et rex Epiro datus Alexander eiecto Arybba, et
+                    frustra Perinthos oppugnata.<lb/></p>
+            </div>
+            <div type="pr" n="pr IX">
+                <head> PROLOGVS LIBRI IX </head>
+                <p><lb/>Nono volumine continentur haec. Vt Philippus a Perintho summotus. Byzantii
+                    origines, a cuius obsidione summotus Philippus Scythiae bellum intulit.
+                    Repetitae inde Scythicae res ab his temporibus, in quibus illa prius finierant,
+                    usque ad Philippi bellum, quod cum Athea Scythiae rege gessit. Vnde reversus
+                    Graeciae bellum intulit victisque Chaeroneae, cum bella Persica moliretur
+                    praemissa classe cum ducibus, a Pausania, occupatis angustiis nuptiarum filiae,
+                    occisus est, priusquam bella Persica inchoaret. Repetitas res inde Persicae ab
+                    Dario Notho, cui successit filius Artaxerxes cognomine Mnemon, qui post fratrem
+                    Cyrum victum pulsaque Cnido per Conona classe Lacedaemoniorum bellum cum Euagora
+                    rege Cyprio gessit: originesque Cypri repetit.<lb/></p>
+            </div>
+            <div type="pr" n="pr X">
+                <head> PROLOGVS LIBRI X </head>
+                <p><lb/>Decimo volumine continentur Persicae res. Vt Artaxerxes Mnemon pacificatus
+                    cum Euagora rege Cyprio bellum Aegyptium in urbe Ace conpararit, ipse in Cadusis
+                    victus, defectores in Asia purpuratos suos persecutus, primum Dotamen praefectum
+                        <supplied> Paphlagoniae </supplied>. Paphlagonon origo repetita: deinde
+                    praefectum Hellesponti Ariobarzanen, deinde in Syria praefectum Armeniae
+                    Oronten, omnibusque victis decesserit filio successore Ocho. Is deinde occisis
+                    optimatibus Sidona cepit: Aegypto bellum ter intulit. Vt post mortem Ochi
+                    regnarit Arses, deinde Darius, qui cum Alexandro Macedonum rege bello
+                    conflixit.<lb/></p>
+            </div>
+            <div type="pr" n="pr XI">
+                <head> PROLOGVS LIBRI XI </head>
+                <p><lb/>Vndecimo volumine continentur res gestae Alexandri Magni usque ad interitum
+                    regis Persarum Darii, dictaeque in excessu origines et reges Cariae.<lb/></p>
+            </div>
+            <div type="pr" n="pr XII">
+                <head> PROLOGVS LIBRI XII </head>
+                <p><lb/>Duodecimo volumine continentur Alexandri magni bella Bactriana et Indica
+                    usque ad interitum eius, dictaeque in excessu res a praefecto eius Antipatro in
+                    Graecia gestae, et ab Archidamo, rege Lacedaemoniorum, Molossoque Alexandro in
+                    Italia, quorum ibi est uterque cum exercitu deletus. Additae his origines
+                    Italicae, Apulorum, Lucanorum, Samnitium, Sabinorum, et ut Zopyrion in Ponto cum
+                    exercitu periit.<lb/></p>
+            </div>
+            <div type="pr" n="pr XIII">
+                <head> PROLOGVS LIBRI XIII </head>
+                <p><lb/>Tertio decimo volumine continentur haec. Vt mortuo Alexandro optimates
+                    castrorum eius provinciarum imperia sint partiti; ut veterani, qui ab eodem
+                    lecti erant in colonias, moliti relictis illis in Graeciam redire a Pithone sint
+                    deleti. Bellum Lamiacum, quod Antipater in Graecia gessit. Bellum quo Perdiccas
+                    regem Ariarathem occidit; <supplied>ut</supplied> occisus est. Bellum quo
+                    Eumenes Neoptolemum et Crateron occidit. Additae in excessu origines regesque
+                    Quirenarum.<lb/></p>
+            </div>
+            <div type="pr" n="pr XIV">
+                <head> PROLOGVS LIBRI XIV </head>
+                <p><lb/>Quarto decimo volumine continentur haec. Bellum inter Antigonum et Eumenen
+                    gestum: quem ut Cappadocia expulit Antigonus, sic Phrygia minore Arridaeum et
+                    Cliton victos in Hellesponto navali bello. Repetitum rursus bellum ab Eumene per
+                    Argyraspidas; quo victus ab Antigono interiit. Vt in Macedonia Cassander victo
+                    Polyperchonte receptaque a Nicanore Munychia matrem Alexandri Olympiada Pydnae
+                    obsessam interfecit.<lb/></p>
+            </div>
+            <div type="pr" n="pr XV">
+                <head> PROLOGVS LIBRI XV </head>
+                <p><lb/>Quinto decimo volumine continentur haec. Vt Demetrius Antigoni filius Gazae
+                    victus est ab Ptolomaeo. Vt Cassander in Macedonia filium Alexandri regis
+                    interfecit, ac alterum Polyperchon. Vt Cypro Ptolomaeum vicit classe Demetrius
+                    idemque ab obsidione Rhodi summotus est. Repetita in excessu origo Rhodiorum:
+                    unde digressus Demetrius liberavit a Cassandro Graeciam. Dein pater eius
+                    Antigonus bellum cum Lysimacho et Seleuco habuit. Repetitaeque Seleuci res et
+                    regis Indiae Sandrocotti. Vt victus bello Antigonus interiit reliquiaeque
+                    imperii sunt a filio collectae. Cleonymi deinde Spartani res gestae Corcyrae et
+                    Illyrico et in Italia, cui ablata Corcyra. Rex Cassander interiit.<lb/></p>
+            </div>
+            <div type="pr" n="pr XVI">
+                <head> PROLOGVS LIBRI XVI </head>
+                <p><lb/>Sexto decimo volumine continentur haec. Vt mortuo Cassandro ortisque inter
+                    filios eius certaminibus Demetrius adiutor alteri adhibitus occiso eo Macedoniae
+                    regnum tenuit: quo mox evictus a Pyrro Epiri rege, translatis in Asiam bellis
+                    captus a Seleuco decessit. Vt Ptolomaeus nuncupato successore filio Philadelpho
+                    decessit. Vt Lysimachus in Ponto captus ac missus a Dromichaete rursus in Asia
+                    civitates, quae sub Demetrio fuerant, et in Ponto Heracleam occuparit. Repetitae
+                    inde Bithyniae et Heracleoticae origines, tyrannique Heracleae Clearchus et
+                    Satyrus et Dionysius, quorum filiis interfectis Lysimachus occupavit
+                    urbem.<lb/></p>
+            </div>
+            <div type="pr" n="pr XVII">
+                <head> PROLOGVS LIBRI XVII </head>
+                <p><lb/>Septimo decimo volumine continentur haec. Vt Lysimachus occiso filio
+                    Agathocle per novercam Arsinoen bellum cum rege Seleuco habuit, quo victus
+                    interiit: ultimumque certamen conmilitonum Alexandri fuit. Vt Seleucus amissis
+                    in Cappadocia cum Diodoro copiis interfectus est ab Ptolomaeo fratre Arsinoes
+                    uxoris Lysimachi, in cuius vicem Ptolomaeus cognomine Ceraunus creatus ab
+                    exercitu rex Macedoniam occupavit; bella cum Antiocho et Pyrro conposuit, datis
+                    Pyrro auxiliis, quibus iret contra Romanos defensum Tarentum. Inde repetitae
+                    origines regum Epiroticorum usque ad Pyrrum, ipsiusque Pyrri res gestae
+                    priusquam in Italiam traiecit.<lb/></p>
+            </div>
+            <div type="pr" n="pr XVIII">
+                <head> PROLOGVS LIBRI XVIII </head>
+                <p><lb/>Octavo decimo volumine continentur res a Pyrro Epirota in Italia gestae
+                    contra Romanos, postque id bellum transitus eius in Siciliam adversus
+                    Carthaginenses. Inde origines Phoenicum et Sidonos et Veliae Carthaginisque res
+                    gestae in excessu dictae.<lb/></p>
+            </div>
+            <div type="pr" n="pr XIX">
+                <head> PROLOGVS LIBRI XIX </head>
+                <p><lb/>Vndevicensimo volumine continentur res Carthaginensium in Africa per
+                    Sabellum Annonem gestae et in Sicilia, cum Selinuntem et Agragantum et Camerinam
+                    et Gelam ceperunt; quo bello Dionysius Syracusanus Siciliae regnum occupavit.
+                    Bellum, quod cum eo Poeni per Himilconem gesserunt, qui obsidione Syracusarum
+                    exercitum et classem amisit.<lb/></p>
+            </div>
+            <div type="pr" n="pr XX">
+                <head> PROLOGVS LIBRI XX </head>
+                <p><lb/>Vicensimo volumine continentur res gestae Dionysii Siculi patris. Vt pulsis
+                    Poenis Italica bella sit molitus. Inde repetitae origines Venetorum et Graecorum
+                    et Gallorum, qui Italiam incolunt. Deductisque Dionysii rebus ad interitum eius
+                    dictae quas Anno magnus in Africa gessit.<lb/></p>
+            </div>
+            <div type="pr" n="pr XXI">
+                <head> PROLOGVS LIBRI XXI </head>
+                <p><lb/>Vno et vicensimo volumine continentur haec. Vt in Sicilia Dionysius filius a
+                    patre amissum tractarit imperium. Per <supplied>Dionem</supplied> Dionysius
+                    eiectus bellum cum Siculis gessit, donec amissis liberis et fratribus Corinthum
+                        <supplied>abiit</supplied>. Vt a Timoleonte Carthaginensium bello sit
+                    liberata Sicilia mortuoque Sosistratus iterum facta seditione arcessitique a
+                    bello Carthaginenses obsederunt Syracusas. Quo bello Agathocles nanctus imperium
+                    est.<lb/></p>
+            </div>
+            <div type="pr" n="pr XXII">
+                <head> PROLOGVS LIBRI XXII </head>
+                <p><lb/>Secundo et vicensimo volumine continentur haec. Res gestae Agathoclis: ut a
+                    Poenis nanctus imperium bellum cum ipsis gessit, primum in Sicilia; dehinc
+                    victus traiecit in Africam, ubi possessa provincia Ophellam regem Cyrenarum
+                    interfecit. Vt rursus in Siciliam reversus, occupata totius insulae dominatione,
+                    cum revertisset in Africam, amissis copiis solus inde profugit in Siciliam,
+                    belloque ibi repetitus et cum Poenis pacem conposuit et dissidentes a se Siculos
+                    subiecit.<lb/></p>
+            </div>
+            <div type="pr" n="pr XXIII">
+                <head> PROLOGVS LIBRI XXIII </head>
+                <p><lb/>Tertio et vicensimo volumine continentur haec. Vt Agathocles domita Sicilia
+                    bellum in Italia Bruttiis intulit. Repetitae inde Bruttiorum origines. Omnibus
+                    subactis rex seditione filii exheredati ac nepotis oppressus interiit. Inter
+                    peregrinos deinde milites eius et Siculos bellum motum, quae causa Pyrrum, regem
+                    Epiri, in Siciliam adduxit. Bella quae Pyrrus cum Poenis et Mamertinis ibi
+                    gessit et a Sicilia reversus in Italiam victusque proelio a Romanis revertit
+                    Epirum.<lb/></p>
+            </div>
+            <div type="pr" n="pr XXIV">
+                <head> PROLOGVS LIBRI XXIV </head>
+                <p><lb/>Quarto et vicensimo volumine continentur haec. Bellum quod inter Antigonum
+                    Gonatam et Antiochum Seleuci filium in Asia gestum est. Bellum, quod Ptolomaeus
+                    Ceraunus in Macedonia cum Monunio Illyrio et Ptolomaeo Lysimachi filio habuit,
+                    utque Arsinoen sororem suam imperio Macedonicarum urbium exuit, ipse cum Belgio
+                    Gallorum duce congressus interiit. Repetitae inde Gallorum origines qui
+                    Illyricum occuparunt; atque ut ingressi Graeciam Brenno duce Delphis victi
+                    deletique sint.<lb/></p>
+            </div>
+            <div type="pr" n="pr XXV">
+                <head> PROLOGVS LIBRI XXV </head>
+                <p><lb/>Quinto et vicensimo volumine continentur haec. Vt Antigonus Gallos delevit,
+                    deinde cum Apollodoro, Cassandreae tyranno, bellum habuit. Vt Galli transierunt
+                    in Asiam bellumque cum rege Antiocho et Bithunia gesserunt: quas regiones Tyleni
+                    occuparunt. Vt Pyrrus ex Italia reversus regno Macedoniae Antigonum exuerit,
+                    Lacedaemona obsederit, Argis interierit; filiusque eius Alexander Illyricum cum
+                    rege Mitylo bellum habuerit.<lb/></p>
+            </div>
+            <div type="pr" n="pr XXVI">
+                <head> PROLOGVS LIBRI XXVI </head>
+                <p><lb/>Sexto et vicensimo volumine continentur haec. Quibus in urbibus Graeciae
+                    dominationem Antigonus Gonatas constituerit. Vt defectores Gallos Megaris
+                    delevit regemque Lacedaemonium Area Corinthi interfecit, dehinc cum fratris sui
+                    Crateri filio Alexandro bellum habuit. Vt princeps Achaiae Aratus Sicuonem et
+                    Corinthum et Megara occuparit. Vt in Syria rex Antiochus cognomine Soter altero
+                    filio occiso, altero rege nuncupato Antiocho decesserit. Vt in Asia filius
+                    Ptolomaei regis socio Timarcho desciverit a patre. Vt frater Antigoni Demetrius
+                    occupato Cyrenis regno interiit. Vt mortuo rege Antiocho filius eius Seleucus
+                    Callinicus regnum acceperit.<lb/></p>
+            </div>
+            <div type="pr" n="pr XXVII">
+                <head> PROLOGVS LIBRI XXVII </head>
+                <p><lb/>Septimo et vicensimo volumine continentur haec. Seleuci bellum in Syria
+                    adversus Ptolomaeum Tryphonem: item in Asia adversus fratrem suum Antiochum
+                    Hieracem, quo bello Ancurae victus est a Gallis: utque Galli Pergamo victi ab
+                    Attalo Zielan Bithunum occiderint. Vt Ptolomaeus Adaeum denuo captum
+                    interfecerit, et Antigonus Andro proelio navali Sophrona vicerit. Vt a Callinico
+                    fusus in Mesopotamia Antiochus insidiantem sibi effugit Ariamenen, dein postea
+                    custodes Tryphonis; quo a Gallis occiso Seleucus quoque frater eius decessit,
+                    maioremque filiorum eius Apaturius occidit.<lb/></p>
+            </div>
+            <div type="pr" n="pr XXVIII">
+                <head> PROLOGVS LIBRI XXVIII </head>
+                <p><lb/>Octavo et vicensimo volumine continentur haec. Vt mortuo rege Epiri
+                    Alexandro Laodamiam Epirotae occiderint. Dictique in excessu Basternici motus.
+                    Vt rex Macedoniae Demetrius sit a Dardanis fusus: quo mortuo tutelam filii eius
+                    Philippi suscepit Antigonus, qui Thessaliam et in Asia Cariam subiecit et
+                    adiutis Achaeis contra regem Spartanum Cleomenem cepit Lacedaemona: amissoque
+                    regno Cleomenes Spartanus confugit Alexandriam atque ibi interiit. Dictum in
+                    excessu bellum Illyricum quod Romani gessere cum Teuta.<lb/></p>
+            </div>
+            <div type="pr" n="pr XXIX">
+                <head> PROLOGVS LIBRI XXIX </head>
+                <p><lb/>Vndetricensimo volumine continentur haec. Res gestae Philippi regis adversus
+                    Dardanos et Aetolos. Repetitaeque inde Creticae origines; post cuius insulae
+                    societatem Philippus cum Illyriis et Dardanis et rursus Aetolis bello congressus
+                    est adiuvantibus Aetolos Romanis: quo finito intulit Attalo bellum.<lb/></p>
+            </div>
+            <div type="pr" n="pr XXX">
+                <head> PROLOGVS LIBRI XXX </head>
+                <p><lb/>Tricensimo volumine continentur haec. Vt mortuo Ptolomaeo Tryphone filius
+                    eius Philopator Antiochum regem vicit Raphiae, ipse amore Agathocleae corruptus
+                    decessit relicto filio pupillo, in quem cum Philippo rege Macedonum consensit
+                    Antiochus. Philippi deinde gesta in Asia, cum movisset Attalo bella: a quibus
+                    reversus bellum habuit cum ducibus Romanis Sulpicio et Flaminino, a quibus
+                    victus; pax. Transitus deinde ad res Antiochi, qui post regnum acceptum
+                    persecutus defectores in Mediam Molonem, in Asiam Achaeum, quem obsedit
+                    Sardibus, pacata superiore Asia Bactris tenus in bella Romana
+                    descendit.<lb/></p>
+            </div>
+            <div type="pr" n="pr XXXI">
+                <head> PROLOGVS LIBRI XXXI </head>
+                <p><lb/>Vno et tricensimo volumine continentur haec. Bellum, quod cum Lacedaemonio
+                    Nabide Titus Flamininus et Philopoemen dux Achaeorum gessit. Item bellum, quod
+                    cum Antiocho in Achaia per Acilium consulem, et in Asia per Scipionem gestum
+                    est, denique Hannibalis ad regem a Carthagine fuga. Bellum cum Aetolis gestum
+                    per eundem Acilium, qui Antiochum Graecia expulerat.<lb/></p>
+            </div>
+            <div type="pr" n="pr XXXII">
+                <head> PROLOGVS LIBRI XXXII </head>
+                <p><lb/>Secundo et tricensimo volumine continentur haec. Defectio ab Achaeis
+                    Lacedaemoniorum et Messeniorum, qua Philopoemen interiit. Romanorum in Asia duce
+                    Manlio adversus Gallos bellum. Regis Philippi propter ablatas sibi civitates
+                    alienatus in Romanos animus, et ob hoc alter filiorum Demetrius occisus,
+                    concitatique ab eo Basternae transire conati in Italiam. Inde in excessu dictae
+                    res Illyricae: ut Galli, qui occuparant Illyricum, rursus redierunt in Galliam:
+                    originesque Pannoniorum et incrementa Dacorum per Burobusten regem. In Asia
+                    bellum ab rege Eumene gestum adversus Gallum Ortiagontem, Pharnacem Ponticum et
+                    Prusian, adiuvante Prusian Hannibale Poeno. Res gestae Hannibalis post victum
+                    Antiochum et mors. Mortuo Seleuco filio magni Antiochi successit regno frater
+                    Antiochus.<lb/></p>
+            </div>
+            <div type="pr" n="pr XXXIII">
+                <head> PROLOGVS LIBRI XXXIII </head>
+                <p><lb/>Tertio et tricensimo volumine continentur haec. Vt cum Perse Philippi filio,
+                    rege Macedonum, Romani bellum gesserint: quo capto deleta est Epiros. Achaicae
+                    civitates ab unitate corporis deductae, inter Achaeos et Lacedaemonios certamine
+                    orto. Bellum rursus in Macedonia gestum a Romanis cum Pseudophilippo.<lb/></p>
+            </div>
+            <div type="pr" n="pr XXXIV">
+                <head> PROLOGVS LIBRI XXXIV </head>
+                <p><lb/>Quarto et tricensimo volumine continentur haec. Bellum Achaicum, quod Romani
+                    per Metellum et Mummium gessere, quo diruta est Corinthos. Bellum regis Eumenis
+                    cum Gallograecis et in Pisidia cum Selegensibus. Res quas gessit Syriae rex
+                    Antiochus, et rex Aegypti Ptolomaeus Epiphanes. Vt mortuo Ptolomaeo relicti ab
+                    eo filii duo Philometor et Euergetes primum cum Antiocho habuere bellum, quod
+                    per Romanos finitum est, deinde inter se, quo maior est expulsus, restitutoque
+                    Romani inter fratres regna diviserunt. Vt mortuo Antiocho rege Syriae Demetrius
+                    cognomine Soter, qui Romae fuerat obses, clam fugit occupataque Syria bellum cum
+                    Timarcho Medorum rege habuit <supplied>et</supplied>> Ariarathe rege Cappadocum.
+                    Repetitae inde origines regum Cappadocum. Vt habita inter Ariarathen et
+                    Orophernem regni certamina. Vt mortuo rege Asiae Eumene suffectus Attalus bellum
+                    cum Selegensibus habuit et cum rege Prusia.<lb/></p>
+            </div>
+            <div type="pr" n="pr XXXV">
+                <head> PROLOGVS LIBRI XXXV </head>
+                <p><lb/>Quinto et tricensimo volumine continentur haec. Bellum piraticum inter
+                    Cretas et Rhodios; seditio Cnidiorum adversus Ceramenses. Vt adversus Demetrium
+                    Sotera subornatus est Alexander tamquam genitus Epiphane Antiocho, quo bello
+                    uictus Demetrius <supplied>interiit. Vt deinde maior filiorum eius
+                        Demetrius</supplied> invisum stultitia Alexandrum bello vicit adiuvante
+                    Ptolomaeo Philometore, qui eo bello interiit. Vt deinde orta Demetrio bella sint
+                    cum Diodoto Tryphone expulsusque a Tryphone regno Syriae Demetrius. Repetit inde
+                    superioris Asiae motus factos per Araetheum et Arsacen Parthum.<lb/></p>
+            </div>
+            <div type="pr" n="pr XXXVI">
+                <head> PROLOGVS LIBRI XXXVI </head>
+                <p><lb/>Sexto et tricensimo volumine continentur haec. Vt Trypho pulso Syria
+                    Demetrio captoque a Parthis bellum gessit cum fratre eius Antiocho cognomine
+                    Sidete. Vt Antiochus interfecto Hyrcano Iudaeos subegit. Repetita inde in
+                    excessu origo Iudaeorum. Vt rex Asiae Attalus Caenos Thracas subegit
+                    successoremque imperii Attalum Philometora reliquit. Mortuo denique Philometore
+                        <supplied>rege frater eius Aristonicus</supplied> regno Asiae occupato
+                    bellum cum Romanis gessit, quo captus est.<lb/></p>
+            </div>
+            <div type="pr" n="pr XXXVII">
+                <head> PROLOGVS LIBRI XXXVII </head>
+                <p><lb/>Septimo et tricensimo volumine continentur haec. Repetitis regum Ponticorum
+                    originibus, ut <supplied>ad</supplied> ultimum Mithridaten Eupatora series
+                    imperii deducta sit, atque ut ingressus ille regnum subegit Pontum et
+                    Paphlagoniam, priusquam in bella Romana descendit. Dictaeque in excessu regum
+                    Bosporanorum et Colchorum origines et res gestae.<lb/></p>
+            </div>
+            <div type="pr" n="pr XXXVIII">
+                <head> PROLOGVS LIBRI XXXVIII </head>
+                <p><lb/>Octavo et tricensimo volumine continentur haec. Vt Mithridates Eupator
+                    occiso Ararathe Cappadociam occuparit victoque Nicomede et Maltino Bithyniam. Vt
+                    mortuo Ptolomaeo Philometore frater eius Physcon accepto regno Aegypti
+                    seditiones populi, deinde bellum cum uxore sua Cleopatra et cum rege Syriae
+                    Demetrio habuit. Inde repetitum, ut Demetrius captus sit a Parthis et frater
+                    eius victo in Syria Tryphone bellum Parthis intulerit, qui cum exercitu suo
+                    deletus est.<lb/></p>
+            </div>
+            <div type="pr" n="pr XXXIX">
+                <head> PROLOGVS LIBRI XXXIX </head>
+                <p><lb/>Nono et tricensimo volumine continentur haec. Vt extincto a Parthis Antiocho
+                    Sidete frater eius Demetrius dimissus regnum Syriae recepit subornatoque in
+                    bellum adversus eum Alexandro Zabineo interiit: filiusque eius Antiochus Grypos
+                    victo Zabinaeo regnum occupavit: dehinc cum fratre suo Antiocho Cyziceno bellum
+                    in Syria Ciliciaque gessit. Vt Alexandria mortuo rege Ptolomaeo Physcone filius
+                    eius Ptolomaeus Lathyros accepto regno expulsus est a matre Cyprum et in Syria
+                    bello petitus ab eadem, suffecto in locum eius fratre Alexandro, donec occisa
+                    per Alexandrum matre recepit Aegypti regnum. Vt post Lathyrum filius Alexandri
+                    regnarit expulsoque eo suffectus sit Ptolomaeus Nothus. Vt Syriam Iudaei et
+                    Arabes terrestribus latrociniis infestarint, mari Cilices piraticum bellum
+                    moverint, quod in Cilicia Romani per Marcum Antonium gesserunt. Vt in Syria
+                    Heracleo post mortem regis occuparit imperium.<lb/></p>
+            </div>
+            <div type="pr" n="pr XL">
+                <head> PROLOGVS LIBRI XL </head>
+                <p>
+                    <lb/>Quadragensimo volumine continentur haec. Vt mortuo Grypo rege Cyzicenus cum
+                    filiis eius bello congressus interiit, hi deinde a filio Cyziceni Eusebe
+                        <supplied>extincti sunt: et ut repetito domestico bello</supplied>
+                    extinctaque regum Antiochorum domo Tigranes Armenius Syriam occupavit, quo mox
+                    victo Romani abstulere eam. Vt Alexandriam post interitum Ptolomaei Lathyri
+                    substituti sint eius filii: alteri data Cypros, cui P. Clodii rogatione Romani
+                    abstulerunt eam; alter seditione flagitatus Alexandriae Romam profugit belloque
+                    per Gabinium gesto recepit imperium: quo mortuo successit filius, qui cum sorore
+                    Cleopatra certamine insumpto et Pompeium magnum interfecit et bellum cum Caesare
+                    Alexandriae gessit. Vt successit eius regno soror Cleopatra, quae inligato in
+                    amorem suum M. Antonio belli Actiaci fine extinxit regnum Ptolomaeorum.<lb/>
+                </p>
+            </div>
+            <div type="pr" n="pr XLI">
+                <head> PROLOGVS LIBRI XLI </head>
+                <p><lb/>Vno et quadragensimo volumine continentur res Parthicae et Bactrianae. In
+                    Parthicis ut est constitutum imperium per Arsacem regem. Successores deinde eius
+                    Artabanus et Tigranes cognomine Deus, a quo subacta est Media et Mesopotamia.
+                    Dictusque in excessu Arabiae situs. In Bactrianis autem rebus ut a Diodoto rege
+                    constitutum imperium est: deinde quo repugnante Scythicae gentes, Saraucae et
+                    Asiani, Bactra occupavere et Sogdianos. Indicae quoque res additae, gestae per
+                    Apollodotum et Menandrum, reges eorum.<lb/></p>
+            </div>
+            <div type="pr" n="pr XLII">
+                <head> PROLOGVS LIBRI XLII </head>
+                <p><lb/>Secundo et quadragensimo volumine continentur Parthicae res. Vt praefectus
+                    Parthis a Phrate Himerus Mesenis bellum intulit et in Babylonios et Seleucenses
+                    saeviit: utque Phrati successit rex Mithridates cognomine magnus, qui Armeniis
+                    bellum intulit. Inde repetitae origines Armeniorum et situs. Vt varia conplurium
+                    regum in Parthis successione imperium accepit Orodes, qui Crassum delevit et
+                    Syriam per filium Pacorum occupavit. Illi successit Phrates, qui et cum Antonio
+                    bellum habuit et cum Tiridate. Additae his res Scythicae. Reges Tocharorum
+                    Asiani interitusque Saraucarum.<lb/></p>
+            </div>
+            <div type="pr" n="pr XLIII">
+                <head> PROLOGVS LIBRI XLIII </head>
+                <p><lb/>Tertio et quadragensimo volumine continentur origines priscorum Latinorum,
+                    situs urbis Romae et res usque ad Priscum Tarquinium. Origines deinde Liguriae
+                    et Massiliensium res gestae.<lb/></p>
+            </div>
+            <div type="pr" n="pr XLIV">
+                <head> PROLOGVS LIBRI XLIV </head>
+                <p><lb/>Quarto et quadragensimo volumine continentur res Hispaniae et Punicae.<lb/>
+                </p>
+            </div>
+        </body>
+    </text>
+
+</TEI>

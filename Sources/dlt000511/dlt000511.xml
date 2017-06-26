@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Expositionis membrorum epitome anonyma altera uberior</title>
+    <author>Vindicianus</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Chiara Miglietta</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2016</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000511</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Theodori Prisciani Euporiston libri III, cum physicorum fragmento et additamentis pseudoTheodoreis</hi>, editi a Valentino Rose; accedunt Vindiciani Afri quae feruntur reliquiae Lipsiae 1894, pp. 467-483 (Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana).</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    <p><hi rend="bold">Modifiche apportate al testo dell'edizione di riferimento </hi></p>
+    <p>Sono stati corretti i seguenti errori di stampa: cap. 1 "nervos." in "nervos,"; "hcondro" in "chondro"; cap. 13 "quaqne" in "quaque"; cap. 17 "prsssura" in "pressura"; cap. 35 "sanguius" in "sanguis"; cap. 36 "XXXXVI" in "XXXVI".</p>
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+   <charDecl>
+    <char xml:id="char1">
+     <charName>in apice</charName>
+     <desc>or in apice</desc>
+    </char>
+   </charDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div type="cap" n="1"><p>Quibus articulis quibus commissuris quibus ossibus venis vel nervis vel compaginibus omnium membrorum constet homo. Ex rebus XIIII, id est nervos, venas, arterias, ossa, sanguine, spiritu, pulpa, alape, ossa tenera que chondro vocantur, unguis, humorem, capillos, medulla, membrana. Ex his omnibus componitur homo. Sensus in nobis sunt V, visus auditus gustus odoratus et tactus. </p></div>
+   
+   <div type="cap" n="2"><head>II, <hi rend="italic">De caput.</hi></head><p>
+    Caput nostrum commissuras habet V, in masculis arteriis continentes X, feminis vero in circuitum. Vnde agnoscitur calvariae feminum quod greci dicunt novadina, quod coherit membrano, cui superposita est cutis. </p></div>
+   
+   <div type="cap" n="3"><head>III. <hi rend="italic">De cerebrum</hi>.</head><p>
+    Cerebrum est medulla capitis copiosis teneribus tenuisque inplicitum venolis. Quod multum copiosius habemus quam reliqua animalia, ideoque omnibus illis sapientiores sumus, fistulas plus habendo unde intellectus nobis advenit, visus auditus odoratus et gustus. Tota enim pene vacua sunt, vacuetates cerebro replentur, quod protegitur membrano. Cuius membrani radices ex ipsius cerebri corpus incipiunt. Cerebrum autem semper sui commovens sensum, ideoque salire non cessat. Cuius motus si crebrior fuerit, insaniam solet excitare. Vnde dicimus eos cerebrum habere motum. </p></div>
+   
+   <div type="cap" n="4"><head>IIII. <hi rend="italic">De capillis</hi>.</head><p>
+    Capilli nostri non solum propter ornatum, sed etiam propter munitionem cerebri facti sunt. Huic calvarie subiacent tempora. Que continentur spiritalibus venis cerebri. Dextra levaque semper moventur. Hisque superposita sunt cilia. </p></div>
+   
+   <div type="cap" n="5"><head>V. <hi rend="italic">De oculis</hi>.</head><p>
+    Rursum ex eodem cerebri membrano velut fistule duae transversis partibus commiscentur ad sedem luminum, ubi coniunguntur oculi qui continentur cum domo. Ex vase cerebri hoc sunt ventris cerbelli duo foramina oriuntur, per quas singule radices tenuissime pene de parte dextra in sinistra et de sinistra in dextra bulbi oculorum continentur. Quorum radices in cerebro conligantur, ut si cereber vexatur oculi egrotabunt. Habent autem in osso ipso concavo ubi ponuntur fistolas tres pegerante et rizoptalmon. Sunt autem in oculis mappas vel tonicas quatuor, quod greci chitonas vocant. Prima ciratoidis et cristalloides et meroides, secunda aragnoides, tertia haloides vel fagoides, quarta metroides vel trizepies. Hi multis nominibus appellantur. Alii dicunt humorem inflatum visum nobis reddere. Dominantur autem in oculis nostris humores tres, id est salsus gelidus frigidus. De his <hi rend="italic">in obtalmicum librum</hi> latius scripsimus. </p></div>
+   
+   <div type="cap" n="6"><head>VI. <hi rend="italic">De aures</hi>.</head><p>
+    Aurium nostrorum duae iterum fistule dextra levaque ex eodem membrano incidente iunguntur ossibus auriumque ossa beloniade appellantur, ultime partes aurium in quibus repercussa vox intellecto ipso membrano cerebri remittit. </p></div>
+   
+   <div type="cap" n="7"><head>VII. <hi rend="italic">De naribus</hi>.</head><p>
+    Duae rursus fistule ex mediae partis cerebri usque ad summas cartelagines narium procedunt, sub quibus tenues unica singularis subtus palatum usque defertur. Que foramina duo exeunt in facie, qui ventositate foras emittunt, quas greci rothonas appellant id est nares. </p></div>
+   
+   <div type="cap" n="8"><head>VIII. <hi rend="italic">De cervice</hi>.</head><p>
+    Vna vero fistola tensa atque robusta cum parte quadam cerebri per medium cervicis sfondilos defertur iungiturque medullo spine, ex quo toto corpore sensus qui tactum manibus vel pedibus prestat intellectus. Quod sunt vene gutture maioris quas sanguinales vocamus. Quattuor, due, que organa dicuntur, et due, a visceribus venientes subposita oculis, quas genas vocamus, quibus coherit palatum. </p></div>
+   
+   <div type="cap" n="9"><head>VIIII. <hi rend="italic">De dentibus</hi>.</head><p>
+    Dentes vero nostri sunt XXXII, femineum et duribarbium aliquorum XXX. Omnia enim ossa fracta curantur et evulsa ad locum revocantur, dentes autem nostri nullo modo. </p></div>
+   
+   <div type="cap" n="10"><head>X. <hi rend="italic">De labia</hi>.</head><p>
+    Labia nostra sunt membrana venosa, que adsidue et incessanter <del>omnibus temporibus</del> moventur. </p></div>
+   
+   <div type="cap" n="11"><head>XI. <hi rend="italic">De lingua</hi>.</head><p>
+    Lingua nostra radix adimplet faucium loca natura musculosa, duplice contexta naembrano, cui si cerebri ac visceribus fuerit austio febrium, statim asperior fit. </p></div>
+   
+   <div type="cap" n="12"><head>XII. <hi rend="italic">De palato</hi>.</head><p>
+    Palatum a quibusdam dicitur hyperoa vel uranis que est super dentes. Vranus asperior est. Hyperoa autem dicitur qui est interius, ubi pendet uva ut camere lenitate. </p></div>
+   
+   <div type="cap" n="13"><head>XIII. <hi rend="italic">De uva</hi>.</head><p>
+    In eodem loco pendet uva, que est natura lubricosa. Nobis ipsis summa quidem humorem prestat ciborum devorationem vel sonum vocis, conplurima habens foramina tenuissima ut aco puncta. Veluti mammillis mulierum emanans lac, sic et ipsa dimittit humorem interius viscerum sive pulmonum circa palatum, ubi superiacet uva circa radicem linguae. Cuius radix cooperit canalem et stomachum petauro simile, que utrisque canales modo claudit modo aperit. Aperit autem spiritalem quando loquimur, cludit autem cum manducamus. Hoc in nobis sentimus, quando casu aliquo cibi vel potus in ea parte inrepserit. Huic ergo lingue dextra levaeque tunselli sunt positi. Quod autem superpendens illis, superpendens autem circa alios canales, unum quaque cibo vel potione stomacho defertur, qui epeglosin continet spiritalem qui dicitur gurdia. Alius autem qui deretro iungitur spine, qui stomacho membrano dicitur coniunctum esse gurgulione et pulmone. </p></div>
+   
+   <div type="cap" n="14"><head>XIIII. <hi rend="italic">De faucibus</hi>.</head><p>
+    Due adhuc fistule tenuis exeunt sub ipsis faucibus, et iunguntur arteriis solidis cartelaginosis, quas greci fagiditas appellant. Quarum hime partes pulmonibus merguntur, summe eius usque ad epiglosidam adsurgunt. </p></div>
+   
+   <div type="cap" n="15"><head>XV. <hi rend="italic">De epiglosis</hi>.</head><p>
+    Epiglosis est autem lingua minus super palatum posita, que quotiens inspiramus excluditur. Singule enim partes suas potui vel cibi trahunt. Ergo due arterie dextra levaque gurgulionem tenent, que semper infatigabile meatu spiritum modo trahunt recedentes a se, modo calefactum remittunt. </p></div>
+   
+   <div type="cap" n="16"><head>XVI. <hi rend="italic">De pulmone</hi>.</head><p>
+    Pulmo autem qui suprascripto spiritu per arterias recipit in duas deductas fibras iacet in toracis spatia colore cinerio duas fibras habens more ungule bubuli fissus, ut sfungia habens similitudinem. Multis enim e vacuetatibus ducitur et intervallatur. Ideo in se recipiendi spiritus habet potestatem. </p></div>
+   
+   <div type="cap" n="17"><head>XVII. <hi rend="italic">De stomacho</hi>.</head><p>
+    Nam ibi circa pulmonem stomachus ventre coniunctus est inter duas fibras hoc sunt pinnas pulmonum. Sunt autem IIII. Nam foramina sunt in eis XIIII, quas greci brocias vocant. Nam hoc quod loquimur pulmo prestat. Vbi enim per fistulas id est per arterias repletus spiritus inflavit fibras rursusque in se recepit, ut aput fabros folles solent spiritum trahere modo receptum exprimere, per angusto spatio ictu suo sanguinem sonumque inpulsu suo faciens excautatur usque in epiglosidem, nec tamen plus quam quinque voces intellegit epigloside, quo sono vocales appellamus. Quare spumosa excreamus? Quia pressura pulmonum per inquietas vias transfigurando expressus humor spumat, et intimus calor nostri materiae hoc est humor exaustus veluti in nobis in caput refert. Quem partium officium aut sorte recipiunt, siccis locis temperant, lacrimam muccum vel salivam.</p>
+    <p><hi rend="italic">Stomachum</hi> autem nostrum, qui dominium totius corporis possidet, alimenta digerit. Per quem famem sitimque sentimus, medio nervosus, dextra levaque vene sanguis. Positus est autem inter ambas partes scapularum intra vertebram septima cervices, inter duas arterias similis intestino, plenior quidem. Atque rotundis constat tuniculis, duabusque exasperate tarde resedunt. Vulnera mortem inferunt, quia cicatricem non deducunt. Positio illius una parte angustior in summo est mammillo defusior. Acceptus enim cibus paululum sedit, donec quod subtilissimum fuerit in alimentum dispensetur. Tunc quod supervacuum atque exutum sic in ventrem dimittit. Ille ergo cum digesserit, esurire nos cogit. Simul dum accepta esca dispensaverit, bilem excitat, quem admodum faucibus inspirare solet. Modo acidior infundere conponimus, ut dixi, adstomachi arbitrium. Ad illius voluntatem corpus autem testimonio honoretur. Illud etiam frequenter vidimus, quibus stomachus in causa fuerit, barbe eius celerius crescere solent. Sed <hi rend="italic">non puto ego</hi>. Illud tamen veritate magisterium erit, ut cum stomachus alicuius bilia receperit, necesse est ut habeat totum corpus secundum infirmitatem domini aut ariguendum. Tunc itaque succidentem aciem quos incontexerat decrescendo uti texerit capillus, videlicet non barbe illius prodierunt, sed caribarba subsedit. Nunc denique pellentes ad stomachum cibum et potio deducuntur, adpromtione faucium. Qui stomachus principatum habet faucium. Incipiens a gutture adsurgit quod claudat, nec aperiendi potestatem habet. Unde per totum consortium cartelagibus contexitur. Que in se reducendo ideo volit, et revertens secundum occupatus deiciet cibus et sua pressura. <hi rend="italic">Quidam medici</hi> putant per unam partem in stomachum ferre potionem et per aliam cibum. Abeo autem omnes materias ciborum vel potus per unicum canalem deferre. Et turminosis se multa adiutoria per potionem datam profuerunt, quia et illic descenderat, quo et cibi pervenerant. Cauculosis vero estrangilosisque atque hydropicis per cibos medicamina iubant. Ex quo manifeste colligitur uno itinere cibum potumque deferre. Illud tamen interest quod cibi tardius, humores celerius deferuntur. Ideoque suavior est sitienti potum quam esurienti cibum, quoniam poto adversa sumitur cibi dispensatio frangit moram. Suavior est enim cuius voluntas statim intellegitur quam quod mora estimatur. </p></div>
+   
+   <div type="cap" n="18"><head>XVIII. <hi rend="italic">De corde</hi>.</head><p>
+    Cor autem nostrum inter duas pulmonis fibrasque est natura maculosus et musculosus, protegitur membrano, habens in circuitu membrana velut castra, in quo adsidue movetur. Inde et respiratio nascitur cingens extremas partes pulmonis. Vocatur autem greci cardean et uracos. Figuram autem habet ut nucli pinium, in circuitu grossitudinis sui alapem naturalem qui eum calefacit. Acumen autem eius inclinatur sinistro mammillo. Duas aures habet, ubi mens hominum animusque commoratur. Vnde quicquid nobis iudicii est, venit per ipsas cordis aures, omnis et cogitatio extollit et omnis erigitur tumulos. Que igitur hominis corporis partes que principium possident habet intra se cor nostrum venas quattuor, duas spiritales et duas sanguinales, per quas toto corpore facta est concatenatio venarum. Cor cerebrum et pulmo hominis die noctuque movere non cessant. Tunc vero utrique vastius salliunt, cum illis aliquod metus adest. </p></div>
+   
+   <div type="cap" n="19"><head>XVIIII. <hi rend="italic">De epar</hi>.</head><p>
+    Epar nostrum ponitur in dextro latere extensum usque ad langaones hoc est ilium eius partes. Pinnas habet quinque, continens renis et ilia dextra et iocinere et vissica viride hoc est fel. Est autem iecor propria materia sanguis domus et incrementum eius. Nam ibi tenuitas ciborum mutato colore transfiguratur in sanguine. Omnis autem materia ciborum detunsa per gurgulionem excipitur primo ab stomacho. Que tenuissima itinera per totum corpus dispensatur. Ergo viridissima et integerrima in sanguinem dimittit iecor. Tunc que sordidissima et iudicio suo reprobata sunt, exonerantur in ventrem, intestines repletantur. Accipit iecor sordidissima ex cibo et illa calore suo tam diu decoquendo liquescit. Inde sanguinem fit, quem primum multis colligit fistolis, deinde acceptum maioribus venulis quatuor perducitur que ad iecor quasi ad castellum. Duo enim receptacula intra se babet, unum spiritus, alterum anima, hoc est sanguis. Per cuius, <hi rend="italic">ut dixi</hi>, corpore ut arterias spiritales novem intrant et quattuor exeunt vene sanguinales. Inde inmensus et suo sibi incremento maior atque maior factus, extremis usque ad finem membrorum emigat redditque pulsum. </p></div>
+   
+   <div type="cap" n="20"><head>XX. <hi rend="italic">De splene</hi>.</head><p>
+    Splen autem ponitur in sinistra parte precordiorum, natura oblongus. Coniunctus est ventri. Continet ex se membranam tenuem et velamen habens pinguissimas venas, que ventrem vel intestinae cooperit vel calefacit, quod greci epiplos vocant. Latine omentum vel mappa dicitur. Extensum est usque ad ilium sinistrum et interanea positus, quod nervosis continetur membranis. Ab una parte planus est latus contingit, ab altera visceribus adherit, ideoque ut fieri solet, peculiare inpedimentum currentibus, ut cum tumor ille aliquis inhesit, acervissimos dolores totius partis corporis sinistriores extensus proximietates efficit, nec facile inbecillitate remittit. Quoniam ipse fungi de materiae et nervosis continetur vinculis. Traditur a <hi rend="italic">quibusdam</hi> spleni renibus deservire et esse augelotus, quibus autem mortua pars splenis sit aut exemta, ridere posse negantur. </p></div>
+   
+   <div type="cap" n="21"><head>XXI. <hi rend="italic">De precordia</hi>.</head><p>
+    Precordia, quas greci frenas vel diafragma vocant, extenditur continens pulmonem et ficati pinnas. Subiacent ventri et testine, et continens latera et spina. Vena autem eorum habet orificia duo, unum proximo membranum, quod greci cardion vocant inclinatur in sinistra parte splenis, alium vero epari. </p></div>
+   
+   <div type="cap" n="22"><head>XXII. <hi rend="italic">De ypezocoos</hi>.</head><p>
+    Ypezocoos est membranum velut velamen natura nervorum, qui separatur epar et pulmonem a ventre intestinas splen et cetera omnia intrinsecus continens. </p></div>
+   
+   <div type="cap" n="23"><head>XXIII. <hi rend="italic">De ventre</hi>.</head><p>
+    Venter autem ponitur in media iocinera sub stomacho et tintinabulum. Est membranum nervosum et grossum obvolutum, interius asperum, foris lenem, orificium habens unum, qui ad stomachum veniens, quod greci stomacilias dicunt, hoc est os ventris, qui excalefactum sucum ciborum ad ventrem iosanum mittit, qui est asperior vel intra se duplicior. Quicquid autem carfas ciborum sunt, ad intestinas vadunt, que stercora egeruntur. Degestiones fiunt tres, prima in vaporem et odorem spiritus trahit pulmo epar cerebrum et pulpe, secunda in suco ad ventrem iosanum et ad intestinas ieiunas, tertia in careas, que sunt stercora. Nam urificia viscerum nostrum sunt multa, sed maiora dua, per quod accipimus et per quod reddimus. </p></div>
+   
+   <div type="cap" n="24"><head>XXIIII. <hi rend="italic">De intestina</hi>.</head><p>
+    Intestina autem non tantum flexuosa brevis, sed etiam more receptaculorum sepius inpedita ad detinenda alimenta fiuntque velut quondam laberentus. Sunt autem quadriplicis contexta membranis, forinsecus nervosa duo, interius carnose duo, dividunturque in partes III. Ieiune intestine cubitorum VII, que ponuntur ad umbilicum et iusum humorem recipiunt. Late intestine cubitorum XIII a ventre incipiunt, qui suscipiunt digestiones ex stomachum et ventrem flexuoso itinere vento pleni. Colum intestinum, qui ponitur super inguem dextre partis, longitudine palmorum IIII, qui iunctum est vissice anum et iliae ambe. Nam omnes intestine iunguntur adipibus, qui ciborum mora queritur, vel ne etiam adsidue escam desideretur. </p></div>
+   
+   <div type="cap" n="25"><head>XXV. <hi rend="italic">De ilia</hi>.</head><p>
+    Iliae autem sunt dextra levaque in lateribus, ubi coste non sunt, membrana nervosa intra se carnem habentibus latam, qui cum eosdem membranus gluttinatur, continentes vissicam et renes. </p></div>
+   
+   <div type="cap" n="26"><head>XXVI <hi rend="italic">De renibus</hi>.</head><p>
+    Renes autem positi sunt in septima vertebra spine, ubi lumbi sunt, natura musculosi, colore livido, deforis recti, interius curvi et concavi, qui genitale semen portant. Ex eodem loco exeunt vene due velut fistule, continentes ambas ilias vissicam et testiculos, qui his calorem vel semen administrant. Positi sunt autem in alapem, et carnem oblongam virtutem prestant. </p></div>
+   
+   <div type="cap" n="27"><head>XXVII. <hi rend="italic">De vissica et fel</hi>.</head><p>
+    Vissica posita est his omnibus interanies. De cuius figura questio est, cum illi unum appareat foramen ad emittendi. Habet collum longum. Ibi cuncta sunt foramina tenuissima et vene ab spina et medulla venientia in testiculis semen ministrantibus. Haec sunt seminis foramina et urinarum digestiones, quem admodum que possint vacuata replere. Errant qui unum aditum vissice esse putant, unus tamen apparet. Sed vissica quatriplice contexta membrano est, cuius consertatio non est perstricta, ideoque et in minorem formam redacta contrai potest et remissa ampliare. Per eiusdem membrana ex parte cervices eius tenuis subripiunt fistule descendentes a renibus, quorum officium est colatum humorem transmittere. Ergo inde venientes fistule sub ipsa cervice vissice inseruntur inter membranas, sparguntque per intextum opus dilatum, liquoremque multum non apparentia exibiunt foramina trahunt in vissicam. Et ideo unicuique nostrum cum perfrixerit, frequentior urina exprimitur consertatio illa membranorum, quibus potestas est relaxandi et contrahendi. Itaque qui frigore aliquo percussi sunt, continuo stringuntur in se, angustatoque corporis spatium omnem liquorem infundunt. Sed malum signum est exigua meando libido. Ergo caput vissice descensum sui comminuit in ipsam radicem veretri pareter cum cremasteribus. Hoc sunt nervi qui testiculos portant. </p>
+    <p>Est et alia vissica plena felle, qui in epate ponitur. Que febricitantibus urinam ruffam tingunt. </p></div>
+   
+   <div type="cap" n="28"><head>XXVIII. <hi rend="italic">De veretro</hi>.</head><p>
+    Veretrum est oblongum, natura nervosum, forinsecus venosum, membrano coopertum fortissimo, habens fistolam rectam in medio ab initio usque ad summum. Cacumen eius dicitur caulus sive dartus. </p></div>
+   
+   <div type="cap" n="29"><head>XXVIIII. <hi rend="italic">De testiculis</hi>.</head><p>
+    Testiculi coniuncti sunt ano et veretro, habentes in medium nervum, qui eos separat. Abscisis itaque testiculis generandi virtus denegatur, quia foramina (ne)rvorum alligantur quod ad dispositionem interaniorum finitum erat. </p></div>
+   
+   <div type="cap" n="30"><head>XXX. <hi rend="italic">De ano</hi>.</head><p>
+    Anum apud grecos multis nominibus vocaverunt. Est enim ipsum intestinum palmorum trium, et ab ipso omnes intestini incipiunt. </p></div>
+   
+   <div type="cap" n="31"><head>XXXI, <hi rend="italic">De matrice</hi>.</head><p>
+    Matrix autem involuta est et ipsa, ut supra dicta interania, habetque positionem quasi cucurbita medicinalis, habetet tunicas IIII, duabus intus nervosas et aforis carnosas. Orificium puellaris est digitorum VI, ubi iunguntur venae dextra levaque, per quas mulieres spermatizant, quas greci cerias vocant. Sed similiter femina testiculos continere se non huius positionem habent, ut viris, sed miuores et molliores. Sed tamen parant viris. </p></div>
+   
+   <div type="cap" n="32"><head>XXXII. <hi rend="italic">De vulva</hi>.</head><p>
+    Constat ergo unam rationem esse feminis et masculis, sed mulieres vulvam habent cum tunicis IIII<g ref="#char1">or</g> vulva prima cui subiacent membranae, que continent fetum, quod greci genicion colpon vocant, hoc est feminum sinum. Nam quomodo est masculi veretrum, sic et vulve collum. Vulva naturaliter mollis est. Constat tuniculis firmissimis, exterius carnosa, intus vero nervosa hec superposita est directo intestino. Huius cervicis vel cornu in tribus foraminibus porrigitur usque ad longaonem, in qua res venerias perficitur. Vulva autem involuta est interaneis subiecta ipsamque tenens vissicam, qui multum in his locis laxum miserit tenerissimum, quo facilius accepta sustinent, lumbis adherens firmissime. Partis huius cervix gracilis est, vix accessum seminis per huius. Sed ubi partum maturitas evocat intus, tum patit, ut nervis inde descedentibus ut possit transmittere infantem, rursusque in ipsas angustias coerit. Index huic posita est, ut possit sanguinem futurum amittere. Ab intus sinuosa et aspera est ut possit semen continere. Hec omnia membrano proteguntur tenuissimo, quod greci dicitur peritominon. <hi rend="italic">Omnia orificia corporis nostri explorata sunt</hi>. </p></div>
+   
+   <div type="cap" n="33"><head>XXXIII. <hi rend="italic">De spatonibus</hi>.</head><p>
+    Quare spatonibus capilli in quibusdam locis non prodeunt, ex qua parte corporis sentire fertur magna humoris rei dispositio est. Et quorundam est opinio tantum in concreto calore humorem in faciem transfigurare seminis. <hi rend="italic">Quidam</hi> ferventis sanguis speciem esse dicunt testiculorum in corpore virum effusum, quidam a renibus venerint persuadet. </p></div>
+   
+   <div type="cap" n="34"><head>XXXIIII. <hi rend="italic">De ossarum dispositione</hi>.</head><p>
+    Constat que homo ex ossibus CCXXVIIII. Caput nostrum habet coniuncturas V. Sicut littera labda iunguntur virorum calvarie, femine in rotundo iunguntur, et dividuntur in ossa VII. Dicunturque lepiotes duo, irena unum. Facies ossa VII, dentes XXXII, mulieribus et durebarbis XXX, collo a vertebra VII, dorsum et spina vertebre XII, lumbus vertebras V, costas XXXIIII. Ieron ossum unum, qui habet pertusuras VIII. Qui est in torace iugulare duo. Caput humerorum, quod condrum iunguntur, quod clidion vocantur. Scapulas vel palas ossa duo, pectus ossum unum, aliquantis vero duo. Cubitorum mani unius ossa IIII<g ref="#char1">or</g>. Ossa manuum ambarum sunt XLVIIII, aliis vero LVI. Latus ossa duo sub se, que vocantur nota. Pleuras V, aliquibus VII. Qui in pectoris ossum coniunguntur circa quod greci perigion vocant, hoc est ligula stomachi tenerum desuso ibi ponuntur costas aliquibus, et plures <gap/> inveniuntur. Coxas ossa II, ancas ossa II. Iran ossum quod selida vocantur, hoc est concavum, ubi femus incadit, ossa II. Pedum ossa XLVIII, aliquibus LVI, sicut de manus quod superius diximus. </p></div>
+   
+   <div type="cap" n="35"><head>XXXV. <hi rend="italic">De sanguine</hi>.</head><p>
+    Sanguis autem pregeneratur animę proprię virium humanęque vitę certissimum alimentum, quem numquam otiosum esse spiritum patitur. Semper enim cum discursibus suis per omnem cursum, fatigatius autem cum maiorem modum cesserit copiosiusque factus quam ut recipi capite venarum possit. Incipit tunc sua in se redundare materia, ut preobdurati foraminibus aditus spiritui non dare aut ex multitudine sua conpressum profugantem cursum. Cum tamen exiguus esse coeperit, usus facere paribus suis non possit, tunc gravatum corporis calore subito destruit, et quod sufficere exiguus adversus copio(sio)rem spiritus non valet, hictus maiorem conglaceatur, et ut occidat hominem, prius ipse in homine moriatur. Necesse itaque cum sit sanguis causa vitę, maxime in spe et causa prima mortis est. Et quemadmodum ex acriora virioraque et quę aliis ex ciborum iniuriam generantur quidem et ipsa modo suo corpore multum ampliora ex eaquę nocere possunt genera, ita cum aliquid presentes sint necessaria, ut sudor saliva omniumque pituita plurima tamen vitia latentesque inbecillitantum causa et ex habundantia bilis acrimonia generantur. Quasi quis dum sanus fuerit, ita temperare voluerit, ut neque habundent nocitura, nec quia profutura sint in offensa salutem, observare debeamus modum rei. Quod autem custodire possumus, facilius expeditam et ante plurimam faciem ratio posita est. </p></div>
+   
+   <div type="cap" n="36"><head>XXXVI. <hi rend="italic">Quare febricitans estu afficitur</hi>.</head><p>
+    Maxime haec est causa quae corporis conpressis tantum in refrigerationem admittitur spiritus, tunc inclusus sanguis cui neque estuandi aditus, neque recipiendi spiritus contigit potestas, ardore nimio membra consummit. Quia quamdiu societas sanguinis atque spiramentum concordaverit, tamdiu homo vaporibus illorum constat.</p></div>
+   
+   <div type="cap" n="37"><head>XXXVII. <hi rend="italic">De petuita</hi>.</head><p>
+    Petuita hoc est coriza, non enim ulla lege leguntur, et necesse habent tantum ad cerebrum membrana adherere. Petuita toto corpore habitat, ut numquam sanis ab expressis inhereat. Initium petuitate est humor ille, qui fomentis refovetur, colore cognoscitur, statu tenetur, consuetudine roboratur, ratione temperatur, custodia regitur. Quod in corpore natura intulit, natura condidit, maturitas temperatur. Hic ipse cautum tam diu in presidio quam diu in ore correctum iniuriam visus in auxilium conspicitur, innoxia generavit inusus, sic et petuitatum necessitate potius quam causa dicimus corporis erit levis ratio. Hic itaque in officio sanguinis corporis nostri consortio habet. Quotiens offendit lęsus aut intemperantia bene stimulatus in causa crudelitatis, exasperantur omnia materia prestantes his alimentis, quę totum facile pascitur corpus subditis fervoribus confectam. Mox et resolvitur corpus, et correctum adicet exquiret perpensionem in rigorem, et cautior in calore rursusque correptus inquam humoribus, per eosdem foraminum introitus fertur ad cutem, et mox impetu suo totiens exfervescit. Hinc vitia fiunt diversa, hinc asinatia adustiones scabię carbunculos ignis acer pultule lippitudines superationes gravido distillationes aneliti inpeticus et alia vitia, quę cum strictura veniunt. Humor ergo vitat male, quia ex humor est. Ideo per totum corpus est, quia humor est totius corporis. Quando igitur aliquibus noxius aut ubi est periculum tantum in distillationibus habetur. Nam cum ipsius sacrimonio inflamatur simul toracis pulmo membranorum principia corporis nostri partium dominantium locorum. </p></div>
+   
+  </body>
+ </text>
+
+</TEI>

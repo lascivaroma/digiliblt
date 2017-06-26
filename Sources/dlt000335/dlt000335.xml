@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Liber de praenominibus</title>
+                <author>Anonymus</author>
+                <respStmt>
+                    <resp>Correzione linguistica</resp>
+                    <name>Nadia Rosso</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica XML</resp>
+                    <name>Nadia Rosso</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>digilibLT</publisher>
+                <pubPlace>Vercelli</pubPlace>
+                <date>2012</date>
+                <availability>
+                    <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+                </availability>
+                <idno>dlt000335</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Valeri Maximi Facta et dicta memorabilia, libri VII-IX, Iuli Paridis Epitoma, Fragmentum de praenominibus, Ianuari Nepotiani Epitoma, edidit John Briscoe, vol. II, Stutgardiae et Lipsiae 1998 (Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana).</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+                <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+            </projectDesc>
+            <editorialDecl>
+                               
+                <p><hi rend="bold">Note di trascrizione e codifica specifiche del file </hi></p>
+                <p>Per i numerali con moltiplicatori è stato indicato il valore attraverso marcatura specifica ed è visualizzabile in numero arabo tra parentesi tonde</p>
+                
+                <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+                <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+                    l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+                    e commenti e ogni altro contenuto redatto da editori moderni. </p>
+                <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+                    correttezza di trascrizione</p>
+                <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+                    distinzione u/v minuscole.</p>
+                <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+                <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+                    grassetto, corsivo, spaziatura espansa.</p>
+                <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+                    <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+                    <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+                    si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+                    [...]<lb/> lacuna integrata dagli editori:
+                    <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+                </p>
+                <p>Sono stati marcati i termini in lingua greca
+                    <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+                </p>
+                <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+                    target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+                    >Note di trascrizione e codifica di testi latini tardoantichi
+                    [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+            </editorialDecl>
+            
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latino</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="cap" n="1">
+                <p> Varro simplicia in Italia nomina fuisse ait, existimationisque suae argumentum
+                    refert quod Romulus et Remus et Faustulus neque praenomen ullum neque cognomen
+                    habuerint. Qui ab eo dissentiunt, aiunt matrem eorum Ream Siluiam uocatam, auum
+                    Siluium Numitorem, fratrem eius Amulium Siluium, ac superiores Albanorum reges
+                    Capetum Siluium Agrippam Siluium, posterioresque duces Mettium Fufetum et
+                    Tutorem Cloelium uocatos. Nec contenti his, ad Sabinos transgrediuntur: Titum
+                    Tatium, Numam Pompilium et patrem eius Pompium Pompilium, eiusdemque regionis
+                    principes enumerant Pustulanum Lauranum, Volesum Valensium, Mettum Curtium,
+                    Alium Fumusilleaticum. E Tuscis recitant Lartem Porsinnam, ab Aequiculis
+                    Septimum Modium, primum regem eorum, et Fertorem Resium, qui ius fetiale
+                    constituit. In hunc modum Varronis sententia subruitur. </p>
+            </div>
+          
+            <div type="cap" n="2">
+                <p> Romanos autem arbitrandum est maxime ab Albanis et Sabinis multiplicandorum
+                    nominum consuetudinem traxisse, quoniam ab illis orti sunt. Omnia autem quae ad
+                    unum quemque nostrum definiendum excogitata sunt eandem uim significandi hominis
+                    obtinent. Quod <unclear>proprietatem</unclear> dicitur, hoc distat, quia eo gens
+                    cognoscitur, ideoque dicitur gentilicium. Cetera ordine uariantur: nam quod
+                    praeponitur praenomen, quod post fertur cognomen, quod ad ultimum adicitur
+                    agnomen. Quorum series non ita ut exposui semper seruata est: animaduerto enim
+                    in consulum fastis perplexum usum praenominum et cognominum fuisse. Dictum
+                    Postumum Cominium Auruncum et Postumum <supplied>A</supplied>ebutium Heluam et
+                    Vopiscum Iulium et Opitrem Verginium Tricostum et Paulum Fabium Maximum. Quin
+                    etiam quaedam cognomina in nomen uersa sunt, ut Caepio: namque hoc in Bruto
+                    nominis locum obtinuit. </p>
+            </div>
+           
+            <div type="cap" n="3">
+                <p> Gentilicia nomina Varro putat fuisse numero ∞, praenomina circa xxx. Pueris non
+                    prius quam togam uirilem sumerent, puellis non ante quam nuberent praenomina
+                    imponi moris fuisse Quintus Scaeuola auctor est. Quae olim praenomina fuerunt,
+                    nunc cognomina sunt, ut Postumus Agrippa Proculus Caesar. </p>
+            </div>
+          
+            <div type="cap" n="4">
+                <p> Opiter qui patre mortuo auo uiuo gignebatur, Vopiscus qui in utero matris
+                    geminus conceptus, altero abortu eiecto, incolumis editus erat. Hostus praenomen
+                    fuit in eo qui peregre apud hospitem natus erat, idque habuit Lucretius
+                    Tricipitinus, collega L. Sergii. Volero in praenomen abiit, quod uolentibus
+                    nasci liberi parentibus uidebantur, quo usus est Publi<supplied>li</supplied>us
+                    Philo. Lartis praenomen sumptum est a laribus, Tuscum autem esse creditum,
+                    fuitque consul Lar Herminius cum T. Verginio <supplied>Tri</supplied>costo.
+                    Statius a stabilitate, Faustus a fauore praenomina coeperunt. Tullus
+                    praenominatus est ominis gratia quasi tollendus, o littera in u conuersa. Sertor
+                    qui per sationem natus erat adpellatus est. Ancum praenomen Varro e Sabinis
+                    translatum putat. Valerius Antias scribit quo<supplied>d</supplied> cubitum
+                    uitiosum habuerit, qui Graece uocatur <foreign xml:lang="grc">ἀγκών</foreign>.
+                </p>
+            </div>
+          
+            <div type="cap" n="5">
+                <p> Lucii coeperunt adpellari qui ipso initio lucis orti erant, aut, ut quidam
+                    arbitrantur, a Lucumonibus Etruscis, Manii qui mane editi erant, uel ominis
+                    causa quasi boni: manum enim antiqui bonum dicebant. Cnaeus ob insigne naeui
+                    adpellatus est. Quod unum praenomen uaria scriptura notatur: alii enim Naeum
+                    alii Gnaeum alii Cnaeum scribunt. Qui G littera in hoc praenomine utuntur,
+                    antiquitatem sequi uidentur, quae multum ea usa littera est. Olim enim dicebatur
+                    frugmentum, nunc frumentum ecfertur, et forgtis, non fortis, et gnatura, non
+                    natura. Ergo etiam qui in corporibus gigni solet gnaeuus adpellabatur. Qui CN
+                    ponunt, correptione syllabae delectari uidentur, qui Naeus, leuitate.
+                        G<supplied>a</supplied>ii iudicantur dicti a gaudio parentum, Auli quod iis
+                    auentibus nascuntur, M<supplied>arci</supplied> Martio mense geniti,
+                        Publi<supplied>i</supplied> qui prius pupilli facti erant quam praenomina
+                    haberent, alii ominis causa e pube. </p>
+            </div>
+          
+            <div type="cap" n="6">
+                <p> Tiberii uocitari coeperunt qui ad Tiberim nascebantur. Titus e Sabino nomine
+                    Tito fluxit, Appius ab Atto, eiusdem regionis praenomine. Caesones adpellati
+                    sunt qui e mortuis matribus exsecti erant, Seruius quod mortua matre in utero
+                    seruatus est, Spurii patre incerto geniti quasi <foreign xml:lang="grc"
+                            >σποράδι<supplied>ο</supplied>ι</foreign>. Numeri<supplied>i</supplied>
+                    sola tantum modo patricia familia usa est Fabia, idcirco quod trecentis sex apud
+                    Cremeram flumen caesis, qui unus ex ea stirpe extiterat, ducta in matrimonium
+                    uxore filia Numerii Otacilii Maleuentani sub eo pacto ut quem primum filium
+                    sustulisset, ei materni aui praenomen inponeret, obtemperauit. </p>
+            </div>
+           
+            <div type="cap" n="7">
+                <p> Antiquarum mulierum frequenti in usu praenomina fuerunt Rutilia Caesellia
+                    Rodacilla Murrula Burra, a colore ducta. Illa praenomina a uirilibus tracta
+                    sunt, Gaia Lucia Publia Numeria. Ceterum Gaia usu super omnes celebrata est:
+                    ferunt enim Gaiam Caeciliam, Tarquinii Prisci regis uxorem, optimam lanificam
+                    fuisse, et ideo institutum ut nouae nuptae, ante ianuam mariti interrogatae
+                    quaenam uocarentur, Gaias esse se dicerent.<lb/>C. Titi Probi finit epitoma
+                    historiarum diuersarum exemplorumque Romanorum<lb/>feliciter
+                    emendaui<lb/>descriptum Rabennae<lb/>Rusticius Helpidius Domnulus <num value="95000">vc</num>. </p>
+            </div>
+           
+        </body>
+    </text>
+
+</TEI>

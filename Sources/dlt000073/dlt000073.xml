@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>De orthographia</title>
+    <author>Caper (Ps.)</author>
+    <respStmt>
+     <resp>transcodifica di base da rtf a xml-tei</resp>
+     <name>piero colombo - step srl</name>
+    </respStmt>
+    <respStmt>
+     <resp>Testo</resp>
+     <name>Marinone, GL-CD</name>
+    </respStmt>
+    <respStmt>
+     <resp>Controllo marcatura XML-TEI</resp>
+     <name>Ermanno Malaspina</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2017</date>
+    <availability>
+     <p>
+      <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
+     </p>
+    </availability>
+    <idno>dlt000073</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Grammatici Latini, VII. Scriptores de orthographia. Terentius Scaurus, Vellius Longus etc.</hi>, ex recensione H. Keilii, Hildesheim 1961, 92-107 (reprografischer Nachdruck der Ausgabe, Leipzig 1880).</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    <p>
+     <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT</hi>
+    </p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni.</p>
+    <p>I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p>Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi> :
+     grassetto, corsivo, spaziatura espansa. </p>
+    <p> Sono stati normalizzati e marcati nel modo seguente i diacritici. <lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]>
+     <lb/>
+     <hi rend="italic">loci desperati</hi> :
+     <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo† e †testo <lb/>
+     lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...] <lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p> Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p> Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
+    </p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <head>[Caper] de orthographia</head>
+   <p> haec uia quo ducit? dicemus, non ubi. <del>cato</del> descendit dicimus, non discendit.
+    interrogamus: quo die uel qua hora solet ire foras et esse foris? eiecti in litus dicamus,
+    delati in portum. </p>
+   <p> intro imus uel inrumpimus, intus sumus. </p>
+   <p> uado ad grammaticum uel ad medicum, disco apud istos dicendum. </p>
+   <p> in profundum nummi et in arcam conduntur. inuehor et iocor in Marcum, incidit in manus meas
+    inimicus, et in manus aquam poscimus. </p>
+   <p> ueteres autem aquam manibus pedibusque dixerunt. in mentem uenit, non in mente. </p>
+   <p> oblitus ne sis nostri, non nos: ueteres tamen et hoc modo dixerunt: et inuideo tibi diuitiis,
+    non diuitias. </p>
+   <p> comesor comesa comesum uti dicas, messor messura messum. </p>
+   <milestone unit="page" n="p. 93 vol. VII Keil"/>
+   <p> seui messem, non serui dicendum. </p>
+   <p> pulchrum cum h scribendum, sepulcrum sine h. </p>
+   <p> cella penaria, non pinaria dicendum. </p>
+   <p> praecoqua dicendum, praecocia deridendum. </p>
+   <p> peperaria mola non dicendum est, sed piperaria. </p>
+   <p> thesaurum sine n scribendum, non thensaurum et cetera. </p>
+   <p> misertus mei per genetiuum dicimus, at per accusatiuum miseratus me. </p>
+   <p> pecto caput, non pectino, et pexum, non pectinatum. sic et pexi memet hodie et pectam cras.
+    sic nexi a necto. ructo et nausio dicendum, quamuis quidam ueteres ructor et nausior dixerint.
+    non egeo, non eges, non eget dicendum, non autem egeor et egeris. </p>
+   <p> dico me uicturum, dico illum uicturum, non uinciturum. sic quoque ficturum et picturum
+    dicendum, non pinciturum. </p>
+   <p> fido mihi, confido tibi, et fidimus nobis, confidimus uobis. sic fidere media correpta. nam
+    si esset fideo, ut tepeo rideo, faceret fidere, ut tepere ridere. </p>
+   <p> sordet acet anet floret calet squalet aret splendet uiget, haec perfecta sunt; at inceptiua
+    sordescit acescit anescit florescit calescit squalescit arescit splendescit uigescit. </p>
+   <p> suffragor, non suffrago. sic suffragatus sum, non suffragaui. <milestone unit="page"
+     n="p. 94 vol. VII Keil"/> euentura mihi praesago praesagis praesagit, nos praesagimus, uos
+    praesagitis, illi praesagunt. </p>
+   <p> hic pecten, hic lien, hic rien, sic tibicen fidicen liticen dicendum. </p>
+   <p> praeses praesidis facit. </p>
+   <p> ambos et duos accusatiuo dicimus, ambo et duo nominatiuo. </p>
+   <p> acer inermus infirmus faciunt pluraliter acri inermi infirmi. at acris inermis infirmis in
+    plurali numero faciunt acres inermes infirmes. sic hilarus hilari facit, hilaris hilares. </p>
+   <p> nostri nostrorum nostrum uenit a nos: sic uestri uestrorum uestrum uenit a uos. </p>
+   <p> uas uasis facit genetiuo singulari; et datiuo plurali uasis facit, non uasibus, et genetiuo
+    uasorum, non uasuum. </p>
+   <p> odea musea Serapea Isea Mausolea caducea dicendum. </p>
+   <p> non est sorbo, sed sorbeo, nec sorbsi, sed sorbui. sic et absorbui, non absorbsi, ut Lucanus. </p>
+   <p> coactus, non coctus dicendum. abscondi, non absconsi. sic et absconditus, non absconsus
+    dicendum, et lassatus, non lassus. </p>
+   <p> alter e duobus, unus e tribus uel pluribus. </p>
+   <p> descendi in solium maius, non maiorem. </p>
+   <p> bina ac trina dicenda sunt quae sunt semper pluralia, ut binos ludos plerumque spectauimus
+    uno die; sic trinos circenses. </p>
+   <p> fruitus sum illa re: ueteres dixerunt: fruitus uix illam rem. </p>
+   <milestone unit="page" n="p. 95 vol. VII Keil"/>
+   <p> somnio dicendum, non somnior, et somniaui, non somniatus sum. </p>
+   <p> illud scamnum dicendum, at ipsum, non ipsud. pauper uir et mulier dicendum, non paupera
+    mulier. </p>
+   <p> Graeca nomina, ut Phryne et phalanx et Phronimus, per p et h scribenda: Latina, ut fallere et
+    facile, per f scribenda. </p>
+   <p> cum, si praepositio erit, per c scribendum; si aduerbium temporis aut causale, per q. </p>
+   <p> omnia aduerbia numeri sine n scribenda sunt, ut milies centies decies: quotiens totiens per n
+    scribenda sunt. </p>
+   <p> nullum pronomen per t scribitur, sed per d, ut quid dicis? quid agis? quid scribis? quid
+    facis? per t autem, uerbum ubi erit, scribitur, ut inquio inquis inquit, eo is it, et aduerbium
+    numeri, ut quot tot, et monoptoton, ut lact: licet quidam negent illud nomen muta posse finiri,
+    et ideo dicant lacte esse dicendum, non lac aut lact. ad praepositio per d, at coniunctio per t
+    scribi debet. </p>
+   <p> exsul cum addito s scribendum est etymologiae causa, a solo quoniam uenit. </p>
+   <p> formosus sine n scribendum est ab etymologia, quod est a forma. </p>
+   <p> nactus uno n scribendum, at nanciscor duobus. </p>
+   <p> quicquid in priore syllaba per c litteram scribendum, quoniam d <milestone unit="page"
+     n="p. 96 vol. VII Keil"/> diuidit in duas uoces. sic quanquam <supplied>in</supplied> priore
+    syllaba n habere debet, non m, ne similiter duas esse uoces ostendat. </p>
+   <p> atqui caret n, similiter alioqui. </p>
+   <p> hau dolo per d recte scribitur. etenim d inter duas uocales esse debet. quod si consonans
+    sequitur, d addi non debet, ut hauscio. narro narratio per duo r, querela loquela per unum l. </p>
+   <p> mas erit in positione, in diminutione masculus, non, ut quidam putant, mascellus. </p>
+   <p> pronomina nostrum ac uestrum si <supplied>in</supplied> scriptura diuidenda sunt, s littera
+    posteriori syllabae applicari debet, quoniam sequens littera t muta est. sic, si maiestas
+    scribis, stas in diductione uocis esse debet, non tas. sic in similibus. </p>
+   <p> tunc temporis aduerbium est, tum ordinis. <foreign xml:lang="grc">τοῦ</foreign> tunc
+    antitheton est nunc, <foreign xml:lang="grc">τοῦ</foreign> uero tum antitheton est cum. </p>
+   <p> modo praeteriti est temporis, et ideo dicendum: modo scripsi, modo feci, non modo scribo,
+    modo facio; quamuis quidam ueteres et praesentis putauerint. </p>
+   <p> circiter ad numerum refertur, circum ad locum, circa ad tempus <del>quod est <foreign
+      xml:lang="grc">κύκλῳ</foreign></del>. ergo dicimus circumisse nos urbem, non circaisse.
+    superest restat significat, superat eminet, ut <quote type="poetry">«superant capite et
+     ceruicibus altis»</quote>. item <quote type="poetry">«egressi superant fossas»</quote>,
+    transiliunt uel <milestone unit="page" n="p. 97 vol. VII Keil"/> euadunt significat: <quote
+     type="poetry">«casus superauerat omnes»</quote> pro euaserat: <quote type="poetry">«captae
+     superauimus urbi»</quote> pro superuiximus: <quote type="poetry">«superent quibus hoc, Neptune,
+     dedisti»</quote> pro uincant: <quote type="poetry">«amissa solus palma superabat
+     Acestes»</quote> pro restabat. </p>
+   <p> spectabat. spectare <foreign xml:lang="grc">θεωρεῖν</foreign> erit, expectare sine s <foreign
+     xml:lang="grc">ἀναμένειν</foreign>. demitte est deorsum mitte, dimitte<foreign xml:lang="grc">
+     ἀπόλυσον</foreign> absolue: dismitte non dicas. </p>
+   <p> fidus amicus erit; famulum fidelem dicito. </p>
+   <p> coram illo dicendum, non palam illo. nam palam ad multos refertur: palam factum est de multis
+    habet significationem, etiamsi hoc ueteres uariauerint. </p>
+   <p> cognoscimus ignota et inuisa, agnoscimus quae nobis exciderant. </p>
+   <p> illius similis ad mores refertur, illi similis ad uultum. </p>
+   <p> clipeum <foreign xml:lang="grc">ἀσπίδα</foreign>, clupeum ornamentum dices. </p>
+   <p> uorsus paginae dicetur, uersus participium est a uerbo uertor. </p>
+   <p> alias temporis est aduerbium, quod Graeci <foreign xml:lang="grc">ἄλλοτε</foreign>
+    <supplied>dicunt</supplied>, aliter <foreign xml:lang="grc">ἄλλως</foreign>. </p>
+   <p> cilo est capite angusto, cui hoc contigit in partu; chilo modum labiorum excedens. </p>
+   <p> collactaneus est eisdem mammis educatus, collacteus qui ex uno <milestone unit="page"
+     n="p. 98 vol. VII Keil"/> eodemque lacte creatus est. lactens qui lacte alitur, et lactans qui
+    decipit: lactens lacte abundans, ut <quote type="poetry">«lactentes ficus»</quote>, Lucilius
+     <quote type="poetry">«lactentia coagula cum melle bibi»</quote>. lactea candida, ut <quote
+     type="poetry">«lactea laudas brachia»</quote> Horatius dicit. </p>
+   <p> suscipimus ad animum et mentem refertur, ut <quote type="poetry">«susceptum perfice
+     munus»</quote>. succipimus corpore, ut <quote type="poetry">«succipiunt famulae conlapsaque
+     membra»</quote>. suspicimus aliquem uenerantes. accidere aliquid aduersi dicito, contingere
+    aliquid pulchri. </p>
+   <p> quamdudum interrogantis est, iamdudum respondentis. </p>
+   <p> cals dicendum, ubi materia est, per s; at cum pedis est, calx per x. </p>
+   <p> mihi datiuus est, mi uocatiuus. </p>
+   <p> inuidus est qui inuidet, inuidiosus qui inuidiam sustinet. </p>
+   <milestone unit="page" n="p. 99 vol. VII Keil"/>
+   <p> terga hominis tantum, singulariter tergum facit. quadrupedum erit tergus, pluraliter tergora,
+    id est coria. tegus quoque inuenio dici et esse eius plurale tegora. </p>
+   <p> noctu temporis est aduerbium; nocte nomen est. noctu dicimus cenaui: hac nocte dicimus nihil
+    breuius. </p>
+   <p> commoda <foreign xml:lang="grc">χρῆσον</foreign>, id est praesta; accommoda apta <foreign
+     xml:lang="grc">ἀπὸ τοῦ ἁρμόζειν</foreign>, id est coaptare. </p>
+   <p> olea arbor est, oliua fetus, oleum liquor. </p>
+   <p> flemina sunt, ubi abundant crura sanguine; plemina, cum in manibus uel pedibus callosi sulci
+    sunt. </p>
+   <p> uortex fluminis est, uertex capitis. </p>
+   <p> licet <foreign xml:lang="grc">ἐξόν</foreign>, liquet <foreign xml:lang="grc">δῆλον
+     προφανές</foreign>
+    <del>apertum uel manifestum</del>. </p>
+   <p> pauperies damnum est, paupertas condicio ipsa. </p>
+   <p> foedus sancitur religione, at sponsio poena est. </p>
+   <p> mammas esse hominis scito, at pecudis ubera. </p>
+   <p> bucina erit tuba, qua signum dat bucinator; bucinus ipse canor editus ex hac. </p>
+   <p> a patria patrium dices, a patre paternum. </p>
+   <p> precor prospera, inprecor taetra. </p>
+   <p> dum manat, sanguis est; effusus uero cruor erit. </p>
+   <p> sumimus ipsi, accipimus ab alio. sic cum dabimus, dicendum accipe; cum permittimus ipsi
+    tollere, dicendum est sume. </p>
+   <p> pone loci aduerbium est, post temporis, postsecus omnino nihil est. </p>
+   <p> barbam hominum, barbas pecudum dicimus. </p>
+   <milestone unit="page" n="p. 100 vol. VII Keil"/>
+   <p> calua <foreign xml:lang="grc">κρανίον</foreign> uocatur, licet Gellius et Varro caluariam
+    dicant. nam caluariae plurale est. caluae uero ossa, quae sunt et singulariter calua. uultus
+    mutatur, facies manet. </p>
+   <p> maestum animo, tristem aspectu dices. </p>
+   <p> protenus per e aduerbium locale est, id est porro tenus, ut <quote type="poetry">«cum
+     protenus utraque tellus / una foret»</quote>. protinus per i aduerbium temporale est, id est
+    statim, ut <quote type="poetry">«protinus Aeneas celeri certare sagitta»</quote>. </p>
+   <p> quatenus per e aduerbium est, quatinus per i coniunctio causalis, ut si dicas: quatinus hoc
+    sine plagis non facis, en tibi plagas. </p>
+   <p> aduerbium autem est quatenus aut temporis <del>interdum</del> aut loci: temporis, cum
+    dicimus: quatenus hos mores exercebis; loci, cum dicimus: quatenus ibimus. </p>
+   <p> esse <foreign xml:lang="grc">φαγεῖν</foreign>, id est <del>in unum</del> manducare. </p>
+   <p> buxus arbor est, buxum autem materia ipsa. </p>
+   <p> hic malus nauis, haec malus frugifera arbor. </p>
+   <p> pinnas murorum, pennas auium dicimus. </p>
+   <p> laserpicium florem dicimus, at caulem laser aiunt. </p>
+   <p> exprobrat qui commemorat quae praestitit, obprobrat qui obprobrium obiectat, hoc est uitium. </p>
+   <p> scorpio bellica res, at scorpius animal. </p>
+   <p> adulescens nomen, adolescens participium. </p>
+   <p> primo pedatu, non pidato dicendum. </p>
+   <milestone unit="page" n="p. 101 vol. VII Keil"/>
+   <p> ne quidem fieri potest non dicendum, sed ne fieri quidem potest, ut disiunctum sit. </p>
+   <p> uir praetorius et quaestorius, non praetoricius aut quaestoricius dicendum. </p>
+   <p> pulchra liburnica dicendum, non pulchra liburna. </p>
+   <p> uae datiuus et accusatiuus sequi debent, non alius, ut uae populo Maurorum et uae populum
+    Maurorum. </p>
+   <p> salmenta proferre non timeas, quia Latinum est. </p>
+   <p> duo tanta ac tria tanta, duplum ac triplum, ueteres in usu habuerunt. </p>
+   <p> omne animal pecus est homine excepto uocitatum. </p>
+   <p> mox aliam ordibor et ordiar telam: utroque modo ueteres dixerunt. </p>
+   <p> hic culleus, hic pluteus puteus cuneus laqueus postis margo ueper uel uepres masculina sunt.
+    hic cardo, hic axis modius sextarius, hic congius, hic corbis, hic gladius, sanguis, uenter
+    aqualiculus, hic uectis, hic flos ros pons. </p>
+   <p> hoc lutum atque macellum <foreign xml:lang="grc">ἑνικῶς</foreign>
+    <del>singulariter</del> exire memento, Memmius ista macella licet, Caesar luta dicat. </p>
+   <p> rete hoc dices, haec retia pluraliter: reticulum ac reticula usurpandum. </p>
+   <p> omnia nomina in nis finita masculina erunt, ueluti hic finis crinis cinis <milestone
+     unit="page" n="p. 102 vol. VII Keil"/>
+    <del>canis</del> amnis. hic radius, non hoc radium <unclear/>ille sal aspersus Musarum est: non
+    erit hoc sal haeue sales, sed hic sal<foreign xml:lang="grc"> ἑνικῶς</foreign> erit quod edimus,
+    hi sales pluraliter urbanitatis alicuius. hic puluinus mollis. idem producte refertur ad
+    personam masculini generis etiam in plurali numero, ut idem lupus et idem lupi. idem correpte
+    neutri <supplied>est</supplied> et ad rem refertur, ut idem scamnum et idem rus. </p>
+   <p> mi Paula et mi Aemilia non dicendum, quia mi masculini est generis pronomen, non feminini, et
+    ortum est a prima positione meus; sed dicendum mea Paula et mea Aemilia, o meum caput, o meumque
+    brachium. </p>
+   <p> nec non <del>et</del> ille soloecismus <del>est</del>, ubi dicier audis: omnibus maior et
+    melior, cum syncrisis omnis, / alter ubi est, fiat, praelatio uero, ubi plures <del>sunt</del>.
+    / ergo illustrior <supplied>est</supplied> luna sol; omnibus astris / haud dices, cunctorum
+    autem illustrissimus hic est. </p>
+   <p> similiter multo est hic dignior illo, dignissimus illorum, non dignior illorum dicendum est.
+    sic potior e duobus, potissimus omnium; primus ex multis, prior e duobus dicitur. </p>
+   <milestone unit="page" n="p. 103 vol. VII Keil"/>
+   <p> mustacius siue mustacium non ad genus referendum est, quasi hoc potius sit aut illud, cum per
+    se nihil sit, sed sit plane <foreign xml:lang="grc">τῶν πρός τι</foreign>. </p>
+   <p> mustacius panis recte dicimus et mustacium libum. sic militis puer galearius recte dicitur:
+    nam galearia soloecismus est. non est puer galearia: nam pueram sic rite uoces: puer est
+    galearius <unclear/>hic a soloecus. </p>
+   <p> hoc cerebrum est. nam cereber qui dicunt sine cerebro uiuunt. respondidi nihil est: respondi
+    dic Ciceroni. </p>
+   <p> bargena, non bargina, genus cui barbaricum sit. </p>
+   <p> uasa istaec uinaria sunt, uinaria cella, uulgus adhuc retinet de prisca uerba loquela. </p>
+   <p> sobrius per i, non per e scribendum. </p>
+   <p> sedi non secus te, sed secundum te dicendum. </p>
+   <p> ludos aliquem longe egregios fecisse dices, non dedisse. </p>
+   <p> uir ducit, mulier nubit, quia pallio flammeo obnubit caput suum genasque. </p>
+   <p> induxit pro decepit. seduxit <foreign xml:lang="grc">ἀκύρως</foreign> non dicitur, nisi cum
+    significamus: in aliam partem duxit, ut seduxit foras. </p>
+   <p> patre ac matre caret quis, cognato, fratre sororeue, non opibus caret aut nummis. </p>
+   <milestone unit="page" n="p. 104 vol. VII Keil"/>
+   <p> nongentos, non noncentos dicendum est ab nouem, nonagies, nonaginta, non nonacenta. </p>
+   <p> castigauit <del>me</del> uti dicas, non corripuit me. </p>
+   <p> hic lanius nomen est, uerbum autem lanio lanias laniat. dixerunt tamen ueteres et lanio in
+    nomine. </p>
+   <p> rostra uoca, non prorostra. nam pro rostris quod dicimus ante rostra significat, ut pro
+    muris. sic errant qui proscenia appellant <del>id est scenam</del> operosam fabricam ex aduerso
+    caueae, quae apud Graecos de fronde ornatus umbraeque causa fiebat et ab umbra, quam praestabat,
+    scena dicebatur. unde proscenia rectius pulpita quae ante scenam sunt appellabuntur, ut <quote
+     type="poetry">«ueteres ineunt proscenia ludi»</quote>. </p>
+   <p> inuersis armis pugnasse gladiatores non est dicendum, sed uersis, hoc est transmutatis; sic
+    nec inuersis pannis agitasse aurigas, sed uersis. </p>
+   <p> balneae dic lauant, non lauantur. ad homines utroque modo potest dici. </p>
+   <p> quadrigas trigas bigas pluraliter effer, antemnas quoque non aliter <del>a</del> priscis
+    memoratas <del>nisi plurali numero</del>. </p>
+   <p> carcer masculini generis semper singulariter dicitur, in quo homines coercentur, pluraliter
+    uero carceres, unde currus effunduntur. </p>
+   <p> participium a nomine tripliciter discernitur, comparatione, declinatione, significatione. </p>
+   <milestone unit="page" n="p. 105 vol. VII Keil"/>
+   <p> numeris etiam nomina communia sunt, ut sedes res spes nubes labes clades. </p>
+   <p> frequentatiua uerba sunt caenito pransito lectito dictito cursito uectito: ex hac nota sunt
+    ito habitoque. </p>
+   <p> cum de genere alicuius nominis ambigis, pluralem consule numerum: ut puta si quaeras, hic
+    pratus sit dicendum an hoc pratum, pluralis numerus cum faciat haec prata nec recipiat hi prati,
+    manifestum est genus <del>hoc est neutri</del>. </p>
+   <p> confessiua fit uox ex duplici uoce abnutiua, ut non nolo dicere: ostendo enim me uelle: et
+    non nescio, quae tibi uita est et non numquam prandeo et nec non est libera res mihi. </p>
+   <p> rumigat nihil est, sed ruminat et rumino. </p>
+   <p> dilibuit dic unguento, non delibuit. </p>
+   <p> ungue dic, non unge. </p>
+   <p> laquearia, non lacunaria <del>est</del>. </p>
+   <p> linteo mercator dicetur. </p>
+   <p> y litteram nulla uox nostra adsciscit. ideo insultabis gylam dicentibus. </p>
+   <p> sub diuo legimus, audimus uero de eo quod subiungebant ueteres et dicebant: sub diuo caelo. </p>
+   <p> Martulus <foreign xml:lang="grc">ἱερεύς</foreign> a Marte, non marculus. </p>
+   <p> saeua fames, non famis dicendum. </p>
+   <milestone unit="page" n="p. 106 vol. VII Keil"/>
+   <p> felicem, non filicem dicere debemus. unde et felicata opera priores dixerunt caelata. unde et
+    felix, quam ita credo dictam, quod sit minus felix aruis. </p>
+   <p> polenta, non pulenta dicendum est. </p>
+   <p> fictum rationis est, fixum uetustatis. ut pingo pictum, sic fingo fictum facit
+    participialiter. </p>
+   <p> gobius piscis, non numquam legitur gobio. </p>
+   <p> torpedo est, non torpido. </p>
+   <p> nequam non malum significat, sed inutilem, et est monoptoton, ut frugi. </p>
+   <p> uensica n habet, quia non est sine uento <unclear/>iam semper dicendum, quia nihil est ia.
+    item non iamus, sed eamus. montosam Italiam seu Sardiniam memorato. </p>
+   <p> scriptula dicendum, non scripula. </p>
+   <p> tinguere dicendum, non tingere, quoniam tinguo est, et tinguis tinguit. </p>
+   <p> ingenii profer, sic officii, quia nullus a recto casu minor est <supplied>umquam</supplied>
+    genetiuus. </p>
+   <p> in Siciliam dicendum, non is Siciliam, <foreign xml:lang="grc">κατὰ τὸ ν</foreign>, non
+     <foreign xml:lang="grc">κατὰ τὸ σ</foreign>, quia numquam sine n pronuntiatur. </p>
+   <p> audacter Latinum est, sed audaciter melius, quia nomina in x littera terminata in aduerbiis
+    iter adsumunt, ut atrox atrociter, ferox ferociter, uelox uelociter. sic audax audaciter.
+     <milestone unit="page" n="p. 107 vol. VII Keil"/> stlataris sine c littera dicendum ab stlata,
+    rate piratica. </p>
+   <p> stellonem dicito sine i littera a similitudine stellarum. </p>
+  </body>
+ </text>
+</TEI>

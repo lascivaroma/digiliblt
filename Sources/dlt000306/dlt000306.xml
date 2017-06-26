@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Historia Gothorum, Vandalorum, Sueborum</title>
+    <author>Isidorus (Isidorus Hispalensis)</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Raffaella Tabacco e Chiara Miglietta</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2016</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000306</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p>C. Rodríguez Alonso (ed.), <hi rend="italic">Las historias de los Godos, Vandalos y Suevos de Isidoro de Sevilla</hi>, León, Centro de Estudios e Investigación San Isidoro - Caja de Ahorros y Monte de Piedad de León, 1975.</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    <p><hi rend="bold">Modifiche apportate al testo dell'edizione di riferimento </hi></p>
+    <p>Si è corretto al cap. 23 "militae" in "militiae" e al cap. 89 "CCCCXVIII" in "CCCCXCVIII".</p>
+
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+   
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+  
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div type="section"><head>De laude Spaniae</head>
+    
+    <p>Omnium terrarum, quaequae sunt ab occiduo usque ad Indos, pulcherrima es, o sacra semperque felix principum gentiumque mater Spania: iure tu nunc omnium regina prouinciarum, a qua non occasus tantum, sed etiam oriens lumina mutuat: tu decus atque ornamentum orbis, inlustrior portio terrae, in qua gaudet multum ac largiter floret Geticae gentis gloriosa fecunditas. Merito te omnium ubertate gignentium indulgentior natura ditauit. Tu bacis opima, uuis proflua, messibus laeta; segete uestiris, oleis inumbraris, uite praetexeris. Tu florulenta campis, montibus frondua, piscosa litoribus. Tu sub mundi plaga gratissima sita nec aestiuo solis ardore torreris, nec glaciali rigore tabescis, sed temperata caeli zona praecincta, zephyris felicibus enutriris. Quicquid enim arua fecundum, quicquid metalla pretiosum, quicquid animantia pulchrum et utile ferunt, parturis, nec illis amnibus posthabenda, quos clara speciosorum gregum fama nobilitat. Tibi cedet Alphaeus equis, Clitumnus armentis, quamquam uolucres per spatia Pisaea quadrigas Olympicis sacer palmis Alfeus exerceat et ingentes Clitumnus iuuencos Capitolinis olim immolauerit uictimis. Tu nec Etruriae saltus uberior pabulorum requiris nec lucos Molorchi palmarum plena miraris, nec equorum cursu tuorum Eleis curribus inuidebis. Tu superfusis fecunda fluminibus, tu aurifsluis fulua torrentibus; tibi fons equi genitor, tibi uellera indigenis fucata conchyliis ad robores Tyrios inardescunt, tibi fulgurans inter obscura penitorum montium lapis iubare contiguo uicini solis accenditur. Alumnis igitur et gemmis diues et purpuris rectoribusque pariter et dotibus imperiorum fertilis sic opulenta es principibus ornandis ut beata pariendis. Iure itaque te iam pridem aurea Roma caput gentium concupiuit et licet te sibimet eadem Romulea uirtus primum uictrix desponderit, denuo tamen Gothorum florentissima gens post multiplices in orbe uictorias certatim rapit et amauit, fruiturque hactenus inter regias infulas et opes largas imperii felicitate securas. </p></div>
+   
+   <div type="section"> <head>De origine Gothorum </head>
+    
+    <div type="cap" n="1"><p> Gothorum antiquissimam esse gentem, quorum originem quidam de Magog Iafeth filio suspicantur a similitudine ultimae syllabae; et magis de Ezechiele propheta id colligentes. Retro autem eruditi eos magis Getas quam Gog et Magog appellare consueuerunt. </p></div>
+    
+    <div type="cap" n="2"><p> Interpretatio autem nominis eorum in linguam nostram tectum quod significatur fortitudo, et re uera: nulla enim in orbe gens fuit quae Romanum Imperium adeo fatigauerit. Isti sunt enim quos etiam Alexander uitandos pronuntiauit, Pyrrhus pertimuit, Caesar exhorruit. Per multa quippe retro saecula ducibus usi sunt, postea regibus, quorum oportet tempora per ordinem cursim exponere et quo nomine actuque regnauerint, de historiis libata retexere. </p></div>
+    
+    <div type="cap" n="3"><p> Anno ante aeram conditam XII, dum pro arripiendo rei publicae imperio consul Pompeius et Gaius Caesar arma ciuilia commouissent, Gothi ad praebendum Pompeio auxilium in Thessalia aduersus Caesarem pugnaturi uenerant, ubi dum Aethiopes, Indi, Persi, Medi, Graeci, Scythae ac reliquae Orientis gentes uocatae aduersus Iulium dimicassent, isti prae ceteris ei fortius restiterunt: quorum Caesar copia et uirtute turbatus fatur fugam meditasse, nisi nox proelio finem dedisset. </p></div>
+    
+    <div type="cap" n="4"><p> Aera CCXCIIII anno imperii Valeriani et Gallieni primo Gothi descensis Alpibus, quibus inhabitabant, Graeciam, Macedoniam, Pontum, Asiam atque Illyricum uastauerunt. Ex quibus Illyricum et Macedoniam xv ferme annos tenuerunt. Deinde a Claudio imperatore superati sedes proprias repetunt. Romani autem Claudium Augustum pro eo quod tam fortissimam gentem a finibus reipublicae remouisset in foro illi aureum clipeum, in Capitolio auream statuam conlocauerunt. </p></div>
+    
+    <div type="cap" n="5"><p> Aera CCCLXVIIII, anno XXVI imperii Constantini Gothi Sarmatarum regionem adgressi copiosissimis super Romanos inruerunt agminibus uehementi uirtute cuncta gladio et depraedatione uastantes. Aduersus quos idem Constantinus aciem instruxit ingentique certamine uix superatos ultra Danuuium expulit, de diuersis gentibus uirtutis gloria clarus, sed de Gothorum uictoria amplius gloriosus. Quem Romani senatu adclamante publica laude prosecuti sunt, quod tantam gentem uicerit quod patriam rei publicae reformauerit. </p></div>
+    
+    <div type="cap" n="6"><p> Aera CCCCVII, anno V imperii Valentis primus Gothorum gentis administrationem suscepit Athanaricus regnans annos XIII, qui persecutione crudelissima aduersus fidem commota uoluit se exercere contra Gothos qui in gente sua Christiani habebantur; ex quibus plurimos, quia idolis immolare non adquieuerunt, martyres fecit, reliquos autem multis persecutionibus adflictos, dum prae multitudine horreret interficere, dedit licentiam, immo magis coegit de regno suo exire atque in Romani soli migrare prouinciam. </p></div>
+    
+    <div type="cap" n="7"><p> Aera CCCCXV, anno XIII imperii Valentis Gothi in Istrium aduersus semet ipsos in Athanarico et Fridigerno diuisi sunt, alternis sese caedibus populantes; sed Athanaricus Fridigernum Valentis imperatoris suffragio superans huius rei gratia legatos cum muneribus ad eundem imperatorem mittit et doctores propter suscipiendam Christianae fidei regulam poscit. Valens autem a ueritate catholicae fidei deuius et Arrianae haeresis peruersitate detentus missis haereticis sacerdotibus Gothos persuasione nefanda sui erroris dogmati adgregauit et in tam praeclaram gentem uirus pestiferum semine pernicioso transfudit sicque errorem, quem recens credulitas ebibit, tenuit diuque seruauit. </p></div>
+    
+    <div type="cap" n="8"><p> Tunc Gulfilas eorum episcopus Gothicas litteras condidit et scripturas noui ac ueteris testamenti in eandem linguam conuertit. Gothi autem, statim ut litteras et legem habere coeperunt, construxerunt sibi dogmatis sui ecclesias, talia iuxta eundem Arrium de ipsa diuinitate documenta tenentes, ut crederent filium patri maiestate esse minorem, aeternitate posteriorem, spiritum autem sanctum neque deum esse neque ex substantia patris existere, sed per filium creatum esse, utriusque ministerio deditum et amborum obsequio subditum. Aliam quoque patris sicut personam, sic et naturam adserentes, aliam filii, aliam denique spiritus sancti, ut iam non secundum sanctae scripturae traditionem unus deus et dominus coleretur, sed iuxta idolatriae superstitionem tres dei uenerarentur. Cuius blasphemiae malum per discessum temporum regumque sucessum annis CCXIII tenuerunt. Qui tandem reminiscentes salutis suae renuntiauerunt inolitae perfidiae et per Christi gratiam ad unitatem fidei catholicae peruenerunt. </p></div>
+    
+    <div type="cap" n="9"><p> Aera CCCCXVI anno XIIII, imperii Valentis Gothi, qui primum christianos a sedibus suis expulerant, rursus ipsi ab Hunis cum rege suo Athanarico expulsi sunt transitoque Danuuio cum uim Valentis imperatoris ferre non possent sese non depositis armis tradunt, Thraciam ad inhabitandum accipiunt. Sed ubi uiderunt se opprimi a Romanis contra consuetudinem propriae libertatis ad rebellandum coacti sunt Thraciam ferro incendiisque depopulantur deletoque Romanorum exercitu ipsum Valentem iaculo uulneratum in quandam uillam fugientem succendunt ut merito ipse ab eis uiuens cremaretur incendio qui tam pulchras animas ignibus aeternis tradiderat. </p></div>
+    
+    <div type="cap" n="10"><p> Inuenerunt autem eo proelio Gothi confessores priores Gothos quos dudum propter fidem a terra sua expulerant, et uoluerunt eos sibi ad praedae societatem coniungere. Qui cum non adquieuissent, aliquanti interfecti sunt, alii montuosa loca tenentes et refugia sibi qualiacumque construentes non solum perseuerauerunt Christiani catholici, sed etiam in concordia Romanorum a quibus dudum excepti fuerant, permanserunt. </p></div>
+    
+    <div type="cap" n="11"><p> Aera CCCCXVIIII, anno imperii Theodosi Spani tertio, Athanaricus cum Theodosio ius amicitiamque disponens mox Constantinopolim pergit ibique quintodecimo die post quam fuerat a Theodosio honorabiliter susceptus, interiit. Gothi autem, proprio rege defuncto adspicientes benignitatem Theodosi imperatoris inito foedere Romano se imperio tradiderunt. </p></div>
+    
+    <div type="cap" n="12"><p> Aera CCCCXX, anno imperii Theodosii IIII, Gothi patrocinium Romani foederis recusantes Alaricum regem sibi constituunt, indignum iudicantes Romanae esse subditos potestati eosque sequi, quorum iam pridem leges imperiumque respuerant et de quorum se societate proelio triumphantes auerterant. </p></div>
+    
+    <div type="cap" n="13"><p> Aera CCCCXXXVII, anno imperii Honori et Arcadi quarto Gothi in Alarico et Ragadaiso diuisi, dum semet ipsos in duabus partibus regni uariis caedibus lacerarent, ob excidium Romanorum concordes effecti consilium in commune constituunt parique intentione ad depraedandas quasque regiones Italiae ab inuicem diuiduntur. </p></div>
+    
+    <div type="cap" n="14"><p> Aera CCCCXLIII, anno imperii Honorii et Arcadii X rex Gothorum Ragadaisus genere Scytha cultui idolatriae deditus barbaricae inmanitatis feritate saeuissimus cum ducentis armatorum milibus Italiae partes uehementi uastatione adgreditur, spondens in contemptum Christi Romanorum sanguinem diis suis libare, si uinceret, cuius exercitus ab Stilicone duce Romano in montuosis Tusciae locis circumclusus fame est, potius quam ferro consumptus, ipse postremum rex captus et interfectus est. </p></div>
+    
+    <div type="cap" n="15"><p> Aera CCCCXLVII, anno imperii Honorii et Arcadii XV extincto Ragadaiso Alaricus consors regni, nomine quidem Christianus, sed professione haereticus, dolens tantam multitudinem Gothorum a Romanis extinctam, in uindictam sanguinis suorum aduersus Romam proelium agit obsessamque impetu magnae cladis inrumpit. Sicque urbs cunctarum gentium uictrix Gothicis triumphis uicta subcubuit eisque capta subiugataque seruiuit.</p>
+     <p>Tantum autem Gothi clementes ibi extiterunt, ut uotum antea darent quod, si ingrederentur urbem, quicumque Romanorum in locis Christi, inuenirentur, in uastationem urbis non mitteretur. Post hoc igitur uotum adgressi urbem omnibus et mors et captiuitas indulta est, qui ad sanctorum limina confugerunt. Sed et qui extra loca martyrum erant et nomen Christi et sanctorum nominauerunt, et ipsis simili misericordia pepercerunt. </p></div>
+    
+    <div type="cap" n="16"><p> In reliquis autem etsi praeda hostium patuit, feriendi tamen inmanitas refrenata est. Incursantibus autem in illa uastitate per urbem Gothis, dum quidam potens uirginem consecratam aetate prouectam repperisset eamque honeste admoneret, ut, si quid apud se auri argentique esset, proferret, illa fideli conscientia quod habuit protulit; cumque ille uasorum formam et pulcritudinem ex illa antiqua Romanorum opulentia miraretur, uirgo ait: haec uasa mihi de sacrario Petri apostoli deposita sunt, praesume, si audes: ego sacra hosti dare non audeo.</p>
+     <p>Ille ad nomen apostoli magno pauore perterritus regi hoc per nuntium refert, qui confestim reportari omnia ad sacrarium beati Petri summa cum reuerentia iussit, dicens cum Romanis gessisse bellum, non cum apostolis. </p></div>
+    
+    <div type="cap" n="17"><p> Redit igitur uirgo reuerentissimis officiis honorata: redeunt et cum illa omnes qui ei se sociauerunt, super capita sua uasa illa aurea et argentea cum hymnis et canticis reportantes exertis undique iussu regis ob defensionem armatorum custodiis. Concurrunt undique ad uoces canentium de latibulis agmina Christianorum. Concurrunt etiam et pagani atque admixit iter eos, dum Christianos esse se fingunt, etiam et ipsi calamitatis excidium euaserunt. </p></div>
+    
+    <div type="cap" n="18"><p> Hac tempestate Gothi Placidiam Theodosi principis filiam, Arcadii et Honorii imperatorum sororem cum ingenti auro Romae capiunt adeptisque multis opibus Romanorum tertia die incensa euersaque in partibus urbe discedunt. Inde conscensis nauibus cum ad Siciliam exiguo ab Italia fretu diuisam transire disponerent, infesto mari periclitati multum exercitum perdiderunt. Quibus tanta fuit gloria de Romanae urbis obtentu, ut in eius comparatione nihil se mali passos tempestate illa arbitrarentur, damna naufragii euentu uictoriae compensantes. Mors Alarici confestim secuta: uicesimo octauo regni anno defunctus Italia. </p></div>
+    
+    <div type="cap" n="19"><p> Aera CCCCXLVIII, anno imperii Honorii et Arcadii XVI, Alarico post captam urbem defuncto, Athaulfus Gothis Italia regno praeficitur annis VI. Iste quinto regni anno de Italia recedens Gallias adiit. Placidiam Theodosii imperatoris filiam, quam Romae Gothi ceperant coniugem sibi adsumpsit.</p>
+     <p>In quo prophetia Danihelis a quibusdam creditur esse conpleta, qui ait filiam regis austri coniungendam regi aquilonis, nullo tamen de germine eius subole subsistente. Sicut et idem in consequentibus propheta subicit dicens: nec stabit semen eius. Nullus enim de utero illius extitit genitus, qui patris in regnum succederet. Athaulfus autem dum relictis Galliis Spanias peteret, a quodam suorum apud Barcinonem inter familiares fabulas iugulatur. </p></div>
+    
+    <div type="cap" n="20"><p> Aera CCCCLIIII, anno imperii Honorii et Arcadii XXII post Athaulfum Gothis Sigericus princeps electus est. Qui dum ad pacem cum Romanis esset promptissimus, mox a suis est interfectus. </p></div>
+    
+    <div type="cap" n="21"><p> Aera et anno quo supra Vallia Sigerico succedens tribus annis regnum tenuit belli causa princeps a Gothis effectus, sed ad pacem diuina prouidentia ordinatus. Mox enim regnare coepit, faedus cum imperatore Honorio pepigit. Placidiam sororem eius, quae a Gothis Romae capta fuerat, ei honorifice reddidit, promittens imperatori propter rem publicam omne certamen inplendum. Itaque ad Spanias per Constantium patricium euocatus. </p></div>
+    
+    <div type="cap" n="22"><p> Romani nominis causa caedes magnas barbaris intulit: Wandalos Silingos in Baetica omnes bello extrinxit: Alanos, qui Wandalis et Sueuis potentabantur, adeo cecidit, ut extincto Atace rege ipsorum pauci qui superfuerant oblito regni nomine Gunderici regis Wandalorum, qui in Gallicia resederant, se regimini subiugarent.</p>
+     <p>Confecto igitur Wallia bello Spaniae, dum instructa nauali acie Africam transire moliretur in fretu Gaditani maris ui grauissima tempestatis effractus, memor etiam illius sub Alarico naufragii omisso nauigationis periculo Gallias repetit, data ei ab imperatore ob meritum uictoriae secunda Aquitania cum quibusdam ciuitatibus confinium prouinciarum usque ad oceanum. </p></div>
+    
+    <div type="cap" n="23"><p> Aera CCCCLVII, anno imperii Honorii et Arcadii XXV, Wallia rege defuncto Theuderidus succedit in regnum annis XXXIII. Qui regno Aquitanico non contentus pacis Romanae foedus recusat pleraque municipia Romanorum uicina sedibus suis occupat, Arcilas nobilissimum Galliae oppidum multa ui obsessum oppugnat. A cuius obsidione inminente uirtute Aetii Romanae militiae ducis non inpunitus abscedit. </p></div>
+    
+    <div type="cap" n="24"><p> Remoto igitur Valentiniani imperatoris iussu a potestate militari Aetio dum Theuderidus Narbonensi urbe diutina obsidione ac fame esset infestus, rursus a Litorio Romanae militiae duce Hunis auxiliantibus effugatur. Litorius autem dum primum res prosperas aduersus Gothos gessisset, denuo daemonum signis haruspicumque responsis deceptus bellum cum Gothis inprudenter iniit amissoque Romano exercitu miserabiliter superatus interiit, fecitque intellegi, quantum illa, quae cum eodem periit, multitudo prodesse potuerit, si fide potius quam fallacibus daemoniorum ostentis uti maluisset. </p></div>
+    
+    <div type="cap" n="25"><p> Pace deinde Theuderidus cum Romanis inita denuo aduersus Hunos Galliarum prouincias saeua depopulatione uastantes atque urbes plurimas euertentes in campis Catalaunicis auxiliante Aetio duce Romano aperto Marte conflixit ibique proeliando uictor occubuit. Gothi autem dimicante Thurismundo Theuderedi regis filio adeo fortiter congressi sunt, ut inter primum proelium et postremum trecenta fere milia hominum prostrarentur. </p></div>
+    
+    <div type="cap" n="26"><p> Multa eodem tempore caeli et terrae signa processerunt, quorum prodigiis tam crudele bellum significaretur, nam adsiduis terrae motibus factis a parte orientis luna fuscata est, a solis occasu stella cometes apparuit atque ingenti magnitudine aliquandiu fulsit, ab aquilonis plaga caelum rubens sicut ignis aut sanguis effectus est permixtis per igneum ruborem lineis clarioribus in specie hastarum rutilantium deformatis. Nec mirum ut tam ingenti caesorum strage diuinitus tam multa signorum demonstraretur ostensio. </p></div>
+    
+    <div type="cap" n="27"><p> Huni autem usque ad internicionem paene caesi cum rege suo Attila relictis Galliis Italiam fugiunt aliquantis ciuitatibus inruptis. Qui et ibi partim fame, partim caelestibus plagis percussi interierunt. Misso insuper a Marciano imperatore exercitu forti plaga caeduntur affectique nimium sedes proprias repetunt ad quas rex eorum Attila, mox ut remeauit, occubuit. </p></div>
+    
+    <div type="cap" n="28"><p> Statimque inter filios eius de obtinendo regno magna sunt exorta certamina. Atque ita Huni, qui tot cladibus antea diminuti fuerant, rursus mutuis sese gladiis conciderunt. In quibus mirum illud est, ut dum omne proelium detrimentum habeat populorum, isti uice uersa cadendo proficiant; sed proinde quia in disciplina fidelium positi sunt, sicut populus gentis Persarum. </p></div>
+    
+    <div type="cap" n="29"><p> Virga enim furoris dei sunt et, quotiens indignatio eius aduersus fideles procedit, per eos flagellantur, ut eorum adflictionibus emendati a saeculi cupiditate et peccato semet ipsos coerceant et caelestis regni hereditatem possideant. Adeo autem haec gens horrida est, ut, cum famem in bello fuerit passa, uenam tangat equi et sic excludat hausto sanguine famem. </p></div>
+    
+    <div type="cap" n="30"><p> Aera CCCCXC, anno primo imperii Marciani Turismundus filius Theuderedi prouehitur ad regnum anno I. Qui dum in ipsis regni sui exordiis feralis ac noxius hostilia inspiraret et multa ageret insolentius, a Theuderico et Frigdarico est fratribus interfectus. </p></div>
+    
+    <div type="cap" n="31"><p> Aera CCCCXCI, anno II imperii Marciani Theudericus post fraternam necem in regnum succedens imperauit annis XIII. Qui pro eo quod imperatori Auito sumendi imperialis fastigii cum Gallis auxilium praebuisset, ab Aquitania in Spanias cum ingenti multitudine exercitus et cum licentia eiusdem Auiti imperatoris ingreditur. Cui cum magna copia rex Sueuorum Recciarius occurrens duodecimo Asturicensis urbis miliario apud fluuium, qui Urbicus appellatur, inito mox certamine superatus est caesis suorum agminibus, aliquantis captis plurimisque fugatis. Ipse postremum rex telo sauciatus fugiit praesidioque suorum carens ad locum Portucale capitur regique Theuderico uiuus offertur. </p></div>
+    
+    <div type="cap" n="32"><p> Quo perempto multis qui de priore certamine superfuerant sese tradentibus, aliquantis nihilominus trucidatis regnum paene destructum est finitumque Sueuorum. Reliqui autem Sueui qui remanserant in extrema parte Galliciae Massilae filium nomine Masdram sibi regem constituunt regnumque reparatur Sueuorum. Occisso Recciario Theudericus de Gallicia ad Lusitaniam uictor succedens dum Emeritensem urbem depraedare moliretur sanctae martyris Eulaliae ostentis perterritus, cum omni protinus exercitu discedit et Gallias repetit. </p></div>
+    
+    <div type="cap" n="33"><p> Mox deinde partem unam exercitus duce Ceurila ad Baeticam prouinciam mittit.</p>
+     <p>Partem aliam Sumerico et Nepotiano ducibus ad Galliciam dirigit, qui Sueuos apud Lucum saeua depraedatione uastauerunt. </p>
+     <p>In Gallias autem Agrippinus comes et ciuis Aegidio comiti Romano aemulus, ut Gothorum mereretur auxilia, Narbonam tradidit Theuderico. Post aliquot legati a Remismundo Masdrae filio rege Sueuorum missi ad Theudericum uenerunt pacem amicitiamque poscentes. Similiter Theudericus ad Remismundum remittit cum armorum adiectione uel munerum, directa etiam et coniuge quam haberet. Sallanem quoque legatum denuo Theudericus mittit ad Remismundum, qui reuersus ad Gallias Theudericum ab Eurico fratre suo repperit interfectum. </p></div>
+    
+    <div type="cap" n="34"><p> Aera DIIII, anno imperii Leonis VIII, Euricus pari scelere, quo frater, succedit in regnum annis XVII. In quo honore prouectus et crimine statim legatos ad Leonem imperatorem dirigit nec mora partes Lusitaniae magno impetu depraedatur. Inde Pampilonam et Caesaraugustam misso exercitu capit superioremque Spaniam in potestatem suam mittit. Tarraconensis etiam prouinciae nobilitatem, quae ei repugnauerat, exercitus inruptione euertit. In Gallias autem regressus Arelatum urbes et Massiliam bellando optinuit suoque regno utramque adiecit. </p></div>
+    
+    <div type="cap" n="35"><p> Iste quodam die congregatis in conloquio Gothis tela, quae omnes habebant in manibus, a parte ferri uel acie alia uiridi, alia roseo, alia croceo, alia nigro colore naturalem ferri speciem aliquandiu non habuisse mutatam comperiit. Sub hoc rege Gothi legum instituta scriptis habere coeperunt, nam antea tantum moribus et consuetudine tenebantur. Obiit Arelato Euricus morte propria defunctus. </p></div>
+    
+    <div type="cap" n="36"><p> Aera DXXI, anno X imperii Zenonis Eurico mortuo Alaricus filius eius apud Tolosensem urbem princeps Gothorum constituitur regnans ann. XXIII. Aduersus quem Fluduicus Francorum princeps Galliae regnum affectans Burgundionibus sibi auxiliantibus bellum mouit fusisque Gothorum copiis ipsum postremo regem apud Pictauis superatum interfecit.</p>
+     <p>Theudericus autem Italiae rex dum interitum generi conperisset confestim ab Italiga proficiscitur, Francos proterit, partem regni quam manus hostium occupauerat recepit Gothorumque iuri restituit. </p></div>
+    
+    <div type="cap" n="37"><p> Aera DXLIIII, anno XVII imperii Anastasii Gisaleicus superioris regis filius ex concubina creatus Narbona princeps efficitur regnans annis quattuor, sicut genere uilissimus, ita infelicitate et ignauia summus. Denique dum eadem ciuitas a Gundebado Burgundionum rege direpta fuisset, iste cum multo sui dedecore et cum magna suorum clade apud Barcinonam se contulit. Ibi moratus quousque etiam regni fascibus a Theuderico fugae ignominia priuaretur. </p></div>
+    
+    <div type="cap" n="38"><p> Inde profectus ad Africam Wandalorum suffragium poscit, quo in regnum posset restitui. Qui dum non impetrasset auxilium, mox de Africa rediens ob metum Theuderici Aquitaniam petiit ibique anno uno delitiscens Spaniam reuertitur atque ab Ebbane Theuderici regis duce duodecimo a Barcinona urbe miliario commisso proelio in fugam uertitur captusque trans flumen Druentium Galliarum interiit, sicque prius honorem, postea uitam amisit. </p></div>
+    
+    <div type="cap" n="39"><p> Aera DXLVIIII, anno uicesimo primo imperii Anastasii Theudericus iunior, cum iam dudum consul et rex a Zenone imperatore Romae creatus fuisset peremptoque Odoacar rege Ostrogothorum atque deuicto fratre eius Honoulfo, et trans confinium Danubii effugato XVIII annis Italia uictor regnasset, rursus extincto Gisaleico rege Gothorum Spaniae regnum XV annis obtinuit, quod superstes Amalarico nepoti suo reliquit. Inde Italiam repetens aliquamdiu omni cum prosperitate regnauit, per quem etiam urbis Romae dignitas non parua est restituta: muros namque eius iste redintegrauit, cuius rei gratia a senatu inauratam statuam meruit. </p></div>
+    
+    <div type="cap" n="40"><p> Aera DLXIIII, anno imperii Iustiniani I, regresso Italiam Theuderico, Amalaricus nepos eius annis V regnauit. Qui cum ab Hildeberto Francorum rege apud Narbonam proelio superatus fuisset Barcinonam trepidus fugiit effectusque omnium contemptibilis ab exercitu iugulatus interiit. </p></div>
+    
+    <div type="cap" n="41"><p> Aera DLXVIIII, anno imperii Iustiniani VI post Amalaricum Theudis in Spania creatur in regnum annis XVII, qui dum esset haereticus, pacem tamen concessit ecclesiae, adeo ut licentiam catholicis episcopis daret in unum apud Toletanam urbem conuenire et quaecumque ad ecclesiae disciplinam necessaria existerent, libere licenterque disponere.</p>
+     <p>Eo regnante, dum Francorum reges cum infinitis copiis in Spanias conuenissent et Tarraconensem prouinciam bello depopularent, Gothi duce Theudisclo obicibus Spaniae interclusis Francorum exercitum multa cum admiratione uictoriae prostrauerunt. Dux idem prece atque ingenti pecunia sibi oblata uiam fugae hostibus residuis unius diei noctisque spatio praebuit; cetera infelicium turba, cui transitus conlati temporis non occurrit, Gothorum perempta gladio concidit. </p></div>
+    
+    <div type="cap" n="42"><p> Post tam felicis successum uictoriae trans fretum inconsulte Gothi gesserunt. Denique dum aduersus milites, qui Septem oppidum pulsis Gothis inuaderant, oceani freta transissent eundemque castrum magna ui certaminis expugnarent, adueniente die dominico deposuerunt arma, ne diem sacrum proelio funestarent. Hac igitur occasione reperta milites repentino incursu adgressum exercitum mari undique terraque conclusum adeo prostrauerunt, ut ne unus quidem superesset, qui tantae cladis excidium praeteriret. </p></div>
+    
+    <div type="cap" n="43"><p> Nec mora praeuenit mors debita principem, uulneratur enim a quodam in palatio, qui iam dudum dementis speciem, ut regem deciperet, simulauerat.</p>
+     <p>Finxit enim arte insaniam perfoditque principem, quo uulnere ille prostratus occubuit indignantemque animam exhalauit. Fertur autem inter effusionem sanguinis coniurasse, ne quis interficeret percussorem, dicens congruam meriti recepisse uicissitudinem, quod et ipse priuatus ducem suum sollicitatum occiderit. </p></div>
+    
+    <div type="cap" n="44"><p> Aera DLXXXVI, anno imperii Iustiniani XXIII interempto Theudi Theudisclus Gothis praeficitur, regnans anno I. Qui, dum plurimorum potentum conubia prostitutione publica macularet et ob hoc instrueret animum ad necem multorum, praeuentus coniuratorum manu Hispali inter epulas iugulatur confossusque extinguitur. </p></div>
+    
+    <div type="cap" n="45"><p> Aera DLXXXVII, anno imperii Iustiniani XXIIII extincto Theudisclo Agila rex constituitur regnans annis V. Iste aduersus Cordubensem urbem proelio mouens, dum in contemptu catholicae religionis ecclesiae beatissimi martyris Aciscli iniuriam inferret hostiumque ac iumentorum horrore sacrum sepulchri eius locum ut profanator pollueret, inito aduersus Cordubenses ciues certamine poenas dignas sanctis inferentibus meruit. Nam belli praesentis ultione percussus et filium ibi cum copia exercitus interfectum amisit et thesaurum omnem cum insignibus opibus perdidit. </p></div>
+    
+    <div type="cap" n="46"><p> Ipse uictus ac miserabili metu fugatus Emeritam se recepit. Aduersus quem interiecto aliquanto temporis spatio Athanagildus tyrannidem regnandi cupiditate arripiens, dum exercitum eius contra se Hispalim missum uirtute militari prostrasset, uidentes Gothi proprio se euerti excidio et magis metuentes, ne Spaniam milites auxili occasione inuaderent, Agilanem Emerita interficiunt et Athanagildi se regimini tradiderunt. </p></div>
+    
+    <div type="cap" n="47"><p> Aera DXCII, anno imperii Iustiniani XXVIIII occiso Agilane Athanagildus regnum quod inuaderat tenuit annis XIIII.</p>
+     <p>Hic cum iam dudum sumpta tyrannide Agilanem regno priuare conaretur, militum sibi auxilia ab imperatore Iustiniano poposcerat, quos postea submouere a finibus regni molitus non potuit. Aduersus quos huc usque conflictum est: frequentibus antea proelis caesi, nunc uero multis casibus fracti atque finiti. Decessit autem Athanagildus Toleto propria morte uacante regno mensibus V. </p></div>
+    
+    <div type="cap" n="48"><p> Aera DCV, anno II imperii Iustini minoris post Athanagildum Liuua Narbonae Gothis praefitur regnans annis tribus. Qui secundo anno postquam adeptus est principatum, Leuuigildum fratrem non solum successorem, sed et participem regni sibi constituit Spaniaeque administrationi praefecit, ipse Galliae regno contentus. Sicque regnum duos capuit, dum nulla potestas patiens consortis sit. Huic autem unus tantum annus in ordine tempororum reputatur, reliqui Leuuigildo fratri adnumerantur. </p></div>
+    
+    <div type="cap" n="49"><p> Aera DCVI, anno III imperii Iustini minoris Leuuigildus adepto Spaniae et Galliae principatu ampliare regnum bello et augere opes statuit. Studio quippe exercitus concordante fauore uictoriarum multa praeclare sortitus est. Cantabrum namque iste obtinuit, Aregiam iste cepit, Sabaria ab eo omnis deuicta est. Cesserunt etiam armis illius plurimae rebelles Hispaniae urbes. Fudit quoque diuerso proelio militem et quaedam castra ab eis occupata dimicando recepit. Hermenegildum deinde filium imperiis suis tyrannizantem obsessum exsuperauit. Postremum bellum Sueuis intulit regnumque eorum in iure gentis suae mira celeritate transmisit, Spania magna ex parte potitus, nam antea gens Gothorum angustis finibus artabatur. Sed offuscauit in eo error impietatis gloriam tantae uirtutis. </p></div>
+    
+    <div type="cap" n="50"><p> Denique Arrianae perfidiae furore repletus in catholicos persecutione commota plurimos episcoporum exilio relegauit, ecclesiarum reditus et priuilegia tulit. Multos quoque terroribus in Arrianam pestilentiam inpulit, plerosque sine persecutione inlectos auro rebusque decepit. Ausus quoque inter cetera haeresis suae contagia etiam rebaptizare catholicos et non solum ex plebe, sed etiam ex sacerdotalis ordinis dignitate, sicut Vincentium Caesaraugustanum de episcopo apostatam factum et tanquam a caelo in infernum proiectum. </p></div>
+    
+    <div type="cap" n="51"><p> Extitit autem et quibusdam suorum perniciosus, nam quoscumque nobilissimos ac potentissimos uidit aut capite truncauit aut proscriptos in exsilium egit. Fiscum quoque primus iste locupletauit primusque aerarium de rapinis ciuium hostiumque manubiis auxit. Condidit etiam ciuitatem in Celtiberia, quam ex nomine filii sui Recopolim nominauit. In legibus quoque ea quae ab Eurico incondite constituta uidebantur correxit, plurimas leges praetermissas adiciens plerasque superfluas auferens. Regnauit autem annis XVIII defunctus propria morte Toleto. </p></div>
+    
+    <div type="cap" n="52"><p> Aera DCXXIIII, anno III imperii Maurici, Leuuigildo defuncto filius eius Recaredus regno est coronatus, cultu praeditus religionis et paternis moribus longe dissimilis: namque ille inreligiosus et bello promptissimus, hic fide pius et pace praeclarus, ille armorum artibus gentis imperium dilatans, hic gloriosius eandem gentem fidei trophaeo sublimans. In ipsis enim regni sui exordiis catholicam fidem adeptus totius Gothicae gentis populos inoliti erroris labe detersa ad cultum rectae fidei reuocat. </p></div>
+    
+    <div type="cap" n="53"><p> Synodum deinde episcoporum ad condemnationem Arrianae haeresis de diuersis Spaniae et Galliae prouinciis congregat, cui concilio idem religiosissimus princeps interfuit gestaque eius praesentia sua et subscriptione firmauit, abdicans cum omnibus suis perfidiam quam hucusque Gothorum populus Arrio docente didicerat, et praedicans trium personarum unitatem in deum, filium a patre consubstantialiter genitum esse, spiritum sanctum inseparabiliter a patre filioque procedere et esse amborum unum spiritum, unde et unum sunt. </p></div>
+    
+    <div type="cap" n="54"><p> Egit etiam gloriose bellum aduersus infestas gentes fidei suscepto auxilio. Francis enim sexaginta fere milium armatorum Gallias inruentibus misso Claudio duce aduersus eos glorioso triumphauit euentu. Nulla umquam in Spaniis Gothorum uictoria uel maior uel similis extitit. Prostrati sunt enim et capti multa milia hostium; residua exercitus pars praeter spem in fugam uersa Gothis post tergum insequentibus usque in regni sui finibus caesa est. Saepe etiam et lacertos contra Romanas insolentias et inruptiones Vasconum mouit, ubi non magis bella tractasse quam potius gentem quasi in palaestrae ludu pro usu utilitatis uidetur exercuisse. </p></div>
+    
+    <div type="cap" n="55"><p> Prouincias autem, quas pater proelio conquisiuit, iste pace conseruauit, aequitate disposuit, moderamine rexit. Fuit autem placidus, mitis, egregiae bonitatis tantamque in uultu gratiam habuit et tantam in animo benignitatem gessit, ut in omnium mentibus influens etiam malos ad affectum amoris sui attraheret; adeo liberalis, ut opes priuatorum et ecclesiarum praedia, quae paterna labes fisco adsociauerat, iuri proprio restauraret; adeo clemens, ut populi tributa saepe indulgentiae largitione laxaret. </p></div>
+    
+    <div type="cap" n="56"><p> Multos etiam ditauit rebus, plurimos sublimauit honoribus, opes suas in miseris, thesauros suos in egenis recondens, sciens ad hoc illi fuisse conlatum regnum, ut eo salubriter frueretur, bonis initiis bonum finem adeptus; fidem enim rectae gloriae, quam initio regni percepit, nouissime publica confessione paenitentiae cumulauit. Toleto fine pacifico transiit. Qui regnauit annos XV. </p></div>
+    
+    <div type="cap" n="57"><p> Aera DCXXXVIIII, anno imperii Maurici XVII, post Recaredum regem regnat Liuua filius eius annis duobus, ignobili quidem matre progenitus, sed uirtutum indole insignitus. Quem in primo flore adulescentiae Wittericus sumpta tyrannide innocuum regno deiecit praecisaque dextra occidit anno aetatis XX, regni secundo. </p></div>
+    
+    <div type="cap" n="58"><p> Aera DCXLI, anno imperii Maurici XX extincto Liuuane Wittericus regnum, quod uiuente illo inuaserat, uindicat annis VII, uir quidem strenuus in armorum arte, sed tamen expers uictoriae. Namque aduersus militem Romanum proelio saepe molitus nihil satis gloriae gessit praeter quod milites quosdam Sagontia per duces obtinuit. Hic in uita plurima inlicita fecit, in morte autem, quia gladio operatus fuerat, gladio periit. Mors quippe innocentis inulta in illo non fuit, inter epulas enim prandii coniuratione quorundam est interfectus. Corpus eius uiliter est exportatum atque sepultum. </p></div>
+    
+    <div type="cap" n="59"><p> Aera DCXLVIII, anno imperii Focatis sexto, Gundemarus post Vittericum regnat annis II. Hic Wascones una expeditione uastauit, alia militem Romanum obsedit, morte propria Toleto decessit. </p></div>
+    
+    <div type="cap" n="60"><p> Aera DCL, anno imperii Heraclii II, Sisebutus post Gundemarum regali fastigio euocatur, regnans annis VIII mensibus VI. Qui initio regni Iudaeos ad fidem Christianam permouens aemulationem quidem habuit, sed non secundum scientiam: potestate enim conpulit, quos prouocare fidei ratione oportuit, sed, sicut scriptum est, siue per occasionem siue per ueritatem donec Christus adnuntietur. Fuit autem eloquio nitidus, sententia doctus, scientia litterarum ex parte inbutus. </p></div>
+    
+    <div type="cap" n="61"><p> In bellicis quoque documentis ac uictoriis clarus. Astures enim rebellantes misso exercitu in dicionem suam reduxit. Ruccones montibus arduis undique consaeptos per duces euicit. De Romanis quoque praesens bis feliciter triumphauit et quasdam eorum urbes pugnando sibi subiecit. Adeo post uictoriam clemens, ut multos ab exercitu suo hostili praeda in seruitutem redactos pretio dato absolueret eiusque thesaurus redemptio existeret captiuorum. Hunc alii proprio morbo, alii inmoderato medicamenti haustu asserunt interfectum, relicto Recaredo filio paruulo, qui post patris obitum princeps paucorum dierum morte interueniente habetur. </p></div>
+    
+    <div type="cap" n="62"><p> Aera DCLVIIII, anno imperii Heraclii X gloriosissimus Suinthila gratia diuina regni suscepit sceptra. Iste sub rege Sisebuto ducis nanctus officio Romana castra perdomuit, Ruccones superauit. Postquam uero apicem fastigii regalis conscendit, urbes residuas, quas in Spaniis Romana manus agebat, proelio conserto obtinuit auctamque triumphi gloriam prae ceteris regibus felicitate mirabili reportauit, totius Spaniae intra oceani fretum monarchiam regni primus idem potitus, quod nulli retro principum est conlatum. Auxit eo proelio uirtutis eius titulum duorum patriciorum obtentus, quorum alterum prudentia suum fecit, alterum uirtute sibi subiecit. </p></div>
+    
+    <div type="cap" n="63"><p> Habuit quoque et initio regni expeditionem contra incursus Vasconum Terraconensem prouinciam infestantium, ubi adeo montiuagi populi terrore aduentus eius perculsi sunt, ut confestim quasi debita iura noscentes remissis telis et expeditis ad precem manibus supplices ei colla submitterent, obsides darent, Ologicus ciuitatem Gothorum stipendiis suis et laboribus conderent, pollicentes eius regno dicionique parere et quicquid imperaretur efficere. </p></div>
+    
+    <div type="cap" n="64"><p> Praeter has militaris gloriae laudes plurimae in eo regiae maiestatis uirtutes: fides, prudentia, industria, in iudiciis examinatio strenua, in regendo cura praecipua, circa omnes munificentia, largus erga indigentes et inopes misericordia satis promptus, ita ut non solum princeps populorum, sed etiam pater pauperum uocari sit dignus. </p></div>
+    
+    <div type="cap" n="65"><p> Huius filius Reccimerus in consortio regni adsumptus pari cum patri solio conlaetatur, in cuius infantia ita sacrae indolis splendor emicat, ut in eo et meritis et uultu paternarum uirtutum effigies praenotetur. Pro quo exorandus est caeli atque humani generis rector, ut sicut extat consensu patrio socius, ita post longaeuum parentis imperium sit et regni successione dignissimus. </p>
+     <p>Computatis igitur Gothorum regum temporum ab exordio Athanarici regis usque ad quintum gloriosissimi Suinthilani principis annum, regnum Gothorum per annos CCLVI deo fauente reperitur esse porrectum. </p></div>
+    
+   </div>
+   
+   <div type="section"> <head>Recapitulatio</head>
+    
+    <div type="cap" n="66"><p> Gothi de Magog Iapheth filio orti cum Scythis una probantur origine sati, unde nec longe a uocabulo discrepant. Demutata enim ac detracta littera Getae quasi Scythae sunt nuncupati. Hi igitur occidentis glacialia iuga inhabitantes quaequae sunt ardua montium cum ceteris gentibus possidebant. Quibus sedibus inpetu gentis Hunorum pulsi Danubium transeunt, Romanis se dedunt; sed dum iniurias eorum non sustinerent, indignati arma sumunt, Thraciam inruunt, Italiam uastant, obsessam urbem capiunt, Gallias adgrediuntur patefactisque Pyrenaeis montibus Spanias usque perueniunt ibique sedem uitae atque imperium locauerunt. </p></div>
+    
+    <div type="cap" n="67"><p> Populi natura pernices, ingenio alacres, conscientiae uiribus freti, robore corporis ualidi, staturae proceritate ardui, gestu habituque conspicui, manu prompti, duri uulneribus, iuxta quod ait poeta de ipsis: « mortem contemnunt laudato uulnere Getae ». Quibus tanta extitit magnitudo bellorum et tam extollens gloriosae uictoriae uirtus ut Roma ipsa uictrix omnium populorum subacta captiuitatis iugo Gothicis triumphis adcederet et domina cunctarum gentium illis ut famula deseruiret. </p></div>
+    
+    <div type="cap" n="68"><p> Hos Europae omnes tremuere gentes, Alpium his caesere obices, Wandalica ipsa crebro opinata barbaries non tantum praesentia eorum exterrita quam opinione fugata est. Gothorum uigore Alani extincti sunt, Sueui quoque hactenus intra inaccessos Spaniarum angulos coartati etiam nunc eorum armis periculum finis experti sunt et regnum, quod desidioso torpore tenuerunt, turpiori nunc dispendio caruerunt, quamquam tenuisse huc usque ualde sit mirum, quod sine experimento defensionis carere potuerunt. </p></div>
+    
+    <div type="cap" n="69"><p> Sed quis poterit tantam Geticae gentis edicere uirium magnitudinem, quandoquidem multis gentibus uix precum causa et munerum regnare licuerit, his tamen libertas magis de congressione quam de petita contigit pace atque ubi sese necessitas bellandi opposuit, uires eos potius adhibuisse quam preces. Porro in armorum artibus satis expectabiles, et non solum hastis, sed et iaculis equitando confligunt, nec equestri tantum proelio, sed et pedestri incedunt, uerumtamen magis equitum praepeti cursu confidunt, unde et poeta: « Getes, inquit, quo pergit equo ».</p></div>
+    
+    <div type="cap" n="70"><p> Exercere enim sese telis ac proeliis praeludere maxime diligunt. Ludorum certamina usu cotidiano gerunt. Hac sola tantum armorum experientia hucusque carebant, quod classica bella in mari gerere non studebant; sed postquam Sisebutus princeps regni sumpsit sceptra, ad tantum felicitatis uirtutem profecti sunt, ut non solum terras, sed et ipsa maria suis armis adeant subactusque seruit illis Romanus miles, quibus seruire tot gentes et ipsam Spaniam uidet. </p></div>
+    
+   </div>
+   
+   <div type="section"> <head>Historia Wandalorum</head>
+    
+    <div type="cap" n="71"><p> Aera CCCCXLIIII ante biennium inruptionis Romanae urbis excitatae per Stiliconem gentes Alanorum, Sueuorum et Wandalorum transiecto Rheno Gallias inruunt, Francos proterunt directoque impetu ad Pyrenaeum usque perueniunt, cuius obice per Didymum et Verinianum Romanos nobilissimos ac potentissimos fratres ab Spania tribus annis repulsi per circumiacentes Galliae prouincias uagabantur. Sed postquam iidem fratres, qui priuato praesidio Pyrenaei claustra tuebantur ob suspicionem tyrannidis insontes et nulla culpa obnoxii a Constantio Caesare interfecti sunt, memoratae gentes Spaniarum prouincias inrumpunt. </p></div>
+    
+    <div type="cap" n="72"><p> Aera CCCCXLVI Wandali, Alani et Sueui Spanias occupantes neces uastationesque cruentis discursibus faciunt, urbes incendunt, substantiam direptam exhauriunt, ita ut humanae carnes ui famis deuorarentur a populis.</p>
+     <p>Edebant filios suos matres, bestiae quoque morientium gladio, fame ac peste cadaueribus adsuetae etiam in uiuorum efferebantur interitum atque ita quattuor plagis per omnem Spaniam saeuientibus diuinae iracundiae per prophetas scripta olim praenuntiatio adinpletur. </p></div>
+    
+    <div type="cap" n="73"><p> Aera CCCCXLVIIII post plagarum diram perniciem, quibus Spania caesa est, tandem barbari pacem ineundam deo miserante conuersi sorte in possessionem sibi eius prouincias diuidunt. Galliciam enim Wandali et Sueui occupant, Alani Lusitaniam et Carthaginensem prouincias, Wandali autem cognomine Silingi Baeticam sortiuntur. Spani autem per ciuitates et castella residua plagis adflicti barbarorum dominantium sese seruituti subiciunt. Primus autem in Spanias Gundericus rex Wandalorum successit, regnans Galliciae partibus annis XVIII. Qui dum rupto foedere pacis Sueuorum gentem in Erbasis montibus obsideret, relicta obsidione Sueuorum, Balearicas Terraconensis prouinciae insulas depraedatur. Deinde Carthagine Spartaria euersa cum omnibus Wandalis ad Baeticam transiit, Spalim diruit actaque caede in direptionem mittit. Qui cum auctoritate regiae potestatis inreuerentes manus in basilicam Vincentii martyris ciuitatis ipsius extendisset, mox dei iudicio in foribus templi daemonio correptus interiit. </p></div>
+    
+    <div type="cap" n="74"><p> Aera CCCCLXVII Gesericus frater Gunderici succedit in regno annis XL, qui ex catholico effectus apostata in Arrianam fertur transisse perfidiam. Hic de Baeticae prouinciae litore cum Wandalis omnibus eorumque familiis ad Mauritaniam et Africam relictis Spaniis transfretauit. Cui Valentinianus iunior Occidentis imperator non ualens obsistere pacem mittit et partem Africae, quam Wandali possederant, tanquam pacifico dedit condicionibus ab eo sacramenti acceptis, ne quid ultra inuaderet. </p></div>
+    
+    <div type="cap" n="75"><p> Ille autem, de cuius amicitia iam nihil ambigebatur uiolata sacramenti religione Carthaginem dolo pacis inuadit omnesque opes eius excruciatis diuersos tormentorum genere ciuibus in ius proprium uertit. Deinde Siciliam depraedatur, Panormum obsedit, Arrianam pestilentiam per totam Africam intromittit, sacerdotes ecclesiis pellit, martyres plurimos efficit et iuxta prophetiam Danielis demutatis mysteriis sanctorum ecclesias Christi hostibus tradidit nec iam diuini cultus loca sed suorum esse habitacula iussit. </p></div>
+    
+    <div type="cap" n="76"><p> Aduersus quem Theodosius minor Orientis imperator bellum parauit, quod ad effectum non uenit. Hunis enim Thracias Illyricumque uastantibus exercitus ad Wandalos missus ad defendendos Thraces Illyrianosque a Sicilia reuocatur. </p>
+     <p>Maiorianus autem imperator de Italia Spanias ueniens cum in Carthaginensem prouinciam aliquantas naues sibi ad transitum aduersus Wandalos praeparasset, eas de litore Carthaginensi conmoniti Wandali per proditores arripiunt, sicque Maiorianus a sua dispositione frustratus Italiam reuertitur atque a Reccimero fraude circumuentus occiditur. </p></div>
+    
+    <div type="cap" n="77"><p> Quo comperto Gesericus non contentus solis Africae uastationibus nauibus aduectus Romam ingreditur direptisque per quattuordecim dies opibus Romanorum relictam Valentiniani et filias eius cum multa milia captiuorum secum tulit. Mox Carthaginem rediit et per legatos ab imperatore postulata pace Valentiniani relictam Constantinopolim remittit, quarum unam ex filiabus suis filio suo Unerico iure matrimonii copulauit, sicque post multarum prouinciarum clades Christianorumque spolia atque neces, moritur regni sui anno quadragesimo. </p></div>
+    
+    <div type="cap" n="78"><p> Aera DVI post Gesericum Hunericus Geserici filius regnat annos VII menses V habens in coniugio Valentiniani filiam quam pater eius ex Roma cum matre captiuam adduxerat. Qui et ipse Arriano suscitatus furores catholicos per totam Africam atrocior patre persequitur, ecclesias tollit, sacerdotes et cuncti ordinis clericos exilio mittit, monachos quoque atque laicos quattuor circiter milia exiliis durioribus relegauit, martyres fecit, confessoribus linguas abscidit, qui linguis abscisis perfecte usque ad finem locuti sunt. Tunc Laetus Neptensis ciuitatis episcopus gloriose martyrio coronatur. </p></div>
+    
+    <div type="cap" n="79"><p> Qui dum Arriani contagii labe uariis poenis maculari non potuit, uictor repente caelos obtinuit. Hunericus autem inter innumerabiles suarum impietatum strages quas in catholicos exercuerat, octauo regni anno ut Arrius pater eius interioribus cunctis effusis miserabiliter uitam finiuit. </p></div>
+    
+    <div type="cap" n="80"><p> Aera DXIIII Hunerico succedit Guntamundus, regnans annis XII. Qui statim ecclesiae pacem reformans catholicos ab exilio reuocauit. </p></div>
+    
+    <div type="cap" n="81"><p> Aera DXXVI Guntamundo mortuo Trasemundus regnat annis XXVII mens. IIII. Iste Arriana insania plenus catholicos insectatur, ecclesias claudit, Sardiniam exilio ex omni Africana ecclesia CXX episcopos mittit. Carthagine moritur. Cuius tempore Fulgentius Ruspensis episcopus in nostro dogmate claruit. </p></div>
+    
+    <div type="cap" n="82"><p> Aera DLIII post Trasemundum Ildiris Unerici filius ex Valentiniani imperatoris filia genitus regnat annos VII menses III. Iste sacramento a decessore suo Trasemundo obstrictus ne catholicis in regno suo aut ecclesias aperiret aut priuilegia restitueret, prius quam regnaret, ne religionem sacramenti uiolaret, praecepit sacerdotes catholicos ab exilio reduci et ecclesias aperiri. Quem Gilimer adsumpta tyrannide regno priuat et cum filiis carceris custodia mancipat. </p></div>
+    
+    <div type="cap" n="83"><p> Aera DLX Gilimer regnum cum tyrannide sumit, multos nobilium Africae prouinciae crudeliter extinguens, multorumque substantias tollens. Aduersus quem Iustinianus imperator uisitatione Laeti episcopi, qui ab Unerico Wandalorum rege martyr fuerat factus, exercitum cum Belisario magistro militum duce mittit initoque idem Belisarius proelio Gunthimerum et Gebamundum regis fratres primo proelio superatos interficit, deinde ipsum Gilimerum in fugam uersum Africam capit nonagesimo septimo Wandalorum ingressionis anno. </p></div>
+    
+    <div type="cap" n="84"><p> In ipso autem Belisarii occursu priusquam congressio fieret, Gilimer tyrannus Ildericum regem cum quibusdam generis eius adfines occidit. Belisarius autem Gilimerum tyrannum capit eumque cum diuitiis ex rapinis prouinciarum et Africae conquisitis Constantinopolim Iustiniano imperatori ducit. Sicque regnum Wandalorum cum populo suo atque stirpe deletur aera DLXIII. Quod permansit CXIII annis a Gunderico rege usque ad Gilimeri interitum. </p></div>
+   </div>
+   
+   <div type="section"> <head>Historia Sueuorum</head>
+    
+    <div type="cap" n="85"><p> Aera CCCCXLVI Sueui principe Ermerico cum Alanis et Wandalis simul Spanias ingressi sunt atque omnem Galliciam cum Wandalis occupant. Wandalis autem Africam transeuntibus Galliciam soli Sueui sortiti sunt. Quibus praefuit in Spaniis Ermericus annis XXXII. Gallici autem in parte prouinciae regno suo utebantur, quos Ermericus assidua uastatione depraedans tandem morbo obpressus pacem cum eis fecit. Riccilanem filium suum in regnum substituit, qui cum magna parte exercitus missus Andeuotum Romanae militiae ducem cum multis copiis ad Singilium Baeticae prouinciae fluuium inito bello prostrauit magnis eius auri argentique copiis occupatis. Inde Emeritam obsessam ingreditur atque obtentam proprio regno adsociat. Ermericus autem pater eius per annos septem diuturno langore adfectus interit. </p></div>
+    
+    <div type="cap" n="86"><p> Aera CCCCLXXVIII Ermerico defuncto Reccila filius regnat annis VIII. Qui post obitum patris Spali obtenta Baeticam et Carthaginensem prouincias in suam potestatem redigit. Atque inde Emerita sub cultu, ut ferunt, gentilitatis uitam finiuit. </p></div>
+    
+    <div type="cap" n="87"><p> Aera CCCCLXXXVI Recciarius Reccilani filius catholicus factus succedit in regnum annis VIIII. Hic accepta in coniugio Theuderedi regis Gothorum filia initio regni auspicatus Vasconias depraedatur. Mox ad Theuderedum socerum suum profectus Caesaraugustanam regionem remeans Gothis auxiliantibus uastat. Terraconensem prouinciam, quae Romano imperio deseruiebat, inuadit; Carthaginenses regiones, quas Reccila pater eius Romanis reddiderat, in praedam mittit; ad ultimum, dum Theodericus rex Gothorum Spaniam ingrederetur, inito proelio aduersus eum primo fugatur, deinde captus occiditur. </p></div>
+    
+    <div type="cap" n="88"><p> Aera CCCCXCV extincto Recciario Sueui, qui remanserunt in extrema parte Galliciae, Maldra Massilae filium sibi regem constituunt. Mox bifarie diuisi pars Frantan, pars Maldra regem appellant. Nec mora Frantan mortuo Sueui qui cum eo erant Reccimundum sequuntur et cum Maldra pace inita pariter partes Lusitaniae depraedantur. Maldra autem tertio regni anno a suis iugulatur. </p></div>
+    
+    <div type="cap" n="89"><p> Aera CCCCXCVIII Maldra interfecto inter Frumarium et Reccimundum oritur de regni potestate dissensio, sed Frumarius cum manu Sueuorum quam habebat Flauiensis urbis conuentus graui euertit excidio. Reccimundus autem uicina sibi pariter Auriensium et Lucensis conuentus maritima populatur. </p></div>
+    
+    <div type="cap" n="90"><p> Aera DII Frumario mortuo Remismundus omnibus Sueuis in suam dicionem regali iure uocatis pacem cum Gallaecis reformat, legatos foederis ad Theodericum regem Gothorum mittit, a quo etiam per legatos et arma et coniugem quam haberet accepit. Inde ad Lusitaniam transit, Conimbriam pace deceptam diripit. Olisipona quoque ab eo occupatur ciue suo qui illic praeerat tradente Lusidio. Huius tempore Alax natione Galata effectus apostata Arrianus inter Sueuos regis sui auxilio hostis catholicae fidei et diuinae trinitatis emergit, de Gallicana Gothorum regione hoc pestiferum uirus adferens et totam gentem Sueuorum letali tabe inficiens. Multis deinde Sueuorum regibus in Arriana haeresi permanentibus tandem regni potestatem Theodimirus suscepit. </p></div>
+    
+    <div type="cap" n="91"><p> Qui confestim Arrianae impietatis errore destructo Sueuos catholicae fidei reddidit innitente Martino monasterii Dumiensis episcopo fide et scientia claro, cuius studio et pax ecclesiae ampliata est et multa in ecclesiasticis disciplinis Galliciae regionibus instituta. Post Theodimirum Miro Sueuorum princeps efficitur regnans annis XIII. Hic bellum secundo regni anno contra Roccones intulit. Deinde in auxilium Leouigildi Gothorum regis aduersus rebellem filium ad expugnandam Spalim pergit ibique uitae terminum clausit. </p></div>
+    
+    <div type="cap" n="92"><p> Huic Eboricus filius in regnum succedit, quem adulescentem Audeca sumpta tyrannide regno priuat et monachum factum in monasterio damnat. Pro quo non diu sententia est dilata. Nam Leuuigildus Gothorum rex Sueuis mox bellum inferens obtento eodem regno Audicanem deicit atque detonsum post regni honorem presbiterii officio mancipauit. Sic enim oportuit, ut quod ipse regi suo fecerat, rursus idem congrua uicissitudine pateretur. Regnum autem Sueuorum deletum in Gothis transfertur, quod mansisse CLXXVII annis scribitur. </p></div>
+    
+   </div>
+  </body>
+ </text>
+
+</TEI>

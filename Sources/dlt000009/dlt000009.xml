@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber memorialis</title>
+        <author>Lucius Ampelius</author>
+        <respStmt>
+          <resp>Correzione linguistica</resp>
+          <name>David Paniagua</name>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica XML</resp>
+          <name>David Paniagua</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>digilibLT</publisher>
+        <pubPlace>Vercelli</pubPlace>
+        <date>2011</date>
+        <availability>
+          <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+        </availability>
+        <idno>dlt000009</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Lucius Ampelius,<hi rend="italic"> Aide-mémoire</hi> (Liber memorialis), texte établi,
+          traduit et commenté par M.-P. Arnaud-Lindet, Collection des Universités de France, Paris,
+          Les Belles Lettres, 1993</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc><p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+        <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+      </projectDesc>
+      <editorialDecl>
+       
+        <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+        <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+          l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni,
+          note e commenti e ogni altro contenuto redatto da editori moderni. </p>
+        <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+          correttezza di trascrizione</p>
+        <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+          distinzione u/v minuscole.</p>
+        <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+        <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+          grassetto, corsivo, spaziatura espansa.</p>
+        <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+          <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+          <hi rend="italic">loci desperati</hi>:
+          <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo† e
+          †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...]<lb/> lacuna integrata
+          dagli editori: <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+        </p>
+        <p>Sono stati marcati i termini in lingua greca
+          <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+        </p>
+        <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+            target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+            >Note di trascrizione e codifica di testi latini tardoantichi
+            [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+      </editorialDecl>
+     
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latino</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="pr" n="pr">
+        <head>Praefatio</head>
+        <salute>Lucius Ampelius Macrino suo salutem</salute>
+        <p>
+          <milestone unit="par" n="1"/>Volenti tibi omnia nosse scripsi hunc librum memorialem ut
+          noris quid sit mundus, quid elementa, quid orbis terrarum ferat, uel quid genus humanum
+          peregerit. </p>
+      </div>
+      <div type="cap" n="1">
+        <head>I <del>De mundo</del></head>
+        <p>
+          <milestone unit="par" n="1"/>Mundus est uniuersitas rerum, in quo omnia sunt et extra quem
+          nihil; qui Graece dicitur <foreign xml:lang="grc">κόσμος</foreign>. <milestone unit="par"
+            n="2"/>Elementa mundi quattuor: ignis, ex quo est caelum; aqua, ex qua mare Oceanum;
+          aer, ex quo uenti et tempestates; terra quam propter formam eius orbem terrarum
+          appellamus. <milestone unit="par" n="3"/>Caeli regiones sunt quattuor: oriens, occidens,
+          meridies, septentrio. <milestone unit="par" n="4"/>Caelum diuiditur in circulos quinque:
+          arcticum et antarcticum, qui ob nimiam uim frigoris inhabitabiles sunt, aequinoctialem cui
+          subiacet regio <supplied>quae</supplied>
+          <foreign xml:lang="grc">κατακεκαυμένη</foreign> dicitur neque incolitur ob nimiam uim
+          ardoris, brumalem et solstitialem sub quibus habitatur: sunt enim temperatissimi; per quos
+          oblicus circulus uadit cum duodecim signis in quibus sol annuum conficit cursum. </p>
+      </div>
+      <div type="cap" n="2">
+        <head>II <del>De duodecim signis</del> Signa sunt in caelo duodecim</head>
+        <p>
+          <milestone unit="par" n="1"/>Aries beneficio Liberi quod is cum exercitum in Indiam per
+          Libyam duceret per loca sicca et arenosa, qua aquae inopia esset et exercitus eius siti
+          adfligeretur, aries eis aquam demonstrauit et ob id a Libero Iouis Ammon est appellatus
+          eique fanum magnificum fecit ad eum locum ubi aquam inuenit, quod abest ab Aegypto et
+          Alexandria milia passuum nouem. Ob eam rem a Ioue petiit ut in sidera reciperetur. Alii
+          putant eum esse qui Hellen et Phrixum uexerit. <milestone unit="par" n="2"/>Taurus
+          beneficio Iouis quem Iuppiter a Neptuno fratre per gratiam abduxit; qui sensum humanum
+          figura tauri continebat isque Iouis iussu Europam, Agenoris filiam Sidonia adludens
+          decepit et eam Cretam deportauit. Ob eam rem Iuppiter in sideribus eum dignatus est
+          immortali memoria. <milestone unit="par" n="3"/>Gemini qui Samothraces memorantur esse;
+          quorum argumentum nefas est pronuntiare praeter eos qui initiis praesto sunt. Alii
+          Castorem et Pollucem dicunt quod hi principes mare tutum a praedonibus praestitissent.
+          Sunt qui dicant Herculem et Theseum quod similia athla sint adepti. <milestone unit="par"
+            n="4"/>Cancer — <foreign xml:lang="grc">καρκίνος</foreign> — receptus beneficio Iunonis,
+          quod eius iussu, cum Hercules missus esset ad hydram Lernaeam — quam nos excetram dicimus
+          — interficiendam, carcinus ingressus Herculis pedes et crura lanians incommodiorem
+          faciebat eum quam ipsa excetra, idque malum Hercules difficillimum habuit; carcinumque —
+          cancrum — ob id factum Iuno sideribus est dignata. <milestone unit="par" n="5"/>Leo —
+            <foreign xml:lang="grc">λέων</foreign> — qui educatus est Lunae Iunonis consilio ad
+          Herculis interitum: missus in terram inachiam diu spelunca latitauit; quem Hercules
+          dicitur interfecisse cum Molorcho hospite suo, cuius clauam ei tributam tum principio est
+          adeptus; qua leonem interfecit eiusque pellem postea pro tegumento habuit. Ob id factum
+          Iunoni odio esse coepit leonemque caelesti dignitate est honorata. <milestone unit="par"
+            n="6"/>Virgo, quam nos Iustitiam dicimus, fuit cum hominibus; sed postquam homines
+          malefacere coeperunt Iouis eam inter signa posuit. Sunt qui Erigonem Icarii filiam,
+          Atheniensem dicunt cuius patri Liber uinum dedit ut hominibus ad suauitatem daret: quibus
+          dedit ebriati sunt et lapidibus eum occiderunt. Canis, qui cum illo erat, uidit hominem
+          occisum, et cum ululatu ad Erigonem rediit; quem ut maestum et singularem uidit, sollicita
+          proficiscitur cum eo. Venere ad locum ubi Icarius iacebat. Vidit corpus patris, magna
+          lamentatione in Hymetto monte sepeliuit; ipsa uero se suspendit laqueo. Canis ad pedes
+          eius discumbens diutius et sine alimentis deficiens, post aquam anhelans in puteum se
+          proiecit. Tum Liber a Ioue petiit, quod suo imperio deficerent, ut inter siderum cursus
+          poneretur Virgo; Icarius autem Arcturus nominatus est, cuius stella cum exoritur continuas
+          tempestates facit; canis, Canicula. <milestone unit="par" n="7"/>Libra, quam Graeci
+            <foreign xml:lang="grc">Ζυγόν</foreign> appellant, uirile nomen est: adeptusque is, omni
+          clementiae iustitia, Stathmochos dictus, qui primus dicitur librae pondus hominibus
+          inuenisse, quae utilissima mortalibus aestimantur; ideoque in numerum stellarum et
+          receptus est, et Libra est dictus. <milestone unit="par" n="8"/>Scorpius qui dicitur ad
+          perniciem Orionis in insula Chio in monte Pelenaeo uoluntate Dianae natus. Orion autem,
+          dum uenatur, uisa Diana stuprare eam uoluit. Illa scorpionem subiecit qui eum uita
+          privaret. Iuppiter et scorpionem et Orionem inter sidera recepit. <milestone unit="par"
+            n="9"/>Sagittarius: Crotos, filius nutricis Musarum; quae Musae semper dilexerunt eum
+          quod plausu et lusu sagittarum eas auocaret. Alii Chironem dicunt, quod iustus et pius,
+          doctus, hospitalis fuerit; ab eo Aesculapius medicinam <supplied>didicit</supplied>,
+          Achilles citharam et alia multa. <milestone unit="par" n="10"/>Capricornus, cui nomen Pan.
+          Quo tempore Python, speluncas incolens in monte Tauro, Aegyptum profectus est ad bellum,
+          Pan se in caprae figuram conuertit. Igitur dii immortales postquam Pythonem digna poena
+          affecerunt, Pana astrorum memoria decorauerunt. <milestone unit="par" n="11"/>Aquarius,
+          qui putatur esse Ganymedes; dicitur Deucalion Thessalus qui maximo cataclysmo cum uxore
+          Pyrrha solus euasit et hic, pietatis causa, inter sidera locatus est. <milestone
+            unit="par" n="12"/>Pisces, id est duo pisces quia bello Gigantum Venus perturbata in
+          piscem se transfigurauit. Nam dicitur et in Euphrate fluuio ouum piscis in ora fluminis
+          columba adsedisse dies plurimos et exclusisse deam benignam et misericordem hominibus ad
+          bonam uitam. Vtrique memoriae causa pisces inter sidera <supplied>locati</supplied>. </p>
+      </div>
+      <div type="cap" n="3">
+        <head>III <del>De sideribus</del></head>
+        <p>
+          <milestone unit="par" n="1"/>Praeter duodecim signa, potentissima sidera in caelo:
+          Septemtriones duo, maior et minor, qui numquam merguntur ideoque nauium cursus regunt;
+          quorum alter Cynosura dicitur. <foreign xml:lang="grc">Βοώτης</foreign>, idem Arcturus.
+            <milestone unit="par" n="2"/>Orion, qui magnitudine sua dimidiam caeli obtinet partem.
+            <foreign xml:lang="grc">Πλειάδες</foreign>, quae latine Virgiliae dicuntur. <foreign
+            xml:lang="grc">Ὑάδες</foreign>, quae a nobis Subuculae dicuntur; quarum ortus et occasus
+          a nautis et ab agricolis obseruantur. Canicula cuius uis praecipue solstitio est.
+            <milestone unit="par" n="3"/>Stellae potentissimae in caelo sunt septem: Saturnus, Sol,
+          Luna, Mars, Mercurius, Iuppiter, Venus; quae a Graecis <foreign xml:lang="grc"
+            >Πλανήτες</foreign>, a nobis erraticae dicuntur, quia ad arbitrium suum uagantur, et
+          motu suo hominum fata moderantur. Item, aduerso cursu contra caelum feruntur. </p>
+      </div>
+      <div type="cap" n="4">
+        <head>IV Quibus partibus sedeant XII signa duodecim uentorum?</head>
+        <p>
+          <milestone unit="par" n="1"/>Aries in aphelioten, Taurus in caeciam, Gemini in aquilonem,
+          Cancer in septentrionem, Leo in thrasciam, Virgo in argesten, <milestone unit="par" n="2"
+          />Libra in zephyron, Scorpius in africum, Sagittarius in austrum et africum, Capricornus
+          in austrum, Aquarius in eurum et notum, Pisces in eurum. </p>
+      </div>
+      <div type="cap" n="5">
+        <head>V <del>De uentis</del></head>
+        <p>
+          <milestone unit="par" n="1"/>Venti fiunt ex aeris motu et inclinatione. Sunt autem
+          generales quattuor: eurus, idem apheliotes, idem uulturnus, ab oriente; ab occidente
+          zephyrus, idem corus, idem fauonius; aquilo, boreas, aparctias, idem
+            <supplied>a</supplied> septentrione; notus, idem libs, et auster, et africus, a meridie.
+            <milestone unit="par" n="2"/>Hi sunt quattuor generales; ceteri speciales his
+          subscribuntur, ut iapyx zephyro, qui ab Iapygio, Apuliae promontorio, flat; leuconotus
+          noto, cum serenior flat; circius aquiloni, cum uehementior Gallias perflat; item etesiae,
+          qui statis diebus flant per aestatem. </p>
+      </div>
+      <div type="cap" n="6">
+        <head>VI <del>De orbe terrarum</del></head>
+        <p>
+          <milestone unit="par" n="1"/>Orbis terrarum qui sub caelo est quattuor regionibus
+          incolitur: una pars eius est in qua nos habitamus; altera huic contraria quam qui incolunt
+          uocantur antichthones; quarum inferiores duae ex contrario harum sitae, quas qui
+            <del>eo</del> incolunt uocantur antipodes. <milestone unit="par" n="2"/>Orbis terrarum
+          quem nos colimus in tres partes diuiditur, totidemque nomina: Asia, quae est inter Tanain
+          et Nilum, Libya, quae est inter Nilum et Gaditanum sinum, Europa, quae est inter fretum et
+          Tanain. <milestone unit="par" n="3"/>In Asia clarissimae gentes: Indi, Seres, Persae,
+          Medi, Parthi, Arabes, Bithyni, Phryges, Cappadoces, Cilices, Syri, Lydi. <milestone
+            unit="par" n="4"/>In Europa clarissimae gentes: Scythae, Sarmatae, Germani, Daci, Moesi,
+          Thraces, Macedones, Dalmatae, Pannonii, Illyrici, Graeci, Itali, Galli, Spani. <milestone
+            unit="par" n="5"/>In Libya gentes clarissimae: Aethiopes, Mauri, Numidae, Poeni,
+          Gaetuli, Garamantes, Nasamones, Aegyptii. <milestone unit="par" n="6"/>Clarissimi montes
+          in orbe terrarum: Caucasus in Scythia, Emodus in India, Libanus in Syria, Olympus in
+          Macedonia, Hymettus in Attica, Taygetus Lacedaemonia, Cithaeron et Eleon in Boetia,
+          Pamassos et Acroceraunia in Epiro, Maenalus in Arcadia, <milestone unit="par" n="7"
+          />Apenninus in Italia, Eryx in Sicilia, Alpes inter Gallias, Pyrenaeus inter Galliam et
+          Spaniam, Athlans in Africa, Calpe in freto Oceani. <milestone unit="par" n="8"/>Clarissima
+          flumina in orbe terrarum: Indus, Ganges, Hydaspes in India; Araxes in Armenia; Thermodon
+          et Phasis in Colchide; <milestone unit="par" n="9"/>Tanais in Scythia; Strymon et Hebrus
+          in Thracia; Sperchios in Thessalia; Hermus et Pactolus auriferi, Maeander et Caystrus in
+          Lydia; Cydnus in Cilicia; Orontes in Syria; Simois et Xanthus in Phrygia; <milestone
+            unit="par" n="10"/>Eurotas Lacedaemone; Alpheus in Elide; Ladon in Arcadia; Achelous et
+          Inachus in Epiro; Sauus et Danubius, qui idem Ister cognominatur, in Moesia; Eridanus et
+          Tiberinus in Italia; Timauus in Illyrico; Rhodanus in Gallia; Iberus et Baetis in Spania;
+            <milestone unit="par" n="11"/>Bagrada in Numidia; Triton in Gaetulia; Nilus in Aegypto;
+          Tigris et Euphrates in Parthia; Rhenus in Germania. <milestone unit="par" n="12"
+          />Clarissimae insulae: in mari nostro undecim, Sicilia, Sardinia, Crete, Cypros, Euboea,
+          Lesbos, Rhodos, duae Baleares, Ebusus, Corsica, Gades; in Oceano, ad orientem Taprobane;
+          ad occidentem Britannia; ad septentrionem Thyle; ad meridiem insulae Fortunatae;
+            <milestone unit="par" n="13"/>praeter has in Aegaeo mari Cyclades duodecim: Delos,
+          Gyaros, Myconos, Andros, Paros, Tenos, <supplied>Ios</supplied>, Cythnos,
+            <supplied>Siphnos</supplied> , Melos, Naxos, Donusa; <milestone unit="par" n="14"/>
+          praeter has Sporades innumerabiles, ceterum celeberrimae Aegina, Salamina, Coos, Chios,
+          Lemnos, Samothracia; <milestone unit="par" n="15"/>in Ionio: Echinades, Strophades,
+          Ithace, Cephalenia, Zacynthos; in Adriatico, Crateae circiter mille; in Siculo, Aeoliae
+          VIII; in Gallico, Stoechades tres; in Syrtibus, Cercina et Menix et Girba. </p>
+      </div>
+      <div type="cap" n="7">
+        <head>VII <del>De marias ambitu</del></head>
+        <p>
+          <milestone unit="par" n="1"/>Mare quo cingimur uniuersum uocatur Oceanum. Hoc quattuor
+          regionibus inrumpit in terras: a septentrione uocatur Caspium, ab oriente Persicum, a
+          meridie Arabicum, idem Rubrum et Erythraeum, ad occasum magnum mare, idem Athlanticum,
+          quod commerciis totius generis humani peragitur. <milestone unit="par" n="2"/>Hoc intrat
+          in fretum Gaditanum inter duos montes clarissimos Abinnam et Calpen ob impositas Herculis
+          columpnas, dein latissime simul et longissime fusum medium terrarum orbem inundat et
+          nomina adquirit: <milestone unit="par" n="3"/>Balearicum, quod Hispaniam adluit; Gallicum,
+          quod Gallias tangit; Ligusticum, quod Liguribus infunditur; Tuscum, Tyrrhenum, idem
+          inferum, quod dextrum Italiae latus circuit; Hadriaticum, idem superum, quod sinistrum
+          Italiae latus circuit; <milestone unit="par" n="4"/>Siculum, in quo Sicilia; Creticum, in
+          quo insula est Creta; Ionium et Aegaeum, quae Achaiam, idem Peloponnesum, ita ambiunt ut
+          interueniente Isthmo paene insulam faciant; Myrtoum et Icarium, quae adhaerent Aegaeo
+          mari, illud a Myrtilo, hoc ab Icaro cognominatum; <milestone unit="par" n="5"/>Ponticum,
+          quod ingenti sinu Scythis infunditur; Hellesponticum, fauce transmissum inter duas
+          celeberrimas urbes, Seston Asiae, Abydon Europae; Tanaiticum, quo Asia alluitur; Aegyptium
+          ab Aegypto, Libycum a Libya cognominatur; Syrticum a duabus Syrtibus reciprocis aestibus
+          retorquetur. </p>
+      </div>
+      <div type="cap" n="8">
+        <head>VIII <del>Miracula mundi</del></head>
+        <p>
+          <milestone unit="par" n="1"/>Apolloniae ad Amantiam milia passus quinque in monte
+          Nymphaeo, ubi ignis est et de terra exit flamma. In silua Panis symphonia in oppidum
+          auditur. Item sub eo monte in campo lacus aquae pleni unde pix exit et bitumen; cum
+          manibus subplodas, pix alte attollitur et quasi ab aqua bullescit. <milestone unit="par"
+            n="2"/>Ambraciae in Epiro in pariete sunt picti Castor et Pollux et Helena manu
+          autochthonis et nemo neque inuenire potest quis pinxerit. <milestone unit="par" n="3"
+          />Argis in Epiro, quod <foreign xml:lang="grc">Ὕπατον</foreign> appellatur: ibi pons
+          magnus columpnatus duplex quem Alcidea aedificari imperasse fertur. Ibi picta sunt
+          gubernacula Argonautarum qua excepta nauis. Ibi Iouis templum Typhonis, unde est ad
+          inferos descensus ad tollendas sortes; in quo loco dicunt duo qui descenderunt Iouem ipsum
+          uidere. <milestone unit="par" n="4"/>Leucade mons unde se Sappho deiecit propter uirum. In
+          summo monte fanum est Apollinis ubi sacra fiunt et cum homo inde desiluit, statim
+          excipitur lintribus. <milestone unit="par" n="5"/>Sicyone in Achaia: in foro aedis
+          Apollinis est; in ea sunt posita Agamemnonis clipeus et machaera, Vlixis chlamys et
+          thoracium, Teucri sagittae et arcus, Adrasti arca quam deposuit, in qua quid sit
+          ignoratur, sed et olla aerea in qua Pelias coctus dicitur; item Palamedis litterae,
+          Marsyae autem quoque corium, remi Argonautarum et gubernaculis bracchia, cauculus quo
+          Minerua sortita est de Oreste <del>cerauit una comparas</del>; ibi palla pendet; quam si
+          quis halitu afflauerit, tota patefit Penelopae tela. Ibi de terra oleum scaturrit.
+            <milestone unit="par" n="6"/>Argis Inachiae Iunonis templum magnifice ornatum, quod
+          asylum uocant. <milestone unit="par" n="7"/>Olympiae templum Iouis nobile, ubi athletae
+          initiantur. <milestone unit="par" n="8"/>Corintho ballenae costa est magna secundum mare,
+          quam homo complecti non potest; eodem in loco fanum est Veneris, in quo uas marmoreum
+          Laidos. <milestone unit="par" n="9"/>Boetiae lacus sacer ubi Amphiaraus deuoratus; in eo
+          lacu est urceus fictilis fractus: pendet testa intrinsecus posita; unde autem pendeat non
+          apparet nisi a uento moueatur. <milestone unit="par" n="10"/>Athenis, Mineruae sedes
+          nobilis cuius ad sinistram clipeus appositus quem digito tangit; in quo clipeo medio
+          Daedali est imago ita collocata: quam si quis imaginem <supplied>e</supplied> clipeo uelit
+          tollere, perit totum opus; soluitur enim signum. Ipsa autem dea habet hastam de aeramine.
+            <milestone unit="par" n="11"/>Ilio: lapis quadratus ubi Cassandra fuit alligata: quem si
+          ante tangas <del>id est</del> aut fricueris, lac demittit; ex altera autem parte similiter
+          si frices ac si sanguinem remittit. Iuxta autem mare qui locus Rhoeteon uocatur; ibi est
+          Achillis et Patrocli tumulus et flumen Scamandros. <milestone unit="par" n="12"/>Ephesiae
+          Dianae fanum nobilissimum maximum pulcerrimumque orbis terrarum; introitu dextra sinistra
+          postes marmorei monolithi longi cubitis XX <supplied><gap/></supplied> qua super templum
+          ascensu sunt CXL milia <supplied><gap/></supplied> . <milestone unit="par" n="13"/>Samio
+          in templo Iunonis, scyphus factus est ex hedera cuius capita foras IV arietina magna
+          cornibus mirae magnitudinis contortis. <milestone unit="par" n="14"/>Pergamo, ara marmorea
+          magna, alta pedes XL cum maximis sculpturis; continet autem gigantomachiam. <milestone
+            unit="par" n="15"/>Iaso, signum Dianae marmoreum pulcerrimum quod stat sub diuo caelo
+          nec cum pluit aqua tangitur. <milestone unit="par" n="16"/>Bargyliis est fanum Veneris
+          super mare: ibi est lucerna super candelabrum posita, lucens ad mare sub diuo caelo, quam
+          neque uentus spargit nec pluuia extinguit; sed et Herculis aedes antiqua. Ibi columna
+          pendet cauea ferrea rotunda in qua conclusa Sibylla dicitur. Ibi iacent ossa ballenae
+          quasi lapides quadrati. <milestone unit="par" n="17"/>Magnesiae apud Sipylum columnae sunt
+          quattuor: inter has columnas est Victoria ferrea pendens sine aliquo uinculo in aere
+          ludens; sed quotiens uentus aut pluuia fuerit, non mouet. <milestone unit="par" n="18"
+          />Aedis Dianae Epheso quam constituit Amazon; ibi et sepulcrum Icari stertentis quasi
+          dormiat, mirae magnitudinis, ex orichalco et ferro. <milestone unit="par" n="19"/>Rhodi
+          colossus: signum Solis aeneum; super columna marmorea cum quadriga cupro; columna uero
+          habet cubitus centum. <milestone unit="par" n="20"/>Signum Iouis Olympii eburneum, facies
+          ex auro, quod fecit Phidias, <supplied>altum</supplied> cubitis centum quinquaginta et
+          latum cubitis sexaginta. <milestone unit="par" n="21"/>Domus illa Cyri regis aedificata
+          lapidibus candidis et nigellis auro uinctis ubi sunt columnae diuersis coloribus et
+          innumerabiles lychnides ferreae, fenestrae ex argento et tegulae ex lapide prasino.
+            <milestone unit="par" n="22"/>Murus intus <del>medio</del> Babyloniae quem Memnon
+          aedificauit lapide cocto, id est calce et sulfure, ferro intermixtus ut sunt iuncturae.
+          Latitudo eius cubitis XXX, altus cubitus CXXX, cingitur milia passuum XXX. Hunc coepit
+          Setniramis, filius eius perfecit. <milestone unit="par" n="23"/>Pyramides in Aegypto, quas
+          aedificauit Agartus. <milestone unit="par" n="24"/>Oppidum: ibi est Nilus fluuius aere
+          factus <unclear>plexilis</unclear> in cubitis CCC, cuius facies <supplied>ex</supplied>
+          smaragdo limpido. brachia ex ebore magno, cuius aspectu et bestiae terrentur. <milestone
+            unit="par" n="25"/>Athenis signum louis Olympii, Alexandriae flumen Nilum maxime colunt.
+        </p>
+      </div>
+      <div type="cap" n="9">
+        <head>IX Quot fuere <del>uel isse</del> louis, uel ubi <del>in loco</del>, dei
+          deaeque?</head>
+        <p>
+          <milestone unit="par" n="1"/>Ioues fuere tres: primus in Arcadia, Aetheris filius, cui
+          etiam Aetherius cognomen fuit; hic primum Solem procreauit. Secundus, ibidem in Arcadia,
+          qui Saturnius cognominatur, qui ex Proserpina Liberum Patrem procreauit primum uictorum.
+          Tertius Cretae, Saturni et Opis filius, optimus maximusque est appellatus. <milestone
+            unit="par" n="2"/>Martes fuere duo: primus <foreign xml:lang="grc">Ἐνόπλιος</foreign>,
+          ut Euhemerus ait, et noster Mars Leucaspis et aliter Mars Enyalius; secundus ex Ioue et
+          Iunone. <milestone unit="par" n="3"/>Soles fuere quinque: primus Iouis filius, secundus
+          Hyperionis, tertius Nili filius cui Aegyptus est consecrata, quartus qui Rhodi natus est,
+          cuius etiam Zmintheus est filius, quintus Colchi filius ex quo Circe et Medea et Phaethon
+          nati sunt. <milestone unit="par" n="4"/>Vulcani fuere quattuor: primus Caelo et Ope natus,
+          secundus Nili filius, tertius Saturnii et Iunonis, quartus in Sicilia Meletes filius.
+            <milestone unit="par" n="5"/>Mercurii IV: primus Caeli et Diei filius, secundus Iouis et
+          Croniae filius uel Proserpinae, tertius Croni filius et Maiae qui est inuentor lyrae,
+          quartus Cyllenae filius qui Aegyptiis litteras et numerum dixit. <milestone unit="par"
+            n="6"/>Apollines quinque: primus Vulcani et Mineruae, secundus ex Corybante, tertius
+          Iouis filius ex Latona, quartus Sileni filius in Arcadia, quintus Ammonis filius Libya
+          natus. <milestone unit="par" n="7"/>Dianae III: prima Iouis uel Croni filia ex Proserpina,
+          quae est Liberi soror, secunda Iouis et Latonae, Apollinis soror, tertia quae uocatur Vpis
+          de Glauce. <milestone unit="par" n="8"/>Aesculapii tres: primus Apollo dictus Vulcani
+          filius, secundus Lycii filius, tertius Aristaei et Alcippes filius. <milestone unit="par"
+            n="9"/>Veneres IIII: prima Caeli et Diei filia, secunda quae ex spuma nata esse dicitur
+          Aetheris et Oceani filia, tertia quae Vulcano nupsit, quae cum Marte se miscuit unde
+          Cupido natus esse dicitur, quarta Cypri et Syriae filia, quam Adon habuit. <milestone
+            unit="par" n="10"/>Mineruae quinque: prima Vulcani filia, unde Athenarum est ciuitas,
+          secunda Nili filia quam Aegyptii colunt, tertia Iouis filia, quae in bellicis rebus se
+          exercuit, quarta Solis filia <supplied>quae</supplied> quadrigas iunxit, quinta Pallantis
+          et Titanidos filia; haec patrem occidit pro suae uirginitatis obseruatione cuius cupidus
+          fuit, unde et Pallas dicta est. <milestone unit="par" n="11"/>Liberi quinque: primus ex
+          Ioue et Proserpina: hic agricola et inuentor uini, cuius soror Ceres; secundus Liber ex
+          Melone et Flora, cuius nomine fluuius est Granicus; tertius de Cabiro qui regnauit in
+          Asia; quartus ex Saturnio et Semela <supplied><gap/></supplied> dicunt; quintus Nisi et
+          Hesionae filius. <milestone unit="par" n="12"/>Hercules sex: primus Iouis et Aetheris
+          filius; secundus Nili filius, quem principem colunt Aegyptii; tertium conditorem loci sui
+          Hellenes dicunt; quartus Croni filius et Cartheres, quem Carthaginienses colunt, unde
+          Carthago dicta est; quintus Ioab filius qui cum rege Medorum pugnauit; sextus Iouis filius
+          ex Alcemena qui Atlanta docuit. </p>
+      </div>
+      <div type="cap" n="10">
+        <head>X <del>De imperiis</del></head>
+        <p>
+          <milestone unit="par" n="1"/>Imperia ab ineunte aeui memoria fuerunt septem. Primi rerum
+          potiti sunt Assyrii, deinde Medi, postea Persae, tum Lacedaemones, dein Athenienses, post
+          hos inde Macedones, sic deinde Romani. </p>
+      </div>
+      <div type="cap" n="11">
+        <head>XI Reges Assyriorum</head>
+        <p>
+          <milestone unit="par" n="1"/>Ninus rex qui primus exercitu prope totam Asiam sub se
+          redegit et clarissimam urbem nominis sui condidit Ninon. <milestone unit="par" n="2"
+          />Belus rex, Iouis filius, cuius posteri per Ninum Asiae regnauerunt, per Aegyptum Libyae,
+          per Danaum Europae. <milestone unit="par" n="3"/>Samiramis, Dercetis nymphae filia,
+          columbis educta, uxor Nini regis, cuius post mortem regnum Nini ampliauit armis; Indiam
+          quoque parum prospera expeditione temptauit: haec urbem pulcherrimam omnium quae unquam
+          fuerunt, Babylona constituit supra flumen Euphraten. <milestone unit="par" n="4"
+          />Sardanapalus, qui ob nimias delicias et luxuriam perdito regno, ne in potestatem hostium
+          ueniret cum exoletis suis uenenum bibit et, igni sub lecto <supplied>subiecto</supplied>,
+          cum regia sua conflagrauit. </p>
+      </div>
+      <div type="cap" n="12">
+        <head>XII Reges Medorum</head>
+        <p>
+          <milestone unit="par" n="1"/>Arbaces, primus rex, qui euersas Assyriorum opes luxuria
+          Sardanapali transtulit <supplied>in Medos</supplied> eosque iustissime rexit. <milestone
+            unit="par" n="2"/>Astyages, uir fortis et iustus, qui per insidias uictus a Cyro est et
+          dissolutum est Mediae regnum. </p>
+      </div>
+      <div type="cap" n="13">
+        <head>XIII Reges Persarum</head>
+        <p>
+          <milestone unit="par" n="1"/>Cyrus, rex fortissimus, qui maiore parte Asiae subacta
+          Europam quoque inrupisset ni a Tomyre Scytharum regina uictus oppressusque esset.
+            <milestone unit="par" n="2"/>Cambyses, filius aeque Cyri, qui cum LXX milia hominum
+          subegisset in Aegypto et regem eius Amasin, Aethiopiam profectus, magna parte militum per
+          famem amissa, inritus rediit; urbem tamen ibi condidit Meroen; is qui Apin sacrum bouem
+          interfici iusserat, ira deorum ex equo praeceps super gladium suum ruit extinctusque est.
+            <milestone unit="par" n="3"/>Darius rex, unus ex septem Persis hinnitu equi regnum
+          adsecutus, cum CCLXX milibus Europam transiuit. Victus ab Atheniensibus ducente Miltiade
+          apud paludem Marathoniam discessit. <milestone unit="par" n="4"/>Xerxes, Darii filius, cum
+          recessisset pater eius, aliquantis nauibus armatis militibus in Europam transiuit
+          contabulato Hellesponto et forato Atho monte nec quicquam aliud egit quam ut Athenas
+          incideret. Mari uictus a Lacedaemoniis et Atheniensibus, in Asiam rediit ibique suorum
+          fraude interfectus est. </p>
+      </div>
+      <div type="cap" n="14">
+        <head>XIV Duces et reges Lacedaemoniorum</head>
+        <p>
+          <milestone unit="par" n="1"/>Eurysthenes et Procles gemini qui genus ab Heraclidis
+          deducentes primi Spartae regna regnauerunt. <milestone unit="par" n="2"/>Lycurgus legum
+          lator quibus Lacedaemonii principes Graeciae per annos septingentos innisi fuerunt.
+            <milestone unit="par" n="3"/>Theopompus et Polydorus reges qui Messenium bellum XX annis
+          gesserunt. <milestone unit="par" n="4"/>Othryades, uir bellator qui, Messenio bello quo
+          centeni, id est quinquageni, concertauerunt, trophaeum suo sanguine scripsit. <milestone
+            unit="par" n="5"/>Tyrtaeus qui Messenio bello ex oraculo Apollinis dux ab Atheniensibus
+          per ludibrium missus, poemate suo ita militum animos concitauit ut tam diuturnum proelium
+          uictoria consummarent. <milestone unit="par" n="6"/>Leonidas, dux Persico bello, qui cum
+          trecentis Lacedaemoniis apud Thermopylas totam uim Persici belli morte sua
+            <supplied>ac</supplied> suorum obtinuit. <milestone unit="par" n="7"/>Pausanias qui
+          Persico bello Mardonium praefectum Xerxis cum pedestribus copiis apud Asopum Boeotiae
+          flumen debellauit; mox proditionis a rege suspectus <del>idem Mardonius</del> ideoque
+          accusatus in asylum Mineruae confugit et ibi fame confectus est. <milestone unit="par"
+            n="8"/>Lysander dux qui dominantem toto mari classem Atticam apud Aegos potamos
+          oppressit et uictis Atheniensibus XXX tyrannos inposuit. <milestone unit="par" n="9"
+          />Xanthippus, uir Lacedaemoniorum fortissimus, qui bello punico primo Carthaginiensibus
+          dux missus Regulum cepit. <milestone unit="par" n="10"/>Agesilaus cuius inuentum est in
+          hostili quam in sua terra pugnare ideoque in Asiam missus, uastata ea, cum iam Regi
+          immineret, reuocatus Athenienses apud Coroneam uicit; postea apud Corinthios fleuit quod
+          decem milia Graecorum occisa cognouisset nec uoluit Corinthum delere cum posset. </p>
+      </div>
+      <div type="cap" n="15">
+        <head>XV Clarissimi reges et duces Atheniensium</head>
+        <p>
+          <milestone unit="par" n="1"/>Cecrops rex qui urbem condidit Athenas et ex suo nomine
+          Cecropidas appellauit ciues; idem fabulose, quia indigena fuit, ab inguinibus serpens
+          fuisse narratur. <milestone unit="par" n="2"/>Erichthonius rex, qui mysteria Eleusinae
+          constituit, Celeo hospite, Eumolpo sacerdote, filiabus uirginibus ministris, Triptolemo
+          frugum praefecto qui fame laborantem Graeciam circumlato frumento restituit. <milestone
+            unit="par" n="3"/>Pandion rex, qui filias suas Procnen et Philomelam Thraciae regibus
+          tradidit, ut barbaras sibi gentes adfinitate sociaret. <milestone unit="par" n="4"
+          />Theseus, Aegei filius, qui Minotaurum interfecit. <milestone unit="par" n="5"/>Demophon,
+          Thesei filius, qui cum Graecis Ilium expugnauit. <milestone unit="par" n="6"/>Codrus rex,
+          qui pro salute et uictoria patriae, secundum oraculum Apollinis, bello Peloponnesio se
+          deuouit. <milestone unit="par" n="7"/>Pisistratus, uir fortis et sapiens, qui aduersus
+          principes populari causa tyrannidem inuasit eamque iustissime administrauit. <milestone
+            unit="par" n="8"/>Harmodius et Aristogiton, homines plebei, qui Hippiam et Hipparchum,
+          Pisistrati filios saeue dominantes, facta coniuratione oppresserunt, ideoque ut
+          conseruatoribus diuini honores eis sunt constituti. <milestone unit="par" n="9"/>Miltiades
+          dux, qui LXXX milia militum Persarum Darii regis praefectis Date et Tisapherne in saltu
+          Marathonio superauit. <milestone unit="par" n="10"/>Aristides Dicaeos, qui hoc agnomen
+          moribus est consecutus: ob <supplied>id</supplied> ipsum exilio multatus est. <milestone
+            unit="par" n="11"/>Cimon dux, qui Persico bello <del>et</del> Xerxis copias, pedestris
+          simul atque naualis, in ipsa Asia apud Eurymedonta fluuium uno die uicit. <milestone
+            unit="par" n="12"/>Alcibiades dux, uir genere, copia, opibus illustris, qui propter
+          detruncatos nocte Mercurios reus factus ad Lacedaemonios tum confugit Peloponensi bello,
+          et, cum fecisset eos superiores, adflictorum ciuium misertus rediit in patriam et, dux
+          creatus, iterum uictores Athenienses fecit. <milestone unit="par" n="13"/>Thrasybulus, qui
+          triginta magistratus Lacedaemonios tyrannidis dominatione saeuientis facta coniuratione
+          adflixit et libertatem Atheniensibus reddidit. <milestone unit="par" n="14"/>Conon dux,
+          qui omnes Lacedaemoniorum copias apud Cnidum insulam cepit et imperium maris Athenis
+          restituit. <milestone unit="par" n="15"/>Dion, qui octo onerariis nauibus Dionysium regem
+          Siciliae centum rostratas habentem, dum in Italiam abest, regno expulit occupatis
+          Syracusis. <milestone unit="par" n="16"/>Iphicrates, rei militaris peritissimus, qui arma
+          habiliore pondere et modo fecit. <milestone unit="par" n="17"/>Phocion, qui uir bonus
+          cognominatus est, neque ulla pecunia a Philippo potuit sollicitari ut ad eum discederet;
+          qui admonentibus amicis ut liberis suis consuleret: "si boni," inquit, "erunt, hic agellus
+          eis sufficiet, si mali, nihil". <milestone unit="par" n="18"/>Chabrias dux, qui
+          gladiatoria arte pugnare militem docuit, Cypron et Naxon et omnes Asiaticas insulas
+          Athenis adiunxit, et circa Chion nauali bello occidi maluit quam abiectis armis enatare.
+            <milestone unit="par" n="19"/>Demetrius Phalereus, uir bonus existimatus ideoque "ob
+          insignem iustitiam" statuis CCC est honoratus quas ei "pro libertate posuerunt in facie
+          publica". </p>
+      </div>
+      <div type="cap" n="16">
+        <head>XVI Reges Macedonum</head>
+        <p>
+          <milestone unit="par" n="1"/>Philippus, Amyntae filius, primus Macedonum obtinuit Thraciam
+          redegitque in suam potestatem et, cum transire in Asiam uellet, sub ipso belli apparatu in
+          theatro a Pausania est interfectus. <milestone unit="par" n="2"/>Alexander, Philippi et
+          Olympiadis filius, ex urbe Pella Macedoniae cum milibus XL militum in Asiam transiit et
+          Darium regem Persarum primum apud Granicum fluuium, tum apud Issum Ciliciae, tertio apud
+          Arbela, tribus proeliis trecenta peditum, <supplied>quinquaginta</supplied> equitum, duo
+          milia falcatorum curruum uicit; mox regem Indorum et omnes Asiae gentes sub potestate sua
+          redegit et nobilissimas urbes Asiae cepit, Pasargadas, Bactra, Susa, Babylonam, ubi etiam
+          defunctus, dubius uinolentia an ueneno, cum tamen prius et Africam peragrasset usque ad
+          Iouem Ammonem et Oceanum primus omnium nauigasset. <milestone unit="par" n="3"/>Philippus,
+          qui post Alexandrum Macedonem septimo gradu Macedoniae regnauit, inuectus in Graeciam, cum
+          saeue dominaretur, a Sulpicio consule in Phocide uictus est, mox a Flaminino in Macedonia
+          Thessalidi apud Cynocephalas, ubi dato obside filio Demetrio regni parte multatus est.
+            <milestone unit="par" n="4"/>Perses Philippus, Philippi filius, cum maximis copiis
+          Macedoniis <del>et</del> cum impetum in Graeciam fecisset, cum inanibus elephantorum
+          simulacris a Marcio consule apud Ascuridem paludem uictus, praecipitatis in mare
+          thesauris, profugit; mox ab Aemilio Paulo tota Macedonia fugatus, Samothracam confugit in
+          asylum unde, data fide cum se Paulo commisisset, ante currum eius in triumphum productus,
+          mox libera custodia in Albano consenuit. <milestone unit="par" n="5"/>Pseudophilippus, uir
+          plebeius et degener, cum ex similitudine formae Philippi filium se persuasisset et
+          Macedonas in bellum excitasset, inter initia tumultus comprehensus sub custodia missus est
+          Romam ubi cum ex custodia aufugisset, concitata rursus Macedonia Thraciam bello recepit;
+          in arce regni paludatus ius dixit, mox a Caecilio Metello ingenti proelio uictus cum
+          profugisset in Thraciam, a regibus deditus et in triumphum deportatus. </p>
+      </div>
+      <div type="cap" n="17">
+        <head>XVII Reges <del>et duces</del> Romanorum</head>
+        <p>
+          <milestone unit="par" n="1"/>Romulus qui Vrbem condidit; Numa Pompilius, qui sacra
+          constituit; Tullus Hostilius, qui Albam diruit; Ancus Martius, qui leges plurimas tulit et
+          Ostiam coloniam constituit. </p>
+      </div>
+      <div type="cap" n="18">
+        <head>XVIII Clarissimi duces Romanorum</head>
+        <p>
+          <milestone unit="par" n="1"/>Brutus, qui pro libertate publica liberos suos interfecit.
+            <milestone unit="par" n="2"/>Valerius Publicola, qui propter eamdem libertatem aduersus
+          Tarquinios bellum exercuit, idem ius libertatis dando populum ampliauit. <milestone
+            unit="par" n="3"/>Mallius Torquatus, qui ad confirmandam castrorum disciplinam filium
+          suum interfecit. <milestone unit="par" n="4"/>Quinctius Cincinnatus, item Seranus, cui
+          aranti dictatura delata est. <milestone unit="par" n="5"/>Camillus, qui Senonum gente
+          deleta Gallorum incensam ab eis Vrbem restituit. <milestone unit="par" n="6"/>Fabii duo,
+          quorum alter una pugna Etruscos, Samnitas, Vmbros Gallosque subegit, libertinos e tribubus
+          repurgauit ideoque Maximus cognominatus, alter Fabius Hannibalem mora fregit, ex quo
+          Cunctator est cognominatus. <milestone unit="par" n="7"/>Papirius Cursor: hic Samnites,
+          qui Romanos sub iugum pugnando miserant, uictos ignominia pari adfecit et a uelocitate
+          Cursor est appellatus. <milestone unit="par" n="8"/>Curius: cum in foco rapas torreret,
+          offerentibus "malo", inquit, "in fictilibus meis <supplied>esse</supplied> et aurum
+          habentibus imperare". <milestone unit="par" n="9"/>Fabricius Luscinus, qui Cornelium
+          Rufinum consularem uirum senatu amouit, luxuriae et auaritiae damnatum, quod decem pondo
+          argenti possideret. <milestone unit="par" n="10"/>Claudius Marcellus, qui Hannibalem
+          primus in Campania proelio uicit idemque docuit in bello quomodo equites sine fuga
+          cederent. <milestone unit="par" n="11"/>Scipiones duo quorum alter prior Africanus, qui
+          Hannibalem et in eo Africam debellauit, alter Scipio minor Numantinus qui, Carthaginem et
+          Numantiam diruendo, <del>et</del> in hac Africam, in illa Hispaniam fregit. <milestone
+            unit="par" n="12"/>Quintus Nero, qui Hannibale in Apulia relicto uenientem ab Hispania
+          Hasdrubalem excepit copiasque eius uno die apud Metaurum flumen deuicit, qui si se cum
+          Hannibale iunxisset, dubitari non potest paria eis p.R. effecturum non fuisse. <milestone
+            unit="par" n="13"/>Paulus, qui cum Macedoniam uicisset et Graeciam liberasset et
+          opulentissimum triumphum reportasset, inter ipsos triumphi dies amissis duobus liberis,
+          pro contione dixit gratias se agere fortunae quod in suam potius domum quam in rem
+          publicam saeuisset. <milestone unit="par" n="14"/>Duo Metelli, quorum alter Macedonicus,
+          deuictis Macedonibus, qui Contrebiam, inexpugnabilem Hispaniae ciuitatem, iussis
+          testamenta scribere et uetitis redire nisi uicissent militibus, occupauit, alter
+          Numidicus, uicta Numidia, qui cum pemiciosas rei publicae leges ferret Apuleius tribunus
+          plebis totusque senatus in eas iurasset, maluit in exilium ire quam iurare: huius filius
+          Pius cognominatus est, quod patrem in exilium secutus est. <milestone unit="par" n="15"
+          />Gaius Marius, qui in Africa Numidis, in Gallia Cimbris Teutonibusque superatis a caliga
+          peruenit usque septimum consulatum. <milestone unit="par" n="16"/>Sulla, qui bello ciuili
+          uictoria perpotitus Romanum primus inuasit imperium solusque deposuit. <milestone
+            unit="par" n="17"/>Sertorius, qui proscriptus a Sulla cum in exilium profugisset, quam
+          breuissimo tempore prope totam Hispaniam redegit in suam potestatem et ubique aduersante
+          fortuna insuperabilis fuit. <milestone unit="par" n="18"/>Lucullus, qui Asiacae prouinciae
+          spoliis maximas opes est consecutus et aedificiorum tabellarumque pictarum studiosissimus
+          fuit. <milestone unit="par" n="19"/>Pompeius, qui Armenios sub rege Tigrane, Ponticos sub
+          rege Mithridate, Cilicas toto mari dominantis intra quadragesimum diem uicit et magnam
+          partem Asiae inter oceanum Caspium Rubrumque uictoriis suis triumphisque peragrauit.
+            <milestone unit="par" n="20"/>Gaius Caesar, qui Gallias Germaniasque subegit et primus
+          Romanorum nauigauit Oceanum in quo Britanniam inuenit et uicit. <milestone unit="par"
+            n="21"/>Iulius Caesar Augustus, qui perpacatis omnibus prouinciis exercitus toto orbe
+          terrarum disposuit et Romanum imperium ordinauit, post cuius consecrationem perpetua
+          Caesarum dictatura dominatur. </p>
+      </div>
+      <div type="cap" n="19">
+        <head>XIX Romani qui in toga fuerunt illustres</head>
+        <p>
+          <milestone unit="par" n="1"/>Menenius Agrippa, qui dissidentem populum senatui conligauit
+          atque conciliauit. <milestone unit="par" n="2"/>Appius Caecus, qui pacem Pyrrhi diremit ne
+          populus qui suis parere noluerat sub externis regibus regeretur. <milestone unit="par"
+            n="3"/>Tiberius Gracchus, qui Scipionem Asiaticum, quamuis inimicum haberet, non est
+          passus a tribunis in carcerem duci, quod diceret nefas ibi esse Scipionem ubi captiui
+          illius adhuc alligati tenerentur: hic est Gracchorum pater, qui in tribunatu, cum agrariis
+          legibus seditiones excitarent, interfecti sunt. <milestone unit="par" n="4"/>Decimus
+          Brutus Callaecus, qui Gracchum generum agrariis legibus rei publicae statum turbantem cum
+          Opimio consule oppressit. <milestone unit="par" n="5"/>M. Brutus, qui Pompeii partes
+          secutus mox a Caesare restitutus in mortem eius coniurauit quod affectare nomen regium
+          uideretur. <milestone unit="par" n="6"/>Liuius Drusus, qui agrariis legibus promulgatis
+          summum p. R. fauorem consecutus, ne promissa perficeret, per insidias a Philippo consule
+          domi suae interfectus est. <milestone unit="par" n="7"/>Lutatius Catulus, qui Lepidum acta
+          Sullae rescindere uolentem admoto exercitu Italia fugauit et solus omnium sine sanguine
+          bellum ciuile confecit. <milestone unit="par" n="8"/>Cato censorius, qui totiens accusatus
+          est; quoad uixit nocentis accusare non destitit; hic est omnium rerum peritissimus et, ut
+          Sallustio Crispo uidetur, Romani generis disertissimus. <milestone unit="par" n="9"
+            /><del>Cato</del> Cato praetorius, qui bello ciuili partes Pompeii secutus mori maluit
+          quam superstes esse rei <supplied>p.</supplied> seruienti. <milestone unit="par" n="10"
+          />Scaurus, qui uetuit filium in conspectum suum uenire quia bello Cimbrico deseruerat.
+            <milestone unit="par" n="11"/>Scipio Nasica: quia non rite inauguratus consul uideretur,
+          consulatu se abdicauit et domitis Dalmatis oblatum a senatu triumphum repudiauit
+          statuasque quas sibi quisque in publico posuerat in censura sua sustulit; censuit in
+          senatu tamen Carthaginem non esse delendam, propterea optimus iudicatus. <milestone
+            unit="par" n="12"/>Cornelius Cethegus, qui fratrem suum Cethegum quod cum Catilina
+          coniurasset morte multandum censuit. <milestone unit="par" n="13"/>Tullius Cicero, qui in
+          consulatu suo Catilinae coniurationem fortissime oppressit. </p>
+      </div>
+      <div type="cap" n="20">
+        <head>XX Qui pro salute se optulerunt?</head>
+        <p>
+          <milestone unit="par" n="1"/>Horatius trigeminus, qui aduersus Curiatios Albanorum
+            <del>qui</del> de summo imperio dimicauerunt. <milestone unit="par" n="2"/>Fabii, qui
+          trecenti cum omnes patriciae stirpis essent, bellum Veiens peculiariter sibi
+          depoposcerunt. <milestone unit="par" n="3"/>Mucius Cordus, quia ignibus manus imposuit.
+            <milestone unit="par" n="4"/>Horatius Cocles, qui ponte rescisso Tiberim armatus
+          transnauit. <milestone unit="par" n="5"/>Trecenti sub Calpurnio Flamma contra Poenos, qui
+          in Siciliensi saltu mortuo exercitu populum Romanum liberauerunt ut plane CCC
+          Lacedaemoniorum apud Thermopylas gloriam adaequarent. <milestone unit="par" n="6"/>Duo
+          Decii, quorum alter Latino bello, alter Samnitico diis manibus se deuouerunt. <milestone
+            unit="par" n="7"/>Folius pontifex, qui Vrbe a Gallis Senonibus incensa se aliosque senes
+          diis manibus deuouit. <milestone unit="par" n="8"/>Regulus, qui tormenta Carthaginiensium
+          maluit pati quam <supplied>ut</supplied> inutilis pax cum eis fieret aut ipse iuris
+          iurandi fidem falleret. <milestone unit="par" n="9"/>Curtius, qui se in hiatum terrae
+          immisit cum ex oraculo quod optimum esset in urbe Romana posceretur. <milestone unit="par"
+            n="10"/>Spurius Postumius, qui a Pontio Telesino Samnitum duce sub iugum missus cum
+          exercitu auctor fuit rumpendi foederis seque hostibus censuit esse dedendum. <milestone
+            unit="par" n="11"/>Gaius Metellus pontifex, <supplied>qui</supplied> ardente templo
+          Vestae Palladium extulit et oculos amisit. </p>
+      </div>
+      <div type="cap" n="21">
+        <head>XXI Qui spolia opima rettulerunt?</head>
+        <p>
+          <milestone unit="par" n="1"/>Romulus de Agrone Ceninensium rege; Cossus Cornelius de
+          Iarthe Tolumne Veientium rege; Claudius Marcellus de Virdomaro rege Gallorum. </p>
+      </div>
+      <div type="cap" n="22">
+        <head>XXII Qui prouocati ab hostibus manu contenderunt?</head>
+        <p>
+          <milestone unit="par" n="1"/>Mallius Torquatus, qui Gallo torquem detraxit eumque sibi
+          circumdedit. <milestone unit="par" n="2"/>Valerius Coruinus, quia a Gallo prouocatus cum
+          pugnaret, coruus galeam eius insedit et hostem perturbauit. <milestone unit="par" n="3"
+          />Scipio Aemilianus: cum esset legatus sub Lucullo imperatore, apud Intercatiam,
+          Vaccaeorum urbem, prouocatorem barbarum occidit. <milestone unit="par" n="4"/>Lucius
+          Opimius, sub Lutatio Catulo consule, in saltu Tridentino prouocatorem Cimbrum interfecit.
+        </p>
+      </div>
+      <div type="cap" n="23">
+        <head>XXIII Qui pro Romanis gentes superauerunt?</head>
+        <p>
+          <milestone unit="par" n="1"/>Scipio Africanus, Scipio Numantinus, Scipio Asiaticus,
+          Mummius Achaicus, Seruilius Isauricus, Brutus Callaecus, Paulus Macedonicus, Metellus
+          Creticus, Caesar Germanicus, Caesar Dacicus. </p>
+      </div>
+      <div type="cap" n="24">
+        <head>XXIV Quot illustres Scipiones, qui magnis rebus gestis cognominati sunt?</head>
+        <p>
+          <milestone unit="par" n="1"/>Scipio Magnus, Africanus, qui uicit Hannibalem; Scipio minor,
+          Numantinus, qui Numantiam et Carthaginem diruit; Scipio Asiaticus, qui de Antiocho
+          triumphauit; Scipio Nasica, qui a senatu uir optimus iudicatus; Scipio qui occiso Pompeio
+          partes restituit et uictus se interfecit. </p>
+      </div>
+      <div type="cap" n="25">
+        <head>XXV Secessiones plebis a patribus fuerunt quattuor</head>
+        <p>
+          <milestone unit="par" n="1"/>prima secessio propter impotentiam foeneratorum, cum in
+          Montem plebs armata secessit; <milestone unit="par" n="2"/>secunda, propter impotentiam
+          decemuirum, cum interfecta filia sua Virginius Appium et totam eius factionem in Auentino
+          monte circumuenit effecitque ut abdicato magistratu accusati atque dampnati uariis
+          suppliciis punirentur; <milestone unit="par" n="3"/>tertia, propter matrimonia:
+            <quote>"plebei ne patriciis nuberent",</quote> quam Canuleius concitauit in monte
+          Ianiculo; <milestone unit="par" n="4"/>quarta secessio, in foro propter magistratus:
+            <quote>"ut plebei consules fierent",</quote> quam Sulpicius Stolo concitauit. </p>
+      </div>
+      <div type="cap" n="26">
+        <head>XXVI Seditiones in Vrbe quattuor</head>
+        <p>
+          <milestone unit="par" n="1"/>prima seditio Tiberi Gracchi, quem de iudiciariis et agrariis
+          legibus statum ciuitatis mouentem Scipio Nasica facta manu in Capitolio oppressit;
+            <milestone unit="par" n="2"/>secunda seditio Gracchi fratris eius, quem ob similes
+          largitiones nouos motus excitantem Opimius consul cum Decimo Bruto Callaeco, socero eius,
+          conuocatis ad pilleum seruis in Aventino monte oppressit; <milestone unit="par" n="3"
+          />tertia seditio Apulei Saturnini tribuni plebis et Glauciae consulis, quos comitia in
+          campo caedibus perturbantes Marius in Capitolium persecutus obsedit et conficiendos
+          fustibus saxisque curauit; <milestone unit="par" n="4"/>quarta seditio fuit Liui Drusi et
+          Quinti Caepionis, cum ille senatum, <supplied>hic</supplied> equestrem ordinem adsereret:
+          praecipua tamen ad motus excitandos fuit causa quod Drusus ciuitatem omnibus Italicis
+          pollicebatur, sed tum a Philippo consule in domo sua interfectus. </p>
+      </div>
+      <div type="cap" n="27">
+        <head>XXVII Qui aduersus patriam nefaria iniere consilia?</head>
+        <p>
+          <milestone unit="par" n="1"/>Coriolanus ob asperiorem annonam in exilium actus Vulscorum
+          exercitu admoto patriam expugnare uoluit, sed Veturiae matris precibus uictus tum ab
+          exercitu suo confossus est. <milestone unit="par" n="2"/>Marcus Maelius cum frumentaria
+          largitione <supplied>affectare</supplied> regnum uideretur, iussu Quinctii Cincinnati
+          dictatoris a magistro equitum in rostris occisus est. <milestone unit="par" n="3"
+          />Spurius, cum agrariis legibus factioni dominationem pararet <supplied><gap/></supplied>
+          <milestone unit="par" n="4"/>Manlius Capitolinus, cum pecunia conturbatores liberaret,
+          suspectus regni affectati de Tarpeio saxo praecipitatus est. <milestone unit="par" n="5"
+          />Catilina, cum in caedem senatus, in incendium Vrbis, <supplied>in</supplied> direptionem
+          aerarii coniurasset, et in id facinus Allobrogas sollicitasset, ab Cicerone in senatu
+          accusatus, ab Antonio in Apulia debellatus est. </p>
+      </div>
+      <div type="cap" n="28">
+        <head>XXVIII Populus Romanus cum quibus gentibus bella conseruit et quibus de causis?</head>
+        <p>
+          <milestone unit="par" n="1"/>Populus Romanus sub Romulo pugnauit cum Sabinis, prius
+          propter uirgines raptas; sub Tullo cum Albanis <supplied><gap/></supplied>. <milestone
+            unit="par" n="2"/>Qui reges uel duces cum Romanis bella gesserunt? Pontius Telesinus,
+          dux Samnitum, qui ad Caudinas furculas Romanos sub iugum misit. <milestone unit="par"
+            n="3"/>Pyrrhus, rex Epirotarum, qui pro Tarentinis bellum cum Romanis gessit uastataque
+          Campania ad uicesimum ab Vrbe lapidem peruenit; mox a Curio et Fabricio uictus in patriam
+          concessit et cum Achaiam armis sub se redegisset, Macedoniam quoque Antigono regi eripuit
+          et, dum Argos expugnat, occisus est. Omnium Graecorum sapientissimus et militaris
+          disciplinae peritissimus fuit. <milestone unit="par" n="4"/>Hannibal, qui nouem annorum
+          patrem in Hispaniam secutus, minor annorum quindecim imperator factus, triennio in
+          Hispania uicit et euersione Sagunti rupto foedere per Pyrenaeum et Alpes in Italiam uenit
+          et Scipionem <supplied>ad</supplied> Liternum, Tiberium Claudium apud Trebiam, Flaminium
+          apud Trasimenum, Paulum et Varronem apud Cannas, Gracchum in Lucania, Marcellum in
+          Campania superauit. </p>
+      </div>
+      <div type="cap" n="29">
+        <head>XXIX Status populi Romani quas commutationes habuit?</head>
+        <p>
+          <milestone unit="par" n="1"/>Populus Romanus primum sub regibus fuit, deinde post
+          superbiam Tarquinii et inlatum Lucretiae stuprum expulsis regibus tutelam sui consulibus
+          tribunisque commisit; <milestone unit="par" n="2"/>deinde tribuniciis seditionibus
+          agitatus, abdicatis omnibus magistratibus decemuiros legum ferendarum et rei publicae
+          constituendae causa parauit; <milestone unit="par" n="3"/>horum quoque dominationem et
+          libidinem detestatus, rursus ad consules rediit, donec exortis bellis ciuilibus inter
+          Caesarem et Pompeium et oppressa per uim libertate sub unius Caesaris potestatem redacta
+          sunt omnia: ex eo perpetua Caesarum dictatura dominatur. </p>
+      </div>
+      <div type="cap" n="30">
+        <head>XXX Initium regni Mithridatis</head>
+        <p>
+          <milestone unit="par" n="1"/>Cyrus rex Persarum primus imperium Medis ademit: duos filios
+          reliquit Cambysen et Smerden; horum Cambyses, defrudato fratre quod maior esset, Smerden
+          in solio sedentem capite caelum pulsare <supplied>somniauit et</supplied> occidendum eum
+          curauit ipse, et deinde reuertens ab Aethiopia, rebus perfractis, cum in Aegyptum uenisset
+          incolasque eius loci laetantes aduertisset, ratus est illos aduersis suis insultare, Apin
+          in femine uulnerauit eodemque ictu occidit. <milestone unit="par" n="2"/>Interim magus
+          quidam, Smerdes, Patibiatae frater, abutens nomine, ex formae subsimilitudine filium se
+          Cyri professus <del>est</del>, regnum Persicum inuaserat. Quod ubi Cambysi nuntiatum est,
+          regredi in patriam maturans, oblitus est gladium quo Apin interfecerat uaginae reddere:
+          quod cum conatur efficere, femen suum uulnerauit et eam partem qua Apin uulnerauerat; ex
+          eodem uulnere in paucis diebus obiit. <milestone unit="par" n="3"/>De cuius morte postquam
+          certior nuntius ad Persas uenit, Potanes Phaedymam filiam suam, quacum Smerdes
+          consuetudinem habebat, edocuit ut, cum ille sopitus esset, utrum aures tectas comis
+          haberet periclitaretur; sciebat enim a Cyro Smerdi mago ademtas aures. Ille falsum esse
+          Smerden confirmauit; <milestone unit="par" n="4"/>tunc septem nobilissimi Persae inter se
+          coniurauerunt; eorum nomina haec sunt: Potanes, Hydanes, Aspatines, Saphernes, Megaboius,
+          Gobies, Darius. Deinde, mago Smerde interfecto, constituerunt uti, excepto posthac Potane,
+          ex illis regnaret cuius equus primus in loco quem delegissent hinnisset; <milestone
+            unit="par" n="5"/>tunc Hiberes, agaso Darii, equum domini ad locum praedictum duxit,
+          illo loco <supplied>equa</supplied> abscondita: tunc equus Darii magnum hinnitum dedit.
+          Ita Darius regnum optinuit, a quo Artabanes originem ducit, quem conditorem regni
+          Mithridatis fuisse confirmat Sallustius Crispus. </p>
+      </div>
+      <div type="cap" n="31">
+        <head>XXXI Reges Parthorum</head>
+        <p>
+          <milestone unit="par" n="1"/>Seleucus, Alexandri Macedonis amicus, cuius post mortem ab
+          Arrhidaeo fratre eius iussus Babylonem optinere finitimos sub se redegit — unde Nicator
+          est appellatus — et tres ualidissimas urbes constituit, Antiochiam, Seleuciam, Laodiciam.
+            <milestone unit="par" n="2"/>Arsaces, forma et uirtute praecipuus, cuius posteri
+          Arsacidae cognominati sunt, qui pacem cum Sulla imperatore fecit. <milestone unit="par"
+            n="3"/>Orodes, qui foedus cum Cn. Pompeio percussit, Crassum cum legionibus apud Carrhas
+          funesta clade deleuit. <milestone unit="par" n="4"/>Pacorus, qui filium suum eiusdem
+          nominis misit in Syriam ut Romanas prouincias popularetur, atque ipse a Ventidio legato
+          Iulii Caesaris occisus est. </p>
+      </div>
+      <div type="cap" n="32">
+        <head>XXXII Reges Cappadociae et Armeniae</head>
+        <p>
+          <milestone unit="par" n="1"/>Tigranes, qui iam scriptus est, qui tertio Punico bello p. R.
+          iuuit sub Manilio consule et Scipione Aemiliano. <milestone unit="par" n="2"/>Bellus, rex
+          Armeniae, qui cum impetum in Graeciam fecisset et Pythii Apollinis templum incendisset,
+          tempestate et frigore exercitum amisit. <milestone unit="par" n="3"/>Polycrates rex
+          Cappadociae qui somniauit solem et lunam uri, qui a praefecto Darii regis occisus est.
+            <milestone unit="par" n="4"/>Epaminondas, eius filius, rex qui Thebis pugnando uicit.
+            <milestone unit="par" n="5"/><supplied>Reges Corinthi</supplied>. Periandrus rex, qui
+          Corinthi regnauit. <milestone unit="par" n="6"/>Timoleon, qui Corinthi fratrem suum
+          regnantem interfecit, idem et Dionysium Siciliae regem expulit, neque ipse ab offerentibus
+          regnum accepit, sed arcem quoque demolitus est. Hic cum conuicia mala audiret, ait: "tota
+          uita mea id egi ut omnes liberi essemus". </p>
+      </div>
+      <div type="cap" n="33">
+        <head>XXXIII Reges Asiae et Pergami</head>
+        <p>
+          <milestone unit="par" n="1"/>Eumenes Cardianus Philippi Alexandri armiger bellicosissimus
+          sed parum prospera fortuna usus, adeo tamen terribilis ut uiuente eo nemo ausus sit rex
+          appellari. <milestone unit="par" n="2"/>Antiochus, <supplied>qui</supplied> iam scriptus
+          est. Eumenes alius, qui Romanos Macedonico bello iuuit cum milite suo. Attalus qui pro
+          Romanis saepe pugnauit; omnia terra et mari Romanis subiugauit, nam testamento suo p. R.
+          heredem fecit. </p>
+      </div>
+      <div type="cap" n="34">
+        <head>XXXIV Reges Ponti et Bithyniae</head>
+        <p>
+          <milestone unit="par" n="1"/>Pharnaces, rex Bithyniae, filius Mithridatis, qui bello
+          ciuili quod in Pharsalia gestum est instar patris sui Syriam inuasit et, aduentu Caesaris,
+          antequam in congressum eius ueniret, ipso terrore nominis <del>sui</del> uictus refugit in
+          Pontum. <milestone unit="par" n="2"/>Prusias rex, amicus populi Romani, ad quem Hannibal,
+          uicto Antiocho, confugit et cum a rege exposceretur per legatos ueneno se liberauit.
+            <milestone unit="par" n="3"/>Nicomedes, socius et amicus populi Romani, in cuius
+          amicitia prima aetate Caesar fuit, qui moriens testamento et ipse p. R. heredem dimisit.
+        </p>
+      </div>
+      <div type="cap" n="35">
+        <head>XXXV Reges Alexandriae</head>
+        <p>
+          <milestone unit="par" n="1"/>Post mortem Alexandri Macedonis regnauerunt Alexandriae
+            <supplied>ad</supplied> Aegyptum octo Ptolomaei nomine, multi clarissimi uiri.
+            <milestone unit="par" n="2"/>Ptolomaeus Euergetes, qui Alexandrum apud Oxydracas obiecto
+          clipeo protexit. <milestone unit="par" n="3"/>Ptolomaeus, <supplied>eius</supplied>
+          filius, Philadelphus, litteratissimus, qui plurimos libros Graecos scripsit. <milestone
+            unit="par" n="4"/>Ptolomaeus Soter, qui ingenti classe Rhodios uicit. <milestone
+            unit="par" n="5"/>Ptolomaeus Tryphon, qui seditiosos in theatro sagittis occidit, alios
+          flammis dedit; huius filius Cyprius pro Romanis multa bella gessit aduersus Garamantas et
+          Indos. <milestone unit="par" n="6"/>Ptolomaeus, Pupillus dictus, qui Pompeium tutorem a
+          senatu accepit donec pubesceret, et postea ciuili bello <supplied>a</supplied> Pothino
+          interfectus est. </p>
+      </div>
+      <div type="cap" n="36">
+        <head>XXXVI Duces et reges Carthaginiensium</head>
+        <p>
+          <milestone unit="par" n="1"/>Hanno et Mago, qui Punico bello Cornelium consulem apud
+          Liparas ceperunt. <milestone unit="par" n="2"/>Hamilcar, qui Boccor cognominatus est,
+          primo Punico bello magnam partem Hispaniae sub imperium Carthaginiensium redegit relictis
+          filiis quattuor: Hasdrubale, Hannibale, Hamilcare et Magone. <milestone unit="par" n="3"
+          />Hasdrubal, frater Hannibalis, qui secundo Punico bello cum ingentibus copiis ab Hispania
+          ueniens antequam se fratri coniungeret a Claudio Nerone expoliatus est. </p>
+      </div>
+      <div type="cap" n="37">
+        <head>XXXVII Reges Numidiae</head>
+        <p>
+          <milestone unit="par" n="1"/>Syphax, quem Scipio Africanus uictum in triumphum traxit;
+          regno eius imposuit Masinissam. <milestone unit="par" n="2"/>Masinissa rex, qui Scipionem
+          aduersus Carthaginem et Syphacem equitatu adiuuit; ab eo inter praemia Numidiae regno
+          donatus est <del>et</del>. <milestone unit="par" n="3"/>Iugurtha, qui scriptus est. </p>
+      </div>
+      <div type="cap" n="38">
+        <head>XXXVIII Reges Mauritaniae</head>
+        <p>
+          <milestone unit="par" n="1"/>Iuba rex, qui Curionem legatum Caesaris oppressit; mox,
+          occiso Pompeio, Catonis et Scipionis partes firmare conatus cum se in regiam recepisset
+          post magnificam cenam interficiendum se dedit. <milestone unit="par" n="2"/>Iuba rex
+          litteratissimus, qui Caesaris Augusti iussu regnauit et magnificentissimam urbem Caesaream
+          condidit. </p>
+      </div>
+      <div type="cap" n="39">
+        <head>XXXIX Qui aduersus populum Romanum arma sumserunt?</head>
+        <p>
+          <milestone unit="par" n="1"/>Tatius, rex Sabinorum, qui occupata arce Tarpeia in ipso foro
+          cum Romulo decertauit et interuentu Sabinarum pacem cum Romulo. <milestone unit="par"
+            n="2"/>Mettius Suffetius, rex Albanorum, qui contra foedus a Fidenatibus destitutus et
+          iussu Tulli Hostilii deligatus ad currum et in aduersa actis equis laceratus est.
+            <milestone unit="par" n="3"/>Porsenna, rex Etruscorum, qui Romanos ad Ianiculum obsedit
+          propter Tarquinios. <milestone unit="par" n="4"/>Tiridates, qui a Corbulone consulari uiro
+          uictus et restitutus est. </p>
+      </div>
+      <div type="cap" n="40">
+        <head>XL Ciuilia bella quattuor mota sunt in Vrbe a Romanis</head>
+        <p>
+          <milestone unit="par" n="1"/>Ciuile bellum primum Sulpicius tribunus excitauit quod
+          subscriptam prouinciam Mithridaticam Sulla in Marium transferre noluisset; <milestone
+            unit="par" n="2"/>secundum bellum Lepidus contra Catulum ob metum Siciliae expugnatae;
+            <milestone unit="par" n="3"/>tertium bellum Caesar et Pompeius: belli species magis quam
+          causa fuit negatus a senatu Caesari consulatus, ceterum utriusque aemulatio et cupiditas
+          imperii occupandi. Nam, cum secundum mores legemque maiorum dimisso exercitu uenire in
+          Vrbem Caesar deberet et docere senatum de rebus a se gestis atque ita triumphum consequi,
+          simulans se gratiam timere Pompeii, negauit se missurum exercitum nisi consularibus
+          comitiis ratio absentis sui posita fuisset; quam ob rem hostis a senatu iudicatus, statuit
+          id bello uindicare, ac sic non consulatum modo ac triumphum, sed totum populi Romani
+          imperium redegit in suam potestatem. <milestone unit="par" n="4"/>Quartum bellum Caesar
+          Augustus aduersus complures duces: contra Pompeium iuuenem bona paterna repetentem, mox
+          aduersus Cassium et Brutum in ultionem interempti patris, deinceps aduersus Antonium et
+          Cleopatram ultro bellum patriae inferentis. </p>
+      </div>
+      <div type="cap" n="41">
+        <head>XLI Bellorum genera sunt quattuor</head>
+        <p>
+          <milestone unit="par" n="1"/>gentile quod cum externis geritur,
+            <supplied>internum</supplied> ut Romani cum Latinis, Atheniensibus cum Lacedaemoniis,
+          seruile quod Romani aduersus fugitiuos gesserunt contra duces eorum Spartacum, Crixum et
+          Oenomaum, ciuile quod inter se certant sicut Marius et Sulla, Caesar et Pompeius, Augustus
+          et Antonius. </p>
+      </div>
+      <div type="cap" n="42">
+        <head>XLII Ordo belli Mariani</head>
+        <p>
+          <milestone unit="par" n="1"/>Inexplebilis honoris Marii cupiditas decretam Sullae Ponticam
+          prouinciam uoluit eripere per rogationem Sulpicii tribuni plebis. Sulla indignatus
+          continuo ad exercitum perrexit et eum Vrbi admouit et in patriam ingressus Capitolium
+          occupauit; quo terrore uictus, senatus Mario totique factioni eius interdixit. <milestone
+            unit="par" n="2"/>Profecto deinde in Asiam Sulla, Marius exul cum profugisset, ac primum
+          Minturnis in palude latuisset, tum coniectus in carcerem euasisset, interim Cinna et
+          Octauius in Vrbe inuicem obessent, hac occasione data, Marius rediit et secum Cinnam
+          adduxit, uictis Octauianis partibus; septies consul creatus, saeuissimis caedibus totam
+          Vrbem funestauit. <milestone unit="par" n="3"/>Sulla interim, uicto Mithridate, in Vrbem
+          reuersus, prope totam Italiam in armis inuenit sub iuuene Mario, Marii filio, sed omnes
+          eius copias partim in Etruria ad Sacriportum, partim ad Collinam portam prostrauit et
+          reliquias aduersariorum eorum qui se dederant, in uilla publica trucidauit: qui
+          diffugerant, in tabula proscripsit, iure permisso ut interficerentur. </p>
+      </div>
+      <div type="cap" n="43">
+        <head>XLIII Ordo belli inter Caesarem et Pompeium</head>
+        <p>
+          <milestone unit="par" n="1"/>Caesar et Pompeius et Crassus, inita societate, imperium
+          Romanorum possidebant: Caesar Gallicos, Crassus Syriacos exercitus habebat; Pompeius,
+          horum uiribus fretus, in senatu dominabatur. Post Crassi mortem apud Parthos
+            <supplied><gap/></supplied>. <milestone unit="par" n="2"/><supplied>Ordo belli inter
+            Augustum et Antonium <gap/></supplied>e Musus Barbarus Asculanus, Quintus Lutatius
+          Catulus <supplied><gap/></supplied>. </p>
+      </div>
+      <div type="cap" n="44">
+        <head>XLIV <del>De bello Macedonico</del> Populus Romanus cum Macedonibus bellum ter
+          gessit</head>
+        <p>
+          <milestone unit="par" n="1"/>sub Flaminino consule, regem eorum Philippum uicit, sub
+          Paulo, Persen Philippi filium, sub Metello Macedonico, Pseudophilippum. <milestone
+            unit="par" n="2"/>Primi belli causa, quod de iniuriis Macedonum Graeci querebantur;
+          secundi, quod foedus cum patre suo percussum ruperit Perses; tertii, quod falso nomen
+          regum Macedonum Pseudophilippus inuasit. </p>
+      </div>
+      <div type="cap" n="45">
+        <head>XLV <supplied>Quibus</supplied> bellis populi Romani <supplied><gap/></supplied>
+          ?</head>
+        <p>
+          <milestone unit="par" n="1"/>Etrusco bello, cum Porsenna rex Ianiculum obsedit; Gallico
+          bello, cum Galli Senones exercitu apud Aliam deleto, Vrbe incensa, Capitolium obsederunt;
+            <milestone unit="par" n="2"/>Tarentino bello, cum Pyrrhus ad uicesimum lapidem, totam
+          Campaniam populatus, accesserat; Punico bello, cum Hannibal Cannensi exercitu fuso ad
+          tertium lapidem castra posuit; Cimbrico bello, cum Cimbri Tridentinas Alpes occupauerant;
+            <milestone unit="par" n="3"/>seruili bello, cum Spartacus, Crixus et Oenomaus
+          gladiatores, populata prope Italia, cum ad incendendam Vrbem pergerent, in Lucania a
+          Crasso, in Etruria a Pompeio consule opprimuntur. </p>
+      </div>
+      <div type="cap" n="46">
+        <head>XLVI <del>De tribus Punicis bellis</del> Populus Romanus cum Carthaginiensibus
+          dimicauit</head>
+        <p>
+          <milestone unit="par" n="1"/>Primum Punicum bellum naualibus copiis gestum est; <milestone
+            unit="par" n="2"/>causa motus praetendebatur duplex: altera, quod Carthaginienses
+          Tarentinis adfuissent, altera, quod Mamertini aduersus Poenos auxilium poscerent; ceterum
+          re uera praemium fuit Siciliae et Sardiniae possessio fertilissimarum insularum.
+            <milestone unit="par" n="3"/>Appius Claudius bellum in Siculo freto commisit, Manlius et
+          Regulus in ipsa Africa profligauerunt, Duillius consul apud Liparas insulas, Lutatius
+          consul apud Aegates mersis hostium classibus consummauerunt. <milestone unit="par" n="4"
+          />Secundum Punicum bellum longe omnium cruentissimum fuit: causa, quod Hannibal contra
+          foedus Saguntum euertisset. <milestone unit="par" n="5"/>Prima clades huius belli apud
+          Liternum, uulnerato patre Scipione, quem Publius Scipio nondum pubes protexit ac
+          liberauit; secunda clades apud Trebiam, uulnerato Flacco consule; tertia apud Trasimenum,
+          uastato Flaminii exercitu; quarta apud Cannas, deletis duobus exercitibus Pauli consulis
+          morte, Terentii fuga Varronis. <milestone unit="par" n="6"/>Postea uero quattuor duces
+          Punici belli gloriam sibi uindicant: Fabius, <del>sibi</del> Cunctator, qui imminentem
+          Vrbis excidio Hannibalem mora fregit; Marcellus, qui primus Hannibali apud Nolam restitit
+          et inclinatam eius aciem paene ictu cruciauit; Claudius Nero, qui uenientem ab Hispania
+          Hasdrubalem cum ingentibus copiis, priusquam se Hannibali iungeret, excepit et ingenti
+          proelio uicit <supplied><gap/></supplied>. <milestone unit="par" n="7"/>Tertium Punicum
+          bellum maioris gloriae quam operis fuit; nam Manilio consule inchoatum excidium
+          Carthaginis Aemilianus consummauit, una cum Tigrane, cum incensa Carthagine totius Africae
+          urbes in perpetuum repressit, quod contra foederis pactionem Carthaginienses reparassent
+          classes et arma finitimis intulissent. </p>
+      </div>
+      <div type="cap" n="47">
+        <head>XLVII Vsque imperium Traiani qui uicti sunt et per quos duces?</head>
+        <p>
+          <milestone unit="par" n="1"/><supplied>Populus Romanus</supplied> per Flamininum consulem
+          Macedonas uicit sub rege <del>Perse</del> bellantes; <milestone unit="par" n="2"/>per
+          Scipiones Africanos, Carthaginienses; per Paulum consulem, Persen; <supplied>per
+            Asiaticum</supplied> in Syria uicit regem Antiochum; per Scipionem Aemilianum,
+          Celtiberos et Numantiam; <milestone unit="par" n="3"/>per eumdem Scipionem, Lusitaniam et
+          ducem Viriatum; per Decimum Brutum, Gallaeciam; per Mummium Achaicum, et Corinthum et
+          Achaeos; <milestone unit="par" n="4"/>per Fuluium Nobiliorem, Aetolos et Ambraciam; per
+          Marium, Numidas et Iugurtham; per eundem Marium, Cimbros et Teutones; <milestone
+            unit="par" n="5"/>per Sullam, Ponticos et Mithridatem; per Lucullum, item
+            <supplied>Ponticos et Mithridatem; per Pompeium</supplied> eosdem Ponticos et
+          Mithridatem, item Cilicas piratas et Armenios cum rege Tigrane, et plurimas Asiacas
+          gentes; sub hoc enim <supplied>duce ad Indicu</supplied>m Oceanum et Rubrum mare usque
+          peruenit; <milestone unit="par" n="6"/>per Gaium Caesarem <supplied>Gallias
+          Ge</supplied>rmanias, Britanniam: sub hoc duce, non tantum uidit, sed etiam nauigauit
+          Oceanum; <milestone unit="par" n="7"/>per Caesarem Augustum, Dalmatas, Pannonios,
+          Illyricos, Aegyptios, Germanos, Cantabros, totumque orbem perpacauit, exceptis Indis,
+          Parthis, Sarmatis, Scythis, Dacis, quod eos fortuna Traiani principis triumphis
+          reseruauit. </p>
+      </div>
+      <div type="cap" n="48">
+        <head>XLVIII <del>De comitiis</del></head>
+        <p>
+          <milestone unit="par" n="1"/>Comitia dicuntur a comitatu <del>uel frequentia</del> quod
+          patres et classes ad suffragia uocantur, creandorum magistratuum uel sacerdotum causa.
+            <milestone unit="par" n="2"/>Comitiorum autem triplex ratio est: haec curiata, haec
+          tributa, haec centuriata dicuntur, quia haec per curias et per tribus <supplied>et per
+            centurias</supplied> explicantur. <milestone unit="par" n="3"/>Si translaticium sit et
+          solitum de quo populus <supplied>uocatur</supplied>, curiatis transigitur; si amplius,
+          tributis; si in summo discrimine est, tum miles ad suffragia uocatur et comitia centuriata
+          dicuntur. </p>
+      </div>
+      <div type="cap" n="49">
+        <head>IL</head>
+        <p>
+          <milestone unit="par" n="1"/>Antiquissima populi Romani distributio triplex est quam
+          Romulus fecit in regem, in senatum, in populum; qui populus in tres tribus diuidebatur,
+          Titiensem, Lucerem, Ramnetem. <milestone unit="par" n="2"/> Secutus populi Romani
+          distributio sub Seruio Tullio rege, qui eum in tribus, classes, centurias diuisit ab
+          iteratione census, ut optimus et locupletissimus quisque in suffragiis, id est in populo
+          Romano, plurimum ualeret; <milestone unit="par" n="3"/> et tertia diuisio est in patronos
+          et clientelas, qui inferiores superiorum se fidei committebant. </p>
+      </div>
+      <div type="cap" n="50">
+        <head>L <del>De rebus publicis</del></head>
+        <p>
+          <milestone unit="par" n="1"/>Rerum publicarum tria genera sunt, regium, optimatum,
+          populare: aut enim sub regum sunt potestate, ut Seleucia Parthorum, aut senatus, ut
+          Massilia Gallorum, aut se ipsi regunt, ut Athenienses solebant. <milestone unit="par"
+            n="2"/>Est et quartum genus, quod Romani commenti sunt, ut ex his tribus unum
+          efficerent: nam et regiam potestatem consules habent, et penes senatum consilii publici
+          summa est, et plebs habet suffragiorum potestatem. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

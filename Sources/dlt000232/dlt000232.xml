@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Curae boum ex corpore Gargili Martialis</title>
+          <author>Gargilius Martialis (dub.)</author>
+          <respStmt>
+            <resp>Correzione linguistica</resp>
+            <name>David Paniagua</name>
+          </respStmt>
+          <respStmt>
+            <resp>Codifica XML</resp>
+            <name>David Paniagua</name>
+          </respStmt>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>digilibLT</publisher>
+          <pubPlace>Vercelli</pubPlace>
+          <date>2011</date>
+          <availability>
+            <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+          </availability>
+          <idno>dlt000232</idno>
+        </publicationStmt>
+        <sourceDesc>
+          <p>P. Vegeti Renati Digestorum artis mulomedicinae libri edidit Ernestus Lommatzsch, accedit Gargili Martialis De curis boum fragmentum, Lipsiae, In aedibus B. G. Teubneri, 1903.</p>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <projectDesc>
+          <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+          <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+        </projectDesc>
+        <editorialDecl>
+          
+          <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+          <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+            l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+            e commenti e ogni altro contenuto redatto da editori moderni. </p>
+          <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+            correttezza di trascrizione</p>
+          <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+            distinzione u/v minuscole.</p>
+          <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+          <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+            grassetto, corsivo, spaziatura espansa.</p>
+          <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+            <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+            <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+            si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+            [...]<lb/> lacuna integrata dagli editori:
+            <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+          </p>
+          <p>Sono stati marcati i termini in lingua greca
+            <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+          </p>
+          <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+            target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+            >Note di trascrizione e codifica di testi latini tardoantichi
+            [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+        </editorialDecl>
+        
+      </encodingDesc>
+      <profileDesc>
+        <langUsage>
+          <language ident="la">Latino</language>
+        </langUsage>
+      </profileDesc>
+    </teiHeader>
+  <text>
+    <body>
+      <div type="opus"><head>Curae boum</head>
+        <p>  <milestone unit="par" n="1"/><hi rend="expanded">Ad boum morbum</hi> salem tritum per cornu cum vino in potionem dabis. Boves morbus ne noceat, dato tres micas salis, terna lauri folia et totidem porri sectivi, ulpici et, alii ternas spicas, turis grandis grana terna, herbae Sabinae herbas ternas, rutae cauliculos ternos, sambuci <gap/>, carbones ternos. </p><p>
+        <milestone unit="par" n="2"/>Haec omnia sub divo caeli per triduum ex eadem potione dato, adiecto scilicet vino. Quod ita partieris, ut aequas potiones per triduum accipiat. Sane is, qui dabit, sublime stet et vaso ligneo infundat in os, deiciat in gutture.</p><p>
+          <milestone unit="par" n="3"/>Boves si aegrotare coeperint, dato continuo ovum gallinacium, quod crudum integro facito ut devoret: postero die caput ulpici alii <gap/>. Bos si aegrotat, cotidie ei dato unam heminam vini et exerce bene vivere medium. Si aegrotat, herbam centauream contritam ex vino infunde per cornum.</p><p>
+            <milestone unit="par" n="4"/>Bos si aegrotat, muriam salsamenti optimam et malum terrae, aquae sext., aceti, sil, rutam conterito et labris perfricato; vel radicem herbae personaciae conterito et primo die dato unc. I vini sext. I et aquae. Bos si aegrotat, iunci radicem  decoques et per cornum dabis.</p><p>
+              <milestone unit="par" n="5"/><hi rend="expanded">Ad tussim boum</hi>. Bos si tussiet aut si suspirabit, terrae malum, ovum crudum et adipem suillum et vinum vetus (adipem tamen prius liquefacito et dato) bibat; vel marrubium cum vino datur.</p><p>
+                <milestone unit="par" n="6"/><hi rend="expanded">Si bos collum subtorserit</hi>, ebulo contrito perunguitur saepe vel medulla taurina, prius tamen axungia perfricato.</p><p>
+                  <milestone unit="par" n="7"/>Si in collo nervi laboraverint, sumito corticem novam de subero, comburito ut carbones fiant, et terito ex vino veteri et axungia bene inter se commixto et perfricato. Si collo pili saepius defluunt, ulmi vernaculi radicem ex vino decoquito ad tertias et eo, cum opus non faciet, saepius perunguito vel adipe ursina vel medulla taurina, prius tamen axungia perfricato.</p><p>
+                    <milestone unit="par" n="8"/><hi rend="expanded">Ad intestinorum dolorem</hi>. Si bovi intestina dolebunt, sumito vini sext. III et olei hemin. et permixtum per cornum et curat remediabitur. Item aliud: salis pugnum et cepae capita X pariter conterito et in offae modum reficito, eam in anum bovis inicito et fac eum arare continuo folli et sanus erit.</p><p>
+                      <milestone unit="par" n="9"/><hi rend="expanded">Ad scabiem boum</hi>. Scabies bobis neves, et erbam si satrum tundes, et ex eo pecus lavabis. Bobus et ceterus pecoribus scabiem ut discutias, intibum silvaticum conteris et perunguis.</p><p>
+                        <milestone unit="par" n="10"/>Bos aut asinum si eosdem morbos inciderint, sumito scillam aut ramni radicem, id est spinam albam quam tenerrimam, et in aquam infundito, quam per dies XIV bibat; unde expurgabuntur et sanitas consequitur.</p><p>
+                          <milestone unit="par" n="11"/><hi rend="expanded">Ad sanguisugam</hi>. Hirudinem si bos devoraverit, cimicem conteres et ad nares eius admovebis: statim eicies. </p><p>
+                            <milestone unit="par" n="12"/><hi rend="expanded">Ad fastidium</hi>. Bos si non rumigat, salicis folia  aut corticem eius viridissimam contundito, et in eo sext. vini addito et olei partem quartam, in se bene misceto et per cornum bovi infundito. Intestinum enim movit ut pedere non cesset; enovit sanabitur.</p><p>
+                              <milestone unit="par" n="13"/><hi rend="expanded">Potio iumentorum</hi>.  Iumenta sic potionabis: stercus leporinum et cepam siccam cum vino conterito et per cornu dato. Iumentum ruscones si habebit, alium cum axungia conteris et dabis; aegri des remedium feniculi cum cepa conteris et potionabis. Iumenta si crocinabuntur, marrubium et axungiam conteris et in vino dabis.</p><p>
+                                <milestone unit="par" n="14"/><hi rend="expanded">Ad glandulas iumentorum</hi>: luna XIV  mane, antequam manus laves, iumento omnia impedimenta tollis, et manus sinistrae digito medicinali de glandula adprehendis et haec dicis: "senti precante: nec lapis lanam feri nec lumbricos oculos habet nec mula parit: utriculum cossia herpiosum arbor fuit manu humana haec ipsa concisa est, carbo factus est et si tuber, si panus evala subula neceris nec radices agas". Hoc semel dices.</p><p>
+                                  <milestone unit="par" n="15"/><hi rend="expanded">Si  iumentum stercus gallinacium comederit</hi>, brassicam agrestem terito cum oleo et aceto, dato bibat per cornum.</p><p>
+                                    <milestone unit="par" n="16"/><hi rend="expanded">Ad abundantiam sanguinis</hi> genestam viridem conterito  et eam in vino sive in aqua permixtam dato per cornum.</p><p>
+                                      <milestone unit="par" n="17"/><hi rend="expanded">Ad infirmitatem iumentorum</hi>. Iumentum si male  habuerit, cineris lixivae cyatos VIII, olei cyatos VI consubige et in se et dat bibat per cornum, et currat ne minus horam aut <gap/>. <hi rend="expanded">Seniores ut bene valeant</hi>: opopanacis unc. I conteris, ex vino dabis potionem. </p><p>
+                                        <milestone unit="par" n="18"/><hi rend="expanded">Ad scabiem iumentorum</hi>: Arabis bituminis po. III, sulfuris po. II, picis liquidae po. VI, picem, mentam, oleum mitte in ollam integram, sine quiescat. Dein superinfricato, qui et trita erunt, et quae soleta adice bitumen, sulfur nigro et ita infunde, sed diligenter coques, ne ferveat, sed leni igni vel carbonibus calefacito et removes ab igne et colas ac resolutum prius aceto admiscebis. Hoc medicamento perunguis iumenta alternis diebus ne plus bis aut quater.</p><p>
+                                          <milestone unit="par" n="19"/><hi rend="expanded">Ad pituitas</hi> anisi unc. III, benetoris dabis cum vino permixtos cyatos VI ad cornum. Ex quo medicamento etiam per sinistram narem duas dragmas infundis. Item aliud: stercoris scrofini pulverem contritum diligenterque cribratum studiose servabis, ut si quando iumento pituita molesta erit, ex confecto pulvere cum vino veteri quantum videtur posse sufficere, per cornum deicias, et sanabitur statim. </p><p>
+                                            <milestone unit="par" n="20"/><hi rend="expanded">Ad stranguriam</hi>. Si quod iumentum cuiuslibet generis stranguriam patitur, de sinistra manica tunicae peduculum eximis eumque in aurem equi sinistram conicies, continuo sanabis. Sed cum hoc facies, peduculum omnino non nomines.</p><p>
+                                              <milestone unit="par" n="21"/><hi rend="expanded">Ad morsum muris aranei</hi>. Si quod iumentum mus caecus morderit, acetum acrum bene cum orbita infundito et consubigis et sic tollis, et inde acu ferrea morsum bene compungito et supra dicta terra confricato. Hoc per triduum facito, et cornu cervino suffumigato.</p><p>
+                                                <milestone unit="par" n="22"/><hi rend="expanded">Ad vermes necandos</hi> scillae sucum instillato et pice liquida tangito. </p><p>
+                                                  <milestone unit="par" n="23"/><hi rend="expanded">Ad pedes attritos</hi>. Boves si pedes adtriverint, priusquam in viam mittas, pice liquida cornua perunguito. Famicem si boves habuerint, sale et aceto diligenter eluito, posa aeris flos contritum commixtum cum axungia vel alumine solo vel galla cum alumine.</p>
+      </div></body>
+  </text>
+</TEI>

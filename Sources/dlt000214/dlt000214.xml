@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+ <fileDesc>
+ <titleStmt>
+  <title>Fragmentum Parisinum de rhythmo</title>
+ <respStmt>
+ <resp>transcodifica di base da rtf a xml-tei</resp>
+ <name>piero colombo - step srl</name>
+ </respStmt>
+  <respStmt>
+   <resp>Testo </resp>
+   <name>Marinone, GL-CD</name>
+  </respStmt>
+  <respStmt>
+   <resp>Controllo marcatura XML-TEI</resp>
+   <name>Ermanno Malaspina</name>
+  </respStmt>
+ </titleStmt>
+ <publicationStmt>
+ <publisher>digilibLT</publisher>
+ <pubPlace>Vercelli</pubPlace>
+ <date>2017</date>
+ <availability>
+ <p>
+ <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/" />
+ </p>
+ </availability>
+ <idno>dlt000214</idno>
+ </publicationStmt>
+ <sourceDesc>
+  <p><hi rend="italic">Grammatici Latini, VI. Scriptores artis metricae. Marius Victorinus, Maximus Victorinus, Caesius Bassus etc.,</hi> ex recensione H. Keilii, Hildesheim 1961, 631, 14-632 (reprografischer Nachdruck der Ausgabe Leipzig 1874).</p>
+ </sourceDesc>
+ </fileDesc>
+ <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+	<projectDesc>
+ <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+ <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+	</projectDesc>
+	<editorialDecl>
+ <p>
+  <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT</hi>
+ </p>
+	 <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+	  l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+	  e commenti e ogni altro contenuto redatto da editori moderni.</p>
+	 <p>I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+	  correttezza di trascrizione</p>
+	 <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+	  distinzione u/v minuscole.</p>
+	 <p>Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+	 <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi> :
+	  grassetto, corsivo, spaziatura espansa. </p>
+	 <p> Sono stati normalizzati e marcati nel modo seguente i diacritici. <lb/> espunzioni:
+	  <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]>
+	  <lb/>
+	  <hi rend="italic">loci desperati</hi> :
+	  <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo† e †testo <lb/>
+	  lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...] <lb/> lacuna integrata dagli editori:
+	  <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+	 </p>
+	 <p> Sono stati marcati i termini in lingua greca
+	  <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+	 </p>
+	 <p> Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+	  target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+	  >Note di trascrizione e codifica di testi latini tardoantichi
+	  [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
+	 </p>
+	</editorialDecl>
+</encodingDesc>
+ <profileDesc>
+ <langUsage>
+ <language ident="la">Latino</language>
+ </langUsage>
+ </profileDesc>
+ </teiHeader>
+ <text>
+ <body>
+  <head>Fragmentum Parisinum de rhythmo</head>
+ <p>
+ <milestone unit="row" n="riga 14 vol. VI Keil" /> dicimus rhythmum esse, ubi tantum legitimi pedes sunt et nullo modo certo fine; metrum esse, ubi pedes legitimi certo fine coercentur. </p>
+  <p> rursus quoniam eorum metrorum, quae certo fine clauduntur, alia sunt in quibus non habetur ratio diuisionis circa medium, alia sunt in quibus habetur, est haec differentia notanda uocabulis. quapropter illud, ubi non habetur haec ratio, rhythmi <supplied>genus</supplied> metrum proprie uocatum est; hoc autem, ubi habetur, uersus nominatur. unde apparet quoniam non est uersus ex eo appellatus, ut non nulli putant, quod a certo fine ad eius caput reditur: nam hoc illi cum eis etiam metris, quae uersus non sunt, apparet esse commune. sed magis formasse a contrario nomen inuenitur, <supplied>ut</supplied>, quem ad modum grammatici deponens uerbum appellauerunt, quod r litteram non deponat, <del>sed</del> ita quod duobus membris confit, quorum neutrum in alterius loco salua lege numerorum constituitur, <del>et</del> quia uerti non potest, uersus uocetur. quod ut manifestius fiat, subiciamus exempla. <quote type="poetry">«arma uirumque cano»</quote>, ecce una pars uersus: <quote type="poetry">«Troiae qui primus ab oris»</quote>, ecce altera. uerte ordinem et pronuntia Troiae qui primus ab oris arma <milestone unit="page" n="p. 632 vol. VI Keil" /> uirumque cano. uides quia hae partes in tantum differunt, ut alii pedes metri esse cernantur. quia ergo diuisiones istae omnimodis a se inuicem dissident et metrum ex eis rursum non fit heroicum, ab hac causa uersus dicitur <foreign xml:lang="grc">κατ’ ἀντίφρασιν</foreign>, quod reuerti non possit. si autem tales diuisiones sint, quales in illo metro sunt, <quote type="poetry">«cornua uelatarum uertimus antemnarum»</quote>, et uertere poteris iterum, ut est uertimus antemnarum cornua uelatarum, quia sibi praepostero ordine copulari possunt, nihilo minus metrum faciunt heroicum. tales compositiones uersus omnino appellari non <del>proprie</del> possunt, nisi abusiue, sed tantum metra uocantur. haec etiam in reliquis metrorum generibus fieri similiter dicimus. </p>
+ <milestone unit="page" n="p. 633 vol. VI Keil" />
+ </body>
+ </text>
+</TEI>

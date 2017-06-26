@@ -1,0 +1,4403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Chronica</title>
+    <author>Cassiodorus</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Raffaella Tabacco</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2016</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000076</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Monumenta Germaniae Historica</hi>, auctorum antiquissimorum tomus XI,
+     Chronicorum minorum saec. IV. V. VI. VII., vol. II, ed. Th. Mommsen, Berolini, 1894, 120-
+     161.</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    <p><hi rend="bold">Modifiche apportate al testo dell'edizione di riferimento </hi></p>
+    <p>La frequente abbreviazione "conss." si riporta senza il tratto orizzontale superiore; ciò
+     vale anche per l'espressione abbreviata "ppo" presente nel sottotitolo.</p>
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div>
+    <p>CHRONICA MAGNI AVRELII</p>
+    <p>CASSIODORI SENATORIS</p>
+    <p>[v. c. et inl., ex quaestore sacri palatii, ex cons. ord., ex mag. off., ppo atque
+     patricii.]</p>
+    <div type="cap" n="1">
+     <p>PRAEFATIO. Sapientia principali, qua semper magna revolvitis, in ordinem me consules digerere
+      censuistis, ut qui annum ornaveratis glorioso nomine, redderetis fastis veritatis pristinae
+      dignitatem. parui libens praeceptis et librariorum varietate detersa operi fidem historicae
+      auctoritatis inpressi, quatenus vester animus per inlustres delectatus eventus blando
+      compendio longissimam mundi percurrat aetatem.</p>
+    </div>
+    <div type="cap" n="2">
+     <p>Ab Adam primo homine usque ad diluvium, quod factum est sub Noe, colliguntur anni
+      II.CC.XLII. diluvium autem factum est propter gigantum nimiam feritatem, qui corporis
+      magnitudine parique animi saevitia praevalentes humanitatis ius omne confuderant.</p>
+    </div>
+    <div type="cap" n="3">
+     <p> Et a diluvio usque ad Ninum, qui primus omnium apud Assyrios regnavit, ann.
+      DCCCXCVIIII.</p>
+    </div>
+    <div type="cap" n="4">
+     <p>REGES ASSYRII.</p>
+    </div>
+    <div type="cap" n="5">
+     <p> Ninus itaque regnavit apud Assyrios ann. LII.</p>
+    </div>
+    <div type="cap" n="6">
+     <p> Huius imperii anno XLIII natus est Abraham. </p>
+    </div>
+    <div type="cap" n="7">
+     <p> Is etiam condidit Nineven.</p>
+    </div>
+    <div type="cap" n="8">
+     <p> Samiramis uxor Nini regnavit ann. XLII.</p>
+    </div>
+    <div type="cap" n="9">
+     <p> Haec Babyloniae muros instaurasse memoratur.</p>
+    </div>
+    <div type="cap" n="10">
+     <p> Ninyas filius Nini et Samiramidis reg. ann. XXXVIII</p>
+    </div>
+    <div type="cap" n="11">
+     <p> Arivis reg. ann. XXX</p>
+    </div>
+    <div type="cap" n="12">
+     <p> Arelius reg. ann. XL</p>
+    </div>
+    <div type="cap" n="13">
+     <p> Xerxes qui et Balaeus reg. ann. XXX</p>
+    </div>
+    <div type="cap" n="14">
+     <p> Armametres reg. ann. XXXVIII</p>
+    </div>
+    <div type="cap" n="15">
+     <p>Molechus reg. ann. XXXV</p>
+    </div>
+    <div type="cap" n="16">
+     <p>Balaeus reg. ann. LII</p>
+    </div>
+    <div type="cap" n="17">
+     <p>Althadas reg. ann. XXXII</p>
+    </div>
+    <div type="cap" n="18">
+     <p>Huius temporibus fuit Prometheus vir sapiens.</p>
+    </div>
+    <div type="cap" n="19">
+     <p>Mamithus reg. ann. XXX</p>
+    </div>
+    <div type="cap" n="20">
+     <p>Magchaleus reg. ann. XXX</p>
+    </div>
+    <div type="cap" n="21">
+     <p>Huius temporibus Atlans frater Promethei praecipuus astrologus habetur.</p>
+    </div>
+    <div type="cap" n="22">
+     <p>Sfereus reg. ann. XX</p>
+    </div>
+    <div type="cap" n="23">
+     <p>Mamylus reg. ann. XXX</p>
+    </div>
+    <div type="cap" n="24">
+     <p>Sparaethus reg. ann. XL</p>
+    </div>
+    <div type="cap" n="25">
+     <p>Huius temporibus a Cecrope rege Athenae sunt conditae.</p>
+    </div>
+    <div type="cap" n="26">
+     <p>Ascatadis reg. ann. XL</p>
+    </div>
+    <div type="cap" n="27">
+     <p>Huius temporibus Moyses in monte Sina divinam suscepit legem.</p>
+    </div>
+    <div type="cap" n="28">
+     <p>Amyntes reg. ann. XLV</p>
+    </div>
+    <div type="cap" n="29">
+     <p>Huius temporibus Iesus successor Moysi terram Palaestinorum Iudaeae genti distribuit.</p>
+    </div>
+    <div type="cap" n="30">
+     <p>Belochus reg. ann. XXV</p>
+    </div>
+    <div type="cap" n="31">
+     <p>Bellepares reg. ann. XXX</p>
+    </div>
+    <div type="cap" n="32">
+     <p>Lamprides reg. ann. XXXII</p>
+    </div>
+    <div type="cap" n="33">
+     <p>Sosares reg. ann. XX</p>
+    </div>
+    <div type="cap" n="34">
+     <p>Huius tomporibus equus velocissimus Pegasus invenitur.</p>
+    </div>
+    <div type="cap" n="35">
+     <p>Lampares reg. ann. XXX</p>
+    </div>
+    <div type="cap" n="36">
+     <p>Panias <del>reg. ann. XLV</del></p>
+    </div>
+    <div type="cap" n="37">
+     <p><del>Sosarmus</del> reg. ann. XVIIII</p>
+    </div>
+    <div type="cap" n="38">
+     <p>Huius temporibus Argonautarum navigatio</p>
+    </div>
+    <div type="cap" n="39">
+     <p>et Orfeus Thrax musicus opinabilis habetur.</p>
+    </div>
+    <div type="cap" n="40">
+     <p>Mithreus reg. ann. XXVII</p>
+    </div>
+    <div type="cap" n="41">
+     <p>Huius temporibus Hercules athla exercuit</p>
+    </div>
+    <div type="cap" n="42">
+     <p>et Priamus apud Ilium regnat.</p>
+    </div>
+    <div type="cap" n="43">
+     <p>Per hos igitur reges Assyriorum colliguntur anni DCCCLII.</p>
+    </div>
+    <div type="cap" n="44">
+     <p>REGES LATINI.</p>
+    </div>
+    <div type="cap" n="45">
+     <p>Latinus reg. ann. XXXII</p>
+    </div>
+    <div type="cap" n="46">
+     <p>a quo Latini sunt appellati.</p>
+    </div>
+    <div type="cap" n="47">
+     <p>Huius imperii anno XXV Troia capta est. ad quem Aeneas profugus venit factusque gener eius
+      ei successit in regnum.</p>
+    </div>
+    <div type="cap" n="48">
+     <p>Aeneas post VIII annum Troiae captae regnavit in Italia ann. III </p>
+    </div>
+    <div type="cap" n="49">
+     <p>Ascanius filius eius reg. ann. XXXVIII</p>
+    </div>
+    <div type="cap" n="50">
+     <p>qui Albanum condidit.</p>
+    </div>
+    <div type="cap" n="51">
+     <p>Silvius Aeneae filius de Lavinia reg. ann. XXVIIII</p>
+    </div>
+    <div type="cap" n="52">
+     <p>Huius temporibus Homerus poeta fuisse memoratur.</p>
+    </div>
+    <div type="cap" n="53">
+     <p>Aeneas Silvius reg. ann. XXXI</p>
+    </div>
+    <div type="cap" n="54">
+     <p>Huius temporibus Hebraeorum rex David Hierosolymis regnat.</p>
+    </div>
+    <div type="cap" n="55">
+     <p>Latinus Silvius reg. ann. L</p>
+    </div>
+    <div type="cap" n="56">
+     <p>Huius temporibus Amazones Asiam vastaverunt.</p>
+    </div>
+    <div type="cap" n="57">
+     <p>Carthago condita est a Carcedone Tyrio, ut quidam dicunt.</p>
+    </div>
+    <div type="cap" n="58">
+     <p>Salomon quoque filius David regnans Hierosolymis templum famosissimum condit.</p>
+    </div>
+    <div type="cap" n="59">
+     <p>Alba Silvius reg. ann. XXXVIIII</p>
+    </div>
+    <div type="cap" n="60">
+     <p>Aegyptus Silvius reg. ann. XXIIII</p>
+    </div>
+    <div type="cap" n="61">
+     <p>Capys Silvius reg. ann. XXVIII</p>
+    </div>
+    <div type="cap" n="62">
+     <p>Carpentus Silvius reg. ann. XIII</p>
+    </div>
+    <div type="cap" n="63">
+     <p>Tiberinus Silvius reg. ann. VIII </p>
+    </div>
+    <div type="cap" n="64">
+     <p>Agrippa Silvius reg. ann. XL</p>
+    </div>
+    <div type="cap" n="65">
+     <p>Aremulus Silvius reg. ann. XVIIII</p>
+    </div>
+    <div type="cap" n="66">
+     <p>Huius temporibus Lycurgus apud Lacedaemonas iura composuit.</p>
+    </div>
+    <div type="cap" n="67">
+     <p>Aventinus Silvius reg. ann. XXXVII</p>
+    </div>
+    <div type="cap" n="68">
+     <p>A quo mons Romanus, quia ibi sepultus est, nomen accepit.</p>
+    </div>
+    <div type="cap" n="69">
+     <p>Procas Silvius reg. ann. XXIII</p>
+    </div>
+    <div type="cap" n="70">
+     <p>Amulius Silvius reg. ann. XLIII</p>
+    </div>
+    <div type="cap" n="71">
+     <p>qui fratrem suum Numitorem regno expulit, cuius tempora isti sunt adplicita.</p>
+    </div>
+    <div type="cap" n="72">
+     <p>REGES ROMANI.</p>
+    </div>
+    <div type="cap" n="73">
+     <p>Romulus reg. ann. XXXVIII</p>
+    </div>
+    <div type="cap" n="74">
+     <p>a quo Roma condita est</p>
+    </div>
+    <div type="cap" n="75">
+     <p>et ex Latinis Romani sunt nuncupati.</p>
+    </div>
+    <div type="cap" n="76">
+     <p>Hic primum centum constituit senatores.</p>
+    </div>
+    <div type="cap" n="77">
+     <p>Huius temporibus Syracusa et Catina in Sicilia conditae sunt.</p>
+    </div>
+    <div type="cap" n="78">
+     <p>Numa Pompilius reg. ann. XLI</p>
+    </div>
+    <div type="cap" n="79">
+     <p>qui duos menses anno addidit Ianuarium et Februarium, cum ante hunc decem tantum menses apud
+      Romanos fuissent.</p>
+    </div>
+    <div type="cap" n="80">
+     <p>Capitolium quoque a fundamentis construxit.</p>
+    </div>
+    <div type="cap" n="81">
+     <p>Cuius etiam temporihus Sibylla in Samo insignis habita est.</p>
+    </div>
+    <div type="cap" n="82">
+     <p>Tullus Hostilius reg. ann. XXXII</p>
+    </div>
+    <div type="cap" n="83">
+     <p>qui primus apud Romanos purpura usus est.</p>
+    </div>
+    <div type="cap" n="84">
+     <p>Cuius temporibus Calchedon conditur et Byzantium, quae nunc Constantinopolis appellatur.</p>
+    </div>
+    <div type="cap" n="85">
+     <p>Ancus Marcius reg. ann. XXIII </p>
+    </div>
+    <div type="cap" n="86">
+     <p>qui sexto decimo miliario ab urbe Roma Ostia condidit.</p>
+    </div>
+    <div type="cap" n="87">
+     <p>Tarquinius Priscus reg. ann. XXXVII</p>
+    </div>
+    <div type="cap" n="88">
+     <p>Huius temporibus Massilia in Galliis condita est.</p>
+    </div>
+    <div type="cap" n="89">
+     <p>Servius Tullius reg. ann. XXXIIII</p>
+    </div>
+    <div type="cap" n="90">
+     <p>qui primus censum instituit civium Romanorum.</p>
+    </div>
+    <div type="cap" n="91">
+     <p>His temporibus apud Persas Cyrus primum regnare coepit.</p>
+    </div>
+    <div type="cap" n="92">
+     <p>Tarquinius Superbus reg. ann. XXXV</p>
+    </div>
+    <div type="cap" n="93">
+     <p>Huius temporibus Pythagoras physicus philosophus clarus habetur.</p>
+    </div>
+    <div type="cap" n="94">
+     <p>Expulso autem urbe Tarquinio bini consules coeperunt pro uno rege annis singulis
+      administrare rem publicam.</p>
+    </div>
+    <div type="cap" n="95">
+     <p>HINC CONSVLES</p>
+    </div>
+    <div type="cap" n="96">
+     <p> 245 a. u. c. Iunius Brutus et L. Tarquinius.</p>
+    </div>
+    <div type="cap" n="97">
+     <p>Hi annum integrum minime tenuerunt, ad peragendum tempus aliis subrogatis, id est L.
+      Valerio, Sp. Lucretio et Horatio Pulvillo.</p>
+    </div>
+    <div type="cap" n="98">
+     <p>246 a. u. c. Valerius II et T Lucretius</p>
+    </div>
+    <div type="cap" n="99">
+     <p>248 a. u. c. Sp. Largus et T. Herannius</p>
+    </div>
+    <div type="cap" n="100">
+     <p>249 a. u. c. Valerius III et P. Postumius</p>
+    </div>
+    <div type="cap" n="101">
+     <p>250 a. u. c. Valerius IIII et T. Lucretius II</p>
+    </div>
+    <div type="cap" n="102">
+     <p>251 a. u. c. Agrippa Menenius et P. Postumius</p>
+    </div>
+    <div type="cap" n="103">
+     <p>252 a. u. c. Opiter Virginius et Sp. Cassius</p>
+    </div>
+    <div type="cap" n="104">
+     <p>253 a. u. c. Postumus Cominius et T. Largus</p>
+    </div>
+    <div type="cap" n="105">
+     <p>His consulibus dictator primus T. Largus et magister equitum Sp. Cassius ordinantur.</p>
+    </div>
+    <div type="cap" n="106">
+     <p>254 a. u. c. Ser. Sulpicius et M. Tullius</p>
+    </div>
+    <div type="cap" n="107">
+     <p>255 a. u. c. T. Aebutius et L. Vetusius</p>
+    </div>
+    <div type="cap" n="108">
+     <p>256 a. u. c. Q. Cloelius et T. Largus</p>
+    </div>
+    <div type="cap" n="109">
+     <p>257 a. u. c. A. Sempronius et M. Minicius</p>
+    </div>
+    <div type="cap" n="110">
+     <p>258 a. u. c. A. Postumius et T. Verginius</p>
+    </div>
+    <div type="cap" n="111">
+     <p> 259 a. u. c. App. Claudins et T. Servilius</p>
+    </div>
+    <div type="cap" n="112">
+     <p>260 a. u. c. A. Verginius et T. Vetusius</p>
+    </div>
+    <div type="cap" n="113">
+     <p>261 a. u. c. Sp. Cassius et Post. Cominius</p>
+    </div>
+    <div type="cap" n="114">
+     <p>262 a. u. c. T. Geganius et P. Minucius</p>
+    </div>
+    <div type="cap" n="115">
+     <p>263 a. u. c. M. Minucius et A. Sempronius</p>
+    </div>
+    <div type="cap" n="116">
+     <p>266 a. u. c. Sp. Nautius et Sex. Furius</p>
+    </div>
+    <div type="cap" n="117">
+     <p>267 a. u. c. T. Siccius et C. Aquilius</p>
+    </div>
+    <div type="cap" n="118">
+     <p>268 a. u. c. Sp. Cassius et Procul. Virginius</p>
+    </div>
+    <div type="cap" n="119">
+     <p>269 a. u. c. Ser. Cornelius et Q. Fabius</p>
+    </div>
+    <div type="cap" n="120">
+     <p>270 a. u. c. L. Aemilius et C. Fabius</p>
+    </div>
+    <div type="cap" n="121">
+     <p>271 a. u. c. M. Fabius et L. Valerius</p>
+    </div>
+    <div type="cap" n="122">
+     <p>272 a. u. c. Q. Fabius et C. Iulius </p>
+    </div>
+    <div type="cap" n="123">
+     <p>273 a. u. c. K. Fabius et Sp. Furius</p>
+    </div>
+    <div type="cap" n="124">
+     <p>274 a. u. c. M. Fabius et Cn. Mallius</p>
+    </div>
+    <div type="cap" n="125">
+     <p>275 a. u. c. K. Fabius et T. Verginius</p>
+    </div>
+    <div type="cap" n="126">
+     <p>276 a. u. c. L. Aemilius etC. Servilius</p>
+    </div>
+    <div type="cap" n="127">
+     <p>277 a. u. c. C. Horatius et T. Menenius</p>
+    </div>
+    <div type="cap" n="128">
+     <p>278 a. u. c. A. Verginius et Sp. Servilius</p>
+    </div>
+    <div type="cap" n="129">
+     <p>279 a. u. c. C. Nautius et P. Valerius</p>
+    </div>
+    <div type="cap" n="130">
+     <p>280 a. u. c. L. Furius et C. Manilius</p>
+    </div>
+    <div type="cap" n="131">
+     <p>281 a. u. c. L. Aemilius et Opiter Verginius</p>
+    </div>
+    <div type="cap" n="132">
+     <p>282 a. u. c. L. Pinarius et P. Furius</p>
+    </div>
+    <div type="cap" n="133">
+     <p>283 a. u. c. Ap. Claudius et T. Quintius</p>
+    </div>
+    <div type="cap" n="134">
+     <p>284 a. u. c. L. Valerius et T. Aemilius</p>
+    </div>
+    <div type="cap" n="135">
+     <p>285 a. u. c. T. Numicius et A. Verginius</p>
+    </div>
+    <div type="cap" n="136">
+     <p>286 a. u. c. T. Quintius II et Q. Servilius</p>
+    </div>
+    <div type="cap" n="137">
+     <p>287 a. u. c. T. Aemilius et Q. Fabius</p>
+    </div>
+    <div type="cap" n="138">
+     <p>288 a. u. c. Q. Servi<supplied>li</supplied>us et Sp. Postumius</p>
+    </div>
+    <div type="cap" n="139">
+     <p>289 a. u. c. Q. Fabius II et T. Quintius III</p>
+    </div>
+    <div type="cap" n="140">
+     <p>290 a. u. c. A. Postumius Albus et Sp. Furius</p>
+    </div>
+    <div type="cap" n="141">
+     <p>291 a. u. c. L. Aebutius et P. Servilius</p>
+    </div>
+    <div type="cap" n="142">
+     <p>292 a. u. c. L Lucretius Tricipitinus et T. Veturius</p>
+    </div>
+    <div type="cap" n="143">
+     <p>293 a. u. c. P. Volumnius et Ser. Sulpicius</p>
+    </div>
+    <div type="cap" n="144">
+     <p>294 a. u. c. P. Claudius et P. Valerius</p>
+    </div>
+    <div type="cap" n="145">
+     <p>295 a. u. c. Q. Fabius et L. Cornelius</p>
+    </div>
+    <div type="cap" n="146">
+     <p>296 a. u. c. L. Minucius et L. Nautius</p>
+    </div>
+    <div type="cap" n="147">
+     <p>297 a. u. c. Q. Minucius et M. Horatius</p>
+    </div>
+    <div type="cap" n="148">
+     <p>298 a. u. c. M. Valerius et Sp. Verginius</p>
+    </div>
+    <div type="cap" n="149">
+     <p>299 a. u. c. C. Veturius et T. Romilius</p>
+    </div>
+    <div type="cap" n="150">
+     <p>300 a. u. c. Sp. Tarpeius et A. Aternius</p>
+    </div>
+    <div type="cap" n="151">
+     <p>His conss. legati Athenas missi ad leges describendas.</p>
+    </div>
+    <div type="cap" n="152">
+     <p>301 a. u. c. P. Curiatius et Sex. Quintius</p>
+    </div>
+    <div type="cap" n="153">
+     <p>302 a. u. c. T. Menenius et P. Sestius</p>
+    </div>
+    <div type="cap" n="154">
+     <p>303/4 a. u. c. Hoc tempore a consulibus ad decemviros translatum imperium est, per quos
+      quadraginta annis administrata res publica est, atque iterum consules creati sunt.</p>
+    </div>
+    <div type="cap" n="155">
+     <p>305 a. u. c. L. Valerius etM. Horatius</p>
+    </div>
+    <div type="cap" n="156">
+     <p>306 a. u. c. L. Herminius et T. Verginius</p>
+    </div>
+    <div type="cap" n="157">
+     <p>307 a. u. c. M. Geganius et C. Iulius</p>
+    </div>
+    <div type="cap" n="158">
+     <p>308 a. u. c. T. Quintius IIII et Agrippa Furius</p>
+    </div>
+    <div type="cap" n="159">
+     <p>309 a. u. c. M. Genucius et T. Curiatius</p>
+    </div>
+    <div type="cap" n="160">
+     <p>310 a. u. c. L. Papirius et L. Sempronius</p>
+    </div>
+    <div type="cap" n="161">
+     <p>311 a. u. c. M. Geganius et P. Quintius</p>
+    </div>
+    <div type="cap" n="162">
+     <p>312 a. u. c. M. Fabius et Post. Aebutius</p>
+    </div>
+    <div type="cap" n="163">
+     <p>313 a. u. c. C. Furius Tacitus et M. Papirius</p>
+    </div>
+    <div type="cap" n="164">
+     <p>314 a. u. c. Proculus Geganius et L. Menenius </p>
+    </div>
+    <div type="cap" n="165">
+     <p>315 a. u. c. T. Quintius V et Agrip. Manlius</p>
+    </div>
+    <div type="cap" n="166">
+     <p>317 a. u. c. M. Geganius et L. Servius</p>
+    </div>
+    <div type="cap" n="167">
+     <p>318 a. u. c. L. Papirius cons.</p>
+    </div>
+    <div type="cap" n="168">
+     <p>319 a. u. c. C. Iulius et L. Verginius </p>
+    </div>
+    <div type="cap" n="169">
+     <p>320 a. u. c. C. Iulius II et L. Verginius II</p>
+    </div>
+    <div type="cap" n="170">
+     <p>323 a. u. c. T. Quintius VI et Cn. Iulius</p>
+    </div>
+    <div type="cap" n="171">
+     <p>324 a. u. c. L. Papirius et L. Iulius Iullus</p>
+    </div>
+    <div type="cap" n="172">
+     <p>325 a. u. c. L. Servius II et Hostus Lucretius</p>
+    </div>
+    <div type="cap" n="173">
+     <p>326 a. u. c. Cossus Cornelius et T. Quintius</p>
+    </div>
+    <div type="cap" n="174">
+     <p>327 a. u. c. P. Servilius et L. Papirius</p>
+    </div>
+    <div type="cap" n="175">
+     <p>331 a. u. c. C. Sempronius et Q. Fabius</p>
+    </div>
+    <div type="cap" n="176">
+     <p>341 a. u. c. M. Cornelius et L. Furius</p>
+    </div>
+    <div type="cap" n="177">
+     <p>342 a. u. c. Q. Fabius et C. Furius</p>
+    </div>
+    <div type="cap" n="178">
+     <p>343 a. u. c. M. Papirius et C. Nautius</p>
+    </div>
+    <div type="cap" n="179">
+     <p>344 a. u. c. M. Aemilius et C. Valerius</p>
+    </div>
+    <div type="cap" n="180">
+     <p>345 a. u. c. Cn. Cornelius et L. Furius</p>
+    </div>
+    <div type="cap" n="181">
+     <p>361 a. u. c. L. Lucretius et Ser. Sulpicius</p>
+    </div>
+    <div type="cap" n="182">
+     <p>362 a. u. c. L. Valerius et M. Manlius</p>
+    </div>
+    <div type="cap" n="183">
+     <p>His conss. post urbem captam redeuntes Gallos dux Romanus nomine Camillus extinxit, de
+      quibus triumphans in urbe quasi et ipse patriae conditor Romulus meruit nuncupari.</p>
+    </div>
+    <div type="cap" n="184">
+     <p>363/79 a. u. c. Tunc dignitates mutatae sunt et in loco consulum per annos XVII tribuni
+      militares fuerunt.</p>
+    </div>
+    <div type="cap" n="185">
+     <p>380/3 a. u. c. Quibus ob insolentiam remotis per annos IIII potestas consulum tribunorumque
+      cessavit.</p>
+    </div>
+    <div type="cap" n="186">
+     <p>384/7 a. u. c. Deinde rursus tribus annis per tribunos militares est administrata res
+      publica. post annos vero XXIIII reversa est dignitas consularis.</p>
+    </div>
+    <div type="cap" n="187">
+     <p>388 a. u. c. L. Sestius de plebe et T. Aemilius Mamercus patricius</p>
+    </div>
+    <div type="cap" n="188">
+     <p>389 a. u. c. L. Genucius et Q. Servilius</p>
+    </div>
+    <div type="cap" n="189">
+     <p>390 a. u. c. C. Sulpiclus Peticus et C. Licinius</p>
+    </div>
+    <div type="cap" n="190">
+     <p>391 a. u. c. C. Genucius et L. Aemilius Mamercus</p>
+    </div>
+    <div type="cap" n="191">
+     <p>392 a. u. c. Q. Servilius et L. Genucius</p>
+    </div>
+    <div type="cap" n="192">
+     <p>393 a. u. c. C. Sulpicius et C. Licinius</p>
+    </div>
+    <div type="cap" n="193">
+     <p>394 a. u. c. C. Poetelius et M. Fabius</p>
+    </div>
+    <div type="cap" n="194">
+     <p>395 a. u. c. M. Papirius et Cn. Manlius</p>
+    </div>
+    <div type="cap" n="195">
+     <p>396 a. u. c. C. Plautius et C. Fabius</p>
+    </div>
+    <div type="cap" n="196">
+     <p>397 a. u. c. L. Marcius et Cn. Manlius</p>
+    </div>
+    <div type="cap" n="197">
+     <p>398 a. u. c. Q. Fabius et M. Popillius</p>
+    </div>
+    <div type="cap" n="198">
+     <p>399 a. u. c. C. Sulpicilus Peticus et M. Valerius</p>
+    </div>
+    <div type="cap" n="199">
+     <p>400 a. u. c. M. Fabius et T. Quintius</p>
+    </div>
+    <div type="cap" n="200">
+     <p>401 a. u. c. C. Sulpicius et M.Valerius</p>
+    </div>
+    <div type="cap" n="201">
+     <p>402 a. u. c. P. Valerius et C. Marcius </p>
+    </div>
+    <div type="cap" n="202">
+     <p>403 a. u. c. C. Sulpicius et T. Quintius</p>
+    </div>
+    <div type="cap" n="203">
+     <p>404 a. u. c. M. Popilius et P. Scipio</p>
+    </div>
+    <div type="cap" n="204">
+     <p>405 a. u. c. L. Furius et App. Claudius</p>
+    </div>
+    <div type="cap" n="205">
+     <p>406 a. u. c. M. Valerius et M. Popilius</p>
+    </div>
+    <div type="cap" n="206">
+     <p>407 a. u. c. T. Manlius et C. Plautius</p>
+    </div>
+    <div type="cap" n="207">
+     <p>408 a. u. c. M. Valerius et P. Poetelius</p>
+    </div>
+    <div type="cap" n="208">
+     <p>409 a. u. c. M. Fabius et Ser. Sulpicius</p>
+    </div>
+    <div type="cap" n="209">
+     <p>410 a. u. c. C. Marcius et T. Manlius</p>
+    </div>
+    <div type="cap" n="210">
+     <p>411 a. u. c. M. Valerius et A. Cornelius</p>
+    </div>
+    <div type="cap" n="211">
+     <p>412 a. u. c. C. Marcius et Q. Servilius</p>
+    </div>
+    <div type="cap" n="212">
+     <p>413 a. u. c. C. Plautius et L. Aemilius</p>
+    </div>
+    <div type="cap" n="213">
+     <p>414 a. u. c. T. Manlius et P. Decius</p>
+    </div>
+    <div type="cap" n="214">
+     <p>415 a. u. c. T. Aemilius et Q. Publilius</p>
+    </div>
+    <div type="cap" n="215">
+     <p>416 a. u. c. L. Furius et C. Maenius</p>
+    </div>
+    <div type="cap" n="216">
+     <p>His consulibus rostra navium de Antiatibus in foro fixa sunt.</p>
+    </div>
+    <div type="cap" n="217">
+     <p>417 a. u. c. C. Sulpicius et P. Aelius</p>
+    </div>
+    <div type="cap" n="218">
+     <p>418 a. u. c. L. Papirius et K. Duillius</p>
+    </div>
+    <div type="cap" n="219">
+     <p>419 a. u. c. M. Valerius et M. Atilius</p>
+    </div>
+    <div type="cap" n="220">
+     <p>420 a. u. c. T. Veturius et Sp. Postumius</p>
+    </div>
+    <div type="cap" n="221">
+     <p>422 a. u. c. A. Cornelius et Cn. Domitius</p>
+    </div>
+    <div type="cap" n="222">
+     <p>His conss. pax cum Alexandro rege Epiri facta est.</p>
+    </div>
+    <div type="cap" n="223">
+     <p>423 a. u. c. M. Marcellus et C. Valerius</p>
+    </div>
+    <div type="cap" n="224">
+     <p>424 a. u. c. L. Papirius et C. Plautius</p>
+    </div>
+    <div type="cap" n="225">
+     <p>425 a. u. c. L. Aemilius et C. Plautius</p>
+    </div>
+    <div type="cap" n="226">
+     <p>426 a. u. c. C. Plautius et P. Cornelius</p>
+    </div>
+    <div type="cap" n="227">
+     <p>427 a. u. c. L. Cornelius et Q. Publilius</p>
+    </div>
+    <div type="cap" n="228">
+     <p>428 a. u. c. C. Poetelius III et L. Papirius</p>
+    </div>
+    <div type="cap" n="229">
+     <p>His conss. Alexandria in Aegypto condita.</p>
+    </div>
+    <div type="cap" n="230">
+     <p>429 a. u. c. L. Furius et D. Iunius</p>
+    </div>
+    <div type="cap" n="231">
+     <p>431 a. u. c. C. Sulpicius et Q. Aelius</p>
+    </div>
+    <div type="cap" n="232">
+     <p>432 a. u. c. Q. Fabius et L. Fulvius</p>
+    </div>
+    <div type="cap" n="233">
+     <p>433 a. u. c. T. Veturius et Sp. Postumius</p>
+    </div>
+    <div type="cap" n="234">
+     <p>434 a. u. c. Q. Papirius et L. Publilius</p>
+    </div>
+    <div type="cap" n="235">
+     <p>435 a. u. c. L. Papirius et Q. Aulius</p>
+    </div>
+    <div type="cap" n="236">
+     <p>436 a. u. c. M. Folius et L. Plautius</p>
+    </div>
+    <div type="cap" n="237">
+     <p>437 a. u. c. C. Iunius et Q. Aemilius</p>
+    </div>
+    <div type="cap" n="238">
+     <p>438 a. u. c. Sp. Nautius et M. Popillius</p>
+    </div>
+    <div type="cap" n="239">
+     <p>439 a. u. c. L. Papirius iun. et Q. Publi<supplied>li</supplied>us</p>
+    </div>
+    <div type="cap" n="240">
+     <p>440 a. u. c. M. Poetelius et C. Sulpicius</p>
+    </div>
+    <div type="cap" n="241">
+     <p>441 a. u. c. L. Papirius et C. Iunius</p>
+    </div>
+    <div type="cap" n="242">
+     <p>442 a. u. c. M. Valerius et P. Decius</p>
+    </div>
+    <div type="cap" n="243">
+     <p>His conss. per Appium Claudium censorem via facta et aqua inducta est, quae ipsius nomine
+      nuncupantur.</p>
+    </div>
+    <div type="cap" n="244">
+     <p>443 a. u. c. C. Iunius et Q. Aemilius.</p>
+    </div>
+    <div type="cap" n="245">
+     <p>444 a. u. c. Q. Fabius et C. Marcius</p>
+    </div>
+    <div type="cap" n="246">
+     <p>446 a. u. c. Q. Fabius et P. Decius </p>
+    </div>
+    <div type="cap" n="247">
+     <p>447 a. u. c. Ap. Claudius et L. Volumnius</p>
+    </div>
+    <div type="cap" n="248">
+     <p>448 a. u. c. P. Cornelius et Q. Marcius</p>
+    </div>
+    <div type="cap" n="249">
+     <p>His consulibus viae per agros publice factae.</p>
+    </div>
+    <div type="cap" n="250">
+     <p>449 a. u. c. L. Postumius et T. Minucius </p>
+    </div>
+    <div type="cap" n="251">
+     <p>450 a. u. c. P. Sulpicius et P. Sempronius</p>
+    </div>
+    <div type="cap" n="252">
+     <p>451 a. u. c. L. Genucius et Ser. Cornelius</p>
+    </div>
+    <div type="cap" n="253">
+     <p>452 a. u. c. M. Livius et L. Aemilius</p>
+    </div>
+    <div type="cap" n="254">
+     <p>454 a. u. c. M. Valerius et Q. Apuleius</p>
+    </div>
+    <div type="cap" n="255">
+     <p>455 a. u. c. M. Fulvius et T. Manlius</p>
+    </div>
+    <div type="cap" n="256">
+     <p>456 a. u. c. L. Scipio et Cn. Fulvius</p>
+    </div>
+    <div type="cap" n="257">
+     <p>457 a. u. c. Q. Maximus et P. Decius</p>
+    </div>
+    <div type="cap" n="258">
+     <p>458 a. u. c. L. Volumnius et App. Claudius</p>
+    </div>
+    <div type="cap" n="259">
+     <p>459 a. u. c. Q. Fabius et P. Decius</p>
+    </div>
+    <div type="cap" n="260">
+     <p>460 a. u. c. L. Postumius et M. Atilius</p>
+    </div>
+    <div type="cap" n="261">
+     <p>461 a. u. c. L. Papirius Cursor et Sp. Carvilius</p>
+    </div>
+    <div type="cap" n="262">
+     <p>462 a. u. c. Q. Fabius et D. Brutus</p>
+    </div>
+    <div type="cap" n="263">
+     <p>463 a. u. c. L. Postumius et C. Iunius</p>
+    </div>
+    <div type="cap" n="264">
+     <p>464 a. u. c. P. Cornelius et M. Curius</p>
+    </div>
+    <div type="cap" n="265">
+     <p>465 a. u. c. M. Valerius et Q. Caedicius</p>
+    </div>
+    <div type="cap" n="266">
+     <p>466 a. u. c. Q. Marcius et P. Cornelius</p>
+    </div>
+    <div type="cap" n="267">
+     <p>467 a. u. c. M. Marcellus et C. Nautius</p>
+    </div>
+    <div type="cap" n="268">
+     <p>468 a. u. c. M. Valerius et C. Aelius</p>
+    </div>
+    <div type="cap" n="269">
+     <p>469 a. u. c. C. Claudius et M. Aemilius</p>
+    </div>
+    <div type="cap" n="270">
+     <p>470 a. u. c. C. Servilius et L. Caelius</p>
+    </div>
+    <div type="cap" n="271">
+     <p>471 a. u. c. P. Cornelius Dolabella et Cn. Domitius</p>
+    </div>
+    <div type="cap" n="272">
+     <p>472 a. u. c. C. Fabricius et Q. Aemilius</p>
+    </div>
+    <div type="cap" n="273">
+     <p>473 a. u. c. L. Aemilius et Q. Marcius</p>
+    </div>
+    <div type="cap" n="274">
+     <p>474 a. u. c. P. Valerius et T. Coruncanius</p>
+    </div>
+    <div type="cap" n="275">
+     <p>475 a. u. c. P. Sulpicius et P. Decius</p>
+    </div>
+    <div type="cap" n="276">
+     <p>476 a. u. c. C. Fabricius et Q. Aemilius</p>
+    </div>
+    <div type="cap" n="277">
+     <p>477 a. u. c. P. Cornelius et C. Iunius</p>
+    </div>
+    <div type="cap" n="278">
+     <p>478 a. u. c. Q. Fabius et C. Genucius</p>
+    </div>
+    <div type="cap" n="279">
+     <p>479 a. u. c. M. Curius et L. Lentulus</p>
+    </div>
+    <div type="cap" n="280">
+     <p>480 a. u. c. Ser. Cornelius et M. Curius</p>
+    </div>
+    <div type="cap" n="281">
+     <p>481 a. u. c. C. Fabius et C. Claudius</p>
+    </div>
+    <div type="cap" n="282">
+     <p>482 a. u. c. L. Papirius Cursor et Sp. Carvilius</p>
+    </div>
+    <div type="cap" n="283">
+     <p>483 a. u. c. K. Quintius et L. Genucius</p>
+    </div>
+    <div type="cap" n="284">
+     <p>484 a. u. c. C. Genucius et Cn. Cornelius</p>
+    </div>
+    <div type="cap" n="285">
+     <p>485 a. u. c. <del>Q. Ogulnius et C. Fabius</del></p>
+    </div>
+    <div type="cap" n="286">
+     <p>486 a. u. c. P. Sempronius et App. Claudius</p>
+    </div>
+    <div type="cap" n="287">
+     <p>487 a. u. c. M. Atilius et L. Iulius Libo</p>
+    </div>
+    <div type="cap" n="288">
+     <p>488 a. u. c. D. Iunius et N. Fasius</p>
+    </div>
+    <div type="cap" n="289">
+     <p>489 a. u. c. Q. Fabius et L. Manlius</p>
+    </div>
+    <div type="cap" n="290">
+     <p>490 a. u. c. App. Claudius et Q. Fulvius</p>
+    </div>
+    <div type="cap" n="291">
+     <p>491 a. u. c. M. Valerius etM. Otacilius </p>
+    </div>
+    <div type="cap" n="292">
+     <p>492 a. u. c. L. Postumius et Q. Mamilius</p>
+    </div>
+    <div type="cap" n="293">
+     <p>493 a. u. c. L. Valerius et L. Otacilius</p>
+    </div>
+    <div type="cap" n="294">
+     <p>494 a. u. c. Cn. Cornelius et C. Duilius</p>
+    </div>
+    <div type="cap" n="295">
+     <p>495 a. u. c. C. Aquilius etL. Cornelius</p>
+    </div>
+    <div type="cap" n="296">
+     <p>496 a. u. c. A. Atilius Calatinus et C. Sulpicius</p>
+    </div>
+    <div type="cap" n="297">
+     <p>497 a. u. c. Cn. Cornelius et C. Atilius Serranus</p>
+    </div>
+    <div type="cap" n="298">
+     <p>498 a. u. c. Q. Caedicius et L. Manlius</p>
+    </div>
+    <div type="cap" n="299">
+     <p>499 a. u. c. M. Aemilius Paulus et Ser. Fulvius Nobilior</p>
+    </div>
+    <div type="cap" n="300">
+     <p>500 a. u. c. Cn. Cornelius et A. Atilius</p>
+    </div>
+    <div type="cap" n="301">
+     <p>501 a. u. c. Cn. Servilius et C. Sempronius</p>
+    </div>
+    <div type="cap" n="302">
+     <p>502 a. u. c. C. Aurelius Cotta et P. Servilius</p>
+    </div>
+    <div type="cap" n="303">
+     <p>503 a. u. c. L. Caecilius Metellus et C. Furius</p>
+    </div>
+    <div type="cap" n="304">
+     <p>504 a. u. c. C. Atilius Regulus et L. Manlius</p>
+    </div>
+    <div type="cap" n="305">
+     <p>505 a. u. c. P. Claudius et L. Iunius</p>
+    </div>
+    <div type="cap" n="306">
+     <p>506 a. u. c. P. Servilius et C. Aurelius</p>
+    </div>
+    <div type="cap" n="307">
+     <p>507 a. u. c. L. Caecilius et N. Fabius</p>
+    </div>
+    <div type="cap" n="308">
+     <p>508 a. u. c. M. Fabius et M. Otacilius</p>
+    </div>
+    <div type="cap" n="309">
+     <p>509 a. u. c. M. Fabius et C. Atilius</p>
+    </div>
+    <div type="cap" n="310">
+     <p>510 a. u. c. A. Manlius et C. Sempronius</p>
+    </div>
+    <div type="cap" n="311">
+     <p>511 a. u. c. C. Fundanius et C. Sulpicius</p>
+    </div>
+    <div type="cap" n="312">
+     <p>512 a. u. c. C. Lutatius Cerconius et A. Postumius</p>
+    </div>
+    <div type="cap" n="313">
+     <p>513 a. u. c. Q. Lutatius Catulus et A. Manlius</p>
+    </div>
+    <div type="cap" n="314">
+     <p>514 a. u. c. C. Claudius Cento et M. Sempronius</p>
+    </div>
+    <div type="cap" n="315">
+     <p>515 a. u. c. C. Manlius et Q. Valerius</p>
+    </div>
+    <div type="cap" n="316">
+     <p>His conss. ludis Romanis primum tragoedia et comoedia a Lucio Livio ad scaenam data.</p>
+    </div>
+    <div type="cap" n="317">
+     <p>516 a. u. c. T. Sempronius et P. Cornelius</p>
+    </div>
+    <div type="cap" n="318">
+     <p>517 a. u. c. L. Cornelius et Q. Fulvius</p>
+    </div>
+    <div type="cap" n="319">
+     <p>518 a. u. c. C. Licinius et P. Cornelius</p>
+    </div>
+    <div type="cap" n="320">
+     <p>519 a. u. c. T. Manlius Torquatus et C. Atilius</p>
+    </div>
+    <div type="cap" n="321">
+     <p>520 a. u. c. L. Postumius et Sp. Carvilius</p>
+    </div>
+    <div type="cap" n="322">
+     <p>521 a. u. c. Q. Fabius et M. Pomponius</p>
+    </div>
+    <div type="cap" n="323">
+     <p>522 a. u. c. M. Lepidus et M. Poblicius</p>
+    </div>
+    <div type="cap" n="324">
+     <p>523 a. u. c. C. Papirius et M. Pomponius</p>
+    </div>
+    <div type="cap" n="325">
+     <p>524 a. u. c. M. Aemilius et M. Iunius</p>
+    </div>
+    <div type="cap" n="326">
+     <p>His conss. Hamilcar Hannibalis pater in Hispania bellum Romanis parans occisus est. hic
+      solitus dicere quattuor filios contra p. R. velut catulos leoninos <supplied>se</supplied>
+      educare.</p>
+    </div>
+    <div type="cap" n="327">
+     <p>525 a. u. c. L. Postumius et Cn. Fulvius</p>
+    </div>
+    <div type="cap" n="328">
+     <p>526 a. u. c. Q. Fabius et Sp. Carvilius</p>
+    </div>
+    <div type="cap" n="329">
+     <p>527 a. u. c. P. Valerius etM. Atilius</p>
+    </div>
+    <div type="cap" n="330">
+     <p>528 a. u. c. L. Apustius et M. Valerius</p>
+    </div>
+    <div type="cap" n="331">
+     <p>529 a. u. c. C. Atilius et L. Aemilius</p>
+    </div>
+    <div type="cap" n="332">
+     <p>530 a. u. c. T. Marcius et Q. Fulvius II</p>
+    </div>
+    <div type="cap" n="333">
+     <p>531 a. u. c. C. Flaminius et P. Furius Pilo </p>
+    </div>
+    <div type="cap" n="334">
+     <p>532 a. u. c. M. Marcellus et Cn. Cornelius</p>
+    </div>
+    <div type="cap" n="335">
+     <p>533 a. u. c. P. Cornelius et M. Minucius</p>
+    </div>
+    <div type="cap" n="336">
+     <p>534 a. u. c. L. Veturius et C. Lutatius</p>
+    </div>
+    <div type="cap" n="337">
+     <p>His conss. via Flaminia munita et circus factus qui Flaminius appellatur.</p>
+    </div>
+    <div type="cap" n="338">
+     <p>535 a. u. c. M. Livius et L. Aemilius</p>
+    </div>
+    <div type="cap" n="339">
+     <p>His conss. Hannibal Hamilcaris filius in Hispania bellum molitur.</p>
+    </div>
+    <div type="cap" n="340">
+     <p>536 a. u. c. P. Cornelius et T. Sempronius</p>
+    </div>
+    <div type="cap" n="341">
+     <p>537 a. u. c. Cn. Servilius Geminus et C. Flaminius</p>
+    </div>
+    <div type="cap" n="342">
+     <p>538 a. u. c. L. Paulus et C. Terentius Varro</p>
+    </div>
+    <div type="cap" n="343">
+     <p>539 a. u. c. T. Sempronius et Q. Maximus</p>
+    </div>
+    <div type="cap" n="344">
+     <p>540 a. u. c. Q. Fabius Maximus et M. Marcellus</p>
+    </div>
+    <div type="cap" n="345">
+     <p>541 a. u. c. P. Maximus et T. Gracchus</p>
+    </div>
+    <div type="cap" n="346">
+     <p>542 a. u. c. Q. Fulvius Flaccus III et App. Claudius</p>
+    </div>
+    <div type="cap" n="347">
+     <p>543 a. u. c. Fulvius Centumalus et P. Sulpicius</p>
+    </div>
+    <div type="cap" n="348">
+     <p>544 a. u. c. M. Marcellus et M. Valerius</p>
+    </div>
+    <div type="cap" n="349">
+     <p>545 a. u. c. Q. Fabius V et Q. Fulvius Flaccus IIII</p>
+    </div>
+    <div type="cap" n="350">
+     <p>546 a. u. c. M. Marcellus et T. Quintius</p>
+    </div>
+    <div type="cap" n="351">
+     <p>547 a. u. c. C. Claudius Nero et M. Livius Salinator</p>
+    </div>
+    <div type="cap" n="352">
+     <p>548 a. u. c. L. Veturius et Q. Caecilius Metellus</p>
+    </div>
+    <div type="cap" n="353">
+     <p>549 a. u. c. P. Scipio et P. Crassus</p>
+    </div>
+    <div type="cap" n="354">
+     <p>550 a. u. c. M. Cornelius et T. Sempronius</p>
+    </div>
+    <div type="cap" n="355">
+     <p>551 a. u. c. Cn. Servilius et C. Servilius</p>
+    </div>
+    <div type="cap" n="356">
+     <p>552 a. u. c. M. Servilius et T. Claudius Nero</p>
+    </div>
+    <div type="cap" n="357">
+     <p>553 a. u. c. Cn. Cornelius Lentulus et C. Aelius Paeto</p>
+    </div>
+    <div type="cap" n="358">
+     <p>554 a. u. c. P. Sulpicius et C. Aurelius</p>
+    </div>
+    <div type="cap" n="359">
+     <p>555 a. u. c. L. Cornelius et P. Villius</p>
+    </div>
+    <div type="cap" n="360">
+     <p>556 a. u. c. Sex. Aelius Paeto et T. Quintius</p>
+    </div>
+    <div type="cap" n="361">
+     <p>557 a. u. c. C. Cornelius et Q. Minucius</p>
+    </div>
+    <div type="cap" n="362">
+     <p>558 a. u. c. L. Furius et M. Marcellus</p>
+    </div>
+    <div type="cap" n="363">
+     <p>559 a. u. c. L. Valerius Flaccus et M. Cato</p>
+    </div>
+    <div type="cap" n="364">
+     <p>560 a. u. c. P. Scipio Il et T. Sempronius</p>
+    </div>
+    <div type="cap" n="365">
+     <p>561 a. u. c. <del>L. Cornelius et Q. Minucius</del></p>
+    </div>
+    <div type="cap" n="366">
+     <p>562 a. u. c. L. Quintius et Cn. Domitius</p>
+    </div>
+    <div type="cap" n="367">
+     <p>563 a. u. c. P. Scipio Nasica et M. Acilius</p>
+    </div>
+    <div type="cap" n="368">
+     <p>564 a. u. c. L Scipio et C. Laelius</p>
+    </div>
+    <div type="cap" n="369">
+     <p>565 a. u. c. M. Fulvius et Cn. Manlius </p>
+    </div>
+    <div type="cap" n="370">
+     <p>566 a. u. c. M. Messala et C. Livius Salinator</p>
+    </div>
+    <div type="cap" n="371">
+     <p>567 a. u. c. M. Lepidus et C. Flaminius</p>
+    </div>
+    <div type="cap" n="372">
+     <p>568 a. u. c. Sp. Postumius et Q. Marcius</p>
+    </div>
+    <div type="cap" n="373">
+     <p>His conss. athletarum certamina primum a Fulvio edita.</p>
+    </div>
+    <div type="cap" n="374">
+     <p>569 a. u. c. App. Claudius et M. Sempronius</p>
+    </div>
+    <div type="cap" n="375">
+     <p>570 a. u. c. P. Claudius et L. Porcius Licinius</p>
+    </div>
+    <div type="cap" n="376">
+     <p>571 a. u. c. M. Claudius et Q. Fabius Labeon</p>
+    </div>
+    <div type="cap" n="377">
+     <p>His conss. Hannibal apud Prusian veneno periit.</p>
+    </div>
+    <div type="cap" n="378">
+     <p>572 a. u. c. L. Paulus et Cn. Baebius</p>
+    </div>
+    <div type="cap" n="379">
+     <p>573 a. u. c. P. Lentulus et M. Baebius</p>
+    </div>
+    <div type="cap" n="380">
+     <p>574 a. u. c. A. Postumius et C. Calpurnius</p>
+    </div>
+    <div type="cap" n="381">
+     <p>575 a. u. c. Q. Fulvius et L. Manlius</p>
+    </div>
+    <div type="cap" n="382">
+     <p>576 a. u. c. M. Iunius et Cn. Manlius</p>
+    </div>
+    <div type="cap" n="383">
+     <p>577 a. u. c. T. Sempronius et C. Claudius</p>
+    </div>
+    <div type="cap" n="384">
+     <p>578 a. u. c. Cn. Cornelius et Q. Petillius</p>
+    </div>
+    <div type="cap" n="385">
+     <p>579 a. u. c. M. Lepidus et Q. Mucius</p>
+    </div>
+    <div type="cap" n="386">
+     <p>580 a. u. c. Sp. Postumius et Q. Mucius</p>
+    </div>
+    <div type="cap" n="387">
+     <p>581 a. u. c. L. Postumius Albinus et M. Popillius</p>
+    </div>
+    <div type="cap" n="388">
+     <p>582 a. u. c. C. Popillius et P. Aelius</p>
+    </div>
+    <div type="cap" n="389">
+     <p>583 a. u. c. P. Licinius et C. Cassius</p>
+    </div>
+    <div type="cap" n="390">
+     <p>584 a. u. c. A. Hostilius Mancinus et A. Atilius</p>
+    </div>
+    <div type="cap" n="391">
+     <p>585 a. u. c. L. Marcius Philippus et Q. Servilius</p>
+    </div>
+    <div type="cap" n="392">
+     <p>586 a. u. c. L. Paulus II et C. Licinius</p>
+    </div>
+    <div type="cap" n="393">
+     <p>587 a. u. c. Q. Aelius Paeto et M. Iunius</p>
+    </div>
+    <div type="cap" n="394">
+     <p>588 a. u. c. M. Mamercus et C. Sulpicius</p>
+    </div>
+    <div type="cap" n="395">
+     <p>589 a. u. c. Cn. Octavius et T. Manlius</p>
+    </div>
+    <div type="cap" n="396">
+     <p>590 a. u. c. A. Manlius et Q. Cassius</p>
+    </div>
+    <div type="cap" n="397">
+     <p>591 a. u. c. T. Sempronius et M. Iuventius</p>
+    </div>
+    <div type="cap" n="398">
+     <p>592 a. u. c. P. Scipio Nasica et C. Marcius</p>
+    </div>
+    <div type="cap" n="399">
+     <p>593 a. u. c. M. Messala et C. Fannius</p>
+    </div>
+    <div type="cap" n="400">
+     <p>594 a. u. c. L. Anicius et M. Cornelius</p>
+    </div>
+    <div type="cap" n="401">
+     <p>595 a. u. c. Cn. Cornelius Dolabella et M. Fulvius</p>
+    </div>
+    <div type="cap" n="402">
+     <p>596 a. u. c. M. Aemilius et C. Popillius</p>
+    </div>
+    <div type="cap" n="403">
+     <p>His conss. metalla in Macedonia instituta.</p>
+    </div>
+    <div type="cap" n="404">
+     <p>597 a. u. c. Sex. Iulius et L. Aurelius</p>
+    </div>
+    <div type="cap" n="405">
+     <p>598 a. u. c. L. Lentulus et C. Marcius</p>
+    </div>
+    <div type="cap" n="406">
+     <p>599 a. u. c. P. Scipio et M. Claudius</p>
+    </div>
+    <div type="cap" n="407">
+     <p>600 a. u. c. L. Postumius et Q. Opimius</p>
+    </div>
+    <div type="cap" n="408">
+     <p>601 a. u. c. Q. Fulvius et T. Annius</p>
+    </div>
+    <div type="cap" n="409">
+     <p>Hi primi conss. kal. Ianuariis magistratura inierunt propter subitum Celtiberiae bellum.</p>
+    </div>
+    <div type="cap" n="410">
+     <p>602 a. u. c. M. Marcellus et L. Valerius </p>
+    </div>
+    <div type="cap" n="411">
+     <p>603 a. u. c. L. Lucullus et A. Postumius</p>
+    </div>
+    <div type="cap" n="412">
+     <p>604 a. u. c. T. Quintius et M. Acilius</p>
+    </div>
+    <div type="cap" n="413">
+     <p>605 a. u. c. L. Marcius et M. Manlius</p>
+    </div>
+    <div type="cap" n="414">
+     <p>606 a. u. c. Sp. Postumius et L. Piso</p>
+    </div>
+    <div type="cap" n="415">
+     <p>607 a. u. c. P. Africanus et C. Livius</p>
+    </div>
+    <div type="cap" n="416">
+     <p>608 a. u. c. Cn. Cornelius et L. Mummius</p>
+    </div>
+    <div type="cap" n="417">
+     <p>609 a. u. c. Q. Fabius Maximus et L. Hostilius</p>
+    </div>
+    <div type="cap" n="418">
+     <p>610 a. u. c. Ser. Galba et L. Aurelius</p>
+    </div>
+    <div type="cap" n="419">
+     <p>611 a. u. c. App. Claudius et Q. Metellus</p>
+    </div>
+    <div type="cap" n="420">
+     <p>612 a. u. c. L. Metellus et Q. Maximus</p>
+    </div>
+    <div type="cap" n="421">
+     <p>613 a. u. c. Cn. Caepio et Q. Pompeius</p>
+    </div>
+    <div type="cap" n="422">
+     <p>614 a. u. c. Q. Caepio et C. Laelius</p>
+    </div>
+    <div type="cap" n="423">
+     <p>615 a. u. c. Cn. Piso et M. Popilius</p>
+    </div>
+    <div type="cap" n="424">
+     <p>616 a. u. c. P. Scipio et D. Brutus</p>
+    </div>
+    <div type="cap" n="425">
+     <p>617 a. u. c. M. Aemilius et C. Hostilius Mancinus</p>
+    </div>
+    <div type="cap" n="426">
+     <p>618 a. u. c. P. Furius et Sex. Atilius Serranus</p>
+    </div>
+    <div type="cap" n="427">
+     <p>619 a. u. c. Ser. Fulvius et Q. Calpurnius</p>
+    </div>
+    <div type="cap" n="428">
+     <p>His conss. Aemilianus Scipio ob Numantinum bellum, cum candidatus non esset, consul
+      creatur.</p>
+    </div>
+    <div type="cap" n="429">
+     <p>620 a. u. c. P. Africanus et C. Fulvius Flaccus</p>
+    </div>
+    <div type="cap" n="430">
+     <p>621 a. u. c. C. Mucius et L. Calpurnius</p>
+    </div>
+    <div type="cap" n="431">
+     <p>622 a. u. c. P. Popilius et P. Sulpicius</p>
+    </div>
+    <div type="cap" n="432">
+     <p>623 a. u. c. P. Crassus et L. Valerius Flaccus</p>
+    </div>
+    <div type="cap" n="433">
+     <p>624 a. u. c. App. Claudius et M. Perpenna</p>
+    </div>
+    <div type="cap" n="434">
+     <p>625 a. u. c. C. Sempronius et M. Aquilius</p>
+    </div>
+    <div type="cap" n="435">
+     <p>626 a. u. c. Cn. Octavius et T. Annius</p>
+    </div>
+    <div type="cap" n="436">
+     <p>627 a. u. c. L. Cassius et L. Cinna</p>
+    </div>
+    <div type="cap" n="437">
+     <p>628 a. u. c. M. Aemilius et L. Aurelius</p>
+    </div>
+    <div type="cap" n="438">
+     <p>629 a. u. c. M. Plautius et M. Fulvius</p>
+    </div>
+    <div type="cap" n="439">
+     <p>630 a. u. c. C. Cassius Longinus et C. Sextius</p>
+    </div>
+    <div type="cap" n="440">
+     <p>631 a. u. c. Q. Caecilius et T. Quintius</p>
+    </div>
+    <div type="cap" n="441">
+     <p>632 a. u. c. Cn. Domitius et C. Fannius</p>
+    </div>
+    <div type="cap" n="442">
+     <p>His conss. C. Sextius oppidum aedificavit, in quo aquae Sextiae, in Galliis.</p>
+    </div>
+    <div type="cap" n="443">
+     <p>633 a. u. c. L. Opimius et Q. Maximus</p>
+    </div>
+    <div type="cap" n="444">
+     <p>634 a. u. c. P. Manlius et C. Papirius</p>
+    </div>
+    <div type="cap" n="445">
+     <p>635 a. u. c. L. Caecilius et L. Aurelius</p>
+    </div>
+    <div type="cap" n="446">
+     <p>636 a. u. c. M. Cato et Q. Marcius</p>
+    </div>
+    <div type="cap" n="447">
+     <p>637 a. u. c. L. Caecilius et Q. Mucius</p>
+    </div>
+    <div type="cap" n="448">
+     <p>638 a. u. c. C. Licinius Geta et Q. Maximus</p>
+    </div>
+    <div type="cap" n="449">
+     <p>639 a. u. c. M. Metellus et M. Scaurus</p>
+    </div>
+    <div type="cap" n="450">
+     <p>His conss. L. Metellus et Cn. Domitius censores artem ludicram ex urbe removerunt praeter
+      Latinum tibicinem cum cantore et ludum talarium. </p>
+    </div>
+    <div type="cap" n="451">
+     <p>640 a. u. c. M. Acilius Balbus et C. Cato</p>
+    </div>
+    <div type="cap" n="452">
+     <p>641 a. u. c. C. Caecilius et C. Papirius</p>
+    </div>
+    <div type="cap" n="453">
+     <p>642 a. u. c. M. Livius Drusus et L. Piso</p>
+    </div>
+    <div type="cap" n="454">
+     <p>643 a. u. c. P. Scipio et L. Calpurnius Bestia</p>
+    </div>
+    <div type="cap" n="455">
+     <p>644 a. u. c. Sp. Postumius et Minucius</p>
+    </div>
+    <div type="cap" n="456">
+     <p>645 a. u. c. Q. Metellus et M. Silanus</p>
+    </div>
+    <div type="cap" n="457">
+     <p>646 a. u. c. Ser. Galba et M. Scaurus</p>
+    </div>
+    <div type="cap" n="458">
+     <p>647 a. u. c. L. Cassius et C. Marius</p>
+    </div>
+    <div type="cap" n="459">
+     <p>648 a. u. c. Q. Servilius et C. Atilus Serranus</p>
+    </div>
+    <div type="cap" n="460">
+     <p>His conss. per Servilium Caepionem consulem iudicia equitibus et senatoribus
+      communicata.</p>
+    </div>
+    <div type="cap" n="461">
+     <p>649 a. u. c. P. Rutilius Rufus et C. Manlius</p>
+    </div>
+    <div type="cap" n="462">
+     <p>650 a. u. c. C. Marius II et C. Fl. Fimbria</p>
+    </div>
+    <div type="cap" n="463">
+     <p>651 a. u. c. C. Marius III et L. Aurelius Orestes</p>
+    </div>
+    <div type="cap" n="464">
+     <p>652 a. u. c. C. Marius IIII et L. Lutatius</p>
+    </div>
+    <div type="cap" n="465">
+     <p>653 a. u. c. C. Marius V et M. Aquilius</p>
+    </div>
+    <div type="cap" n="466">
+     <p>654 a. u. c. C. Marius VI et L. Valerius Flaccus</p>
+    </div>
+    <div type="cap" n="467">
+     <p>655 a. u. c. M. Antonius et A. Postumius</p>
+    </div>
+    <div type="cap" n="468">
+     <p>656 a. u. c. Q. Metellus et T. Didius</p>
+    </div>
+    <div type="cap" n="469">
+     <p>657 a. u. c. Cn. Lentulus et P. Crassus</p>
+    </div>
+    <div type="cap" n="470">
+     <p>658 a. u. c. Cn. Domitius et C. Cassius</p>
+    </div>
+    <div type="cap" n="471">
+     <p>His conss. Ptolemaeus Aegypti rex populum Romanum heredem reliquit.</p>
+    </div>
+    <div type="cap" n="472">
+     <p>659 a. u. c. P. Crassus et Q. Scaevola</p>
+    </div>
+    <div type="cap" n="473">
+     <p>660 a. u. c. C. Coelius et L. Domitius</p>
+    </div>
+    <div type="cap" n="474">
+     <p>661 a. u. c. C. Valerius Flaccus et M. Herennius</p>
+    </div>
+    <div type="cap" n="475">
+     <p>662 a. u. c. C. Claudius Pulcher et M. Perperna</p>
+    </div>
+    <div type="cap" n="476">
+     <p>663 a. u. c. L. Marcius et Sex. Iulius</p>
+    </div>
+    <div type="cap" n="477">
+     <p>664 a. u. c. L. Caesar et C. Rutilius Lupus</p>
+    </div>
+    <div type="cap" n="478">
+     <p>665 a. u. c. Cn. Pompeius et L. Porcius Cato</p>
+    </div>
+    <div type="cap" n="479">
+     <p>666 a. u. c. L. Sylla et Q. Pompeius</p>
+    </div>
+    <div type="cap" n="480">
+     <p>667 a. u. c. L. Cinna et Cn. Octavius</p>
+    </div>
+    <div type="cap" n="481">
+     <p>668 a. u. c. L. Cinna II et C. Marius VII</p>
+    </div>
+    <div type="cap" n="482">
+     <p>669 a. u. c. L. Cinna III et Cn. Papirius</p>
+    </div>
+    <div type="cap" n="483">
+     <p>670 a. u. c. L. Cinna IIII et Cn. Papirius II</p>
+    </div>
+    <div type="cap" n="484">
+     <p>His conss. Asiam in XLIIII regiones Sylla distribuit.</p>
+    </div>
+    <div type="cap" n="485">
+     <p>671 a. u. c. L. Scipio et C. Norbanus</p>
+    </div>
+    <div type="cap" n="486">
+     <p>His conss. Capitolium custodum neglegentia concrematur.</p>
+    </div>
+    <div type="cap" n="487">
+     <p>672 a. u. c. Cn. Carbo III et C. Marius</p>
+    </div>
+    <div type="cap" n="488">
+     <p>673 a. u. c. M. Tullius et Cn. Dolabella</p>
+    </div>
+    <div type="cap" n="489">
+     <p>674 a. u. c. L. Sylla II et Q. Metellus </p>
+    </div>
+    <div type="cap" n="490">
+     <p>675 a. u. c. P. Servilius et App. Claudius</p>
+    </div>
+    <div type="cap" n="491">
+     <p>676 a. u. c. M. Lepidus et Q. Catulus</p>
+    </div>
+    <div type="cap" n="492">
+     <p>677 a. u. c. Mam. Aemilius et D. Brutus</p>
+    </div>
+    <div type="cap" n="493">
+     <p>678 a. u. c. Cn. Octavius et C. Curio</p>
+    </div>
+    <div type="cap" n="494">
+     <p>679 a. u. c. L. Octavius et C. Cotta</p>
+    </div>
+    <div type="cap" n="495">
+     <p>680 a. u. c. L. Licinius Lucullus et M. Cotta</p>
+    </div>
+    <div type="cap" n="496">
+     <p>681 a. u. c. M. Lucullus et C. Cassius</p>
+    </div>
+    <div type="cap" n="497">
+     <p>682 a. u. c. L. Gellius et Cn. Lentulus</p>
+    </div>
+    <div type="cap" n="498">
+     <p>683 a. u. c. Cn. Aufidius et P. Lentulus</p>
+    </div>
+    <div type="cap" n="499">
+     <p>684 a. u. c. M. Crassus et Cn. Pompeius</p>
+    </div>
+    <div type="cap" n="500">
+     <p>685 a. u. c. Q. Metellus et Q. Hortensius</p>
+    </div>
+    <div type="cap" n="501">
+     <p>His conss. a Q. Catulo reparatum dedicatumque Capitolium est.</p>
+    </div>
+    <div type="cap" n="502">
+     <p>686 a. u. c. L. Metellus et Q. Marcius</p>
+    </div>
+    <div type="cap" n="503">
+     <p>687 a. u. c. C. Piso et M. Glabrio</p>
+    </div>
+    <div type="cap" n="504">
+     <p>688 a. u. c. Man. Lepidus et <del>L. Volcacius</del></p>
+    </div>
+    <div type="cap" n="505">
+     <p>689 a. u. c. <del>L. Cotta et</del> L. Torquatus</p>
+    </div>
+    <div type="cap" n="506">
+     <p>690 a. u. c. L. Caesar et Q. Marcius</p>
+    </div>
+    <div type="cap" n="507">
+     <p>691 a. u. c. M. Cicero et C. Antonius</p>
+    </div>
+    <div type="cap" n="508">
+     <p>692 a. u. c. D. Silanus et L. Murena</p>
+    </div>
+    <div type="cap" n="509">
+     <p>693 a. u. c. M. Pupius et M. Valerius</p>
+    </div>
+    <div type="cap" n="510">
+     <p>His conss. Catilina in agro Pistoriensi a C. Antonio bello peremptus est.</p>
+    </div>
+    <div type="cap" n="511">
+     <p>694 a. u. c. Q. Metellus et L. Afranius</p>
+    </div>
+    <div type="cap" n="512">
+     <p>695 a. u. c. C. Caesar et M. Bibulus</p>
+    </div>
+    <div type="cap" n="513">
+     <p>696 a. u. c. L. Piso et A. Gabinius</p>
+    </div>
+    <div type="cap" n="514">
+     <p>His conss. Clodii rogatione Cicero in exilium est profectus.</p>
+    </div>
+    <div type="cap" n="515">
+     <p>697 a. u. c. P. Lentulus et Q. Metellus</p>
+    </div>
+    <div type="cap" n="516">
+     <p>His conss. propter civiles dissensiones per s. c. de exilio Cicero revocatur.</p>
+    </div>
+    <div type="cap" n="517">
+     <p>698 a. u. c. Cn. Lentulus et L. Philippus</p>
+    </div>
+    <div type="cap" n="518">
+     <p>699 a. u. c. Cn. Pompeius et M. Crassus</p>
+    </div>
+    <div type="cap" n="519">
+     <p>700 a. u. c. App. Claudius et L. Domitius</p>
+    </div>
+    <div type="cap" n="520">
+     <p>701 a. u. c. Cn. Domitius et M. Messala.</p>
+    </div>
+    <div type="cap" n="521">
+     <p>702 a. u. c. Cn. Pompeius et Q. Metellus</p>
+    </div>
+    <div type="cap" n="522">
+     <p>703 a. u. c. M. Marcellus et Ser. Sulpicius</p>
+    </div>
+    <div type="cap" n="523">
+     <p>704 a. u. c. L. Paulus et M. Marcellus</p>
+    </div>
+    <div type="cap" n="524">
+     <p>705 a. u. c. L. Lentulus et C. Marcellus</p>
+    </div>
+    <div type="cap" n="525">
+     <p>His conss. perniciosae in curia conflantur de Pompeio Caesareque discordiae.</p>
+    </div>
+    <div type="cap" n="526">
+     <p>Sed GAIVS IVLIVS CAESAR de Galliis veniens Pompeium fugavit Italia, aurum atque argentum
+      Romae de aerario sustulit. </p>
+    </div>
+    <div type="cap" n="527">
+     <p>Ac primus Romanorum singulare optinuit imperium. a quo Caesares Romani principes appellati.
+      imperavit autem ann. IIII menses VII. sub quo hi consules fuerunt.</p>
+    </div>
+    <div type="cap" n="528">
+     <p>IMPERATORES ROMANI I.</p>
+    </div>
+    <div type="cap" n="529">
+     <p>706 a. u. c. C. Iulius Caesar II et P. Servilius</p>
+    </div>
+    <div type="cap" n="530">
+     <p>707 a. u. c. Q. Fusius et P. Vaticanus</p>
+    </div>
+    <div type="cap" n="531">
+     <p>His conss. Caesar Pompeium Farsalico proelio superavit. Pompeius fugiens in Aegyptum occisus
+      est.</p>
+    </div>
+    <div type="cap" n="532">
+     <p>708 a. u. c. C. Iulius Caesar III et M. Lepidus</p>
+    </div>
+    <div type="cap" n="533">
+     <p>709 a. u. c. C. Iulius Caesar IIII et Fabius Maximus</p>
+    </div>
+    <div type="cap" n="534">
+     <p>His conss. C. Iulius Caesar per quadriduum triumphavit.</p>
+    </div>
+    <div type="cap" n="535">
+     <p>710 a. u. c. C. Iulius Caesar V et M. Antonius</p>
+    </div>
+    <div type="cap" n="536">
+     <p>His consulibus M. Antonius Lupercalibus sella aurea sedenti Caesari diadema rennuenti
+      imposuit atque idibus Martiis Caesar in Pompeia curia occisus est.</p>
+    </div>
+    <div type="cap" n="537">
+     <p>Cui successit OCTAVIANVS CAESAR, qui regnavit annis LVI mensibus VI. per quae tempora hi
+      consules extiterunt. II.</p>
+    </div>
+    <div type="cap" n="538">
+     <p>711 a. u. c. C. Pansa et A. Hirtius</p>
+    </div>
+    <div type="cap" n="539">
+     <p>His consulibus Caesar Octavianus, Antonius et Lepidus amicitiae foedus inierunt.</p>
+    </div>
+    <div type="cap" n="540">
+     <p>M. Cicero Caietae per Popilium militem eccisus est annorum LXIII.</p>
+    </div>
+    <div type="cap" n="541">
+     <p>Caesar Octavianus forum Augustum aedificavit.</p>
+    </div>
+    <div type="cap" n="542">
+     <p>712 a. u. c. M. Lepidus et L. Plancus</p>
+    </div>
+    <div type="cap" n="543">
+     <p>713 a. u. c. P. Servilius II et L. Antonius</p>
+    </div>
+    <div type="cap" n="544">
+     <p>714 a. u. c. Cn. Domitius et C. Asinius</p>
+    </div>
+    <div type="cap" n="545">
+     <p>715 a. u. c. L. Censorinus et C. Calvisius</p>
+    </div>
+    <div type="cap" n="546">
+     <p>716 a. u. c. App. Claudius et C. Norbanus</p>
+    </div>
+    <div type="cap" n="547">
+     <p>717 a. u. c. M. Agrippa et L. Caninius</p>
+    </div>
+    <div type="cap" n="548">
+     <p>His conss. lacus Lucrinus in portum conversus est.</p>
+    </div>
+    <div type="cap" n="549">
+     <p>718 a. u. c. L. Gellius et M. Cocceius</p>
+    </div>
+    <div type="cap" n="550">
+     <p>719 a. u. c. Sex. Pompeius et L.Cornificius</p>
+    </div>
+    <div type="cap" n="551">
+     <p>720 a. u. c. L. Scribonius et L. Atratinus</p>
+    </div>
+    <div type="cap" n="552">
+     <p>721 a. u. c. C. Caesar et L. Vulcacius</p>
+    </div>
+    <div type="cap" n="553">
+     <p>722 a. u. c. Cn. Domitius et C. Sossius</p>
+    </div>
+    <div type="cap" n="554">
+     <p>723 a. u. c. C. Caesar II et M. Messala</p>
+    </div>
+    <div type="cap" n="555">
+     <p>His conss. apud Actium M. Antonius a Caesare superatur.</p>
+    </div>
+    <div type="cap" n="556">
+     <p>724 a. u. c. C. Caesar III et M. Crassus</p>
+    </div>
+    <div type="cap" n="557">
+     <p>His conss. Nicopolim Caesar construit, ludos Actiacos instituit.</p>
+    </div>
+    <div type="cap" n="558">
+     <p>Antonius a Caesare proelio peremptus Alexandriae in mausoleo cum Cleopatra reconditur.</p>
+    </div>
+    <div type="cap" n="559">
+     <p>725 a. u. c. C. Caesar IIII et Sex. Apuleius</p>
+    </div>
+    <div type="cap" n="560">
+     <p>726 a. u. c. C. Caesar V et M. Agrippa II </p>
+    </div>
+    <div type="cap" n="561">
+     <p>His conss. Parthorum dissensiones per Caesarem sedatae.</p>
+    </div>
+    <div type="cap" n="562">
+     <p>727 a. u. c. C. Caesar VI et M. Agrippa III</p>
+    </div>
+    <div type="cap" n="563">
+     <p>Ceaesar leges protulit, iudices ordinavit, provincias disposuit et ideo Augustus
+      cognominatus est.</p>
+    </div>
+    <div type="cap" n="564">
+     <p>Cuius temporibus floruerunt Vergilius, Horatius et Livius.</p>
+    </div>
+    <div type="cap" n="565">
+     <p>728 a. u. c. C. Augustus Caesar VII et T. Statilius</p>
+    </div>
+    <div type="cap" n="566">
+     <p>729 a. u. c. C. Augustus Caesar VIII et M. Silanus</p>
+    </div>
+    <div type="cap" n="567">
+     <p>His conss. Cantabros Germanos Salassos Caesar perdomuit.</p>
+    </div>
+    <div type="cap" n="568">
+     <p>730 a. u. c. C. Augustus Caesar VIIII et C. Norbanus</p>
+    </div>
+    <div type="cap" n="569">
+     <p>His conss. Astures et Cantabri per Lucium Lamiam perdomiti.</p>
+    </div>
+    <div type="cap" n="570">
+     <p>731 a. u. c. C. Augustus Caesar X et Cn. Piso</p>
+    </div>
+    <div type="cap" n="571">
+     <p>732 a. u. c. M. Marcellus et L. Arruntius</p>
+    </div>
+    <div type="cap" n="572">
+     <p>733 a. u. c. M. Lollius et Q. Lepidus</p>
+    </div>
+    <div type="cap" n="573">
+     <p>734 a. u. c. M. Apuleius et P. Silius</p>
+    </div>
+    <div type="cap" n="574">
+     <p>His conss. aquilas et signa Crassiana de Parthis Caesar recepit.</p>
+    </div>
+    <div type="cap" n="575">
+     <p>735 a. u. c. C. Sentius et Q. Lucretius</p>
+    </div>
+    <div type="cap" n="576">
+     <p>His conss. Caesari ex provinciis redeunti currus cum corona aurea decretus est, quo
+      ascendere noluit.</p>
+    </div>
+    <div type="cap" n="577">
+     <p>736 a. u. c. Cn. Lentulus et P. Lentulus</p>
+    </div>
+    <div type="cap" n="578">
+     <p>737 a. u. c. T. Furnius et C. Silanus</p>
+    </div>
+    <div type="cap" n="579">
+     <p>738 a. u. c. L. Domitius et P. Scipio</p>
+    </div>
+    <div type="cap" n="580">
+     <p>730 a. u. c. M. Drusus et L. Piso</p>
+    </div>
+    <div type="cap" n="581">
+     <p>740 a. u. c. Cn. Lentulus et M. Crassus</p>
+    </div>
+    <div type="cap" n="582">
+     <p>741 a. u. c. Ti. Nero et P. Quintilius</p>
+    </div>
+    <div type="cap" n="583">
+     <p>742 a. u. c. M. Messala et P. Sulpicius</p>
+    </div>
+    <div type="cap" n="584">
+     <p>743 a. u. c. Paulus Fabius et Q. Aelius</p>
+    </div>
+    <div type="cap" n="585">
+     <p>744 a. u. c. Iullus Antonius et Africanus Fabius</p>
+    </div>
+    <div type="cap" n="586">
+     <p>745 a. u. c. Drusus Nero et L. Quintius</p>
+    </div>
+    <div type="cap" n="587">
+     <p>His conss. apud Lingonum gentem templum Caesari Drusus sacravit.</p>
+    </div>
+    <div type="cap" n="588">
+     <p>746 a. u. c. C. Asinius et C. Marcius</p>
+    </div>
+    <div type="cap" n="589">
+     <p>His conss. inter Albim et Rhenum Germani omnes Tiberio Neroni dediti.</p>
+    </div>
+    <div type="cap" n="590">
+     <p>Per Sextum Apuleium Pannonii subacti.</p>
+    </div>
+    <div type="cap" n="591">
+     <p>747 a. u. c. Ti. Nero et Cn. Piso</p>
+    </div>
+    <div type="cap" n="592">
+     <p>748 a. u. c. D. Laelius et C. Antistius</p>
+    </div>
+    <div type="cap" n="593">
+     <p>749 a. u. c. Augustus Caesar XI et L. Sylla</p>
+    </div>
+    <div type="cap" n="594">
+     <p>750 a. u. c. C. Calvisius et L. Passienus</p>
+    </div>
+    <div type="cap" n="595">
+     <p>751 a. u. c. C. Lentulus et M. Messala</p>
+    </div>
+    <div type="cap" n="596">
+     <p>His conss. dominus noster Iesus Christus filius dei in Bethlehem nascitur anno imperii
+      Augusti XLI.</p>
+    </div>
+    <div type="cap" n="597">
+     <p>752 a. u. c. C. Augustus Caesar XII et M. Plautius </p>
+    </div>
+    <div type="cap" n="598">
+     <p>753 a. u. c. Cossus Lentulus et L. Piso.</p>
+    </div>
+    <div type="cap" n="599">
+     <p>1 p. Chr. C. Augustus Caesar XIII et L. Paulus</p>
+    </div>
+    <div type="cap" n="600">
+     <p>2 p. Chr. C. Vinicius et P. Alfenus</p>
+    </div>
+    <div type="cap" n="601">
+     <p>3 p. Chr. M. Servilius et L. Lamia</p>
+    </div>
+    <div type="cap" n="602">
+     <p>4 p. Chr. Sex. Aelius et C. Sentius</p>
+    </div>
+    <div type="cap" n="603">
+     <p>5 p. Chr. Cn. Cinna et L. Valerius</p>
+    </div>
+    <div type="cap" n="604">
+     <p>His conss. per dies octo Tiberis impetu miseranda clades hominum domorumque fuit.</p>
+    </div>
+    <div type="cap" n="605">
+     <p>6 p. Chr. M. Lepidus et L. Arruntius</p>
+    </div>
+    <div type="cap" n="606">
+     <p>7 p. Chr. Q. Caecilius et A. Licinius</p>
+    </div>
+    <div type="cap" n="607">
+     <p>8 p. Chr. M. Furius et Sex. Nonius</p>
+    </div>
+    <div type="cap" n="608">
+     <p>9 p. Chr. Q. Sulpicius et C. Poppaeus</p>
+    </div>
+    <div type="cap" n="609">
+     <p>10 p. Chr. P. Dolabella et C. Silanus</p>
+    </div>
+    <div type="cap" n="610">
+     <p>11 p. Chr. M. Lepidus et T. Statilius</p>
+    </div>
+    <div type="cap" n="611">
+     <p>12 p. Chr. Ger. Caesar et C. Fonteius</p>
+    </div>
+    <div type="cap" n="612">
+     <p>13 p. Chr. L. Plancus et C. Silius</p>
+    </div>
+    <div type="cap" n="613">
+     <p>14 p. Chr. Sex. Pompeius et Sex. Apuleius</p>
+    </div>
+    <div type="cap" n="614">
+     <p>His conss. imp. Augustus obiit septuagesimo sexto anno aetatis suae, imperii autem
+      quinquagesimo sexto semis. huic successit in imperium TIBERIVS CAESAR, qui imperavit ann.
+      XXIII. Sub quo hi consules fuerunt. III.</p>
+    </div>
+    <div type="cap" n="615">
+     <p>15 p. Chr. Drusus Caesar et C. Norbanus</p>
+    </div>
+    <div type="cap" n="616">
+     <p>16 p. Chr. Sisenna Statilius et L. Scribonius</p>
+    </div>
+    <div type="cap" n="617">
+     <p>His conss. mathematici urbe pelluntur.</p>
+    </div>
+    <div type="cap" n="618">
+     <p>17 p. Chr. L. Pomponius et C. Caecilius</p>
+    </div>
+    <div type="cap" n="619">
+     <p>18 p. Chr. Ti. Caesar et Germanicus Caesar</p>
+    </div>
+    <div type="cap" n="620">
+     <p>19 p. Chr. M. Silanus et C. Norbanus</p>
+    </div>
+    <div type="cap" n="621">
+     <p>His conss. Germanicus Caesar in Syria mortuus est.</p>
+    </div>
+    <div type="cap" n="622">
+     <p>20 p. Chr. M. Valerius et M. Aurelius</p>
+    </div>
+    <div type="cap" n="623">
+     <p>21 p. Chr. Ti. Caesar et Drusus Caesar</p>
+    </div>
+    <div type="cap" n="624">
+     <p>22 p. Chr. D. Haterius et C. Sulpicius</p>
+    </div>
+    <div type="cap" n="625">
+     <p>23 p. Chr. C. Asinius et C. Antistius</p>
+    </div>
+    <div type="cap" n="626">
+     <p>His conss. Drusus Caesar publice funeratur.</p>
+    </div>
+    <div type="cap" n="627">
+     <p>24 p. Chr. Ser. Cornelius et L. Visellius</p>
+    </div>
+    <div type="cap" n="628">
+     <p>25 p. Chr. M. Asinius et Cossus Cornelius</p>
+    </div>
+    <div type="cap" n="629">
+     <p>26 p. Chr. C. Calvisius et Cn. Gaetulicus </p>
+    </div>
+    <div type="cap" n="630">
+     <p>27 p. Chr. L. Piso et M. Crassus</p>
+    </div>
+    <div type="cap" n="631">
+     <p>28 p. Chr. App. Silanus et P. Silius</p>
+    </div>
+    <div type="cap" n="632">
+     <p>29 p. Chr. C. Rubellius et C. Fufius</p>
+    </div>
+    <div type="cap" n="633">
+     <p>30 p. Chr. M. Vinicius et L. Cassius</p>
+    </div>
+    <div type="cap" n="634">
+     <p>31 p. Chr. Ti. Caesar V conss. </p>
+    </div>
+    <div type="cap" n="635">
+     <p>His conss. dominus noster Iesus Christus passus est VIII k. Apr. et defectio solis facta
+      est, qualis ante vol postmodum numquam fuit.</p>
+    </div>
+    <div type="cap" n="636">
+     <p>32 p. Chr. Vinicius et Longinus</p>
+    </div>
+    <div type="cap" n="637">
+     <p>33 p. Chr. Sulpicius et Sylla</p>
+    </div>
+    <div type="cap" n="638">
+     <p>34 p. Chr. Priscus et Vitellus</p>
+    </div>
+    <div type="cap" n="639">
+     <p>35 p. Chr. Gallus et Nonianus</p>
+    </div>
+    <div type="cap" n="640">
+     <p>His conss. Persius Flaccus satyricus poeta Volaterris nascitur.</p>
+    </div>
+    <div type="cap" n="641">
+     <p>36 p. Chr. Gallienus et Plautianus</p>
+    </div>
+    <div type="cap" n="642">
+     <p>His conss. Tiberius imperator in Campania moritur. cui successit C. CAESAR cognomento
+      CALIGVLA qui regnavit annis tribus et mensibus X. sub quo hi consules extiterunt. IIII.</p>
+    </div>
+    <div type="cap" n="643">
+     <p>37 p. Chr. Proculus et Nicrinus</p>
+    </div>
+    <div type="cap" n="644">
+     <p>38 p. Chr. Iulianus et Asprenas</p>
+    </div>
+    <div type="cap" n="645">
+     <p>— Publicula et Nerva.</p>
+    </div>
+    <div type="cap" n="646">
+     <p>His conss. Pilatus in multas incidens calamitates propria se manu interfecit.</p>
+    </div>
+    <div type="cap" n="647">
+     <p>39 p. Chr.? Ceaesar et Iulianus</p>
+    </div>
+    <div type="cap" n="648">
+     <p>His conss. C. Caesar cognomento Caligula in protectoribus suis occiditur in Palatio anno
+      aetatis XXIIII. cui successit CLAVDIVS, qui imperavit annis XIII mensibus VIII diebus XXVIII.
+      sub quo hi consules fuerunt. V.</p>
+    </div>
+    <div type="cap" n="649">
+     <p>41 p. Chr. Caesar II et Saturninus</p>
+    </div>
+    <div type="cap" n="650">
+     <p>— Saturninus II et Venustus</p>
+    </div>
+    <div type="cap" n="651">
+     <p>His conss. Petrus apostolus Romam mittitur, ubi evangelium praedicans XXV annis eiusdem
+      urbis episcopus perseverat.</p>
+    </div>
+    <div type="cap" n="652">
+     <p>42 p. Chr. Tiberius et Gallius</p>
+    </div>
+    <div type="cap" n="653">
+     <p>44 p. Chr. Crispinus et Taurus</p>
+    </div>
+    <div type="cap" n="654">
+     <p>His conss. Claudius de Brittannis triumphavit et Orcadas insulas Romano adiecit imperio.</p>
+    </div>
+    <div type="cap" n="655">
+     <p>45 p. Chr. Vinicins et Cornelius</p>
+    </div>
+    <div type="cap" n="656">
+     <p>His conss. inter Theram et Therasiam exorta est insula habens stadia XXX.</p>
+    </div>
+    <div type="cap" n="657">
+     <p>46 p. Chr. Asiaticus et Cornelius</p>
+    </div>
+    <div type="cap" n="658">
+     <p>His conss. descriptio Romae facta est et inventa sunt civium Romanorum centena milia et
+      XLIIII.</p>
+    </div>
+    <div type="cap" n="659">
+     <p>Thracia hucusque regnata in provinciam redigitur.</p>
+    </div>
+    <div type="cap" n="660">
+     <p>47 p. Chr. Tiberius II et Vitellius</p>
+    </div>
+    <div type="cap" n="661">
+     <p>48 p. Chr. Vitellius II et Publicola</p>
+    </div>
+    <div type="cap" n="662">
+     <p>49 p. Chr. Veranus et Gallus</p>
+    </div>
+    <div type="cap" n="663">
+     <p>50 p. Chr. Vetus et Nervilianus</p>
+    </div>
+    <div type="cap" n="664">
+     <p>51 p. Chr. Claudius et Orfitus</p>
+    </div>
+    <div type="cap" n="665">
+     <p>— Silvanus et Silvius</p>
+    </div>
+    <div type="cap" n="666">
+     <p>— Tiberius III et Antoninus</p>
+    </div>
+    <div type="cap" n="667">
+     <p>52 p. Chr. Silanus et Otho</p>
+    </div>
+    <div type="cap" n="668">
+     <p>His conss. CLAVDIVS rnoritur in Palatio anno aetatis LXIIII. huic successit NERO, qui
+      regnavit annis XIII mensibus VII diebus XXVIII. sub quo hi consules fuerunt. VI.</p>
+    </div>
+    <div type="cap" n="669">
+     <p>53 p. Chr. Silanus II et Antonius II</p>
+    </div>
+    <div type="cap" n="670">
+     <p>54 p. Chr. Marcellinus et Aviola</p>
+    </div>
+    <div type="cap" n="671">
+     <p>His conss. sanctus Paulus apostolus Romam vinctus a Felice praeside destinatur.</p>
+    </div>
+    <div type="cap" n="672">
+     <p>Probus etiam eruditissimus grammaticus Romae cognoscitur.</p>
+    </div>
+    <div type="cap" n="673">
+     <p>Vrsulus Tolosensis celeberrime in Gallia rhetoricam docet.</p>
+    </div>
+    <div type="cap" n="674">
+     <p>55 p. Chr. Nero et Vetus</p>
+    </div>
+    <div type="cap" n="675">
+     <p>57 p. Chr. Nero II et Piso</p>
+    </div>
+    <div type="cap" n="676">
+     <p>58 p. Chr. Nero III et Messala</p>
+    </div>
+    <div type="cap" n="677">
+     <p>60 p. Chr. Nero IIII et Cornelius</p>
+    </div>
+    <div type="cap" n="678">
+     <p>61 p. Chr. Pius et Turpilianus</p>
+    </div>
+    <div type="cap" n="679">
+     <p>62 p. Chr. Macrinus et Gallus</p>
+    </div>
+    <div type="cap" n="680">
+     <p>64 p. Chr. Crassus et Bassus</p>
+    </div>
+    <div type="cap" n="681">
+     <p>His conss. thermae a Nerone aedificatae, quas Neronianas appellavit, cuius odio mutato
+      vocabulo nunc Alexandrianae nominantur.</p>
+    </div>
+    <div type="cap" n="682">
+     <p>65 p. Chr. Silvanus et Paulinus</p>
+    </div>
+    <div type="cap" n="683">
+     <p>His conss. Nero, ut similitudinem Troiae ardentis inspiceret, plurimam partem Romanae urbis
+      incendit.</p>
+    </div>
+    <div type="cap" n="684">
+     <p>66 p. Chr. Censinus et Apuleius</p>
+    </div>
+    <div type="cap" n="685">
+     <p>His conss. duae provinciae factae sunt, Pontus Polemoniacus et Alpes Cottiae Cottio rege
+      defuncto.</p>
+    </div>
+    <div type="cap" n="686">
+     <p>67 p. Chr. Capito et Rufus</p>
+    </div>
+    <div type="cap" n="687">
+     <p>68 p. Chr. Italicus et Turpilianus</p>
+    </div>
+    <div type="cap" n="688">
+     <p>69 p. Chr. Silvanus et Otho</p>
+    </div>
+    <div type="cap" n="689">
+     <p>His conss. Romae sanctus Petrus et Paulus apostoli trucidati sunt a Nerone.</p>
+    </div>
+    <div type="cap" n="690">
+     <p>Qui turpiter vivens, cum a senatu quaereretur ad poenam, e Palatio fugiens ad IIII urbis
+      miliarium in suburbano Nomentana via sese interfecit anno aetatis XXXII.</p>
+    </div>
+    <div type="cap" n="691">
+     <p>Cui successit GALBA, qui regnavit mensibus VII.</p>
+    </div>
+    <div type="cap" n="692">
+     <p>Post hunc OTHO mensibus tribus diebus quinque.</p>
+    </div>
+    <div type="cap" n="693">
+     <p>Post VITELLIVS regnavit mensibus VIII die uno.</p>
+     <p>Qui omnes infra scriptos duos conss. tenuerunt.</p>
+    </div>
+    <div type="cap" n="694">
+     <p>70 p. Chr. Vespasianus et Titus</p>
+    </div>
+    <div type="cap" n="695">
+     <p>— Vespasianus II et Titus II</p>
+    </div>
+    <div type="cap" n="696">
+     <p>His conss. VESPASIANVS suscepit imperium, qui regnavit annis VIIII mensibus XI diebus XXII.
+      sub quo hi consules fuerunt. VII.</p>
+    </div>
+    <div type="cap" n="697">
+     <p>71 p. Chr. Vespasianus III et Nerva </p>
+    </div>
+    <div type="cap" n="698">
+     <p>72 p. Chr. Vespasianus IIII et Titus III</p>
+    </div>
+    <div type="cap" n="699">
+     <p>His conss. Titus filius Vespasiani Iudaea capta praeter quos gladio interfecit C milia
+      captivorum publice venundavit.</p>
+    </div>
+    <div type="cap" n="700">
+     <p>74 p. Chr. Vespasianus V et Titus IIII</p>
+    </div>
+    <div type="cap" n="701">
+     <p>75 p. Chr. Vespasianus VI et Titus V</p>
+    </div>
+    <div type="cap" n="702">
+     <p>76 p. Chr. Vespasianus VII et Titus VI</p>
+    </div>
+    <div type="cap" n="703">
+     <p>His conss. Vespasianus incensum Capitolium aedificare orsus est.</p>
+    </div>
+    <div type="cap" n="704">
+     <p>78 p. Chr. Commodus et Rufus</p>
+    </div>
+    <div type="cap" n="705">
+     <p>77 p. Chr. Vespasianus VIII et Titus VII</p>
+    </div>
+    <div type="cap" n="706">
+     <p>His conss. colossus erectus est habens altitudinis pedes CVII.</p>
+    </div>
+    <div type="cap" n="707">
+     <p>79 p. Chr. Vespasianus VIIII et Titus VIII </p>
+    </div>
+    <div type="cap" n="708">
+     <p>81 p. Chr. Silvanus et Verus </p>
+    </div>
+    <div type="cap" n="709">
+     <p>73 p. Chr. Domitianus et Messalianus</p>
+    </div>
+    <div type="cap" n="710">
+     <p>His conss. Vespasianus est mortuus profluvio ventris in villa propria circa Sabinos. cui
+      TITVS filius eius succedens in utraque lingua disertissimus regnavit annis duobus mensibus
+      duobus. sub quo hi consules extiterunt. VIII.</p>
+    </div>
+    <div type="cap" n="711">
+     <p>83 p. Chr. Domitianus II et Rufus II</p>
+    </div>
+    <div type="cap" n="712">
+     <p>His conss. Titus amphitheatrum Romae aedificavit et in dedicatione eius V milia ferarum
+      occidit.</p>
+    </div>
+    <div type="cap" n="713">
+     <p>84 p. Chr. Domitianus III et Sabinus</p>
+    </div>
+    <div type="cap" n="714">
+     <p>His conss. Titus morbo periit in eadem villa qua pater eius anno aetatis XLII ob insignem
+      mansuetudinem deliciae humani generis appellatus est. cui successit DOMITIANVS frater Titi
+      iunior crudelissimus, qui imperavit annis XV mensibus V. sub quo hi consules fuerunt.
+      VIIII.</p>
+    </div>
+    <div type="cap" n="715">
+     <p>85 p. Chr. Domitianus IIII et Rufus III</p>
+    </div>
+    <div type="cap" n="716">
+     <p>His conss. Domitianus eunuchos fieri prohibuit.</p>
+    </div>
+    <div type="cap" n="717">
+     <p>86 p. Chr. Domitianus V et Dolabella</p>
+    </div>
+    <div type="cap" n="718">
+     <p>88 p. Chr. Domitianus VI et Rufus IIII</p>
+    </div>
+    <div type="cap" n="719">
+     <p>89 p. Chr. Flavius et Traianus</p>
+    </div>
+    <div type="cap" n="720">
+     <p>90 p. Chr. Domitianus VII et Nerva</p>
+    </div>
+    <div type="cap" n="721">
+     <p>91 p. Chr. Traianus II et Gabrio</p>
+    </div>
+    <div type="cap" n="722">
+     <p>His conss. primus Domitianus dominum et deum se appellare iussit.</p>
+    </div>
+    <div type="cap" n="723">
+     <p>92 p. Chr. Domitianus VIII et Saturninus</p>
+    </div>
+    <div type="cap" n="724">
+     <p>93 p. Chr. Silvanus et Priscus</p>
+    </div>
+    <div type="cap" n="725">
+     <p>His conss. Quintillianus ex Hispania primus Romae scholam publicam et salarium e fisco
+      accepit et claruit.</p>
+    </div>
+    <div type="cap" n="726">
+     <p>94 p. Chr. Asprenas et Clemens </p>
+    </div>
+    <div type="cap" n="727">
+     <p>His conss. multa moenia et celeberrima Romae facta sunt, id est Capitolium forum
+      transitorium, divorum porticus, Iseum Serapium, stadium, horrea piperataria,</p>
+     <p>Vespasiani templum, Minerva Chalcedica, odion.</p>
+    </div>
+    <div type="cap" n="728">
+     <p>95 p. Chr. Domitianus VIIII et Clemens II</p>
+    </div>
+    <div type="cap" n="729">
+     <p>His conss. insignissima Romae facta sunt, id est forum Traiani, thermae Traianae et
+      Titianae, senatus, ludus matutinus, mica aurea, meta sudans et pantheus.</p>
+    </div>
+    <div type="cap" n="730">
+     <p>97 p. Chr. Nerva II et Rufus</p>
+    </div>
+    <div type="cap" n="731">
+     <p>96 p. Chr. Fulvius et Vetus</p>
+    </div>
+    <div type="cap" n="732">
+     <p>— Sabinus et Antoninus</p>
+    </div>
+    <div type="cap" n="733">
+     <p>98 p. Chr. Nerva III et Traianus III</p>
+    </div>
+    <div type="cap" n="734">
+     <p>99 p. Chr. Senecio et Palma</p>
+    </div>
+    <div type="cap" n="735">
+     <p>100 p. Chr. Traianus IIII et Fronto</p>
+    </div>
+    <div type="cap" n="736">
+     <p>His conss. Apollonius Tyaneus philosophus insignis habetur.</p>
+    </div>
+    <div type="cap" n="737">
+     <p>Domitianus occisus in Palatio anno aetatis XXXV. cui NERVA succedens regnat anno I mensibus
+      IIII. sub quo hi consules fuerunt. X.</p>
+    </div>
+    <div type="cap" n="738">
+     <p>101 p. Chr. Traianus V et Orfitus</p>
+    </div>
+    <div type="cap" n="739">
+     <p>102 p. Chr. Senecio II et Sura</p>
+    </div>
+    <div type="cap" n="740">
+     <p>His conss. Nerva morbo periit in hortis Sallustianis anno aetatis LXXII, cum iam TRAIANVM
+      adoptasset in filium. qui succedens imperavit annis XVIIII mensibus VI diebus XV. sub quo hi
+      consules fuerunt. XI.</p>
+    </div>
+    <div type="cap" n="741">
+     <p>103 p. Chr. Traianus VI et Maximus</p>
+    </div>
+    <div type="cap" n="742">
+     <p>— Senecio III et Sura II</p>
+    </div>
+    <div type="cap" n="743">
+     <p>104 p. Chr. Vrbanus et Marcellus</p>
+    </div>
+    <div type="cap" n="744">
+     <p>105 p. Chr. Candidus et Quadratus</p>
+    </div>
+    <div type="cap" n="745">
+     <p>His conss. Traianus de Dacis et Scythis triumphavit.</p>
+    </div>
+    <div type="cap" n="746">
+     <p>106 p. Chr. Commodus et Caerealis</p>
+    </div>
+    <div type="cap" n="747">
+     <p>His conss. Traianus Hiberos Sauromatas Hosroenos Arabas Bosphoranos Colchos in foedus
+      accepit, Seleuciam Etesifontem Babylonem occupavit et tenuit.</p>
+    </div>
+    <div type="cap" n="748">
+     <p>107 p. Chr. Senecio IIII et Sura III</p>
+    </div>
+    <div type="cap" n="749">
+     <p>His conss. Traianus in mari rubro classem instituit, ut per eam Indiae fines vastaret.</p>
+    </div>
+    <div type="cap" n="750">
+     <p>108 p. Chr. Gallus et Bradua</p>
+    </div>
+    <div type="cap" n="751">
+     <p>— Africanus et Crispinus</p>
+    </div>
+    <div type="cap" n="752">
+     <p>110 p. Chr.? Crispinus II et Bolenus</p>
+    </div>
+    <div type="cap" n="753">
+     <p>111 p. Chr.? Piso et Rusticus</p>
+    </div>
+    <div type="cap" n="754">
+     <p>112 p. Chr. Traianus VII et Africanus</p>
+    </div>
+    <div type="cap" n="755">
+     <p>113 p. Chr. Celsus et Crispinus</p>
+    </div>
+    <div type="cap" n="756">
+     <p>His conss. Plinius Secundus Novocomensis orator et historicus insignis habetur, cuius
+      ingenii plurima opera extant. </p>
+    </div>
+    <div type="cap" n="757">
+     <p>114 p. Chr. Asta et Piso</p>
+    </div>
+    <div type="cap" n="758">
+     <p>115 p. Chr. Messala et Pedon</p>
+    </div>
+    <div type="cap" n="759">
+     <p>116 p. Chr. Aemilius et Vetus</p>
+    </div>
+    <div type="cap" n="760">
+     <p>117 p. Chr. Niger et Apronianus</p>
+    </div>
+    <div type="cap" n="761">
+     <p>His conss. Traianus Armeniam Assyriam et Mesopotamiam provincias fecit.</p>
+    </div>
+    <div type="cap" n="762">
+     <p>Clarus et Alexander</p>
+    </div>
+    <div type="cap" n="763">
+     <p>118 p. Chr. Hadrianus et Salinator</p>
+    </div>
+    <div type="cap" n="764">
+     <p>119 p. Chr. Hadrianus II et Rusticus</p>
+    </div>
+    <div type="cap" n="765">
+     <p>120 p. Chr. Servilius et Fulvius</p>
+    </div>
+    <div type="cap" n="766">
+     <p>His conss. Traianus apud Seleuciam Hisauriae profluvio ventris extinctus est anno aetatis
+      LXIII mense VIIII die IIII. cuius ossa in urna aurea conlocata sub columna fori quod eius
+      nomine vocitatur recondita sunt. cuius columnae altitudo in CXL pedes erigitur. huic successit
+      HADRIANVS utraque lingua peritissimus, Italicae natus ex consobrina Traiani, qui regnavit
+      annis XX mensibus X diebus XXVIIII, sub quo hi consules fuerunt. XII.</p>
+    </div>
+    <div type="cap" n="767">
+     <p>121 p. Chr. Verus et Augur</p>
+    </div>
+    <div type="cap" n="768">
+     <p>His conss. Hadrianus Alexandriam a Romanis subversam publicis instauravit expensis.</p>
+    </div>
+    <div type="cap" n="769">
+     <p>122 p. Chr. Aviola et Pansa</p>
+    </div>
+    <div type="cap" n="770">
+     <p>His conss. Hadrianus reliqua tributorum urbibus relaxavit chartis publicis incensis,
+      plurimos etiam ipsis tributis liberos fecit.</p>
+    </div>
+    <div type="cap" n="771">
+     <p>123 p. Chr. Paternus et Torquatus</p>
+    </div>
+    <div type="cap" n="772">
+     <p>His conss. Plutarchus philosophus insignis habetur.</p>
+    </div>
+    <div type="cap" n="773">
+     <p>124 p. Chr. Gabrio et Apronianus</p>
+    </div>
+    <div type="cap" n="774">
+     <p>His conss. Nicomedia et Nicaenae urbis plurimis terrae motu conlapsis Hadrianus ad
+      instaurationem earum publicas largitur expensas.</p>
+    </div>
+    <div type="cap" n="775">
+     <p>125 p. Chr. Asiaticus et Quintus</p>
+    </div>
+    <div type="cap" n="776">
+     <p>126 p. Chr. Verus et Ambiguus</p>
+    </div>
+    <div type="cap" n="777">
+     <p>His conss. Atheniensibus leges petentibus Hadrianus ex Draconis et Solonis reliquorumque
+      libris iura composuit.</p>
+    </div>
+    <div type="cap" n="778">
+     <p>127 p. Chr. Gallicanus et Titianus</p>
+    </div>
+    <div type="cap" n="779">
+     <p>His conss. iuxta Eleusinam civitatem Cefiso fluvio Hadrianus pontem constravit.</p>
+    </div>
+    <div type="cap" n="780">
+     <p>128 p. Chr. Torquatus et Libo</p>
+    </div>
+    <div type="cap" n="781">
+     <p>129 p. Chr. Celsus et Marcellinus</p>
+    </div>
+    <div type="cap" n="782">
+     <p>131 p. Chr. Pontianus et Rufus</p>
+    </div>
+    <div type="cap" n="783">
+     <p>132 p. Chr. Augurinus et Sergianus </p>
+    </div>
+    <div type="cap" n="784">
+     <p>133 p. Chr. Tiberius et Silanus</p>
+    </div>
+    <div type="cap" n="785">
+     <p>His conss. Hadrianus a Christianorum persecutione cessavit.</p>
+    </div>
+    <div type="cap" n="786">
+     <p>Et pater patriae est appellatus.</p>
+    </div>
+    <div type="cap" n="787">
+     <p>134 p. Chr. Sergius II et Virus</p>
+    </div>
+    <div type="cap" n="788">
+     <p>135 p. Chr. Pompeianus et Atilianus</p>
+    </div>
+    <div type="cap" n="789">
+     <p>His conss. templum Romae et Veneris factum est, quod nunc urbis appellatur.</p>
+    </div>
+    <div type="cap" n="790">
+     <p>136 Pompeianus II et Commodus</p>
+    </div>
+    <div type="cap" n="791">
+     <p>His conss. Hadrianus cum insignes et plurimas aedes Athenis fecisset, agonem edidit
+      bibliothecamque miri operis exstruxit.</p>
+    </div>
+    <div type="cap" n="792">
+     <p>137 p. Chr. Laelius et Albinus</p>
+    </div>
+    <div type="cap" n="793">
+     <p>138 p. Chr. Camerinus et Niger</p>
+    </div>
+    <div type="cap" n="794">
+     <p>139 p. Chr. Antoninus et Praesens</p>
+    </div>
+    <div type="cap" n="795">
+     <p>140 p. Chr. Antoninus II et Praesens II</p>
+    </div>
+    <div type="cap" n="796">
+     <p>141 p. Chr. Severus et Silvanus</p>
+    </div>
+    <div type="cap" n="797">
+     <p>His conss. Aelia civitas, id est Hierusalem, ab Aelio Hadriano condita est et in fronte eius
+      portae, qua Bethleem egredimur, sus scalptus in marmore, significans Romanae potestati
+      subiacere Iudaeos.</p>
+    </div>
+    <div type="cap" n="798">
+     <p>142 p. Chr. Rufinus et Torquatus</p>
+    </div>
+    <div type="cap" n="799">
+     <p>His conss. Hadrianus morbo intercutis aquae apud Baias moritur maior sexagenario. cui
+      successit ANTONINVS PIVS, qui regnavit annis XXI. sub quo hi consules fuerunt. XIII.</p>
+    </div>
+    <div type="cap" n="800">
+     <p>143 p. Chr. Torquatus II et Herodes</p>
+    </div>
+    <div type="cap" n="801">
+     <p>144 p. Chr. Aviola et Maximus</p>
+    </div>
+    <div type="cap" n="802">
+     <p>145 p. Chr. Antoninus III et Aurelius</p>
+    </div>
+    <div type="cap" n="803">
+     <p>221 p. Chr. Gratus et Seleucus</p>
+    </div>
+    <div type="cap" n="804">
+     <p>His conss. Iustinus philosophus librum pro Christiana religione scriptum tradidit
+      Antonino.</p>
+    </div>
+    <div type="cap" n="805">
+     <p>Autoninus IIII et Aurelius II</p>
+    </div>
+    <div type="cap" n="806">
+     <p>147 p. Chr. Largus et Messalianus</p>
+    </div>
+    <div type="cap" n="807">
+     <p>148 p. Chr. Torquatus III et Iulianus</p>
+    </div>
+    <div type="cap" n="808">
+     <p>149 p. Chr. Orfitus et Priscus</p>
+    </div>
+    <div type="cap" n="809">
+     <p>150 p. Chr. Gabrio et Vetus</p>
+    </div>
+    <div type="cap" n="810">
+     <p>151 p. Chr. Gordianus et Maximus</p>
+    </div>
+    <div type="cap" n="811">
+     <p>152 p. Chr. Gabrio II et Romulus</p>
+    </div>
+    <div type="cap" n="812">
+     <p>153 p. Chr. Praesens et Rufus</p>
+    </div>
+    <div type="cap" n="813">
+     <p>154 p. Chr. Commodus et Lateranus</p>
+    </div>
+    <div type="cap" n="814">
+     <p>His conss. Apollonius stoicus natione Chalcidicus et Basilides Scytopolitanus philosophi
+      inlustres habentur, qui Caesaris quoque praeceptores fuerunt.</p>
+    </div>
+    <div type="cap" n="815">
+     <p>155 p. Chr. Verus et Sabinus</p>
+    </div>
+    <div type="cap" n="816">
+     <p>156 p. Chr. Silvanus et Augurinus</p>
+    </div>
+    <div type="cap" n="817">
+     <p>157 p. Chr. Barbarus et Regulus</p>
+    </div>
+    <div type="cap" n="818">
+     <p>158 p. Chr. Tertullus et Sacerdos</p>
+    </div>
+    <div type="cap" n="819">
+     <p>159 p. Chr. Quintillus et Priscus</p>
+    </div>
+    <div type="cap" n="820">
+     <p>160 p. Chr. Verus II et Bradua</p>
+    </div>
+    <div type="cap" n="821">
+     <p>Antoninus V et Aurelius III</p>
+    </div>
+    <div type="cap" n="822">
+     <p>p.c. Antonini V et Aureli III</p>
+    </div>
+    <div type="cap" n="823">
+     <p>Hoc tempore Antoninus Pius apud Lorium villam suam duodecimo ab urbe miliario moritur anno
+      vitae LXXVII. usque ad hoc tempus singuli Augusti fuerunt. cui successerunt filii sui, id est
+      MARCVS ANTONINVS VERVS et LVCIVS ANNIVS ANTONINVS SEVERVS, qui regnaverunt annis XVIIII. sub
+      quibus hi consules fuerunt. XIIII.</p>
+    </div>
+    <div type="cap" n="824">
+     <p>161 p. Chr. duo Angusti conss.</p>
+    </div>
+    <div type="cap" n="825">
+     <p>162 p. Chr. Rusticus et Aquilinus</p>
+    </div>
+    <div type="cap" n="826">
+     <p>His conss. Lucio Caesari Athenis sacrificanti ignis in caelo ab occidente in orientem ferri
+      visus est.</p>
+    </div>
+    <div type="cap" n="827">
+     <p>163 p. Chr. Laelianus et Pastor</p>
+    </div>
+    <div type="cap" n="828">
+     <p>164 p. Chr. Macrinus et Celsus</p>
+    </div>
+    <div type="cap" n="829">
+     <p>His conss. Fronto orator insignis habetur, qui Marcum Antoninum Latinis litteris
+      erudivit.</p>
+    </div>
+    <div type="cap" n="830">
+     <p>165 p. Chr. Orfitus et Pudens</p>
+    </div>
+    <div type="cap" n="831">
+     <p>His conss. Lucius Caesar de Parthis cum fratre Antonino triumphavit,</p>
+    </div>
+    <div type="cap" n="832">
+     <p>166 p. Chr. Pudens II et Pollio</p>
+    </div>
+    <div type="cap" n="833">
+     <p>167 p. Chr. Verus III et Quadratus</p>
+    </div>
+    <div type="cap" n="834">
+     <p>168 p. Chr. Apronianus et Paulus</p>
+    </div>
+    <div type="cap" n="835">
+     <p>169 p. Chr. Priscus et Apollinaris</p>
+    </div>
+    <div type="cap" n="836">
+     <p>170 p. Chr. Cethecus et Clarus</p>
+    </div>
+    <div type="cap" n="837">
+     <p>171 p. Chr. Severus et Herennianus</p>
+    </div>
+    <div type="cap" n="838">
+     <p>His conss. Lucius Annius Antoninus Severus anno regni undecimo inter Concordiam et Altinum
+      apoplexi extinctus est sedens cum fratre in vehiculo.</p>
+    </div>
+    <div type="cap" n="839">
+     <p>172 p. Chr. Orfitus et Maximus</p>
+    </div>
+    <div type="cap" n="840">
+     <p>173 p. Chr. Severus II et Pompeianus</p>
+    </div>
+    <div type="cap" n="841">
+     <p>174 p. Chr. Gallus et Flaccus</p>
+    </div>
+    <div type="cap" n="842">
+     <p>175 p. Chr. Piso et Iulianus</p>
+    </div>
+    <div type="cap" n="843">
+     <p>176 p. Chr. Pollio et Aper</p>
+    </div>
+    <div type="cap" n="844">
+     <p>177 p. Chr. Commodus et Quintillus</p>
+    </div>
+    <div type="cap" n="845">
+     <p>His conss. Marcus Antoninus Verus imperator Commodum filium suum consortem regni facit.</p>
+    </div>
+    <div type="cap" n="846">
+     <p>178 p. Chr. Orfitus et Rufus</p>
+    </div>
+    <div type="cap" n="847">
+     <p>His conss. imperatores de hostibus triumphant.</p>
+    </div>
+    <div type="cap" n="848">
+     <p>Et pecuniam quae fisco debehatur provinciis concedentes tabulas debitorum in medio Romanae
+      urbis foro incendio concremarunt. ac ne quid bonitatis deesset, severiores quasque leges novis
+      constitutionibus temperarunt. </p>
+    </div>
+    <div type="cap" n="849">
+     <p>179 p. Chr. Commodus II et Verus II</p>
+    </div>
+    <div type="cap" n="850">
+     <p>His conss. Antoninus Verus adeo in editione munerum magnificus fuit, ut centum simul leones
+      exhibuerit.</p>
+    </div>
+    <div type="cap" n="851">
+     <p>Qui post in Pannonia morbo periit. COMMODVS filius eius a senatu Augustus est appellatus,
+      qui regnavit ann. XIII. sub quo hi consules fuerunt. XV.</p>
+    </div>
+    <div type="cap" n="852">
+     <p>180 p. Chr. Praesens et Gordianus</p>
+    </div>
+    <div type="cap" n="853">
+     <p>181 p. Chr. Commodus III et Byrrus</p>
+    </div>
+    <div type="cap" n="854">
+     <p>182 p. Chr. Mamertinus et Rufus</p>
+    </div>
+    <div type="cap" n="855">
+     <p>183 p. Chr. Commodus IIII et Victorinus</p>
+    </div>
+    <div type="cap" n="856">
+     <p>184 p. Chr. Marullus et Haelianus</p>
+    </div>
+    <div type="cap" n="857">
+     <p>His conss. thermae Commodianae Romae factae sunt.</p>
+    </div>
+    <div type="cap" n="858">
+     <p>185 p. Chr. Maternus et Bradua</p>
+    </div>
+    <div type="cap" n="859">
+     <p>186 p. Chr. Commodus V et Gabrio</p>
+    </div>
+    <div type="cap" n="860">
+     <p>187 p. Chr. Crispinus et Haelianus</p>
+    </div>
+    <div type="cap" n="861">
+     <p>188 p. Chr. Fuscianus et Silanus</p>
+    </div>
+    <div type="cap" n="862">
+     <p>189 p. Chr. Duo et Silani</p>
+    </div>
+    <div type="cap" n="863">
+     <p>His conss. Commodus imperator colossi capite sublato suae imaginis caput iussit inponi.</p>
+    </div>
+    <div type="cap" n="864">
+     <p>190 p. Chr. Commodus VI et Septimianus</p>
+    </div>
+    <div type="cap" n="865">
+     <p>191 p. Chr. Apronianus et Bradua</p>
+    </div>
+    <div type="cap" n="866">
+     <p>192 p. Chr. Commodus VII et Pertinax</p>
+    </div>
+    <div type="cap" n="867">
+     <p>His conss. Commodus strangulatur in domo Vestiliani. cui successit PERTINAX, qui regnavit
+      mensibus VI. XVI.</p>
+    </div>
+    <div type="cap" n="868">
+     <p>193 p. Chr. Falco et Clarus</p>
+    </div>
+    <div type="cap" n="869">
+     <p>His conss. Pertinax occiditur in Palatio maior septuagenario. cui successit SEVERVS,
+      provincia Tripolitana natus, oppido Lepti, solusque Afer imperator Romanus fuit, qui regnavit
+      annis XVIII. sub quo hi consules fuerunt. XVII.</p>
+    </div>
+    <div type="cap" n="870">
+     <p>194 p. Chr. Severus et Albinus</p>
+    </div>
+    <div type="cap" n="871">
+     <p>195 p. Chr. Tertullus et Clemens</p>
+    </div>
+    <div type="cap" n="872">
+     <p>196 p. Chr. Dexter et Priscus</p>
+    </div>
+    <div type="cap" n="873">
+     <p>197 p. Chr. Lateranus et Rufinus</p>
+    </div>
+    <div type="cap" n="874">
+     <p>198 p. Chr. Saturninus et Gallus</p>
+    </div>
+    <div type="cap" n="875">
+     <p>199 p. Chr. Anulinus et Fronto</p>
+    </div>
+    <div type="cap" n="876">
+     <p>His conss. Severus Parthos et Adiabenos superavit Arabasque interiores ita cecidit, ut
+      regionem eorum Romanam provinciam faceret.</p>
+    </div>
+    <div type="cap" n="877">
+     <p>200 p. Chr. Severus II et Victorinus</p>
+    </div>
+    <div type="cap" n="878">
+     <p>201 p. Chr. Fabianus et Mucianus</p>
+    </div>
+    <div type="cap" n="879">
+     <p>His conss. thermae Severianae apud Antiochiam et Romae factae, et Septizodium instructum
+      est.</p>
+    </div>
+    <div type="cap" n="880">
+     <p>202 p. Chr. Severus III et Antoninus</p>
+    </div>
+    <div type="cap" n="881">
+     <p>203 p. Chr. Geta et Plautianus </p>
+    </div>
+    <div type="cap" n="882">
+     <p>204 p. Chr. Chilo et Libo</p>
+    </div>
+    <div type="cap" n="883">
+     <p>205 p. Chr. Antoninus II et Geta II</p>
+    </div>
+    <div type="cap" n="884">
+     <p>206 p. Chr. Albinus et Aelianus</p>
+    </div>
+    <div type="cap" n="885">
+     <p>207 p. Chr. Aper et Maximus</p>
+    </div>
+    <div type="cap" n="886">
+     <p>His conss. Severus inBrittannos bellum movit, ubi ut receptas provincias ab incursione
+      barbarica faceret securiores, vallum per CXXXII passuum milia a mari ad mare duxit.</p>
+    </div>
+    <div type="cap" n="887">
+     <p>208 p. Chr. Antoninus III et Geta III</p>
+    </div>
+    <div type="cap" n="888">
+     <p>209 p. Chr. Pompeianus et Avitus</p>
+    </div>
+    <div type="cap" n="889">
+     <p>His conss. Tertullianus Afer Christianorum scriptor celeberrimus habetur.</p>
+    </div>
+    <div type="cap" n="890">
+     <p>210 p. Chr. Faustinus et Rufus</p>
+    </div>
+    <div type="cap" n="891">
+     <p>His conss. Origenes scriptor Alexandriae studiis eruditur.</p>
+    </div>
+    <div type="cap" n="892">
+     <p>211 p. Chr. Gentianus et Bassus</p>
+    </div>
+    <div type="cap" n="893">
+     <p>His conss. Severus imperator Eboraci in Brittannia moritur. cui successit ANTONINVS
+      CARACALLA Severi filius, qui regnavit annis VII. sub quo hi consules fuerunt. XVIII.</p>
+    </div>
+    <div type="cap" n="894">
+     <p>212 p. Chr. Duo et Aspri</p>
+    </div>
+    <div type="cap" n="895">
+     <p>213 p. Chr. Antoninus et Balbinus</p>
+    </div>
+    <div type="cap" n="896">
+     <p>214 p. Chr. Messala et Sabinus</p>
+    </div>
+    <div type="cap" n="897">
+     <p>His conss. Antoninus Caracalla cognominatur propter genus vestis, quod Romae erogaverat.</p>
+    </div>
+    <div type="cap" n="898">
+     <p>215 p. Chr. Laetus et Caerealis</p>
+    </div>
+    <div type="cap" n="899">
+     <p>216 p. Chr. Sabinus II et Venustus</p>
+    </div>
+    <div type="cap" n="900">
+     <p>His conss. Antoninus Romae thermas qui nominis aedificavit.</p>
+    </div>
+    <div type="cap" n="901">
+     <p>217 p. Chr. Praesens et Extricatus</p>
+    </div>
+    <div type="cap" n="902">
+     <p>218 p. Chr. Antoninus et Adventus</p>
+    </div>
+    <div type="cap" n="903">
+     <p>His conss. Antoninus interficitur inter Edessam et Carras anno aetatis XLIII. cui successit
+      MACRINVS praefecturam praetorianam gerens; regnavit autem ann. I. sub quo hi consules fuerunt.
+      XVIIII.</p>
+    </div>
+    <div type="cap" n="904">
+     <p>219 p. Chr. Antoninus II et Sacerdos</p>
+    </div>
+    <div type="cap" n="905">
+     <p>His conss. Macrinus occiditur in Archelaide. cui successit M. AVRELIVS ANTONINVS, qui
+      regnavit ann. IIII. sub quo hi consules fuerunt.XX.</p>
+    </div>
+    <div type="cap" n="906">
+     <p>220 p. Chr. Antoninus III et Comazon</p>
+    </div>
+    <div type="cap" n="907">
+     <p>221 p. Chr. Gratus et Seleucus</p>
+    </div>
+    <div type="cap" n="908">
+     <p>His conss. Heliogabalum templum Romae aedificatur.</p>
+    </div>
+    <div type="cap" n="909">
+     <p>222 p. Chr. Alexander et Augustus </p>
+    </div>
+    <div type="cap" n="910">
+     <p>His conss. in Palaestina Nicopolis quae prius Emmaus vocabatur urbs condita est.</p>
+    </div>
+    <div type="cap" n="911">
+     <p>223 p. Chr. Maximus et Helianus</p>
+    </div>
+    <div type="cap" n="912">
+     <p>His conss. M. Aurelius Antoninus Romae occiditur tumultu militari. cui successit ALEXANDER
+      Mamaeae filius, qui regnavit annis XIII. sub quo hi consules fuerunt. XXI.</p>
+    </div>
+    <div type="cap" n="913">
+     <p>224 p. Chr. Iulianus et Crispinus</p>
+    </div>
+    <div type="cap" n="914">
+     <p>His conss. Alexander Xerxem regem Persarum vicit.</p>
+    </div>
+    <div type="cap" n="915">
+     <p>225 p. Chr. Fuscus et Dexter</p>
+    </div>
+    <div type="cap" n="916">
+     <p>226 p. Chr. Alexander II et Marcellus</p>
+    </div>
+    <div type="cap" n="917">
+     <p>Annianus et Maximus</p>
+    </div>
+    <div type="cap" n="918">
+     <p>His conss. Vlpianus iuris consultus adsessor Alexandri insignissimus habetur.</p>
+    </div>
+    <div type="cap" n="919">
+     <p>227 p. Chr. Albinus et Maximus</p>
+    </div>
+    <div type="cap" n="920">
+     <p>His conss. Neronianae thermae Alexandrianae vocatae sunt.</p>
+    </div>
+    <div type="cap" n="921">
+     <p>228 p. Chr. Modestus et Probus</p>
+    </div>
+    <div type="cap" n="922">
+     <p>229 p. Chr. Alexander III et Dio</p>
+    </div>
+    <div type="cap" n="923">
+     <p>221 p. Chr. Gratus et Seleucus</p>
+    </div>
+    <div type="cap" n="924">
+     <p>His conss. Origenes Alexandriae clarus habetur.</p>
+    </div>
+    <div type="cap" n="925">
+     <p>231 p. Chr. Pompeianus et Felicianus</p>
+    </div>
+    <div type="cap" n="926">
+     <p>232 p. Chr. Lupus et Maximus</p>
+    </div>
+    <div type="cap" n="927">
+     <p>His conss. Alexander in matrem Mamaeam unice pius fuit et ob hoc cunctis amabilis.</p>
+    </div>
+    <div type="cap" n="928">
+     <p>233 p. Chr. Maximus et Paternus</p>
+    </div>
+    <div type="cap" n="929">
+     <p>234 p. Chr. Maximus II et Urbanus</p>
+    </div>
+    <div type="cap" n="930">
+     <p>235 p. Chr. Severus et Quintianus</p>
+    </div>
+    <div type="cap" n="931">
+     <p>His conss. Alexander occiditur Mogontiaci tumultu militari. cui successit MAXIMINVS regnans
+      annis tribus, primus omnium ex corpore militari imperator electus. sub quo hi conss. fuerunt.
+      XXII.</p>
+    </div>
+    <div type="cap" n="932">
+     <p>236 p. Chr. Maximinus et Africanus</p>
+    </div>
+    <div type="cap" n="933">
+     <p>237 p. Chr. Perpetuus et Cornelianus</p>
+    </div>
+    <div type="cap" n="934">
+     <p>238 p. Chr. Pius et Proculus</p>
+    </div>
+    <div type="cap" n="935">
+     <p>His conss. Maximinus Aquileiae occiditur. cui successit GORDIANVS, qui regnavit ann. VI. sub
+      quo hi consules fuerunt.XXIII.</p>
+    </div>
+    <div type="cap" n="936">
+     <p>239 p. Chr. Gordianus et Aviola</p>
+    </div>
+    <div type="cap" n="937">
+     <p>240 p. Chr. Sabinus et Venustus</p>
+    </div>
+    <div type="cap" n="938">
+     <p>His conss. Gordiano Romae ingresso Pupienus et Albinus, qui imperium arripuerant, in Palatio
+      occisi sunt.</p>
+    </div>
+    <div type="cap" n="939">
+     <p>241 p. Chr. Gordianus II et Pompeianus</p>
+    </div>
+    <div type="cap" n="940">
+     <p>242 p. Chr. Atticus et Praetextatus</p>
+    </div>
+    <div type="cap" n="941">
+     <p>243 p. Chr. Arrianus et Pappus</p>
+    </div>
+    <div type="cap" n="942">
+     <p>244 p. Chr. Peregrinus et Aemilianus</p>
+    </div>
+    <div type="cap" n="943">
+     <p>His conss. Gordianus admodum adulescens Parthorum natione superata cum victor reverteretur
+      ad patriam, fraude Philippi p(raefecti) p(raetori)o haud longe a Romano solo interfectus est.
+      Gordiano milites tumulum aedificant supra Eufratem ossibus eius Romam revectis. cui successit
+      PHILIPPVS, qui regnavit annis VII. qui mox PHILIPPVM FILIVM suum consortem regni facit
+      primusque omnium ex Romanis imperatoribus Christianus fuit. sub quo hi consules fuerunt.
+      XXIIII. </p>
+    </div>
+    <div type="cap" n="944">
+     <p>245 p. Chr. Philippus et Titianus</p>
+    </div>
+    <div type="cap" n="945">
+     <p>246 p. Chr. Praesens et Albinus</p>
+    </div>
+    <div type="cap" n="946">
+     <p>247 p. Chr. Philippus II et Philippus</p>
+    </div>
+    <div type="cap" n="947">
+     <p>248 p. Chr. Philippus III et Philippus II</p>
+    </div>
+    <div type="cap" n="948">
+     <p>249 p. Chr. Aemilianus et Aquilinus</p>
+    </div>
+    <div type="cap" n="949">
+     <p>His conss. millesimus annus urbis Romae expletus est, ob quam sollemnitatem innumerabiles
+      Philippus cum filio suo bestias in circo magno interfecit ludosque in campo Martio theatrales
+      tribus diebus ac noctibus populo pervigilante celebravit. quadraginta etiam missus natali
+      Romanae urbis cucurrerunt et agon mille annorum actus.</p>
+    </div>
+    <div type="cap" n="950">
+     <p>Philippus urbem nominis sui in Thracia construxit.</p>
+    </div>
+    <div type="cap" n="951">
+     <p>250 p. Chr. Decius et Gratus</p>
+    </div>
+    <div type="cap" n="952">
+     <p>251 p. Chr. Decius II et Rusticus</p>
+    </div>
+    <div type="cap" n="953">
+     <p>His conss. Philippus senior Veronae, Romae vero iunior occiditur. his successit DECIVS, qui
+      regnavit anno I mensibus tribus, quantum ad consules autem annum I. sub quo hi consules
+      fuerunt. XXV.</p>
+    </div>
+    <div type="cap" n="954">
+     <p>252 p. Chr. Gallus et Volusianus</p>
+    </div>
+    <div type="cap" n="955">
+     <p>His conss. Decius lavacra publica aedificavit, quae suo nomine appellari iussit.</p>
+    </div>
+    <div type="cap" n="956">
+     <p>Decius cum filio suo in Abritto Thraciae loco a Gothis occiditur. cui successit GALLVS CVM
+      VOLVSIANO filio, qui regnaverunt annis II et mensibus IIII, quantum ad consulatum autem annis
+      tantum duobus. sub quibus hi conss. fuerunt. XXVI.</p>
+    </div>
+    <div type="cap" n="957">
+     <p>253 p. Chr. Volusianus II et Maximus</p>
+    </div>
+    <div type="cap" n="958">
+     <p>His conss. Novatianus apparuit.</p>
+    </div>
+    <div type="cap" n="959">
+     <p>254 p. Chr. Valerianus et Gallienus</p>
+    </div>
+    <div type="cap" n="960">
+     <p>His conss. Gallus et Volusianus Teramnae interfecti sunt. quibus successerunt VALERIANVS ET
+      GALLIENVS, qui regnaverunt annis XV. sub quibus hi conss. fuerunt. XXVII.</p>
+    </div>
+    <div type="cap" n="961">
+     <p>255 p. Chr. Valerianus II et Gallienus II</p>
+    </div>
+    <div type="cap" n="962">
+     <p>256 p. Chr. Maximus II et Gabrio</p>
+    </div>
+    <div type="cap" n="963">
+     <p>257 p. Chr. Valerianus III et Gallienus III</p>
+    </div>
+    <div type="cap" n="964">
+     <p>His conss. Cyprianus, primum rhetor, deinde presbyter, ad extremum Carthaginiensis
+      episcopus, martyrio coronatur.</p>
+    </div>
+    <div type="cap" n="965">
+     <p>258 p. Chr. Tuscus et Bassus</p>
+    </div>
+    <div type="cap" n="966">
+     <p>His conss. Valerianus in Christianos persecutione commota statim a Sapore Persarum rege
+      capitur ibique servitute miserabili consenescit.</p>
+    </div>
+    <div type="cap" n="967">
+     <p>259 p. Chr. Aemilianus et Bassus</p>
+    </div>
+    <div type="cap" n="968">
+     <p>260 p. Chr. Secularis et Donatus</p>
+    </div>
+    <div type="cap" n="969">
+     <p>261 p. Chr. Gallienus IIII et Gentianus</p>
+    </div>
+    <div type="cap" n="970">
+     <p>262 p. Chr. Gallienus V et Victorinus</p>
+    </div>
+    <div type="cap" n="971">
+     <p>263 p. Chr. Albinus et Maximus</p>
+    </div>
+    <div type="cap" n="972">
+     <p>His conss. Graecia Macedonia Pontus Asia depopulata per Gothos, aliasque provincias
+      barbarorum quassavit inruptio.</p>
+    </div>
+    <div type="cap" n="973">
+     <p>264 p. Chr. Gallienus VI et Saturninus</p>
+    </div>
+    <div type="cap" n="974">
+     <p>265 p. Chr. Valerius et Lucillus</p>
+    </div>
+    <div type="cap" n="975">
+     <p>266 p. Chr. Gallienus VII et Sabinillus</p>
+    </div>
+    <div type="cap" n="976">
+     <p>267 p. Chr. Paternus et Archisilaus</p>
+    </div>
+    <div type="cap" n="977">
+     <p>268 p. Chr. Paternus II et Mariuus</p>
+    </div>
+    <div type="cap" n="978">
+     <p>269 p. Chr. Claudius et Paternus</p>
+    </div>
+    <div type="cap" n="979">
+     <p>His conss. Gallienus Mediolani occiditur, cui successit CLAVDIVS, qui regnavit anno I
+      mensibus VIIII. sub quo hi consules fuerunt. XXVIII.</p>
+    </div>
+    <div type="cap" n="980">
+     <p>270 p. Chr. Antiochianus et Orphitus</p>
+    </div>
+    <div type="cap" n="981">
+     <p>271 p. Chr. Valerianus et Bassus</p>
+    </div>
+    <div type="cap" n="982">
+     <p>His conss. Claudius barbaros vastantes repellit</p>
+    </div>
+    <div type="cap" n="983">
+     <p>et Sirmi moritur. huic successit QVINTILLVS Claudii frater a senatu Augustus appellatus qui
+      XVII imperii sui die Aquileiae occiditur.</p>
+    </div>
+    <div type="cap" n="984">
+     <p>Post quem AVRELIANVS factus est imperator, qui regnavit annis V mensibus VI. sub quo hi
+      consules fuerunt. XXVIIII.</p>
+    </div>
+    <div type="cap" n="985">
+     <p>272 p. Chr. Quietus et Voldumianus </p>
+    </div>
+    <div type="cap" n="986">
+     <p>273 p. Chr. Tacitus et Placidianus</p>
+    </div>
+    <div type="cap" n="987">
+     <p>274 p. Chr. Aurelianus et Capitolinus </p>
+    </div>
+    <div type="cap" n="988">
+     <p>His conss. Aurelianum Romae triumphantem captivi Tetricus et Zenobia praecesserunt.</p>
+    </div>
+    <div type="cap" n="989">
+     <p>275 p. Chr. Aurelianus II et Marcellus</p>
+    </div>
+    <div type="cap" n="990">
+     <p>His conss. Aurelianus templum Soli aedificavit, Romam firmioribus muris vallat.</p>
+    </div>
+    <div type="cap" n="991">
+     <p>277 p. Chr. Probus et Paulinus</p>
+    </div>
+    <div type="cap" n="992">
+     <p>278 p. Chr. Probus II et Paternus II</p>
+    </div>
+    <div type="cap" n="993">
+     <p>His conss. inter Constantinopolim et Heracliam Aurelianus occiditur. cui successit TACITVS,
+      qui regnavit mensibus VI. sub quo hi consules fuerunt. XXX.</p>
+    </div>
+    <div type="cap" n="994">
+     <p>279 p. Chr. Probus III et Paternus III </p>
+    </div>
+    <div type="cap" n="995">
+     <p>His conss. Tacitus in Ponto occisus est et optinuit FLORIANVS imperium diebus LXXXVIII.</p>
+    </div>
+    <div type="cap" n="996">
+     <p>Hoc quoque apud Tarsim interfecto PROBVS factus est imperator, qui regnavit annis VI
+      mensibus III. sub quo hi consules fuerunt. XXXI.</p>
+    </div>
+    <div type="cap" n="997">
+     <p>280 p. Chr. Messala et Gratus</p>
+    </div>
+    <div type="cap" n="998">
+     <p>His conss. Galliae, quae fuerant a barbaris occupatae, a Probo Romano restituuntur
+      imperio.</p>
+    </div>
+    <div type="cap" n="999">
+     <p>281 p. Chr. Probus IIII et Tiberianus</p>
+    </div>
+    <div type="cap" n="1000">
+     <p>282 p. Chr. Probus V et Victorinus</p>
+    </div>
+    <div type="cap" n="1001">
+     <p>His conss. insana Manichaeorum haeresis exorta est.</p>
+    </div>
+    <div type="cap" n="1002">
+     <p>283 p. Chr. Carus et Carinus</p>
+    </div>
+    <div type="cap" n="1003">
+     <p>284 p. Chr. Carus II et Numerianus</p>
+    </div>
+    <div type="cap" n="1004">
+     <p>285 p. Chr. Diocletianus et Aristobolus</p>
+    </div>
+    <div type="cap" n="1005">
+     <p>His conss. Probus apud Sirmium tumultu militari in turre quae vocatur Ferrata occiditur. cui
+      successit CARVS CVM filiis suis CARINO ET NVMERIANO, qui reguaverunt annis duobus. sub quibus
+      hi consules fuerunt. XXXII.</p>
+    </div>
+    <div type="cap" n="1006">
+     <p>286 p. Chr. Maximus et Aquilinus</p>
+    </div>
+    <div type="cap" n="1007">
+     <p>His conss. cum Carus devictis Parthis castra supra Tigridem posuisset, fulmine ictus
+      interiit.</p>
+    </div>
+    <div type="cap" n="1008">
+     <p>287 p. Chr. Diocletianus et Maximianus</p>
+    </div>
+    <div type="cap" n="1009">
+     <p>His conss. Numerianus occiditur. Carinus apud Margum proelio victus interiit. post quos
+      DIOCLETIANVS Dalmata suscepit imperium, qui regnavit annis XX. sub quo hi consules fuerunt
+      XXXIII.</p>
+    </div>
+    <div type="cap" n="1010">
+     <p>288 p. Chr. Maximianus II et Ianuarius</p>
+    </div>
+    <div type="cap" n="1011">
+     <p>289 p. Chr. Bassus et Quintianus</p>
+    </div>
+    <div type="cap" n="1012">
+     <p>His conss. Diocletianus in consortium regni Herculium Maximianum adsumit.</p>
+    </div>
+    <div type="cap" n="1013">
+     <p>290 p. Chr. Diocletianus III et Maximianus III</p>
+    </div>
+    <div type="cap" n="1014">
+     <p>291 p. Chr. Tiberianus et Dio</p>
+    </div>
+    <div type="cap" n="1015">
+     <p>292 p. Chr. Annibalianus et Asclepiodotus</p>
+    </div>
+    <div type="cap" n="1016">
+     <p>293 p. Chr. Diocletianus IIII et Maximianus IIII</p>
+    </div>
+    <div type="cap" n="1017">
+     <p>294 p. Chr. Constantius et Maximus</p>
+    </div>
+    <div type="cap" n="1018">
+     <p>295 p. Chr. Tuscus et Anulinus</p>
+    </div>
+    <div type="cap" n="1019">
+     <p>296 p. Chr. Diocletianus V et Constantius II</p>
+    </div>
+    <div type="cap" n="1020">
+     <p>297 p. Chr. Maximianus V et Maximus II</p>
+    </div>
+    <div type="cap" n="1021">
+     <p>298 p. Chr. Faustus et Gallus</p>
+    </div>
+    <div type="cap" n="1022">
+     <p>His conss. primus Diocletianus adorari se iussit ut deum et gemmas vestibus calciamentisque
+      conseruit, cum ante eum omnes imperatores in modum iudicum salutarentur et chlamydem tantum
+      purpuream a privato habitu plus haberent.</p>
+    </div>
+    <div type="cap" n="1023">
+     <p>299 p. Chr. Diocletianus VI et Maximianus VI</p>
+    </div>
+    <div type="cap" n="1024">
+     <p>300 p. Chr. Constantius III et Maximus III</p>
+    </div>
+    <div type="cap" n="1025">
+     <p>301 p. Chr. Titianus et Nepotianus </p>
+    </div>
+    <div type="cap" n="1026">
+     <p>302 p. Chr. Constantius IIII et Maximus IIII</p>
+    </div>
+    <div type="cap" n="1027">
+     <p>His conss. LX milia Alamannorum caesa sunt. </p>
+    </div>
+    <div type="cap" n="1028">
+     <p>303 p. Chr. Diocletianus VII et Maximianus VII</p>
+    </div>
+    <div type="cap" n="1019">
+     <p>304 p. Chr. Diocletianus VIII et Maximianus VIII</p>
+    </div>
+    <div type="cap" n="1030">
+     <p>305 p. Chr. Constantius V et Maximus V</p>
+    </div>
+    <div type="cap" n="1031">
+     <p>306 p. Chr. Constantius VI et Maximus VI</p>
+    </div>
+    <div type="cap" n="1032">
+     <p>His conss. Diocletianus et Maximianus Augg. insigni pompa Romae triumpharunt, antecedentibus
+      currum eorum Narsei coniuge sororibus liberis et omni pompa, qua Parthos spoliaverant.</p>
+    </div>
+    <div type="cap" n="1033">
+     <p>307 p. Chr. Diocletianus VIIII et Constantinus</p>
+    </div>
+    <div type="cap" n="1034">
+     <p>308 p. Chr. Diocletianus X et Maximus VII</p>
+    </div>
+    <div type="cap" n="1035">
+     <p>His conss. Diocletianus Nicomediae, Maximianus Mediolani purpuram deposuerunt ob aetatis
+      defectum et creati sunt CONSTANTIVS ET GALERIVS. sed Constantius tantum Augusti dignitate
+      contentus cum esset otiosus, anni ipsius adscribuntur filio eius CONSTANTINO, qui natus
+      dicitur ex Helena concubina, qui regnavit annis XXX mensibus X. sub quo hi consules fuerunt.
+      XXXIIII.</p>
+    </div>
+    <div type="cap" n="1036">
+     <p>309 p. Chr. p. c. Diocletiani X et Maximi VII</p>
+    </div>
+    <div type="cap" n="1037">
+     <p>310 p. Chr. II p.c. Diocletiani X et Maximi VII</p>
+    </div>
+    <div type="cap" n="1038">
+     <p>311 p. Chr. Maximus VIII et Licinius</p>
+    </div>
+    <div type="cap" n="1039">
+     <p>312 p. Chr. Constantinus II et Licinius II</p>
+    </div>
+    <div type="cap" n="1040">
+     <p>313 p. Chr. Constantinus III et Licinius III</p>
+    </div>
+    <div type="cap" n="1041">
+     <p>314 p. Chr. Volusianus et Annianus</p>
+    </div>
+    <div type="cap" n="1042">
+     <p>315 p. Chr. Constantinus IIII et Licinius IIII</p>
+    </div>
+    <div type="cap" n="1043">
+     <p>316 p. Chr. Sabinus et Rufus</p>
+    </div>
+    <div type="cap" n="1044">
+     <p>317 p. Chr. Gallicanus et Bassus</p>
+    </div>
+    <div type="cap" n="1045">
+     <p>318 p. Chr. Licinius V et Crispus</p>
+    </div>
+    <div type="cap" n="1046">
+     <p>319 p. Chr. Constantinus V et Licinius Caes.</p>
+    </div>
+    <div type="cap" n="1047">
+     <p>320 p. Chr. Constantinus VI et Constantius Caes.</p>
+    </div>
+    <div type="cap" n="1048">
+     <p>321 p. Chr. Crispus II et Constantius Caes. II.</p>
+    </div>
+    <div type="cap" n="1049">
+     <p>322 p. Chr. Probianus et Iulianus</p>
+    </div>
+    <div type="cap" n="1050">
+     <p>323 p. Chr. Severus et Rufinus</p>
+    </div>
+    <div type="cap" n="1051">
+     <p>324 p. Chr. Crispus III et Constantius III</p>
+    </div>
+    <div type="cap" n="1052">
+     <p>325 p. Chr. Paulinus et Iulianus</p>
+    </div>
+    <div type="cap" n="1053">
+     <p>326 p. Chr. Constantinus VII et Constantius IIII</p>
+    </div>
+    <div type="cap" n="1054">
+     <p>327 p. Chr. Constantius V et Maximus</p>
+    </div>
+    <div type="cap" n="1055">
+     <p>328 p. Chr. Ianuarinus et Iustus</p>
+    </div>
+    <div type="cap" n="1056">
+     <p>His conss. vicennalia Constantini Nicomediae acta et sequenti anno Romae edita.</p>
+    </div>
+    <div type="cap" n="1057">
+     <p>329 p. Chr. Constantinus VIII et Constantius VI </p>
+    </div>
+    <div type="cap" n="1058">
+     <p>330 p. Chr. Constantius VII et Symmachus</p>
+    </div>
+    <div type="cap" n="1059">
+     <p>331 p. Chr. Bassus et Ablabius</p>
+    </div>
+    <div type="cap" n="1060">
+     <p>332 p. Chr. Pacatianus et Hilarianus</p>
+    </div>
+    <div type="cap" n="1061">
+     <p>His conss. civitas, quae prius Byzantium dicta est, mutato nomine a Constantino
+      Constantinopolis dedicatur.</p>
+    </div>
+    <div type="cap" n="1062">
+     <p>333 p. Chr. Dalmatius et Zenophilus</p>
+    </div>
+    <div type="cap" n="1063">
+     <p>334 p. Chr. Optatus et Paulinus</p>
+    </div>
+    <div type="cap" n="1064">
+     <p>335 p. Chr. Constantius et Albinus</p>
+    </div>
+    <div type="cap" n="1065">
+     <p>336 p. Chr. Nepotianus et Facundus</p>
+    </div>
+    <div type="cap" n="1066">
+     <p>337 p. Chr. Felicianus et Titianus</p>
+    </div>
+    <div type="cap" n="1067">
+     <p>338 p. Chr. Vrsus et Polemius</p>
+    </div>
+    <div type="cap" n="1068">
+     <p>339 p. Chr. Constantius II et Constans</p>
+    </div>
+    <div type="cap" n="1069">
+     <p>His conss. Constantinus imp. dum bellum pararet in Persas, in Acyrone villa publica iuxta
+      Nicomediam moritur anno aetatis LXVI. post quem tres liberi eius, id est CONSTANTINVS,
+      CONSTANTIVS ET CONSTANS, qui regnaverunt annis XXIIII mensibus V diebus XXIII. sub quibus hi
+      consulers fuerunt. XXXV.</p>
+    </div>
+    <div type="cap" n="1070">
+     <p>340 p. Chr. Acyndinus et Proculus</p>
+    </div>
+    <div type="cap" n="1071">
+     <p>341 p. Chr. Marcellinus et Probinus</p>
+    </div>
+    <div type="cap" n="1072">
+     <p>342 p. Chr. Constantius III et Constans II</p>
+    </div>
+    <div type="cap" n="1073">
+     <p>His conss. Constantinus bellum fratri Constantio inferens iuxta Aquileiam Alsae
+      occiditur.</p>
+    </div>
+    <div type="cap" n="1074">
+     <p>343 p. Chr. Placidus et Romulus</p>
+    </div>
+    <div type="cap" n="1075">
+     <p>344 p. Chr. Leontius et Salustius</p>
+    </div>
+    <div type="cap" n="1076">
+     <p>His conss. Franci a Constante perdomiti in pacem recepti sunt. </p>
+    </div>
+    <div type="cap" n="1077">
+     <p>Constantius IIII et Constans III</p>
+    </div>
+    <div type="cap" n="1078">
+     <p>345 p. Chr. Amantius et Albinus</p>
+    </div>
+    <div type="cap" n="1079">
+     <p>346 p. Chr. p. c. Amantii et Albini</p>
+    </div>
+    <div type="cap" n="1080">
+     <p>347 p. Chr. Rufinus et Eusebius</p>
+    </div>
+    <div type="cap" n="1081">
+     <p>His conss. magnis rei publicae expensis in Seleucia Syriae portus efficitur.</p>
+    </div>
+    <div type="cap" n="1082">
+     <p>348 p. Chr. Philippus et Sallia</p>
+    </div>
+    <div type="cap" n="1083">
+     <p>His conss. solis facta defectio.</p>
+    </div>
+    <div type="cap" n="1084">
+     <p>349 p. Chr. Limenius et Catulinus</p>
+    </div>
+    <div type="cap" n="1085">
+     <p>350 p. Chr. Sergius et Nigridianus</p>
+    </div>
+    <div type="cap" n="1086">
+     <p>His conss. Constans haud longe ab Hispania in castro cui Helenae nomen est interficitur anno
+      aetatis XXX et Constantius remansit in regno. </p>
+    </div>
+    <div type="cap" n="1087">
+     <p>351 p. Chr. p. c. Sergii et Nigriniani</p>
+    </div>
+    <div type="cap" n="1088">
+     <p>352 p. Chr. Constantius Vet Constans Caes.</p>
+    </div>
+    <div type="cap" n="1089">
+     <p>353 p. Chr. Constantius VI et Constans Caes. II</p>
+    </div>
+    <div type="cap" n="1090">
+     <p>354 p. Chr. Constantius VII et Constans Caes. III</p>
+    </div>
+    <div type="cap" n="1091">
+     <p>355 p. Chr. Arbitrio et Lollianus</p>
+    </div>
+    <div type="cap" n="1092">
+     <p>His conss. Victorinus rhetor et Donatus grammaticus Romae insignes habentur.</p>
+    </div>
+    <div type="cap" n="1093">
+     <p>356 p. Chr. Constantius VIII et Iulianus Caes.</p>
+    </div>
+    <div type="cap" n="1094">
+     <p>357 p. Chr. Constantius VIIII et Iulianus Caes. II</p>
+    </div>
+    <div type="cap" n="1095">
+     <p>His conss. magnae Alamannorum copiae apud Argentoratum oppidum Galliarum deletae sunt.</p>
+    </div>
+    <div type="cap" n="1096">
+     <p>358 p. Chr. Titianus et Caerealis</p>
+    </div>
+    <div type="cap" n="1097">
+     <p>359 p. Chr. Eusebius et Hypatius</p>
+    </div>
+    <div type="cap" n="1098">
+     <p>360 p. Chr. Constantius X et Iulianus Caes. III</p>
+    </div>
+    <div type="cap" n="1099">
+     <p>His conss. Honoratus nomine primus Constantinopoli praefectus urbi esse coepit.</p>
+    </div>
+    <div type="cap" n="1100">
+     <p>361 p. Chr. Taurus et Florentius</p>
+    </div>
+    <div type="cap" n="1101">
+     <p>362 p. Chr. Mamertinus et Nevitta</p>
+    </div>
+    <div type="cap" n="1102">
+     <p>His conss. Constantius Mopsocrenis inter Ciliciam Cappadociamque moritur anno aetatis XLVI.
+      cui successit IVLIANVS qui regnavit annum I. sub quo hi consules fuerunt. XXXVI.</p>
+    </div>
+    <div type="cap" n="1103">
+     <p>363 p. Chr. Iulianus IIII et Sallustius</p>
+    </div>
+    <div type="cap" n="1104">
+     <p>His conss. Iulianus post victoriam apud Persas occiditur anno aetatis XXXII. post quem
+      sequenti die Iovianusprimicerio domesticorum factus est imperator, qui regnavit mensibus VIII.
+      sub quo hi consules fuerunt. XXXVII.</p>
+    </div>
+    <div type="cap" n="1105">
+     <p>364 p. Chr. Iovianus et Varronianus</p>
+    </div>
+    <div type="cap" n="1106">
+     <p>His conss. Iovianus imp. moritur anno aetatis XXXIIII. post quem VALENTINIANVS tribunus
+      scutariorum apud Nicaeam Augustus appellatus fratrem VALENTEM Constantinopoli in communionem
+      adsumit imperii, qui regnavit annis XIIII mensibus V. sub quo hi consules fuerunt.
+      XXXVIII.</p>
+    </div>
+    <div type="cap" n="1107">
+     <p>365 p. Chr. Valentinianus et Valens </p>
+    </div>
+    <div type="cap" n="1108">
+     <p>366 p. Chr. Gratianus et Gadalaifus</p>
+    </div>
+    <div type="cap" n="1109">
+     <p>367 p. Chr. Lubicinus et Iovinus</p>
+    </div>
+    <div type="cap" n="1110">
+     <p>His conss. Gratianus Valentiniani filius Ambianis imperator factus est.</p>
+    </div>
+    <div type="cap" n="1111">
+     <p>Apud Atrabatas lana caelo pluviae mixta defluxit.</p>
+    </div>
+    <div type="cap" n="1112">
+     <p>368 p. Chr. Valentinianus II et Valens II</p>
+    </div>
+    <div type="cap" n="1113">
+     <p>369 p. Chr. Valentinianus n. p. et Victor</p>
+    </div>
+    <div type="cap" n="1114">
+     <p> 370 p. Chr. Valentinianus III et Valens III</p>
+    </div>
+    <div type="cap" n="1115">
+     <p>371 p. Chr. Gratianus II et Probus</p>
+    </div>
+    <div type="cap" n="1116">
+     <p>372 p. Chr. Modestus et Arintheus</p>
+    </div>
+    <div type="cap" n="1117">
+     <p>373 p. Chr. Valentinianus IIII et Valens IIII</p>
+    </div>
+    <div type="cap" n="1118">
+     <p>His conss. Saxones caesi Deusone in regione Francorum.</p>
+    </div>
+    <div type="cap" n="1119">
+     <p>Burgundionum LXXX fere milia, quot numquam antea, ad Rhenum descenderunt.</p>
+    </div>
+    <div type="cap" n="1120">
+     <p>Clearchus praefectus urbi Constantinopolim necessariam aquam et quam diu civitas optabat
+      induxit. </p>
+    </div>
+    <div type="cap" n="1121">
+     <p>374 p. Chr. Gratianus III et Equitius</p>
+    </div>
+    <div type="cap" n="1122">
+     <p>375 p. Chr. p.c. Gratiani III et Equitii</p>
+    </div>
+    <div type="cap" n="1123">
+     <p>376 p. Chr. Valens V et Valentinianus</p>
+    </div>
+    <div type="cap" n="1124">
+     <p>His conss. Valentinianus apoplexi Brigitione moritur. post quem Gratianus adsumpto imperio
+      Valentiniano fratre cum patruo Valente regnat.</p>
+    </div>
+    <div type="cap" n="1125">
+     <p>377 p. Chr. Gratianus IIII et Merobaudes</p>
+    </div>
+    <div type="cap" n="1126">
+     <p>His conss. Alamannorum circiter XXX milia apud Argentariam oppiodum Galliarum caesa.</p>
+    </div>
+    <div type="cap" n="1127">
+     <p>Gothi diffunduntur in Thracia.</p>
+    </div>
+    <div type="cap" n="1128">
+     <p>378 p. Chr. Valens VI et Valentinianus II</p>
+    </div>
+    <div type="cap" n="1129">
+     <p>His conss. A Gothis in Thracia Valentis trucidatur exercitus. ipso quoque imperator incensa
+      domo, ubi se occultaverat, igne combustus est.</p>
+    </div>
+    <div type="cap" n="1170">
+     <p>Cui successit in Oriente Theodosius Theodosii filius, quem sibi in consortium Gratianus
+      ascivit.</p>
+    </div>
+    <div type="cap" n="1131">
+     <p>GRATIANVS itaque cum iam XIIII regnaret annis, CVM THEODOSIO regnat annis VI. sub quibus hi
+      consules fuerunt. XXXVIIII.</p>
+    </div>
+    <div type="cap" n="1132">
+     <p>379 p. Chr. Ausonius et Olybrius</p>
+    </div>
+    <div type="cap" n="1133">
+     <p>380 p. Chr. Gratianus V et Theodosius</p>
+    </div>
+    <div type="cap" n="1134">
+     <p>His conss. Ambrosius episcopus de Christiana fide multa sublimiter scribit.</p>
+    </div>
+    <div type="cap" n="1135">
+     <p>381 p. Chr. Siagrius et Eucherius</p>
+    </div>
+    <div type="cap" n="1136">
+     <p>His conss. Martinus episcopus Turonum Galliae civitatis clarus habetur.</p>
+    </div>
+    <div type="cap" n="1137">
+     <p>382 p. Chr. Antonius et Siagrius</p>
+    </div>
+    <div type="cap" n="1138">
+     <p>His conss. Athanaricus rex Gothortum Constantinopolim venit ibique vitam exegit.</p>
+    </div>
+    <div type="cap" n="1393">
+     <p>383 p. Chr. Merobaudes II et Saturninus</p>
+    </div>
+    <div type="cap" n="1140">
+     <p>His conss. Arcadius Theodosii imp. filius Augustus appellatur.</p>
+    </div>
+    <div type="cap" n="1141">
+     <p>384 p. Chr. Ricimer et Glearchus</p>
+    </div>
+    <div type="cap" n="1142">
+     <p>His conss. Gratianus apud Lugdunum captus occiditur. </p>
+    </div>
+    <div type="cap" n="1143">
+     <p>Residui VALENTINIANVS ET THEODOSIVS regnant annis VIII. sub quibus hi consules fuerunt.
+      XL.</p>
+    </div>
+    <div type="cap" n="1144">
+     <p>385 p. Chr. Arcadius et Bauto</p>
+    </div>
+    <div type="cap" n="1145">
+     <p>His conss. Hieronymus presbyter in Bethleem positus toto mundo mirabilis habetur.</p>
+    </div>
+    <div type="cap" n="1146">
+     <p>386 p. Chr. Honorius n. p. et Euhodius</p>
+    </div>
+    <div type="cap" n="1147">
+     <p>387 p. Chr. Valentinianus III et Eutropius </p>
+    </div>
+    <div type="cap" n="1148">
+     <p>388 p. Chr. Theodosius II et Cynegius</p>
+    </div>
+    <div type="cap" n="1149">
+     <p>389 p. Chr. Timasius et Promotus</p>
+    </div>
+    <div type="cap" n="1150">
+     <p>390 p. Chr. Valentinianus IIII et Neoterius</p>
+    </div>
+    <div type="cap" n="1151">
+     <p>391 p. Chr. Titianus et Symmachus</p>
+    </div>
+    <div type="cap" n="1152">
+     <p>392 p. Chr. Arcadius II et Rufinus</p>
+    </div>
+    <div type="cap" n="1153">
+     <p>His conss. Valenitinianus vitae taedio apud Viennam laqueo periit. </p>
+    </div>
+    <div type="cap" n="1154">
+     <p>THEODOSIVS cum iam per XIIII annos regnaret, CVM ARCADIO ET HONORIO regnat annis tribus. sub
+      quibus hi consules fuerunt XLI.</p>
+    </div>
+    <div type="cap" n="1155">
+     <p>393 p. Chr. Theodosius III et Abundantius</p>
+    </div>
+    <div type="cap" n="1156">
+     <p>394 p. Chr. Arcadius III et Honorius II</p>
+    </div>
+    <div type="cap" n="1157">
+     <p>His conss. Iohannes monachus gratia divina praeditus Theodosium consulentem de eventu belli,
+      quod adversum Eugenium movebat, victorem fore pronuntiat.</p>
+    </div>
+    <div type="cap" n="1158">
+     <p>395 p. Chr. Olybrius et Probius</p>
+    </div>
+    <div type="cap" n="1159">
+     <p>His conss. Theodosius Eugenium tyrannum vincit et perimit.</p>
+    </div>
+    <div type="cap" n="1160">
+     <p>Augustinus beati Ambrosii discipulus multa, facundia doctrinaque excellens Hippone Regio in
+      Africa episcopus ordinatur.</p>
+    </div>
+    <div type="cap" n="1161">
+     <p>Hoc tempore Claudianus poeta insignis habetur.</p>
+    </div>
+    <div type="cap" n="1162">
+     <p>Theodosius imp. Mediolani moritur.</p>
+    </div>
+    <div type="cap" n="1163">
+     <p>Post quem ARCADIVS, cum iam regnasset annis XII, CVM fratre HONORIO regnat annis XIII. sub
+      quo hi consules fuerunt. XLII.</p>
+    </div>
+    <div type="cap" n="1164">
+     <p>396 p. Chr. Arcadius IIII et Honorius III</p>
+    </div>
+    <div type="cap" n="1165">
+     <p>397 p. Chr. Caesarius et Atticus</p>
+    </div>
+    <div type="cap" n="1166">
+     <p>398 p. Chr. Honorius IIII et Eutychianus</p>
+    </div>
+    <div type="cap" n="1167">
+     <p>399 p. Chr. Manlius et Theodorus</p>
+    </div>
+    <div type="cap" n="1168">
+     <p>400 p. Chr. Stilicho et Aurelianus</p>
+    </div>
+    <div type="cap" n="1169">
+     <p>His conss. Gothi Halarico et Radagaiso regibus ingrediuntur Italiam.</p>
+    </div>
+    <div type="cap" n="1170">
+     <p>401 p. Chr. Vincentius et Fravita</p>
+    </div>
+    <div type="cap" n="1171">
+     <p>402 p. Chr. Arcadius V et Honorius V</p>
+    </div>
+    <div type="cap" n="1172">
+     <p>His conss. Pollentiae Stiliconem cum exercitu Romano Gothi victum acie fugaverunt.</p>
+    </div>
+    <div type="cap" n="1173">
+     <p>403 p. Chr. Theodosius Aug. I et Rumoridus</p>
+    </div>
+    <div type="cap" n="1174">
+     <p>404 p. Chr. Honorius VI et Aristenetus</p>
+    </div>
+    <div type="cap" n="1175">
+     <p>405 p. Chr. Stilico II et Anthemius</p>
+    </div>
+    <div type="cap" n="1176">
+     <p>406 p. Chr. Arcadius VI et Probus</p>
+    </div>
+    <div type="cap" n="1177">
+     <p>His conss. Vandali et Alani transiecto Rheno Gallias intraverunt.</p>
+    </div>
+    <div type="cap" n="1178">
+     <p>407 p. Chr. Honorius VII et Theodosius II</p>
+    </div>
+    <div type="cap" n="1179">
+     <p>408 p. Chr. Bassus et Philippus</p>
+    </div>
+    <div type="cap" n="1180">
+     <p>His conss. Arcadius imp. Constantinopoli moritur.</p>
+    </div>
+    <div type="cap" n="1181">
+     <p>HONORIVS CVM THEODOSIO fratris filio regnat annis XV. sub quibus hi consules fuerunt.
+      XLIII.</p>
+    </div>
+    <div type="cap" n="1182">
+     <p>409 p. Chr. Honorius VIII et Theodosius III</p>
+    </div>
+    <div type="cap" n="1183">
+     <p>His Conss. Vandali Hispanias occupaverunt.</p>
+    </div>
+    <div type="cap" n="1184">
+     <p>410 p. Chr. Varan et Tertullus</p>
+    </div>
+    <div type="cap" n="1185">
+     <p>His conss. Roma a Gothis Halarico duce capta est, ubi clementer usi victoria sunt.</p>
+    </div>
+    <div type="cap" n="1186">
+     <p>411 p. Chr. Theodosius Aug. IIII cons.</p>
+    </div>
+    <div type="cap" n="1187">
+     <p>412 p. Chr. Honorius VIIII et Theodosius V</p>
+    </div>
+    <div type="cap" n="1188">
+     <p>His conss. Gothi rege Ataulpho Gallias intraverunt.</p>
+    </div>
+    <div type="cap" n="1189">
+     <p>413 p. Chr. Lucius v.c. cons.</p>
+    </div>
+    <div type="cap" n="1190">
+     <p>His conss. Burgundiones partem Galliae Rheno tenuere coniunctam.</p>
+    </div>
+    <div type="cap" n="1191">
+     <p>414 p. Chr. Constantius et Constans</p>
+    </div>
+    <div type="cap" n="1192">
+     <p>415 p. Chr. Honorius X et Theodosius VI </p>
+    </div>
+    <div type="cap" n="1193">
+     <p>416 p. Chr. Theodosius VII et Pallidius</p>
+    </div>
+    <div type="cap" n="1194">
+     <p>His conss. Gothi placati Constantio Placidiam reddiderunt, cuius nuptias promeretur.</p>
+    </div>
+    <div type="cap" n="1195">
+     <p>417 p. Chr. Honorius XI et Constantius II</p>
+    </div>
+    <div type="cap" n="1196">
+     <p>418 p. Chr. Honorius XII et Theodosius VIII</p>
+    </div>
+    <div type="cap" n="1197">
+     <p>419 p. Chr. Monaxius et Plinta</p>
+    </div>
+    <div type="cap" n="1198">
+     <p>420 p. Chr. Theodosius VIIII et Constantius III</p>
+    </div>
+    <div type="cap" n="1199">
+     <p>His conss. Constantius ab Honorio in societatem regni recipitur.</p>
+    </div>
+    <div type="cap" n="1200">
+     <p>421 p. Chr. Agricola et Eustathius</p>
+    </div>
+    <div type="cap" n="1201">
+     <p>His conss. Constantius imp. moritur.</p>
+    </div>
+    <div type="cap" n="1202">
+     <p>422 p. Chr. Honorius XIII et Theodosius X</p>
+    </div>
+    <div type="cap" n="1203">
+     <p>His conss. exercitus ad Hispanias contra Vandalos missus est.</p>
+    </div>
+    <div type="cap" n="1204">
+     <p>423 p. Chr. Marinianus et Asclepiodotus</p>
+    </div>
+    <div type="cap" n="1205">
+     <p>His conss. Placidia Augusta a fratre Honorio ob suspicionem invitatorum hostium cum Honorio
+      et Valentiniano filiis ad Orientem mittitur.</p>
+    </div>
+    <div type="cap" n="1206">
+     <p>Honorius moritur.</p>
+    </div>
+    <div type="cap" n="1207">
+     <p>Et solus THEODOSIVS Romanum imperium tenet annis XXVII. sub quo hi consules fuerunt.
+      XLIIII.</p>
+    </div>
+    <div type="cap" n="1208">
+     <p>424 p. Chr. Castinus et Victor</p>
+    </div>
+    <div type="cap" n="1209">
+     <p>His conss. Theodosius Valentinianum consobrinum Caesarem facit et cum Augusta matre ad
+      recipiendum occidentale mittit imperium.</p>
+    </div>
+    <div type="cap" n="1210">
+     <p>425 p. Chr. Theodosius XI et Valentinianus Caesar.</p>
+    </div>
+    <div type="cap" n="1211">
+     <p>His conss. Iohannem tyrannum Valentinianus imp. extinxit Hunosque, qui in Italia erant
+      Iohanni praesidio, per Aetium mira felicitate dimovit.</p>
+    </div>
+    <div type="cap" n="1212">
+     <p>426 p. Chr. Theodosius XII et Valentinianus II</p>
+    </div>
+    <div type="cap" n="1213">
+     <p>427 p. Chr. Hierius et Ardabures</p>
+    </div>
+    <div type="cap" n="1214">
+     <p>His conss. Bonifatio Africam tenenti infauste bellum ingeritur.</p>
+    </div>
+    <div type="cap" n="1215">
+     <p>Gens Vandalorum a Gothis exclusa de Hispaniis ad Africam transit.</p>
+    </div>
+    <div type="cap" n="1216">
+     <p>428 p. Chr. Felix et Taurus</p>
+    </div>
+    <div type="cap" n="1217">
+     <p>His conss. Aetius multis Francis caesis quam occupaverant propinquam Rheno partem recipit
+      Galliarum.</p>
+    </div>
+    <div type="cap" n="1218">
+     <p>429 p. Chr. Florentius et Dionysius</p>
+    </div>
+    <div type="cap" n="1219">
+     <p>430 p. Chr. Theodosius XIII et Valentinianus III</p>
+    </div>
+    <div type="cap" n="1220">
+     <p>431 p. Chr. Bassus et Antiochus</p>
+    </div>
+    <div type="cap" n="1221">
+     <p>432 p. Chr. Aetius et Valerius</p>
+    </div>
+    <div type="cap" n="1222">
+     <p>433 p. Chr. Theodosius XIIII et Maximus</p>
+    </div>
+    <div type="cap" n="1223">
+     <p>434 p. Chr. Aspar et Ariovindus</p>
+    </div>
+    <div type="cap" n="1224">
+     <p>435 p. Chr. Theodosius XV et Valentinianus IIII</p>
+    </div>
+    <div type="cap" n="1225">
+     <p>His conss. pax facta cum Vandalis data eis ad habitandum Africae portione.</p>
+    </div>
+    <div type="cap" n="1226">
+     <p>Gundicharium Burgundionum regem Aetius bello subegit pacemque ei reddidit supplicanti, quem
+      non multo post Hunni peremerunt.</p>
+    </div>
+    <div type="cap" n="1227">
+     <p>436 p. Chr. Hisidorus et Senator</p>
+    </div>
+    <div type="cap" n="1228">
+     <p>437 p. Chr. Aetius II et Sigisvultus</p>
+    </div>
+    <div type="cap" n="1229">
+     <p>His conss. Valentinianus Aug. ad Theodosium principem Constantinopolim proficiscitur
+      filiamque eius in matrimonium accipit.</p>
+    </div>
+    <div type="cap" n="1230">
+     <p>438 p. Chr. Theodosius XVI et Faustus</p>
+    </div>
+    <div type="cap" n="1231">
+     <p>439 p. Chr. Theodosius XVII et Festus</p>
+    </div>
+    <div type="cap" n="1232">
+     <p>His conss. bellum adversus Gothos Hunnis auxiliaribus geritur et Litorius dux Romanus ab eis
+      capitur.</p>
+    </div>
+    <div type="cap" n="1233">
+     <p>Ginsericus, de cuius amicitia nihil metuebatur, Carthaginem dolo pacis invadit.</p>
+    </div>
+    <div type="cap" n="1234">
+     <p>440 p. Chr. Valentinianus Aug. V et Anatolius</p>
+    </div>
+    <div type="cap" n="1235">
+     <p>His conss. Ginsericus Siciliam graviter affligit.</p>
+    </div>
+    <div type="cap" n="1236">
+     <p>441 p. Chr. Cyrus v. c. cons.</p>
+    </div>
+    <div type="cap" n="1237">
+     <p>His conss. Theodosius imp. bellum contra Vandalos inefficaciter movit.</p>
+    </div>
+    <div type="cap" n="1238">
+     <p>442 p. Chr. Dioscorus et Eudoxius</p>
+    </div>
+    <div type="cap" n="1239">
+     <p>His conss. Hunni Thracias et Hillyricum saeva populatione vastarunt. </p>
+    </div>
+    <div type="cap" n="1240">
+     <p>Cum Ginserico ab Augusto Valentiniano pax confirmata et certis spatiis Africa inter utrosque
+      divisa est.</p>
+    </div>
+    <div type="cap" n="1241">
+     <p>443 p. Chr. Maximus II et Paternus</p>
+    </div>
+    <div type="cap" n="1242">
+     <p>444 p. Chr. Theodosius XVIII et Albinus</p>
+    </div>
+    <div type="cap" n="1243">
+     <p>His conss. Attila rex Hunnorum Bledam fratrem et consortem in regno suo perimit eiusque
+      populos sibi parere compellit.</p>
+    </div>
+    <div type="cap" n="1244">
+     <p>445 p. Chr. Valentinianus VI et Nomus </p>
+    </div>
+    <div type="cap" n="1245">
+     <p>446 p. Chr. Aetius III et Symmachus</p>
+    </div>
+    <div type="cap" n="1246">
+     <p>447 p. Chr. Callepius et Ardabures</p>
+    </div>
+    <div type="cap" n="1247">
+     <p>448 p. Chr. Postumianus et Zeno</p>
+    </div>
+    <div type="cap" n="1248">
+     <p>449 p. Chr. Asturius et Protogenes</p>
+    </div>
+    <div type="cap" n="1249">
+     <p>450 p. Chr. Valentinianus VII et Avienus</p>
+    </div>
+    <div type="cap" n="1250">
+     <p>His conss. Theodosius moritur.</p>
+    </div>
+    <div type="cap" n="1251">
+     <p>Post quem MARCIANVS adscitur imperio, qui regnavit annis VII. sub quo hi consules fuerunt.
+      XLV.</p>
+    </div>
+    <div type="cap" n="1252">
+     <p>451 p. Chr. Marcianus Aug. et Adelphius</p>
+    </div>
+    <div type="cap" n="1253">
+     <p>His conss. Romani Aetio duce Gothis auxiliaribus contra Attilam in campo Catalaunico
+      pugnaverunt, qui virtute Gothorum superatus abscessit.</p>
+    </div>
+    <div type="cap" n="1254">
+     <p>452 p. Chr. Herculanus et Asporacius</p>
+    </div>
+    <div type="cap" n="1255">
+     <p>His conss. Attila redintegratis viribus Aquileiam magna vi dimicans introivit.</p>
+    </div>
+    <div type="cap" n="1256">
+     <p>Cum quo a Valentiniano imp. papa Leo directus pacem fecit.</p>
+    </div>
+    <div type="cap" n="1257">
+     <p>453 p. Chr. Opilio et Vincomalus</p>
+    </div>
+    <div type="cap" n="1258">
+     <p>His conss. Attila in sedibus suis moritur.</p>
+    </div>
+    <div type="cap" n="1259">
+     <p>454 p. Chr. Aetius et Studius</p>
+    </div>
+    <div type="cap" n="1260">
+     <p>His conss. Aetius patricius in Palatio manu Valentiniani imp. extinctus est, Boetius vero
+      praefectus praetorio amicus eius circumstantium gladiis interemptus.</p>
+    </div>
+    <div type="cap" n="1261">
+     <p>455 p. Chr. Valentinianus VIII et Anthemius</p>
+    </div>
+    <div type="cap" n="1262">
+     <p>His conss. in campo Martio ab amicis Aetii Valentinianus occiditur. post quem Maximus
+      invadit inperium, qui intra duos menses a militibus extinctus in Tiberim proicitur.</p>
+    </div>
+    <div type="cap" n="1263">
+     <p>Eodem anno per Ginsericum omnibus opibus suis Roma vacuata est.</p>
+    </div>
+    <div type="cap" n="1264">
+     <p>Post Maximum Avitus in Gallia sumit imperium.</p>
+    </div>
+    <div type="cap" n="1265">
+     <p>456 p. Chr. Iohannes et Varan</p>
+    </div>
+    <div type="cap" n="1266">
+     <p>His conss. Placentiae deposuit Avitus imperium.</p>
+    </div>
+    <div type="cap" n="1267">
+     <p>457 p. Chr. Constantinus et Rufus</p>
+    </div>
+    <div type="cap" n="1268">
+     <p>His conss. Marciano defuncto LEO Orientis, Maiorianus Italiae suscepit imperium. sub quibus
+      hi consules fuerunt.</p>
+    </div>
+    <div type="cap" n="1269">
+     <p>458 p. Chr. Leo Aug. et Maiorianus Aug.</p>
+    </div>
+    <div type="cap" n="1270">
+     <p>His conss. Maiorianus in Africam movit procinctum.</p>
+    </div>
+    <div type="cap" n="1271">
+     <p>459 p. Chr. Ricimer patricius</p>
+    </div>
+    <div type="cap" n="1272">
+     <p>460 p. Chr. Magnus et Apollonius</p>
+    </div>
+    <div type="cap" n="1273">
+     <p>461 p. Chr. Severinus et Dagalaifus</p>
+    </div>
+    <div type="cap" n="1274">
+     <p>His conss. Maiorianus inmissione Ricimeris extinguitur, cui Severum natione Lucanum Ravennae
+      succedere fecit in regnum.</p>
+    </div>
+    <div type="cap" n="1275">
+     <p>462 p. Chr. Leo Aug. II et Severus Aug.</p>
+    </div>
+    <div type="cap" n="1276">
+     <p>463 p. Chr. Basilius et Vivianus </p>
+    </div>
+    <div type="cap" n="1277">
+     <p>464 p. Chr. Rusticius et Olybrius</p>
+    </div>
+    <div type="cap" n="1278">
+     <p>His conss. rex Halanorum Beorgor apud Pergamum a patricio Ricimere peremptus est.</p>
+    </div>
+    <div type="cap" n="1279">
+     <p>465 p. Chr. Arminericus et Basiliscus</p>
+    </div>
+    <div type="cap" n="1280">
+     <p>His conss. ut dicitur Ricimeris fraude, Severus Romae in Palatio veneno peremptus est.</p>
+    </div>
+    <div type="cap" n="1281">
+     <p>466 p. Chr. Leo Aug. III cons.</p>
+    </div>
+    <div type="cap" n="1282">
+     <p>467 p. Chr. Puseus et Iohannes</p>
+    </div>
+    <div type="cap" n="1283">
+     <p>His conss. Anthemius a Leone imp. ad Italiam mittitur, qui tertio ab urbe miliario in loco
+      Brontotas suscepit imperium.</p>
+    </div>
+    <div type="cap" n="1284">
+     <p>468 p. Chr. Anthemius Aug. II cons.</p>
+    </div>
+    <div type="cap" n="1285">
+     <p>Hoc consule in Sicilia Marcellinus occiditur.</p>
+    </div>
+    <div type="cap" n="1286">
+     <p>469 p. Chr. Marcianus et Zeno</p>
+    </div>
+    <div type="cap" n="1287">
+     <p>His conss. Arabundus imperium temptans iussu Anthemii exilio deportatur.</p>
+    </div>
+    <div type="cap" n="1288">
+     <p>470 p. Chr. Severus et Iordanes</p>
+    </div>
+    <div type="cap" n="1289">
+     <p>His conss. Romanus patricius affectans imperium capitaliter est punitus.</p>
+    </div>
+    <div type="cap" n="1290">
+     <p>471 p. Chr. Leo Aug. IIII et Probianus</p>
+    </div>
+    <div type="cap" n="1291">
+     <p>His conss. Constantinopoli affectator tyrannidis a Leone principe Aspar occiditur.</p>
+    </div>
+    <div type="cap" n="1292">
+     <p>472 p. Chr. Festus et Marcianus</p>
+    </div>
+    <div type="cap" n="1293">
+     <p>His conss. patricius Ricimer Romae facto imperatore Olybrio Anthemium contra reverentiam
+      principis et ius adfinitatis cum gravi clade civitatis extinguit. qui non diutius peracto
+      scelere gloriatus post XL dies defunctus est. Olybrius autem VII imperii mense vitam
+      peregit.</p>
+    </div>
+    <div type="cap" n="1294">
+     <p>473 p. Chr. Leo Aug. V cons.</p>
+    </div>
+    <div type="cap" n="1295">
+     <p>His conss. Gundibado hortante Glycerius Ravennae sumpsit imperium.</p>
+    </div>
+    <div type="cap" n="1296">
+     <p>Eodem anno Leo nepotem suum Leonem consortem facit inperio. </p>
+    </div>
+    <div type="cap" n="1297">
+     <p>474 p. Chr. Leo iunior Aug. cons.</p>
+    </div>
+    <div type="cap" n="1298">
+     <p>Hoc cons. imp. Leo senior defunctus est. cui ZENO successit in imperio, qui regnavit annis
+      XVII. sub quo hi consules fuerunt.</p>
+    </div>
+    <div type="cap" n="1299">
+     <p>Eo etiam anno Romae Glycerio Nepos successit in regno.</p>
+    </div>
+    <div type="cap" n="1300">
+     <p>475 p. Chr. p.c. Leonis Aug. iun.</p>
+    </div>
+    <div type="cap" n="1301">
+     <p>Eodem anno Orestes, Nepote in Dalmatias fugato, filio suo Augustulo dedit imperium.</p>
+    </div>
+    <div type="cap" n="1302">
+     <p>476 p. Chr. Basiliscus II et Armatus</p>
+    </div>
+    <div type="cap" n="1303">
+     <p>His conss. ab Odovacre Orestes et frater eius Paulus extincti sunt nomenque regis Odovacar
+      adsumpsit, cum tamen nec purpura nec regalibus uteretur insignibus.</p>
+    </div>
+    <div type="cap" n="1304">
+     <p>477 p. Chr. p.c. Basilisci II et Armati</p>
+    </div>
+    <div type="cap" n="1305">
+     <p>478 p. Chr. Ellus v. c. cons.</p>
+    </div>
+    <div type="cap" n="1306">
+     <p>479 p. Chr. Zeno Aug. II cons.</p>
+    </div>
+    <div type="cap" n="1307">
+     <p>480 p. Chr. Basilius v.c. iun. cons.</p>
+    </div>
+    <div type="cap" n="1308">
+     <p>481 p. Chr. Placidus v.c. cons.</p>
+    </div>
+    <div type="cap" n="1309">
+     <p>His conss. Odovacar in Dalmatiis Odivam vincit et perimit.</p>
+    </div>
+    <div type="cap" n="1310">
+     <p>482 p. Chr. Severinus v.c.cons.</p>
+    </div>
+    <div type="cap" n="1311">
+     <p>483 p. Chr. Faustus v.c. cons.</p>
+    </div>
+    <div type="cap" n="1312">
+     <p>484 p. Chr. dn. Theoderichus et Venantius</p>
+    </div>
+    <div type="cap" n="1313">
+     <p>485 p. Chr. Symmachus v.c. cons.</p>
+    </div>
+    <div type="cap" n="1314">
+     <p>486 p. Chr. Decius et Longinus</p>
+    </div>
+    <div type="cap" n="1315">
+     <p>487 p. Chr. Boetius v.c. cons.</p>
+    </div>
+    <div type="cap" n="1316">
+     <p>Hoc cons. Odovacar Foeba rege Rugorum victo captoque potitus est.</p>
+    </div>
+    <div type="cap" n="1317">
+     <p>488 p. Chr. Dynamius et Sifidius</p>
+    </div>
+    <div type="cap" n="1318">
+     <p>489 p. Chr. Probinus et Eusebins</p>
+    </div>
+    <div type="cap" n="1319">
+     <p>His conss. felicissimus atque fortissimus dn. rex Theodericus intravit Italiam.</p>
+    </div>
+    <div type="cap" n="1320">
+     <p>Cui Odovacar ad Isontium pugnam parans victus cum tota gente fugatus est.</p>
+    </div>
+    <div type="cap" n="1321">
+     <p>Eodem anno repetito conflictu Veronae vincitur Odovacar.</p>
+    </div>
+    <div type="cap" n="1322">
+     <p>490 p. Chr. Faustus iun. cons.</p>
+    </div>
+    <div type="cap" n="1323">
+     <p>His conss. ad Adduam fluvium Odovacrem dn. Theoderichus rex tertio certamine superavit. </p>
+    </div>
+    <div type="cap" n="1324">
+     <p>Qui Ravennam fugiens obsidetur inclusus.</p>
+    </div>
+    <div type="cap" n="1325">
+     <p>491 p. Chr. Olybrius iun. Cons.</p>
+    </div>
+    <div type="cap" n="1326">
+     <p>Hoc cons. Odovacar cum Erulis egressus Ravenna nocturnis horis ad pontem Candidiani a dn.
+      nostro rege Theoderico memorabili certamine superatur.</p>
+    </div>
+    <div type="cap" n="1327">
+     <p>Tunc etiam Vandali pace suppliciter postulata a Siciliae solita depraedatione cessarunt.</p>
+    </div>
+    <div type="cap" n="1328">
+     <p>Eodem anno Zeno occubuit, cui ANASTASIVS in orientali successit imperio.</p>
+    </div>
+    <div type="cap" n="1329">
+     <p>492 p. Chr. Anastasius Aug. et Rufus</p>
+    </div>
+    <div type="cap" n="1330">
+     <p>493 p. Chr. Albinus v.c. cons.</p>
+    </div>
+    <div type="cap" n="1331">
+     <p>Hoc cons. dn. rex Theodericus Ravennam ingressus Odovacrem molientem sibi insidias
+      interemit.</p>
+    </div>
+    <div type="cap" n="1332">
+     <p>494 p. Chr. Asterius et Praesidius</p>
+    </div>
+    <div type="cap" n="1333">
+     <p>495 p. Chr. Viatorv.c. cons.</p>
+    </div>
+    <div type="cap" n="1334">
+     <p>496 p. Chr. Paulus v.c. cons.</p>
+    </div>
+    <div type="cap" n="1335">
+     <p>497 p. Chr. Anastasius Aug. II cons. </p>
+    </div>
+    <div type="cap" n="1336">
+     <p>498 p. Chr. Paulinus et Iohannes</p>
+    </div>
+    <div type="cap" n="1337">
+     <p>499 p. Chr. Iohannes v.c. cons.</p>
+    </div>
+    <div type="cap" n="1338">
+     <p>500 p. Chr. Patricius et Hypatius</p>
+    </div>
+    <div type="cap" n="1339">
+     <p>Hoc anno dn. rex Theodericus Romam cunctorum votis expetitus advenit et senatum suum mira
+      affabilitate tractans Romanae plebi donavit annonas, atque admirandis moeniis deputata per
+      singulos annos maxima pecuniae quantitate subvenit. sub cuius felici imperio plurimae
+      renovantur urbes, munitissima castella conduntur, consurgunt admiranda palatia, magnisque eius
+      operibus antiqua miracula superantur.</p>
+    </div>
+    <div type="cap" n="1340">
+     <p>501 p. Chr. Avienus et Pompeius</p>
+    </div>
+    <div type="cap" n="1341">
+     <p>502 p. Chr. Avienus iun. et Probus</p>
+    </div>
+    <div type="cap" n="1342">
+     <p>His conss. dn. rex Theodericus aquam Ravennam perduxit, cuius formam sumptu proprio
+      instauravit, quae longis ante fuerat ad solum reducta temporibus.</p>
+    </div>
+    <div type="cap" n="1343">
+     <p>504 p. Chr. Caetheus v.c. cons.</p>
+    </div>
+    <div type="cap" n="1344">
+     <p>Hoc cons. virtute dn. regis Theoderici victis Vulgaribus Sirmium recepit Italia.</p>
+    </div>
+    <div type="cap" n="1345">
+     <p>505 p. Chr. Theodorus et Sabinianus</p>
+    </div>
+    <div type="cap" n="1346">
+     <p>506 p. Chr. Messala et Ariovinna</p>
+    </div>
+    <div type="cap" n="1347">
+     <p>507 p. Chr. Anastasius Aug. III et Venantius</p>
+    </div>
+    <div type="cap" n="1348">
+     <p>508 p. Chr. Venantius iun. et Celer</p>
+    </div>
+    <div type="cap" n="1349">
+     <p>His conss. contra Francos a domno nostro destinatur exercitus, qui Gallias Francorum
+      depraedatione confusas victis hostibus ac fugatis suo adquisivit imperio.</p>
+    </div>
+    <div type="cap" n="1350">
+     <p>509 p. Chr. Importunus v.c. cons.</p>
+    </div>
+    <div type="cap" n="1351">
+     <p>510 p. Chr. Boetius v.c. cons.</p>
+    </div>
+    <div type="cap" n="1352">
+     <p>511 p. Chr. Felix et Secundinus</p>
+    </div>
+    <div type="cap" n="1353">
+     <p>512 p. Chr. Paulus et Muschianus</p>
+    </div>
+    <div type="cap" n="1354">
+     <p>513 p. Chr. Probus et. Clementinus</p>
+    </div>
+    <div type="cap" n="1355">
+     <p>514 p. Chr. Senator v.c. cons.</p>
+    </div>
+    <div type="cap" n="1356">
+     <p>Me etiam consule in vestrorum laude temporum adunato clero vel populo Romanae ecclesiae
+      rediit optata concordia.</p>
+    </div>
+    <div type="cap" n="1357">
+     <p>515 p. Chr. Florentius et Anthemius</p>
+    </div>
+    <div type="cap" n="1358">
+     <p>His conss. dn. rex Theodericus filiam suam domnam Amalasuintam gloriosi viri dn. Eutharici
+      matrimonio deo auspice copulavit.</p>
+    </div>
+    <div type="cap" n="1359">
+     <p>516 p. Chr. Petrus v.c. cons.</p>
+    </div>
+    <div type="cap" n="1360">
+     <p>517 p. Chr. Anastasius et Acapitus</p>
+    </div>
+    <div type="cap" n="1361">
+     <p>518 p. Chr. Magnus v.c. cons.</p>
+    </div>
+    <div type="cap" n="1362">
+     <p>Eo anno dn. Eutharicus Cillica mirabili gratia senatus et plebis ad edendum exceptus est
+      feliciter consulatum.</p>
+    </div>
+    <div type="cap" n="1363">
+     <p>519 p. Chr. dn. Eutharicus Cillica et Iustinus Aug. </p>
+    </div>
+    <div type="cap" n="1364">
+     <p>Eo anno multa vidit Roma miracula, editionibus singulis stupente etiam Symmacho Orientis
+      legato divitias Gothis Romanisque donatas. dignitates cessit in curiam. muneribus
+      amphitheatralibus diversi generis feras, quas praesens aetas pro novitate miraretur, exhibuit.
+      cuius spectaculis voluptates etiam exquisitas Africa sub devotione transmisit. cunctis itaque
+      eximia laude completis tanto amore civibus Romanis insederat, ut eius adhuc praesentiam
+      desiderantibus Ravennam ad gloriosi patris remearet aspectus. ubi iteratis editionibus tanta
+      Gothis Romanisque dona largitus est, ut solus potuerit superare quem Romae celebraverat
+      consulatum.</p>
+    </div>
+    <div type="cap" n="1365">
+     <p>Igitur ut effusam annorum seriem auctorum testificatione digestam sub brevitatis compendio
+      redigamus, ab Adam usque ad diluvium, sicut ex chronicis Eusebii Hieronymi collegimus, anni
+      sunt II.CCXLII.</p>
+    </div>
+    <div type="cap" n="1366">
+     <p>a diluvio usque ad Ninum Assyriorum regem anni sunt DCCCXCVIIII.</p>
+    </div>
+    <div type="cap" n="1367">
+     <p>a Nino usque ad Latinum regem anni sunt DCCCLII.</p>
+    </div>
+    <div type="cap" n="1368">
+     <p>a Latino rege usque ad Romulum anni sunt CCCCLVII.</p>
+    </div>
+    <div type="cap" n="1369">
+     <p>a Romulo usque ad Brutum et Tarquinium primos consules anni sunt CCXL.</p>
+    </div>
+    <div type="cap" n="1370">
+     <p>a Bruto et Tarquinio usque ad consulatum vestrum, sicut ex Tito Livio et Aufidio Basso et
+      paschali clarorum virorum auctoritate firmato collegimus, anni sunt MXXXI.</p>
+    </div>
+    <div type="cap" n="1371">
+     <p>ac sic totus ordo saeculorum usque ad consulatum vestrum colligitur annis VDCCXXI.</p>
+    </div>
+   </div>
+
+
+  </body>
+ </text>
+
+</TEI>

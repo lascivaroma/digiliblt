@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Ars (siue de nomine et uerbo)</title>
+    <author>Phocas</author>
+    <respStmt>
+     <resp>transcodifica di base da rtf a xml-tei</resp>
+     <name>piero colombo - step srl</name>
+    </respStmt>
+    <respStmt>
+     <resp>Adeguamento testo su nuova edizione</resp>
+     <name>Ermanno Malaspina</name>
+    </respStmt>
+    <respStmt>
+     <resp>Testo</resp>
+     <name>Marinone, GL-CD</name>
+    </respStmt>
+    <respStmt>
+     <resp>Controllo marcatura XML-TEI</resp>
+     <name>Ermanno Malaspina</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2017</date>
+    <availability>
+     <p>
+      <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
+     </p>
+    </availability>
+    <idno>dlt000408</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p>F.Casaceli, Foca, <hi rend="italic">De nomine et verbo</hi>. Introduzione, testo e commento, Napoli 1974.</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    <p>
+     <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT</hi>
+    </p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni.</p>
+    <p>I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p>Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi> :
+     grassetto, corsivo, spaziatura espansa. </p>
+    <p> Sono stati normalizzati e marcati nel modo seguente i diacritici. <lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]>
+     <lb/>
+     <hi rend="italic">loci desperati</hi> :
+     <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo† e †testo <lb/>
+     lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...] <lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p> Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p> Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
+    </p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <head>Phocas de nomine et uerbo</head>
+   <div type="section">
+    <head>praefatio (et epilogus)</head>
+    <p> ars mea multorum es, quos saecula prisca tulerunt, / sed noua te breuitas asserit esse meam.
+     / omnia cum ueterum sint explorata libellis, / multa loqui breuiter sit nouitatis opus. / te
+     relegat iuuenis, quem garrula pagina terret, / aut siquem paucis seria nosse iuuat; / te
+     longinqua petens comitem sibi ferre uiator / ne dubitet: paruo pondere multa uehis; / te siquis
+     scripsisse uolet, non ulla queretur / damna nec ingrati triste laboris onus. / es quod quisque
+     petat; numquam censura diserti / hoc contemnet opus, si modo liuor abest. </p>
+    <milestone unit="page" n="p. 30 F. Casaceli, Napoli 1974"/>
+    <p> credo non nullos hoc meum miraturos opusculum, quod in tanta doctissimorum copia, qui uarie
+     diligenterque emendati sermonis praecepta tradiderunt, ego potissimum ausus sim temerario ac
+     paene sacrilego conatu libellum de arte comminisci; de quo prius excusandum puto, quam de
+     titulo operis disseram, cum sciam plurimos quidem regulas artium digessisse quibus ad
+     praerogatiuam sollertia uel antiquitas ipsa suffragata est, sed eorum alios late copioseque
+     scripsisse, ut superflua interdum ubertate narrationis memoria confundatur, alios, dum
+     breuitati student, admodum diffusam coartasse materiam, ut sterili conpendio nihil ad integram
+     scientiam lectoribus conferant adulescentes uero nostri saeculi non desiderio litterarum nec
+     amore uirtutis ad studia se applicare, sed aut necessitate compulsos aut odore uoluptatum per
+     aetatem adflatos execrari magistros, quorum ut quisque est diligentior, eo maiori odio
+     premitur, et gymnasium sapientiae, quo ad beatam uitam semita demonstratur, uelut taeterrimum
+     carcerem detestari; alios autem, quamuis scire cupiant, omne tamen fructuosi laboris onus
+     detrectare nec assiduis inhaerere lectionibus nec curiosa perscrutatione ueterum eruere
+     commentarios: qui dum semper esse numquam docti fieri uolunt unde esse non possunt. idcirco
+     fateor me negotium suscepisse pluribus profuturum, nisi qui nouellam artis expositionem
+     tractare fastidiant, praecipueque discipulis nostris, quibus aduersus obliuionis iacturam et
+     percontantium temptamenta consultum esse desidero. in hoc namque nostrae professionis summa
+     uersatur, ut in aliorum scientia tui periculum facias, nec si ipse scias, sed si alios
+     docueris, eruditus esse uidearis. </p>
+    <p> nominum igitur regulas et uerborum in unum congessi, quoniam hae fere principatum in
+     partibus orationis obtinent multumque difficultatis habent, et super ceteris abunde dictum a
+     summis auctoribus aestimo. quo in opere nihil mihi sumam, nec a me noui quicquam <milestone
+      unit="page" n="p. 31 F. Casaceli, Napoli 1974"/> repertum adfirmabo. multa namque ex multorum
+     libris decerpta concinna breuitate conclusi, ut nec ieiuna parum instruat compensatio, nec
+     uerbosa prolixitas fastidium legentibus ingerat. siquid autem a nobis in suscepto negotio
+     commode tractatum est, malo id lectoris iudicio laudari, quam nostra praedicatione iactari. tu
+     tamen industria tua uel petulantiae nostrae crimen excusabis, uel laudis siquid merebimur,
+     ampliabis. </p>
+   </div>
+   <div type="section">
+    <head>de uerbo</head>
+    <p> adgressus sum igitur nominum regulas breuiter explanare et scrupulosam difficilemque
+     materiam adulescentibus peruiam facere. quoniam omnis ambiguitas in genere nominis et
+     declinatione consistit, primum Latina a Graecis discreui, ne confusione uarietatis turbetur
+     memoria, deinde monosyllaba congesta praeposui, quae diuersi quidem sunt generis, tertii autem
+     ordinis formulam tribus exceptis secuntur, et sunt fere haec. masculini generis as dens grex
+     flos fons lar mons mos mus mas praes Mars pons <del>Lar</del> pes ros rex sal sol uir uas
+     uadis: ex his unum secundae est declinationis, uir; feminini generis arx ars calx crux cos dos
+     frons gens falx fax faex glis lux lex lis lens glans <del>uel</del> glandis lanx mors merx mens
+     nux nix nex nox pix ops prex pars res spes cors gens sors stips stirps trabs uis
+      <del>grus</del> urbs uox nar naris: ex his duo sunt quintae declinationis contra regulam, spes
+     et res; neutri generis aes crus cor fas far git ir ius mel os oris os
+      <supplied>ossis</supplied> pus par tus fel lac rus uer uas uasis: ex his quattuor minime
+     declinantur, fas git pus ir; tria in plurali numero deficiunt, nam tres tantum casus habent,
+     far ius rus <del>et aes similiter</del>; communis generis bos dux sus fur grus; omnis generis
+     haec duo sola, par trux. </p>
+    <milestone unit="page" n="p. 32 F. Casaceli, Napoli 1974"/>
+    <p> expositis monosyllabis, quae cuiuscumque sunt generis, de ceteris quotlibet syllabarum
+     nominibus disseremus, quae his clausulis terminantur, quattuor uocalibus praeter i, sex
+     semiuocalibus praeter f, et una muta t. de quibus ex ordine regulas subiectas notauimus,
+     exceptis illis uidelicet, quae minime declinantur, fas nefas nihili nugas gummi frugi sinapi
+     pedum nequam: ex his neutri sunt generis fas nefas gummi sinapi pedum, alia omnis. </p>
+    <p>
+     <hi rend="bold"> de genere et declinatione nominum</hi>
+    </p>
+    <p> a terminata masculina sunt propria, ut Sylla Seneca Catilina Cotta Tucca Agrippa Pansa.
+     pauca sunt appellatiua masculini generis, hic lanista, hic damma, hic talpa, hic popa, hic
+     nauta, hic poeta, hic collega, hic scurra, hic lixa, hic assecla, hic scriba, hic perfuga, hic
+     transfuga, hic homicida, hic parricida, quae alii communis esse generis dicunt, et illa quae a
+     uerbis colo et gigno componuntur, ut hic caelicola agricola ruricola siluicola, hic terrigena
+     rurigena. reliqua appellatiua omnia generis sunt feminini et primae declinationis, ut fortuna
+     sella terra harena carina habena. neutri generis Latina nulla sunt; communis generis haec sola,
+     hic et haec <del>pedisequa</del> aduena conuena auriga conuiua uerna; et omnia primae sunt
+     declinationis. barbara neutri generis duo lecta sunt apud Sallustium nomina fluminum, hoc
+     Muluccha, hoc Turia. </p>
+    <p> e finita neutri generis sunt omnia et tertiae declinationis, ut hoc sedile sedilis, monile
+     monilis, <del>rete retis</del> mare maris. </p>
+    <milestone unit="page" n="p. 33 F. Casaceli, Napoli 1974"/>
+    <p> o littera terminata tertiae sunt declinationis omnia, sed diuersi generis. nam quae in o
+     puram desinunt e uocali praeposita, masculini generis sunt, ut hic ganeo aleo labeo, quae
+     nominatiuum et uocatiuum solum habent; quae i ante o habent, aut propria masculina sunt, ut
+     Curio Scipio, aut corpus quidem significantia generis masculini sunt, ut hic stellio lanio
+     histrio centurio senio curculio quaternio mulio: et omnia o litteram in obliquis casibus
+     productam seruant excepto uno, Anio flumen <del>est</del> Italiae, quod Anienis facit. rem
+     autem incorporalem significantia pleraque a uerbis transferuntur et sunt generis feminini, ut
+     haec oratio ratio actio statio hortatio religio: et haec similiter nomina per casus omnes o
+     producunt praeter nominatiuum et uocatiuum numeri singularis. praeposita uero o litterae
+     qualibet consonante propria uel appellatiua masculini sunt generis, ut hic Carbo Libo praeco
+     mucro bubo latro homo tiro sermo pauo Cato, excepto uno proprio feminini generis, haec Iuno, et
+     altero appellatiuo, quod o litteram in obliquis casibus amittit, haec caro carnis. sed duae
+     solae sunt consonantes, g et d, quibus praecedentibus o litteram nomina generis sunt feminini,
+     ut haec imago, fuligo caligo origo propago aerugo hirundo harundo magnitudo altitudo testudo
+     formido similitudo fortitudo, quae o in i conuertunt in obliquis casibus. </p>
+    <p> excipiuntur in utraque generis masculini haec, hic ligo, hic mango, hic praedo, hic cudo,
+     hic spado, quae o producunt, et hic cardo, hic ordo, quae superiorem formulam sequuntur. sunt
+     et quattuor tantum modo quae neutralia esse possunt, quorum pars dimidia declinationem patitur,
+     ut duo et ambo; pondo autem et octo monoptota sunt et tantum pluraliter efferuntur, ut haec
+     pondo <del>unum <milestone unit="page" n="p. 34 F. Casaceli, Napoli 1974"/> pondo non dici
+      sciamus, sed in libram referri. duo enim et tria pondo et deinceps obseruamus. id quoque
+      obseruabimus, ut, quotiens de neutro loquamur, correpte dicamus duo milia <foreign
+       xml:lang="grc">παρὰ τὸ δύο</foreign>. in accentu enim longo duo homines et ambo homines, duae
+      mulieres et ambae mulieres dicuntur</del>.</p>
+    <p> duo autem et ambo etsi correpta esse uideantur, tamen in accusatiuo dupliciter efferuntur:
+     namque hos duos et hos duo, item ambos et ambo apud auctores inuenimus, et sunt communis
+     generis hi et haec duo hae duae et ambo et ambae, horum duorum et amborum harum duarum et
+     ambarum, duobus et ambobus duabus et ambabus, duos et ambos duas et ambas, duo et ambo, duobus
+     et ambobus duabus et ambabus. </p>
+    <p> u littera terminata sine controuersia neutri generis sunt et quartae declinationis, aptota
+     in singulari numero, in plurali declinantur. et sunt perpauca quae pluralem numerum admittunt
+     genu cornu ueru specu tonitru; cetera semper singularia, ut hoc seru gelu pecu testu. dicimus
+     tamen et haec testa et hoc pecus. al syllaba finita neutri sunt generis et tertiae
+     declinationis, <milestone unit="page" n="p. 35 F. Casaceli, Napoli 1974"/> ut hoc animal
+     animalis, hoc uectigal, hoc tribunal, hoc lupercal. </p>
+    <p> unum est masculini generis monosyllabum, hic sal salis, et barbara propria, ut hic Hannibal
+     Hasdrubal Adherbal Hiemsal. il syllaba terminata masculini sunt generis, hic pugil pugilis
+     mugil mugilis: sed Iuuenalis hic mugilis nominatiuum dixit; unum communis, hic et haec uigil;
+     unum feminini, haec Tanaquil: et omnia exemplo tertiae declinationis inflectuntur. ol unum
+     inuenitur masculini generis, ut hic sol. ul syllaba finita duo sunt masculini generis, hic
+     consul, hic praesul, unum communis, hic et haec exul, ut Lucanus <quote type="poetry">«exul
+      adhuc iacet umbra ducis»</quote>, et sunt tertiae declinationis, consulis exulis praesulis. </p>
+    <p> um syllaba terminata generis sunt neutri et secundi ordinis, ut hoc telum teli, caelum
+     caeli, bellum belli, regnum regni, fatum fati. in hac extremitate nulla sibi locum ambiguitas
+     uindicat. en syllaba finita i uocali praeposita duo tantum modo generis masculini sunt, hic
+     rien rienis, hic lien lienis, quae in obliquis casibus e litteram productam seruant, et septem
+     alia eiusdem generis antepositis consonantibus, hic flamen <del>sacerdos Iouis</del>, hic
+     pecten, hic tibicen, hic fidicen, hic liticen, hic tubicen, hic cornicen. cetera neutri sunt
+     generis procul dubio et tertiae declinationis similiter, ut hoc carmen carminis, nomen nominis,
+     limen liminis certamen numen omen crimen examen gluten glutinis et his similia. </p>
+    <milestone unit="page" n="p. 36 F. Casaceli, Napoli 1974"/>
+    <p> ar syllaba terminata generis sunt neutri omnia, ut hoc lucar, hoc torcular, hoc puluinar,
+     hoc laquear, hoc lacunar, praeter unum proprium generis masculini, hic Caesar. haec quoque
+     tertiae declinationis formulam secuntur, sed neutra in obliquis casibus a productam habent;
+     notatur iubar, quod solum a correptam habet, ut Virgilius <quote type="poetry">«iubare
+      exorto»</quote>. </p>
+    <p> er syllaba finita exceptis duobus feminini generis, haec mater et haec mulier, et neutris
+     his hoc uber, hoc tuber, hoc suber, hoc papauer, hoc cadauer, hoc laser, hoc siler, hoc iter,
+     hoc cicer, hoc siser, quae omnia tertiae sunt declinationis, cetera masculini sunt generis,
+     alia secundae, alia tertiae declinationis. masculina igitur in er syllabam desinentia, si
+     faciunt ex se feminina a littera terminata, secundi sunt ordinis, ut hic pulcher pulchri, ater
+     atri, niger nigri, quorum feminina sunt pulchra atra nigra. notatur sequester: facit femininum
+     sequestra et est tertiae declinationis. quae ex se aut nulla faciunt feminina aut in is
+     syllabam mittunt, tertiae sunt declinationis, ut hic pater patris, hic frater fratris, passer
+     passeris, anser anseris, carcer carceris, agger aggeris, hic acer huius acris: nam femininum
+     haec acris facit, ut Horatius <quote type="poetry">«soluitur acris hiemps»</quote>: hic alacer
+     alacris, uolucer uolucris, mediocer mediocris, celer celeris, equester equestris, pedester
+     pedestris. excipiuntur pauca, quae, quamuis in femininum genus a terminatum minime transeant,
+     secundae tamen sunt declinationis, ut hic puer pueri, hic gener generi, hic socer soceri, Liber
+     Liberi, liber libri, auster austri, aper apri, cancer cancri, oleaster oleastri, caper capri,
+     culter cultri, raster rastri, <milestone unit="page" n="p. 37 F. Casaceli, Napoli 1974"/> fiber
+     fibri. unum inuenitur communis generis, quod iuxta rationem communium tertii est ordinis, hic
+     et haec pauper pauperis; quidam adiciunt hic et haec uber uberis. </p>
+    <p> ir syllaba terminatum unum est monosyllabum generis masculini secundae declinationis, hic
+     uir huius uiri, et siqua ex illo componuntur, ut hic semiuir duumuir triumuir septemuir
+     decemuir leuir, quae eiusdem sunt declinationis. unum praeterea neutri generis repertum est et
+     monosyllabis insertum, hoc ir indeclinabile. </p>
+    <p> or syllaba finita masculini sunt generis et tertiae declinationis, ut hic odor odoris, amor
+     amoris, liquor liquoris, exceptis tribus, quae sexus in femininum genus defendit, eiusdem tamen
+     declinationis, haec uxor, haec soror, haec arbor, et neutris his, hoc ador, hoc marmor, hoc
+     aequor; quidam hoc ebor, hoc robor et hoc femor rationabiliter adnumerant. unum est communis
+     generis, hic et haec auctor, unum omnis hic et haec et hoc memor, et compositum immemor. et
+     omnia in hanc syllabam desinentia o in obliquis casibus productam habent si sint appellatiua et
+     Latina excepto uno, arbor et supra scriptis neutris et memor et immemor; propria Latina siue
+     Graeca o correptam habent in omnibus casibus, ut Actor Actoris, Hector Hectoris. quae in or
+     similiter desinunt i littera uocali praeposita, communis sunt generis eiusdem declinationis,
+     tertiae scilicet, et omnia comparatiui sunt gradus, hic et haec melior melioris, doctior
+     doctioris. </p>
+    <milestone unit="page" n="p. 38 F. Casaceli, Napoli 1974"/>
+    <p> ur syllaba finita generis masculini haec sunt, hic fur, hic satur. sed fur quidem iuxta
+     rationem monosyllaborum tertiae est declinationis, quod alii communis generis esse dixerunt,
+     satur autem secundae, quoniam femininum satura facit; praeterea hic turtur, hic uultur generis
+     masculini et epicoeni declinationis tertiae. cetera neutri sunt generis eiusdem declinationis,
+     ut hoc guttur, hoc sulphur, hoc fulgur, hoc murmur, hoc iecur iecinoris uel iecoris. unum
+     communis est generis, hic et haec augur auguris. </p>
+    <p> as syllaba terminata feminini sunt generis et tertiae declinationis, ut haec dignitas pietas
+     facultas ciuitas potestas, a littera in omni casu producta. pauca inueniuntur masculini generis
+     partim propria, partim a propriis ciuitatum nominibus translata, ut hic Larinas Larinatis, hic
+     Maecenas Maecenatis, hic Arpinas Arpinatis, hic Capenas Capenatis. </p>
+    <p> es syllaba quattuor modis nomina terminantur, id est in es productam praeposita consonante,
+     in es correptam similiter praeeunte qualibet consonante, in es puram productam i uocali
+     praeposita, in eandem puram correptam. nomina igitur quae in es productam desinunt consonante
+     praeposita generis sunt feminini tertiae declinationis et totidem syllabis in genitiuo et
+     ceteris casibus quot in nominatiuo proferuntur, ut haec nubes nubis, caedes caedis, proles
+     prolis, moles molis, strages stragis, labes labis, pubes <milestone unit="page"
+      n="p. 39 F. Casaceli, Napoli 1974"/> pubis, plebes plebis, excepto uno quod eiusdem generis
+     est, sed quintae declinationis, haec fides fidei, spes spei, res rei, et Ceres, quod in
+     genitiuo contra morem omnium plus una syllaba profertur (nam Cereris facit), et merces
+     mercedis. in hac extremitate quattuor reperiuntur propria masculini generis eiusdem ordinis,
+     hic Hercules Herculis, Cocles Coclis, Verres Verris, Vlixes Vlixis, et quae componuntur a pede
+     nihil a declinatione simplicis discrepantia, ut bipes tripes quadrupes (haec etiam communis
+     generis esse multi adfirmant) sonipes alipes; duo praeterea communis sunt generis, quae in
+     genitiuo una syllaba adcrescunt, hic et haec heres heredis, locuples locupletis. quae es
+     correpta terminantur praeposita consonante, masculini sunt generis tertiae similiter
+     declinationis et una syllaba in genitiuo crescunt, ut hic poples poplitis, hic fomes fomitis,
+     hic miles militis, hic gurges gurgitis, hic stipes stipitis, hic cespes cespitis, hic hospes
+     hospitis (nam in feminino hospita facit), exceptis his, feminini quidem generis haec seges
+     segetis et teges tegetis, communis uero, accidentibus licet, hic et haec teres, hic et haec
+     praepes, hic et haec diues, hic et haec hebes comes sospes superstes, et omnia genitiuum in tis
+     syllabam mittunt. </p>
+    <p> notantur haec sola, quae in dis, non in tis faciunt genitiuum, hic et haec praeses
+     praesidis, reses residis, deses desidis, obses obsidis. </p>
+    <p> quae in es productam et puram desinunt, feminini sunt generis declinationis quintae, ut haec
+     facies faciei, acies aciei, effigies effigiei, excepto uno incerti generis, quod nunc
+     masculinum nunc femininum est, ut hic uel haec dies diei, et quod ex eo figuratur masculini
+     generis, hic meridies meridiei. unum praeterea notatur eadem clausula finitum generis feminini
+     tertiae declinationis, haec quies quietis. quae in es correptam i praecedente uocali desinunt,
+     duo sunt masculini generis, hic aries, hic paries; unum <milestone unit="page"
+      n="p. 40 F. Casaceli, Napoli 1974"/> feminini, haec abies; et tertiae sunt declinationis:
+     faciunt enim genitiuum arietis parietis abietis. </p>
+    <p> is syllaba finita praepositis n et c consonantibus masculini sunt generis, hic panis, hic
+     funis, hic finis, hic amnis, hic ignis, hic clunis, hic piscis, hic fascis; unum feminini est
+     generis, haec bipennis; unum communis, hic et haec canis; omnia tamen tertiae sunt
+     declinationis. et illa generis sunt masculini, quae in genitiuo una syllaba adcrescunt, ut hic
+     lapis lapidis, hic puluis pulueris, hic sanguis sanguinis, hic uomis uomeris, hic cinis
+     cineris, hic pollis pollinis, hic pubis puberis, hic inpubis inpuberis, ut Tullius <quote
+      type="prose">«filiumque eius inpuberem»</quote>. ex his unum tantum feminini est generis, haec
+     cuspis cuspidis. cetera qualibet consonante is syllabam praecedente feminini generis sunt et
+     eiusdem declinationis, tertiae scilicet, nominatiuum genitiuo parem habentia, ut haec auis,
+     haec clauis, haec classis, haec turris, haec puppis, haec cutis, haec pellis, haec securis,
+     haec messis, haec nauis, haec scrobis, haec scobis, haec bilis. sed si sunt accidentia, id est
+     ad corpus uel ad animum pertinentia, uniuersa communis sunt generis et tertii similiter ordinis
+     et neutra ex se faciunt e littera terminata nihil a declinatione communium discrepantia, ut hic
+     et haec fortis hoc forte huius fortis; hic et haec dulcis hoc dulce huius dulcis; hic et haec
+     suauis hoc suaue huius suauis. et quae deriuantur a principalibus is syllaba finita, eandem
+     regulam sequuntur, ut a populo hic et haec popularis hoc populare huius popularis, hic et haec
+      <milestone unit="page" n="p. 41 F. Casaceli, Napoli 1974"/> specialis hoc speciale et similia.
+     sunt praeterea pauca nomina eadem clausula generis masculini, quae neque n aut c ante is
+     syllabam habent, nec in genitiuo plus una syllaba proferuntur, ut hic fustis, hic ensis, hic
+     postis, hic anguis, hic unguis, hic collis, hic follis, hic corbis, hic mensis, hic uectis, hic
+     torquis, hic torris, hic axis, hic orbis. praeter haec et quae superius notauimus omnia aut
+     feminini sunt generis aut communis. nam super declinatione nulla est ambiguitas. </p>
+    <p> os finita monosyllaba tria sunt generis masculini, hic mos, hic flos, hic ros; duo feminini,
+     haec cos, haec dos; unum neutri, hoc os oris: quidam et hoc os ossis adiciunt. et omnia
+     secundum definitam superius regulam monosyllaborum tertiae sunt declinationis. disyllaba tria,
+     quorum sunt duo masculini generis, unum communis, eiusdem declinationis, hic lepos leporis, hic
+     nepos nepotis, hic et haec custos custodis; similiter hic et haec sacerdos sacerdotis. </p>
+    <p> us syllaba terminata nomina masculini sunt generis aut feminini aut neutri; tantum unum est
+     omnis tertiae declinationis, hic et haec et hoc uetus ueteris. sed masculini generis nomina aut
+     secundae sunt declinationis aut quartae exceptis duobus, quae sunt tertiae, hic Ligus Liguris
+     lepus leporis. sed illa masculina secundae declinationis accipiunt formulam, quae aut propria
+     sunt aut in femininum genus transeunt, ut hic Tullius, clarus <milestone unit="page"
+      n="p. 42 F. Casaceli, Napoli 1974"/> (facit enim clara); illa quartae, quae aut a uerbis
+     ueniunt aut in femininum genus non transeunt, ut hic ascensus huius ascensus a uerbo ascendo,
+     hic motus huius motus, hic nisus huius nisus, hic portus huius portus, hic arcus huius arcus
+      <del>quae in femininum non transeunt</del>. sed quoniam plurima inueniuntur, quae nec a uerbis
+     ueniunt nec a nominibus <del>quartae sunt</del> neque feminina ex se faciunt, et tamen secundae
+     sunt declinationis, discernendae ambiguitatis causa diligenti inquisitione subiectas notauimus
+     regulas, quo facilius declinationis diuersitas deprehendi possit. ergo us syllaba terminata
+     nomina masculini generis propria uel appellatiua, siue feminina ex se faciant, siue in aliud
+     genus minime transformentur, secundae sunt declinationis, ut Terentius Terentii, Marcus Marci,
+     bonus boni, campus campi, hortus horti, fumus fumi, nidus nidi, fungus fungi, mergus mergi,
+     somnus somni, lucus luci. duo notantur, quae superius posuimus tertiae declinationis us syllaba
+     terminata eiusdem generis, hic Ligus Liguris, lepus leporis. quae a uerbis aut nominibus
+     ueniunt principalibus, quartae sunt declinationis, ut hic status huius status, hic ductus huius
+     ductus, hic motus huius motus, hic consulatus huius consulatus, hic tribunatus huius
+     tribunatus, hic magistratus huius magistratus, hic equitatus huius equitatus, hic principatus
+     huius principatus, hic receptus huius receptus, hic uisus huius uisus. notantur haec, quae nec
+     a uerbis ueniunt nec a nominibus deriuantur, et tamen quartae sunt declinationis, generis
+     masculini, hic arcus huius arcus, hic acus gradus fastus caestus aestus portus lacus uultus
+     sinus currus cultus luxus penus sexus senatus astus rictus ritus fetus situs. </p>
+    <milestone unit="page" n="p. 43 F. Casaceli, Napoli 1974"/>
+    <p> feminini generis eadem extremitate finita secundae declinationis sunt tria tantum, haec
+     colus coli, haec aluus alui, haec humus humi; et omnia nomina arborum quae in eandem syllabam
+     desinunt, haec pirus piri, haec prunus pruni, haec pinus pini, haec fagus fagi, haec taxus
+     taxi, haec fraxinus fraxini, haec ulmus ulmi, haec alnus alni; tertiae pauca, haec tantum:
+     tellus telluris, salus salutis, palus paludis, iuuentus iuuentutis, uirtus uirtutis, senectus
+     senectutis, seruitus seruitutis, Venus Veneris; quartae declinationis haec tantum: haec anus
+     huius anus, haec manus huius manus, haec porticus huius porticus, haec domus huius domus, haec
+     nurus huius nurus, haec socrus huius socrus, haec quercus huius quercus. neutra illa sunt, quae
+     in genitiuo una syllaba crescunt et in ris desinunt, ut hoc decus decoris, hoc sidus sideris,
+     hoc pondus ponderis, hoc pecus pecoris, exceptis tribus, quae secundae sunt declinationis
+     correpta us syllaba, hoc uulgus uulgi, hoc uirus uiri, hoc pelagus pelagi. alia omnia masculini
+     generis sunt et declinantur exemplo secundae declinationis aut quartae iuxta definitas superius
+     regulas. </p>
+    <p> ax syllaba terminata unum masculini generis proprium, hic Aiax, unum feminini, haec fornax;
+     alia omnia sunt accidentia et trium generum, ut hic et haec et hoc audax rapax fallax loquax
+     pertinax minax procax contumax peruicax; et omnia ad instar tertii ordinis declinantur et a in
+     obliquis casibus productam habent. </p>
+    <p> ex syllaba finita masculini sunt generis tertiae declinationis, ut hic uertex uerticis, hic
+     culex culicis, hic pollex pollicis, hic codex codicis, hic cortex corticis, hic murex muricis;
+     feminini <milestone unit="page" n="p. 44 F. Casaceli, Napoli 1974"/> generis haec sola, haec
+     silex, ut Virgilius <quote type="poetry">«ah silice in nuda»</quote>. haec ilex ilicis haec
+     carex caricis, si sunt accidentia, omnis generis sunt nihil a declinatione discrepantia: nam
+     sunt tertiae declinationis, ut hic et haec et hoc simplex duplex artifex opifex aurifex, et
+     omnia in genitiuo et ceteris casibus e litteram in i conuertunt. unum reperitur masculini
+     generis quod e producit in obliquis casibus, hic ueruex ueruecis. ix syllaba terminata
+     masculini generis sunt haec, hic calix calicis, hic fornix fornicis, hic uarix uaricis;
+     feminina haec, haec salix, haec filix, haec radix, haec ceruix, haec matrix, haec cornix, haec
+     lodix <del>obstetrix obstetricis</del>: ex his posteriora quinque i producunt in obliquis
+     casibus. accidentia trium generum sunt, ut hic et haec et hoc felix felicis, hic et haec et hoc
+     pernix pernicis. in eandem syllabam praepositis consonantibus, quarum prior muta, altera
+     liquida est, nomina feminini generis desinunt, quae a masculinis tor syllaba finitis et a uerbo
+     uenientibus figurantur, ut hic genitor haec genetrix, hic uenator haec uenatrix, hic bellator
+     haec bellatrix, hic uictor haec uictrix. unum eadem clausula terminatum generis masculini,
+     nomen serpentis apud Lucanum lectum est, <quote type="poetry">«et natrix uiolator
+      aquae»</quote>; duo feminini, quae a masculinis non ueniunt, haec meretrix, haec cicatrix.
+     omnia tamen procul dubio tertiae declinationis sunt. ox syllaba finita exceptis monosyllabis
+     omnia accidentia sunt generis omnis iuxta rationem saepius demonstratam ut hic et haec et hoc
+     ferox atrox uelox: haec quoque eiusdem declinationis legibus subiacent. unum feminini generis
+     hac extremitate lectum apud Plautum est, haec <milestone unit="page"
+      n="p. 45 F. Casaceli, Napoli 1974"/> celox, quod scapham significat <del>nauis</del>. ux
+     syllaba terminatur unum masculini generis proprium, hic Pollux Pollucis; monosyllaba cuius sint
+     generis, definiuimus <del>feminina monosyllaba lux nux crux</del>. quidam communis generis hac
+     syllaba finitum asserunt hic et haec coniux, qui nominatiuum sine n littera proferri uolunt
+     quod in genitiuo et aliis casibus eadem littera non seruatur. </p>
+    <p> t littera muta unum nomen terminatur generis neutri, hoc caput capitis, et quae ex eo
+     componuntur, sinciput sincipitis, occiput occipitis: Persius <quote type="poetry">«et fissa
+      fumosum sinciput aure»</quote>. </p>
+    <p> quae in duas desinunt consonantes exceptis, ut saepius dictum est, monosyllabis, si sint
+     accidentia, trium generum sunt et tertii ordinis remota ambiguitate declinationis, ut hic et
+     haec et hoc ingens ingentis, hic et haec et hoc caelebs caelibis, hic et haec et hoc inops
+     inopis, hic et haec et hoc sollers sollertis, hic haec et hoc concors concordis, hic et haec et
+     hoc potens potentis. </p>
+    <p> pauca sunt masculini generis propria, hic Mauors Mauortis, hic Arruns Arruntis; pauca
+     appellatiua, quorum alia masculini sunt generis, alia feminini, hic adeps adipis, haec cohors
+     cohortis, haec hiemps hiemis et similia. </p>
+    <p> expositis Latinorum nominum regulis Graecorum quoque tractanda est declinatio, quoniam
+     plerumque his utimur in sermone, ac maxime propriis, quae in usum Latinae linguae admissa
+      <milestone unit="page" n="p. 46 F. Casaceli, Napoli 1974"/> sunt, ut etiam certis definienda
+     sint regulis. memineris autem omnia Graeca nomina propria uel appellatiua aut primae
+     declinationis esse aut secundae aut tertiae, generis masculini feminini neutri tantum; sed
+     primae quidem et secundae declinationis masculina et feminina reperiuntur, tertiae autem
+     masculina feminina neutra. </p>
+    <p> quaecumque nomina as uel es syllabis terminantur, si apud Graecos genitiuum in <foreign
+      xml:lang="grc">ου</foreign> mittunt, apud nos primae sunt declinationis, ut hic Aeneas Aeneae,
+     Lysias Lysiae, Amyntas Amyntae, Damoetas Damoetae, Orestes Orestae, Pylades Pyladae, omnia
+     masculini generis. item illa quae flexa s littera adempta faciunt apud illos genitiuum,
+     similiter apud nos eiusdem sunt declinationis, ut Antas Antae, Menas Menae, et accusatiuum
+     singularem in n potius quam in m litteram mittunt, ut Aenean Anchisen Lysian; simili ratione
+     patronymica declinantur, ut hic Priamides Pelides, Priamidae Pelidae, hunc Priamiden Peliden.
+     Graeca autem feminina, quae a littera finiuntur, primae sunt declinationis, ut haec Medea
+     Medeae, Phaedra Phaedrae, Andromeda Andromedae. et quae in e productam apud illos desinunt,
+     apud nos e in a conuersa eiusdem sunt declinationis, ut haec Circe haec Circa Circae,
+      <milestone unit="page" n="p. 47 F. Casaceli, Napoli 1974"/> Andromache Andromacha, aut
+     secundum Graecam declinationem inflectuntur integro nominatiuo casu, ut haec Libye Libyes: sic
+     Lucanus <quote type="poetry">«finibus extremis Libyes ubi feruida tellus»</quote>. </p>
+    <p> secundae declinationis Graeca masculina uel feminina, quae <foreign xml:lang="grc"
+      >οσ</foreign> syllaba terminantur, o littera in u mutata apud Latinos secundi ordinis
+     declinationem secuntur, ut hic Homerus Homeri, Hyginus Hygini, haec Tyrus Tyri, Berytus Beryti,
+     Cyprus Cypri, Pontus Ponti. item quae apud illos in <foreign xml:lang="grc">ευς</foreign>
+     syllabam desinunt sunt autem masculina propria, eiusdem declinationis, ut hic Peleus Pelei,
+     Tydeus Tydei, Oeneus Oenei. haec datiuum singularem duplicem habent: nam et Peleo et Pelei
+     dicimus, et Orpheo et Orphei, ut Virgilius <quote type="poetry">«Orphei Calliopea
+     Lino»</quote>: sed hoc Graecae, illud Latinae declinationis est. accusatiuum tamen Graecum
+     habent, ut Pelea Tydea. item illa quae apud Graecos in <foreign xml:lang="grc">γρος</foreign>
+      in<foreign xml:lang="grc"> δρος</foreign> in <foreign xml:lang="grc"> κρος</foreign>
+      in<foreign xml:lang="grc"> τρος</foreign> syllabas desinunt postrema syllaba in er conuersa
+     eiusdem sunt declinationis, ut <foreign xml:lang="grc">Μελέαγρος</foreign> Meleager Meleagri,
+      <foreign xml:lang="grc">Μένανδρος</foreign> Menander Menandri,<foreign xml:lang="grc">
+      Τεῦκρος</foreign> Teucer Teucri, <foreign xml:lang="grc"> Ἀντίπατρος</foreign> Antipater
+     Antipatri. excipiuntur quaedam in grus et drus et trus syllabas desinentia, quae nominatiuum in
+     er non mutant, nihil tamen a declinatione dissentiunt, ut Andrus congrus Petrus. </p>
+    <p> in or nomina masculina propria desinunt et tertiae sunt declinationis, ut Hector Hectoris,
+     Nestor Nestoris, Mentor Mentoris. </p>
+    <p> in his omnibus o in omni casu corripitur. </p>
+    <milestone unit="page" n="p. 48 F. Casaceli, Napoli 1974"/>
+    <p> in as masculini generis desinentia, si apud illos genitiuum in <foreign xml:lang="grc"
+      >ος</foreign> mittunt, nos tertiae declinationi applicamus, ut<foreign xml:lang="grc"> Θόας
+      Θόαντος</foreign>, nos Thoas Thoantis, <foreign xml:lang="grc">Ἀκάμας Ἀκάμαντος</foreign>
+     Acamas Acamantis, Atlas Atlantis, Mimas Mimantis, Gigas Gigantis. et feminina similiter eadem
+     syllaba terminata tertiae sunt declinationis, ut Pallas Palladis, Thyas Thyadis, orchas
+     orchadis. in es propria masculini generis desinunt, quorum si Graeci genitiuum in <foreign
+      xml:lang="grc">ους </foreign> efferunt, simili modo Latine tertii ordinis exemplo declinantur,
+     ut <foreign xml:lang="grc"> Δεμοσθένης Δεμοσθένους</foreign> Demosthenes Demosthenis, Polynices
+     Polynicis, Diogenes Diogenis. quae circumflexo accentu pronuntiantur, in suo statu haec
+     permanent et Graecam declinationem secuntur, ut hic Eumenes Eumenus, hic Euprepes Euprepus,
+     quamquam quidam sic declinare maluerunt: Eumenes Eumenetis, Euprepes Euprepetis, et quae
+      in<foreign xml:lang="grc"> ος</foreign> genitiuum mittunt, similiter declinantur, ut Dares
+     Daretis, Chremes Chremetis (dicimus autem et Chremis) Diores Dioris, Antores Antoris. in is tam
+     masculini generis quam feminini desinunt eiusdem declinationis, ut hic Daphnis Daphnidis,
+     Thybris Thybridis, et feminina, haec Thais Thaidis, Lais Laidis, Isis Isidis, Hesperis
+     Hesperidis; et omnia genitiuum in dis syllabam mittunt excepto uno Simois, quod Simoentis facit
+     genitiuum. in us masculini generis propria figurae compositae desinentia tertiae sunt
+     declinationis, ut hic Melampus Melampodis, Oedipus Oedipodis. in ys propria masculini generis
+     tertiae declinationis sunt ut hic Capys Capyis Panthys Panthyis. </p>
+    <milestone unit="page" n="p. 49 F. Casaceli, Napoli 1974"/>
+    <p> o littera finita propria sunt generis feminini, quae translata in Latinam linguam nihilo
+     minus Graecam declinationem obtinent, ut Dido Manto Erato Ino Calypso Themisto. declinantur
+     enim hoc modo, haec Dido, huius Didus, huic Dido, hanc Dido, o Dido, ab hac Dido. errant enim
+     qui Didonis aut Mantonis genitiuum dicunt, cum et uocis asperitas et ueterum auctoritas eius
+     modi declinationem repudiant. </p>
+    <p> in on masculini generis propria desinunt, quae genetiuum aut in <foreign xml:lang="grc"
+      >ος</foreign> aut in <foreign xml:lang="grc">τος</foreign> mittunt apud Graecos: ea nos
+     tertiae declinationis esse asserimus ut Sinon Sinonis, Damon Damonis (haec interdum apud
+     Latinos demutata nouissima n littera proferuntur), Laocoon Laocoontis, Hippocoontis. et quae
+      in<foreign xml:lang="grc"> ος </foreign> genitiuum mittunt, paenultima syllaba o productam
+     habent in obliquis casibus; quae in <foreign xml:lang="grc">τος</foreign>, correptam, exceptis
+     duobus, quae in <foreign xml:lang="grc">ος </foreign> genitiuum efferunt et o corripiunt,
+     Memnon Memnonis, Agamemnon Agamemnonis. in on masculini generis nomina desinentia, ea quoque
+     tertiae sunt declinationis, ut hic Titan Titanis, hic paean paeanis. horum accusatiuum tam
+     numeri singularis quam pluralis secundum Graecos proferemus, ut hunc Titana paeana, hos Titanas
+     paeanas. unum etiam genitiuum singularem propter differentiam in os iuxta Graecam declinationem
+     mittit, hic Pan Panos, ut Virgilius <quote type="poetry">«Panos de more Lycaei»</quote>. in in
+     masculini generis exeunt eiusdem declinationis, ut hic delphin delphinis, Telchin Telchinis. </p>
+    <p> accusatiuum utriusque numeri delphina delphinas Telchina <milestone unit="page"
+      n="p. 50 F. Casaceli, Napoli 1974"/> Telchinas, sicut Graeci, proferemus. in os productam
+     generis desinunt masculini tertii ordinis, ut Minos Minois, heros herois, Tros Trois. </p>
+    <p> a finita Graeca neutri sunt generis omnia. de declinatione nulla est ambiguitas: nam eiusdem
+     sunt ordinis, ut poema poematis, toreuma toreumatis, emblema emblematis; quae quamuis tertiae
+     sint declinationis, datiuum et ablatiuum pluralem non in bus, sed in is mittunt, ratione
+     nominum secundae declinationis: nam his poematis et emblematis dicendum est. </p>
+    <p> in ax uel in ix masculini generis nomina desinunt et genitiuum is syllaba finiunt, ut thorax
+     thoracis, corax coracis, Phoenix Phoenicis. et quae in duas desinunt consonantes, tertiae
+     declinationi similiter applicantur, ut hic Cyclops Cyclopis, chalybs chalybis. </p>
+    <p> uniuersa nomina Graeca, cuiuscumque sint generis, genitiuum apud illos in has syllabas
+     mittunt, in <foreign xml:lang="grc">ης</foreign> ut<foreign xml:lang="grc"> Κίρκη
+      Κίρκης</foreign>, in<foreign xml:lang="grc"> ας</foreign>, ut<foreign xml:lang="grc"> Θαίδρα
+      Θαίδρας</foreign>, in <foreign xml:lang="grc">ου</foreign>, ut<foreign xml:lang="grc"> Αἰνείας
+      Αἰνείου</foreign>, in<foreign xml:lang="grc"> α</foreign>, ut <foreign xml:lang="grc"> Ἀντᾶς
+      Ἀντᾶ</foreign>, in <foreign xml:lang="grc">ως</foreign>, ut <foreign xml:lang="grc">Πηλεὺς
+      Πηλέως</foreign>, in <foreign xml:lang="grc">ους</foreign>, ut <foreign xml:lang="grc"
+      >Δημοσθένης Δημοσθένους</foreign>, in <foreign xml:lang="grc">ος</foreign>, ut<foreign
+      xml:lang="grc"> Θόας Θόαντος</foreign>,<foreign xml:lang="grc"> Γίγας Γίγαντος</foreign>.
+     igitur quaecumque nomina apud Graecos genitiuum in <foreign xml:lang="grc">ες</foreign> uel
+      in<foreign xml:lang="grc"> ας</foreign> mittunt, apud nos primae sunt declinationis,
+      ut<foreign xml:lang="grc"> Κίρκη Κίρκης </foreign>Circa Circae, Phaedra Phaedrae. quae in
+      <foreign xml:lang="grc">α</foreign> uel in<foreign xml:lang="grc"> ου</foreign> genitiuum
+     mittunt a nominatiuo <foreign xml:lang="grc">ας</foreign> uel<foreign xml:lang="grc">
+      ες</foreign> syllabis terminato uenientia, simili modo primae sunt declinationis, ut Antas
+     Antae, Aeneas Aeneae, Orestes Orestae. </p>
+    <p> quae in<foreign xml:lang="grc"> ου</foreign> syllabam exeunt in genitiuo a nominatiuo
+      <foreign xml:lang="grc">ος </foreign> terminato uenientia, secundae sunt declinationis, ut
+     Homerus Homeri, <milestone unit="page" n="p. 51 F. Casaceli, Napoli 1974"/> Menander Menandri.
+     item quae in <foreign xml:lang="grc">ως</foreign> exeunt, secundae sunt, ut Tydeus Tydei,
+     Peleus Pelei. quae in <foreign xml:lang="grc">ους</foreign> uel in <foreign xml:lang="grc"
+      >ος</foreign> syllabas genitiuum singularem mittunt omnia tertiae sunt declinationis remoto
+     dubitationis errore, ut Demosthenes Demosthenis, Paris Paridis, Mimas Mimantis, Pallas
+     Palladis, Thais Thaidis, poema poematis. </p>
+    <p> quoniam genera et declinationes tam Latinorum nominum quam Graecorum dilucide breuiterque
+     explanauimus, de ceteris quae praepositis regularum legibus refragantur disseremus, ut discussa
+     penitus ignorationis caligine inoffensa luce scientiae mentes adulescentium inlustrentur. sunt
+     quaedam nomina in utroque numero non eiusdem generis; alia non eiusdem declinationis; alia non
+     in utroque numero declinantur; alia certis casibus deficiunt. de his dicemus, et primum de
+     illis quae generibus discrepant. </p>
+    <p> in singulari numero generis masculini, in plurali neutri: hic locus haec loca (dicimus tamen
+     et hi loci), hic iocus haec ioca (et hi ioci), hic Maenalus haec Maenala, hic Tartarus haec
+     Tartara, hic Gargarus haec Gargara, hic carbasus haec carbasa, hic Ismarus haec Ismara, hic
+     sibilus haec sibila. in singulari numero generis feminini, in plurali neutri: haec Pergamus
+     haec Pergama, haec intibus haec intiba, haec arbutus haec arbuta. in singulari numero generis
+     neutri, in plurali feminini: hoc epulum hae epulae: sic Iuuenalis <quote type="poetry">«unde
+      epulum possis centum dare Pythagoreis»</quote>; alii <milestone unit="page"
+      n="p. 52 F. Casaceli, Napoli 1974"/> hae epulae semper pluraliter declinant; hoc balneum hae
+     balneae dicuntur et haec balnea: Tullius <quote type="prose">«ad balneas Pallacinas»</quote>,
+     Iuuenalis <quote type="poetry">«et crudum pauonem in balnea portas»</quote>; hoc caepe, quod in
+     singulari numero est aptotum, in plurali femininum, hae caepae. et ordine primo declinantur. in
+     singulari numero generis neutri, in plurali masculini: hoc porrum hi porri, hoc frenum hi
+     freni, ut Lucanus <quote type="poetry">«frenosque momordit»</quote>: dicimus tamen et haec
+     frena; hoc filum hi fili, <quote type="poetry">«traxerunt torti magica uertigine fili»</quote>;
+     et haec fila dicuntur; hoc Argus hi Argi, hoc caelum hi caeli. </p>
+    <p> in plurali numero mutant declinationem haec. hoc iugerum in singulari numero secundae
+     declinationis est, in plurali tertiae: nam genitiuum horum iugerum, datiuum et ablatiuum his et
+     ab his iugeribus facit; et uas, quod tertiae est in singulari numero, in plurali secundae: nam
+     genitiuum horum uasorum, datiuum et ablatiuum his et ab his uasis dicimus. pauca sunt primae
+     declinationis nomina quae contra regulam datiuum et ablatiuum numeri pluralis in bus syllabam
+     mittunt discernendae ambiguitatis <del>sexus</del> causa: his et ab his deabus filiabus mulabus
+     equabus libertabus, quae a iuris peritis usurpata sunt. </p>
+    <p> haec sunt quae in utroque numero non admittunt declinationem, quorum alia singulariter, alia
+     pluraliter tantum declinantur. deorum propria nomina, elementorum, heroum, fluminum, montium,
+     singulariter dumtaxat declinantur; item urbium, nisi <milestone unit="page"
+      n="p. 53 F. Casaceli, Napoli 1974"/> quae natura pluraliter efferuntur, ut Athenae Thebae
+     Cumae Mycenae Antemnae Grauiscae Crustumeri Cosae Arpi Puteoli Ostia; item metallica, quae
+     omnia secundae sunt declinationis et generis neutri, ut hoc aurum argentum ferrum plumbum
+     stagnum, excepto uno aes, quod eiusdem generis est, sed iuxta rationem monosyllaborum tertii
+     ordinis est, tres autem casus in plurali numero admittit, nominatiuum accusatiuum uocatiuum,
+     hoc aes et haec aera o aera. item arida uel liquida, quae ad mensuram pondusue referuntur, ut
+     hoc triticum hordeum frumentum far lens cicer milium eruum haec faba oleum uinum mel mulsum
+     defrutum muria <del>dicitur tamen liquamen</del>. ex his multa ueteres, auctoritate licentiae
+     largiente, pluraliter extulerunt, haec frumenta hordea farra mella defruta. uina etiam usus
+     recepit: nam uina Coa dicimus et Massica. praeter haec alia sunt quae in plurali numero
+     deficiunt, generis quidem masculini haec: hic fumus fimus limus puluis sanguis genius; generis
+     feminini: haec fames lux labes pix pax sitis tabes humus; generis neutri: hoc caenum faenum ius
+     lutum letum uulgus pelagus uirus uiscum aeuum, hoc penum. in plurali numero tantum declinantur
+     nomina numerorum, praeter unum quod plurali deficit numero, ut duo tres. memineris autem omnia
+     nomina numerorum ab uno usque ad tres declinari, a quattuor usque ad centum minime, a ducentis
+     usque ad nongentos per <milestone unit="page" n="p. 54 F. Casaceli, Napoli 1974"/> omnia genera
+     pluraliter tantum declinari. est etiam unum aptotum neutri generis semper eiusdem numeri, haec
+     pondo. praeter haec alia sunt quae in singulari numero non declinantur, generis quidem
+     masculini. hi antes, hi carceres cani casses furfures fori liberi manes optimates primores
+     proceres pugillares Quirites sentes uepres; generis feminini: argutiae blanditiae cunae
+     exequiae inferiae insidiae inimicitiae exuuiae manubiae excubiae primitiae bigae trigae
+     quadrigae compedes deliciae diuitiae dapes feriae falerae genae facetiae indutiae kalendae idus
+     nonae latebrae nuptiae nundinae neniae quisquiliae reliquiae scalae tenebrae antiae; generis
+     neutri: arma moenia castra liba magalia crepundia bona exta spolia serta praesepia pascua
+     sponsalia altaria praecordia mappalia cunabula; item festorum dierum nomina, ut Saturnalia
+     Neptunalia Bacchanalia. </p>
+    <p> certis casibus deficiunt haec: satias, quod praeter nominatiuum singularem nullum casum
+     admittit; hanc dicionem ab hac dicione: hoc quoque nomen casibus utriusque numeri deficit
+     praeter accusatiuum et ablatiuum singularem; laterem latere: similiter accusatiuum et ablatiuum
+     singularem lectio usurpauit; sponte et tabo ablatiuum singularem habent tantum; dicam et dicas:
+     utriusque numeri accusatiuum inuenimus tantum; tabes: nominatiuum et accusatiuum et ablatiuum
+     numeri singularis habet dumtaxat. sunt alia quae a genitiuo casu singulari declinationis sumunt
+     exordium et in utroque numero recte declinantur, ut remigis frondis uerberis, ut Lucanus <quote
+      type="poetry">«ad saxum quotiens ingenti uerberis ictu»</quote>. alia sunt quae duos aut tres
+     tantum casus habent in singulari numero, sed in plurali per omnes declinantur, ut huius opis
+     hanc opem ab hac ope, <milestone unit="page" n="p. 55 F. Casaceli, Napoli 1974"/> et hanc uicem
+     ab hac uice. alia ablatiuum tantum habent in singulari numero, ut ab hac fruge, ab hac obice,
+     ab hac prece, ab hoc uiscere: haec quoque in plurali numero declinantur. </p>
+    <p> pauca sunt quae, cum in singulari numero non deficiant, in plurali tres tantum casus habent,
+     de quibus paulo superius diximus, haec iura, haec rura, haec aera, haec maria. </p>
+    <p> uniuersa nomina primae secundae quartae declinationis totidem syllabis in genitiuo quot in
+     nominatiuo proferuntur, praeter unum uir et quae ex eo componuntur <del>et his quae in er
+      syllabam desinunt</del>. tertiae aut pares habent syllabas in obliquis casibus aut unam
+     adsumunt. quintae procul dubio plus una syllaba proferri solent. pauca inueniuntur tertiae
+     declinationis quae in genitiuo duabus syllabis crescunt: iter itineris, anceps ancipitis,
+     biceps bicipitis, triceps tricipitis, praeceps praecipitis, iecor iecinoris: sed et iecoris
+     lectum est; supellex supellectilis. </p>
+    <p> omnium nominum, cuiuscumque sint declinationis, uocatiuus singularis similis est nominatiuo
+     eiusdem numeri, neque hoc in dubium uenit, exceptis nominibus secundae declinationis, quorum
+     uocatiuus diuersis modis exprimitur. propria igitur nomina quae in nominatiuo casu singulari us
+     syllaba terminantur i uocali praeposita uocatiuum adempta nouissima syllaba faciunt, ut hic
+     Virgilius o Virgili, hic Terentius o Terenti, hic Domitius o Domiti; praeposita uero qualibet
+     consonante uocatiuum in e correptam <milestone unit="page" n="p. 56 F. Casaceli, Napoli 1974"/>
+     mittunt, ut hic Turnus o Turne, hic Marcus o Marce, hic Lentulus o Lentule. appellatiua quae in
+     ius desinunt uocatiuum in e mittunt, ut hic fluuius o fluuie, socius o socie: quae ueteres
+     iuxta nominatiuum proferebant, ut Virgilius <quote type="poetry">«corniger Hesperidum fluuius
+      regnator aquarum»</quote>. quae consonante praelata in eandem syllabam desinunt, si quidem
+     sunt accidentia uel deriuatiua, uocatiuum in e mittunt, ut doctus docte, sanctus sancte,
+     Romanus Romane, Hispanus Hispane. cetera in us potius quam in e syllabam exeunt, ut hic populus
+     o populus: sic Lucanus <quote type="poetry">«degener o populus»</quote>: sed et o popule lectum
+     est; lucus o lucus. quae a ueteribus propter asperitatem uocis minime usitata sunt, adeo ut
+     rara huius modi declinationis reperiantur exempla: haec myrtus o myrte Virgilius declinauit,
+      <quote type="poetry">«et tu proxima myrte»</quote>. </p>
+    <p> tertiae quoque declinationis nominum ablatiuus casus singularis duobus modis proferri solet,
+     aut in e aut in i. sed illa in i exeunt, quae communis sunt generis et in nominatiuo is syllaba
+     terminantur, ut hic et haec suauis ab hoc et ab hac suaui, hic et haec grauis ab hoc et ab hac
+     graui; item neutra quae in nominatiuo e uel l uel r litteris terminantur, ut hoc sedile ab hoc
+     sedili, hoc animal ab hoc animali, hoc laquear ab hoc laqueari; item quae in duas desinunt
+     consonantes uel in duplicem et sunt accidentia trium generum, ut hic et haec et hoc ingens ab
+     hoc et ab hac et ab hoc ingenti, hic et haec et hoc audax ab hoc et ab hac et ab hoc audaci; et
+     quae in r desinunt masculina et in feminina transeunt uel trium generum sunt ut hic acer ab hoc
+     acri, hic et haec <milestone unit="page" n="p. 57 F. Casaceli, Napoli 1974"/> et hoc par ab hoc
+     et ab hac et ab hoc pari. et quae in im mittunt accusatiuum singularem, sunt autem haec turris
+     hanc turrim ab hac turri, haec sitis hanc sitim ab hac siti, haec puppis hanc puppim ab hac
+     puppi, haec securis hanc securim ab hac securi. similiter febris torquis uectis restis hanc
+     febrim torquim uectim restim ab hac <supplied>febri torqui uecti</supplied> resti. praeterea
+     haec nauis, bipinnis, hic ignis similiter ablatiuum in i mittunt, quae saepe poetae per e
+     solent efferre. cetera omnia tertiae declinationis nomina ablatiuum singularem in e mittunt.
+    </p>
+   </div>
+   <div type="section">
+    <head>de uerbo</head>
+    <p>
+     <hi rend="bold"> de uerbo</hi>
+    </p>
+    <p> quoniam, ut opinor, de nomine conuenienter tractatum est, nunc de uerbo, sicut praefatio
+     pollicetur, disseremus, cuius omnis ambiguitas in discernenda coniugatione et cognoscendo
+     praeterito perfecto uersatur. de his nos pro ingenii uiribus diligenter docebimus; nam cetera
+     multorum expositio declarauit. igitur coniugationes sunt tres, ut alii quattuor, quas in
+     secunda persona temporis praesentis modi indicatiui dinoscimus; formae quattuor, perfecta
+     meditatiua inchoatiua frequentatiua. sed perfectae formae uerba omnium sunt coniugationum,
+     frequentatiuae tantum primae coniugationis excepto lacesso, a lacero, inchoatiuae tertiae
+     dumtaxat correptae, meditatiuae tertiae productae uel quartae. genera uerborum facili ratione
+     cognoscuntur. aut enim actiua sunt et o littera terminantur et adsumpta r littera transeunt in
+     passiua; aut passiua et adempta nouissima littera redeunt in actiua; aut neutra, quae actum
+     significant et actiuam habent declinationem et in passiuam minime transeunt; aut supina, quae
+     ut actiua quidem <milestone unit="page" n="p. 58 F. Casaceli, Napoli 1974"/> declinantur, sed
+     significationem habent passiuam, ut uapulo ueneo pendeo; aut deponentia superioribus contraria,
+     quae passiuorum declinantur exemplo et significationem habent actiuam neque r litteram possunt
+     amittere; aut communia similia deponentibus et passiuis, sed agentis et patientis formam
+     amplectuntur. unde constat uniuersa uerba duobus modis declinari: nam neutra et supina
+     actiuorum, deponentia et communia passiuorum regulam secuntur. </p>
+    <p> sunt praeterea neutropassiua, quae in praeterito perfecto et plusquamperfecto passiui
+     declinationem habent, in aliis neutri, et sunt haec sola, secundae quidem coniugationis audeo
+     gaudeo soleo; tertiae autem fido et fio, et siqua ex his componuntur: praeter haec nulla sunt
+     huius modi declinationis uerba. sunt alia passiuoneutra, superioribus contraria, haec sola,
+     comperior mereor deuertor: nam in praeterito comperi merui deuerti, sicut actiua uel neutra,
+     proferuntur. </p>
+    <p> uniuersa uerba primae coniugationis, quae in secunda persona as syllaba terminantur, actiua
+     siue neutra, praeteritum perfectum in aui syllabas mittunt, ut amo amaui, aro araui, armo
+     armaui, narro narraui, canto cantaui, nauigo nauigaui, paro paraui, seruo seruaui, exceptis
+     nouem, quae in ui mittunt praeteritum, ut seco secui, domo domui, frico fricui, ueto uetui,
+     sono sonui, tono tonui, mico micui, crepo crepui, plico plicui, et siqua adnexis
+     praepositionibus componuntur; plico tamen utramque formam seruat in praeterito: nam et plicui
+     et plicaui dictum est. quattuor huic regulae refragantur: nam neque in ui neque in aui exeunt:
+     sto steti, <milestone unit="page" n="p. 59 F. Casaceli, Napoli 1974"/> do dedi, lauo laui, iuuo
+     iuui. sed duo posteriora quidam superioribus applicant errantes: nam illa in praeterito una
+     syllaba crescunt, haec totidem quot in praesenti proferuntur. </p>
+    <p> secunda coniugatio, quam non tantum secunda persona, sed etiam prima facile declarat,
+     quoniam omnia uerba quae eo syllabis in prima persona finiuntur, secundae sunt coniugationis
+     exceptis duobus tertiae coniugationis productae, eo is queo quis et siqua ex his composita
+     figurantur, et tribus primae, creo creas, meo meas, beo beas, praeteritum perfectum in has
+     syllabas mittit, in ui consonante praeposita, in ui praeeunte uocali, pauca in si et in xi,
+     quae inter excepta notauimus. ergo omnia uerba secundae coniugationis qualibet consonante
+     praeposita eo syllabis praeteritum perfectum in ui mittunt, ut habeo habui, debeo debui, rubeo
+     rubui, tabeo tabui, doceo docui, taceo tacui, misceo miscui, iaceo iacui, noceo nocui, arceo
+     arcui, splendeo splendui, candeo candui, madeo madui, egeo egui, langeo langui, uigeo uigui,
+     rigeo rigui, caleo calui, doleo dolui, oleo olui, palleo pallui, timeo timui, terreo terrui,
+     tepeo tepui, torpeo torpui, pareo parui, careo carui, uireo uirui, floreo florui, horreo
+     horrui, censeo censui, niteo nitui, pateo patui, caneo canui, teneo tenui; excipiuntur pauca
+     quae in si syllabam mittunt praeteritum, iubeo iussi, mulceo mulsi, mulgeo mulsi, algeo alsi,
+     fulgeo fulsi, ardeo arsi, suadeo suasi, maneo mansi, haereo haesi, rideo risi, torqueo torsi,
+     indulgeo <milestone unit="page" n="p. 60 F. Casaceli, Napoli 1974"/> indulsi. de urgeo et
+     turgeo ambigitur. alia in xi, lugeo luxi, frigeo frixi. illa in ui praeteritum mittunt, quae in
+     prima persona modi indicatiui temporis praesentis u ante eo habent, et primam syllabam, quam in
+     praesenti tempore breuem, in praeterito longam habent, ut faueo faui, paueo paui, foueo foui,
+     moueo moui, caueo caui, uoueo uoui, et quae ex his componuntur. quaedam, quamquam in praesenti
+     non sunt similia superioribus, praeteritum tamen in ui mittunt producta paenultima syllaba, neo
+     neui, fleo fleui, cieo ciui, impleo impleui, compleo compleui, expleo expleui, deleo deleui. </p>
+    <p> non multum ab his discrepare uidentur etiam haec quorum prima syllaba in praeterito ex
+     correpta cadit in productam, sedeo sedi, uideo uidi. contra omnium regulam est prandeo prandi.
+     quaedam sunt in secunda coniugatione quorum praeteritum perfectum iteratur per primam syllabam,
+     haec sola: pendeo pependi, spondeo spopondi, tondeo totondi, mordeo momordi, quae adsumptis
+     praepositionibus non eodem modo proferenda sunt: nam despondi et dependi et detondi dicimus. de
+     neutropassiuis abunde dictum est. tertia coniugatio correpta, quae secundam personam in is
+     syllabam mittit, in imperatiuo modo in e solitam conuerti, praeteritum perfectum in has
+     syllabas effert: in ui praeposita qualibet consonante, in ui praeposita uocali, in i consonante
+     praeposita, in si, in xi. sed illa praeteritum in ui mittunt, quae in praesenti tempore
+     indicatiui modi u ante nouissimam litteram habent, ut tribuo tribui, statuo statui, minuo
+     minui, imbuo imbui, adnuo adnui, diluo dilui, obruo obrui, induo indui: in his duo notantur,
+     quae in <milestone unit="page" n="p. 61 F. Casaceli, Napoli 1974"/> xi mittunt praeteritum,
+     fluo fluxi, struo struxi. et quae in lo syllabam exeunt in praesenti, nihilo minus praeteritum
+     in ui mittunt, ut uolo uolui, colo colui, consulo consului, alo alui. pauca praeterea in eandem
+     extremitatem mittunt praeteritum, quamquam praesens dissimile superioribus habeant, tremo
+     tremui, gemo gemui, fremo fremui, pono posui, strepo strepui, rapio rapui, compesco compescui,
+     necto nexui, sterto stertui, pecto pexui, texo texui, senesco senui, gigno genui, et siqua ex
+     his componuntur. </p>
+    <p> ui syllaba terminantur in praeterito haec sola: sperno spreui, sterno straui, cerno creui,
+     sero seui, tero triui, pasco paui, quaero quaesiui, lino leui, quiesco quieui, cupio cupiui,
+     consuesco consueui, peto petiui, sapio sapiui. in i praeposita consonante in praeterito
+     desinunt, quae in praesenti do syllaba terminantur praecedente n littera, ut scando scandi,
+     ascendo ascendi, descendo descendi, accendo accendi, offendo offendi, pando pandi, prendo
+     prendi, mando mandi; tria n in praeterito amittunt, fundo fudi, findo fidi, scindo scidi: sic
+     Lucanus <quote type="poetry">«aut scidit et medias fecit sibi litora terras»</quote>; et quae
+     minus una syllaba proferuntur, producta prima syllaba in praeterito, quae in praesenti
+     corripitur, ut capio cepi, iacio ieci, facio feci, fugio fugi, fodio fodi. pauca praeterea
+     eandem clausulam habent nouissima littera praesentis temporis in i conuersa, uinco uici, rumpo
+     rupi, soluo solui, uoluo uolui, cudo cudi. in si praeteritum mittunt illa uerba, quae in
+     praesenti do uel mo syllabis <milestone unit="page" n="p. 62 F. Casaceli, Napoli 1974"/>
+     terminantur, si sit natura longa paenultima, ut ludo lusi, laedo laesi, cedo cessi, plaudo
+     plausi, trudo trusi, rado rasi, inlido inlisi, adlido adlisi, promo prompsi, sumo sumpsi, demo
+     dempsi, resumo resumpsi. et premo, quamuis correpta sit paenultima, in eandem syllabam exit, et
+     quicquid ex eo componitur, ut premo pressi, exprimo expressi, comprimo compressi. et quae in bo
+     uel in po syllabas desinunt, praeteritum similiter in si syllabam mittunt, ut scribo scripsi,
+     nubo nupsi, scalpo scalpsi, sculpo sculpsi, repo repsi, serpo serpsi. praeter haec pauca sunt,
+     quae non eadem extremitate finiuntur in praesenti, praeteritum tamen in si syllabam mittunt:
+     spargo sparsi, mergo mersi, tergo tersi, mitto misi, uro ussi, contemno contempsi, concutio
+     concussi, gero gessi, et siqua ex his in compositam figuram transeunt. in xi syllabam in
+     praeterito desinunt uerba quae in praesenti go syllaba terminantur, ut cingo cinxi, pingo
+     pinxi, sugo suxi, affligo afflixi, pergo perrexi, rego rexi, diligo dilexi, intellego
+     intellexi. excipiuntur tria in si desinentia, quae superius notauimus, et alia quattuor, quae
+     non in i, sed in gi syllabam mittunt praeteritum, tango tetigi, frango fregi, lego legi, ago
+     egi; et siqua ex his componuntur, simplicium formam secuntur. his simile est impingo, quod
+     impegi facit praeteritum. praeter haec in xi mittunt praeteritum uiuo uixi, coquo coxi, meio
+     minxi, inlicio inlexi, aspicio aspexi, flecto flexi, duco duxi, dico dixi, ueho uexi, traho
+     traxi. sunt tertiae coniugationis uerba quae primam syllabam in praeterito duplicant, quae
+     omnia subiecta sunt: tango tetigi, pango pepigi, pello pepuli, fallo fefelli, pendo pependi,
+     tendo tetendi, pungo pupugi (sed et punxi dicimus), tudo tutudi, cado cecidi, caedo cecidi,
+     pario peperi, cano cecini, disco didici, posco poposci, parco peperci (facit et parsi), curro
+      <milestone unit="page" n="p. 63 F. Casaceli, Napoli 1974"/> cucurri, pedo pepedi. haec
+     adiunctis praepositionibus non eodem modo proferenda sunt: nam duplicatam in simplici figura
+     syllabam in compositione amittunt: dicimus enim sic, expendo expendi, decurro decurri, refello
+     refelli, compello compuli, concido concidi. sed ex his duo sola praepositionibus adnexis in suo
+     statu manent, disco et posco: dedidici etenim et depoposci faciunt praeteritum; cano autem
+     neutram regulam sequitur: concinui et succinui dicimus. </p>
+    <p> composita sunt in eadem coniugatione quae nouissimam syllabam geminant in praeterito, illa
+     uidelicet quae a do uerbo primae coniugationis componuntur, condo condidi, reddo reddidi, perdo
+     perdidi, trado tradidi, subdo subdidi, prodo prodidi, addo addidi, abdo abdidi. similiter
+     proferuntur credo credidi, uendo uendidi. quarta coniugatio uel tertia producta, quam
+     imperatiuus modus prodit i litteram in fine conseruans, praeteritum perfectum in ui syllabam
+     mittit uel in i duplicem, ut audio audiui uel audii, munio muniui uel munii, saeuio saeuiui uel
+     saeuii, lenio leniui uel lenii, mollio molliui uel mollii, finio finiui uel finii, punio puniui
+     uel punii, sopio sopiui uel sopii, accio acciui uel accii, scio sciui uel scii, hinnio hinniui
+     uel hinnii, eo iui uel ii, exeo exiui uel exii, ineo iniui uel inii, et cetera his similia.
+     pauca in si exeunt, et sunt fere haec, sarcio sarsi, farcio farsi, haurio hausi, sepio sepsi,
+     sentio sensi; alia in xi, haec sola: sancio sanxi, fulcio fulxi, uincio uinxi. unum inuenitur
+     quod primam syllabam in praesenti corripit, in praeterito producit uenio ueni; et composita ex
+     eo in <milestone unit="page" n="p. 64 F. Casaceli, Napoli 1974"/> hunc modum proferuntur <supplied><gap/></supplied>
+     aperio aperui, cuius compositum dissentit, reperio repperi. </p>
+    <p> in has fere syllabas omnia uerba, quae trina coniugationum norma complectitur, in praeterito
+     desinunt. sed nequid ambiguitatis subesse possit lectoribus, non dissimulabimus de illis
+     dicere, quae rationi refragantur. sunt enim uerba quae personis deficiunt et impersonalia
+     dicuntur, alia modis, alia temporibus, alia coniugationibus, alia participiis. de his
+     exponemus, et primum de impersonalibus, quae aut secundae sunt coniugationis aut tertiae,
+     quantum ex tertia persona contemplari licet <supplied><gap/></supplied> eorum alia accusatiuum casum trahunt, ut pudet
+     taedet piget poenitet miseret decet; alia datiuum, ut licet liquet libet. unum est quod casu
+     non indiget, oportet. et omnia praeteritum in uit syllabam mittunt: puduit piguit poenituit
+     licuit libuit decuit, praeter tria, quorum duo deficiunt in praeterito, liquet et taedet, unum
+     quasi passiuam habet declinationem, miseret: nam miseritum est dicimus. et licet tamen et libet
+     ad hanc similitudinem proferri possunt, licitum est et libitum est, et taedet in composita
+     figura, pertaesum est. tertiae coniugationis impersonalia datiuum casum adsumunt, ut contingit
+     euenit accidit expedit. quaedam primae coniugationis impersonalia reperiuntur, ut iuuat
+     praestat, quae et aliter declinari possunt. sed omnia tam in futuro imperatiui modi quam
+     infinitiui, nec non etiam gerundi uel participialibus et participiis utriusque temporis
+     deficiunt. </p>
+    <milestone unit="page" n="p. 65 F. Casaceli, Napoli 1974"/>
+    <p> defectiua in modis sunt haec: quaeso, quod primam personam habet indicatiui modi dumtaxat,
+     licet quaesere lectum sit apud Sallustium et Tullium; ouat, infit: haec quoque tertiam personam
+     habent solam, sed ouat participium facit praesentis temporis, ouans, cum in declinatione uerbi
+     deficiat. similiter ausim et duim. inquam in prima persona contra morem omnium profertur et
+     utrumque numerum modi indicatiui temporis praesentis et imperatiui numerum singularem habet:
+     nam inque apud Terentium lectum est; aio praesens et praeteritum imperfectum tantum habet. faxo
+     futurum tempus tantum uel, ut alii, promissiuum modum ostendit. salue saluete imperatiui modi
+     secunda persona in utroque numero lecta est, et infiniti modi tempus praesens, saluere. </p>
+    <p> cedo et aue similiter imperatiui modi secundam personam habent numeri singularis: cedo etiam
+     numero plurali lectum est apud Plautum, cette. </p>
+    <p> in coniugationibus et praeterito deficiunt haec: fero fers praeteritum facit tuli, sum es
+     fui, ferio feris percussi, tollo tollis sustuli facit, edo es edi: hoc infinitiui modi praesens
+     tempus non in re syllabam, sed in se contra morem omnium mittit: esse enim dicendum est; uolo
+     uis uolui: hoc quoque incertae est coniugationis et in futuro imperatiui et infinitiui modi
+     deficit et gerundi uel <milestone unit="page" n="p. 66 F. Casaceli, Napoli 1974"/>
+     participialibus, quae supina alii dicunt; meto messem feci: nam aliter proferri non potest;
+     polleo sisto, similiter et glisco furio et quatio nullum habent praeteritum. memineris tamen
+     inchoatiuae formae uerba in praeterito perfecto deficere. </p>
+    <p> participiis carent uerba alia praesentis temporis, alia futuri, alia utriusque. in praesenti
+     itaque deficit sum et quae ex eo adiectis praepositionibus componuntur praeter duo, absens et
+     praesens, quae a uerbis absum et praesum ueniunt. et eo uerbum in participio nominatiui casus
+     numeri singularis deficit, in ceteris recte declinatur: composita quaedam etiam nominatiuum
+     habent, ut praeteriens abiens. futuri temporis participia non habent in primis uerba formae
+     inchoatiuae, ut horresco calesco et his similia; deinde omnia secundae coniugationis quae sunt
+     generis neutri et in formam transeunt inchoatiuam, ut horreo caleo tepeo niteo pateo splendeo
+     uigeo rigeo floreo paueo rubeo tabeo madeo tumeo sileo palleo ferueo timeo lateo: nam et haec
+     adsumptis praepositionibus faciunt inchoatiua, ut pertimesco delitesco. ualeo tantum cum faciat
+     conualesco, in participio futuri temporis minime deficit: nam ualiturus dicendum est. sunt alia
+     praeterea quae non transeunt in formam inchoatiuam eiusdem coniugationis et generis et nihilo
+     minus in participiis futuri temporis deficiunt, ut egeo maereo polleo calleo studeo. praeter
+     haec et uolo carent participio futuri temporis et malo et nolo, quae ex illo componuntur;
+     similiter <milestone unit="page" n="p. 67 F. Casaceli, Napoli 1974"/> et metuo fluo sitio tremo
+     saeuio sero disco posco furio. uerba quae <del>prima</del> utriusque temporis participiis
+     carent <supplied>sunt</supplied> impersonalia omnia, de quibus superius docuimus, et defectiua,
+     illa uidelicet quae ordine declinari non possunt, ut aio quaeso inquam faxo salue aue cedo et
+     possum; similiter et soleo. </p>
+    <p> sunt uerba, quae in prima persona confusa habentur, quorum significationem secunda persona
+     coniugationis discernit: dico dicas correpta priore syllaba, dico dicis producta; fundo fundas,
+     fundo fundis; uolo uolas, uolo uis; appello appellas, appello appellis; compello compellas,
+     compello compellis; mando mandas, mando mandis. sunt alia quae ex diuersa forma praesentis
+     temporis in praeterito confunduntur: paueo paui, pasco paui; cerno creui, cresco creui; acuo
+     acui, aceo acui; lugeo luxi, luceo luxi; pendeo pependi, pendo pependi; frigeo frixi, frigo
+     frixi. sunt quae idem habent praesens et praeteritum perfectum, haec sola: odi noui memini
+     coepi pepigi. haec in imperatiuo modo praeter memini, quod memento facit, deficiunt et in
+     futuro infinitiui modi et in supinis nec non etiam in participiis utriusque temporis; unum ex
+     his, odi, duo participia facit praeteriti temporis figurae compositae, exosus et perosus. sunt
+     alia quae in omni declinatione secundae sunt coniugationis et in infinitiuo quasi tertiae
+     correptae proferuntur: fulgeo infinitiuum fulgere facit, ferueo feruere, obsideo obsidere. </p>
+    <p> lectum est et strido, quod est tertiae; alii ut secundae proferunt, ac maxime Lucanus huius
+     modi declinationem usurpauit. </p>
+    <milestone unit="page" n="p. 68 F. Casaceli, Napoli 1974"/>
+    <p> uerba tam passiua quam deponentia nec non etiam communia, cuiuscumque sunt coniugationis,
+     praeteritum perfectum in has syllabas mittunt, in tus, in ctus, in sus, in xus, adiuncto in
+     omnibus sum uerbo, ut amor amatus sum, doceor doctus sum, patior passus sum, nitor nixus sum.
+     notantur pauca quae in praeterito deficiunt, passiua quidem haec: feror ferior tollor,
+     praeteritum latus sum, ictus sum, sublatus sum; poscor (nam hoc quoque deficit in praeterito)
+     postulatus sum, arguor conuictus sum; similiter metuor et timeor nullum habent perfectum.
+     deponentia uero haec: uescor fruor medeor liquor reminiscor, quae in praeterito sic
+     proferuntur, pastus sum, potitus sum, medicatus sum, liquefactus sum, recordatus sum, quae ab
+     alio praesenti ueniunt, sed ad supplementum declinationis defectiuis adcommodantur. sunt
+     quaedam deponentia incertae coniugationis, haec sola: orior potior. nam in secunda persona
+     numeri singularis tertiae productae sunt, hoc est quartae coniugationis, et in praesenti
+     tempore infiniti modi: oriris enim et potiris et item oriri et potiri dicimus; reliqua ad
+     exemplum tertiae correptae declinantur. sunt alia quae a diuerso ueniunt praesenti, sed in
+     praeterito confunduntur, ut patior passus sum, pandor passus sum, ut apud Virgilium <quote
+      type="poetry">«crinibus Iliades passis»</quote>; item uertor uersus sum, uerror uersus sum, ut
+     apud eundem <quote type="poetry">«et uersa puluis inscribitur hasta»</quote>. sunt alia
+     impersonalia, quae adsumptis pronominibus ablatiui casus declinantur et a uerbis neutri generis
+     figurantur uel ab actiuis, quae datiuum casum in serie orationis admittunt, ut sedetur
+     ambulatur statur pugnatur itur studetur: ueniunt enim, ut dictum est, a neutris, sedeo ambulo
+     sto pugno eo <milestone unit="page" n="p. 69 F. Casaceli, Napoli 1974"/> studeo; his etiam
+     Graecorum iactantiam, siquam de copia sermonis exercent, refutamus, quod haec proprie nequeunt
+     explanare. </p>
+    <p> similiter nocetur et suadetur et datur proferimus, quae in actiua specie datiuo casui
+     iunguntur. sunt quae in participiis deficiunt, ut fruor medeor et reor, quae de praeterito
+     tantum habent participium, in praesenti et futuro deficiunt. item nascor futuri temporis
+     participio caret. impersonalia, sicut in actiua declinatione, participia nulla habent, nisi
+     quae poetica usurpauit licentia, praeteriti, ut regnata pugnata <del>percussa</del>, futuri, ut
+      <quote type="poetry">«uigilanda uiris»</quote>, et his similia. </p>
+    <milestone unit="page" n="p. 439 F. Casaceli, Napoli 1974"/>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vergilius orator an poeta</title>
+                <author>Florus</author>
+                <respStmt>
+                    <resp>Correzione linguistica</resp>
+                    <name>Raffaella Tabacco</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica XML</resp>
+                    <name>Simona Musso</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>DigilibLT </publisher>
+                <pubPlace>Vercelli</pubPlace>
+                <date>2011</date>
+                <availability>
+                    <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+                </availability>
+                <idno>dlt000536</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Florus, Oeuvres, texte établi et traduit par Paul Jal, Paris 1967, tome II
+                    (Collection des Universités de France)</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+                <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+            </projectDesc>
+            <editorialDecl>
+                
+                <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+                <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+                    l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+                    e commenti e ogni altro contenuto redatto da editori moderni. </p>
+                <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+                    correttezza di trascrizione</p>
+                <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+                    distinzione u/v minuscole.</p>
+                <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+                <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+                    grassetto, corsivo, spaziatura espansa.</p>
+                <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+                    <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+                    <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+                    si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+                    [...]<lb/> lacuna integrata dagli editori:
+                    <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+                </p>
+                <p>Sono stati marcati i termini in lingua greca
+                    <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+                </p>
+                <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+                    target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+                    >Note di trascrizione e codifica di testi latini tardoantichi
+                    [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+            </editorialDecl>
+            
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latino</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="cap" n="1">
+                <p> Capienti mihi in templo et saucium uigilia caput plurimarum arborum amoenitate,
+                    euriporum frigore, aeris libertate recreanti obuiam subito quidam fuere, quos ab
+                    urbis spectaculo Baeticam reuertentes sinister Af<del>f</del>ricae uentus in hoc
+                    litus excusserat. Quorum unus, uir, ut postea apparuit, litteris pereruditus,
+                    subito ad me conuenit et «salue», inquit «hospes: nisi molestum est, dic nomen
+                    tuum; nam nescio quid oculi mei admonent et quasi per nubilum recognosco». «Quid
+                    istic?», inquam, «Florum uides, fortasse et audieris, si tamen in illo orbis
+                    terrarum conciliabulo sub Domitiano principe certamini nostro adfuisti». Et
+                    Baeticus «Tune es», inquit, «ex Africa, quem summo consensu poposcimus? inuito
+                    quidem Caesare et resistente, non quod tibi puero inuideret, sed ne
+                        Af<del>f</del>rica coronam magni Iouis attingeret». Quae cum me uideret
+                    uerecunde agnoscentem, in amplexum effunditur et «ama», inquit, «igitur fautorem
+                    tuum». «Quidni amem?» et manu<del>m</del> alterutrum tenentes auidissime
+                    nascentem amicitiam foederabamus, cum ille interim breui interuallo usus «et
+                    quid tu», inquit, «tam diu in hac prouincia? Nec in nostram Baeticam excurris
+                    nec urbem illam reuisis, ubi uersus tui a lectoribus concinuntur et in foro omni
+                    clarissimus ille de Dacia triumphus exultat? Potesne cum hoc singulari ingenio
+                    tantaque natura prouincialem latebram pati? Nihil te caritas urbis, nihil ille
+                        <supplied>uictor</supplied> gentium populus, nihil senatus mouet? Nihil
+                    denique lux et fulgor felicis imperi, qui in se rapit atque conuertit omnium
+                    oculos hominum ac deorum?» Atque ego uarie perturbatus «quid nunc uis ego
+                    respondeam? O quisquis es, mihi quoque ipsi hoc idem mirum uideri solet, quod
+                    non Romae morer; sed nihil est difficilius quam rationem reddere actus tui.
+                    Quare desine me in memoriam priorem reducendo uulnus dolorum meorum rescindere.
+                    Propitia sit illa ciuitas, et fruantur illa quibus fortuna permittit. Quod ad me
+                    pertinet, ex illo die, cuius <del>quo</del> tu mihi testis es, postquam ereptam
+                    manibus et capiti coronam meo uidi, tota mens, totus animus resiliit atque
+                    abhorruit ab illa ciuitate, adeoque sum percussus et consternatus illo dolore,
+                    ut patriae quoque meae oblitus <supplied>et</supplied> parentum carissimorum
+                    similis furenti huc et illuc uager per diuersa terrarum.» Et ille «quae tamen
+                    loca quasue regiones peragrasti?» </p>
+            </div>
+            <div type="cap" n="2">
+                <p> «Si ita indulges otio, plane quam breuiter exponam nec inuitus priorum
+                    recordabor. Primum Siciliam nobilem uidi, domesticam Cereris. Fecundam deinde
+                    Creten, patriam Tonantis, et a latere uicinas Cycladas salutaui. Inde me Rhodos
+                    et ab regressu Aegyptium <supplied>excepit</supplied> pelagus, ut ora Nili
+                    uiderem et populum semper in templis otiosum peregrinae deae sistra pulsantem.
+                    Inde rursus Italiam redii, et taedio maris cum mediterranea<del>m</del>
+                    concupissem, secutus Gallicas Alpes <del>et</del> lustro populos aquilone
+                    pallentes. Inde sol occidens placuit: flecto cursum. Sed statim par horrore, par
+                    uertice, par ille niuibus Alpinis Pyrenaeus excepit. Vides, hospes, quae spatia
+                    caeli peragrauerim, quae maris quaeue terrarum. Non aliter mehercules, si
+                    conferre paruis magna licet, sacer ille iuuenis terras peruolitauit, cui Terra
+                    mater capaces onerauerat frugibus amictus, et cum alite serpente currum ipsa
+                    iunxisset, nisi toto orbe peragrato uetuit suas redire serpentes. Liceat ergo
+                    tandem fatigato hic aliquando subcumbere. Si Scythes essem, iam plaustra
+                    soluissem; si uagus gubernator, iam dicata pelagi deae prora penderet. Quousque
+                    uagabimur? An semper hospites erimus? Ferae cubile prospiciunt et aues senescunt
+                    in nido. Si fata Romam negant patriam, saltim hic manere contingat. Quid, quod
+                    consuetudo res fortis est? Et ecce iam familiaritate continua ciuitas nobis ipsa
+                    blanditur, quae, si quid credis mihi qui multa cognoui, omnium <del>rerum</del>
+                    quae ad quietem eliguntur gratissima est. Populum uides, o hospes et amice,
+                    probum, fugi, quietum, tarde<del>m</del> quidem, sed iudicio hospitalem. Caelum
+                    peculiariter temperatum miscet uices, et notam ueris totus annus imitatur. Terra
+                    fertilis campis et magis collibus - nam Italiae uites adfectat et comparat areas
+                    - serotino non erubescit autumno. Si quid ad rem pertinet, ciuitas ipsa
+                    generosissimis auspiciis instituta: nam praeter Caesaris uexilla, quae portat,
+                    triumphos, unde nomen accepit, adest etiam peregrina nobilitas. Quippe si uetera
+                    templa respicias, hic ille colitur corniger praedo, qui Tyriam uirginem portans
+                    dum per tota maria lasciuit, hic amisit et substitit, et eius quam ferebat
+                    oblitus subito nostrum litus adamauit.» </p>
+            </div>
+            <div type="cap" n="3">
+                <p> Hic cum ergo respirassem, statim Baeticus «o» inquit «beatam ciuitatem, quae in
+                    te fatigatum incidit. Quem ad modum tamen te prosequitur, et quid hic agitur?
+                    Vnde subuenit reditus? An pater ab Af<del>f</del>rica subministrat?» «Inde
+                    nequaquam, cum hac ipsa peregrinatione offenderim. In reditu est mihi professio
+                    litterarum.» «O rem indignissimam! et quam aequo fers istud animo, sedere in
+                        sc<del>h</del>olis et pueris praecipere?» Ad quam illius interrogationem in
+                    hunc modum respondi: «Non miror <supplied>te</supplied> eius nunc esse
+                    persuasionis, qua et ipse quoque aliquando laboraui. Toto enim quod egimus
+                    quinquennio isto <del>isto</del> mihi pertaesum erat huius professionis, ut
+                    nusquam uiuere putarem hominem miseriorem. Sed subinde retractanti sortemque
+                    meam cum fortunis et ceteris uitae laboribus conferenti tandem aliquando
+                        pulc<del>h</del>ritudo suscepti operis apparuit. Scire te ergo nunc oportet
+                    nullum manus pretium, nullam procurationem, nullum honorem decerni quantus hic
+                    sit nostrae professionis. Nempe si mihi maximus imperator uitem, id est centum
+                    homines regendos tradidisset, non mediocris honos habitus mihi uideretur; cedo
+                    si praefecturam, si tribunatum: nempe idem honos, nisi quod merces amplior. Si
+                    ergo non Caesar, sed Fortuna hoc genus stationis iniunxit, uti pueris ingenuis
+                    atque honestis praesiderem, nonne tibi pulchrum <supplied>sum</supplied> atque
+                    magnificum consecutus officium? Quaeso enim, propius intuere, utrum praeclarius
+                    sit sagulatis an praetextatis imperare? Barbaris efferatisque pectoribus an
+                    mitibus et innoxiis? Bone Iuppiter, quam imperatorium, quam regium est sedere a
+                    suggestu praecipientem bonos mores et sacrarum studia litterarum, iam carmina
+                    praelegentem, quibus ora mentesque formantur, iam sententiis uariis sensus
+                    excitantem, iam exemplis ro<gap/></p>
+            </div>
+
+        </body>
+    </text>
+
+</TEI>

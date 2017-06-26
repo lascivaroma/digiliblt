@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Itinerarium Gaditanum</title>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Beatrice Strona</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2016</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000300</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Itinerarium Gaditanum</hi>. CIL (Corpus Inscriptionum Latinarum) XI 3281-3284 ed. Academia Litterarum Borussica, Leipzig/Berlin 1862-1943.</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+   
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+  
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div type="section"><head>ITINERARIVM A GADES ROMAM</head>
+<div type="cap" n="Col.1-r.1"><p> Ad Portum XXIIII
+</p></div><div type="cap" n=" Col.1-r.2"><p> Hastam XVI
+</p></div><div type="cap" n=" Col.1-r.3"><p> Vgiam XXVII
+</p></div><div type="cap" n=" Col.1-r.4"><p> Orippum XXIIII
+</p></div><div type="cap" n=" Col.1-r.5"><p> Hispalim VIIII
+</p></div><div type="cap" n=" Col.1-r.6"><p> Carmonem XXII
+</p></div><div type="cap" n=" Col.1-r.7"><p> Obuclam XX
+</p></div><div type="cap" n=" Col.1-r.8"><p> Astigim XV
+</p></div><div type="cap" n=" Col.1-r.9"><p> Ad Aras XII
+</p></div><div type="cap" n=" Col.1-r.10"><p> Cordubam XXIII
+</p></div><div type="cap" n=" Col.1-r.11"><p> Ad <num value="10000">X</num> X
+</p></div><div type="cap" n=" Col.1-r.12"><p> Eporam XVII
+</p></div><div type="cap" n=" Col.1-r.13"><p> Vciesem XVIII
+</p></div><div type="cap" n=" Col.1-r.14"><p> Ad Novlas XIII
+</p></div><div type="cap" n=" Col.1-r.15"><p> Castulonem XIX
+</p></div><div type="cap" n=" Col.1-r.16"><p> Ad Morum XXIIII
+</p></div><div type="cap" n=" Col.1-r.17"><p> <num value="2000">II</num> Solaria XIX
+</p></div><div type="cap" n=" Col.1-r.18"><p> Mariana XX
+</p></div><div type="cap" n=" Col.1-r.19"><p> Mentesam XX
+</p></div><div type="cap" n=" Col.1-r.20"><p> Libisosam XXIIII
+</p></div><div type="cap" n=" Col.1-r.21"><p> Parietinis XXII
+</p></div><div type="cap" n=" Col.1-r.22"><p> Saltigim XVI
+</p></div><div type="cap" n=" Col.1-r.23"><p> Ad Palem XXXII
+</p></div><div type="cap" n=" Col.1-r.24"><p> Ad Aras XXII
+</p></div><div type="cap" n=" Col.1-r.25"><p> Saetabim XXVIII
+</p></div><div type="cap" n=" Col.1-r.26"><p> Sucronem XVI
+</p></div><div type="cap" n=" Col.2-r.1"><p> Valentiam XX
+</p></div><div type="cap" n=" Col.2-r.2"><p> Sagyntum XVI
+</p></div><div type="cap" n=" Col.2-r.3"><p> Ad Novlas XXIIII
+</p></div><div type="cap" n=" Col.2-r.4"><p> Ildum XXII
+</p></div><div type="cap" n=" Col.2-r.5"><p> Intibilim XXIIII
+</p></div><div type="cap" n=" Col.2-r.6"><p> Dertosam XXVII
+</p></div><div type="cap" n=" Col.2-r.7"><p> Subsaltum XXXVII
+</p></div><div type="cap" n=" Col.2-r.8"><p> Tarraconem XXV
+</p></div><div type="cap" n=" Col.2-r.9"><p> Palfurianam XVI
+</p></div><div type="cap" n=" Col.2-r.10"><p> Antistianam XIII
+</p></div><div type="cap" n=" Col.2-r.11"><p> Ad Fines XVII
+</p></div><div type="cap" n=" Col.2-r.12"><p> Arragonem XX
+</p></div><div type="cap" n=" Col.2-r.13"><p> Semproniana VIIII
+</p></div><div type="cap" n=" Col.2-r.14"><p> Seterras XXIIII
+</p></div><div type="cap" n=" Col.2-r.15"><p> Aquis Vocontis XV
+</p></div><div type="cap" n=" Col.2-r.16"><p> Gerundam XII
+</p></div><div type="cap" n=" Col.2-r.17"><p> Cilnianam XII
+</p></div><div type="cap" n=" Col.2-r.18"><p> Iuncariam XV
+</p></div><div type="cap" n=" Col.2-r.19"><p> In Pyraeneum XVI
+</p></div><div type="cap" n=" Col.2-r.20"><p> Ruscinonem XXV
+</p></div><div type="cap" n=" Col.2-r.21"><p> Combusta VI
+</p></div><div type="cap" n=" Col.2-r.22"><p> Narbonem XXXII
+</p></div><div type="cap" n=" Col.2-r.23"><p> Baeterras XVI
+</p></div><div type="cap" n=" Col.2-r.24"><p> Cesseronem XIII
+</p></div><div type="cap" n=" Col.2-r.25"><p> Forum Domiti XVIII
+</p></div><div type="cap" n=" Col.2-r.26"><p> Sextantionem XV
+</p></div><div type="cap" n=" Col.3-r.1"><p> Ambrussum XV
+</p></div><div type="cap" n=" Col.3-r.2"><p> Nemausum XV
+</p></div><div type="cap" n=" Col.3-r.3"><p> Vgernum XV
+</p></div><div type="cap" n=" Col.3-r.4"><p> Arelata VIIII
+</p></div><div type="cap" n=" Col.3-r.5"><p> Ernaginum VI
+</p></div><div type="cap" n=" Col.3-r.6"><p> Clanum VIII
+</p></div><div type="cap" n=" Col.3-r.7"><p> Cabellionem XII
+</p></div><div type="cap" n=" Col.3-r.8"><p> Aptam Iuliam XII
+</p></div><div type="cap" n=" Col.3-r.9"><p> Catuiaciam XII
+</p></div><div type="cap" n=" Col.3-r.10"><p> Alaunium XVI
+</p></div><div type="cap" n=" Col.3-r.11"><p> Segusteronem XXIIII
+</p></div><div type="cap" n=" Col.3-r.12"><p> Alabontem XVI
+</p></div><div type="cap" n=" Col.3-r.13"><p> Vappincum XVIII
+</p></div><div type="cap" n=" Col.3-r.14"><p> Caturigomagum XII
+</p></div><div type="cap" n=" Col.3-r.15"><p> Eburodunum XVIII
+</p></div><div type="cap" n=" Col.3-r.16"><p> Ramam XVII
+</p></div><div type="cap" n=" Col.3-r.17"><p> Brigantium XVIII
+</p></div><div type="cap" n=" Col.3-r.18"><p> Druantium XI
+</p></div><div type="cap" n=" Col.3-r.19"><p> Segusionem XXIIII
+</p></div><div type="cap" n=" Col.3-r.20"><p> Ocelum XXVII
+</p></div><div type="cap" n=" Col.3-r.21"><p> Taurinis XX
+</p></div><div type="cap" n=" Col.3-r.22"><p> Quadrata XX
+</p></div><div type="cap" n=" Col.3-r.23"><p> Rigomagum XVI
+</p></div><div type="cap" n=" Col.3-r.24"><p> Cuttias XV
+</p></div><div type="cap" n=" Col.3-r.25"><p> Laumellum XIII
+</p></div><div type="cap" n=" Col.3-r.26"><p> Ticinum XXI
+</p></div><div type="cap" n=" Col.4-r.1"><p> Pambrum XX
+</p></div><div type="cap" n=" Col.4-r.2"><p> Placentiam XVI
+</p></div><div type="cap" n=" Col.4-r.3"><p> Florentiam XV
+</p></div><div type="cap" n=" Col.4-r.4"><p> Parmam XXV
+</p></div><div type="cap" n=" Col.4-r.5"><p> Lepidum Regium XVIII
+</p></div><div type="cap" n=" Col.4-r.6"><p> Mutinam XVII
+</p></div><div type="cap" n=" Col.4-r.7"><p> Bononiam XXV
+</p></div><div type="cap" n=" Col.4-r.8"><p> Claternum X
+</p></div><div type="cap" n=" Col.4-r.9"><p> Forum Corneli XIII
+</p></div><div type="cap" n=" Col.4-r.10"><p> Faventiam X
+</p></div><div type="cap" n=" Col.4-r.11"><p> Forum Livi X
+</p></div><div type="cap" n=" Col.4-r.12"><p> Cesenam XIII
+</p></div><div type="cap" n=" Col.4-r.13"><p> Ariminum XX
+</p></div><div type="cap" n=" Col.4-r.14"><p> Pisaurum XXIIII
+</p></div><div type="cap" n=" Col.4-r.15"><p> Fanum Fortunae VIII
+</p></div><div type="cap" n=" Col.4-r.16"><p> Forum Semproni XVI
+</p></div><div type="cap" n=" Col.4-r.17"><p> Ad Calem XVIII
+</p></div><div type="cap" n=" Col.4-r.18"><p> Hesim XIII
+</p></div><div type="cap" n=" Col.4-r.19"><p> Helvillum X
+</p></div><div type="cap" n=" Col.4-r.20"><p> Nuceriam XV
+</p></div><div type="cap" n=" Col.4-r.21"><p> Mevaniam XIX
+</p></div><div type="cap" n=" Col.4-r.22"><p> Ad Martis XVI
+</p></div><div type="cap" n=" Col.4-r.23"><p> Narniam XVIII
+</p></div><div type="cap" n=" Col.4-r.24"><p> Ocriclo XII
+</p></div><div type="cap" n=" Col.4-r.25"><p> Ad XX XXIIII
+</p></div><div type="cap" n=" Col.4-r.26"><p> Romam XX
+</p>
+ <p>SVM MP<num value="1000000">X</num> ĐCCC XXXX ∞</p>
+</div>
+    </div>
+
+<div type="section"><head>AB GADES VSQVE ROMA ITINERARE</head>
+<div type="cap" n=" Col.1-r.1"><p> Ad Portum XXIIII
+</p></div><div type="cap" n=" Col.1-r.2"><p> Hasta XVI
+</p></div><div type="cap" n=" Col.1-r.3"><p> Vgia XXVII
+</p></div><div type="cap" n=" Col.1-r.4"><p> Orippo XXIIII
+</p></div><div type="cap" n=" Col.1-r.5"><p> Hispalim IX
+</p></div><div type="cap" n=" Col.1-r.6"><p> Carmone XXII
+</p></div><div type="cap" n=" Col.1-r.7"><p> Obucla XX
+</p></div><div type="cap" n=" Col.1-r.8"><p> Astigi XV
+</p></div><div type="cap" n=" Col.1-r.9"><p> Ad Aras XII
+</p></div><div type="cap" n=" Col.1-r.10"><p> Corduba XXIII
+</p></div><div type="cap" n=" Col.1-r.11"><p> Ad Decumo X
+</p></div><div type="cap" n=" Col.1-r.12"><p> Ad Lucos XVIII
+</p></div><div type="cap" n=" Col.1-r.13"><p> Vciese XVIII
+</p></div><div type="cap" n=" Col.1-r.14"><p> Ad Novlas XIII
+</p></div><div type="cap" n=" Col.1-r.15"><p> Ad Aras XIX
+</p></div><div type="cap" n=" Col.1-r.16"><p> Ad Morum XVIIII
+</p></div><div type="cap" n=" Col.1-r.17"><p> Ad Solaria XVIIII
+</p></div><div type="cap" n=" Col.1-r.18"><p> Mariana XX
+</p></div><div type="cap" n=" Col.1-r.19"><p> Mentesa XX
+</p></div><div type="cap" n=" Col.1-r.20"><p> Libisosa XXVIII
+</p></div><div type="cap" n=" Col.1-r.21"><p> Parietinis XXII
+</p></div><div type="cap" n=" Col.1-r.22"><p> Saltigi XVI
+</p></div><div type="cap" n=" Col.1-r.23"><p> Ad Palen XXXII
+</p></div><div type="cap" n=" Col.1-r.24"><p> Ad Aras XXII
+</p></div><div type="cap" n=" Col.1-r.25"><p> Saetabi XXVIII
+</p></div><div type="cap" n=" Col.1-r.26"><p> Sucrone XV
+</p></div><div type="cap" n=" Col.2-r.1"><p> Vaeentia XX
+</p></div><div type="cap" n=" Col.2-r.2"><p> Sagynto XVI
+</p></div><div type="cap" n=" Col.2-r.3"><p> Ad Novlas XXIIII
+</p></div><div type="cap" n=" Col.2-r.4"><p> Ildum XXII
+</p></div><div type="cap" n=" Col.2-r.5"><p> Intibili XXIIII
+</p></div><div type="cap" n=" Col.2-r.6"><p> Dertosa XXVII
+</p></div><div type="cap" n=" Col.2-r.7"><p> Subsaltu  XXXVII
+</p></div><div type="cap" n=" Col.2-r.8"><p> Tarracone XXI
+</p></div><div type="cap" n=" Col.2-r.9"><p> Palfuriana XVI
+</p></div><div type="cap" n=" Col.2-r.10"><p> Antistiana XVI
+</p></div><div type="cap" n=" Col.2-r.11"><p> Ad Fines XVII
+</p></div><div type="cap" n=" Col.2-r.12"><p> Arragone XX
+</p></div><div type="cap" n=" Col.2-r.13"><p> Praetorio XVII
+</p></div><div type="cap" n=" Col.2-r.14"><p> Siteras XV
+</p></div><div type="cap" n=" Col.2-r.15"><p> Aquis Voconi XV
+</p></div><div type="cap" n=" Col.2-r.16"><p> Gerunda XII
+</p></div><div type="cap" n=" Col.2-r.17"><p> Cilniana XI
+</p></div><div type="cap" n=" Col.2-r.18"><p> Iuncaria XV
+</p></div><div type="cap" n=" Col.2-r.19"><p> In Pyreneo XVI
+</p></div><div type="cap" n=" Col.2-r.20"><p> Ruscinne XXV
+</p></div><div type="cap" n=" Col.2-r.21"><p> Combusta VI
+</p></div><div type="cap" n=" Col.2-r.22"><p> Narbone XXXII
+</p></div><div type="cap" n=" Col.2-r.23"><p> Baeterras XVI
+</p></div><div type="cap" n=" Col.2-r.24"><p> Cesserone XII
+</p></div><div type="cap" n=" Col.2-r.25"><p> Foro Domiti XVIII
+</p></div><div type="cap" n=" Col.2-r.26"><p> Sextantio XV
+</p></div><div type="cap" n=" Col.3-r.1"><p> Ambrussum XV
+</p></div><div type="cap" n=" Col.3-r.2"><p> Nemauso XV
+</p></div><div type="cap" n=" Col.3-r.3"><p> Vgerno XVI
+</p></div><div type="cap" n=" Col.3-r.4"><p> Ernagini VIII
+</p></div><div type="cap" n=" Col.3-r.5"><p> Clanum VII
+</p></div><div type="cap" n=" Col.3-r.6"><p> Cabellione XII
+</p></div><div type="cap" n=" Col.3-r.7"><p> Ad Fines XII
+</p></div><div type="cap" n=" Col.3-r.8"><p> Apta Iulia X
+</p></div><div type="cap" n=" Col.3-r.9"><p> Catulacia XII
+</p></div><div type="cap" n=" Col.3-r.10"><p> Alaunio XVI
+</p></div><div type="cap" n=" Col.3-r.11"><p> Segusterone XXIIII
+</p></div><div type="cap" n=" Col.3-r.12"><p> Alabonte XVI
+</p></div><div type="cap" n=" Col.3-r.13"><p> Vappinquo XVIII
+</p></div><div type="cap" n=" Col.3-r.14"><p> Caturigomagi XII
+</p></div><div type="cap" n=" Col.3-r.15"><p> Eburoduno XVII
+</p></div><div type="cap" n=" Col.3-r.16"><p> Rama XVII
+</p></div><div type="cap" n=" Col.3-r.17"><p> Brigantio XVIII
+</p></div><div type="cap" n=" Col.3-r.18"><p> Gruentia VI
+</p></div><div type="cap" n=" Col.3-r.19"><p> Goesao V
+</p></div><div type="cap" n=" Col.3-r.20"><p> Segusio XXIII
+</p></div><div type="cap" n=" Col.3-r.21"><p> Ocelo XX
+</p></div><div type="cap" n=" Col.3-r.22"><p> Taurinis XX
+</p></div><div type="cap" n=" Col.3-r.23"><p> Quadratis XXIIII
+</p></div><div type="cap" n=" Col.3-r.24"><p> Rigomagi XIII
+</p></div><div type="cap" n=" Col.3-r.25"><p> Cuttias XXIIII
+</p></div><div type="cap" n=" Col.3-r.26"><p> Laumellum XII
+</p></div><div type="cap" n=" Col.3-r.27"><p> Ticinum XX
+</p></div><div type="cap" n=" Col.4-r.1"><p> Lambrum XX
+</p></div><div type="cap" n=" Col.4-r.2"><p> Placentia XVI
+</p></div><div type="cap" n=" Col.4-r.3"><p> Florentia XVI
+</p></div><div type="cap" n=" Col.4-r.4"><p> Parma XXV
+</p></div><div type="cap" n=" Col.4-r.5"><p> Regio Lepidi XVIII
+</p></div><div type="cap" n=" Col.4-r.6"><p> Mutina XVII
+</p></div><div type="cap" n=" Col.4-r.7"><p> Bononia XXV
+</p></div><div type="cap" n=" Col.4-r.8"><p> Claterno X
+</p></div><div type="cap" n=" Col.4-r.9"><p> Foro Corneli XIII
+</p></div><div type="cap" n=" Col.4-r.10"><p> Faventia X
+</p></div><div type="cap" n=" Col.4-r.11"><p> Foro Livi XIII
+</p></div><div type="cap" n=" Col.4-r.12"><p> Caesana XV
+</p></div><div type="cap" n=" Col.4-r.13"><p> Arimino XXIIII
+</p></div><div type="cap" n=" Col.4-r.14"><p> Pisauro XVI
+</p></div><div type="cap" n=" Col.4-r.15"><p> Fano Fortunae IIX
+</p></div><div type="cap" n=" Col.4-r.16"><p> Foro Semproni XVIII
+</p></div><div type="cap" n=" Col.4-r.17"><p> Cale XIII
+</p></div><div type="cap" n=" Col.4-r.18"><p> Haesim XIII
+</p></div><div type="cap" n=" Col.4-r.19"><p> Helvilium XV
+</p></div><div type="cap" n=" Col.4-r.20"><p> Nuceria XVIII
+</p></div><div type="cap" n=" Col.4-r.21"><p> Mevania XV
+</p></div><div type="cap" n=" Col.4-r.22"><p> Ad Martis XVII
+</p></div><div type="cap" n=" Col.4-r.23"><p> Narnia XII
+</p></div><div type="cap" n=" Col.4-r.24"><p> Ocriculo XII
+</p></div><div type="cap" n=" Col.4-r.25"><p> Ad Vicesumo XXIIII
+</p></div><div type="cap" n=" Col.4-r.26"><p> Roma XX</p>
+ <p>SVMMA MILLIA PASSVS XĐCCCXXXXII</p>
+</div>
+ </div>
+
+<div type="section"><head>ITINERARE A GADES VSQ ROMA</head>
+<div type="cap" n=" Col.1-r.1"><p> Ad Portum XXIIII
+</p></div><div type="cap" n=" Col.1-r.2"><p> Hasta XVI
+</p></div><div type="cap" n=" Col.1-r.3"><p> Vgia XXVII
+</p></div><div type="cap" n=" Col.1-r.4"><p> Orippo XXIIII
+</p></div><div type="cap" n=" Col.1-r.5"><p> Hispalim VIIII
+</p></div><div type="cap" n=" Col.1-r.6"><p> Carmone XXII
+</p></div><div type="cap" n=" Col.1-r.7"><p> Obucla XX
+</p></div><div type="cap" n=" Col.1-r.8"><p> Astigi XV
+</p></div><div type="cap" n=" Col.1-r.9"><p> Ad Aras XII
+</p></div><div type="cap" n=" Col.1-r.10"><p> Corduba XXIII
+</p></div><div type="cap" n=" Col.1-r.11"><p> Ad <num value="10000">X</num> X
+</p></div><div type="cap" n=" Col.1-r.12"><p> Ad Lucos XVIII
+</p></div><div type="cap" n=" Col.1-r.13"><p> Vciese XVIII
+</p></div><div type="cap" n=" Col.1-r.14"><p> Ad Novlas XIII
+</p></div><div type="cap" n=" Col.1-r.15"><p> Castulone XIX
+</p></div><div type="cap" n=" Col.1-r.16"><p> Ad Morum XXIIII
+</p></div><div type="cap" n=" Col.1-r.17"><p> <num value="2000">II</num> Solaria XIX
+</p></div><div type="cap" n=" Col.1-r.18"><p> Mariana XX
+</p></div><div type="cap" n=" Col.1-r.19"><p> Mantesa XX
+</p></div><div type="cap" n=" Col.1-r.20"><p> Libiosa XXIIII
+</p></div><div type="cap" n=" Col.1-r.21"><p> Parietinis XXII
+</p></div><div type="cap" n=" Col.1-r.22"><p> Saltigi XVI
+</p></div><div type="cap" n=" Col.1-r.23"><p> Ad Pale XXXII
+</p></div><div type="cap" n=" Col.1-r.24"><p> At Turres XXV
+</p></div><div type="cap" n=" Col.1-r.25"><p> Saetabi XXV
+</p></div><div type="cap" n=" Col.1-r.26"><p> Sucrone XVI
+</p></div><div type="cap" n=" Col.1-r.27"><p> Valentia XX
+</p></div><div type="cap" n=" Col.2-r.1"><p> Sagunto XVI
+</p></div><div type="cap" n=" Col.2-r.2"><p> Sebelaci XXII
+</p></div><div type="cap" n=" Col.2-r.3"><p> Ildum XXIIII
+</p></div><div type="cap" n=" Col.2-r.4"><p> Intilibi XXIIII
+</p></div><div type="cap" n=" Col.2-r.5"><p> Dertosa XXVII
+</p></div><div type="cap" n=" Col.2-r.6"><p> Tria Capita XVII
+</p></div><div type="cap" n=" Col.2-r.7"><p> Subsaltu XX
+</p></div><div type="cap" n=" Col.2-r.8"><p> Tarracone XXV
+</p></div><div type="cap" n=" Col.2-r.9"><p> Palfuriana XVI
+</p></div><div type="cap" n=" Col.2-r.10"><p> Antistiana XIII
+</p></div><div type="cap" n=" Col.2-r.11"><p> Ad Fines XVII
+</p></div><div type="cap" n=" Col.2-r.12"><p> Arragone XX
+</p></div><div type="cap" n=" Col.2-r.13"><p> Praetorio XVII
+</p></div><div type="cap" n=" Col.2-r.14"><p> Saeterras XV
+</p></div><div type="cap" n=" Col.2-r.15"><p> Aquis Voconis XV
+</p></div><div type="cap" n=" Col.2-r.16"><p> Gerunda XII
+</p></div><div type="cap" n=" Col.2-r.17"><p> Cinniana XII
+</p></div><div type="cap" n=" Col.2-r.18"><p> Iuncaria XV
+</p></div><div type="cap" n=" Col.2-r.19"><p> In Pyrenaeo XVI
+</p></div><div type="cap" n=" Col.2-r.20"><p> Ruscinone XXV
+</p></div><div type="cap" n=" Col.2-r.21"><p> Combusta VI
+</p></div><div type="cap" n=" Col.2-r.22"><p> Narbone XXXIIII
+</p></div><div type="cap" n=" Col.2-r.23"><p> Baeterra XVI
+</p></div><div type="cap" n=" Col.2-r.24"><p> Cesserone XIII
+</p></div><div type="cap" n=" Col.2-r.25"><p> Foro Domiti XVIII
+</p></div><div type="cap" n=" Col.2-r.26"><p> Sextantione XV
+</p></div><div type="cap" n=" Col.2-r.27"><p> Ambrussum XV
+</p></div><div type="cap" n=" Col.3-r.1"><p> Nemauso XV
+</p></div><div type="cap" n=" Col.3-r.2"><p> Vgerno XV
+</p></div><div type="cap" n=" Col.3-r.3"><p> Arelata VIIII
+</p></div><div type="cap" n=" Col.3-r.4"><p> Ernagino VII
+</p></div><div type="cap" n=" Col.3-r.5"><p> Clanum VIII
+</p></div><div type="cap" n=" Col.3-r.6"><p> Cabellione XII
+</p></div><div type="cap" n=" Col.3-r.7"><p> Ad Fines XII
+</p></div><div type="cap" n=" Col.3-r.8"><p> Apta Iulia X
+</p></div><div type="cap" n=" Col.3-r.9"><p> Catuiacia XII
+</p></div><div type="cap" n=" Col.3-r.10"><p> Alaunio XVI
+</p></div><div type="cap" n=" Col.3-r.11"><p> Segusterone XXIIII
+</p></div><div type="cap" n=" Col.3-r.12"><p> Alabonte XVI
+</p></div><div type="cap" n=" Col.3-r.13"><p> Vappinco XVIII
+</p></div><div type="cap" n=" Col.3-r.14"><p> Caturigomago XII
+</p></div><div type="cap" n=" Col.3-r.15"><p> Eburoduno XVII
+</p></div><div type="cap" n=" Col.3-r.16"><p> Rama XVII
+</p></div><div type="cap" n=" Col.3-r.17"><p> Brigantio XVIII
+</p></div><div type="cap" n=" Col.3-r.18"><p> Summas Alpes VI
+</p></div><div type="cap" n=" Col.3-r.19"><p> Gaesaone V
+</p></div><div type="cap" n=" Col.3-r.20"><p> Segusione XXIIII
+</p></div><div type="cap" n=" Col.3-r.21"><p> Ocelo XX
+</p></div><div type="cap" n=" Col.3-r.22"><p> Taurinis XX
+</p></div><div type="cap" n=" Col.3-r.23"><p> Quadrata XXIII
+</p></div><div type="cap" n=" Col.3-r.24"><p> Rigomago XVI
+</p></div><div type="cap" n=" Col.3-r.25"><p> Cuttiae XXIIII
+</p></div><div type="cap" n=" Col.3-r.26"><p> Laumello XIII
+</p></div><div type="cap" n=" Col.3-r.27"><p> Ticino XXI
+</p></div><div type="cap" n=" Col.4-r.1"><p> Lambrum XX
+</p></div><div type="cap" n=" Col.4-r.2"><p> Placentia XVI
+</p></div><div type="cap" n=" Col.4-r.3"><p> Florentia XV
+</p></div><div type="cap" n=" Col.4-r.4"><p> Parma XXV
+</p></div><div type="cap" n=" Col.4-r.5"><p> Lepido Regio XVIII
+</p></div><div type="cap" n=" Col.4-r.6"><p> Mutina XVII
+</p></div><div type="cap" n=" Col.4-r.7"><p> Bononia XXV
+</p></div><div type="cap" n=" Col.4-r.8"><p> Claterno X
+</p></div><div type="cap" n=" Col.4-r.9"><p> Foro Corneli XIII
+</p></div><div type="cap" n=" Col.4-r.10"><p> Faventia X
+</p></div><div type="cap" n=" Col.4-r.11"><p> Foro Livi X
+</p></div><div type="cap" n=" Col.4-r.12"><p> Caesena XIII
+</p></div><div type="cap" n=" Col.4-r.13"><p> Arimino XX
+</p></div><div type="cap" n=" Col.4-r.14"><p> Pisauro XXIIII
+</p></div><div type="cap" n=" Col.4-r.15"><p> Fano Fortunae VIII
+</p></div><div type="cap" n=" Col.4-r.16"><p> Foro Semproni XVI
+</p></div><div type="cap" n=" Col.4-r.17"><p> Ad Cale XVIII
+</p></div><div type="cap" n=" Col.4-r.18"><p> Hesim XIIII
+</p></div><div type="cap" n=" Col.4-r.19"><p> Helvillu X
+</p></div><div type="cap" n=" Col.4-r.20"><p> Nuceria XV
+</p></div><div type="cap" n=" Col.4-r.21"><p> Maevania XIX
+</p></div><div type="cap" n=" Col.4-r.22"><p> Ad Martis XVI
+</p></div><div type="cap" n=" Col.4-r.23"><p> Narnia XVIII
+</p></div><div type="cap" n=" Col.4-r.24"><p> Ocriclo XII
+</p></div><div type="cap" n=" Col.4-r.25"><p> Ad <num value="20000">XX</num> XXIIII
+</p></div><div type="cap" n=" Col.4-r.26"><p> Roma XX</p>
+ <p>SVM M P X ĐCCC XXXX ∞</p>
+</div>
+ </div>
+
+<div type="section"> 
+<div type="cap" n=" Col.1-r.1"><p> A GADIBVS ROMA
+</p></div><div type="cap" n=" Col.1-r.2"><p> Ad Portu XXIIII
+</p></div><div type="cap" n=" Col.1-r.3"><p> Hasta XVI
+</p></div><div type="cap" n=" Col.1-r.4"><p> Vgiae XXVII
+</p></div><div type="cap" n=" Col.1-r.5"><p> Orippo XXIIII
+</p></div><div type="cap" n=" Col.1-r.6"><p> Hispali VIIII
+</p></div><div type="cap" n=" Col.1-r.7"><p> AB HISPALI CORDYBAE
+</p></div><div type="cap" n=" Col.1-r.8"><p> Carmone XXII
+</p></div><div type="cap" n=" Col.1-r.9"><p> Obuclae XX
+</p></div><div type="cap" n=" Col.1-r.10"><p> Astigi XV
+</p></div><div type="cap" n=" Col.1-r.11"><p> Cordubae XXXV
+</p></div><div type="cap" n=" Col.1-r.12"><p> AB CORDVBA TARRACONE
+</p></div><div type="cap" n=" Col.1-r.13"><p> Ad Decumum X
+</p></div><div type="cap" n=" Col.1-r.14"><p> Epora XVIII
+</p></div><div type="cap" n=" Col.1-r.15"><p> Vciense XVIII
+</p></div><div type="cap" n=" Col.1-r.16"><p> Ad Novolas XIII
+</p></div><div type="cap" n=" Col.1-r.17"><p> Ad Aras XXIIII
+</p></div><div type="cap" n=" Col.1-r.18"><p> Ad Morum XVIIII
+</p></div><div type="cap" n=" Col.1-r.19"><p> Ad Duo Solaria XVIIII
+</p></div><div type="cap" n=" Col.1-r.20"><p> Mariana XX
+</p></div><div type="cap" n=" Col.1-r.21"><p> Mentesa XX
+</p></div><div type="cap" n=" Col.1-r.22"><p> Libiosa XXIIII
+</p></div><div type="cap" n=" Col.1-r.23"><p> Parietinis XXII
+</p></div><div type="cap" n=" Col.1-r.24"><p> Saltigi XVI
+</p></div><div type="cap" n=" Col.1-r.25"><p> Ad Palae XXXII
+</p></div><div type="cap" n=" Col.1-r.26"><p> Turres Saetab XXV
+</p></div><div type="cap" n=" Col.1-r.27"><p> Saetabi XXV
+</p></div><div type="cap" n=" Col.1-r.28"><p> Sucrone XVI
+</p></div><div type="cap" n=" Col.2-r.1"><p> Valentia XX
+</p></div><div type="cap" n=" Col.2-r.2"><p> Sagunto XVI
+</p></div><div type="cap" n=" Col.2-r.3"><p> Ad Nova XXIIII
+</p></div><div type="cap" n=" Col.2-r.4"><p> Ildu XXII
+</p></div><div type="cap" n=" Col.2-r.5"><p> Intibili XXIIII
+</p></div><div type="cap" n=" Col.2-r.6"><p> Dertosa XXVII
+</p></div><div type="cap" n=" Col.2-r.7"><p> Subsaltu XXXVII
+</p></div><div type="cap" n=" Col.2-r.8"><p> Tarracone XXV
+</p></div><div type="cap" n=" Col.2-r.9"><p> A TARRACONE NARBONE
+</p></div><div type="cap" n=" Col.2-r.10"><p> Palfuriana XVI
+</p></div><div type="cap" n=" Col.2-r.11"><p> Antestiana XIII
+</p></div><div type="cap" n=" Col.2-r.12"><p> Ad Fines XVII
+</p></div><div type="cap" n=" Col.2-r.13"><p> Abragone XX
+</p></div><div type="cap" n=" Col.2-r.14"><p> Ad Praetorium XVII
+</p></div><div type="cap" n=" Col.2-r.15"><p> Baeterras XVI
+</p></div><div type="cap" n=" Col.2-r.16"><p> Aquas Voconias XV
+</p></div><div type="cap" n=" Col.2-r.17"><p> Gerunda XII
+</p></div><div type="cap" n=" Col.2-r.18"><p> Cinniana X
+</p></div><div type="cap" n=" Col.2-r.19"><p> Iuncaria XII
+</p></div><div type="cap" n=" Col.2-r.20"><p> Summo Pyrenae XVI
+</p></div><div type="cap" n=" Col.2-r.21"><p> Ruscinone XXV
+</p></div><div type="cap" n=" Col.2-r.22"><p> Ad Commusta VI
+</p></div><div type="cap" n=" Col.2-r.23"><p> Narbone XXXIIII
+</p></div><div type="cap" n=" Col.2-r.24"><p> A NARBONE TAVRINOS
+</p></div><div type="cap" n=" Col.2-r.25"><p> Baeterras XVI
+</p></div><div type="cap" n=" Col.2-r.26"><p> Cessirone XII
+</p></div><div type="cap" n=" Col.2-r.27"><p> Frontiana X
+</p></div><div type="cap" n=" Col.2-r.28"><p> Foro Domiti VIII
+</p></div><div type="cap" n=" Col.3-r.1"><p> Sextantione XV
+</p></div><div type="cap" n=" Col.3-r.2"><p> Ambrusio XV
+</p></div><div type="cap" n=" Col.3-r.3"><p> Nemauso XV
+</p></div><div type="cap" n=" Col.3-r.4"><p> Vgerno XVI
+</p></div><div type="cap" n=" Col.3-r.5"><p> Traiectum Rhodani ∞
+</p></div><div type="cap" n=" Col.3-r.6"><p> Clano XI
+</p></div><div type="cap" n=" Col.3-r.7"><p> Cabellione XII
+</p></div><div type="cap" n=" Col.3-r.8"><p> Apta Iulia XXII
+</p></div><div type="cap" n=" Col.3-r.9"><p> Catuiacia XII
+</p></div><div type="cap" n=" Col.3-r.10"><p> Alaunium XVI
+</p></div><div type="cap" n=" Col.3-r.11"><p> Segusterone XXIIII
+</p></div><div type="cap" n=" Col.3-r.12"><p> Alabonte XVI
+</p></div><div type="cap" n=" Col.3-r.13"><p> Vappinquo XVIII
+</p></div><div type="cap" n=" Col.3-r.14"><p> Caturigomago XII
+</p></div><div type="cap" n=" Col.3-r.15"><p> Eboroduno XVII
+</p></div><div type="cap" n=" Col.3-r.16"><p> Rama XVII
+</p></div><div type="cap" n=" Col.3-r.17"><p> Brigantione XVIII
+</p></div><div type="cap" n=" Col.3-r.18"><p> Druantio VI
+</p></div><div type="cap" n=" Col.3-r.19"><p> Tyrio V
+</p></div><div type="cap" n=" Col.3-r.20"><p> In Alpe Cottia XXIIII
+</p></div><div type="cap" n=" Col.3-r.21"><p> Ad Martis XXIII
+</p></div><div type="cap" n=" Col.3-r.22"><p> Ad Fines <num value="40000">XXXX</num> XVII
+</p></div><div type="cap" n=" Col.3-r.23"><p> Augusta Taurin XXIII
+</p></div><div type="cap" n=" Col.3-r.24"><p> Quadrata XXIII
+</p></div><div type="cap" n=" Col.3-r.25"><p> Rigomago XIII
+</p></div><div type="cap" n=" Col.3-r.26"><p> Cuttias XXIIII
+</p></div><div type="cap" n=" Col.4-r.1"><p> Laumellum XII
+</p></div><div type="cap" n=" Col.4-r.2"><p> Ticinum XXI
+</p></div><div type="cap" n=" Col.4-r.3"><p> Lambro Flumen XX
+</p></div><div type="cap" n=" Col.4-r.4"><p> Placentia XVII
+</p></div><div type="cap" n=" Col.4-r.5"><p> Florentia XV
+</p></div><div type="cap" n=" Col.4-r.6"><p> Parma XV
+</p></div><div type="cap" n=" Col.4-r.7"><p> Regio XVIII
+</p></div><div type="cap" n=" Col.4-r.8"><p> Mutina XVII
+</p></div><div type="cap" n=" Col.4-r.9"><p> Bononia XXV
+</p></div><div type="cap" n=" Col.4-r.10"><p> Claternas XI
+</p></div><div type="cap" n=" Col.4-r.11"><p> Foro Corneli XIII
+</p></div><div type="cap" n=" Col.4-r.12"><p> Faventia X
+</p></div><div type="cap" n=" Col.4-r.13"><p> Foro Iuli X
+</p></div><div type="cap" n=" Col.4-r.14"><p> Curva Caesana XIII
+</p></div><div type="cap" n=" Col.4-r.15"><p> Arimini XX
+</p></div><div type="cap" n=" Col.4-r.16"><p> Pisauro XXIIII
+</p></div><div type="cap" n=" Col.4-r.17"><p> Fano Fortunae VIII
+</p></div><div type="cap" n=" Col.4-r.18"><p> Foro Semproni XVI
+</p></div><div type="cap" n=" Col.4-r.19"><p> At Cale XVIII
+</p></div><div type="cap" n=" Col.4-r.20"><p> Haesim XIIII
+</p></div><div type="cap" n=" Col.4-r.21"><p> Helvillo X
+</p></div><div type="cap" n=" Col.4-r.22"><p> Nuceria XV
+</p></div><div type="cap" n=" Col.4-r.23"><p> Maevania XVIIII
+</p></div><div type="cap" n=" Col.4-r.24"><p> Martis XVI
+</p></div><div type="cap" n=" Col.4-r.25"><p> Narnia XVIIII
+</p></div><div type="cap" n=" Col.4-r.26"><p> Ocriclo XII
+</p></div><div type="cap" n=" Col.4-r.27"><p> Ad <num value="20000">XX</num> XXIIII
+</p></div><div type="cap" n=" Col.4-r.28"><p> Romae XX</p>
+ <p>SVMMA <num value="1000000">X</num> ĐCCCXXXV</p> 
+</div>
+ </div>
+
+  </body>
+ </text>
+
+</TEI>

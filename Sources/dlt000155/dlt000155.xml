@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vita Vergilii</title>
+        <author>Aelius Donatus</author>
+        <respStmt>
+          <resp>Correzione linguistica</resp>
+          <name>Fabio Stok</name>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica XML</resp>
+          <name>Simona Musso</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>digilibLT</publisher>
+        <pubPlace>Vercelli</pubPlace>
+        <date>2013</date>
+        <availability>
+          <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+        </availability>
+        <idno>dlt000155</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Vitae Vergilianae antiquae, recc. G. Brugnoli et F. Stok,Romae 1997, pp. 17-41.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+        <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+      </projectDesc>
+      <editorialDecl>
+        <p><hi rend="bold">Modifiche apportate al testo dell'edizione di riferimento </hi></p>
+        <p>Su segnalazione di Fabio Stok si è corretto un errore di stampa al § 24: <hi rend="italic">morareur</hi> sostituito con <hi rend="italic">moraretur</hi> </p>
+        <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+        <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+          l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni,
+          note e commenti e ogni altro contenuto redatto da editori moderni. </p>
+        <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+          correttezza di trascrizione</p>
+        <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+          distinzione u/v minuscole.</p>
+        <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+        <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+          grassetto, corsivo, spaziatura espansa.</p>
+        <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+          <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+          <hi rend="italic">loci desperati</hi>:
+          <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo† e
+          †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...]<lb/> lacuna integrata
+          dagli editori: <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+        </p>
+        <p>Sono stati marcati i termini in lingua greca
+          <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+        </p>
+        <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+            target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+            >Note di trascrizione e codifica di testi latini tardoantichi
+            [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+      </editorialDecl>
+
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latino</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="opus"><head>Vita Vergilii</head>
+        <p>
+          <milestone unit="par" n="1"/> P. Vergilius Maro Mantuanus parentibus modicis fuit ac praecipue patre, quem quidam opificem figulum, plures Magi cuiusdam uiatoris initio mercennarium, mox ob industriam generum tradiderunt, egregieque substantiae siluis coemendis et apibus curandis auxisse re<supplied>c</supplied>ulam.</p><p>
+            <milestone unit="par" n="2"/> Natus est Cn. Pompeio Magno M. Licinio Crasso primum conss. Iduum Octobrium die in pago, qui Andes dicitur et abest a Mantua non procul. </p><p>
+              <milestone unit="par" n="3"/> Praegnans eum mater somniauit enixam se laureum ramum, quem contactu terrae coaluisse et excreuisse ilico in speciem maturae arboris refertaeque uariis pomis et floribus. Ac sequenti luce cum marito rus propinquum petens ex itinere deuertit atque in subiecta fossa partu leuata est. <milestone unit="par" n="4"/> Ferunt infantem, ut sit editus, neque uagisse et adeo miti uultu fuisse, ut haud dubiam spem prosperioris geniturae iam tum daret. <milestone unit="par" n="5"/> Et accessit aliud praesagium, siquidem uirga populea more regionis in puerperiis eodem statim loco depacta ita breui eualuit tempore, ut multo ante satas populos adaequauisset; quae 'arbor Vergilii' ex eo dicta atque etiam consecrata est summa grauidarum ac fetarum religione et suscipientium ibi et soluentium uota. </p><p>
+                <milestone unit="par" n="6"/> Initia aetatis Cremonae egit usque ad uirilem togam, quam XVII anno natali suo accepit isdem illis consulibus iterum duobus, quibus erat natus, euenitque ut eodem ipso die Lucretius poeta decederet. <milestone unit="par" n="7"/> Sed Vergilius a Cremona Mediolanum et inde paulo post transiit in urbem. </p><p>
+                  <milestone unit="par" n="8"/> Corpore et statura fuit grandi, aquilo colore, facie rusticana. Valetudine uaria: nam plerumque a stomacho et a faucibus ac dolore capitis laborabat, sanguinem etiam saepe reiecit. <milestone unit="par" n="9"/> Cibi uinique minimi, libidinis in pueros pronioris, quorum maxime dilexit Cebetem et Alexandrum, quem secunda Bucolicorum ecloga Alexim appellat, donatum sibi ab Asinio Pollione, utrumque non ineruditum, Cebetem uero et poetam. Vulgatum est consuesse eum et cum Plotia Hieria. <milestone unit="par" n="10"/> Sed Asconius Pedianus adfirmat, ipsam postea maiorem natu narrare solitam, inuitatum quidem a Vario ad communionem sui, uerum pertinacissime recusasse. <milestone unit="par" n="11"/> Cetera sane uita et ore et animo tam probum constat, ut Neapoli ‘Parthenias’ uulgo appellatus sit, ac si quando Romae, quo rarissime commeabat, uiseretur in publico, sectantes demostrantesque se suffugere<supplied>t</supplied> in proximum tectum. </p><p>
+                    <milestone unit="par" n="12"/> Bona autem cuiusdam exsulantis offerente Augusto non sustinuit accipere. <milestone unit="par" n="13"/> Possedit prope centiens sestertium ex liberalitatibus amicorum, habuitque domum Romae Esquiliis iuxta hortos Maecenatianos, quamquam secessu Campaniae Siciliaeque plurimum uteretur. </p><p>
+                      <milestone unit="par" n="14"/> Parentes iam grandis amisit, ex quibus patrem captum oculis et duos fratres germanos, Silonem impuberem, Flaccum iam adultum, cuius exitum sub nomine Daphnidis deflet. </p><p>
+                        <milestone unit="par" n="15"/> Inter cetera studia medicinae quoque ac maxime mathematicae operam dedit. Egit et causam apud iudices unam omnino nec amplius quam semel: <milestone unit="par" n="16"/> nam et in sermone tardissimum ac paene indocto similem fuisse Melissus tradidit. </p><p>
+                          <milestone unit="par" n="17"/> Poeticam puer adhuc auspicatus in Ballistam ludi magistrum ob infamiam latrociniorum coopertum lapidibus distichon fecit: </p>
+        
+        <lg><l>Monte sub hoc lapidum tegitur Ballista sepultus.</l>
+          <l>Nocte die tutum carpe, uiator, iter.</l></lg>
+        <p>
+          Deinde Catale<supplied>p</supplied>ton et Priapea et Epigrammata et Diras, item Cirim et Culicem, cum esset annorum X<supplied>X</supplied>VI, <milestone unit="par" n="18"/> cuius materia talis est: pastor fatigatus aestu, cum sub arbore condormisset et serpens ad eum proreperet e palude, culex prouolauit atque inter duo tempora aculeum fixit pastori. At ille continuo culicem contriuit et serpentem interemit ac sepulcrum culici statuit et distichon fecit: 
+        </p>
+        <lg><l>Parue culex, pecudum custos, tibi tale merenti</l>
+          <l>funeris officium uitae pro munere reddit.</l> </lg>
+        <p>
+          <milestone unit="par" n="19"/> Scripsit etiam, de qua ambigitur, Aetnam. Mox cum res Romanas inchoasset, offensus materia ad Bucolica transiit, maxime ut Asinium Pollionem, Alfenum Varum et Cornelium Gallum celebraret, quia in distributione agrorum, qui post Philippensem uictoriam ueteranis triumuirorum iussu trans Padum diuidebantur, indemnem se praestitissent. <milestone unit="par" n="20"/> Deinde Georgica in honorem Maecenatis <supplied>scripsit</supplied>, qui sibi mediocriter adhuc noto opem tulisset aduersus ueterani cuiusdam uiolentiam, a quo in altercatione litis agrariae paulum afuit quin occideretur. <milestone unit="par" n="21"/> Nouissime Aeneidem inchoauit, argumentum uarium ac multiplex et quasi amborum Homeri carminum instar, praeterea nominibus ac rebus Graecis Latinisque commune, et in quo, quod maxime studebat, Romanae simul urbis et Augusti origo contineretur. <milestone unit="par" n="22"/> Cum Georgica scriberet, traditur quotidie meditatos mane plurimos uersus dictare solitus ac per totum diem retractando ad paucissimos redigere, non absurde carmen se more ursae parere dicens et lambendo demum effingere. <milestone unit="par" n="23"/> Aeneida prosa prius oratione formatam digestamque in XII libros particulatim componere instituit, prout liberet quidque, et nihil in ordinem arripiens. <milestone unit="par" n="24"/> Ac ne quid impetum moraretur, quaedam imperfecta transmisit, alia leuissimis uersibus ueluti fulsit, quos per iocum pro tibicinibus interponi aiebat ad sustinendum opus, donec solidae columnae aduenirent. <milestone unit="par" n="25"/> Bucolica triennio, Georgica VII, Aeneida XI perfecit annis. <milestone unit="par" n="26"/> Bucolica eo successu edidit, ut in scaena quoque per cantores crebro pronuntiarentur. <milestone unit="par" n="27"/> Georgica reuerso post Actiacam uictoriam Augusto atque Atellae reficiendarum faucium causa commoranti per continuum quadriduum legit, suscipiente Maecenate legendi uicem quotiens interpellaretur ipse uocis offensione. <milestone unit="par" n="28"/> Pronuntiabat autem cum suauitate, cum lenociniis miris. <milestone unit="par" n="29"/> <supplied>Ac</supplied> Seneca tradidit Iulium Montanum poetam solitum dicere, inuolaturum se Vergilio quaedam, si et uocem posset et os et hypocrisin: eosdem enim uersus ipso pronuntiante bene sonare, sine illo inanes esse mutosque. <milestone unit="par" n="30"/> Aeneidos uixdum coepte tanta exstitit fama, ut Sextus Propertius non dubitauerit sic praedicare: </p>
+        <lg><l>
+          Cedite, Romani scriptores, cedite Grai: </l>
+          <l> nescio quid maius nascitur Iliade.</l></lg>
+        <p>
+          <milestone unit="par" n="31"/> Augustus uero, nam forte expeditione Cantabrica aberat, supplicibus atque etiam minacibus per iocum litteris efflagitaret, ‘ut sibi de Aeneide’, ut ipsius uerba sunt, ‘uel prima carminis <foreign xml:lang="grc">ὑπογραφή</foreign> uel quodlibet <foreign xml:lang="grc">κῶλον</foreign> mitteretur’. <milestone unit="par" n="32"/> Cui tamen multo post, perfectaque demum materia, tres omnino libros recitauit, secundum quartum et sextum; sed hunc notabili Octauiae adfectione, quae cum recitationi interesset, ad illos de filio suo uersus: ‘tu Marcellus eris’, defecisse fertur atque aegre focilata. <milestone unit="par" n="33"/> Recitauit et pluribus, sed neque frequenter et ea fere de quibus ambigebat, quo magis iudicium hominum experiretur. <milestone unit="par" n="34"/> Erotem librarium et libertum eius exactae iam senectutis tradunt referre solitum, quondam eum in recitando duos dimidiatos uersus complesse ex tempore. Nam cum hactenus haberet: ‘Misenum Aeoliden’, adiecisse: ‘Quo non praestantior alter’, item huic ‘Aere ciere uiros’, simili calore iactatum subiunxisse: ‘Martemque accendere cantu’, statimque sibi imperasse ut utrumque uolumini adscriberet. </p><p>
+            <milestone unit="par" n="35"/> Anno aetatis quinquagesimo secundo impositurus Aeneidi summam manum statuit in Graeciam et in Asiam secedere triennioque continuo nihil amplius quam emendare ut reliqua uita tantum philosophiae uacaret. Sed cum ingressus iter Athenis occurrisset Augusto ab oriente Romam reuertenti, destinaretque non absistere atque etiam una redire, dum Megara uicinum oppidum feruentissimo sole cognoscit, languorem nactus est, eumque non intermissa nauigatione auxit ita, ut grauior aliquanto Brundisium appelleret, ubi diebus paucis obiit XI Kal. Octobr. Cn. Sentio Q. Lucretio conss. <milestone unit="par" n="36"/> Ossa eius Neapolim translata sunt tumuloque condita, qui est uia Puteolana intra lapidem secundum, in quo distichon fecit tale: </p>
+        <lg><l>
+          Mantua me genuit, Calabri rapuere, tenet nunc</l>
+          <l>Parthenope. Cecini pascua rura duces.</l></lg>
+        <p>
+          <milestone unit="par" n="37"/> Heredes fecit ex dimidia parte Valerium Proculum fratrem alio patre, ex quarta Augustum, ex duodecima Maecenatem, ex reliqua L. Varium et Plotium Tuccam, qui eius Aeneidem post obitum iussu Caesaris emendauerunt. <milestone unit="par" n="38"/> De qua re Sulpicii Carthaginiensis exstant huiusmodi uersus: </p>
+        <lg><l>
+          Iusserat haec rapidis aboleri carmina flammis</l><l>
+            Vergilius, Phrygium quae cecinere ducem. </l><l> 
+              Tucca uetat Variusque simul; tu, maxime Caesar, </l><l>
+                non sinis et Latiae consulis historiae. </l><l>
+                  Infelix gemino cecidit prope Pergamon igni, </l><l>
+                    et paene est alio Troia cremata rogo’. </l></lg>
+        <p>
+          <milestone unit="par" n="39"/> Egerat cum Vario, priusquam Italia decederet, ut si quid sibi accidisset, Aeneida combureret; <supplied>a</supplied>t is ita facturum se pernegarat. Igitur in extrema ualetudine assidue scrinia desiderauit, crematurus ipse; uerum nemine offerente, nihil quidem nominatim de ea cauit. <milestone unit="par" n="40"/> Ceterum eidem Vario ac simul Tuccae scripta sua sub ea conditione legauit, ne quid ederent, quod non a se editum esset. <milestone unit="par" n="41"/> Edidit autem auctore Augusto Varius, sed summatim emendata, ut qui uersus etiam imperfectos, si qui erant, reliquerit. Quos multi mox supplere conati non perinde ualuerunt ob difficultatem, quod omnia fere apud eum hemistichia absoluto perfectoque sunt sensu, praeter illud ‘Quem tibi iam Troia’. <milestone unit="par" n="42"/> Nisus grammaticus audisse se a senioribus aiebat, Varium duorum librorum ordinem commutasse, et <unclear>qui nunc secundus sit in tertium locum transtulisse</unclear>, etiam primi libri correxisse principium, his uersibus demptis: </p>
+        <lg><l>
+          Ille ego qui quondam gracili modulatus auena</l><l>
+            carmina et egressus siluis uicina coegi, </l><l>
+              ut quamuis auido parerent arua colono, </l><l>
+                gratum opus agricolis, at nunc horrentia Martis</l><l>
+                  arma uirumque cano’. </l></lg>
+        <p>
+          <milestone unit="par" n="43"/> Obtrectatores Vergilio numquam defuerunt, nec mirum, nam nec Homero quidem. Prolatis Bucolicis Numitorius quidam rescripsit Antibucolica, duas modo eclogas sed insulsissime <foreign xml:lang="grc">παρῳδήσας</foreign>, quarum prioris initium est: </p>
+        <lg><l>
+          Tityre, si toga calda tibi est, quo tegmine fagi?</l></lg><p>
+            
+            sequentis:</p>
+        <lg><l>
+          Dic mihi Damoeta: cuium pecus anne Latinum? </l><l>
+            non. Verum Aegonis nostri sic rure loquuntur. </l></lg>
+        <p>
+          Alius recitante eo ex Georgicis: ‘Nudus ara, sere nudus’, subiecit: ‘habebis frigore febrem’. <milestone unit="par" n="44"/> Est aduersus Aeneida liber Car<supplied>u</supplied>ili Pictoris, titulo ‘Aeneidomastix’. M. Vip<supplied>s</supplied>anius a Maecenate eum suppositum appellabat nouae cacozeliae repertorem, non tumidae nec exilis, sed ex communibus uerbis atque ideo latentis. Herennius tantum uitia eius, Perellius Faustus furta contraxit. <milestone unit="par" n="45"/> Sed et Q. Octaui Auiti Ὁμοιοτελεύτων octo uolumina quos et unde uersus transtulerit, continent. <milestone unit="par" n="46"/> Asconius Pedianus libro, quem contra obtrectatores Vergilii scripsit, pauca admodum obiecta ei proponit, eaque circa historiam fere et quod pleraque ab Homero sumpsisset; sed hoc ipsum crimen sic defendere assuetum ait: ‘cur non illi quoque eadem furta temptarent? Verum intellecturos facilius esse Herculi clauam quam Homero uersum surripere’; et tamen destinasse secedere, ut omnia ad satietatem maleuolorum decideret.</p></div>
+      
+      
+    </body>
+  </text>
+</TEI>

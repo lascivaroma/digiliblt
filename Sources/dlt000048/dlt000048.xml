@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peri hermeneias liber Aristotelis latine uersus</title>
+                <author>Boethius (Anicius Manlius Seuerinus Boethius)</author>
+                <respStmt>
+                    <resp>Correzione linguistica</resp>
+                    <name>Manuela Ferroni</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica XML</resp>
+                    <name>Manuela Ferroni</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>DigilibLT Project</publisher>
+                <pubPlace>Vercelli</pubPlace>
+                <date>2015</date>
+                <availability>
+                    <p>
+                        <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
+                    </p>
+                </availability>
+                <idno>dlt000048</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Aristoteles Latinus II 1-2, <hi rend="italic">De interpretatione uel Peri
+                        hermeneias. Translatio Boethii edidit L. Minio-Paluello, Translatio
+                        Guillelmi de Moerbeka</hi>, edidit G. Verbeke reuisit L. Minio-Paluello
+                    Bruges-Paris 1965, pp. 5-38 (Corpus Philosophorum Medii Aeui).</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+                <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio
+                    Lana</p>
+            </projectDesc>
+            <editorialDecl>
+
+                <p>
+                    <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi>
+                </p>
+                <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non
+                    seguendone l'impaginazione. Sono stati invece esclusi dalla digitalizzazione
+                    apparati, introduzioni, note e commenti e ogni altro contenuto redatto da
+                    editori moderni. </p>
+                <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la
+                    massima correttezza di trascrizione</p>
+                <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di
+                    riferimento per la distinzione u/v minuscole.</p>
+                <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+                <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic"
+                        >corpus</hi>: grassetto, corsivo, spaziatura espansa.</p>
+                <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/>
+                    espunzioni: <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/>
+                    integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+                    <hi rend="italic">loci desperati</hi>:
+                    <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo†
+                    e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...]<lb/>
+                    lacuna integrata dagli editori:
+                    <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+                </p>
+                <p>Sono stati marcati i termini in lingua greca
+                    <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+                </p>
+                <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+                        target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+                        >Note di trascrizione e codifica di testi latini tardoantichi
+                        [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latino</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+
+            <div type="cap" n="1">
+                <p>Primum oportet constituere quid sit nomen et quid verbum, postea quid est negatio
+                    et adfirmatio et enuntiatio et oratio. Sunt ergo ea quae sunt in voce earum quae
+                    sunt in anima passionum notae, et ea quae scribuntur eorum quae sunt in voce. Et
+                    quemadmodum nec litterae omnibus eaedem, sic nec eaedem voces; quorum autem hae
+                    primorum notae, eaedem omnibus passiones animae sunt, et quorum hae
+                    similitudines, res etiam eaedem. De his quidem dictum est in his quae sunt dicta
+                    de anima ‒ alterius est enim negotii ‒; est autem, quemadmodum in anima
+                    aliquotiens quidem intellectus sine vero vel falso, aliquotiens autem cum iam
+                    necesse est horum alterum inesse, sic etiam in voce; circa compositionem enim et
+                    divisionem est falsitas veritasque. Nomina igitur ipsa et verba consimilia sunt
+                    sine compositione vel divisione intellectui, ut 'homo' vel 'album', quando non
+                    additur aliquid; neque enim adhuc verum aut falsum est. Huius autem signum:
+                    'hircocervus' enim significat aliquid, sed nondum verum vel falsum, si non vel
+                    'esse' vel 'non esse' addatur vel simpliciter vel secundum tempus.</p>
+            </div>
+            <div type="cap" n="2">
+                <p>
+                    <hi rend="bold">DE NOMINE.</hi>
+                </p>
+                <p>Nomen ergo est vox significativa secundum placitum sine tempore, cuius nulla pars
+                    est significativa separata; in 'equiferus' enim 'ferus' nihil per se significat,
+                    quemadmodum in oratione quae est 'equus ferus'. At vero non quemadmodum in
+                    simplicibus nominibus, sic se habet et in compositis; in illis enim nullo modo
+                    pars significativa est, in his autem vult quidem, sed nullius separati, ut in
+                    'equiferus' <supplied>'ferus'</supplied>. "Secundum placitum" vero, quoniam
+                    naturaliter nominum nihil est, sed quando fit nota; nam designant et inlitterati
+                    soni, ut ferarum, quorum nihil est nomen.</p>
+                <p>'Non homo' vero non est nomen; at vero nec positum est nomen quod illud oporteat
+                    appellari ‒ neque enim oratio aut negatio est ‒ sed sit nomen infinitum.
+                    'Catonis' autem vel 'Catoni' et quaecumque talia sunt non sunt nomina, sed casus
+                    nominis. Ratio autem eius est in aliis quidem eadem, sed differt quoniam, cum
+                    'est' vel 'fuit' vel 'erit' adiunctum, neque verum neque falsum est, nomen vero
+                    semper; ut 'Catonis est' vel 'non est' ‒ nondum enim aliquid neque verum dicit
+                    neque mentitur.</p>
+            </div>
+            <div type="cap" n="3">
+                <p>
+                    <hi rend="bold">DE VERBO.</hi>
+                </p>
+                <p>Verbum autem est quod consignificat tempus, cuius pars nihil extra significat; et
+                    est semper eorum quae de altero praedicantur nota. Dico autem quoniam
+                    consignificat tempus, ut 'cursus' quidem nomen est, 'currit' vero verbum ‒
+                    consignificat enim nunc esse ‒; et semper eorum quae de altero dicuntur nota
+                    est, ut eorum quae de subiecto vel in subiecto.</p>
+                <p>'Non currit' vero et 'non laborat' non verbum dico; consignificat quidem tempus
+                    et semper de aliquo est, differentiae autem huic nomen non est positum; sed sit
+                    infinitum verbum, quoniam similiter in quolibet est vel quod est vel quod non
+                    est. Similiter autem vel 'curret' vel 'currebat' non verbum est, sed casus
+                    verbi; differt autem a verbo quoniam hoc quidem praesens significat tempus, illa
+                    vero quod complectitur.</p>
+                <p>Ipsa quidem secundum se dicta verba nomina sunt et significant aliquid ‒
+                    constituit enim qui dicit intellectum, et qui audit quiescit ‒ sed si est vel
+                    non est nondum significat. Neque enim 'esse' signum est rei vel 'non esse', nec
+                    si hoc ipsum 'est' purum dixeris: ipsum quidem nihil est, consignificat autem
+                    quandam compositionem quam sine compositis non est intellegere.</p>
+            </div>
+            <div type="cap" n="4">
+                <p>
+                    <hi rend="bold">DE ORATIONE.</hi>
+                </p>
+                <p>Oratio autem est vox significativa, cuius partium aliquid significativum est
+                    separatum (ut dictio, non ut adfirmatio); dico autem ut 'homo' significat
+                    aliquid (sed non quoniam est aut non est; sed erit adfirmatio vel negatio, si
+                    quid addatur), sed non una 'hominis' syllaba; nec in hoc quod est 'sorex' 'rex'
+                    significat, sed vox est nunc sola. In duplicibus vero significat quidem, sed non
+                    secundum se, quemadmodum dictum est. Est autem oratio omnis quidem significativa
+                    non sicut instrumentum, sed (quemadmodum dictum est) secundum placitum;
+                    enuntiativa vero non omnis, sed in qua verum vel falsum inest; non autem in
+                    omnibus, ut deprecatio oratio quidem est, sed neque vera neque falsa. Et ceterae
+                    quidem relinquantur (rhetoricae enim vel poeticae convenientior consideratio
+                    est; enuntiativa vero praesentis considerationis est).</p>
+            </div>
+            <div type="cap" n="5">
+                <p>Est autem una prima oratio enuntiativa adfirmatio, deinde negatio; aliae vero
+                    coniunctione unae. Necesse est autem omnem orationem enuntiativam ex verbo esse
+                    vel casu; et enim hominis rationi si non aut 'est' aut 'erit' aut 'fuit' aut
+                    aliquid huiusmodi addatur, nondum est oratio enuntiativa. Quare autem unum
+                    quiddam est et non multa 'animal gressibile bipes' ‒ neque enim eo quod
+                    propinque dicuntur unum erit ‒ est alterius hoc tractare negotii. Est autem una
+                    oratio enuntiativa quae unum significat vel coniunctione una, plures autem quae
+                    plura et non unum vel inconiunctae. Nomen ergo et verbum dictio sit sola,
+                    quoniam non est dicere sic aliquid significantem voce enuntiare, vel aliquo
+                    interrogante vel non, sed ipsum proferentem. Harum autem haec quidem simplex est
+                    enuntiatio, ut aliquid de aliquo vel aliquid ab aliquo, haec autem ex his
+                    coniuncta, velut oratio quaedam iam composita.</p>
+                <p>Est autem simplex enuntiatio vox significativa de eo quod est aliquid vel non
+                    est, quemadmodum tempora divisa sunt. </p>
+            </div>
+            <div type="cap" n="6">
+                <p>Adfirmatio vero est enuntiatio alicuius de aliquo, negatio vero enuntiatio
+                    alicuius ab aliquo. Quoniam autem est enuntiare et quod est non esse et quod non
+                    est esse et quod est esse et quod non est non esse, et circa ea extrinsecus
+                    praesentis temporis similiter omne contingit quod quis adfirmaverit negare et
+                    quod quis negaverit adfirmare; quare manifestum est quoniam omni adfirmationi
+                    est negatio opposita et omni negationi adfirmatio. Et sit hoc contradictio,
+                    adfirmatio et negatio oppositae; dico autem opponi eiusdem de eodem, non autem
+                    aequivoce et quaecumque cetera talium determinamus contra sophisticas
+                    importunitates.</p>
+            </div>
+            <div type="cap" n="7">
+                <p>Quoniam autem sunt haec quidem rerum universalia, illa vero singillatim (dico
+                    autem universale quod in pluribus natum est praedicari, singulare vero quod non,
+                    ut 'homo' quidem universale, 'Plato' vero eorum quae sunt singularia), necesse
+                    est autem enuntiare quoniam inest aliquid aut non, aliquotiens quidem eorum
+                    alicui quae sunt universalia, aliquotiens vero eorum quae sunt singularia. Si
+                    ergo universaliter enuntiet in universali quoniam est aut non, erunt contrariae
+                    enuntiationes (dico autem in universali enuntiationem universalem ut 'omnis homo
+                    albus est', 'nullus homo albus est'); quando autem in universalibus non
+                    universaliter, non sunt contrariae, quae autem significantur est esse contraria
+                    (dico autem non universaliter enuntiare in his quae sunt universalia, ut 'est
+                    albus homo', 'non est albus homo'; cum enim universale sit homo, non
+                    universaliter utitur enuntiatione; 'omnis' namque non 'universale' sed 'quoniam
+                    universaliter' consignificat). In eo vero quod praedicatur universaliter
+                    universale praedicare universaliter non est verum; nulla enim adfirmatio erit,
+                    in qua de universaliter praedicato universale praedicetur, ut 'omnis homo omne
+                    animal'.</p>
+                <p>Opponi autem adfirmationem negationi dico contradictorie quae universale
+                    significat eidem quoniam non universaliter, ut 'omnis homo albus est', 'non
+                    omnis homo albus est', 'nullus homo albus est', 'quidam homo albus est';
+                    contrarie vero universalem adfirmationem et universalem negationem, ut 'omnis
+                    homo iustus est', 'nullus homo iustus est'; quocirca has quidem impossibile est
+                    simul veras esse, his vero oppositas contingit in eodem, 'non omnis homo albus
+                    est', et 'est quidam homo albus'. Quaecumque igitur contradictiones universalium
+                    sunt universaliter, necesse est alteram esse veram vel falsam, et quaecumque in
+                    singularibus sunt, ut 'est Socrates albus', 'non est Socrates albus'; quaecumque
+                    autem in universalibus non universaliter, non semper haec vera est, illa vero
+                    falsa (simul enim verum est dicere quoniam est homo albus et non est homo albus,
+                    et est homo probus et non est homo probus; si enim turpis, non probus; et si fit
+                    aliquid, et non est).Videbitur autem subito inconveniens esse, idcirco quoniam
+                    videtur significare 'non est homo albus' simul etiam quoniam nemo homo albus
+                    est; hoc autem neque idem significat neque simul necessario.</p>
+                <p>Manifestum est autem quoniam una negatio unius adfirmationis est; hoc enim idem
+                    oportet negare negationem quod adfirmavit adfirmatio, et de eodem, vel de aliquo
+                    singularium vel de aliquo universalium, vel universaliter vel non universaliter;
+                    dico autem ut 'est Socrates albus', 'non est Socrates albus' (si autem aliud
+                    aliquid vel de alio idem, non opposita, sed erit ab ea diversa), huic vero quae
+                    est 'omnis homo albus est' illa quae est 'non omnis homo albus est', illi vero
+                    quae est 'aliquis homo albus est' illa quae est 'nullus homo albus est', illi
+                    autem quae est 'homo albus est' illa quae est 'non est homo albus'.</p>
+                <p>Quoniam ergo uni negationi una adfirmatio opposita est contradictorie, et quae
+                    sint hae, dictum est, et quoniam aliae sunt contrariae et quae sint hae, et
+                    quoniam non omnis vera vel falsa contradictio, et quare, et quando vera vel
+                    falsa.</p>
+            </div>
+            <div type="cap" n="8">
+                <p>Vna autem est adfirmatio et negatio quae unum de uno significat, vel cum sit
+                    universale universaliter vel non similiter, ut 'omnis homo albus est', 'non est
+                    omnis homo albus', 'est homo albus', 'non est homo albus', 'nullus homo albus
+                    est', 'est quidam homo albus', si 'album' unum significat. Sin vero duobus unum
+                    nomen est positum ex quibus non est unum, non est una adfirmatio; ut, si quis
+                    ponat nomen 'tunica' homini et equo, 'est tunica alba' haec non est una
+                    adfirmatio nec negatio una; nihil enim hoc differt dicere quam 'est equus et
+                    homo albus', hoc autem nihil differt quam dicere 'est equus albus' et 'est homo
+                    albus'. Si ergo hae multa significant et sunt plures, manifestum est quoniam et
+                    prima multa vel nihil significat (neque enim est aliquis homo equus); quare nec
+                    in his necesse est hanc quidem contradictionem veram esse, illam vero
+                    falsam.</p>
+            </div>
+            <div type="cap" n="9">
+                <p>In his ergo quae sunt et facta sunt necesse est adfirmationem vel negationem
+                    veram vel falsam esse; in universalibus quidem universaliter semper hanc quidem
+                    veram, illam vero falsam, et in his quae sunt singularia, quemadmodum dictum
+                    est; in his vero quae in universalibus non universaliter dicuntur, non est
+                    necesse (dictum autem est et de his). In singularibus vero et futuris non
+                    similiter; nam si omnis adfirmatio vel negatio vera vel falsa est, et omne
+                    necesse est vel esse vel non esse; si hic quidem dicat futurum aliquid, ille
+                    vero non dicat hoc idem ipsum, manifestum est quoniam necesse est verum dicere
+                    alterum ipsorum si omnis adfirmatio vera vel falsa est (utraque enim non erunt
+                    simul in talibus). Nam si verum est dicere quoniam album vel non album est,
+                    necesse est esse album vel non album, et, si est album vel non album, verum est
+                    vel adfirmare vel negare; et, si non est, mentitur, et si mentitur non est;
+                    quare necesse est aut adfirmationem aut negationem veram esse. Nihil igitur
+                    neque est neque fit nec a casu nec utrumlibet, nec erit nec non erit, sed ex
+                    necessitate omnia et non utrumlibet (aut enim qui dicit verus est aut qui
+                    negat); similiter enim vel fieret vel non fieret; utrumlibet enim nihil magis
+                    sic vel non sic se habet aut habebit. Amplius, si est album nunc, verum erat
+                    dicere primo quoniam erit album, quare semper verum fuit dicere quodlibet illud
+                    eorum quae facta sunt quoniam erit; quod si semper verum est dicere quoniam est
+                    vel erit, non potest hoc non esse nec non futurum esse. Quod autem non potest
+                    non fieri, impossibile est non fieri; et quod impossibile est non fieri, necesse
+                    est fieri; omnia ergo quae futura sunt necesse est fieri. Nihil igitur
+                    utrumlibet neque casu erit; nam si a casu, non ex necessitate. At vero nec
+                    quoniam neutrum verum est contingit dicere, ut quoniam neque erit neque non
+                    erit. Primum enim, cum sit adfirmatio falsa, erit negatio non vera, et cum haec
+                    sit falsa, contingit adfirmationem esse non veram. Ad haec, si verum est dicere
+                    quoniam album est et magnum, oportet utraque esse, sin vero erit cras, esse
+                    cras; si autem neque erit neque non erit cras, non erit utrumlibet, ut navale
+                    bellum; oportebit enim neque fieri navale bellum neque non fieri navale
+                    bellum.</p>
+                <p>Quae ergo contingunt inconvenientia haec sunt et huiusmodi alia, si omnis
+                    adfirmationis et negationis vel in his quae in universalibus dicuntur
+                    universaliter vel in his quae sunt singularia, necesse est oppositarum hanc esse
+                    veram, illam vero falsam, nihil autem utrumlibet esse in his quae fiunt sed
+                    omnia esse vel fieri ex necessitate. Quare non oportebit neque consiliari neque
+                    negotiari quoniam, si hoc facimus, erit hoc, si vero hoc, non erit. Nihil enim
+                    prohibet in millesimum annum hunc quidem dicere hoc futurum esse, hunc vero non
+                    dicere, quare ex necessitate erit quodlibet eorum verum erat dicere tunc. At
+                    vero nec hoc differt si aliqui dixerunt negationem vel non dixerunt; manifestum
+                    est enim quod sic se habent res vel si hic quidem adfirmaverit, ille vero
+                    negaverit; non enim propter negare vel adfirmare erit vel non erit, nec in
+                    millesimum annum magis quam in quantolibet tempore. Quare si in omni tempore sic
+                    se habebat ut unum verum diceretur, necesse esset hoc fieri et unumquodque eorum
+                    quae fiunt sic se habere ut ex necessitate fieret. Quando enim vere dicit quis
+                    quoniam erit, non potest non fieri; et quod factum est, verum erat dicere semper
+                    quoniam erit.</p>
+                <p>Quod si haec non sunt possibilia ‒ videmus enim esse principium futurorum et ab
+                    eo quod consiliamur atque agimus aliquid, et quoniam est omnino in his quae non
+                    semper actu sunt esse possibile et non, in quibus utrumque contingit et esse et
+                    non esse, quare et fieri et non fieri; et multa nobis manifesta sunt sic se
+                    habentia, ut quoniam hanc vestem possibile est incidi et non inciditur, sed
+                    prius exteritur; similiter autem et non incidi possibile est; non enim esset eam
+                    prius exteri nisi esset possibile non incidi; quare et in aliis facturis
+                    quaecumque secundum potentiam dicuntur huiusmodi ‒ manifestum est quoniam non
+                    omnia ex necessitate vel sunt vel fiunt, sed alia quidem utrumlibet et non magis
+                    vel adfirmatio vel negatio, alia vero magis quidem in pluribus alterum, sed
+                    contingit fieri et alterum, alterum vero minime.</p>
+                <p>Igitur esse quod est quando est, et non esse quod non est quando non est, necesse
+                    est; sed non quod est omne necesse est esse, nec quod non est necesse est non
+                    esse (non enim idem est omne quod est esse necessario quando est, et simpliciter
+                    esse ex necessitate); similiter autem et in eo quod non est. Et in
+                    contradictione eadem ratio est; esse quidem vel non esse omne necesse est et
+                    futurum esse vel non; non tamen dividentem dicere alterum necessario. Dico
+                    autem, necesse est quidem futurum esse bellum navale cras vel non esse futurum,
+                    sed non futurum esse cras bellum navale necesse est vel non futurum esse,
+                    futurum autem esse vel non esse necesse est. Quare, quoniam similiter orationes
+                    verae sunt quemadmodum et res, manifestum est quoniam quaecumque sic se habent
+                    ut utrumlibet sint et contraria ipsorum contingere, necesse est similiter se
+                    habere et contradictionem; quod contingit in his quae non semper sunt et non
+                    semper non sunt; horum enim necesse est quidem alteram partem contradictionis
+                    veram esse vel falsam, non tamen hoc aut illud, sed utrumlibet, et magis quidem
+                    veram alteram, non tamen iam veram vel falsam. Quare manifestum est quoniam non
+                    est necesse omnes adfirmationes vel negationes oppositarum hanc quidem veram,
+                    illam autem falsa esse; neque enim quemadmodum in his quae sunt sic se habent
+                    etiam in his quae non sunt, possibilium tamen esse aut non esse, sed quemadmodum
+                    dictum est.</p>
+            </div>
+            <div type="cap" n="10">
+                <p>Quoniam autem est de aliquo adfirmatio significans aliquid, hoc autem est vel
+                    nomen vel innominabile, unum autem oportet esse et de uno hoc quod est in
+                    adfirmatione (nomen autem dictum est et innominabile prius; 'non homo' enim
+                    nomen quidem non dico sed infinitum nomen ‒ unum enim significat infinitum ‒
+                    quemadmodum et 'non currit' non verbum sed infinitum verbum), erit omnis
+                    adfirmatio vel ex nomine vel ex verbo. Praeter verbum autem nulla adfirmatio vel
+                    negatio; 'est' enim vel 'erit' vel 'fuit' vel 'fit' vel quaecumque alias
+                    huiusmodi, verba ex his sunt quae sunt posita (consignificant enim tempus).
+                    Quare prima adfirmatio et negatio 'est homo ‒ non est homo', deinde 'est non
+                    homo ‒ non est non homo', 'est omnis homo ‒ non est omnis homo', 'est omnis non
+                    homo ‒ non est omnis non homo'; et in extrinsecus temporibus eadem ratio
+                    est.</p>
+                <p>Quando autem 'est' tertium adiacens praedicatur, dupliciter dicuntur
+                    oppositiones. Dico autem ut 'est iustus homo', 'est' tertium dico adiacere nomen
+                    vel verbum in adfirmatione. Quare idcirco quattuor istae erunt, quarum duae
+                    quidem ad adfirmationem et negationem sese habebunt secundum consequentiam ut
+                    privationes, duae vero minime; dico autem quoniam 'est' aut 'iusto' adiacebit
+                    aut 'non iusto'; quare etiam negatio. Quattuor ergo sunt. Intellegimus vero quod
+                    dicitur ex his quae subscripta sunt: <lb/> est iustus homo ‒ huius negatio: non
+                    est iustus homo<lb/> est non iustus homo ‒ negatio: non est non iustus
+                    homo;<lb/> 'est' enim hoc loco et 'non est' 'iusto' et 'non iusto' adiacet. Haec
+                    igitur, quemadmodum in Resolutoriis dictum est, sic sunt disposita. Similiter
+                    autem se habet et si universalis nominis sit adfirmatio, ut 'omnis est homo
+                    iustus', 'omnis est homo non iustus'. Sed non similiter angulares contingit
+                    veras esse, contingit autem aliquando. Hae igitur duae oppositae sunt, aliae
+                    autem ad 'non homo' ut subiectum aliquod addito, ut<lb/> est iustus non homo ‒
+                    non est iustus non homo<lb/> est non iustus non homo ‒ non est non iustus non
+                    homo.<lb/> Magis plures autem his non erunt oppositiones; hae autem extra illas
+                    ipsae secundum se erunt, ut nomine utentes 'non homo'.</p>
+                <p>In his vero in quibus 'est' non convenit, ut in eo quod est 'currere' vel
+                    'ambulare', idem faciunt sic posita ac si 'est' adderetur, ut est<lb/> currit
+                    omnis homo ‒ non currit omnis homo<lb/> currit omnis non homo ‒ non currit omnis
+                    non homo; <lb/> non enim dicendum est 'non omnis homo' sed 'non' negationem ad
+                    id quod est 'homo' addendum est; 'omnis' enim non universale significat, sed
+                    quoniam universaliter; manifestum est autem ex eo quod est 'currit homo ‒ non
+                    currit homo; currit non homo ‒ non currit non homo'; haec enim ab illis
+                    differunt eo quod non universaliter sunt; quare 'omnis' vel 'nullus' nihil aliud
+                    consignificat nisi quoniam universaliter de nomine vel adfirmat vel negat; ergo
+                    et cetera eadem oportet adponi.</p>
+                <p>Quoniam vero contraria est negatio ei quae est 'omne est animal iustum' illa quae
+                    significat quoniam 'nullum est animal iustum', hae quidem manifestum est quoniam
+                    numquam erunt neque verae simul neque in eodem ipso, his vero oppositae erunt
+                    aliquando: 'non omne animal iustum' ‒ <supplied>'est aliquod animal
+                        iustum'</supplied>. Sequuntur vero eam quidem quae est 'nullus est homo
+                    iustus' illa quae est 'omnis est homo non iustus', illam vero quae est 'est
+                    aliqui iustus homo' opposita quoniam 'non omnis homo est non iustus'; necesse
+                    est enim esse aliquem. Manifestum est autem quoniam etiam in singularibus, si
+                    est verum interrogatum negare, quoniam et adfirmare verum est, ut 'putasne
+                    Socrates sapiens est?', 'non est', quoniam 'Socrates igitur non sapiens est'. In
+                    universalibus vero non est vera quae similiter dicitur, vera autem negatio, ut
+                    'putasne omnis homo sapiens?', 'non', 'omnis igitur homo non sapiens'; hoc enim
+                    falsum est, sed non 'igitur omnis homo sapiens' vera est; haec autem est
+                    opposita, illa vero contraria.</p>
+                <p>Illae vero secundum infinita contraiacentes nomina vel verba, ut in eo quod est
+                    'non homo' vel 'non iustus', quasi negationes sine nomine vel verbo esse
+                    videbuntur, sed non sunt; semper enim vel veram esse vel falsam necesse est
+                    negationem, qui vero dixit 'non homo' nihil magis de homine, sed etiam minus
+                    verus fuit vel falsus, si non aliquid addatur. Significat autem 'est omnis non
+                    homo iustus' nulli illarum idem, nec huic opposita ea quae est 'non est omnis
+                    non homo iustus'; illa vero quae est 'omnis non iustus non homo' illi quae est
+                    'nullus iustus non homo' idem significat.</p>
+                <p>Transposita vero nomina vel verba idem significant, ut 'est homo albus ‒ est
+                    albus homo'; nam si hoc non est, eiusdem multae erunt negationes, sed ostensum
+                    est quoniam una unius est. Eius enim quae est 'est albus homo' negatio est 'non
+                    est albus homo'; eius vero quae est 'est homo albus', si non eadem est <del>quae
+                        etiam</del> ei quae est 'est albus homo', erit negatio vel ea quae est 'non
+                    est non homo albus' vel ea quae est 'non est homo albus'. Sed altera quidem est
+                    negatio eius quae est 'est non homo albus', alia vero eius quae est 'est albus
+                    homo', quare erunt duae unius. Quoniam igitur transposito nomine vel verbo eadem
+                    fit adfirmatio vel negatio manifestum est.</p>
+            </div>
+            <div type="cap" n="11">
+                <p>At vero unum de pluribus vel plura de uno adfirmare vel negare, si non est unum
+                    ex pluribus, non est adfirmatio una neque negatio. Dico autem "unum" non, si
+                    unum nomen sit positum, non sit autem unum ex illis, ut homo est fortasse et
+                    animal et bipes et mansuetum, sed ex his unum fit; ex albo autem et homine et
+                    ambulare non unum. Quare nec si unum aliquid de his adfirmet aliquis, erit una
+                    adfirmatio, sed vox quidem una, adfirmationes vero multae, nec si de uno ista,
+                    sed similiter plures. Si ergo dialectica interrogatio responsionis est petitio,
+                    vel propositionis vel alterius partis contradictionis, propositio vero unius
+                    contradictionis est, non erit una responsio ad haec; nec una interrogatio, nec
+                    si sit vera. Dictum autem de his est in Topicis. Similiter autem manifestum est
+                    quoniam nec hoc ipsum 'quid est?' dialectica est interrogatio; oportet enim
+                    datum esse ex interrogatione eligere utram velit contradictionis partem
+                    enuntiare, quia oportet interrogantem determinare utrum hoc sit homo an non
+                    hoc.</p>
+                <p>Quoniam vero haec quidem praedicantur composita, ut unum sit omne praedicamentum
+                    eorum quae extra praedicantur, alia vero non, quae differentia est? De homine
+                    enim verum est dicere et extra animal et extra bipes et ut unum, et hominem et
+                    album et haec ut unum; sed non, si citharoedus et bonus. Si enim, quoniam
+                    alterutrum dicitur, et utrumque dicitur, multa et inconvenientia erunt. De
+                    homine enim et 'hominem' verum est dicere et 'album', quare et omne; rursus, si
+                    album, et omne, quare erit homo albus <supplied>albus, et</supplied> hoc in
+                    infinitum; et rursus musicus albus ambulans, et haec eadem frequenter implicita.
+                    Amplius si Socrates Socrates et homo, et bipes, et homo bipes.</p>
+                <p>Quoniam ergo, si quidam simpliciter ponat complexiones fieri, plurima
+                    inconvenientia contingit dicere, manifestum est; quemadmodum autem ponendum est,
+                    nunc dicemus. Eorum igitur quae praedicantur et de quibus praedicantur,
+                    quaecumque secundum accidens dicuntur vel de eodem vel alterum de altero, haec
+                    non erunt unum; ut homo albus est et musicus, sed non est idem musicus et albus;
+                    accidentia enim sunt utraque eidem.</p>
+                <p>Nec si album musicum verum est dicere, tamen non erit album musicum unum aliquid;
+                    secundum accidens enim musicum album, quare non erit album musicum. Quocirca nec
+                    citharoedus bonus simpliciter, sed animal bipes; non enim secundum accidens.
+                    Amplius nec quaecumque insunt in alio; quare neque album frequenter neque homo
+                    animal vel bipes; insunt enim in homine animal et bipes. Verum est autem dicere
+                    de aliquo et simpliciter, ut quendam hominem hominem aut quendam album hominem
+                    album; non semper autem, sed quando in adiecto quidem aliquid oppositorum inest
+                    quae consequitur contradictio, non verum sed falsum est (ut mortuum hominem
+                    'hominem' dicere), quando autem non inest, verum. Vel etiam quando inest quidem
+                    semper non verum, quando vero non inest, non semper verum est; ut 'Homerus est
+                    aliquid' ut 'poëta'; ergo etiam 'est' aut non? Secundum accidens enim
+                    praedicatur 'esse' de Homero; quoniam enim poëta est, sed non secundum se,
+                    praedicatur de Homero quoniam est. Quare in quantiscumque praedicamentis neque
+                    contrarietas inest, si definitiones pro nominibus praedicantur, et secundum se
+                    praedicantur et non secundum accidens, in his et simpliciter verum erit dicere.
+                    Quod autem non est, quoniam opinabile est, non est verum dicere esse aliquid;
+                    opinatio enim eius non est quoniam est, sed quoniam non est.</p>
+            </div>
+            <div type="cap" n="12">
+                <p>His vero determinatis perspiciendum est quemadmodum sese habent negationes et
+                    adfirmationes ad se invicem, hae scilicet quae sunt de 'possibile esse' et 'non
+                    possibile' et 'contingere' et 'non contingere' et 'impossibile' et de
+                    necessario; habet enim aliquas dubitationes. Nam si eorum quae complectuntur
+                    illae sibi invicem oppositae sunt contradictiones, quaecumque secundum 'esse'
+                    vel 'non esse' disponuntur, ut eius quae est 'esse hominem' negatio 'non esse
+                    hominem', non autem ea quae est 'esse non hominem', et eius quae est 'esse album
+                    hominem' ea quae est 'non esse album hominem', sed non ea quae est 'esse non
+                    album hominem' (si enim de omnibus aut dictio aut negatio, lignum erit verum
+                    dicere esse non album hominem; quod si hoc modo, et quantiscumque 'esse' non
+                    additur, idem faciet quod pro 'esse' dicitur, ut eius quae est 'ambulat homo'
+                    non ea quae est 'ambulat non homo' negatio est, sed ea quae est 'non ambulat
+                    homo'; nihil enim differt dicere 'hominem ambulare' vel 'hominem ambulantem
+                    esse'). Quare si hoc modo in omnibus, et eius quae est 'possibile esse' negatio
+                    est 'possibile non esse', non ea quae est 'non possibile esse'. Videtur autem
+                    idem posse et esse et non esse; omne enim quod est possibile dividi vel ambulare
+                    et non ambulare et non dividi possibile est; ratio autem est quoniam omne quod
+                    sic possibile est non semper in actu est, quare inerit ei etiam negatio; potest
+                    igitur et non ambulare quod est ambulabile et non videri quod est visibile. At
+                    vero impossibile est de eodem oppositas veras esse dictiones; non igitur est
+                    ista negatio; contingit enim ex his aut idem ipsum dicere et negare simul de
+                    eodem, aut non secundum 'esse' vel 'non esse' quae adponuntur fieri
+                    adfirmationes vel negationes. Si ergo illud impossibilius est, hoc erit magis
+                    eligendum. Est igitur negatio eius quae est 'possibile esse' ea quae est 'non
+                    possibile esse'. Eadem quoque ratio est in eo quod est 'contingens esse'; et
+                    enim eius negatio 'non contingere esse'. Et in aliis quoque simili modo ut
+                    'necessario' et 'impossibili'. Fiunt enim quemadmodum in illis 'esse' et 'non
+                    esse' adpositiones, subiectae vero res hoc quidem album illud vero homo, eodem
+                    quoque modo hoc loco 'esse' quidem subiectum fit, 'posse' vero et 'contingere'
+                    adpositiones determinantes, quemadmodum in illis 'esse' et 'non esse' veritatem,
+                    similiter autem hae etiam in 'esse possibile' et 'esse non possibile'.</p>
+                <p>Eius vero quae est 'possibile est non esse' negatio est 'non possibile est non
+                    esse'. Quare et sequi sese invicem videbuntur; idem enim possibile est esse et
+                    non esse; non enim contradictiones sibi invicem sunt huiusmodi 'possibile est
+                    esse' et 'possibile est non esse'. Sed 'possibile esse' et 'non possibile esse'
+                    numquam simul sunt; opponuntur enim. At vero 'possibile non esse' et 'non
+                    possibile non esse' numquam simul sunt. Similiter autem et eius quae est
+                    'necessarium esse' non ea quae est 'necessarium non esse', sed 'non necessarium
+                    esse'; eius vero quae est 'necessarium non esse' ea quae est 'non necessarium
+                    non esse'. Et eius quae est 'impossibile esse' non 'impossibile non esse', sed
+                    'non impossibile esse'; eius vero quae est 'impossibile non esse' ea quae est
+                    'non impossibile non esse'. Et universaliter vero, quemadmodum dictum est,
+                    'esse' quidem et 'non esse' oportet ponere quemadmodum subiecta, negationem vero
+                    et adfirmationem haec facientem ad unum adponere. Et has putare oportet esse
+                    oppositas dictiones et negationes, 'possibile ‒ non possibile', 'contingens ‒
+                    non contingens', 'impossibile ‒ non impossibile', 'necessarium ‒ non
+                    necessarium', 'verum ‒ non verum'.</p>
+            </div>
+            <div type="cap" n="13">
+                <p>Et consequentiae vero secundum ordinem fiunt ita ponentibus: illi enim quae est
+                    'possibile esse' illa quae est 'contingit esse', et hoc illi convertit, et 'non
+                    impossibile esse' et 'non necessarium esse'; illi vero quae est 'possibile non
+                    esse' et 'contingere non esse' ea quae est 'non necessarium non esse' et 'non
+                    impossibile non esse'; illi vero quae est 'non possibile esse' et 'non
+                    contingens esse' illa quae est 'necessarium non esse' et 'impossibile esse';
+                    illi vero quae est 'non possibile non esse' et 'non contingens non esse' illa
+                    quae est 'necesse esse' et 'impossibile non esse'. Considerentur autem ex
+                    subscriptione quemadmodum dicimus. Ergo 'impossibile' et 'non impossibile' illud
+                    quod est 'contingens' et 'possibile' et 'non contingens' et 'non possibile'
+                    sequitur quidem contradictorie, sed conversim; illi enim quod est 'possibile
+                    esse' negatio 'impossibilis', negationem vero adfirmatio; illi enim quod est
+                    'non possibile esse' illud quod est 'impossibile esse'; adfirmatio enim est
+                    'impossibile esse', 'non impossibile' vero negatio.</p>
+                <p>'Necessarium' vero quemadmodum, considerandum est. Manifestum est quoniam non
+                    eodem modo, sed contrariae sequuntur, contradictoriae autem extra. Non enim est
+                    negatio eius quod est 'necesse non esse' 'non necesse esse'; contingit enim
+                    veras esse in eodem utrasque; quod enim est necessarium non esse, non est
+                    necessarium esse. Causa autem est cur non consequatur similiter ceteris, quoniam
+                    contrarie 'impossibile' 'necessario' redditur idem valens; nam si impossibile
+                    est esse, necesse est hoc non esse, sed non-esse; si vero impossibile non esse,
+                    hoc necessarium est esse; quare, si illa similiter possibile et non, haec e
+                    contrario, nam idem significat 'necessarium' et
+                    '<supplied>im</supplied>possibile', sed, quemadmodum dictum est, contrarie. Aut
+                    certe impossibile est sic poni 'necessarii' contradictiones? Nam quod est
+                    necessarium esse, possibile est esse; nam, si non, negatio consequetur; necesse
+                    enim est aut dicere aut negare; quare si non possibile est esse, impossibile est
+                    esse; impossibile igitur est esse quod necesse est esse, quod est inconveniens.
+                    At vero illud quod est 'possibile esse' 'non impossibile esse' sequitur, hoc
+                    vero illud quod est 'non necessarium esse'; quare contingit quod est necessarium
+                    esse non necessarium esse, quod est inconveniens. At vero neque 'necessarium
+                    esse' sequitur 'possibile esse' neque 'necessarium non esse'; illi enim utraque
+                    contingit accidere, horum autem utrumlibet verum fuerit non erunt illa vera;
+                    simul enim possibile esse et non esse; sin vero necesse est esse vel non esse,
+                    non erit possibile utrumque. Relinquintur ergo 'non necessarium non esse' sequi
+                    'possibile esse'; hoc enim verum est et de 'necesse non esse'. Haec enim fit
+                    contradictio eius quae sequitur 'non possibile esse'; illud enim sequitur hoc
+                    quod est '<supplied>im</supplied>possibile esse' et 'necesse esse non esse',
+                    cuius negatio 'non necesse esse non esse'. Sequuntur igitur et hae
+                    contradictiones secundum praedictum modum, et nihil impossibile contingit sic
+                    positis.</p>
+                <p>Dubitabit autem aliquis si illud quod est 'necessarium esse' 'possibile'
+                    sequitur. Nam si non consequitur, contradictio sequitur, 'non possibile esse';
+                    et si quis non hanc dicat esse contradictionem, necesse est dicere 'possibile
+                    non esse'; sed utraeque falsae sunt de 'necesse esse'. At vero rursus idem
+                    videtur esse possibile incidi et non incidi, et esse et non esse, quare erit
+                    necesse esse contingere non esse; hoc autem falsum est. Manifestum est autem
+                    quoniam non omne possibile vel esse vel ambulare et opposita valet, sed est in
+                    quibus non sit verum; et primum quidem in his quae non secundum rationem
+                    possunt, ut ignis calfactibilis et habet vim inrationabilem (ergo secundum
+                    rationem potestates ipsae eaedem plurimorum etiam contrariorum sunt;
+                    inrationabiles vero non omnes, sed, quemadmodum dictum est, ignem non esse
+                    possibile calefacere et non, vel quaecumque alia semper agunt; aliqua vero
+                    possunt et secundum inrationabiles potestates simul quaedam opposita; sed hoc
+                    quidem idcirco dictum est quoniam non omnis potestas oppositorum est nec
+                    quaecumque secundum eandem speciem dicuntur). Quaedam vero potestates aequivocae
+                    sunt; 'possibile' enim non simpliciter dicitur, sed hoc quidem quoniam verum est
+                    ut in actu, ut 'possibile est ambulare' quoniam ambulat, et omnino possibile est
+                    esse quoniam iam est actu quod dicitur 'possibile', illud vero quod forsitan
+                    aget, ut 'possibile est ambulare' quoniam ambulabit. Et haec quidem in mobilibus
+                    solis est potestas, illa vero et in inmobilibus; in utrisque vero verum est
+                    dicere non impossibile esse ambulare vel esse et quod ambulat iam et agit, et
+                    ambulabile. 'Sic' igitur 'possibile' non est verum de 'necessario' simpliciter
+                    dicere, alterum autem verum est. Quare, quoniam partem universale sequitur,
+                    illud quod ex necessitate est sequitur 'posse esse', sed non omnino. Et est
+                    quidem fortasse principium quod necessarium est et quod non necessarium omnium
+                    vel 'esse' vel 'non esse', et alia quemadmodum ista consequentia considerare
+                    oportet.</p>
+                <p>Manifestum est autem ex his quae dicta sunt quoniam quod ex necessitate est
+                    secundum actum est, quare, si priora sunt sempiterna, et quae actu sunt
+                    potestate priora sunt. Et haec quidem sine potestate actus sunt, ut primae
+                    substantiae, alia vero cum possibilitate, quae natura priora sunt, tempore vero
+                    posteriora, alia vero numquam sunt actu sed potestate solum.</p>
+            </div>
+            <div type="cap" n="14">
+                <p>Vtrum autem contraria est adfirmatio negationi et oratio orationi quae dicit
+                    quoniam 'omnis homo iustus' ei quae est 'nullus homo iustus' aut 'omnis homo
+                    iustus' ei quae est 'omnis homo iniustus est', 'Callias iustus est', 'Callias
+                    iustus non est', 'Callias iniustus est', quae harum contraria est? Nam si ea
+                    quae sunt in voce sequuntur ea quae sunt in anima, illic autem contraria est
+                    opinio contrarii, ut 'omnis homo iustus' ei quae est 'omnis homo iniustus',
+                    etiam in his quae sunt in voce adfirmationibus necesse est similiter sese
+                    habere. Quod si neque illic contrarii opinatio contraria est, nec adfirmatio
+                    adfirmationi erit contraria, sed ea quae dicta est negatio. Quare considerandum
+                    est cui opinatio vera falsae opinioni contraria est, utrum negationi an certe ei
+                    quae contrarium esse opinatur. Dico autem hoc modo: est quaedam opinatio vera
+                    boni quoniam bonum est, alia vero quoniam non bonum est falsa, alia vero quoniam
+                    malum; quae harum contraria est verae? Et si est una, secundum quam contraria?
+                    (nam arbitrari contrarias opiniones definiri in eo quod contrariorum sunt,
+                    falsum est; boni enim quoniam bonum est et mali quoniam malum eadem fortasse
+                    opinio est et vera, sive plures sive una sit; sunt autem ista contraria; sed non
+                    eo, quod contrariorum sint, contrariae, sed magis eo quod contrarie).</p>
+                <p>Si ergo est boni quoniam est bonum opinatio, est autem quoniam non bonum, est
+                    vero quoniam aliquid aliud quod non est neque potest esse (aliarum quidem nulla
+                    ponenda est, neque quaecumque esse quod non est opinantur neque quaecumque non
+                    esse quod est ‒ infinitae enim utraeque sunt, et quae esse opinantur quod non
+                    est et quae non esse quod est ‒ sed in quibus est fallacia; hae autem ex his ex
+                    quibus sunt generationes; ex oppositis vero generationes, quare etiam fallacia);
+                    si ergo quod bonum et bonum et non malum est, et hoc quidem secundum se, illud
+                    vero secundum accidens (accidit enim ei malum non esse), magis autem in
+                    unoquoque est vera quae secundum sese est, etiam falsa siquidem et vera. Ergo ea
+                    quae est 'quoniam non est bonum quod bonum est' secundum se consistentis falsa
+                    est, illa vero quae est 'quoniam malum' eius quod est secundum accidens, quare
+                    magis erit falsa de bono ea quae est negationis opinio quam ea quae est
+                    contrarii. Falsus est autem magis circa singula qui habet contrariam opinionem;
+                    contrarium enim est eorum quae plurimum circa idem differunt. Quod si harum
+                    contraria est altera, magis vero contraria contradictionis, manifestum est
+                    quoniam haec erit contraria. Illa vero quae est 'quoniam malum est quod est
+                    bonum' implicita est; et enim quoniam non bonum est necesse est idem ipsum
+                    opinari.</p>
+                <p>Amplius, si etiam in aliis similiter oportet se habere, et hic videtur bene esse
+                    dictum; aut enim ubique ea quae est contradictionis aut nusquam; quibus vero non
+                    est contraria, de his est quidem falsa ea quae est verae opposita, ut qui
+                    hominem non putat hominem falsus est. Si ergo hae contrariae sunt, et aliae
+                    contradictionis.</p>
+                <p>Amplius similiter se habet boni quoniam bonum est et non boni quoniam non bonum
+                    est, et super has boni quoniam non bonum est et non boni quoniam bonum est. Illi
+                    ergo quae est non boni quoniam non bonum verae opinioni quae est contraria? Non
+                    enim ea quae dicit quoniam malum est; simul enim aliquando erit vera, numquam
+                    autem vera verae contraria est; est enim quiddam non bonum malum, quare
+                    contingit simul esse veras. At vero nec illa quae est 'non malum'; simul enim et
+                    haec erunt. Relinquitur ergo ei quae est non boni quoniam non bonum contraria
+                    quae est non boni quoniam bonum. Quare et ea quae est boni quoniam non bonum ei
+                    quae est boni quoniam bonum.</p>
+                <p>Manifestum ergo est quoniam nihil interest nec si universaliter ponamus
+                    adfirmationem; huic enim universalis negatio contraria erit, ut opinioni quae
+                    opinatur quoniam omne quod est bonum bonum est, vel quoniam nihil eorum quae
+                    bona sunt. Nam eius quae est boni quoniam bonum, si universaliter sit bonum, ea
+                    est quae opinatur quicquid bonum est quoniam bonum est. Similiter autem et in
+                    non bono.</p>
+                <p>Quare si in opinione se sic habet, sunt autem hae quae sunt adfirmationes et
+                    negationes notae eorum quae sunt in anima, manifestum est quoniam etiam
+                    adfirmationi contraria quidem negatio circa idem universalis, ut ei quae est
+                    quoniam omne bonum bonum est vel quoniam omnis homo bonus ea quae est vel
+                    quoniam nullum vel nullus, contradictorie autem aut non omnis aut non omne.
+                    Manifestum est autem quoniam et veram verae non contingit esse contrariam nec
+                    opinionem nec contradictionem; contraria enim sunt quae circa opposita sunt,
+                    circa eadem autem contingit verum dicere eundem; simul autem eidem non contingit
+                    inesse contraria.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

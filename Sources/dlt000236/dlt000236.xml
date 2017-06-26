@@ -1,0 +1,1347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Reliquiae</title>
+    <author>Granius Licinianus</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Fabio Poncina</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2017</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000236</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Grani Liciniani Reliquiae</hi>, edidit N. Criniti, Leipzig 1981
+     (Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana).</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    <p><hi rend="bold">Modifiche apportate al testo dell'edizione di riferimento </hi></p>
+    <p>Si sono omesse le precise indicazioni dell'editore circa lo spazio occupato dalla lacuna
+     quando superiore ad una riga dell'edizione cartacea.</p>
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div type="lib" n="XXVI">
+    <head>LIBER XXVI</head>
+
+    <div type="cap" n="1">
+     <p><gap/>cisc.rrei...tre........rliti....umci..i.a..n.....e...m.........ra..........e....a.....m.......cc...................r..................celo.t.t.......itinti........................e.e...........eres.......em..............cis.i.........................coii...reite...i......t...........c..sis......ni.....is
+       .........<supplied>ostend</supplied>erent libel<supplied>li</supplied>..................
+      <gap/></p>
+    </div>
+
+    <div type="cap" n="2">
+     <p>..........r......... </p>
+    </div>
+
+    <div type="cap" n="3">
+     <p><gap/> ................mr.............sicro.............. melio<supplied>r</supplied>e
+       rat<supplied>ione</supplied></p>
+    </div>
+
+    <div type="cap" n="4">
+     <p>.m.iai....nes..icc..................aii..........i.ib•semel nam
+      m.......inprocic.cinn...nampii......imit.............
+      trib...nit...s.escieb•l...nia......nici.i..i...................a...a.....a..nam .............
+      exerce......... <gap/>
+      .......mease.cli...............iti....lei....................sea..eade..............cslnpura
+      .........c..i.i.ccur.i.a.........fcit............... </p>
+    </div>
+
+    <div type="cap" n="5">
+     <p>re...ss..............decim
+      veteres...a.........m..........sit......eli..sa.....ti.........c..p................shtece.s..ss...e..i.......
+      mo.....e.em..is...........rhiic</p>
+    </div>
+
+    <div type="cap" n="6">
+     <p> R<supplied>u</supplied>tiliu<supplied>s</supplied> m<supplied>emo</supplied>rat
+       <supplied>cons</supplied>ules atqu<supplied>e duces, qui a</supplied>nimis hostem in
+       <supplied>pug</supplied>n<supplied>a</supplied> acerrima fre<supplied>ger</supplied>ant,
+      semet etiam <supplied>de</supplied>voverant, ut in <supplied>medios hostes se
+       inmitterent</supplied> ac vitam <supplied>profunderent pro pat</supplied>ria. </p>
+    </div>
+
+    <div type="cap" n="7">
+     <p>
+      <supplied>Si</supplied>milis <supplied>illis</supplied> ..... necatis a tiii......... is semet
+      s...o........ </p>
+    </div>
+
+    <div type="cap" n="8">
+     <p> hostibus inmisi<supplied>t</supplied>........ cives
+       seimi..ci..i.....<supplied>in</supplied>traverunt
+      isuii.......nuerintt.i...........iniisbe</p>
+    </div>
+
+    <div type="cap" n="9">
+     <p>
+      <supplied>cecid</supplied>erun<supplied>t, qu</supplied>os imperator
+       convo<supplied>cave</supplied>rat ad consilium <supplied>in co</supplied>mmune
+       capien<supplied>dum</supplied>. </p>
+    </div>
+
+    <div type="cap" n="10">
+     <p> Adiunct<supplied>am</supplied> corti<supplied>bus turmam</supplied>
+       equi<supplied>tu</supplied>m <supplied>c</supplied>omplu<supplied>res rei</supplied> auctores
+       <supplied>o</supplied>mittebant <supplied>vel n</supplied>o<supplied>n</supplied> nominabant.
+     </p>
+    </div>
+
+    <div type="cap" n="11">
+     <p>
+      <supplied>Ac de</supplied> ordinibus et nomin<supplied>ibus e</supplied>t numeris
+       <supplied>legionum ar</supplied>mi<supplied>s</supplied>que militu<supplied>m iam</supplied>
+      in <supplied>supe</supplied>rioribus libris dixi. </p>
+    </div>
+
+    <div type="cap" n="12">
+     <p> Verum de equitibus non omittam, quos Tarquinius duplic<supplied>a</supplied>vit, ut
+       <supplied>p</supplied>riores equites binos equos in proelium ducerent. </p>
+    </div>
+
+    <div type="cap" n="13">
+     <p> Ea<supplied>m</supplied> consuetudine<supplied>m</supplied>
+      Laced<supplied>a</supplied>emone cu<supplied>ltu Cas</supplied>toris in Italiam
+       ven<supplied>iss</supplied>e, <supplied>quem duos</supplied> celsos
+       dice<supplied>ban</supplied>t conti<supplied>n</supplied>e<supplied>re</supplied>. </p>
+    </div>
+
+    <div type="cap" n="14">
+     <p>
+      <supplied>Verum Ther</supplied>ampnis Castoris et Pollucis simulacra <foreign xml:lang="grc"
+        >σ<supplied>ε</supplied>ιρ<supplied>α</supplied>ίο<supplied>υ</supplied>ς </foreign> equos
+      habent nullos. </p>
+    </div>
+
+    <div type="cap" n="15">
+     <p>
+      <supplied>S</supplied>a<supplied>t</supplied>is h<supplied>abeo ant</supplied>iqui illius fani
+      admonuisse, <supplied>etsi</supplied> scio, quod Spartiatae artifices quidam <foreign
+       xml:lang="grc">ἀνίππο<supplied>υ</supplied>ς</foreign> fingebant, ali<supplied>i</supplied>
+      <foreign xml:lang="grc">καλλίπους</foreign>. </p>
+    </div>
+
+    <div type="cap" n="16">
+     <p> Appellat<supplied>i</supplied> flexuntes a genere pensilium quod
+      reg<supplied>i</supplied>um vocabant, <supplied>pra</supplied>eterquam ἐφίππιον
+      ieueis..nitarislic...ii...........</p>
+     <p><supplied><gap/></supplied></p>
+     <p><supplied><gap/></supplied></p>
+    </div>
+   </div>
+   <div type="lib" n="XXVIII">
+    <head>LIBER XXVIII</head>
+
+    <div type="cap" n="1">
+     <p>............c.......................a......................... <gap/>
+      c................i................................i................i.........................
+      <gap/>
+      .................i....it.............i.....m.........................o...a..................
+      <gap/>
+      .......et..........m........i..<gap/>......r.........................c..ce..........................
+      .......i...tes.t.eai........u...................e.iei..................i....e.i.........<gap/>
+      ...................i....................................o....i.....................tc...................n..sc..s.............e......i..........i.i.................i.....est......i...................e.......................t........rt..t...............ni.....................................it
+      ...................i.it......i...i....... <gap/>
+      ..........e.it...................................iti........ <gap/>
+      ......s..e....c....c.........................isicc....t..........................iieciili.........................
+     </p>
+    </div>
+
+    <div type="cap" n="2">
+     <p>
+      <supplied>Ant</supplied>io<supplied>chus Athenis e</supplied>rat: mortuo fra<supplied>tre
+       r</supplied>egnavit. </p>
+    </div>
+
+    <div type="cap" n="3">
+     <p> Idem agi<supplied>tav</supplied>erat bellum pos<supplied>tea indi</supplied>cere Romanis,
+      sed <supplied>proh</supplied>ibitus dicitur <supplied>Persei re</supplied>gis sorte. </p>
+    </div>
+
+    <div type="cap" n="4">
+     <p> Perpauc<supplied>is bo</supplied>nis magna misce<supplied>bat mal</supplied>a. </p>
+    </div>
+
+    <div type="cap" n="5">
+     <p> Incertae na<supplied>tura</supplied>e levitatisque sum<supplied>mae, e</supplied>pulis
+       comisabun<supplied>dus v</supplied>enire, ad sympho<supplied>nia</supplied>m nudus saltare
+       <supplied>et ba</supplied>lneas publice <del>fun<supplied>ctus e</supplied>t balneas</del>
+      petere <supplied>unctus murra</supplied> vel perfusus ungue<supplied>ntis</supplied>.</p>
+    </div>
+
+    <div type="cap" n="6">
+     <p> Asturcone pom<supplied>pam</supplied> agebat et se sim<supplied>ulab</supplied>at Hierapoli
+       Diana<supplied>m duc</supplied>ere uxorem, et cet<supplied>eris</supplied> epulas
+      instruentibus <supplied>vasa e</supplied> sacro protulit <supplied>atque</supplied> cenatus
+       <supplied>d</supplied>e mensis <supplied>ea abs</supplied>tulit in dotem ex<supplied>tra
+       anul</supplied>um, quem unum omnium <supplied>e</supplied> deae donis reliquit. </p>
+    </div>
+
+    <div type="cap" n="7">
+     <p> Gracch<supplied>o</supplied> iter<supplied>um</supplied>, cuius paulo antea memini, consule
+      terrore perit nocturno. </p>
+    </div>
+
+    <div type="cap" n="8">
+     <p> Corpus eius cum Antiochia<supplied>m</supplied> portaretur, exterritis subito iumentis in
+      fluvium abreptum non comp<supplied>a</supplied>ruit. </p>
+    </div>
+
+    <div type="cap" n="9">
+     <p> Has ille poenas tanti sacrileg<supplied>ii</supplied> gliscentis expendit. </p>
+    </div>
+
+    <div type="cap" n="10">
+     <p> Duos colossos duodenum cubitorum ex aere unum Olympio, alteru<supplied>m</supplied>
+      Capitolino Iovi dedicaverat. </p>
+    </div>
+
+    <div type="cap" n="11">
+     <p> Athenis Olympio<supplied>n</supplied> et muros lapide
+       mar<supplied>m</supplied>ore<supplied>o</supplied> instituerat. </p>
+    </div>
+
+    <div type="cap" n="12">
+     <p> Nam columnas aliquot numero circumdederat. </p>
+    </div>
+
+    <div type="cap" n="13">
+     <p>
+      <supplied>A</supplied>edes nobilissima Olympi Iovis Atheniensis diu inperfecta
+       permane<supplied>rat</supplied></p></div>
+     
+     
+    <div type="cap" n="14">
+     <p><supplied><gap/></supplied> <supplied>at</supplied>que alia m<supplied>irab</supplied>ili<supplied>a</supplied>
+      nun<supplied>t</supplied>ia<supplied>ntu</supplied>r</p>
+    </div>
+
+    <div type="cap" n="15">
+     <p>
+       ....co suis
+       plo<supplied>r</supplied>anti<supplied>bu</supplied>s redisse </p>
+    </div>
+
+    <div type="cap" n="16">
+     <p> ce.es trad<supplied>i</supplied>t Aemiliam nobilem femina<supplied>m</supplied> rogo
+      inpositam tubicinum concentu mi<supplied>re</supplied> excitatam. </p>
+    </div>
+
+    <div type="cap" n="17">
+     <p> De Corfidiis fratribus quasi fabula est. </p>
+    </div>
+
+    <div type="cap" n="18">
+     <p> Maior frater heredem <supplied>suum minorem</supplied> ins<supplied>tit</supplied>uerat
+      lectoque <supplied>t</supplied>es<supplied>ta</supplied>mento revixit maior. </p>
+    </div>
+
+    <div type="cap" n="19">
+     <p>
+      <supplied>A</supplied> fratre ait se dimissum. </p>
+    </div>
+
+    <div type="cap" n="20">
+     <p> Eum petisse, <num value="10000">X̅</num> funeri s<supplied>uo</supplied> erogaretur, et
+      locum <supplied>in quo defodisset aurum</supplied> indicasse et filiam
+       <supplied>sib</supplied>i <supplied>ip</supplied>s<supplied>i co</supplied>mmendasse. </p>
+    </div>
+
+    <div type="cap" n="21">
+     <p> Aurum praedicto loco repertum <supplied>et</supplied> frater eres repentino
+       m<supplied>or</supplied>tu<supplied>u</supplied>s nuntiatus. </p>
+    </div>
+
+    <div type="cap" n="22">
+     <p> Multa m<supplied>irabi</supplied>lia omittenda in his hi<supplied>st</supplied>oriis
+      existimavi, nec opplendae sunt huiusmodi cognitionibus chartulae, cum satis pependit usus et
+     </p>
+    </div>
+
+    <div type="cap" n="23">
+     <p> coit.lese de fr<supplied>a</supplied>tribu<supplied>s</supplied>
+       tantunde<supplied>m</supplied> opus fuit nostro cor<supplied>d</supplied>e noscere, quantum
+      memoriae tradere <supplied>atque</supplied> retinere possi<supplied>mus.</supplied>
+     </p>
+    </div>
+
+    <div type="cap" n="24">
+     <p>
+      <supplied>Et</supplied> idem ergo Ti. <supplied>Gr</supplied>acc<supplied>h</supplied>us,
+       q<supplied>ui</supplied>....ichib• <supplied>d</supplied>ep<supplied>ul</supplied>sis egerat
+       <supplied>in</supplied> A<supplied>s</supplied>turibus, genere <supplied>inquie</supplied>to,
+      tum ivit in Hiberes. </p>
+    </div>
+
+    <div type="cap" n="25">
+     <p>
+      <supplied>Qui cum augurales libros</supplied> legeret, <supplied>coll</supplied>egio se
+       es<supplied>s</supplied>e doctum scripsit <supplied>se ex</supplied>tra pomerium
+       auspi<supplied>ca</supplied>ri debuisse, cum a<supplied>d ha</supplied>bend<supplied>a in
+       campo</supplied> comitia contende<supplied>re</supplied>t, quoniam
+      <supplied>po</supplied>-merium finis ess<supplied>et ur</supplied>banorum
+       auspici<supplied>orum</supplied>. </p>
+    </div>
+
+    <div type="cap" n="26">
+     <p> Se vero in villa S<supplied>cipio</supplied>nis tabernaculu<supplied>m</supplied> posuisse,
+       <supplied>e</supplied>t quom i<supplied>ngrederet</supplied>ur pomerium</p>
+    </div>
+
+    <div type="cap" n="27">
+     <p>eici... ...c..ce............ <gap/>..iiipi......................rit..n....o.ine.....d <gap/>
+      ..............i....m..........e...........................p.........s...n.ii............e...........ni.a.......................i.ii..r................es...ui.......................
+     </p>
+    </div>
+
+    <div type="cap" n="28">
+     <p>i...........................i.cib....i...................r................ misit in
+      .............................i...........................e...............
+      <gap/>...ce......................................en........... <gap/>
+      <gap/>
+      <gap/> .................tii...<gap/> .......r.....m........ <gap/> sesac......e..........
+      <gap/> sum .................... <gap/> ... </p>
+    </div>
+
+    <div type="cap" n="29">
+     <p>
+      <supplied>De P. Lentulo, qui</supplied> erat consul <supplied>c</supplied>um Cn. Domitio, non
+      fuit omit<supplied>t</supplied>endum. </p>
+    </div>
+
+    <div type="cap" n="30">
+     <p> Nam clarus vir fuit et rem publicam iuvit. </p>
+    </div>
+
+    <div type="cap" n="31">
+     <p>
+      <supplied>Ei</supplied> praetori urbano senatus permisit agrum Campanum, quem omnem privati
+      possidebant, coemeret, ut publicus fieret. </p>
+    </div>
+
+    <div type="cap" n="32">
+     <p> Et possesso<supplied>r</supplied>es Lentulo concesserunt pretia constitueret. </p>
+    </div>
+
+    <div type="cap" n="33">
+     <p> Nec fefellit vir <supplied>a</supplied>equus. </p>
+    </div>
+
+    <div type="cap" n="34">
+     <p> Nam tanta moderatio<supplied>ne</supplied> usus est, ut et <supplied>r</supplied>ei
+      publicae commoda<supplied>r</supplied>et <supplied>et</supplied>
+      pos<supplied>se</supplied>ssionem temperar<supplied>et</supplied>
+      <supplied>et pec</supplied>unia pub<supplied>l</supplied>ica ad
+       <supplied>i</supplied>uge<supplied>rum mili</supplied>a quinquaginta
+       <supplied>coemer</supplied>et. </p>
+    </div>
+
+    <div type="cap" n="35">
+     <p> Agrum Campa<supplied>num inter</supplied> privatos divisum <supplied>publicavit</supplied>
+      et eum indicto <supplied>pretio locavit</supplied>. </p>
+    </div>
+
+    <div type="cap" n="36">
+     <p>
+      <supplied>Mu</supplied>lto plures <supplied>agros</supplied>.............
+       rec<supplied>ogn</supplied>iti<supplied>oni</supplied> praepositus reciperavit formamque
+      agrorum in aes incisam ad Libertatis fixam reliquit, quam postea Sulla corrupit. </p>
+    </div>
+
+    <div type="cap" n="37">
+     <p> Idem tamen dotem filiae dedit sestertia XXV. </p>
+    </div>
+
+    <div type="cap" n="38">
+     <p> Verum Antiochi Epiphanis regnum senatus filio Antiochi, Antiocho puero, adtribuit, qui
+      paulo post <foreign xml:lang="grc">Ε<supplied>ὐπ</supplied>άτωρ</foreign>
+       vulg<supplied>o</supplied> appellatus est. </p>
+    </div>
+
+    <div type="cap" n="39">
+     <p> Id Demetrio, Seleuci filio, qui datus obses a patre erat, petenti
+      den<supplied>e</supplied>gabat, cum ille se et pue<supplied>r</supplied>ulum Romam venisse et
+      aetate maiorem esse ad annos XXIIII praedicaret: patriam sibi etiam Romam esse, senatum
+      parentem. </p>
+    </div>
+
+    <div type="cap" n="40">
+     <p> Et cum haberet mis<supplied>ericordiam senatus</supplied></p>
+     <p><supplied><gap/></supplied></p>
+     <p><supplied><gap/></supplied></p>
+    </div>
+   </div>
+   <div type="lib" n="XXXIII">
+    <head>LIBER XXXIII</head>
+
+    <div type="cap" n="1">
+     <p> vocitati. </p>
+    </div>
+
+    <div type="cap" n="2">
+     <p> Et M. Aurelium Scaurum consularem virum ceperunt equo deiectum. </p>
+    </div>
+
+    <div type="cap" n="3">
+     <p> Nam <supplied>h</supplied>ic vocatus in concilium ab is nihil indignum viro Romano, qui
+      tantis honoribus functu<supplied>s</supplied> erat, aut fecit aut dixit. </p>
+    </div>
+
+    <div type="cap" n="4">
+     <p> Itaque interfectus est, cum posset effugere. </p>
+    </div>
+
+    <div type="cap" n="5">
+     <p> Et nec ipsis petentibus ducem se tradere sustinuit verecundia, ut amisso exercitu incolumis
+      esset. </p>
+    </div>
+
+    <div type="cap" n="6">
+     <p> Qua victoria Cimbrorum territus Mallius consul litteris supplicibus cum
+       C<supplied>a</supplied>epionem orasset, ut copiis iunctis simul et exercitu ampliato Gallis
+      resisterent, impetrare non potuit. </p>
+    </div>
+
+    <div type="cap" n="7">
+     <p> Et cum Rhodanum traiecisset et apud milites gloriatus esset timenti consuli se auxilium
+       lat<supplied>u</supplied>rum, ne communicare quidem cum eo consilium belli gerendi voluit,
+      nec legatis, quos senatus miserat, ut co<supplied>n</supplied>cordes essent simulque rem
+      publicam iuvarent, auscultare dignatus est. </p>
+    </div>
+
+    <div type="cap" n="8">
+     <p> Cimbrorum etiam legatos pacem volentes et agr<supplied>os</supplied> petentes
+       frumentu<supplied>m</supplied>que, quod sererent, ita contumeliose submovit, ut desperata
+      pace ad <supplied>arma redierint</supplied>. </p>
+    </div>
+
+    <div type="cap" n="9">
+     <p> Capta postero die castr<supplied>a</supplied> eius non longe a Malli castris constituta.
+     </p>
+    </div>
+
+    <div type="cap" n="10">
+     <p> Neque adduci potuit, cum n<supplied>on</supplied> multo abesset, ut exercitum iungeret.
+     </p>
+    </div>
+
+    <div type="cap" n="11">
+     <p> Et maxima pars exercitus d<supplied>eleta est</supplied></p>
+    </div>
+
+    <div type="cap" n="12">
+     <p>..............<gap/> .e...s..t quod ....ei..........ta...ilesceliic...e</p>
+    </div>
+
+    <div type="cap" n="13">
+     <p>...ecoecn......si minus oii...sc..ci....mni. </p>
+    </div>
+
+    <div type="cap" n="14">
+     <p>Eo convenerant haeoetaastoe.a.er </p>
+    </div>
+
+    <div type="cap" n="15">
+     <p>quot reliqu<supplied>i</supplied> fuerunt. </p>
+    </div>
+
+    <div type="cap" n="16">
+     <p>
+      <supplied>Commissa est pugna p</supplied>ri. Non. <supplied>Oct</supplied>obres. </p>
+    </div>
+
+    <div type="cap" n="17">
+     <p> Militum velitumque non minus semul periisse existim<supplied>a</supplied>t Rutilius Rufus
+       sep<supplied>tuaginta mil</supplied>ia rim... consules et equites Romani e. <gap/></p>
+     <p><supplied><gap/></supplied></p>
+    </div>
+
+    <div type="cap" n="18">
+     <p> Matrona quaedam qua<supplied>si</supplied> mente commota sedit <supplied>i</supplied>n
+      solio Iovis. </p>
+    </div>
+
+    <div type="cap" n="19">
+     <p> Itaque lustratum est denuo Capitolium. </p>
+    </div>
+
+    <div type="cap" n="20">
+     <p> Et in Sabinis Martis signum in caput devolutum nuntiatur. </p>
+    </div>
+
+    <div type="cap" n="21">
+     <p> Et die quodam an<supplied>te</supplied> ludos, qui futuri erant, <supplied>c</supplied>um
+      tubicines apud aram concinerent, <supplied>a</supplied>ngues nigri subito
+       ap<supplied>pa</supplied>ruerunt neque ante a<supplied>r</supplied>am concurrere et
+       mor<supplied>si</supplied>bus multos invadere <supplied>d</supplied>esiverunt, quam tubicines
+      conticuissent, nec usquam derepente apparuerunt. </p>
+    </div>
+
+    <div type="cap" n="22">
+     <p> Aliquot matronae <supplied>e</supplied>odem somn<supplied>i</supplied>o monitae
+       <supplied>u</supplied>na eademque nocte de <supplied>stip</supplied>ibus sacris
+       praestite<supplied>r</supplied>unt hocque sacrificatu<supplied>m</supplied> aliquotiens. </p>
+    </div>
+
+    <div type="cap" n="23">
+     <p> Et carmen in deos a v<supplied>a</supplied>te compositum nobilissimi pueri concinuerunt.
+     </p>
+    </div>
+
+    <div type="cap" n="24">
+     <p>
+      <del>Cn. Mallius ob eandem causam quam et C<supplied>a</supplied>epio L. Saturnini rogatione e
+       civitate ple<supplied>bis</supplied>cito eiectus.</del></p>
+    </div>
+
+    <div type="cap" n="25">
+     <p> Rutilius consul, collega Malli, <del>hoc anno Cn. Pompeius natus est</del> solus
+       super<supplied>erat</supplied> re<supplied>i</supplied> publicae. </p>
+    </div>
+
+    <div type="cap" n="26">
+     <p> Itaque <del>atque Cicero</del> cum metus adventa<supplied>n</supplied>tium Cimbrorum totam
+      quateret civitatem, ius iurandum a iunioribus exegit, ne quis extra Italiam quoquam
+      proficisceretur. </p>
+    </div>
+
+    <div type="cap" n="27">
+     <p> Missique per omnes oras Italiae atque portus, qui praedicerent, ne ulli minorem XXXV
+      annorum in navem <supplied>reciperent</supplied></p>
+     <p><supplied><gap/></supplied></p>
+    </div>
+   </div>
+
+   <div type="lib" n="XXXV">
+    <head>LIBER XXXV</head>
+
+    <div type="cap" n="1">
+     <p>
+      <supplied>Senatui, qui censebat nihil</supplied> ipsum facere nisi quod illa
+       suasisse<supplied>n</supplied>t, placuit, id quod numquam alias pro collegio, quid in libris
+      fatalibus script<supplied>um</supplied> esset, palam recitare. </p>
+    </div>
+
+    <div type="cap" n="2">
+     <p> Constabat notari carmine Cinna sexque tribunis patria pulsis tranquillum otium et
+      securitatem futuram. </p>
+    </div>
+
+    <div type="cap" n="3">
+     <p> Et erat auspicium et superiore casu Mario oblatum. </p>
+    </div>
+
+    <div type="cap" n="4">
+     <p> Nam cum de conclavi fugien<supplied>s</supplied> barbarus apertum reliquisset, egressus
+      videt asellum forte obiectis ei <supplied>ci</supplied>bariis aquam petere. </p>
+    </div>
+
+    <div type="cap" n="5">
+     <p> Ide<supplied>m</supplied> sibi praecipi ratus oraverat, ut se ad mare deducerent, ac vix
+      evaserat. </p>
+    </div>
+
+    <div type="cap" n="6">
+     <p> Is ergo cum mille circiter numero collectis ad Cinnam navi pervenit <hi rend="italic"
+       >Telamonem</hi> profectus. </p>
+    </div>
+
+    <div type="cap" n="7">
+     <p> Ex Hispania Brutus ceter<supplied>ique</supplied> exules ad eum
+      con<supplied>flu</supplied>xerunt. </p>
+    </div>
+
+    <div type="cap" n="8">
+     <p> Et cum de<supplied>for</supplied>mis habitu et cultu <supplied>ab is</supplied> videretur,
+      qui eum f<supplied>lo</supplied>rentem victori<supplied>i</supplied>s
+       no<supplied>rant</supplied>, supplicemque se omni<supplied>bus</supplied> quasi oppressum ab
+       in<supplied>i</supplied>micis commendaret, <supplied>mox</supplied> legionem
+       voluntar<supplied>iorum</supplied> conscripsit. </p>
+    </div>
+
+    <div type="cap" n="9">
+     <p> Cinnaeque <supplied>tradi</supplied>dit milites et praefecit <supplied>eum</supplied>
+      Sertorio et Papirio. </p>
+    </div>
+
+    <div type="cap" n="10">
+     <p> Ite<supplied>mque</supplied> Milonio traditur eq<supplied>uitum</supplied> pars. </p>
+    </div>
+
+    <div type="cap" n="11">
+     <p> Eid<supplied>em</supplied> pr<supplied>a</supplied>ecepit, ut <supplied>ad ur</supplied>bem
+      veniret, quam <supplied>desertam</supplied> videret. </p>
+    </div>
+
+    <div type="cap" n="12">
+     <p> Cin<supplied>na</supplied>e succes<supplied>sum</supplied> hoc est. </p>
+    </div>
+
+    <div type="cap" n="13">
+     <p> A Pompeio, q<supplied>ui dub</supplied>ia voluntate <supplied>se</supplied>natus
+       <supplied>iussum</supplied> recepit, <supplied>ut</supplied> rem public<supplied>am
+       ad</supplied>iutum vellet ire, mor<supplied>a</supplied> interiecta est,
+       d<supplied>o</supplied>nec subrepserat Ma<supplied>rius i</supplied>n <hi rend="italic"
+       >Ostiensem</hi> portum. </p>
+    </div>
+
+    <div type="cap" n="14">
+     <p>
+      <supplied>Cum in</supplied> eo ad noctem usque ma<supplied>nsisse</supplied>t, Ostia urbe
+      potitur <supplied>per</supplied> Valerium, cuius equ<supplied>ite</supplied>s praesidebant.
+     </p>
+    </div>
+
+    <div type="cap" n="15">
+     <p> Nec <supplied>Po</supplied>mpeius a Sertorio bel<supplied>lum a</supplied>bstinuit, sed
+      palam pug<supplied>na</supplied>vit. </p>
+    </div>
+
+    <div type="cap" n="16">
+     <p> Et frustra legati <supplied>ul</supplied>tro citroque missi sun<supplied>t, c</supplied>um
+      se Cinna superiorem <supplied>ex</supplied>istimaret. </p>
+    </div>
+
+    <div type="cap" n="17">
+     <p> Marius <supplied>una c</supplied>um suis Ianiculo po<supplied>tit</supplied>ur, multis
+      occisis: qui c<supplied>ap</supplied>ti a Mario iugulati s<supplied>un</supplied>t. </p>
+    </div>
+
+    <div type="cap" n="18">
+     <p> Et Octavius acceptis <supplied>se</supplied>x cohortibus a Pompeio <supplied>non</supplied>
+      tradidit se inimico. </p>
+    </div>
+
+    <div type="cap" n="19">
+     <p>
+      <supplied>Milon</supplied>ius occiditur, ceteri
+       su<supplied>bmov</supplied>ent<supplied>ur</supplied>, quo<supplied>s</supplied> subsidio
+       Mi<supplied>lo</supplied>nio Sertorius miserat. </p>
+    </div>
+
+    <div type="cap" n="20">
+     <p>
+      <supplied>Cec</supplied>iderunt Octaviani <supplied>sex</supplied> milia et senator unus
+       <supplied>Aeb</supplied>utius, adversariorum <supplied>se</supplied>ptem milia. </p>
+    </div>
+
+    <div type="cap" n="21">
+     <p> Potuit capi <supplied>Ia</supplied>niculum eodem die. </p>
+    </div>
+
+    <div type="cap" n="22">
+     <p> Pompeius ultra Octavium progredi passus non fuit, set ut Crassum revocaret impulit, ne ante
+      debellaretur, quam comitia conficerentur, ut eum magistratum ipse invaderet, qui timebatur.
+     </p>
+    </div>
+
+    <div type="cap" n="23">
+     <p> Nam et Metelli castra in propinquo erant, quem Catuli duo et Antonius,
+       senat<supplied>us</supplied> legati, ut patriae subveniret, oraverant. </p>
+    </div>
+
+    <div type="cap" n="24">
+     <p> Bello, quod inter Pompeium et Sertorium fuit, miles Pompei, dum spoliat hostem, ignobilis
+      quidam fratrem adgnovit. </p>
+    </div>
+
+    <div type="cap" n="25">
+     <p> Extructo rogo dum iusta persolvit, multa <del>precatus et</del> inprecatus gladio se
+      traiecit. </p>
+    </div>
+
+    <div type="cap" n="26">
+     <p> Maximumque omnibus praei<supplied>u</supplied>dicium belli civilis casus hic attulit
+      mentesque mutavit, nec quisquam omnium a lacrimis potuit temperare. </p>
+    </div>
+
+    <div type="cap" n="27">
+     <p> Nolani progressi oppidum Abella<supplied>m</supplied> incenderunt. </p>
+    </div>
+
+    <div type="cap" n="28">
+     <p> Marius Servilium apud Ariminum fugat, paucos occidit; reliquos, quos corruperat, accipit in
+      deditionem. </p>
+    </div>
+
+    <div type="cap" n="29">
+     <p> Senatusque per Metelli legatos consultus de voluntate Samnitium, qui se negabant aliter in
+      pacem venturos, nisi civitas ipsis et perfugis omnibus daretur bona<supplied>que</supplied>
+       reddere<supplied>n</supplied>tur, abnuit, dignitatem antiquam P. R. tuentibus patribus. </p>
+    </div>
+
+    <div type="cap" n="30">
+     <p> Quibus cognitis Cinna per Flavium Fimbriam <supplied>in</supplied> leges, quas postulabant,
+       eo<supplied>s</supplied> recepit et copiis suis iunxit. </p>
+    </div>
+
+    <div type="cap" n="31">
+     <p> Nec desinebat Pompeius in<supplied>terim</supplied> miscere omnia. </p>
+    </div>
+
+    <div type="cap" n="32">
+     <p> Et cum senatu<supplied>m</supplied> videret aversari omnes exules maxim<supplied>eque
+       Cin</supplied>nae causam, suasit tamen, ut legati a Cinna <supplied>mis</supplied>si tuto
+      reciperentur. </p>
+    </div>
+
+    <div type="cap" n="33">
+     <p> Et <supplied>clam</supplied> cum Cinna consilia sociabat et Octavio
+       tegeb<supplied>at</supplied>. </p>
+    </div>
+
+    <div type="cap" n="34">
+     <p> Dediticiis omnibus civita<supplied>s</supplied> data, qui polliciti
+       mult<supplied>a</supplied> milia militum vix XV<supplied>I</supplied> cohortes miserunt. </p>
+    </div>
+
+    <div type="cap" n="35">
+     <p> Et pestilentia vastatus ex<supplied>er</supplied>citus ita, ut ex Octavianis partibus decem
+      et septem milia hominum d<supplied>e</supplied>perirent. </p>
+    </div>
+
+    <div type="cap" n="36">
+     <p> Pompeius minus validus cum in le<supplied>c</supplied>to decumberet, orta
+       te<supplied>m</supplied>pestate et ipse fulmine adflatus est et culmen tabernaculi
+       dissipat<supplied>um</supplied>. </p>
+    </div>
+
+    <div type="cap" n="37">
+     <p> Nec spem vitae osten<supplied>dit</supplied>. </p>
+    </div>
+
+    <div type="cap" n="38">
+     <p>
+      <supplied>I</supplied>t<supplied>aq</supplied>ue per aliquot dies
+       ex<supplied>ercitus</supplied> sin<supplied>e duce fu</supplied>it. </p>
+    </div>
+
+    <div type="cap" n="39">
+     <p>
+      <supplied>E</supplied>t quia sanari nimis tarde <supplied>videbatur</supplied>, C. Cassius
+       <supplied>usqu</supplied>e <supplied>ad</supplied> castr<supplied>a es</supplied>t missus,
+       <supplied>ut</supplied> exercitu<supplied>m ipse a</supplied>cciperet, dum ille
+       con<supplied>va</supplied>lescit. </p>
+    </div>
+
+    <div type="cap" n="40">
+     <p> Ad quem Pompei<supplied>us tu</supplied>m repente se erigit
+      lega<supplied>ti</supplied>sque, qui fuere litcireii..... num esse<supplied>t</supplied>
+      contentus adsis.....sentepatet adulescentes. </p>
+    </div>
+
+    <div type="cap" n="41">
+     <p>
+      <supplied>P</supplied>ompeio diem a<supplied>d</supplied>esse a<supplied>p</supplied>paruit
+      Cassio. </p>
+    </div>
+
+    <div type="cap" n="42">
+     <p> Tertio post <supplied>illum</supplied> d<supplied>ie</supplied>m Pompeius mira
+       t<supplied>abe ob</supplied>iit. </p>
+    </div>
+
+    <div type="cap" n="43">
+     <p> Eius funus populus <supplied>subu</supplied>rbanus dir<supplied>i</supplied>puit
+       mor<supplied>t</supplied>uumque lecto decussu<supplied>m</supplied>
+      <supplied>p</supplied>er caenum trahere no<supplied>n d</supplied>estitit omnibus
+       consen<supplied>ti</supplied>entibus dignam caelo poenam et perfidiae et
+       ava<supplied>r</supplied>itiae pessimum hom<supplied>i</supplied>nem expendisse. </p>
+    </div>
+
+    <div type="cap" n="44">
+     <p> Sed pa<supplied>t</supplied>res et tribuni repressa <supplied>m</supplied>ultitudine
+      cadaver superiect<supplied>is texerunt vesti</supplied>bus. </p>
+    </div>
+
+    <div type="cap" n="45">
+     <p> Tradun<supplied>tque auctores</supplied> in lecticula vulgariter eum elatum sepulturae
+      datum. </p>
+    </div>
+
+    <div type="cap" n="46">
+     <p> Pompeianos Octavius in sua castra traducit. </p>
+    </div>
+
+    <div type="cap" n="47">
+     <p> Et copias Metellus contra Cinnam <del>tra</del>duxerat, cum milites repente vexillis totis
+      clamore exercitum Cinnae salutant ac resalutantur. </p>
+    </div>
+
+    <div type="cap" n="48">
+     <p> Territus re nova Metellus exercitum reducit atque ipse inter primos ad Cinnam de pace
+      legatum mitti censet. </p>
+    </div>
+
+    <div type="cap" n="49">
+     <p> Quo regresso Crassu<supplied>s</supplied> pugnam urgens cum Metello communicat, ut ipse
+      </p>
+    </div>
+
+    <div type="cap" n="50">
+     <p>sl.esclif.....peteret Cin<supplied>nam</supplied> nulla mor<supplied>a</supplied>
+       inter<supplied>i</supplied>e<supplied>c</supplied>ta m.oisicede commisso cum Fimbria proelio
+      infeliciter devictu<supplied>s</supplied> neque occisu<supplied>s</supplied>, cum
+       <supplied>M</supplied>ete<supplied>llus</supplied></p>
+     <p><supplied><gap/></supplied></p>
+    </div>
+
+    <div type="cap" n="51">
+     <p>castra mixicemc'lii..n........... </p>
+    </div>
+
+    <div type="cap" n="52">
+     <p>Dorilai 'r Archelaus ....aoi...m</p>
+    </div>
+
+    <div type="cap" n="53">
+     <p>...........coc....<gap/> fuisset ............. misset...in....aitanum...selccl</p>
+    </div>
+
+    <div type="cap" n="54">
+     <p>...........................ciierli..........res imperato
+       ............desediato..............ei....it................cum.u<supplied>6 linn</supplied>
+      .................. decim........iui............ </p>
+    </div>
+
+    <div type="cap" n="55">
+     <p>riniu................am mittit lertis..........rteneluaremuii........ </p>
+    </div>
+
+    <div type="cap" n="56">
+     <p>dere iiioiaborc.......................ssciaibclili.................pin......es regis uni</p>
+    </div>
+
+    <div type="cap" n="57">
+     <p>.................acediniscacc................nregciss ceteri.....cestiaiatoed.i..p.... </p>
+    </div>
+
+    <div type="cap" n="58">
+     <p>cum eo Sulla
+      asc........rtunta.c.e.p...c..e...........citumicc..c.............c...be.....amiiiiic................ierit..................ce..eii...........
+     </p>
+    </div>
+
+    <div type="cap" n="59">
+     <p><gap/>....n......motum..........euieroi...sintprae......... recta </p>
+    </div>
+
+    <div type="cap" n="60">
+     <p>rac.iuscum........... Rom<supplied>a</supplied>ni.ma in castra
+      ........ticine.........................c.............................pasi..............................................e...u........eaa.............s.ec......scersito
+      ................... </p>
+    </div>
+
+    <div type="cap" n="61">
+     <p>
+      <supplied>Proti</supplied>nus Sulla Athenas re<supplied>ve</supplied>rsus in principes
+       se<supplied>diti</supplied>onis et noxios anim<supplied>advertit</supplied>
+      <supplied><gap/></supplied>
+      <supplied>vio</supplied>lentius necatis reli<supplied>qui</supplied>s <del>necatis
+       reliquis</del>.</p>
+    </div>
+
+    <div type="cap" n="62">
+     <p>
+      <supplied>Mithridates</supplied> au<supplied>tem</supplied> omni ex civitate
+       <supplied>mil</supplied>ites multos <supplied>coegerat, qu</supplied>os calamitate
+       com<supplied>p</supplied>erta <supplied>no</supplied>vis auget. </p>
+    </div>
+
+    <div type="cap" n="63">
+     <p> Quinque et <supplied>sexagi</supplied>nta <supplied>m</supplied>ilia peditum
+       equi<supplied>tu</supplied>mque eum Dorilao pra<supplied>eto</supplied>re mittit et quadrigas
+       <supplied>fa</supplied>lcatas septuaginta. </p>
+    </div>
+
+    <div type="cap" n="64">
+     <p>
+      <supplied>Is</supplied> addit Archelaus subi<supplied>to decem</supplied> circiter milia, quae
+       <supplied>inter</supplied>ea collegerat ex insu<supplied>lis</supplied>, quas longis navibus
+       <supplied>rur</supplied>sus vastabat. </p>
+    </div>
+
+    <div type="cap" n="65">
+     <p> Primo <supplied>die</supplied> fugati Pontici et Arche<supplied>lai</supplied> filius
+      occisus. </p>
+    </div>
+
+    <div type="cap" n="66">
+     <p> Debili<supplied>tat</supplied>i et suppressi se noctu <supplied>in
+       o</supplied>peribu<supplied>s</supplied> continebant. </p>
+    </div>
+
+    <div type="cap" n="67">
+     <p>
+      <supplied>Man</supplied>e ferocius impetus fac<supplied>tus.</supplied>
+     </p>
+    </div>
+
+    <div type="cap" n="68">
+     <p>
+      <supplied>M</supplied>ilites nostri castra capiunt, hostium multitudinem innumerabilem
+      concidunt, amplius XXV milia capiunt, quae postea sub corona venierunt. </p>
+    </div>
+
+    <div type="cap" n="69">
+     <p> Archelaus parvulo navigio Chalcidem deportatur. </p>
+    </div>
+
+    <div type="cap" n="70">
+     <p> Regii, qui Abder<supplied>a</supplied>e praesideba<supplied>n</supplied>t, captis Philippis
+      dilabuntur. </p>
+    </div>
+
+    <div type="cap" n="71">
+     <p> Colloquium Syllae et Archelauo in Aulide fuit et condiciones impositae, si rex pacem
+      mallet. </p>
+    </div>
+
+    <div type="cap" n="72">
+     <p> Quibus ille tandem paruit. </p>
+    </div>
+
+    <div type="cap" n="73">
+     <p> Nam et Fimbriae adventum timebat, ut mox ordine indicabo, et se de conventis nihil
+      novaturum Sulla praedixerat. </p>
+    </div>
+
+    <div type="cap" n="74">
+     <p> Fuerunt autem hae: Archelauus classem traderet Sullae, rex insulis omnibus, Asia, Bithynia,
+      Paphlagonia decederet, item Gallograecis. </p>
+    </div>
+
+    <div type="cap" n="75">
+     <p> Q. Oppium et M'. Aquilium legatos redderet: item ceteros omnis captivos, quorum non parvus
+      numerus erat, dimitteret. </p>
+    </div>
+
+    <div type="cap" n="76">
+     <p> Inprimis excepti Macedones, quorum fides insignis fuerat, ut uxores et liberi redderentur.
+     </p>
+    </div>
+
+    <div type="cap" n="77">
+     <p> Praeterea naves septuaginta tectas instructas sociis daret, frumentum,
+       veste<supplied>m</supplied>, stipendium ipse pr<supplied>a</supplied>estaret. </p>
+    </div>
+
+    <div type="cap" n="78">
+     <p> Is ipse Mithridates cum Sulla <supplied>a</supplied>pud Dardanum compositis, gratia P.
+       <supplied>R.</supplied> reconciliata, Ariobardianen ut servum respuit, reliqua classe in
+      Pontum proficiscitur. </p>
+    </div>
+
+    <div type="cap" n="79">
+     <p> Ac dum de condicionibus disceptatur, M<supplied>a</supplied>edos et Dardanos, qui socios
+      vexabant, Hortensius le<supplied>gatus</supplied> fugaverat. </p>
+    </div>
+
+    <div type="cap" n="80">
+     <p> Ipse Sulla ex<supplied>er</supplied>citum in
+       M<supplied>a</supplied>edi<supplied>c</supplied>am ind<supplied>u</supplied>xerat, priusquam
+      in A<supplied>siam</supplied> ad conloquium transiret. </p>
+    </div>
+
+    <div type="cap" n="81">
+     <p> Quo Dardanos e<supplied>t</supplied> Denseletas caesis hos<supplied>tibus</supplied>, qui
+      Macedoniam ve<supplied>xa</supplied>bant, in deditionem recepit. </p>
+    </div>
+
+    <div type="cap" n="82">
+     <p> Ephesi causis cog<supplied>ni</supplied>tis principes belli secu<supplied>ri</supplied>
+      necat; civitates pecunia multat, oppida inpacat<supplied>a</supplied> redigit in suam
+      potestatem. </p>
+    </div>
+
+    <div type="cap" n="83">
+     <p> Nicomedi regnum Bithyniae restituit Cur<supplied>io</supplied> eique adiecit
+       Paphla<supplied>g</supplied>on<supplied>iam</supplied>. </p>
+    </div>
+
+    <div type="cap" n="84">
+     <p> Comis et mansuetior i<supplied>lle</supplied>, quam <supplied>pater</supplied>
+       Nicomede<supplied>s</supplied> fuerat, Romanis ded<supplied>i</supplied>tus, ut perfidia
+       sceles<supplied>ta</supplied> vacaret, fidem per nefa<supplied>s</supplied> non maligne
+       exercere<supplied>t</supplied>.</p>
+    </div>
+
+    <div type="cap" n="85">
+     <p> Socrates frater regnum <supplied>non in</supplied>vidiose exequebatur,
+       <supplied>sa</supplied>tis exercitus in priore <supplied>fo</supplied>rtuna. </p>
+    </div>
+
+    <div type="cap" n="86">
+     <p> Nam postquam <supplied>Ni</supplied>comedes, Euergetes <supplied>m</supplied>erito dictus,
+      quod bea<supplied>tos</supplied> egentes faciebat mul<supplied>tos</supplied>que beneficiis
+      suis alli<supplied>ci</supplied>ebat, non fuit uno isto <supplied>fili</supplied>o contentus,
+      quem <supplied>ex</supplied> Aristonic<supplied>a</supplied> legitimum
+      <supplied>p</supplied>rocrearat, tollit ex con<supplied>cu</supplied>bina Hagne Cyzicena
+       <supplied>alte</supplied>ru<supplied>m</supplied>, Socraten nomine,
+      <supplied>ill</supplied>amque Cyzicum cum So<supplied>cr</supplied>ate et quingentis
+       tale<supplied>nt</supplied>is ablegat. </p>
+    </div>
+
+    <div type="cap" n="87">
+     <p> Sene mortuo, <supplied>in</supplied>certum an veneno, <supplied>Aris</supplied>tonicae
+      filius <supplied>s</supplied>uccedit </p>
+    </div>
+
+    <div type="cap" n="88">
+     <p>..uncatiseapanticiso...enuacs amissa matre <supplied>so</supplied>rorem patris ducit
+       <supplied>ux</supplied>orem <del>patrem</del>, quae <supplied>ca</supplied>ra huic vivo
+      fuerat. </p>
+    </div>
+
+    <div type="cap" n="89">
+     <p>
+      <supplied>Cum di</supplied>e nono post mortua <supplied>e</supplied>s<supplied>set</supplied>
+      morbo an dolo, Nisam Ariarathis Cappadocum regis filiam accepit. </p>
+    </div>
+
+    <div type="cap" n="90">
+     <p> Hanc Socrates ad <supplied>Mithridatem</supplied> regem refert <supplied>ad</supplied>
+      bellum contra fratrem incitavisse. </p>
+    </div>
+
+    <div type="cap" n="91">
+     <p> Exceptus a rege munifice, Chrestus etiam quasi meliore nomine ab eodem vocatus, Romam ad
+      regnum expetendum frustra profectus Cy<supplied>z</supplied>icum redit. </p>
+    </div>
+
+    <div type="cap" n="92">
+     <p> Nam redire ad regem pudor prohibuerat. </p>
+    </div>
+
+    <div type="cap" n="93">
+     <p> Ibi avaritia c<supplied>a</supplied>edem suadente occisa sorore insequentibus Philopatore
+      simul et Cyzicenis Euboeam venit, ubi aput Cornelium quendam equitem Romanum devertitur. </p>
+    </div>
+
+    <div type="cap" n="94">
+     <p> Satis benigne exceptus eius filio adulescenti ....aili scelera discere s.cl.idciii..e</p>
+     <p><supplied><gap/></supplied></p>
+    </div>
+   </div>
+
+   <div type="lib" n="XXXVI">
+    <head>LIBER XXXVI</head>
+
+    <div type="cap" n="1">
+     <p>lis admonitus contendere refugit. </p>
+    </div>
+
+    <div type="cap" n="2">
+     <p> Et Pompeius annos natus XXV, equ<supplied>e</supplied>s Romanus, <supplied>qu</supplied>od
+      nemo antea, pro praetore ex Africa triu<supplied>mph</supplied>avit IIII idus Martias. </p>
+    </div>
+
+    <div type="cap" n="3">
+     <p> Qui<supplied>d</supplied>am memorant eo die <supplied>populum Rom</supplied>anum
+       elepha<supplied>ntos in triump</supplied>ho vidisse. </p>
+    </div>
+
+    <div type="cap" n="4">
+     <p> S<supplied>ed cum</supplied> ur<supplied>b</supplied>em ingrederet<supplied>ur,
+       mi</supplied>n<supplied>o</supplied>re<supplied>m</supplied> fuisse ele<supplied>phantis
+       quattuo</supplied>r ad currum iunc<supplied>tis</supplied>
+      <supplied>portam</supplied>
+      <supplied>triumph</supplied>ale<supplied>m</supplied>, quamqua<supplied>m</supplied> bis
+      experirentur. </p>
+    </div>
+
+    <div type="cap" n="5">
+     <p>
+      <del>Et Murena ex Asia trium<supplied>pha</supplied>vit, et Valerius
+        Flac<supplied>c</supplied>us ex Celtiberia et Gal<supplied>lia</supplied>.</del></p>
+    </div>
+
+    <div type="cap" n="6">
+     <p> Et Li<supplied>c</supplied>inius et Terentius <supplied>L</supplied>uculli fratres aediles
+      curules munere suo <supplied>t</supplied>aurorum proelium adversus elephantos dederunt. </p>
+    </div>
+
+    <div type="cap" n="7">
+     <p> Id ante Clau<supplied>d</supplied>ius aedilis in circo ludis circensibus
+       ex<supplied>h</supplied>ibuerat. </p>
+    </div>
+
+    <div type="cap" n="8">
+     <p> Et Volaterrani se Romanis dediderunt ante occiso per seditionem lapidibus Carbone
+      praetorio, quem Sulla praefecerat <del>is Cn. Carbonis frater fuit</del>, et proscriptos ex
+      oppido dimiseru<supplied>n</supplied>t, quos equites a consulibus Claudio et Servilio missi
+      conciderunt. </p>
+    </div>
+
+    <div type="cap" n="9">
+     <p> Iam ante <del>anno superiore</del> et Samnites, qui Nol<supplied>a</supplied>e erant, idem
+      fecerant metu obsidionis. </p>
+    </div>
+
+    <div type="cap" n="10">
+     <p> Pap<del>ir</del>iusque Mutilus inde fugiens, quom ne ab uxore quidem Bassia noctu Teani
+      reciperetur, quod erat in proscriptorum numero, usus est pugionis auxilio. </p>
+    </div>
+
+    <div type="cap" n="11">
+     <p> Data erat et Sullae prov<supplied>inci</supplied>a Gallia Cisalpi<supplied>na</supplied>
+     </p>
+    </div>
+
+    <div type="cap" n="12">
+     <p>.semstule.....sies...stuss..a..s............ circa legionem ........ iussus iusisc..........
+     </p>
+    </div>
+
+    <div type="cap" n="13">
+     <p>peter..es............rib..cmse..c........... occidit r.ii............ </p>
+    </div>
+
+    <div type="cap" n="14">
+     <p>ecismon.........e......ueneb......o.ei..di..e
+      illos................iuniu..........cdet.i............oieic.eust.pudi.....atreni quae
+      ...eaeducti</p>
+    </div>
+
+    <div type="cap" n="15">
+     <p>....ci..teliirierii..ie.ts ultra......i...se...ri.. <supplied>i</supplied>tineri..i....n...i
+      castra </p>
+    </div>
+
+    <div type="cap" n="16">
+     <p>p...pe...re... alia et laus ti.usosca......adas que dre...cai........ </p>
+    </div>
+
+    <div type="cap" n="17">
+     <p>ita isemausm.....s......enuntiare m..........nocessu...uasoc..s.i.... </p>
+    </div>
+
+    <div type="cap" n="18">
+     <p>semper pio.rlis.iis.sss. cesserat nec sicale...c...aloiosc....enpiein....r</p>
+    </div>
+
+    <div type="cap" n="19">
+     <p>ciscitsiii....e.....................m nullas .......................
+      oc........m.n.....i..... </p>
+    </div>
+
+    <div type="cap" n="20">
+     <p>ci..ecum..........alpci legatum ........... m...tesit..........u......ti</p>
+    </div>
+
+    <div type="cap" n="21">
+     <p>...................riscon............... primos
+      i.......................m..etheesraes................. </p>
+    </div>
+
+    <div type="cap" n="22">
+     <p>sccorridisum...........s....uo loco loc..uin.........n qui
+      inesi..e..s............cituciis....siac..........i..ud.onord..edesitae
+      prius..ri..uoi.......natopo... ..abantede.................p.dei.i................ </p>
+    </div>
+
+    <div type="cap" n="23">
+     <p>n....ced................ contulit ........... fidiames............. non occidere </p>
+    </div>
+
+    <div type="cap" n="24">
+     <p>............ et quod tenssec....... dies Isis et vir sdscae</p>
+     <p><supplied><gap/></supplied></p>
+    </div>
+
+    <div type="cap" n="25">
+     <p>
+      <supplied>Sulla con</supplied>di corpus iusserat, non comburi. </p>
+    </div>
+
+    <div type="cap" n="26">
+     <p> Sed L. Philippus cremandum potius censuit, ne idem Sullae eveniret quod C. Mario, cuius
+      corpus milites inimici extractum monimento disi<supplied>e</supplied>cerant. </p>
+    </div>
+
+    <div type="cap" n="27">
+     <p> Itaque iustitium fuit matronaeque eum toto anno luxerunt. </p>
+    </div>
+
+    <div type="cap" n="28">
+     <p> In campo Romae sepultus est amplissimo funere elatus magna populi frequentia. </p>
+    </div>
+
+    <div type="cap" n="29">
+     <p> Cuius rogo quom ignis esset inlatus, non mediocris imber est insecutus. </p>
+    </div>
+
+    <div type="cap" n="30">
+     <p> Sallusti opus nobis occurrit, sed nos, ut instituimus, moras et non urgentia omittemus.
+     </p>
+    </div>
+
+    <div type="cap" n="31">
+     <p> Nam Sallustium non ut historicu<supplied>m a</supplied>iunt, sed ut oratorem legendum. </p>
+    </div>
+
+    <div type="cap" n="32">
+     <p> Nam et temp<supplied>ora</supplied> reprehendit sua e<supplied>t de</supplied>licta carpit
+      et cont<supplied>iones</supplied> inserit et dat invi<supplied>cem</supplied> loca, montes,
+       flum<supplied>ina</supplied> et hoc genus ali<supplied>a</supplied>, et culpat et
+       conpa<supplied>rat</supplied> disserendo. </p>
+    </div>
+
+    <div type="cap" n="33">
+     <p> Verum <supplied>ubi</supplied> con<supplied>v</supplied>enera<supplied>nt</supplied>
+      tribuni plebis, co<supplied>nsu</supplied>les uti tribuniciam <supplied>po</supplied>testatem
+       restitue<supplied>rent</supplied>, negavit prior Lepid<supplied>us</supplied>, et in contione
+       m<supplied>ag</supplied>na pars adsensa <supplied>e</supplied>st <supplied>dicen</supplied>ti
+      non esse utile re<supplied>sti</supplied>tui tribuniciam p<supplied>otes</supplied>tatem. </p>
+    </div>
+
+    <div type="cap" n="34">
+     <p> Et extat ora<supplied>tio.</supplied>
+     </p>
+    </div>
+
+    <div type="cap" n="35">
+     <p>
+      <supplied>Et le</supplied>gem frumentari<supplied>am</supplied> nullo resistente
+       t<supplied>uta</supplied>tus est, ut annon<supplied>ae</supplied> quinque
+       modi<supplied>i</supplied> popu<supplied>lo da</supplied>rentur, et alia mul<supplied>ta
+       pol</supplied>licebatur: exules r<supplied>edu</supplied>cere, res gestas a Sul<supplied>la
+       rescindere</supplied>, in quorum agro<supplied>s mil</supplied>ites deduxerat,
+       re<supplied>sti</supplied>tuere. </p>
+    </div>
+
+    <div type="cap" n="36">
+     <p> F<supplied>a</supplied>esulani in<supplied>ru</supplied>perunt in castella
+       <supplied>vetera</supplied>norum Sullanoru<supplied>m.</supplied>
+     </p>
+    </div>
+
+    <div type="cap" n="37">
+     <p>
+      <supplied>Hi</supplied>
+      <supplied>pl</supplied>uribus occisis agros <supplied>su</supplied>os reddiderunt et
+       <supplied>in se</supplied>natu defendebant, <supplied>quo</supplied>d vulgus agreste
+       do<supplied>moque ex</supplied>torre <supplied>e</supplied>o coactum
+      <supplied>ess</supplied>et. </p>
+    </div>
+
+    <div type="cap" n="38">
+     <p> Et consules dato <supplied>exercitu i</supplied>n Etruriam <supplied>profecti
+       sunt</supplied>, ut scitum. </p>
+    </div>
+
+    <div type="cap" n="39">
+     <p> Veru<supplied>m Le</supplied>pidus in montes ...b..aesentes redu<supplied>xit
+       exercitum</supplied>. </p>
+    </div>
+
+    <div type="cap" n="40">
+     <p> Sed quom ar<supplied>ma eo</supplied>dem comporta<supplied>ren</supplied>tur neque segnior
+       Ca<supplied>tul</supplied>us iuiii.c. </p>
+    </div>
+
+    <div type="cap" n="41">
+     <p> Vbi quis <supplied>vid</supplied>eretur contingere <supplied>eu</supplied>ntem secundum
+       <supplied>litu</supplied>s et lacum, summo<supplied>s</supplied>
+      <supplied>mont</supplied>es omisit. </p>
+    </div>
+
+    <div type="cap" n="42">
+     <p> Incertaque <supplied>pa</supplied>ce senatus concessit execrationibus maximis
+       n<supplied>e</supplied> ulla ultra arma movere<supplied>nt</supplied> umquam. </p>
+    </div>
+
+    <div type="cap" n="43">
+     <p> Iam urbi cum adesse<supplied>t, Lepi</supplied>dus legatum suum
+       pra<supplied>e</supplied>misi<supplied>t</supplied>
+     </p>
+    </div>
+
+    <div type="cap" n="44">
+     <p>...s.ir.itrp.l.itiquiinn.......era..ris coniuravit ...eiso primo hic iner..a..r.....mataimo
+      infra inessnamiiseieim</p>
+    </div>
+
+    <div type="cap" n="45">
+     <p> Nam erat natura turbulentus et inquietus. </p>
+    </div>
+
+    <div type="cap" n="46">
+     <p> Pace istos l.lis..ip....iai.p severa est Sullanis a.</p>
+    </div>
+
+    <div type="cap" n="47">
+     <p>etusserent pecuniamque in aerar<supplied>ium</supplied> cos sacerdotes sm. </p>
+    </div>
+
+    <div type="cap" n="48">
+     <p> bsu ut ratus et....ae..llrae dignitatem iterum cosus...eass.c......al vir ca...ec.
+      ml......nioa...si..prae..eri....it.c..s..s..n..n..et.....sis...na......iesa.....mit</p>
+     <p><supplied><gap/></supplied></p>
+     <p><supplied><gap/></supplied></p>
+    </div>
+   </div>
+
+
+  </body>
+ </text>
+
+</TEI>

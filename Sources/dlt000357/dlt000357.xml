@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>De ratione metrorum</title>
+    <author>Maximus Victorinus</author>
+    <respStmt>
+     <resp>transcodifica di base da rtf a xml-tei</resp>
+     <name>Piero Colombo - Step srl</name>
+    </respStmt>
+    <respStmt>
+     <resp>Testo </resp>
+     <name>Marinone, GL-CD (Maximus Victorinus De ratione metrorum Keil 6, 216-228) adeguato su ed.
+      Corazza</name>
+    </respStmt>
+    <respStmt>
+     <resp>Adeguamento testo su nuova edizione</resp>
+     <name>Alice Borgna </name>
+    </respStmt>
+    <respStmt>
+     <resp>Controllo marcatura XML-TEI</resp>
+     <name>Alice Borgna </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2017</date>
+    <availability>
+     <p>
+      <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
+     </p>
+    </availability>
+    <idno>DLT000357</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p>[Maximi Victorini] <hi rend="italic">Commentarium de ratione metrorum</hi>, con cinque
+     trattati inediti sulla prosodia delle sillabe finali. Introduzione, testo critico, traduzione e
+     commento a cura di D. Corazza, Weidmann, Hildesheim 2011 (Collectanea Grammatica Latina 10)</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    <p>
+     <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT</hi>
+    </p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni.</p>
+    <p>I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p>Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi> :
+     grassetto, corsivo, spaziatura espansa. </p>
+    <p> Sono stati normalizzati e marcati nel modo seguente i diacritici. <lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]>
+     <lb/>
+     <hi rend="italic">loci desperati</hi> :
+     <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo† e †testo <lb/>
+     lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...] <lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p> Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p> Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
+    </p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <head><del>Maximi Victorini </del>De ratione metrorum</head>
+   <div type="chapter" n="1">
+    <head><hi rend="bold"> De litteris <supplied>liquentibus</supplied></hi></head>
+    <div type="paragraph" n="1">
+     <milestone unit="row" n="riga 4 vol. VI Keil"/>
+     <p> Liquentes autem litterae sunt quattuor, l, m, n, r. Liquentes vero ideo dicuntur, quod
+      fluant et quasi intereant, tum cum sequuntur aliquam breuem syllabam cum quauis alia
+      consonante. </p>
+     <div type="paragraph" n="2">
+      <p> Sunt autem duplicis potentiae. Nam longam syllabam positione facere possunt, si ita poeta
+       uoluerit, et breuem non producunt. Quod dico huiusmodi est exemplum, ut hic Lucretii uersus: <lb/>
+       <quote type="poetry">«nam fierent iuuenes subito ex infantibus paruis»</quote>.<lb/> Sic
+       habetur, quasi dixerit « ex infantibu paruis» subtracta ‛s’ littera. Hic enim ‛s’ littera
+       interit. Ennius quoque ait: <lb/>
+       <quote type="poetry">«uita illa dignus locoque»</quote>
+       <lb/> quasi dixerit ‛dignu locoque’ dixerit. Similiter Lucilius: <milestone unit="page"
+        n="p. 217 vol. VI Keil"/><lb/><quote type="poetry">«tum lateralis dolor, certissimus nuntius
+        mortis»</quote>. Sic habetur quasi subtractis ‛sss’ litteris, quia licentius antiqui et ipsa
+       quasi pro liquenti utebantur inerudita adhuc nouitate, quod posteriores poetae non gerunt,
+       non quod ista definitio rata non esset, sed quod uersus suos liquidius decurrere nullis
+       salebris uoluerunt. </p>
+     </div>
+     <div type="paragraph" n="3">
+      <p> Liquentes autem cognoscere in illo Vergilii uersu possumus:<lb/>
+       <quote type="poetry">«sed haec lento mos est aptare flagello»</quote>,<lb/> quasi subtracta
+       ‛l’ littera ‛fagello’ dixerit. Sic et in illo: <lb/>
+       <quote type="poetry">«Phoebe grauis Troiae semper miserate labores»</quote>,<lb/> quasi
+       subtracta ‛r’ littera ‛gauis’ dixerit, non ‛grauis’. </p>
+     </div>
+     <div type="paragraph" n="4">
+      <p> Mihi autem de his magis uidetur illud, quod liquentes litterae, de quibus diximus, tunc
+       detrahantur, cum breuem syllabam duae consonantes, quarum altera liquens erit, ita sequuntur,
+       ut in duas syllabas se diuidant. Quod dico huiusmodi est exemplum ut:<lb/>
+       <quote type="poetry">«infantibus paruis»</quote>. <lb/> S et p litterae in duas se
+       diuiserunt: nam ‛s’ ad ‛bus’ syllabam pertinet, ‛p’ ad ‛paruis’. Quotiens ergo ita se
+       diuidunt, tunc liquentes erunt. Alioquin cum duae consonantes ita aliquam breuem syllabam
+       consequuntur, ut hae ipsae consonantes alterius syllabae sint nec se diuidant, tunc illa
+       syllaba, ut poetae uoluerint, longa aut breuis erit, hoc exemplo:<lb/>
+       <quote type="poetry">«Atridas Priamumque»</quote>. <lb/>‛A’ littera positione longa est, eo
+       quod eam excipiunt duae consonantes t et r. Sed quoniam consonantes hae duae ad alteram
+       syllabam pertinent, non semper positione longam syllabam faciunt, quam excipiunt, ut est: <lb/>
+       <quote type="poetry">«geminosque in limine Atridas»</quote>.<lb/> Hic ‛a’ breuis est, quoniam
+       consonantes ambas sibi syllaba posterior uindicat, haeque, ut poetae uoluntas est, proinde
+       auxiliantur <milestone unit="page" n="p. 218 vol. VI Keil"/> aut cedunt, ut illi Vergilii
+       uersus, quos praeposuimus: tales syllabas habeant consonantium coitu, non liquentium fluxu.
+      </p>
+     </div>
+    </div>
+   </div>
+   <div type="chapter" n="2">
+    <head>
+     <hi rend="bold"> De coniunctis syllabis</hi>
+    </head>
+    <div type="paragraph" n="1">
+     <p> Coniunctas quoque syllabas animaduertere nobis intentio est. Nam coniunctae syllabae
+      dicuntur, cum longa syllaba in uocali finitur et ‛a’ uocali excipitur. Atque ideo longa
+      syllaba illa natura breuis est, quod eam uocalis et terminauerit et exceperit, hoc exemplo:<lb/>
+      <quote type="poetry">«te Corydon o Alexi»</quote>. <lb/> Sic enim scanditur, ‛tecory’
+      dactylus, ‛donoa’ dactylus, cuius media syllaba ‛o’ natura longa est. Sed quia et ipsa uocali
+      constat et excipitur ‛a’ uocali, coniunctioni syllabarum et quasi cognationi uocalium -idcirco
+      breuis est- ueluti gratificatur.<lb/> Et est huic similis ille uersus, ut:<lb/>
+      <quote type="poetry">«credimus? an qui amant»</quote>. <lb/> Credimus dactylus est, ‛anquia’
+      alius dactylus. Sed ‛qui’ media dactyli natura longa syllaba. Sed haec ‛a’ vocali, ut
+      superior, terminatur et excipitur ‛a’ uocali. </p>
+    </div>
+    <div type="paragraph" n="2">
+     <p> Non enim in hoc aut in superiore uersu synalipham facere potes sine uitio. Versus erit ex
+      trochaeo, si feceris synalipham, qui nisi nouissimus in heroico uersu esse non potest. Sic
+      tamen in huiuscemodi coniunctis talis synalipha fieri potest, quae e dactylo spondeum faciat.
+      Profecto spondeus usitatior inusitato dactylo anteponendus est, ut illud:<lb/>
+      <quote type="poetry">«nec tota tamen ille prior praeeunte carina»</quote>. </p>
+     <p> Scanditur enim sic: ‛necto’ spondeus, ‛tatamen’ dactylus, ‛illepri’ dactylus, ‛orprae’
+      spondeus. Hic autem uides posse alios dicere dactylum esse ratione coniunctarum syllabarum,
+      quoniam ‛prae’ syllaba uocali finitur et excipitur ‛a’ uocali, quae est ‛e’. Sed cum synalipha
+      fieri possit faciatque spondeum, cur non eam uiam sequamur, quam nobis consuetudo frequentior
+      tritam reliquit? Antenouissimus pes est huius uersus ‛enteca’. <lb/> Quam idcirco <milestone
+       unit="page" n="p. 219 vol. VI Keil"/> praepono: cum synaliphae haec sit consuetudo, ut
+      anterior uocalis excludatur, tunc tamen non excludi scias, cum sola syllabam facere potest
+      interior, quae excludi non potest. Quod dico, huius modi est exemplum: ‛praeeunte’ per duas e
+      scribitur; est ergo spondeus ‛orprae’. Sequunturque circa se duae uocales, ut
+      ‛praeeuntecarina’. Sed quoniam ‛e’ littera eadem et syllaba est - ‛u’ autem, syllaba ut sit,
+      adhibeat sibi consonantes n et t - idcirco rectius ‛ente carina’ quam ‛unteca rina’ per
+      synalipham scandimus. </p>
+    </div>
+   </div>
+   <div type="chapter" n="3">
+    <head><hi rend="bold"> De dichronis</hi></head>
+    <div type="paragraph" n="3.1">
+     <p> Vocales quinque cum nouissimam syllabam uerbi aut nominis teneant, tametsi natura breues
+      sint, longae tamen, si ita poeta uoluerit, habentur, hoc modo, ut:<lb/>
+      <quote type="poetry">«hic amor, hoc studium»</quote>. <lb/> ‛Mor’ syllaba breuis est, sed quia
+      uocalis ibi est, produci etiam potest, ut:<lb/>
+      <quote type="poetry">«omnia uincit amor, et nos cedamus amori»</quote>. </p>
+     <p> Scanditur enim sic, ‛omnia’ dactylus, ‛uincita’ dactylus, ‛moret’ spondeus. Vides superius
+      correptam, hic esse productam.</p>
+    </div>
+    <div type="paragraph" n="2">
+     <p> Item:<lb/>
+      <quote type="poetry">«ostentans artemque pater arcumque sonantem»</quote>. </p>
+     <p> Scanditur enim sic: ‛osten’ spondeus, ‛tansar’ spondeus, ‛temquepa’ dactylus, ‛terar’
+      spondeus. Vides hic ‛ter’ syllabam longam esse, alio loco breuem. </p>
+    </div>
+    <div type="paragraph" n="3">
+     <p>Item: <lb/>
+      <quote type="poetry">«sanguis hebet»</quote>.<lb/> Hic ‛guis’ syllaba breuis est. In Lucano
+      autem longa est:<lb/>
+      <quote type="poetry">«dum sanguis inerat»</quote><lb/>. Vides enim ‛i’ litteram fecisse hanc
+      potestatem. </p>
+    </div>
+    <div type="paragraph" n="4">
+     <p>Item:<lb/><quote type="poetry">«tum sic Mercurium alloquitur»</quote>.<lb/> Tur syllaba
+      breuis natura, sed quia habet uocalem, producitur. Quidquid enim in tur syllaba finitur, breue
+      est, ut postea dicemus. Nec interest uocales illae, cum nouissima syllaba sint, solae an cum
+      consonantibus sint. Vtroque enim modo dichronae sunt.<lb/> Vides tamen dichronas etiam hoc
+      compendio posse tradi, ut in heroico uersu cuiuscumque <milestone unit="page"
+       n="p. 220 vol. VI Keil"/> pedis syllaba prior, cum a superiore uerbo remanserit, promiscue
+      sit longa aut breuis, ut poeta uoluerit, quoniam in ea pars orationis impletur, quod quoque ut
+      in uersu sic in uerbo non attendatur. </p>
+    </div>
+   </div>
+   <div type="chapter" n="4">
+    <head><hi rend="bold"> De Graecis nominibus</hi></head>
+    <div type="paragraph" n="1">
+     <p> Quaecumque Graeca nomina, id est quae in Latinis eadem sunt, ea cum in ‛as’ syllabam aut in
+      ‛es’ exeunt, breuia sunt contra naturam et consuetudinem Latinorum. Huius modi enim nomina
+      Latina, quae plurali numero in ‛es’ syllabam exeunt aut in ‛as’, longa natura sunt, ut
+      ‛principes’, ‛milites’, ‛arbores’, ‛optimas’, ‛feminas’, ‛sarcinas’. Idcirco, quia in uersu
+      esse possunt Graeca, in isdem syllabis breuia sunt, ut <lb/><quote type="poetry">«Gorgones
+       Harpyiasque»</quote>
+      <lb/> et alibi: <lb/>
+      <quote type="poetry">«fuso crateres oliuo»</quote><lb/> et Lucretius<lb/>
+      <quote type="poetry">«lampadas igniferas manibus retinentia dextris»</quote>. <lb/></p>
+     <p> Vides ‛es’ uel ‛as’ breues esse syllabas et ideo quia Graeca sunt nomina. </p>
+    </div>
+   </div>
+   <div type="chapter" n="5">
+    <head><hi rend="bold"> De propriis nominibus</hi></head>
+    <div type="paragraph" n="1">
+     <p> Nomina propria, quae primam syllabam natura longam non habent, id est quae non duabus
+      uocalibus constant iunctis, ut ‛Aeolus’, ‛Aeneas’ et alia, quae ergo primam syllabam natura
+      longam non habent, tales erunt syllabae, ut eas ponere uolueris, siue longae siue breues, hoc
+      exemplo: <lb/>
+      <quote type="poetry">«exercet Diana choros»</quote>.<lb/> Hic ‛di’ longa est, alio loco breuis est:<lb/>
+      <quote type="poetry">«tune etiam telis moriere Dianae»</quote>. <lb/>Item: <quote
+       type="poetry"><lb/>«armatumque auro circumspicit Oriona»</quote>. </p>
+     <p> Hic longa est ‛o’, alio loco breuis est, ut:<lb/>
+      <quote type="poetry">«aquosus Orion»</quote>. </p>
+    </div>
+    <div type="paragraph" n="2">
+     <p> Nomina item quae <milestone unit="page" n="p. 221 vol. VI Keil"/> genetilicium in ‛es’
+      syllabam mittunt, eadem ipsa syllaba breuia sunt, ut Lingones, Mygdones, Teutones, Vascones,
+      et accusatiuo:<lb/> «Vasconas armipotentes».</p>
+    </div>
+    <div type="paragraph" n="3">
+     <p>Item Graeca nomina, quae in ‛i’ littera finiuntur, in eadem ipsa syllaba breuia sunt, ut
+       <lb/><quote type="poetry">«quo te Moeri pedes»</quote>. <lb/>Scanditur enim sic, ‛quote’
+      spondeus, ‛moeripe’ dactylus. </p>
+    </div>
+    <div type="paragraph" n="4">
+     <p> Videndum etiam hoc est in his nominibus, quae ante nouissimam syllabam ‛i’ littera
+      terminantur, ut est ‛radius’, ‛gladius’. Haec enim per duo ‛i’ proferuntur in genetivo, ‛huius
+      radii’ et ‛gladii’, et pluraliter per duo ‛i’, ‛hi gladii’. Vt cum poeta uoluerit hanc eadem
+      nouissimam syllabam, ubi duo ‛i’ esse diximus, hic synalipha non sit. Quo modo est uersus ille Lucretii:<lb/>
+      <quote type="poetry">«non radii solis neque lucida tela diei»</quote>. </p>
+     <p> Scanditur enim sic, ‛nonradi’ dactylus, ‛iso’ spondeus. Vide quo modo ‛i’ littera neque
+      interior synalipha subtracta est et exterior pedis partem cepit. Sed rursus, cum poeta
+      uoluerit, synalipham in eodem nomine facit, ut est Vergilii uersus:<lb/>
+      <quote type="poetry">«diuersi rumpent radii»</quote>. </p>
+     <p> Scanditur enim sic, ‛diuer’ spondeus, ‛sirum’ spondeus, ‛pentradi’ dactylus. Hic enim
+      nouissima excluditur, quae longa est. </p>
+    </div>
+   </div>
+   <div type="chapter" n="6">
+    <head><hi rend="bold">De ectasi</hi></head>
+    <div type="paragraph" n="1">
+     <p> Interdum in nominibus appellatiuis prima syllaba contra naturam producitur, quia aliter in
+      uersu poni non potest, ut <lb/><quote type="poetry">«Italiam»</quote>. </p>
+     <p> Hic enim i contra naturam producitur, quia aliter in uersu esse non potest. </p>
+     <p> Hoc autem modo breuem intellegimus. Necesse est enim ut, qualis est prima syllaba in aliquo
+      nomine prouinciali, eadem sit natura ipsa prouincia, ut Afer: prima longa est, in Africa eadem
+      natura est prima littera. Ergo uideamus Italus, prima syllaba qualis sit. Dabit Virgilius
+      exemplum, ut <milestone unit="page" n="p. 222 vol. VI Keil"/><quote type="poetry"><lb/>
+       «antiqua e cedro Italusque paterque Sabinus»</quote>. </p>
+     <p> Hic in Italo prima syllaba breuis est, quae nos docet eadem et in Italia seruari oportere.
+     </p>
+    </div>
+   </div>
+   <div type="chapter" n="7">
+    <head><hi rend="bold"> De brevibus syllabis </hi></head>
+    <div type="paragraph" n="1">
+     <p> Quattuor syllabae breues pro spondeo poni possunt, ut:<lb/>
+      <quote type="poetry">«genua labant». <lb/> Hic enim genuala scanditur, in quo pede priores
+       duae breues iunguntur, ut unam longam faciant poetica licentia, quae magis in iambicis
+       uersibus est permissa et celebris. </quote></p>
+    </div>
+   </div>
+   <div type="chapter" n="8">
+    <head><hi rend="bold"> De concatenatis </hi></head>
+    <div type="paragraph" n="1">
+     <p> Interdum in heroico uersu nouissima syllaba sequenti uersui adiungi necesse est per
+      synalipham, ut est ille uersus in Virgilio:<lb/>
+      <quote type="poetry">«iamque iter emensi turres ac tecta Latinorum <lb/> ardua
+       cernebant»</quote>. </p>
+     <p> Scanditur enim sic, ‛iamqueiter’ dactylus, ‛emen’ spondeus, ‛situr’ spondeus, ‛resac’
+      spondeus, ‛tectala’ dactylus, ‛tino’ spondeus. Nouissima cuius syllaba quae superest ‛rum’
+      reuocatur ad sequentem uersum per synalipham, ut si dicas ‛rardua cernebant’ et cetera. Est
+      huic similis ille uersus:<lb/>
+      <quote type="poetry">«inseritur uero et fetu nucis arbutus horrida»</quote>. </p>
+     <p> Syllaba enim nouissima, quae est ‛da’, ad sequentem uersum refertur. Quare necesse erit
+      istius modi sequentem uersum a uocali incipere, ut synalipha fieri possit illa, quam diximus.
+     </p>
+    </div>
+   </div>
+   <div type="chapter" n="9">
+    <head><hi rend="bold"> De casibus</hi></head>
+    <div type="paragraph" n="1">
+     <p> Nominatiuus omnis numero singulari, qui ‛us’ syllaba terminatur, eadem ipsa syllaba natura
+      breuis est, ut ‛doctus’, ‛carus’, ‛sanctus’ et alia.<lb/> Genetiuus omnis, qui ‛i’ littera
+      terminatur, natura longus est, ut ‛docti’, ‛cari’, ‛sancti’. <milestone unit="page"
+       n="p. 223 vol. VI Keil"/>
+      <lb/> Datiuus omnis, qui ‛o’ littera terminatur, natura longus est, ut ‛docto’, ‛caro’,
+      ‛sancto’.<lb/> Accusatiuus omnis, qui ‛m’ littera terminatur, positionem expectat aut
+      synalipham, quia nulla syllaba in ‛m’ litteram exit, quae non alterutrum quaerat.<lb/>
+      Vocatiuus omnis ‛e’ littera terminatus breuis est natura, ut ‛docte’, ‛care’, ‛sancte’.
+      <lb/>Ablatiuus omnis ‛o’ littera terminatus natura longus est, ut ‛ab hoc docto’, ‛caro’,
+      ‛sancto’. <lb/>Numero plurali nominatiuus omnis, cum in ‛i’ finitur, natura longus est, ut ‛hi
+      docti’, ‛cari’, ‛sancti’. <gap/>
+      <lb/> Datiuus omnis pluralis in is terminatur longus est, ut ‛doctis’, ‛caris’, ‛sanctis’.
+      <lb/> Accusatiuus omnis pluralis, qui in ‛os’ syllaba finitur, natura longus est, ut ‛doctos’,
+      ‛caros’, ‛sanctos’. <lb/> Vocatiuus omnis pluralis in ‛i’ littera finitus, longus est, ut
+      ‛docti’, ‛cari’ ‛sancti’. <lb/>Ablatiuus omnis, qui in ‛is’ finitur, aeque longus est, ut ‛ab
+      his doctis’, ‛caris’, ‛sanctis’. </p>
+    </div>
+    <div type="paragraph" n="2">
+     <p> Item quidquid in ‛is’ syllabam nominatiuo et genetiuo singulari exit, breue est, ut
+      ‛lapis’, ‛apis’.<lb/> Quidquid in ‛r’ finitur <del>in genere masculino</del>, breue est, ut
+      ‛doctor’, ‛cantor’, ‛pater’, ‛frater’. <lb/> Nam quidquid in ‛es’ syllabam pluraliter finitur,
+      longum est, ut ‛doctores’, ‛homines’, ‛arbores’ et quidquid sic terminatur.<lb/> Item quod in
+      ‛bus’ syllabam exit, breue est, ut ‛cantoribus’, ‛doctoribus’. </p>
+    </div>
+    <div type="paragraph" n="3">
+     <p>In genere feminino casus nominatiuus solus sic uariatur: ut ‛haec tabula’ breuis est,
+      ablatiuus longus est. Omnia nomina feminini generis, quae ‛a’ littera terminantur, nouissima
+      syllaba breuia sunt in nominatiuo, ablatiuo uero longa. </p>
+    </div>
+    <div type="paragraph" n="4">
+     <p>Omnis autem casus cuiuscumque generis, qui ‛m’ littera terminatur, nouissimam syllabam
+      longam habere non potest natura, sed aut positionem aut synalipham expectat. </p>
+    </div>
+    <div type="paragraph" n="5">
+     <p>Nomina generis feminini, quae in ‛es’ syllabam finiuntur, si eadem ipsa syllaba in genetiuo
+      non producitur, tam in nominatiuo quam in ablatiuo breuia sunt. Si autem eadem syllaba in
+      genetiuo producitur, tam in nominatiuo quam <milestone unit="page" n="p. 224 vol. VI Keil"/>
+      in ablatiuo longa est nouissima syllaba. <lb/> Quod dico huiusmodi est exemplum, ut ‛haec
+      lues’: ‛es’ syllaba breuis est, quia genetiuus ‛luis’ facit; ‛haec fides’; ‛des’ syllaba longa
+      est propterea, quia genetiuus producit eam; facit enim ‛huius fidei’. Quomodo est ‛haec
+      facies’: ‛es’ syllaba longa est, quoniam in genetiuo producitur, ‛huius faciei’. Ergo quas
+      syllabas genetiuus producit, hae in nominatiuo et ablatiuo longae sunt, ut ‛haec fides’,
+      ‛huius fidei’, ‛a fide’; ‛facies’, ‛faciei’, ‛a facie’. Quas syllabas genetiuus corripit aut
+      mutat, breues sunt in nominatiuo et ablatiuo, ut ‛lues’, ‛luis’, ‛lue’. Quidquid in genetiuo
+      ‛is’ syllaba terminatur, breue est in ablatiuo. </p>
+    </div>
+    <div type="paragraph" n="6">
+     <p>Sed hic est genetiuus, quo cognoscuntur nouissimae syllabae plerumque nominativi, quales
+      esse debeant, ut est ‛paupertas’, ‛palus’. ‛Tas’ enim ideo longa est, quia genetiuus producit
+      eam: dicimus enim ‛paupertatis’ ‛ta’ producta, ‛paludis’ media syllaba producta. Quo modo est
+      ‛hic Samnis’. Longa est ‛nis’: facit enim genetiuo ‛huius Samnitis’ media producta. Item
+      ‛amnis’ breuis est, quoniam syllabam ‛nis’ non producit genetiuus. </p>
+    </div>
+    <div type="paragraph" n="7">
+     <p><supplied><hi rend="bold"> De participiis</hi></supplied><lb/> Omnia participia quae in
+      ‛ans’ et in ‛ens’ syllabam mittunt, positione longa sunt. Nam quae in ‛i’ et in ‛o’ syllabam
+      mittunt, quasi nomina existimantur, de quibus iam dictum est. </p>
+    </div>
+    <div type="paragraph" n="8">
+     <p>
+      <supplied><hi rend="bold"> De aduerbis</hi></supplied></p>
+     <p> Omnia aduerbia quae in ‛e’ mittunt, exceptis ‛bene’ et ‛male’ et ‛fere’ et ‛prope’ et
+      ‛pone’ et ‛paene’ et ‛saepe’, his ergo exceptis, illa quae de nominibus manant longa sunt, ut
+      ‛pulchre’, ‛sancte’, ‛docte’, ‛iuste’. Illa autem breuia sunt, quae nomina nulla habent unde
+      deriuentur, quomodo illa sunt, ut ‛docte’, quia ‛doctus’, ‛sancte’, quia ‛sanctus’, ‛iuste’,
+      quia ‛iustus’. <lb/> Rursum quae a nominibus deriuantur, si in ‛er’ syllabam exeunt, breuia
+      sint necesse est, ut ‛duriter’, ‛turpiter’, ‛misericorditer’. <lb/> Quae autem in ‛m’ litteram
+      finiunt, positionem aut synalipham expectant. <lb/> Item illa quae in ‛a’ exeunt litteram,
+      longa sunt, ut ‛ultra’, ‛una’. <milestone unit="page" n="p. 225 vol. VI Keil"/>
+     </p>
+    </div>
+   </div>
+   <div type="chapter" n="10">
+    <head><hi rend="bold"> De verbis</hi></head>
+    <div type="paragraph" n="1">
+     <p> In uerbis uel coniugationibus attendendae sunt positiones et tempora et syllabae
+      nouissimae, quae his fere regulis colliguntur. <lb/> Similis est primae positionis nouissima
+      syllaba in omnibus coniugationibus: omnes enim coniugationes, quae in ‛o’ littera finiuntur,
+      dichronae sunt, ut ‛canto’, ‛moneo’, ‛dico’. <lb/> Secundis positionibus discrepant. Nam
+      secunda positio primae et secundae coniugationis longa ut sit necesse est, ut ‛cantas’,
+      ‛clamas’, ‛mones’, ‛sedes’. Hae enim nouissimae producuntur in infinitiuo modo; dicimus enim
+      ‛cantare’, ‛clamare’, ‛monere’, ‛sedere’. Imperatiuus quoque modus coniugationum supra
+      dictarum syllaba nouissima longus est, propterea quia syllaba ipsa producitur in infinitiuo
+      modo. <lb/> In tertia autem coniugatione correpta secundae positiones breues sunt, quia in
+      infinitiuo modo produci non possunt: dicimus enim ‛legis’, ‛legere’, ‛ducis’, ‛ducere’. In
+      imperatiuo quoque modo syllabae nouissimae breues sunt, quia non producuntur in infinitiuo
+      modo, ut ‛legere’, ‛ducere’, ‛scribere’, et omnino quae syllabae mutantur, sicut ‛legis’,
+      ‛lege’, ‛legere’, ‛dicis’, ‛dic’, ‛dicere’, ‛scribis’, ‛scribe’, ‛scribere’. Tertia longa
+      dicitur similis primae coniugationis et secundae, propterea quod, quem ad modum infinitiuus
+      producit in illis medias syllabas, sic producit et in hac. Quapropter ‛finis’ dicimus: tertia
+      coniugatio est et ideo longa est, quia ‛finire’ in infinitiuo dicimus ‛i’ producta, sicut
+      ‛audis’, ‛audire’. <lb/> Rursus ‛faxis’, ‛adsis’, ‛uelis’. Nam ‛is’ nouissima syllaba ideo
+      longa est, quia pluralis numerus eam producit: dicimus enim producta media syllaba ‛faxitis’,
+      ‛adsitis’, ‛uelitis’. <lb/> Quae autem produci media in plurali numero non possunt, breuia
+      sunt, ut ‛dicis’, ‛dicitis’, ‛legis’, ‛legitis’. Nam illa longa sunt, ut ‛audis’, ‛finis’,
+      quia producuntur <milestone unit="page" n="p. 226 vol. VI Keil"/> in plurali numero, ut
+      ‛auditis’, ‛finitis’. <lb/> Omnes uerbi nouissimae syllabae, quae sunt huius modi, ‛res’,
+      ‛ses’, longae sunt, quia producit eas numerus pluralis, ut ‛audires’, ‛audiretis’,
+      ‛clamasses’, ‛clamassetis’. <lb/> Omnes infinitiui, qui syllaba ‛re’ terminantur, breues sunt,
+      ut ‛clamare’, ‛monere’, ‛dicere’, ‛finire’. <lb/> Omnes in uerbis syllabae, quae huius modi
+      sunt, ut in ‛tis’ exeant, breues sunt, ut ‛clamastis’, ‛dixistis’, ‛fecistis’. <lb/>
+      Infinitiui omnes passiuorum et communium deponentiumque uerborum, quoniam in ‛i’ exeunt, longi
+      sunt, ut ‛clamari’, ‛moneri’, ‛dici’, ‛finiri’. Et quidquid in ‛i’ in uerborum declinatione
+      exierit, longum est, ut ‛clamaui’, ‛monui’, ‛dixi’, ‛finiui’. <lb/> Haec de nouissimis
+      syllabis dicta sunt. </p>
+    </div>
+    <div type="paragraph" n="2">
+     <p> De primis autem inueniendis hoc erit uidendum. <lb/> Omnes igitur coniugationes - excepta
+      simplici tertia, hoc est longa- in aliquibus uerbis primas syllabas temporum ratione
+      permutant. Nam illa quae in praesenti tempore breuia sunt, in omni praeterito perfecto uel in
+      omni praeterito plusquamperfecto uel in uno futuro modi tantum coniunctiui producuntur, in
+      reliquis autem modis et temporibus breuiantur. <lb/> Ergo coniugatio prima tempore praesenti
+      corripitur, ut ‛lauo’; praeterito perfecto uel plusquamperfecto uel coniunctiuo futuri
+      producitur, ut ‛laui’, ‛laueram’, ‛lauero’. <lb/> Secunda similiter praesenti tempore
+      corripitur, ut ‛moueo’; praeterito perfecto uel plusquamperfecto uel coniunctiuo futuro
+      producitur, ut ‛moui’, ‛moueram’, ‛mouero’. <lb/> Tertia correpta similiter praesenti tempore
+      corripitur, ut ‛odio’; praeterito perfecto uel plusquamperfecto uel coniunctiuo futuro
+      producitur, ut ‛odi’, ‛oderam’, ‛odero’. Infinitiuus autem modus similiter in aliquibus uerbis
+      praesenti tempore corripitur, ut ‛mouere’, ‛legere’; tempore praeterito uel futuro producitur,
+      ut ‛mouisse’, ‛motum ire’, ‛legisse’, ‛lectum ire’. <lb/> Sed sunt plurima uerba, quae numquam
+      temporum uarietate mutantur. <lb/> Est igitur coniugatio prima semper correpta, <milestone
+       unit="page" n="p. 227 vol. VI Keil"/> ut ‛uoco’; semper producta, ut ‛numero’. <lb/> Est
+      similiter et secunda semper correpta, ut ‛doleo’; item semper producta, ut ‛soleo’. <lb/> Est
+      aeque tertia semper correpta, ut ‛tero’, item semper producta, ut ‛munio’. <lb/> Sunt etiam
+      aliqua participia similiter, quae in primis syllabis temporum uarietate mutantur, ut quae in
+      praesenti tempore breuia sunt, in praeterito uel futuro non quidem natura, sed positione
+      producta sunt, ut ‛legens’, ‛lectus’, ‛lecturus’.</p>
+    </div>
+    <div type="paragraph" n="3">
+     <p>De trisyllabis, nunc item dicendum est, quae sic uariantur, quomodo et disyllaba. Hoc uno
+      modo distant, quod indicatiuo specie imperfecta in primis syllabis breuia sunt, ut ‛legebam’,
+      ‛ueniebam’: nam in disyllabis hac ipsa imperfecta specie longa sunt, ut ‛ibam’, ‛nabam’. <lb/>
+      Sed hac ratione primas syllabas rite cognoscimus, ut si praepositionem illi uerbo addamus
+      cuius primam syllabam -cuius naturae sit- quaeramus. Cum ergo addiderimus uerbo
+      praepositionem, sciemus quo modo eum consuetudo pronuntiet. Cuius rei exemplum hoc est:
+      ‛dico’, ‛dicas’, ‛dicat’, ab eo quod est ‛dicare’. Addamus illi praepositionem ‛de’ et
+      faciamus ‛dedico’. Videamus ergo quo modo pronuntiet consuetudo, si producta media an
+      correpta: utique correpta, ut ‛dedico’. <lb/> Sic inuenimus et longas, ut ‛clamo’. Addamus
+      illi praepositionem ‛in’, ut fiat ‛inclamo’. Producta media dicimus, non correpta.<lb/> Item
+      sunt nomina quibus praepositio addi non potest, ut ‛halitus’. Faciamus uerbum ‛halo’. Huic
+      addamus praepositionem ex, ut fiat ‛exhalo’. Media syllaba producta pronuntiamus. Ibi
+      apparebit etiam ‛halitus’ qualis sit in prima syllaba. </p>
+    </div>
+    <div type="paragraph" n="4">
+     <p>Medias ergo syllabas coniugationes docent, extremas uero uerbi ipsius declinationes; primas
+      autem docent exempla uel illae, quas dixi, praepositiones. </p>
+    </div>
+    <div type="paragraph" n="5">
+     <p>Haec prudenti satis sunt, hisque exemplis omnia in promptu habebit. Rhetoricam, id est
+      eloquentiam, nosse non potest, nisi qui ad eam hoc uestigio uenerit, primum ut discat, quid
+      sint pedes metrorum, deinde quae sit natura syllabarum in uerbis, quod iam hic docuimus;
+       <milestone unit="page" n="p. 228 vol. VI Keil"/> tum quid sit periodos; deinde quid sit
+      colon, quid comma; quid sit numerus: quid orationes solutae, quid numerosum; quae sint
+      praeterea tres primae figurae dicendi, magno temperato subtili; postremo quae sint figurae
+      uerborum, quae sententiarum. <lb/> His completis Ciceronis rhetoricas omniaque eius legere
+      incipiat, id est totam rhetoricam, seque cotidie exerceat. <milestone unit="page"
+       n="p. 229 vol. VI Keil"/></p>
+    </div>
+   </div>
+   <div type="chapter" n="11">
+    <head><hi rend="bold"> De finalibus <del>Metrorii</del></hi></head>
+    <div type="paragraph" n="1">
+     <p> Quamquam de litteris et syllabis multiplex sit copiosusque tractatus, tamen is magis
+      appetendus a nobisque susceptus est, qui ad dimensionem pedum metrorumque perducit. </p>
+    </div>
+    <div type="paragraph" n="2">
+     <p>Igitur litterae aut uocales dicuntur aut consonantes. Vocales quinque, a e i o u.
+      Consonantes uero reliquae omnes, quarum aliae semiuocales, aliae mutae. Semiuocales sunt
+      septem, f l m n r s x, mutae novem, b c d g h k p q t. </p>
+    </div>
+    <div type="paragraph" n="3">
+     <p>Sed ex uocalibus ‛i’ et ‛u’ pro consonantibus habentur, cum uel secum iunctae fuerint, ut
+      ‛Iuno’, ‛uita’, uel aliis uocalibus praepositae, ut ‛Ianus’, ‛Venus’. Hoc etiam ‛i’ amplius
+      praestat, quod in uno sermone inter duas posita uocales duplicis fungitur loco, ut ‛Troia’,
+      ‛Maia’. </p>
+    </div>
+   </div>
+   <div type="chapter" n="12">
+    <head><hi rend="bold"> De consonantibus </hi></head>
+    <div type="paragraph" n="1">
+     <p>L et r, cum in eadem syllaba consonantibus postponuntur, saepe deficiunt. S etiam
+      aliquotiens de metro excluditur. X semper pro duplici habetur, z uero non numquam. H interdum
+      consonantis fungitur loco, interdum adspirationis. </p>
+    </div>
+   </div>
+   <div type="chapter" n="13">
+    <head>De syllabis longis et brevibus</head>
+    <div type="paragraph" n="1">
+     <p> Quae cum ita sint, ex his aut unius uocalis enuntiatione, ut ‛a’, aut conexione litterarum,
+      ut ‛prae’, syllaba <milestone unit="page" n="p. 230 vol. VI Keil"/> procreatur. </p>
+    </div>
+    <div type="paragraph" n="2">
+     <p> Scilicet syllaba aut breuis aut longa aut communis. Breuis est quae correptam uocalem
+      habet, ut ‛amor’ et non desinit in duas consonantes, ut ‛ars’, aut in unam duplicem, ut ‛pix’,
+      aut in ‛i’ inter duas uocales constitutam, ut ‛aio’. <lb/> Longa uero est cui quattuor ista
+      contingunt, quibus indiget breuis, ut ‛dos’, ‛ars’, ‛pix’, ‛aio’. Diphthongos sane semper est
+      longa. </p>
+    </div>
+   </div>
+   <div type="chapter" n="14">
+    <head><hi rend="bold"> De communibus</hi></head>
+    <div type="paragraph" n="1">
+     <p> Communes syllabae fiunt modis octo: cum correptam uocalem sequitur subiecta consonantibus
+      liquida; est enim longa ita:<lb/>
+      <quote type="poetry">«uasto Cyclopis in antro»</quote>,<lb/> breuis ita:<lb/>
+      <quote type="poetry">«uastosque ab rupe Cyclopas»</quote>; </p>
+    </div>
+    <div type="paragraph" n="2">
+     <p>aut cum correpta uocalis in unam desinit consonantem sequente h; est enim longa ita:<lb/>
+      <quote type="poetry">«terga fatigamus hasta»</quote>,<lb/> breuis ita:<lb/><quote
+       type="poetry">«quisquis honos tumuli»</quote>: </p>
+    </div>
+    <div type="paragraph" n="3">
+     <p>aut cum correptam uocalem duae consonantes sequuntur, quarum prior ‛s’ littera est; est enim
+      longa ita:<lb/>
+      <quote type="poetry">«unde spissa coma»</quote>,<lb/> breuis ita: <lb/>
+      <quote type="poetry">«ponite spes sibi quisque»</quote>; </p>
+    </div>
+    <div type="paragraph" n="4">
+     <p>aut cum breuis syllaba partem terminat orationis; est enim longa ita:<lb/>
+      <quote type="poetry">«nam tibi, Tymbre, caput Euandrius abstulit ensis»</quote>,<lb/> breuis ita:<lb/>
+      <quote type="poetry">«hoc caput o ciues»</quote>: </p>
+    </div>
+    <div type="paragraph" n="5">
+     <p>aut cum diphthongon uocalis statim sequitur; est enim longa ita:<lb/>
+      <quote type="poetry">«Musae Aonides»</quote>,<lb/> breuis ita:<lb/><quote type="poetry"
+       >«insulae Ionio in magno»</quote>: </p>
+    </div>
+    <div type="paragraph" n="6">
+     <p>aut cum longam uocalem sequitur alia; est enim longa ita:<lb/>
+      <quote type="poetry">«o ego infelix»</quote>, <lb/>breuis ita:<lb/>
+      <quote type="poetry">«sub Ilio alto»</quote>: </p>
+    </div>
+    <div type="paragraph" n="7">
+     <p>aut cum pronomen c littera terminatum uocalis statim subsequitur; est enim longa ita:<lb/>
+      <quote type="poetry">«hoc erat alma parens»</quote>, <lb/> breuis ita:<lb/><quote
+       type="poetry">«solus hic inflexit sensus»</quote>: </p>
+    </div>
+    <div type="paragraph" n="8">
+     <p>aut cum correptam uocalem sequitur z; est enim longa ita:<lb/>
+      <quote type="poetry">«Mezenti ducis exuuias»</quote>,<lb/> breuis ita,<lb/>
+      <quote type="poetry">«nemorosa Zacynthos»</quote>. <milestone unit="page"
+       n="p. 231 vol. VI Keil"/>
+     </p>
+    </div>
+   </div>
+   <div type="chapter" n="15">
+    <div type="paragraph" n="1">
+     <p> Haec de positione dixisse sufficiat. Nam quod ad naturam pertinet, licet artis praecepta
+      deficiant, primas syllabas solis confirmamus exemplis, medias in Latino sermone accentu
+      probamus, ultimas arte colligimus. </p>
+    </div>
+   </div>
+   <div type="chapter" n="16">
+    <head> De nomine</head>
+    <div type="paragraph" n="1.1">
+     <p>A terminatus nominatiuus singularis breuis est, ut ‛Musa’. E finitus in Graecis tantum
+      producitur, ut ‛Euterpe’; in Latinis corripitur, ut ‛sedile’.<lb/> I terminatus longus est, ut
+      ‛frugi’.<lb/> O finitus in Latinis breuis est, ut ‛Cato’, licet auctoritas uariet; in Graecis
+      producitur, ut ‛Dido’.<lb/> V terminatus corripitur, ut ‛cornu’. </p>
+    </div>
+    <div type="paragraph" n="1.2">
+     <p>Al finitus in his nominibus quae in genetiuo a ante ‛l’ corripiunt indubitanter breuis est,
+      ut ‛Hannibal’. In his uero quae producunt naturaliter equidem longus est, sed auctoritate
+      corripitur. Ait enim Iuuenalis in satyris: <lb/><quote type="poetry">«conducunt comites sellam
+       ceruical amicas»</quote>. </p>
+     <p> El terminatus corripitur, ut ‛mel’. Il finitus breuiatus est, ut ‛uigil’, <milestone
+       unit="page" n="p. 232 vol. VI Keil"/> excepto uno Etrusco nomine ‛Tanaquil’. <lb/> Ol
+      terminatus longus est, ut ‛sol’. <lb/> Vl finitus corripitur, ut ‛consul’. </p>
+    </div>
+    <div type="paragraph" n="1.3">
+     <p>M terminatus breuis est, ut ‛tectum’, licet arduum sit huius rei exemplum repperire, eo quod
+      haec littera semper -inter uocales deprehensa- mytacismo subtrahitur. </p>
+    </div>
+    <div type="paragraph" n="1.4">
+     <p>An finitus producitur, ut ‛Titan’.<lb/> En terminatus in neutris nominibus breuis est, ut
+      ‛carmen’. Item in alterius generis, ut ‛pecten’, ‛tibicen’, quae non sicut neutra declinantur
+      et in Graecis longus est, ut ‛lien’, ‛rien’, ‛Syren’. <lb/> On finitus longus est, ut
+      ‛Memnon’. </p>
+    </div>
+    <div type="paragraph" n="1.5">
+     <p>Ar terminatus in monosyllabis tantum producitur, ut ‛Nar’, ‛far’. Licet et in his longus
+      sit, quae ‛a’ in genetiuo ante ultimam syllabam producunt, tamen auctoritate corripitur ut
+      ‛subligar’. </p>
+     <p> Er finitus in Latinis corripitur, ut ‛puer’, excepto uno monosyllabo ‛uer’. In Graecis
+      longus est, ut ‛aer’. <lb/> Ir terminatus corripitur, ut ‛uir’. <lb/> Or <milestone
+       unit="page" n="p. 233 vol. VI Keil"/> finitus breuis est, ut ‛auctor’. <lb/> Vr terminatus
+      corripitur, ut ‛murmur’, excepto uno ut ‛fur’. </p>
+    </div>
+    <div type="paragraph" n="1.6">
+     <p>As finitus in Latinis nominibus producitur, ut ‛facultas’; in Graecis tunc tantum
+      corripitur, cum genetiuus dos fuerit terminatus, ut ‛Arcas’, ‛Arcados’.<lb/> Es terminatus in
+      Graecis nominibus longus est, ut ‛Anchises’; in Latinis, si quintae fuerit declinationis,
+      producitur, ut ‛dies’; si tertiae, tunc longus est, cum genetiuus singularis non crescit, ut
+      ‛labes’, uel, cum crescens, ‛e’ productam ante ultimam syllabam habuerit, ut ‛merces’,
+      ‛quies’; item breuiatur si ‛e’ in ‛i’ mutauerit in genetiuo, ut ‛miles’, uel breuem habeat, ut
+      ‛seges’, corripitur, exceptis his: ‛Ceres’ et ‛pes’ et quae ab ipso sunt, ut ‛bipes’,
+      ‛bipedis’. <lb/> Is finitus breuis est, ut ‛agilis’, exceptis tribus monosyllabis: ‛glis’,
+      ‛uis’, ‛lis’. <lb/> Os terminatus in Graecis tunc corripitur, cum genetiuus diphthongo
+      terminatur, ut ‛Delos’, ‛Deloy’; in Latinis tunc breuis est, cum genetiuus ante ultimam
+      syllabam ‛o’ non habuerit naturaliter longam, ut ‛os’, unde fit ‛ossis’. <lb/> Vs finitus
+      breuis <milestone unit="page" n="p. 234 vol. VI Keil"/> est, ut ‛doctus’, absque his
+      nominibus, quae in genetiuo crescentia ‛u’ productam habuerint ante ultimam syllabam, ut
+      ‛uirtus’ et uno indeclinabili, ‛pus’. </p>
+    </div>
+    <div type="paragraph" n="1.7">
+     <p>T terminatus corripitur, ut ‛caput’. </p>
+    </div>
+    <div type="paragraph" n="1.8">
+     <p>C finitus duo nomina regit tantum, ut ‛allec’, quod longum est, et ‛lac’, de cuius
+      declinatione dubitatur. </p>
+    </div>
+    <div type="paragraph" n="2">
+     <p>Genetiuus singularis in Latinis nominibus tunc tantum corripitur, cum is fuerit terminatus,
+      ut ‛matris’; in Graecis uero, cum ‛os’ finitur, ut ‛Arcados’. </p>
+    </div>
+    <div type="paragraph" n="3">
+     <p>Datiuus singularis in Latinis nominibus longus est, ut ‛Pompeio’ vel ‛fluctui’; in Graecis
+      tunc corripitur, cum ‛i’ littera terminatur, ut ‛Palladi’. </p>
+    </div>
+    <div type="paragraph" n="4">
+     <p>Accusatiuus singularis in Latinis breuis est, ut ‛doctum’; in Graecis tunc tantum
+      corripitur, cum ‛a’ uel ‛on’ fuerit terminatus, ut ‛Thesea’, ‛Delon’. </p>
+    </div>
+    <div type="paragraph" n="5">
+     <p>Vocatiuus singularis ‛a’ terminatus in Latinis nominibus uel in Graecis femininis
+      corripitur, ut ‛Musa’; in masculinis longus est, ut ‛Aenea’. <lb/> E terminatus in Latinis
+      breuis est, ut ‛docte’; in Graecis producitur, ut ‛Tydide’, exceptis his quorum nominatiuuus
+      ‛os’ terminantur, ut ‛Phoebos’, ‛Phoebe’. <lb/> ‛i’ terminatus in Latinis longus est, ut
+      ‛Mercuri’; in Graecis corripitur, ut ‛Nai’. </p>
+     <milestone unit="page" n="p. 235 vol. VI Keil"/>
+     <p> O terminatus in Latinis breuis est, ut ‛Cato’, licet auctoritas uariet; in Graecis longus
+      est, ut ‛Dido’. <lb/> V terminatus corripitur, ut ‛cornu’. <lb/> In consonantes uero desinens
+      nominatiui sequitur regulam, exceptis Graecis nominibus, quae saepe mutantur uarietate
+      linguarum, ut ‛Diomedes’. </p>
+    </div>
+    <div type="paragraph" n="6">
+     <p> Ablatiuus singularis semper producitur, absque cum e terminatus fuerit, in his scilicet
+      nominibus, quae tertiae fuerint declinationis, ut ‛ab hoc pariete’. </p>
+    </div>
+   </div>
+   <div type="chapter" n="17">
+    <div type="paragraph" n="1">
+     <p> Nominatiuus et uocatiuus plurales in Latinis nominibus cum generis fuerint masculini uel
+      feminini producuntur, ut ‛fontes’; cum neutri fuerint, breues sunt, ut ‛fata’. In Graecis
+      uero, cum ‛es’ uel ‛a’ terminati fuerint, corripiuntur, ut ‛rhetores’, ‛poemata’; alias longi
+      sunt, ut ‛Musae’. <lb/> Genetiuus pluralis in Latinis breuis est, ut ‛doctorum’; in Graecis
+      longus est, si tamen Graece fuerint declinata, ut ‛Philaenon’. <lb/> Datiuus et ablatiuus
+      plurales, cum ‛is’ terminantur, longi sunt, ut ‛doctis’; cum ‛bus’, breues, ut ‛agilibus’. At
+      si Graeca declinatio sit, ‛in’ terminatus datiuus corripitur, ut ‛Arcasin’; alias longus est,
+      ut ‛Musis’. <lb/> Accusatiuus pluralis in Latinis nominibus, cum generis fuerit masculini uel
+      feminini producitur, ut ‛doctos’, ‛Musas’; cum fuerit neutri, breuis est, ut ‛templa’. In
+      Graecis, <milestone unit="page" n="p. 236 vol. VI Keil"/> si ‛as’ fuerit terminatus et a
+      genetiuo singulari uenerit ‛os’ finito, corripitur, ut ‛Arcados’, ‛Arcadas’; alias productione
+      laetatur, ut ‛Musas’. </p>
+    </div>
+   </div>
+   <div type="chapter" n="18">
+    <head><hi rend="bold"> De pronomine</hi></head>
+    <div type="paragraph" n="1">
+     <p> Nominatiuus singularis in omnibus pronominibus corripitur, exceptis
+      duobus monosyllabis ‛tu’ et ‛qui’. <lb/> Genetiuus singularis ‛i’ uel ae terminatus longus est, ut
+      ‛mei’, ‛meae’; alias breuis, ut ‛illius’. <lb/> Datiuus singularis semper producitur, ut ‛nostro’,
+      exceptis his, ‛mihi’, ‛tibi’, ‛sibi’, quae indifferenter ponuntur. <lb/> Accusatiuus singularis
+      semper corripitur, ut ‛illum’, exceptis ‛me’, ‛te’, ‛se’. <lb/> Vocatiuus singularis rationem sequitur
+      nominatiui. <lb/> Ablatiuus singularis semper producitur, ut ‛ab illo’. </p>
+    </div>
+    <div type="paragraph" n="2">
+     <p> Nominatiuus, accusatiuus et uocatiuus plurales tunc tantum corripiuntur, cum ‛a’ fuerint
+      terminati, ut ‛nostra’. <lb/> Genetiuus pluralis semper corripitur, ut ‛illorum’. <lb/> Datiuus et
+      ablatiuus plurales, si ‛is’ terminantur, longi sunt, ut ‛tuis’; si ‛bus’, breues sunt, ut ‛quibus’.
+     </p>
+    </div>
+   </div>
+   <div type="chapter" n="19">
+    <head><hi rend="bold"> De uerbo</hi></head>
+    <div type="paragraph" n="1">
+     <p>In omnibus uerbis, modis, temporibus, numeris, personis, coniugationibus haec uniformis est
+      ratio. <lb/> A quaecumque persona terminatur, longa est, ut ‛ama’. <lb/> E quae finitur, breuis
+      est, ut ‛lege’, absque imperatiuo modo secundae coniugationis, ut ‛doce’. <lb/> I quae
+      terminatur semper producitur, ut ‛nutri’. <lb/> O quae finitur correpta est, ut ‛audio’, licet
+      auctoritas uariet: monosyllaba producuntur, ut ‛sto’ et his similia. <lb/> V quae terminatur,
+      longa est, ut ‛doctu’. </p>
+    </div>
+    <div type="paragraph" n="2">
+     <p>M quae finitur, corripitur, ut ‛legeram’. <lb/> R quae terminatur aeque breuis est, ut ‛legor’.
+      <lb/> S quae finitur, si ante <milestone unit="page" n="p. 237 vol. VI Keil"/> eam habuerit ‛a’
+      uel ‛e’, producitur, ut ‛amas’, ‛doces’, excepto uno monosyllabo ‛sum’, ‛es’, et quae ex eo figurantur,
+      ut ‛adsum’, ‛ades’. <lb/> Si uero ‛i’ ante eam habuerit, corripitur, ut ‛legis’, excepta secunda
+      persona indicatiui modi temporis praesentis numeri singularis a tertia coniugatione producta,
+      ut ‛nutris’, et a uerbo ‛uolo’, ‛uis’. <lb/> Si uero u ante eam habuerit, breuis est, ut ‛nutrimus’.
+      <lb/> T quae terminatur breuis est, ut ‛legit’. <lb/> C quae finitur producitur, ut ‛produc’. </p>
+    </div>
+   </div>
+   <div type="chapter" n="20">
+    <head>
+     <hi rend="bold"> De aduerbio</hi></head>
+    <div type="paragraph" n="1">
+     <p> Aduerbia monosyllaba, ut ‛hic’, uel quae ex his fiunt, ut ‛illic’, exceptis duobus his, ‛bis’ et
+      ‛ter’, omnia producuntur. <lb/> Quae ‛a’ finiuntur, longa sunt, ut ‛una’. <lb/> Quae in ‛e’
+      desinunt, omnia producuntur, ut ‛docte’, exceptis his quae aut non comparantur, ut ‛rite’, aut
+      comparationis regulam non seruant, ut ‛bene’, ‛male’, aut a se originem ducunt, ut ‛impune’. <lb/>
+      Quae ‛i’ finiuntur, longa sunt, ut ‛heri’, absque ‛ibi’ et ‛ubi’ et quae figurantur ex ipsis, ut
+      ‛sicubi’. <lb/> Item quae ‛o’ terminantur, a se orta breuia sunt, ut ‛modo’; ab aliis originem
+      ducentia producuntur, ut ‛falso’, licet auctoritas uariet in utroque. <lb/> Quae ‛u‛ finiuntur
+      longa sunt, ut ‛noctu’. <lb/> Quae ‛l’ terminantur correpta habentur, ut ‛semel’. <milestone
+       unit="page" n="p. 238 vol. VI Keil"/>
+      <lb/> Quae m et n et r finiuntur, breuia esse constat, ut cursim, forsan, fortiter. <lb/> Quae
+      s terminantur tunc tantum producta sunt, cum ante eam a habuerint, ut foras. <lb/> Quae ‛c’
+      terminantur, producta sunt, ut ‛illuc’. </p>
+    </div>
+   </div>
+   <div type="chapter" n="21">
+    <head><hi rend="bold"> De participio</hi></head>
+    <div type="paragraph" n="1">
+     <p>Omnium nominatiuus participiorum breuis est in numero singulari, ut ‛lecturus’. </p>
+     <p> Genetiuus et datiuus singularis productione gaudent, ut ‛lecturi’, excepto participio
+      praesentis temporis, quod in genetiuo corripitur, ut ‛amantis’. <lb/> Accusatiuus singularis et
+      uocatiuus breues sunt, ut ‛lecturum’, ‛lecture’. <lb/> Ablatiuus singularis tunc tantum
+      corripitur, cum ‛e’ fuerit terminatus, ut ‛ab hoc legente’. <lb/> Nominatiuus, accusatiuus et
+      uocatiuus plurales, sicut in masculini et feminini generis participiis producuntur, ut
+      ‛lecturi’, ‛lecturos’, ‛lecturae’, ‛lecturas’, ita corripiuntur in neutris, ut ‛lectura’. </p>
+     <p> Genetiuus pluralis breuis est, ut lecturorum. <lb/> Datiuus et ablatiuus plurales, si ‛is’
+      terminantur, longi sunt, ut ‛lecturis’; si ‛bus’, breues sunt, ut ‛amantibus’. </p>
+    </div>
+   </div>
+   <div type="chapter" n="22">
+    <head>
+     <hi rend="bold"> De coniunctione</hi>
+    </head>
+    <div type="paragraph" n="1">
+     <p> Copulatiuae ‛et’ disiunctiuae ‛vel’, expletiuae ut ‛quidem’ coniunctiones breues sunt. <lb/> De
+      causalibus et rationalibus quae ‛a’ terminantur, exceptis ‛ita’ et ‛quia’, longae sunt, ut ‛propterea’,
+      ‛interea’. <lb/> Quae ‛i’ terminantur, excepta una ‛nisi’, producuntur, ut ‛si’, ‛etsi’. <lb/> Quae in
+      ‛n’ <milestone unit="page" n="p. 239 vol. VI Keil"/> desinunt, si ‛i’ ante eam habuerint,
+      producuntur, ut ‛sin’; alias breues sunt. <lb/> Ceteras uero omnes naturaliter correptas constat
+      esse. </p>
+    </div>
+   </div>
+   <div type="chapter" n="23">
+    <head><hi rend="bold"> De praepositione</hi>
+    </head>
+    <div type="paragraph" n="1">
+     <p> Accusativae praepositionibus solae quae in ‛a’ exeunt productione laetantur, ut ‛contra’, et
+      una monosyllaba ‛cis’. <lb/> Ablatiuae praepositiones corripiuntur omnes, ut ‛ab’, exceptis
+      monosyllabis, quae uel ex uocalibus constant, ut ‛e’, uel uocalibus terminantur, ut ‛de’. <lb/>
+      Communes praepositiones correptas esse manifestum est, ut ‛in’. <lb/> De loquellaribus autem
+      praepositionibus ideo taceo, quia nec solae umquam ponuntur nec coniunctae finem retinent.
+     </p>
+    </div>
+   </div>
+   <div type="chapter" n="24">
+    <head>
+     <hi rend="bold"> De interiectione</hi>
+    </head>
+    <div type="paragraph" n="1">
+     <p> Omnes interiectiones longae sunt, si monosyllabae fuerint, ut ‛heu’. <lb/> Si uero duarum uel
+      amplius syllabarum, quoniam speciem iam partium orationis retinent, ad exemplum earum quibus
+      similes erunt iudicandae sunt, ut ‛papae’, ‛attat’. </p>
+    </div>
+   </div>
+   <div type="chapter" n="25">
+    <div type="paragraph" n="1">
+     <p> Haec itaque, ut dixi, ad omnes partes orationis in ultimis syllabis obseruanda sunt,
+      exceptis scilicet positione longis uel diphthongis, quae per se admodum patent. <milestone
+       unit="page" n="p. 240 vol. VI Keil"/>
+     </p>
+    </div>
+   </div>
+   <div type="chapter" n="26">
+    <div type="paragraph" n="1">
+     <p>
+      <milestone unit="row" n="riga 2 vol. VI Keil"/> Caesurae sunt quattuor, penthemimeris,
+      hephthemimeris, cata triton trochaeon, bucolice ptomen. </p>
+    </div>
+    <div type="paragraph" n="2">
+     <p> Penthemimeris est, ubi post duos pedes inuenitur semipes, qui uersum diuidat et partem
+      orationis finiat, ut <lb/><quote type="poetry">«arma uirumque cano»</quote>. </p>
+    </div>
+    <div type="paragraph" n="3">
+     <p> Hephthemimeris est, ubi post tres pedes inuenitur syllaba: ut <lb/><quote type="poetry"
+       >«arma uirumque cano Troiae»</quote>.</p>
+    </div>
+    <div type="paragraph" n="4">
+     <p> Cata triton trochaeon est, ubi tertio loco inuenitur trochaeus, non quod in medio uersu
+      esse possit trochaeus, sed sublata ultima ima de dactylo syllaba remanet trochaeus. </p>
+    </div>
+    <div type="paragraph" n="5">
+     <p> Bucolice ptomen ornatus causa addita.</p>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>

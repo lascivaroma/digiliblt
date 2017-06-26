@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Epitome anonyma (quae gynaecia uocatur) recensio M</title>
+    <author>Vindicianus</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Chiara Miglietta</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2016</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000000</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Theodori Prisciani Euporiston libri III</hi>, cum physicorum fragmento et additamentis pseudoTheodoreis, editi a Valentino Rose; accedunt Vindiciani Afri quae feruntur reliquiae Lipsiae 1894, pp. 428-463 (Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana).</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    <p><hi rend="bold">Modifiche apportate al testo dell'edizione di riferimento </hi></p>
+    <p>Si è corretto al cap. 28 l'errore di stampa "causa[id]" in "causa [id]".</p>
+
+    <p><hi rend="bold">Note di trascrizione e codifica specifiche del file </hi></p>
+    <p> I numerali espressi con lettere in pedice sono stati annotati come simboli.</p>
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+   <charDecl>
+    <char xml:id="char1">
+     <charName>o in pedice</charName>
+     <desc>littera cum o in pedice</desc>
+    </char>
+
+    <char xml:id="char2">
+     <charName>or in pedice</charName>
+     <desc>littera cum or in pedice</desc>
+    </char>
+    
+    <char xml:id="char3">
+     <charName>a in pedice</charName>
+     <desc>littera cum a in pedice</desc>
+    </char>
+    
+    <char xml:id="char4">
+     <charName>us in pedice</charName>
+     <desc>littera cum us in pedice</desc>
+    </char>
+    
+   </charDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+  
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div type="pr" n="pr"><p>Omne opus medicine quod in hoc volumine contuli propter hominem describere statui. Incipimus igitur amborum qualitate et quibus ossibus, quibusve nervis, quibus conpaginibus homo contineatur placuit tibi exponere. Maioribus enim auctoribus hoc est prioribus in Alexandria agentibus medicinam id est Rufo et Philippo, Lupo et Arasistrato, Pelope et Ereophilo, Hypocrate et Apollonio et ceteris anathomicis licuit mortuos exenterare, ut scirent, unde vel quomodo morerentur. Sed hoc nobis facere iam non licet, quia prohibitum est et ideo de hoc ratio redditur, quibus commissuris contineamus, quibus ossibus, articulis vel quibus venis. Principium omnium menbrorum accipiamus.</p></div>
+   <div type="cap" n="1"><p> Antie sunt cincinni dependentes prope auriculas greco vocabulo ab auribus. Cincinni sunt cornua id est reflexiones comarum vel cristarum. Cincinnus qui et cirrus est revolutus capillus et reflexus. Hic cirratus id est congeries capillorum. Come proprie sunt non caesi capilli et est grecus sermo. Nam Greci comas camos a secando nominant. Vnde et scirin tondere dicunt, a quo cirri vocantur, quod et Greci mallonem id est comam vocant. Crines proprie mulierum sunt dicti quod discernantur vitiis id est dividantur et discriminentur. Cesones et cesares appelati, qui ex secto matris utero eximuntur. Vnde et cesar dictus, quod ceso mortue matris utero prolatus eductusque fuerit vel quia cum cesarie natus sit, a quo et imperatores sequentes cesares dicti<del>s</del> sunt eo quod comati essent. </p></div>
+   <div type="cap" n="2"><p> Constat homo ex speciebus XIIII, id est nervis, venis, ossibus, arteruis, sanguine, spiritu, carne, adipe, cartilagine, capillis, augmento, medulla et membrano. Exhalationes autem in nobis sunt X, quarum prima est ventris, II. urinarum, IV. sudor, V. sputamina, VI. pro invisibilibus temporibus, VII. veneris operatio, VIII. narium, VIIII. oculorum, X . aurium. In mulieribus vero sunt XII. lactis officia et menstruorum emanatio. Constat autem omne corpus hominis ex V sensibus et ex ossibus CCXXVIII. Horum autem coniacent aliqua per articulos, aliqua per commissuram, aliqua per sparsuram et per confossos dentes. </p></div>
+   <div type="cap" n="3"><p> Caput quoque nostrum scisuras habet V. angulosas alterutrum se continentes ossa VI scemata vel ut coronam in circuitu comissuras habet, cui superposita est galea, quae coheret membrana et superposita est illi cutis, quae habet capillos non causa decoris, sed ut ab estu et frigore oculos custodiret. Vbi ergo galea est, subiacent tympora, quae continentur spiritualibus venis cere<del>le</del>bri, quia superposita supercilia pilis vestita, ut, si copiosus sudor frontis superadvenerit, opposita pilorum statione contineatur, donec extensus ab oculis sudor auferatur. </p></div>
+   <div type="cap" n="4"><p> Oculi quoque isto scemate continentur. Ex vase cerebri duo foramina orta sunt, per quae tenuissime vene dextra levaque invicem sibi continentes. Tunicas habet IIII vel V. Prima tunica dicitur cerotoides, II. croides, III. honoroides, IIII. discordes, V. cristelleidos. Superposita sunt ossa oculis, quae alas vocamus. </p></div>
+   <div type="cap" n="5"><p> Facies quoque nostra habet ossa VII. Dentes vero, qui econtra sunt, divisores vel incisores dicuntur, qui autem tertiores sunt, molare dicuntur, eo quod ad frangendum illos habemus. Qui autem ante molas cedunt, IIII sunt, quos cino dentes appellamus, id est caninos. Dentes habent viri XXII, muli<supplied>er</supplied>es vero X X, de quibus auctor Appoloni<supplied>u</supplied>s memorat dicens: Gemini dentes usque ad caninos singulas habent radices. Dentes nostri, qui molares dicuntur, habent ternas vel quaternas radices. Dentes nostri non habent ossa, sed neque medullas habent. Ideo omnia confringunt, sed assiduus humor capitis veniens vitiat. Sicut enim assiduus liquor ex alto in saxum cadens perforat, ita et dentes vitiantur a capite. </p></div>
+   <div type="cap" n="6 "><p> Palato lingua subiacet, cuius radix cooperit cannulam spiritualem, cum qua loquimur. Clauditur, cum manducamus. Quomodo hoc probare possumus cum forti cibo vel potu utimur et risus occurrit et ex supra dicto cibo spiritualis cannula aliquid contingerit cum aperitur, statim tussis consequitur, donec implente spiritu illud reparet ac in propria iterum revocet. </p></div>
+   <div type="cap" n="7"><p> Huic lingue dextra levaque parte tuselle sunt posite. Quod autem superpendet lingue, uva dicitur, per quam caverne sunt due, quibus fit infusio vel raptus. </p></div>
+   <div type="cap" n="8"><p> Nares quoque supra dictis cavernes inferunt. Per easdem usque ad cerebrum tendunt. Deinde eiusmodo altitudo id est palatus, qui uranicus dicitur, intra quod lingua posita est, quae dicuntur ad glutiendum et ad deferendum sermonem adiuvantibus etiam contrapositis dentibus. Cuius natura est vasculosa membrana et aspera et contracta. Hoc autem in febribus manifestum fit. </p>
+    <p>Est etiam et saporis sensibilis. Ad rationem vero eius posita est lingua breviorum, quae os glossis dicitur custodiendi cura et ibidem servant saporem potantibus no<supplied><gap/></supplied> vescentibus. Fauces autem desuper adiacent. Vva<supplied>m</supplied> Greci cionulam vel gargareon dicunt. </p></div>
+   <div type="cap" n="9"><p> Aures vie sunt auditus. Sicut rerum natura composuit ad cerebrum et a cerebro descendentes facient exhalati<supplied>o</supplied>nem. </p></div>
+   <div type="cap" n="10"><p> Coniungitur autem gula pulmoni. Pulmo vero in modum fabri et follis est constitutus, alter alteri spiritum trahens et implet pectoris archana. </p></div>
+   <div type="cap" n="11"><p> Superpositum est caput humeris. Collum habet spondulas VII, dorsum XII, lumbos IIII, palas II, pectora II, brachia II. Qui vero his subiacent, cubiti sunt. Digiti mannuum V. Primus pollex dicitur, quem Greci achir vocant, secundus index, quem Greci lychanon dicunt, tertius impudicus, IIII. medicus, quem iatreon appellant, V. auricularis. </p></div>
+   <div type="cap" n="12"><p> Ossa in humano corpore CCXXVIII(I), alii dicunt C<supplied>C</supplied>XXV , in mulieribus C<supplied>C</supplied>XXVII, in fridiscos autem C<supplied>C</supplied>XXVII. Acrocheriorum ossa XVI, sesquitalis, qui minuti dicuntur XXVIII, coste XXIII, mulierum XXV, coxarum II, femorum II, geniculorum II, tibiarum II, diaperani dicuntur, alii vero II tibie dicuntur. Pedum autem sunt ossa XXVIII, calcaneorum et taleorum sunt ossa VI. Digitis quinis cum ipsa ratione ossuorum designada sunt. </p></div>
+   <div type="cap" n="13"><p> Pulmo vero habet pennulas IIII, quibus contegitur cor, cuius dextra levaque foramina II, quae aures vocantur, praeinvolutis propriis membranis, quod precors vocamus. Quando unum ex foraminibus clauditur, oblivionem facit, quando utrumque, sonum. Cor vero venas habet IIII. </p>
+    <p>Duas, quae spiritum continent et sunt pulmoni affixe, quarum facta catenatio totum corpus infunditur sanguis et sic vene pulsum reddunt. Pulsus ita nutritur, modo recipiunt sanguine<supplied>m</supplied> vene. Idcirco positum, quod Greci pericardian dicunt, cingens extremas partes pulmonis, ubi supposita sunt praecordia, quae continent pulmonem. </p></div>
+   <div type="cap" n="14"><p> Epar autem habet pennulas IIII, cuius sup<supplied>er</supplied>iorem gibbata Greci critam vocant. Inferiorem vero partem, quam morestriris seu sima dicunt et usque ad interiores spatias nominant, sicuti et pulmonem spatia serangi appellant. His apparet fellita vesica. </p></div>
+   <div type="cap" n="15"><p> In sinistro latere splen obmerito scemate ad longum pertingens usque ad sinistrum renem, aliquaudo malignorum induratus <supplied>h</supplied>ydropicum aut lientericum facit. </p></div>
+   <div type="cap" n="16"><p> Stomachus autem ventri est coniunctus, qui inter spinam pulmonum medius possidet, inducias habet usque ad os ventris, quod est spatium cubitorum IIII. In aliquibus vero V inveniuntur. Hec omnia diafragma concludit, quod quidem inferiorem, vocant ventrem, quod pelistus dicitur, cui succedit postea<del>m</del> <supplied>h</supplied>onestum gracileque intestinum, quod etiam super umbilicum positionem habet, mensuram autem continens cubitis VIII, ad quod etiam cecum intestinum uncium habet, quod Greci typhlon entoroon vocant. Positum est autem super dextrum inguinum propter quod frequentius entero celli fiunt, quod later ramice dicitur, cui etiam culus iungitur, quod quidem, ut diximus, inferiorem vocant ventrem. Conjacet autem in dextra parte circa iecur, cuius inferior pars longa, quod nos anus dicimus, cingens dextra<supplied>m</supplied> parte<supplied>m</supplied> renum. </p></div>
+   <div type="cap" n="17"><p> Renes vero inferiori pinne ad<supplied>h</supplied>erent, quibus ab epate unicuique m<supplied>e</supplied>atus locianeis inherent, qui dextra levaque vesice coniungitur. Vesica vero posita est subter pectinen nervosa<supplied>m</supplied>, quam renes continent mediam utriusque, ex quibus renibus decurrit urina in urinali veretro. In sinistra vero parte positum splen longo ventri coniunctum, continens membrana, habens pinguissimas venas, quae intestina tegunt et calefaciunt roboes, extensa usque ad renum sinistrum. Subiacet autem sub hoc intestinum. Huic subiunctus est locus continens longaonem, qui coniunctus est vesice, idem collum longum, qui veretro inest et decurrit ad testiculos, quibus iuncte sunt vene tenuissime. </p></div>
+   <div type="cap" n="18"><p> Sperma dicitur a cerebro oriri atque ex medulla spinae. Est enim liquor in cibis, ex corporis decoctione factus, sic diffusus per venas atque medullas, quod inde sudat in modum sentine concrescit in rebus eiectusque per coitum et in utero mulieris susceptus calore quodam modo viscerum et menstrualis sanguis et ex flegmate, quod in renibus habitat, et ex affectione occurrit sanguis et semen reddit. Et invenerit menstruam rubeam, puerum concipit de iactu. Si in albo caloro invenit, puellam generat. Si ambo pari pondere habuerit humores, de uno iactu puerum et puellam concipit. </p></div>
+   <div type="cap" n="19"><p> Barba et capilli et ungule nascuntur ex calidid<supplied>ate</supplied> corporis et dulcedine sanguinis. Infridisci autem, qui barbam non mittunt et hi, qui calvi fiunt ex contritione humoris melancolici, pilos non mittunt et flegmatici erunt. Si maior pars in capite habuerit ex coleribus nigris, capillos non mittunt et quia ubi plus valuerit, ibi infirmitatem ostendit. Feminis quoque testiculos esse manifestum est, sed alio scemate sunt formati quam viris, quia mulierum testiculi breviores et fragiliores sunt. Namque qui maiores habent, v<supplied>ira</supplied>gines appellantur. Igitur manifestum est una viris ac mulieribus internis viscera conpaginata laniamenta. Sed multe sunt tunice testiculis virorum. Prima, quae dicitur to<supplied>H</supplied>ades, II. pergnoides, III. pericon, III<supplied>I</supplied>. vero tenuissima dicitur arcos. </p></div>
+   <div type="cap" n="20"><p> Similiter et mulieris matrix habet subiecta membrana, quibus contegitur, quae Greci gyneton vocant. Alam ut est masculo veretrum, ita est matricis columna. Mulieribus matrix posita est in iliorum spatio. Est enim naturaliter fragilis et mollis, constans per nervis et parvissimis venis, cuius collum iungitur in ano et collo vesice, cuius novissima pars pinnacula dicitur, quam Greci tetrigomata dicunt. Est autem tunicis duabus, firma exterius, nervosa interius, carnosa et mollis, cui cervix tribus foraminibus erigitur usque ad longaonem. Sinistra vero est matricis, in qua sperma miscetur et conceptio celebratur natura volente, id est viri semine et mulieris sanguine quamvis et virile semen sanguis noscatur esse. Vnde et maiores consanguineos appellarunt, consanguinitate paternali et maternali. Nam dicitur ab impertis, quomodo spuma sanguis esse potest, cum sit alba. Nos autem illud certa ratione probamus. Mare etenim, ut ei natura tribuit, est coloris viridis. Quando autem tempestatibus movetur, spumam albam emittit. Velut sanguininum, in quolibet vasa exagitetur, spumam candidam facit, simili vero ratione et sanguis in albitudinem vertitur. Dum enim conceptio fit, statim revertitur in sanguinem et formatur infans. Nam, si quotiens coitus fit, toties conceptio fieret, innummerabilis esset multitudo filiorum. Certo enim tempore concipit mulier, aut in initio purg<supplied>a</supplied>tionis aut in fine. Nam purgatione sperma corrumpitur plurimis sanguinis usu materia superante. Temporibus autem certis qualiter infans componatur aut formetur in utero, manifestum est. </p></div>
+   <div type="cap" n="21"><p> Omnis enim figura formatur in XL diebus et motum facit aliquando in diebus XXX , alie XC<g ref="#char1"/> die faciunt motum. Qui vero in XXX diebus formatur, in VII<g ref="#char1"/> mense nascitur, qui autem in XL diebus formatur, in VIIII<g ref="#char1"/> mense nascitur. Manifestum est enim infantem in utero materno informari. Primo enim mense iactus seminis congregatur in umbilico et facit rem in concipere et die IIII<g ref="#char1"/> sperma accipere. Secundo mense expositio corporis animam tribuens, tertio mense ungulae atque capilli nascuntur et motum facit infans. Ideoque III. mense mulieribus nausie fiunt, quod Greci anaraxin vocant. Quinto mense facit caracteres, id est, nodos atque genitalia demonstrat. VI. mense facit nervorum consummationem, VII<g ref="#char1"/> medullam confirmat, VIII<g ref="#char1"/> cum periculis ossa confirmat, VIIII<g ref="#char1"/> mense matura movet infantem natura in utroque seu capilli cumgerminantur, mater languet sitque plenilunio auctior egritudo. Nascentibus pleni limiam nocet. Cum salsiores escas capit gravida, pene ungulis caret partus. Femina cum proximat partui sperma retinere plurimum congruit quam letali mora oscitatio suspendit puerperia et longos dolores habet, nec cito parit. Qui nascuntur in pedibus dolores habent et alia p<supplied>l</supplied>ura adversa paciuntur. Qui celerius pari ceperint, tardius egredi incipiunt. Infantis innascendo nulla auditur vox, antequam totus emergat. </p></div>
+   <div type="cap" n="22"><p> Homo genitus premitur somno per aliquos menses, deinde longior in dies vigilia somniat. Nam statim infans pavore expergiscitur et luctum imitatur, quidam vero nunquam nisi quibus signum mortis est. </p></div>
+   <div type="cap" n="23"><p> Primum autem cor hominis fingi dicitur, ut in eo provida sit omnis sapientia, deinde sicut dictum est XL<g ref="#char1"/> die totum corpus expleri. Alii fetus a capite dicunt exordium sumere et inde per sacram spinam, quae est ima perpetue spine, quando primo infante concepto nascitur, ideoque pro<del>h</del>ostia primum a gentilibus diis immolabatur, unde sanctus spina dicitur. Lavibus primum caput, sed in piscibus oculi creantur. Fetus autem dictus, quod adhuc in utero foveatur, cuius secunde dicitur folliculus, qui simul cum infante nascitur continetque eum dictusque, quia, cum egreditur, sequitur. </p></div>
+   <div type="cap" n="24"><p> Nasci autem patribus similes, si paternum semen sit validius, matrum, si matris iactus similes exprimit vultus. Qui autem utriusque parentum reddunt figuram, equali mixto paterno maternoque semine concipiuntur. Avorum proavorumque nascis similes non est mirum, quia sicut in terra multa semina occulta, sie et in nobis semina celantur figuras parentum reddituras. Sic de Theodosias imperatore factum est, qui de Traiani imperatoris stirpe fuit et post plurimos annos genitus eiusdem imperatoris simillimus fuit. </p></div>
+   <div type="cap" n="25"><p> Infans masculus in parte dextra matricis continetur, femina in sinistra. Guttam lactis in aquam pensilem exprime, si nataverit, puellam, si merserit puerum aliunt. Si masculus, mater rubicunda est, si femina, pallet et bene rubet in puero, quia calidor est puella. Viri et mulieris nomina litteraliter iunge, si pares sunt littere, masculum pariet mulier. Item pueri nati et matris nomina simili modo iuncta sexum futuri partus indicant, ut praedictum est. Sed quando sit in feminea parte conceptus aliquis, in se habet femineum, supra quod decus virili patiatur, id est vel formam insignem vel nimium candorem vel corporis levitatem vel artus delicatos vel staturam brevem vel vocem gracilem vel animum imbecillum vel ex his plura adsunt, extra parte uteri semen viri fluxerit, quod ad femina procreatur. Quia in masculina parte concepta est, habet in se aliquod virile, ultra quod sexus rationis permutat aut valida membra aut inmoderatam longitudinem aut nigrum calorem aut inspidam faciem aut multum indecorem aut vocem robustam aut animum audacem aut ex his plura. Si vero masculinum semen in dextra<supplied>m</supplied> uteri parte<supplied>m</supplied> pervenerit, masculus nascitur, qui per omnia nature sue virilem habebit decorem. Si autem masculum semen in sinistra<supplied>m</supplied> uteri ceciderit, masculinum gigni manifestum est. Similiter, si femineum semen in sinistra<supplied>m</supplied> parte<supplied>m</supplied> uteri pervenerit, femina nascitur, que per omnia nature sue habebit decorem muliebrem. Ex paterno semine pueros nasci et ex materno puellas, quia omnis partus in duplici constat semine, id est ex paterno maternoque. Cuius pars maiori valuerit, occupat similitudinem sexus. Nam et haec signa procedere solent praegna<supplied>n</supplied>tibus quod, si masculinum conceptum habuerit, faciem robustam habet, quod, si femina pallida erit et lentiginem in facie habebit, crura quoque langida et tarda. Si mulier in mamilla dextra quasi modicum tumorem habuerit aut modicum duriciam, puella praegnans est. Si ambabus parem pondus duritie, habebit geminos, si vero ante partem in ipsa duricia lac fundit, si gereat, ut abortivum faciat. </p></div>
+   <div type="cap" n="26"><p> Dum ergo infans in utero materno est, oculi genibus sunt impositi, unde probamus hoc, nisi quia genua sunt tumentia, oculi autem sunt cavi. Incognita rerum natura imposuit genua et genas. Quandocumque acri dolore vel iniuria percussus homo fuerit et genua curvaverit, oculi continuo lacrimantur. Non vult eos natura oblivisu societate gemina. </p></div>
+   <div type="cap" n="27"><p> Dentes sunt org<supplied>a</supplied>na lingue. Infans denique, qui adhuc dentes non habet, vagit, dum vero duos vel IIII<g ref="#char2"/> habuerit, musitat, dum vero os dentibus replet, loquitur. Femina vero in circuitui tantum quia commissuras in capite non habet. Vnde agnoscitur calvaries superposita, quae Grece mekena dicitur. </p></div>
+   <div type="cap" n="28"><p> Oculi continentur a duobus nervulis, qui oriuntur per duo foramina a cerebro venientibus, per quae tenuissime vene aperte ex dextra in sinistram et ex sinistra in dextram oculorum complent spatia. Ipsa autem oculi volvi appellantur, quia duobus nervulis continentur. Et hic, qui a dextra eminet, in sinistram dirigitur et qui a sinistra in dextram et veluti duos nodolos faciunt et implent quendam concavum locum. Volvi autem ipsi continentur ex tunicis IIII vel V, quorum prima palpebrum, quae grece bleferon appellatur. Nam ipsis oculis propria prima tunica est ceratoides dicta, II<g ref="#char3"/> ragoidis, III. menoydis, IV. christalloydis. Humores autem oculorum sunt tres, qui supra scriptis tunicis continentur, quorum primus liquor aquosus sive vitreus luciditatis causa <del>id</del> est, II<g ref="#char4"/> cristallinus, III<g ref="#char4"/> velodes, quem nos gelidum dicere poterimus. </p></div>
+   <div type="cap" n="29"><p> Supposita sunt oculis ossa, quae genas vocamus, quibus coheret paranomen id est excedentium. Palatum grece uranos dicitur, cui subiacet lingua, cuius radix grece epiglossis dicitur, coperiens canalem spiritualem et stomodum, quod petaurum dicimus. Aperit autem spiritualem, cum loquimur, claudit, cum manducamus. Vnde, hoc scire possumus, quando inter epulas risus nascitur, tunc in hoc canali inconsuetum si aliquid ex cibo vel potu ei inheserit, statim tussis insequitur, donec impellente spiritu illud ex cibo, quicquid inheserat, expellatur. Huic lingue epiglossi dextra atque sinistra tuselle sunt posite. Praependet autem uva super duos canales, unus per quem cibus et potus in os ventris, id est in stomachum descendit, alius spirit<supplied>u</supplied>alis, per quem spiritus datur et accipitur. </p></div>
+   <div type="cap" n="30"><p> Spine autem stomocus iungitur, gurgulio pulmoni. Pulmones autem inmodum fabri folles sunt, alter alteri spiritum tradit et adimplent pectoris locum. Nam stomachus ventri est iunctus. Inter duas spinas pulmones sunt. Inter eos cor positum est. </p></div>
+   <div type="cap" n="31"><p> Cor autem nostrum IIII venas habet, duas spirituales et duas sanguinales. Spirituales spiritum pulmoni dant et accipiunt. Sanguinales vero alunt iecur, quod grece epar dicitur, per quas per totum corpus facta concatenatione venarum sanguis diffunditur et sic vene pulsum reddunt. Pulsus autem nutritur sic, dummodo vene recipiunt sanguinem, modo reddunt. Cor autem iunctum est pulmoni in sinistra parte inclinatum, sub sinistra mamilla positum est, quod Greci perycardian vocant, cingens extremas partes pulmonis, ubi posita sunt praecordia, quae Greci dyaphragma dicunt, continens pulmones et cor. </p></div>
+   <div type="cap" n="32"><p> Subiacet autem his venter et intestinum, concingentes lattera. Venter autem habet orificia II<g ref="#char1"/>, unum proximum quod Greci praecardian dicunt, in sinistra parte inclinatum, quod Greci pleuor vocant, aliud vero in dextra parte circa iecur positum est, quod Greci longaon vocant, ilia concingens in dextra parte et, iecori inherens. </p></div>
+   <div type="cap" n="33"><p> Splen vero positus est in sinistra parte, oblongus et coniunctus ventri, continens membranum tenue habentem pinguedinem, quae intestina tegit et calefacit, quod Greci epiplon dicunt, nos vero omentum dicimus, extensum usque ad ilia. </p></div>
+   <div type="cap" n="34"><p> Proxime renes sinistre subiacent parti. Sub hoc iacet intestinum, quod Greci mesten vocant. Sub hoc est intestinum tenuissimum, quod Greci trifloren vocant. Sub hoc est collum continens longaonem, clunes vocate, quae sint iuxta culum, quod est longaon. </p></div>
+   <div type="cap" n="35"><p> Longaoni iuncta est vesica, habens collum coniunctum virge, que continetur in collo vesice. Vesica autem inter duos renes continetur et decurrentes sunt vene in circuitu vesice, perquas venas humor poticus concretus vesicam lotio adimplet. Coniuncti vesice dextra levaque nervi II<g ref="#char1"/>, qui testiculos continent. Hos Greci cremastirin vocant. Illis iuncta sunt foramina, per quae tenuissimae vene a spina in medullares testiculos crementum, id est semen viri administrant, quas venas Greci poros spermaticos dicunt. Mulier autem vulvam habet. Testiculi nervi tunicas habent IIII. Prima dicitur ipsotrordes, II perinitoides, III tatoides, IIII est tenuissima, quae datossis dicitur. Similiter et vulva habet tunicas II firmissimas, prima, quam Greci ginecion vocant, II colfan. Et sicut masculi est virge, sic et vulve collum et est aforis vulva nervosa et intus carnosa. Huic vulve collus directus positus est, cuius cervix erigitur, usque ad locum, in quo res veneris perficiuntur. </p></div>
+   
+  </body>
+ </text>
+
+</TEI>

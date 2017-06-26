@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Scholia in Statii Achilleida</title>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2015</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000463</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p>Lactantii Placidi <hi rend="italic">In Statii Thebaida commentum. Volumen I. Anonymi In
+      Statii Achilleida commentum. Fulgentii ut fingitur Planciadis Super Thebaiden
+      commentariolum</hi>, recensuit R. D. Sweeney, Stutgardiae et Lipsiae 1997 (Bibliotheca
+     Scriptorum Graecorum et Romanorum Teubneriana).</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+
+   <div type="schol" n="1-2">
+    <p> FORMIDATAMQVE TONANTI / PROGENIEM cum Iuppiter cuperet Thetidem suo coniugio sociare,
+     uetuerunt decreta Parcarum. Quae dixerunt prolem quae nata fuisset uim caelo impellere. Ideo
+     ait formidatam.</p>
+   </div>
+   <div type="schol" n="3">
+    <p> VIRI Achillis.</p>
+   </div>
+   <div type="schol" n="3-4">
+    <p> CANTV / MAEONIO Homerico. </p>
+   </div>
+   <div type="schol" n="5">
+    <p> SCYRO insula ubi Achilles fuit absconsus. </p>
+   </div>
+   <div type="schol" n="6">
+    <p> DVLICHIA (... TVBA) Graeca. PROFERRE publicare. </p>
+   </div>
+   <div type="schol" n="6-7">
+    <p> NEC IN HECTORE TRACTO / SISTERE tacere. Homerus enim usque ad mortem Hectoris descripsit
+     Iliados et tacuit. Vnde superius: </p>
+    <l>‘cantu Maeonio, sed plura uacant’.</l>
+    <p> Vnde et Virgilius:</p>
+    <l>‘uidet Iliacas ex ordine pugnas’</l>
+    <p> id est: non usque ad mortem Hectoris sed usque ad excidium Troiae pictas. Pugna enim
+     Amazonae quae in auxilium Priami uenit post defunctum Hectorem fuit.</p>
+   </div>
+   <div type="schol" n="7">
+    <p> DEDVCERE describere. </p>
+   </div>
+   <div type="schol" n="8">
+    <p> TV MODO inuocatio. </p>
+   </div>
+   <div type="schol" n="10">
+    <p> AONIVM NEMVS Thebanum. Mons enim Boeotiae est, cognominatus hoc nomine ab Aone, filio
+     Neptuni, Musis consecratus. </p>
+   </div>
+   <div type="schol" n="12">
+    <p> DIRCAEVS (AGER) Thebanus. Dirces enim regina fuit, nouerca Zethi et Amphionis, quam propter
+     iniuriam matris Antiopes priuigni Zethus et Amphion religauerunt tauris ferocibus et ita
+     traxerunt. Quae misericordia deorum in fontem mutata est, qui Dirces nominatur. </p>
+   </div>
+   <div type="schol" n="13">
+    <p> CVMQVE SVO NVMERANT AMPHIONE THEBAE Zethus et Amphion, Iouis et Antiopae filii: Zethus
+     rusticus, Amphion musicus. Amphion citharam a Mercurio meruit, cuius dulcedine dicitur muros
+     struxisse Thebanos. </p>
+   </div>
+   <div type="schol" n="20">
+    <p> SOLVERAT narratio. </p>
+   </div>
+   <div type="schol" n="20-21">
+    <p> (PASTOR) / DARDANVS Paris. Pro ‘Dardanius’. </p>
+   </div>
+   <div type="schol" n="21">
+    <p> INCAVTAS BLANDE POPVLATVS (AMYCLAS) argute depraedatus. Legitur in historiis quod Troiani
+     cum Graecis foedus habuerunt, unde etiam Paris est susceptus hospitio et sic commisit
+     adulterium. Ideo ait blande. Quod autem dicit <hi rend="expanded">populatus</hi>, historiam
+     tangit. Hercules cum expugnato Ilio filiam Laomedontis Hesionam, Priami sororem, Telamoni
+     dedisset, profecti sunt legati a Priamo et eam minime repetere potuerunt illis dicentibus eam
+     se habere iure bellorum. Vnde commotus Priamus misit Paridem cum exercitu ut aliquid tale
+     committeret aut in uxorem regis aut in filiam. Qui expugnata Sparta Helenam rapuit. </p>
+   </div>
+   <div type="schol" n="22">
+    <p> PLENAQVE MATERNI REFERENS PRAESAGIA SOMNI Hecuba filia secundum Euripidem Cissei, quem
+     Ennius, Pacuuius, et Virgilius secuntur. Vnde idem Virgilius:</p>
+    <lg>
+     <l part="Y">‘nec face tantum</l>
+     <l>Cisseis praegnans ignis enixa iugalis’.</l>
+    </lg>
+    <p>Haec dum praegnans esset Paride uidit in somniis facem se parere, quod fuit praesagium futuri
+     incendii. Homerus autem Dymantis filiam dicit.</p>
+   </div>
+   <div type="schol" n="26">
+    <p> VITREO lucido. </p>
+   </div>
+   <div type="schol" n="28-29">
+    <p> COEVNTIA PHRIXI / LITORA cum Phrixus et Helles per mare Hellespontum transirent, Phrixus
+     ascendit in arietem pellem auream habentem. Helles natans <del>ad</del> caudam ipsius arietis
+     tenebat, se<supplied>d</supplied> fessa tandem ponto submersit. Vnde mare Hellespontum
+     nominatum est. Phrixus transiens peruenit ad Colchos ibique arietem occidit et eius pellem in
+     templo dicauit, quam Iason postea cum Argonautis Medea faciente tulit et Creonti regi portauit.
+    </p>
+   </div>
+   <div type="schol" n="32">
+    <p> PROTEA uatem. </p>
+   </div>
+   <div type="schol" n="34">
+    <p> NVRVM Helenam. </p>
+   </div>
+   <div type="schol" n="36">
+    <p> TVMIDIS (ATRIDIS) nobilibus aut superbis. ATRIDIS usurpatum est. Nam
+      Plis<supplied>th</supplied>enis filii fuerunt Menelaus et Agamemnon. </p>
+   </div>
+   <div type="schol" n="41">
+    <p> PATRIA pro ‘paterna’. Nam a patre ‘paterna’, a loco ‘patria’. </p>
+   </div>
+   <div type="schol" n="&lt;43&gt;">
+    <p><supplied> NON POTVI INFELIX</supplied><supplied>se</supplied> reprobantis est. Vt Virgilius: </p>
+    <l>‘non potui abreptum diuellere corpus’.</l>
+   </div>
+   <div type="schol" n="44">
+    <p> RHOETEAE (...TRABES) Troianae. Rhoetum enim promuntorium est Troianae urbis. </p>
+   </div>
+   <div type="schol" n="65">
+    <p> RVPIT IASONIA PVPPIS PAGASAEA RAPINA hic fabulam Iasonis tangit, quae talis est: Athamas rex
+     habuit uxorem nomine Nubem, de qua habuit duos filios Phrixum et Hellen. Cum Nubes insania
+     Liberi patris concitata siluam peteret nec repeteret larem mariti, filiis suis Athamas
+     superduxit nouercam Ino. Quae nouercali odio pueris exitium machinans matronas petiit ut
+     frumenta serenda corrumperent. Quo facto fames innata est. Cum ad Apollinem consultum ciuitas
+     misisset, Ino eum qui missus erat corrupit ut referret oraculo dictum Nubis filios immolandos.
+     Nam et ipsa dixit eos frumenta incendisse. Pater timens populi inuidiam filios suos nouercae
+     commisit arbitrio, sed occulte illis remedium dedit. Nam Phrixum mortis suae ignarum summisit
+     ut memoratum adduceret arietem. Qui Iunonis nutu admonitus ut cum sorore fugeret, confestim se
+     cum ea morti subtraxit. Deinde, cum arieti adhaerentes maria supernatarent, puella in mare
+     cecidit. Qui locus ex ea Hellespontus dicitur. Phrixus ad Colchos delatus arietem quo uectus
+     erat mactauit et eius uellus consecrauit Marti, quod draco custodiebat insomnis. Ad quod
+     auferendum Iason missus a Creonte est. Qui cum ad Aeetem, Solis filium, Colchorum regem,
+     uenisset - cui responsum fuerat tamdiu illum in regno manere posse quamdiu in Martis templo
+     illud uellus aureum durare potuisset - potestatem uelleris auferendi ita Iasoni permisit ut
+     tauros ignem naribus efflantes aratro iungeret et draconis dentes sereret. Cumque Medeae, regis
+     eiusdem filiae, amore atque artibus Iason cautus esset, uniuersa compleuit et cum armata manus
+     ex ipsis sulcis creuisset, Medeae in se artibus concitata mutuis est interempta uulneribus. Tum
+     rapto uellere fugit Iason. <hi rend="expanded">Pagasaea <del>ergo</del></hi> Argo a loco dicta
+     ubi facta est. Pagasus ciuitas Thessaliae. Lucanus:</p>
+    <l part="Y">‘ut Pagasaea ratis’.</l>
+   </div>
+   <div type="schol" n="78">
+    <p> CAERVLEIS marinis. RECTOR (AQVARVM) Neptunus. </p>
+   </div>
+   <div type="schol" n="79">
+    <p> MVLCET consolatur. </p>
+   </div>
+   <div type="schol" n="84">
+    <p> SIGEO (... PVLVERE) Troiano. </p>
+   </div>
+   <div type="schol" n="88">
+    <p> HECTOREO TARDAVIT PONDERE CVRRVS quia exstincto Hectore religauit ad currum suum Achilles
+     corpus eius et traxit circa muros Troiae. </p>
+   </div>
+   <div type="schol" n="89">
+    <p> (NOSTROS) OPERA IRRITA MVROS hoc quidem habet fabula: Neptunus cum Apolline Troiae
+     fabricauerunt muros a Laomedonte rogati. Sed constat Laomedontem supra dictis diis certam
+     uouisse pecuniam ad sacra facienda. Quam post conditam Troiam dare noluit. Ergo deum iratum
+     ostendit, cum dicit muros Troianos opera irrita esse. Et Virgilius in euersione Troiae: </p>
+    <lg>
+     <l>‘Neptunus muros magnoque emota tridenti</l>
+     <l part="Y"> fundamenta quatit’.</l>
+    </lg>
+   </div>
+   <div type="schol" n="91">
+    <p> CREDIDERIS PEPERISSE IOVI cum Iuppiter uellet Thetidem ducere, Fata prohibuerunt eo quod
+     proles quae nasceretur Iouem pelleret regno. Thetis nupsit Peleo, mortali homini. Ergo cum
+     quereretur apud Neptunum et timeret de morte Achillis, eo quod a patre esset mortalis, dicit
+     Neptunus non timeri de eo, quia talis futurus esset ut credatur deo genitus. Ergo sic illam
+     consolatur dicens: noli queri quod de Peleo mortali sit genitus, quia crederis eum de Ioue
+     peperisse. </p>
+   </div>
+   <div type="schol" n="93-94">
+    <p> CVM REDVCES DANAI NOCTVRNAQVE SIGNA CAPHEREVS / (EXSERET ET DIRVM PARITER QVAEREMVS VLIXEN)
+     hic historiam tangit. Palamedes septimo gradu a Belo originem trahens, ut Apollonius
+      <supplied>locum non inueni</supplied> dicit, cum dilectum per Graeciam ageret, simulantem
+     insaniam Vlixem duxit inuitum. Cum ille iunctis dissimilis naturae animalibus salem sereret,
+     filium ei Palamedes opposuit. Quo uiso Vlixes aratra suspendit et ad bellum ductus habuit
+     iustam causam doloris. Postea cum Vlixes frumentatum missus ad Thraciam nihil aduexisset, a
+     Palamede est uehementer increpitus. Et cum diceret adeo non esse neglegentiam suam ut ne ipse
+     quidem, si pergeret, quicquam posset aduehere, profectus Palamedes infinita frumenta deuexit.
+     Qua inuidia Vlixes auctis inimicitiis fictam epistulam ad Palamedem Priami nomine, per quam
+     agebat gratias proditionis et commemorabat certum auri pondus esse transmissum, dedit captiuo
+     et eum in itinere iussit occidi. Haec inuenta more militiae regi alata est et lecta principibus
+     conuocatis. Tunc Vlixes, cum se Palamedi adesse simularet, ait: si uerum est, in eius tentoriis
+     aurum quaeratur. Quo facto et inuento auro, quod ipse per noctem corruptis seruis absconderat,
+     Palamedes lapidibus interemptus est. Hunc autem constat fuisse prudentem. Nam et tabulam ipse
+     inuenit ad comprimendas otiosi seditiones exercitus. Huius pater mortem dolens Nauplius nomine
+     revertentibus Graecis post deletam Troiam tempestate laborantibus montem Caphereum ascendit et
+     elata facula signum dedit uicini portus. Qua re decepti sunt Graeci et inter asperrimos
+     scopulos pertulere naufragia. </p>
+   </div>
+   <div type="schol" n="94">
+    <p> QVAEREMVS persequemur. </p>
+   </div>
+   <div type="schol" n="96-97">
+    <p> (QVAE IAM EXCIRE FRETVM ET RATIBVS BELLARE) PARABAT / (ILIACIS) quae se parabat naues
+     euertere Troianas. </p>
+   </div>
+   <div type="schol" n="98">
+    <p> HAEMONIAS (…TERRAS) Thessalicas. </p>
+   </div>
+   <div type="schol" n="101-102">
+    <p> CONVBIALIA (… / ANTRA) quia ibi nupsit Peleo. </p>
+   </div>
+   <div type="schol" n="102">
+    <p> SPERCHIOS fluuius. </p>
+   </div>
+   <div type="schol" n="103">
+    <p> (DVLCI VESTIGIA) CIRCVIT VNDA quia illa amara erat rore maris. <del>clementer</del></p>
+   </div>
+   <div type="schol" n="104">
+    <p> ILLA NIHIL (GAVISA LOCIS) quia sollicita erat de filio sciens fata eius. </p>
+   </div>
+   <div type="schol" n="105">
+    <p> SOLLERS inquisitrix. (PIETATE) MAGISTRA quia nouit indulgere clementer. </p>
+   </div>
+   <div type="schol" n="107">
+    <p> (LONGO ...) ARCV fornicem describit. </p>
+   </div>
+   <div type="schol" n="111">
+    <p> STABVLA propter equum. </p>
+   </div>
+   <div type="schol" n="111-112">
+    <p> NEFANDIS / FRATRIBVS illis, qui cum Lapithis in conuiuio pugnauerunt. Vnde Virgilius: </p>
+    <lg>
+     <l part="Y">‘ille furentis</l>
+     <l>Centauros leto domuit, Rhoetumque Pholumque</l>
+     <l>et magno Hylaeum Lapithis cratere minantem’.</l>
+    </lg>
+   </div>
+   <div type="schol" n="112">
+    <p> HOMINVM (NVLLOS ... CRVORES) sed ferarum. </p>
+   </div>
+   <div type="schol" n="115">
+    <p> TERGA pelles. </p>
+   </div>
+   <div type="schol" n="118">
+    <p> ALVMNO Achilli. </p>
+   </div>
+   <div type="schol" n="119">
+    <p> REDITVRVM Achillem. </p>
+   </div>
+   <div type="schol" n="120">
+    <p> OPPERIENS Chiron. SERENAT illuminat. </p>
+   </div>
+   <div type="schol" n="122">
+    <p> NEREIS Thetis. </p>
+   </div>
+   <div type="schol" n="126">
+    <p> IAMDVDVM TACITO LVSTRAT THETIS) OMNIA VISV quod ibi Achillem non uidebat.</p>
+   </div>
+   <div type="schol" n="134">
+    <p> TARTARA dicta uel quod omnia illic turbata sunt, <foreign xml:lang="grc">ἀπὸ τῆς
+      ταραχῆς</foreign>, aut, quod est melius, <foreign xml:lang="grc">ἀπὸ τοῦ ταρταρίζειν</foreign>
+     id est a tremore frigoris. Sole enim caret. ET AD STYGIOS ITERVM FERO MERGERE FONTES Thetis cum
+     cognouisset fata Achillis, timens de morte eius in Stygem paludem intinxit, et toto corpore
+     inuulnerabilis fuit excepta parte qua tentus est. Qui, cum amatam Polyxenam ut in templo
+     acciperet statuisset, insidiis Paridis post simulacrum latentis occisus est. Ipsam enim fabulam
+     tangit. </p>
+   </div>
+   <div type="schol" n="136">
+    <p> CARPATHIVS VATES Proteus. Carpathus insula est iuxta Aegyptum, a qua uicinum pelagus
+     Carpathium nominatum est. Hic aliquando regnauit Proteus relicta Pallene, ciuitate Thessaliae,
+     ad quam tamen reuersus est postea. Vnde Virgilius: </p>
+    <lg>
+     <l part="Y">‘patriamque reuisit</l>
+     <l part="Y">Pallenen’.</l>
+    </lg>
+    <p>sacerdos enim fuit. </p>
+   </div>
+   <div type="schol" n="143">
+    <p> SENI Chironi. </p>
+   </div>
+   <div type="schol" n="156">
+    <p> PINVS <del>CVM</del> THESSALA quia Argo apud Thessaliae oppidum Pagasum facta est. </p>
+   </div>
+   <div type="schol" n="164-165">
+    <p> (PLVRIMA VVLTV) / MATER INEST redditur similitudine. </p>
+   </div>
+   <div type="schol" n="167-168">
+    <p> (O QVANTVM) GAVDIA FORMAE / (ADICIVNT) constat ex qualitate animi homines sumere uultum aut
+     tristem aut hilarem. Vt Iuuenalis: </p>
+    <lg>
+     <l>‘deprendas animi tormenta latentis in aegro</l>
+     <l>corpore, deprendas et gaudia: sumit utrumque</l>
+     <l part="Y">inde habitum facies’.</l>
+    </lg>
+   </div>
+   <div type="schol" n="168">
+    <p> FETAM enixam. </p>
+   </div>
+   <div type="schol" n="172">
+    <p> VLNIS amplexibus. </p>
+   </div>
+   <div type="schol" n="175">
+    <p> PATROCLVS cum Achilles fureret aduersus Agamemnonem propter Briseidam, noluit egredi ad
+     pugnam aduersum Troianos. Tunc rogatus ut uel arma sua Patroclo daret, quae manu erant
+     fabricata Vulcani, persuadente Vlixe concessit. Egressusque Patroclus cum armis eius susceptus
+     ab Hectore occisus est, illaque arma abstulit Hector. Vnde Virgilius: </p>
+    <l>‘qui redit exuuias indutus Achillis’.</l>
+    <p> Ideo: </p>
+    <l part="Y">‘aequali uisurus Pergama fato’.</l>
+   </div>
+   <div type="schol" n="180">
+    <p> EVROTAE Eurotas fluuius est Laconicae qui ab Apolline suas edocet laurus, quibus eius plenae
+     sunt ripae. CASTOR <del>ANHELO</del> errant qui credunt Castorem Iouis filium. Nam de Ioue et
+     Leda Helena et Pollux nati sunt, qui immortales fuerunt. Castor autem Tyndarei filius fuit
+     mortalis. Cuius mortem Pollux suo interitu fraterna pietate redimebat. Quod ideo fingitur quia
+     horum stellae ita se habent ut occidente una oriatur altera. </p>
+   </div>
+   <div type="schol" n="185">
+    <p> OBLECTAMINE ad laborum dulce lenimen. </p>
+   </div>
+   <div type="schol" n="187">
+    <p> (EXPERTAS) POLLICE CHORDAS <supplied>f</supplied>ormizauit uel temperauit. </p>
+   </div>
+   <div type="schol" n="188">
+    <p> LIBENS securus. </p>
+   </div>
+   <div type="schol" n="189-190">
+    <p> (QVOT TVMIDAE) SVPERARIT IVSSA NOVERCAE / (AMPHITRYONIADES) Eurystheus rex fuit Graeciae,
+     Persei genus, qui Iunonis instinctu imperabat Herculi ut uaria monstra superaret quibus posset
+     perire. Vnde Virgilius:</p>
+    <l part="Y">‘quis aut Eurysthea durum’.</l>
+   </div>
+   <div type="schol" n="190">
+    <p> CRVDVM (... BEBRYCA) superbum. </p>
+   </div>
+   <div type="schol" n="191">
+    <p> POLLVX Iouis filius. </p>
+   </div>
+   <div type="schol" n="192">
+    <p> AEGIDES Theseus. MINOIA BRACCHIA TAVRI indicato a Sole adulterio Martis et Veneris Vulcanus
+     minutissimis catenis lectulum cinxit, quibus Mars et Venus ignorantes impliciti sunt et cum
+     ingenti turpitudine resoluti sub testimonio cunctorum deorum. Quod factum Venus uehementer
+     dolens stirpem omnem Solis persequi infandis amoribus coepit. Igitur Pasiphae, Solis filia,
+     Minois regis Cretae uxor, tauri amore flagrauit et arte Daedali inclusa intra uaccam ligneam
+     saeptam corio iuuencae pulcherrimae cum tauro concubuit. Vnde natus est Minotaurus, qui intra
+     Labyrinthum inclusus humanis carnibus uescebatur. Sed Minos de Pasiphae habuit liberos plures
+     Androgeum, Ariadnen, Phaedram. Sed Androgeus, cum esset athleta fortissimus et superaret in
+     agonibus cunctos, apud Athenas ab Atheniensibus et uicinis Megarensibus coniuratis occisus est.
+     Quod Minos dolens collectis nauibus bella commouit et uictis Atheniensibus poenam hanc statuit
+     ut singulis quibusque annis septem de filiis et septem de filiabus suis edendos Minotauro
+     mitterent. Sed tertio anno Aegei filius Theseus missus est, potens tam uirtute quam forma, qui,
+     cum ab Ariadne, regis filia, amatus fuisset, Daedali consilio filo iter rexit et necato
+     Minotauro cum rapta Ariadne uictor aufugit. De Minotauro enim fabula est quod taliter fuisset
+     genitus. Nam Taurus notarius Minois fuit quem Pasiphae amauit, cum quo in domo Daedali
+     concubuit. Et quia geminos peperit, unum de Minoe, alterum de Tauro, enixa esse dicitur
+     Minotaurum. Quod Virgilius ipse dicit:</p>
+    <l>‘mixtumque genus p(ro)l(esque) b(i)f(ormis)’.</l>
+   </div>
+   <div type="schol" n="193">
+    <p> TOROS conubium. </p>
+   </div>
+   <div type="schol" n="197">
+    <p> ASSVETA ... PECTORA Chironis. </p>
+   </div>
+   <div type="schol" n="200">
+    <p> VOLVTAT cogitat. </p>
+   </div>
+   <div type="schol" n="203">
+    <p> CECROPIDAE Athenienses a rege Cecrope. </p>
+   </div>
+   <div type="schol" n="206-207">
+    <p> ATQVE <supplied>IN</supplied>HOSPITA DELOS / GENTIBVS de hac insula talis est fabula: post
+     uitiatam Latonam Iuppiter etiam eius sororem Asterien cum uitiare uellet, illa optauit a diis
+     ut in auem conuerteretur, uersaque in coturnicem est. Et cum uellet maria transfretare, quod
+     est coturnicum, afflata a Ioue et in lapidem conuersa diu sub fluctibus latuit, postea
+     supplicante Ioui Latona leuata aquis superferri coepit. Haec primo Neptuno et Doridi fuit
+     consecrata. Postea, cum Iuno grauidam Pythone immisso Latonam persequeretur, terris omnibus
+     expulsa tandem aliquando applicante se litoribus sorore suscepta est et illic Dianam primo,
+     post Apollinem peperit, qui statim occiso Pythone ultus est matris iniuriam. Sane nata Diana
+     parturienti Apollinem matri dicitur praebuisse obstetricis officium. Vnde Diana, quamuis uirgo
+     sit, tamen a parturientibus inuocatur. Haec namque est Diana, Luna, Proserpina. Nata igitur duo
+     numina terram sibi natalem errare non passa sunt, sed eam duabus insulis religauerunt. Veritas
+     uero longe alia est. Nam haec insula cum terrae motu laboraret - qui fit sub terris latentibus
+     uentis - oraculo Apollinis terrae motu caruit. Nam praecepit ne illic mortuus sepeliretur et
+     iussit quaedam sacrificia fieri. Postea a Mycono Gyaroque, uicinis insulis, populi uenerunt qui
+     eam tenerent. Vnde dicit poeta: ‘atque hospita Delos gentibus’. Quod autem diximus Dianam primo
+     natam, rationis est. Nam constat primam noctem fuisse, cuius instrumentum est luna id est
+     Diana, post diem, quem sol efficit, qui est Apollo. Vt autem Delos primo Ortygia diceretur,
+     factum est a coturnice, quae Graece <foreign xml:lang="grc">ὄρτυξ</foreign> uocatur. Delos
+     autem, quia diu latuit et post apparuit. Nam <foreign xml:lang="grc">δῆλον</foreign> Graeci
+     ‘manifestum’ dicunt. </p>
+   </div>
+   <div type="schol" n="220">
+    <p> THAVMANTIDA Iris ‘Thaumantis’ dicta secundum poetas, Thaumantis filia. Ceterum ex
+     admiratione hoc nomen accepit, quae admiratio de eius coloribus nascitur. Iris dicta quod
+     nunquam ad conciliationem mittitur sicut Mercurius, sed ad disturbationem, et est ministra non
+     tantum dearum, sed et deorum.</p>
+   </div>
+   <div type="schol" n="222">
+    <p> TETHYS uxor Oceani, Nympharum mater. </p>
+   </div>
+   <div type="schol" n="238">
+    <p> PHOLOE silua est Thessaliae dicta a Pholo Centauro, qui eam incolebat. Qui Pholus, tempore
+     quo ab Eurystheo rege Hercules missus est <supplied>in</supplied> Thraciam ut Diomedis equos
+     adduceret qui humanis carnibus uescebantur, eum hospitio recepit. Aliqui dicunt quod eum
+     Hercules occidit susceptus ab eo hospitio, <supplied>sed</supplied> uerius Asper
+      <del>Longus</del> Pholum tradit aduersum Centauros ab Hercule adiutum, cum Herculem recepisset
+     hospitio. Asper tradit Pholo, dum sagittas Herculis stupet qui<supplied>bus</supplied> tot
+     Centauros occiderat, unam ex illis in pedem cecidisse cuius uulnere sanari non potuit. Ideo
+     credunt nonnulli <supplied>eum</supplied> ab Hercule occisum. </p>
+   </div>
+   <div type="schol" n="239">
+    <p> SPERCHIVS fluuius cui suas comas Achilles deuouerat, si redisset. Pater autem Narcissi fuit
+     Sperchius. </p>
+   </div>
+   <div type="schol" n="244-245">
+    <p> (VADA ...) / SCYRIA Scyros insula est. </p>
+   </div>
+   <div type="schol" n="263">
+    <p> (VIRGINEOS) SI<del>C</del> IVPPITER INDVIT ARTVS Iuppiter adamauit Antiopen, filiam Nyctei,
+     speciosissimam puellam. Cuius dum pater suspectum haberet stuprum, eam custodiis mancipauit.
+     Puella ipsa cum adoleuisset Dianae se consecrauit. Iuppiter in habitum se uertit Dianae et
+     puellam corrupit <del>ita ut arcum et pharetram mentiretur</del>.</p>
+   </div>
+   <div type="schol" n="264">
+    <p> (MAGNVM AMBIGVI ...) CAENEA (SEXVS) Caenis uirgo fuit quae a Neptuno pro stupri praemio
+     meruit sexus mutationem. Fuit etiam inuulnerabilis. Qui pugnando pro Lapithis contra Centauros
+     crebris ictibus fustium paulatim fixus in terra, post mortem tamen in sexum rediit. Vnde
+     Virgilius:</p>
+    <l>‘rursus et in ueterem fato reuoluta figuram’.</l>
+    <p> Hoc autem dicto Virgilius ostendit Platonicum illud uel Aristotelicum, animas per <foreign
+      xml:lang="grc">μετεμψύχωσιν</foreign> sexum plerumque mutare. </p>
+   </div>
+   <div type="schol" n="269-270">
+    <p> (PROGENITVM) STYGOS AMNE SEVERO / ARMAVI TOTVMQVE VTINAM Thetis cum sciret <del>eo</del>
+     quod a Peleo Achilles mortalis esset, in Stygem paludem eum intinxit et toto corpore
+     impenetrabilem fecit excepta corporis parte qua eum tenuerat. Pro nefas! Nouum genus
+     calamitatis! Ibi mortis locum reliquit, ubi eum est mater amplexa. </p>
+   </div>
+   <div type="schol" n="273">
+    <p> COGNATA (PER AEQVORA) quasi Nerei. </p>
+   </div>
+   <div type="schol" n="274">
+    <p> CHIRON Saturni et Pelopae filius. </p>
+   </div>
+   <div type="schol" n="275">
+    <p> GENITOR Peleus. </p>
+   </div>
+   <div type="schol" n="276">
+    <p> NVTRITOR Chiron. </p>
+   </div>
+   <div type="schol" n="304-305">
+    <p> SED FAX VIBRATA MEDVLLIS / (IN VVLTVS ATQVE ORA REDIT) Virgilius:</p>
+    <lg>
+     <l>‘accepit solitam flammam, notusque medullas</l>
+     <l>intrauit calor et labefacta per ossa cucurrit’.</l>
+    </lg>
+    <div type="schol" n="308">
+     <p> EBVR CORRVMPITVR OSTRO Virgilius:</p>
+     <lg>
+      <l>‘Indum sanguineo ueluti uiolauerit ostro</l>
+      <l part="Y">si quis ebur’.</l>
+     </lg>
+    </div>
+    <div type="schol" n="323">
+     <p> PROTERVOS superbos. </p>
+    </div>
+    <div type="schol" n="328">
+     <p> DOMAT componit. </p>
+    </div>
+    <div type="schol" n="329">
+     <p> DILECTA tractata. </p>
+    </div>
+    <div type="schol" n="330">
+     <p> LIMBO <hi rend="expanded">limbus</hi> dicitur fascia, quae ambit in extremitate uestium
+      secundum antiquum ritum. Virgilius:</p>
+     <l>‘uictori chlamydem auratam, quam plurima circum purpura’.</l>
+    </div>
+    <div type="schol" n="353">
+     <p> AMAZONIO (... RITV) Amazones dictae sunt uel quod simul uiuant sine uiris quasi <foreign
+       xml:lang="grc">ἅμα ζῶσαι</foreign> uel quod unam mammam exustam habent quasi <foreign
+       xml:lang="grc">ἄνευ μαζοῦ</foreign>.</p>
+    </div>
+    <div type="schol" n="372">
+     <p> IDALIAE VOLVCRES columbae, quae sunt Veneri consecratae. </p>
+    </div>
+    <div type="schol" n="&lt;386-387&gt;">
+     <p><supplied> QVO MORE TACEBAT / CRETA RHEAE</supplied> nati Iouis haec fabula est: Saturnus
+      postquam a Themide oraculo comperit a filio regno se posse depelli, natos ex Rhea uxore
+      deuorabat. Quae natum Iouem pulchritudine delectata Nymphis commendauit in monte Cretae
+      Dictaeo, ubi eum aluerunt apes. Et adhibiti sunt Curetes et Corybantes qui tinnitu aeris
+      prohiberent audiri pueri uagitum. Vnde ipsi sunt Matris Deum ministri. Vt autem fingatur
+      Saturnus filios suos comesse, haec ratio est, quia dicitur deus esse aeternitatis et
+      saeculorum. Saecula autem annos ex se natos in se reuoluunt. Vnde Graece <foreign
+       xml:lang="grc">Κρόνιος</foreign> quasi <foreign xml:lang="grc">χρόνος</foreign> id est tempus
+      dicitur. Ergo <hi rend="expanded">quo more tacebat Creta Rheae</hi>, id est: quia illic Cretae
+      Iouis nutritus est ne a Saturno patre occideretur, sic tu, o Scyros, commendatum tibi Achillem
+      absconde. </p>
+    </div>
+    <div type="schol" n="388">
+     <p> DELO Delos et ciuitas dicitur et insula, unde interdum recipit praepositionem. Delos autem
+      dicta est quia, cum ubique Apollinis responsa obscura sint, manifesta illic dantur oracula.
+      Nam <foreign xml:lang="grc">δῆλον</foreign> Graeci ‘manifestum’ dicunt. </p>
+    </div>
+    <div type="schol" n="390">
+     <p> CYCLADAS Cyclades non ideo dictae sunt quia in rotunditate sunt, eo quod Graeci κύκλον
+      ‘rotundum’ uocant, sed quod longo ordine eas circumire necesse est propter promuntoria
+      periculosa. </p>
+    </div>
+    <div type="schol" n="393">
+     <p> THIASI thiasos saltationes, choreas Liberi id est Liberalia. </p>
+    </div>
+    <div type="schol" n="&lt;397-399&gt;">
+     <p><supplied>INTEREA MERITOS VLTRIX EVROPA DOLORES / DVLCIBVS ARMORVM FVRIIS ET SVPPLICE REGVM
+       / CONQVESTV FLAMMATA MOVET</supplied> originem belli Troiani taliter historia refert:
+      Herculem, cum Colchos iret perdito Hyla, post peragratam Mysiam nauibus Troiam uenisse. A
+      cuius portu cum eum Laomedon arceret, occisus est et eius filia Hesiona belli iure sublata
+      comiti Telamoni tradita est, qui primus ascenderat murum. Vnde natus est Teucer. Nam Aiacem ex
+      alia constat esse natum. Tunc Hercules Priamum quoque redemptum a uicinis hostibus in paterno
+      regno locauit, unde et Priamus dictus est <foreign xml:lang="grc">ἀπὸ τοῦ πρίασθαι</foreign>
+      id est emi. Ceterum quae de liberata dicuntur Hesiona, constat esse fabulosa. Postea, cum
+      creuisset, Priamus uolens repetere sororem profectus est cum legatis Salamina, ubi constabat
+      eam regnare. At minime eam repetere ualuerunt Graecis dicentibus <supplied>se</supplied> eam
+      habere iure bellorum. Vnde commotus Priamus misit Paridem cum exercitu ut aliquid tale
+      abduceret aut uxorem regis aut filiam. Quo cum ambulasset, sollicitauit Helenam, Menelai
+      uxorem. Quae cum ei consentire noluisset, egressus est ille et ciuitatem obsedit. Qua euersa
+      Helenam rapuit, unde et postea a marito recipi meruit.</p>
+    </div>
+    <div type="schol" n="404">
+     <p> (HOC) FOEDVS (PHRYGIVM) quod dicit foedus, historiam tangit, quae refert quod Troiani cum
+      Graecis foedus habuerint, unde etiam Paris amicabiliter est susceptus hospitio et sic commisit
+      adulterium. </p>
+    </div>
+    <div type="schol" n="444">
+     <p> CLASSIS <hi rend="expanded">classis</hi> dicitur uel quod fiat de fustibus. ‘Calas’ enim
+      dicebant maiores nostri fustes, quos portabant serui sequentes dominos ad proelium. Vnde etiam
+      ‘calones’ dicebantur. Nam consuetudo erat militis Romani ut ipse sibi arma portaret, ipse
+      uallum. Vallum autem dicebant ‘calam’, sicut Lucilius</p>
+     <l>‘scinde calam, ut caleas’,</l>
+     <p> id est: o puer, frange fustes et fac focum. Inde ergo classem dictam dicunt. Alii magis
+      hinc classem dictam uolunt: apud maiores nostros stipendium proelio terrestri miles pedester
+      dabat. Equites uero dabant in nauali certamine: nam adhuc populus pauper fuerat. Exinde etiam,
+      quod ab equitibus dabatur stipendium, tractum est ut diceretur <hi rend="expanded"
+       >classis</hi>. Proprie enim ‘classes’ equitum dicimus.</p>
+    </div>
+    <div type="schol" n="447">
+     <p> AVLIS insula est in qua coniurarunt Graeci se non ante reuersuros quam Troia caperetur.</p>
+    </div>
+    <div type="schol" n="469">
+     <p> TYDIDES Diomedes, Tydei et Deipyles filius. STHENELVS Capanei et Euadnes. </p>
+    </div>
+    <div type="schol" n="472">
+     <p> VLIXES Laertae et Anticliae filius. Alii dicunt Sisyphi et Anticliae filium, quae ante
+      nuptias cum Sisypho, Aeoli filio, concubuit, unde Vlixes natus est. Hoc et in Ouidio Aiax
+      obiecit. </p>
+    </div>
+    <div type="schol" n="480">
+     <p> STYGIOS ... AMNES Styx palus est quaedam apud inferos, de qua legimus: </p>
+     <l>‘di cuius iurare timent et fallere numen’.</l>
+     <p> Quod secundum fabulas ideo est quia dicitur Victoria, Stygis filia, bello Gigantum Ioui
+      fauisse. Pro cuius rei remuneratione Iuppiter tribuit ut dii iurantes per eius matrem non
+      audeant fallere. Ratio autem haec est: Styx maerorem significat. <foreign xml:lang="grc">Ἀπὸ
+       τοῦ στυγεροῦ</foreign> id est a tristitia Styx dicta. Dii autem laeti sunt semper. Inde etiam
+      immortales, quia <foreign xml:lang="grc">ἄφθαρτοι καὶ μακάριοι</foreign>. Ergo quia maerorem
+      non sentiunt, iurant per rem suae naturae contrariam id est tristitiam, quae aeternitati
+      contraria. In qua Thetis Achillem mersit eius mortem timens eo quod natus mortali patre esset,
+      et totum impenetrabilem fecit excepta corporis parte per quam eum tenuit, ubi postea a Paride
+      percussus est. </p>
+    </div>
+    <div type="schol" n="543">
+     <p> FECVNDVM (... PECTVS) callidum. Virgilius: </p>
+     <l part="Y">‘fecundum concute pectus’.</l>
+    </div>
+    <div type="schol" n="546-547">
+     <p> SIC DEVS (OMNIPOTENS FIRMET SIC ADNVAT ILLA / VIRGO PATERNA TIBI) optantis est.
+      Virgilius:</p>
+     <l>‘sic pater ille deum faciat, sic altus Apollo!’</l>
+    </div>
+    <div type="schol" n="593">
+     <p> AGENOREI … BACCHI Thebani, quod illic colitur eximie, quia et ibi natus. Agenor autem rex
+      Phoenices fuit, de quo natus est Cadmus, qui Thebas condidit. Nota fabula. Et imitatur hoc
+      loco Virgilium, qui ubicumque lucum ponit, sequitur e<supplied>ti</supplied>am consecratio.
+      Vt:</p>
+     <lg>
+      <l part="Y">‘luco tum forte parentis</l>
+      <l>Pilumni Turnus sacrata ualle sedebat’.</l>
+     </lg>
+     <p><hi rend="expanded">Lucus</hi> autem dicitur, quod non luceat, non quod sint ibi lumina
+      causa religionis, ut quidam uolunt. </p>
+    </div>
+    <div type="schol" n="599">
+     <p> DVCTOR Lycomedes. </p>
+    </div>
+    <div type="schol" n="628">
+     <p> SPERCHIE fluuius Thessaliae ubi Achilles apud Chironem nutritus est. </p>
+    </div>
+    <div type="schol" n="629">
+     <p> PROMISSASQVE COMAS consuetudo enim erat apud antiquos ut quis, prout libitum erat, diuersis
+      deabus uel fluminibus crinem aut barbam suam uoueret. </p>
+    </div>
+    <div type="schol" n="623">
+     <p> (PAMPINEIS ...) THYRSIS hasta pampinea. </p>
+    </div>
+    <div type="schol" n="718">
+     <p> ITHACVS pro ‘Ithacesius’. Principale pro deriuatiuo ponitur. </p>
+    </div>
+    <div type="schol" n="763">
+     <p> EXTEMPLO ilico, mox. Et est augurum sermo. ‘Templum’ enim dicitur locus manu designatus in
+      aere. Post quem factum ilico captantur auguria. </p>
+    </div>
+    <div type="schol" n="857">
+     <p> TROIA regio est Asiae, Ilium ciuitas Troiae. Plerumque tamen confundunt poetae et pro
+      ciuitate uel regionem uel prouinciam ponunt. Vt Iuuenalis:</p>
+     <l>‘et flammis Asiam ferroque cadentem’.</l>
+    </div>
+   </div>
+
+  </body>
+ </text>
+
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Epistula Porfyrii</title>
+    <author>Optatianus Porfyrius</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Chiara Miglietta</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2015</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000591</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p>Publilii Optatiani Porfyrii, Carmina, I: textus; adiectio indice uerborum; recensuit Iohannes Polara, Torino 1973, pp. 1-3, (Corpus scriptorum Latinorum Paravianum) </p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div type="pr" n="pr">
+    <head>EPISTULA PORFYRII</head>
+    <salute>DOMINO CONSTANTINO MAXIMO PIO INVICTO ET VENERABILI SEMPER AVGVSTO.</salute>
+    <p>Fateor, domine Constantine, maxime, invicte et non minus pietate quam virtute praecipue,
+     quamvis avara atque ultra meritum cupida parvitatis meae vota infatigabilis clementiae tuae
+     dignatione superata, quippe cui satis abundeque suffecerat carmen quod artioribus Musarum
+     ligaveram vinculis, quod plus mihi sincerae devotionis studium quam ingenii mei parvitas
+     praestitit, in tuas, Augustissime imperator, manus venisse victrices, legendum serenis oculis
+     tuis. In quo mihi pro Heliconii verticis nemore, pro Castalii fontis haustu versifico, pro
+     Apollinis lyrae Musarum concinentibus choris ceterisque quae poetis mos est carmen pangentibus
+     invocare, tui mihi nominis aeterna felicitas et eius multiformis cum sua veneratione praefatio
+     incentivum cecinit ad audendum, et ad expediendum pariter ingenium tribuit et effectum. Romanae
+     Musae antistes nobilis Mantuanus, serena lux vatum et fons puri nectaris fecundus, in carmina
+     exultat ac se plurimum iactat et iterum ac saepius Maecenatis testimonio gloriatur. Quid ego
+     faciam tenui pauper ingenio, meriti nunc usque perparvi? Caelestis iudicii dignatione inmensum
+     pondus impositum est eius imperatoris testimonio, qui inter belli pacisque virtutes, inter
+     triumphos et laureas, inter legum sanctiones et iura etiam Musis tibi familiaribus plaudis, ut
+     inter tot divinae maiestatis insignia, quibus et invictus semper et primus es, huius etiam
+     studii in te micet splendor egregius. Nimirum agere gratias audebo, cuius exilis sermo ne pro
+     minimis quidem referre digne possit et <supplied>cui</supplied> tu, pie imperator, tanta
+     praestiteris, ut istud pro benefactis tuis ne a facundissimis quidem possit impleri? Etenim si,
+     ita ut sapientibus placuit, maxime imperator, aestimanda sunt, non numeranda iudicia, qui
+     huiusmodi testimonium consecutus sum pietatis tuae dignatione caelesti, iam licet Parnasi iuga
+     securus ingrediar et ab ipsis Aonii verticis adytis deducere audeam Musas, tutus, quacumque
+     mens ibit in carmina, et divina iudiciorum tuorum auctoritate munitus atque in mea blandimenta
+     plus credulus universo me orbi placuisse contendam, qui placere potui totius orbis imperatori.
+     Denique oratus, Augustissime domine, temeritati meae da veniam, et quae nunc quoque pietatis
+     tuae favore ausus sum inligare, dignanter admitte: audaciae meae fomitem aeternitatis tuae
+     clementia suscitavit.</p>
+   </div>
+
+  </body>
+ </text>
+
+</TEI>

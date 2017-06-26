@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>De aspiratione</title>
+    <author> ps. Phocas </author>
+    <respStmt>
+     <resp>Transcodifica di base da rtf a xml-tei</resp>
+     <name>Piero Colombo - STEP srl</name>
+    </respStmt>
+    <respStmt>
+     <resp>Testo </resp>
+     <name>Marinone, GL-CD adeguato su ed. Jeudi</name>
+    </respStmt>
+    <respStmt>
+     <resp>Adeguamento testo su nuova edizione</resp>
+     <name>Alice Borgna </name>
+    </respStmt>
+    <respStmt>
+     <resp>Controllo marcatura XML-TEI</resp>
+     <name>Alice Borgna </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2016</date>
+    <availability>
+     <p>
+      <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
+     </p>
+    </availability>
+    <idno>dlt000409</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p> C. Jeudi, <hi rend="italic">La tradition manuscrite du "De aspiratione" attribué au grammairien Phocas</hi>, in
+     <hi rend="italic">Hommages à André Boutémy</hi>, Bruxelles 1976, pp. 197-215 (edizione alle pp. 212-215) </p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    <p>
+     <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT</hi>
+    </p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni.</p>
+    <p>I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p>Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi> :
+     grassetto, corsivo, spaziatura espansa. </p>
+    <p> Sono stati normalizzati e marcati nel modo seguente i diacritici. <lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]>
+     <lb/>
+     <hi rend="italic">loci desperati</hi> :
+     <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo† e †testo <lb/>
+     lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...] <lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p> Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p> Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
+    </p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <head> ps. Phocas De aspiratione</head>
+   <div type="section">
+    <head>De constructione uel syntaxi</head>
+    <p>
+     <milestone unit="row" n="riga 10 vol. V Keil"/> Omnia nomina Graeca in capite suo uel in medio
+     loco <foreign xml:lang="grc">φ</foreign> litteram habentia vel in medio loco cum p et
+     aspiratione adiuncta scribuntur apud Latinos, ut Phoebus ephebus. Omnia nomina Graeca similiter
+      <foreign xml:lang="grc">υ</foreign> litteram in principio suo habentia praeposita aspiratione
+     scribuntur, ut<foreign xml:lang="grc"> ὑάκινθος</foreign> hyacinthus, <foreign xml:lang="grc"
+      >ὕδρα </foreign> hydra,<foreign xml:lang="grc">Ἵπανις</foreign> Hypanis. Οmnia nomina Graeca
+     in prima syllaba <foreign xml:lang="grc">ρ </foreign> litteram habentia uocali post ipsam
+      <foreign xml:lang="grc">ρ</foreign> sequente aspirantur, ut<foreign xml:lang="grc">
+      Ῥῆνος</foreign> Rhenus, exceptis duobus, Remus et Romulus. Οmnia nomina Latina quae ir
+     syllabam in principio suo habent praeposita aspiratione scribi significamus, ut hirsutus hircus
+     Hirpinus. Οmnia nomina Graeca ab eo quod est<foreign xml:lang="grc"> ἵππος </foreign> graece
+     dicta aspirationem praepositam similiter habent in scriptura, ut <foreign xml:lang="grc">
+      Ἱππόλυτος</foreign> Hippolytus, <foreign xml:lang="grc">Ἱπποτάδης</foreign> Hippotades. Si hoc
+     in medio nominis loco fuerit, ista syllaba tum caret aspiratione, ut<foreign xml:lang="grc">
+      Φίλιππος</foreign> Philippus, <foreign xml:lang="grc">Ἀρίστιππος</foreign> Aristippus. </p>
+    <p> Omne pronomen articulare praeposita aspiratione scribi notamus, ut hic et haec et hoc,
+     excepto uocatiuo. Si autem conposita fuerint, dasian amittunt, ut istic istac istuc. Similiter
+     et omne aduerbium ex articulari pronomine deductum aspiratur, ut hic huc hinc hac; in
+     conpositione haec dasian amittunt, ut illic illac illuc; solum uero adhuc et abhinc simplicium
+     suorum scripturam seruauerunt, id est <milestone unit="page" n="p. 440 vol. V Keil"/> dasian
+     habent in conpositione. </p>
+    <p> Omnia nomina Graeca uel Latina e uocalem productam in principio suo habentia praeposita
+     aspiratione scribentur, graecum, ut <foreign xml:lang="grc"> Ἡρακλῆς</foreign> Heracles,
+     Latinum, ut heres <del>heri, unde hesternus dictum est</del>. Οmnia nomina Graeca initiata
+      syllaba<foreign xml:lang="grc"> ις</foreign> et <foreign xml:lang="grc">τ</foreign> littera
+     statim subsecuta dasia praeposita proferuntur, ut Hister historia. Latina similiter haec
+     proferuntur, ut histrio: designatum est pronomen iste. Omnia nomina Graeca uel Latina quorum er
+     syllaba principium obtinet sequente statim <foreign xml:lang="grc">μ</foreign> aut <foreign
+      xml:lang="grc">ν</foreign> aut<foreign xml:lang="grc"> κ</foreign> littera cum aspiratione
+     scribi praeposita notamus, ut <foreign xml:lang="grc">Ἑρμῆς</foreign> Hermes, <foreign
+      xml:lang="grc">Ἕρνος</foreign> Hernus,<foreign xml:lang="grc"> Ἡρακλῆς</foreign> Hercules.
+     Οmnia similiter o incohata et duas consonantes <hi rend="italic"> rr </hi> post ipsam uocalem
+     habentia praeposita aspiratione erunt pronuntianda, ut horror.</p>
+    <p> Omnia nomina Graeca e uocalem breuem in prima syllaba obseruantia statim l littera ueniente
+     aspirantur, ut Helenus Helymus: excipitur unum Elis Elidis, quod nomen est urbis; et Elissa et
+     elephas similiter. Omnia quae es uel is uel os habentia fuerint syllabas et postea p litteram
+     subsecutam, ea cum aspiratione praeposita scribentur, ut Hesperus hispidus hospes. Omnia Graeca
+     nomina, si a littera i fuerint incipientia et e uocalis subsecuta, praeposita aspiratione
+     scribas, ut hieros et Latina similiter, ut hiems: designatum est iecur, ideo quod i consonantis
+     uim explet in isto nomine. </p>
+    <p> Omnia quae o uocalem in suo initio habebunt et postea m semiuocalem aspirationem praepositam
+     cupiunt in scriptura, ut homo: designatum est omen. Omnia quae post o n semiuocalem habent
+     similiter aspirantur, ut Honorius honos: designatum est onus. Omnia quae post a uocalem in
+     principio nominis locatam r unam consonantem habentia fuerint ea aspirantur, ut harena
+     haruspex: excipiuntur ara arista, et Graeca Arion Aratus. Omnia quae post or t mutam habent
+     dasian praepositam cupiunt, ut Hortensius hortor: designatum est ortus: h discretionis causa
+     omittit propter hortus. Omnia nomina Graeca post e uocalem c mutam habentia aspirantur, ut
+     Hector. Omnia nomina Latina post i uocalem b mutam habentia aspiratione praeposita proferuntur,
+     ut hibernus Hiberus: designatum est ibi aduerbium. Omnia quae a uerbo habeo deriuantur, ea cum
+     aspiratione praeposita scribentur, ut habitus; similiter et composita, prohibeo. Omnia quae
+     post er syllabam b mutam sequentem habent, ea cum aspiratione antecedente proferuntur, ut
+     herba. </p>
+    <p> De psila, id est inaspiratione. Omnia nomina quae post i uocalem l litteram habent dasian
+     negant, ut Ilium ilex: excipiuntur hilarus et Hilerda. Omnia quae post or syllabam d mutam
+     habent ignorant aspirationem, ut ordo: designatum est hordeum. Omnia quae post i a fuerint
+     habentia carent aspiratione, ut Ianus: designatum est hiatus. Omnia similiter post i
+     consonantem u uocalem habentia psilen amauerunt, ut Iuno: nam hiulcus ab eo quod est hiatus, de
+     quo supra dictum est, deducitur. </p>
+    <p> Omnia quae au diphthongon in prima syllaba habebunt dasian <milestone unit="page"
+      n="p. 441 vol. V Keil"/> respuerunt, ut audax: designatum est haud, unde hauscio compositum
+     simplicis habebit scripturam; nam aspiratur aduerbium haud; discretionis causa dasian habet
+     praepositam, ut non coniunctio fuerit, ueluti legimus <quote type="poetry"><hi rend="italic"
+       >«aut portum tenet»</hi></quote>. </p>
+    <p>Omnia quae in prima syllaba eu diphthongon locatam habebunt carent aspiratione, ut Euandrus;
+     excipitur interiectio heu et heus conpositum. </p>
+    <p> Omnia quae post a uocalem m habent psilen solum in scriptura habere solent, ut amicus:
+     excipitur hamus et nomen proprium Hambo. </p>
+    <milestone unit="page" n="p. 447 vol. V Keil"/>
+   </div>
+  </body>
+ </text>
+</TEI>

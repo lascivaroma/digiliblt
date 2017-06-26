@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>De speciali significatione diaeticarum passionum</title>
+        <author>Caelius Aurelianus</author>
+        <respStmt>
+          <resp>Correzione linguistica</resp>
+          <name>David Paniagua</name>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica XML</resp>
+          <name>David Paniagua</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>digilibLT</publisher>
+        <pubPlace>Vercelli</pubPlace>
+        <date>2011</date>
+        <availability>
+          <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+        </availability>
+        <idno>dlt000065</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Caelius Aurelianus, De significatione diaeticarum passionum, in Anecdota graeca et
+          graecolatina, edidit V. Rose, Amsterdam 1963, pp. 206-240 (Berlin 1864) </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+        <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+      </projectDesc>
+      <editorialDecl>
+
+
+        <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+        <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+          l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni,
+          note e commenti e ogni altro contenuto redatto da editori moderni. </p>
+        <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+          correttezza di trascrizione</p>
+        <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+          distinzione u/v minuscole.</p>
+        <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+        <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+          grassetto, corsivo, spaziatura espansa.</p>
+        <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+          <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+          <hi rend="italic">loci desperati</hi>:
+          <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo† e
+          †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...]<lb/> lacuna integrata
+          dagli editori: <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+        </p>
+        <p>Sono stati marcati i termini in lingua greca
+          <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+        </p>
+        <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+            target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+            >Note di trascrizione e codifica di testi latini tardoantichi
+            [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+      </editorialDecl>
+
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latino</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="pr" n="pr">
+        <p>Duobus me libris diaeticarum partem traditurum promisi, ex quibus superiore libro
+          respondens de curatione, de passionibus, de temporibus et inspectione et de pulsu et de
+          generali significatione et de typis et de diatritis et de adiutoriis plene ut arbitror
+          ordinavi. nunc de speciali significatione diaeticarum passionum et de generali curatione
+          respondeamus, ut isto volumine omnis diaeticarum cura compleatur.</p>
+      </div>
+      
+        <div type="par" n="1"><p>
+       In quot vel quas dividis partes officia curationis
+          diaeticarum passionum? in quattuor generales, celerum, tardarum, cum febribus et sine
+          febribus.</p></div>
+        <div type="par" n="2"><p>Quae sunt speciales passiones quae sine febribus esse non
+          possunt? phrenesis, lethargia, pleuresis, peripleumonia.</p></div>
+        <div type="par" n="3"><p>Quae sunt quae cum febribus esse non possunt? synanche,
+          apoplexia, spasmos, ileos, satyriasis, cholera, diarrhoea.</p></div>
+        <div type="par" n="4"><p>Qua ratione celerum passionum curationem praeponis? quoniam
+          frequentes atque urgentiores sunt et earum plurimae et tardae fiunt, quarum superpositio
+          similem celerum exigit curationem.</p></div>
+        <div type="par" n="5"><p>Qua ratione specialis curatio generali subiungitur? quoniam
+          cum specialis tarda est et in paucis invenitur, communis atque adprehensione facilis est
+          generalis. quod manifeste monstrabimus. per singula membra specialis una est in corpore,
+          quatenus species dividuntur quae a suo genere non differunt. </p></div>
+        <div type="par" n="6"><p>Qua ratione primum de febribus? quod omni regioni atque
+          tempori et naturis corporum et aetatibus omnibus inruunt.</p></div>
+        <div type="par" n="7"><p>Vnde febricula dicta est? a fervore veluti ferbicula
+          nuncupatur. </p></div>
+        <div type="par" n="8"><p>Quomodo adprehendimus febricitantes? cum tactui nostro
+          occurrere senserimus veluti ex alto ascendentem fervorem plurimum atque acriorem a
+          naturali, totum per corpus exhalantem.</p></div>
+        <div type="par" n="9"><p>Mutatio etiam pulsus febriculae signum confert? secundum
+          veteres non fert. Hippocrates enim et Euenor et Plistonicus solum fervorem naturalem
+          moderationem excedentem signum febrium posuerunt. ac ceteri successores eorum pulsus
+          disputationis, sed dispari sententia. alii enim contra naturam effectam mutationem sine
+          externae causae adventu signum febrium vocaverunt, ut Agrius, alii crebritatem pulsus
+          ultra naturam, ut Cleophantus, Chrysippus et Erasistratus. alii vehementiam putant, ut
+          Asclepiades. alii celeritatem et duritiam, ut quidam novelli inventores. ex quibus aliqui
+          solam pulsus mutationem, aliqui etiam fervoris naturalis signum febriculae posuerunt. nos
+          autem quoniam infinita est mutatio pulsus ob causarum inruentium proprietates, qua re ob
+          facilitates suae mutationis etiam praeter febrem passionibus tribuitur, item quoniam
+          naturalis fervoris superantia non solum ex febre sed etiam aut solis vapore aut
+          exercitationis motu vel acris cibi usu efficitur, addimus ut per totum corpus ex alto
+          atque acrior naturali plurimus exhalans fervor febrium referat signum. </p></div>
+        <div type="par" n="10"><p>Quomodo adprehendis quattuor tempora febriculae, hoc est
+          initium augmentum statum vel declinationem? initium febriculae adprehendo ex primo atque
+          parvo momento fervoris ex alto naturalis in acriorem qualitatem transeuntis, augmentum
+          excremento qualitatis et quantitatis supradictae significationis, statum ex aequalitate,
+          declinationem ex deminutione.</p></div>
+        <div type="par" n="11"><p>Quomodo adprehendis febrium dimissionem? limpidam ex
+          tranquillitate supra dictarum, sordidam ex mitigatione.</p></div>
+        <div type="par" n="12"><p>Quae sunt febrium species? sunt febres strictae, sunt
+          solutae, sunt complexae, sunt celeres, sunt tardae atque ceteras temporum differentias
+          habentes.</p></div>
+        <div type="par" n="13"><p>Secundum solam solutionem febricula esse potest, cui nihil
+          stricturae misceatur? aliqui hoc fieri negant. stricturae enim effectum febriculam dicunt.
+          nos autem id fieri magniter probamus, cum plerumque cardiacos nihil stricturae patientes
+          febrire ostendimus atque solis constrictivis adiutoriis relevamus.</p></div>
+        <div type="par" n="14"><p>Quomodo in complexionibus intellegis utrum alterius an
+          utriusque sit febricula passionis? ex accessionibus et dimissionibus eiusdem febriculae.
+          si enim sese cum in certis stricturae extulerit, et tranquillaverit signis, eidem
+          adscribenda erit passioni, vel si e contrario, solutioni, si autem communibus,
+          utrique.</p></div>
+        <div type="par" n="15"><p>Quomodo adprehendis febricitantem in sudorem criticum
+          declinantem advenisse? ex pulsu magno celeri molli uvido totiusque corporis superficiei
+          vaporatione cum pruritu cutis et quadam tactus mollitudine, rigoris etiam per corpus
+          alterna insinuatione, dehinc ipsius per poros veluti humecta exhalatione tamquam mox e
+          lavacro veniant aut si in continuatione febrium tremor frigidus membra pertractans
+          inruerit.</p></div>
+        <div type="par" n="16"><p>Ex quibus signis phreneticum adprehendis? ex febricula acuta
+          cum mentis alienatione atque manuum vano errore ut aliquid suis digitis adtrectare
+          videatur, ut fimbrias operimentorum, quod Graeci crocydismon vocant, aut de parietibus
+          levium stipularum detractione, quod Graeci carphologian vocaverunt, pulsu etiam spisso
+          atque parvo.</p></div>
+        <div type="par" n="17"><p>Quomodo discernis phreneticum ab eo qui insania
+          febricitaverit? insania febricitantes alienatione primum mentis vexantur, dehinc febricula
+          consequitur, nullo ex supradictis adtestante manuum errore ut parietes aut operimenta
+          digitis adtrectare videantur. passiones ipsae praeterea temporum differentia separantur.
+          nam phrenesis celer tantummodo est. insania autem tarda frequentius, celer difficile.
+          mentis quoque alienatio in phreneticis cum accessio febrium erit, aliqua mollitur. insanis
+          autem, febribus desinentibus, perseverat.</p></div>
+        <div type="par" n="18"><p>Vnde phrenesis dicta est? ab inpedimento mentis. Graeci enim
+          mentes phrenas vocant.</p></div>
+        <div type="par" n="19"><p>Ex quibus lethargicum adprehendis? ex febricula acuta cum
+          sensus oppressione ut aut difficulter aut nihil sentiat, pulsu magno raro et inani.</p></div>
+        <div type="par" n="20"><p>Vnde lethargia dicta est? ab oblivione mentis atque corporis
+          vacatione motus. Graeci enim lethen oblivionem, argian vacationem vocant. </p></div>
+        <div type="par" n="21"><p>Ex quibus pleureticum adprehendis? ex febre acuta
+            <supplied>cum dolore lateris vehementi atque</supplied> ad iugulum atque palam suae
+          partis tendente respirationeque difficili cum tussicula, cum qua sive sanguinolenta aut
+          spumosi vel fellei vel purulenti humores excluduntur, leviatione etiam doloris adtestante
+          quotiens super id latus quod dolet iacuerit aegrotans.</p></div>
+        <div type="par" n="22"><p>Vnde pleuresis dicta est? a parte quae ceteris plus patitur.
+          latus enim magis ex ipsa passione vexatur, quod Graeci pleuran appellant.</p></div>
+        <div type="par" n="23"><p>Quomodo pleuretici a latus dolentibus differunt? quod
+          pleureticos latus dolentes, latus autem dolentes non semper pleureticos appellamus nisi
+          ceteris adtestantibus signis.</p></div>
+        <div type="par" n="24"><p>Ex quibus peripleumoniam adprehendis? ex febre acuta ac
+          respiratione difficili, tussicula cum spumosis sputis, gravatione atque iacendi super
+          latus difficultate, at si supini iacuerint aegrotantes altioribus stramentis sublevato
+          thorace cum capite ut sedere videantur, facilius supra dicta tolerabunt. pulsum autem
+          vehementem atque celerem habent.</p></div>
+        <div type="par" n="25"><p>Vnde peripleumonia dicta est? a parte quae plus a ceteris
+          patitur. pulmo enim ex ipsa passione vexatur, quem graeci pleumona appellant. </p></div>
+        <div type="par" n="26"><p>Ex quibus synanchicum adprehendis? ex inflammatione cum
+          rubore faucium atque uvae e confinio vel radice linguae, difficultate etiam transvorandi
+          cibum vel potum et pro magnitudine tumoris praefocatione cum respirationis difficultate
+          atque oculorum prominentia, aut e contrario tenuitate gutturis cum tensione in
+          longitudinem porrecti, vultus quoque deductione ut eius partes concidisse videantur,
+          respirationis difficultate cum praefocatione, nulla exstante inflatione. duplex enim
+          species synanches est, cum inflatione et sine inflatione, quarum vehementior atque
+          celerior secunda praefocatio.</p></div>
+        <div type="par" n="27"><p>Vnde synanche dicta est? a continentia spiritus. Graeci enim
+          synagein dicunt continere. aut a praefocatione suspendii. anchonas enim suspendia
+          vocaverunt.</p></div>
+        <div type="par" n="28"><p>Ex quibus apoplecticum adprehendis? ex repenti sensus atque
+          motus eiectione, aut aliqua parte vultus adducta oris etiam dimissione ut mentum laxius
+          videatur, pulsu parvo celeri cum articulorum frigido torpore, anhelitus rara spiratione
+          cum colore plumbeo.</p></div>
+        <div type="par" n="29"><p>Vnde apoplexia dicta est? quod tamquam letali percussu
+          repentinum casum faciat. Graeci enim percussum plexin vocaverunt.</p></div>
+        <div type="par" n="30"><p>Quomodo a lethargia apoplecticum discernis? primo ex febre.
+          febris enim in omnibus lethargicis antecedit sensuum eiectionem. dehinc ex pulsu.
+          lethargicorum enim maior atque rarus est, apoplecticorum parvus et creber sine aliqua
+          febrium significatione.</p></div>
+        <div type="par" n="31"><p>Ex quibus catalepticum adprehendis? ex febre atque vocis
+          amissione cum mentis tarda intellegentia, pulsu magno atque vehementi, oculis patentibus
+          atque intentis palpebris cum fixo obtutu in augmento febrium. in statu autem vel
+          declinatione motus aliquis efficitur oculorum. nam cum eis manum ante oculos suspendentes
+          abstraxerimus, eandem obtutu sequentur, aut digitorum obtractationem pavitantes palpebras
+          recondunt, si clamati fuerint, audiunt et non respondent, sed oculorum respectu ad vocem
+          conversi audisse noscuntur et lacrimantur. odoramentis etiam admotis aut aliquo ciborum
+          gustu commoti ingemiscunt, rubore perfusi, declinantibus febribus calido sudore.</p></div>
+        <div type="par" n="32"><p>Ex quibus adprehendis spasmo laborantem? ex non voluntaria
+          tensione atque conductione partium vel nervorum, cum dolore vehementi atque acuto et pulsu
+          parvo.</p></div>
+        <div type="par" n="33"><p>Ex quibus tetanicum adprehendis? ex gutture in longitudinem
+          extento atque inflexibili positione durato, cum dolore vehementi et duritia musculorum qui
+          buccis insistunt, rubore vultus, dentium compressione ut os aperire difficulter possint
+          conductione nervorum inpediti.</p></div>
+        <div type="par" n="34"><p>Ex quibus opisthotonicum adprehendis? ex supino raptu hoc
+          est a postica parte conducta cervice cum nimia tensione atque vehementi dolore dorsi et
+          colli, surarum quoque contractu et manuum et digitorum.</p></div>
+        <div type="par" n="35"><p>Ex quibus emprosthonicum adprehendis? ex conductione
+          gutturis in anteriores partes effecta atque mento pectori adiuncto, tensione ilium et
+          praecordiorum, continuo mictus desiderio et digitorum inpossibili complexione. supra
+          dictae passiones si ex vulnere fuerint effectae in periculum faciles, in sanationem
+          difficiles iudicantur.</p></div>
+        <div type="par" n="36"><p>Quomodo discernimus ab spasmo tremorem et membrorum saltum?
+          ex differentia motus. spasmos enim tensione atque conductione efficitur, tremor autem
+          crebra vibratione. item membrorum saltus ex erectione palpitantis et gaudio. sine aliqua
+          tensione vel salutis periculo.</p></div>
+        <div type="par" n="37"><p>Ex quibus hydrophobon adprehendis? ex nimio desiderio potus
+          atque pudore, sine aliqua manifesta ratione.</p></div>
+        <div type="par" n="38"><p>Ex quibus cardiacum adprehendis? ex antecedentibus
+          vehementibus febribus et consequenti sudore frigido atque virium celerrima debilitate,
+          membrorum quoque frigida exhalatione, quod signum est naturalis extincti fervoris quo
+          corpora viventium vigent, dehinc ipsius celerrima respiratione atque halucinatione cum
+          gravatione thoracis, pulsu celeri parvo inani veluti fluido atque demerso cum tremore et
+          formicali motu, quem Graeci myrmecizonta vocant.</p></div>
+        <div type="par" n="39"><p>Vnde nomen cardiacae passionis cepit? a corde quod Graeci
+          cardian appellant. hoc enim gravius ex ipsa passione vexari multi adseverant. alii vero
+          quod sit letalis passio, a corde nominatam dixerunt quod in nobis principatum vigoris
+          habet.</p></div>
+        <div type="par" n="40"><p>Quomodo discernis critice sudantem (hoc est discinctibili
+          sudore qui est necessarius) ab eo qui diaphoresi solvitur? non facilem sed satis
+          necessariam quaestionem proponis. nam plurimi medici eius discretionis ignari salutares
+          sudores stringentes, passiones aegrotantibus reddiderunt, et alii diaphoreticos
+          conlaxantes causa mortis extiterunt. unde eorum differentiam necessario suggerimus
+          ordinandam, quae varia ratione colligitur. nam primum ex praeteritis, dehinc ex genere
+          passionum et magnitudine temporis et sudoris ipsius ordine et quantitate et qualitate
+          significatio firmatur. ex praeteritis inquam cum consideramus utrum signa sudoris futuri
+          diaphoretici an salutaris praecesserint. ex genere passionum cum qualitatem passionis
+          adtendimus. si enim solutio est, sudor etiam inutilis ac diaphoreticus esse monstratur. si
+          vero strictura est, adtendenda magnitudo. parva enim passio diaphoresin ferre non potest.
+          si autem magna fuerit, adtendendum tempus. in statu enim totius passionis atque temporalis
+          accessionis vel limpida dimissione criticus sudor ostenditur, in initio autem vel augmento
+          perniciosus. ex ordine inquam sudoris ipsius. aequalis enim bonus, inaequalis autem malus
+          sudor indicatur. ex quantitate signum accipimus moderationem considerantes. modicus enim
+          sudor bonus, inmodicus autem malus accipitur, denique recte sudantes ex accepta
+          inmoderatione diaphoresin incurrunt. ex qualitate autem significationem accipimus, cum
+          tactus iudicium adhibemus. salutaris enim sudor calidus tenuis et non male redolens
+          probatur, perniciosus autem frigidus atque sucidus et male redolens atque loturae carnium
+          similia invenitur. dehinc ex praesentibus atque concurrentibus signis adfirmanda
+          significatio est. nam diaphoreticis magis parvus atque creber et inbecillis et inanis
+          invenitur pulsus, thorax etiam gravatur cum respiratione frequenti, iactatione ac
+          desponsione animi, vocis etiam tenuitate, adtestante pallore. recte autem sudantibus
+          pulsus erectior, respiratio facilis atque lenior efficitur, in somno etiam prona
+          delectatio et omnium adversorum deminutio cum animae atque corporis relevatione. </p></div>
+        <div type="par" n="41"><p>Quomodo discernis a cardiaco eum qui ex stomachi passione
+          sudaverit? ex stomachi passione sudare cognoscimus eum qui sine dolore eiusdem partis
+          vexari fatetur, hoc est sub pectore aut inter palas, adtestante aliquo singultu atque post
+          acceptum cibum pressura corporis cum salivarum fluore et nausia aut vomitu.</p></div>
+        <div type="par" n="42"><p>Ex quibus cholericum adprehendis? ex perseveranti ac iugi
+          vomitu usque ad flavi humoris effusionem aut vitellis ovorum similis vel viridis aut nigri
+          cum ventris nimio fluxu, quo humor spumosus atque creber supra dictorum similis frequente
+          intervallatione egreditur, virium concadente substantia cum membrorum frigido torpore.
+          crescente passione vultus deductus atque corpus exhaustum efficitur cum levi sudore.
+          pulsus parvus inbecillis creber cum ardore ac desiderio potus et anhelitus celerrima
+          respiratione, <supplied>contractio membrorum</supplied> cum surarum atque brachiorum
+          tensione. ob quam celeritatem concurrentium signorum Graeci eandem passionem monoemeron
+          vocaverunt quod in unius diei spatio terminetur.</p></div>
+        <div type="par" n="43"><p>Vnde cholera nominata est? a vomitorum redundantia atque
+          acrimonia, felle effuso. Graeci enim fel cholen vocaverunt.</p></div>
+        <div type="par" n="44"><p>Ex quibus ileaticum adprehendis? ex nimia inflatione
+          intestinorum et ventris cum abstinentia stercorum, peritonaei etiam inflatione hoc est
+          membranae quae viscera circumtegit, cum hirta respiratione atque articulorum frigido
+          torpore, pulsu crebro, singultu, venti per podicem frequentia nihil relevante, vesicae
+          etiam adtestante consensu. </p></div>
+        <div type="par" n="45"><p>Ex quibus torminosum adprehendis? ex levi intervallatione
+          doloris intestinorum atque tormenti.</p></div>
+        <div type="par" n="46"><p>Ex quibus satyriasin adprehendis? ex nimia pudendorum
+          tensione sive conversu atque fervore et pruritu cum inmodica veneris adpetentia, pulsu
+          crebro et anhelitus celeris saeva respiratione.</p></div>
+        <div type="par" n="47"><p>Ex quibus priapismon adprehendis? ex pudendorum tensione
+          sive conversu nimio, plurimo perseverante tempore nulloque salutis periculo velut in
+          satyriasi occurrente. </p></div>
+        <div type="par" n="48"><p>Vnde satyriasis dicta est? a Saturorum similitudine, quos
+          nimie pronos in venerem fama vulgavit.</p></div>
+        <div type="par" n="49"><p>Vnde priapismus dictus est? a Priapi similitudine.</p></div>
+        <div type="par" n="50"><p>Ex quibus cephalaeam adprehendis? ex tardo dolore capitis,
+          totius, aut dimidii quem Graeci emicranium vocant. </p></div>
+        <div type="par" n="51"><p>Ex quibus scotomaticum adprehendis? ex oculorum caligine cum
+          capitis vertigine ut omnia secum moveri aegrotantes existiment, aut ante oculos tractus
+          quosdam lanatos aranearum texti similitudine transire putent quocumque converterint,
+          adtestante <supplied>capitis</supplied> gravedine et si sedere voluerint tremore
+          repentino. omnia secum putant inpelli. etenim cum se inclinaverint aut ex alto aspexerint
+          aut circulatim ambulaverint, velut rotae figulinae vertiginem conspiciunt.</p></div>
+        <div type="par" n="52"><p>Ex quibus eum qui incubone vexatur adprehendis? ex difficili
+          motu corporis atque torpore, somno etiam a solito gravi, quo sensu obpresso gravatur ut
+          praefocari se dormiente sentiat, aut aliquem sibi inruisse putet qui eius corpus premendo
+          exanimare contendat. </p></div>
+        <div type="par" n="53"><p>Vnde incubo dictus est? a mentis atque sensus incubatione.
+          alii autem incubum dicunt quod ex indigestione cibi eveniat. Graeci efialten quod
+          ascendisse aliquem supra dormientem fingant.</p></div>
+        <div type="par" n="54"><p>Ex quibus epilepticum adprehendis? ex accessione quae eum
+          ita conturbat ut omnibus sensibus privetur et omnem motum amittat veluti somno alto
+          comprehensus, cum pallore atque oris laxamento ut mentum laxatum videatur, cum spiratione
+          tarda et pulsu magno, aut palpitantibus membris excussu creberrimo cum convertantur, vultu
+          atque oculis contortis cum stridore gutturis et singultu, ruboris etiam per membra
+          paulatim insinuatione, palpebrarum suspensura, aspectu stupido cum stridore dentium et
+          linguae praependentis hebetudine, membrorum frequenti raptu et praecordiorum suspensa
+          conductione, vocis inarticulato sonitu cum extentione spiramentorum atque vultus. in
+          ultimo autem per os ac nares spumarum emissio consequitur. post accessionis terminum nihil
+          se passum reminiscitur aegrotans, sed maestitia confusus pigro motu consurgit, oculis
+          rubentibus atque vultus perseverante turbore cum prominentibus venis ex fronte et
+          oscitatione frequenti.</p></div>
+        <div type="par" n="55"><p>Vnde epilepsia dicta est? a sensus atque mentis
+          adprehensione, quibus occupatis etiam corpus possidetur. Graeci enim epilepsiam
+          adprehensionem vocant. Romani hunc morbum comitialem dicunt.</p></div>
+        <div type="par" n="56"><p>Quibus aliis nominibus epilepsia nuncupatur? plurimis. nam
+          dicitur sacra passio, quod significatione magnam refert. Graeci enim ieran noson
+          vocaverunt, ut Democritus. sive quod divinum morbum comitialem dicant, sive quod animae
+          misceatur, sive quod ex capite fiat causa quod templum animae tenet. haec sacraria
+          corporis veteres vocaverunt. alii autem puerilem morbum dixerunt, quod is ipsis abundet
+          aetatibus. alii caducum dicunt quod cadentes faciat.</p></div>
+        <div type="par" n="57"><p>Quomodo discernis a catalepticis epilepticos? primo ex
+          febre, quam necesse est esse in catalepticis. dehinc ex spumarum eruptione, quam necesse
+          est esse in epilepticis per os atque nares, quod a catalepticis supra dicta vice alienum
+          est ut ab epilepticis febris.</p></div>
+        <div type="par" n="58"><p>Ex quibus insaniam adprehendis? ex mentis sine febre
+          alienatione cum iracundia aut hilaritate aut vanitate aut timore, antecedentibus is quae
+          passionem praecedunt, ut capitis dolor cum gravedine et sonitu atque aurium tinnitus.</p></div>
+        <div type="par" n="59"><p>Vnde insania dicta est? Graeci quidem ab nomine argumenta
+          ducentes varias opiniones inducunt. manian enim vocaverunt, ex quo nomine multae possunt
+          significationes ostendi. nos autem a mentis turbata sanitate, cuius sub dominio corpus
+          agens sanum dici minime potest, insaniam nuncupamus.</p></div>
+        <div type="par" n="60"><p>Ex quibus bulimum adprehendis? ex animi atque sensuum
+          defectu, membrorum frigido torpore cum nervorum tremore, stomachi adtenuatione, vocis
+          debilitate, pulsu tardo humilique. supra dicta accepto vino aut cibo acri cum temporali
+          resumptione facilius tolerant aegrotantes. </p></div>
+        <div type="par" n="61"><p>Vnde bulimus dictus est? Graeca derivatione, quod magnam
+          famem faciat. bulimum enim grandem famem vocaverunt.</p></div>
+        <div type="par" n="62"><p>Ex quibus phagedaenicum adprehendis? ex nimio appetitu cibi
+          plurimi atque non commasticati properanti transvoratione, dehinc ex consequenti gravatione
+          et tensione atque acceptorum vomitu.</p></div>
+        <div type="par" n="63"><p>Ex quibus melancholicum adprehendis? ex odio vitae atque
+          conversationis humanae, mentis cum vultus maestitia taciturnitate, anxia insidiarum sibi
+          paratarum suspectione cum fletu inrationabili et nunc mortis nunc vitae cupiditate,
+          inflatione praecordiorum, articulorum frigido torpore cum levi sudore, atque colore nigro
+          vel viridi, cum corporis macie ac debilitate et cibi accepti corruptione, cum
+          ructuationibus male redolentibus hoc est fumosis vel acidis aut bromosis, et vomitu
+          fellium nigrorum aut eorum per ventrem effusione cum intestinorum tormento. hanc passionem
+          Latini atram bilem vocaverunt.</p></div>
+        <div type="par" n="64"><p>Ex quibus debilitatem stomachi adprehendis quam Graeci
+          atonian vocaverunt? ex appetitu cibi cessante, quam anorexiam vocaverunt, pulsu parvo cum
+          animi et membrorum defectu atque post cibum stomachi gravatione et tensione cum acceptorum
+          tardo descensu, nullis ructuationibus cum sonitu ventris adtestantibus quod prius cibus
+          digeri coeperit, ita ut saepissime corruptus in varias qualitates transierit quae
+          ructuationibus acidis vel fumosis aut bromosis significantur, et si a cibo abstinuerit
+          aegrotans, os ventris sibi tamquam ex cucurbitae raptu praefocari sentiat adtestante
+          sudore cum pulsu parvo et oculorum caligine ut interdum visum obscurari sentiat, aut
+          defectione interpellatus cibum quaerat et cum cibum parvum acceperit desinat, vel virium
+          adtestante debilitate aut corporis nutrimento cessante ut nihil sauciis ex cibo membris
+          proficiat, sed officia viarum deficiente nutrimento corpori detrahantur. unde cholericus
+          aegrotans efficitur et ex parva occasione facilis in febrem atque iracundiam. </p></div>
+        <div type="par" n="65"><p>Ex quibus tumorem stomachi adprehendis? ex nimia siti et
+          iactione animi et corporis atque oris siccitate cum vigiliarum inquietudine et tumentium
+          partium fervore, pulsu crebro, articulorum frigido torpore, dolore oris ventris quando
+          basis patitur, quam patitur, quam nos recte sessionem vel fundum appellamus, aut inter
+          palas quando superiora stomachi patiuntur adtestante cibi transvorandi difficultate. si
+          autem basis fuerit in tumore, et transvoratio facilis sed digestio difficilis consequitur
+          cum gravatione tumentium partium et acceptorum corruptione, ex quo inflatio praecordiorum
+          fit. ac si totus stomachus tumuerit, omnes supra memoratae partes dolore tenduntur
+          consequentibus supra dictis.</p></div>
+        <div type="par" n="66"><p>Ex quibus duritiam stomachi adprehendis? ex recedentibus
+          signis transacti tumoris hoc est fervore et dolore, manentibus ceteris quae duritiam
+          significant id est intestinorum veluti ligneo sensu, adtestante gravitudine, ac si in
+          pectore tactui nostro resistente duritia, transvoratione etiam cum praefocatione. </p></div>
+        <div type="par" n="67"><p>Ex quibus stomachi ventositatem vel inflationem adprehendis
+          quam Graeci pneumatosin vocant? ex tensione quam sub pectore aegrotantis tactu nostro
+          sentimus magis post cibum, inflatione cum ructuationibus continuis ac difficilibus, dolore
+          et fastidio cibi atque potus, capitis consensu. dehinc interveniente laxamento
+          ructuationibus relevantur. intestinis quoque inflatis sonitus eorum id est per podicem
+          frequens ventositatis emissio consequitur.</p></div>
+        <div type="par" n="68"><p>Ex quibus reumatismum stomachi adprehendis? ex uviditate
+          oris, sputo effluenti, nausia cum fastidio et vomitu et capti cibi corruptione.</p></div>
+        <div type="par" n="69"><p>Ex quibus adprehendis vocis amputationem? ex spiritus
+          obtunso sonitu atque hirta voce aut in totum confusa sine aliqua faucium ac linguae
+          manifesta ratione.</p></div>
+        <div type="par" n="70"><p>Quid est cynicos spasmos quem recte caninum raptum dicimus?
+          conductio inrationabili raptu effecta atque indulta nunc in ultima compaginatione buccarum
+          quam Graeci vocant, nunc labiorum quam idem chalinon appellant, nunc palpebrarum, nunc
+          humeri et collorum, aut omnium supra dictorum. </p></div>
+        <div type="par" n="71"><p>Quid est catarrus? fluens ad nares aut fauces aut pulmonem. </p></div>
+        <div type="par" n="72"><p>Vnde catarrus dictus est? a fluore. Graeci enim catarrun
+          fluorem vocant. </p></div>
+        <div type="par" n="73"><p>Quibus aliis a speciebus nominibus catarrus appellatur? ad
+          nares factus coryza, ad fauces branchos, ad pulmonem ptysis.</p></div>
+        <div type="par" n="74"><p>Ex quibus adprehendis ad nares factum catarrum? ex gravedine
+          atque constrictione narium et frontis pruritu cum iugi fluore humoris tenuis aut crassi
+          atque viridis cum sternutationibus continuis et odoratus difficili sensu.</p></div>
+        <div type="par" n="75"><p>Ex quibus ad fauces? ex pruritu quodam faucium cum
+          titillatu, voce obscura, adtestante sensu praefocationis et transvorandi difficultate cum
+          tussicula.</p></div>
+        <div type="par" n="76"><p>Ex quibus ad pulmonem? ex gravedine thoracis et tussicula
+          vehementi cum sputibus spumosis aut pinguibus aut purulentis.</p></div>
+        <div type="par" n="77"><p>Quot significationes sunt fluoris sanguinis? duae, propria
+          et abusiva. propria est qua ex superioribus partibus labens fluor sanguinis significatur,
+          ut de capite per sensuales vias. abusiva est qua etiam ex inferioribus ascendens fluor
+          significatur, ut ex pulmone vel stomacho, nausia et tussicula exclusus. inproprium enim
+          est fluorem vocare id quod ascensu quodam, non lapsu fertur. et hoc Graeci versa vice
+          posuerunt derivationem nominis intuentes. hi enim anagogen vocaverunt quae magis ex
+          inferioribus ad superiora fluorem significat.</p></div>
+        <div type="par" n="78"><p>Quid fluor sanguinis ab sputu differt? quod neque fluor
+          sanguinis sputus dici proprie potest. parvae enim materiae significationem sputus refert,
+          fluor plurimae. neque sputus sanguinis fluor supra dicta ratione. parvam enim materiam
+          sanguinis ex gingivis aut uva aut faucibus emissam sputum magis quam fluorem recte
+          nuncupamus.</p></div>
+        <div type="par" n="79"><p>Quot sunt differentiae sanguinis fluoris? tres. eruptio,
+          vulneratio, resudatio. </p></div>
+        <div type="par" n="80"><p>Ex quibus ad prehendis eruptione factum? ex repentino atque
+          limpido sanguinis fluxu, nulla antecedente querella vulneris.</p></div>
+        <div type="par" n="81"><p>Ex quibus vulneratione? ex eiecta materia humoris purulenti
+          cum sanguine non limpido et tussicula plurimorum dierum. </p></div>
+        <div type="par" n="82"><p>Ex quibus resudatione? ex nullo sensu vulneris, quod magis
+          ex accepto cibo vel poto aut acriore liquore comprobatur.</p></div>
+        <div type="par" n="83"><p>Qui sunt loci ex quibus fluor sanguinis efficitur? plurimi.
+          ex supernis faucibus hoc est de broncho quod est gutture, ex faucibus, pulmone, thorace,
+          diaphragmate, ex stomacho ventre et proximis locis, de capite, ex iecore et splene et ex
+          vena maiore quae spinae coniuncta est.</p></div>
+        <div type="par" n="84"><p>Ex quibus adprehendis eos qui de supernis faucium partibus
+          quod est bronchos, id est guttur, sanguinem proiciunt? ex sputu sanguinis cum quodam
+          excreatu et parvi, ex asperitate linguae atque imagine venulae eo loco de quo sanguis
+          fertur apparente. qui adprehenditur sic. si liquoris acrioris gargarismum acceperint
+          aegrotantes, mordicationes eius loci sentiunt.</p></div>
+        <div type="par" n="85"><p>Ex quibus eos qui de faucibus sanguinem proiciunt? ex parvo
+          fluore sanguinis cum humore tenaci et levi tussicula sputibus excluso.</p></div>
+        <div type="par" n="86"><p>Ex quibus eos qui de pulmone sanguinem proiciunt? ex plurimo
+          atque coacervato sanguinis fluore spumoso rufo ac ferventissimo, dolore cum vehementi
+          tussicula et thoracis gravedine expulso, aliquando cum stridore pectoris et vocis
+          inarticulatae obtunsione et raucedine cum genarum rubore.</p></div>
+        <div type="par" n="87"><p>Ex quibus eos qui de thorace proiciunt? ex supra dictis
+          signis sed paulo mitioribus, cum dolore lateris aut pectoris, aliquando etiam spinae medio
+          utrarumque palarum quod Graeci metafrenon vocant, neque multo fluore nec spumoso
+          sanguine.</p></div>
+        <div type="par" n="88"><p>Ex quibus eos qui de diaphragmate sanguinem proiciunt? ex
+          supra dictis signis excepto dolore. hi enim inferius a pectore dolore cinguntur.</p></div>
+        <div type="par" n="89"><p>Ex quibus qui de stomacho sanguinem proiciunt? ex vomitu
+          plurimi sanguinis atque nigri vel coagulati aliquando puri aliquando cum cibo, adtestante
+          animi defectu cum corporis iactatione atque fastidio cibi salivarumque fluentia, membrorum
+          frigido torpore, pulsu parvo, dolore medio utrarumque palarum quod Graeci metafrenon
+          vocant. et magis si acrem liquorem biberint, statim morsum stomachi patiuntur malfiunt
+          infrigidantur.</p></div>
+        <div type="par" n="90"><p>Ex quibus qui de ventre sanguinem proiciunt? ex is quae de
+          stomacho memoravimus sed paulo vehementioribus. nam plerumque etiam per ventrem quiddam
+          sanguinis emittunt aegrotantes cum dolore atque tormento et mordicatione mediis
+          praecordiorum. </p></div>
+        <div type="par" n="91"><p>Ex quibus eos qui de proximis locis expuunt? ex inspectione
+          oris aperti de uva aut ex tonsillis vulnerati aut ex gingivis.</p></div>
+        <div type="par" n="92"><p>Ex quibus eos quibus de capite per sensuales vias sanguis
+          fluit? ex antecedente fervore faciei aut capitis gravedine vel dolore et tensione venarum
+          cum titillatu quodam eius partis qua sanguis fluit cavernarum quae ad os descendunt, adeo
+          ut plerumque dormientibus inquietudines faciat ore inpleto aut faucibus occupatis et cum
+          quodam excreatu putidus excludatur aut si ad stomachum vel ventrem defluerit premat
+          aegrotantem donec per vomitum excludatur. accepto praeterea vel transvorato acriore
+          liquore nulla mordicatio loci sequatur. si ad arteriam descendit, tussicula excluditur qua
+          neque ante fuerit vexatus aegrotans nec post exclusionem sanguinis interpellatur, quod de
+          pulmone proicientium signum est.</p></div>
+        <div type="par" n="93"><p>Ex quibus eos quibus ex iecore hoc est ficato sanguis
+          proicitur? ex dolore capitis cum dextra parte praecordiorum et colore viridi vel arquato
+          simili. </p></div>
+        <div type="par" n="94"><p>Ex quibus eos quibus ex splene? ex dolore sinistrae partis
+          capitis vel praecordiorum cum colore plumbeo, simili lingua.</p></div>
+        <div type="par" n="95"><p>Ex quibus eos quibus ex vena maiore quae spinae iuncta est
+          sanguis proicitur? Ex spinae dolore cum colore vultus et linguae pallido vel nigro.</p></div>
+        <div type="par" n="96"><p>Ex quibus phthisicos adprehendis? ex febre cum tussicula
+          atque excreationibus variis sanguinolentis vel lividis aut purulentis, et pro quantitate
+          exclusae materiae corporis macie, adtestante virium debilitate.</p></div>
+        <div type="par" n="97"><p><del>Ex quibus adprehendimus empyicos hoc est saniosos? ex
+            antecedentibus signis quae interiores collectiones denuntiaverint, ut dolore magno cum
+            febribus et horroribus inordinatis et consequenti repentina sanierum effusione, cum
+            pulsu erectiore.</del></p></div>
+        <div type="par" n="98"><p><del>Quomodo empyicos discernis ab haemoptoicis? ex
+            separatione singulolorum quae alternae passioni propria noscuntur. nam phthisicis non
+            repentina effusio sanierum, febres etiam cremento temporis acriores efficiuntur pulsu
+            crebro cum iliorum dolore, empyicis autem repentina effusio sanierum cum febrium
+            accessione.</del></p></div>
+        <div type="par" n="99"><p>Ex quibus asthmaticos hoc est anhelitum vel orthopnoeam
+          adprehendis? ex difficili respiratione cum praefocationis sensu atque gravatione thoracis
+          cum febre plurima, laterum etiam conductione ad superiores partes effecta, cum vocis
+          debilitate, vultus rubro colore et tensione, tussicula cum sputibus humorosis et tenuibus
+          aut crassis et supine iacendi difficultate, sudore etiam frequenti, pulsu magno, nocturna
+          accessione interpellante.</p></div>
+        <div type="par" n="100"><p>Quid differt a peripleumonia? celerior passio est cum
+          febribus, orthopnoea autem tarda passio et sine febribus.</p></div>
+        <div type="par" n="101"><p><del>Ex quibus paralysin adprehendimus? ex amisso sensu
+            tactus aut motu eius partis quae passa est. nam ex frigidis aut calidis rebus nihil
+            sentiunt aegrotantes, quando tactus paralysis vitia nascuntur ut tactum manente motu
+            amittant. quando autem admotis supradictis sentiunt sed eam partem <supplied>quae
+              patitur</supplied> movere in totum aut ex parte non possunt, motus paralysis vitia
+            nascuntur. aut utriusque, sensus et motus amissione, neque calidum frigidumque sentiunt
+            neque movent, adtestante etiam gravedine cum frigido torpore et totius corporis labore
+            ac defectu et partis quae passa est extensione aut contractione aut artuum totius
+            corporis. </del></p></div>
+        <div type="par" n="102"><p><del>Quae est paralysis quae paradoxos appellatur? qua
+            ambulantes detinentur gressu comprehenso, dehinc rursus paululum ambulantes
+            retinentur.</del></p></div>
+        <div type="par" n="103"><p>Ex quibus coeliacum adprehendis? ex officio ventris per
+          omnia turbato. nam nunc aspera vel alba vel indigesta nunc sanguinolenta aut purulenta
+          atque inaequalia egeruntur aegrotantis stercora, eodem die frequenter et parva, aut semel
+          et coacervata, adtestante intestinorum rugitu cum inflatione et sonitu descendentis cibi.
+          quando aegrotantes pallore cutis albida superficie, virium debilitate, macie corporis
+          totius cum foetore, pulsu crebro parvo inbecilli.</p></div>
+        <div type="par" n="104"><p>Vnde coeliaci dicti sunt? a parte quae passione tenetur.
+          venter enim patitur quem Graeci <foreign xml:lang="grc">κοιλιαν</foreign> appellant.</p></div>
+        <div type="par" n="105"><p><del>Ex quibus tumorem ventris adprehendis? ex dolore cum
+            extantia resistenti partis mediae quae iecur atque splenem disterminat, cum dolore atque
+            fervore et accepti cibi gravatione, dehinc corruptione et duritia.</del></p></div>
+        <div type="par" n="106"><p><del>Quomodo tumorem discernis praecordiorum et supra
+            dictorum viscerum? praeter inspectionem magis tactu nostro probatur. nam iecoris et
+            splenis dolores rotunditate vel longitudine, quae nullam vicinarum partium communionem
+            adferent; praecordiorum autem tumores ex tensione eaque sine una declinatione
+            terminantis partis adprehenduntur.</del></p></div>
+        <div type="par" n="107"><p><del>Ex quibus adprehendis tumorem praecordiorum? ex
+            extantium partium quae a confinio pectoris vel costarum vel umbilici terminantur
+            tensione cum dolore et fervore dextrae aut sinistrae partis.</del></p></div>
+        <div type="par" n="108"><p><del>Ex quibus saltum ventris adprehendis, quem Graeci
+            palmon vocant? ex partibus palpitantibus. </del></p></div>
+        <div type="par" n="109"><p><del>Ex quibus inflationem ventris adprehendis quam Graeci
+            oedema vocant? ex eius partis extantia quae tactui nostro facile cedit, nullo adtestante
+            fervore. nec sonum reddunt si palma percussi fuerint.</del></p></div>
+        <div type="par" n="110"><p><del>Ex quibus tumorem vel duritiam vel extensionem ventris
+            vel praecordiorum si omnes in uno fiant? omnia supra scripta signa patiuntur, et linguae
+            asperitas et articulorum infrigidatio cum extensione et dolore sequitur.</del></p></div>
+        <div type="par" n="111"><p>Ex quibus adprehendis colicum? ex dolore sub umbilico
+          vagante id est ex ilio dextro ad sinistrum tendente et nunc in splenis perseverante
+          partibus nunc in iecoris nunc in clunium nunc in ventris.</p></div>
+        <div type="par" n="112"><p>Vnde colici dicti sunt? a parte quae patitur. colus enim ex
+          ipsa passione vexatur.</p></div>
+        <div type="par" n="113"><p>Ex quibus adprehendis dysentericum? ex stercorum qualitate
+          aut muculenta vel pinguibus humoribus oblita aut cum rasura intestinorum nunc purulenta
+          nunc sanguinolenta <del>nunc frustis sanguinis coagulati commixta, quae Graeci thrombos
+            appellant, adtestante gravi foetore cum dolore ulcerum et fastidio et siti atque
+            interiorum ardore</del>.</p></div>
+        <div type="par" n="114"><p>Vnde dysenteria dicta est? a passione intestinorum. Graeci
+          enim dysenterian vulnus intestinorum vocant.</p></div>
+        <div type="par" n="115"><p>Ex quibus lientericum adprehendis? ex hoc quod cibum mox
+          acceptum aequalem in multa egerunt humecta et spumosa vel alba aut urinae similia aut
+          paulatim coacervata cum dolore et rugitu intestinorum, ilii pondere etiam sine dolore.</p></div>
+        <div type="par" n="116"><p>Vnde lienteria dicta est? ab intestinorum lenitate eo quod
+          facilius cibus labendo pertransit. l<supplied>e</supplied>ion enim lene, entera intestina
+          Graeci vocaverunt.</p></div>
+        <div type="par" n="117"><p>Ex quibus adprehendis eos qui de latis lumbricis vexantur?
+          ex egestis per ventris officium corpusculis moventibus semini cucurbitarum perquam
+          similibus aut paulo maioribus, cum appetitu cibi vehementi et pallore corporis aut vitium
+          debilitate nutrimento cessante, quod Graeci atrofian vocant, adtestante mordicatione
+          partis quae umbilico subiacet, magis ante cibum.</p></div>
+        <div type="par" n="118"><p>Ex quibus adprehendis qui de rotundis vexantur lumbricis?
+          ex mordicatione cum dolore pungenti ac tormento ventris et intestinorum, nausia cum sensu
+          veluti currentis animalis supra stomachi summitatem, adtestante aliquando ventris fluore
+          cum fastidio ac debilitate virium, pallore et macie, tussicula sicca parva, animi defectu
+          quem Graeci lipothymian vocant, cum stomacho turbato, qui pessime pressi ingemiscunt aut
+          dentibus stridunt aut proni iacentes presse mento infixo praeter consuetudinem dormiunt
+          aut repente clamant et repentino casu demersi conquiescunt aut vario motu conducti
+          torquentur cum pulsu parvo crebro inaequali deficiente.</p></div>
+        <div type="par" n="119"><p>Ex quibus adprehendis eos qui ex ascaridibus vexantur? ex
+          pruritu longaonis atque frequenti libidine ventris egerendi, nam plerumque coacervando in
+          sextarii quantitatem effunduntur animalia, usque ad virium debilitatem et solutionem
+          membrorum. est enim parvus vermiculus in ventre, et donec egerantur gravedine clunium ac
+          pallore aegrotantem afficiunt. dehinc exclusi morbo sublevante renascuntur.</p></div>
+        <div type="par" n="120"><p>Quomodo discernis insanum ab eo qui ex lumbricis alienatur?
+          proprietatem signorum intuens quae cuique passioni specialiter tribuuntur. nam insanis
+          querella capitis primo occurrit quae passionem fore denuntiat, sequentibus ceteris quae
+          eam confirmant. ex lumbricorum autem vexatione debilitationes intestinorum ac ventris,
+          sequentibus ceteris quae ab insanis aliena sunt, velut pulsus deficiens ac prona iactatio
+          passionis. </p></div>
+        <div type="par" n="121"><p>Quomodo phreneticum ab eo qui ex lumbricis vexatur
+          discernis? etiam hunc ex capitis antecedente querella et consequenti iugi perseverantia
+          carphologiae et crocydismi, quorum vim latinantes cum de ipsa passione diceremus docuimus,
+          febrium adtestante nimietate, quarum ex accessione mentis alienatio augetur, dimissione
+          mitigatur. ex lumbricis autem debilitatos neque crocydismus consequitur neque necessarie
+          febris, aut si fuerint non cum earum accessione mentis alienatione asperguntur aut
+          dimissione relevantur, sed iugiter plerumque perseverant.</p></div>
+        <div type="par" n="122"><p>Quomodo discernis lethargicum ab eo qui lumbricos habens
+          obmutescit? ex his quae lethargicum designant: febres acutae, pulsus maior rarus inanis et
+          supine iacendi dispositio, vultus adtestante pallore ac plumbeo colore. ex lumbricis autem
+          comprehensum aliis agnovimus signis. nam non necessario febres eum consequentur, pulsus
+          etiam creber atque parvus et inordinatus occurrit, rubro adtestante colore atque prone
+          iacendi dispositione. item lethargicum silere non necesse est, in lumbricorum oppressione
+          per intervalla. </p></div>
+        <div type="par" n="123"><p>Quomodo discernis epilepticum ab eo qui ex lumbricis
+          obmutescit? epilepticus diverso raptu torquetur, spumas egerit necessario, ex lumbricis
+          comprehensus non agit spumas, tamen sic patitur sicut cetera designant quae diximus.</p></div>
+        <div type="par" n="124"><p>Quomodo catalepticum discernis a lumbricorum passione?
+          catalepticum cum febre silere necesse est, pulsu adtestante magno ac veluti percussu, ex
+          lumbricis autem oppressum non necessario febris consequitur, similiter obmutescit, pulsus
+          etiam parvus atque creber est adsistens.</p></div>
+        <div type="par" n="125"><p>Quomodo ab apoplectico lumbricosum discernis? ex
+          antecedenti querella in apoplectico capitis, in lumbricis oppresso intestinorum vel
+          ventris, dehinc consequentibus signis. apoplecticos enim omnibus sensibus privari necesse
+          est et supinos iacere, ex lumbricis silentem per intervalla exclamare atque pronum iacere
+          saepius occurrit.</p></div>
+        <div type="par" n="126"><p>Quomodo praefocationem matricis discernis a lumbricorum
+          oppressione? ex antecedente querella intestinorum vel ventris, haud diversa matrice,
+          dehinc ex consequentibus signis. nam matricis raptu ad superiora effecto obmutescunt qui
+          ex ipsa parte vexantur, qui autem ex lumbricis, sine matricis querella supra dicta
+          patiuntur.</p></div>
+        <div type="par" n="127"><p>Quomodo cernis coeliacum ab eo qui lumbricorum vexatione
+          torquetur? ex non occurrentibus signis quae lumbricorum tormento tribuuntur, ut inspiratio
+          difficilis vel praeter consuetudinem pronae iactationis dispositio cum gemitu et vana
+          exclamatione, manentibus ceteris quae coeliacum significantes docuimus. </p></div>
+        <div type="par" n="128"><p>Quomodo stomachicum discernis ab eo qui lumbricorum
+          vexatione torquetur? ex multo tumore stomachi, consequenti intestinorum perseverante
+          tormento.</p></div>
+        <div type="par" n="129"><p>Quomodo discernis dysentericum ab eo qui ex lumbricorum
+          vexatione torquetur? ex non occurrenti querella intestinorum vel ventris quae lumbricorum
+          vexationem significant, manentibus ceteris quae dysentericorum signa docuimus.</p></div>
+        <div type="par" n="130"><p>Quomodo discernis eos qui naturaliter aut ex plurimo cibo
+          per somnum stridunt atque repente et inaniter exclamant ab is qui lumbricorum vexatione
+          haec patiuntur? singula considerans quae quibusque specialiter tribuuntur. nam qui
+          gravatione cibi haec patiuntur, detractione relevantur, at si lumbricorum fuerit vexatio,
+          detracto cibo magis gravantur. qui autem haec patiuntur naturaliter, neque tormentum
+          ventris vel intestinorum sentiunt neque decolorantur.</p></div>
+        <div type="par" n="131"><p><del>Ex quibus hepaticum adprehendis? extantia partis
+            dextrae praecordiorum veluti rotunda quae sub costas replet pectoris partem, cum dolore
+            contingente cum gravitudine repulsus usque ad iugulum partis ipsius ac scapulam tussi
+            arida et pondere in intestinis et urina fellei coloris cum fastidio et pallore in facie.
+            et febris vel rigor sequitur.</del></p></div>
+        <div type="par" n="132"><p><del>Ex quibus spleneticum adprehendis? extantia in
+            sinistra parte praecordiorum veluti longa, quae sub costas molles replet pectoris
+            partem, cum dolore sinistri praecordii, tensura et pondere et fastidio et asperitate
+            linguae cum horrore hoc est frigore. et febris sequitur.</del></p></div>
+        <div type="par" n="133"><p>Ex quibus adprehendis ictericum, quem aliqui arquatum
+          vocant? ex colore totius corporis in fellis qualitatem converso, quod magis apparet in
+          alboribus oculorum vel plantarum talis, et venae quae sub lingua sunt nigrescunt. </p></div>
+        <div type="par" n="134"><p><del>Vnde icterus dictus est? ab animalis nomine quod sit
+            coloris fellei.</del></p></div>
+        <div type="par" n="135"><p>Vnde etiam arquatus dictus est? a colore arcus caelestis
+          quae etiam iris dicitur.</p></div>
+        <div type="par" n="136"><p>Ex quibus cachecticum adprehendis? ex viridi atque pallido
+          vel plumbeo colore corporisque cessante nutrimento, quod Graeci atrofian vocant, virium
+          adtestante debilitate, solitoque motu retardato quod pigrius movent aegrotantes, cum
+          inflatione corporis et ventris fluore, pulsu crebro et parvo cum fastidio et minctu
+          viridis urinae, sublatente febricula cum frigore spisso.</p></div>
+        <div type="par" n="137"><p>Ex quibus syntecticum adprehendis? ex nimia macie atque
+          corporis conversione, pulsu debili parvo atque oculorum concavitate, praecordiorum tumore
+          cum splenis et iecoris tensione, fastidio cibi adtestante aut vehementi appetitu, dehinc
+          corruptione qua et vessica accepta sentiuntur, invalido digestionis officio cum febricula
+          et ventris ordine turbato ut nunc post multos dies squibala pauca atque dura excludant,
+          nunc dissoluta frequentius una die atque corrupta. </p></div>
+        <div type="par" n="138"><p>Quomodo discernis phthisicum a syntectico? ex propriis suis
+          signis nam phthisicos tussicula cum saniosis sputibus consequitur, syntecticos autem aut
+          non consequitur aut sine saniosis admonet sputibus.</p></div>
+        <div type="par" n="139"><p>Ex quibus adprehendis eum qui marasmo demergitur vel
+          atrofia quod est nutrimenti cessatio? ex oculis cavis humectis cum pituitis pinguibus,
+          quod Graeci lipos vocant, pulsu parvo crebro cum fervore et inflatione, magis articulorum,
+          et corpore rubro tenui, temporum adtestante capacitate et aliquando linguae asperitate cum
+          fastidio cibi.</p></div>
+        <div type="par" n="140"><p>Quid est hydrops? extantia ventris ultra modum naturalem,
+          aquoso atque corrupto humore effecta.</p></div>
+        <div type="par" n="141"><p>Vnde hydrops nomen accepit? ab accidenti, hoc est ab
+          humoris infusi materia. Graeci enim ydor aquam vocaverunt.</p></div>
+        <div type="par" n="142"><p>Quot vel quae sunt species hydropis? duae. totius corporis
+          et ventris, quarum prima leucoflegmatia vel yposarca appellatur, secunda in duas rursus
+          dividitur species. est autem humoris vel spiritus commixta materies, sed humore superante
+          ascites, spiritu tympanites vocatur. </p></div>
+        <div type="par" n="143"><p>Ex quibus adprehendis leucoflegmatian? ex totius corporis
+          molli inflatione cum colore subalbido et gravedine atque inpressis digitis tumore cedente,
+            <del>yposarca est</del> carnium resistente solutioni duritia cum mali odoris
+          spiratione.</p></div>
+        <div type="par" n="144"><p>Ex quibus asciten adprehendis? ex inflatione ventris et
+          sonitu fluctuantis humoris, quem Graeci ydatismon appellant, vel si palma pulsatur, utris
+          semipieni similem sonum reddet. <supplied>ex quo nomen sumpsit.</supplied> ascos enim
+          graece uter dicitur.</p></div>
+        <div type="par" n="145"><p>Ex quibus tympaniten adprehendis? ex rotunda ventris
+          inflatione cum tensione plurima, quae palma percussa tympanorum respirationem fingat. unde
+          et nomen accepit.</p></div>
+        <div type="par" n="146"><p>Ex quibus elephantiasin adprehendis? primum ex maculis quae
+          in initio inpetiginis similes nascuntur et flavae et sine pruritu, atque sine ulla
+          curatione adhibita et sponte transeunt et rursum renascuntur et eminentes perseverant,
+          dehinc crassificatae et extantiores et solidae efficiuntur et nigrae, quibus vulneratae
+          partes putrescunt, adtestante vocis asperitate et tussicula et ventris solutione.</p></div>
+        <div type="par" n="147"><p>Vnde elephantiasis dicta est? secundum
+            <supplied>aliquos</supplied> a magnitudine animalis, quod tantum a ceteris maior sit
+          passionibus quam elephantus ab omnibus animalibus maior est. <supplied>aut</supplied> quia
+          et color eorum in superficie corporis supra dicti similis est albi animalis et <gap/>
+          extante etiam nigredine macularum.</p></div>
+        <div type="par" n="148"><p>Ex quibus ischiadicos adprehendis? primum ex parvo dolore
+          ossi quod de ima descendit vertebra unde compaginem exigit. hoc Graeci ischion vocaverunt
+          hoc est coxam. adtestante formicabili torpore cum gravedine atque difficultate motus,
+          dehinc vehementi dolore cum punctione quadam et fervore et motus debilitate, descendenti
+          ex inguine ad suram vel tibiam et talum cum vestigio pedis, quae etiam nutrimento cessante
+          eius cruda tenuitas consequitur.</p></div>
+        <div type="par" n="149"><p>Ex quibus podagricos adprehendis? ex tardo dolore pedis
+          inchoante a maiore digito id est a pollice aut a vestigio aut a cavitate plantae,
+          aliquando cum inmutato atque naturali colore, aliquando cum rubore et inflatione,
+          adtestante dolore et frigido torpore.</p></div>
+        <div type="par" n="150"><p><del>Vnde nomen accepit podagra? a pedum dolore, quomodo
+            arthritica ab articulorum dolore.</del></p></div>
+        <div type="par" n="151"><p>Ex quibus nephriticum adprehendis? ex dolore magno
+          utriusque partis iliorum circa primos clunium nodos cum difficultate minctus, adtestante
+          urinae aquata vel mucilenta qualitate vel flava viridi aut saniosa, aliquotiens
+          sanguinolenta aut corpusculis carnosis vel arenarum similibus confusa. vehemens dolor post
+          minctum consequitur et horror membrorum et interaneorum tormentum cum inflatione et
+          ructuationibus atque cum fastidio cibi et potus et articulorum frigido torpore, cum
+          gravedine nutus. et febres lenes cum frigoribus modicis et difficilis respiratio,
+          vertigines et cholerum vel flegmatum vomitus.</p></div>
+        <div type="par" n="152"><p><del>Ex quibus tumorem vessicae adprehendis? ex dolore
+            pubis atque genitalium et iliorum vel clunium, et magis in fine aut initio minctus,
+            adtestante etiam earundem partium fervore cum strictura et quodam pulsu atque inflatione
+            cum frequenti libidine minctus et ipsius urinae mutata qualitate <supplied>ut</supplied>
+            nunc tenuis nunc sedimine mucilenta excludatur.</del></p></div>
+        <div type="par" n="153"><p>Ex quibus duritiam vessicae adprehendis? ex fervore atque
+          dolore cessante et perseverante inpedimento minctus cum inflatione, et tactui nostro
+          resistente prae tumore vessicae vel collo vel fundo.</p></div>
+        <div type="par" n="154"><p>Ex quibus psoriasin hoc est scabiem vessicae adprehendis?
+          ex urinae densitate cum pondere et veluti vessiculis sordidis et sedimine mucilento atque
+          corpusculis cantabri simili, adtestante dolore cum quadam suavitate pruritus in pube ac
+          folliculo aut collo vel proximis locis. </p></div>
+        <div type="par" n="155"><p>Ex quibus psammodes in vessica hoc est arenas adprehendis?
+          ex minctus difficultate et sedimine rubicundo, et cum eam urinam colaverimus per linteolum
+          aut in fundum calicis longi, arenosa sedimina invenimus aut lapides minutos, cum dolore et
+          gravedine renum, et vessicae difficultate cum conatione et pruritu veretri ut id manibus
+          adtractent.</p></div>
+        <div type="par" n="156"><p>Ex quibus adprehendis lapides generantes in vessica? ex
+          gravedine eiusdem cum pruritu pubis et follicoli genitalium frequenti, adtestante
+          tentigine atque per intervallum minctus difficultate aut in totum abstinentia cum
+          vehementis doloris interpellatione, testium autem nimia tensione. plerisque vero ex
+          longanonis excludantur hoc est podicis circulo cum frequenti ventositate. at si supini
+          iacuerint aegrotantes, facilius minctum celebrant. ipsa quoque urina vario cum sedimine
+          excluditur ut nunc carnosa nunc frustis solidioribus aut sanguinolentis confusa
+          egerantur.</p></div>
+        <div type="par" n="157"><p>Quid differt lapidis generatio quam Graeci lithogonian
+          appellant a lapide in vessica constituto? lapidis generatio vessicae passio est, qua
+          surgente lapides si nascuntur, dietica curatione curantur. lapis est qui iam dudum
+          generatus atque in vessica constitutus. <del>Aliae aetates suas detractione adhibenda
+            ostendit cyrurgia. rationem <supplied>ut</supplied> urinae reddant denegato officio. aut
+            difficultatem minctus. ex qua ratione sui inpedimentum refert. et quia diversa sunt
+            genera lapidum. ideo non uno genere egeruntur. sunt rotundi diverse magnitudinis sunt
+            longi. rufi. subalbidi. libidi. biangules. triangules. quadrangules. quinqueangules.
+            sunt et asperi. sunt et lenes. Quod si diversitatem habent. tot et diversas egestiones
+            per vessicam minctus.</del></p></div>
+        <div type="par" n="158"><p>Ex quibus gonorrhoeam adprehendis? ex seminis lapsu
+          creberrimo sine ulla tentigine, virium quoque adtestante debilitatione cum pallore
+          corporis ac macie.</p></div>
+      
+    </body>
+  </text>
+</TEI>

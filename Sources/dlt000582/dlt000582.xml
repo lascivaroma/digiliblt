@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Vita Vergilii</title>
+    <author>Probus (Ps.)</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Chiara Miglietta</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2015</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000582</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Vitae Vergilianae antiquae</hi>, recc. G. Brugnoli et F. Stok, Romae 1997, 193-200.</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+   
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+  
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div>
+    <p>P. Vergilius Maro natus Idibus Octobris Crasso et Pompeio conss. matre Magia Polla, patre Vergilio rustico uico Andico, qui abest a Mantua milia passuum XXX, tenui facultate nutritus. Sed cum iam summis eloquentiae doctoribus uacaret, in belli ciuilis tempora incidit, quod Augustus aduersus Antonium gessit; primumque post Mutinense bellum ueteranis <supplied>agros cedere coactus</supplied>, postea restitutus beneficio Alpheni Vari Asinii Pollionis et Cornelii Galli, quibus in Bucolicis adulatur, deinde per gratiam Maecenatis in amicitiam Caesaris ductus est. Vixit pluribus annis liberali in otio secutus Epicuri sectam, insigni concordia et familiaritate usus Quintilii Tuccae et Vari. Scripsit Bucolica annos natus octo et XX, Theocritum secutus; Georgica, Hesiodum et Varronem. Aeneida ingressus bello Cantabrico - hoc quoque ingenti industria - ab Augusto usque ad sestertium centies honestatus est. Decessit in Calabria annum agens quinquagesimum et primum heredibus Augusto et Maecenate cum Proculo minore fratre. Cuius sepulcro, quod est in uia Puteolana, hoc legitur epigramma:</p>
+    <lg><l>Mantua me genuit, Calabri rapuere, tenet nunc</l>
+     <l>Parthenope: cecini pascua rura duces.</l></lg>
+    <p>Aeneis seruata ab Augusto, quamuis ipse testamento damnat, ne quid eorum, quae non edidisset, extaret, quod Seruius Varus hoc testatur epigrammate:</p>
+    <lg><l>Iusserat haec rapidis aboleri carmina flammis</l>
+     <l>Vergilius, Phrygium quae cecinere ducem.</l>
+     <l>Tucca uetat Variusque simul; tu, maxime Caesar,</l>
+     <l>non sinis et Latiae consulis historiae.</l></lg>
+   </div>
+   
+   
+  </body>
+ </text>
+
+</TEI>

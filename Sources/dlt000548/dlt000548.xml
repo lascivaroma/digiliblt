@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Categoriae Aristotelis Latine uersae (editio composita)</title>
+    <author>Boethius (Anicius Manlius Seuerinus Boethius)</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Manuela Ferroni</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Manuela Ferroni</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2015</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000548</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Aristoteles Latinus I 1-5, Categoriae uel praedicamenta. Translatio Boethii
+      - editio composita, Translatio Guillelmi de Meorbeka, Lemmata e Simplici commentario decerpta,
+      Pseudo-Augustini Paraphrasis Themistiana</hi>, edidit L. Minio Paluello, Bruges-Paris 1961,
+     45-79 (Corpus Philosophorum Medii Aeui).</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+
+    <p><hi rend="bold">Note di trascrizione e codifica specifiche del file </hi></p>
+    <p>L'edizione di riferimento utilizza tre modalità grafiche diverse: corpo di testo, corpo
+     maggiorato e corsivo. Il corpo di testo è rimasto inalterato anche nell'edizione digitale; il
+     corpo maggiorato è stato reso con il maiuscolo; il corsivo è stato reso con il grassetto.</p>
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div type="pr" n="pr">
+    <head>CATEGORIAE ARISTOTELIS.</head>
+    <p>[1] Aequivoca dicuntur quorum nomen solum commune est, secundum nomen vero substantiae ratio
+     diversa, ut animal homo et quod pingitur. Horum enim solum nomen commune est, secundum nomen
+     vero substantiae ratio diversa; si enim quis assignet quid est <hi rend="bold">utrumque</hi>
+     eorum quo sint animalia, propriam assignabit utriusque rationem.</p>
+    <p> Vnivoca vero dicuntur quorum et nomen commune est et secundum nomen eadem substantiae ratio,
+     ut animal homo atque bos. Communi enim nomine utrique animalia nuncupantur, et est ratio
+     substantiae eadem; si quis <hi rend="bold">autem</hi> assignet utriusque rationem, quid <hi
+      rend="bold">utrisque</hi> sit quo sint animalia, eandem assignabit rationem.</p>
+    <p>Denominativa vero dicuntur quaecumque ab aliquo, solo differentia casu, secundum nomen habent
+     appellationem, ut a grammatica grammaticus et a fortitudine fortis.</p>
+    <p>[2] Eorum quae dicuntur alia quidem secundum complexionem dicuntur, alia vero sine
+     complexione. Et ea quae secundum complexionem dicuntur sunt ut homo currit, homo vincit; ea
+     vero quae sine complexione, * homo, bos, currit, vincit.</p>
+    <p>Eorum quae sunt alia de subiecto quodam dicuntur, in subiecto vero nullo sunt, ut homo de
+     subiecto quidem dicitur aliquo homine, in subiecto vero nullo est; alia autem in subiecto
+     quidem sunt, de subiecto <hi rend="bold">autem</hi> nullo dicuntur (in subiecto autem esse dico
+     quod, cum in aliquo sit non sicut quaedam pars, impossibile est esse sine eo in quo est), ut
+     quaedam grammatica in subiecto quidem est in anima, de subiecto vero nullo dicitur, et quoddam
+     album in subiecto est * corpore (omnis enim color in corpore est), alia vero et de subiecto
+     dicuntur et in subiecto sunt, ut scientia in subiecto quidem est in anima, de subiecto vero
+     dicitur <hi rend="bold">ut</hi> grammatica; alia vero neque in subiecto sunt neque de subiecto
+     dicuntur, ut <hi rend="bold">aliqui</hi> homo vel <hi rend="bold">aliqui</hi> equus; nihil enim
+     horum neque in subiecto est neque de subiecto dicitur. Simpliciter autem quae sunt individua et
+     numero singularia nullo de subiecto dicuntur, in subiecto autem nihil ea prohibet esse; quaedam
+     enim grammatica in subiecto est.</p>
+    <p>[3] Quando alterum de altero praedicatur ut de subiecto, quaecumque de eo quod praedicatur
+     dicuntur, omnia etiam de subiecto <hi rend="bold">dicuntur</hi>, ut homo de quodam homine
+     praedicatur, animal vero de homine, ergo et de quodam homine animal praedicabitur; quidam enim
+     homo et homo est et animal <hi rend="bold">est</hi>.</p>
+    <p>Diversorum generum et non subalternatim positorum diversae secundum speciem et differentiae
+     sunt, ut animalis et scientiae; animalis quidem differentiae sunt ut gressibile et volatile et
+     bipes, scientiae vero nulla <hi rend="bold">eorum</hi> est; neque enim scientia ab scientia
+     differt in eo quod bipes est. Subalternorum vero generum nihil prohibet easdem esse
+     differentias; superiora enim de subterioribus generibus praedicantur, quare quaecumque
+     praedicati differentiae fuerint, eaedem erunt etiam subiecti.</p>
+    <p>[4] Eorum quae secundum nullam complexionem dicuntur singulum aut substantiam significat aut
+     quantitatem aut qualitatem aut ad aliquid aut ubi aut quando aut situm aut habitum aut facere
+     aut pati. Est autem substantia quidem, ut <hi rend="bold">figuraliter</hi> dicatur, ut homo,
+     equus; quantitas ut bicubitum, tricubitum; qualitas ut album; ad aliquid ut duplum, maius; ubi
+     vero ut in <hi rend="bold">loco</hi>; quando autem ut heri; situs vero ut sedet, iacet; habere
+     * ut calciatus, armatus; facere vero ut secare, urere; pati * ut secari, uri. Singula igitur
+     eorum quae dicta sunt ipsa quidem secundum se in nulla affirmatione dicuntur, horum autem ad se
+     invicem complexione affirmatio fit. Videtur <hi rend="bold">autem</hi> omnis affirmatio vel
+     falsa esse vel vera; eorum autem quae secundum nullam complexionem dicuntur neque <hi
+      rend="bold">vera</hi> neque <hi rend="bold">falsa sunt</hi>, ut homo, album, currit.</p>
+   </div>
+   <div type="cap" n="1">
+    <p>[5] DE SVBSTANTIA.Substantia autem est, quae proprie et principaliter et maxime dicitur, quae
+     neque de subiecto DICITVR neque in subiecto est, ut aliqui homo vel aliqui equus. Secundae
+     autem substantiae dicuntur <hi rend="bold">species</hi>, in quibus <hi rend="bold"
+      >speciebus</hi> illae quae principaliter substantiae dicuntur insunt, hae et harum specierum
+     genera; ut aliquis homo in specie quidem est in homine, genus vero speciei animal est; secundae
+     ergo substantiae dicuntur, ut est homo atque animal. Manifestum est autem ex his quae dicta
+     sunt quoniam eorum quae de subiecto dicuntur necesse est et nomen et rationem de subiecto
+     praedicari, ut homo de subiecto * aliquo homine, et praedicatur nomen; <hi rend="bold">hominem
+      namque</hi> de aliquo homine praedicabis. Ratio quoque hominis de aliquo homine praedicabitur;
+     quidam enim homo et homo est. Quare et nomen et ratio praedicabitur de subiecto. Eorum vero
+     quae in subiecto SVNT in PLVRIMIS quidem neque nomen de subiecto neque ratio <hi rend="bold"
+      >praedicabitur</hi>, in ALIQVIBVS AVTEM nomen quidem nihil prohibet praedicari ALIQVANDO DE
+     SVBIECTO, rationem vero impossibile est; ut album, cum in subiecto sit corpore, praedicatur de
+     subiecto (dicitur enim corpus album), ratio vero albi numquam de corpore praedicabitur. ALIA
+     vero omnia aut de subiectis dicuntur PRINCIPALIBVS substantiis aut in SVBIECTIS EIS sunt. Hoc
+     autem manifestum est ex his quae PER SINGVLA PROPONENTVR; ut animal de homine praedicatur, ERGO
+     et de aliquo homine ANIMAL PRAEDICATVR; nam si de nullo aliquorum hominum *, nec OMNINO DE
+     HOMINE. Rursus color in corpore est; ergo et in aliquo corpore; nam si NON IN ALIQVO
+     singulorum, nec OMNINO IN CORPORE. QVARE ALIA omnia aut de subiectis PRINCIPALIBVS substantiis
+     dicuntur aut in subiectis EIS sunt. NON ergo EXISTENTIBVS SVBSTANTIIS, impossibile est ESSE
+     ALIQVID ALIORVM. Omnia enim alia aut de SVBIECTIS EIS dicuntur aut in subiectis EIS sunt. *</p>
+    <p>Secundarum vero substantiarum MAXIME SVBSTANTIA est species quam genus; propinquior enim est
+     primae substantiae. Si quis ENIM ASSIGNET primam substantiam quid EST, evidentius et
+     convenientius assignabit speciem proferens quam genus, ut QVENDAM HOMINEM ASSIGNANDO,
+     MANIFESTIVS ASSIGNABIS hominem ASSIGNANDO quam animal; illud QVIDEM PROPRIVM MAGIS ALICVIVS EST
+     hominis, hoc AVTEM communius. Et CVM aliquam arborem REDDIDERIS, MANIFESTIVS ASSIGNABIS CVM
+     arborem ASSIGNAVERIS quam ARBVSTVM. Amplius PRINCIPALES substantiae, EO quod aliis omnibus
+     SVBIECTAE SINT et ALIA omnia * DE HIS PRAEDICENTVR, AVT in EIS sunt, IDEO maxime DICVNTVR
+     SVBSTANTIAE. SICVT autem PRINCIPALES substantiae ad ALIA OMNIA se habent, SIC ET species AD
+     GENVS SE HABET; subiacet enim species generi; GENERA NAMQVE de speciebus praedicantur, species
+     AVTEM de generibus non convertuntur. QVARE ET ex his species genere magis SVBSTANTIA EST.
+     Ipsarum vero specierum QVAECVMQVE NON SVNT GENERA, NIHIL MAGIS ALTERVM ALTERIVS substantia est;
+     nihil enim FAMILIARIVS ASSIGNABIS DE ALIQVO HOMINE HOMINEM ASSIGNANDO quam * de aliquo equo *
+     equum. Similiter autem et PRINCIPALIVM SVBSTANTIARVM NIHIL MAGIS ALTERVM ALTERIVS substantia
+     est; nihil enim magis ALIQVI homo SVBSTANTIA EST QVAM ALIQVI BOS.</p>
+    <p>MERITO autem post PRINCIPALES substantias SOLA ALIORVM species et genera SECVNDAE SVBSTANTIAE
+     DICVNTVR; SOLA enim HAEC INDICANT PRINCIPALEM SVBSTANTIAM EORVM QVAE PRAEDICANTVR. Aliquem enim
+     hominem si quis ASSIGNAVERIT quid EST, SPECIEM QVIDEM quam genus ASSIGNANDO FAMILIARIVS
+     DEMONSTRABIT, et MANIFESTIVS faciet hominem ASSIGNANDO QVAM ANIMAL; ALIORVM vero quicquid
+     ASSIGNAVERIT QVILIBET, ASSIGNABIT EXTRANEE, VELVT album AVT currit AVT QVODCVMQVE TALIVM
+     REDDENS. ERGO MERITO hae solae * substantiae dicuntur. Amplius PRINCIPALES substantiae, EO quod
+     aliis omnibus SVBIACEANT, * propriae substantiae dicuntur; SICVT autem primae substantiae ad
+     ALIA OMNIA SE habent, ita SPECIES ET GENERA PRINCIPALIVM SVBSTANTIARVM ad reliqua OMNIA SE
+     habent; de HIS enim RELIQVA OMNIA praedicantur; aliquem enim hominem dices grammaticum ESSE,
+     ergo et hominem et animal grammaticum DICIS; similiter autem et in aliis.</p>
+    <p>Commune AVTEM est omni substantiae in subiecto non esse. PRINCIPALIS NAMQVE substantia NEQVE
+     de subiecto dicitur NEQVE in subiecto est; SECVNDARVM vero SVBSTANTIARVM CONSTAT QVIDEM ETIAM
+     SIC QVIA NVLLA EST in subiecto. HOMO ENIM SECVNDVM SVBIECTVM quidem ALICVIVS HOMINIS EST, in
+     subiecto AVTEM nullo est; NON enim in aliquo homine homo est. Similiter autem et animal de
+     subiecto quidem dicitur ALICVIVS HOMINIS, non est autem animal in aliquo homine. Amplius AVTEM
+     eorum quae IN SVBIECTO SVNT nomen quidem NIHIL PROHIBET ALIQVANDO PRAEDICARI DE SVBIECTO,
+     rationem vero impossibile est. Secundarum vero substantiarum PRAEDICATVR ET RATIO DE SVBIECTO
+     et nomen; rationem NAMQVE hominis de aliquo homine praedicabis ET ANIMALIS. ERGO non erit
+     SVBSTANTIA HORVM quae in subiecto SVNT. Non est autem HOC SVBSTANTIAE PROPRIVM; sed ET
+     differentia ILLVD est QVOD in subiecto non EST; bipes enim et gressibile de subiecto quidem
+     DICITVR HOMINE, in subiecto AVTEM nullo est; non enim in homine est bipes neque gressibile. *
+     Ratio quoque differentiae de EO DICETVR de QVOCVMQVE ipsa differentia praedicatur, VELVT si
+     gressibile de homine DICITVR, et ratio gressibilis de homine PRAEDICATVR; est enim homo
+     gressibile. Non nos vero conturbent substantiarum partes quae ita sunt in toto quasi in
+     subiecto sint, ne forte cogamur non eas esse substantias CONFITERI; non enim sic QVAE IN
+     SVBIECTO SVNT DICVNTVR QVAE TAMQVAM partes INSVNT IN ALIQVO.</p>
+    <p>Inest autem substantiis et differentiis ab his omnia univoce praedicari. Omnia enim quae ab
+     his <hi rend="bold">sunt praedicamenta</hi> aut de individuis praedicantur aut de speciebus. A
+     PRINCIPALI NAMQVE substantia nulla est praedicatio (de nullo enim subiecto dicitur), secundarum
+     vero substantiarum species quidem de individuo praedicatur, genus autem et de specie et de
+     individuo; similiter autem et differentiae et de speciebus et de individuis praedicantur.
+     Rationem <hi rend="bold">namque</hi> suscipiunt primae substantiae specierum et generum, et
+     species generis (quaecumque enim de praedicato dicuntur, eadem et de subiecto dicentur);
+     similiter autem et differentiarum rationem suscipiunt species et individua; univoca autem SVNT
+     quorum et nomen commune ET RATIO EADEM EST. Quare omnia QVAE a substantiis et differentiis SVNT
+     univoce DICVNTVR.</p>
+    <p>Omnis autem substantia videtur hoc QVIDDAM significare. Et in primis quidem substantiis
+     indubitabile et verum est quoniam hoc aliquid significat *. In secundis vero substantiis
+     videtur quidem similiter appellationis <hi rend="bold">figura</hi> hoc aliquid significare,
+     quando quis dixerit hominem vel animal; non tamen verum est, sed MAGIS quale aliquid significat
+     (neque enim unum est quod subiectum est quemadmodum prima substantia, sed de pluribus homo
+     dicitur et animal); non autem simpliciter QVALE QVID significat, quemadmodum album; nihil enim
+     aliud significat album quam qualitatem, genus autem et species circa substantiam qualitatem
+     determinant (<hi rend="bold">quale</hi> enim quandam substantiam <hi rend="bold"
+      >significat</hi>). Plus autem <hi rend="bold">in</hi> genere quam <hi rend="bold">in</hi>
+     specie determinatio fit; dicens <hi rend="bold">autem</hi> animal plus complectitur <hi
+      rend="bold">hic</hi> quam hominem.</p>
+    <p>Inest autem substantiis et nihil illis esse contrarium. Primae enim substantiae quid erit
+     contrarium? Vt alicui homini: nihil enim est contrarium; at vero nec homini nec animali nihil
+     est contrarium. Non est autem hoc substantiae proprium, sed etiam multorum aliorum, ut <hi
+      rend="bold">quantitati</hi>; bicubito enim nihil est contrarium, at vero nec decem nec alicui
+     talium, nisi quis FORTE multa paucis dicat esse contraria, vel magnum parvo; determinatorum
+     vero nullum nulli est contrarium.</p>
+    <p>Videtur autem substantia non suscipere magis et minus; dico autem HOC non QVIA substantia non
+     est a substantia magis ET MINVS (hoc AVTEM dictum est QVIA est); sed quoniam unaquaeque
+     substantia hoc ipsum quod est non dicitur magis et minus; ut * est HAEC substantia homo, non
+     EST magis et minus homo, NEQVE ipse * NEQVE ALTER ab altero. NON enim est alter altero magis
+     homo, SICVT EST album * altero magis album et bonum alterum altero magis; SED et ipsum A SE
+     magis et minus dicitur, ut corpus, CVM album sit, magis ALBVM ESSE DICITVR quam PRIVS, et CVM
+     calidum SIT, * magis et minus CALIDVM dicitur; substantia vero non dicitur (NIHIL ENIM homo
+     magis nunc homo quam prius DICITVR, NEQVE ALIORVM QVICQVAM quae substantia SVNT); QVAPROPTER
+     non RECIPIET substantia magis et minus.</p>
+    <p>Maxime VERO SVBSTANTIAE PROPRIVM videtur esse quod, cum idem et unum numero SIT, contrariorum
+      <hi rend="bold">susceptivum</hi> est. Et in aliis quidem NVLLIVS HABEBIT quisquam QVID
+     PROFERAT QVAECVMQVE non sunt substantiae, quod CVM SIT unum numero susceptibile CONTRARIORVM
+     EST; VELVT color, quod est unum et idem numero, non erit album et nigrum, NEQVE eadem actio et
+     una numero erit PRAVA et STVDIOSA; similiter autem et in aliis QVAE non sunt SVBSTANTIAE. *
+     Substantia vero, cum VNVM et IDEM SIT numero, CAPAX CONTRARIORVM est; ut quidam homo, CVM VNVS
+     et idem NVMERO sit, aliquando QVIDEM NIGER aliquando AVTEM FIT ALBVS, et calidus et frigidus,
+     et PRAVVS et STVDIOSVS. In aliis AVTEM nullis ALIQVID TALE videtur, nisi quis FORSITAN INSTET
+     DICENS orationem et VISVM EIVSMODI esse; eadem enim oratio et IDEM VISVS VERVM et FALSVM esse
+     videtur, VELVTI, si vera SIT ORATIO SEDERE QVENDAM, SVRGENTE EO FALSA ERIT; similiter autem et
+     DE VISV; si quis enim vere PVTET sedere aliquem, SVRGENTE EO false VIDETVR EI, EVNDEM HABENTI
+     de eo PLACITVM. SED ET si quis hoc SVSCIPIAT, SED TAMEN modo differt; NAM EA quae in
+     substantiis SVNT ipsa MVTATA SVSCEPTIBILIA SVNT CONTRARIORVM (frigidum enim DE calido factum
+     MVTATVM est - ALTERVM ENIM FACTVM EST - et nigrum ex albo et STVDIOSVM ex PRAVO, similiter
+     autem et in aliis VNVMQVODQVE MVTATIONEM SVSCIPIENS EST SVSCEPTIBILE CONTRARIORVM); oratio
+     AVTEM et PLACITVM ipsa quidem immobilia omnino * PERSEVERANT, CVM vero, RES MOVETVR CONTRARIVM
+     circa EAM fit; oratio NAMQVE permanet eadem EO QVOD SEDEAT ALIQVIS, CVM vero RES MOTA SIT,
+     ALIQVANDO quidem vera ALIQVANDO AVTEM falsa FIT; similiter autem et in PLACITO. Quapropter MODO
+     SOLO proprium SVBSTANTIAE EST QVOD secundum SVAM MVTATIONEM CAPABILIS SIT contrariorum - si
+     quis AVTEM etiam HAEC RECIPIAT, PLACITVM et orationem DICENS SVSCEPTIBILIA ESSE CONTRARIORVM;
+     non est VERVM HOC; oratio NAMQVE et PLACITVM non IN EO quod IPSA ALIQVID RECIPIANT contrariorum
+     susceptibilia ESSE dicuntur, sed EO quod circa ALTERVM ALIQVA PASSIO FACTA SIT. - NAM IN EO
+     QVOD res est AVT non est, IN eo ETIAM oratio * vera AVT falsa dicitur, non IN eo quod ipsa
+     CAPABILIS SIT CONTRARIORVM. Simpliciter AVTEM A NVLLO neque oratio movetur neque PLACITVM,
+     QVAPROPTER non erunt SVSCEPTIBILIA contrariorum, CVM NVLLA in eis PASSIO FACTA SIT. VERVM
+     SVBSTANTIA, IN EO quod ipsa CONTRARIA RECIPIAT, IN HOC SVSCEPTIBILIS DICITVR ESSE CONTRARIORVM.
+     LANGVOREM enim et sanitatem suscipit, et CANDOREM et nigredinem; et unumquodque talium ipsa
+     SVSCIPIENDO contrariorum esse susceptibilis DICITVR. Quare proprium erit substantiae QVOD, cum
+     idem et unum numero SIT, SECVNDVM SVI MVTATIONEM CONTRARIORVM EST SVSCEPTIBILIS. * De
+     substantia quidem haec dicta sint.</p>
+   </div>
+   <div type="cap" n="2">
+    <p>[6] DE QVANTITATE.Quantitatis AVTEM aliud QVIDEM est continuum, aliud * discretum; et aliud
+     quidem ex habentibus positionem ad se invicem suis partibus constat, aliud AVTEM ex non
+     habentibus positionem. Est autem discreta quantitas ut numerus et oratio, CONTINVVM vero *
+     linea, superficies, corpus; AMPLIVS AVTEM praeter haec tempus et locus. Partium ETENIM numeri
+     nullus est communis terminus ad quem COPVLES PARTICVLAS EIVS; ut QVINQVE ET QVINQVE, si est AD
+     DECEM PARTICVLA, ad nullum communem terminum COPVLAT quinque et quinque, sed SEMPER DISCRETA
+     sunt; SED et TRIA et septem ad nullum communem terminum * PARTICVLARVM, sed semper DISCRETA ET
+     SEPARATA sunt; QVAPROPTER numerus QVIDEM discretorum est. Similiter, autem et oratio
+     discretorum EST (QVIA ETENIM quantitas est * oratio manifestum est; mensuratur enim syllaba
+     BREVIS et LONGA; dico AVTEM cum voce orationem PROLATAM); ad nullum enim communem terminum
+     PARTICVLAE eius COPVLANTVR; NON enim est communis terminus ad quem syllabae COPVLANTVR, sed
+     unaquaeque DIVISA est IPSA secundum se ipsam. Linea vero CONTINVVM est; POTEST ENIM sumere
+     communem terminum ad quem PARTICVLAE EIVS COPVLENTVR, ID est * punctum, et superficiei linea
+     (PLANI NAMQVE PARTICVLAE ad quendam communem terminum COPVLANTVR). Similiter autem et in
+     corpore POTERIS sumere communem terminum, * lineam AVT superficiem ALIQVAM QVAE CORPORIS
+     PARTICVLAS COPVLAT. EST autem talium et tempus et locus; praesens enim TEMPVS COPVLATVR ET AD
+     PRAETERITVM ET AD FVTVRVM. Rursus locus continuorum est; locum enim quendam CORPORIS PARTICVLAE
+     OBTINENT, quae PARTICVLAE ad quendam communem terminum COPVLANTVR; ergo et loci PARTICVLAE,
+     QVAE OBTINENT SINGVLAS CORPORIS PARTICVLAS, ad eundem terminum COPVLANTVR ad quem et CORPORIS
+     PARTICVLAE; QVAPROPTER CONTINVVS ERIT et locus; ad unum enim communem terminum SVAS PARTICVLAS
+     CONTINVANT.</p>
+    <p>Amplius AVTEM alia QVIDEM CONSTANT EX PARTICVLIS QVAE IN EIS SVNT POSITIONEM AD SE INVICEM
+     HABENTIBVS, ALIA AVTEM NON EX HABENTIBVS POSITIONEM; ut lineae quidem PARTICVLAE POSITIONEM
+     habent ad se invicem (SINGVLVM NAMQVE EORVM SITVM EST alicubi, et HABES VNDE SVMAS et ASSIGNES
+     VNVMQVODQVE ubi SITVM EST in PLANO et ad quam PARTICVLAM CETERARVM COPVLATVR); similiter autem
+     et PARTICVLAE PLANI POSITIONEM HABENT QVANDAM (similiter NAMQVE OSTENDITVR VNVMQVODQVE ubi
+     IACET et quae COPVLANTVR ad se invicem). SED ET soliditatis quoque similiter ET LOCI. In numero
+     AVTEM NON POTERIT QVISQVAM RESPICERE TAMQVAM PARTICVLAE EIVS POSITIONEM ALIQVAM AD SE INVICEM
+     HABEANT AVT SIT SITVM ALICVBI AVT ALIQVAE PARTICVLAE AD SE INVICEM CONECTANTVR; SED NEQVE EA
+     QVAE temporis SVNT; nihil enim PATIVNTVR PARTICVLAE temporis, quod autem non est PATIENS
+     quomodo hoc POSITIONEM ALIQVAM HABEBIT? Sed magis ordinem quendam PARTICVLARVM dices HABERE,
+     QVOD ALIVD quidem prius SIT TEMPORIS, ALIVD vero posterius. SED et DE numero SIMILITER, eo quod
+     prius numeretur unus quam duo et duo quam tres; et ITA ORDINEM QVENDAM HABEBVNT, positionem
+     vero non OMNINO PERCIPIES. SED et oratio similiter; nihil enim PATIVNTVR PARTICVLAE EIVS, sed
+     dictum est et non POTEST AMPLIVS hoc SVMI, QVAPROPTER non erit * positio PARTICVLARVM EIVS, SI
+     QVIDEM NIHIL PATIVNTVR. ALIA ITAQVE CONSTANT EX PARTICVLIS QVAE IN EIS SVNT POSITIONEM AD SE
+     invicem habentibus, alia AVTEM NON EX habentibus positionem.</p>
+    <p>Proprie autem quantitates hae solae sunt quas diximus, alia vero omnia secundum accidens *;
+     ad haec enim aspicientes et alias dicimus quantitates, ut multum dicitur album eo quod
+     superficies multa sit, et actio longa eo quod tempus <hi rend="bold">et longum</hi> et multum
+     sit, et motus multus; neque enim horum singulum per se quantitas dicitur; ut, si quis assignet
+     quanta sit actio, tempore definiet, annuam vel sic aliquo modo assignans, et album quantum sit
+     assignans superficie definiet (quanta enim fuerit superficies, tantum esse album <hi
+      rend="bold">dicis</hi>); quare solae proprie et secundum se ipsae quantitates dicuntur quae
+     dictae sunt, aliorum vero nihil per se, sed, si forte, per accidens.</p>
+    <p>AMPLIVS QVANTITATI nihil est contrarium (in <hi rend="bold">definitis</hi> enim manifestum
+     est quoniam nihil est contrarium, ut bicubito vel tricubito vel superficiei vel alicui talium -
+     nihil enim est contrarium), nisi multa paucis dicat quis esse contraria vel magnum PARVO. Horum
+     autem nihil est quantitas sed MAGIS ad aliquid SVNT; nihil enim per se ipsum magnum dicitur *,
+     sed ad aliquid <hi rend="bold">refertur</hi>; nam mons quidem parvus dicitur, milium vero
+     magnum eo quod hoc quidem sui generis maius sit, illud vero sui generis minus; ergo ad aliud
+     est eorum relatio; nam, si per se ipsum parvum vel magnum diceretur, numquam mons quidem
+     aliquando parvus, milium vero magnum diceretur. Rursus in vico quidem plures <hi rend="bold"
+      >esse homines</hi> dicimus, in civitate vero paucos cum sint eorum multiplices, et in domo
+     quidem multos, in theatro AVTEM paucos cum sint plures. Amplius bicubitum vel tricubitum et
+     unumquodque talium quantitatem significat, magnum vero vel parvum non significat quantitatem,
+     sed magis ad aliquid, quoniam ad aliud <hi rend="bold">spectat</hi> magnum et parvum; quare
+     manifestum est quoniam haec ad aliquid sunt. Amplius, sive aliquis ponat HAEC esse quantitates
+     sive non ponat, nihil EIS erit contrarium; quod enim non est sumere per se ipsum sed ad solam
+     alterius relationem REFERTVR, quomodo huic aliquid erit contrarium? Amplius AVTEM, si ERVNT
+     magnum et parvum contraria, CONTINGET idem IPSVM simul contraria RECIPERE et ea ipsa SIBIMET
+     esse contraria. Contingit enim simul idem parvum esse et magnum (est enim ALIQVID ad hoc quidem
+     parvum, ad aliud vero hoc idem ipsum magnum); quare idem parvum et magnum et IN eodem tempore
+     esse contingit, quare simul contraria <hi rend="bold">suscipit</hi>; sed nihil est quod
+     videatur simul contraria posse suscipere; ut substantia susceptibilis quidem contrariorum esse
+     videtur, sed nullus simul <hi rend="bold">et</hi> sanus et aeger <hi rend="bold">est</hi>, nec
+     albus et niger simul; nihil que aliud simul contraria <hi rend="bold">suscipiet</hi>. Et eadem
+     sibi ipsis contingit esse contraria; nam si est magnum <hi rend="bold">parvo</hi> contrarium,
+     ipsum autem idem simul est parvum et magnum, ipsum sibi erit contrarium; sed impossibile est
+     ipsum sibi esse contrarium. Non est igitur magnum parvo contrarium NEQVE MVLTVM EXIGVO; quare
+     VEL si NON RELATIVORVM HAEC QVILIBET dicat, TAMEN QVANTITATIS nihil contrarium habebit.</p>
+    <p>Maxime autem circa locum videtur <hi rend="bold">esse</hi> contrarietas quantitatis; sursum
+     enim AD ID quod deorsum EST contrarium ponunt, LOCVM QVI IN MEDIO EST deorsum dicentes EO quod
+     multa MEDII DISTANTIA ad terminos MVNDI SIT. Videntur autem et aliorum contrariorum
+     definitionem ab his proferre; quae enim multum a se invicem distant EORVM QVAE SVB eodem genere
+     SVNT contraria DETERMINANT.</p>
+    <p>SED non videtur quantitas suscipere magis et minus, ut bicubitum (neque enim est aliud alio
+     magis bicubitum); neque in numero, ut ternarius quinario (nihil enim magis tria dicentur, nec
+     tria potius quam tria); nec tempus aliud alio magis et minus dicitur; nec in his quae dicta
+     sunt omnino * magis <hi rend="bold">et minus</hi> dicitur. Quare quantitas non suscipit magis
+     et minus.</p>
+    <p>Proprium autem maxime quantitatis est quod aequale et inaequale dicitur. Singulum enim earum
+     quae <hi rend="bold">dicta</hi> sunt quantitatum et aequale dicitur et inaequale, ut corpus
+     aequale et inaequale, et numerus aequalis et inaequalis dicitur, et tempus aequale et
+     inaequale; similiter autem et in aliis quae dicta sunt singulis <hi rend="bold">et</hi> aequale
+     et inaequale dicitur. In ceteris vero quae <hi rend="bold">quantitates</hi> non sunt, non
+     multum <hi rend="bold">videtur</hi> aequale et inaequale dici, namque <hi rend="bold"
+      >affectio</hi> aequalis et inaequalis non multum dicitur sed magis similis, et album aequale
+     et inaequale non multum sed simile. Quare quantitatis proprium est aequale et inaequale
+     DICI.</p>
+   </div>
+   <div type="cap" n="3">
+    <p>[7] DE RELATIVIS VEL AD ALIQVID. Ad aliquid vero talia dicuntur quaecumque hoc ipsum quod
+     sunt aliorum dicuntur, vel quomodolibet aliter ad aliud, ut maius ID quod est ALTERIVS dicitur
+     (aliquo enim maius dicitur), et DVPLVM ALTERIVS dicitur ID quod est (alicuius enim DVPLVM
+     dicitur); similiter autem et ALIA quaecumque SVNT HVIVSMODI. At vero sunt etiam et haec ad
+     aliquid, ut habitus, AFFECTVS, DISCIPLINA, positio; haec enim omnia quae dicta sunt hoc ipsum
+     quod sunt aliorum dicuntur et non ALIVD ALIQVID; habitus enim alicuius habitus est, et
+     DISCIPLINA alicuius DISCIPLINA, et positio alicuius positio; SED et alia similiter. Ad aliquid
+     ergo sunt quaecumque id quod sunt aliorum dicuntur vel quomodolibet aliter ad aliud; ut mons
+     magnus dicitur ad montem alium (magnum enim ad aliquid dicitur), et simile alicui simile *, et
+     omnia talia similiter ad aliquid dicuntur. Est autem et accubitus et statio et sessio
+     positiones quaedam, positio vero ad aliquid est; iacere autem vel stare vel sedere <hi
+      rend="bold">ipsae</hi> quidem non sunt positiones, denominative vero <hi rend="bold">ab</hi>
+     his quae <hi rend="bold">dicta</hi> sunt <hi rend="bold">positiones</hi> nominantur.</p>
+    <p>Inest autem et contrarietas in relatione, ut virtus <hi rend="bold">vitio</hi> contrarium *,
+     cum sit utrumque HORVM ad aliquid, <hi rend="bold">est</hi>, et DISCIPLINA IGNORANTIAE. Non
+     autem omnibus relativis inest contrarietas; duplici enim nihil est contrarium, neque vero
+     triplici neque ulli talium. Videntur autem et magis et minus relativa suscipere; simile enim
+     magis et minus dicitur, et inaequale magis et minus dicitur, cum utrumque sit relativum (simile
+     enim alicui simile dicitur et inaequale alicui inaequale). Non autem omnia RELATIVA suscipiunt
+     magis et minus SIMILITER; duplex enim non dicitur magis et minus duplex, nec aliquid
+     talium.</p>
+    <p>Omnia autem relativa ad convertentia dicuntur, ut servus domini servus dicitur et dominus
+     servi dominus, et duplum dimidii duplum et dimidium dupli dimidium, et maius minore maius et
+     minus maiore minus; similiter autem et in aliis; sed casu aliquotiens differt secundum
+     locutionem, ut DISCIPLINA DISCIPLINATI dicitur DISCIPLINA et DISCIPLINATVM DISCIPLINA
+     DISCIPLINATVM, et sensus SENSATI sensus et SENSATVM sensu SENSATVM. At vero aliquotiens non
+     videbitur <hi rend="bold">converti</hi> nisi convenienter ad quod dicitur assignetur; <hi
+      rend="bold">si enim</hi> peccet is qui assignat, ut ala si assignetur avis, non convertitur ut
+     sit avis alae; neque enim <hi rend="bold">prius</hi> convenienter assignatum est ala avis;
+     neque enim in eo quod avis <hi rend="bold">est</hi>, in eo <hi rend="bold">ala eius</hi>
+     dicitur, sed in eo quod alata est (multorum enim et aliorum alae sunt, quae non sunt aves);
+     quare si assignetur convenienter, et convertitur; ut ala alati ala, et alatum ala alatum.
+     Aliquotiens autem forte et nomina fingere necesse erit, si non fuerit positum nomen ad quod
+     convenienter assignetur; ut remus navis si assignetur, non erit conveniens assignatio (neque
+     enim in eo quod est navis, in eo eius remus dicitur; sunt enim naves quarum remi non sunt);
+     quare non convertitur; navis enim non dicitur remi <hi rend="bold">navis</hi>. Sed forte
+     convenientior assignatio erit si sic quodammodo assignetur, remus remitae *, AVT <hi
+      rend="bold">quoquo</hi> modo aliter dictum sit (nomen enim non est positum); convertitur autem
+     si convenienter assignetur (remitum enim remo remitum est). Similiter autem et in aliis, ut
+     caput convenientius assignabitur capitati quam si animalis assignetur; neque enim in eo quod
+     animal est caput habet (multa enim sunt <hi rend="bold">animalia</hi> capita non habentia). Sic
+     autem facilius fortasse <hi rend="bold">sumitur</hi> quibus nomen non est positum, si ab his
+     quae prima sunt et ab his ad quae convertuntur nomina <hi rend="bold">ponantur</hi>, ut in his
+     quae praedicta sunt ab ala alatum, a remo remitum. Omnia ergo quae ad aliquid dicuntur, si
+     convenienter assignentur, ad convertentia dicuntur; nam, si ad quodlibet <hi rend="bold">illud
+      assignetur</hi> et non ad <hi rend="bold">aliud dicatur</hi>, non convertuntur. Dico autem
+     quoniam neque HORVM quae INDVBITANTER CONVERTIBILIA dicuntur et NOMINA EIS POSITA SVNT, nihil
+     convertitur, si ad aliquid eorum quae sunt accidentia assignetur et non ad EA QVAE DICVNTVR; ut
+     servus si non domini assignetur SERVVS, sed hominis AVT bipedis AVT alicuius talium, non
+     convertitur (non enim erit conveniens assignatio). Amplius, si convenienter assignetur ad id
+     quod dicitur, omnibus aliis circumscriptis quaecumque accidentia sunt, relicto vero solo illo
+     ad quod assignatum est, semper ad ipsum dicetur; ut si servus ad dominum <hi rend="bold"
+      >dicatur</hi>, circumscriptis omnibus quae sunt accidentia domino, ut esse bipedem vel
+     scientiae susceptibilem vel hominem, relicto vero HOC solo QVOD DOMINVS EST, semper servus ad
+     EVM dicetur; servus enim SEMPER domini servus EST. Si VERO SERVVS non convenienter DICATVR ad
+     id quod dicitur circumscriptis omnibus aliis, relicto vero solo ad quod ASSIGNATVM est, non
+     dicetur ad IPSVM; assignetur enim servus hominis et ala avis, * circumscribatur <hi rend="bold"
+      >ad hominem</hi> esse <hi rend="bold">servum</hi>; non enim * servus ad hominem dicitur (cum
+     enim dominus non sit, servus non est); similiter autem et de avi, ADIMATVR alatam esse; ET
+     AMPLIVS NON erit ala ad <hi rend="bold">aliud</hi> (cum enim non sit alatum, nec ala erit
+     alicuius). Quare oportet <hi rend="bold">assignari</hi> ad id quod convenienter dicitur; et si
+     sit nomen positum, facilis erit assignatio; si autem non sit, fortasse erit necessarium nomen
+     fingere. SI AVTEM SIC reddantur, manifestum est quoniam omnia relativa conversim <hi
+      rend="bold">dicentur</hi>.</p>
+    <p>Videtur autem ad aliquid simul esse natura. Et in aliis quidem pluribus verum est; simul enim
+     est duplum et <hi rend="bold">dimidium</hi>, et cum sit <hi rend="bold">duplum dimidium</hi>
+     est, et cum sit servus dominus est; similiter autem his et alia. Simul autem haec auferunt sese
+     invicem; si enim non sit duplum non est <hi rend="bold">dimidium</hi>, et si non sit <hi
+      rend="bold">dimidium</hi> duplum non est; similiter <hi rend="bold">autem</hi> et in aliis
+     quaecumque talia sunt. Non autem in omnibus relativis verum videtur esse simul <hi rend="bold"
+      >esse natura</hi>; scibile enim scientia prius esse <hi rend="bold">videtur</hi>; namque in
+     pluribus subsistentibus * rebus scientias accipimus; in paucis enim vel * nullis hoc QVIS
+     REPERIET simul cum scibili scientiam factam. Amplius scibile sublatum simul aufert scientiam,
+     scientia vero non * aufert scibile; nam, si scibile non sit, non est scientia, <hi rend="bold"
+      >scientia vero si</hi> non sit, nihil prohibet esse scibile; ut circuli quadratura si est
+     scibile, scientia quidem eius nondum est, illud vero scibile est. Amplius animali quidem
+     sublato non est scientia, scibilium vero plurima esse contingit. Similiter autem his SE habent
+     et EA quae DE sensu sunt; SENSATVM enim VEL sensibile prius QVAM SENSVS videtur ESSE; NAM
+     SENSATVM INTEREMPTVM simul PERIMIT sensum, sensus AVTEM SENSATVM non simul PERIMIT. Sensus enim
+     circa corpus et in corpore sunt; SENSATO AVTEM PEREMPTO PEREMPTVM EST ET corpus (SENSATORVM
+     enim EST corpus), cum VERO corpus non sit, PERIMITVR ET sensus; quare simul PERIMIT SENSATVS
+     sensum. Sensus vero SENSATVM non SIMVL PERIMIT; ANIMALI enim PEREMPTO SENSVS QVIDEM PEREMPTVS
+     EST, SENSATVM VERO ERIT, ut corpus, calidum, dulce, amarum, et alia omnia quaecumque sunt
+     TALIA. Amplius sensus quidem simul cum sensato fit (simul enim animal fit et sensus), sensibile
+     vero ante est quam esset sensus (ignis enim et aqua et alia huiusmodi, ex quibus ipsum animal
+     constat, ante sunt quam animal sit omnino vel sensus); quare prius quam sensus sensibile esse
+      <hi rend="bold">videtur</hi>.</p>
+    <p>Habet autem QVAESTIONEM VTRVM NVLLA substantia ad aliquid dicatur, quemadmodum videtur, an
+     hoc * CONTINGAT secundum QVOSDAM SECVNDIS SVBSTANTIIS. Nam in primis * substantiis verum est;
+     nam neque totae neque partes ad aliquid dicuntur; nam aliquis homo non dicitur alicuius aliquis
+     homo, neque aliquis bos alicuius aliquis bos. Similiter autem et partes; quaedam enim manus non
+     dicitur alicuius quaedam manus, sed alicuius manus, et quoddam caput non dicitur alicuius
+     quoddam caput, sed alicuius caput. Similiter autem et in secundis substantiis, atque hoc quidem
+     in pluribus; ut homo non dicitur alicuius homo, nec bos alicuius bos, nec lignum alicuius
+     lignum, sed alicuius possessio dicitur. In huiusmodi ERGO manifestum est quoniam non est ad
+     aliquid; in aliquibus vero secundis substantiis habet aliquam dubitationem; ut caput alicuius
+     caput dicitur et manus alicuius manus dicitur et singula huiusmodi, quare haec esse fortasse ad
+     aliquid <hi rend="bold">videantur</hi>. Si igitur sufficienter eorum quae sunt ad aliquid
+     definitio assignata est, aut nimis difficile aut impossibile est solvere quoniam nulla
+     substantia eorum quae sunt ad aliquid dicitur; si autem non sufficienter, sed sunt ad aliquid
+     quibus hoc ipsum esse est ad aliquid quodam modo <hi rend="bold">se</hi> habere, fortasse
+     aliquid contra ista dicetur. Prior vero definitio sequitur quidem omnia relativa, non tamen hoc
+     eis est <hi rend="bold">esse</hi> quod <hi rend="bold">sunt</hi> ad aliquid quod ea ipsa quae
+     sunt aliorum dicuntur. Ex his ergo manifestum est quod, si quis aliquid eorum quae sunt ad
+     aliquid definite sciet, et illud ad quod dicitur definite sciturus est, <hi rend="bold">quoniam
+      eorum est quae sunt ad aliquid</hi>. PALAM ITAQVE ET ex HOC est; si ENIM novit ALIQVIS QVIDDAM
+     QVIA ad aliquid est, EST autem ESSE QVAE AD ALIQVID SVNT IDEM ad aliquid QVOQVO modo <hi
+      rend="bold">se</hi> HABET, et illud novit ad quod hoc QVOQVO modo SE habet; si ENIM NON NOVIT
+     OMNINO ad quod HOC QVOQVO modo SE habet, NEQVE si ad aliquid QVOQVO modo SE habet *. SED in
+     SINGVLIS PALAM HOC est; ut, hoc SI QVIS NOVIT definite QVIA EST duplum, et cuius duplum est MOX
+     definite novit (si VERO NIHIL DEFINITORVM novit IPSVM CVM duplum SIT, NEQVE si EST DVPLVM
+     omnino novit); similiter autem et hoc * aliquid si novit QVIA melius est DEFINITE, et quo
+     melius EST definite NECESSARIVM est NOSSE propter haec * (INDEFINITE autem SCIET QVIA est
+     peiore melius; OPINIONE ID QVOD TALE EST FIT, non DISCIPLINA; NON enim SCIVIT SVBTILITER QVIA
+     est peiore MELIOR; SI ENIM SIC contingit, nihil EST peius EO); QVAPROPTER PALAM est QVIA
+     NECESSARIVM est quod noverit QVIS RELATIVORVM definite, ET illud ad quod dicitur DEFINITE
+     NOSSE. Caput vero et manum et <hi rend="bold">horum</hi> singula quae substantiae sunt, hoc
+     ipsum * quod sunt potest sciri definite, ad quod autem dicantur non EST NECESSARIVM SCIRE;
+     cuius enim hoc caput vel cuius haec manus non est <hi rend="bold">dici</hi> definite; quare non
+     erunt HAEC * ad aliquid; SI VERO non sunt RELATIVORVM, verum erit DICERE QVIA NVLLA SVBSTANTIA
+     RELATIVORVM EST. Fortasse autem difficile sit de huiusmodi rebus confidenter declarare nisi <hi
+      rend="bold">saepe</hi> pertractata sint; dubitare autem de singulis non erit inutile.</p>
+   </div>
+   <div type="cap" n="4">
+    <p>[8] DE QVALI ET QVANTITATE. Qualitatem vero dico secundum quam quales quidam dicimur. Est
+     autem qualitas eorum quae multipliciter dicuntur. Et una quidem species qualitatis habitus <hi
+      rend="bold">dispositioque dicuntur</hi>. Differt autem habitus <hi rend="bold"
+      >dispositione</hi> quod permanentior et diuturnior est; tales vero sunt scientiae vel
+     virtutes; scientia enim videtur esse permanentium et eorum quae difficile moveantur, <hi
+      rend="bold">ut</hi> si quis vel mediocriter scientiam sumat, nisi forte grandis permutatio
+     facta sit vel ab aegritudine vel ab aliquo huiusmodi; similiter autem et virtus et iustitia vel
+     castitas et singula talium non videntur * posse moveri neque facile permutari. Affectiones vero
+     dicuntur quae sunt <hi rend="bold">faciles</hi> et cito permutabiles, ut calor et FRIGIDITAS et
+     aegritudo et sanitas et alia huiusmodi; AFFICITVR enim quodam modo circa eas homo, cito autem
+     permutatur <hi rend="bold">et</hi> ex calido frigidus <hi rend="bold">fit</hi> et ex sanitate
+     in aegritudinem TRANSIT; similiter autem et in aliis, nisi forte in his quoque contingit per
+     temporis longitudinem in naturam cuiusque <hi rend="bold">transferri</hi> et insanabilis vel
+     difficile mobilis <hi rend="bold">existat affectus, quem</hi> iam quilibet habitudinem vocet.
+     Manifestum est autem quoniam haec volunt HABITVDINES nominari, quae sunt diuturniora VEL
+     difficile mobilia; namque in disciplinis non multum retinentes sed facile mobiles dicunt
+     habitum non habere, quamvis sint ad <hi rend="bold">disciplinas</hi> peius melius ve dispositi.
+     Quare differt habitus <hi rend="bold">dispositione</hi>, quod hoc quidem facile * est, illud
+     vero diuturnius et difficile mobile. Sunt autem habitus etiam <hi rend="bold">dispositiones,
+      dispositiones</hi> vero non <hi rend="bold">necesse est</hi> habitus <hi rend="bold"
+     >esse</hi>; qui enim retinent habitum et quodammodo <hi rend="bold">dispositi</hi> sunt ad ea
+      <hi rend="bold">quae habent</hi> vel peius vel melius, qui autem <hi rend="bold"
+      >dispositi</hi> sunt, non omnino retinent habitum.</p>
+    <p>Aliud vero genus qualitatis est secundum quod pugillatores vel cursores vel salubres vel
+     insalubres dicimus, et simpliciter quaecumque secundum potentiam naturalem vel impotentiam
+     dicuntur. Non enim quoniam sunt <hi rend="bold">dispositi</hi> aliquo modo, unumquodque
+     huiusmodi dicitur, sed quod habeant potentiam naturalem vel facere quid facile vel nihil pati;
+     ut pugillatores vel cursores dicuntur non quod sint <hi rend="bold">dispositi</hi>, sed quod
+     habeant potentiam hoc facile faciendi, <hi rend="bold">sanativi</hi> autem dicuntur eo quod
+     habeant potentiam naturalem ut nihil a quibuslibet accidentibus patiantur, <hi rend="bold"
+      >aegrotativi</hi> vero quod habeant impotentiam nihil patiendi. Similiter autem HIS et durum
+     et molle <hi rend="bold">se habet</hi>; durum enim dicitur quod habeat potentiam non citius
+     secari, molle vero, quod eiusdem ipsius habeat impotentiam.</p>
+    <p>TERTIA vero SPECIES qualitatis est passibiles qualitates et passiones. Sunt autem huiusmodi
+     ut dulcedo ET amaritudo ET AVSTERITAS et omnia his cognata, amplius AVTEM calor et frigus et
+     albedo et nigredo. Et quoniam hae qualitates sunt, manifestum est; <hi rend="bold">quae enim
+      cumque</hi> ista susceperint qualia dicuntur secundum SE; ut mel, quoniam dulcedinem suscepit,
+     dicitur dulce, et corpus album EO quod albedinem SVSCIPIAT; similiter * sese habet etiam in
+     ceteris. Passibiles vero qualitates ET PASSIONES dicuntur non <hi rend="bold">quod</hi> ea quae
+     illas susceperint qualitates aliquid patiantur; neque enim mel, quoniam aliquid passum sit,
+     idcirco dicitur dulce, nec aliquid <hi rend="bold">aliud</hi> huiusmodi; similiter autem his et
+     calor et frigus passibiles <hi rend="bold">qualitates</hi>dicuntur non QVOD IPSA quae ea
+     suscipiunt aliquid PASSA SINT, sed quoniam singulum eorum quae dicta sunt secundum sensus
+     qualitatum passionis perfectiva sunt, passibiles qualitates dicuntur; dulcedo enim passionem
+     quandam secundum gustum efficit, et calor secundum tactum; similiter autem et <hi rend="bold"
+      >aliae</hi>. Albedo autem et nigredo et alii colores non similiter his quae dicta sunt
+     passibiles qualitates dicuntur, sed hoc quod hae ipsae qualitates ab aliquibus passionibus
+     innascuntur. Quoniam ergo fiunt <hi rend="bold">per</hi> aliquam passionem multae colorum
+     mutationes, manifestum est; erubescens enim aliquis <hi rend="bold">rubeus</hi> factus est et
+     timens pallidus et unumquodque talium; quare vel si quis naturaliter aliquid talium passionum
+     passus est, similem colorem eum <hi rend="bold">oportet habere</hi>; quae enim affectio nunc ad
+     verecundiam circa corpus facta est, et secundum naturalem <hi rend="bold">affectionem</hi>
+     eadem fiet affectio, ITA VT naturaliter et color similis SIT Quaecumque igitur talium casuum ab
+     aliquibus passionibus difficile mobilibus et permanentibus principium SVMPSERINT, PASSIBILES
+     qualitates dicuntur; sive enim vel secundum naturalem substantiam pallor aut nigredo facta est
+      <hi rend="bold">qualitates dicuntur</hi> (quales enim ET secundum eas dicimur), sive propter
+     aegritudinem longam vel propter aestum AVT ALIQVID TALE contingit vel nigredo vel pallor, et
+     non facile praeterit et in vita permanet, qualitates et ISTAE dicuntur (similiter * quales et
+     secundum eas dicimur). Quaecumque vero ex his quae facile solvuntur et cito transeunt fiunt,
+     passiones dicuntur; non enim dicimur secundum eas quales; neque enim qui propter verecundiam
+      <hi rend="bold">rubeus</hi> factus est <hi rend="bold">rubeus</hi> dicitur, nec cui pallor
+     propter timorem venit pallidus <hi rend="bold">est</hi>, sed magis quod aliquid passus sit;
+     quare passiones huiusmodi dicuntur, qualitates vero minime. Similiter autem his et secundum
+     animam passibiles qualitates et passiones dicuntur. Quaecumque enim mox in nascendo ab
+     aliquibus passionibus fiunt, qualitates dicuntur, ut dementia vel ira <hi rend="bold">et</hi>
+     alia huiusmodi; quales enim secundum eas dicimur, id est iracundi et dementes. Similiter autem
+     et quaecumque alienationes non naturaliter, sed ab aliquibus * casibus factae sunt difficile
+     praetereuntes et omnino immobiles, etiam huiusmodi qualitates sunt; quales enim <hi rend="bold"
+      >et</hi> secundum eas dicimur. Quaecumque enim ex his quae citius praetereunt fiunt, passiones
+     dicuntur, ut si quis contristatus iracundior <hi rend="bold">sit</hi>; non enim dicitur
+     iracundus qui in huiusmodi passione iracundior est, sed magis aliquid passus; quare passiones
+     quidem huiusmodi dicuntur, qualitates vero minime.</p>
+    <p>Quartum vero genus qualitatis est forma et circa aliquid constans figura AMPLIVS AVTEM ad
+     haec rectitudo vel curvitas, et si quid his simile est; secundum enim unumquodque eorum quale
+     quid dicitur; TRIANGVLVM enim vel quadratum ESSE quale quid dicitur, et * rectum AVT curvum. Et
+     secundum figuram vero unumquodque quale QVID dicitur. Rarum vero et spissum ET asperum ET lene
+      <hi rend="bold">putabitur</hi> quidem qualitatem significare, SED aliena huiusmodi PVTANTVR
+     ESSE A DIVISIONE QVAE CIRCA QVALITATEM EST; quandam enim <hi rend="bold">positionem quodammodo
+      videntur</hi> partium utrumque monstrare; spissum quidem <hi rend="bold">est</hi> eo quod
+     partes sibi ipsae propinquae sint, rarum vero EO quod distent a se invicem; et lene quidem quod
+     in rectum sibi partes iaceant, asperum vero <hi rend="bold">quod</hi> haec quidem pars superet,
+     illa vero sit inferior. Et fortasse alii quoque appareant qualitatis modi, sed qui maxime
+     dicuntur hi sunt.</p>
+    <p>Qualitates ITAQVE sunt * quae PRAEDICTAE sunt, qualia vero quae secundum haec denominative
+     dicuntur <supplied><gap/></supplied> ut A CANDORE CANDIDVS et a grammatica grammaticus et a
+     iustitia iustus; similiter autem et in ALIIS. In aliquibus vero, EO quod NON SINT POSITA
+     qualitatibus nomina, NON CONTINGIT EA QVAE DICVNTVR ab EIS denominative dici, ut cursor AVT
+     pugillator QVI secundum VALETVDINEM naturalem dicitur a nulla qualitate denominative dicitur;
+     NON enim POSITA NOMINA SVNT VALETVDINIBVS secundum quas isti quales dicuntur, SICVT in
+     disciplinis secundum quas vel pugillatores vel palaestrici secundum affectionem dicuntur
+     (pugillatoria enim disciplina dicitur, quales vero ab his denominative HI QVI AFFICIVNTVR
+     dicuntur). Aliquando autem et posito nomine denominative non dicitur * quod secundum EAM quale
+     * dicitur, ut a virtute STVDIOSVS *; VIRTVTEM enim HABENDO STVDIOSVS dicitur, sed non
+     denominative a virtute; non autem IN PLVRIMIS HOC TALE EST. QVAE ergo dicuntur AVT DENOMINATIVE
+     A PRAEDICTIS QVALITATIBVS dicuntur AVT ALIQVO MODO ALITER ab EIS.</p>
+    <p>Inest autem et contrarietas secundum QVOD QVALE EST, ut IVSTITIAE INIVSTITIA CONTRARIA est et
+     albedo nigredini et alia; similiter AVTEM et EA QVAE secundum eas qualia * dicuntur, ut
+     INIVSTVM IVSTO et album nigro. Non autem in omnibus HOC est; rubeo * AVT pallido AVT huiusmodi
+     coloribus nihil est contrarium QVALITATIBVS EXISTENTIBVS. Amplius, si ex contrariis unum fuerit
+     quale, <supplied>et reliquum erit quale</supplied>. Hoc * PALAM est PROPONENTI EX SINGVLIS alia
+     praedicamenta, * si est iustitia iniustitiae contrarium, QVALE autem EST iustitia, QVALE IGITVR
+     ET iniustitia; nullum IGITVR ALIORVM PRAEDICAMENTORVM APTABITVR iniustitiae, NEQVE quantitas
+     NEQVE AD ALIQVID NEQVE ubi nec omnino ALIVD QVICQVAM, nisi QVALE; Sic autem et in aliis QVAE
+     secundum QVALE SVNT.</p>
+    <p>Suscipit autem qualitas et magis et minus; album enim magis et minus alterum altero dicitur,
+     et iustum alterum altero magis ET MINVS. SED et IPSA CREMENTVM SVSCIPIVNT (CVM CANDIDVM NAMQVE
+     sit, AMPLIVS contigit CANDIDIVS FIERI); NON TAMEN OMNIA, sed PLVRA; IVSTITIA NAMQVE A IVSTITIA
+     SI DICATVR MAGIS ET MINVS POTEST QVILIBET AMBIGERE; similiter * et in aliis AFFECTIBVS. Quidam
+     ENIM dubitant DE TALIBVS; IVSTITIAM NAMQVE A iustitia non MVLTVM AIVNT magis ET minus dici, nec
+     sanitatem A sanitate; minus autem habere alterum altero sanitatem AIVNT, et iustitiam minus
+     alterum altero habere, SIC AVTEM et grammaticam et ALIOS AFFECTVS. Sed TAMEN EA QVAE secundum
+     EOS AFFECTVS dicuntur INDVBITANTER RECIPIVNT magis et minus; GRAMMATICIOR enim alter altero
+     dicitur et iustior et sanior, SIC ET in aliis. TRIANGVLVS vero et QVADRANGVLVS non videtur
+     magis MINVS VE suscipere, nec aliquid aliarum FIGVRARVM; quaecumque enim definitionem trianguli
+     RECIPIVNT et circuli omnia similiter <hi rend="bold">trianguli</hi> vel circuli sunt, EORVM
+     VERO quae non RECIPIVNT nihil magis alterum altero dicitur; nihil enim quadratum magis quam
+     parte altera longior forma circulus est; <hi rend="bold">nullam</hi> enim * RECIPIT circuli
+     rationem. Simpliciter autem, si utraque non RECIPIVNT HVIVS propositi rationem, non DICETVR
+     alterum altero magis. Non ERGO omnia qualia RECIPIVNT magis et minus.</p>
+    <p>HORVM ITAQVE quae PRAEDICTA sunt nihil est proprium qualitatis, SIMILIA VERO et DISSIMILIA
+     secundum solas dicuntur qualitates; simile <hi rend="bold">autem</hi> alterum alteri non est
+     secundum aliud nisi secundum <hi rend="bold">id</hi> quod quale est. Quare proprium erit
+     qualitatis secundum eam simile et dissimile dici.</p>
+    <p>At vero non decet conturbari ne quis nos dicat de qualitate propositionem facientes multa de
+     relativis interposuisse; HABITVS enim et <hi rend="bold">dispositio</hi> eorum quae ad aliquid
+     SVNT esse DICEBAMVS. Paene enim * in omnibus TALIBVS GENERA ad aliquid dicuntur, NIHIL AVTEM
+     HORVM quae SINGVLARIA SVNT; NAM CVM DISCIPLINA genus SIT, * ipsum quod est alterius dicitur
+     (alicuius enim DISCIPLINA dicitur), EORVM vero QVAE SINGVLARIA SVNT nihil * ipsum quod est
+     alterius dicitur, ut grammatica non dicitur <hi rend="bold">alterius</hi> grammatica nec musica
+     alicuius musica, sed * forte secundum genus * et HAEC AD ALIQVID DICVNTVR; ut grammatica
+     dicitur ALICVIVS DISCIPLINA, non alicuius grammatica, et musica alicuius DISCIPLINA, non
+     alicuius musica, QVAPROPTER QVAE PER SINGVLA QVIDEM SVNT, non sunt AD ALIQVID. Dicimur <hi
+      rend="bold">enim</hi> quales secundum singula; haec enim et habemus (scientes enim dicimur
+     quod habemus singulas scientias); quare haec erunt etiam qualitates, quae singulatim sunt,
+     secundum quas et quales dicimur; haec autem non <hi rend="bold">erunt</hi> eorum quae sunt ad
+     aliquid. Amplius si contingat HOC IPSVM quale et relativum ESSE, nihil est inconveniens in
+     utrisque hoc generibus annumerare.</p>
+   </div>
+   <div type="cap" n="5">
+    <p>[9] DE FACERE ET PATI. RECIPIT autem * facere et pati CONTRARIETATES et magis et minus;
+     calefacere enim AD frigidum facere CONTRARIVM EST, et calefieri AD frigidum fieri, et delectari
+     AD contristari; IDCIRCO RECIPIT CONTRARIETATES *. SED et magis et minus; calefacere enim *
+     magis et minus EST, et calefieri magis et minus, et contristari MAGIS ET MINVS. RECIPIT ergo *
+     magis et minus facere et pati.</p>
+    <p>PRO his ITAQVE TANTA DICANTVR; dictum est autem et de situ in HIS QVAE AD ALIQVID SVNT, QVIA
+     denominative a positionibus dicitur. PRO reliquis AVTEM, * quando et ubi et habere, EO quod
+     manifesta sunt, nihil de EIS ALIVD dicitur quam QVAE in principio DICTA SVNT, QVIA habere
+     QVIDEM significat calciatum esse *, armatum ESSE, ubi AVTEM in <hi rend="bold">loco</hi>, SED
+     ET alia QVAE PRO EIS dicta sunt.</p>
+    <p>[10] DE PROPOSITIS ITAQVE generibus QVAE DICTA SVNT SVFFICIVNT.</p>
+   </div>
+   <div type="cap" n="6">
+    <p>DE OPPOSITIS. Dicitur autem alterum alteri opponi quadrupliciter, aut ut ad aliquid, aut ut
+     contraria, aut ut habitus et privatio, aut ut affirmatio et negatio. <hi rend="bold"
+      >Opponuntur</hi> autem unumquodque istorum, ut sit figuratim dicere, ut relativa ut duplum <hi
+      rend="bold">dimidio</hi>, ut contraria ut <hi rend="bold">malum bono</hi>, ut secundum
+     privationem et habitum ut caecitas <hi rend="bold">visui</hi>, ut affirmatio et negatio ut
+     sedet - non sedet.</p>
+    <p>Quaecumque igitur ut relativa opponuntur, ea ipsa quae sunt oppositorum dicuntur, aut
+     quomodolibet aliter ad ea; ut duplum <hi rend="bold">dimidii</hi>, * ipsum quod est, ALTERIVS
+     dicitur (ALICVIVS ENIM duplum DICITVR); SED et DISCIPLINA DISCIPLINATO TAMQVAM RELATIVA
+     OPPOSITA EST, et dicitur DISCIPLINA, * ipsum quod est, DISCIPLINATI; SED et DISCIPLINATVM, *
+     ipsum quod est, ad oppositum dicitur, ID EST AD DISCIPLINAM (DISCIPLINATVM enim ALIQVEM DICIMVS
+     DISCIPLINATVM DISCIPLINA).</p>
+    <p>Quaecumque ergo OPPOSITA SVNT TAMQVAM ad aliquid, * ipsa quae sunt ALIORVM DICVNTVR AVT
+     QVOMODOCVMQVE ad * invicem; illa vero quae ut contraria, ipsa quidem quae sunt nullo modo ad SE
+     invicem dicuntur, <supplied>contraria vero sibi invicem dicuntur</supplied>; neque enim bonum
+     mali dicitur bonum, sed contrarium; nec album nigri album, sed contrarium. Differunt ERGO HAE
+     CONTRARIETATES A SE invicem. Quaecumque vero contrariorum talia sunt ut in quibus nata sunt
+     fieri et de quibus praedicantur, necessarium <hi rend="bold">est</hi> alterum ipsorum inesse,
+     nihil eorum medium est (quorum VERO non est necessarium alterum inesse, horum omnium est
+     aliquid medium OMNINO); ut LANGVOR et sanitas in corpore animalis NATVRAM HABET fieri, et
+     NECESSARIVM EST alterum * ESSE IN animalis CORPORE, VEL LANGVOREM VEL sanitatem; SED et par et
+     impar de numero praedicatur, et NECESSARIVM est * alterum IN numero ESSE, AVT ABVNDANS AVT
+     PERFECTVM; et NIHIL est IN MEDIO HORVM, neque INTER LANGVOREM ET SANITATEM, neque INTER
+     ABVNDANTEM ET PERFECTVM. Quorum VERO non est necessarium alterum inesse, EORVM est aliquid
+     medium; ut NIGRVM et ALBVM in corpore NATVRAM HABET fieri, et non est NECESSARIVM alterum HORVM
+     ESSE IN CORPORE (non enim omne * AVT album AVT nigrum est), SED et PRAVVM et STVDIOSVM
+     PRAEDICATVR quidem ET de homine et de aliis MVLTIS, SED non est NECESSARIVM alterum HORVM ESSE
+     ILLIS de quibus praedicatur; non enim omnia VEL PRAVA VEL STVDIOSA SVNT. Et est * horum medium,
+     * albi QVIDEM et nigri FVSCVM ET pallidum ET quicumque alii SVNT colores, PRAVI vero et
+     STVDIOSI quod neque PRAVVM neque STVDIOSVM EST. In aliquibus ITAQVE NOMINA POSITA SVNT HIS QVAE
+     MEDIA SVNT, ut albi et nigri FVSCVM et pallidum; in aliquibus AVTEM NOMINA QVIDEM IN MEDIO
+     assignare IDONEVM non EST, SED PER VTRORVMQVE SVMMORVM NEGATIONEM QVOD MEDIVM EST DETERMINATVR,
+     ut QVOD NEQVE bonum NEQVE malum EST, NEQVE iustum NEQVE iniustum.</p>
+    <p>Privatio vero et habitus <hi rend="bold">dicitur</hi> quidem circa idem aliquid, ut visio et
+     caecitas circa oculum; universaliter autem dicere est in quo nascitur habitus fieri, circa hoc
+     dicitur utrumque eorum <hi rend="bold">ordine</hi>. Privari AVTEM tunc dicimus unumquodque
+     habitus susceptibilium, quando in quo natum est * habere nullo modo habet; edentulum enim
+     dicimus non qui non habet dentes, nec caecum qui non habet <hi rend="bold">visum</hi>, sed qui,
+     quando <hi rend="bold">contingit</hi> habere, non habet (QVAEDAM enim ex GENERATIONE neque
+     dentes neque VISVM HABENT, sed non dicuntur EDENTATI neque CAECI). Privari vero et habere
+     habitum non est habitus et privatio; habitus enim est visus, privatio vero caecitas, habere
+     autem visum non est visus nec caecum esse caecitas (privatio enim quaedam est caecitas, caecum
+     vero esse privari, non privatio est). Nam si idem esset caecitas et caecum esse, utraque de
+     eodem praedicarentur; nunc vero minime, sed caecus * dicitur homo, caecitas vero HOMO nullo
+     modo dicitur. OPPOSITA AVTEM ETIAM HAEC videntur, ID EST privari et habitum HABERE, TAMQVAM
+     privatio et habitus; MODVS enim oppositionis IDEM EST; NAM SICVT CAECITAS VISVI OPPOSITA EST,
+     SIC CAECVM ESSE AD VISVM HABERE OPPOSITVM EST. Non est autem NEQVE quod sub affirmatione ET
+     negatione est AFFIRMATIO ET NEGATIO; affirmatio NAMQVE oratio est affirmativa et negatio oratio
+     negativa, HORVM vero quae sub affirmatione ET negatione SVNT, NVLLA est oratio. CONCEDANTVR
+     autem ETIAM HAEC ESSE OPPOSITA ALTERVTRIS TAMQVAM affirmatio et negatio; nam * in his modus
+     oppositionis idem est; SICVT enim affirmatio ADVERSVM negationem OPPOSITA EST, ut QVOD sedet EI
+     QVOD non sedet, sic ET res quae sub VTROQVE POSITA EST, ID EST sedere AD non sedere. Quoniam
+     autem privatio et habitus non sic opponuntur ut ad aliquid, manifestum est; neque enim dicitur
+     hoc ipsum quod est oppositi; visus enim non est caecitatis visus, nec alio ullo modo ad ipsum
+     dicitur; similiter autem NEQVE caecitas dicitur caecitas VISIONIS, sed privatio QVIDEM VISIONIS
+     caecitas dicitur, CAECITAS VERO VISIONIS NON DICITVR. Amplius AD ALIQVID OMNIA RECIPROCATIVA
+     dicuntur, quare ET caecitas, si esset HORVM quae ad aliquid SVNT, VTIQVE converteretur ET illud
+     ad quod dicitur; sed non CONVERTITVR; neque enim dicitur visus caecitatis VISVS.</p>
+    <p>Quoniam autem neque ut contraria opponuntur ea quae secundum privationem et habitum dicuntur,
+     ex his manifestum est. Quorum enim contrariorum nihil est medium, necesse est, in quibus nata
+     sunt fieri aut <hi rend="bold">in</hi> quibus praedicari, alterum ipsorum inesse semper; horum
+     enim nihil EST medium, quorum ALTERVM NECESSARIVM erat inesse * susceptibili, ut in LANGVORE et
+     sanitate et ABVNDANTI ET PERFECTO. Quorum VERO aliquid EST medium numquam NECESSITAS est omni
+     ESSE alterum; NEQVE ENIM NECESSE EST OMNI susceptibili CANDIDVM VEL NIGRVM ESSE, NEQVE frigidum
+     VEL calidum (HORVM enim MEDIVM ALIQVID NIHIL PROHIBET ESSE); HORVM AVTEM erat ALIQVID MEDIVM,
+     quorum non ERAT NECESSARIVM alterum ESSE * susceptibili, PRAETER QVIBVS naturaliter VNVM INEST,
+     ut igni calidum esse et nivi CANDIDVM (in his autem DETERMINATE NECESSARIVM ALTERVM ESSE, et
+     non ALTERVTRVM CONTINGIT; NON enim POSSIBILE EST IGNEM FRIGIDVM esse NEQVE NIVEM NIGRAM); quare
+     OMNI QVIDEM SVSCEPTIBILI non EST NECESSARIVM alterum EORVM inesse, sed solis * quibus
+     naturaliter unum inest, et his DETERMINATE unum, non ALTERVTRVM CONTINGIT. In privatione vero
+     et habitu NIHIL HORVM quae dicta sunt VERVM EST; NEC enim semper * susceptibili NECESSARIVM est
+     alterum EORVM ESSE; quod enim nondum NATVRAM HABET AD VIDENDVM neque caecum neque visum HABENS
+     dicitur, IDEO QVE NON ERVNT HAEC TALIVM CONTRARIORVM QVORVM NIHIL EST MEDIVM; SED NEQVE QVORVM
+     EST MEDIVM; NECESSARIVM ENIM EST OMNI SVSCEPTIBILI ALTERVM EORVM ESSE; QVANDO ENIM IAM NATVM
+     FVERIT AD HABENDVM VISIONEM AVT CAECVM AVT habens VISIONEM DICETVR; et horum non DETERMINATE
+     alterum sed ALTERVTRVM CONTINGIT *; in contrariis AVTEM, QVIBVS est MEDIVM, numquam NECESSARIVM
+     FVIT omni alterum ESSE, sed QVIBVSDAM, et his DETERMINATE unum. VNDE PALAM est QVIA secundum
+     neutrum modum TAMQVAM contraria OPPOSITA SVNT ea quae secundum privationem et habitum
+     OPPONVNTVR.</p>
+    <p>Amplius in contrariis QVIDEM, EXISTENTE SVSCEPTIBILI, POSSIBILE EST IN ALTERVTRVM FIERI
+     MVTATIONEM, nisi ALICVI naturaliter unum SIT, ut igni calido esse; NAMQVE quod sanum est
+     POSSIBILE EST LANGVERE, et CANDIDVM nigrum fieri, et calidum FRIGIDVM, et ex STVDIOSO PRAVVM et
+     ex PRAVO STVDIOSVM POSSIBILE EST FIERI (PRAVVS enim AD MELIORES EXERCITATIONES DEDVCTVS ET AD
+     DOCTRINAS, vel AD MODICVM ALIQVID PROFICIET VT MELIOR SIT; SI vero SEMPER VEL MODICVM CREMENTVM
+     SVMPSERIT, PALAM est QVIA aut PERFECTE MVTABITVR, aut SATIS MVLTVM CREMENTVM SVMET; SI enim
+     BENE mobilior ad virtutem FIAT, VEL QVODCVMQVE CREMENTVM SVMPSERIT a principio, ET EX HOC ETIAM
+     VERISIMILE EST AMPLIVS EVM SVMERE CREMENTVM; et hoc DVM SEMPER FIT, perfecte in CONTRARIVM
+     HABITVM RESTITVETVR, nisi FORTE tempore SVSPENSVM SIT). VERVM in privatione et habitu
+     impossibile est MVTATIONEM IN ALTERVTRVM fieri; ET ab habitu IN privationem fit MVTATIO, a
+     privatione vero IN habitum impossibile est; neque enim caecus * FACTVS rursus vidit, NEQVE CVM
+     ESSET calvus rursus COMATVS factus est, NEQVE CVM ESSET SINE DENTIBVS DENTES EI ITERVM ORTI
+     SVNT.</p>
+    <p>Quaecumque vero TAMQVAM affirmatio et negatio OPPOSITA SVNT, PALAM est QVIA NVLLO
+     PRAEDICTORVM MODO OPPOSITA SVNT; in solis enim ISTIS NECESSARIVM est SEMPER ALIVD quidem EORVM
+     verum ALIVD AVTEM ESSE falsum. Neque ENIM in contrariis NECESSARIVM est semper alterum verum
+     ESSE, alterum AVTEM falsum, NEQVE in HIS QVAE AD ALIQVID SVNT, neque in habitu et privatione;
+     ut sanitas et LANGVOR contraria sunt, ET neutrum * neque verum EST neque falsum; similiter
+     autem et duplum et DIMIDIVM TAMQVAM RELATIVA OPPOSITA SVNT, ET non est eorum NEQVE VERVM NEQVE
+     FALSVM; SED NEQVE ea quae secundum PRIVATIONEM et habitum sunt, SICVT VISIO et caecitas. Omnino
+     autem eorum quae secundum nullam complexionem dicuntur NIHIL NEQVE verum NEQVE falsum est;
+     PORRO omnia quae DICTA SVNT sine complexione dicuntur. SED ET MAXIME VIDEBITVR HOC TALE
+     contingere in his quae secundum complexionem CONTRARIA dicuntur (sanum NAMQVE * Socraten ac
+     LANGVERE Socraten CONTRARIVM EST), sed NEQVE in his CONTRARIVM EST semper alterum verum AVT
+     falsum ESSE; cum enim sit Socrates, ERIT ALIVD quidem verum ALIVD AVTEM falsum, cum VERO non
+     sit, AMBO falsa sunt; neque ENIM LANGVERE neque sanum esse verum est, cum ipse Socrates OMNINO
+     non sit. In privatione vero ET HABITV, cum non sit, neutrum verum est, * cum sit, non * ERIT
+     alterum verum; habere NAMQVE VISVM Socraten AD ID QVOD EST caecum esse Socraten OPPOSITVM EST
+     SICVT PRIVATIO et habitus, et cum sit, NECESSARIVM NON EST alterum verum vel falsum ESSE (CVM
+     enim NONDVM natus EST HABERE, utraque falsa sunt, * et visum EVM HABERE ET CAECVM * esse). In
+     affirmatione vero ET negatione semper, SIVE sit SIVE non sit, ALIVD QVIDEM ERIT FALSVM ALIVD
+     AVTEM VERVM; LANGVERE NAMQVE Socraten et non LANGVERE Socraten, cum IPSE SIT, PALAM est QVIA
+     alterum eorum verum ALTERVM AVTEM falsum est, ET cum non sit, similiter (LANGVERE ETENIM, cum
+     non sit, falsum est, non LANGVERE AVTEM verum *). Quare in his SOLIS PROPRIVM erit semper
+     alterum EORVM verum ALTERVM falsum ESSE, quaecumque TAMQVAM affirmatio et negatio OPPOSITA
+     SVNT.</p>
+    <p>[11] Contrarium autem est bono quidem ex necessitate malum (hoc autem PALAM est PER
+     SINGVLORVM INDVCTIONEM, ut sanitati LANGVOR et iustitiae iniustitia et fortitudini DEBILITAS,
+     similiter autem et in aliis), malo AVTEM ALIQVANDO QVIDEM bonum EST contrarium, ALIQVANDO malum
+     (EGESTATI enim CVM SIT MALVM, SVPERABVNDANTIA CONTRARIA EST, CVM SIT ETIAM IPSA MALVM). SED in
+     paucis hoc TALE QVILIBET INSPICIET, in pluribus VERO semper malo bonum contrarium est.</p>
+    <p>Amplius CONTRARIORVM non NECESSARIVM EST, si alterum SIT, et reliquum esse; sanis namque
+     omnibus, sanitas quidem erit, LANGVOR vero NON ERIT; similiter AVTEM et CVM OMNES SINT ALBI,
+     albedo quidem erit, nigredo vero non erit. Amplius, si Socraten sanum esse AD ID QVOD EST
+     Socraten LANGVERE contrarium est, CVM NON SIT POSSIBILE VTRAQVE EIDEM INESSE SIMVL, NON ERIT
+     POSSIBILE, cum alterum contrariorum sit, ET reliquum esse; cum ENIM sit Socraten SANVM ESSE,
+     non erit LANGVERE Socraten.</p>
+    <p>PALAM VERO est QVIA ET circa idem AVT specie AVT genere NATVRAM HABENT fieri CONTRARIETATES;
+     LANGVOR namque et sanitas IN CORPORE animalis NATVRAM HABET FIERI, albedo AVTEM et nigredo
+     simpliciter IN CORPORE, iustitia VERO et iniustitia in anima. NECESSARIVM autem EST omnia
+     contraria VEL in eodem genere esse VEL in contrariis generibus, vel ipsa GENERA ESSE; album
+     ENIM VEL nigrum in eodem EST genere (color enim genus EORVM est), iustitia vero et iniustitia
+     in contrariis generibus (huius enim virtus, huius AVTEM NEQVITIA genus est); bonum vero et
+     malum non sunt in * genere, sed ipsa sunt genera ALIQVORVM EXISTENTIA.</p>
+   </div>
+   <div type="cap" n="7">
+    <p>[12] DE PRIORE. Prius AVTEM alterum altero dicitur quadrupliciter. Primo quidem et proprie
+     secundum tempus, secundum quod scilicet antiquius alterum altero et senius DICITVR (IN eo enim
+     quod TEMPVS AMPLIVS EST, ET antiquius et SENIVS dicitur). Secundo AVTEM quod non convertitur
+     secundum subsistendi consequentiam, ut unus duobus PRIOR est (DVOBVS ENIM EXISTENTIBVS, mox
+     CONSEQVENS EST unum esse, VNO AVTEM EXISTENTE, non NECESSARIVM EST duo esse; IDCIRCO non
+     convertitur ab uno consequentia VT SIT RELIQVVM); prius autem videtur illud ESSE a quo non
+     convertitur IN EO QVOD EST ESSE consequentia. Tertio vero secundum quendam ordinem prius
+     dicitur, quemadmodum et in disciplinis et in orationibus; NAM ET in demonstrativis disciplinis
+     EST prius et posterius PER ordinem (elementa enim priora sunt HIS QVAE DESCRIBVNTVR PER
+     ordinem, SED et in grammatica elementa priora sunt syllabis), et in orationibus similiter
+     (PROOEMIVM enim prius est NARRATIONE PER ORDINEM). Amplius SVPRA EA QVAE DICTA SVNT, quod
+     melius EST et honorabilius, prius NATVRALITER esse videtur; CONSVEVERVNT autem ET PLVRIMI
+     HONORABILIORES et MAGIS DILECTOS A SE priores * dicere APVD SE; est QVIDEM ET paene
+     alienissimus PRIORVM hic modus.</p>
+    <p>MODI ITAQVE qui DICTI SVNT DE PRIORE isti sunt. Videtur autem praeter eos qui dicti sunt
+     alter esse prioris modus; eorum enim quae convertuntur secundum essentiae consequentiam, quod
+     alterius quomodolibet causa est digne prius natura dicitur. QVIA VERO sunt quaedam HVIVSMODI,
+     PALAM est; esse NAMQVE hominem convertitur secundum ESSE consequentiam ad VERAM de SE
+     ORATIONEM; nam, si est homo, VERA ORATIO est QVA dicimus QVIA est homo, et HOMO convertitur
+     QVIA EST (nam, si VERA ORATIO est QVA dicimus QVIA est homo, HOMO EST); est autem VERA QVIDEM
+     ORATIO NEQVAQVAM causa QVOD SIT RES, VERVMTAMEN videtur quodammodo causa * ut SIT ORATIO VERA;
+     DVM ENIM RES est AVT non est, VERA ORATIO AVT FALSA DICATVR NECESSE EST. IDEO QVE secundum
+     quinque modos prius alterum altero dicitur.</p>
+   </div>
+   <div type="cap" n="8">
+    <p>[13] DE HIS QVAE SIMVL SVNT. Simul autem dicuntur simpliciter QVIDEM et proprie, quorum
+     generatio EST in eodem tempore; neutrum enim NEQVE prius NEQVE posterius EST EORVM; simul
+     ITAQVE HAEC dicuntur SECVNDVM IDEM TEMPVS. Naturaliter autem simul SVNT quaecumque convertuntur
+     quidem secundum QVOD EST ESSE consequentiam, SED NEQVAQVAM CAVSA EST alterum alteri VT SIT, ut
+     IN DVPLO et MEDIO; convertuntur ETENIM HAEC (nam cum sit duplum est medium, et cum sit medium
+     est duplum), SED neutrum causa est VT SIT. DICVNTVR SIMVL NATVRALITER ET QVAE EX EODEM GENERE E
+     DIVERSO dividuntur AD SE INVICEM. E DIVERSO AVTEM dividi ALTERVTRVM dicuntur QVAE secundum
+     eandem divisionem SVNT, ut gressibile, VOLATILE et aquatile; haec enim ALTERVTRVM E DIVERSO
+     dividuntur, QVAE SVNT ex eodem genere; animal NAMQVE dividitur IN HAEC, in volatile ET
+     gressibile et aquatile, et NIHIL horum prius vel posterius EST, sed simul PER NATVRAM haec ESSE
+     VIDENTVR (dividitur autem et SINGVLVM HORVM in species RVRSVS *, ut gressibile animal et
+     volatile et aquatile). Erunt ERGO et illa simul NATVRALITER, quaecumque ex eodem * genere
+     secundum eandem DIVISIONEM sunt, genera VERO semper priora sunt; NEQVE enim convertuntur
+     secundum QVOD EST ESSE consequentiam, ut CVM SIT quidem AQVATILE, est animal, CVM vero SIT
+     ANIMAL non EST necesse VT SIT aquatile. Simul ergo PER NATVRAM dicuntur quaecumque convertuntur
+     quidem secundum QVOD EST ESSE consequentiam, SED NEQVAQVAM CAVSA EST alterum alteri VT SIT, ET
+     EA QVAE ex eodem genere E DIVERSO dividuntur AB INVICEM; ET simpliciter simul sunt quorum
+     generatio in eodem EST tempore.</p>
+   </div>
+   <div type="cap" n="9">
+    <p>[14] DE MOTV. Motus AVTEM sunt species sex: generatio, corruptio, AVGMENTVM, diminutio,
+     ALTERATIO, secundum locum MVTATIO. Alii ITAQVE motus PALAM est QVIA ALII AB INVICEM sunt; NON
+     EST * generatio corruptio, NEQVE AVGMENTVM diminutio, NEQVE ALTERATIO secundum locum MVTATIO;
+     similiter autem et ALII. In ALTERATIONE vero HABET QVANDAM QVAESTIONEM ne forte NECESSARIVM SIT
+     ID QVOD ALTERATVR PER ALIQVAM RELIQVARVM MOTIONVM ALTERARI. Hoc autem non est verum; NAM paene
+     secundum omnes passiones AVT PLVRES ALTERARI ACCIDIT NOBIS NVLLA ALIARVM MOTIONVM communicante;
+     nam neque AVGERI NECESSARIVM est quod PER passionem movetur NEQVE IMMINVI, similiter autem et
+     in aliis; IDEO QVE ALIA erit PRAETER ALIOS MOTVS ALTERATIO (nam si ESSET EADEM, OPORTEBAT ID
+     quod ALTERATVR mox ET AVGERI VEL minui VEL QVANDAM ALIARVM CONSEQVENTIAM MOTIONVM FIERI; sed
+     non est necesse). Similiter autem et quod AVGETVR AVT ALIQVA ALIA MOTIONE MOVETVR, ALTERARI
+     OPORTEBAT; sed sunt quaedam CRESCENTIA QVAE NON ALTERANTVR, ut QVADRANGVLVS COMPOSITO gnomone
+     crevit quidem, ALTERATVM VERO NIHIL EST FACTVM; SIC et in aliis huiusmodi. Quare ALII SVNT
+     motus * AB INVICEM.</p>
+    <p>EST autem simpliciter QVIDEM MOTVI QVIES CONTRARIVM; HIS AVTEM QVAE PER SINGVLA SVNT,
+     generationi quidem corruptio, AVGMENTO AVTEM DIMINVTIO, secundum VERO locum MVTATIONI secundum
+     locum quies. Maxime * videtur OPPOSITVM ESSE ET FORTE in contrarium locum MVTATIO, ut EI QVAE
+     INFERIVS EST EA QVAE SVPERIVS EST ET EI QVAE SVPERIVS EST EA QVAE INFERIVS EST. RELIQVORVM vero
+     ASSIGNATORVM MOTVVM non facile EST assignare quid EST contrarium, videtur autem neque esse
+     aliquid ei contrarium, nisi quis ET IN HOC secundum qualitatem quietem OPPONAT AVT IN
+     CONTRARIVM QVALITATIS MVTATIONEM, SICVT ET IN MVTATIONE secundum locum <supplied>QVIETEM
+      secundum locum</supplied> AVT in contrarium locum MVTATIONEM (est enim ALTERATIO MVTATIO
+     secundum qualitatem); QVAPROPTER OPPOSITA ERIT SECVNDVM QVALITATEM MVTATIONI secundum
+     qualitatem quies AVT in contrarium MVTATIO qualitatis, ut album fieri AD ID QVOD EST NIGRVM
+     FIERI; ALTERATVR enim, in CONTRARIA qualitatis MVTATIONE FACTA.</p>
+   </div>
+   <div type="cap" n="10">
+    <p>[15] DE HABERE. Habere AVTEM MVLTIS DICITVR MODIS; aut enim TAMQVAM habitum ET AFFECTVM AVT
+     aliam QVAMLIBET qualitatem (dicimur enim DISCIPLINAM habere ATQVE virtutem); aut ut
+     quantitatem, ut QVOD CONTINGIT EI QVI habet magnitudinem (dicitur enim BICVBITVM *); aut EA
+     QVAE circa corpus SVNT, VT VESTIMENTVM VEL tunicam; aut in MEMBRO (ut in manu anulum); aut VT
+     MEMBRVM (ut manum vel pedem); aut VT in vase (ut modius GRANA TRITICI AVT LAGENA vinum; vinum
+     enim HABERE LAGENA dicitur et modius GRANA TRITICI; haec igitur OMNIA habere dicuntur ut in
+     vase); AVT ut possessionem (habere enim domum ET agrum dicimur). AVT ETIAM uxorem HABERE, SED
+     et uxor virum; SED videtur alienissimus qui nunc dictus est MODVS ESSE IN EO QVOD EST HABERE;
+     nihil enim aliud VXOREM HABENDO SIGNIFICAMVS NISI QVIA COHABITAT. FORTE TAMEN et alii QVIDAM
+     APPAREBVNT MODI DE EO QVOD EST HABERE; SED QVI CONSVEVERVNT dici paene omnes ENVMERATI
+     SVNT.</p>
+   </div>
+
+  </body>
+ </text>
+
+</TEI>

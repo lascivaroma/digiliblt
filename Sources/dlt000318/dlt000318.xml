@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Praecepta artis rhetoricae</title>
+                <author>Iulius Severianus</author>
+                <respStmt>
+                    <resp>Correzione linguistica</resp>
+                    <name>Corinna Senore</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica XML</resp>
+                    <name>Alice Borgna</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>digilibLT</publisher>
+                <pubPlace>Vercelli</pubPlace>
+                <date>2012</date>
+                <availability>
+                    <p>
+                        <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
+                    </p>
+                </availability>
+                <idno>dlt000318</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Iulius Severianus, Praecepta artis rhetoricae, a cura di A. L. Castelli
+                    Montanari, Bologna 1995</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+                <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+            </projectDesc>
+            <editorialDecl>
+               
+                <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+                <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+                    l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+                    e commenti e ogni altro contenuto redatto da editori moderni. </p>
+                <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+                    correttezza di trascrizione</p>
+                <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+                    distinzione u/v minuscole.</p>
+                <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+                <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+                    grassetto, corsivo, spaziatura espansa.</p>
+                <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+                    <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+                    <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+                    si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+                    [...]<lb/> lacuna integrata dagli editori:
+                    <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+                </p>
+                <p>Sono stati marcati i termini in lingua greca
+                    <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+                </p>
+                <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+                    target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+                    >Note di trascrizione e codifica di testi latini tardoantichi
+                    [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+            </editorialDecl>
+            
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latino</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="opus">
+            <head>
+                 PRAECEPTA ARTIS RHETORICAE SVMMATIM COLLECTA DE MVLTIS AC SYNTOMATA A IVLIO
+                    SEVERIANO 
+            </head>
+            <div type="cap" n="1">
+                <p> Forsitan me usurpatorem ardui operis atque inriti laboris, Desideri, fateare,
+                    quod hunc libellum ad te de arte dicendi scriptum miserim, cum possis advertere
+                    nihil me rhetorum praeceptis adiunxisse, sed quae in ipsis sparsim legeram, in
+                    quasdam sermonis angustias coartasse. Denique si haec quisquam digna existimet
+                    quae in manus sumat, reperiet ea me de veteribus perstrinxisse, quibus cotidie
+                    ad forensem campum adulescentia inbuta proludit. Quorum si nota vis est,
+                    silvescentium videlicet praeceptorum, videri certe possum plura his ademisse
+                    quam addidisse: namque veteres ita nobis dicendi praecepta reliquerunt, ut etiam
+                    sui nominis sempiternam memoriam propagarent. Ego, non ullius famae cupidus, sed
+                    immensi laboris molestiam considerans, certos tibi ad compendium gymnasii
+                    forensis tramites constitui, quos ad memoriam reparandam facili lectione
+                    percurreres. Adverti praeterea - videro quid ceteri sentiant - obesse dicentibus
+                    rhetoricae artis nimiam disciplinam. Memento tamen non ante tibi haec esse
+                    compendia relegenda quam ingenium tuum multa ac Tulliana arte
+                    subegeris.<lb/></p>
+            </div>
+            <div type="cap" n="2">
+                <p> Oratoriis artibus nemo instrui potest, nisi cui ingenium et frequens studium
+                    est. Primum animi sit oportet quaedam naturalis ad videndas ediscendasque res
+                    potentia: tum vox, latus, decor, valetudo, frugalitas, laboris patientia.
+                    Necessaria deinde orationum frequens lectio est, quae nos exemplo conformet,
+                    neque earum modo, sed et historiarum et carminum, ex quibus compositio dicendi
+                    non in totum trahenda est. Nam per lectiones sapientium praecepta noscuntur,
+                    sine quibus nihil subtile neque magnificum cogitari potest. Iuris vero civilis
+                    neque omittendum studium est nec penitus adpetendum; nam nec rudis esse debet
+                    orator, et si se multum iuris scientiae dederit, plurimum de cultu orationis
+                    adque impetu amittet. Huic et veteres oratores legendi sunt et praesentes
+                    audiendi. Super haec frequenter scribendum, agendum, declamandum est: his enim
+                    rebus oratori fiducia simul cum facundia comparatur.<lb/></p>
+            </div>
+            <div type="cap" n="3">
+                <p> In ceteris fere studiis verum quaeritur, finis autem oratoriae virtutis est
+                    verisimilia dixisse vel tantum contendisse, quantum res passa sit ad victoriam.
+                    Proxime quaerendum est quo genere orationis uti debeat orator: Atticorumne nobis
+                    sequenda sit dictio, qui breves adstrictique et acres sunt, pure inter res ipsas
+                    aculeosque versantes quique adfectum ex occulto petunt, an imitanda nobis sit
+                    Asianorum licentia, qui vagi ac fusi rapere potius adfectibus quam
+                    disputationibus persuadere didicerunt: sit tamen Romanus orator Asiatico
+                    pressior Attico copiosior. Ego vero ipsum oratorem eligere arbitror et probare
+                    genus orationis, quo magis capi suum iudicem senserit. Aliter apud eum, quem
+                    latior delectabit oratio, aliter apud eum, quem adstrictior, aliter apud
+                    superiorem, aliter apud vacuum, aliter apud districtum: nec sic in privatis
+                    causis, ubi semper iudices festinant, quem ad modum in publicis, nec sic in
+                    accusationibus, ut in patrociniis. Maxima itaque ars erit semper circumspicere
+                    quid personae, quid loco, quid tempori conveniat.</p>
+            </div>
+            <lb/>
+            <div type="cap" n="4">
+                <p>
+                    <lb/>
+                    <hi rend="bold"> DE DISPONENDIS CRIMINIBVS </hi>
+                </p>
+                <lb/>
+                <p> Quidam a maximis criminibus ad levissima gradum faciunt, aut a levissimis ad
+                    maxima: nos primum existimamus actorem quasi membra quaedam facere debere, ut
+                    separet quae ad libidinem, quae ad avaritiam, quae ad crudelitatem aliudve quod
+                    ad noxae genus pertinet: aut si non genera criminum, tempora tamen discernat,
+                    prima quae puta ante militiam facta sunt, quae in militia, quae post militiam.
+                    Aut seiungat ea quae ad privatas causas, deinde ea quae ad publicas pertinebunt
+                    aliudve simile, ut Cicero, qui crimina Verris et in tempora et in genera
+                    divisit. Nam primus liber continet quae ante siciliensem praeturam commissa
+                    sunt, quattuor insequentes ea quae in praetura siciliensi: tum in his ipsis
+                    secundus ad privatorum furta pertinet, tertius frumentariam rationem, quartus
+                    sacrilegia, quintus maiestatis crimina comprehendit. Deinde inter ipsa unius
+                    generis crimina in primo magna ponito: quae minima sunt, in medium congerantur;
+                    quae maxima, ultimis partibus reservabis, ut de Gavi crimine, quod a Cicerone in
+                    ultimam panem dilatum est. Ita iudicis animus et occupabitur et validissima
+                    maxime memoriae mandabit. Hinc est quod Cicero pro Scauro reprehendit adversarii
+                    confusam criminationem; ait enim: «et quoniam congesta fuit accusatio magis
+                    acervo quodam criminum, non distinctione aliqua generum et varietate».</p>
+            </div>
+            <lb/>
+            <div type="cap" n="5">
+                <p>
+                    <lb/>
+                    <hi rend="bold"> DE PRINCIPIIS </hi>
+                </p>
+                <lb/>
+                <p> De principiis nihil putavi dicendum, quando quidem ad ea, quae arte scrutanda
+                    sunt, natura duce saepius pervenitur.<lb/></p>
+            </div>
+            <div type="cap" n="6">
+                <p>
+                    <lb/>
+                    <hi rend="bold"> DE NARRATIONIBVS </hi>
+                </p>
+                <lb/>
+                <p> Narrationis certum est tres esse virtutes: ut dilucida sit, ut brevis, ut
+                    verisimilis. Dilucida fit, si apud nescientem narres: in qua intueberis initium,
+                    medium et finem, ita ut ipsa narratio ordinem suum habeat; facile enim
+                    percipitur, ubi quod sequitur ex priore pendet. Interdum aliqua suo loco
+                    memoriae nostrae non occurrisse fingemus. Brevis fit, si circumcisis quibusdam
+                    superfluis sola quae necessaria sunt posueris; quaecumque enim tibi mediocriter
+                    prosunt, argumentis vel disputationibus reservabis. Verisimilis ideo, ut
+                    credatur, ut corporis robustissimi fuisse eum, a quo duos tresve occisos videri
+                    volueris: adicere etiam occasionem, quae perficiendae rei fuerit, ut dicas
+                    dormientis oppressos. Personas vero nominibus, quibus notissimae sunt,
+                    nuncupabis: si hoc parum est, etiam aliquas notas adicies, ut 'Scipio
+                    Africanus', ut 'Hannibal Poenus', et similia. Numquam narrationem nisi perfectam
+                    reliqueris. Sed ubi iudicem minus intellexisse perspexeris, numquam ei
+                    tarditatem ingenii obieceris, sed in te culpam retorque, quod parum dixeris. Vbi
+                    longior narratio est, quo sit dilucida magis admonere iudicem debes quid
+                    exposueris vel quid expositurus sis, ut: 'Dixi de me: dicam de adversario'.
+                    Neque alienum est, ubi longior fuerit expositio vel narratio, extreman ita
+                    finire, ut admoneas quaecumque dixeris. Verba autem narrationis ex media
+                    consuetudine esse debent; simplex sermo et sibi vicina compositio. In
+                    expositionibus plus mora nocet; neque loquentis personas narrationibus inseras.
+                    Minuitur praeterea offensa longioris narrationis, si te praetermittere aliqua
+                    simulaveris. In aliquibus post quaestiones ponenda narratio est, in aliquibus in
+                    ultimo; nam pro natura causarum narratio variatur, nec semper debet orator
+                    veterum se praeceptis addicere, sed scire debet incidere novam materiam, quae
+                    novi aliquid postulet.<lb/></p>
+            </div>
+            <div type="cap" n="7">
+                <p> Narrari pro eo non expedit, qui omnia quae ab accusatore dicuntur tantum modo
+                    negat nec ibi se fuisse. Talis causa Sullae fuit negantis sibi quidquam cum
+                    Catilina convenisse contra rem publicam. Tales fere sunt ambitus causae et
+                    repetundarum, in quibus unum rei patrocinium est, nullas se dedisse vel
+                    accepisse pecunias. Supervacua narratio est, ubi nota res est de qua ambigitur,
+                    ut nihil stultius sit, quam si apud scientes narres. Alterum genus est, in quo
+                    utrique aeque supervacua narratio est: ubi quod facit quaestionem abunde
+                    propositione indagari potest, etiam si ignotum est. Nec aliquam narrationem a
+                    Cicerone admissam putemus nisi pro natura causarum: edebat enim non solum
+                    patrocinia causarum, sed et exempla dicendi. Evenit ut ante sit respondendum,
+                    quam sit ponenda narratio, ut pro Milone. Incidunt causae, in quibus quod summam
+                    habet quaestionis, magna ex parte tractandum sit, et sic sit ponenda narratio,
+                    ut pro Vareno vel pro Habito. In narrationibus res exponimus, probamus
+                    argumentatione. Narratio insinuatio est totius causae, quem ad modum facta est:
+                    expositio vero, quae non de causa nascitur, ut 'est honesto genere natus,
+                    splendide magistratum gessit', non potest videri narratio, sed expositio
+                    alicuius rei, quae causam adiuvat nec dat quaestioni materiam, sed pro argumento
+                    ponitur vel inter argumenta.</p>
+            </div>
+            <lb/>
+            <div type="cap" n="8">
+                <p>
+                    <lb/>
+                    <hi rend="bold"> DE DISPONENDIS ARGVMENTIS </hi>
+                </p>
+                <lb/>
+                <p> Litigatores quidem instruunt argumentis advocatos, artis patronorum est, ut haec
+                    disponant, figurent, ordinent, augeant, ut his adfectus intermisceant. In primis
+                    videto quae ex iis sint valentia, vel quae infirmiora sint argumenta. Nam quae
+                    erunt valentia, longiore oratione non prosequemur, ne aut dubitare de his
+                    videamur, aut plura dicendo ponamus aliquid, adversum quod disputari possit.
+                    Namque in argumentis infirmioribus versatur oratorius labor, qualia sunt:
+                    'Occidisti hominem; cruentam enim vestem habuisti'. Haec veri similia sunt, non
+                    utique vera; quae variis sunt adtollenda rationibus quo tractatu fiant potentia.
+                    Praeterea in potestate sua habere debet orator, ut et causam maximam breviter
+                    peroret et parvulam diu extendat: sed cum breviter dicendum erit, argumenta
+                    tantum ponet sine ullis ornamentis; cum autem diu dicere volet, omne argumentum
+                    ornatius exequetur.<lb/></p>
+            </div>
+            <div type="cap" n="9">
+                <p> Cum plura erunt argumenta, a validis incipies, in validiora desines, medium
+                    imbecillioribus replebis: ut puta, validum argumentum est 'inimicus', mediocre
+                    'ebrius', validissimum est 'in rixa hominem occidit'. Si unum validum argumentum
+                    est et unum frivolum, a valido incipies, frivolum prosequeris, rursum validum
+                    repetes. Argumentatio illa melior et fidelior videri potest, quae obscuratur.
+                    Cum aliquibus partibus causa laborat, utilius ordinem quaestionum confundimus,
+                    quas ex toto tractare non expedit. Scias numquam confitenda esse quae nocent,
+                    interdum non neganda, quod Cicero pro Milone secutus videri potest. Nam
+                    interfectum ab eo Clodium neque negavit neque fassus est: non negavit, quia sic
+                    defendit tamquam occidisset: fassus non est, quia inscio illo dixit a servis
+                    occisum, cum hi dominum interemptum arbitrarentur. Praeterea utilius existimo,
+                    disputationem in speciem paucarum rerum et firmarum convertere easque undique
+                    adstruere et exaggerare, potiusque est plures res in unam cogere quam unam in
+                    plures dividere. In omni materia quaerendum puto, quid sit quod maxime nos
+                    foveat aut urgeat: illuc enim vires suas conferre debet orator, ut quod maxime
+                    nos premit frangat. Sed ut omne genus causae quiddam contra nos recipit
+                    valentissimum, sic pro nobis omnis causa aliquid valentius habere
+                    debet.<lb/></p>
+            </div>
+            <div type="cap" n="10">
+                <p>
+                    <lb/>
+                    <hi rend="bold"> DE PROPOSITIONE ADVERSARII </hi>
+                </p>
+                <lb/>
+                <p> Responsurus autem adversario primum id, quod ille posuerit, verbis infirmioribus
+                    pronuntiato: quae vero incredibilia visa fuerint aut inbecilla, ita universa
+                    ponentur, sicuti ab adversario dicta sunt, ut est illud: «Bostarem igitur
+                    quendam dixit Norensem fugientem e Sardinia Scauri adventum», et infra addit
+                    etiam augendi criminis causa, «prius illum sepultum quam huic cenam esse
+                    sublatam». Evenit ut propositionem adversarii verbis nostris ultra fidem
+                    extollentes incredibilem faciamus; item propositioni adversarii, si natura sui
+                    incredibilis fuerit, cum quodam impetu animi ac ridicula admiratione
+                    respondebimus, ut illud est: «Septingenta milia passuum biduo cursa sunt», et
+                    respondet: «o rem incredibilem, o cupiditatem inconsideratam, o nuntium
+                    volucrem! » et infra: «Roma trans Alpes biduo veniunt. O hominem fortunatum, qui
+                    eius modi nuntios seu potius pegasos habeat!» Proposito eo, quod adversarius
+                    dixerit, respondebimus duobus modis: aut non esse id, aut non ideo nos vinci
+                    debere.<lb/></p>
+            </div>
+            <div type="cap" n="11">
+                <p> Propositis quibus responsuri sumus, quaerendum nobis erit an inter se comparata
+                    repugnantia sint, ut suis armis conruant, ut Cicero de Antonio: «Avunculum suum
+                    sceleratum esse fatebatur: poena adfectum quaerebatur». Item pro Caelio: «Cur
+                    aut tam familiaris fuisti, ut aurum commodares? aut tam inimica, ut venenum
+                    timeres?». Similiter pro Gallio, ubi accusator reo pecunias obiecit; ibi enim
+                    dum singula inter se comparat, alterum altero Tullius diluit. Item utilissimum
+                    erit docere, quod adversarius dixerit, etiam pro nobis esse, ut pro Milone
+                    Cicero, quod lex promulgata de quaestione fuisset, quam pro se esse contendit.
+                    Argumentis vero omnibus adversarii respondere non est necessarium: finem enim
+                    non habebit oratio, et satis erit propositionibus repugnasse. His sane
+                    argumentis respondendum erit, quibus erunt iudices commoti: sin vero adversarium
+                    suis argumentis confutare nequiveris, aliis rationibus quod posuerit convellito.
+                    De vitiis argumentorum, quae adversarii male posuerint, plene a Tullio
+                    insinuatum est.<lb/></p>
+            </div>
+            <div type="cap" n="12">
+                <p>
+                    <lb/>
+                    <hi rend="bold"> DE STATIBVS </hi>
+                </p>
+                <lb/>
+                <p> Status tres sunt. Vbi, quod a te factum obicitur, negas, coniectura est: ubi,
+                    quod a te factum, fateris, sed negas eam vim nominis habere, quam adversarius
+                    criminatur, finis est: at si neque de facto neque de nomine ambigitur, sed iure
+                    factum contendis, qualitas nominatur.<lb/>
+                </p>
+            </div>
+            <div type="cap" n="13">
+                <p>
+                    <lb/>
+                    <hi rend="bold"> DE CONIECTVRA </hi>
+                </p>
+                <lb/>
+                <p> In coniecturalibus causis hinc argumenta sumuntur: a personis, causis,
+                    facultatibus, verisimilibus, signis. Signum causam aut antecedit aut in eadem
+                    est aut sequitur. Item proferuntur auditiones, suspiciones, spolia, quaestiones,
+                    indices, fama vel opiniones et multa similia, quae rerum varietas subministrat.
+                    A persona, ut Cicero pro Cluentio: «Cum esset», inquit, «egens, sumptuosus,
+                    audax, callidus, perfidiosus, ad omnem malitiam et fraudem versare mentem suam
+                    coepit». A causa «Satisne igitur cernitis, quibus ille mercedibus, quibus
+                    emolumentis, quibus praemiis incitatus» et cetera. A facultatibus, ut Tullius:
+                    «Servos agrestes et barbaros, quibus silvas publicas depopulatus erat, ex
+                    Appennino deduxerat», et reliqua. A verisimili: «Quid? Quod caput est audaciae,
+                    iudices, quis ignorat maximam inlecebram esse peccandi impunitatis spem?» et
+                    reliqua.<lb/></p>
+            </div>
+            <div type="cap" n="14">
+                <p> A signis, quae causam antecedunt, instrumentum, iter et similia. Simul sunt, ut
+                    in pugna clamor et similia; sequuntur, ut in veneficio livor et tumor, in caede
+                    vulnus et sanguis. Auditiones, ut Tullius: «Vos ex M. Favonio audistis Clodium
+                    sibi dixisse, et audistis vivo Clodio periturum Milonem: post diem tertium gesta
+                    res est, quam dixerat. Cum ille non dubitarit aperire, quid cogitaret, vos
+                    potestis dubitare, quid fecerit?». Suspiciones, ut pro Scauro: «Quae quidem
+                    suspicio valuit etiam ob hanc causam, quod cum agerent parentalia Norenses», et
+                    reliqua. Spolia, ut est illud: «Ille deus deorum spoliis ornare noluit; hic
+                    ornamenta Minervae virginis in meretriciam domum transtulit», et reliqua.
+                    Quaestiones, ut est: «Cum igitur de furto quaereretur et de eo furto, quod ille
+                    sine controversia fecerat, cum ille de eo, quod quaerebatur, verbum nullum
+                    fecisset de veneno statim dixit», et reliqua. Indices, ut est: «Venit index ad
+                    Dineam matrem neque obscurus neque incertus». Fama vel opinio, ut Cicero:
+                    «Opinio fuit duplex, una non abhorrens ab statu naturaque rerum» et reliqua.
+                    Argumentorum omnium enumerationem advertite studiosam videri, quando quidem in
+                    his plus ingenii vis dominetur arsque ipsa magis ab natura profecta dicatur. Sed
+                    nec quisquam existimet argumentis numerum praefinitum, si quidem tanta esse
+                    possunt, quanta orator intento acriter ingenio reperire valuerit. Non tamen omne
+                    genus causarum omnia argumenta habet. Nam quid opus est illic de causa
+                    disputare, ubi non apparet, aut de persona adversarii aliquid dicere, cum
+                    integra sit?<lb/><lb/></p>
+            </div>
+            <div type="cap" n="15">
+                <p>
+                    <lb/>
+                    <hi rend="bold"> DE FINE </hi>
+                </p>
+                <lb/>
+                <p> In finitivo statu quaeritur an sit, puta imminuta maiestas. Nam primus locus
+                    accusatoris est, cum de vi nominis quaeritur, ut sit generalis eius definitio
+                    brevis et aperta et ex opinione hominum ducta, hoc modo: «Maiestatem minuere est
+                    de dignitate aut potestate populi Romani aliquid derogare». Quae definitio ut
+                    vera probetur, multis argumentis aut rebus vel exemplis similibus confirmabitur:
+                    post speciatim factum eius qui accusabitur describendo subiunge ut id quod reum
+                    fecisse arguis, simile sit ad id quod supra definieris. Ergo generalis definitio
+                    erit: «maiestatem minuere est de dignitate aut potestate populi Romani aliquid
+                    derogare». Species criminis erit ostendere, quid adversarius specialiter fecerit
+                    vel dixerit, ut probetur maiestas imminuta: post loco communi confirmare, per
+                    quem facti atrocitas cum indignatione augetur.<lb/></p>
+            </div>
+            <div type="cap" n="16">
+                <p> Defensoris autem locus est, adversarii definitionem prius infirmare si falsa ex
+                    opinione hominum aut inutilis monstrabitur: post suam definitionem, ac si veram,
+                    ponere, quae multa argumentatione et exemplis similibus confirmabitur: deinde
+                    suscepti factum ab ipsa definitione dissimile esse ostendere, post locum
+                    communem subicere, per quem indignabimur accusatorem non res solum, sed et verba
+                    in periculum innocentis convertere. Sic Cicero pro Quinctio adversarii
+                    definitionem ex opinione hominum reprehendit: «Si qui unum aliquem fundum quavis
+                    ratione possideat, ipsum autem dominum patiatur cetera praedia tenere, is»
+                    inquit «ut opinor, praedium, non bona videatur alterius possidere». Et ponit
+                    definitionem suam: «Quid est» inquit «possidere? Nimirum in possessione esse
+                    earum rerum, quae possunt eo tempore possideri». Probat Naevium non bona, sed
+                    praedium possedisse: «Cum domus erat» inquit «Romae, servi, in ipsa Gallia
+                    privata Publi Quincti praedia, quae numquam ausus es possidere»; et colligit
+                    «quod si bona Publi Quincti possideres, possidere omnia eo iure deberes». At si
+                    factum adversarii tuto definire nequiveris et verborum tuorum laqueos infirmari
+                    posse conspexeris, rem ipsam tamquam indignam iudici demonstrabis. <lb/>
+                    <hi rend="bold"> DE QVALITATE </hi><lb/> In qualitate per coniecturam quaeritur quale sit, hoc
+                    est, utrum iure factum sit an iniuria.<lb/><lb/></p>
+            </div>
+            <div type="cap" n="17">
+                <p>
+                    <lb/>
+                    <hi rend="bold"> DE AFFECTIBVS </hi>
+                </p>
+                <lb/>
+                <p> Raro affectus narrationibus interponuntur, quia non nisi gravium causarum sunt
+                    sed ubi inseri possunt, magnum pondus rebus accomodant. Cum vero aliquem
+                    affectum, hoc est aut invidiam aut misericordiam vel quid simile commovemus,
+                    formam vel speciem narrationis excedere non debemus, sed affectus qui in
+                    narratione latebit, eadem explicita reddendus erit atque exsequendus. Evenit ut
+                    sit narratio, quae inter se locos communes patiatur quos etiam affectus vocamus:
+                    qui non erunt in ultimum, hoc est post narrationem differendi, sed haec narratio
+                    gravissimi criminis erit, in qua cum se primum affectus obtulerint, statim
+                    interponendi sunt. Neque enim possunt simul omnes post narrationem reddi, ut
+                    est: «Praedonum dux Heracleo repente praeter spem classem pulcherrimam populi
+                    Romani, cum primum invesperasceret, inflammari incendique iussit». Ac mox
+                    interponit affectum «o tempus miserum atque acerbum provinciae Siciliae! O casum
+                    illum multis innocentibus calamitosum!» Ad narrationem redit: «Adfertur» inquit
+                    «nocte intempesta gravis huiusce mali nuntius Syracusas». Rursum, dum narrat,
+                    excedit: «quo neque Atheniensium» inquit «gloriosissimae classes, cum mari
+                    plurimum poterant», et reliqua. Rursum ad narrationem redit «eone» inquit
+                    «pirata penetravit? Quo simulatque adisset, non modo a latere, sed et a tergo
+                    magnam partem urbis relinquebat». Rursum excedit: «Siculosne milites, aratorumne
+                    liberos, quorum patres tantum labore suo frumenti exararant, ut populo Romano
+                    totique Italiae sufficeret?» et item aliter excedit: «O spectaculum miserum
+                    atque acerbum! Ludibrio esse urbis gloriam!» Ad narrationem redit: «Posteaquam e
+                    portu» inquit «piratae non metu aliquo adfecti, sed satietate exierunt» et
+                    reliqua.<lb/></p>
+            </div>
+            <div type="cap" n="18">
+                <p> Plerique nuda argumenta posuerunt, affectus vero perorationibus, hoc est
+                    epilogis reservarunt. Scire autem nos debemus, affectus, qui ex quaestionibus
+                    nascuntur, statim ut propositioni responsuri sumus, esse reddendos: alibi enim
+                    quam ubi nati sunt, interponi vel augeri non possunt, ut est: «Ad vadimonium non
+                    venit Quinctius» et statim interponit affectum, antequam quaestioni respondeat:
+                    «Si res ista» inquit «gravissima sua sponte videretur, tamen necessitudinis
+                    nomine levaretur» et reliqua talia sunt. Affectus autem, qui de omni causa
+                    nascuntur, perorationibus reservabuntur. Omnis paene argumentatio moralem
+                    disputationem recipit, sed non omnis affectum. Moralis argumentatio de natura
+                    hominum vel morum consuetudine ducitur, ut Cicero: «Hic ego dubitem in eam
+                    disputationem ingredi, quae ducatur ex natura hominum atque omnium sensibus?» et
+                    omnia quae secuntur. Ergo sicut argumentatio illa melior erit, quae moralis
+                    fuerit, sic perorationes affectu fiunt meliores. Cicero sane per omnem orationem
+                    affectum inserit. Nam odio Clodii iudices turbat, eversurum fuisse rem publicam,
+                    sed prius Milone, qui obstabat, occiso.<lb/></p>
+            </div>
+            <div type="cap" n="19">
+                <p> Affectus namque hi sunt: ira, odium, misericordia, livor, metus, spes. Odium
+                    sine ira ex ante actae vitae facinoribus colligitur, quorum commemoratio ad hoc
+                    fit in iudicio, non ut exinde nasci causa videatur, sed ut odiosa vita hominis
+                    comprobetur, ut Cicero, qui flagitia Clodii superioris vitae retexuit. «Cuius
+                    nefandum» inquit «adulterium in pulvinaribus sanctissimae feminae
+                    comprehenderunt, eum, cuius supplicio senatus sollemnes religiones expiandas
+                    saepe censuit, eum, quem cum sorore germana nefandum stuprum fecisse» et quae
+                    secuntur. Iram cum odio, cum multa crimina congerimus, ut Cicero: «non furem,
+                    sed ereptorem, non adulterum, sed expugnatorem pudicitiae» et reliqua, quod in
+                    principiis saepius inritatur. Misericordiam movemus, si ab iis nos inpugnari
+                    dicimus, quorum auxilio tuti esse deberemus, ut Cicero pro Oppio; vel cum
+                    alicuius calamitates commemoramus, cum magnitudinem periculi ostendimus, sicuti
+                    pro Cornelio Cicero. Livorem autem simul cum odio, ut Calvus in Vatinium, cum
+                    dicit: «Hominem nostrae civitatis audacissimum, de factione divitem, sordidum,
+                    maledicum accuso». Nam et divitiae de factione quaesitae interpositae sunt, ut
+                    his iudices inviderent. Metum facere Cicero temptat in Verrem, cum ait: «Quis
+                    hoc non perspicit, praeclare nobiscum actum iri, si populus Romanus istius unius
+                    supplicio contentus fuerit?» et quae secuntur: «Non est» inquit «in hoc peccandi
+                    locus, iudices» confirmat enim aliis iudicibus damnatum iri Verrem et senatum
+                    iudicandi potestatem amissurum. Ad spem redit in eodem loco: «Adduxi enim
+                    hominem, in quo reconciliare existimationem iudiciorum amissam, redire in
+                    gratiam cum populo Romano, satis facere exteris nationibus possetis: de quo si
+                    vere ac religiose iudicaveritis, auctoritas ea, quae in vobis remanere debet,
+                    haerebit».<lb/></p>
+            </div>
+            <div type="cap" n="20">
+                <p> Contra dicenda erunt, ne specie miserationis, ne ira deducantur a fide aut de
+                    odio, ut Cicero pro Caelio, cum dicit: «In quoddam odium sit iniustum vocatus»,
+                    vel de livore agere tamquam apud malevolos, de timore loqui tamquam apud
+                    timidos, de spe, cum vana spe sollecitare iudices velint. Affectus sibi
+                    aliquotiens vicini sunt, ut, cum misericordia movetur, statim et odium
+                    concitatur; aut ubi utrumque non est, alterum tamen commovetur; aut livor
+                    excitatur, si tamen appareat, aut spe animus iudicis sollicitabitur: qui tamen
+                    affectus certam sedem non habent; nam per totam orationem spargendi sunt. Cicero
+                    misericordiam movet, cum dicit: «Patres, hi, quos videtis, iacebant in limine,
+                    matresque miserae pernoctabant ad ostium carceris». Ad iram redit, dum subicit:
+                    «Aderat ianitor carceris, carnifex praetoris, mors terrorque sociorum». Item ad
+                    misericordiam redit: «Non vitam liberum, sed mortis celeritatem pretio redimere
+                    cogebantur parentes». Rursum odium movet: «Laetaris tu in omnium gemitu et
+                    triumphas». Metum quoque miscet: «quo confugient socii?». Affectus tunc maiorem
+                    gratiam habent, si ex iis moveantur, quae iam probata sunt.<lb/></p>
+            </div>
+            <div type="cap" n="21">
+                <p> Affectus ex his trahitur: a re, a persona, a causa, a loco, a tempore, a signis,
+                    a facultatibus, a toto ad partes, a partibus ad totum, a contrario, a minori ad
+                    maius, a maiori ad minus, a simili, et a barbaris gentibus et a bestiis et
+                    inanimalibus: ducitur et de ceteris locis, unde et argumenta sumuntur. Nec te
+                    moveat, quod hinc et argumenta duci supra rettulerim, si quidem de illa omni
+                    circumstantia, unde ad convincendum reum argumenta sumuntur, inde etiam,
+                    postquam crimen probaveris, affectus commoventur. Ante omnia illud considerandum
+                    est, ut cum aliqua res natura sui gravis fuerit, ipsa tantum sola invidiam
+                    moveamus, ne aliquas rationes alias adferendo res, quae per se gravis est, dubia
+                    videatur, quae nonnumquam sola repetitione augetur, ut illud est: 'Matrem tuam
+                        <supplied>matrem, inquam, tuam</supplied> cecidisti'. A re peto affectum,
+                    cum irascendum dico ei, qui hominem occidit. A persona dum queror magistratum
+                    esse iugulatum. A causa, dum officio in rem publicam fungitur. A loco, cum dico
+                    'in foro'. A tempore, cum dico 'luce, palam'. A signis, ut Cicero: «Te praetore
+                    Siculi milites palmarum stirpibus, piratae Siculo frumento alebantur». A toto ad
+                    partes invidia facta est: «Rem publicam universam petis» et ad partes descendit
+                    «templa deorum immortalium, tecta urbis, vitam omnium civium, Italiam totam ad
+                    exitium et vastitatem vocas». A parte ad totum, ut, ubi unus puta civis laesus,
+                    tota res publica laesa dicatur, ut est: «Non tu hoc loco Gavium, non unum
+                    hominem nescio quem, sed communem libertatem in crucem egisti». A facultatibus:
+                    «Cleomenes huius libidini nec adversari poterat nec audebat; erat enim praetor
+                    qui maximam haberet potestatem»: inde Tullius traxit invidiam. A contrario
+                    Cicero misericordiam movet, cum dicit: «Fortis et animosos et se acriter ipsos
+                    morti offerentes servari cupimus, eorumque nos magis miseret, qui nostram
+                    misericordiam non requirunt». Item a contrario: 'Si qui deos colunt laudantur,
+                    sacrilegi puniendi sunt'. A pari: 'qui parentes contemnit, et deos neglegit'. A
+                    consequenti: 'qui semel deliquit, semper maiora conatur?' A repugnanti, ut
+                    Cicero de Antonio: «Avunculum suum sceleratum esse fatebatur: poena adfectum
+                    querebatur». A minori ad maius: «Servi, mehercule, mei si me isto pacto
+                    metuerent, quo te metuunt omnes cives tui, domum meam relinquendam putarem: tu
+                    tibi urbem non arbitraris?». A maiore ad minus: «Quo neque Atheniensium
+                    gloriosissimae classes, cum mari plurimum poterant, bellis saepe conatae umquam
+                    aspirare potuerunt, eone te praetore pirata penetravit?». A simili: «Eryphilam
+                    accepimus in fabulis ea cupiditate, ut cum vidisset monile, ut opinor, ex auro
+                    et gemmis, pulchritudine eius incensa salutem viri proderet: similis est» inquit
+                    «istius cupiditas». A barbaris gentibus: «Si tu apud Persas aut in extrema India
+                    deprehensus, Verres, ad supplicium ducerere, quid aliud clamares nisi te civem
+                    esse Romanum? Et tibi ignoto apud ignotos, apud barbaros in extremis atque
+                    ultimis gentibus positos», et reliqua. Item a bestiis et inanimalibus, ut
+                    Cicero: «denique si non ad homines, verum ad bestias, aut etiam, ut longius
+                    progrediar, si in aliqua desertissima solitudine ad saxa et ad scopulos haec
+                    conqueri ac deplorare vellem, tamen omnia muta atque inanimalia tanta et tam
+                    indigna rerum acerbitate moverentur».<lb/></p>
+            </div>
+            <div type="cap" n="22">
+                <p> Affectus hactenus crescunt, ut cum eum qui sit caesus, occisum, qui sit
+                    improbus, latronem nominemus. Si extollendum aliquid fuerit, ampliora verba
+                    ponenda sunt cum ipsis nominibus: ut Cicero: «Non furem, sed ereptorem, non
+                    adulterum, sed expugnatorem pudicitiae, non sacrilegum, sed hostem sacrorum
+                    religionumque, non sicarium, sed crudelissimum carnificem civium sociorumque in
+                    vestrum iudicium adduximus». Item crescit affectus, ut, cum unum crimen sit,
+                    sententiae aut verba unum significantia acervo quodam congeruntur, ut est: «Quid
+                    enim tuus ille, Tubero, destrictus in acie Pharsalica gladius agebat? Cuius
+                    latus mucro ille petebat? Qui sensus erat armorum tuorum? Quae tua mens, oculi,
+                    manus, ardor animi? Quid cupiebas? Quid optabas?». Ergo alibi congeries multorum
+                    criminum enumeratio est, hic unius verbis facta multiplicatio. Similiter:
+                    «Aderat ianitor carceris, carnifex praetoris, mors terrorque sociorum et civium
+                    Romanorum, lictor Sextius».<lb/></p>
+            </div>
+            <div type="cap" n="23">
+                <p> Affectus tanto plus valet, quanto verbis firmioribus extollitur: in argumentis
+                    enim enucleata diligentia,in affectibus grandiloquium quaeritur. Sunt etiam alii
+                    loci communes, qui magis ad causam ex periculi magnitudine, non ex causae genere
+                    ducuntur: qui tamen non per totam causam, sed in omne genus causae incidunt.
+                    Cito tamen principiis aptantur, ut misericordiam captent, cum aut adversariorum
+                    calumnias, factiones, solitudinem suscepti vel cetera eius infortunia memoramus,
+                    ut pro Vareno: «amici deficiunt, cognati deserunt» et reliqua: aut accusatorum
+                    calumniam prodimus, ut in eodem loco: «in inimicissima civitate urgent, istant,
+                    insecuntur, studio, multitudine, pecunia, periurio pugnant». Contra species
+                    minuendi haec est, ut eum qui pulsavit, attigisse, qui vulneravit, laesisse
+                    dicamus, ut Cicero: «vulnus, quod acu punctum inflictum videretur»; item «uxores
+                    suas a cena redeuntes adtrectatas esse». Namque affectus nisi vim animi habeat,
+                    nullus est, nec proderit inventus, ut Cicero de eodem, ut dolere, ut flere, ut
+                    ardere videamur.<lb/><lb/></p>
+            </div>
+            <div type="cap" n="24">
+                <p>
+                    <lb/>
+                    <hi rend="bold"> DE EPILOGIS </hi>
+                </p>
+                <lb/>
+                <p> Epilogos de omni causa rapies, et maxime quae misericordiam movere posse
+                    conspexeris: qui tamen erunt breves nec diu prosequendi: nam lacrimis comparati
+                    sunt, quibus nihil citius arescit. Scire autem debes in omnibus fere officiis
+                    caput esse artis, decere quod facias. Horum praeterea natura praeceptorum est,
+                    ut etiam obesse videantur, si mediocriter nota sint: quae tunc infinitum
+                    proderunt, si in animo frequenti usu sculpta permanserint. </p>
+            </div>
+            </div>
+        </body>
+    </text>
+
+</TEI>

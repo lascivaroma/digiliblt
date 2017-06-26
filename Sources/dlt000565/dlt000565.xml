@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Vita Vergilii</title>
+    <author>Seruius</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Chiara Miglietta</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2015</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000565</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Vitae Vergilianae antiquae</hi>, recc. G. Brugnoli et F. Stok, Romae 1997, 143-157.</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+   
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+  
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div>
+    <p>In exponendis auctoribus haec consideranda sunt: poetae uita, titulus operis, qualitas carminis, scribentis intentio, numerus librorum, ordo librorum, explanatio. Vergilii haec uita est. Patre Vergilio matre Magia fuit. Ciuis Mantuanus, quae ciuitas est Venetiae. Diuersis in locis operam litteris dedit; nam et Cremonae et Mediolani et Neapoli studuit. Adeo autem uerecundissimus fuit, ut ex moribus cognomen acciperet; nam dictus est Parthenias, omni uita probatus. Vno tantum morbo laborabat; nam inpatiens libidinis fuit. Primum ab hoc distichon factum est in Ballistam latronem:</p>
+    <lg><l>Monte sub hoc lapidum tegitur Ballista sepultus:</l>
+     <l>nocte die tutum carpe uiator iter.</l></lg>
+    <p>Scripsit etiam septem sine octo libros hos: Cirin Aetnam Culicem Priapeia Catalepton Epigrammata Copam Diras. Postea ortis bellis ciuilibus inter Antonium et Augustum, Augustus uictor Cremonensium agros, quia pro Antonio senserant, dedit militibus suis, qui cum non sufficerent, his addidit agros Mantuanos, sublatos non propter ciuium culpam, sed propter uicinitatem Cremonensium, unde ipse in Bucolicis:</p>
+    <l>Mantua uae miserae nimium uicina Cremonae.</l>
+    <p>Amissis ergo agris Romam uenit et usus patrocinio Pollionis et Maecenatis solus agrum, quem amiserat, meruit.</p>
+    <p>Tunc ei proposuit Pollio ut carmen bucolicum scriberet, quod eum constat triennio scripsisse et emendasse. Item proposuit Maecenas Georgica, quae scripsit emendauitque septem annis. Postea ab Augusto Aeneidem propositam scripsit annis undecim, sed nec emendauit nec edidit, unde eam moriens praecepit incendi. Augustus uero, ne tantum opus periret, Tuccam et Varium hac lege iussit emendare, ut superflua demerent, nihil adderent tamen, unde et semiplenos eius inuenimus uersiculos, ut 'hic cursus fuit' et aliquos detractos, ut in principio; nam ab 'armis ' non coepit, sed sic:</p>
+    <lg><l>Ille ego, qui quondam gracili modulatus auena</l>
+     <l>carmen, et egressus siluis uicina coegi, </l>
+     <l>ut quamuis auido parerent arua colono, </l>
+     <l>gratum opus agricolis, at nunc horrentia Martis</l>
+     <l>arma uirumque cano</l></lg>
+     <p>et in secundo hos uersus constat esse detractos:</p>
+     <lg><l>aut ignibus aegra dedere. </l>
+      <l>Iamque adeo super unus eram, cum limina Vestae</l>
+      <l>seruantem et tacitam secreta in sede latentem</l>
+      <l>Tyndarida aspicio; dant clara incendia lucem</l>
+      <l>erranti passimque oculos per cuncta ferenti. </l>
+      <l>Illa sibi infestos euersa ob Pergama Teucros</l>
+      <l>et Danaum poenam et deserti coniugis iras</l>
+      <l>praemetuens, Troiae et patriae communis Erinys, </l>
+      <l>abdiderat sese atque aris inuisa sedebat. </l>
+      <l>Exarsere ignes animo; subit ira cadentem</l>
+      <l>ulcisci patriam et sceleratas sumere poenas. </l>
+      <l>'scilicet haec Spartam incolumis patriasque Mycenas</l>
+      <l>aspiciet, partoque ibit regina triumpho, </l>
+      <l>coniugiumque domumque patres natosque uidebit, </l>
+      <l>Iliadum turba et Phrygiis comitata ministris ? </l>
+      <l>Occiderit ferro Priamus? Troia arserit igni? </l>
+      <l>Dardanium totiens sudarit sanguine litus? </l>
+      <l>Non ita. Namque etsi nullum memorabile nomen</l>
+      <l>feminea in poena est, habet haec uictoria laudem. </l>
+      <l>Extinxisse nefas tamen et sumpsisse merentis</l>
+      <l>laudabor poenas, animumque explesse iuuabit</l>
+      <l><unclear/> ultricis famam et cineres satiasse meorum '. </l>
+      <l>Talia iactabam et furiata mente ferebar, </l>
+      <l>cum mihi se non ante <del>alias</del></l></lg>
+     <p><del>Periit autem Tarenti in Apuliae ciuitate. Nam dum Metapontum cupit uidere, ualetudinem ex solis ardore contraxit. Sepultus est autem Neapoli, in cuius tumulo ab ipso compositum est disticon tale:</del></p>
+     <lg><l><del>Mantua me genuit, Calabri rapuere, tenet nunc</del></l>
+      <l><del>Parthenope. Cecini pascua, rura duces</del></l></lg>
+   </div>
+   
+  </body>
+ </text>
+
+</TEI>

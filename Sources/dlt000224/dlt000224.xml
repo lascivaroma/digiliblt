@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>De aetatibus mundi et hominis</title>
+    <author>Fulgentius (Fabius Planciades Fulgentius)</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Beatrice Strona</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2015</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000224</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Fabii Planciadis Fulgentii V. C. Opera; Accedunt Fabii Claudii Gordiani
+      Fulgentii V. C. De aetatibus mundi et hominis et S. Fulgentii episcopi super Thebaiden</hi>,
+     recensuit Rudulfus Helm, addenda adiecit Jean Preaux. Ed. stereotypa ed. anni 1898, Stutgardiae
+     1970 (Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana).</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div type="pr" n="pr">
+    <milestone unit="page" n="p. 129 Helm"/>
+    <p> Oportuit quidem, uirorum excellentior, hoc nostro quo nuper regimur temporis cursu perenni
+     potius studere silentio et non dicendi studio, praesertim ubi nihil plus nisi de nummi quaestu
+     res uertitur et conquirendi lucri perennis sollicitudo cotidie mentibus suppuretur; cupido
+     etenim sensui non sermo dicentis comptior, sed offerentis est dulcior. In his non lugentum
+     luctus intenditur, non miserorum gemitus condoletur, sed solius colligendae pecuniae commodo
+     pernox compotus ducitur; cupidae enim menti fit et uox humilis. Et crede, teste Deo nostro
+     confiteor, uolui tuum in his opusculis praeceptum spernere, nisi hoc meo indixissem ingenio,
+     tuo nullo modo inobediens inueniri imperio. Esto ergo contentus huic oneri, quod tibi
+     florulentis Pieridum decerpsimus hortulis et sicut Euristeus mihi inponendo sudori Herculeo
+     praefuisti. Sic quoque nostris opusculis intentus quaesumus incubes lector, ut, si — quod
+     minime puto — iniunctum opus tuo non displicuerit legendum iudicio, poeticum felix gessi
+     negotium, sin uero obscuro stultitiae nubilo tenebrescit inconditus sermo, in silentii cinerem
+     sepultae migrentur necesse est tot lucernae peruigiles et sine effectu honoris <milestone
+      unit="page" n="p. 130 Helm"/> productae usque in crepusculum noctes. Ergo decuit, mi domine,
+     cuius propter hoc nostrum ordiri libellum uideor uel quo inpellente opus durissimum subire
+     cognoscor, in hoc excellenti superboque negotio, ubi ingenii potius exerceri debuit celsitudo,
+     elementorum ut peruides ordini non seruire, quo mirifici operis dispositio decorum non fugisset
+     eloquium; dum enim mens litteris fugiendis studet, minus idoneum opus efficiet; sudor quippe
+     est estuosi spiritus, ubi quidquid decorum inueneris ponere non licebit, dum illic litterae
+     quae fugiuntur inpegerint; de tuo enim conice mentis ingenio, utrumne, dum inter illud quod
+     queris id quod non uis inueneris, quibus ingenii estibus suffoceris. Ergo semel indicto
+     seruiens ex inpositione negotio melius duco minus compte dicere et ex rei praesumptae ordine
+     nullo modo dissilire. Quaeso ergo te, domine, ut non rusticiter me sensisse diiudices, dum
+     sublime non profertur eloquium; est enim in nobis copiosum dictionis enormeque fluentum, quod
+     nostrum opus mirifice pingeret, si huius propositae rei impeditio non obesset. Dixisti enina
+     legisse te librorum bisduodenum uolumen Xenofontis poetae in singulis libris singulis litteris
+     diminutis, quod quidem opus mirificum cuncti qui interfuimus iuste praetulimus; sed illic forte
+     nec nominum ordo interfuit cum suis litteris subducendus, et penes Grecos licet in litteris
+     uertere, ubi quilibet necessitudinis constringitur forcipe, ut e in i et o in u, quod penes
+     Libicos inuenitur inlicitum. Quid ergo ego in primi hominis nomine eiusque coniugis uel duorum
+     filiorum perpessus sum quoue sudore usque in internicione constrictus, <milestone unit="page"
+      n="p. 131 Helm"/> ut, quos ordo scripturae dicendos exigeret, illorum nominibus uti penitus
+     non liceret. Sed dicetur mihi: mirum opus non esset, si districtio huius rei quaerendae non
+     intercideret. Ergo praetermissis libelli principiis rerum nobis exhinc sumendus est tenor.
+     Viginti igitur et duobus elementis penes Hebreos ordo loquendi disponitur, uno itidem
+     superiecto nostrae linguae profusio, sed et Rom<supplied>an</supplied>ae colligitur; sin uero
+     tertiae sequentem litterae superieceris signum, Grecae linguae necesse est integrum ut
+     monstretur effectum. Ergo ex quo in his operibus Grecum praecessit ingenium, oportet deinceps
+     nostrae linguae medium ordinem consequi, quo non bis duodeno uel bis undeno, sed Grecis uno
+     elemento subducto et Hebreis uno superinposito unicus ordo Libico monstretur in numero. His
+     ergo uiginti et tribus elementorum figuris, in quibus uniuersus loquendi cursus colligitur,
+     mundi ipsius hominisque discretis temporibus ordines coaequemus necesse est. In id enim, et
+     homo quod crescit et mundus quod uiuit et numerus elementorum quod colligitur, inuenitur in
+     nostro libro rerum omnium concors digestio; ut, dum unitos continentiae nodulos in ordinem rei
+     digestos inspexeris, inuenies et plenissime conscriptos hominum mores et mundi dilucidos
+     ordines et in litteris cursus sibi similiter congruentes et, quod his omnibus excellentius
+     emireris, in singulis libris singulis litteris rite subductis, dum primus primum, secundus
+     secundum, sic usque postremus <milestone unit="page" n="p. 132 Helm"/> postremum liber sibi
+     diminuendo perdiderit elementum. Congtringitur enim noster dicendi sermo huius interdictionis
+     forcipe domitus, cui quidem solertissime seruiendum est, ne in id, quod fugiendum proposuimus,
+     incurrisse quolibet modo legentium iudicio denotemur. Igitur si secundum Grecorum elementorum
+     ductus loquendique morem, ubi ex primae figurae sigillo usque in postremum <foreign
+      xml:lang="grc">ω</foreign> sibi DCCC numeri colliguntur, nostrae scolae uolueris conferre
+     primordium et Romuleis Libicisque litteris orientis iungendum duxeris conputum, nullo modo sibi
+     similes coire poterunt ordines; neque enim k et h Greco concordes sunt; episemon quoque et cuf
+     quod Grecus pro numeris interposuit, Romulidum ordo non inuenit. Ergo occurrunt in nostris
+     litteris, si secundum illos numeres usque in postremum z, D, quo duodecies quingenteni mundi
+     uiuentis indicent tempus; sin uero duodecies duodeni, uitae hominis necesse est monstretur
+     excursus; item dum duodecies uiginti tres collexeris, nouem mensium et sex dierum repperies
+     numerum, certissimum ex utero hominis procedentis egressum, ut unde generis primordium sumitur,
+     illinc quoque mortis ordo signetur. Ergo sicut in homine uiginti et tribus lustris mores
+     ordinesque uertuntur et uiginti tribus elementis totius sermonis ordo colligitur, sic quoque et
+     in mundo XX et tres temporum disponendi sunt motus, quo singulis quibusque, ut dictum est,
+     libris et singulorum litterae obseruentur et mores uitaeque hominum picturentur et mundi ipsius
+     res gestae lucidius demonstrentur.</p>
+    <p><milestone unit="page" n="p. 133 Helm"/></p>
+   </div>
+
+   <div type="lib" n="I">
+    <p>Primum igitur mundi tempus sumendum est ex primo homine infelicissimo precepti dominici
+     contemtore et ex eius coniuge uiri simplicis seductrice, in quibus et serpens inuidus
+     utrorumque deceptor ostenditur et mulier mortis primordium miseris successoribus repperitur.
+     Quid etenim profuit uel serpenti quod non solus periit uel homini quod inlicitum comedit uel
+     mulieri quod sibi uirum consentientem effecit, nisi ut in omnibus iusti iudicii Dei ultio
+     processisset; neque enim excellentissimus ille rerum omnium conditor mortis muscipulum in
+     fructu prohibito indidit, sed deliciose ut homo uiueret ex dinoscentie eum ligno deterruit.
+     Cerne enim quod et serpentis deceptio sub spe diuini honoris inmittitur et mulier perpetue uite
+     promissione compellitur et uir lenocinio dulcoris in comestionem pomi gulosus inpellitur. Ergo
+     ueternosus ille priuignus letitie qui primum penes genitores leno pomorum esse promeruit, ipse
+     in filiis inuidie leno esse didicit seniorem homicidio perimens, iuniorem occidendo disperdens.
+     O nihil tutum seprentis ingenio, ut homo qui principium uite extitit ipse mortis elogium fieret
+     posteris et mulier uiuentium genetrix interitus sue existeret prolis. Ve mundo, ue hominibus,
+     quorum initium mors, quorum finis iudicium. Quid enim profuit homini uite cursus, cui finiturum
+     decretum est tempus? Omne enim quod perenne non contigit esse — quod uiuit? Defle ergo, queso
+     te, homo, quod uiuis; uentosum enim est quod extolleris; non enim diuitie morientem secuntur
+     nec honores corporibus prosunt: nudus qui mundum ingreditur, nudus mundo egreditur. Sit solo
+     inuisibili deo perennis honor in seculo, qui horret excelsum, erigit deiectum et hominum semper
+      <milestone unit="page" n="p. 134 Helm"/> destruens in nihilum deducit consilium; sed uere
+     iustus, uere pius; quid enim mundi presumtio uel efficeret uel conmitteret, si ei perenniter
+     uiuere contigisset? Sed nunc perscrutemur quid sibi hoc mundi principium cum hominis ex utero
+     prodientis concordet effectum. Illic nouellum primi uteri germen zeli toxico innocentem inuidus
+     uterinum insequitur, hic puer puero dum iniungitur, licet innocuum, sed genuini zeli ostendit
+     effectum. Discit primus homo uolucrum pecudumque differentes edicere nominum sonos, discit
+     innocens licet inconpositos proferre dulciter modulos. Ergo primum mundi tempus usque in Enoch
+     finire decretum est diuine potentie uirtute euocitum. Quo quidem et hoc innocentibus conpetit;
+     nihil enim Deus super innocentum purissimum diligit sensum.</p>
+   </div>
+
+   <div type="lib" n="II">
+    <p>Nunc quatenus in primo opere in quo quidem arta legis catena damnati et plenam loquendi
+     facultatem amisimus et sententiarum declamationumque pompismata tenaci forcipe suggillati
+     perdidimus, in quo mihi nec Adam nominare aliquatenus licuit nec eius coniugem disparesque
+     germanos, unum zeli toxico de fratricidii crimine saucium, alium innocentium martyrem
+     primicerium, designare fas <milestone unit="page" n="p. 135 Helm"/> fuit — nunc itaque secunda
+     mundi aetas inquiritur, quae ex Enoch felici translatione et paradisi incola conquisito — in
+     quo mors, licet omnia mundi genimina rapaci hiatu possederit, solius tamen praesentia fraudata
+     discessit — usque in gigantei cataclysmi rugientes undas et ultrices scelerum expromtatas
+     caelitus guttas perducamus necesse est. Illic Noë salutaris arcae felici carceratus custodia
+     praeteriti heres translatus saeculi, qui etiam conditor factus est et futuri, propitio securus
+     iactatur naufragio. Hic quidem sancte agendo promeruit pereunti mundo fugere, nascenti regnare.
+     Quanto satius fuerat, Deus meus, mundum iterum rudem construere et Noë licet iustum quocumque
+     mortis exitu terminare, praesertim quia numquam Deo suppetit in opere fatigatio nec desudat ut
+     quiddam perficiat, sed imperando mandat ut fiat, dum tamen non enatasset usque in alterum
+     saeculum Adae peccantis transgressionale plantarium et mundi rudis infantia nulla praeteriti
+     temporis macularetur ex causa. Sed eris tuae ordinationis tu solus conscius testis, cui licet
+     et iusta omnia facere et secreta iudicia ordinare. Quid ergo hoc in tempore mundi aetas
+     gesserit, edicamus.</p>
+    <p>Primum igitur angelica extorris caelo nequitia luxuriae calore torrefacta succenditur et
+     contra naturae foedera humano amplexui commiscetur. Fit partus inparili glutinatus ex coitu et
+     contra naturae foedera gigantea moles enormi admodum porrigitur statu; accipit ex materno
+     semine humanae similitudinis formam, sumit ex paterno coitu extensae proceritatis miram
+     potentiam. Dehinc inter excrescentia haminum angelorumque peccata Noë solus <milestone
+      unit="page" n="p. 136 Helm"/> iustior coram Deo reppertus arcae pater eligitur, arca matre
+     seruatur, fit sui operis incola, fit serpentum collega, hospes praepetum, comes pecudum ac
+     ferarum; ludentes filios cum cerastas draconesque conspexit et adsidentes garruliter elefantis
+     neptes non timuit. Enatat futuri mundi seminalis entheca praeteritae nationis reliquias futuro
+     saeculo productura, circumlatrant undique mortiferae undae salutare negotium, quo cum primo
+     mundi interitu semen etiam perderent et futurum; sed iustorum securitas etiam pereunte saeculo
+     nescit quicquam timere sollicitum. Nunc ergo, sicut primae mundi aetati sociatum statum
+     ostendimus, dum ex Cain zeli toxicum concipit dumque ex eius germano lactis auxilium poscit,
+     quod quidem ille sacrificat, ille potat, — quid ergo in secunda aetate res parilis conpetat,
+     ostendamus. Sicut enim in pueris aetas insulsa erigitur, sic gigantea inconsiderata materies
+     tollitur; sicut his instinctura cataclismi praerogat scelus, ita pueris tinctura fontis diluit
+     facinus: illic aqua angelicae transgressionis fit ultio, hic aqua fit genuini peccati dilutio:
+     illic transgressor angelus concupiscit scelus, hic humanae concupiscentiae diluitur fructus:
+     illic peccantis mundi materies in uno germine transplantanda in alium saeculum aquis
+     purgatoriis enatat, hic unius Christi redemptione pugnantis rudis homo ecclesiae fontanis
+     renascitur sacramentis: illic ex mundo in arcam transilit ut cataclismum fugiat, hic ex inmundo
+     ad ecclesiae arcam confugit, ut catecizatus hostem effugiat. Ille feras serpentesque <milestone
+      unit="page" n="p. 137 Helm"/> innocuos arca concludit, iste leonum rugientia guttura
+     draconumque cristas elato turgore surgentes ecclesiasticae arcae monumento conteruit. Ille
+     legem accipit, ne comedat carnem in sanguine, iste legem suscipit, quo Christi carne saturetur
+     et sanguine. Illum circumlatrat unda quo suffocet mersum, istum sanctificat aqua quo reddat
+     purgatum. Cerne igitur omnia et ad liquidum consonantia et aequali
+     pro<supplied>pe</supplied>modum iugalitate constricta. Illic praepetes duae ex arcae muro in
+     legationis transmittuntur officium, quarum una oleae ramulo testificante regreditur et
+     mittentis imperio famulata aquarum pacem annuntians gratulatur, altera morticinarum carnium
+     comestione tardata lenante iniquo affectu, sicut nigra corpore, ita nigrior non redit mente.
+     Non aliter etiam in homine, mundo minore, repperies, dum catholicus ramo crismatis ex oleastro
+     ad fructiferam radicem insertus ecclesiam semper et cotidie rediturus memoriter retinet,
+     hereticus autem, pollutis captus nequitiae exsecramentis ecclesiae matris reditum non solum non
+     meminit, quantum etiam commonitus ex alio spernit. Felix ille ac multipliciter felix, siquidem
+     inmodesta suae plantationis potatio patriarchae non fuisset scandalum. Didicit merulentus
+     sanctitatem perdere, qua in medio undarum rugientium securior usus est adiutrice. Quid agimus,
+     humana fragilitas. Pugnat sanctissimus patriarca cum tumente pelago, <milestone unit="page"
+      n="p. 138 Helm"/> cum minante caelo, cum rugiente profundo, cum aestuante cataclismo, et
+     elementorum omnium uictor modico superatus turpiter prosternitur mero; aedificat arcam
+     sapienter tricameram, quo unda expugnatrix non repperiat rimam, et tamen madidus merulentia
+     nudata posteris monstrat turpiter iacendo pudenda. Sufficiat ergo hucusque, quantum res exigere
+     potuit, secundae aetatis mundi atque hominum concinentias enarrasse.</p>
+   </div>
+
+   <div type="lib" n="III">
+    <p>Ordo adsumpti exigit operis, quo tertia mundi aetas hominisque similiter de trilustrio
+     monstretur status seruato etiam tertiae litterae detrimento, ne non suo subripiens libro
+     adsumti operis ordinem uexet.</p>
+    <p>Qui quidem liber ex Babyloniae fundatione sumebit initium Ninique regis uel Sameramidis
+     reginae temporibus; turrem etiam famoso ambitu fundamine destinatam totiusque populi aeque
+     unitate atque linguae adunatione dispositam, quae tegulato latere et Puteolano puluere uel
+     bitumine eminentior surgit astrorum sublimitati propinquior et ipsam pene lunarem suis pulsans
+     angulis orbitam —ibi etenim dispersa uniuersaliter linguarum uarietas medium interemit operis
+     adsumpti negotium, ut, dum quis extruens quod uellet inquireret, aliud qui deorsum fuerat
+     obtulisset et, dum una esset adsumtio exurgentium, dispar fieret <milestone unit="page"
+      n="p. 139 Helm"/> intentio operantium. O inmensa atque inaestimabilis diuina sententia. O
+     profundi diuini sapientiae fontis. Vna uox, unus animus, unum etiam quod mortalitas adsumserat
+     opus, et tamen in id quod gaudebat humanitas pluralitatem se repperisse ad implendum quod
+     queperat, illud magis diuinitatis sapientia soluerat, qui uanos hominum impetus deridebat.
+     Oboritur itaque inter sensuales mentium quiniones grande diuortium, ut aliud uox, aliud
+     sensisset auditus. Exstitit lingua suae uoluntatis aduersa et quod loquendi sonus proruperat,
+     aliud auris uelutsi extranea reputabat. Fit in una eademque membrorum unitate diuisio; petit
+     lingua quod auditus nequaquam intellegit, dat auditus quod lingua omnimodis non petiit: et dum
+     inter se uterque arietat sensus, semiplenum desertum est opus. Eo etiam tempore Babyloniae muri
+     famosa opinione prosiliunt, quos Sameramis uanae laudis elata turgore fertur instaurasse. Nini
+     enim sui mariti post obitum antiqui operis fundamina in meliorem laborando perduxit statum,
+     quae quidem melius morum ordines pingeret quam murorum ambitus extendisset. Erat enim et suorum
+     adulterorum mortifera <supplied>et</supplied> morientium adultera; libidinis summa: filii etiam
+     in luxuriam feruens matris honore sepulto sibi nurus effecta est. Sed non <milestone
+      unit="page" n="p. 140 Helm"/> mirum ut, quem adulterio genuerat talique patre pepererat natum,
+     illum etiam sibi iungeret et maritum, ut, quem uuluae hiatu pariens gemendo produxerat, illius
+     etiam semina libidinis ardoribus uaporata ingluuie inguinum transuorabat. Ninus etiam uxoris
+     iniquitatibus non dissimilis et dignus pestilentis feminae matrimoniis primus etiam inuadens
+     limites proximorum primus regnandi in mundo sumsit exordium, primus Squitaram tranquilla et
+     serena quiete uiuentes inuadens terminos alieno uaporauit ferrum in sanguine. Ille humana
+     negotia pura mansuetudine peragentia aduersa bellorum strage turbauit. Quid ergo horum temporum
+     qualitas humano ordini similet, exquiramus. Quemadmodum mundo turris inmensitas in auras
+     erigitur, ita homini iuuenalis aetas elationibus subleuatur. Illis mirum opus linguarum
+     partitione destruitur, illo litterarum inbutamento stultitia terminatur; illis rudis loquella
+     adsumtionem eripuit, isto rudis littera sensum aperuit. Sameramis totius libidinis ardore
+     torretur, et pueritia luxuriae lampada inmoderatis augmentationibus uaporatur. Illis diuinitas
+     linguas uerborum uarietate distinxit, istis sapientia ad ingenium prudentiae subleuauit. Mundo
+     Babylonia instruitur regnandi primordium, homini sapientia tribuitur gubernationis ornamentum.
+     Ibi Sameramis regnat aduersa iustitiae, isto aetas inminet lena <milestone unit="page"
+      n="p. 141 Helm"/> luxuriae. Illa et libidinis amore torretur et sanguinis effusione polluitur,
+     at uero aetas aut amando aestuat aut litigio fermentata uaporat. Illa alienum rapax regnum
+     inuadit, iste externae aut uxoris aut filiae quaerit amplexum. Ibi murorum ambitus in
+     distentione admiranda porrigitur, isto iuuentutis status uirtute etiam roborante firmatur. Quid
+     igitur minus in huiusmodi similitudinibus aequiperabile forsan repperies? Sameramis flagitiorum
+     fit domina, aetas <del>ruinae fit filia,</del> ruinae fit famula. Ergo homo mundus minor, in
+     quo et natus ostenditur et similis repperitur; nil inter utrosque repperias forte distantiae.
+     Restat ergo ut quarta mundi aetas atque hominis digerenda monstretur, quae quidem Abrahae
+     similitudinem tempusque possideat.</p>
+   </div>
+
+   <div type="lib" n="IV">
+    <p>Abraham igitur primum germen iustitiae, in quo maiestatis ineffabile testimonium claruit, et
+     quasi iam noto obtemperantiam exhiberet, ita praeceptionis famulatum impleuit. Itaque iubetur
+     relinquere subitanter quae habuit et erraneus quaeritare quae non nouit, praesertim cui et
+     ignotus promiserat et incognitus imperabat. Probatur in remissione substantiae praecipiente
+     quem non norat, probatur in poena corporis circumcisione operante cuius <milestone unit="page"
+      n="p. 142 Helm"/> gratiam nesciebat, probatur in filii repetitione quem gratuita largitate non
+     supplicans promeruerat; et quia in his tribus temptationibus firmior inuenitur, primitiuus
+     gratiae pater scribitur. Largitur omnipotens filium et gratanter suscepit, repetit et libens
+     obtulit; nec in acceptione ingratus exstitit nec in retibitione sollicitus murmurauit. Non
+     omisit filium quia festinauit omittere, saluificat non sollicitus cruciare; meliora etiam
+     repperit non pauitans sua omittere. Iubetur igitur ex ignoto, festinat etiam imperii
+     praeceptione permotus patriam linquere, rem amittere, parentes respuere, profugus exulare. In
+     hoc tempore gestum aliut miraculum et narremus. Nonne huius aetatis cursu etiam Iob, ille
+     praecelsi atleta certaminis et sataelicae superator uirtutis, in quo nec iniquitas locum
+     repperit nec iustitia malum inuenit? In illo enim et tenebrarum princeps uictus erubuit et
+     bonitatis auctor coronam quia oportuit retribuit, non quia uoluit praerogauit. Exstitit enim
+     letus in filiorum morte, securus in omissione substantiae, patiens tolerator in uulnere,
+     locuplex mente in nobilitatis amissione, fortis in flagellato corpore. Plura ergo recipit, cum
+     non luget quae amisit; in his quia patienter amissa non gemuit securior pluriora suscepit; et
+     quamuis improperium coniugis sustineret incitamento peccati, tamen uictrix illa in omnibus
+     iustitia et tolerantia et muliebris inproperii fermenta contriuit et sataelicam <milestone
+      unit="page" n="p. 143 Helm"/> uirtutem pugnans obteruit et caeleste testimonium quia promeruit
+     meruit.</p>
+    <p>Tamen quae sibi similia in his humana natiuitas quaerit, et enixius pertractemus. Postquam
+     enim litteris mens inbuta quibuslibet ingeniis sensum in spem futurae cognitionis armauerit,
+     statim contemto genuinae stultitiae nubilo uelut illic terrae propriae habitaculo bonorum
+     actuum cupiet cogitare negotium, et ut illic Abrahae obtemperantia, ita hic spes bonitatis
+     inquiritur profutura. Posthaec carnis luxuriaeque in meretricibus absciso praeputio solum sui
+     coniugii expetit matrimonium nec iuuenales amplexus iactare cupiet in erratilem gratiam, ubi
+     amor amarus, fructus labilis et emticius semper ac uenalis affectus. Posthaec seminale
+     conmercium omnibus patribus generaliter gratum, qui sunt filii tamen caelesti affectu, plus
+     aput sapientem electo, incipiet esse postremum. Omnis enim sapiens et recte intellegens plus
+     opificis sui excellentiam ueneratur quam filiorum amore constringitur; anteponitur enim ille
+     omni affectui et qui nihil suorum uult amittere, illum amplius paratus sit obseruare, sicut
+     Salomon ait: ‘Initium sapientiae timor est maiestatis’. Igitur quam conueniens humanis moribus
+     omnis saeculorum excursus, nota; aput iuuenales animos sapientia concupitur, <del>nota</del>
+     aput Abraham caelestis repromissio <milestone unit="page" n="p. 144 Helm"/> expectatur; illic
+     caro gentilis praeputium accipit, hic aetas cum proficit circumcisionem malae uoluntatis
+     inuenit; illic filius pro amore sacro spernitur qui est seminis paterna suauitas, hic luxuriae
+     amor finitur quae est erroris grata malignitas.</p>
+   </div>
+
+   <div type="lib" n="V">
+    <p>Nunc nostris in manibus mundi ordo quintus obuoluitur, cui humana uita similis coaptatur. Hoc
+     igitur cursu iustorum hominum instituta monstrabimus, ubi primi duo unita partus fusura
+     probati, minor maioris subplantator crura subducit, ut aut primus in lucis iubar prosiliat aut
+     fratris uiuificos partus in auersum tardando concludat. Quid ultra? Monstrat nondum homo sui
+     cordis inuidiam; nam cui adhuc uita non fuit, liuoris toxicum non natus adsumsit. Numquidnam
+     diuina iustitia in matris uulua prior formatur inuidia quam figura? Aut quo liuor in loco
+     habitaculum accipit, ubi adhuc anima non fuit? Nascitur paruus qui nasci uoluit primus; optauit
+     primordia si possit uinci natura. O admirandum auctoris ac sacratum iudicium: oditur maior qui
+     nihil incurrit, amatur minor qui adhuc in uulua positus concipit. Nullus nascitur, unus
+     diligitur. Nulla fuit minoris iustitia, nulla maioris constitit culpa, cur diuinitatis dispar
+     sit gratia. An quia dicit apostolus: O homo, numquid tu dabis iudicium domino? Igitur paruum
+     fuit quod adhuc uulua inclusus odium monstrat, nisi ut <milestone unit="page" n="p. 145 Helm"/>
+     primatum fratris inuidus rapiat. Fatigato rubidam cocturam dum in muscipulum parat, commutat
+     prandium cum primatu subtilis ac lassatos in agro cursus non doluit fratris. Paruum hoc fuit
+     nisi ut alias amplius moliatur insidias. Oblato subtili prandio matris armatur consilio, fallit
+     tactum orbati, pilosi furans machinam corii subripit patri, donum abstulit callidus primitiui.
+     Sanctificatur in fructibus, consancitur suis fratribus primus, confirmatur inimicis omnibus
+     dominus. Quam igitur culpam innoxius habuit, qui nihil malignum suspicans patris prandium campo
+     uagabundus inquirit? Numquidnam oportuit matris astutia, fratris captura innocua circumscribi
+     simplicitas? Nam ut agnosco non fratri inuidit, non patri subripit, non prandium postulanti
+     distraxit, non inordinatos primatus optauit. Additur quia dum armatus fratri iam coniugato
+     occurrit, scandalum aliquod non arripuit, osculum primus pacificum obtulit, iniurias oblitus
+     omisit, illum cum coniugibus ac filiis traicit. Quam in his omnibus diuinitati culpam incurrit?
+     Aut cur non tam munificus placuit? Sit igitur sui consilii sacra illa diuinitas conscia, quam
+     humana non possit conspicari natura. Vidit igitur in spiritu dominus quod humanus numquam
+     inspicit oculus. Quid dicam Liam sororis inuidam ac pulchrioris thoro subpositam lippam, dum
+     maior minoris inuadit sponsum, noctis opitulato suffragio sororium fallax corripit thorum, ac
+     sic matutino sponsus conprobato muscipulo duplato matrimonium conparat famulatio. Paruum hoc
+     fuit nisi quod mandragorio malo nocturnum liuida nundinatur concubitum. <milestone unit="page"
+      n="p. 146 Helm"/> Aut quid pluribus: duarum coniugum litigantium scandalo duplas matronarum
+     rixa porrigit concubinas, quarum partus cum naturalibus filiis socius adoptatur. Quanto liuoris
+     toxico humana constringitur captiua natura; ut soror sorori dum parat inuidiam, ancillam sibi
+     sociam maluit quam matronam.</p>
+    <p>Quomodo igitur hic mundi ordo hominis similitudo sit, conquiramus. Numquidnam non propria in
+     his ordinibus mundi imago monstratur, dum in Lia matronalis inuidia, dum in pulchra casualis
+     fortuna, dum in Iacob liuor fratrum, dum in maiori quoddam fortuitum; in Iob passionum indicia
+     ac futura corona, in Iacob communis hominum uita, dum concubinarum amori non parcitur, dum
+     uxoris uoluptatibus famulatur. Nota igitur quod in mundo unus pulchro sortitur coniugio, alius
+     horridiori damnatur consortio; illic filiorum gratia diuino tribuitur aliquando solatio. Subito
+     iustum malis damnatum conspicimus, subito impium bonis <del>diuitiis</del> ampliatum notamus;
+     aliquando infimior in altum porrigitur, aliquando sublimis post tumidas pompas prostratus ab
+     omnibus conculcatur. Sit solo domino laus, incommutabili bono; nam humanitas non nouit unito
+     sortiri proposito.</p>
+   </div>
+
+   <div type="lib" n="VI">
+    <p>Pone nunc sextam mundi aetatem libri delimationibus terminandam, quae et diuinitatis
+     testimonio declaratur et humanitatis plenitudine pingitur. In hoc enim temporis scemate
+     Christus noster apparere dignatus est monstrans <milestone unit="page" n="p. 147 Helm"/> in
+     utraque substantia integram plenitudinem uirtute corporis et sapientia animi, ut, uere dei
+     uirtus et sapientia, Christus sit homo plenissimus. In hac ergo aetate et Aegyptiaca cruciatio
+     et Moiseica contritio, sed etiam legislatio declaratur. Primum itaque Israhelitica seruitus
+     duro laterum ergastulo cruciatur et negatis iniunctae mercennalis operae paleis ad quaeritandam
+     stipulam castigante praeposito dei populus spargitur. Damnantur in mortis sententiam semina
+     masculina; sed ecce in papirea cistula per crepidinem aluei salus enatabat Hebraici
+     supplementi, donec regis nata uagientis paruuli murmure trahitur et uenustate pulchritudinis
+     Moiseicae dulcorata moriturum excipit adoptiuum statimque scirpeo protractum paruulum calato
+     matri contradit nutriendum. O diuinitatis ordo secretus; sciebatne regina quod interitus patris
+     ac patriae in hac cistula delitesceret aut mater nouerat quod salus Hebraica aluei margine
+     uagiens heiularet? Sed ecce innocentiae transactis crepundiis et pueritiae iam maturatis
+     crepusculis iuuenilis uaporatur alacritas. Denique primum Israheliticae libertatis indicium
+     Aegiptico monstrat concitus homicidio, quem calce percussum ac sabulo obrutum inciuilis
+     iniuriae ultione mactauit hoc primum gustum propinans Hebreis de interitu populi persequentis.
+     Exhinc alienas timore exulatus adpetit regiones, pastorale mercimonium sustinet Madianiticus
+     aduena, cuius imperiis seruitura <milestone unit="page" n="p. 148 Helm"/> dependerant elementa.
+     Igitur postquam Deus et Aegiptiacam iniquitatem maturam inspexit et Hebraicos labores maturos
+     agnouit, accedebat his Moisi probata iustitia diuinae gratiae praemiis muneranda. Extemplo
+     Sinai montis caligantibus nebulis aestuans uapor et tonitruali mugitu rugientia cauernosi
+     montis arcana pauidos diuinitatis testabantur aduentus; ignis quoque hilaro remigamine
+     coruscantior crispatis anhelo uibramine ligulis uirentes rubi ramulos innocua cursilitate
+     lambebat et diuinis gressibus uernularem praebens obsequium cum herbis ludibundus innoxiis
+     praelambitionibus crispabatur. Posthaec diuinae quoque uocis sacra dulcedo medium admirandi
+     candoris silentium scindens enituit, — si quidem uox illa dici poterit, cui sola diuinitas
+     testis est quae emisit et Moisi beatus auditus qui meruit — dicens: ‘Duros populi mei ex
+     operationis ergastulo gemitus intellexi et aquaticae mortis exilio praedamnatos masculorum
+     partus intendi; ob quam rem elegi te Egipticum perditorem, Israheliticum ducem, elementorum
+     imperatorem, magorum dominum, plagarum magistrum, maris etiam et scissorem et dominum’. Itaque
+     descendit Aegyptiaci interitus deus qui Aegyptiaci criminis migrauerat reus. Praebent obsequium
+     elementa unius hominis imperio seruitura; uirga etiam adest in obsequium ducis, in qua omnis
+     substantia pependerat dominantis; primum enim et in draconem commutata migrauit et magicos
+     potentata dracones absorbuit, discit lignum contra naturam animatum inrepere, discit ligni
+     materies animatas bestias transuorare. Desudat natura esse quod non erat, dum tamen Moyses
+     ostenderet quod <milestone unit="page" n="p. 149 Helm"/> iubebat. Vnda Niliaca rubratur in
+     sanguine, pluuiales guttae durantur in lapide, terrae puluis ulceratur in uulnere, animatur
+     limus in ranis, cinis caligatur in nebulis, uentus crassescit in cynomiis ac locustis, perdit
+     apud Aegiptios sua iura lux perenni in nocte damnata; migratur ab Hebreis nox triduano exilio
+     religata. Illic tenebrae nec lucem admiserunt nec ipsae decesserunt, hic lux captiua perenniter
+     praestitit et sua iura nocti non tribuit. Momentaneo etiam noctis interitu primitiua
+     interimuntur Egyptica et agni sanguine inlita Iudaica tuta sunt limina. Et quid multis opus
+     est: tandem ille princeps Israeliticum sitiens sanguinem rubriacis debriatus potionibus tumuit
+     et aquaticae mortis innocentibus auctor marino coopertus uelamento dormiit. Posthaec nubes in
+     ducatu praemittitur, mannae ros matutinum conpluitur, imber carneus contra naturam pinnigero
+     guttarum stillamento dilabitur. Quae tua clemens bonitas, Deus meus; si pluuialis stilla
+     decideret: quando terra madidata conciperet, quando seges solis uaporatu candesceret, quando
+     calamus maturitatem ceream excepisset; et ne haec esurienti tarditatem quampiam procurasset,
+     esca parata dilabitur, mannae sapor, prout uoluntas exigerat, temperatur. Non opus est tritura
+     molendi, non uaporatio disquoquendi: esca parata et caelitus missa, sola prandentibus mora aut
+     uoluntas erat aut mensa; discit etiam uolucris pluuia non ut liquida poculis deseruire, sed
+     dentibus mandenda succedere. Exaratur digito petra legalibus titulis mancipata.</p>
+    <p><milestone unit="page" n="p. 150 Helm"/> Sed haec omnia humani similitudinem non carent
+     ordinis; quippe dum iam aetate plenissima matrurum hominum genus Aegyptiacae aetatis tenebras
+     caruerit et primitiua peccata agni sanguine considerato necauerit, rubri maris aestu salsique
+     animi tumore transacto dulcis sapientiae manna depascitur et legalibus praeceptis inbutus
+     columna scientiae lucido ducatu praebente uiam uitae securam ingreditur et promissionum terram
+     laborum dispendiis desideranter optatur. Igitur post Moysen eremi ducem et Aegyptiacum
+     percussorem, dum nobis diuinus timor legis cognitione claruerit, statim a Iesu bono duce
+     suscipimur, a quo etiam repromissae beatitudinis terram inducimur.</p>
+   </div>
+
+   <div type="lib" n="VII">
+    <p>Tricesimus humanae uitae annus obuoluitur librorum nostrorum uolumine disponendus, in quo
+     quidem rationalia uitae instituta monstranda sunt fluctuantis aetatis ebullitionibus defecata,
+     illum huic mundi conferens tempus, ubi iudicum dominatui dependebat Hebraicus populus. Ibi
+     etenim Annae conceptionalis uiscerum carceratus perenniter torpor partificum perdiderat
+     mercimonium, et sterilitatis neruo catenata natura bonae fecunditatis exul<del>t</del>at
+     fermentum, quod et marcidulis coeuntibus uulua folliculis seminum liquores despueret et
+     pulchritudo sterilitatis fuscata nebulo maritalem adfectum in odium uerteret. Instabat etiam ex
+     aduerso sororis aemula creando fecunditas <milestone unit="page" n="p. 151 Helm"/> et
+     frequentibus conceptrix tumida puerperiis animum tormentabat adflictae consortis; sed ecce
+     diuina clementia tristitiarum medelatrix interuenit et adflictorum salutare antidotum Deus non
+     cessat adesse propitius. Accipit namque sterilis unam de sacrificiis partem et triplarum
+     portiuncularum munere cumulatam infremuit maestificata sororem, et quamuis maritali animata
+     solatio, inerat tamen ulcerulenta cicatrix zelotipo toxicata cauterio. Posthaec quantum doloris
+     acredo dicitauerat, sacrario templi prostrata internis fletibus ac secreto cordis aestuantis
+     affectu caelestis portae assulam tacita clamositate pulsabat. Sed ecce ille indormitabilis
+     medicus, cui non uocis admonitio, sed secretorum debetur inspectio, auris secreta admirabiliter
+     pura, quam non instruit uerbale commercium, quam non latet secretale silentium, penes quem
+     taciturnitas clamoso personat strepitu et conscientia quantumque obscura sit nescit celare
+     secretum, adest sterilitatis aridae fecundator, oculorum lacrimantium desiccator, desideriorum
+     concessor, dans uotum optantium et humilitates subleuans infirmorum. Ecce enim inter tam sacra
+     admirandaque conmercia mulieris petentis et domini concedentis, dum dolens quae desiderat
+     quaerit et dominus desiderata concedit, sacerdos interuenit et inconsideratione praepropera
+     merorem mentis merulentiam credidit mulieris; sed dum scisset quod potandi non erat culpa, sed
+     plorandi fuerat poena, exoptator etiam ipse causae iam factus est inpetratae et quia deus per
+     se loqui noluit, sacerdotis ore quod promiserat confirmauit. Itaque Annae uiceribus incubans
+     uernacula olim sterilitas forinsecus pellitur et fertilitas uuluae domicilium ubi numquam
+     interfuit habitare iubetur. Discit mater esse quod <milestone unit="page" n="p. 152 Helm"/> non
+     nouit, et fecunditas cum sterilem nouum conmercium nundinauit. O fletus concipiens et oratio
+     pariens obsecratione flebili maritante: in templo filium concipit, quod in lecto maritum
+     amplexibus coiens non inuenit. Apparet itaque nihil esse de naturae munere praesumendum, ubi
+     diuinitatis cessat auxilium. Sed ecce qualem supplicantibus dare oportuit dominum prolem, talem
+     natiuitas contulit Samuelem; ex templo petitus, de templo conceptus, templo etiam traditur
+     seruiturus; placet Deo moribus, cui ante placuerat nasciturus. Iam enim sacerdos displicebat in
+     filiis et male parcendo suboli non pepercerat sibi; omnis enim qui frequenter indulserit multas
+     culpas adquirit et qui particulae ruenti non suffulcierit, totum quod sanum est secum trahit. O
+     diuina secreta admirandaque iudicia, quae quantum clementia contribulationes dum commodat, non
+     habet modum, tantum dum peccatorum incursu succenditur, percussionis non est remedium; quippe
+     duorum errantium culpa nec arcae testamenti parcitur nec milium innocentum interitus
+     temperatur. Tantane duorum hominum exundauerant scelera, quo et sacra sanctorum
+     contaminationibus incircumcisorum polluenda perducerent et populorum nihil tale peccantium
+     copiositas innumeranda succumberet? Sed diuinitas, sicut in mundi opere laboris non fuit
+     incapandam uniuersitatem efficere, ita nulla detrimenti cura est unius culpae intercidente
+     incursu mundi partem absumere; neque enim ut sibi utilem bonum quaerit aut
+      <supplied>ut</supplied> suis utilitatibus aduersam malitiam punit; <milestone unit="page"
+      n="p. 153 Helm"/> sed utique quaerit bonos pro se, punit malos pro se; nam abest ut euidenti
+     rerum manifestatione consideres, potens est in <supplied><gap/></supplied> malorum finem
+     secundae mortis punitione damnare et bonorum inmerentem exitum perpetuae uitae commoditate
+     ditare. Denique cerne quod quamuis testamentalem arcam ipse captiuitate damnauerit, ultionem
+     tamen nequaquam in contaminatoribus temperauit. Inicit podicibus tumentia uulnera, ulcera
+     putredinis uirulentia toxicata. Redibetur cum praemio facinus et uictoria aduersariis leta
+     poenale fit scelus. Carent tormentaliter heiulantes quod laeti inuaserant triumfantes et illud
+     quod putabatur corona uictoriae, tormentalis ultio facta est poenae; quaerit remedium, quo iure
+     quod uicerat careat, et tormentum putat, si possideat quod praedarat. Dat dotem suo damno
+     uitulas cum uehiculo, format ex auro et poenam et locum et suae uictoriae cruciatu staurat
+     interitum. Redit arca pereuntibus aduersariis quae perierat cadentibus suis. Qualis in Deo ira
+     quae nec sibi pepercit, qualis uictoria quae nonnullo ante triumphans de hostibus redit. Cerne
+     itaque secretum Dei iudicium; hic puerilis adfectatur infantia, illic senilis damnatur
+     socordia; hic e somno Heli elicitus nuntius praemandatur et sacerdos promittitur, ille accepto
+     nuntio exanimis ex cathedra propellitur et eius posteritas perenni sacerdotio repulsatur. Huius
+     itaque uniuersos temporis ordines sequi ualde prolixum est. Quid enim memorem tam flexuosam
+     rerum obuolutarum historiam, <milestone unit="page" n="p. 154 Helm"/> ubi excipit Samson
+     inuincibilem criniti muneris palmam, dum leone fortior, ferro durior, solus etiam milleno hoste
+     superior Dalilae superatus mollescit amplexu. Quos non uirtutum muros libido prosternat, quae
+     Nazareo et diuini muneris comam abscidit et priuatum lumine tenebris exulauit et quibus ante
+     timor fuerat ludibrium reddidit. Omitto et Manue filium diuini nuntii enuntiatione conlatum,
+     quem mater non petitum suscipit, pater obseruandum ad monitus expauit, Israel subitum
+     defensorem promeruit, Filisteus etiam interfectorem inuenit. Prosternuntur trecentis milia
+     milium, et discit belli uictoria urceo triumphare, non ferro.</p>
+    <p>Quid uero haec omnia humanae uitae conpetat statui, demonstremus. Nonne in tricesimo quinto
+     humanae aetatis anno res uertitur? Filiis laboratur; ut nunc quosdam in laetitia parentum natos
+     ut Samuhelem inuenies, nunc etiam ut Ophni et Finees non solum in patris quantum etiam in
+     filiorum detrimento repperies. Ad uero matrimonii ordines — quantas sterilitas damnat et forma
+     conmendat, alias ornat fecunditas, maculat foeditas. In omnibus laudanda est diuina temperies,
+     quod et tristitiae ex parte praebet solatium ne plus consumat et superbiae modum temperat ne
+     plus adsumat.</p>
+   </div>
+
+   <div type="lib" n="VIII">
+    <p>Praeteritus liber iudicum instituta moresque digressus sequentis libelli ordinem peperit, in
+     quo regnorum status cursusque principum gradatim a nobis disponatur necesse est; illic namque
+     solita callositatis duritia coturnata Iudea asperatas in proteruitatem ceruices erigit et Deum
+     prouocare <milestone unit="page" n="p. 155 Helm"/> in suis malis operibus non desciscit; nam
+     Samuelem adgressa regem sibi postulat adibendum et ab illis umanus quaeritur principatus,
+     quibus turpe fuerat ut illis rex fieret Deus. Ergo postquam Samuel sacratus antistes Deo
+     popularem perduxit adfectum — licet nulla sit internuntii indigentia qui abstrusa nouit rimari
+     secreta, tamen ordo exigerat ut sacerdotem Deus instrueret, quo populi adfectum aut sperneret
+     aut impleret. Sed ecce paternorum iumentorum inquisitor oberrans asinas quaerit et regnum
+     inuenit et cui Israelitica fuerat summa uirtutis, pecus quaerendo uilissimum etiam ipse fuerat
+     uilis. Quanto aliud melius praeparabat diuinitas quam quod Saulis laboranter quaerebat
+     indignitas. Igitur sacerdotem inquisiturus adgreditur et iumentorum deperditione tristatur. Sed
+     sacerdos non asinarum fugam, sed regni porrigit gratiam. Sperat se patri redditurum quod
+     perdidit et repperit quod pater aliquando nec abuit nec sperauit. Denique cornu illud diuina
+     censura sacratum, in quo et regni enteca ebulliens parturibat et sacerdotale misterium diuinis
+     aestuationibus nuptiabat, profetam testem foederis allicit et insperato capiti fermentum
+     diadematici germinis inrorauit, et ne sola esset mundana conlatio, ante profetare didicit quam
+     regnauit. Denique indicabat electionem diuinae prouidentiae inormis status et quantum maiestas
+     de regni qualitate succreuerat, tantum proceritas mensura omnibus eminebat. Denique donec
+     diuinae praeceptionis norma seruata est, et regni eius maiestas effloruit et uictor de ostibus
+     triumfauit. Sed ecce inobedientia, totius <milestone unit="page" n="p. 156 Helm"/> bonitatis
+     nouerca, quae cuncta bonorum operum a mundi principio didicit exstirpare fundamina, sicut in
+     alios, ita etiam Saulis inuida principatum obsedit et sicut primum caelesti regno exulauit
+     diabolum, deinc mundi nouellum suo paradiso Adam efficit peregrinum, postea Faraonis inpetus et
+     Aegyptiacos currus rubriacis debriatos interfecit liquoribus salsaque potionis madefactos
+     crapula infernalia inuitauit ad prandia, <del>sic</del> Saul quoque et adipatae gregis
+     laqueatum adfectu et taurorum pinguium muscipulatum adpetitu regno expulit, morte damnauit et
+     quod duplo deterius, Pitonici spiritus consultorem unctum domini supplantauit. Quid etenim opus
+     fuerat parcere regi aduerso? An parcendo clementior uideri poterat Deo? Sed quae sunt ista tua,
+     Deus, secreta misteria, in quibus umana uaccillat ignorando natura. Inimicus erat Agag domino,
+     inimicus etiam et Saul factus fuerat Deo; parcit Saul Agag regi et displicet Deo, parcit Dauid
+     Sauli et complacet; ille regnum ueniam dando perdidit, iste regnum ueniam dando promeruit. Aut
+     in utroque damnanda erat super Deum benignitas aut in utroque placita bonitas. Sed nilominus in
+     Saule praedae adfectus in.erat ut seruaret aduersum, et non tantum benigne placere subdito
+     uoluit quantum praedae affectus interfuit; quod in Dauid patientiae bonitas inerat, non
+     regnandi cupiditas <del>erat</del>. Denique inspice quod Dauid Deo ultionem parcendo seruabat
+     et Saul Dei ultionem male parcendo contemserat; Saulem enim Deus suae iniuriae elegerat
+     uindicem, et Dauid Deum suae iniuriae quaerebat ultorem. Ideo ergo unus bene <milestone
+      unit="page" n="p. 157 Helm"/> parcendo erigitur, alius male parcendo deicitur. Et quid
+     pluribus: Surgit Dauid in regnum sui domini famulus, in principatum pastor uilissimus, patronus
+     fratrum omnium minimus; ammonito pastoralem audaciam, erutam leonum mandibulis praedam; Goliae
+     etiam aerata cassis fundae rotatu stridulo perforata, dotalibus etiam titulis centum Filisteica
+     collata praeputia. Quae tua in is, Deus, admiranda sunt dona; excedunt etiam modum credulitatis
+     quaecumque larga bonitate concesseris. Paruulus leonis fit praedo, nudus uictor exultat armato,
+     pastor triumfat ex genere giganteo, solus centeno coniugem dotat praeputio, seruus sui domini
+     succedit in regno. Quanta in is tua superabundans gratia, domine Deus meus, quantum in is
+     iterum mortalium ex aduerso reluctat occursus. Das indignis quae non debes, non recipis pro
+     praestitis gratiarum actionem quam debes et recipis ab ingratis contumelias magis quas non
+     debes. Erigis ex stercore pauperem, ut sedeat cum principibus; das triumfum in gentibus, das
+     potentatum in ciuibus, et tamen adulter omicidii sociatur scelus. Feruet aduc innocentis
+     cadauer interfectum in proelio et glandula libidinosi adulteri alieno grassatur in lecto; tot
+     et tantarum non dicam maritus, sed admissarius coniugum unicum pauperi subripit matrimonium.
+     Nullane animum libidinantis consideratio temperauit, non diuini ordinis augmentus aut praemium,
+     non regale propositum, <milestone unit="page" n="p. 158 Helm"/> non pluralitas coniugum, non
+     uerecundiae quod maius est turpe fraumentum. Et tamen quanta in is omnibus diuina admiranda
+     clementia, cuius modum nec dicendo explico nec amplexando saturor. Noluit ut iustus peccatum
+     inultum dimittere; nouit ut pius in animam uindicare; admonendo conpellit ad poenitentiam,
+     damnat teraporaliter in substantia, ut in perpetuo temperet poenam; excipit in suo coniugio
+     quod alieno ingesserat matrimonio et ubi plus et doloris esset et criminis, filius ultor
+     paterni factus est sceleris; ut sicut seminis titillamento in libidinis exarsit incendium, ita
+     sui seminis timore percussus fugiendo destituit regnum teste sole perpessus quod admiserat
+     aliquando secretus. Sed, Deus meus, quid oc sibi uult tam secreta iterum tui iudicii
+     dispensatio? Cur maculosi criminis suboles successu paterni fruitur regni? Numquidnam
+     oportuerat ut aut Betsabe tam turpissimi sceleris fuscedine maculosa se regnante filio reginam
+     aspiceret aut Salomon adulterinae uuluae contagione turpatus aut aedificandi templi meritum
+     caperet aut sapientiae tensauros indagaret aut paterni regni successor ac potentior fieret?
+     Cuius igitur patris? Alieni concubitus peruasoris, alieni sanguinis effusoris, ubi nulla
+     legitima tori coniugia, nulla iuridica sponsalia, sed mortalis conscripta epistola adulterii
+     fuerat lena et peruasio paranimfa; sed diuinitas fecit quod decuit, gratuitam misericordiam
+     contulit, peccantibus ueniam relaxauit, <del>et</del> quia semper bonus est, etiam malis bona
+     concessit. Sed uide quia criminis filius crimen incurrit et adulterinum germen non bono termino
+     consummauit. <milestone unit="page" n="p. 159 Helm"/> Licet ab isopo usque in cedros Libani
+     disputet, licet austri reginam suam sapientiam admirantem exspectet, quamuis templum ineffabile
+     construat, spiritibus iubeat, prudentia confluat, iudiciis calleat, diuitiis fulgeat, auro
+     rutilet, gemmis ardescat, tamen caracteriauit in uita quidquid insitum traxerat de natura et
+     libidinis cauterium genuina feculentiae inustione signatum uitae picturauit in regnum. Factus
+     itaque concubinalis exercitus incubator, matronalis populi adsecutor, adulescentularum gregibus
+     pastor, alienigenarum contra interdictionem amator et quod omnibus deterius est gentilium
+     deorum in senectute iam non prudentissimus, sed inprudens cultor. Quid ultra referam tot regum
+     ruinas, tot criminum scelera, tot transgressionum facinora, ut Acab alienae uineae auarus
+     inuasor aequalem culpae sustinuerit poenale iudicium, et quamuis diuini miraculi oculatus
+     testis extiterit, dum ardentia caeli fulgora et rotatos sacrificii ignes Elias in testimonium
+     uerae deitatis extorsit, denique lucicolum sacerdotum interfectione perpetrata, relegata
+     triennali exilio nubila profetico in momentum iterum redduntur imperio et quidquid arida
+     sterilitate exaustum siccauerat, imber regressus uiridanti germine reuestibat, — et tamen dum
+     tot ac tantis manifestantibus testimoniis doceretur, Iezabelis tamen uirulentae persuasionis
+     nocturna coniugis uenena sorbebat. Sed ecce diuina uindex dextera in idolorum <milestone
+      unit="page" n="p. 160 Helm"/> cultricem reginam inueitur, et porcinis deuorata mandibulis in
+     stabuli sterquilinio dispersa perspicitur.</p>
+    <p>Ergo quia regum omnium subsequentum facinora libri modum excedunt, ex ac paruarum causaram
+     similitudine quis non umanos actus consideret, quantum et remuneretur bonitas et condempnetur
+     malitia. Illud ergo quilibet efficiat, quod se in utroque percepturum sperat.</p>
+   </div>
+
+   <div type="lib" n="IX">
+    <p>Sequens rerum gestarum ordo expostulat causae tenorem non perdere saeculo nunc usque currente
+     seruatum; nam et ultra excedens quadragena aetas nostrorum uerborum uolumen exspectat, quo suae
+     causae termen conclusum adgaudeat. Oportet ergo nos hoc tempus exponere, quo penes Hebreos
+     Machabaeorum ducum gerebatur excursus. Cernens namque Deus peccatorum perfectam populo
+     oberrante mensuram, dum Gezabel lucorum sacerdotes Deo praeponeret et Manasses mordaces serrae
+     dentes prophetarum corpore cruentaret et templo non deorum quam demonum formas adduceret,
+     furore succensus extorres suo regno propulsat Hebreos, et quo modo exteros deos adorandos
+     optauerant, regnorum quoque externorum exules angulos oberrabant. Namque Nabuzardan coquorum
+     praefectus, quo mage exprobramentum esset pugnae ac dedecus, ut sacer populus magnorum regnorum
+     excelsus coquum pugnantem non posset ferre substratus, — hunc ergo Nabuchodonosor armato
+     praeponens numero regem Hebreum oculorum decore fraudatum ferroque nexum cum <milestone
+      unit="page" n="p. 161 Helm"/> suo exulat populo, deturpatum templum depraedat, sacrum altare
+     conmaculat, arcam quoque foederum uerendarum tabularum lege sacratam pagano lustramento
+     profanat, uasa quoque aurea, quae, reuerendo pro usu sacrorum effecta, facta sunt merulento
+     barbarorum potu polluta. Sed ecce sacrata dextera consuetum non cessat praerogare solamen;
+     Machabeos namque septem claro genere praesumptos admodum fratres armat ad bellum ostendens ut
+     quod peccator totus cum suo rege facere non poterat populus, hoc paruus Deo fauente perageret
+     numerus. O quam praecelsa sunt tua, Deus, atque stupenda secreta. Peccator populus pugnantem
+     sustentare non potest coquum et regem suum contradet occecandum; ad uero Deo grata gens paruula
+     Machabea totum Nabuchodonosor aduentante pondus non solum reluctando sustentat, quantum et
+     corruente prospere superat, notans persequentem Hebreum, quem antea uelut neglectum despexerat,
+     suo effuso cruore praelatum, quorum regem dudum adduxerat et ferro nexum et oculo perforatum.
+     Cognoscat ex hoc humana natura nec aduerso cedere Deo fautore nec tempestate ut ante monstratum
+     est. Betuleam amplam Hebreorum urbem omne uastato terrarum excursu dux Holofernes obsederat et
+     murorum temptans ascendere aggeres armato clausos terrore pressabat. Erat namque ante oculos
+     populorum certa de morte captura et fames exesa conrodens corpora uacua monstrabat ambulantum
+     cadauera. Non fletus <milestone unit="page" n="p. 162 Helm"/> supererat oculo, non humor
+     palato, non succus membro; genua possederat tumor, ora conseruerat pallor et gressus
+     catenauerat marcor, quo mortua membra tantum sepulchro fraudata solum loquendo mundanum
+     crederentur habere mercatum. Fames domorum secreta peruaserat, mors portas obsederat, Olofernes
+     agros prataque uastabat. Quam ergo salutem oppressus aut speraret aut peteret, dum mors agro
+     domoque uagabunda regnaret? Sed ecce matronarum decus, casta puella, claustro murorum egressa
+     salutem populo conlatura profertur, uultus decore armata, morum pudore praesumpta, deo
+     conpulsante succensa, Olofenaeum caput processerat furatura. Errabat namque totum secura per
+     campum, regem laqueo postulans praefocandum. Quo reperto praebet blandum astuta sermonem,
+     garrula uultum adultero seductorem. Adstat contra, oculorum captura, amor damnosus et mortalem
+     laqueum praeparans uultus. Sed ecce rex potando lassatur, calore torretur, bractatur mero, quo
+     madefacta guttura praebeat ferro. Ecce autem repente dum nulla uox ex aduentu pugnantum, nullus
+     cruor emanat percussorum et tamen pugna nocte confecta est, caput pera gestatum est, matronale
+     tropeum peractum est, regale thorum perfectum est, facta est una puella Hebreorum salus, fuga
+     Persarum, perpetua nunc usque fabula saeculorum. Sed hoc proelio nulla uox ex aduerso
+     pugnantum, nullus cruor emanat percussorum et tamen caput pera gestatur sola nocte adtestante
+     sublatum. Decora namque forma tantum excellentum operum fuerat lena, quae caput a corpore
+     segregatum, salutem lugentum adtulerat <milestone unit="page" n="p. 163 Helm"/> populorum. Hoc
+     quoque non duco transeundum quod Hebreorum pro salute captorum consolator deus erexerat
+     Mardocheum. Nam Hester ad regnum exoptata Ebrea, suum populum saluatura, Mardocheum auunculum
+     elatura, Aman quoque prostratura, obt<supplied>emper</supplied>at. Sed quae sunt haec tua, Deus
+     meus, clara admodum pauendaque secreta. Rex namque apud suam momento deplacatur consortem et
+     sceptrum extendens conruentem pauentemque solatur uxorem. At uero Aman pene regno collega et
+     secretorum autenta repente regem pauet aduersum quem putabat susurro pro sua uoluntate
+     ludendum. Nam ecce repente Mardocheus futurae poenae damnatus equo Aman leuante praefertur: ad
+     uero econtra Aman crucem nocte praeparat, crucem alburnus exspectat.</p>
+   </div>
+
+   <div type="lib" n="X">
+    <p>Transacto igitur Iudaicae cursu historiae, quem quidem continuis decem litteris reseruatis ab
+     orbe condito usque in hanc aetatem digerendo perduximus, cuius principium sicut propitia
+     diuinitas operando extitit, ita irata terminum contulit — ergo gentiles adgressurus historias,
+     quas nunc a momentaneis garrulitatibus fortuna prosperior subleuat, nunc irata supplantat
+     momento usque in abyssum uergens, si quos successu prospero usque in caelum perduxerat, —
+     exhinc ergo sumemus initium, quo Iudaici regni perduximus terminum. Postquam enim Babylonico
+     captiua Hierusalem successit imperio et alienis deseruiens idolis a Deo suo fornicata alieno
+     etiam captiua deducta est regno — pertulit enim sui poenas sceleris et male seminatos
+      <milestone unit="page" n="p. 164 Helm"/> fructus amarissimos sui comedit erroris —, tamen tam
+     diu Babylonia fermentum suae potentiae tenuit, donec diuini populi templique dominici saporem
+     praedae toxic<supplied>at</supplied>um degustauit statimque cum propriis abortiuit quicquid ex
+     sacratissima praeda auidior transuorauit. Fuit enim illa Israhelitici uindex sceleris, tamen
+     uae illi qui flagellum eligitur malis; et sicut Hierusalem suas deflet reliquias toto orbe
+     dispersas et nullatenus usque in hodie redituras, ita Babylonia cum alienis etiam suas aborsa
+     est pereundo diuitias. Ea igitur terapestate fortuna quodam aestu turbulentiae grauidata in
+     paruo Macedonum regno clarissimum peperit nefas. Namque Alexander dubia sub opinione Philippi
+     Macedonis filius incerti patris crimine maculatus exsurgit. Quidam enim ferunt, Dictanabo
+     uaporante libidinis, clandestino Olimpiada magico conpressisse figmento, alii quod draconis
+     squamifero fermentante conplexu uirulentum ediderit grauidata puerulum. Sed quid his opus est:
+     ex quo Philippi in hoc negotio uacillauit auctoritas patris, nulla nominum inuentio opus est ad
+     ornandum adulterium genetricis. Habere enim non dicitur uirum cui suppetunt multa nomina
+     maritorum. Hic ergo quamuis patre tyrannice crudeliterque regnante ampliatum Macedonum regnum
+     susceperit, tamen ultra mundi terminos aestuans insatiabile imperium protelauit; non contentus
+     in id quod pater crudeli tyrannide peruaserat, sed mundum sibi breuiorem aestimans ultra
+     saeculum aliquid exquirebat. Et primum quidem Babilonicum regnum arripuit mille annorum
+     dominatu fulcitum, tot triumphis ac totius <milestone unit="page" n="p. 165 Helm"/> orbis
+     uictoriis enthecatum. Illuc etenim et Israhelitica confluxerat gloria et Aegyptiaca olim famosa
+     conmigrarat potentia, illuc Spartana, illuc Athtenaica atque insuperabilis uirtus deuoluta
+     cesserat Scytica. De quo regno a uicies milies centum octoginta milia tribus proeliis cesa
+     feruntur nec tamen tantae cladis sensit Babilonia detrimentum. Quis ferat haec, domine Deus
+     meus, totius orbis ineffabilis conditor. Deficit sapputatio morientum in numero: aerumnae locus
+     Partiaco non paruit regno. Si inaestimabile est quod una prouincia perdidit, quis tua, orbis,
+     opera sufficiens enarrabit. Igitur Alexandri rapidos regnandi ad cupiditatem animos tantae
+     inmensitatis multitudo non terruit, sed indubitanter pugnam insperatam arripuit, et insperato
+     uictoriam dubitatam inuenit. Vincit in paruo quibus sufficere non poterat numerando; superat
+     effugatum sequitur fugitiuum, inuenit uulneratum aureo catenarum ligamento constrictum. Praebet
+     inanem misericordiae sepulturam illo; filias etiam quas sorores <supplied><gap/></supplied>
+     Iuste quidem ille uitam perdidit, regnum amisit, qui maternum uiolans sacramentum suum se
+     maluit esse uitricum, patrem etiam germanarum; nec puduit illuc partem turpissimam libidinans
+     obicere corporis, unde primum prodierat imago nascentis. Post haec regni etiam Persici uictoria
+     non contentus, quo totius mundi confluxerat dominatus, qui posset et uniuersas auaritiae
+     saturare uoragines — et nihil ultra post hunc quaereret qui etiam aliquando saturari non posset
+     —, tamen Indicos fines ante cuiquam inaccessos sollicitat et ignotos nostro saeculo fines
+     ardenti <milestone unit="page" n="p. 166 Helm"/> cupiditate penetrat. Et primum quidem feras in
+     aciem belli propositas statuarum aere succenso debilitat et ignitis amplexibus rabidas fugat.
+     Post haec Poro Indico rege captiuo Fasiacas primus inuadit latebras. Illic aurum fastiduit
+     Macedo qui saturari non potuit toto orbe possesso. Dehinc nudos Bragmones, exustos Eoas,
+     Foebeos Passadras, Caucasii montis incolas, Drancas et Vergetas, Hyrcaniae populos, Corasmos et
+     Daas, Ocionitidis quidem Amazonas ut ferus adit, ut inportunus prouocuit, ut praedo peruasit;
+     incognitam quoque saeculis Meroen et ultra Sieneticos uapores Falernis liquoribus ruptuantem
+     inpatiens penetrat; Candacen Aethiopicam, quamuis praeceps, non tamen securus, sollicitat;
+     Atlanteas Niliaci liquoris diffusitrices cataractas intrepidus exspectat. Quid dicam pertemtata
+     Maeotide inertes thirofagos, asperos antropofagos, nudos etiam ictiofagos lacessisse. Solis
+     quoque ac Lunae loquentia nemora regis ipsius interitum praedicantia laboriosus inuestigator
+     accessit. Et quid pluribus: nulla secreta mundi misteria, nulla gens abstrusis terrarum angulis
+     exulata, nulla Oceani semotior insula Atlantei marginis aestu roriflua, quae non Alexandrum aut
+     dominum timuit aut repentinum expauit aut praedonem inuenit. Quisnam est, domine Deus meus,
+     hominum tam inconsideratus appetitus. Lassatur peragrando mundus, non erat iam quod humanis
+     ostenderet oculis, et auaritiae <milestone unit="page" n="p. 167 Helm"/> non saturatur
+     affectus. Paruum est uisu quaerenti Alexandro quod fecisse suffecerat Deo; posset et in caelum
+     ascendere, si aut natura pinnarum concessisset aut semita. Et quia mundum peragrando paruum
+     sibi esse credidit, ideo tribus contentus sepulchri cubitis obdormiit. Discat ergo ex hoc
+     humana natura nihil esse de potentia praesumendum, ex quo mors communiter heres est potentum et
+     pauperum. Vidit enim et Aethiopicas uires et Atlanticas moles et Foebeos ignes et Scythicas
+     glacies. Sed quid profuit omnia inuicta uincere et seruili ueneno succumbere. Huius actus
+     huiusque mortem qui semper mente considerat, moriturum se esse non credat; numquam enim mortis
+     malo terretur qui alieno malo considerato corrigitur.</p>
+   </div>
+
+   <div type="lib" n="XI">
+    <p>Fracto ergo Persico Macedonicoque imperio ecce paruum adhuc ex increpundiis Roma subrigit
+     uerticem turpi admodum criminosoque mancipata principio. Nam Rea geminorum mater, ex opere
+     concors cum nomine, quae quidem non ex Marte deo compressa peperit — quamuis etsi Mars esset,
+     deus esse non posset —, tamen consueuerat uana semper paganorum antiquitas procreatos ex
+     fornice deorum natos adscribere, quo meretricum crimina diuina uestirent iniuria: uere marmorea
+     atque insensata diuinitas, quae sua addictione uniuersas uestiret criminum causas. Tamen quorum
+     principatum Romanus ordo tripudiat et ad dedecus potius suae natiuitatis etiam historia
+     currente scribere quoque non cessat, criminosa matre editi, criminosa nutrice producti,
+     criminosae etiam uitae operibus non destiterunt frui. <milestone unit="page" n="p. 168 Helm"/>
+     Denique ne a facinore coeptum primordium facinorosum caruisset augmentum, fraterno sanguine
+     murorum prima rubuere fundamina, ut fratricidii cruore sancita magnificae urbis uerecundentur
+     principia. Ecce etiam sacrarium criminibus uindicandis construitur, et ubi iustitia
+     sanctitasque exerceri debuerat, inde facinorum nefanda purgantur. Fit exercitus criminum
+     fructus et impunita iniquitas fit senatus; et ne disparia suae uitae sortirentur conubia,
+     turpatis matrimoniis rapina facta est paranimfa. Quod in huiuscemodi nuptiis esse poterat
+     gaudium: maeret sponsa quod rapitur, socer aestuat quod praedatur, socrus ingemit quod orbatur,
+     et ne etiam in raptore quodpiam existeret gaudium, necdum est securus sponsus ne pugnando fiat
+     diuortium. Quid post haec referam natos Brutum inbrute necantem, externi matrimonii Tarquinium
+     corruptorem, ubi ferrum matrona testem sui adhibuit criminis et quia uiuere diffamata non
+     poterat, ante in se nefas quam in conmissoris sanguine uindicauit. Omitto Fabium Metenniae
+     interfectorem potius quam maritum, qui paruo contactam mero coniugem trucidat et resignatae
+     ynotece parricidanti cruore sacrificat. Quid referam Curtium offam uoraginis et terrenae
+     abruptionis; hiatum quid profuit saturasse armati incitamento decoris: nunquam terra sarciret
+     quod ruperat, dum tamen uanus non omitteret quod uiuebat. Exurit Mucius inefficaciter dexteram
+     et quia praeferri inaniter concupit, curtatus brachio inaniter uixit: quam fatua <milestone
+      unit="page" n="p. 169 Helm"/> uanitas sacrificat uanae famae miseri sui corporis poena et ut
+     nomine tantum opinatus existeret, membrorum facta est turpata ruina. Quid referam Cannense
+     interitum terno modio digitorum exuuiis diffamatum, dum Carthago Romanis potentatibus utitur et
+     Cremera senatoriae mortis diffusionibus augmentatur, quid urbis inruptum anserinae uocis
+     indicio erutum, quid Marianae pestis scidium ciuico sanguine satiatum. Feruet Pompeiana
+     uictoria Mitridatis toxico, concursu piratico, Tigrane maerente Armenico, Pontico etiam
+     Viridomaro tristante captiuo. Primus igitur et Iudaicas opes praedo peruasit et dominici
+     sacrarii ornamenta Romanis usibus subdidit. Quid referam Scipioneas Punici triumphi uictorias,
+     dum opima Cartaginis antiquaque potentia sibi pugnando periit, Romae pugnanti proficit — Roma
+     enim ante exhausta uincendo recuperauit quod perdidit, at uero Carthago ante uictrix nunc
+     exusta et quod rapuit reddidit et quod habuit perdidit —, quid Corinthicae maiestates
+     uictoriae, quid Cimbricas mortes, Teutonicas rabies; et ne omnia prosequar: creuit Roma semper
+     suo studens dispendio et dum sibi parcere non nouit, domina effecta est mundo. Quantum Romano
+     sanguine satiatus est Viriatus, aspersus est Poenus; omitto nefas Partiacum, aurata morte
+     principem condemnatum, ubi auatitia quod iniusto uoto quaesierat iusta poena repperit et
+     cupiditas dum concupitis fruitur bibendo non uixit, — nouum, fateor, Persarum iudicium, ut
+     cupiditas dum ex id quod desiderat fieret saturata, ipsa sibi saturitas facta est poena. Quid
+     Caesar, qui fatigato tot triumphis succedentibus mundo ipse tantum indefatigatus <milestone
+      unit="page" n="p. 170 Helm"/> ciuico sanguine non pepercit, quia iam exterum quem funderet non
+     inuenit, paruum credens, si dimidio mundo regnasset, nisi etiam totum genero interfecto
+     peruaderet. Romanum ergo imperium suo exteroque sanguine enutritum, cuius semper iniuriis aut
+     dandis uacuat aut accipiendis <del>non uacuit</del>, creuitque semper alieno damno aut suo
+     potius detrimento.</p>
+   </div>
+
+   <div type="lib" n="XII">
+    <p>Noua saeculi aetas interuenit nostris libellis desiderabiliter exoptanda, cuius aduentu
+     radiante lustrati, suauia Christi nascentis crepundia libro currente narrentur necesse est,
+     quippe ex quo et lux refulsit in tenebris, gloria in excelsis, pax in celis et letitia exorta
+     est iustis. Ecce oc ut angelus edicit, pastor audit, Chaldeus agnouit, Erodes expauit. Quid
+     ergo cessas, lingua? Erisne tacita tui conditoris in aduentu perducta? Quo reatu teneberis, si
+     uociferantibus angelis tu tacebis? Ecce igitur descendit ros uerbiale coruscans in negotio,
+     latens in uerbo. Pulsat auditos uirgineos caelestis coniugii disponsator, ubi naufragia non
+     passurus est pudor. Indicit nuptias in quibus nec diuinitas patris polluitur nec genetricis
+     integritas uiolatur; fit aure casta conceptus, fit plenitudo uteri et nullus est pondus; et sic
+     intacto pudoris sigillo prosilit partus. Sed ecce quid in hac desponsatione sacer pronubus
+      <milestone unit="page" n="p. 171 Helm"/> edicat, agnoscatur. ‘Aue’ inquit ‘gratia plena’, et
+     illud quod sequitur. Fateor, tractans hoc ipsud obstipui, in desponsationibus suis quos ordines
+     habeant caeli. Ecce ut uideo, nulla adhuc petendi fit enarratio, nulla de uocabulo sponsi
+     cognitio, nulla de dotis quantitate conlatio: et gratiae fructu grauidata est uirgo. Sed ecce
+     dotis celsitudo nuper edicitur et desponsator qui fuerit declaratur. Dicit angelus: ‘Spiritus
+     sanctus superueniet in te’: ecce significatio certa uocabuli. At uero: ‘Regni eius non erit
+     finis’: quae erit ultra dos ab hac dote superior, regnandi perennitate concessa. Post haec
+     radiata in nostro saeculo diuina nituere crepuscula; exulat de nostris sensibus quidquid
+     tenebrosa fuscedine caligabat; recedit tristitia, fugatur angustia, ne consisteret regis
+     procedentis in uia. O gratus et purus aduentus; si ut rex descenderet, fortior regibus
+     appareret, si ut deus Iudeis claresceret, si ut ineffabilis sapientia scribas Fariseosque
+     conpungeret; sed ut lenis pastoribus apparuit, ut caelestis Caldeis inluxit, ut non superbus
+     piscatores instruxit. Accessit egrotantibus diuinae salutis potentia et stupenda in saeculo
+     radiata sunt opera. Denique nuptialis aqua uinolentis ruboribus debriatur; Tiberiadis unda
+     pedestri Petro fit durior strata, discit terra parturire oculos praegnante saliua, discit fons
+     sanguineus christificae uestis adtactu perenni constrictus gelare catena, adulterae uenia
+     terrae conscribitur, leprae sordicula uerbo purgatur, latronis corona de cruciatu conquiritur.
+     Et quid pluribus: suis cadauera pedibus gradiuntur, suis egrotis lectuli deportantur; praestat
+     Petro piscis pecunias, cui nulla substantia, et hic in prandiis decoctus crescere <milestone
+      unit="page" n="p. 172 Helm"/> discit, ubi nulla est uita. Verbo expulsa egritudo discedit;
+     uerbo reuocita salus adcurrit; uerbo uertigo tranquillata languescit, uerbo fluctuans unda
+     liquescit; et ne plura persequar, non licuit naturae non esse quod ille uoluit, non reluctauit
+     natura non posse quod iussit. Post haec uero plenitudo Iudaici exitus celerior fieret, liuor de
+     bonitate conquiritur et quia cecitas claritate refulserat, conlator lucis ab aduersariis
+     inuidetur: uere tenebrae patronus, qui in suo figulo non dubitauit scelus. Flagellatur perpetua
+     uirtus, uniuersalis conspuitur salus et crucis patibulo suspenditur Deus. Quis haec aut dicere
+     auderet aut dicentibus crederet, quod Iudea tot periculis etuta, tot proeliis uindicata, tot
+     beneficiis inlustrata haec suo deo facere poterat. Sed qualiter Iudeus adoptatus filius caderet
+     et gentilis adoptiuus filius surrexisset, nisi quia tot beneficiis ingratus ille populus
+     extitit et iste nullo praeeunte obsequio gratuita gratia consecutus euasit.</p>
+   </div>
+
+   <div type="lib" n="XIII">
+    <p>Oportuerat quidem ut temporum ordo dictabat Caesarum actus uitasque describere; sed quia
+     illos siue Deo siue apostolis turpe fuit praeficere, postremo ergo loco quae praetetermisimus
+     postmodum edicemus. Igitur postquam Iudea salutis remedium patibulo crucis adfixit et mortis
+     medellam quam habere magis debuerat caruit, a Deo suo exulata proicitur et eius loco pereger
+     filius adoptatur. Statim itaque fidei doctores apostolos dirigit et sacrati spiritus flammeo
+     coruscos adtactu uerbi caelestis praedicatores statuit et baptismatis dilutores elegit. Statim
+      <milestone unit="page" n="p. 173 Helm"/> ergo caelesti horreo fruges certatim segregatis
+     paleis successere; spargitur sectura cum lacrimis et pressurae <supplied>cum</supplied> gaudio
+     colligitur messis. Mittitur retia, retrahitur perfecta, captura omisso maris liquore
+     salsissimo, de qua Christus et exucatas peccato assas epulas comedat et mellis fauo admixtas
+     caelesti adparatu suscipiat. Vide igitur quod et ad dexteram partem retia captura iactatur et
+     certissima computatio trahitur quia decem legis praecepta subeat et septem spiritus perfecta
+     uita possideat, quae quidem summa multiplicata septimo decimo colligitur ductu. Pastor Petrus,
+     cui quidem et celestis portae clauis traditur et grex ouium ad pascua deduci iubetur, qui
+     duplum accipit thesaurum, quo saeculum adcuret egrotum adhibito chrismatis oleo et sacrificii
+     mero, super petram stabilem firmat ecclesiam, et porta mortis destruetur per eam. Ligat caelo
+     quod uelit, soluet terris quod iusserit. Praeceptum hoc quod gratus Christi amicus accepit:
+     portat et ipse piissimus pastor ouem humeris perditam et ex lupatis morsibus eripit
+     fugitiuam.</p>
+    <p>Rapitur ad apostolatum dum calcitrat Paulus et licet reluctet, percutitur beatissima cecitate
+     uisurus; cadit ex oculis albigata lippido et efferata seueritas fit pacifica persuasio. Quam
+     grata medici largitas, dum solo imperio et squamea cecitas pellitur et cordis acerbitas
+     dulcoratur. <milestone unit="page" n="p. 174 Helm"/> Fit ouis, magis ouicula lupus rapax et ubi
+     exultauit malitia, superexuberat gratia et quos acceptis epistulis cruciaturus exquirit, illos
+     exhortatoriis postmodum epistulis docuit. Vecte fullo deicit Iacobum et quamuis pro populo iam
+     percussus orauerit, sic pro praestitis aduersa suscepit: uere fullo Iudeus apud quem totius
+     sordiculae resederat cumulus. Credit Philippo Aethiopicus spado et purgatus baptismate cursu
+     garrulior repedat prospero. Illuc credulitatis ac fidei gratiam portat, ubi praedicatio pro
+     extremitate orbis peruolare difficilius poterat. Petrus apud urbem deuoluitur et magus uolucer
+     caelo iam proximus sola prece iactatur, et licet semel sepiusque figuraliter resurrexerit, uero
+     mortis occursu ultra iam perpetuiter perit. Dorcas mortua redditur uiduis et misericordia
+     resurrectio efficitur mortis. Patefacta carceris claustrorum ligatura disrumpitur et Petrus
+     Herodis Iudeorumque de exspectaculo liberatur. Sapphira cum uiro promissam subripit partem et
+     quia totum dare despexit, se ipsam quae furto uti poterat perdidit. Vas Petrus refertum e caelo
+     sibi delatum aspectat uarias saeculorum apostolo praebiturum delicias dumque Iudeis prohibita
+     scelus esse putat si comedat, audit totum catholico purgatum esse quidquid Dei largitas
+     gratialiter praerogaret. Christus igitur purgat semper epulas suis qui etiam corda lauacro
+     purgauit baptismatis. Porrecta Petri dextera claudus recto gressu <milestone unit="page"
+      n="p. 175 Helm"/> firmatur et qui solo quo sederat ex pueritia religatus fuerat loco iam
+     aetate prouectus gressu pererrare didicit libero. Quo Iudeus ex liuore miraculi zeli toxico
+     sufflammatur et qui gratias Deo proferre debuit, amum liuoris potius deuorauit. Expetitur
+     Paulus ad mortem dum Apollo futurorum praedicator perderet deitatem, et quia apostolos
+     clamoribus sectabatur spiritus, ut recedat praecipitur. Fariseus cum Saduceo committitur et
+     Paulus e medio turbore subtrahitur, dum Saduceus resurgere mortuos dubitat et Phariseus
+     dubitata certus adseuerat; illic igitur apostolus libertatem repperit, ubi iurgium auditoribus
+     praerogauit. Tradit sors Mathiae apostolatus officium, et traditio Iudae porrigit laqueum.
+     Taddeus Abgaro podagrici morbi medellator praemittitur et sicut dudum epistula Christi
+     promiserat, ita maerorum salus suffragata gaudebat; discedit ueteratus medullis regalibus dolor
+     et salus quae olim puero fugata repudium dederat ad gratiam iterum perducta cum uiro ludebat.
+     Circa horam tertiam adgregatis apostolis promissio dirigitur saluatoris et flammato fulgore
+     spiritalis gratia distribuitur. Labiis loquebatur apostolis quidquid dictabat spiritus, et
+     audiebat quod scierat Medus, Elamites et Persus. Sed a quibusdam mera putabatur ebrietas et
+     erat mira potius tributa maiestas.</p>
+    <p><milestone unit="page" n="p. 176 Helm"/></p>
+   </div>
+
+   <div type="lib" n="XIV">
+    <p>Nunc etiam Caesarum uitas instituam et principum atque augustae magnitudinis stemmata libris
+     currentibus edicamus necesse est. Primus igitur Caesar, unde et imperiale cepit initium,
+     uniuersae terrae detinuit principatum; suffragabatur etenim huius felicitati diuina natiuitas,
+     cui etiam uniuersas inuincibiles uincere licuit causas. Qualiter enim ab huius imperiis libera
+     existeret uniuersitas, sub cuius regnum nasci dignata est deitas. Primus namque uniuersae
+     terrae limites imperiali maiestate subiecit, Britannicas ultra mare Atlanticum sitas insulas
+     mira felicitate repressit, Actiacae pugnae certamine triumphans exstitit atque Aegyptiacam
+     superatam reginam lactandas praebere mammas serpentibus persuasit. Dictaturam perpetuam
+     sellamque auream primus in urbem aut habuit aut inuenit. Iani belligeri limina perenni securus
+     clusura damnauit. Vltra Indicas latebras suae maguitudinis imperium duxit. Et ne quippiam
+     reliquum remansisset, mundum sicut marinis terminatur amfractibus describendum censendumque
+     mandauit. Haec sunt tua Deus secreta misteria, haec sacrae natiuitatis munera sempiterna; neque
+     enim decebat illum regnandi habere participem, quem in tua natiuitate decreueras regem, ut Deus
+     principium Cesari et Cesar principium fieret mundi.</p>
+    <p>Denique ut haec clarius manifestasset diuinitas, inspice quid deinceps sequitur. Videsne
+     eneruatum in aliis ultra imperium et lasciuienti desidia in sequentibus deinceps <milestone
+      unit="page" n="p. 177 Helm"/> putrefactum? Da Calligulam aureis piscantem retibus funibusque
+     purpureis; da Caesareanae turpitudinem stirpis, ubi ille madidus princeps, entheca sceleris,
+     qui uirum quem male acceperat perdidit <del>et</del> mulierem quam iuste meruerat sumsit,
+     regnum criminibus maculauit, et quid turpius aut uellet aut faceret, nisi ut grauidata
+     ranunculis uiscera turgescenti dissilientia rugitu intestinis etiam crepitantibus — nihil
+     amplius quam perennem saeculis fabulam peperit criminis. Exhinc iam luxu perfracta uirtus
+     relanguit rigidaue seueritas deliciis accedentibus tepefacta migrauit. Tamen nequaquam in
+     cunctis Augustis huiusque cladis tabes inrepsit. Fuere igitur uarii quibus et uirtus interrita
+     inerat et animi cura uigilanti cautella referuerat. Nam Vespasianus Iudaicae uindex nequitiae,
+     quem suae Christus iniuriae elegerat uindicem, ipse Israheliticam cladem finem usque perduxit
+     et nequaquam iam ultra de captiuitatis ergastulum redituram perenni exulatu damnauit. Hic
+     itaque Hebream aduersus Deum calcitrantem nequitiam execrandae famis exitu terminans illam
+     usque miserabilitatem perduxit, ut lacteis dependentem uberibus natum ieiunae matris faceret
+     prandium et quae insensibilis suis catulis nequaquam ingerit fera, illud mater suis uisceribus
+     faceret efferata. Quae sunt ista, Deus meus, te irascente permissa bellica crimina, ut fames
+     naturae federa uinceret et mater de suis uisceribus ieiuna pranderet. Sed <milestone
+      unit="page" n="p. 178 Helm"/> iusta haec diuinitatis in rebellibus fuerat pena. Quam enim
+     Iudea patientiam haberet in filiis, quae suam salutem usque ad patibulum perduxerat crucis; et
+     quae carnem filii Dei accipere spreuit, sui carnes filii suis epulis praeparauit. Cerne enim
+     quia quinque panibus saturata quinque milia ante deriserat et nunc — tantum uitae reliquum —
+     filii carnes esuriens praelambebat. Primum etiam Iudaicus princeps dum Christum quaerit
+     infantes interimit, ast hic secundus dum Christum ulciscitur parentum mandibulis infantes
+     addixit. Quid referam Aureliani in Deum tumentem inuidiam unius miraculi effectibus delinitam.
+     Namque dum miles <supplied><gap/></supplied>, densatur aer, crassescunt nebulae, ignis ipse
+     etiam, si credi fas est, aquas didicit parturire. Perdit ignis naturam in imbrem migratus,
+     desudat humectus in radiis Febus, et ut diuinitas imperauit, flamma etiam pluere didicit atque
+     in suis incendiis guttas habere se repentinas expauit. Discat itaque pagana duritia quia nec
+     elementis licet suam uindicare naturam, quam Christianus tenet in suum uelle captiuam. Denique
+     una pluuiae unda et arida sitientum ieiunia et pagani persequentis humidata est flamma. Iam
+     enim aduersus Christianam fidem sacra ediderat, penas infixerat et cruciatus martyrum decretis
+     publicis titularat. Quas tua pluuia, Deus, imbre faculas extinxit, et una eademque sententia
+     imperialis censura infringitur, militaris ariditas saturatur. Quid referam placidum Neruam
+     felicemque Traianum et primum Christianis meritis Augustalia insignia iungentem geminum
+     Philippum. Praetermittam necesse est Iuliani tirannicam rabiem in Dei ecclesias tempestiuis
+     incursibus fluctuantem, dum Iudeis iam recuperandi templi facultas tribuitur et simulacrum
+     Veneris templis asciscendum adfertur. Sed et Iudeis flamma uibratis crispata uerticibus cementa
+     muris adlata disparsit et uestibus crucis caracteriaca signacula figurauit; Veneris etiam
+     transitum Babylae martyris praesentia interdixit. Valentinianus militare cingulum spernit et
+     imperii diadematis munus excipit.</p>
+   </div>
+
+
+  </body>
+ </text>
+
+</TEI>

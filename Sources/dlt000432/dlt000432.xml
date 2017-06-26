@@ -1,0 +1,3638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Querolus</title>
+                <author>Anonymus</author>
+                <respStmt>
+                    <resp>Correzione linguistica</resp>
+                    <name>Laura Mosca</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica XML</resp>
+                    <name>Laura Mosca</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>digilibLT</publisher>
+                <pubPlace>Vercelli</pubPlace>
+                <date>2011</date>
+                <availability>
+                    <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+                </availability>
+                <idno>dlt000432</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Querolus (Aulularia)<hi rend="italic"> Le Grincheux (La Comédie de la petite marmite)</hi>, texte établi
+                    et traduit par Catherine Jacquemard-Le Saos, Paris 1994 (Collection des
+                    Universités de France)</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+                <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+            </projectDesc>
+            <editorialDecl>
+               
+                <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+                <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+                    l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+                    e commenti e ogni altro contenuto redatto da editori moderni. </p>
+                <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+                    correttezza di trascrizione</p>
+                <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+                    distinzione u/v minuscole.</p>
+                <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+                <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+                    grassetto, corsivo, spaziatura espansa.</p>
+                <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+                    <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+                    <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+                    si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+                    [...]<lb/> lacuna integrata dagli editori:
+                    <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+                </p>
+                <p>Sono stati marcati i termini in lingua greca
+                    <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+                </p>
+                <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+                    target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+                    >Note di trascrizione e codifica di testi latini tardoantichi
+                    [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+            </editorialDecl>
+           
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latino</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="ptext" n="ptext">
+                <p>QVEROLVS<lb/>(AVLVLARIA)<lb/>PERSONAE<lb/>LAR FAMILIARIS<lb/>QVEROLVS, EVCLIONIS
+                    FILIVS<lb/>MANDROGERVS PARASITVS<lb/>SARDANAPALLVS PARASITVS<lb/>SYCOPHANTA
+                    PARASITVS<lb/>PANTOMALVS SERVVS<lb/>ARBITER VICINVS<lb/><lb/><hi rend="bold"
+                        >SIGLA PERSONARVM IN
+                    TEXTV</hi><lb/><lb/>LAR.<lb/>QVER.<lb/>MAND.<lb/>SARD.<lb/>SYCOPH.<lb/>PANT.<lb/>ARB.<lb/></p>
+            </div>
+            <div type="pr" n="pr">
+                <head>Prooemium</head>
+                <p><milestone unit="par" n="1"/> Rutili, uenerande semper magnis laudibus, qui das
+                    honoratam quietem quam dicamus ludicris, inter proximos et propinquos honore
+                    dignum putans, duplici, fateor, et ingenti me donas bono: hoc testimonio, hoc
+                    collegio, haec uera est dignitas.<lb/><milestone unit="par" n="2"/> Quaenam ergo
+                    his pro meritis digna referam praemia? Pecunia, illa rerum ac sollicitudinum
+                    causa et caput, neque mecum abundans neque apud te pretiosa est. Paruas mihi
+                    litterulas non paruus indulsit labor: hinc honos atque merces, hoc manebit
+                    praemium. Atque ut operi nostro aliquid adderetur gratiae, sermone illo
+                    philosophico ex tuo materiam sumpsimus. Meministine ridere tete solitum illos
+                    qui fata deplorant sua atque Academico more quod libitum foret destruere et
+                    adserere te solitum? Sed quantum licet? Hinc ergo quid in uero sit, qui solus
+                    nouit, nouerit: nos fabellis atque mensis hunc libellum
+                        scripsimus.<lb/><milestone unit="par" n="3"/> Materia haec est. Pater
+                    Queroli nostri fuit auarus Euclio. Hic Euclio aurum in ornam congessit olim,
+                    quasi busta patris, odoribus insuper infusis tituloque extra addito. Nauem
+                    ascendens ornam domi fodit, rem nulli aperuit. Hic peregre moriens parasitum
+                    ibidem cognitum filio coheredem instituit tacita scripturae fide, si eidem
+                    thesaurum occultum sine fraude ostenderet. Locum tantummodo thesauri senex
+                    ostendit oblitus doli. Parasitus nauem ascendit, ad Querolum uenit et rupit
+                    fidem, magum mathematicumque sese fingens et quicquid mentiri fur potest. Ea
+                    quae a patrono didicerat Queroli secreta et familiaria, quasi diuinus,
+                        loquitur.<lb/><milestone unit="par" n="4"/> Querolus fidem accommodat
+                    auxiliumque poscit. Parasitus magus domum purificat et puram facit, sed, ubi
+                    primum libere ornam inspexit, uetere decipitur dolo. Bustum quod simulabatur
+                    credidit atque inrisum se putat. Inde, ut aliquatenus sese ulcisceretur, ornam
+                    Queroli in domum callide et occulte obrepens per fenestram propulit. Qua explosa
+                    et comminuta, bustum in pretium uertitur. Itaque thesaurum contra rationem et
+                    fidem, cum lateret prodidit, cum perisset reddidit. <milestone unit="par" n="5"
+                    /> Postea re comperta, parasitus reuolat et partem petit. Sed quia quicquid
+                    abstulerit confitetur, quicquid rettulerit non docet, primum furti post etiam
+                    sepulcri uiolati est reus. Exitus ergo hic est: ille dominus, ille parasitus
+                    denuo fato atque merito conlocantur sic ambo ad sua.<lb/><milestone unit="par"
+                        n="6"/> Tuo igitur, <supplied>uir</supplied> inlustris, libellus iste
+                    dedicatur nomini. Vivas incolumis atque felix uotis nostris et tuis.</p>
+            </div>
+            <div type="pr" n="pr">
+                <head>Prologus</head>
+                <p><milestone unit="par" n="7"/> Pacem quietemque a uobis, spectatores, noster sermo
+                    poeticus rogat, qui Graecorum disciplinas ore narrat barbaro et Latinorum
+                    uetusta uestro recolit tempore. Praeterea precatur et sperat, non inhumana uoce,
+                    ut qui uobis laborem indulsit, uestram referat gratiam. <milestone unit="par"
+                        n="8"/> Aululariam hodie sumus acturi, non ueterem at rudem, inuestigatam et
+                    inuentam Plauti per uestigia. Fabella haec est: felicem hic inducimus fato
+                    seruatum suo atque e contrario fraudulentum fraude deceptum sua. Querolus, qui
+                    iam nunc ueniet, totam tenebit fabulam. Ipse est ingratus ille noster: hic felix
+                    erit. E contrario, Mandrogerus aderit fraudulentus et miser. Lar Familiaris qui
+                    primus ueniet, ipse exponet omnia. Materia uosmet reficiet, si fatigat
+                        lectio.<lb/><milestone unit="par" n="9"/> In ludis autem atque dictis,
+                    antiquam nobis ueniam exposcimus. Nemo sibimet arbitretur dici quod nos populo
+                    dicimus, neque propriam sibimet causam constituat communi ex ioco. Nemo aliquid
+                    recognoscat: nos mentimur omnia. <milestone unit="par" n="10"/> Querolus an
+                    Aulularia haec dicatur fabula, uestrum hinc iudicium, uestra erit sententia.
+                    Prodire autem in agendum non auderemus cum clodo pede, nisi magnos praeclarosque
+                    in hac parte sequeremur duces.<lb/></p>
+            </div>
+            <div type="scene" n="1">
+                <head><supplied>Scaena I</supplied></head>
+                <p><stage>LAR FAMILIARIS</stage></p>
+                <milestone unit="par" n="11"/>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p>Ego sum custos et cultor domus cui fuero adscriptus. Aedes nunc istas rego, e
+                        quibus modo sum egressus. Decreta fatorum ego tempero, si quid boni est,
+                        ultro accerso, si quid grauius, mitigo. Queroli nunc sortem administro,
+                        huius ingrati non mali. Hic exinde sibimet sufficiens fuit, quod primum est
+                        bonum, nunc autem etiam locupletissimus erit. Sic meritum est ipsius, nam
+                        quod pro meritis reddendum nobis non putatis, ipsi uosmet fallitis. Ordinem
+                        autem seriemque causae breuiter iam nunc eloquar.<lb/><milestone unit="par"
+                            n="12"/> Pater huius Queroli Euclio fuit auarus et cautus senex. Hic
+                        enorme pondus auri olim in ornam condidit. Sic quasi
+                            <supplied>busta</supplied> patema uenerans, aurum celabat palam. Peregre
+                        uadens ornam domi sepeliit ac reliquit ante aras meas: tumulum suis, mihi
+                        thesaurum commendauit. Abiit neque rediit senex. <milestone unit="par"
+                            n="13"/> Peregre moriens, uni tantummodo rem indicauit fraudulento et
+                        perfido, cui tamen siue oblitus siue superuacuum putans de busto et titulo
+                        nihil exponit. Querolo iuxta fatum hoc sufficit. Nunc ergo thesaurus domi
+                        habetur, omnibus ignotus et notus tamen. Erat sane facile nobis aurum domino
+                        ostendere aut responso aut somnio. Sed ut agnoscant homines nemini auferri
+                        posse quod dederit deus, aurum quod fidei malae creditum est, furto
+                        conseruabitur. Fur ergo iam nunc aderit, per quem nobis salua res erit. Iste
+                        ornam cum reppererit, bustum putabit: sic ille prospexit senex. Praedam qui
+                        abstulerit, reportabit, totumque reddet qui parte contentus non fuit. Itaque
+                        bene perfidus alteri fraudem infert, damnum sibi. Tamen ne frustra memet
+                        uideritis, exponere quaedam uolo.<lb/><milestone unit="par" n="14"/>
+                        Querolus iste noster, sicut nostis, omnibus est molestus, ipsi, si fas est,
+                        deo, homo ridicule iracundus, itaque ridendus magis. Disserere cum istoc
+                        uolupe est et confutare uanam hominum scientiam. Fatum itaque iam nunc et
+                        hominem e diuerso audietis: uos iudicium sumite. Genium autem ipsius esse me
+                        quantum fieri potuerit cautissime confitebor, ne quod mihi faciat malum, nam
+                        maledicere mihimet numquam cessat ille noctes et dies.<lb/><milestone
+                            unit="par" n="15"/> Sed eccum ipsum audio, fatum et fortunam clamitat.
+                        Iste ad me uenit. Patrem peregre mortuum audiuit. Hui quam grauiter dolet!
+                        Vt sunt humana, credo quia nihil relictum comperit. Et quid ego nunc facio?
+                        Auolare subito hinc non possum, nimium memet credidi. Oportune hamigerum hic
+                        tridentem uideo, praesidium hercle non malum! Querolus si molestus esse
+                        hodie non destiterit, faciam ut queratur iustius. Vnde esse hoc dicam?
+                        Piscatores mane hac praeterisse uidi: ipsis forte hoc excidit.</p>
+                </sp>
+            </div>
+            <div type="scene" n="2">
+                <head><supplied>Scaena II</supplied></head>
+                <p><stage>QVEROLVS, LAR FAMILIARIS</stage><milestone unit="par" n="16"/></p>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> O fortuna, o fors fortuna, o fatum sceleratum atque impium! Si quis nunc
+                        mihi tete ostenderet, ego nunc tibi facerem et constituerem fatum
+                        inexsuperabile.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Sperandum est hodie de tridente. Sed quid cesso interpellare atque adloqui?
+                        Salue, Querole.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Ecce iterum rem molestam: "salue Querole". Istud cui bono, tot hominibus hac
+                        atque illac "haue" dicere? Etiamsi prodesset, ingratum foret.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Misanthropus hercle hic uerus est: unum conspicit, turbas putat.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quaeso amice, quid tibi rei mecum est? Debitum reposcis an furem tenes?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Iracundus nimium es, Querole.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Heia, ego officium sum aspernatus, adicit et conuicium.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Mane paulisper.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Non uacat.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Sic necesse est, mane.</p>
+                </sp>
+                <milestone unit="par" n="17"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Iam istud ad uim pertinet. Age, dic quid uis.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Scin tu quam ob causam tridentem istum gestito?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Nescio edepol, nisi quod primum propter inportunos inuentum esse hoc
+                        reor.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Idcirco hunc gestito, ut si me adtigeris, talos transfodiam tibi.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Dixin hoc fore? Nec salutatio inpune hic datur. Non mala hercle est
+                        condicio: neque te contingo neque me tu contigeris. Vale! Ite et conserite
+                        amicitias! Ecce adfabilitas prima quid dedit?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Mane, ego sum quem requiris quemque accusas, homuncio.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Ohe, talos ego incolumes ferre hinc uolo!</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Non tu paulo ante fatum accusabas tuum?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Accuso et persequor.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Ades ergo huc, ego sum.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Tu fatum es meum?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Ego sum Lar Familiaris, fatum quod uos dicitis.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Te ego iamdudum quaero: nusquam hodie pedem!</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Praemonueram de tridente, caue abstine!</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Immo tu caue!</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Ego iam prospexi.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quidnam hoc est praestigium?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Apage sis, homo ineptissime, hic nullum est praestigium. Desiste, nisi
+                        excipere mauis trina pariter uulnera.</p>
+                </sp>
+                <milestone unit="par" n="18"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Attat uero simile est esse hunc nescio quem de aliquibus uel geniis uel
+                        mysteriis. Ita seminudus dealbatusque incedit, toto splendet corpore. Euge,
+                        Lar Familiaris, processisti hodie pulchre. Sed non totum intellego. Quod
+                        seminudus es, recognosco, unde dealbatus, nescio. Egomet iamdudum apud
+                        carbonarias agere te putabam, tu de pistrinis uenis.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Hei, etiam istud de meo, quod, in malis tuis, commode iocaris. Audi nunc
+                        iam. Permouet nosmet, Querole, tua, quamuis inanis, querimonia. Idcirco
+                        itaque ueni ut ratio tibi ex integro redderetur, quod nemini antehac
+                        contigit.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Tibine rationem rerum humanarum licitum est nosse atque exponere?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Et noui et doceo. Proinde quicquid exinde quereris, hodie totum
+                        expromito.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Dies deficiet ante.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Breuiter percurre pauca, de quibus nunc tibi exponantur omnia.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Vnum solum est unde responderi mihi uolo: quare iniustis bene est et iustis
+                        male?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Primum, ut apud uosmet fieri uideo, de persona est quaestio. Cuinam tu uerba
+                        promis, tibine an populo?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Et populo, et mihi.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Cum tu satis ipse sis reus, quemadmodum tibi aliisque multis defensorem te
+                        paras?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Ego noui me reum non esse.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Ergo posthac adsertio conticescet, si persona exploditur. Inter bonos an
+                        inter malos tete numeras?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Etiam quaeritas quid mihimet ipse uidear, cum de scelestis conquerar?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Si probo de illis tete esse quos accusas, hoc est de malis, pro quibus
+                        posthac loquere?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Si criminosum me esse conuiceris, necesse est meritis ut meis sensum
+                        accommodem.</p>
+                </sp>
+                <milestone unit="par" n="19"/>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Celeriter nunc mihi responde, Querole. Quanta iam putas fecisse te
+                        capitalia?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Equidem nullum quod sciam!</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Nullumne? Ergo exciderunt omnia?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Immo omnia prope retineo, sed scelus nullum scio.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Eho, Querole, furtum nunquam admisisti?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Numquam ex quo destiti.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Ha, ha, he, hoc est numquam admisisse?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quod uerum est, non nego. Adulescens quaedam feci, fateor, laudari quae
+                        solent.</p>
+                </sp>
+                <milestone unit="par" n="20"/>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Cur igitur destitisti de scelere tam laudabili? Transeamus istud. Quid de
+                        falso dicimus?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Hem quis autem uerum dicit? Istud commune est. Abi.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Idcirco crimen non est? Quid de adulterio?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Attat etiam hoc crimen non est.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Quando autem licitum esse coepit?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Men rogas, quasi tu nescias? Hoc est quod nec permitti nec prohiberi
+                        potest.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Quid ad haec, Querole? Videsne te contra licitum uiuere?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Si tu me ad haec reuocas, nemo est innocens.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Et tamen non de omnibus tete interrogaui, si reminisceris.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Nihil est amplius.</p>
+                </sp>
+                <milestone unit="par" n="21"/>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Nulli igitur mortem optasti?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Nemini.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Quid si conuinco?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Nihil est quod respondeam.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Dic mihi si soceros nunquam habuisti.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Ecce iterum generalia.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Ergo omnia de omnibus confiteris.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quando sic interrogas.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Quando haec tibi leuia uidentur, nescio quid sit quod crimen putes. Dic mihi
+                        praeterea quotiens peieraueris. Expone celeriter.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Bona Hora hoc exaudiat! Istud a me semper alienum fuit.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Quanto amplius quam milies peieraueris, hoc requiro, saltem hoc dicito!</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Ohe, illa tu nunc requiris cotidiana et iocularia.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Non facile intellego, periurium ioculare quid putas. Tamen transeamus quod,
+                        ut uideo, consuetudo iam fecit leue. Quid igitur? Sciens prudensque
+                        sacramentorum numquam rupisti fidem? Vt alia reticeam, numquam iurasti amare
+                        te quem iuratus oderas?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Heu me miserum! Quid ego hodie mali cum istoc repperi! Iuraui saepe, fateor,
+                        quod cum staret uerbis, non staret fide.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Vrbane igitur peierasti: fieri hoc solet. Quanto mallem ut sermo laberetur
+                        et staret fides! Tune, Querole, uerbis te absolutum esse credis? Peierat
+                        saepe qui tacet: tantum est enim tacere uerum quantum et falsum dicere.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Omnia igitur peregisti, totum commerui. Vale.</p>
+                </sp>
+                <milestone unit="par" n="22"/>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Immo nihil est actum, Querole, nisi sequantur haec duo: primum contra
+                        meritum tuum miserum te non esse ut comprobem, secundo etiam felicem tete
+                        esse iam nunc ipse intellegas.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Ergone egomet aerumnosus non sum?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Es, fateor, sed uitio tuo. Atque ut in omnibus reuincare, expone breuiter de
+                        quibus quereris maxime.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Primum tibi, geniorum optime, conqueror de amicis.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Spes bona, quid de inimicis iste faciet? In quo tamen amicitiarum te laesit
+                        fides?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Nemo mihi magis molestus quam familiaris neque magis morigerus quam leuiter
+                        cognitus.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Quidnam hoc mirum est, si te qui nouit despicit, qui non nouit diligit?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Agimus tibi gratias, Lar Familiaris, tu nos ornas in omnibus.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Iam intellego quid querere. Visne breuibus remedium hinc dari?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Valde cupio.</p>
+                </sp>
+                <milestone unit="par" n="23"/>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> In amicitiam et fidem stultum ne receperis. Nam insipientum atque improborum
+                        facilius sustinetur odium quam collegium.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quid si sapiens non erit?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Stultos ingenio rege.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quo modo?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Vis te non decipi?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER. </speaker>
+                    <p> Cupio.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Ne credideris nemini. In tua est potestate ne decipiaris. Cur accusas
+                        perfidos? Visne tibi honorem deferri?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Maxime.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Inter miseros uiuito.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Prope uera loqueris.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Visne te non decipi, maxime a tuis?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Vellem, si fieri potest.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Dicam quod dictum est prius: nemini te, Querole, nimis sodalem feceris. Res
+                        nimium singularis est homo, ferre non patiens parem. Minores despicitis,
+                        maioribus inuidetis, ab aequalibus dissentitis.</p>
+                </sp>
+                <sp>
+                    <speaker><supplied>QVER.</supplied></speaker>
+                    <p> Dic quaeso, quid placeat.</p>
+                </sp>
+                <sp>
+                    <speaker><supplied>LAR.</supplied></speaker>
+                    <p> Ergo secundum uitia et mores quid sit tenendum, discito. Compares
+                        comessationes uinum turbas respue. Quem tu maxime tibimet obligare uolueris,
+                        quanto leuius nectito! Conuentus uero et debacchationes et ioca friuola non
+                        quaero, ut amorem pariant, utinam nihil odiorum darent!</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quid quod plures huiusmodi societate optime utuntur?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Noui omnia. Illos mihi tu narras qui totum occultant? Nimium uel prudentes
+                        uel felices sunt quos requiris. Hoc ad Querolum non facit.</p>
+                </sp>
+                <milestone unit="par" n="24"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Est aliud quod accusem. Pauper ego sum quidem, sicut tu uel nosti uel facis,
+                        sed hoc mecum tolerabile est. Illud prorsus non fero quod tenuitati nemo
+                        ignoscit neque cuiquam ut aliquem dicat pauperem,
+                            <supplied>sufficit</supplied>.</p>
+                </sp>
+                <sp>
+                    <speaker><supplied>LAR.</supplied></speaker>
+                    <p> Quid praeterea?</p>
+                </sp>
+                <sp>
+                    <speaker><supplied>QVER.</supplied></speaker>
+                    <p> Hui quantum adiiciunt! Stultitiam neglegentiam somnum et gulam: patientia
+                        desidiae, acrimonia crudelitati adsignantur. Sic uertuntur omnia. Nemo ad
+                        facultates, nemo ad sensum respicit. Semper diues diligens, contra pauper
+                        neglegens.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Censoribus haec reserua, Querole. Nunc autem illud dicito quod specialiter
+                        te inquietat et grauat, nam ista quae protulisti, communia sunt et antiqua
+                        paupertatis crimina. Tamen tu neque diues neque pauper es. Hoc si
+                        agnosceres, felix eras.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Scisne me nuper patrem amisisse?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Seruasti praeceptum! Speciale hoc plane est: hoc est quod nemini antehac
+                        contigit! Quid igitur? Nonne iustum hoc fuit patrem ut efferret filius?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Fateor, sed pater ipse nihil reliquit.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Dura deploratio! Exequias inanes tibi contigisse luges? Irasceris ergo, non
+                        doles. Patri certe nihil defuit tibique hodie nihil defit: non enim hoc
+                        parua hereditas. Suscensesne? Senio saltem extremo sibimet uixit, qui semper
+                        tibi. Vtinam tu heredibus tantum relinquas quantum reliquit Euclio! Dic ergo
+                        aliud: iam istinc nihil audio.</p>
+                </sp>
+                <milestone unit="par" n="25"/>
+                <sp>
+                    <speaker>QVER. </speaker>
+                    <p> Seruus mihi est quem tolerare nequeo, Pantomalus et mente et nomine.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Felicem te, Querole, si unus tibi est Pantomalus, multi Pantomalos
+                        habent.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER. </speaker>
+                    <p> Sed plures audio qui suos etiam laudant.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Isti peiores habent.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Cur igitur laudant?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Quia quid perdant, nesciunt.</p>
+                </sp>
+                <milestone unit="par" n="26"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Tempestas maxime fructus meos numquid commune hoc fuit?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Non uno genere homines puniuntur: tibi tempestas obfuit, alter aliud
+                        pertulit.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Ohe, consortes mei iamdudum nihil incommodi pertulerunt.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Fallis turpiter.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Da, quaeso, ueniam: ignorabam peculiarem tibi curam esse hanc de consortibus
+                        meis. <milestone unit="par" n="27"/> Adhuc habeo quod obiciam. Vicinus mihi
+                        malus est.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Ecce rem uere malam! Tamen, Querole, de uno isto quantum etiam hic
+                        praestiterim, uide. Vicinum malum pateris unum tantum, quid faciunt illi qui
+                        plures habent?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Conserua istum quaeso, Lar Familiaris, ex uoto meo tuere quem praestitisti
+                        ne forte nascantur duo.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Quid si etiam hinc uincimus? Dic quaeso nunc mihi quem tu putas feliciorem,
+                        tete an istum de quo quereris?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quidnam hic simile est? Aut numquid dubitari potest feliciorem eum esse qui
+                        alterum queri compellit quam ille qui ad querelam confugit?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Hem Querole, uis iam nunc facimus ut infeliciorem esse hunc scias?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Valde cupio.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Sed hoc egomet tibi tantum indicabo. Paululum aurem accommoda.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Cur non aperte loqueris? Numquidnam etiam tu times?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Quidni timeam qui tecum uiuo? Aurem accommoda.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Age, dicito... Ha ha he, habeat teneat possideat aeque cum suis! Laute
+                        edepol nos accipis, doctor!</p>
+                </sp>
+                <sp>
+                    <speaker><supplied>LAR.</supplied></speaker>
+                    <p> Nonne?</p>
+                </sp>
+                <sp>
+                    <speaker><supplied>QVER.</supplied></speaker>
+                    <p> Certe iam nihil conqueror.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Quid istuc, Querole? Paululum tibi ita uidetur, rursum ad ingenium redis.
+                            <milestone unit="par" n="28"/> Sed quoniam miserum te non doces,
+                        superest ut felicem comprobem. Dic quaeso, Querole, sanus es?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Ita arbitror.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Quanti hoc aestimas?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Hoc etiam inputas?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> O Querole, sanus es et felicem te negas? Vide ne postmodum felicem te fuisse
+                        scias.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Iam superius dixeram, bene mecum agitur, sed iuxta alios male.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Certe apud te bene.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Fateor.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Quid quaeris amplius?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quare alii melius?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Iam istud ad inuidiam pertinet.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Sed recte inuideo, nam sum deterior inferioribus.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Quid si feliciorem tete edoceo quam sunt isti, de quibus dicturus es?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Tum igitur facies posthac Querolus nullum permittat queri.</p>
+                </sp>
+                <milestone unit="par" n="29"/>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Vt negotium sit breuius et lucidius, argumenta remoueo. Tu fortunam dicito
+                        cuius tibi condicio placeat: sortem autem quam ipse uolueris iam nunc dabo.
+                        Tantum illud memento: ne putes posse te aliquid deplorare atque excipere,
+                        unde aliquid legeris.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Placet optio: da mihi diuitias atque honores militares uel mediocriter.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Istud tibi praestare ualeo. Verum illud uide si tu ualeas implere quod
+                        petis.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quid?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Potes bellum gerere, ferrum excipere, aciem rumpere?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Istud numquam potui.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Cede igitur praemio atque honoribus his qui possunt omnia.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Saltem aliquid nobis tribue in parte hac ciuili et miserabili.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Vis ergo omnia et exigere et exsoluere?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Attat hoc excidit. Iam neutrum uolo. <milestone unit="par" n="30"/> Si quid
+                        igitur potes, Lar Familiaris, facito ut sim privatus et potens.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Potentiam cuiusmodi requiris?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Vt liceat mihi spoliare non debentes, caedere alienos, uicinos autem et
+                        spoliare et caedere.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Ha, ha, he, latrocinium non potentiam requiris. Hoc modo nescio edepol
+                        quemadmodum praestari hoc possit tibi. Tamen inueni: habes quod exoptas.
+                        Vade, ad Ligerem uiuito.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quid tum?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Illic iure gentium uiuunt homines; ibi nullum est praestigium, ibi
+                        sententiae capitales de robore proferuntur et scribuntur in ossibus; illic
+                        etiam rustici perorant et privati iudicant; ibi totum licet. Si diues
+                        fueris, patus appellaberis: sic nostra loquitur Graecia. O siluae, o
+                        solitudines, quis uos dixit liberas? Multo maiora sunt quae tacemus. Tamen
+                        interea hoc sufficit.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Neque diues ego sum neque robore uti cupio. Nolo iura haec siluestria.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Pete igitur aliquid mitius honestiusque, si iurgare non potes.</p>
+                </sp>
+                <milestone unit="par" n="31"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Da mihi honorem qualem optinet togatus ille nec bonus.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Et tu togatos inter felices numeras?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Maxime.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Rem prorsus facilem nunc petisti. Istud etiamsi non possumus, possumus.
+                        Visne praestari hoc tibi?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Nihil est quod plus uelim.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Vt maxima quaeque taceam, sume igitur tegmina hieme trunca et aestate
+                        duplicia, sume laneos cothurnos, semper refluos carceres quos pluuia soluat,
+                        puluis compleat, caenum et sudor glutinet, sume calceos humili fluxos
+                        tegmine quos terra reuocet, fraudet limus concolor. Aestum uestitis genibus,
+                        brumam nudis cruribus, in soccis hiemes, cancros in tubulis age, patere
+                        inordinatos labores, occursus antelucanos, iudicis conuiuium primum
+                        postmeridianum aut aestuosum aut algidum aut insanum aut serium. Vende
+                        uocem, uende linguam, iras atque odium loca. In summa, pauper esto et
+                        reporta penatibus pecuniarum aliquid, sed plus criminum. Plura etiam nunc
+                        dicerem, nisi quod efferre istos melius est quam laedere.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Neque istud uolo. <milestone unit="par" n="32"/> Da mihi diuitias quales
+                        consequuntur illi qui chartas agunt.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Sume igitur uigilias et labores illorum quibus inuides. Aurum in iuuenta,
+                        patriam in senecta quaere, tiro agelli, ueteranus fori, ratiocinator
+                        erudite, possessor rudis, incognitis familiaris, uicinis nouus, omnem
+                        aetatem exosus agito, funus ut lautum pares, heredes autem deus ordinabit.
+                        Istis nolo inuideas, Querole. Saepe condita luporum fiunt rapinae
+                        uulpium.</p>
+                </sp>
+                <milestone unit="par" n="33"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Heia nec chartas uolo. Tribue saltem nunc mihi peregrini illius et
+                        transmarini mercatoris sacculum.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Age igitur conscende maria, te tuosque pariter undis et uentis credito.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Istud egomet numquam uolui. Da mihi saltem uel capsas Titi.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Sume igitur et podagram Titi.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Minime.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Neque tu capsas continges Titi.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Neque istud uolo. Da mihi psaltrias et concubinulas quales habet auarus ille
+                        fenerator aduena.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Habes nunc plane tota mente quod rogas. Suscipe quod exoptas toto cum choro.
+                        Sume Paphien, Cytheren, Briseiden, sed cum pondere Nestoris.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Ha ha he, quam ob rem?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Habet hoc ille cuius tu sortem petisti. Eho, Querole, numquam audisti "nemo
+                        gratis bellus est"? Aut haec cum his habenda sunt aut haec cum his amittenda
+                        sunt.</p>
+                </sp>
+                <milestone unit="par" n="34"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Adhuc inuenio quod requiram. Da mihi saltem impudentiam.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Vrbane edepol tu nunc omnia quae negauerim, concupiscis. Si toto uis uti
+                        foro, esto impudens, sed sapientiae iactura facienda est nunc tibi.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quam ob rem?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Quia sapiens nemo est impudens.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Vae tibi, Lar Familiaris, cum tua disputatione!</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Vae tibi, Querole, cum tua querimonia.</p>
+                </sp>
+                <milestone unit="par" n="35"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Numquamne mutabis, calamitas?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Quamdiu tu uixeris.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Felices ergo non sunt?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Sunt aliqui, sed non illi quos tu putas.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quo modo? Si ostendero iam nunc tibi aliquem et sanum et diuitem, felicem
+                        hunc negabis?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Diuitem potes nosse. Sanum esse quid putas?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Corpore bene ualere.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Quid si aegrotat animo?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Istud egomet nescio.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> O Querole, imbecilla tantum uobis corpora uidentur: quantum animus est
+                        infirmior! Spes, timor, cupiditas, auaritia, desperatio non esse felicem
+                        sinunt.<lb/>Quid si nescio quis ille alius in corde, alius est in uultu?
+                        Quid si laetus publice, maeret domi? Vt maiora reticeam, quid si uxorem non
+                        amat, quid si uxorem nimis amat?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Si nemo felix, nemo igitur iustus.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Etiam hinc respondeo. Sunt aliqui, fateor, iusti prope, sed prima est horum
+                        calamitas. Estne aliquid quod requiras?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Immo edepol nihil. Meam mihi concede sortem, quando nihil melius
+                        repperi.</p>
+                </sp>
+                <milestone unit="par" n="36"/>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Igitur quamquam felicem esse te constiterit, tamen etiam nunc beatiorem te
+                        futurum ut agnoscas, uolo. Aurum hodie multum consequere.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Ludis nos: fieri hoc non potest.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Quam ob causam?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quia non est uia.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Sane difficile est nobis facere atque inuenire quod tu non intellegis.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Dic quaeso numquid rex aliquid largietur?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Nihil.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Numquid amicus donabit aliquid?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Nihil.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Numquidnam ex transuerso quispiam me hereem instituet?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Nihil minus.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Numquid thesaurus alicubi defossus apparebit ante oculos meos?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Atqui si thesaurus domi tuae lateret, prius alteri esset ostendendus quam
+                        tibi.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Et quemadmodum sum habiturus egomet quod mihi nullus dabit?</p>
+                </sp>
+                <milestone unit="par" n="37"/>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Vade iam nunc et quicquid contra te est, facito.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Cur ita?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Sic expedit. Fallenti credito et circumuenienti operam atque adsensum
+                        accommoda. Fures si ad te uenerint, excipe libenter, praedones etiam
+                        similiter!</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Tum, si aliquis meis aedibus facem subiciet, iuberesne me oleum
+                        infundere?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Noueram te crediturum non esse.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Fures mihi ac praedones cui bono?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Vt si quid tibi spei aut praesidii est, totum auferant.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Cur ita?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Vt sis diues.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quo modo?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Bona si perdideris tua.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quam ob rem?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Vt sis felix.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quomodo?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Si fueris miser.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Istud plane est quod saepe audiui obscuris uera inuoluere. Sed quid facere
+                        me iubes?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Quod contra te putas.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Dic ergo quid sit, ne fortassis aliquid pro me faciam nescius.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Quicquid egeris gesserisue hodie, pro te fiet.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quid si egomet nolo?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Velis nolis hodie bona fortuna aedes intrabit tuas.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quid si aedes obsero?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Per fenestram defluet.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quid si et fenestras clausero?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> O stulte homo, prius est ut tecta pateant ipsaque sese tellus aperiat quam
+                        ut tu excludas uel submoueas quod mutari non potest.</p>
+                </sp>
+                <milestone unit="par" n="38"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Igitur quantum intellego, non mihi praestatur quod uelim nolim faciundum
+                        est.</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> Neque ego id expectabam ut gratias ageres, sed ut Querolum te constaret in
+                        omnibus.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Tu nunc quo tendis?</p>
+                </sp>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p> In aedes tuas, immo nostras, me recipio. Inde ibo quolibet, ita tamen
+                        usquequaque peruagabor ut te numquam deseram.</p>
+                </sp>
+                <milestone unit="par" n="39"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Incertus ego sum factus magis hodie quam semper fui. Quid ergo nunc faciam
+                        cum responso huiusmodi? Cuiquamne oraculum tale unquam datum est ut ipse
+                        sibimet mala quaereret aut non excluderet, si fieri posset, ingruentem
+                        miseriam? "Perde, inquit, si quid est tibi domi ut adquiras plurima". Mea si
+                        mihi auferantur, aliena quando et quis dabit? "Vade, inquit, fures require,
+                        praedones recipe in domum". Primum hoc si cognosci atque etiam si probari
+                        potuerit, nonne iudex, iure optimo, pessum dabit tamquam latronum conscium?
+                            <milestone unit="par" n="40"/> Sed ubinam fures ipsos modo requiram, ubi
+                        inuestigem nescio. Vbinam illa est cohors fuliginosa uulcanosa atra quae de
+                        die sub terras habitant, nocte in tectis ambulant? Vbi illi sunt qui urbane
+                        fibulas subducunt quique curtant balteos? Nisi fallor, unum ex ipsis uideo
+                        atque ecce rem gerit. Hem tibi clamo inpostor! Ohe cessa, euge seruata est
+                        fibula. Attat spes mihi nulla est: mandato excidi. Interdictum fuerat ne
+                        obuiarem furibus, uerum ne excluderem; hercle hoc stultum est, nihil prorsus
+                        hinc placet. <milestone unit="par" n="41"/> Atque edepol, nisi fallor, iste
+                        qui apud me est locutus, urbanus est homo. Numquodnam meritum nunc meum, ut
+                        mihi potissimum res diuina ostenderetur? Hic nescio quid est praestigii.
+                        Vereor hercle ne furtum quod denuntiabat, iam perfecerit. Ego me hac intus
+                        refero, atque hominem si repperero, continuo producam foras.</p>
+                </sp>
+            </div>
+            <div type="scene" n="3">
+                <head><supplied>Scaena III</supplied></head>
+                <p><stage>MANDROGERVS, SYCOPHANTA, SARDANAPALLVS</stage><milestone
+                        unit="par" n="42"/></p>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Multum sese aliqui laudant qui uel pugnaces feras uel fugaces bestias, aut
+                        uestigiis insequuntur aut cubilibus deprehendunt aut casu opprimunt. Quanto
+                        mihi maius est ingenium et lucrum, qui homines uenor publice. Sed quos
+                        homines! Diuites et potentes et litteratos maxime! Mandrogerus ego sum
+                        parasitorum omnium longe praestantissimus. Aula quaedam hic iacet cuius
+                        odorem mihi trans maria uentus detulit. Cedant iuris conditores, cedant
+                        omnia cocorum ingenia, cedant Apici fercula! Huius ollae condimentum solus
+                        sciuit Euclio. Quid miramini? Aurum est quod sequor: hoc est quod ultra
+                        maria et terras olet. Quid ad haec uos dicitis, nouelli atque incipientes
+                        nunc mei? Quando haec discere potestis, quando sic intellegetis, quando sic
+                        docebitis?</p>
+                </sp>
+                <milestone unit="par" n="43"/>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Atqui si scias, Mandrogerus noster, quale egomet somnium nocte hac uidi!</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Dic obsecro, si quid est boni.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Nocte hac uidebam thesaurum quem sperabamus nobis uenisse in manus.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Quid tum?</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Videbam ex parte solidos.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Ha, istud non placet.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Erant praeterea uncinuli, hamati, torques et catenulae.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Dic quaeso: aliqua insuper non somniasti uincula et uerbera?</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Infaustum hercle hominem. Solum hic non uidit carcerem. Ohe homo prodigiose,
+                        ego te iam nunc explodo cum uerbis tuis. Nocte ista, ego in somnis funus
+                        uidebam.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Dii te seruent hic bene!</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Et nos ipsi funus illud nescio quo ferebamus.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Optime.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Insuper etiam deflebamus defunctum illum, quasi alienum tamen.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Audin tu istaec, stulte homo? Talia egomet iam manifesta malo quam tua
+                        somnia. Funus ad laetitiam spectat, lacrimae ad risum pertinent et mortuum
+                        nos ferebamus: manifestum est gaudium. <milestone unit="par" n="44"/> Ego
+                        autem meum uobis narrabo somnium prorsus manifestissimum. Dicebat nescio
+                        quis somnianti nocte hac mihi thesaurum istum quem requirimus mihi seruari
+                        manifesta fide nec cuiquam alteri concessum esse aurum illud inuenire nisi
+                        mihi. Sed insuper adiecit ex istis opibus hoc tantummodo mihi profuturum
+                        quod consumpsisset gula.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Optime edepol somniasti. Quid autem aliud quaerimus nisi tantum quod
+                        sufficiat uentri et gulae?</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Pulchre edepol somniasti. Felicem te, Mandrogerus, nosque qui tecum
+                        sumus.</p>
+                </sp>
+                <milestone unit="par" n="45"/>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Sed heus tu, Sycophanta noster, nisi me fallit traditio, iam peruenimus.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Ipsa est platea quam requiris.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Recurre ad indiculum cito.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Sacellum in parte, argentaria ex diuerso.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Vtrumque sic est.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Ventum est.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Quid praeterea?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Domus excelsa.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Apparet.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Ilignis foribus.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Ipsa est.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Attat quam humiles hic fenestras uideo. Euge hic frustra clauduntur fores.
+                        Tum praeterea inermes quantum inter sese distant regulae. Secura hercle
+                        regio hic mihi et fures nil nocent. Sed interius mihi aurum olet. Alia
+                        temptandum est uia. Heia nunc, Sycophanta noster tuque Sardanapalle, si quid
+                        uobis ingenii, comitatis et uirtutis, nunc totum ostendite. Ego tamquam
+                        cynicus magister inuenta et inclusa trado gaudia. Retia uosmet obsidete, dum
+                        percurro cubilia. Iam omnia tenetis animo, quae iamdudum diximus quaeque
+                        exinde meditamur nocte ac die.</p>
+                </sp>
+                <milestone unit="par" n="46"/>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> De atrio, porticus in dextra, sacrarium ad sinistram.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Recte rationem tenes.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> In sacrario tria sigilla.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Conuenit.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Arula in medio.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Sic sunt omnia.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Aurum ante aram.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Hoc iam nostrum est. Quid, ipsius Queroli indicia iam tenetis?</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Melius hercle quam tua. Tu uide an diuinare possis, nos mentiri nouimus.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Ego istuc in parte hac deambulatum ibo, illinc obseruabo omnia atque ubi res
+                        uel ratio postularit, continuo hic adero.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Nos quoque paululum istac secedamus, ne suspicionem inprobitas paret.</p>
+                </sp>
+            </div>
+            <div type="scene" n="4">
+                <head><supplied>Scaena IV</supplied></head>
+                <p><stage>QVEROLVS, SYCOPHANTA, SARDANAPALLVS</stage><milestone unit="par"
+                        n="47"/>
+                </p>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Noster ille qui mecum est locutus, nusquam apparuit neque aliquid subripuit
+                        intus. Iste plane homo non fuit.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Hem ipse est. Vellem hercle audire hunc hominem quem uidi modo. Ego magos
+                        mathematicosque noui, talem prorsus nescio. Hoc est diuinare hominem, non
+                        qualiter facere quidam risores solent.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Hem quemnam diuinum isti esse dicunt?</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Sed hoc nouum est quod uidi modo. Vbi te aspexerit, primum tuo te uocat
+                        nomine, dein parentes, seruos atque omnem familiam exponet, quasi nouerit,
+                        quid tota gesseris aetate quidue postea sis acturus, totum edisserit.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Bellus hercle hic nescio qui est. Non praetereunda est fabula.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p>Quaeso sodes, adgrediamur hominem illum ratione qualibet.</p>
+                </sp>
+                <sp>
+                    <speaker><del>SARD.</del></speaker>
+                    <p> O me stultum atque ineptum qui non consului statim!</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Et ego hercle uellem, uerum ut nosti, non uacat.</p>
+                </sp>
+                <milestone unit="par" n="48"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Cur non omnia agnosco? Saluete amici.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Saluus esto qui saluos esse nos iubes.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quid uos? Secretumne aliquod?</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Secretum a populo, non secretum a sapientibus.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> De mago nescio quid uos audiui.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Ita est, de nescio quo nunc sermo erat qui omnia diuinat. Verum quisnam ille
+                        homo sit nescio.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Estne talis aliquis?</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Maxime. Ergo, Sycophanta, ut dixeram, per te tuosque, mi sodes, te rogo ut
+                        illac uenias mecum una simul.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Iamdudum dixi, ultro et libenter irem, si uacuum nunc esset mihi.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Mane paulisper.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quaeso amice ne te subripias tam cito: egomet quoque scire cupio quisnam
+                        iste est de quo sermo nunc erat.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Edepol, nescio quid aliud mihi est negotii. Cognati atque amici iamdudum me
+                        expectant domi.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Magna, hercle, hominis difficultas et persuasio. Neque nunc te amici
+                        expectant neque cognati. Paulisper mane.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quaeso, amice, si mea non est odiosa societas, consulere uobiscum uolo.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Vereor hercle ne difficilem se nobis faciat, si plures uidet.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Optime, edepol. Ecce sodes, comitem quaerebas: habes. Mihi molestus ne
+                        sies.</p>
+                </sp>
+                <milestone unit="par" n="49"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quaeso, amice, si huic ita uidetur abeat. Nos illac una simul.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Atqui isto nobis est opus, quoniam hominem illum uidit et nouit bene.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Iustum est ut nobis hodie operam impendas, quoniam sic ratio expostulat.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Immo, hercle, iste illum nouit melius atque ille hunc familiariter.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Sed quaeso nunc uestram fidem: quisnam hic homo est uel cuius loci?</p>
+                </sp>
+                <milestone unit="par" n="50"/>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Quantum comperi, Mandrogerus uocatur: hoc scio.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Attat pulchrum hercle nomen. Iam hoc de magis existimo.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Primum praeterita edicit, si omnia cognoscis, tum de futuris disserit.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Magnum, hercle, hominem tu narras. Et consulere hunc non placet?</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Volo equidem, sed paulisper non uacat.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Age, da operam amicis: nobis quoque similiter impera si quid uoles.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Habeo gratiam: quoniam istud uultis, fiat. Sed audite quid loquor, huiusmodi
+                        homines impostores esse.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Hem sodes, ipsud uolebam dicere. Certe ferulas non habet neque cum turbis
+                        ambulat?</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Ha, ha, he, tales, hercle, consulere hic deberet homo curiosissimus!</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Verbis quantum uult, ille fallat, plus de nobis non licet.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Si uobis ita uidetur, placeat ut ego hominem scisciter atque ut omnia
+                        perquiram non uno modo. Si mihi ille de omnibus respondere potuerit, sciatis
+                        uere esse hunc diuinum uel magum.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Dixisti optime. Sed eccum ipse hac praeterit. Ita ut uolui, contigit. Quanta
+                        in ingressu grauitas, quanta in uultu dignitas!</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Adgrediamur hominem, atque a publico seuocemus ut secreto disserat.</p>
+                </sp>
+            </div>
+            <div type="scene" n="5">
+                <head><supplied>Scaena V</supplied></head>
+                <p><stage>QVEROLVS, MANDROGERVS, SYCOPHANTA, SARDANAPALLVS</stage><milestone
+                        unit="par" n="51"/></p>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Salue Mandrogerus.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Saluos esse uos uolo.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Tu quoque incolumis esto, sacerdotum maxime, quoniam laudaris ac diligeris
+                        plurimum merito tuo.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Scin tu, Mandrogerus, quid ex te uolumus noscere?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Quaenam? Fortasse noui.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Consulere de quibusdam uolumus et cognoscere tuam insignem sapientiam.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Non equidem constitueram, sed quoniam ita uultis, consulite ut
+                        respondeam.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Quaesumus ut libenter nobis operam tuam impendas. Prolixa nunc disceptatione
+                        opus est.</p>
+                </sp>
+                <milestone unit="par" n="52"/>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Dicite quid uelitis.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Primum ut exponas quaesumus quae sunt optima sacrorum genera uel cultu
+                        facilia.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Duo sunt genera potestatum: unum est quod iubet, aliud quod obsecundat: sic
+                        reguntur omnia. Praeclarior maiorum potestas, sed minorum saepe utilior
+                        gratia. Verum de maioribus neque mihi dicere neque uobis audire est utile.
+                        Itaque si et inuidiam et sumptum euitatis, sperate ab inferioribus.</p>
+                </sp>
+                <milestone unit="par" n="53"/>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Quaenam ista sunt obsequia quibus obsequi nunc oportet?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Dicam celeriter. Tria sunt in primis: planetae potentes, anseres inportuni
+                        et cynocephali truces. Has tu effigies omnibus in fanis et sacellis si
+                        intueare, facile intelleges. Haec tria tu si euadere uel placare potueris,
+                        nihil est obstare quod possit tibi.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Illosne, quaeso, tu mihi planetas loqueris numeris qui totum rotant?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Ipsos, nec uisu faciles nec dictu affabiles, atomos in ore uoluunt, stellas
+                        numerant, maria aestimant; sola mutare non possunt sua.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Egomet audieram quod ipsi omnia gubernarent.</p>
+                </sp>
+                <milestone unit="par" n="54"/>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Ha, ha, he, hic si aliquid gubernari censes, nescio ubi naufragium dixeris.
+                        Vbi rerum omnium penuriam esse norunt, illic homines congregant. Summa est
+                        medella uicissim alia ut euertant loca. Messes hac atque illac transferunt
+                        diris tempestatibus omnesque fructus paucorum improbitas capit.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Nouum tibi est transferri messes?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Istis licet rerum omnium species atque formas, ut libuerit, uertere. Sed
+                        quot gradibus et transfusionibus! Aliud ex alio iubent. Triticum ex uino
+                        subito fieri uideas, uinum ex tritico. Iam flaua seges hordei facile
+                        efficitur ex quouis titulo et nomine. Mortales uero animas siue inferis siue
+                        superis addere nullus labor.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Vides ergo tam potentes placari oportere.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Ha, ha, he, paucis hoc licet. Sacraria istaec nimis superba sunt et
+                        sumptuosa maxime; si obaudire uultis, exiguo uotum soli sacello soluite.</p>
+                </sp>
+                <milestone unit="par" n="55"/>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Et oracla istaec, ubinam specialiter sunt expetenda?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Vbi libet: hac atque illac, sursum deorsum, in tena in mari.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Et quisnam infelix deprehendere aut adire possit haec tam uaga sidera?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Adire <supplied>non</supplied> facile est, abire impossibile.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Quam ob rem?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Mysteria sunt in aditu diuersa et occulta, quae nos soli nouimus: harpyiae,
+                        cynocephali, furiae, ululae, nocturnae striges. Absentes hydris congregant,
+                        praesentes uirgis submouent. Ita neque abesse licitum est nec adire tutum.
+                        Turbas abigunt et turbas amant. Quid plura Querole? Si te numina diligunt,
+                        ne tu quicquam hinc noueris.</p>
+                </sp>
+                <milestone unit="par" n="56"/>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Atqui, sacerdos noster, mysterium hoc iam displicet. De secundo illo genere
+                        anserino edissere atque expone si quid est boni.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Isti sunt qui pro hominibus perorant ante aras atque altaria quibus cygnea
+                        sunt capita et colla. Reliquias edere mensarum solent. Isti sunt ariolorum
+                        longe fallacissimi. Tantum est quod uota hominum interpretantur et male,
+                        precemque dicunt, sed responsa numquam eliciunt congrua.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Hosne tu olores esse narras? Ego in sacellis proxime anseres inspexi multos:
+                        neminem uidi cygnum. Magnis gutturibus capita adtollunt, alas pro manibus
+                        gerunt. Primum inter sese linguam trisulco uibrant sibilo. Inde ubi sonuerit
+                        unus, cuncti alas quatiunt diris cum clangoribus.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Non paruo explentur isti. Panem neque nouerunt neque uolunt, hordea
+                        insectantur fracta et madida, spicas nonnulli uorant. Quidam etiam polenta
+                        utuntur et carne iam subrancida.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> En sumptum inanem!</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> De istis quondam magnus dixit Tullius "anseribus cibaria publice locantur et
+                        canes aluntur in Capitolio".</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> O genus hominum multiforme et multiplex! His egomet fuisse arbitror matrem
+                        Circen, Proteum patrem.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Edepol neque isti placent. Cynocephalos nunc expone, si meliores putas.</p>
+                </sp>
+                <milestone unit="par" n="57"/>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Isti sunt qui in fanis ac sacellis obseruant uela et limina, quibus a
+                        pectore capita sunt canina, alui grandes, pandae manus: aeditui custodesque.
+                        Istos Hecuba quondam, postquam uere facta est canis, Anubi nupta, nostro
+                        latranti deo, omnibus templis ac delubris semper denos edidit, sic a pectore
+                        biformes, infra homines, sursum feras. Itaque ubi ignotus precator templa
+                        petierit, hinc atque hinc multisono cuncti latratu fremunt. Vt adeas tantum
+                        dabis, ut perorare liceat multo plus dabis. Mysterium de religione faciunt
+                        et commercium. Quae communia sunt et gratuita, uendunt foris. Istis omnibus
+                        litandum, si paruo nequeas, at quanti queas. Respicite ad homines
+                        potestatesque uestras et nobis ueniam date. Mihi credite, deus facilius
+                        aditur quam prole cognitor.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Actum est: neque istos uolo nihilque inter omnia quae narrasti inprobius
+                        puto.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Felices uos qui non cynocephalos pertulistis! Ego autem ipsum uidi Cerberum,
+                        ubi, nisi ramus aureus adfuisset, Aeneas non euaserat.</p>
+                </sp>
+                <milestone unit="par" n="58"/>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Quid de simiis?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Istae sunt quae futura scribunt, gesta quae uos dicitis, hominumque fata
+                        leuibus uoluunt paginis. Non quidem periculosa haec animalia, sed molesta
+                        atque inproba. Quas illic sannas, quos corymbos uideas, si nummos
+                            <del>non</del> asperseris! Nam si insuper nuces et sorba dederis, omnem
+                        popellum ceperis!</p>
+                </sp>
+                <milestone unit="par" n="59"/>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Harpyias quaeso praeteristi quae semper rapiunt et uolant.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Istae sunt quae uota hominum obseruant atque honores numinum. Non solum
+                        solemnia, uerum etiam extraordinaria requirunt et parentum debita. Si
+                        aliquid ad diem praesentatum non est, cum tormentis exigunt. Hac atque illac
+                        totum per orbem iuxta terras peruolant. Digitos ad praedam exacuunt curuis
+                        timendos unguibus semperque mensis aduolant. Quod contingunt auferunt, quod
+                        relinquunt polluunt. Istaec prodigia alere quam nosse malo, sed neutrum
+                        placet.</p>
+                </sp>
+                <milestone unit="par" n="60"/>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Noctiuagos etiam praeteristi, celeres capripedes, hirquicomantes.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Innumerabilia sunt haec prodigia, sed ignaua et uilia. Solum hoc est quod
+                        sequuntur atque obseruant unice Panem deum.</p>
+                </sp>
+                <milestone unit="par" n="61"/>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Omnia sacra tute ipse inprobasti: quaenam igitur praedicas?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Quoniam simpliciter interrogastis, scitote inter istaec omnia nihil esse
+                        melius quam ut aliqui fato nascatur bono.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Et nos ita suspicamur. Sed fatum ipsum qualiter tandem coli uel propitiari
+                        potest?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Dicam: genii sunt colendi, quoniam ipsi decreta fatorum regunt. Isti sunt
+                        placandi atque exorandi simulque, si qua intra aedes latet mala fortuna,
+                        uincienda atque exportanda est.</p>
+                </sp>
+                <milestone unit="par" n="62"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Pulchre edepol doces, sed ut facilius nunc sequamur omnia, da nobis
+                        experimentum tuae potestatis et sapientiae. Quoniam ea quae noueras,
+                        narrasti, nunc si potes, ea quae nescis, dicito.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Non equidem ex integro fieri istud potest. Tamen accipite pauca de quibus
+                        intellegatis cetera. Certe egomet neque mores neque facultates uestras
+                        didici.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Certum est.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Tu, Sardanapalle, pauper es.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Agnosco, uerum tamen uereor ne plures hoc sciant.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Humili loco natus.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Ita est.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Ideo tibi contra regium nomen datum est.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Ita aiunt.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Homo es uorax, petulans et calamitosissimus.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Eho Mandrogerus, numquidnam hoc sum precatus ut uitia enarres mea?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Mentiri mihi non licet. Estne adhuc aliquid quod narrare me uelis?</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Vtinam ne istaec quidem de me locutus esses! Si quidem ulterius, haec amicis
+                        dicito.</p>
+                </sp>
+                <milestone unit="par" n="63"/>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Ego te, Mandrogerus, hoc exoro, futura nunc mihi ut enarres et ea tantummodo
+                        quae sunt bona.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Ego non possum nisi a capite exponere. Tu, Sycophanta, nobili et claro natus
+                        es loco.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Ita est.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Ab initio nequam.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Etiam hoc, confiteor, manet.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Damna te premunt.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Verum est.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Periculum saepe tibi incumbit igni, ferro, flumine.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Pulchre edepol omnia narrauit quasi qui mecum uixerit.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Datum tibi est de proprio nihil habere.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Intellego.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Sed de alieno plurimum.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Iam istud nobis sufficit. <milestone unit="par" n="64"/> Nunc illud te
+                        quaesumus ut etiam huic responsa tribuas homini minime malo.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Ita fiat. Heus tu amice, tu non Querolus diceris?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Dii te seruent, ita est.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Quid horae nuncupamus?</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Inter sextam et tertiam.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Nihil fefellit: de clepsydra respondisse hominem putes. Hem, quid igitur?
+                        Mars trigonus, Saturnus Venerem respicit, Iuppiter quadratus Mercurius huic
+                        iratus, Sol rotundus, Luna in saltu est. Collegi omnem iam genesim tuam
+                        Querole. Mala fortuna te premit.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Agnosco.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Pater nihil reliquit, amici nihil largiuntur.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Verum est.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Vis totum audire? Vicinum malum pateris, seruum pessimum.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Agnosco omnia.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Vis et nomina seruulorum tibimet iam nunc eloquar?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Audire cupio.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Seruus tibi est Pantomalus.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Verum est.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Est alter Zeta.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Manifestum est.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> O sacerdotem diuinum!</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Visne adhuc amplius? Scisne a me domum tuam ignorari?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Maxime.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Porticus tibi est in dextra ut ingrediaris, sacrarium e diuerso.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Ita sunt omnia.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> In sacrario, tria sigilla.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Verum est.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Tutelae unum, geniorum duo.</p>
+                </sp>
+                <milestone unit="par" n="65"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Iam iam conprobasti potestatem ac disciplinam, nunc remedium promito.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Vbi celeriter consuli potest et sine sumptu ac mora? Sacrarium certe solum
+                        ac secretum est?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Ita.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Certe nihil est illic conditum?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Nihil praeter sigilla.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Sollemnitas quaedam ibidem celebranda est. Sed religio tecum omnes excludit
+                        foras.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Vt libet.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Religio per extraneos celebranda est.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Ita fiat.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Sed quosnam possumus nunc inuenire tam cito? Optimum erat atque oportunum,
+                        isti si uellent operam nunc tibi dare.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quaeso, amici, officium nunc et religionem impendite. Ego quoque, si opus
+                        fuerit, uobis operam praestabo meam.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Nihil quidem istinc nouimus, sed si ita facto opus est, fiat.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Inhumanum est uotis operam denegare.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Bene dicitis: ambo estis boni.</p>
+                </sp>
+                <milestone unit="par" n="66"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Pro nefas! Mene quasi ex consilio nunc solum fore! Hem, Pantomale, celeriter
+                        iam nunc peruola et Arbitrum, uicinum nostrum, ubicumque iam nunc
+                        reppereris, usque ad nos pertrahe. Sed noui egomet te. Vade iam nunc et
+                        cauponibus tete hodie colloca.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Nescis, Querole, fatum ac decretum momentis regi?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quid igitur?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Hora est synastria, istaec mihi placet. Nisi iam nunc aliquid geritur,
+                        frustra huc uenimus.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Eamus igitur intus.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Tu praecede, nos tecum sumus. Hem quod exciderat: estne aliqua tibi arcula
+                        inanis?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Non una quidem.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Vna tantum est opus in qua lustrum illud exportetur foras.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Ergo et claues largior, ut inclusa excludatur calamitas.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Omnia sunt peracta. Quod bonum, faustum felixque sit huic domui: nos praesto
+                        sumus.</p>
+                </sp>
+            </div>
+            <div type="scene" n="6">
+                <head><supplied>Scaena VI</supplied></head>
+                <p><stage>PANTOMALVS SERVVS</stage><milestone unit="par" n="67"/></p>
+                <sp>
+                    <speaker>PANT.</speaker>
+                    <p>Omnes quidem dominos malos esse constat et manifestissimum est. Verum satis
+                        sum expertus nihil esse deterius meo. Non quidem periculosus ille est homo,
+                        uerum ingratus nimium et rancidus. Furtum si admissum domi fuerit,
+                        exsecratur tamquam aliquod scelus. Si destitui aliquid uideat, continuo
+                        clamat et maledicit, quam male! Sedile, mensam, lectum si aliquis in ignem
+                        iniciat, festinatio nostra ut solet, etiam hinc queritur. Tecta si
+                        percolent, si confringantur fores, omnia ad se reuocat, omnia requirit,
+                        hercle hic non potest ferri. Expensas autem rationesque totas propria
+                        perscribit manu. Quicquid expensum non docetur, postulat reddi
+                            sibi.<lb/><milestone unit="par" n="68"/> In itinere autem quam ingratus
+                        atque intractabilis! Quotiens est autem antelucandum, primum uino, dein
+                        somno indulgemus: hinc primum est iurgium. Post autem inter somnum et merum
+                        necesse est ut sequantur plurima turbata et trepida: perquisitio iumentorum,
+                        custodum fuga, mulae dispares, iuncturae inuersae, mulio nec se regens. Huic
+                        res prorsus noua in itinere culpa. Quando autem aliud fuit? Sit paulisper
+                        patientia, totum istud emendat mora. At contra Querolus causam ex causa
+                        quaerit, aliud ex alio ligat. Mouere inutile carpentum non uult neque animal
+                        debile continuoque clamat: "Quare istud non suggessisti prius?" quasi ille
+                        prius uidere hoc non potuerit. O iniqua dominatio! Ipse autem, si culpam
+                        fortassis aduertit, dissimulat et tacet et tum litem intendit, quando
+                        excusatio nulla iam subest ne postea succurrat illud "Iam uolebam facere,
+                        iam uolebam dicere".<lb/><milestone unit="par" n="69"/> Iam quotiens ultro
+                        citroque extrudimur, necesse est remeare ad diem. Atque ut agnoscatis
+                        penitus artem hominis pessimi, unam semper ultra iustum nobis largitur diem
+                        ut ad praescriptum reuertamur. Nonne iste irarum causas quaeritat? Nos autem
+                        semper, quicquidlibet aliud alio fuerit tempore, illam nobis specialiter
+                        diem tribuimus qua redituri sumus. Itaque dominus, qui falli sese non uult
+                        neque decipi, quem Kalendis uelit adesse, redire iubet
+                            pridie.<lb/><milestone unit="par" n="70"/> Illud autem quale est, quod
+                        temulentum exsecratur atque agnoscit quam cito? Modum qualitatemque uini in
+                        uultu et labiis primo conspectu uidet. Falli se prorsus non uult neque
+                        circumueniri ut solent. Quisquamne huic possit bene aut seruire aut obsequi?
+                        Calidam fumosam non uult neque calices unguentatos: quaenam hae sunt
+                        deliciae? Vrceolum contusum et infractum, oenophorum exauriculatum et
+                        sordidum, ampullam truncam limosamque, densis fultam cerulis non simpliciter
+                        intuetur: bilem tenere uix potest. Iam excogitare nequeo quid sit quod tam
+                        prauis placere possit moribus. <milestone unit="par" n="71"/> Vinum autem
+                        corruptum tenuatumque lymphis continuo intellegit. Solemus etiam uinum uino
+                        admiscere. Nunquid adulterium dici hoc potest, cum lagoena uetere castrata
+                        suco rursus completur nouo? Etiam hoc Querolus crimen indignum putat et, ut
+                        est nequitia, suspicatur hoc statim.<lb/><milestone unit="par" n="72"/>
+                        Ipsum etiam pauxillum argenti leuibus tensum tympanis limari commutarique
+                        semper credit, quia factum est semel. Quantula est autem discretio? In
+                        argento certe unus est color. Nam de solidis mutandis mille sunt praestigia.
+                        Mutare multa facimus et hoc mutari non potest. Has saltem distingui non
+                        oportet tam gemellas formulas. Quid tam simile quam solidus solido est?
+                        Etiam hic distantia quaeritur in auro: uoltus, aetas et color, nobilitas,
+                        litteratura, patria, grauitas usque ad scriptulos quaeritur in auro plus
+                        quam in homine. Itaque ubi aurum est, totum est.<lb/><milestone unit="par"
+                            n="73"/> Hoc ante Querolus ignorabat, sed mali perdunt bonos. Ille autem
+                        Arbiter ad quem nunc eo, quam sceleratus est homo! Seruis alimenta minuit,
+                        opus autem plus iusto imperat. Inuerso hercle modio, si liceret, turpe
+                        captaret lucrum. Itaque, si quando isti casu uel consulto se uident, tunc
+                        inuicem sese docent. Et tamen hercle, ut omnia dicantur, si necesse est,
+                        malo meum. Adhuc ille noster, qualiscumque est, tamen auarus non est in
+                        suos. Solum illud est quod nimium crebro uerberat semperque clamat. Itaque,
+                        illis ambobus deus iratus sit.<lb/><milestone unit="par" n="74"/> Et non
+                        sumus tamen tam miseri atque tam stulti quam quidam putant. Aliqui
+                        somnulentos nos esse credunt, quoniam somniculamur de die; nos autem id
+                        facimus uigiliarum causa, quia uigilamus noctibus. Famulus qui diurnis
+                        quiescit horis, somni uigilat tempore. Nihil umquam melius in rebus humanis
+                        fecisse naturam quam noctem puto. Illa est dies nostra, tunc aguntur omnia.
+                        Nocte balneas adimus, quamuis sollicitet dies. Lauamur autem cum pedisequis
+                        et puellis: nonne haec est uita libera? Luminis autem uel splendoris illud
+                        subornatur quod sufficiat, non quod publicet. Ego nudam teneo quam domino
+                        uestitam uix uidere licet. Ego latera lustro, ego effusa capillorum metior
+                        uolumina, adsideo, amplector, foueo, foueor. Cuinam dominorum hoc licet?
+                        Illud autem nostrae felicitatis caput quod inter nos zelotypi non sumus.
+                        Furta omnes facimus, fraudem tamen nemo patitur, quoniam totum hoc mutuum
+                        est. Dominos autem obseruamus atque excludimus, nam inter seruos et ancillas
+                        una coniugatio est. Vae illis apud quos domini uigilias multam in noctem
+                        protrahunt. Tantum enim seruis de uita abstuleris, quantum de nocte
+                        abscideris. Quanti sunt ingenui qui transfigurare sese uellent hoc modo,
+                        mane ut domini fierent, serui ut uespere! Numquam tibi bene Querole opus est
+                        ut, cum istaec omnia nos exercemus, tu aut lites aut tributum cogites? Nobis
+                        autem cotidie nuptiae, natales, ioca, debacchationes, ancillarum feriae.
+                        Propter hoc non omnes fugere serui, propter hoc quidam nec manumitti uolunt.
+                        Quis enim tantam expensam tantamque inpunitatem praestare possit
+                            libero?<lb/><milestone unit="par" n="75"/> Sed nimium hic resedi. Meus
+                        ille, credo, iam nunc clamabit ut solet. Fas erat me facere quod praecepit,
+                        id est ut ad sodales pergerem. Sed quidnam hic fiet? Accipienda et
+                        mussitanda iniuria est. Domini sunt: dicant quod uolunt, quamdiu libuerit,
+                        tolerandum est. Dii boni, numquamne indulgendum est mihi, quod dudum peto,
+                        ut <supplied>sit</supplied> meus ille durus et dirus nimis aut ex municipe
+                        aut ex togato aut ex officii principe? Quam ob rem istud dico? <milestone
+                            unit="par" n="76"/> Quia post indulgentiam sordidior est abiectio. Quid
+                        igitur optem nisi ut faciat ipse quod facit? Vivat ambitor togatus,
+                        conuivator iudicum, obseruator ianuarum, seruulorum seruulus, rimator
+                        circumforanus, circumspectator callidus, speculator captatorque horarum et
+                        temporum, matutinus, meridianus, uespertinus. Inpudens salutet fastidientes,
+                        occurrat non uenientibus utaturque in aestu tubulis angustis et nouis.</p>
+                </sp>
+            </div>
+            <div type="scene" n="7">
+                <head><supplied>Scaena VII</supplied></head>
+                <p><stage>MANDROGERVS, QVEROLVS, SYCOPHANTA</stage><milestone unit="par"
+                        n="77"/></p>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Depone ab humeris, Querole, pondus tam graue: satisfactum est religioni quod
+                        tute ipse malam fortunam portasti foras.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> O Mandrogerus, fateor, numquam fieri posse hoc credidi. Potentiam tuam et
+                        religionem ipsa res probat: arcula istaec, iamdudum ut a me introlata est,
+                        quam leuis mihi soli fuit, et nunc quam grauis est duobus!</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Nescis nihil esse grauius fortuna mala?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Edepol noui et scio.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Dii te seruent, homo. Mihi ipsi hoc praeter spem uenit quod laudas modo.
+                        Nullam umquam domum sic purificatam retineo. Quicquid erat calamitatis
+                        egestatisque inclusimus.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Miror hercle unde pondus.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Enarrari subito hoc non potest. Ceterum solet euenire ut istaec calamitas
+                        moueri multis non possit iugis. Iam istinc ergo ministri nunc mei lustrum
+                        istud in fluuios dabunt. <milestone unit="par" n="78"/> Tu autem monita quae
+                        iam nunc dabo, sensibus imis cape. Mala haec fortuna quam abstulimus redire
+                        temptabit domum.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Nec dii sinant! Vna sit illi istaec et perpetua uia!</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Triduo ergo istoc periculum tibi est ne haec ad te redire temptet res mala.
+                        Tu igitur uniuerso hoc triduo domi clausus esto nocte ac die. Nihil de domo
+                        tua foris nunc dederis nihilque intra aedes recipias. Vicinos, cognatos,
+                        amicos, omnes tamquam profanos respue. Ipsam bonam fortunam clamantem
+                        pulsantemque hodie nemo audiat. Exacto autem hoc triduo illud domi non
+                        habebis quod ipse ex ipsa excluseris. Abi ergo intus.</p>
+                </sp>
+                <milestone unit="par" n="79"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Ego uero ac libens, dum tantummodo inter me ac fortunam meam solum paries
+                        intersit.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Celeriter hunc abegi. Hem, Querole, fortiter claude nunc fores.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Factum est.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Seras et catenas adhibe.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Tamquam pro memet fecero.</p>
+                </sp>
+            </div>
+            <div type="scene" n="8">
+                <head><supplied>Scaena VIII</supplied></head>
+                <p><stage>MANDROGERVS, SYCOPHANTA, SARDANAPALLVS</stage><milestone
+                        unit="par" n="80"/>
+                </p>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Pulchre edepol res processit. Inuentus, spoliatus, clausus est homo. Sed
+                        ubinam ornam respicimus uel ubi arculam istam confringemus atque
+                        abscondemus, ne furtum indicia prodant?</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Nescio, edepol, nisi ubicumque in flumine.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Credis, Mandrogerus, prae gaudio ornam illam inspicere non ausus fui.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Neque ego.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Atqui, hercle, ita facto opus fuit, ne mora suspicionem afferret.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Verum est.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Primum fuit ut inueniretur. Istud iam sequitur: tutum est.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Quicquid Iibet narres, Mandrogerus, recedamus qualibet. Ego autem non credam
+                        mihi nisi aurum inspexero.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Neque ego dissimulo: pergamus.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Hac atque illac, tantum ad secretum locum.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Pro nefas, uiae omnes seruantur, ripae frequentantur, pergamus quocumque
+                        celeriter.</p>
+                </sp>
+            </div>
+            <div type="scene" n="9">
+                <head><supplied>Scaena IX</supplied></head>
+                <p><stage>PANTOMALVS ET ARBITER</stage><milestone unit="par" n="81"/>
+                </p>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Hem Pantomale, domi quid agitur? Vester ille quid facit?</p>
+                </sp>
+                <sp>
+                    <speaker>PANT.</speaker>
+                    <p> Quod nosti bene!</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Ergo queritur.</p>
+                </sp>
+                <sp>
+                    <speaker>PANT.</speaker>
+                    <p> Non plane, ita sit nobis incolumis atque propitius.</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Atqui, hercle, solet esse ingratus.</p>
+                </sp>
+                <sp>
+                    <speaker>PANT.</speaker>
+                    <p> Quid uis fieri? Sic se res habet. Caelum numquid aequaliter administratur?
+                        Sol ipse non semper nitet.</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Bene, Pantomale noster, tandem pro dominis solus qui haec dictitas.</p>
+                </sp>
+                <sp>
+                    <speaker>PANT.</speaker>
+                    <p> Eadem dico, uobis absentibus praesentibusque.</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Credo, nam semper noui te bonum.</p>
+                </sp>
+                <sp>
+                    <speaker>PANT.</speaker>
+                    <p> Tu nos bonos ac semper felices facis, qui nostrum illum bene mones.</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Feci et facio semper.</p>
+                </sp>
+                <sp>
+                    <speaker>PANT.</speaker>
+                    <p> Vah, utinam ille mores seruaret tuos essetque apud nos tam patiens atque
+                        indulgens quam tu cum tuis!</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Non agnosco haec, Pantomale, suffragia; nimium nosmet praedicas.</p>
+                </sp>
+                <sp>
+                    <speaker>PANT.</speaker>
+                    <p> Edepol nos omnes scimus et laudamus plurimum. Vtinamque illa tibi omnia
+                        eueniant, quod nos optamus seruuli!</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Immo tibi, hercle, pellibus ossibusque uestris eueniat quicquid optastis
+                        mihi!</p>
+                </sp>
+                <sp>
+                    <speaker>PANT.</speaker>
+                    <p> Ah! Cur ita suspicaris? Numquidnam in aliquo nos grauas?</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Non, sed quia uobis naturale est odisse dominos semper sine discrimine.</p>
+                </sp>
+                <sp>
+                    <speaker>PANT.</speaker>
+                    <p> Male imprecamur multis, uerum est, et saepe et libere, sed illis sycophantis
+                        et maliloquis quos nosti bene.</p>
+                </sp>
+                <milestone unit="par" n="82"/>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Age iam credo. Sed quidnam tu dominum facere aiebas?</p>
+                </sp>
+                <sp>
+                    <speaker>PANT.</speaker>
+                    <p> Rem diuinam coeperat. Magus praesto erat cum ministris. Intus omnes tunc
+                        ibant simul.</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Quidnam est hoc quod fores clausas uideo? Credo diuinam rem gerunt. Euoca
+                        illinc aliquem.</p>
+                </sp>
+                <sp>
+                    <speaker>PANT.</speaker>
+                    <p> Hem Theocles, hem Zeta. Aliquis huc adsit cito. Quidnam esse hoc dicam?
+                        Silentium est ingens: nemo adest.</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Solebant non ita somniculari ianitores ista in domo.</p>
+                </sp>
+                <sp>
+                    <speaker>PANT.</speaker>
+                    <p> Credo hercle religionis causa ab importunis cautio est. Eamus huc ad
+                        pseudothyrum quam nosti bene.</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Quid si illic clausum est?</p>
+                </sp>
+                <sp>
+                    <speaker>PANT.</speaker>
+                    <p> Ne uereare me duce. Noster ille est aditus: claudi, non intercludi
+                        potest.</p>
+                </sp>
+            </div>
+            <div type="scene" n="10">
+                <head><supplied>Scaena X</supplied></head>
+                <p><stage>MANDROGERVS, SYCOPHANTA ET SARDANAPALLVS,
+                            <supplied>QVEROLVS</supplied></stage><milestone unit="par" n="83"/>
+                </p>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> O me miserum!</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> O me infelicem!</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> O me nudum et naufragum!</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> O magister Mandrogerus!</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> O Sycophanta noster!</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> O pater Sardanapalle!</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Sumite tristitiam, miseri sodales, cucullorum tegmina. Plus est hoc quam
+                        hominem perdidisse: damnum uere plangitur. Quid agitis nunc, potentes, quid
+                        de thesauris cogitatis? Aurum in cinerem versum est utinamque totum sic
+                        fieret aurum: magis essemus diuites.</p>
+                </sp>
+                <milestone unit="par" n="84"/>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Depone paulisper inane pondus, lacrimas demus funeri. O fallax thesaure, ne
+                        te ego per maria et uentos sequor, propter te feliciter nauigaui, propter te
+                        feci omnia. Mathesim et magicam sum consecutus, ut me sepulti fallerent?
+                        Aliorum fortunam exposui: fatum ignoraui meum. Iam iam omnia recognosco
+                        uaria haec phantasmata. Erat hic plane bona fortuna, sed alteri debebatur
+                        non mihi. Nostra haec mutauere fata: thesaurum nos, sed alienum inuenimus.
+                        Quaenam est haec peruersitas? Numquam ego fleui meum, nunc plango alienum.
+                        Et te, Querole, iustus non tangit dolor?</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> O crudele aurum, quisnam te morbus tulit? Quis te sic rogus adussit? Quis te
+                        subripuit magus? Exheredasti nos, thesaure. Quonam redituri sumus, tot
+                        abdicati? Quae nos aula recipiet? Quae nos olla tuebitur?</p>
+                </sp>
+                <milestone unit="par" n="85"/>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Accede, amice, aulam iterum atque iterum uisita.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Aliam spem quaerere, amice, poteras; haec iam non calet.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Perlege, quaeso, iterum titulum funeris atque omnem scripturae fidem.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Quaeso, inquam, sodes, funus egomet quodlibet contingere nequeo: nihil est
+                        quod metuam magis.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Meticulosus homo es tu, Sardanapalle! Ego perlego: TRIERINIVS TRICIPITINI
+                        FILIVS CONDITVS ET SEPVLTVS HIC IACET. Hem me miserum, hem me miserum!</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Quidnam tibi est?</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Anima in faucibus. Audieram egomet olere aurum, istud etiam redolet.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Quo modo?</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Claustrum illud plumbeum densa per foramina diris fragrat odoribus. Nunquam
+                        ante haec comperi aurum sic ranciscere. Vsurario cuilibet faetere hoc
+                        potest.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Quisnam cinerum est odor?</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Ille pretiosus atque tristis, cultus quem poscit miser.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Honorifice hoc bustum tractatum apparet, cuius adhuc sic redolet
+                        dignitas.</p>
+                </sp>
+                <milestone unit="par" n="86"/>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Ego istaec non pertulissem, si recinenti ac monenti credidissem
+                        graculae.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Ego in laqueos non incidissem, si monita curti seruassem canis.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Et qualiter te admonuit?</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Egredienti mihi ad angiportum suras omnes conscidit.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Vtinam tibi crura ipsa eneruasset, ne umquam inde mouisses pedem. O Euclio
+                        funeste, parumne uiuus inlusisti? Ne defunctus desines? Et quid ego non
+                        merui, qui agelasto illi et perfido fidem accommodaui? Et fortunas meas in
+                        ipso risit exitu.</p>
+                </sp>
+                <milestone unit="par" n="87"/>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Heia, quid nunc facimus?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Quid autem, nisi quod dudum diximus ut nos saltem de filio eius Querolo
+                        ulciscamur probe atque illum, quoniam est credulus, mirificis ludamus modis?
+                        Aulam illi per fenestram propellamus clanculum ut et ipse lugere incipiat
+                        quem nos iamdudum plangimus. Pedetemptim accede atque ausculta Querolus quid
+                        rerum gerat.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Consilium placet.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Accede edepol, sed urbane respice.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Attat quid ego uideo? Omnes nunc intus homines fustes et uirgas tenent.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Credo edepol isti illam malam fortunam expectant creduli. Accede atque
+                        homines miris terrifica modis. Malam fortunam nam illam dicito esse te et
+                        comminare tamquam in aedes inruas.</p>
+                </sp>
+                <milestone unit="par" n="88"/>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Io, Querole.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quis tu homo es?</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Fores celeriter vide.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quam ob rem?</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Vt domum rursus ingrediar meam.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Hem Zeta, hem Pantomale, hac atque illac obsistite. Abi hinc potius, mala
+                        fortuna, quo te sacerdos detulit.</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Hem, Querole!</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quid, rogo, nomen tu uocitas meum?</p>
+                </sp>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Ego sum tua fortuna quam redituram praedixit magus.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Abscede hinc; ego hodie fortunam non recipio nec bonam.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Heus tu, Sycophanta, ad ianuam sta, homines seuoca, dum ego bustum hoc per
+                        fenestras ingero.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Aperite hanc ianuam.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Omnes celeriter huc accurrite.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Ecce tibi thesaurum, Querole, quem reliquit Euclio. Talem semper habeas,
+                        talem relinquas filiis! Omnia sunt perfecta; nos hinc ad nauem celeriter ne
+                        quod etiam nunc subito hic nobis nascatur malum.</p>
+                </sp>
+                <milestone unit="par" n="89"/>
+                <sp>
+                    <speaker>SARD.</speaker>
+                    <p> Ah, quid hodie acciderit, subeundum est. Tantum recurram huc paululum.
+                        Perdidi mysterium, nisi ipse Queroli uerba audio. Homo est autem et credulus
+                        et formidolosus plurimum. Qualiter nunc ille exhorrescit mortuum? Admouebo
+                        aurem hac leuiter. Hem quidnam ego audio? Omnes intus gaudent, tripudiant:
+                        nulla spes mihi est. Auscultabo iterum. Actum est, felicitas ad istos uenit,
+                        nobis ergo, nobis male. Omnes intus saccos, capsas, scrinia requirunt, aurum
+                        isti tractant, solidi intus tinniunt. Heu, me miserum! Vita erat, ubi nos
+                        mortem putabamus esse conditam. Errauimus miseri, sed non simpliciter
+                        errauimus et non semel. Metamorphosis hic agitur: bustum abstulimus, aurum
+                        abiecimus. Sed quid ego nunc? Solum hoc restat nunc mihi ut pro fure iam
+                        nunc tenear. lbo ad coniuratos meos, ne tantum facinus uerumque funus solus
+                        egomet defleam.</p>
+                </sp>
+            </div>
+            <div type="scene" n="11">
+                <head><supplied>Scaena XI</supplied></head>
+                <p><stage>LAR FAMILIARIS</stage><milestone unit="par" n="90"/></p>
+                <sp>
+                    <speaker>LAR.</speaker>
+                    <p>Tandem urna peperit, auri grauida pondere, uilisque mater grande puerperium
+                        dedit, indigna quae frangeretur. Tanta hoc non meruit fides. Magna plane
+                        aula et memorabilis, uno atque eodem tempore, domino fidem persoluit, furtum
+                        fecit furibus. O sapiens Euclio, nos iactantes non sumus, thesaurum seruasti
+                        uiuus, liberasti mortuus. Omnes itaque homines nunc intellegant neque
+                        adipisci neque perdere ualere aliquid, nisi ubique faueat totum ille qui
+                            potest.<lb/><milestone unit="par" n="91"/> Quantum ad personam Queroli
+                        spectat, perfecta iam sunt omnia. Sed Mandrogerontem illum furem ac perfidum
+                        nunc inlaqueari uolo qui, ubi primum hoc audierit remque omnem agnouerit,
+                        continuo rediturus est, ut thesaurum diuidat. Codicillos etiam proferre
+                        audebit quibus ita coheres scriptus est, si aulam Querolo sine fraude
+                        ostenderet. Quid huic merito eueniat, nisi quod iam nunc fiet? Ferat quod
+                        facere uoluit, nam quod fecit nostrum est.</p>
+                </sp>
+            </div>
+            <div type="scene" n="12">
+                <head><supplied>Scaena XII</supplied></head>
+                <p><stage>QVEROLVS, ARBITER ET PANTOMALVS</stage><milestone unit="par"
+                        n="92"/></p>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> O Arbiter, iamne credis quod uidisti modo?</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Edepol credo et scio.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quid tu, Pantomale, dicis?</p>
+                </sp>
+                <sp>
+                    <speaker>PANT.</speaker>
+                    <p> Quid ego dico nunc? Flere ut posthac desinas.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Mens mihi gaudio est confusa. Quid primum stupeam et gaudeam? Consiliumne
+                        senis nostri an diuinitatis?</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> In primis bonum diuinitatis, nam si ad hominem respiciendum est, facile
+                        intellegitur et apparet furem tibi plus profuisse quam patrem.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quid de memet censes, qui tam tarde agnouerim fragmenta urnae illius quam
+                        iamdudum noueram?</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Ego mihi non credideram, nisi quod ilico inspexi locum terramque motam: ante
+                        hoc non credidi.</p>
+                </sp>
+                <sp>
+                    <speaker>PANT.</speaker>
+                    <p> Atqui ego nihil dubitationis recepi, ubi in testulis quasdam litteras
+                        uidi.</p>
+                </sp>
+                <milestone unit="par" n="93"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Ergo istaec omnia Mandrogerus ille fecit?</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Aut quid fieri aliud potest?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> O sceleratum hominem, magum mathematicumque qui sese diceret. Egone manibus
+                        meis praesidium paternum ut efferrem de domo, ego memet domi reconderem, ego
+                        ut redeunti obuiarem thesauro? Hoc est plane illud quod mihi Lar Familiaris
+                        praedixit meus, etiam renitenti ac repugnanti, uentura mihi bona omnia.</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Quam pulchre factum est ut cupiditas sic falleretur hominis
+                        fallacissimi!</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Credis, Arbiter, meos ut nosti mores munificos, nimis munerare, hercle,
+                        possim hominem, si nanciscerer, ita ridicule sceleratus fuit atque ipse sese
+                        lusit in omnibus.</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Ille quidem, ut scimus, male meruit perfidus, sed quoniam tibi per illum
+                        bene uenerunt omnia, omnes illi bene optamus facto, non merito suo.</p>
+                </sp>
+                <milestone unit="par" n="94"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Attat quidnam est? Nisi fallor, Mandrogerus ille est eminus. Quidnam ille
+                        hic reuenit? Nouum credo aliquod praestigium iterum hac exhibet. Abi
+                        celeriter intus, Pantomale, et fragmenta urnae illius hic ad nos exhibe.</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Placet, hercle.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> O bone Arbiter, fraudulento isti magnam iniciamus calumniam. Thesaurum
+                        nostrum ab hoc ereptum poscamus modo atque adstruamus ab ipso nobis alienum
+                        mortuum esse coniectum domi.</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Ita fiat! Consilium placet.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Propositum ergo retineamus: sequuntur cetera.</p>
+                </sp>
+            </div>
+            <div type="scene" n="13">
+                <head><supplied>Scaena XIII</supplied></head>
+                <p><stage>QVEROLVS, ARBITER ET MANDROGERVS</stage><milestone unit="par"
+                        n="95"/></p>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Aue, mi Querole.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Etiam salutas, furcifer, quasi hodie me non uideris?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Vidi edepol te uisumque iterum gaudeo.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> At ego iam nunc, si uiuo, faciam ne tu iterum gaudeas.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Eho, quid commerui?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Rogas sceleste, qui hodie domum expilasti meam?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Missa istaec face: non sum alienus uobis. Domum egomet istam iampridem
+                        colo.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Iterum ad magicas? Aurum subripuisti hodie meum.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Fortassis iure feci: non debebatur et mihi?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Pulchre, edepol, solus exinde hic fui. Vbinam mihi nunc tu frater nasceris
+                        et nouellus et senex? Vnde subito tam uetustus, qui nuper natus non eras?
+                        Nam si fratrem meum te esse adseueres, perdite, illud nunc restat, ut te
+                        dicas bimulum, nam tertio anno pater meus ille Euclio, cum est profectus,
+                        me, hercle, reliquit solum atque unicum.</p>
+                </sp>
+                <milestone unit="par" n="96"/>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Superflua sunt ista: coheres ego sum, non frater tibi.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Non recte edepol fieri istud solebat: nam mallem, amice, fratrem te quam
+                        coheredem esse asseras.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Quid multis opus est, Querole? Quod scriptum est, lege. Sume igitur. Noui
+                        fidem uestram.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Hercle, explorasti. Hem quid istuc est? "Senex Euclio Querolo salutem dicit
+                        filio. Quia furtum tibimet fieri metuerem uel per seruum uel per extraneum
+                        quemlibet, Mandrogerontem, fidelem amicum et peregre mihi cognitum ad te
+                        direxi, ut is tibimet quod reliqui sine fraude ostenderet. Huic tu medium
+                        thesauri dabis, si fides ipsius atque opera expostulate". Hem, sodes,
+                        paululum in parte huc ades. Nihil huic deberi res ipsa exponit et docet, sed
+                        usquequaque, si placet, in summam, si libuerit, aliquid dabitur muneris. Tu
+                        igitur patris mei amicus ac sodalis peregre fuisti?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Ipsa res docet.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Nimirum inde tam fideliter nobis commissa istaec taces. Age amice, quoniam
+                        institutus es heres, da quod possit diuidi.</p>
+                </sp>
+                <milestone unit="par" n="97"/>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Edepol inuestigaui ac dedi integrum atque inlibatum thesaurum.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Eho, tu mihi thesaurum aliquod dedisti?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Tu negas?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Nisi omnia in memoriam redigis, forsitan aliquid exciderit. Mihi quem tu
+                        narras thesaurum?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Quem tibi Euclio reliquit, ego tradidi.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Et aurum ad te quemadmodum peruenit, homo alienissime?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Iocabar equidem, fidem postea ut perspiceres meam.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Tu ergo thesaurum et secretum illud quod noster senex dereliquerat,
+                        abstulisti?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Vtique hoc tibi cessit bene. Alter enim non reddidisset.</p>
+                </sp>
+                <milestone unit="par" n="98"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Age iam, sodes, <supplied>nos</supplied> lusisti satis: restitue potius,
+                        ueram ut cognoscamus fidem. Diis gratias, uicine Arbiter, quod spes nostra
+                        in tuto est.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Dixin paulo ante facere hoc non potuisse extraneum?</p>
+                </sp>
+                <sp>
+                    <speaker><supplied>QVER.</supplied></speaker>
+                    <p> Agimus gratias, Mandrogerus! Dii te seruent, amicorum optime, qui et mihi
+                        superstiti et defuncto illi seruasti fidem. Sed ubinam, quaeso, aulam illam
+                        condidisti? Fiat plane quod ille praecepit senex. Exprome thesaurum, diuisio
+                        celebretur, quoniam praesto est Arbiter.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Immo potius tu aurum exprome et fidem tuam, quoniam egomet partes explicui
+                        meas.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Fatigas nos, Mandrogerus, an uere loqueris?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Edepol, uere loquor atque honeste, nam qui totum habere potui, partem
+                        peto.</p>
+                </sp>
+                <milestone unit="par" n="99"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Ergo inter manus thesaurum fuit nostrum?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Fuit, hercle.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Tu nusquam hodie pedem, nisi restitues quod abstulisse te fateris, quia ire
+                        infitias non potes. Heia, inquam, restitue quod abstulisti.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Reddidi.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Cui? Quando? Quo modo?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Hodie per fenestram.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Ha, ha, he, tu thesaurum ubi repperisti?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Apud aedes sacras.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quo aditu extulisti?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Hac per istam ianuam.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quid igitur fuit causae ut per fenestram redderes?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Tu, inquam, thesaurum illum asportasti foras.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Pulchre, edepol, condicionem codicillorum inpleuisti, qua praeceptum est ut
+                        thesaurum mihi sine fraude ostenderes. Verum tamen praescriptionem hanc
+                        transeo, qua uti possum, etiamsi aurum nunc ipse mihi traderes. Haec
+                        superflua sunt, ubi res nusquam apparet. Redde quod negas.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> O tempora, o mores, o pater Euclio! Hancine mihi tu domi fidem praedicabas?
+                        Reddidi, fateor, omnesque per deos ipsumque thesaurum inlibatum intra aedes
+                        proieci tuas.</p>
+                </sp>
+                <milestone unit="par" n="100"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> O Arbiter bone, plus iste admisit quam putabamus. Hic, nisi fallor, ipse est
+                        qui urnam illam funestam nobis proiecit in domum.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Dii te seruent: ipsam ego proieci Tandem apparet ueritas.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Dic, quaeso, Mandrogerus, fragmenta si aspexeris, potesne agnoscere?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Ita ut conpaginari per me possint omnia.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Hem, Pantomale, nescio quid paulo ante hic proferri iusseram.</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Praesto sunt partes illae in quibus titulus inscriptus fuit.</p>
+                </sp>
+                <milestone unit="par" n="101"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Agnoscisne, Mandrogerus?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Agnosco, hercle. Tandem cessent partes et praestigia.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Si uerum agnoscis, lege celeriter quod scriptum hic fuit.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Et legi et lego. Cedo huc mihi, Pantomale, fragmentorum paginas: TRIERINIVS
+                        TRICIPITINI FILIVS CONDITVS ET SEPVLTVS HIC IACET.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Eho scelestissime, dispicis? Si uiuorum neglexisti gratiam, etiamne mortuis
+                        manus intulisti ad ludum et ludibria? Neque contentus eruisse bustum atque
+                        honores ultimos, per fenestram etiam funestas mihi proiecisti reliquias.
+                        Quid ad haec dicis? Thesaurum abstulisti, uiolasti sepulchrum, perdite:
+                        domum meam non solum compilasti, uerum etiam polluisti, sacrilege. Tu
+                        negas?</p>
+                </sp>
+                <milestone unit="par" n="102"/>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Quaeso, quandoquidem me fortuna sic destituit, nihil quaero ulterius,
+                        uale.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> At ego, hercle, quaero cui mala omnia congessisti, scelus. Hem, Pantomale,
+                        nunquam ab istoc pedem. Ego iam nunc ubinam praetor sedeat, inuestigabo
+                        celeriter atque omnia istaec exequar iure et legibus.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Quaeso, Arbiter, pro me ut uerba facias: nihil nisi ueniam expostulo.</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> O mi Querole, nunquam tam celeriter usque ad sanguinem. Ignosce ac remitte:
+                        haec uera est uictoria.</p>
+                </sp>
+                <milestone unit="par" n="103"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Age, reliquiae defuncti illius recondantur. Quid de thesauro fiet?</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Quid dicis, Mandrogerus?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Iuro per deos, iuro per ipsam quam rupi fidem, mihi nec aurum nec thesaurum
+                        esse.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Remoue paulisper inania; putemus nos paululum in iudicio stare. Ornam certe
+                        illam tu abstulisti?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Factum est.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Elige nunc, Mandrogerus, utrum uoles, bustum illic an aurum fuit,
+                        quandoquidem causa eiusmodi est ut multis constet modis.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Auribus teneo lupum neque uti fallam neque uti confitear scio. Vtrum dixero,
+                        id contra me futurum uideo. Dicam tamen: aurum illic fuit.</p>
+                </sp>
+                <milestone unit="par" n="104"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Redde igitur.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Hoc iam factum est.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Factum doce.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Ornam tu recognoscis?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quid uis ut respondeam? Primum egomet aulam non recognosco. Satisne hoc
+                        sufficit?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Quid? Titulum non recognoscis?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p>
+                        <supplied>Non</supplied> magis quam te quem hodie primum hic noscito. Sed
+                        finge nunc a nobis ornam et titulum recognosci. Redde quod in aula fuit.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Tu autem quid in aula, quid fuisse dicis?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Ego interim non proposui. Tu fare quod uelis.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Et uos a me aurum quemadmodum postulatis, cum res ipsa bustum et cinerem
+                        comprobet?</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Ergo adquiescis ut bustum illic fuerit?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Adquiesco quandoquidem ita sic se res habet. Hac non processit: alia
+                        temptandum est uia.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> O stulte, sacrilegium confiteris, dum furtum negas.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Quid si nihil illic fuit?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quidnam igitur postulas? Aurum si fuit, abstulisti, si non tulisti, non
+                        fuit.</p>
+                </sp>
+                <milestone unit="par" n="105"/>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Vos, quaeso, dicite uicissim: quidnam illic fuit?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Nobis interim sufficit purgare nosmet, obiecta repellere, nam si te
+                        ingredimur, alia temptandum est uia.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Quodnam hoc monstri genus est? Ego totum feci, solus totum nescio. Iam iam,
+                        quaeso, quoniam mihi neque res neque causa superest, simpliciter dicite
+                        utrumne furtum an sacrilegium ego commisi, nisi forte illud nunc restat mihi
+                        ut, qui furtum non potui sacrilegium neque uolui, utrumque fecisse conuincar
+                        nefas.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Etiamne circuitione rem geris? Quid aliud autem in causa est, nisi quod
+                        praesidium abstulisti et cineres subdidisti, unum fraudulenter aliud
+                        nequiter? Neque enim te bustum expetisse, aurum abiecisse credere quisquam
+                        potest.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Optime totum hoc adseritur et mihi ipsi ueri simile uidetur. Sed si quid
+                        creditis, non est ita.</p>
+                </sp>
+                <milestone unit="par" n="106"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Age iam bono animo esto, nil praeter sacrilegium perpetrasti: aurum autem
+                        ibi non fuit.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Furtum igitur non commisi, dii te seruent. Vicimus, nam istoc ego tempore
+                        poenam malo quam pecuniam debere. Sed illud, quaeso, exponite unde tantum
+                        illic erat?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Nescis, magus, nihil esse grauius fortuna mala?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Recognosco.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Etiam quaeritas unde pondus? Tegmen urnae illius non uidisti plumbeum?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Iam iam omnia sibi conueniunt. His praestigiis etiam certus falli non
+                        potuisset magus?</p>
+                </sp>
+                <milestone unit="par" n="107"/>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Nondum intellegis, inepte, inpositum nobis esse ab illo quem bene noueras?
+                        Vnde autem illi thesaurum homini prope pauperi? Ac si habuisset ille, ergone
+                        iste secretum nescisset patris tibique ille indicaret quod non crediderat
+                        filio? Porro autem, pater familias ille thesaurum si sciebat, illi tandem
+                        crediderat loco tibique illic patuisset aditus?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Edepol quid dicam nescio.</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Ergo Euclionem tu non noueras? Habuit senex ille multa haec laetissima, qui
+                        te etiam defunctus ridet.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Edepol, tandem intellego. Illius plane hic nequitiam recognosco, frequenter
+                        ille similibus me lusit modis. Quaeso igitur, date ueniam quod cineres illos
+                        abstuli: aurum credidi.</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Bene excusas, Mandrogerus: agnosco ingenium lepidissimum, agnosco plane
+                        Euclionis nostri sodalem, tales semper ille dilexit senex.</p>
+                </sp>
+                <milestone unit="par" n="108"/>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Sinite quaeso me abire.</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Hem, Querole, humanum ac misericordem semper fuisse te scio. Hominem tam
+                        elegantem abire ne permiseris. Non unius officii homo iste est: magum
+                        mathematicumque hic habes; tantum, quod primum est, furtum facere non
+                        potest. Recipe, quaeso, amicum ueterem et nouum, quandoquidem pater Euclio
+                        solum hunc tibi reliquit in bonis.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Ah, sed furem timeo.</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Quid unum furem metuis? Iam totum hic abstulit.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Quaeso, Querole noster, patri egomet tuo me iam deuoueram, tibi nunc seruire
+                        cupio, quandoquidem hodie sic misertus es mei. Da uictum, qui uitam
+                        indulsisti.</p>
+                </sp>
+                <milestone unit="par" n="109"/>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Si ambo ita uoltis, fiat. Potesne discere leges nouas?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Ha, ha, he, illas egomet ex parte condidi.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Senatus consultum dico egomet seruilianum et parasiticum.</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Ohe, uisne interdictorum capita iam nunc eloquar ad legem Porciam, Caniniam,
+                        Furiam, Fufiam, consulibus Torquato et Taurea?</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Potesne obseruare omnia?</p>
+                </sp>
+                <sp>
+                    <speaker>MAND.</speaker>
+                    <p> Istud apud me paruum est. Tu nunc ut ediscam iubes: ego docere iam uolo.</p>
+                </sp>
+                <sp>
+                    <speaker>ARB.</speaker>
+                    <p> Hui, multarum palmarum hic est. Recipe, quaeso, iure instructissimum. Talem
+                        quaerere homines pro magno solent.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Quoniam ita uultis, fiat. Sed ubinam illi sunt socii atque adiutores
+                        tui?</p>
+                </sp>
+            </div>
+            <div type="scene" n="14">
+                <head><supplied>Scaena XIV</supplied></head>
+                <p><stage>QVEROLVS, MANDROGERVS, <supplied>SYCOPHANTA</supplied>,
+                        SARDANAPALLVS</stage><milestone unit="par" n="110"/></p>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Nosque praesto sumus, o parens ac patrone.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> O Sycophanta, o Sardanapalle, haec uestra est religio? Sed causas iam hic
+                        praestitit, uos abite quolibet.</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Et nosmet scimus, Querole, quoniam tris edaces domus una non capit. Verum,
+                        quaesumus, uiatici nobis aliquid ut aspergas, quoniam spem omnem
+                        amisimus.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Viaticum ego uobis? Quonam pro merito?</p>
+                </sp>
+                <sp>
+                    <speaker>SYCOPH.</speaker>
+                    <p> Nos cum Mandrogeronte huc uenimus.</p>
+                </sp>
+                <sp>
+                    <speaker>QVER.</speaker>
+                    <p> Digna causa <supplied><gap/></supplied></p>
+                </sp>
+            </div>
+            <div type="scene" n="15">
+                <head><supplied>Scaena XV</supplied></head>
+                <p><milestone unit="par" n="111"/> Mercedem uulnerum uictus accipiat parasitus.
+                    In conuiuio si fuerit ueste discissus, a rege conuiuii duplam mercedem
+                    reparationis accipiat. De liuoribus in quadrantem solidi unius, de tumoribus in
+                    trientem poena transibit, quod si et tumor fuerit et liuor solidi unius bessem
+                    iure optimo consequetur. Vnam uero unciam aporiae, <del>hoc est
+                        excoctionis,</del> contemplationi concedimus.<lb/><milestone unit="par"
+                        n="112"/> Placuit autem ut etiam de plagis et uulneribus infixis, summoto
+                    strepitu criminali, amicorum praestetur inspectio ita ut dodrantem solidi nec
+                    inspicientum gratia nec largientis excedat humanitas. In luxu autem et ossibus
+                    loco motis usque ad deuncem solidi iniuriarum commodum placuit extendi. Iam
+                    porro de ossibus fractis placuit conuenitque ut in minutalibus solidus, in
+                    principalibus uero ossibus argenti libra protenus traderetur. Quae autem uel
+                    principalia uideri ossa debeant uel minuta medicorum tractatus inueniat. Si
+                    autem parasitus amplius quam praefinitum est, uoluerit postulare plus petiti
+                    periculo stranguletur. Rex conuiuii iniuriarum merita etiam uoluntariis
+                    decertationibus cogatur exsoluere: ita ut praemium criminosi
+                        <supplied>in</supplied> mercedem transeat uulnerati.<lb/><milestone
+                        unit="par" n="113"/> In tantum autem parasitis consuli iura uoluerunt ut si
+                    uulneribus adflictus, contestata lite defecerit, heredibus eius paterni laboris
+                    ac meriti praemia non negentur. Quod si parasitus, quamuis tractatus incommode,
+                    tamen de malis suis intestatus occiderit, unde auctor non egerit, heres agere
+                    non poterit. Qui causas mortis non reddiderit, insepultus abiciatur. Et haec
+                    omnia sic constituimus quasi inter hominum liberorum et aequalium lasciuiens
+                    turba desaeuiat, nam si a patrono uel seruo patroni parasitus contra leges
+                    pertulerit iniuriam, habebit fugiendi liberam potestatem.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

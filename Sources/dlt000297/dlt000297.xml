@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Itinerarium Alexandri</title>
+                <author>Anonymus</author>
+                <respStmt>
+                    <resp>Correzione linguistica</resp>
+                    <name>Raffaella Tabacco</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica XML</resp>
+                    <name>Raffaella Tabacco</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>digilibLT</publisher>
+                <pubPlace>Vercelli</pubPlace>
+                <date>2011</date>
+                <availability>
+                    <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+                </availability>
+                <idno>dlt000297</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Itinerarium Alexandri, Testo, apparato critico, introduzione, traduzione e
+                    commento a cura di Raffaella Tabacco, Firenze, Olschki, 2000</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+                <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+            </projectDesc>
+            <editorialDecl>
+                                
+                <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+                <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+                    l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+                    e commenti e ogni altro contenuto redatto da editori moderni. </p>
+                <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+                    correttezza di trascrizione</p>
+                <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+                    distinzione u/v minuscole.</p>
+                <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+                <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+                    grassetto, corsivo, spaziatura espansa.</p>
+                <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+                    <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+                    <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+                    si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+                    [...]<lb/> lacuna integrata dagli editori:
+                    <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+                </p>
+                <p>Sono stati marcati i termini in lingua greca
+                    <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+                </p>
+                <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+                    target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+                    >Note di trascrizione e codifica di testi latini tardoantichi
+                    [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+            </editorialDecl>
+                    </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latino</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+           <div type="opus"><head>Itinerarium Alexandri</head>
+                <p>
+                    <milestone unit="cap" n="1"/>
+                    <milestone unit="par" n="1"/> Dextrum admodum sciens et omine tibi et magisterio
+                    futurorum, domine Constanti, bonis melior imperator, si orso feliciter iam
+                    accinctoque Persicam expeditionem itinerarium principum eodem opere gloriosorum,
+                    Alexandri scilicet Magni Traianique, componerem, libens sane et laboris cum
+                    amore succubui, quod quidem meum uelle enim id et exigit sui pensique est,
+                    quodque regentium prospera in partem subditos uocant. </p>
+                <p>
+                    <milestone unit="par" n="2"/> Ac si quid ex eo iuuerim uel praeierim uicem sciam
+                    in me etiam redundaturam, quoniam quisque mortalium iure naturae in eo se plus
+                    diligit, a quo ipse defenditur. Sed enim quamuis factorum egregiorum inops
+                    lingua testis ignobilis, ego tamen audacter innumeris subeo, non meis fretus,
+                    uerum externi ingenii uiribus, nec de loquacium numero uilibus usus auctoribus,
+                    sed quos fidei amicissimos uetus censura pronuntiat, quosque istic qua potui
+                    tibi circumcisa satis curiositate collegi, adhibito sane uerborum cultu
+                    restrictius, quoniam uoti communis utilitas non priuatae iactantiae gloria
+                    petebatur. </p>
+                <p>
+                    <milestone unit="cap" n="2"/>
+                    <milestone unit="par" n="3"/> Itinerarium denique pro breuiario superscripsi
+                    castigans operis eius etiam nomine facultatem, scilicet ut
+                        i<supplied>n</supplied>cent<supplied>iuum</supplied> uirtutibus tuis, cum
+                    animo, quippe sitienti laudis, irritamento est, in causa olim pari scire
+                    obsecutam rationi fortunam, praesertim cum illinc tu res martias auspicere, ubi
+                    quisque fidentior emerita imperia sublimarint, triumphorumque tu exim stipendiis
+                    imbuare, ubi quisque felicior praegestis apicem posiuere; scilicet ut, dum
+                    iuuentae conatus paternis maturitatibus admoliris, inclitorum quam maxime
+                    principum merita superuadas, quorumque protinus tete in omni hac parilitate nec
+                    consilii paeniteat nec pudeat uero fortunae. </p>
+                <p>
+                    <milestone unit="par" n="4"/> Quamquam scio maiora longe felicioraque, quae
+                    profecto sint uobis exempla de maximis Constantinis patre uel fratre, certe quae
+                    priora sunt tempore, etiamsi meritis secunda tu feceris, ipsos illis, si quis
+                    functis est sensus, uoto accessuros existimo. <milestone unit="par" n="5"/>
+                    Tibique in Persas hereditarium munus est: ut qui Romana tamdiu arma tremuerunt,
+                    per te tandem ad nostratium nomen recepti interque prouincias uestras ciuitate
+                    Romana donati, discant esse beneficio iubentium liberi, qui omnes illic fastibus
+                    regiis milites bello, serui pace censentur. </p>
+                <p>
+                    <milestone unit="cap" n="3"/>
+                    <milestone unit="par" n="6"/> Igitur si Terentius Varro Gnaeo Pompeio olim per
+                    Hispanias militaturo librum illum Ephemeridos sub nomine laborauit, ut inhabiles
+                    res eidem <supplied>ad</supplied>gressuro scire esset ex facili inclinationem
+                    oceani, utque omnes reliquos motus aerios praescientiae fide peteret uel
+                    declinaret, cur ego tibi, rem nostrae salutis adgresso, non ut ex bona flamma
+                    uirtutum hanc facem praeferam? Quoniam quantum ingenio minor, tantum hoc uoto
+                    Varrone sum potior, uti uel inde quamquam corporis liber, animi tamen uobis
+                    militem uiribus. </p>
+                <p>
+                    <milestone unit="par" n="7"/> Modo indicio sim quam illi uiam fortitudini
+                    strauerint, quae tibi nunc pro omnium salute carpenda est. Neque enim ego hic
+                    elegantiam sermonis affecto, cui de commodo usus ipsius laboratur, cum sit
+                    felicitas maior tali in opere uersanti praeisse quod prosit quam composuisse
+                    quod placeat; ut quo segnitior fuerit dicti simplicitas, hoc et fidei plus et
+                    luminis habeat enarratio; quippe quoniam in talibus ueritas palmam rapuerit
+                    eloquentiae, quae ubi arte protegitur scriptor pro auctore laudatur. </p>
+                <p>
+                    <milestone unit="cap" n="4"/>
+                    <milestone unit="par" n="8"/> Sed mihi hic et materiae parilitas blanda est et
+                    germanitas spei de te scripturo potiora tum Alexandri gloriis tum Traiani,
+                    quibuscum tibi sane commune est fatalem hanc belli lineam tangere, quoniam aetas
+                    quoque alterius nunc penes te est alterius uero consilium quo uincis aetatem. </p>
+                <p>
+                    <milestone unit="par" n="9"/> Quippe Alexandro illi interim sic aequabere:
+                    magnus ille cognomine, tu uero maximi filius, eadem fere natus terrae sub parte
+                    eodem atque indidem ducis exercitum, numero militum par, sed melior examine,
+                    eandem ulturus iniuriam es, sed disparis contumeliae. <milestone unit="par"
+                        n="10"/> Ex quo iure sane sit praesumendum quod aequali omine militans pari
+                    potiare fortuna, hactenus socius exemplo, ceterum pro merito felicior, siquidem
+                    quoniam deo praesidi acceptiora sunt uota quae fas et modestia concepit quam
+                    quae efferis moribus inconsulta arrogantia rapit. <milestone unit="par" n="11"/>
+                    Ille, sibi soli uicisse gloriatus factusque in amicos saeuior quo felicior,
+                    fructu uictoriae caruit, obitu multatus; saluti uero Romanae tu militans ei mox
+                    imperio contendes aetate cuius te gloriae inmortalitas comitabitur. Etenim ne
+                    tibi tantis ac talibus occupato ultra obloquar hinc exordium faciam. </p>
+                <p>
+                    <del>PROSAPIA ALEXANDRI</del>
+                </p>
+                <p>
+                    <milestone unit="cap" n="5"/>
+                    <milestone unit="par" n="12"/> Alexander natus Olympiade generis Aeacidarum
+                    patre ambiguus fuit, Ioue Hammone tali de sobole aut Heraclide Philippo
+                    competente. Sed ubi Philippo successit eumque ultus est Pausania caeso cum
+                    tribus filiis, quod hi praesidentem Aegensi theatro Philippum interemissent,
+                    fundato protinus imperio Macedoniae omnique in ius suum artibus regiis
+                    Peloponenso quaesita, consensu cunctorum in Persas ducere exercitum meruit,
+                    solis id modo Lacedaemoniis rennuentibus, non merito indigni
+                        <supplied>eius</supplied>, uerum pudore posthabiti sui nominis, quoniam
+                    imperium sola res est, cuius pretium periculis aestimatur. </p>
+                <p>
+                    <milestone unit="par" n="13"/> Quibusque Alexander deditus aetatis anno
+                    uicesimo, ut se tanto apparatui idoneum faceret, legit militem uoluntarium ac
+                    sibi uoto competentem, non numero uberi, uerum uiribus alacritatisque usibus
+                    animatissimum. Etenim quoniam id esset commodius, sese in exemplo ponebat. </p>
+                <p>
+                    <milestone unit="cap" n="6"/> Quippe ipse uisu arguto naribusque subaquilinis
+                    fuit, fronte omni nuda plerumque quamuis pinguius fimbriata de exercitio ob
+                    uehementiam equitandi, cuius id arbitrio dabat: ex quo relicinam comam iacere
+                    sibi in contrarium fecerat, idque aiebat decorius militi quam si deflueret. </p>
+                <p>
+                    <milestone unit="par" n="14"/> Statura iuuenis mediocris, membris exsuccior, sed
+                    quae nullas feruenti remoras adferrent, quod plus usui quam contemptui
+                    lenocinaretur. Crebrioribus quippe musculis tuberascens miris neruorum coetibus
+                    intendebatur, pernix cursu quo uellet, uehemens impetu quo rimaretur, nimius
+                    tormento iaculandi, continari quem destinasset peritus, feruens irruere quo
+                    audendum, constans excipere qui confideret, eminus certus, comminus uiolentus,
+                    eques improuidus turbidusque, pedes interritus peruicaxque. </p>
+                <p>
+                    <milestone unit="par" n="15"/> Multus ad imperia difficultatum, onerosior tamen
+                    exempli proprii irritamentis, quoniam bono opere praeueniri pudibile ducebat,
+                    iuuentae munus e corpore alacriter petens ipse <unclear>barbae acutae</unclear>
+                    durior et cetera candidus, et quae sibi sane quisque rectius consulat, aut ipsi
+                    certe imperatori uel militi uelit. Quippe ego tibi Alexandrum
+                        <supplied>similem</supplied> dixerim: tute uideto; nam nec blandiri proposui
+                    et nolo uideri auribus gratiosus, ubi oculis iudicare de te tuis omnibus licet. </p>
+                <p>
+                    <milestone unit="cap" n="7"/>
+                    <milestone unit="par" n="16"/> Is igitur Magnus sibi Peloponensis uires uiritim
+                    oppidatimque multa beniuolentia pigneratus est. Thracas quoque animo uariantes
+                    impigre subegit ab Orbelo monte, qui imminet Philippis, urbi Philippeae, Haemo
+                    continuus, ad Istri ostia, eximque cum mari dextro perque Euxinum militans
+                    Maeoti transmissa iam remeans Gothos irruisset, eos quoque superat bello, die
+                    eadem regressus ad suos. Tum Dahas Moesosque et Illyrios Dalmatasque omnes
+                    iustis proeliis superat componitque, et Thebas Boeotias diruit tumultuatas. </p>
+                <p>
+                    <milestone unit="par" n="17"/> Itaque iter in Asiam auspicanti nuntiatur Orpheos
+                    musici statuam plurimum sudauisse, idque laboris fore ingentis melicis
+                    litteratisque laudes eius cantantibus dictum. Quo magis ortu ueris Hellespontum
+                    proficiscitur, mandata imperii Macedonici tum Peloponensi Antipatro procuratione
+                    sub sui nomine, nec plus suorum quam peditum decem equitumque comitatus quinque
+                    milibus proficiscitur. </p>
+                <p>
+                    <milestone unit="par" n="18"/> Agmen uero ceterum et auxilia circa gentium
+                    classi uehebantur belli usibus diuite, quae Amphipoli in Strymone bicorni erat.
+                    Eo usque a matre deductus acuitur ad gloriam: ita nobilitas et in feminis
+                    periculis est amica. </p>
+                <p>
+                    <milestone unit="cap" n="8"/> Igitur ipse per Abderam Maroniamque tum Hebrum et
+                    Melanam amnes, classis uero circuitu omni uicesima die Seston uterque adpulere,
+                    Abydumque transmittunt, et diis heroibusque apud Ilium litant, ubique hasta humi
+                    fixa omen sibi facit Asiae bello quaerendae, quam Persa miles ea tempestate
+                    possidebat. </p>
+                <p>
+                    <milestone unit="par" n="19"/> Exim praemittit Parmeniona et Attalum duces, qui
+                    satrapas septem omnem Asiam praetendentes irritamentis a sese diducerent
+                    spargerentque, quoniam primo conflictu de summa belli decernere, prius suos in
+                    haec erudisset, Alexander declinabat. Sed enim satrapae notam ignauiae
+                    declinantes, quam in se scirent a rege supplicio punitum iri, ubi de Alexandri
+                    aduentu comperere, apud flumen Granicum congreges locant castra, quod is
+                    Granicus, Idaeis conriuatus, repens praecipitio montano descendens ruensque,
+                    impetu plus quam agmine ualebat, quo sperato segnius uenerat eminus Macedo. </p>
+                <p>
+                    <milestone unit="par" n="20"/> Res uero erat barbaris ceu secura, Graecis ardua:
+                    amnem tantae latitudinis et torrentis profundi abruptis utrimque ripis aduersum
+                    aciem euadere, quae multiplici numero gregatim sparsis obsisteret. Nihilominus
+                    ubi suos quoque Alexander uelut ex pari obuiaturos sub luce composuit, paulisper
+                    moratus, itidem ut digesta acies erat, aequali fronte uadum euincere incitat. </p>
+                <p>
+                    <milestone unit="cap" n="9"/>
+                    <milestone unit="par" n="21"/> Ita res belli audaciane an uero fortuna plus sua
+                        <supplied><gap/></supplied> haud pronunties exemplo praesentium. Vbi ordo
+                    quippe tot aluei milibus obtentus armatis, incertus subdoli uadi, diuina fortuna
+                    uix tamen profundo sese uultu modo liberi dexterisque emersissent mutuo
+                    adminiculabundi, mox eis erat scutum leuare, tela imminentium fundere, praerupta
+                    littoris conplanare, trudere infestantes. Tum quisque euaserat prior uim cauere,
+                    sequentes educere, ordines struere laborabat. </p>
+                <p>
+                    <milestone unit="par" n="22"/> Satis tamen constat, hic quoque laudis palmam
+                    penes regem fuisse. Dirigens quippe Alexander ante omnis cornu dextrum
+                    scandensque littoris obuiam, cum in sese duces hostium exciuisset, feruentius
+                    bello usus damno militiae periclitabatur. Namque ubi ei hasta praefracta est,
+                    dum circumspectat suos dumque sibi porgi aliam petit, irruenti Mithridati, qui
+                    gener Dario regi erat, telum quod accepit intorsit. Quo protinus strato
+                    etiamtunc et in haec intento a tergo superuolat Spithridates libraueratque iam
+                    acinacen post galeam caesam brachium bellantis Alexandri petiturus, ni uiso
+                    Clitus id faceret quod minabatur. </p>
+                <p>
+                    <milestone unit="par" n="23"/> Eisque caesis aditus bellantibus datus et
+                    uirtutis exemplum reliquis insequentibus. Haec denique fuit mora transitui quae
+                    proelio: ita non multo post debellatum internicione hostibus caesis, nisi pauci
+                    qui studio fugae arma pro onere abiecerant, captisue aliis, quorum plerique
+                    Athenienses Persis pretio militabant, quos quidem ferro uinctos
+                        <supplied><gap/></supplied> Macedoniae rura iubet. Vtrimque caesos humant.
+                    Praedae pleraque iactans gloriae matri transmittit. </p>
+                <p>
+                    <milestone unit="cap" n="10"/>
+                    <milestone unit="par" n="24"/> Igitur hac belli fortuna in confidentiam
+                    consequentium eruditus, Lydiae Sardis et reliquas recepit Asiae ciuitates aditu
+                    indemni, Persis nauale bellum frustra temptantibus, quoniam terrestribus undique
+                    saeptibus aut praesidiis arcebantur. Fuit tamen Alexandro etiam Halicarnassi
+                    anceps bellum, quamque obsidione uix cepit et diruit. Propitiatus hinc post
+                    reginae, cui mox reddidit regnum urbis eius, ab eaque se filium dici
+                    dignantissime pactus est. </p>
+                <p>
+                    <milestone unit="par" n="25"/> Exim Lyciam ac Phrygiam suas facit. Cumque ageret
+                    Phaselide, Alexandrum audit Aeropi filium nouare aduersum se res uelle, hortatu
+                    Darii, Asisine internuntio, ut si is Magnum Alexandrum oppressisset regno eius
+                    uteretur, additis sibi auri talentis mille et amicitia Persarum; quod is
+                    Alexander Aeropi, interfectoribus Philippi conscius, heredis eius clementiam
+                    callidam suspectaret: et est creditu facile quod conscientia opinatur ad sui
+                    meritum. Ea ergo re probata ex consilio hominem amolitur. Pergenque Pamphyliae
+                    protinus transit. </p>
+                <p>
+                    <milestone unit="cap" n="11"/>
+                    <milestone unit="par" n="26"/> Hinc Aspendiis condicione imperata cum Siden
+                    tenderet neque Aspendios obsequentes iussis audisset, regressus eos captiuauit
+                    transitorie. Tum, itinere mutato, Pisidiam una cum exercitu repedans, reniti
+                    ausam inuitamque obsequi Sagalassum expugnat urbem monte munitam, perque Sagarim
+                    Phrygiae amnem Euxinum uenit. Eoque de Macedonia sibi eques pedes miles
+                    adhaerescit uiribus quam numero magis. Quo auctus, protinus per Bithyniam et
+                    Galatiam tum Cappadociam superato Tauro Tarsum Ciliciae uenit labore continuo,
+                    urbem si<supplied>bi</supplied> paene fatalem ex hac periculi facultate. </p>
+                <p>
+                    <milestone unit="cap" n="12"/>
+                    <milestone unit="par" n="27"/> Arsames satrapa magna cum manu bello in se etiam
+                    tunc paratus ferebatur, adhuc Ciliciae potens. Eoque Alexander, ut ei mos erat,
+                    armis grauis peditem suum pedes ipse in acie comitabatur. Sed enim hi fugerant
+                    qui armabantur Arsame. </p>
+                <p>
+                    <milestone unit="par" n="28"/> Ipse ubi Tarson inuehitur sudore et puluere miles
+                    decens labore et honore regali, Cydnum amnem uidet urbis eius media peruadere
+                    coetu ciuium coronatum, mundum facie, acutum frigore, nimium agmine, festinum
+                    meatu, ripis uirentem; delectatusque tali elemento seu fluenti uictus aestu ac
+                    desiderans frigoris, an ut fortitudinem sui intuentium ciuium theatro iactaret,
+                    saltu pontem fluminis scandit una clipeo loricaque uel telo tum casside inque
+                    amnem sese trans latus alacri saltu praecipitat eiusque omnem retentans arma
+                    latitudinem natat. Ita inter artes est regias fortitudinis formam ex se militi
+                    dare, qui sese iactauerint. </p>
+                <p>
+                    <milestone unit="par" n="29"/> Sed minores animo corporis ei uires fuere
+                    sustinendae iniuriae. Calens quippe omnis ac uaporatus, hausto fluminis frigore
+                    penetrabilius utique quo <supplied>one</supplied>ratior, tantos febrium sibi
+                    contractu neruorum uapores exciuit, ipsis uitalibus ui frigoris ebriatis, ut spe
+                    bona medici laberentur, ni amore in eum diligentiores fuissent. </p>
+                <p>
+                    <milestone unit="par" n="30"/> Tum quidem fertur illud specimen extitisse
+                    Alexandri uirtutum ad amicitiam memorabile. Philippus medicus aluo eius
+                    incitandae potum parabat. Id Parmenion aemulus Philippo uenenum noxium dicens
+                    litteris regem uti letale prohibebat, quas ubi Alexander hausturus excucurrit,
+                    cartam medico legendam dans ilico ipse poculum stringit unaque uitium morbi et
+                    calumniae diluit, docuitque amicitias probatas secundam non recipere
+                    deliberationem. </p>
+                <p>
+                    <milestone unit="cap" n="13"/>
+                    <milestone unit="par" n="31"/> Postque id magnae curae Alexandro fuit Ciliciam
+                    quoque omni hostium interpellatu purgare. Iamque Mallon urbem appulerat Ciliciae
+                    non ignobilem, cum Darius ei adnuntiatur omni cum belli apparatu abesse bidui
+                    uia. Quae res Macedonas itinere praeuersos tantum in belli ardorem spe
+                    praesumptae uictoriae leuat, ut ipso biduo grauarentur morae taedio. <milestone
+                        unit="par" n="32"/> Issum denique uterque concurrunt aciemque angustis loci
+                    faucibus struunt. Atque hic sane operae pretium foret, modo suscepta opera
+                    pateretur, referre in milites utrimque regalia incitamenta: ut hinc Graecis
+                    ultionis necessitas dicta sit et sui dignitas et praeiudicia fortunae, at contra
+                    Persis adrogantia uentilata, cum summa utrubi<supplied>que</supplied> fuerit
+                    uitam illic relinquendam, unde non uictoria sequeretur; <milestone unit="par"
+                        n="33"/> quamuis Alexander Hammonis numine, ut paterna sui procuratione, in
+                    spem uteretur militis creduli, quoniam res securis dei altero tanto iustius
+                    antistat et eruditio fit audaciae confidentia praeiudicii,
+                        acce<supplied>de</supplied>nte ad commodum sui, quod hosti illic de loci
+                    lege ad emolumentum peribat, cuius sexcenta milia bellatorum in parte uicesima
+                    numerabantur; uerum conditio situs uires aequauerat, in faucibus loci aequis
+                    frontibus concurrentibus. </p>
+                <p>
+                    <milestone unit="cap" n="14"/>
+                    <milestone unit="par" n="34"/> Hic ego facinus auditu dignum non praetermittam
+                    in loco ponere. Quippe Alexandrum ferunt, ubi pernox aciem suam uoto composuit
+                    stipauitque securior laterum, adeo post id pingui somno soporatum, ut adulto iam
+                    die hosteque propinquante uix ducibus excitaretur; quaesitumque ab eo, ecquid
+                    causae esset, quod sub illo discriminis tempore, curae plenus, adeo solito
+                    diutius ac profundius cubitauisset, eumque dixisse laetiorem: sane non frustra,
+                    quod insperata sit copia sibi hostium data, securum factum acie disposita pro
+                    sententia. <milestone unit="par" n="35"/> Postque id ipsum dextrum cornu duxisse
+                    in confertissimos Persas, et Thessalos equites mox insecutos ac minaces maxime
+                    hostium globos ilico discidisse, acrique impetu agmen ad amnem Pinarum trusum in
+                    terga uertisse, plus multitudine sui hostibus quam metu fugaue turbantibus. Ipse
+                    denique mox Darius curru relicto et in curru insignibus regiis aegre illi
+                    fortunae eximitur, affectibus quoque in tentoriis regiis hosti relictis dolori
+                    dedecorique (spolia tam foeda quam bello non necessaria), matre uel coniuge
+                    comitantibus filiabusque duabus et filio. Opum tamen eius minus opinione illic
+                    inuentum, quoniam pleraque festinans Damasci commendauerat. Alexander tamen
+                    uictor ad Darii epulam et tentorium subit, isque finis bello fuit. </p>
+                <p>
+                    <milestone unit="cap" n="15"/>
+                    <milestone unit="par" n="36"/> Insequenti tamen Alexander die etsi graui femoris
+                    saucius uulnere obiit tamen cunctos et quisque desideratus uti sepeliretur et
+                    Persa ex pari iubet, quisque uulneratus ut curaretur, donatis his regie, quorum
+                    in bello ipse commilitio fortitudinis testis erat aut socius difficultatis. </p>
+                <p>
+                    <milestone unit="par" n="37"/> Audito tamen captarum Darii mulierum ululatu
+                    quibus uisa arma Darii uel currus opinionem caesi regis adferebant, et iisse ad
+                    eas fertur et honorifice uidisse, regieque obseruari iussisse. Vbi additur
+                    Hephaestiona una cum uidissent indiscretius cultum, de auctu corporis melius
+                    opinatas, ipsum pro Alexandro salutasse. Sed enim errorem hunc matre Darii
+                    erubescente, dixisse regem nihil eam erroris eius paenitere debere, in utroque
+                    enim se Alexandrum salutatum. </p>
+                <p>
+                    <milestone unit="cap" n="16"/>
+                    <milestone unit="par" n="38"/> Darius tamen collectis ex fuga ferme ad quattuor
+                    milibus equitum Euphraten petit insequentibus interponendum. At enim Alexander
+                    praecoque properans, Coele composita eiusque urbibus confirmatis Phoenicesque,
+                    Syriae res inuisit et Stratona Gerostrati filium, qui Persis naualibus praeerat,
+                    supplicem recipit libenti cum uenia suum factum; ab eo aurea corona coronatus
+                    Aradum multasque sibi alias adhibet ciuitates. </p>
+                <p>
+                    <milestone unit="par" n="39"/> Ibi Darii sumit supplices litteras se culpa
+                    purgantis, neque belli causas ab se ortas, uerum lacessitum obuiasse. Quae
+                    utcumque res fuerit, sese nunc quaesere matrem sibi affectionesque restituat;
+                    quarum pretium facere auri talenta decem milia. <milestone unit="par" n="40"/>
+                    Verum Alexander refert, si praecedentium memor sit, belli fortunam Persarum
+                    merito inclinasse; frustraque nunc offerri sibi, ceu si sint dubia, quae iure
+                    Martis iam sua sint una ipso qui largiatur. Darius uero si uelit reabse fortunae
+                    parere uictorisque nosse clementiam, quid quaeso interesse ut manu ita et
+                    moribus sponte se dedat? Neque paeniteat sui, ni bellum mauelit. </p>
+                <p>
+                    <milestone unit="cap" n="17"/>
+                    <milestone unit="par" n="41"/> Hisce responsis Damascum capit obnisu leui opum
+                    conditorium Persicarum. Tum legatos intercipit Thebanorum et Spartanorum Dario
+                    blandientes, sibi iniquos. Neque in eos inmitius consulit, gentium iure, sed
+                    dans modestiam tempori. <milestone unit="par" n="42"/> Tyrum tamen ueniens
+                    sacrificare Herculi uoluit; quod secus incolae aestimantes internuntiis caesis
+                    causas belli sibi et excidii peperere. Arceri quippe rex aditum dolens urbem
+                    obsidere instituit. Ea Tyros insula etiam tunc erat haud procul continente, adeo
+                    ut facile sibi Alexander uindicaret, quod adgestu iacto eam urbem terrae
+                    continuaret. Inque id protinus e Sidone naues acciuntur unaque his Gerostratus
+                    rex Aradi uenit, relicto satrapa Autophradate et Medica amicitia. Phoenices
+                    quoque uel Rhodii Soliiue uecti classibus suis et una Mallonii Cypriique utiles
+                    bello nauali uel Lycii adfuere, adgregatis etiam ex Macedonia nauibus ac
+                    militibus. Iusto iam denique apparatu opus coepit: triduo facile laboratur. Hic
+                    machinamentis admotis disiectisque muris et internicione incolis caesis,
+                    optimates tamen pauci in Herculis templo reperti honore numinis sospitantur. </p>
+                <p>
+                    <milestone unit="cap" n="18"/>
+                    <milestone unit="par" n="43"/> Haec dum Tyri geruntur, Darii legatio reuenit ceu
+                    si in auctione regni pausam malis praesentibus petens, pretii delinimento
+                    lucrique additamentis liuens gloriae conpetitioni, quo pars maior mortalium
+                    uincitur; nam uirtus in paucis est. Quippe ad decem milia talentum auri pro
+                    matre et filiis uxoreque sponsa iam pridem addebat quicquid utrique regno
+                    possidendum limes Euphratae dispesceret ac muniret a se datum iri, cum filiarum
+                    una, quam sibi uictor nuptiis delegisset ad fidei religionem. </p>
+                <p>
+                    <milestone unit="par" n="44"/> Haec adeo ampla uidebantur, ut Parmeniona sit
+                    relatum se sane dixisse, si ipsus Alexander foret, oblata petiturum,
+                    responsumque a rege, se quoque, si Parmenion foret, obla<supplied>ta
+                        peti</supplied>turum. Renuntiari denique Dario iubet inscientiae uisum iri
+                    de re, quae omnis est sua, partem malle quam uniuersitatem. Nam de eius filia ni
+                    temperare sit pulcrius copiam non morari, sibique ipse si consulat, sensurum
+                    coram, nosse uictoriae modum quisque nouerit uincere. Hic Darius pace desponsa
+                    parando rursus bello incubuit cunctis suis uiribus. </p>
+                <p>
+                    <milestone unit="cap" n="19"/>
+                    <milestone unit="par" n="45"/> At uero Alexander Palaestina sibi integrata ire
+                    Aegyptum destinat. Sed enim Gazan Batis eunuchus aduorsum transiturum armauerat,
+                    quod ea urbs, suggestu ardua, harenis circa perpinguibus uel umectis satis
+                    subsidiis uallaretur, ualida muris, difficilis accessu, ambitu
+                        ma<supplied>gna</supplied>. Quare, quoniam ad gloriam arduis res amica, quo
+                    difficilior spes hoc ardescere rex inpensius rimarique laudem de moliminis
+                    difficultate. </p>
+                <p>
+                    <milestone unit="par" n="46"/> Igitur et accessus aggestu solidatur, et bellum
+                    iam sacrificio commendabat, cum ales quaepiam arae lapidem supermittit. Quae
+                    uates et quisquis haec coniectare in artibus habent, et excidium urbi portendere
+                    et ruinam et regi periculum praemonent, ni caueret. Neque res ultra differtur,
+                    eruptio quippe irruens indigestum etiam tunc militem turbat. </p>
+                <p>
+                    <milestone unit="par" n="47"/> Quem ubi Alexander uiritim accitum obuium
+                    confirmatumque oratione quantocius ipse praeuius ducit nil praedictum memor, aut
+                    magis imperii quam sui, catapulta humerum uulneratur grauiter quidem; sed enim
+                    animo uim corporis sarciens capiendae urbis spem uaticinii fide de suo periculo
+                    ratam sentit, et posthabito uulnere ui perdurat admotisque obsidialibus
+                    machinamentis tum cuniculis insertis, idque assidue ac profundius, quarta demum
+                    die irruit Gazam ac diripit, colique in posterum sinit usus eius studio et
+                    opportunitatis, ut qui haec talia sibi uinceret. </p>
+                <p>
+                    <milestone unit="cap" n="20"/>
+                    <milestone unit="par" n="48"/> Hinc septima die Pelusium et opima Aegypti uenit
+                    iam classe praemissa, nihil sibi Mazace satrape eius loci audente subsistere.
+                    Quare inde naues Memphim per Nilum suburgueri iubet, ipse per Heliopolim pedes
+                    eodem occursurus ibique diis Aegypti facit et sacros agonas exsequitur. Ac simul
+                    Memphi defluente exercitu Canopum descendit. Quam circa loci facie delectatus
+                    condendae urbis desiderio occupatur, diuum aeuo rem proximam mortalibus
+                        <supplied>non</supplied> insciens in opere pulchro perpetuari nomen
+                    auctoris. </p>
+                <p>
+                    <milestone unit="par" n="49"/> Igitur ubi solum describi conueniret, eius
+                    scientiae opificibus quos architectonas uocant limitandae humo ferunt puluerem
+                    defuisse, eoque milites iussos, quisque secum alfita esui potuiue gestitaret, ea
+                    cuncti conferrent, eximque illos solo pingendo paruisse. Sed enim mox in cetera
+                    prouidentia rege distento adlapsas alites depastasque edulem asperginem
+                    liniamenti. Quod portenti coniectatores cum secus ducerent, Alexandrum sermo est
+                    pronuntiauisse, eam urbem multis circa palantibus uicinisue gentibus altricem
+                    futuram. Haec molienti omnes quisque fauerant Persis relictis satrapis Alexandro
+                    accessere, coramque pro merito aut uoluntate laudantur. </p>
+                <p>
+                    <milestone unit="cap" n="21"/>
+                    <milestone unit="par" n="50"/> Ipse Hammonis sacrum longe in desertis situm, ut
+                    illa sibi opinio patris staret, itinere incerto et inlimitatis locis magno
+                    dierum plurium labore contendit, quoniam harenis aequalibus diu indinoscibile
+                    est. Denique duos coruos draconesue praeuios iuisse aiunt inimici fabularum,
+                    donicum locum sacri appulit, mire sane secretum deo et ad mira quaeque
+                    credendum. <milestone unit="par" n="51"/> Quippe post inmensum illud pelagus
+                    harenarum loci facies offertur consita, arborum uirens, nemoribus umbrosa,
+                    inhospita solibus, fontis affluens, tam deo quam copiis diues: hic pratis
+                    mollis, hic floribus picta, glauca hic oleis, hic ebria Libero, hic palmis
+                    arboribus grandifera et caesariata, interscatentibus lymphis et interloquentibus
+                    riuulis. </p>
+                <p>
+                    <milestone unit="par" n="52"/> Nec tamen illi ex ingenio nostratium fontium
+                    sunt. Quippe praecalidi noctis e medio sensim in meridiem frigent ad niuem
+                    gelidi, eximque tepentes in noctis medium concalescunt. Salem quoque offendunt
+                    nitore quo purior crystallus et sapore gratissimo, ceu si arte condiatur, forma
+                    terete qua ouum est, paulo maius quam ouum ex ansere <supplied>et</supplied>
+                    longius, crassitudine tota peruium lumine. Denique exim mola sacrificanti pro
+                    ture est odoribus efficacior. </p>
+                <p>
+                    <milestone unit="cap" n="22"/>
+                    <milestone unit="par" n="53"/> Hinc patris dei oraculis confirmatus Memphim
+                    redit, quo sibi legationes Graecae conuenerant, et hae referunt cupita. Nihilo
+                    minus, uoto laetiores, Athenienses quoque captos Granici suos impetrant. </p>
+                <p>
+                    <milestone unit="par" n="54"/> Enim uero ipse cognominis sibi urbis iam conditu
+                    adolescente, surgentibus moenibus, tum belli rebus ciuibusque formatis, Tyrum
+                    redit classe praemissa. <supplied><gap/></supplied> imminentemque receptus urbem
+                    mox duobus pontibus amnem eum transit, quamuis Mazaeus missu Darii
+                    interturbaret. Eximque laeua habito Euphrata montibusue Armeniae, pro utensilium
+                    commodo itinere quaesito, Babylona tendebat. <milestone unit="par" n="55"/> Ibi
+                    speculatore forte intercepto Alexander, quem in hos usus sibi Darius armauerat,
+                    noscit eum iam Tigreta amnem appulisse, obstiturum scilicet transmissuris ibi
+                    longe auctiore exercitu animo numeroque. Verum cum is consilio mutato pedem de
+                    amni retulisset, a tergo hosti uenturus Alexander protinus eum alueum transit
+                    praeruptis difficile superabilem. </p>
+                <p>
+                    <milestone unit="par" n="56"/> Ibi suorum uiribus fotis et ad futura praedoctis
+                    agmen iam acie composita ducebat. Quarta denique die eminus e celsioribus
+                    speculis, equitibus palabundis, ut sese uidere, concursu protinus habito pars
+                    aut caeduntur aut fugantur. </p>
+                <p>
+                    <milestone unit="cap" n="23"/> Sed eius agminis pondus, Dario ipso duce,
+                    omnisque belli apparatus haud procul indidem habebatur una omnibus gentibus
+                    barbaris, quae, nominis alienae nostratium, sibi mutuo peramicae sunt. Erantque
+                    eis numerus in quadraginta equitum milibus munitissimis, pedes uero his tricies
+                    tantum, falcati currus ducenti et elephanti turriti, quae illis est pompa
+                    iactantiae. </p>
+                <p>
+                    <milestone unit="par" n="57"/> Hisque cum copiis castra tunc locant iuxtim
+                    Bumelum amnem Arbelo urbe non procul, uel quod alii mauolunt in Causamelis: id
+                    loci nomen est. Illic fertur orso Dario suos in bellum adhortari uisum eunuchum,
+                    qui una affectibus captus refugerat, commodum dixisse, quo castitatis honore
+                    utque regie sui haberentur nullius absque eius gratiae
+                        <supplied><gap/></supplied>, et eum petisse diuinitus pro contione,
+                        <supplied>si</supplied> sibi iam fato non liceat, Persis Alexandrum
+                    imperare. <milestone unit="cap" n="24"/> Tum locum deligit tendendo
+                        <unclear>hostis uisabundum</unclear>. Erat id aequor inoffensius equitabile
+                    et Issico bello condicio diuersa, ut quod illic animi uirtute prouisum est magna
+                    hic corporis rursus fortitudine peteretur. </p>
+                <p>
+                    <milestone unit="par" n="58"/> Igitur omni quatriduo uiribus suorum refectis
+                    exploratoque belli loco, nequa Persarum insidiae, sarcinis Alexander relegatis
+                    oratione incitat suos; itaque prouehit aciem silentio imperato, ut repens fragor
+                    fieret terribilior. At enim ea omni die uterque trepidi et circumspectantes
+                    itidem ut constiterant in acie quieuere. Vtendumque noctis adiutu Parmenioni
+                    consilium erat, quod Alexander dissicit specie uictoriae indecentis, reabse
+                    quoniam noctis fortunae confidere ubi nihil cautioni licet et imprudentiae est
+                    et inscitiae, quoniam consilia bellica longe tutius oculi metantur, quamuis ipsi
+                    haud amplius equitum septem milibus, id uero peditum quod Persis equitum. </p>
+                <p>
+                    <milestone unit="cap" n="25"/>
+                    <milestone unit="par" n="59"/> Quare in hunc modum nocte superata ubi cum die
+                    equites Scythas dextrum suum cornu irruere uelle et circumplecti Alexander
+                    uidet, obuius tendit. Diuque ancipiti fortuna tandem tamen trusos hostes multo
+                    obdurantium damno in terga conuertit. Vltra iam Macedonum peruicacia audebat,
+                    enim Bactris Paeonas frontis in medio numero claudentibus conuertit Alexandrum
+                    nuntius suppetiatum suis, posthabitis fugientibus quis imminebat. Ac sic Scythae
+                    quoque leuati insecutore, ubi a tergo uacant, integrant uires reuersi Bactrisque
+                    congregantur, spe audaciam nutrientes. </p>
+                <p>
+                    <milestone unit="par" n="60"/> Fitque pugna acerrima iactantium crebritate.
+                    Quippe Paeonibus alacritas est amica more gentis suae uel ob nitendum expeditius
+                    proeliantibus, quod praeter scuti usum loricae ut oneris neglegunt, cum contra
+                    hosti quamuis grauis impenetrabilis tamen ac satis firma corpus omne munitio
+                    clauderet et tueretur. Verum sic quoque nauiter eos Paeonibus nunc impete
+                    retrudentibus aut continentibus diuque aestu Martio fatigantibus inmitti currus
+                    iubentur. </p>
+                <p>
+                    <milestone unit="par" n="61"/> Eaque res et fraudi Persis et respiramento.
+                    Quippe currilium falcium, discedentibus his qui imminebant Scythis, praedocti
+                    Paeones, ubi inruere currus intuentur, sensim in latera denseti aditum quidem
+                    transituris dabant, utrimque tamen equos, bigas aurigantesque facile
+                    confixerant. Idque adhuc Persis equestre tantum proelium uidebatur ac uelitatio
+                    leuius armatorum. </p>
+                <p>
+                    <milestone unit="cap" n="26"/>
+                    <milestone unit="par" n="62"/> Quare Darius mouet phalanga in Alexandri dextrum
+                    cornu, quod eius praesentia praeponderabat, sensim tendens suos, ut pauciores
+                    circumueniret. Sed feruentius obuians re prouisa plerosque Alexander dissicit
+                    nec obsequi consilio sinit adeo torrenti turbine et alacritate, uti Darius ipse
+                    exemplo hostis et pudore ignitior etiam tunc agminis sui in medio nauiter
+                    bellans, ubi incondite suos turbare uidet, studio salutis neglegens
+                    existimationis in fugam uerteret idque curru quod nobilius ducebat. Neque
+                    difficile ceteri, pedibus in sententiam secuti regis, extemplo paria consultant,
+                    quamuis iam pars multitudinis Persicae, rupta Macedonum acie, in sarcinis
+                    praedarentur. Qui tamen mox, suorum comperta fortuna, qua uia tutior fugientibus
+                    competunt domum itionem. </p>
+                <p>
+                    <milestone unit="par" n="63"/> Sed haec in Alexandri sane dextris agebantur.
+                    Laeuum uero quod Darii cornu dextro obuiabat, aegre satis cura Parmenionis
+                    tuebatur; repensarentque Persae damna praedicta, ni Darium Alexander insequens
+                    per internuntium nosceret Parmenionis res uergere damno haud leui, eoque
+                    comperto et ancipiti satis bello eminus uiso regressus eidem subpetiaretur.
+                    Neque enim mora bello fuit a tergo hostium uenienti, quin uiso tali auxiliatore
+                    cuncti protinus laberentur, ut spes fugae blandior cuique. </p>
+                <p>
+                    <milestone unit="cap" n="27"/>
+                    <milestone unit="par" n="64"/> Quare ipse quidem Darium insequi statuit: agmen
+                    uero, transmisso Lyco flumine qui ultrorsum est, castra uallo munire ibique quam
+                    queant ocius refectioni consulere iubet secundis intentos. Igitur Parmenion
+                    spoliis hostium et opibus coactis opperiri Alexandrum statuit etiam ultra
+                    progressum; qui ubi Arbelum uenit, quae prior ciuitas stadiis belli de loco
+                    ferme sexcentis sit, Darium quidem nullum uidet, ita uolucer praeteruolarat,
+                    opes tamen eius et arma, tum cidar, apicem regium, curru una et insignibus
+                    retrahit uniuersis. Eo bello Macedonum desi<supplied>de</supplied>rati sunt uiri
+                    centum, equi mille, quorum pars maior in sequendo Dario
+                    <supplied>de</supplied>fecerat, Persis uero trecenta haud minus milia, totidem
+                    captis, spoliatis uniuersis. </p>
+                <p>
+                    <milestone unit="cap" n="28"/>
+                    <milestone unit="par" n="65"/> Darius tamen paucis una Mediam petit, Babylone
+                    Susisque uitatis, quod eas urbes inlectu nobiles secure auideque petiturum
+                        <supplied>illum</supplied> protinus sibi gloriae opinaretur, et id tum
+                    expectare perfacile erat. Denique Alexander contendens cura et facie bellatoris
+                    terribilis in acie agens militem astu minatus Babylona accessit, minax motu
+                    quantum uisi eminus queat. Omnes protinus incolae cultu nil tristi, enim
+                    laetitiae simulamento obuiam una muneribus effunduntur eoque genere uniuersi ad
+                    meritum recepti metum obsequio mutauere gratantes sibi nec uictore secus ad
+                    modestiam redito. </p>
+                <p>
+                    <milestone unit="par" n="66"/> Illic igitur primum Persarum omni regno disposito
+                    suis legibus et eius administratoribus datis, Susas quoque maiore longe sui tum
+                    specie proficiscitur. Eximque Tigri transmisso Vxios pergit, efferum hominum
+                    genus, quorum quisque campestres dicto audientes fuere; montium uero incolae de
+                    soli ingenio ferociores obstituros sese obnuntiabant, ni
+                        mo<supplied>re</supplied> Darii mercedem sibi transitus dependisset.
+                    Enimuero tunc Vxiis superuenit inprouisus stratisque obuiis celsiora montium
+                    scandit. Mutata denique adrogantiae uice Vxii uectigales sese eidem profitentur. </p>
+                <p>
+                    <milestone unit="cap" n="29"/>
+                    <milestone unit="par" n="67"/> Exim relictis qui grauius armabantur Pylas petiit
+                    fauces montium Persicorum ibique offendit Ariobarzanen in se armatum Darii
+                    nomine studioque quadraginta milibus peditum et equitum septingentis obuiasse.
+                    Vbi tamen sibi ingenium loci quam munus hostium plus obsistit, docent captiui
+                    circuitu posse consuli difficultati; quibus auscultans, fide dicti praeuisa,
+                    emensis nocte stadiis sexaginta superuenit Persis interritis aditu suique
+                    securis. Caesis denique obstinatioribus fugatisue, ultra inoffensius tendit
+                    Pasargadas diuitiis inuitantibus. Cyri denique atque Xersi illic, ceu si tutius,
+                    sitis, thesauris potitur et amoenitatibus aulicis, quamuis regia igni abolita
+                    odio Xersi iniuriae, tum regis uoluptatibus, abolendis, etsi iam suis, scilicet
+                    ut uicem damni ac labis meritum, quam ille inuexerat Graecis, repensaret. </p>
+                <p>
+                    <milestone unit="cap" n="30"/>
+                    <milestone unit="par" n="68"/> Hinc Mediam dirigit studio Darii capiendi, qui si
+                    ulterius urgueretur insectantium peruicacia transire decreuerat ad Hyrcaniam.
+                    Quippe Darius Bactra populatus tum omnibus adpetendis corruptis aut amendatis
+                    damno regionis contra insequentes cauebat. Ac siquid sibi regium aut de affectu
+                    regio supererat, id omne iam Pylas Caspias relegarat, unaque comitantibus et
+                    utilitate deuotis, ut opinabatur, quos Ecbatana coegerat morabatur. </p>
+                <p>
+                    <milestone unit="par" n="69"/> Qua re conperta duodecima demum die Mediam
+                    Alexander aduolat, quod exim ultra abiturus Darius ferebatur. Sed iam digressum
+                    una thesauris insequitur unius diei reliquo interuallo, rescitque a transfuga,
+                    pertaesos comites fugae eius, ceu si in gratiam potioris, Darium habere sub
+                    uinculis, Besum uero satellitem regis eius insignia recepisse. Igitur uoto
+                    pennatior et spe uoti ignitior et uiae usus asperiore conpendio elaboratae ad
+                    pretium morae abscindendae, inopinus superuenit Beso, confligentemque damno non
+                    leui dispergit et dissicit per uim clam fugae remedio dilapsum. Ibique reperiunt
+                        in<supplied>teremptum D</supplied>arium a suis, qui Beso una fugissent.
+                    Quare corpus quidem honore regali maiorum eius sepulcris inferri iubet. </p>
+                <p>
+                    <milestone unit="cap" n="31"/>
+                    <milestone unit="par" n="70"/> Ipse uero, Hyrcaniae quis uisum ad ingenium loci
+                    ac temporis reuersionisque commodum superpositis, Besum
+                        in<supplied>se</supplied>quitur, sic animo firmatus, ut quadrifariam fugiens
+                    uallaretur. Denique ubi campos ingressus est, uictori se dedunt Abraxares una
+                    Phratapherne satrape. Besus elabitur. Qua cura deposita seu dilata suos quidem
+                    per loca belli siquos reliquerat congregari iubet, refectisque his quatridui
+                    mora Xazacerta ire decernit, urbem illic nihil optimae posthabendam, quam
+                    praemissi in hoc ab Alexandro moderabantur. Sed concurrunt prius etiam
+                    impedimenta agminis <supplied>uni</supplied>uersi loco belli relicta accitaque
+                    post id; sic enim regia iussa praescripserant. Ac siqui ab se distracti fortunam
+                    belli meritumue uictoris elegerunt, uel qui adeundum iudicium putant, tum uenia
+                    donati omnes, Graeci quoque mille quingenti qui Dario mercede militabant, eosque
+                    suos facit. </p>
+                <p>
+                    <milestone unit="par" n="71"/> Interim tamen Mardos excurrit et captos bello
+                    redigit in obsequium nihil omnium rennuentes (sed enim Mardis praeter arma
+                    uiresque nulla sua res est), opum cura posthabita perdurans quae ceteros hominum
+                    exercitos habet. Exim reuertenti Spartani se offerunt, qui Darii amicitiam
+                    petierant; sed custodiri mandantur suspecti simplicis confidentiae. </p>
+                <p>
+                    <milestone unit="cap" n="32"/>
+                    <milestone unit="par" n="72"/> Tum moratus Xazacertae in Hyrcania dies quindecim
+                    Parthos Ariosque proficiscitur et Susiam ciuitatem, quod Besum illic bello
+                    studere comperisset non regni modo, uerum nominis etiam Artaxersi ueluti ad
+                    reuerentiam sibi uanitate quaesita, quoniam multi refugae Bactriani in eius
+                    satellicium confluxissent inlecti mente iactantiae. </p>
+                <p>
+                    <milestone unit="par" n="73"/> Inque id festinanti Satibarzanes Ariorum satrapa
+                    nuntiatur, interfectis Macedonum urbis eius ad custodiam quos acceperat, Arios
+                    pro Beso armare. Illo igitur praeuertens sexcentis biduo stadiis urbem Artacoana
+                    Ariorum regiam uenit. </p>
+                <p> Quo uiso Satibarzanes una paucis, conscius meriti, fugit; ceteri puniuntur mali
+                    consilii uel obsequii mercede. Quis gestis Xazacertam Alexandro reuertenti
+                    offertur unus Darii interfectorum afficiturque seruiliter uerberibus ac morte.
+                    Edoctusque ab eo super consciis in Besum ducit exercitum. </p>
+                <p>
+                    <milestone unit="cap" n="33"/>
+                    <milestone unit="par" n="74"/> Eo uero itinere gentes subiugat plurimas, tum
+                    Drancas tum Arachotas, barbaras barbarorum uicinas Indiis mari rubro imminentes,
+                    Arios quoque qui nuper obsequio defecerant, idque hieme multa iniquum militibus
+                    inpeditis. Enim uero in hos ducibus inmissis ipse Caucasum tendit amore
+                    uincendae difficultatis et illi quoque Alexandriam sibi ad fidem laboris
+                    instituit ac nominis diuturnitatem. </p>
+                <p>
+                    <milestone unit="par" n="75"/> Quam molienti nuntiatur Besum ultra transgressum
+                    Oxum flumen nauibus superauisse, quas omnes incenderit, ne par sequentis sit
+                    libido. Igitur nihil moratus ipse quoque audet in Caucasum, longitudine sui
+                    Tauro continuum, saxis incondite arduum neque gradibilem, ut uidebatur,
+                    intersitumque parcis arboribus ceteraque termintho. Bonum quidem illic aiunt
+                    silphium gigni: quo facile adplicari oues, flore eius et usu frugis et usu
+                    radicium delectatas. Eoque et hominibus gaudet carne sola contentis, Martiis
+                    prorsus et belli usibus amicissimis. </p>
+                <p>
+                    <milestone unit="par" n="76"/> Quippe hinc Besus non modo gentem optauerat,
+                    uerum quicquid suppetile insequentibus foret, id omne corruperat amolitusue
+                    incendio geminauerat difficultatem paria temptantibus. <milestone unit="cap"
+                        n="34"/> Sed enim frustra id quidem. Ita omnibus superatis, quod se suosque
+                    Alexander doctus fama Aorni primum, tum penes Bactra uiaticasset, ipse quoque
+                    Oxum iam superauerat. </p>
+                <p>
+                    <milestone unit="par" n="77"/> Vbi cum facultas transitui nulla esset, probat
+                    nihil ita mortalibus arduum, cui non uiam perfacile sapientia strauerit. Quod
+                    enim alias praesenti usui suppetiari aduerterat, promere suos pelles quibus
+                    subtendebant iubet <supplied>et</supplied> eis gignentium friuola aridaque
+                    constringi quam maxime uinculis crebrioribus docet. His quippe peractis,
+                    substratu leuium densarumque itidem et superiectu trabicularum, calcatui
+                    tabularum, conexa utrimquesecus pellium fragmenta usum ratium integrauerant
+                    sibique pecorique. In hunc modum sarcinis transportatis, non superstantibus
+                    tantum fida militibus, sed annantibus quoque animantibus, si statio horruisset,
+                    opinione facilior transmissio fuit, cum sex stadiis latitudinis alueus Oxi amnis
+                    pateret. </p>
+                <p>
+                    <milestone unit="par" n="78"/> Nec tamen quisquam ausus obsistere est; quin
+                    etiam nuntiatur iam planiora peruiantibus Besum ibi uinctum a suis communis
+                    pretium culpae seruari, pro his quibuscum fugerat reum. Quare exim iter solito
+                    patientius facit. Ptolomaeum uero Lagi praeire susceptum Besum ad seque
+                    perducere antemittit. Nec mora uinctus offertur, una ceu flammeae irae eius
+                    extinctui. Ita increpitum perfidiae seruilis proque eo nomine uerberatum ad
+                    poenae conperendinationem custodiri in tempus amendat; in ceteros uenia
+                    liberalis. </p>
+                <p>
+                    <milestone unit="cap" n="35"/>
+                    <milestone unit="par" n="79"/> Hisque in hunc modum gestis exim sibi equorum
+                    numerum integrat, qui admodum plurimi omni genere difficultatum uarie
+                    defecerant. Ipse ire Maracunda contendit, quae Sogdianis est regia, Tanaimque
+                    exim, qui subortus e Caucaso ingressurusque Hyrcanum mare Asiam Europamque
+                    dispertit. Eius pars fertur Tanaidos, humo hausta, paludibus Maeotis emergere
+                    denuo causasque Euxino dare, ut cursu quo uoluitur urgeatur. </p>
+                <p>
+                    <milestone unit="par" n="80"/> Eo itinere tunc praemissos Macedonum castra
+                    metatum inprouiso offusi paucis indigenae opprimunt obtruncantque, qui in
+                    triginta haud minus milibus Alexandro uenienti obuersari decreuerant. Enim mox
+                    Alexandro ingruente ad montium celsiora conrepunt. Sed ubi eis primo conflictu
+                    fortuna blandita est, Alexandro crus sagitta transiecto, ulterius ausi eo usque
+                    caeduntur, ut uix octo de triginta milibus laberentur. </p>
+                <p>
+                    <milestone unit="cap" n="36"/>
+                    <milestone unit="par" n="81"/> Quibus gestis Abii Scythae Homero iustitiae
+                    laudati legatione se dedunt moremque gesturos uictori profitentur quantum solis
+                    corporibus queant, quoniam quisque pauperior liberior infestatore. Eorum denique
+                    moribus delectatus remissis adiungit studio uera discendi qui quid colerent aut
+                    uiuerent renuntiarent. Ipse progressus ad Tanaim illic quoque urbem sibi
+                    instituit haud disparem magnitudinis cognominibus Alexandriis. Idque usui cauens
+                    siquando post id in eadem militaretur. </p>
+                <p>
+                    <milestone unit="par" n="82"/> Sed inconciliantibus Besi sociis iugumque gentium
+                    nominantibus metu poenae septem urbes consulto pari Graecos custodes interimunt.
+                    Quarum quae Cyri ciuitas dicta Craterus multa cum militum manu mittitur
+                    obsessurus, ne quid ultra liberius queant. Ipse Gazam primo congressu aliasque
+                    quattuor biduo capit. </p>
+                <p>
+                    <milestone unit="cap" n="37"/>
+                    <milestone unit="par" n="83"/> Tum Cyri adgreditur situ murisque firmissimam,
+                    quam quindecim scilicet armatorum milia tuerentur nullis uictualibus indigentia.
+                    Iamque machinis in id admotis repente amnem, ut prius animo praesumpserat, qui
+                    eam urbem agmine turbido interfluit, transit Alexander nihilque opinantes
+                    obtruncat. Tunc secure urbis eius potitum se ratus animo deferbuerat. Neque
+                    inpune id aut modestiae merito; acriter enim incolae congregati inter primos qui
+                    inruperant Alexandrum quoque saxo caput grauiter uulnerant. Sed non eo setius
+                    inritatis protinus Graecis capitur ciuitas uastaturque, nihilo minus rege in
+                    opere feruente. Quae uero septima ciuitas exempli metu ad modestiam ducta est. </p>
+                <p>
+                    <milestone unit="cap" n="38"/>
+                    <milestone unit="par" n="84"/> Verum sic quoque Maracunda contendit, ubi sui
+                    obsideri nuntiantur et praeterea Scythae trans Tanaim obturbabant. Quare suis
+                    legat propere suppetias. Ipse uicesima die urbem quam praecepit absoluit, poena
+                    captiuorum usus ad operis festinationem tali in tempore necessarii, datis
+                    incolis quos aetas aut uulnera deprecabantur, id est militiam nolentibus aut
+                    etiam nequeuntibus et in id idoneis peritia necessariorum. </p>
+                <p>
+                    <milestone unit="par" n="85"/> Verum imminentibus Scythis, superuehi saepe
+                    conatum cum sacrificia prohiberent idque creberrime, uincit imperatoria
+                    indignatio, ne uinceret ratio, quae fato obuiabat. Ac nocte Tanai transmisso tam
+                    facile quam audacter hostes primo incursu fugat caeditque palantes. Eosque uero
+                    intemperantius persequens siti aestiuae succumbit. Neque aqua utibilis reperta;
+                    quicquid de fluuiis aut riuis ab aestiuo in lacunis erat, eo proni ac lingua
+                    lambentes hausto ceu necessario, latente eius peste corrupti sunt. Quippe ea
+                    qualitas aluo laxandae efficacissima. Ita omnes uiribus uacuati egestu intestini
+                    caloris, ut minus nonnulli hostibus <supplied>quam</supplied> uitio
+                    praeuenirentur. Insecuti nihilominus eorum legati ueniam erratis pro uictoriam
+                    retulerunt. </p>
+                <p>
+                    <milestone unit="par" n="86"/> Hi porro Macedones qui in arce Maracundae
+                    obsidebantur, ante aduentum auxilii eruptione facta disiecerant hostes ac
+                    fugarant. Longius tamen eos in Sogdianos insecuti, ubi de reditu consulunt
+                    amnemque Polytimetum adfuere, sensim prosequentibus Scythis inexploratam adorti
+                    aluei partem limo profundius retentantur. Idque ubi hostis gnarus locorum uidet,
+                    praeuenit adortique rerum imperitos ac male cedentes comminus figunt omnes, nisi
+                    quis praeuenisset pedum aut uisuum potens. Neque amplius equitibus semiermibus
+                    quadraginta, peditum trecentis fugere. </p>
+                <p>
+                    <milestone unit="cap" n="39"/>
+                    <milestone unit="par" n="87"/> Quibus Alexander nuntiatis Maracunda contendit
+                    auctoremque eius sceleris Spitamenem fugientem secutus omni cum socio
+                    interfecit. Suos sepelit uastatque regiones, quas Polytimetus amnis ambit aut
+                    rigat, quique progressus ulterius harenis bibitur et receptatur, facitque inuia
+                    cuncta subsidiis accolentium nullis, quoniam illi et alii famosi amnes
+                    hauriantur, Epardus qui Mardos, Ariusque qui Arios interfluit et Etumandrus
+                    ueniens per Euergetas; hi omnes illic sepulti uanescunt. </p>
+                <p>
+                    <milestone unit="par" n="88"/> Hieme igitur apud Arimaspos declinata dat sese
+                    legationibus obsequentium aut paciscentium, quod usus aut quies uellet; Besumque
+                    accitum et rursus increpitum et uerberibus punit et gladio, mutilatis tamen
+                    prius et naribus auribusque; idque supplicii genus durius uisum quam seueritas
+                    Graeca est. </p>
+                <p>
+                    <milestone unit="cap" n="40"/>
+                    <milestone unit="par" n="89"/> Nam et cetera eius cultus et affluentiae more
+                    Medorum suorum plerique iam sedulo auersabantur, cum luxu mores adrogantiaque
+                    mutasset, tum mensae modo, tum uestium pretio, tum apicis uanitate, ac si, qui
+                    utroque de latere Heraclidas sibi Aeacidasue censeret, Arsacidum tamen
+                    aemulationi concesserit, uicti rem passus in his, quorum moribus obsecundabat;
+                    idque ei omnes animi glorias obumbrabat. </p>
+                <p>
+                    <milestone unit="par" n="90"/> Praesertim ubi amicissimum sibi Clitum illum
+                    Granici propugnatorem ex causa conuiuii incitus interfecerit (die sacro quod
+                    Libero Castoribus fecerat), qui epulo accubabat una blanditoribus regis. Tum
+                    supra ipsos fortitudinis deos laudari ab adsentatoribus coeptus patri quoque se
+                    Philippo anteferri delectabatur. </p>
+                <p>
+                    <milestone unit="par" n="91"/> Enimuero Clitus uti Alexandrum amicum restitueret
+                    in uiam neque concederet ei malam morum adrogantiam coalescere, cui modestia et
+                    uerecundia plus laudis adferret, amico liber, religiosus in Philippum: eum uero
+                    se anteferre respondit, qui hos fecerit suos animi uiribus corporisque, cum
+                    quibus uicerit nunc is qui talibus gaudeat. Quae ubi ultra nec pudet regem uino
+                    calentem, Cliti uerbis gladio respondetur. Sed enim mox in id recidit
+                    paenitudinis, ut eum uitae pigeret adeo impigre intemperantis, ni amici magis
+                    offensae id dei Liberi quam eius moribus darent, qui sic posthabitum sollemne
+                    suum ultus furore putaretur aut inuidentia laudationum earum aemuli. </p>
+                <p>
+                    <milestone unit="cap" n="41"/>
+                    <milestone unit="par" n="92"/> Quare tum quidem curam corporis recipit, uitium
+                    tamen gliscit. Quippe iam adoratu se uolens salutari, morem mortalium
+                    neglegebat. Verum sapiens Callisthenes comes, ei amice, arcere hominem et
+                    deducere palpo temptabat, eo quoque addito, quod quam iustum sit infestari eum,
+                    si quis insignia regni quae sua sunt usurpare eat, tam a diis posse puniri
+                    abiurationis qui sibi ad eos faueant honore iactantiae. Sed neque proficit
+                    Callisthenes, et mox inter proditores relatus ex causa tali morte punitus est. </p>
+                <p>
+                    <milestone unit="par" n="93"/> Mos erat regibus optimatium liberos ministrare ad
+                    custodiam scilicet regiam et obsequia liberalia. E quis Hermolaus quoque
+                    Sopolidis erat bonis moribus roboreque, quorum utrobique studens, regi de
+                    corpore, animo tamen ac disciplinis militans Callistheni, ubi eum quaereres sat
+                    placebat. Is uenatu Alexandro in aprum exspectabilis formae
+                        inte<supplied>nto</supplied> prior bestiam sternit et strata gloriatur utque
+                    inmodestae fortitudinis ab rege uerberatur. </p>
+                <p>
+                    <milestone unit="par" n="94"/> Quod cum acrius merito sed ingenue doluisset
+                    Hermolaus, coniurat in regem cum Sostrato Amyntae et Antipatro Asclepiodori, tum
+                    Epimene et Anticle uel Philota, his amicis in sua iniuria feruescentibus.
+                    Pactumque fit, nocte Antipatri conclaui regis irruerent. Neque id quitum, ita
+                    pernox rex conuiuio perdurarat, sunt qui aiant prohibitu Syrae uatis: ne
+                    quidquam esset in aula, erat multis praemonitis uerita. Itaque Ptolomaeum rem
+                    sibi proditam detulisse Callisthenisque sententiam in discipuli facinore
+                    suspectatam de prioris inefficacia libertatis, cum Hermolaus tamen acri in opere
+                    tormentorum praeter sui uerbera nihil questus sit aut confessus. </p>
+                <p>
+                    <milestone unit="cap" n="42"/>
+                    <milestone unit="par" n="95"/> Sed reuenerat iam legatio Scythica de Abiis
+                    dictoque audientes fore se muneribus attestabantur, quae munera erant filia
+                    regalis pulcra ingenio uel cultu naturae <supplied><gap/></supplied> eius, si
+                    suis uellet pignore fidei. Namque ad reliqua uictualia sat diuites sunt Abii
+                    libertatis pariter et paupertatis. Adstare uero uel regem ut coram iussis
+                    auscultet. Nam et missis in hoc referre uolentibus erat mores Abios et munditias
+                    paupertatis, utque sit eorum inuidia potioribus de plus nihil habendo. Enim
+                    arcus Abiis seu sagitta (quod eis totum est) et uitae quaestus et hereditas
+                    sola, sagitta uenantibus, carne altis abunda uel lacte et munitis pellibus ad
+                    tolerantiam; et cetera pro opibus hospitales et loqui blandi cum omnibus. </p>
+                <p>
+                    <milestone unit="par" n="96"/> Sed Pharasmenes quoque Chorasmiorum rex equites
+                    adduxerat Alexandro militatum, uicinus Scythicis Vnimammis, in quas sibi hostes
+                    praeiret si iuberetur, supra uiros ut sciat Martias. Alexander uero his Indos
+                    praeoptare tumque se ait redire in Graecias, ut exim reliqua eius belli agat.
+                    Oxum igitur et Sogdianos retractat turbare. </p>
+                <p>
+                    <milestone unit="cap" n="43"/>
+                    <milestone unit="par" n="97"/> Nuntiati ibi Alexandro duo fontes futuri
+                    praesagio suborti horrori fuere prae admiratione; quorum qui olei erat, laboris
+                    atque sudoris index aestimabatur, quis mederi ualet oliui unguento; qui uero
+                    uini, lasciuiae et laetitiae de dei munere. Haec quippe in id demonstrata de
+                    post gestis adsertio est. </p>
+                <p>
+                    <milestone unit="par" n="98"/> Dimissis ergo qui praesentia tuerentur Maracunda
+                    ipse festinat. Spitamenes quippe qui inde desciuerat Massagetis congregatus
+                    iusti belli facie iam agere nuntiabatur. Sed inuaso castello potitum praeda per
+                    Sogdianos, Pithon et Aristobolus citharoedus, qui una aulico ministerio illic
+                    agebant, egressi cum equitibus octoginta nauiter satis et inpigre incursarant
+                    quae educebantur. Mox tamen excepti insidiis a Spitamene plerique eorum et una
+                    Aristobolus oppetiuere. Spitamenes uero post id fugiens conscientia sceleris in
+                    desertis caeditur Cratero insecuto. Ipse quoque a suis captus ut auctor culpae
+                    arguitur tumque Alexandro ad supplicium datur iure plectendus. </p>
+                <p>
+                    <milestone unit="cap" n="44"/>
+                    <milestone unit="par" n="99"/> Sed enim hac cura deposita in Indos nihil sibi
+                    noxios intentus animo petram adgreditur re et nomine arduam. Id uero castellum
+                    est praeruptis admodum inpositum inaccessisque rupibus montium, quo plebs multa
+                    conuenerat Sogdianorum, nullo indigentiae metu, copiis ante congestis. Vbi ergo,
+                    oblata sibi uenia, non cessere, magnum praemium publicat ausuris eius saxi
+                    inscensionem: auri talentum primo, tunc pretium secuturis. </p>
+                <p>
+                    <milestone unit="par" n="100"/> Reperti omnes quadringenti uiri, qui patrauere
+                    rem in hunc modum: paxillos ferreos, quibus pelles intendunt, praetenta fune ea
+                    parte praerupti, qua fieri posset aut gelu cederet, mutuo innixi figebant,
+                    eisque subuecti paulatim omni sub nocte tandem euadunt armis una, cumque luce
+                    inopini inruunt securos et inermes barbaros ac semisomnes, inpeditosque
+                    mulierculis et infantibus praecipites agunt nihil eorum paucitatis scientes,
+                    donicum reliqui sese dederent et aditu reserato, quem inserabiliter
+                    obstruxerant, Alexander receptaretur uel copiae, nec tamen amplius uiris uiginti
+                    desideratis, quos ascensionem molientes, ubi loci conditio fefellisset, deiectos
+                    in praeceps ne sepulturae quidem nisi niuum profunditate seruarat casus aut
+                    fatum. </p>
+                <p>
+                    <milestone unit="par" n="101"/> Igitur his uictor copiis fotus auctusque quom
+                    Oxyartae Bactrianorum regis affectus opesque illic repperisset, eius uirginem
+                    filiam Roxanen nomine magno formae merito et nobilitatis sibi coniugat, is ille
+                    scilicet, quem Darii uxor, ueneriae sane pulcritudinis femina, non euicerit.
+                    Denique Oxyarten debito sibi soceri honore dignatur. </p>
+                <p>
+                    <milestone unit="cap" n="45"/>
+                    <milestone unit="par" n="102"/> Hinc ducit in aliam petram celsam stadiis
+                    uiginti, sed sexaginta ad ambiendam faciem sunt, aduiabilem calli, superne
+                    aequoream uirentemque, soli ubere et mollitudine diuitem. Chorienis id castellum
+                    uocabant, regis nomine qui illi confugerat: Chorienes. Verum quod eius saxi
+                    calcem naturali uallo munitam intueretur, id primum explet caesu frondium et
+                    adgestu humi saxorumue opere peruicaci. Iam denique labore perfecto scalisque
+                    admotis, Chorienes internuntio Oxyarta pretium ueniae uictori se suosque
+                    transscribit. Eodem merito procurationem sibi accepit quod regnum habebat,
+                    quoniam uictorem exercitum, non labore militiae modo adeo conperendinatae uerum
+                    hiemis quoque ui et indigentia fatigatum, apparatus sui largis opibus
+                    refouisset, nec decima quidem parte totius affluentiae dispensata. </p>
+                <p>
+                    <milestone unit="par" n="103"/> Ad haec si qui rebellium reliqui omnibus
+                    perditis subiugatisue repedat Bactra tempore, quo Callisthenes una cum
+                    insidiatoribus regis suspectatus est. </p>
+                <p>
+                    <milestone unit="cap" n="46"/> Hac sub fine Alexandro Persarum imperium
+                    integratum est, quo tuendo Amyntae dato Bactris ipse profectus retransmittit
+                    protinus Caucasum, quem ire in Taurum diximus, nomine modo de continuatione
+                    mutato. </p>
+                <p>
+                    <milestone unit="par" n="104"/> Vndecima die, quam nuper molitus est illic
+                    Alexandriam uenit. Transmissis inde regionibus Parapamisadum perque Nicaeam
+                    oppidum et Cophena flumen, Indum petere contendit, Taxile sibi munifico, qui
+                    partes quibus uiandum primas Indiae tunc tenebat, eumque praemittit una suis
+                    paratum Indi transmissionem. Conatum denique Astem, hostium ducem, uiantibus
+                    intercedere capiunt, itaque peruiant multis aliis gentibus caesis et oppidis
+                    captis. </p>
+                <p>
+                    <milestone unit="par" n="105"/> Nec minus Alexander agens si quis obturbet,
+                    insequentis sagitta etiam humerum superscribitur. Choeque amni transmisso
+                    quisquis obuius sternitur et Arigaeum urbem, incensam desperatamque a ciuibus,
+                    instaurari procurat merito opportunitatis. Tum reperta hostium multitudine
+                    trifariam superat iustis omnibus proeliis. Ducenta denique triginta boum milia
+                    illic capta formae merito destinat una captiuis Macedoniam cultum agros suorum
+                        <unclear>et suascitum</unclear>. </p>
+                <p>
+                    <milestone unit="cap" n="47"/>
+                    <milestone unit="par" n="106"/> Compertoque gentes Saccas quadraginta milia
+                    armauisse per amnem Guraeum in eos ire festinat. Eique in oppida discessere in
+                    id longe ante munita. Sed enim castra eminus molientes irruunt Graecos. Hinc ei
+                    astu cedere simulant; conuerso denique agmine sternitur
+                        <supplied>pars</supplied>, pars muro clauduntur omni praesidio munitissimo.
+                    Sed enim res haud in facili erat duplici saeptu munitos accedere, et ibi denique
+                    Alexander crus sagitta uulneratur. Sed die quarta belli in opere prae muro
+                    interfecto rege se dedunt. Idque Alexandro uolenti admodum fuit, ut commilitio
+                    accederent; sed ubi producti fidem mutant, uallati caeduntur. </p>
+                <p>
+                    <milestone unit="cap" n="48"/>
+                    <milestone unit="par" n="107"/> Hic Coenona ducem mittit Baziphara obsidere
+                    Attalumque Hora urbem, ratus casu Saccarum eos ad obsequium ductum iri. Sed his
+                    loco magis quam exemplo fidentibus ipse utramque urbem quamuis impigre
+                    obluctatas, Baziphara siue Hora, nullo negotio transiens capit, quamquam
+                    Bazipharae uiri contemptu paucorum aduenas irruissent. Vbi tamen plerique
+                    cecidere, quisque euaserat petram munitissimam confluunt. <milestone unit="par"
+                        n="108"/> Is locus petrae ducentis stadiis circumitur, erigitur decem, aditu
+                    tenui, mollis in culmine et fontium scatens patiensque industriam mille hominum
+                    ruricolarum. Igitur eo ueniens capit plurimas ciuitates. Tum petram adgresso
+                    obsidionemque molienti transfugae duces coepti moliminis uiam praeeunt ei
+                    inscensus. Itaque capti deductique praedae uictori fuere qui bello restiterant. </p>
+                <p>
+                    <milestone unit="par" n="109"/> At enim nuntiato rursum Saccas muros Indos armis
+                    oppressisse studio fidentiore et elephantes suos per siluestria amendasse, ubi
+                    eo uenit, muros desertos incensamque urbem uidet et dilapsos omnes qua tutius
+                    lateant. Quare aliis persecutione legata quaesitisque eorum elephantis et
+                    captis, Indum cum exercitu uenit et his quae longius sunt necessaria copiis
+                    repertaque transitui substantia non sero transmittit. </p>
+                <p>
+                    <milestone unit="cap" n="49"/>
+                    <milestone unit="par" n="110"/> India omnis orsa e septentrione amplexaque omne
+                    quicquid est Persicum, Aegyptum usque Aethiopasque continuat. Ipsa uero
+                    extrinsecus ubique oceano munitur, interfluo mari Hippalio, cuius sinus Persas
+                    includit. Sed enim nomen hoc Indiae late dispersum multarum admodum gentium est
+                    ferax, praecipue beluarum inter odora gignentium, quae sunt elephanti
+                    draconesque iugerales; nam pardi leonesue uel tigres iuxtim haec cicures fuant. </p>
+                <p>
+                    <milestone unit="par" n="111"/> Ea uero tempestate quam loquor potens Indiae
+                    Porus erat, stupendus satis supra hominum magnitudines, neque uero ingenio
+                    inferior quam artubus. Is ubi scit Alexandrum ad sese moliri ire, absit
+                    obnuntiat, sed incitat mage acrique bello superatur et capitur. Receptus tamen
+                    ad amicos Alexandri merito uirtutium, procurare quod erat rex recepit. Ita pars
+                    est uirtutis his, quibus praefueris ut potior, aeque sane nunc mox cessisse
+                    potiori; quoniam quisque mediocritatis est agnitor, satis fecerit sese noscendo. </p>
+                <p>
+                    <milestone unit="cap" n="50"/>
+                    <milestone unit="par" n="112"/> Exim magnas Pecanum et Musicanum regiones
+                    exsequitur ac sibi congregat. Petram quoque, quae Aornis uocatur, affectat,
+                    cuius proceritudo sunt stadii quadringenti, supra cultoribus diues haud minus
+                    locupletibus quam securis; et est ei nomen ex celsitudine, quam nec alites
+                    superuolitent. Sed enim hanc quoque optinet fixu uectium, uia scansili ac solida
+                    petitam. </p>
+                <p>
+                    <milestone unit="par" n="113"/> Nam <unclear>magnitudine</unclear> cum
+                    primatibus, quod ultra gentes bello idoneas comperisset, experire quae aduersum
+                    eas animo arderet. Milites uero ad haec ultra laborem uel pericula
+                    deprecabantur, annos duodecim, uulnera et suorum desideria numerantes. Data
+                    igitur fessis quiete, uolentibus utitur. Succenturiari tamen dimissis alios e
+                    patria iubet. Itaque uictoriae auaritia usus oceanum uenit. </p>
+                <p>
+                    <milestone unit="cap" n="51"/>
+                    <milestone unit="par" n="114"/> Ibi quoque inmodicus cupiditatis, quoniam in
+                    nauibus textis periculum uellet facere naturae, et quid sibi uel quisque id
+                    uellet ultra liceret. Iam denique composito apparatu Neptuno sacros tauros in
+                    mare donariaque ex auro deiecerat, pretium uoti faciens, si redimi haec a diis
+                    liceret, uerum repente cum flatu uiolento rediens haustus oceani solito
+                    uehementior omnes <supplied>in</supplied> hoc paratos inter naues confligit et
+                    mergit. Neque agnitu difficile id erat, deos uoto refragari, quibus quamuis ipse
+                    obniti <supplied>abnuat</supplied>, ne quid impium audeat temptare, mittit tamen
+                    promptos audaciae nihilue regi auidentes negare Onomarcum et Neona - congestis
+                    naui quae cuique sic uolenti in longum usui necessaria - uti circum putato
+                    oceano comperta nuntiarent. </p>
+                <p>
+                    <milestone unit="cap" n="52"/>
+                    <milestone unit="par" n="115"/> Quippe Alexandrum animo fuisse ad appetentias
+                    rigido et indomito, hic quoque considerandum reliquit. Erat ciuitas Indiae quam
+                    multi confugerant magnitudine nimia et firmitudine inexpugnabili. Quam ubi
+                    Alexander obsidione adoritur, iubet fieri scalas pro muro praecelsas, easque
+                    admotas cum uegrandibus saxis desuper frangerent repugnantes sola perdurauit qua
+                    rex una duobus satellitibus euicerat, ipsum quoque multis desuper ut qua quisque
+                    poterat retrudentibus. Et quamuis scalas omnis suorum comminui uidisset neque
+                    ullo sese auxilio idoneo periclitaturum, irruit tamen unus omnia hostium milia
+                    una praedictis, Peuceste scilicet et Ptolomaeo, qui cunctantem multitudinem
+                    protinus urbis eius in sese conuertit. </p>
+                <p>
+                    <milestone unit="par" n="116"/> Perdius igitur diu secum satellitibus
+                    conspirantibus rem pleni exercitus agitabat, ni uergente iam die et latere summo
+                    uulneraretur et recepto altius ferro decipi uiribus occoepisset. Id Macedones
+                    coniectati qui foris rem agebant, metu ne quid ulterius, occupatis in regem
+                    intramuranis uniuersis nec desuper prohibentibus si quis irrueret, ui claustra
+                    effringunt suppetiatique in tempore iam regem sui recipiunt diffidentem. Facti
+                    denique mox ex indignatione saeuiores, indiscretius dextris in aetates et sexus
+                    usi, rem optinent internicione omnibus caesis. </p>
+                <p>
+                    <milestone unit="cap" n="53"/>
+                    <milestone unit="par" n="117"/> Exim constanter suadere milites regi conspirant,
+                    ne sese ulterius periculi uilitate damno tamen in proeliis abuteretur tanti
+                    prodigus sanguinis, obtinentque ne ultra, uerum Babylona ut redeat. Babyloniique
+                    multo cum honore suscipiunt. Per septem denique dies Alexander eo regressus diis
+                    sacrificio operatur, quo fortunae gratiam repensaret. </p>
+                <p>
+                    <milestone unit="par" n="118"/> Post id conuiuiis et uoluptatibus comioribus
+                    causam morti hinc dedit. Morem sibi proceres exercitus fecerant, uti mutuo sese
+                    conuiuiis acciperent. Enim cum forte apud Medium conuiuarent, comesatione sese
+                    illis conuiuam Alexander facit. Statim denique Herculis Medius scyphum offert ad
+                    uina, neque is honorem dei nomine aspernatus poculum complet stringitque
+                    continuum; eaque tantarum uirtutum uiro causa ad mortem fuit, ut, quem tot
+                    bellis aduersa uulnera non uicerant, sub fati inuidia iuuenilis confidentia
+                    solueret. </p>
+                <p>
+                    <milestone unit="cap" n="54"/>
+                    <milestone unit="par" n="119"/> Cuius ne casus prius quam laudium memor sim, ea
+                    quoque ponam hic, quae per diligentiam laborauit. Quippe quamuis bellorum ultra
+                    pertaesus consulenti per se exercitui concederet, bono tamen labori nihilum
+                    pepercit. Electo denique sibi ad eiusmodi patientiam comitatu ad Herculis stelas
+                    famae iactantia persecutus est, diebus nonaginta continuis emensa uia.
+                        <milestone unit="par" n="120"/> Dignam quidem illam rem pretio tanti
+                    laboris, si quis aurem ad fidem dicentis inclinet. Hi quippe tituli alter auro
+                    pingui, alter argento proceritudinis erant duodecim cubitorum, crassi uero per
+                    quadrum cubitis binis, adeo inmenso pondere, ut eius periculum ipse rex fecerit
+                    terebrata crassitudine auri eius, cuius damnum mille quingentis mox aureis
+                    inferciuerit. Verum exim reuertens praerupta per loca caelo inlucido
+                        <supplied>ut</supplied> iuxtim se uiantes uix mutuo noscerentur, tandem
+                    Thermodonta amnem <gap/>
+                </p>
+           </div>
+        </body>
+    </text>
+
+</TEI>

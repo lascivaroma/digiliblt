@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Epistula ad Munatium</title>
+        <author>Aelius Donatus</author>
+        <respStmt>
+          <resp>Correzione linguistica</resp>
+          <name>Fabio Stok</name>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica XML</resp>
+          <name>Simona Musso</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>digilibLT</publisher>
+        <pubPlace>Vercelli</pubPlace>
+        <date>2013</date>
+        <availability>
+          <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+        </availability>
+        <idno>dlt000151</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Vitae Vergilianae antiquae, recc. G. Brugnoli et F. Stok,Romae 1997, pp. 15-16.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+        <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+      </projectDesc>
+      <editorialDecl>
+
+        <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+        <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+          l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni,
+          note e commenti e ogni altro contenuto redatto da editori moderni. </p>
+        <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+          correttezza di trascrizione</p>
+        <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+          distinzione u/v minuscole.</p>
+        <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+        <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+          grassetto, corsivo, spaziatura espansa.</p>
+        <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+          <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+          <hi rend="italic">loci desperati</hi>:
+          <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo† e
+          †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...]<lb/> lacuna integrata
+          dagli editori: <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+        </p>
+        <p>Sono stati marcati i termini in lingua greca
+          <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+        </p>
+        <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+            target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+            >Note di trascrizione e codifica di testi latini tardoantichi
+            [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+      </editorialDecl>
+
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latino</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="opus">
+        <head>EPISTVLA AD MVNATIVM</head>
+        <salute> Ael. Donatus L. Munatio suo salutem.</salute>
+        <p> Inspectis fere omnibus ante me qui in Vergilii opere calluerunt, breuitati admodum
+          studens quam te amare cognoueram, adeo de multis pauca decerpsi, ut magis iustam
+          offensionem lectoris expectem, quod ueterum sciens multa transierim, quam quod paginam
+          compleuerim superuacuis. Agnosce igitur saepe in hoc munere collati<supplied>u</supplied>o sinceram uocem
+          priscae auctoritatis. Cum enim liceret usquequaque nostra interponere, maluimus optima
+          fide, quorum res <supplied>f</supplied>uerant, eorum etiam uerba seruare. Quid igitur adsecuti sumus? Hoc
+          scilicet, ut his adpositis, quae sunt congesta de multis, admixto etiam sensu nostro, plus
+          hic nos pauca praesentia quam alios alibi multa delectent. <supplied>A</supplied>d hoc etiam illis, de quibus
+          probata transtulimus, et attentionem omnium comparauimus in electis et fastidium demsimus
+          cum relictis. Tu igitur id, quod nobis praescripseras, utrum processerit specta. Si enim
+          haec grammatico, ut aiebas, rudi ac nuper exorto uiam monstrant ac manum porrigunt, satis
+          fecimus iussis; si minus, quod a nobis desideraueris, a te ipse deposces. Vale. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

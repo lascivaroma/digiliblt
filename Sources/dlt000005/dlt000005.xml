@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Altercatio Hadriani Augusti et Epicteti Philosophi</title>
+                <author>Anonymus</author>
+                <respStmt>
+                    <resp>Correzione linguistica</resp>
+                    <name>Laura Mosca</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica XML</resp>
+                    <name>Laura Mosca</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>DigilibLT</publisher>
+                <pubPlace>Vercelli</pubPlace>
+                <date>2017</date>
+                <availability>
+                    <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+                </availability>
+                <idno>dlt000005</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Altercatio Hadriani Augusti et Epicteti Philosophi, by Lloyd William Daly and
+                    Walther Suchier, Collezione "Illinois studies in language and literature", vol.
+                    24, Vrbana (Illinois), Vniversity of Illinois press, 1939.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+                <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+            </projectDesc>
+            <editorialDecl>
+                <p><hi rend="bold">Modifiche apportate al testo dell'edizione di riferimento </hi></p>
+                <p>Si sono omesse le precise indicazioni dell'editore circa lo spazio occupato dalla lacuna quando superiore ad una riga dell'edizione cartacea.</p>
+                
+                <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+                <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+                    l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+                    e commenti e ogni altro contenuto redatto da editori moderni. </p>
+                <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+                    correttezza di trascrizione</p>
+                <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+                    distinzione u/v minuscole.</p>
+                <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+                <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+                    grassetto, corsivo, spaziatura espansa.</p>
+                <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+                    <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+                    <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+                    si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+                    [...]<lb/> lacuna integrata dagli editori:
+                    <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+                </p>
+                <p>Sono stati marcati i termini in lingua greca
+                    <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+                </p>
+                <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+                    target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+                    >Note di trascrizione e codifica di testi latini tardoantichi
+                    [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+            </editorialDecl>
+            
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latino</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    <text>
+        
+        <body>
+            <milestone unit="par" n="1"/>
+            <sp>
+                <speaker>Had.</speaker>
+                <p>Quid erit nobis, si cinctum solvas, neque nudaberis ipse? Respice corpus, quod et
+                    doceri possis.</p>
+            </sp>
+            <sp>
+                <speaker>Epic.</speaker>
+                <p>Epistola est.</p>
+            </sp>
+            <milestone unit="par" n="2"/>
+            <sp>
+                <speaker>H.</speaker>
+                <p>Quid est epistola?</p>
+            </sp>
+            <sp>
+                <speaker>E.</speaker>
+                <p>Tacitus nuncius.</p>
+            </sp>
+            <milestone unit="par" n="3"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est pictura?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Veritas falsa.</p>
+            </sp>
+            <milestone unit="par" n="4"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quare hoc dixisti?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Videmus enim poma picta, flores, animalia, aurum, argentum, et non est verum.</p>
+            </sp>
+            <milestone unit="par" n="5"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est aurum?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Mancipium mortis.</p>
+            </sp>
+            <milestone unit="par" n="6"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est argentum?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Invidie locus.</p>
+            </sp>
+            <milestone unit="par" n="7"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est ferrum?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Omnis artis instrumentum.</p>
+            </sp>
+            <milestone unit="par" n="8"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est gladius?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Regimen castrorum.</p>
+            </sp>
+            <milestone unit="par" n="9"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est gladiator?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Sine crimine homicida.</p>
+            </sp>
+            <milestone unit="par" n="10"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Qui sunt qui sani egrotant?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Qui aliena negocia curant.</p>
+            </sp>
+            <milestone unit="par" n="11"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Qua ratione homo lassus non fit?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Lucrum faciendo.</p>
+            </sp>
+            <milestone unit="par" n="12"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est amicitia?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Concordia.</p>
+            </sp>
+            <milestone unit="par" n="13"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est longissimum?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Spes.</p>
+            </sp>
+            <milestone unit="par" n="14"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est spes?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Vigilanti somnus, spectanti dubius eventus.</p>
+            </sp>
+            <milestone unit="par" n="15"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est quod homo videre non potest?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Alterius animum.</p>
+            </sp>
+            <milestone unit="par" n="16"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Qua re peccant homines?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Cupiditate.</p>
+            </sp>
+            <milestone unit="par" n="17"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est libertas?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Innocentia.</p>
+            </sp>
+            <milestone unit="par" n="18"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid regi et misero commune est?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Nasci et mori.</p>
+            </sp>
+            <milestone unit="par" n="19"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est optimum ac pessimum?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Verbum.</p>
+            </sp>
+            <milestone unit="par" n="20"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est quod alii placet et alii displicet?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Vita.</p>
+            </sp>
+            <milestone unit="par" n="21"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est optima vita?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Brevissima.</p>
+            </sp>
+            <milestone unit="par" n="22"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est certissimum?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Mors.</p>
+            </sp>
+            <milestone unit="par" n="23"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est mors?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Perpetua securitas.</p>
+            </sp>
+            <milestone unit="par" n="24"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est mors?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Timenda nonnullis, si sapiens legas, inimica vite, nomen animantium, metus
+                    parentum, liberorum preda, testamenti gratia, post obitum sermo, supreme
+                    lacrime, post memoriam oblivio, fax rogi, onus sepulti, titulus monumenti; mors
+                    omnium malorum finis est.</p>
+            </sp>
+            <milestone unit="par" n="25"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quare mortuus coronatur?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Agonem se vite transegisse testatur.</p>
+            </sp>
+            <milestone unit="par" n="26"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quare mortuo pollices ligantur?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Vt parem post obitum esse se nesciat.</p>
+            </sp>
+            <milestone unit="par" n="27"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est vispillo?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Quem multi devitant et nemo effugit.</p>
+            </sp>
+            <milestone unit="par" n="28"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est rogus?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Contentio crediti, persolutio debiti.</p>
+            </sp>
+            <milestone unit="par" n="29"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est tuba?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Belli incitamen, castri signum, arena admonitio, scene commissio, funeris
+                    deploratio.</p>
+            </sp>
+            <milestone unit="par" n="30"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est monimentum?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Saxa isticmosa, otiosi viatoris spectatio.</p>
+            </sp>
+            <milestone unit="par" n="31"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est homo pauper?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Vt puteum desertum omnes aspiciunt et loco illum relinquunt.</p>
+            </sp>
+            <milestone unit="par" n="32"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est homo?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Balneo similis: prima cella tepidaria unctaria, infans natus perungetur; secunda
+                    cella sudatoria pueritia est; tertia cella assa perferentia iuventus; quarta
+                    cella appropiat senectus frigidaria, omnibus equat sententiam.</p>
+            </sp>
+            <milestone unit="par" n="33"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est homo?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Pomo similis: Poma ut in arboribus pendent, sic sunt et corpora nostra:</p>
+                <l>ut matura cadunt, aut si cito acerba ruunt.</l>
+            </sp>
+            <milestone unit="par" n="34"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est homo?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Sicut lucerna in vento posita.</p>
+            </sp>
+            <milestone unit="par" n="35"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est homo?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Loci hospes, legis imago, calamitatis fabula, mancipium mortis, vite mora; quo
+                    fortuna sepe suos ludos faciet.</p>
+            </sp>
+            <milestone unit="par" n="36"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est fortuna?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Vt matrona nobilis in servos se inpingit.</p>
+            </sp>
+            <milestone unit="par" n="37"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est fortuna?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Sine iudicio, proxima meta, alienorum bonorum casus; ad quem venit, splendorem
+                    ostendit, a quo recedit, umbram faciet.</p>
+            </sp>
+            <milestone unit="par" n="38"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quot sunt autem fortune?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Tres: una ceca, que ubilibet se impingit; et alia insana, que concedit, cito
+                    aufert; tertia surda, que miserorum preces non exaudit.</p>
+            </sp>
+            <milestone unit="par" n="39"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid sunt dii?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Oculorum signa, mentis numina; si metuis, timor est; si contines, religio
+                    est.</p>
+            </sp>
+            <milestone unit="par" n="40"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est sol?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Splendor orbis; qui tollit et ponit diem; per quem scire nobis cursum horarum
+                    datur.</p>
+            </sp>
+            <milestone unit="par" n="41"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est luna?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Dies adultor, noctis oculus, fax tenebrarum.</p>
+            </sp>
+            <milestone unit="par" n="42"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est celum?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Culmen immensum.</p>
+            </sp>
+            <milestone unit="par" n="43"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est celum?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Aër mundus.</p>
+            </sp>
+            <milestone unit="par" n="44"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid sunt stelle?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Fata hominum.</p>
+            </sp>
+            <milestone unit="par" n="45"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid sunt stelle?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Litora gubernatorum.</p>
+            </sp>
+            <milestone unit="par" n="46"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid. est terra?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Horreum Cereris.</p>
+            </sp>
+            <milestone unit="par" n="47"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est terra?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Cellarium vite.</p>
+            </sp>
+            <milestone unit="par" n="48"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est mare?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Iter incertum.</p>
+            </sp>
+            <milestone unit="par" n="49"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est navis?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Domus erratica.</p>
+            </sp>
+            <milestone unit="par" n="50"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est navis?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Vbilibet hospicium.</p>
+            </sp>
+            <milestone unit="par" n="51"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est navis?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Numina Neptuni, anni cursuum tabellarium.</p>
+            </sp>
+            <milestone unit="par" n="52"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est nauta?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Amator pelagi, firmi desertor, contemptor vite mortisque, unde cliens.</p>
+            </sp>
+            <milestone unit="par" n="53"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est somnus?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Mortis imago.</p>
+            </sp>
+            <milestone unit="par" n="54"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est nox?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Laboranti requies, crassanti lucrum.</p>
+            </sp>
+            <milestone unit="par" n="55"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est culcita?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Insomnis volutatorium.</p>
+            </sp>
+            <milestone unit="par" n="56"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quare Venus nuda pingitur?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <l>Nuda Venus picta, nudi pinguntur Amores;</l>
+                <l>quibus nuda placet, nudos dimittat oportet.</l>
+            </sp>
+            <milestone unit="par" n="57"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quare Venus Vulcano nupta est?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Ostendit amorem ardore incendi.</p>
+            </sp>
+            <milestone unit="par" n="58"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quare Venus straba est?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Quia pravus est amor.</p>
+            </sp>
+            <milestone unit="par" n="59"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est amor?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Otiosi pectoris molestia, in puero pudor, in virgine rubor, in femina furor, in
+                    iuvene ardor, in sene risus, in derisore delicti nequities est.</p>
+            </sp>
+            <milestone unit="par" n="60"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est deus?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Qui omnia tenet.</p>
+            </sp>
+            <milestone unit="par" n="61"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est sacrificium?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Delibatio.</p>
+            </sp>
+            <milestone unit="par" n="62"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est sine societate?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Regnum.</p>
+            </sp>
+            <milestone unit="par" n="63"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est regnum?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Pars deorum.</p>
+            </sp>
+            <milestone unit="par" n="64"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est Cesar?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Publice lucis caput.</p>
+            </sp>
+            <milestone unit="par" n="65"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est senatus?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Ornamentum splendor urbis civium.</p>
+            </sp>
+            <milestone unit="par" n="66"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est miles?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Murus imperii, defensor patrie, gloriosa servitus, potestatis indicium.</p>
+            </sp>
+            <milestone unit="par" n="67"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est Roma?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Fons imperii orbis terrarum, mater gentium, rei possessor, Romanorum
+                    contubernium, pacis eterne consecratio.</p>
+            </sp>
+            <milestone unit="par" n="68"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est victoria?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Belli discordia, pacis amor.</p>
+            </sp>
+            <milestone unit="par" n="69"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est pax?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Tranquilla liberalitas.</p>
+            </sp>
+            <milestone unit="par" n="70"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est forum?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Templum libertatis, arena litigantium.</p>
+            </sp>
+            <milestone unit="par" n="71"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid sunt amici?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Statute aree sunt.</p>
+            </sp>
+            <milestone unit="par" n="72"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid est amicus?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Vt pomo citreo similis: a foras beatus, nam intra pectus accidum occultat
+                    malo.</p>
+            </sp>
+            <milestone unit="par" n="73"/>
+            <sp>
+                <speaker>H. </speaker>
+                <p>Quid sunt parasiti?</p>
+            </sp>
+            <sp>
+                <speaker>E. </speaker>
+                <p>Qui tanquam pisces adescantur.</p>
+            </sp>
+        </body>
+    </text>
+
+</TEI>

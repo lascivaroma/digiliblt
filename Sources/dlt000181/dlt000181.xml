@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Opusculum</title>
+                <author>Iulius Exuperantius</author>
+                <respStmt>
+                    <resp>Correzione linguistica</resp>
+                    <name>Simona Musso</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica XML</resp>
+                    <name>Simona Musso</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>digilibLT</publisher>
+                <pubPlace>Vercelli</pubPlace>
+                <date>2011</date>
+                <availability>
+                    <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+                </availability>
+                <idno>dlt000181</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Iulii Exuperantii Opusculum, edidit N. Zorzetti, Leipzig 1982 (Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana).</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+                <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+            </projectDesc>
+            <editorialDecl>
+                
+                <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+                <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+                    l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+                    e commenti e ogni altro contenuto redatto da editori moderni. </p>
+                <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+                    correttezza di trascrizione</p>
+                <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+                    distinzione u/v minuscole.</p>
+                <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+                <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+                    grassetto, corsivo, spaziatura espansa.</p>
+                <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+                    <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+                    <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+                    si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+                    [...]<lb/> lacuna integrata dagli editori:
+                    <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+                </p>
+                <p>Sono stati marcati i termini in lingua greca
+                    <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+                </p>
+                <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+                    target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+                    >Note di trascrizione e codifica di testi latini tardoantichi
+                    [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+            </editorialDecl>
+                    </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latino</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="cap" n="1">
+                <p>
+                    <milestone unit="par" n="1"/> Cum Lucius Metellus proconsul contra Iugurtham in
+                    Numidiam exercitum duceret, Marium ex gregariis militibus genere ignobilem sed
+                    virtute praestantem secum habuit. 
+                    <milestone unit="par" n="2"/> Quem cum militibus quaestorem fecisset, ita se factis fortibus promiserat, ut hostibus
+                    terrori, Romano imperatori carus esset.<lb/>
+                    <milestone unit="par" n="3"/> Sed uictimas inmolanti numinibus in oppido Numidarum, cui nomen est Vtica,
+                    haruspices magna quaedam impendere Mario responderunt atque hortati sunt, ut
+                    quae uellet auderet peteretque celsiora natalibus meritisque maiora: siquidem
+                    cuncta uidebatur fauor spondere fortunae. 
+                    <milestone unit="par" n="4"/> Tunc capiendi consulatus inuasit magna cupiditas: ad quem petendum paratis
+                    suffragiis, relicta prouincia <del>Metello</del> Romam uenit. 
+                    <milestone unit="par" n="5"/> Ibique de Metelli rebus loquendo corruptius as suam
+                    extollendo uirtutem effecit animos uulgi cupidos nouitatis, in suum excitando
+                    fauorem adiuuantibus tribunis plebis. 
+                    <milestone unit="par" n="6"/> Nam eo tempore inter patres ac pupulum studio dominationis erant excitata certamina:
+                    ita factum est, ut quasi in perniciem nobilitatis, quam lacerabat iniuriis,
+                    Marius nouis extolleretur honoribus. 
+                    <milestone unit="par" n="7"/> Itaque comitiis consularibus uniuersus popuIus, qui ad eligendum conuenerat, Marium
+                    consulem iussit; et erepta Metello provincia in Numidiam missus est. </p>
+            </div>
+            <lb/>
+            <div type="cap" n="2">
+                <p>
+                    <milestone unit="par" n="8"/> Sed is accepto consulatu quasi spolium uictoriae
+                    superatis patribus ostentabat aperteque se eorum potentiae profitebatur
+                    aduersum. 
+                    <milestone unit="par" n="9"/> Sed cum militem nouum scriberet, primus
+                    omnium capite censos ciues infidos atque inutiles duxit ad bellum, ut hac
+                    ratione cum publico detrimento populo gratiam redderet, a quo speratos honores
+                    acceperat. 
+                    <milestone unit="par" n="10"/> Nam populus Romanus per classes
+                    diuisus erat et pro patrimonii facultate censebatur. 
+                    <milestone unit="par" n="11"/> Et hi, omnes quibus res erant, ad militiam ducebantur: diligenter
+                    enim pro uictoria laborabant, qui cum libertate bona patria defendebant.
+                    <milestone unit="par" n="12"/> Illi autem, quibus nullae opes erant, caput
+                    suum, quod solum possidebant, censebantur et belli tempore in moenibus
+                    residebant: facile enim poterant exsistere proditores, quia egestas haud facile
+                    habetur sine damno. 
+                    <milestone unit="par" n="13"/> Hos igitur Marius, quibus non
+                    fuerat res publica committenda, duxit ad bellum. 
+                    <milestone unit="par" n="14"/>
+                    Sed forte secum L. Syllam legatum, unum de nobilibus, in prouinciam duxit, atque
+                    ibi confecto feliciter bello et Iugurtha capto ad urbem rediere uictores, atque
+                    statim uirtute cognita Marius in Galliam missus, quae tunc Romanos fines hostili
+                    incursione uexabat. </p>
+            </div>
+            <lb/>
+            <div type="cap" n="3">
+                <p>
+                    <milestone unit="par" n="15"/> Eodem tempore Mithridates cum magnis copiis
+                    uniuersam Asiam urbesque sociorum expugnando atque uastando coepit affligere.
+                    <milestone unit="par" n="16"/> Ad quem coercendum L. Sylla est cum exercitu
+                    destinatus, cuius in Africano bello probata erat corporis atque animi
+                    magnitudo.<lb/>
+                    <milestone unit="par" n="17"/> Hoc ubi Mario compertum est,
+                    terminare quod gerebat proelium festinauit: et homo infinitae cupidus gloriae
+                    non patiebatur libertatem dignitatemque Romanam alterius uirtute defendi;
+                    contusis igitur Gallis uastataque natione penitus barbarorum Romam iterum uictor
+                    intrauit. 
+                    <milestone unit="par" n="18"/> Itaque instinctu eius Sulpicius
+                    tribunus plebis legem tulit, ut auferretur Syllae prouincia ac Mario daretur.
+                    <lb/><milestone unit="par" n="19"/> Hoc Syllae ubi nuntiatum est, Murenam
+                    legatum suum prouinciae Valerianisque praefecit militibus, quos infidos bellis
+                    existimabat esse ciuilibus, et cum parte exercitus iniuriae dolore commotus ad
+                    extinguendam Marianam uenit factionem. 
+                    <milestone unit="par" n="20"/> Statim ut
+                    Romam uenit, resistentem sibi Sulpicium et seditiosis contionibus rem publicam
+                    disturbantem cum multis, quos sibi socios adsciuerat, trucidauit atque Marium
+                    ipsum machinatorem tantae contumeliae in exilium impetu detrusit armorum.
+                    <milestone unit="par" n="21"/> Atque ille, quotiens uictor, per Gallorum
+                    atque Afrorum rura, quae ipse uastauerat, naufragus atque egenus errauit. </p>
+            </div>
+            <lb/>
+            <div type="cap" n="4">
+                <p>
+                    <milestone unit="par" n="22"/> Dum haec aguntur, Cinna et Octauius facti sunt
+                    consules, quorum Cinna de partibus Marianis fuit. 
+                    <milestone unit="par" n="23"/> Hic legem tulit, ut noui ciues, qui aliqua ratione Romanam acceperant ciuitatem,
+                    cum ueteribus nulla discretione suffragium ferrent. 
+                    <milestone unit="par" n="24"/> Hoc uidelicet in eorum gratiam faciebat, qui Marium suffragiis suis
+                    extulerant et amplissimis honoribus decorarant, sed haec lex iniuriosa erat in
+                    ueteres ciues, qui meritum dignitatis uidebantur amittere, si cum nouis indignis
+                    in ferendo suffragio iungerentur. 
+                    <milestone unit="par" n="25"/> Ob hoc itaque Octauius collega commotus, ut seditionibus priuaretur, collegam suum Cinnam
+                    adnitentibus ueteribus ciuibus in exilium misit armatus, munitus uidelicet
+                    copiis Syllae. 
+                    <milestone unit="par" n="26"/> Quae cum agerentur, maximus ex
+                    utrisque partibus ciuium numerus interemptus est.
+                    <lb/><milestone unit="par" n="27"/> Expulsus igitur Cinna cum uagaretur, ad Africam ubi Marius inops
+                    erat forte peruenit, atque ibi communicato consilio, sollicitatis animis
+                    perditorum et de ergastulis erutis seruis exercitum confecerunt et armata
+                    ualidissima manu iuuentutis ad urbem uenerunt atque Octauium Syllae satellitem
+                    superatum necauerunt. 
+                    <milestone unit="par" n="28"/> Tunc uaria crudelitas peruagata est, ut nobilitas omnis ad fugitiuorum trucidaretur arbitrium, atque
+                    eo inmanis saeuitia Cinnae fuit, ut nec illis parceret, quorum opera erat uictor
+                    effectus. 
+                    <milestone unit="par" n="29"/> Et cum hac insolentia in omnis
+                    communiter baccharetur, cum haberet contiones, a militibus suis occisus
+                    est.<lb/>
+                    <milestone unit="par" n="30"/> Tum Marius, ne sine socio dominatum
+                    sustinere non posset, in locum Cinnae Carbonem sibi in septimo consulatu
+                    collegam subrogauit. </p>
+            </div>
+            <div type="cap" n="5">
+                <p>
+                    <milestone unit="par" n="31"/> Tum Sylla tanta indignatione commotus contra
+                    Marium atque Carbonem exercitum duxit, et inter se ferali certamine Romani
+                    exercitus conflixere: in quo bello superatus est Marius.<lb/>
+                    <milestone unit="par" n="32"/> Tum uero Sylla uictor, quidquid in urbe remanserat,
+                    crudeliter persecutus est et rem publicam uindicatam non reddidit legibus, sed
+                    ipse possedit ac se talem praebuit, ut Cinnana ac Mariana, quam ultum ierat,
+                    dominatio quaereretur. 
+                    <milestone unit="par" n="33"/> Hinc Sallustius: <quote rend="inline">“bonis initiis malos euentus habuit”</quote>; nam fuerunt bona
+                    principia, quod oppressam uoluit ciuium defendere libertatem, mali euentus, quod
+                    superatis dominis et ducibus saeuis grauius ipse ciuitatem quassauit, qui se
+                    publicae calamitatis fore promiserat defensorem. 
+                    <milestone unit="par" n="34"/> Hic cum teneret imperium, multas leges ac iura praescripsit, multis ciuitatibus
+                    inmunitates uectigalium dedit, multos Romana ciuitate donauit. </p>
+            </div>
+            <lb/>
+            <div type="cap" n="6">
+                <p>
+                    <milestone unit="par" n="35"/> Huius acta cum conatur Lepidus in suo consulatu
+                    subuertere, contra collegam Catulum ciuile proelium gessit et uictus est.
+                    <milestone unit="par" n="36"/> Nam congregatis his, in quorum possessiones
+                    nouos colonos de suis militibus Sylla uictor inmisit, ac sibi coniunctis liberis
+                    proscriptorum ingentem congregauit exercitum pollicendo, si uicissent, se bona
+                    patria restituturum. 
+                    <milestone unit="par" n="37"/> Plebi quoque multis
+                    muneribus publice priuatimque largitis carus uidebatur ac publicae libertatis
+                    assertor. 
+                    <milestone unit="par" n="38"/> Sed in Etruriae litore commisso proelio
+                    coeperat Lepidus esse superior per armatam multitudinem, quae odio rerum
+                    Syllanarum se Lepidi partibus applicarat. 
+                    <milestone unit="par" n="39"/> Sed Pompeius de Gallia rediens non passus est Lepidi audaciam cum publicis
+                    detrimentis impune bacchari: nam fugientes eius copias ac se implicantes
+                    festinatione formidinis ita prostrauit, ut maiore numero priuatus in Sardiniam
+                    confugeret, ut impedito commeatu populum Romanum fatigaret inopia ac suas uires
+                    armis copiisque et omni instrumento reficeret. 
+                    <milestone unit="par" n="40"/> Atque ibi cum Triario pro praetore uariis proeliis grauibusque conflixit: nam
+                    sollertissime tutando prouinciam effecit, ut Lepidi consilia uana forent.
+                    <milestone unit="par" n="41"/> Vndique enim prohibitus et munitionibus a
+                    ciuitatium expugnatione depulsus nequiuit cogitata perficere ac dum multa parat
+                    morbo graui oppressus et mortuus est. </p>
+            </div>
+            <lb/>
+            <div type="cap" n="7">
+                <p>
+                    <milestone unit="par" n="42"/> Cuius socius et administer Perpenna ob delictum
+                    tanti facinoris supplicium timens, ex Sardinia in Hispaniam transuectus est ac
+                    se Sertorio sociauit, qui tunc Romanum armis quassabat imperium.<lb/>
+                    <milestone unit="par" n="43"/> Nam hic Sertorius de partibus Marii fuit. Nam Norbano et
+                    Scipione consulibus, cum ex Asia Sylla contra Marium atque factionem ueniret
+                    infestus, timens senatus iram, ne malo publico certamina inter duces orirentur,
+                    statuit ut curarent consules ne res publica acciperet detrimentum. 
+                    <milestone unit="par" n="44"/> Hoc itaque senatus consulto excitati consules contra
+                    uenientem Syllam atque omnibus exitia minitantem praesidia sibi cuiusque generis
+                    parare coeperunt et duces idoneos, ad quorum industriam pertineret cura
+                    bellorum: in quis elegere Sertorium. 
+                    <milestone unit="par" n="45"/> Parato ualidissimo exercitu processere, et uetante Sertorio colloquia consules
+                    permiserunt inter suum et Syllae exercitum; et facta proditio est omnisque
+                    exercitus Syllae traditus.<lb/>
+                    <milestone unit="par" n="46"/> Tunc Sertorius destitutus atque omni copiarum nudatus auxilio in Etruriam confugit iram metuens
+                    Syllae, ne exigeret grauem quasi de superato hoste uindictam. 
+                    <milestone unit="par" n="47"/> Erat autem Etruria fidissima partibus Marianis,
+                    qui<supplied>a</supplied> ab ipsis Romanam, quam antea non habebant,
+                    acceperant ciuitatem: timentes igitur Etrusci, ne beneficium tantae dignitatis a
+                    Marianis acceptum Sylla reuocaret, si aduersae partes essent amputatae penitus,
+                    ad Sertorium se atque alios eiusdem factionis duces applicarunt, omnia quae
+                    imperarentur sine recusatione promittentes esse facturos. 
+                    <milestone unit="par" n="48"/> Itaque factum est, ut rursus firmissimus XL cohortium comportaretur
+                    exercitus: nam et multi milites, qui se uenienti Syllae tradiderant, frustrati
+                    <supplied>spe pacti</supplied>onis, ad priorum ducum castra reuerterunt,
+                    quae ante prodiderant. </p>
+            </div>
+            <lb/>
+            <div type="cap" n="8">
+                <p>
+                    <milestone unit="par" n="49"/> Inter haec facti sunt Marius septies et Carbo
+                    consules: tunc Sertorius de Marii potestate securus Romam uenit et omnium coepit
+                    accusare segnitiem et ex multis promptissimis factis Syllae industriam
+                    uirtutemque laudare, cui nisi obuiam iretur, actum iam ac debellatum foret.
+                    <milestone unit="par" n="50"/> Tum consules principesque alii factionis
+                    tanto uerborum pondere castigati, siue ut aemulum ac uehementem neglegentiae
+                    correctorem ab oculis remouerent, siue ut feroci prouinciae, cuius infidelitatem
+                    timebant, idoneum praeponerent ducem, misere in citeriorem Hispaniam, atque ei
+                    mandatum est, ut transiens res in Gallia transalpina componeret.<lb/>
+                    <milestone unit="par" n="51"/> Sed ubi in prouinciam uenit, ita strenue sociorum animos
+                    iam deficientes atque alia cupientes in fauorem partium suarum modeste tuendo
+                    atque blandiendo perduxit, ut et carus esset et tamen ab omnibus timeretur.<lb/>
+                    <milestone unit="par" n="52"/> Sed in urbe Sylla et Marius conflixere, atque in ipso certamine Marius interemptus est, Carbo perditis rebus
+                    aufugit. Tum Sertorius commissis atque deletis partibus, quas sequebatur,
+                    optimum consilium credens exercitum non dimittere, ne nudatus supplicia
+                    uictoribus penderet, collecta Hispaniae multitudine contra Romanum exercitum
+                    statuit dimicare.<lb/>
+                    <milestone unit="par" n="54"/> Mortuoque itaque Sylla
+                    hostem se publicum aperte professus est: ad quem expugnandum missi sunt Metellus
+                    atque Pompeius, qui eum grauibus atque assiduis pugnis afflixere. 
+                    <milestone unit="par" n="55"/> Qui tamen difficile uinceretur, nisi per coniurationem
+                    in conuiuio a suis esset occisus.<lb/>
+                    <milestone unit="par" n="56"/> Postea Pompeius Perpennam subegit, Auxummen Cluniam Calagurrim ciuitates deleuit et
+                    factis in Pyrenaeo trophaeis Romam regressus est.</p>
+            </div>
+        </body>
+    </text>
+
+</TEI>

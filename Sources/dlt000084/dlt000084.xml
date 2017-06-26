@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Artis architectonicae priuatis usibus adbreuiatus liber</title> 
+        <author>Marcus Cetius Faventinus</author> 
+        <respStmt>
+          <resp>Correzione linguistica</resp>
+          <name>David Paniagua</name>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica XML</resp>
+          <name>David Paniagua</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>digilibLT</publisher>
+        <pubPlace>Vercelli</pubPlace>
+        <date>2011</date>
+        <availability>
+          <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+        </availability>
+        <idno>dlt000084</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <p>M. Cetius Faventinus, Abrégé d'architecture privée, texte établi, traduit et commenté par M.-Th. Cam, Collection des Universités de France, Paris, Les Belles Lettres, 2001</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+        <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+      </projectDesc>
+      <editorialDecl>
+              
+        <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+        <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+          l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+          e commenti e ogni altro contenuto redatto da editori moderni. </p>
+        <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+          correttezza di trascrizione</p>
+        <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+          distinzione u/v minuscole.</p>
+        <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+        <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+          grassetto, corsivo, spaziatura espansa.</p>
+        <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+          <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+          <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+          si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+          [...]<lb/> lacuna integrata dagli editori:
+          <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+        </p>
+        <p>Sono stati marcati i termini in lingua greca
+          <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+        </p>
+        <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+          target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+          >Note di trascrizione e codifica di testi latini tardoantichi
+          [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+      </editorialDecl>
+      
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latino</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    
+    <body>
+      <div type="pr" n="pr">
+        <head>Prologus</head>
+        <p>
+          De artis architectonicae peritia multa oratione Vitruuius Pollio aliique auctores scientissime scripsere. Verum ne longa eorum disertaque facundia humilioribus ingeniis alienum faceret studium, pauca ex his, mediocri licet sermone, priuatis usibus ordinare fuit consilium. Quae partes itaque caeli et regiones uentorum salubres aedificiis uideantur, et qua subtilitate nociui flatus auertantur aditusque ianuarum et lumina fenestris utiliter tribuantur, quibusue mensuris aedificiorum membra disponantur, quibus signis tenuis abundansque aqua inueniatur, alia etiam quae aedificandi gratia scire oportet, breui succinctaque narratione cognosces.
+        </p>
+      </div>
+      <div type="cap" n="1">
+        <head>I  De principiis artis architectonicae</head>
+        <p>
+          <milestone unit="par" n="1"/> Primo ergo quae principia ad architecturam pertinere debeant studiose attendere conuenit. Omnia enim pulchro decore ac uenusta utilitate fieri poterunt si ante huius artis peritus ordo discatur. Nam architecturae partes sunt octo, quae sunt ordinatio, dispositio, uenustas, mensura, distributio, aedificatio, conlocatio, machinatio. Ex his Graeci quinque uocabulis studium architecturae esse docuerunt. Nam ordinationem <foreign xml:lang="grc">τάξιν</foreign>, dispositionem <foreign xml:lang="grc">διάϑεσιν</foreign>, uenustatem et decorem <foreign xml:lang="grc">εὐρυϑμίαν</foreign>, modulorum mensuras <foreign xml:lang="grc">συμμετρίαν</foreign>, distributionem <foreign xml:lang="grc">οἰκονομίαν</foreign> appellauerunt.
+          <milestone unit="par" n="2"/> Ordinatio est ergo membrorum dispositio et constat ex quantitate, quam Graeci <foreign xml:lang="grc">ποσότητα</foreign> uocant. Quantitas est modus singulorum membrorum uniuerso respondens operi. Dispositio est apta rebus conclauium institutio et operis futuri forma tribus figuris diuisa, quae a Graecis <foreign xml:lang="grc">ἰδέα</foreign> appellatur. Haec sunt ergo tres figurae: ichnographia, orthographia, scenographia. Ichnographia est areae uel soli et fundamentorum descriptio. Orthographia est laterum et altitudinis exstructio. Scenographia est frontis et totius operis per picturam ostensio.
+        </p>
+      </div>
+      <div type="cap" n="2">
+        <head>II De uentis</head>
+        <p>
+          <milestone unit="par" n="1"/> Ferunt quidam philosophorum Eratosthenen mathematicis rationibus et geometricis methodis, aequinoctiali tempore, per gnomonicas umbras orbis terrae spatia esse metitum et sic certos uentorum didicisse flatus; tenere ergo orientem aequinoctialem subsolanum, meridiem austrum, occidentem aequinoctialem fauonium. septentrionalem septentrionem.
+          <milestone unit="par" n="2"/> Inter ceteros tamen Andronicus Cyrrestes, cum octo uentis orbem terrae regi adseuerasset, exempli causa Athenis turrem marmoream octagonam instituit, in qua imagines uentorum sculptas contra suos cuiusque flatus ordinauit, supraque ipsam turrem metam marmoream posuit et Tritonem aeneum conlocauit et ita est modulatus ut, cum uentus aliquis adspirasset, quodam momento in gyro ageretur et supra caput eius resisteret et, dextera manu uirgam tenens, ipsum esse flantem monstraret; itaque esse inter subsolanum et austrum ad orientem hibernum eurum, inter austrum et fauonium ad occidentem hibernum Africum, inter fauonium et septentrionem chaurum, quem quidam chorum uocant, inter septentrionem et subsolanum aquilonem. Hoc modo et nomina et partes et numeros uentorum scire coeptum est.
+          <milestone unit="par" n="3"/> Sed plerique duodecim uentos esse adseuerant, ut est in urbe Roma Triton aeneus cum totidem thoracibus uentorum factus ad exemplum Andronici Cyrrestis. <supplied>Is</supplied> simili modo supra caput uenti uirgam tenens eundem esse flantem ostendit.
+          <milestone unit="par" n="4"/> Obseruabis ergo ne ianuas aut fenestras contra nociuos flatus facias. Nociui enim sunt flatus ubi aut nimis incumbunt aut acerrima frigora faciunt, ut et homines et animalia laedant. Frigorosis ergo regionibus a meridie aut ab occasu hiberno ianuas et fenestras facies, aestuosis uero a borea et septentrione fieri ordinabis.
+        </p>
+      </div>
+      <div type="cap" n="3">
+        <head>III De aquae inuentione</head>
+        <p>
+          <milestone unit="par" n="1"/> Quoniam usibus omnium maxime necessariae aquae uidentur, primo quae genera terrae tenues aut abundantes uenas emittant, quibus etiam signis altius depressae inueniantur, quomodo ex fontibus uel puteis ducantur, quae nociuos aut salubres habeant liquores, studiose scire oportet.
+          <milestone unit="par" n="2"/> Aquae ergo fontanae aut sponte profluunt aut saepe de puteis abundant. Quodsi tales copiae non erunt, signis infra scriptis quaerenda sunt sub terra capita aquarum et proxima fontibus, altiora puteis colligenda. Ante solis itaque ortum, in locis quibus aqua quaeritur, aequaliter in terra procumbatur et mento deposito per eam prospiciatur. Mox uidebis in quibuscumque locis aqua latebit umores in aere supra terram crispantes et in modum tenuis nebulae rorem spargentes, quod in siccis et aridis locis fieri non potest.
+          <milestone unit="par" n="3"/> Quaerentibus ergo aquam diligenter erit considerandum quales terrae sint. Certa enim genera sunt in quibus aut abundans aut tenuis aqua nascatur. In creta tenuis et exilis nec optimi saporis inuenitur. In sabulone soluto tenuis, limosa et insuauis, altioribus locis mersa. In terra nigra stillarum umores exiles, magis ex hibernis liquoribus collecti, saporis optimi, spissis et solidis locis subsidentes. Glareae uero mediocres et incertas uenas habent sed egregia suauitate. In sabulone masculo et harena carbunculo certiores et salubriores et abundantiores sunt copiae aquarum. In rubro saxo et copiosae et bonae inueniuntur, sed prouidendum erit ne inter rimas saxorum, quoniam suspensae sunt, decurrant. Sub radicibus montium et in saxis silicibus uberiores et salubriores et frigidiores aquae inueniuntur. Campestribus autem fontibus salsae et graues et tepidae et non suaues erunt, sed si sapor bonus inuenietur, scito eas de montibus sub terra uenire in medios campos ibique umbris arborum contectae praestabunt montanorum fontium suauitatem.
+          <milestone unit="par" n="4"/> Signa autem inuestigandae aquae alia huiusmodi inuenientur: tenuis iuncus, salix erratica, alnus, uitex, harundo, hedera, alia quoque quae sine umore nasci non possunt. Quoniam autem in lacunis similia nascuntur, facile his credendum non est.
+          <milestone unit="par" n="5"/> Itaque sic inuentiones aquae probabis. Fodiatur ergo ubi haec signa fuerint inuenta ne minus in latitudinem pedes III, in altitudinem pedes V et circa solis occasum uas plumbeum aut aeneum mundum, intrinsecus perunctum oleo, in imam fossuram inuersum conlocetur, supraque fossuram frondibus uel harundinibus missis terra inducatur. Tum alia die aperiatur et si sudores aut stillae in uase inuenientur, is locus sine dubitatione aquam habebit. Item si uas ex creta siccum, non coctum, eadem ratione positum et opertum fuerit, si is locus aquam habebit, alio die uas umore solutum inuenietur. Vellus lanae similiter in en loco positum, si tantum umoris collegerit ut alia die exprimi possit, magnam copiam aquae locum habere significat. Lucerna plena oleo incensa, si, in eodem loco similiter adoperta, alia die lucens <supplied>non</supplied> fuerit inuenta, indicabit eum locum aquam habere, propterea quod omnis calor ad se trahit umorem. Item in eodem loco si focum feceris et uaporata terra umidum nebulosumque fumum suscitauerit, ostendit locum aquam habere.
+          <milestone unit="par" n="6"/> Cum haec ita fuerint reperta certis signis, in altitudinem putei defodiendi erunt quousque caput aquae inueniatur aut, si plura fuerint, in unum colligantur. Maxime tamen sub radicibus montium in regione septentrionali signa aquae sunt quaerenda. In his enim locis suaues et salubres et abundantiores inueniuntur, quoniam naturae beneficio a solis cursu separantur et arborum aut montium umbris uelatae frigida gratia aestate, hiberno tepida suauitate profluent.
+        </p>
+      </div>
+      <div type="cap" n="4">
+        <head>IV  De puteorum fossionibus et structuris</head>
+        <p>
+          <milestone unit="par" n="1"/> In puteorum autem fossionibus diligenter est cauendum ne fodientibus periculum fiat, quoniam ex terra sulphur, alumen et bitumen nascitur, quae res cum in se conuenerint pestiferos spiritus emittunt. Et primo occupatis naribus tetro odore reprimunt animas corporibus et, si non inde cito fugerint, celerius moriuntur. Hoc autem malum, ubicumque fuerit, hac ratione uitabis. Lucerna accensa in eo loco demittatur. Quae si ardens remanserit, sine periculo descendes. Quodsi ereptum ei lumen fuerit, cauendum erit ne in eo loco descendatur. Sed si alio loco aqua non inuenietur, dextra ac sinistra usque ad libramentum aquae putei fodiantur et per structuram foramina quasi nares intus in puteum demittantur, qua nociuus spiritus euaporet. Sed, cum aqua inuenta fuerit, Signinis operibus parietes struantur ita ne uenarum capita excludantur.
+          <milestone unit="par" n="2"/> In Signinis autem operibus haec seruare debebis. Primo ut harena aspera paretur et caementum de silice uel lapide toficio calcisque proxime extinctae duae partes ad quinque harenae mortario misceantur. Puteum ergo fodere debebis latum pedibus octo ut a binis pedibus structura in circuitu surgat et quattuor cauo relinquat. Structuram uero cum facere coeperis, uectibus ligneis densabis sic ut nitorem frontis non laedas. Sic enim solidata structura aduersus umorem fortior erit. Quodsi limosa aqua fuerit, salem ei miscebis et insuauitatem saporis mutabit.
+          <milestone unit="par" n="3"/> Sed licet auctores ad quinque partes harenae duas partes calcis mitti docuerint, isdem mensuris et rediuiuas impensas fieri monstrauerint, melius tamen inuentum est ut ad duas harenae una calcis misceretur, quo pinguior impensa fortius caementa ligaret. Similiter et in testaceis operibus facies.
+          <milestone unit="par" n="4"/> Puteum autem cum fodere coeperis, si terra solida non fuerit aut harena lubrica aut sabulo fluidus aut exsudans umor fossionem resoluet, tabulas axium directas fodiendo submittes et eas uectibus ligneis transuersis destinabis, ne labens terra ruina ponderis periculum fodientibus faciat.
+        </p>
+      </div>
+      <div type="cap" n="5">
+        <head>V  De utilitate aquae probanda</head>
+        <p>
+          <milestone unit="par" n="1"/> Quoniam ergo ante omnia aquae usus necessarius habetur, his experimentis utilitas eius probanda erit. ltaque si naturaliter fontes profluent, considerandum erit prius quales homines et quam salubri corpore circa eos fontes habitent. Itaque si corporibus ualentibus, cruribus non uitiosis, coloribus nitidis, non lippientibus oculis, purgatos salubresque fontes probabis. Quodsi noui fontes aut putei fossi fuerint, aquam eximes, in uas aeneum nitidum sparges et, si maculam non fecerit, optima et probabilis erit. Missa etiam in uas aeneum, si decocta fuerit et limum uel harenam in fundo non reliquerit, legumen in ea si cito coquatur, bona erit. Non minus si perlucidi fontes fuerint et sine musco aut quibusdam inquinamenti signis, mundam, salubrem perpetuamque aquam futuram significabit.
+        </p>
+      </div>
+      <div type="cap" n="6">
+        <head>VI  De aquae inductione</head>
+        <p>
+          <milestone unit="par" n="1"/> Ductus autem aquae quattuor generibus fiunt, aut forma structili aut fistulis plumbeis aut tubis uel canalibus ligneis aut tubis fictilibus.
+          <milestone unit="par" n="2"/> Si per formam aqua ducetur, structura eius diligenter solidari debet, ne per rimas pereat. Canaliculus formae iuxta magnitudinem aquae dirigatur. Si planus locus fuerit, <del>pede semis</del> infra caput aquae structura conlocetur et, si longior planitia fuerit, inter centenos uel LX pedes <supplied>sicilico</supplied> structura submittatur, ut animata aqua non pigro impetu decurrat. Nam si interualla montium fuerint, ad libramentum capitis aquae specus sub terra erit <supplied>fodiendus et</supplied> structura aut roboreis canalibus aquae ductus componatur. Quodsi concauae uallium demissiones impedient, structura solida uel arcuatili ad libramentum aquae occurratur, aut fistulis plumbeis aut canalibus librate cursus dirigatur. Verum si altior locus fuerit unde aqua ducitur, aliquanto inferius planitia inflexa libretur, ut ueniens aqua fracto impetu lenius decurrat. Quodsi longius de monte ducetur, saepius flexuosas planities facies.
+          <milestone unit="par" n="3"/> Minori etiam sumptu et utilius tubis fictilibus inducitur. Cum a figulo ergo fient, ne minus duorum digitorum grossitudine corium habeant. Sed ipsi tubuli ex una parte angustiores fiant, ut alter in alterum per ordinem ad palmum ingrediantur. Iuncturae autem eorum calce uiua oleo subacta inliniantur, et antequam a capite aqua demittatur, fauilla per eos cum paruo liquore laxetur, ut, si qua uitia tubuli habuerint, excludantur.
+          <milestone unit="par" n="4"/> Salubrior enim usus tubulorum materia inuenitur. Ex plumbo enim cerussa nascitur, quae corporibus humanis nociua est. Exemplum autem huius plumbariorum deformitas probat, qui tractando plumbum exsucati sanguine foedo pallore mutantur. Nam cum fere omnes exstructas uasorum argenteorum uel aeneorum habeant mensas, tamen propter saporis integritatem fictilibus uasculis utuntur.
+          <milestone unit="par" n="5"/> Non alienum uidetur etiam conceptacula locis oportunis facere, ut, si aquae exhaustae solis ardoribus fuerint aut uenas sitiens terra consumpserit, nihilominus de receptaculis aqua ministretur. Canalium uero et tubulorum ligneorum facilis et usitata aquae inductio uidetur.
+        </p>
+      </div>
+      <div type="cap" n="7">
+        <head>VII  De mensuris uel pondere fistularum</head>
+        <p>
+          <milestone unit="par" n="1"/> Fistulae ergo plumbeae pro magnitudine aquae hanc soliditatem et mensuram accipere debebunt: si centenariae fundentur denum pedum, M et CC libras fusurae accipiant; octogenariae denum pedum, DCCCCLX libras accipiant; quinquagenariae denum pedum, DC libras accipiant; quadragenariae denum pedum, CCCCLXXX libras tricenariae denum pedum, CCCCLX libras; uicenariae denum pedum, CCXL libras; octonariae, C libras.
+        </p>
+      </div>
+      <div type="cap" n="8">
+        <head>VIII  De harenae natura probanda</head>
+        <p>
+          <milestone unit="par" n="1"/> Harenae fossiciae genera sunt tria: nigra, rubra, carbunculus. Ex his quae manu comprehensa stridorem fecerit optima et purgata erit: quae autem terrosa fuerit muta erit. Etiamque in uestimentum candidum si miseris et effusa si nihil sordis reliquerit, idonea erit.
+          <milestone unit="par" n="2"/> Si uero non fuerit unde harenae fodiantur, tunc de fluminibus aut de glareis erit excernenda aut de litore marino. Sed marina harena in structuris hoc uitium habet: tarde siccat: unde onerari se continenter non patitur. Nisi intermissionibus requieuerit opus, pondere grauata structura rumpetur. Cameris etiam salsum umorem remittendo tectorium opus saepe resoluit. Fossiciae uero celeriter siccescunt et tectoria non laedunt et concamarationes utiliter obligant. Sed fossiciae recentes statim in structuras mitti debent; fortius enim comprehendunt caementa. Nam si sub sole diutius fuerint aut imbribus pruinisque solutae, et terrosae et euanidae fiunt. Fossiciae itaque cum recentes sunt, tectorio operi propter pinguedinem <supplied>non</supplied> conueniunt. Fluuiaticae autem propter macritatem Signino operi incongruentes sunt, sed liaculorum subactionibus in tectorio opere recipiunt soliditatem. In caementicias autem structuras pura harena mittatur.
+        </p>
+      </div>
+      <div type="cap" n="9">
+        <head>IX  De calcis utilitate probanda</head>
+        <p>
+          <milestone unit="par" n="1"/> Calx itaque de albo saxo uel Tiburtino aut columbino fluuiatili coquatur aut rubro aut sfungia. Quae enim erit ex spisso et duro saxo utiliter structuris conueniet. Quae autem ex fistuloso aut exiliore lapide fuerit conueniet operi tectorio. In commixtione ad duas partes harenae una calcis mittatur. In fluuiatili autem harena si tertiam partem testae cretae addideris, miram soliditatem operis praestabit.
+        </p>
+      </div>
+      <div type="cap" n="10">
+        <head>X  De lateribus faciendis</head>
+        <p>
+          <milestone unit="par" n="1"/> Faciendi autem lateres sunt ex terra alba uel creta uel rubrica aut sabulone masculo. Haec genera terrae propter leuitatem fortiora sunt operi. Cetera genera quoniam aut grauia sunt aut paleas non continent aut umore sparsa cito soluuntur, propterea fabricis inutilia uidentur.
+          <milestone unit="par" n="2"/> Ducendi autem sunt lateres uerno tempore, ut ex lento siccescant. Qui enim solstitiali tempore parantur uitiosi fiunt, quoniam calor solis torridus corium in summo cito desiccat et quasi integri uidentur; postea umor interaneus dum siccatur, contrahit frontes et scissuris diuidit et inutiles operi lateres facit. Maxime tamen tectorio operi inutiles erunt, si ante biennium inducantur. Non enim possunt ante penitus siccari.
+          <milestone unit="par" n="3"/> Fiunt autem laterum genera tria: unum, quod graece <foreign xml:lang="grc">Λύδιον</foreign> appellatur, longum sesquipede, latum pede, quo nostri utuntur. Sunt et alia duo laterum genera, unum <foreign xml:lang="grc">πεντάδωρον</foreign> et alterum <foreign xml:lang="grc">τετράδωρον</foreign>. <foreign xml:lang="grc">Δῶρον</foreign> autem Graeci palmum appellant. Itaque artifices quinque palmorum publica opera exstruere consuerunt et IIII priuatorum. Fieri debebunt et semilateria, remissis quae laterum iuncturis interposita reparent. Ita enim fiet ut, cum alter alterius protegit coniunctionem, firma structurae soliditas surgat.
+        </p>
+      </div>
+      <div type="cap" n="11">
+        <head>XI  De parietibus latericiis tectorio operi parandis</head>
+        <p>
+          <milestone unit="par" n="1"/> Latericii parietes tribus inductionibus prius solidentur, ut opus tectorium sine uitio accipiant. Nam si recentes structurae et inductiones fuerint et non ante siccauerint, cum arescere coeperint, scissuris uenustatem operis corrumpent. In Vrbe autem propter multitudinem hominum parietes caementicii altius struuntur, ne latius soli magnitudinem occupent. Merito ergo latericiam habere non potuit, ne pondere cito corrupta fabrica laberetur. Latericiis ergo parietibus uitia quae solent accidere ne fiant, hoc modo erit prouidendum: in summitate parietum structura testacea cum prominentibus coronis altitudine sesquipedali exstruatur, ut, si corruptae tegulae aut imbrices erunt, parietes tamen solidi permaneant
+        </p>
+      </div>
+      <div type="cap" n="12">
+        <head>XII  De generibus arborum et utilitate caesionis</head>
+        <p>
+          <milestone unit="par" n="1"/> Caesio arborum, quae ad utilitatem fabricae parabitur, autumni <supplied>et hiberni</supplied> tempore antequam fauonii flare incipiant, utiliter caeditur. Prius tamen usque ad medullam securibus circumcisae stantes intermittantur, ut inutilis umor decurrat et uenarum raritas exsiccata solidetur.
+          <milestone unit="par" n="2"/> Sed genera arborum has inter se uires et differentias habent. Abies ergo, habens aeris plurimum et ignis, minimum terreni et umoris, merito non est ponderosa et naturali rigore non cito flectitur a pondere. Laricis uero materia in omni fabrica maximas habet utilitates, primo quod ex ea adfixae tabulae sub grunda ignis uiolentiam prohibent; neque enim flammam recipiunt neque carbonem faciunt. Larix uero a castello Laricino est dicta. Quercus terrenis satietatibus abundans, parum habens umoris, cum in terrenis operibus obruitur, perpetuam seruat utilitatem. Aesculus apta aedificiis materies et, <supplied>nisi est</supplied> in umore posita, perpetuam exhibet utilitatem. Fagus, quod aequalem habet mixtionem umoris et ignis. in umore cito marcescit, siccis locis utilis est. Populus alba et nigra, salix et tilia ignis et aeris habent satietatem; in fabrica inutiles, in sculpturis gratae inueniuntur. Alnus, quae proxima aquae nascitur, tenera et mollis materia extra aquam, fabricae inutilis est, sed hoc mirum in se habet, quod in umore palationes spisse defixae structuram supra se factam sine uitio seruant. Vlmus et fraxinus in omni opere cito flectuntur, sed cum aruerint, rigidae sum: lentoris causa catenis utiles. Carpinus in omni opere tractabilis et utilis inuenitur. Cupressus et pinus admirandas habent uirtutes, quod non cito pondere curuantur; durant enim integrae semper. Cedrus, si umore non corrumpatur, eandem habet uirtutem. Sed quomodo de pino resina decurrit, sic et ex ea oleum, quod cedria dicitur. Si libri aut clusa ex eo inungantur, numquam tineis aut carie soluentur. Multis itaque templis propter aeternitatem ex ea lacunaria sunt facta. Nam folia eius cupresso similia sunt. Nascitur maxime in Creta et in Africa et in Syriae regionibus.
+          <milestone unit="par" n="3"/> Quaecumque ergo ex parte meridiana caeduntur utiliores erunt: ex parte autem septentrionali proceriores sunt arbores, sed cito uitiantur.
+        </p>
+      </div>
+      <div type="cap" n="13">
+        <head>XIII  De fabrica uillae rusticae disponenda</head>
+        <p>
+          <milestone unit="par" n="1"/> Primo ita cortes et culinae calidis locis designentur. Bubilia in parte meridiana, ita ut ad ortum aut ad locum boues spectent: nitidiorem enim cultum recipiunt, si ad lumen attendant. Latitudo XV pedibus disponatur et in singulis paribus VIII pedes relinquantur. Equilia calidis locis ordinentur et obscuriora fiant, ut securi equi pabulentur. Ouilia et caprilia pro magnitudine agri disponantur. Cella uinaria contra frigidissimas caeli plagas conlocetur; lumen fenestris a septentrione tribuatur, ut undique frigidus aer uina incolumia seruet: uapore enim omnia corrumpuntur. Torcular huius in septentrione ponatur. Cella autem olearis in meridie constituenda est; fenestrae ab eadem parte tribuantur, ne frigore oleum cum sordibus stringatur et suauitas saporis pereat. Torcular huius in meridie statuatur: magnitudo pro abundantia rei fiat. Granaria ad septentrionem uel aquilonem spectent, ut aere gelidiori fruges tutius seruentur; uaporatae enim regiones curculiones et alia genera bestiolarum nutriunt quae fruges corrumpunt. Horrea, fenilia, pistrina extra uillam sunt constituenda, ut ab ignis periculo uillae sint tutiores. Si quid uero melius et nitidius facere uolueris, exempla de urbanis fabricis sumes.
+        </p>
+      </div>
+      <div type="cap" n="14">
+        <head>XIV  De dispositione operis urbani</head>
+        <p>
+          <milestone unit="par" n="1"/> Vrbani itaque operis gratiam luminosam esse oportet, praesertim cum nulli uicini parietes impediant. Disponendum erit tamen ante ut certa genera aedificiorum caeli regiones apte possint spectare. Hiberna ergo triclinia hibernum occidentem spectare debent, quoniam uespertino lumine opus est. Nam sol occidens non solum inluminat, sed pro ui caloris tepidas facit regiones. Cubicula et bibliothecae ad orientem spectare debent; usus enim matutinum postulat lumen. Nam quaecumque loca Africum spectant umore uitiantur, quoniam uenti umidi spirantes madidos flatus omnia pallore corrumpunt. Triclinia uerna et autumnalia ad orientem spectare debent, ut gratiora sint quando his uti solitum est. Aestiua triclinia ad septentrionem spectare debent, quod ea regio praeter ceteras frigidior est et solstitiali tempore iocundam sanitatis uoluptatem corporibus praestat. Pinacothecae et plumariorum officinae in parte septentrionali sunt constituendae, ut colores et purpurae sine uitio reseruentur; de uaporatis enim regionibus corruptelae nascuntur.
+        </p>
+      </div>
+      <div type="cap" n="15">
+        <head>XV  De mensuris aedificiorum</head>
+        <p>
+          <milestone unit="par" n="1"/> Tricliniorum et conclauium quanta latitudo et longitudo fuerit in uno computata mensura, ex ea medietas altitudini tribuatur. Si autem exedrae aut oeci quadrati fuerint, media pars mensurae in altitudinem struatur.
+        </p>
+      </div>
+      <div type="cap" n="16">
+        <head>XVI  De fabrica balnearum</head>
+        <p>
+          <milestone unit="par" n="1"/> Balneis locus eligendus est contra occasum hibernum aut partem meridianam, ut sole decedente uaporem usque ad uesperum habeat, quod tempus ad lauandum tributum est.
+          <milestone unit="par" n="2"/> Suspensurae calidarum cellarum ita sunt faciendae ut primum area sesquipedalibus tegulis consternatur, inclinata ad fornacem ut pila missa intro resistere non possit, sed redeat ad praefurnium. Flamma enim sursum adsurgens calidiores <del>eius</del> efficit cellas. Supraque laterculis besalibus uel rotundis pilae instruantur ex capillo et argilla subacta, in priuato pedibus binis semis, in publico ternis. Tegulae bipedales super constituantur, quae pauimentum dirigant.
+          <milestone unit="par" n="3"/> Plumbeum uas, quod patenam aeream habet, supra fornacem conlocetur, alterum simile frigidarium secus ut, quantum calidae ex eo in solio admittatur, tantum frigidae infundatur.
+          <milestone unit="par" n="4"/> Magnitudines autem balnearum pro hominum copia aut uoluntatis gratia fieri debebunt, dummodo cellae sic disponantur ut, quanta longitudo fuerit tertia dempta, latitudo disponatur; melius enim ignis per angustiora latitudinis cellarum operabitur. Lumen fenestris ab <supplied>occidentis</supplied> hiberni aut meridianis partibus tribuatur. Aestiuis balneis hypocausteria pro loci magnitudine cum piscinis in septentrione uel aquilone constituantur, et ab eadem parte maxime lumen fenestris admittatur, ut salubriorem et corporibus iocundiorem gratiam praestet.
+          <milestone unit="par" n="5"/> In uilla rustica balneum culinae coniungatur, ut facilius a rusticis ministerium exhiberi possit.
+        </p>
+      </div>
+      <div type="cap" n="17">
+        <head>XVII  De cameris balnearum</head>
+        <p>
+          <milestone unit="par" n="1"/> Camerae structiles fortiores erunt. Figulinae autem ad contignationem suspendantur, ita ut catenis ancoratis fixas tegulas <del>uel paliola</del> quae cameram circinent sustineant. Eadem ratione et planas cameras facies. Vtilius autem disponetur, si regulae uel arcus ferrei fiant et uncis ferreis ad contignationem suspendantur, ita ut tegularum iuncturae super regulas uel arcus recumbant. Superiores ergo iuncturae ex capillo et argilla subacta linantur. Inferior autem pars iuncturae, quae ad pauimentum spectabit, primo calce cum testa temperata trullizetur, deinde albario siue tectorio opere inducatur. Maior tamen et diligentiae et utilitatis ratio uidetur, si duplices balnearum camerae fiant, inferior caementicia et superior suspensa; inter duas enim cameras umor retentus numquam uitiabit contignationes. Sudationes etiam praestabuntur meliores.
+        </p>
+      </div>
+      <div type="cap" n="18">
+        <head>XVIII  De expolitionibus pauimentorum</head>
+        <p>
+          <milestone unit="par" n="1"/> Considerandum erit ut solum firmum sit et aequale. Tunc rudus inducatur et uectibus ligneis contusum calcetur. Supra impensa testacea crassior inducatur et iterum uectibus contusa solidetur. Tertio nucleus, id est impensa mollior, inducatur et politionibus insistas, ne rimas inutiles operi relinquat.
+        </p>
+      </div>
+      <div type="cap" n="19">
+        <head>XIX  De pauimentis supra contignationem faciendis</head>
+        <p>
+          <milestone unit="par" n="1"/> In contignationibus diligenter respiciendum est ut aequalitas soli dirigatur. Item danda est opera ne axes quercei cum aesculis commisceantur. Nam quercus, cum accepto umore siccescere coeperit, arcuatur et limas inutiles operi efficiet, aesculus diligenter composite ad perpetuitatem durabit. Verum si inopia loci aesculus defuerit, in tenuissimos axes quercus secetur et primum in directo iactatis axibus, sequentibus in transuerso stratis, binis clauis crebro ad contignationem confixis, utiliter operi subicientur. De cerro aut fago seu farno coaxationes haut ad uetustatem poterunt permanere, lactatis in ordinem et compositis axibus, filix aut paleae aequaliter supersternantur, ut calcis umor ad axes peruenire non possit.
+          <milestone unit="par" n="2"/> Tunc insuper statuminetur saxo ne minori quam qui manum possit implere. Statuminibus <supplied>inducto</supplied> ruderi seu nouo siue rediuiuo ad duas partes una calcis misceatur. Rudus est maiores lapides contusi cum calce mixti; impensa crassior induci debebit ne minus crassitudine digitos VI. Exacto pauimento ad regulam et libellam, supra impensa testacea mollior inducatur et siccet. Tum aut marmor sectile aut tesserae aut scutulae aut trigona aut faui superimponantur et usque eo fricetur ut iuncturae uel anguli inter se conueniant; tunc erit perfecta fricatura. Quodsi facultas non erit unde superfigatur, ne aut lacunae aut cumuli sint, ad regulam fricatura extendatur et supra marmor tunsum incernatur aut harena cum calce inducta poliatur.
+          <milestone unit="par" n="3"/> Sub diuo maxime uitanda sunt pauimenta, quoniam frigore et umore saepe corrumpuntur. Sed si necessitas aut uoluntas facere hortatur, hanc operis subtilitatem seruabis. Missas in ordinem tabulas et alias in transuersum, sicut supra monstratum est, ad contignationem configes et paleam aut filicem super aequaliter sternes et loricabis de saxo qui manum possit implere. Super rudus pedaneum induces et uectibus ligneis frequenter densabis et, antequam rudus siccescat, tegulas quadratas bipedales quae per omnia latera canaliculos habent digitales. Calce uiua ex oleo temperata frontes tegularum qua canaliculi erunt implebis et sic iunctas supra rudus compones ut margines tegularum cum calce comprehendere possint. Quae res, cum siccauerit, quasi unum corpus facit et nullum umorem ad inferiora admittet. Postea nucleum sex digitorum induces et frequenter fricabis, ne setas faciat, et tesseram duorum aut trium digitorum latam supra imprimes aut tabulas quammagnascumque marmoreas, ut nullo modo fabrica uitiari possit. Si quis autem diligentius facere uolet, omnibus annis ante hiemem iuncturas saxorum faecibus perungui faciat. Testacea spicata <del>et</del> Tiburtina pari modo fricaturis et politionibus exerceantur.          
+        </p>
+      </div>
+      <div type="cap" n="20">
+        <head>XX  De calce probanda operi albario</head>
+        <p>
+          <milestone unit="par" n="1"/> In albario opere calcem sic probare debebis. In fossa calcem, quae multo ante tempore fuerit macerata, de ascia quasi lignum dolabis, et aciem si nusquam impegeris atque adhaerens asciae uiscosa uidebitur, optima erit operi albario. Recenter extincta et calculosa si fuerit, dum siccescere coeperit, calculi crepant et inutiles rimae operi efficientur. Vnde proxime extinctam in opus albarium mittere non oportet.
+        </p>
+      </div>
+      <div type="cap" n="21">
+        <head>XXI De cameris canniciis</head>
+        <p>
+          <milestone unit="par" n="1"/> Camerae ergo canniciae sic erunt disponendae. Asseres abiegnei ad lineam aut regulam aequaliter dirigantur; ne plus habeant grossitudinis quam digitos tres. Hos inter se sesquipedali mensura diuisos ordinabis et catenis ad contignationem suspendes ita ut binae perticae graciliores inter eos sint missae <supplied>et</supplied> faciant tomices ligaturas. Catenae autem parentur aut de iunipero aut oliua aut buxo aut cupresso. Camerae ex harundine Graeca uel palustri uel grossiori rasa et contusa sic contexantur ut fasciculi aequalis admodum grossitudinis et longitudinis ante ligentur, qui possint aequalem nitorem ostendere, aut, si quam cultiorem gratiam emutare uolueris, fasciculi mollioris cannae facilius flexi ducantur. Postea primo manu inducatur impensa pumicea et trullizetur, ut canna subligetur; deinde harena et calce dirigatur; tertio marmor tusum super calce inducatur et poliatur. Sic et nitorem gratum et uirtutem solidam facies. Si quid autem urbanius cameris addere uolueris, fasciculos de canna facies et laquearis operis <del>uel delicatae</del> aut arcuatilis camerae exemplis uteris.
+        </p>
+      </div>
+      <div type="cap" n="22">
+        <head>XXII  De politionibus parietum caementiciorum</head>
+        <p>
+          <milestone unit="par" n="1"/> Parietes uno corio tenui et alio grossiori si fuerint inducti et politi, macritate impensae cito corrumpentur. Exemplum huius ex <del>his</del> speculis sumere debemus: quorum tenues laminae falsas et deformes exprimunt imagines, solidae autem laminae ueras et suae pulchritudinis formas designant. Prima ergo inductione trullizata, cum arescere coeperit, iterum ac tertio loricationes dirigantur. Cum tribus coriis opus fuerit deformatum, tunc ex marmore granio trullizationes sunt subigendae. Sed ipsa species sic paretur ut ante inductiones tamdiu subigatur ut rutrum ex ea mundum leuetur. Inarescente inductione, alterum corium subtilius inducatur, ut marmoris candore et politionibus fundata soliditas nitidum culturae faciat decorem. Omnia ergo quae diligenti studio componuntur neque uetustatibus obsolescunt neque, cum purgari coeperint, gratiam coloris amittunt. Vmidi enim parietes, cum picturis ornantur, desudescunt et operi obligatus color elui non potest.
+        </p>
+      </div>
+      <div type="cap" n="23">
+        <head>XXIII  De opere coronario</head>
+        <p>
+          <milestone unit="par" n="1"/> Operi coronario subtilior impensa necessaria est, ut amplius fricata melius nitorem gratum faciat. Obseruandum tamen erit ne gypsum impensae adiungatur. Siticulosa enim materia, dum cito arescit, uicinum coronarium opus, politionibus parietum et camerarum <supplied>cum</supplied> superinducitur, <del>nam</del> corrumpit.
+        </p>
+      </div>
+      <div type="cap" n="24">
+        <head>XXIV  De parietibus caementiciis umidis locis solidandis</head>
+        <p>
+          <milestone unit="par" n="1"/> Parietes uero umidis locis sic erunt solidandi. Si perpetuus umor manabit, tribus pedibus ab imo testaceo paries uestiatur et uestitura calcetur et poliatur, ne umorem admittere possit. Quodsi maior umor perpetuus manabit, canaliculum breuem exstrues aliquantum a pauimento altius, qua collectus umor sine uitio parietis exeat. Si autem affluens umor abundabit, tegulas bipedales ex ea parte qua umor inriguus erumpet diligenter picabis, ne uis umoris ad parietem transeat. Ex altera parte qua structurae iungentur, tegula calce liquida linietur. ut facilius operi adhaerere possit.
+        </p>
+      </div>
+      <div type="cap" n="25">
+        <head>XXV Triclinia hiberna minoribus picturis esse ornanda</head>
+        <p>
+          <milestone unit="par" n="1"/> Triclinia hiberna non conuenit grandibus picturis ornari, quoniam hibernis temporibus frequenti lumine cereorum aut lucernarum fumante obsolescunt. Propterea et camerae eorum planae fiunt, ut detersa fuligine statim inluminatus splendor appareat.
+        </p>
+      </div>
+      <div type="cap" n="26">
+        <head>XXVI  Pauimenta ut in hieme tepeant</head>
+        <p>
+          <milestone unit="par" n="1"/> Etiam pauimentorum utilis dispositio inuenta uidetur. Itaque excauatis in altum duobus pedibus, fistucato solo inducatur aut rudus aut testaceum pauimentum, deinde congestis et calcatis spisse carbonibus inducatur ex sabulone et fauilla et calce mixta impensa crassitudine unciarum VI. Ad regulam exaequata planities reddit speciem nigri pauimenti. Hieme ergo non recipit frigus et ministros licet nudis pedibus uapore delectabit. Sic enim erit pauimentum ut, etiam bibentium pocula si fusa fuerint, momento siccescant.
+        </p>
+      </div>
+      <div type="cap" n="27">
+        <head>XXVII De generibus colorum</head>
+        <p>
+          <milestone unit="par" n="1"/> Colores uero alii certis locis procreantur, alii ex commixtionibus componuntur.
+          <milestone unit="par" n="2"/> Rubricae itaque multis locis generantur, sed optimae in Ponto et in Hispania nascuntur.
+          <milestone unit="par" n="3"/> Paraetonium ex ipso loco unde foditur habet nomen. Eadem ratione et Melinum, quod eius metallum per insulas Cycladas Melo dicitur <supplied>esse</supplied>.
+          <milestone unit="par" n="4"/> Creta uiridis pluribus locis nascitur, sed optima <del>in</del> creta Smyrnae tantum procreatur, quae graece <foreign xml:lang="grc">ϑεοδοτεῖον</foreign> dicitur a Theodoto quodam in cuius solo primum est inuenta.
+          <milestone unit="par" n="5"/> Auripigmentum, quod <foreign xml:lang="grc">ἀρσενικόν</foreign> graece appellatur, in Ponto nascitur. Sandaraca plurimis locis generatur, sed optima in Ponto et iuxta flumen Hypanim.
+          <milestone unit="par" n="6"/> Minii autem natura primum a Graecis Ephesiorum solo reperta memoratur, deinceps in Hispania. Cuius natura has admirationes habet. Glebae itaque, cum ex metallis primum exciduntur, argenti uiui guttas exprimunt, quas artifices ad plures usus colligunt. Neque enim argentum neque aes sine his inaurari potest. Nam confusae in unum ita ut quattuor sextariorum mensuram habeant, centum librarum pondus efficient. Supra cuius liquorem centenarium saxi pondus, si posueris, sustinebit; scripulum auri, super si posueris, in liquore descendet. Vnde intelleges non ponderis sed naturae esse discretionem. Itaque si aurum ex pannis textile uis solidari, adustum rudi uaso fictili puluerem prius lauaueris, postea mixtum argento uiuo uel in panno uel in linteolo comprimes, ut liquor argenti expressus emanet et aurum solidum intrinsecus remaneat. Verum probatio minii sic erit obseruanda. In lamina ferrea mittatur et super ignem ponatur tamdiu donec lamina rubescat; tunc retractum refrigescat. Si colorem non mutauerit, optimum erit; si mutauerit, uitiatum erit. Colores autem omnes calcis mixtione corrumpi manifestum est.
+          <milestone unit="par" n="7"/> Chrysocolla a Macedonia uenit; foditur autem ex metallis aerariis. Armenium et Indicum ab ipsis ostenditur quibus in locis nascitur.
+          <milestone unit="par" n="8"/> Atramenti uero compositio sic erit obseruanda, quae non solum ad usum picturae necessaria uidetur sed etiam ad cotidianas scripturas. Lacusculus curua camera struatur. Huic fornacula sic componitur ut nares in lacusculo habeat, qua fumus possit intrare. Taedae in eadem fornace incendantur; super taedas ardentes resina mittatur, ut omnem fumum et fuliginem per nares in lacusculum exprimat. Postea fuliginem diligenter conteres et aquam ad modum mittes et atramentum facies nitidum. Pictores autem glutinum miscent, ut nitidius esse uideatur. Sed ad celeritatem operis etiam taedarum carbones cum glutino attriti parietibus praestabunt atramenti suauitatem, nec minus sarmenta exusta et contrita atramenti colorem imitabuntur. Sed sarmenta uuae nigrioris, si in optimo uino mersa aruerint et postea exusta fuerint, addito glutino imitata Indici suauitatem monstrabunt.
+          <milestone unit="par" n="9"/> Vsta uero, quae plurimum necessaria in operibus picturae uidetur, <supplied>sic temperatur</supplied>; glebae silis boni in igne coquuntur; tunc aceto acerrimo perfuso extinguuntur et reddunt purpureum colorem.
+          <milestone unit="par" n="10"/> Caerulei temperationes Alexandriae primo sunt inuentae; nunc autem Puteolis ex harenae puluere et nitri flore temperatur; sed Cyprium adustum <gap/>.
+          <milestone unit="par" n="11"/> Cerussa <del>quam nostri afrugum uocant</del> sic erit conficienda. Sarmenta <del>uitiosa mineae</del> infuso aceto in dolio coiciantur: super tabulae plumbeae deponantur et dolium cludatur; et pluribus mensibus transactis aperiatur. Et cerussa <supplied>si</supplied> in fomace coquatur, <del>quae</del> mutato colore meliorem efficiet sandaracam.
+          <milestone unit="par" n="12"/> Ostrum autem, quod pro colore purpurae temperatur, plurimis locis nascitur, sed optimum insula Cypro et ceteris quae proxime sub solis cursu habentur. Conchylia itaque, cum circumcisa ferro fuerint, lacrimas purpurei coloris remittunt, quibus collectis purpureus color temperatur. Ideo autem ostrum est appellatum quod ex testis umor elicitur. Qui cito ex salsugine inarescit, nisi temperatus umor melle circumfusus habeatur.
+          <milestone unit="par" n="13"/> Fiunt etiam purpurei colores infecta creta rubiae radice. Similiter ex floribus alii colores inficiuntur. Itaque pictores, cum uoluerint sil Atticum imitari, uiolam aridam in uaso cum aqua ad ignem adponunt, ut ferueat, et decoctam in linteolo exprimunt et in mortario cum creta conterunt et faciunt silis Attici colorem. Eadem ratione uaccinium cum lacte temperantes purpuram faciunt elegantem. Qui non possunt chrysocolla propter caritatem uti herbae quae lutear appellatur sucum caeruleo inficiunt et utuntur uiridissimo colore; haec autem infectiua appellatur. Propter inopiam coloris simili modo cretam Selinusiam siue anulariam uitro miscentes, quod Graeci <foreign xml:lang="grc">ἴσατιν</foreign> <del>sine rationibus</del> uocant, efficiunt Indici colorem.
+        </p>
+      </div>
+      <div type="cap" n="28">
+        <head>XXVIII De normae inuentione</head>
+        <p>
+          <milestone unit="par" n="1"/> Quoniam ad omnes usus normae ratio subtiliter inuenta uidetur, sine qua nihil utiliter fieri potest, hoc modo erit disponenda. Sumantur itaque tres regulae ita ut duae sint pedibus binis et tertia habeat pedes duo uncias X, ac regulae aequali crassitudine compositae extremis cacuminibus iungantur schema facientes trigoni. Sic fiet perite norma composita.
+        </p>
+      </div>
+      <div type="cap" n="29">
+        <head>XXIX  De horologii institutione</head>
+        <p>
+          <milestone unit="par" n="1"/> Multa uariaque genera sunt horologiorum, sed pelecini et hemicyclii magis aperta et sequenda ratio uidetur.
+          <milestone unit="par" n="2"/> Pelecinum enim horologium dicitur quod ex duabus tabulis marmoreis uel lapideis, superiore parte latioribus, inferiore angustioribus, componitur; sed haec tabulae aequali mensura fiunt et quinis lineis directis notantur, ut angulum faciant qui sextam horam signabit. Semis ergo ante primam et semis post undecimam supplebunt XII numeros horarum. Sed iunctis aequaliter ante et extensis tabulis, in angulo summo iuncturae circinum figes et angulo proximum circulum facies, a quo primum lineae horarum partitae aequaliter notantur. Item alium maiorem circulum ab eodem puncto angulari facies qui prope oram tabularum attingat, ad quem aestiuis temporibus gnomonis umbra peruenit. Subtilitas ergo disparis mensurae de spatio horarum expectanda non est, quando aliud maius et aliud minus horologium poni solitum uideatur, et non amplius paene ab omnibus nisi quota sit solum inquiri festinetur. Gnomon itaque in angulo summo iuncturae paululum inclinis ponetur, qui umbra sua horas designet. Constitues autem horologii partem qua decimam horam notabit contra orientem aequinoctialem, sicut de exemplis multifariam cognoscitur.
+          <milestone unit="par" n="3"/> Horologium autem quod hemicyclion appellatur simili modo de lapide uel de marmore uno, quattuor partibus susum latioribus, infra angustioribus, componatur ita ut ab ante et a tergo latiores partes habeat, sed frons aliquantum promineat atque umbram faciat maiorem. Sub hac fronte rotunditas ad circinum notetur quae cauata introrsus hemicyclion faciat schema. In hac cauatura tres circuli fiant: unus prope summitatem horologii, alius per mediam cauaturam, tertius prope oram signetur. A minore ergo circulo usque ad maiorem circulum horalem una et X lineae directae aequali partitione ducantur quae horas demonstrent. Per medium uero hemicyclium supra minorem circulum planitia aequalis subtiliori crassitudine fiat, ut aperta rotunditate digitali facilius solis radius infusus per numeros linearum horas demonstret. Hiemis ergo tempore per minorem circulum horarum numeros seruabit, aequinoctiali tempore medium circulum sequetur, aestiuo tempore per maioris circuli spatia gradietur. Sed ne error in construendo horologio cuiquam uideatur, libero loco alto uel plano sic ponatur ut angulus huius qui occiduas horas notabit contra aequinoctialem uernum spectet, unde sol nono Kal. apriles oriatur.
+          <milestone unit="par" n="4"/> Fit etiam in uno horologio duplex elegantiae subtilitas. Nam dextra ac sinistra extrinsecus in lateribus eius quinae lineae directae notantur, et ternae partes circulorum aequali interuallo sic fiunt ut una proxima sit angulis posterioribus, ubi stili ponentur qui umbra sua horas designent, altera mediam planitiem detineat, tertia prope oram contingat. Has enim partes circulorum hieme, uere et aestate, sic ut interius, gnomonis umbra sequitur. In angulis ergo posterioribus stilos modice obliquos figes qui umbra sua horas designent. Oriens enim sol in primo latere sex horas notabit, occidens alias sex in sinistro latere percurret. Legitur etiam horas sic comparari debere: primam, sextam, septimam et duodecimam uno spatio mensuraque disponendas; secundam, quintam, octauam et undecimam pari aequalitate ordinandas; tertiam, quartam, nonam <supplied>et decimam</supplied> simili ratione edendas. Est et alia de modo et mensuris horarum comparatio, quam prolixitatis causa praetereundam aestimaui, quoniam haec diligentia ad paucos prudentes pertinet. Nam omnes fere, sicut supra memoratum est, quota sit solum requirunt.
+          <milestone unit="par" n="5"/> Quantum ergo ad priuatum usum spectat, necessaria huic libello ordinauimus. Ciuitatum sane et ceterarum rerum institutiones praestanti sapientiae memorandas reliquimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

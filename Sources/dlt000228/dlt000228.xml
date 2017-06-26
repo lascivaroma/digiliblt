@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Fulgentii ut fingitur Planciadis super Thebaiden commentariolum</title>
+    <author>Fulgentius (Ps.)</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2015</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000228</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p>Lactantii Placidi <hi rend="italic">In Statii Thebaida commentum. Volumen I. Anonymi In
+     Statii Achilleida commentum. Fulgentii ut fingitur Planciadis Super Thebaiden
+     commentariolum</hi>, recensuit R. D. Sweeney, Stutgardiae et Lipsiae 1997 (Bibliotheca
+     Scriptorum Graecorum et Romanorum Teubneriana).</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div>
+    <head>S. FVLGENTII EPISCOPI SVPER THEBAIDEN</head>
+    <p>Poetarum inuestigabilem prudentiam ingeniique eorum uenam inmarcescibilem non sine grandi
+     ammiratione retracto, qui sub blanditorio poeticae fictionis tegumento moralium seriem
+     institutionum utiliter inseruerunt. Cum enim teste Horatio:</p>
+    <lg>
+     <l>‘aut prodesse uolunt aut delectare poetae</l>
+     <l>aut simul et iocunda et idonea dicere uitae’,</l>
+    </lg>
+    <p>non magis litterali sensu <supplied>aut</supplied> historiali facilitate hilares reperiuntur
+     et iocundi quam mistica expositione figurarum moribus humanae uitae aedificandis utiles et
+     idonei. Quam ob rem,</p>
+    <l>‘si parua licet componere magnis’,</l>
+    <p>non incommune carmina poetarum nuci comparabilia uidentur; in nuce enim duo sunt, testa et
+     nucleus, sic in carminibus poeticis duo, sensus litteralis et misticus; latet nucleus sub
+     testa: latet sub sensu litterali mistica intelligentia; ut habeas nucleum, frangenda est testa:
+     ut figurae pateant, quatienda est littera; testa insipida est, nucleus saporem gustanti reddit:
+     similiter non littera, sed figura palato intelligentiae sapit. Diligit puer nucem integram ad
+     ludum, sapiens autem et adultus frangit ad gustum; similiter si puer es, habes sensum
+     litteralem integrum nullaque subtili expositione pressum in quo oblecteris, si adultus es,
+     frangenda est littera et nucleus litterae eliciendus, cuius gustu reficiaris. His itaque
+     aliisque pluribus modis tam Graecorum quam Latinorum poemata possunt commendabilia probari,
+     quorum summa poscit intentio ut nullos aut simplices aut peritos operum suorum utilitatis
+     immunes relinquerent. Inter quos <supplied>et</supplied> Papinius Surculus mirae strenuitatis
+     uir euidentissime claruit qui Virgilianae Eneidis fidus imitator Tebaiden scribere adgressus
+     est; cuius ut tegumentum pateat, historialis ordo seriei praemittendus est.</p>
+    <p>Laius regnauit Thebis; habuit uxorem Iocastam, ex qua genuit Edippum. Qui adultus patrem
+     interfecit, matrem uxorem duxit. Ex quo incesto coniugio nascuntur duae filiae et duo filii,
+     Ethiocles et Polinices. Pater dolore cecatur. Filii de regno dissentiunt. Annuatim diuisum est
+     regnum. Primo uero primogenitus regnat Ethiocles, Polinices exulat. Adiit etiam Grecos; filiam
+     regis Greciae Adrasti duxit in uxorem. Anno finito regnum a fratre repetit. Ille negat. Septem
+     reges Greciae coniurant in ultionem. Thebas petunt; sed sitiunt in uia; ducuntur ab Ibsiphile
+     ad fontem. Occiditur Archemorus a serpente; Greci Ligurgum consolantur, Archemorum honorifice
+     sepeliunt. Deinde Thebas adeunt. Pugnant; occiduntur omnes excepto Adrasto. Ad ultimum duellant
+     fratres; mutuo se perimunt. Insurgit Creon regnaturus. Prohibet reges sepeliri. Vxores regum
+     supplicantur Theseo. Theseus pugnat cum Creonte; uincitur Creon. Reges sepeliuntur. Thebe
+     quassata est, sed liberatur.</p>
+    <p>Historicae seriei ordine percurso huius testae nucleus eliciendus est. ‘Thebae’
+      <supplied>Grece</supplied> dicuntur quasi ‘theosbe’ id est ‘dei bonum’. Haec est humana anima,
+     quam diuina benignitas creauit ad imaginem et similitudinem suam, id est immortalem inuisibilem
+     totius scientiae perceptibilem; quae bene ciuitas appellatur, quia fortitudo in ea et prudentia
+     iustitia temperantia et ceterae uirtutes tamquam huius ciuitatis ciues iure hereditario
+     habitantur et locantur. In hac itaque ciuitate id est humana anima regnat Laius id est lux
+     sancta; Laius enim dicitur quasi ‘lux ayos’; ‘ayos’ vero Grece ‘sanctus’ Latine interpretatur.
+     Laius itaque regnauit Thebis, id est lux sancta in humana anima, quae exclusis ignorantiae
+     tenebris totius scientiae perceptibil<supplied>itat</supplied>e decorata est. Hic autem habuit
+     uxorem nomine Iocastam id est iocunditatem castam. Mens enim humana ex santa luce quam habuit
+     iocundatur; sed caste, id est absque elationis corruptione. Haec autem Iocasta bene dicitur
+     uxor Laii, quia uelut uxor marito subest illi praecedenti. Sic itaque felici coniugio Laius
+     duxit Iocastam. Ex qua genuit Edippum. Felix fuit coniugium, sed proles infausta. Nascitur enim
+     Edippus id est las<supplied>ci</supplied>uia. Hoc nomen ‘Edippus’ sumptum est ab hedo, quod
+     animal ualde lasciuum est; unde dicitur:</p>
+    <l part="Y">‘tenero lasciuior hedo’.</l>
+    <p>Quotiens itaque iocunditas casta et prius nulla rerum saecularium uanitate corrupta ad
+     corruptionis lasciuiam declinat, uere Iocasta parit Edippum. Qui adultus id est humana anima
+     praeualens patrem interficit, uidelicet lucem sanctam qua superhabundans occasionem nascendi
+     sibi quodam modo praebuerat extinguit. Immo etiam ipsam matrem suam sibi eam subiugando uxorem
+     ducit. Ex quo incesto coniugio nascuntur opera nec uirtutem nec speciem uirtutis habentia, quae
+     sunt duae filiae. Nascuntur et alia opera speciem uirtutis, sed non uirtutem habentia, quae
+     sunt duo filii. Quorum alter Ethiocles, alter Polinices. ‘Ethos’ Grece Latine ‘mos’ dicitur,
+     inde ‘ethica’ ‘moralis scientia’; ‘ocleos’ dicitur ‘interitus’, inde ‘Ethiocles’ ‘morum
+     interitus’, hoc est auaritia, per quam mores intereunt; ipsa enim est origo et ‘radix ...
+     omnium malorum’. ‘Polis’ Grece ‘multum’ dicitur Latine, ‘nichos’ ‘uictor’; unde dicitur ‘chere
+     Cesar anichos’; inde ‘Polinices’ ‘multos uincens in tempore’, hoc est luxuria cui multi
+     succumbunt. His itaque filiis id est auaritia et luxuria in anima humana adultis pater dolore
+     cecatur, id est mens lasciua horrore peccati afflicta se ipsam excruciat. Filii uero animam
+     alternatim distraentes de regno dissentiunt, quia:</p>
+    <l part="Y">‘nulla fides regni<del>s</del> sociis’.</l>
+    <p>Annuatim diuisum est regnum. Constat autem quia: ‘omne regnum in se ipsum diuisum
+     desolabitur’. Primo anno ut primogenitus, id est ut omnium malorum radix regnat Ethiocles,
+     Polinices, cum auarus facile luxuriosum deprimat, exulat. Adiit etiam Grecos. Mores luxuriose
+     uiuentium euidentissime denotat qui consumpta omni substantia sua ad sapientiam mundanam
+     quandoque confugiunt ut luxuriae iacturam saecularis scientia recompenset. Sequitur quia filiam
+     Adrasti regis Greciae uxorem duxit. Iste rex Greciae philosophia est, cui subest omnis
+     sapientia mundana. Cui nomen hoc ‘Adrastus’ non incongrue conuenit. ‘Adrios’ enim Grece
+     ‘profunditas’ Latine; unde mare ‘Adriaticum’ dicitur id est ‘profundum’. Merito itaque hoc
+     nomine quod est ‘Adrastus’ philosophia significatur, cuius profunditas nullius philosophi
+     funiculo umquam attingi potuit. Huius filia est ‘Argia’ id est ‘prouidentia’. ‘Argeos’ Grece
+     ‘prouidentia’ Latine; unde Greci dicuntur ‘Argi’, id est ‘prouidi’; unde ‘Iunonius pastor’ id
+     est Argus dicitur quasi prouidus quod ipse poeta innuit dicens:</p>
+    <l>‘centum luminibus cinctum capud Argus habebat’,</l>
+    <p>capud id est mentem quae est excellentior pars in homine ut capud in corpore. Ducit itaque
+     Argiam filiam Adrasti, id est prouidentiam filiam filosophiae, et finito anno iam saeculari
+     astutia roboratus regnum a fratre repetit. Sed ille negat et auaritiae uerbis satis euidenter
+     utitur dicens:</p>
+    <l part="Y">‘teneo longumque tenebo’.</l>
+    <p>Septem reges Greciae in ultione coniurant. Hii septem reges septem artes liberales sunt, qui
+     bene reges dicuntur quia sunt regimen et columnae omnium scientiarum; subsunt etiam Adrasto id
+     est filosophiae. Thebas petunt, sed in uia sitiunt. Quid mirum si sitiunt qui fonte fidei
+     carent; saecularis scientiae potus sitim non minuit, sed auget. Sitiunt inquam, sed sitientes
+     ducuntur ab Ipsiphile ad fontem. Isis fuit praecipua dea in Egipto, ‘philos’ dicitur ‘amor’,
+     inde ‘Isiphile’ ‘amor Isidis’, id est idolatria, quae ducit ad fontem suum omnem hominem
+     saecularibus scientiis <del>pro temporalibus</del> insudantem. Sed dampnosum est huic subesse.
+     Occiditur enim Archemorus a serpente. Quilibet alumpnus idolatri<supplied>ae</supplied>
+     ‘Archemorus’ potest uocari, id est ‘principaliter <supplied>mortuus</supplied>’. ‘Qui’ enim
+     ‘non credit iam iudicatus est’. Nec uacat quod a serpente occiditur. Omnis enim idolatra a
+     maligno hoste procul dubio enecatur. Quod autem Ligurgum consolantur Greci, non est cum
+     silentio praetereundum. Mortuos enim in peccatis scientia saecularis consolatur. Vnde etiam
+     sequitur quod Archemorum honorifice sepeliunt. Alumpni enim idolatriae pompose et honorifice
+     quantum ad uulgarem opinionem sepeliuntur quos in peccatis sopitos laus humana et mundanae
+     uanitatis gloria inuoluit. Deinde pugnaturi Tebas adeunt et pugnant contra Etioclen id est
+     auaritiam, quid etsi utrimque uanitas, tamen philosophiae intentis auaritia sordescit. Pugnant,
+     sed in huius pugnae exitu non prosperantur; occiduntur enim omnes. Hic humanae cecitatis caligo
+     exprimitur, quae de malis deteriora, de uanis uaniora frequenter eligit, cum artium scientiam
+     minus uanam auaritiae uaniori postponunt. Sed non uacat quod subditur: excepto Adrasto.
+     Philosophia enim, etsi in auaris pereat, in se non interimitur. Ad ultimum duellant fratres, id
+     est auaritia et luxuria, et mutuo se perimunt. Neque enim in eodem se simul patiuntur auaritiae
+     seueritas et luxuriae lasciuia. Sed his peremtis uitiis in anima insurgit superbia, quae bene
+     dicitur ‘Creon’ quasi ‘cremens omnia’. Nota quod cessante omni uitio superbia acrius in anima
+     regnum sibi usurpat, quando animus ex perfectionis conscientia interiore elatione tumescit.
+     Vnde poetice post mortem Ethioclis et Polinicis insurgit Creon regnaturus. Qui etiam prohibet
+     reges sepeliri, id est scientias saeculares latere, quas superbia tamquam fontem sitim
+      <supplied>sedantem</supplied> et sui erroris fidas adiutrices miro diligit affectu. Vxores
+     uero regum id est affectiones humanae quae prius his regibus succubuerant supplicantur Theseo
+     id est deo; ‘Theseus’ quasi ‘theos suus’. Theseus pugnat cum Creonte, quando humilitate docetur
+     a deo uinci superbia; et uincitur Creon id est superbia nesciens humilitati resistere. Reges
+     etiam sepeliuntur, quia in humilitatis aduentu<del>m</del> omnis occasio elationis suffocatur.
+     Tanto autem uitiorum conflictu Thebe id est humana anima quassata est quidem, sed diuinae
+     benignitatis clementia subueniente liberatur.</p>
+   </div>
+
+  </body>
+ </text>
+
+</TEI>

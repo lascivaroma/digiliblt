@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>[Priscianus] <hi rend="italic">de accentibus</hi>
+    </title>
+    <author/>
+    <respStmt>
+     <resp>transcodifica di base da rtf a xml-tei</resp>
+     <name>Piero Colombo - STEP srl</name>
+    </respStmt>
+    <respStmt>
+     <resp>Testo </resp>
+     <name>Marinone, CD-GL, adeguato su edizione Giammona </name>
+    </respStmt>
+    <respStmt>
+     <resp>Adeguamento testo su nuova edizione</resp>
+     <name>Alice Borgna </name>
+    </respStmt>
+    <respStmt>
+     <resp>Controllo marcatura XML-TEI</resp>
+     <name>Alice Borgna </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2017</date>
+    <availability>
+     <p>
+      <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
+     </p>
+    </availability>
+    <idno>DLT000426</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p>[Prisciani] De accentibus, a cura di C. Giammona, Hildesheim 2012 (Collectanea Grammatica
+     Latina 12)</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    <p>
+     <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT</hi>
+    </p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni.</p>
+    <p>I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p>Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi> :
+     grassetto, corsivo, spaziatura espansa. </p>
+    <p> Sono stati normalizzati e marcati nel modo seguente i diacritici. <lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]>
+     <lb/>
+     <hi rend="italic">loci desperati</hi> :
+     <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo† e †testo <lb/>
+     lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...] <lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p> Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+    </p>
+    <p> Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
+    </p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <head>[Prisciani] <hi rend="italic">De accentibus</hi></head>
+   <div type="cap" n="1">
+    <p>
+     <milestone unit="par" n="1"/>
+     <milestone unit="row" n="riga 2 vol. III Keil"/> Littera est nota elementi quae cum scribitur
+     et in uoce minima resonat nihil aliud quam nota ad informandum elementum esse reperitur. Sed
+     cum ex sono in uocem prorumpitur, elementi uocabulum concipit, quod, dum ratio ita sese habeat,
+     quasi imago huius rei esse uidetur, quippe cum ex aere percusso ictu linguae constat, unde uox
+     formatur. Vox namque corpus esse ostenditur. Nam si corpus non esset auditus aurium minime ui
+     percuteretur. Sed dum tangit auditum et reuerberat elementum tripertito diuiditur, altitudine
+     scilicet, latitudine, longitudine. Habet quippe littera altitudinem in pronuntiatione,
+     latitudinem in spiritu, longitudinem in tempore, hoc est si alte aut late aut longe auditur.
+     Habent etiam syllabae suum elementum, quod productio dicitur, sed inter elementum litterarum et
+     syllabarum hoc distare uidetur, quod elementum litterarum sunt ipsae pronuntiationes,
+     syllabarum uero ipsae productiones. Quid est enim aliud elementum quam pars minima partium
+     uocis articulatae? Illud uero quod remanet nota uel figura elementi est. Distat autem etiam
+     illud inter elementum et litteras, quod elementa proprie ipsae pronuntiationes dicuntur, notae
+     autem eorum litterae. Sed abusiue elementa pro litteris et litterae pro elementis uocantur. Nam
+     aliud est littera quae uidetur, aliud quod per eam colligitur. Videntur namque esse litterae
+     aut longae aut rotundae seu quadratae. Colligitur namque per eas res gesta alicuius, dum
+     coguntur in syllabis, de syllabis in partibus, de partibus in orationibus. Sed nos locuturi de
+     partibus ad accentum, qui in dictionibus necessarius est, transeamus cuius ministerium
+     praebente deo uitam latius tractemus. </p>
+   </div>
+   <div type="cap" n="2">
+    <p>
+     <milestone unit="par" n="1"/> Accentus namque est certa lex et regula ad eleuandam et
+     deprimendam syllabam uniuscuiusque particulae orationis, qui fit ad similitudinem elementorum
+     litterarum syllabarumque, qui etiam tripertito diuiditur, acuto graui <milestone unit="page"
+      n="p. 520 vol. III Keil"/> circumflexo. Acutus namque accentus ideo inuentus est, eo quod
+     acuat siue eleuet syllabam; grauis uero eo quod deprimat aut deponat; circumflexus quidem eo
+     quod deprimat et acuat. </p>
+    <p><milestone unit="par" n="2"/> Sunt namque decem accentus quos ita huic operi dignum
+     existimaui praenotare. Acutus accentus est uirgula a sinistra parte in partem dexteram ducta
+     sursum: fit namque tali modo ′ ; grauis a summo in dexteram deprimitur ita ` ; circumflexus
+     nota de acuto et graui facta, perscribitur ita ^ ; longa uirgula iacens est ita ˉ ; breuis pars
+     circuli iacens inferior ita ˘ ; hyphen, quae coniunctio dicitur (qua tunc utimur quando duo
+     uerba conectimus) est namque subiecta uirgula uersui circumflexa, ita v ; diastole, quae
+     disiunctio dicitur Latine (quae contraria separat) dextera pars circuli supposita uersui fit
+     ita , . <lb/> Apostrophos pars item circuli dextera ad summam litteram adposita est, quae fit
+     ita ’ ; qua nota ostendimus ultimam uocalem parti orationis deesse cuius consonans remanet ut
+     ‛tribunal' pro ‛tribunale’. Dasia, quod interpretatur aspiratio, id est, ubi h littera poni
+     debet, hac figura notatur ⱶ ; psile, quod interpretatur siccitas seu purum, id est, ubi h
+     littera deesse debet, hac nota demonstratur -I. Notandum est quod acutus accentus apud Latinos
+     duo loca teneat, paenultimum et antepaenultimum, apud Graecos uero antepaenultimum, paenultimum
+     et ultimum, circumflexus autem paenultimum tantum. Ponitur namque grauis in eadem dictione uel
+     cum acuto uel cum circumflexo, sed tamen non in una syllaba. </p>
+    <p>
+     <milestone unit="par" n="3"/> Obseruatur namque accentus in integris dictionibus unus, ut
+     ‛Romanus’ ‛Hispanus’, in compositis uero unus similiter, ut ‛malesanus’ ‛interealoci’, sed in
+     interiectionibus et in peregrinis uerbis et in barbaris nominibus nulli certi sunt accentus,
+     ideoque in potestate uniuscuiusque consistit ut, quomodo necessarium uiderit, sic in metro
+     ponatur. </p>
+    <p>
+     <milestone unit="par" n="4"/> Tres siquidem res accentuum legem conturbant, distinguendi ratio,
+     pronuntiandi ambiguitas atque necessitas. Sed qualiter haec fiant intimandum est. Ratio namque
+     distinguendi legem accentuum saepe conturbat, dum si quis pronuntians dicat ‛poné’ et ‛ergó’,
+     quod apud Latinos in ultima syllaba nisi discretionis causa accentus poni non potest; et hoc
+     est quod diximus «pone et ergo»: ideo poné dicimus, ne putetur uerbum esse imperatiui modi, hoc
+     est ‛póne’, et ‛ergó’ dicimus, ne putetur coniunctio rationalis, quod est ‛érgo’. Ambiguitas
+     uero pronuntiandi legem accentuum saepe perturbat: si quis dicat ‛interealoci’, qui nescit,
+     alteram partem dicat ‛interea’ et alteram ‛loci’, cum non separatim sed sub uno accentu
+     pronuntiandum est, ne ambiguitatem in sermone faciat. Necessitas pronuntiationis regulam
+     corrumpit, ut puta si quis dicat in primis ‛doctus’, addat coniunctionem dicatque ‛doctusque’;
+     ecce, in pronuntiatione accentum mutauit, cum non in secunda syllaba sed in <milestone
+      unit="page" n="p. 521 vol. III Keil"/> prima accentum habere debuit. Sunt quidem syllabae tres
+     in quibus accentus producitur, ‛ue’ ‛que’ ‛ne’ , ut ‛itáque’, quando aduerbium est (quando uero
+     coniunctio ‛ítaque’ dicimus), ‛ueneruntne uiri ad nos?’, ‛carbonibusue lumbos assarunt’. </p>
+   </div>
+   <div type="cap" n="3">
+    <p>
+     <milestone unit="par" n="1"/>
+     <supplied>Mono</supplied> syllaba quae correptam uocalem habet acuto accentu pronuntiatur, ut
+     ‛fax’ ‘pax’ ‘pix’ ‘nix’ ‘dux’ ‘nux’; quae etiam tali accentu pronuntianda est quamuis sit longa
+     positione, quia <supplied>non</supplied> naturaliter producta est. Quae uero naturaliter
+     producta est circumflexo accentu exprimenda est, ut ‘res’ ‘dos’ ‘spes’. <milestone unit="par"
+      n="2"/> Disyllabae uero quae priorem productam habent et posteriorem correptam, priorem
+     syllabam circumflectunt, ut ‘meta’ ‘Creta’. Illae uero quae sunt ambae longae uel prior breuis
+     et ulterior longa acuto accentu pronuntiandae sunt, ut ‘nepos’ ‘leges’ ‘reges’. Hae uero quae
+     sunt ambae breues similiter acuto accentu proferuntur, ut ‘bonus’ ‘malus’. Sed notandum quod,
+     si prior sint longa positione, non circumflexo sed acuto pronuntiandae sunt, ut ‘arma’ ‘arcus’,
+     quia, quamuis sit longae positione, ideo tamen exprimendae sunt tali accentu quia non sunt
+     natura l<supplied>ongae</supplied>.<milestone unit="par" n="3"/> Trisyllabae namque et
+     tetrasyllabae siue deinceps si paenultimam correptam habuerint, antepaenultimam acuto accentu
+     proferunt, ut ‘Tullius’ ‘Hostilius’. Nam paenultima si positione longa fuerit, acuetur,
+     antepaenultima uero grauatur, ut ‘Catullus’ ‘Metellus’. Si uero ex muta et liquida longa in
+     uersu esse constat, in oratione quoque accentum mutat, ut ‘latebrae’ ‘tenebrae’. Syllaba uero
+     ultima si breuis sit et paenultimam naturaliter longam habuerit, ipsam paenultimam
+     circumflectit, ut ‘Cethegus’ ‘perosus’. Ultima quoque si naturaliter longa fuerit paenultimam
+     acuet, ut ‘Athenae’ ‘Mycenae’. </p>
+    <p>
+     <milestone unit="par" n="4"/> Ad hanc autem rem arsis et thesis necessariae sunt. Nam in
+     unaquaque parte orationis arsis et thesis sunt non in ordine syllabarum, sed in pronuntiatione
+     uelut in hac parte ‘natura’ ut quando dico «natu» eleuatur uox et est arsis intus, quando uero
+     «ra» uox deponitur et est thesis deforis. Quantum autem suspenditur uox per arsin tantum
+     deprimitur per thesin. Sed ipsa uox quae per dictiones formatur donec accentum
+      perficiat<del>ur</del>, in arsin deputatur, quae autem post accentum sequitur, in thesin.
+     <lb/> His namque praelibatis de consequentia huius libri uideamus. <lb/>
+    </p>
+   </div>
+   <div type="cap" n="4">
+    <p>
+     <milestone unit="par" n="1"/> Latina quidem nomina propria nominatiuum singularem a terminantia
+     in paenultima syllaba accentum seruant, quamquam nonnulla uocalem ante uocalem habere
+     uideantur, quae alia differentiae causa, alia solo usu producenda sunt, ut
+     ‘Catili<del>n</del>a’ ‘Verania’ ‘Stephania’. Appellatiua uero eundem accentum obseruant a
+     terminata, ut ‘poeta’ ‘regina’ ‘habena’ ‘fortuna’ ‘harena’ ‘carina’. <milestone unit="page"
+      n="p. 522 vol. III Keil"/></p>
+    <p> Composita uero eandem sibi pronuntiationem defendunt quam habent in simplicitate, ut
+     ‘concaua’ ‘transfuga’: «fu» enim in simplicitate breuis est, et ideo «tránsfuga», non
+     «transfúga» dicimus. ‘Homicida’ quoque et ‘parricida’ ideo longam i in paenultimo habent, quia
+      <supplied>a</supplied>e longam in i productam conuertunt. Composita a cano paenultimam
+     corripiunt; excipitur ‘tibicen’, quod euphoniae causa pro duabus ii breuibus unam sonat longam.
+     Notantur autem pleraque quae i uocalem habent longam ante uocalem, ut ‘philosophia’ ‘Papia’,
+     quemadmodum unum uerbum ‘fio’, quod solum i ante o productam habet. Ideo autem diximus
+     pleraque, quia omnia i uocalem ante uocalem habentia ultimam in antepaenultima accentum mutant,
+     ut ‘Veneria’ ‘Marcellia’ ‘Aricia’ ‘Placentia’ ‘Ausonia’ ‘Turonia’ ‘Brixia’ ‘Sardinia’
+     ‘Teutonia’, et illa quae in tia finiuntur, ut ‘iustitia’ ‘sapientia’. Hanc autem regulam
+     sequuntur omnia quae sic finiuntur praeter illa quae supra diximus, quae alia differentiae
+     causa, alia solo usu pronuntiantur. Excipiuntur ‘illius’ ‘istius’ ‘ipsius’, genetiui quorundam
+     pronominum, quorum paenultimae indifferenter ponuntur. <lb/> Illa vero quae a uerbis colo gigno
+     componuntur paenultimam breuem habent, ut ‘caelicola’ ‘ruricola’ ‘siluicola’ ‘rurigena’
+     ‘terrigena’ reliqua. <lb/> Omnia autem participio futuri temporis similia paenultimam producunt
+     ut haec: ‘scriptura’ ‘natura’ ‘lit<del>terat</del>ura’; quae omnia, quando sunt nomina, tempore
+     carent. <lb/> Ea uero, quae u ante a uel quamlibet uocalem habent, omnia corripiuntur, ut
+     ‘Mantua’ ‘Capua’ ‘Danaa’. <lb/> ‘Corsica’ uero et similia breuiantur et omnia quae sunt
+     possessiua uel quae eisdem similia, si i habent in paenultima subsequente c consonante, ut
+     ‘Cretica’ ‘Isaurica’ ‘Alemannica’: excipitur ‘uesica’, quod producitur. Quae autem habuerint n
+     producuntur, ut ‘Romana’ ‘Campana’ ‘Hispana’ ‘Cumana’. Et haec omnia per obliquos casus
+     producta siue correpta pronuntianda sunt. <lb/>
+     <milestone unit="par" n="2"/> E finita paenultimam syllabam omnia productam habent, ut ‘sedile’
+     ‘monile’ ‘singulare’ ‘uerbale’, quae aequaliter per ceteros casus producenda sunt. <lb/>
+     <milestone unit="par" n="3"/> O littera terminata praeposita uocali e paenultimam corripiunt,
+     ut ‘ganeo’ ‘Labeo’ ‘aleo’, quae solos nominatiuos habent et uocatiuos habent. Ea uero quae i
+     habent ante o similiter corripiuntur, sed per ceteros casus excepto uocatiuo producuntur, ut
+     ‘mulio mulionis’, ‘quaternio quaternionis’. <lb/> Praeposita autem qualibet consonante
+     paenultimam productam seruant, ut haec ‘imago imaginis’, ‘uligo uliginis’, ‘fuligo’ ‘caligo’
+     ‘dissimilitudo’ ‘magnitudo’, quorum alia o in obliquis seruant et producenda sunt, alia in i
+      <milestone unit="page" n="p. 523 vol. III Keil"/> conuertunt et corripienda sunt, ut ‘Carbo
+     Carbonis’, ‘Libo Libonis’, ‘caligo caliginis’, ‘altitudo altitudinis’. <lb/>
+     <milestone unit="par" n="4"/> I terminatum unum inuenitur trisyllabum indeclinabile, quod in
+     paenultimo breuiatur, ut hic et haec et hoc ‘nihili’. <lb/>
+     <milestone unit="par" n="5"/> V terminatum unum reperitur aptotum in singulari (in plurali
+     declinatur), quod in paenultimo liquescit, ut ‘tonitru’. <lb/>
+     <milestone unit="par" n="6"/>AL syllaba finita si sint appellatiua in paenultimo producenda
+     sunt, ut ‘uectigal uectigalis’, ‘tribunal tribunalis’; excipitur ‘animal’, quod corripitur.
+     <lb/> Barbara autem propria breuiantur, ut ‘Hannibal’ ‘Hasdrubal’; <supplied>ita</supplied>que
+     omnia in obliquis casibus a productam in neutro, in masculino breuem habent. <lb/>
+     <milestone unit="par" n="7"/> IL syllaba terminata corripiuntur in paenultimo, ut hic ‘uigil’
+     huius ‘uigilis’, quod uidetur per syncopam proferri et hoc in obliquis paenultimam corripit. <lb/>
+     <milestone unit="par" n="8"/> OL syllaba terminatum unum inuenitur, quod in paenultimo
+     corripitur, ut hic ‘Heliol’. <lb/>
+     <milestone unit="par" n="9"/> VL syllaba terminatum unum proprium reperitur quod breuiatur, ut
+     hic ‘Heriul’ quod barbarum est. <lb/>
+     <milestone unit="par" n="10"/> VM terminata breuiantur, ut ‘Sophronium’ ‘Abrotonum’ ‘Philotium’
+     ‘Dorcium’. <lb/>
+     <milestone unit="par" n="11"/>EN syllaba finita, si sint a prima coniugatione uel quarta,
+     producenda sunt, ut ‘solor’ ‘solamen’ ‘munio’ ‘munimen’, ‘farcio’ ‘farcimen’; si a secunda uel
+     tertia, corripiuntur, ut ‘sedeo’ ‘sedimen’ ‘rego’ ‘regimen’. Praeposita itaque c consonante
+     corripienda sunt, ut ‘liticen’ ‘fidicen’. Excipitur ‘tibicen’, quod solum producitur, ut
+     praediximus. <lb/>
+     <milestone unit="par" n="12"/> AR syllaba terminata producuntur ad instar praedictorum nominum,
+     ut ‘torcular’ ‘lacunar’ ‘puluinar’; notatur ‘laquear’ quod breuiatur. Et omnia in obliquis
+     producuntur, ut ‘torcularis’ ‘puluinaris’ ‘lacunaris’; excipitur ‘iubar’, quod breuiatur teste
+     Virgilio: «<quote type="poetry">iubare exorto</quote>». <lb/>
+     <milestone unit="par" n="13"/> ER syllaba finita si sint neutri generis, in paenultimo
+     producenda sunt, ut hoc ‘cadauer’ ‘papauer’; si sint masculina aut feminina, corripienda sunt,
+     nisi sint positione longa, ut hic ‘alacer’ ‘uolucer’ ‘mediocer’ et haec ‘mulier’. Haec omnia et
+     his similia in obliquis corripiuntur, excepto ‘mulier’ huius ‘mulieris’; cetera autem,
+     ‘cadaueris’ ‘papaueris’ ‘laseris’ ‘tuberis’ ‘sileris’ ‘ciceris’, corripiuntur. <lb/>
+     <milestone unit="par" n="14"/> IR syllaba terminata breuiantur, ut ‘semiuir’; ‘duumuir’
+     ‘triumuir’ et omnia in obliquis sub uno accentu proferenda sunt. <lb/>
+     <milestone unit="par" n="15"/> OR syllaba terminata i uocali praeposita breuiantur, ut ‘melior’
+     ‘doctior’ ‘sanctior’ ‘breuior’ et haec omnia in obliquis productionem sibi defendunt. <lb/>
+     Propria uero nomina productionem sibi minime defendunt, ut ‘Nestor Nestoris’, ‘Hector
+     Hectoris’. Producuntur autem appellatiua pleraque tam masculini quam feminini generis,
+      <del>quamuis non habeant i ante or</del>, <milestone unit="page" n="p. 524 vol. III Keil"/> ut
+     ‘uxor uxoris’, ‘odor odoris’, ‘amor amoris’, ‘soror sororis’; neutralia uero breuiantur, ut
+     ‘robor roboris’, ‘femor femoris’. Notantur ‘memor’, quod est omnis generis et tamen corripitur,
+     ut hic et haec et hoc ‘memor’ huius ‘memoris’ et compositum ‘immemor immemoris’ et unum
+     communis generis quod producitur in obliquis, ut ‘auctor’ huius ‘auctoris’. <lb/>
+     <milestone unit="par" n="16"/> VR syllaba terminata breuiantur, ut ‘sapifur’ ‘letifur’; et
+     omnia in obliquis casibus breuiantur, ut huius ‘sapifuris’. Similiter hic ‘satur’ et hoc ‘iecur
+     iecoris’ uel ‘iecinoris’, ‘sulfur sulfuris’. <lb/>
+     <milestone unit="par" n="17"/> AS syllaba terminata producuntur, ut ‘dignitas’ ‘felicitas’
+     ‘pietas’ et omnia a litteram in nominatiuo productam seruant. Notantur pauca masculini generis
+     propria, partim a nominibus ciuitatum propriis translata, quae per syncopam proferri uidentur,
+     dum accentum in ultima syllaba seruant, quod est contra regulam Latinorum, ut ‘Larinas’
+     ‘Maecenas’ ‘Arpinas’. Sed in uetustissimis libris inuenitur pro ‘Larinas’ ‘Maecenas’ ‘Arpinas’
+     nominatiui casus proferri ‘Larinatis’ ‘Maecenatis’ ‘Arpinatis’, unde subtracta ti accentus
+     remanet. <lb/>
+     <milestone unit="par" n="18"/> ES syllaba terminata breuiantur, ut ‘Hercules’ ‘sonipes’
+     ‘alipes’ <del>locuples</del>, et in obliquis similiter breuiantur, ut ‘Herculis’ et cetera.
+     Excipitur ‘heres heredis’, quod producitur. Et notandum quod omnia quae sunt quintae
+     declinationis in obliquis producuntur, quando paenultimae eorum in nominatiuo et in uocatiuo
+     corripiuntur, ut haec ‘facies faciei’, ‘acies’, ‘dies’. Praeterea unum notatur eadem clausula
+     finitum, quod non quintae sed tertiae declinationis est, producitur tamen, ut ‘quies quietis’.
+     Cetera in obliquis corripienda sunt, ut ‘abies abietis’, ‘aries’, ‘paries’. <lb/>
+     <milestone unit="par" n="19"/> IS syllaba finita, si sint accidentia producuntur, ut ‘suauis’
+     ‘memorialis’ ‘specialis’. Haec autem omnia communis sunt generis, faciunt enim neutrum sic: hic
+     et haec ‘suauis’ et hoc ‘suaue’, hic et haec ‘specialis’ hoc ‘speciale’. Nam et in obliquis
+     producuntur, ut huius ‘specialis’ et ‘suauis’. Appellatiua autem producenda sunt, ut ‘securis’
+     ‘lebetis’ ‘sinapis’. Cetera uero corripienda sunt in obliquis casibus quae disyllaba
+     inueniuntur in nominatiuo, ut ‘lapis lapidis’, ‘puluis pulueris’, ‘sanguis sanguinis’;
+     excipitur ‘impubis’, quod producitur tam in nominatiuo quam in obliquis casibus, ut huius
+     ‘impubis’. <lb/>
+     <milestone unit="par" n="20"/> OS syllaba terminata in paenultimis producenda sunt, ut
+     ‘sacerdos’ <milestone unit="page" n="p. 525 vol. III Keil"/>
+     <del>‘sacerdotis’ quod positione longum est</del> ‘armagatos’ ‘seruigatos’ <del>in obliquis
+      producuntur</del>, ‘lepos leporis’, quod elegantiam significat, ‘nepos nepotis’. <lb/>
+     <milestone unit="par" n="21"/> VS syllaba finita in paenultima productionem sibi defendunt, ut
+     ‘tribunatus’ ‘magistratus’ ‘consulatus’ ‘principatus’, et omnia quae a uerbis ueniunt, quae
+     sunt similia participio, ut ‘amatus’ ‘deletus’ ‘stratus’ ‘lacessitus’ ‘cupitus’ ‘munitus’
+     ‘auditus’. Excipiuntur haec, ‘satus’ ‘situs’ ‘litus’ ‘quitus’, quae corripiuntur non solum in
+     simplicitate sed etiam in compositione, ut ‘insitus’ ‘illitus’ ‘nequitus’: ‘citus’ quoque licet
+     corripere et producere: dicimus enim ‘íncitus’ et ‘incítus’. <lb/> Composita uero ab ‘eo is’
+     corripiuntur, ut ‘aditus’ ‘praeteritus’ ‘obitus’. A ‘do’ quoque vel ‘sto’ composita breviantur,
+     ut ‘datus’ (inde fit ‘inditus’), ‘status’ (inde fit ‘institus’); a reor similiter ‘ratus’ (inde
+     fit ‘irritus’). A ‘spiro’ quoque vel ‘halo’ nomina uenientia breuiantur, ut ‘spiritus’
+     ‘halitus’. Ab ‘ambio’ ‘ambitus’, sed quando participiale est seruat productam paenultimam. A
+     rutus quoque composita paenultimam corripiunt, ut ‘erutus’ ‘dirutus’. Notandum est namque quod
+     haec, quando nomina sunt, tempore carent, quando uero participialia, tempus cum significatione
+     demonstrant, ut ‘amatus sum illum’, id est ‘amaui’ illum. <lb/> Nomina uero <del>tertiae
+      declinationis</del> terminantia us nominatiuum breuiantur quae supradictis non ueniunt, ut
+     ‘seruitus’ ‘fraxinus’; excipitur ‘papyrus’ quod producitur, ut huius ‘papyri’. Alia omnia
+     quamquam non sint longa in nominatiuo, tamen in aliis casibus producenda sunt, ut ‘seruitus
+     seruitutis’, ‘palus paludis’, ‘iuuentus iuuentutis’; excipiuntur haec quae corripiuntur in
+     nominatiuo, ‘Venus Veneris’, ‘Ligus Liguris’, ‘lepus leporis’, quod animal est. <lb/> Propria
+     uero uel appellatiua masculini generis, siue ex se feminina faciunt siue in aliud genus minime
+     transformantur, breuiantur ut ‘Terentius’ ‘Martius’; excipiuntur haec quae habent a in
+     paenultimo et possessionem significant uel a possessoribus deriuantur, ut ‘Martianus’
+     ‘Terentianus’ ‘Capuanus’ ‘Beneuentanus’ ‘Hispanus’ ‘Placentinus’ ‘taurinus’ ‘leporinus’. Quae
+     autem habent c inter i et us in paenultimo corripiuntur, ut ‘porticus’ ‘Gallicus’ ‘Italicus’
+     ‘Alemannicus’ ‘Romanicus’; excipiuntur ea quae habent a, ut ‘Taurinacus’. </p>
+    <p>
+     <milestone unit="par" n="22"/> AX syllaba terminata omnia corripiuntur, ut ‘contumax’
+     ‘pertinax’ ‘peruicax’, et in obliquis casibus producuntur, ut ‘contumacis’ ‘pertinacis’
+     ‘peruicacis’. </p>
+    <p><milestone unit="par" n="23"/> EX syllaba terminata breuiantur, ut ‘artifex’ ‘aurifex’
+     ‘murex’ ‘opifex’ <del>‘opificis’</del>; sed reperitur unum masculini generis, quod in obliquis
+     casibus e productam seruat, ut hic ‘ueruex’ huius ‘ueruecis’, quod animal est. </p>
+    <p>
+     <milestone unit="par" n="24"/> IX syllaba finita producuntur, ut ‘bellatrix’ ‘uenatrix’;
+     excipiuntur ‘meretrix’ <milestone unit="page" n="p. 526 vol. III Keil"/> ‘genitrix’. Sed omnia
+     in obliquis casibus producuntur exceptis his, haec ‘salix salicis’, hic ‘calix calicis’. </p>
+    <p><milestone unit="par" n="25"/> OX syllaba finita breuiantur, ut ‘infelox’ ‘ueliuox’ ‘esox’
+     ‘atrox’ ‘celox’, quod scapham navis significat, et in obliquis producuntur, ut ‘esocis’
+     ‘ueliuocis’. </p>
+    <p>
+     <milestone unit="par" n="26"/> VX syllaba finita producuntur, ut ‘Pollux Pollucis’,
+     ‘pullinurux’, ‘crurinurux’; excipitur ‘coniunx’, quod nomen sine n quidam proferri uolunt, quia
+     in obliquis casibus n litteram amittit, ne uerbum putetur. </p>
+    <p>
+     <milestone unit="par" n="27"/> T littera terminata tam in obliquis casibus quam in nominatiuo
+     breuiantur et neutri generis sunt, ut ‘sinciput’ ‘occiput’. Persius <quote type="poetry">«et
+      fissa fumosum sinciput aure»</quote>. </p>
+    <p>
+     <milestone unit="par" n="28"/> Quae in duas consonantes desinunt, nisi sint positione longa, ut
+     in compositione <del>antequam componuntur</del> in simplici figura productionem sibi seruant,
+     ut ‘cedens intercedens’ et ‘clamans conclamans’. Cetera omnia breuiantur, ut ‘omnipotens’
+     ‘plenipotens’ ‘armipotens’ ‘insidiens’ ‘audiens’. Et haec omnia tam longa quam correpta in
+     obliquis producuntur, quia seruant positionem. Excipiuntur haec quae non habent n, ut ‘caelebs
+     caelibis’, ‘inopis inopis’, ‘adeps adipis’, ‘hiems hiemis’. </p>
+   </div>
+   <div type="cap" n="5">
+    <p>
+     <milestone unit="par" n="1"/> Regulis accentuum nominis expositis tractandus est accentus qui
+     in uerbis obseruatur, qui etiam certis diffiniendus est regulis. <lb/> Vniuersa enim uerba
+     coniugationis primae quae in secunda persona as syllaba finiuntur, cum in trisyllabis vel
+     tetrasyllabis ueniunt, in paenultimis syllabis per omnes modos producenda sunt, ut ‘amo amas
+     amabam amaui’; excipitur praeteritum plusquamperfectum, quod solum breuiatur, ut ‘amaueram’, et
+     futurum eiusdem indicatiui in primis et secundis personis pluralibus cuius exemplum hoc
+      est,<del>futurum</del> ‘amabo amabis amabit’ et pluraliter ‘amabimus amabitis amabunt’. <lb/>
+     Ab his namque regulis exeunt nouem quae in ui mittunt praeteritum perfectum et primas et
+     secundas personas futuri indicatiui corripiunt, ut ‘seco secui secueram secabimus secabitis’,
+     cetera producuntur, ut ‘seco secas secabam secabo <supplied>secabis</supplied> secabit’, ‘domo
+     domas domabam domabo domabis domabit’, ‘frico fricas fricabam fricabo fricabis fricabit’, ‘ueto
+     uetas uetabam’, ‘sono sonas sonabam’, ‘tono tonas tonabam’, ‘mico micas micabam’, ‘crepo crepas
+     crepabam’, ‘plico plicas plicabam’. Tamen adnexis praepositionibus praesens breuiatur, quod in
+     disyllabis uenit, nisi positione aut natura ipsa uerba producta sunt, ut ‘reparo’ ‘reseco’
+     ‘resono’ ‘replico’. Notatur namque ‘plico’ quod praeteritum ‘plicui’ uel ‘plicaui’ facit. <lb/>
+     Quattuor ab hac exeunt regula, ‘sto’ ‘do’ ‘lauo’ ‘iuuo’, quae cum componuntur, sicut in
+     simplicitate, neque in aui neque in ui exeunt <del>formam superiorem sequentes</del>, ut ‘resto
+     restiti restiteram restabimus restabitis restabunt’, ‘reddo reddidi <milestone unit="page"
+      n="p. 527 vol. III Keil"/> reddideram’. <del>Excipiuntur ‘relauo’ ‘reuiuo’, quae in praeterito
+      sic exeunt, ut ‘relaui’ ‘reuixi’; secuntur etiam regulam superiorem, ut ‘relauo relaui
+      relaueram relauabitis’ ‘reuiuo reuixi’</del>.<lb/> Excipitur ‘relauo’, quod in praeterito
+     perfecto et plusquamperfecto et in uno futuro modi coniunctiui la syllabam longam habet, in
+     ceteris uero modis et temporibus breuiatur, ut ‘relaui relaueram <del>relauabitis
+      relauabunt</del>’. <lb/>Notantur namque quae in simplici figura sunt longa quia ipsam
+     productionem quam habent in simplicitate retinent in compositione; sed etiam praepositio quando
+     componitur cum qualibet parte orationis qualis ipsa praepositio est talis remanet in
+     compositione, ut ‘redimo’ ‘inhaereo’ ‘subuerto’. </p>
+    <p><milestone unit="par" n="2"/> Omnia uerba secundae coniugationis, quae es finiuntur in
+     secunda syllaba praesentis temporis, in trisyllabis et tetrasyllabis uel etiam polysyllabis
+     inueniuntur et omnia in paenultimo corripiuntur, ut ‘rubeo’ ‘habeo’ ‘misceo’ ‘langueo’ ‘iaceo’
+     ‘rigeo’, sed per ceteros modos superiores formulas quas in prima coniugatione subscripsimus,
+     sequuntur. <lb/> Notantur haec quae in praeterito perfecto et plusquamperfecto et in uno futuro
+     modi coniunctiui producuntur et in simplicitate et compositione, in ceteris autem temporibus
+     breuiantur, sic: ‘sedeo sedi sederam sedero’, ‘resideo resedi resederam resedero’, ‘caueo caui
+     caueram cauero’ <del>‘lauo laui laueram lauero’</del>
+    </p>
+    <p>
+     <milestone unit="par" n="3"/>Verba tertiae coniugationis, quae is syllaba finiuntur
+      <supplied>in secunda persona</supplied> praesentis temporis, corripiuntur, nisi positione sint
+     longa, excepto praeterito imperfecto <supplied>indicatiui modi</supplied>, ubi semper
+     paenultima syllaba longa erit ut ‘tribuo tribuebam tribuam tribui tribueram’.<lb/> Notantur
+     autem quae in iui uel in eui exeunt in praeterito quae productionem seruant in eodem praeterito
+     perfecto eiusdem <supplied>modi</supplied>, ut ‘cupio cupiui’, ‘quiesco quieui’, ‘sapio
+     sapiui’. <lb/> Cetera uero breuem sibi regulam defendunt nisi positione longam habeant, ut
+     ‘contemno contempsi’, ‘gero gessi’. Excipiuntur haec quae in praesenti tempore et in ceteris
+     temporibus breuiantur, in praeterito perfecto et plusquamperfecto et in uno futuro modi
+     coniunctiui producuntur, ut ‘lego legi legeram legero’, ‘facio feci feceram fecero’; similiter
+     ‘fugio fugi fugeram fugero’, ‘fodio’, ‘ago’, ‘emo’. <lb/> Ab his ergo regulis discrepant duo
+     uerba quae in praeterito breuiantur et in praesenti producuntur ut ‘pono’ et ‘cogo’: dicimus
+     enim ‘repono reposui’ et ‘recogo recoegi’; co uero syllaba in praesenti longa et in praeterito
+     breuis. Similiter uero alia duo uerba excipiuntur quae sunt primae coniugationis, quae etiam ut
+     superiora producta in praesenti et in praeterito correpta, ‘do’ et ‘sto’. Dicimus enim ‘reddo
+     reddidi’, ‘resto restiti’. <lb/> Notandum namque est quod omnis dictio, quae in trisyllabis et
+     in ceteris polysyllabis exit, antepaenultimam seu productam seu <milestone unit="page"
+      n="p. 528 vol. III Keil"/> correptam licenter in metro profert poetica licentia <del>qua nos
+      protegat omnipotens rex</del>. </p>
+    <p>
+     <milestone unit="par" n="4"/>Quartae coniugationis uerba, quae in i litteram productam desinunt
+     in secunda persona praesentis temporis, in trisyllabis et in ceteris polisyllabis ueniunt et
+     omnia paenultimam breuem habent, ut ‘audio’ ‘accio’ ‘mollio’ ‘sopio’. Excipiuntur ‘eo’ et
+     ‘queo’ et quae in disyllabis ueniunt, ut ‘scio’. Sed haec omnia et his similia regulam primae
+     coniugationis sequuntur. <lb/> Notantur haec quae in praesenti tempore et in ceteris temporibus
+     breuiantur, in praeterito uero perfecto et plusquamperfecto, ut iam in aliis diximus, et in
+     futuro modi coniunctiui producuntur, ‘scio sciui sciueram sciuero’, ‘queo quiui quiueram
+     quiuero’, ‘odio odi oderam odero’, ‘saeuio saeuii saeuieram saeuiero’, ‘eo iui iueram iuero’,
+     ’uenio, ueni, ueneram, uenero’. <lb/> Quoniam, ut opinor, latius et conuenienter de his
+     accentibus tractatum est, nunc de consequentibus uideamus. </p>
+   </div>
+   <div type="cap" n="6">
+    <p>
+     <milestone unit="par" n="1"/>Participium namque illos accentus, quos nomen habet, in omni loco,
+     ut diximus dum de his tractabamus, sequitur. </p>
+    <p><milestone unit="par" n="2"/>Pronomen uero eisdem regulis similiter utitur. Notandum est
+     namque illa pronomina quae in ultimis accentum seruant, sicuti ‘huic’ et ‘nostras’ et
+     ‘uestras’. Ideo haec apud modernos ita habentur, quia apud antiquissimos ‘huicce’ et
+     ‘nostratis’ et ‘uestratis’ declinabantur; retinent namque accentum in ultimo quem habebant in
+     paenultimo. Et non solum haec erant apud eos, uerum etiam multa alia quae differentiae causa
+     uel solo usu dicebantur, ut ‘egomet feci’; ‘met’ namque adiectio syllabica est in ego ut in
+     aliis ‘ne’ ‘ce’, ut ‘illiccine’ ‘huiusce’. </p>
+    <p>
+     <milestone unit="par" n="3"/> Aduerbia namque quae E terminantur breuiantur in paenultima, ut
+     ‘hodie’ ‘sedule’: quae a nomine ueniunt producuntur, ut ‘Tulliane’ ‘Marciane’; si M,
+     producuntur, ut ‘meatim’ ‘tuatim’; si I, breuiantur, ut ‘uesperi’; si O, causa differentiae in
+     ultimo seruantur accentum, ut ‘falsó’; si A, similiter, ut ‘uná’, ne putetur esse nomen; si AS,
+     in ultimo, ut ‘aliás’, ne nomen esse uideatur; si ER, breuiantur, ut ‘breuiter’; si L,
+     similiter, ut ‘edepol’; si C, in ultimo, ut ‘illíc’; si S, breuiantur, ut ‘funditus’. <lb/>
+     Notandum est namque quod omnia aduerbia composita quae praepositionibus componuntur sub uno
+     accentu pronuntianda sunt, ut ‘deínde’ ‘exínde’.</p>
+    <p>
+     <milestone unit="par" n="4"/> Hanc enim regulam omnis coniunctio sequitur in compositis et in
+     simplicibus, ut ‘interea’ ‘etenim’. </p>
+    <p>
+     <milestone unit="par" n="5"/>Praepositio uero in fine semper accentum seruat, ut ‘apúd’ ‘anté’. </p>
+    <p>
+     <milestone unit="par" n="6"/>Interiectio uero nullam certam regulam seruat; tamen uel in fine
+     uel in medio acuitur, ut ‘papae’ ‘euax’. <milestone unit="page" n="p. 3 vol. III Keil"/>
+    </p>
+   </div>
+  </body>
+ </text>
+</TEI>

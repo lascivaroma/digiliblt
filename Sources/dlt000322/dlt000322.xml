@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Testimonia et fragmenta (Cornelius Labeo)</title>
+    <author>Cornelius Labeo</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Elisa Rugnone</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2015</date>
+    <availability>
+     <p>
+      <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
+     </p>
+    </availability>
+    <idno>dlt000322</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p>P. Mastandrea, <hi rend="italic">Un neoplatonico latino: Cornelio Labeone</hi>, E. J. Brill,
+     Leiden, 1979.</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    <p>
+     <hi rend="bold">Modifiche apportate al testo dell'edizione di riferimento </hi>
+    </p>
+    <p>[inserire eventuali descrizioni di tali modifiche, ricordandosi di togliere le parentesi
+     quadre. Se non ci sono modifiche eliminare questa sezione compreso il suo titolo]</p>
+
+    <p>
+     <hi rend="bold">Note di trascrizione e codifica specifiche del file </hi>
+    </p>
+    <p>[Specificare eventuali peculiarità di trascrizione e codifica: normalizzazioni grafiche
+     specifiche per questo testo, presenza di glifi o immagini (dichiararne la presenza: le
+     consuetudini per la loro marcatura sono nella sezione seguente e nel file al quale rimanda il
+     link nella sezione seguente... Se non ci sono peculiarità eliminare questa sezione compreso il
+     suo titolo]</p>
+
+    <p>
+     <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi>
+    </p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div type="ptext" n="ptext">
+    <head>EX 'FASTORVM LIBRIS'</head>
+
+    <div type="cap" n="1" xml:lang="grc">
+     <p> Cornelius <supplied><gap/></supplied> Labeo primo <hi rend="italic">Fastorum</hi> libro
+      nundinas ferias esse pronuntiat. </p>
+    </div>
+
+    <div type="cap" n="2" xml:lang="grc">
+     <p> Ὁ Λαβεὼν οὖν φησιν αὐτὸν καλεῖσθαι Ἰανὸν Κονσίβιον τουτέστι βουλαῖον, Ἰανὸν Κήνουλον καὶ
+      Κιβούλλιον <supplied><gap/></supplied> οἷον εὐωχιαστικόν, Πατρίκιον ὡσεὶ αὐτόχθονα, Κλουσίβιον
+      ἀντὶ τοῦ ὁδαῖον, Ἰουνώνιον τουτέστι ἀέριον, Κυρῖνον ὡσανεὶ πρόμαχον, Πατούλκιον καὶ Κλούσιον
+      οἱονεὶ θυραῖον, Κουριάτιον οἱονεὶ ἔφορον εὐγενῶν. </p>
+    </div>
+
+    <div type="cap" n="3" xml:lang="grc">
+     <p> Ὁ δὲ Λαβεὼν ἀπὸ τοῦ πένθους λέγει κληθῆναι τὸν Φεβρουάριον <supplied><gap/></supplied>·
+      κατ’ αὐτὸν δὲ τοὺς κατοιχομένους ἐτίμων. </p>
+    </div>
+
+    <div type="cap" n="4" xml:lang="grc">
+     <p> Ὅτι τριακοσίοις ἐγγὺς ὀνόμασιν εὑρίσκομεν καλουμένην τὴν Ἀφροδίτην, κεῖται δὲ παρὰ Λαβεῶνι
+      τὰ ὀνόματα. </p>
+    </div>
+
+    <div type="cap" n="5">
+     <p> Adfirmant quidam, quibus Cornelius Labeo consentit, hanc Maiam cui mense Maio res diuina
+      celebratur Terram esse, hoc adeptam nomen a magnitudine, sicut et Mater Magna in sacris
+      uocatur: adsertionemque aestimationis suae etiam hinc colligunt quod sus praegnans ei
+      mactatur, quae hostia propria est Terrae. Et Mercurium ideo illi in sacris adiungi dicunt quia
+      uox nascenti homini terrae contactu datur, scimus autem Mercurium uocis et sermonis potentem.
+      Auctor est Cornelius Labeo huic Maiae <del>id est terrae</del> aedem kalendis Maiis dedicatam
+      sub nomine Bonae Deae et eandem esse Bonam Deam et Terram ex ipso ritu occultiore sacrorum
+      doceri posse confirmat. Hanc eandem Bonam Faunamque, Opem et Fatuam pontificum libris
+      indigitari: Bonam quod omnium nobis ad uictum bonorum causa est, Faunam quod omni usui
+      animantium fauet, Opem quod ipsius auxilio uita constat, Fatuam a fando quod – ut supra
+      diximus – infantes partu editi non prius uocem edunt quam attigerint terram. </p>
+    </div>
+
+    <div type="cap" n="6" xml:lang="grc">
+     <p> Ὁ Λαβεών φησι τὸν Ἰανουάριον καὶ Φεβρουάριον, Ἀπρὶλλιόν τε καὶ Ἰούνιον, Σεξτίλιον
+      Σεπτέμβριον <supplied>Νοέμβριον καὶ Δεκέμβριον</supplied> ἀπὸ ἐννέα καὶ εἴκοσιν ἡμερῶν τὸ
+      πάλαι λαχεῖν, Μάρτιον δὲ καὶ Mάïον, Kυντίλλιόν τε καὶ Ὀκτώβριον ἀπὸ μιᾶς καὶ τριάκοντα, ὅθεν
+      τοὺς ἀπὸ ἐννέα καὶ εἴκοσιν ἡμερῶν ἕλκοντας πεμπταίας ἔχειν τὰς Nώνας ὡς σεληνιακούς, τοὺς δὲ
+      ἀπὸ μιᾶς καὶ τριάκοντα ἑβδομαίας ὡς ἡλιακούς· τὸν δὲ Φεβρουάριον ἐπίτηδες τοὺς Θούσκους
+      ἐλαττῶσαι, ἐπειδὴ ταῖς τῶν καταχθονίων ἑορταῖς φαίνεται πρὸς τοῦ ἱερέως Nουμᾶ παραχωρηθεὶς καὶ
+      οὐ θεμιτὸν ἦν ἴσα τοῖς οὐρανίοις αὐτὸν τιμᾶσθαι, μειωθῆναι δὲ μᾶλλον τὸν τοῖς
+       <supplied>τὸ</supplied>δε τὸ πᾶν ἐλαττοῦσι χθονίοις ἀφωρισμένον, ὅθεν καὶ πάντων τῶν μηνῶν
+      τὸν περιττὸν ἀριθμὸν ἑλκόντων μόνος ὁ Φεβρουάριος τὸν ἄνισον φαίνεται λαχών. </p>
+    </div>
+
+    <div type="cap" n="7" xml:lang="grc">
+     <p> Βaβυλώνιοι <supplied><gap/></supplied> ἀπὸ ἀνατολῶν ἡλίου μέχρι δυσμῶν τὴν ἡμέραν
+      λαμβάνουσιν, νυκτὸς οὐδ’ ὅλως μνείαν ποιούμενοι, οἷα μὴ καθ’ ὑπόστασιν οὔσης, ἀλλὰ κατὰ
+      συμβεβηκὸς γινομένης. Aἰγύπτιοι δὲ ἀπὸ ἑσπέρας τὴν ἐπιφοιτῶσαν ἀριθμοῦσιν ἡμέραν ἕως αὖθις
+      ἑσπέρας διὰ τὸ πρὸ τῆς τοῦδε τοῦ παντὸς διακοσμήσεως σκότος ὐποτίθεσθαι τοὺς Kοσμογράφους
+       <supplied><gap/></supplied> καὶ διὰ τὸ νύκτα δὲ πάντων μητέρα ὀνομάζειν· ὅθεν οἱ Mυθικοὶ ἀπὸ
+      Λητοῦς τεχθῆναι Ἄρτεμίν φασιν, εἶτ’ Ἀπόλλωνα. Τουτέστιν ἀπὸ νυκτός· αὕτη δ’ ἂν εἴη Λητώ, καὶ
+      γὰρ λήθη κατ’ αὐτὴν καὶ ὕπνος ἐγίνετο. Πρώτην τὴν οἱονεὶ ἀερότεμιν τεχθῆναι Σελήνην, μεθ’ ἣν
+      καὶ ὁ Ἀποόλλων <supplied>ἐτέχθη</supplied>, τουτέστιν ὁ ἀπὸ ὅλων ὣν Ἥλιος, ἵνα μὴ καταιθαλώσῃ
+      τὸ πᾶν. Ὄμβροι δέ, ἔθνος Ὶταλικόν, ἀπὸ μεσεμβρίας εἰς μεσημβρίαν τὴν ἡμέραν εἶναί φασιν· οὐδὲ
+      γὰρ ἐπὶ πάντων τῶν κλιμάτων ἴσον δρόμον διασῴζει ἡ ἡμέρα, ἀμέλει τοι περὶ τὰ βόρεια πελάγη καὶ
+      τὴν Θούλην βραχυτάτη ἡ νύξ· ὅτε γὰρ ἐκεῖ πρὸς δύσιν ὁ ἥλιος γένηται, ὀλίγον τῆς αὐγῆς μειοῦται
+      καὶ εὐθὺς κατὰ ἀνατολὰς αὖθις ὑποφαίνεται. Ἀθηναῖοι δὲ καὶ Ῥωμαῖοι ἀπὸ ἀνατολῶν μέχρι δυσμῶν
+      τὴν ἡμέραν ὀρίζονται, ὡς ὁ Kάτων φησὶν καὶ ὁ Λαβεών. </p>
+    </div>
+
+   </div>
+
+   <div type="ptext" n="ptext">
+    <head>EX LIBRIS ETRVSCAE DISCIPLINAE</head>
+
+    <div type="cap" n="8" xml:lang="grc">
+     <p> ΚΑΘΟΛΙΚΗ ΕΠΙΤΗΡΗΣΙΣ ΠΡΟΣ ΣΕΛΗΝΗΝ ΑΠΟ ΤΗΣ ΘΕΡΙΝΗΣ ΤΡΟΠΗΣ ΕΚ ΤΩΝ ΛΑΒΕΩΝΟΣ ΚΑΘ’ ΕΡΜΗΝΕΙΑΝ ΠΡΟΣ
+      ΛΕΞΙΝ</p>
+     <p>Εἰ κατὰ τὴν ἑνδεκάτην τοῦ καρκίνου μοῖραν σελήνη εἴη ἐν κριῷ, ἔσονται ἀχλύες καὶ βρονταὶ καὶ
+      χάλαζαι, ταραχαὶ δὲ τοῖς δένδροις ἐκ βιαιοτέρων πνευμάτων, καὶ ζάλη ἀερία, τίμιοί τε οἱ καρποὶ
+      διὰ τὴν σπάνιν καὶ αὐχμηρὸν τὸ περιέχον ἐκ λοιμικῆς θερμασίας. </p>
+     <p>Eἰ δ’ ἐν ταύρῳ, ἔνδεια μὲν ἔσται τῶν ἐπιτηδείων, ἐλαίου δὲ διαφερόντως, τὰ μέντοι σταθμῷ
+      ἀποδιδόμενα εὐτελῆ ἔσται. </p>
+     <p>Ἐν διδύμοις γε μὴν οὔσης τῆς σελήνης ἐπὶ τῆς θερινῆς τροπῆς, ἀμφίβολος ἔσται ὁ ἐνιαυτός·
+      ἡγήσεται μὲν γὰρ ὑγρότης, ἕψεται δὲ ξεπότης, καὶ ὁ μὲν σῖτος ἐλάσσων, κρείττων δὲ ὁ οἶνος, καὶ
+      οὐχ ἥκιστα τὸ ἔλαιον ἀφθονώτατα διαρκέσει. </p>
+     <p>Ἐν καρκίνῳ δὲ οὔσης σελήνης ἐπὶ τῆς θερινῆς τροπῆς, εὔφορος ὁ ἐνιαυτὸς ἔσται περὶ πάντας
+      τοὺς καρπούς, ξερούς τε καὶ ὑγρούς. <del>Eἰκότως οὖν εὐθηνίαν προσδοκητέον.</del></p>
+     <p>Eἰ δὲ ἐπὶ τοῦ λέοντος σελήνης οὔσης ἡ θερινὴ συνέλθοι τροπή, βροντώδη καὶ θυελλώδη ἄν τις
+      ἐκδέξαιτο τὸν ἀέρα· νεφώδης γὰρ ἔσται καὶ ἀχλυώδης, ὡς περιττευούσης τῆς ἐξ ὑπερῴων ὑγρασίας
+      τοὺς μὲν ξεροὺς καρποὺς ἐλαττωθῆναι, τοὺς δὲ ὑγροὺς ἐπιδοῦναι. </p>
+     <p>Ὅταν δὲ ἐπὶ τῆς θερινῆς τροπῆς σελήνη τὴν παρθένον ἔχῃ, στεῖρος μὲν καὶ ἐγγὺς ἄκαρπος ὁ
+      ἐνιαυτός, ἐκ δὲ ἀδοκήτου περί τε τοὺς ξεροὺς καρποὺς καὶ ὑγροὺς ἔσται τις παραψυχή. </p>
+     <p>Ἐν ζυγῷ δ’ oὖσα σελήνη εἰ τὴν θερινὴν καταλάβοι τροπήν, εὔφορος μὲν καὶ αὐτάρκης ἔσται ὁ
+      ἐνιαυτὸς περὶ τοὺς ξεροὺς καρπούς, ὑγρὸς δὲ ὅμως καὶ ἔπομβρος· καὶ τὰ σταθμῷ διδόμενα τίμια
+      ἔσται, τὸ δὲ ἔλαιον σὺν καὶ τῷ οἴνῳ τιμιώτατον. </p>
+     <p>Ἐν σκορπίῳ σελήνης ἐπὶ τῆς μὲν θερινῆς τροπῆς τυγχανούσης, ξερὸς καὶ ὄψιμος ὁ ἐνιαυτὸς ἐπὶ
+      τοῖς καρποῖς ἔσται, χαλαζώδης δὲ οὐχ ἥκιστα καὶ ταρακτικός· ὅ γε μὴν σπόρος, καὶ εἴ τι ὑπὸ
+      γῆν, ἔξω ἐλπίδος· λιμὸς οὖν ἔσται πάντως καὶ φθορὰ τῶν ἀνθρώπων. </p>
+     <p>Tοξότην ἐχούσης σελήνης ἐπὶ τῆς τοῦ θερινοῦ κέντρου τροπῆς, πλημμύρα ἔσται ὑδάτων ἀτμοί τε
+      καὶ χαλαζώδεις ὄμβροι, καὶ φθορά τῶν πτηνῶν, καὶ ναυάγια οὐ μικρά, καὶ ἐλάττωσις μὲν τῶν ὑγρῶν
+      καρπῶν, ἀφθονία δὲ τῶν ξηρῶν. </p>
+     <p>Ὅταν γε μὴν τὸν αἰγόκερων ἔχῃ σελήνη ἐπὶ τῆς ἐν θέρει τροπῆς, οὕτως ἐπομβρήσει ὁ ἀὴρ ὡς
+      ἐμποδὼν γενέσθαι τῇ συναγωγῇ τῶν καρπῶν καὶ μεταμέλειαν ἔσεσθαι τοῖς γεωργοῖς τῆς ἐπὶ τῷ σπόρῳ
+      σπουδῆς· ἐκ παραδόξου δὲ οἱονεὶ τῆς προνοίας οἴνου μὲν καί ἐλαίου ἀφθονία, ἥκιστα δὲ λοιμῶδες
+      τὸ τοῦ ἀέρος κατάστημα. </p>
+     <p>Tῷ δ’ ὑδροχόῳ ἢ τοῖς ἰχθύσιν ἐνδιατριβούσης σελήνης, τὰ αὐτὰ μὲν ἔσται σχεδὸν περὶ τὴν τῶν
+      καρπῶν ἐκδοχήν, ἐλάττους δὲ ἔσονται οἱ ἰχθύες πρὸς αὐτοῖς καὶ διαφερόντως οἱ ποταμίοι, καὶ
+      ὅσοι τῶν θαλασσίων τοῖς ποταμίοις ἐξομοιοῦνται. </p>
+    </div>
+
+    <div type="cap" n="9">
+     <p> Labeo qui disciplinas Etruscas Tagetis et Battiadis quindecim uoluminibus explanauit, ita
+      ait : ʻFibrae iecoris sandaracei coloris dum fuerint, manales tunc uerrere opus est petrasʼ,
+      id est quas solebant antiqui in modum cylindrorum per limites trahere pro pluuiae commutandam
+      inopiam. </p>
+    </div>
+
+   </div>
+
+   <div type="ptext" n="ptext">
+    <head>EX LIBRIS ʻDE DIIS ANIMALIBVSʼ</head>
+
+    <div type="cap" n="10">
+     <p>
+      <supplied><gap/></supplied> ritum <supplied><gap/></supplied> de quo dicit Labeo in libris qui
+      appellantur <hi rend="italic">De diis animalibus</hi>: in quibus ait esse quaedam sacra quibus
+      animae humanae uertantur in deos, qui appellantur animales quod de animis fiant. Hi autem sunt
+      dii Penates et Viales. </p>
+    </div>
+
+    <div type="cap" n="11">
+     <p> Labeo <supplied><gap/></supplied> duos dicit uno die fuisse defunctos et occurrisse inuicem
+      in quodam compito, deinde ad corpora sua iussos fuisse remeare, et constituisse inter se
+      amicos se esse uicturos; atque ita esse factum, donec postea morerentur. </p>
+    </div>
+
+    <div type="cap" n="12a">
+     <p>
+      <supplied><gap/></supplied> Alii, ut Nigidius et Labeo, deos Penates Aeneae Neptunum et
+      Apollinem tradunt, quorum mentio fit ʻtaurum Neptuno, taurum tibi, pulcher Apolloʼ.</p>
+    </div>
+
+    <div type="cap" n="12b">
+     <p> Nigidius <supplied><gap/></supplied> requirit num di Penates sint Troianorum Apollo et
+      Neptunus, qui muros eis fecisse dicuntur, et num eos in Italiam Aeneas aduexerit. Cornelius
+      quoque Labeo de dis Penatibus eadem existimat. </p>
+    </div>
+
+    <div type="cap" n="13">
+     <p> Nonnulli istorum, ut ita dixerim, daemonicolarum, in quibus et Labeo est, eosdem perhibent
+      ab aliis angelos dici quos ipsi daemones nuncupant; iam mihi de bonis angelis aliquid uideo
+      disserendum, quos isti esse non negant, sed eos bonos daemones uocare quam angelos malunt.
+     </p>
+    </div>
+
+    <div type="cap" n="14">
+     <p> Platonem Labeo inter semideos commemorandum putauit, sicut Herculem, sicut Romulum.
+      Semideos autem heroibus anteponit, sed utrosque inter numina conlocat. </p>
+    </div>
+
+    <div type="cap" n="15">
+     <p>
+      <supplied><gap/></supplied> Cum praesertim Labeo, quem huiusce modi rerum peritissimum
+      praedicant, numina bona a numinibus malis ista etiam cultus diuersitate distinguat, ut malos
+      deos propitiari caedibus et tristibus supplicationibus adserat, bonos autem obsequiis laetis
+      atque iucundis, qualia sunt, ut ipse ait, ludi conuiuia lectisternia. </p>
+    </div>
+
+    <div type="cap" n="16">
+     <p> Labeo numina mala uictimis cruentis atque huius modi supplicationibus placari existimat,
+      bona uero ludis et talibus quasi ad laetitiam pertinentibus rebus. Quid est ergo quod semideus
+      Plato non semideis, sed deis, et hoc bonis, illa oblectamenta, quia iudicat turpia, tam
+      constanter audet auferre? Qui sane di refellunt sententiam Labeonis. </p>
+    </div>
+
+    <div type="cap" n="17">
+     <p>
+      <supplied><gap/></supplied> Αn ulla ratio redditur, cur Concordia dea sit et Discordia dea non
+      sit, ut secundum Labeonis distinctionem bona sit ista, illa uero mala? Nec ipse aliud secutus
+      uidetur quam quod aduertit Romae etiam Febri, sicut Saluti, templum constitutum. </p>
+    </div>
+
+   </div>
+
+   <div type="ptext" n="ptext">
+    <head>EX LIBRO ʻDE ORACVLO APOLLINIS CLARIIʼ</head>
+
+    <div type="cap" n="18">
+     <p> Consultus Apollo Clarius quis deorum habendus sit qui uocatur Ἰαώ ita effatus est:</p>
+     <p>
+      <foreign xml:lang="grc">ὄργια μὲν δεδαῶτας ἐχρῆν νηπευθέα κεύθειν, εἰ δ’ ἄρα τοι παύρη σύνεσις
+       καὶ νοῦς ἀλαπαδνός, φράζεο τὸν πάντων ὕπατον θεὸν ἔμμεν Ἰαώ, χείματι μέν τ’ Ἀίδην, Δία δ'
+       εἴαρος ἀρχομένοιο, Ἠέλιον δὲ θέρευς, μετοπώρου δ' ἀβρὸν Ἴαγκoν.</foreign>
+     </p>
+     <p>Huius oraculi uim, numinis nominisque interpretationem, qua Liber pater et Sol Ἰαώ
+      signifιcatur, exsecutus est Cornelius Labeo in libro cui titulus est <hi rend="italic">De
+       oraculo Apollinis Clarii</hi>. </p>
+    </div>
+
+   </div>
+
+  </body>
+ </text>
+
+</TEI>

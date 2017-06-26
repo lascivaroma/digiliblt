@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>σχήματα λόγου</title>
+        <author> Asper (Aemilius Asper?) </author>
+        <respStmt>
+          <resp>Correzione linguistica</resp>
+          <name>Filippo Bognini</name>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica XML</resp>
+          <name>Alice Borgna</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>digilibLT</publisher>
+        <pubPlace>Vercelli</pubPlace>
+        <date>2016</date>
+        <availability>
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
+          </p>
+        </availability>
+        <idno>dlt000024</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Filippo Bognini, <hi rend="italic"> Il trattato </hi> σχήματα λόγου<hi rend="italic">: un
+            nuovo testo ascrivibile a Emilio Aspro? </hi> in «Italia Medioevale e Umanistica», 49
+          (2008), pp. 1-51. </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+      <projectDesc>
+        <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+        <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>
+          <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT</hi>
+        </p>
+        <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+          l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni,
+          note e commenti e ogni altro contenuto redatto da editori moderni.</p>
+        <p>I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+          correttezza di trascrizione</p>
+        <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+          distinzione u/v minuscole.</p>
+        <p>Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+        <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi> :
+          grassetto, corsivo, spaziatura espansa. </p>
+        <p> Sono stati normalizzati e marcati nel modo seguente i diacritici. <lb/> espunzioni:
+          <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]>
+          <lb/>
+          <hi rend="italic">loci desperati</hi> :
+          <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo† e †testo
+          <lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...] <lb/> lacuna integrata
+          dagli editori: <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+        </p>
+        <p> Sono stati marcati i termini in lingua greca
+          <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+        </p>
+        <p> Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+            target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+            >Note di trascrizione e codifica di testi latini tardoantichi
+            [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latino</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="section" n="1">
+        <p>Nomen generis neutri, numeri pluralis, si solum ponatur, elocutio figurata est, ut “vadit
+          per lata camporum”, “natat per alta fluminum”, pro eo quod est: vadit per lata spatia
+          camporum, natat per alta loca fluminum. </p>
+      </div>
+      <div type="section" n="2">
+        <p> Item si sermo, qui solet iungi genitivo, iungatur ablativo, ut <quote type="poetry">
+            “homo vita optima”, “pater «pulchra prole»”</quote>, id est: homo vitae optimae, pater
+          pulchrae prolis.</p>
+      </div>
+      <div type="section" n="3">
+        <p> Item si, cum de temporum et locorum spatiis loquimur, accusativo potius quam ablativo
+          utamur, ut “totam noctem sedi”, “abest milia decem”, id est: tota nocte sedi, abest
+          milibus decem. </p>
+      </div>
+      <div type="section" n="4">
+        <p>Item si sermo per se plenus nomen accipiat genitivi casus, ut “homo <quote type="poetry"
+            >«integer vitae»</quote>”, “homo <quote type="poetry">«sceleris purus»</quote>”, id est:
+          homo integer, homo purus. </p>
+      </div>
+      <div type="section" n="5">
+        <p>Item si utamur declinatione activa, cui passiva significatio est, ut <quote type="poetry"
+            >«nox praecipitat»</quote>,<quote type="poetry">«pavor insinuat»</quote>, id est:
+          praecipitatur nox, insinuatur pavor. </p>
+      </div>
+      <div type="section" n="6">
+        <p>Item si utamur infinito modo tempore praesenti pro indicativo imperfecto, ut: <quote
+            type="poetry">«solam nam perfidus ille / te colere»</quote>, <quote type="poetry"
+            >«arcanos etiam tibi credere sensus»</quote>; id est: te colebat, tibi credebat. </p>
+      </div>
+      <div type="section" n="7">
+        <p> Item si participio praeteriti temporis vel nomini iungas accusativum casum, ut “fessus
+          membra”, <quote type="poetry">«oculos suffusa»</quote>, id est: fessa membra habens,
+          oculos suffusos habens.</p>
+      </div>
+      <div type="section" n="8">
+        <p> Item si utamur nomine loco adverbii, ut <quote type="poetry">«torvum clamat»</quote>,
+          “horrendum resonat”, id est: torve clamat, horrende resonat. </p>
+      </div>
+      <div type="section" n="9">
+        <p> Item si duobus modis verbi utamur sine alterius interpositione sermonis, ut <quote
+            type="poetry">«dat ferre»</quote>, “concedit abscedere”, id est: dat ut ferat, concedit
+          ut abscedat. </p>
+      </div>
+      <div type="section" n="10">
+        <p> Item si verbum, quod accusativum casum regit, iungatur dativo, ut est <quote
+            type="poetry">«it clamor caelo»</quote>, “dixerat illo”, id est: it clamor in caelum,
+          dixerat in illum. </p>
+      </div>
+      <div type="section" n="11">
+        <p> Item si pronomen componendum adiectione particulae quae est ‘–cumque’ nos geminaverimus,
+          ut est <quote type="poetry">«quisquis es armatus»</quote>, <quote type="poetry">«quanta
+            quanta haec mea paupertas est»</quote>, id est: quicumque es armatus, quantacumque est
+          haec mea paupertas.</p>
+      </div>
+      <div type="section" n="12">
+        <p>Item si in sermone, in quo possumus dicere ‘qualis’, dicamus ‘quid’, ut <quote
+            type="poetry">«quid morbi est»</quote>, <quote type="poetry">«quid mali est»</quote>, id
+          est: qualis morbus est, quale malum est.</p>
+      </div>
+      <div type="section" n="13">
+        <p> Item si numerum per genitivum casum proferamus, ut “habeo mille hominum”, “potitus sum
+          trium milium hostium”, id est: habeo mille homines, potitus sum tria milia hostes.</p>
+      </div>
+      <div type="section" n="14">
+        <p> Item si pro fixae appellationis genitivo feminini generis, neutri mobilis genitivis
+          utamur, ut <quote type="poetry">«servantissimus aequi»</quote>, “amans iusti”, id est:
+          servantissimus aequitatis, amans iustitiae.</p>
+      </div>
+      <div type="section" n="15">
+        <p> Item si per accusativum et ‘in’ prepositionem dicamus quod dicitur vulgariter per
+          ablativum, ut “solutus in libidinem”, “fractus in luxuriam”, id est: solutus libidine,
+          fractus luxuria. </p>
+      </div>
+      <div type="section" n="16">
+        <p>Item si per genitivum proferamus, quod simpliciter per accusativum dicitur, ut est “natus
+          perdendae rei publicae”, “genitus augendae civitatis”, id est: natus ad perdendam rem
+          publicam, genitus ad augendam civitatem.</p>
+      </div>
+      <div type="section" n="17">
+        <p> Item si ‘in’ ponamus pro ‘inter’, ut <quote type="prose">«in amicis habere»</quote>,
+            <quote type="prose">«leonem in primis ferire»</quote>, id est: inter amicos habere,
+          leonem inter primos ferire.</p>
+      </div>
+      <div type="section" n="18">
+        <p> Item si ‘in’ ponamus pro ‘intra’, ut est “<quote type="poetry">«in diebus
+            paucis»</quote> fiet”, “in paucis mensibus veniet”, id est: intra paucos dies fiet,
+          intra paucos menses veniet.</p>
+      </div>
+      <div type="section" n="19">
+        <p>Item si ‘in’ prepositione detracta nomen et verbum copulemus mutato casu, ut “impressus
+          caeno”, “inductus tectis”, id est: in caenum pressus, in tecta ductus. </p>
+      </div>
+      <div type="section" n="20">
+        <p>Item si dicamus aliquem aliquid dixisse, et subauditione locum relinquamus, ut “Africani
+          est”, “Catonis fuit”, id est: Africani est hoc dictum, Catonis fuit hoc studium.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

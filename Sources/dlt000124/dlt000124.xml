@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>De rebus bellicis</title>
+        <author>Anonymus</author>
+        <respStmt>
+          <resp>Correzione linguistica</resp>
+          <name>Laura Mosca</name>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica XML</resp>
+          <name>Fabio Ciotti</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>digilibLT</publisher>
+        <pubPlace>Vercelli</pubPlace>
+        <date>2011</date>
+        <availability>
+          <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+        </availability>
+        <idno>dlt000124</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Anonymi auctoris De rebus bellicis, recensuit Robert I. Ireland, Lipsiae, in aedibus B. G. Teubneri, 1984.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+        <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+      </projectDesc>
+      <editorialDecl>
+                
+        <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+        <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+          l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+          e commenti e ogni altro contenuto redatto da editori moderni. </p>
+        <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+          correttezza di trascrizione</p>
+        <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+          distinzione u/v minuscole.</p>
+        <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+        <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+          grassetto, corsivo, spaziatura espansa.</p>
+        <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+          <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+          <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+          si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+          [...]<lb/> lacuna integrata dagli editori:
+          <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+        </p>
+        <p>Sono stati marcati i termini in lingua greca
+          <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+        </p>
+        <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+          target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+          >Note di trascrizione e codifica di testi latini tardoantichi
+          [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+      </editorialDecl>
+      
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latino</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+   
+    <body>
+
+      <div type="pr" n="pr">
+        <head>Praefatio</head>
+
+        <p><milestone unit="par" n="1"/> Caelesti semper instinctu felicis rei publicae uestrae
+          commoditas, sacratissimi principes, opportunis est suggerenda temporibus, ut diuina
+          consilia diuinis successibus conualescant. <milestone unit="par" n="2"/> Vnde pro ingenii
+          facultate unum capitulum de largitionum utilitate in hoc libello composui, non quod istud
+          tam inmensae utilitati sufficiat, sed ut ex hoc mediocritatis meae documento praemisso in
+          reliquis utilitatis possit fides ostendi. <milestone unit="par" n="3"/> Proinde, ne
+          promissioni fides accommodata uelut fallacem in posterum grauet, pro conscientia ueritatis
+          ipse mihi poenam praemii loco, si promissio secus cesserit, posco, nec me laus aut
+            <supplied>praemium</supplied> prosequatur cum abunde sit in hac parte indignationem pro
+          audacia declinare. <milestone unit="par" n="4"/> Sed fas erit rei publicae praesulem a
+          privato desiderata cognoscere, cum rerum utilitas interdum eum lateat inquirentem.
+            <milestone unit="par" n="5"/> Ergo nonnumquam inuitandi sunt qui recte quicquam sentire
+          fuerint approbati: nam ut ait optimus orator, ad illum maior pars hominum decurrit quem
+          ingenio natura donauerit. <milestone unit="par" n="6"/> In qua re est considerare semper
+          quid unusquisque magis sentiat quam loquatur; constat enim apud omnes quod nec summa
+          nobilitas nec opum affluentia aut subnixae tribunalibus potestates aut eloquentia litteris
+          acquisita consecuta est utilitates artium, in quibus etiam armorum continetur inventio,
+          sed ingenii tantummodo magnitudo, quae uirtutum omnium mater est, naturae felicitate
+          subnixa. <milestone unit="par" n="7"/> Quod quidem sine personarum electione uidemus
+          accidere: nam cum barbarae nationes neque facundia polleant aut dignitatibus illustrentur,
+          minime tamen a rerum inuentione, natura opitulante, habentur alieni.</p>
+        <p><milestone unit="par" n="8"/> Quamobrem, clementissimi principes, qui gloriam bonae
+          opinionis perpetua felicitate diligitis, qui Romano nomini debitos affectus propagatis in
+          filios, respicere dignemini quae nostris sensibus commoda prouidentia diuinitatis
+          intulerit. <milestone unit="par" n="9"/> Vniuersis igitur seu militiam clementiae uestrae
+          tractantibus seu otio privato contentis uel terrae cultoribus siue negotiatoribus mercium
+          lucra tractantibus pro saeculi uestri felicitate gaudentibus, consequemini ex hoc opere
+          commoda singulorum, quorum species diuersis titulis, opportunis quibusque locis, oratio
+          subiecta testabitur. <milestone unit="par" n="10"/> Referemus enim quemadmodum, remissa
+          tributorum medietate, in robur proprium prouinciarum cultor habeatur; unde etiam,
+            <supplied>in</supplied> ratione exactionum cessante contumelia, limitum solitudinem
+          erectis castrorum munitionibus incola securus illustret; quo etiam pacto auri argentique
+          modus sine dantium poena duplicetur; uel quo argumento extra solitam largitatem cumulatus
+          honoribus miles exultet. <milestone unit="par" n="11"/> His etiam adnectenda credidimus
+          quae bellorum necessitatibus terra uel mari in acquirendis uictoriis procurentur; ex
+          quibus fastidii leuandi gratia pauca machinarum inuenta referemus. <milestone unit="par" n="12"/> Docebimus igitur uelocissimum liburnae genus decem nauibus ingenii magisterio
+          praeualere, ita ut hae per eam sine auxilio cuiusquam turbae obruantur. <milestone unit="par" n="13"/> In terrenis uero congressibus talis est excogitata sollertia ut
+          equus, siue aciem rupturus inuadat siue fugientibus ingerat se, tali arte muniatur ut
+          semetipsum uerberans sine cuiusquam magisterio efficiat magnas hostium strages. <milestone unit="par" n="14"/> In fluuiorum quoque difficultatibus exquisita est noui pontis
+          inuentio minime subuectioni onerosa; hunc enim pontem amnibus paludibusque necessarium
+          perpauci homines aut quinquaginta fere numero iumenta portabunt.</p>
+        <p><milestone unit="par" n="15"/> Ex his igitur quae rettulimus, iam futuris ut ego arbitror
+          designatis, pace uestra dixerim, magnum uobis munus concessu diuinitatis apporto, asserens
+          prouidentia pietatis uestrae armorum uigorem et cunctam rem publicam praedictis remediis
+          subleuandam: quae quidem non ignota sunt proximis uestrae clementiae, quos alia plura
+          sollicitant a nobis aliena. <milestone unit="par" n="16"/> Verum quia illos multa
+          occupatos effugiunt, otio persuasus, non adeo a rerum commoditatibus peregrinus, utilia
+          uestrae felicitati undique redacta conferre gestiui. <milestone unit="par" n="17"/> Si
+          quid uero liberius oratio mea pro rerum necessitate protulerit, aestimo uenia protegendum,
+          cum mihi promissionis implendae gratia subueniendum est propter philosophiae
+          libertatem.</p>
+      </div>
+
+      <div type="cap" n="1">
+        <head>I De inhibenda largitate</head>
+
+        <p><milestone unit="par" n="1"/> Bellicam laudem et gloriam triumphorum utilitas semper
+          intueatur aerarii, ne profusa largitio semina magis excitet proeliorum; quae si
+          prouidentia maiestatis imperatoriae reprimatur, non amplius bellorum florebit improbitas,
+          sed collatorum potius defecta subsidia recreantur. <milestone unit="par" n="2"/> Quod si
+          largitio immoderata seruanda profuderit, opum delectabilitas nullo uetustatis more poterit
+          iam necessitatibus subuenire. <milestone unit="par" n="3"/> Quamobrem patrum nobis est
+          paulisper prouidentia referenda quam in rebus egenis habuerint, uel quae nunc
+            <supplied>ita</supplied> in tanta facultatum licentia uideatur. <milestone unit="par" n="4"/> Rectores superioris uitae non otiosis opibus sed condendis potius moenibus
+          laetabantur, in quorum decorem uniuersam auri argentique materiam conferebant. <milestone unit="par" n="5"/> Aeris quoque copiam in simulacris propriis ad uirtutis suae
+          testimonia figurabant. <milestone unit="par" n="6"/> Vt uero emendi et uendendi utilitas
+          <gap/> et ut facultas regiae largitati suppeteret, in aeris usum excultam politius terram
+          et igne solidatam, certis quoque expressionibus figuratam, auro argentoque reposito usui
+          habuerunt. <milestone unit="par" n="7"/> Sed posteriores, fastidientes priscae uilitatis
+          inuentum, formatos e coriis orbes auro modico signauerunt, quibus regum munificentia et
+          commutationum necessitas intactis collatoribus utebatur. <milestone unit="par" n="8"/>
+          Sequentior uero aetas, aeris redundante materia quam publicus iam moenium recusabat
+          ornatus, diuturna ut prior monumenta meditata, aes ualidum ipso pondere pretiosius
+          figurauit; cuius species pro qualitate, ut diximus, ponderis diuturnior fuit, sed potentia
+          regalis pro licentia speciem suam tantum in auro argentoque signauit, quae pro reuerentia
+          figurae nullis usibus proficiens ad honorem regium sacrata permansit. <milestone unit="par" n="9"/> Aeris autem materia, quae iam pro copia uilior erat, ad dona
+          militaria et uaria populorum commercia signabatur. <milestone unit="par" n="10"/> Sed ut
+          uera fides dicta facilius prosequatur, formas et species commodas atque pro temporibus
+          diuersas uariasque veterum prouisiones exprimi colorum qualitatibus properaui.</p>
+      </div>
+      <div type="cap" n="2">
+        <head>II Ex quibus temporibus profusio uel auaritia coeperit</head>
+
+        <p><milestone unit="par" n="1"/> Constantini temporibus profusa largitio aurum pro aere,
+          quod antea magni pretii habebatur, uilibus commerciis assignauit; sed huius auaritiae
+          origo hinc creditur emanasse. <milestone unit="par" n="2"/> Cum enim antiquitus aurum
+          argentumque et lapidum pretiosorum magna uis in templis reposita ad publicum peruenisset,
+          cunctorum dandi habendique cupiditates accendit. <milestone unit="par" n="3"/> Et cum
+          aeris ipsius — quod regum, ut diximus, fuerat uultu signatum — enormis iam et grauis
+          erogatio uideretur, nihilominus tamen a caecitate quadam ex auro, quod pretiosius habetur,
+          profusior erogandi diligentia fuit. <milestone unit="par" n="4"/> Ex hac auri copia
+          priuatae potentium repletae domus in perniciem pauperum clariores effectae, tenuioribus
+          uidelicet uiolentia oppressis. <milestone unit="par" n="5"/> Sed afflicta paupertas, in
+          uarios scelerum conatus accensa, nullam reuerentiam iuris aut pietatis affectum prae
+          oculis habens, uindictam suam malis artibus commendauit. <milestone unit="par" n="6"/> Nam
+          saepe grauissimis damnis affecit imperia populando agros, quietem latrociniis persequendo,
+          inflammando odia; et per gradus criminum fouit tyrannos, quos ad gloriam uirtutis tuae
+          produxit <supplied>inopia</supplied> magis quam succendit audacia. <milestone unit="par" n="7"/> Erit igitur curae prudentiae tuae, optime imperator, repressa largitate et
+          collatori prospicere et in posterum nominis tui gloriam propagare. <milestone unit="par" n="8"/> Denique paulisper felicium temporum reuolue memoriam, et antiquae paupertatis
+          famosa regna considera quae agros colere et abstinere opibus norant, qua haec honoris
+          laude per omne aeuum frugalitas incorrupta commendet. <milestone unit="par" n="9"/> Certe
+          aurea nuncupamus quae aurum penitus non habebant.</p>
+      </div>
+
+      <div type="cap" n="3">
+        <head>III De fraude et correctione monetae</head>
+
+        <p><milestone unit="par" n="1"/> Inter damna rei publicae non ferenda solidorum figura
+          aliquantorum fraudibus deprauata diuersa populos ratione sollicitat et regiae maiestatis
+          imaginem, dum per monetae culpam refutatur, inminuit; ementis enim eundem solidum
+          fraudulenta calliditas et uendentis damnosa necessitas difficultatem quandam ipsis
+          contractibus intulerunt, ne rebus possit interesse simplicitas. <milestone unit="par" n="2"/> Ergo huic quoque parti maiestatis uestrae est, ut in omnibus, adhibenda
+          correctio, ita ut opifices monetae redacti undique in unam insulam congregentur, nummariis
+          et solidorum usibus profuturi, a societate uidelicet in perpetuum contiguae terrae
+          prohibiti, ne commixtionis licentia fraudibus opportuna integritatem publicae utilitatis
+          obfuscet. <milestone unit="par" n="3"/> Illic enim, solitudine suffragante, integra fides
+          monetae praestabitur, nec erit fraudi locus ubi nulla est mercis occasio. <milestone unit="par" n="4"/> Verum ut qualitas futurae discussionis appareat, formas et
+          magnitudinem tam aereae quam aureae figurationis pictura praenuntiante subieci.</p>
+      </div>
+      <div type="cap" n="4">
+        <head>IV De iudicum prauitate</head>
+
+        <p><milestone unit="par" n="1"/> Ad haec igitur incommoda, quae prouincias auaritiae artibus
+          uexant, accedit etiam iudicum execranda cupiditas, collatorum utilitatibus inimica.
+            <milestone unit="par" n="2"/> Nam hi, despecta reuerentia dignitatum, uelut mercatores
+          in prouincias se missos existimant, eo grauiores quod ab his procedit iniquitas unde
+          debuit sperari medicina. <milestone unit="par" n="3"/> Et tamquam sua rebus sufficere non
+          possit iniquitas, exactores in profligandis rebus huiusmodi dirigit unusquisque qui
+          diuersis rapinarum artibus collatorum uires exhauriant; uidelicet quasi parum notabiles
+          haberentur si soli peccarent. <milestone unit="par" n="4"/> Quae enim ab his occasio
+          fiscalium titulorum inlibata peracta est? Quae conuentio sine praeda discessit? <milestone unit="par" n="5"/> Illis tironum comparatio, equorum uel frumenti coemptio, expensa
+          quoque moenibus profutura, sollemnia lucra sunt et uotiua direptio. <milestone unit="par" n="6"/> Quod si prouincias casti et integritatis cupidi moderentur, nec fraudi usquam
+          relinquetur locus et res publica moribus ditata firmabitur.</p>
+      </div>
+
+      <div type="cap" n="5">
+        <head>V De releuando militari sumptu</head>
+        <p><milestone unit="par" n="1"/> Relatis, ut uisum est, rei publicae incommodis, augustis
+          prouisionibus merito repellendis, ad enormia militum alimenta ratione non incongrua
+          prohibenda ueniamus, quorum causa totius tributariae functionis laborat illatio.
+            <milestone unit="par" n="2"/> Sed ne tantae confusionis molem occupatio augusta
+          fastidiat, breuius tam diuturni erroris exitum declarabo. <milestone unit="par" n="3"/>
+          Militaris ordo, stipendiis aliquot peractis, ubi ad quinque uel eo amplius annonarum
+          emolumenta peruenerit, ne haec diutius percipiens rem publicam grauet, honesta missione
+          donatus uacans sibi otio gaudeat absolutus; in cuius locum posterior succedens totum
+          numerum per certa temporum spatia expensis grauissimis releuabit. <milestone unit="par" n="4"/> Quod si numerosior miles de sequentibus scholis in decedentium locum uocatur,
+          hic quoque pari liberalitate otio donatus abscedat uel ad alium ordinem cui miles deest
+          locum suppleturus accedat. <milestone unit="par" n="5"/> Quae res non solum expensis
+          grauidam rem publicam recreabit sed etiam curas imperatoriae prouisionis imminuet;
+          animabit etiam plures ad militiam quos ab ea stipendiorum tarditas prohibebat. <milestone unit="par" n="6"/> Huiusmodi igitur prouisionis utilitas in augmentum prouincialium
+          habet ueteranos regiis donis opulentos et ad colendos agros adhuc praeualentes agricolas:
+          habitabunt limites, arabunt quae dudum defenderant loca, et laborum desiderio potiti erunt
+          ex milite collatores. <milestone unit="par" n="7"/> Verum quia nonnumquam bellorum ruina
+          aut fastidio castrensium munerum deserta militia de summa integritatis intercipit, tali
+          remedio huiusmodi damna supplenda sunt, scilicet ut centeni aut quinquageni iuniores extra
+          hos qui in matriculis continentur habeantur in promptu, armis exerciti et minori <del>ut
+            minori</del> utpote tirones stipendio subleuati, in locum amissorum si res ita tulerit
+          subrogandi. <milestone unit="par" n="8"/> His ita prouisis et integritas secura manebit
+          exercitus et damnis non deerunt matura et parata in primis subsidia.</p>
+      </div>
+      <div type="cap" n="6">
+        <head>VI De bellicis machinis</head>
+        <p><milestone unit="par" n="1"/> In primis sciendum est quod imperium Romanum
+          circumlatrantium ubique nationum perstringat insania et omne latus limitum tecta
+          naturalibus locis appetat dolosa barbaries. <milestone unit="par" n="2"/> Nam plerumque
+          memoratae gentes aut siluis teguntur aut extolluntur montibus aut uindicantur pruinis;
+          nonnullae uagae solitudinibus ac sole nimio proteguntur. <milestone unit="par" n="3"/>
+          Sunt quae paludibus fluminibusque defensae nec inueniri facile queunt, et tamen quietem
+          pacis lacerant inopinatis incursibus. <milestone unit="par" n="4"/> Ergo huiusmodi
+          nationes, quae aut talibus subsidiis aut ciuitatum castellorumque moenibus defenduntur,
+          diuersis et nouis armorum sunt machinis prosequendae. <milestone unit="par" n="5"/> Verum
+          ne qua difficultas in excitandis armorum generibus oriatur, imaginem tormentorum nihil a
+          uero distantem coloribus adumbratam orationi subieci, ut sit facilis imitandi
+          confectio.</p>
+      </div>
+      <div type="cap" n="7">
+        <head>VII Expositio ballistae quadrirotis</head>
+
+        <p><milestone unit="par" n="1"/> Exemplum ballistae, cuius fabricam ante oculos positam
+          subtilis pictura testatur. <milestone unit="par" n="2"/> Subiecta namque rotarum quattuor
+          facilitas, duobus subiunctis et armatis equis, ad usus hanc bellicos trahit; cuius tanta
+          est utilitas pro artis industria ut omni latere in hostem sagittas impellat, sagittarii
+          libertatem et manus imitata. <milestone unit="par" n="3"/> Habet foramina per quattuor
+          partes, quibus pro commoditate rerum circumducta et flexa facillime ad omnes impetus
+          parata consistat. <milestone unit="par" n="4"/> Quae quidem a fronte cochleae machina et
+          deponitur celerius et erigitur subleuata. <milestone unit="par" n="5"/> Sed huius temo in
+          quamuis partem necessitas uocet cita et facili conuersione deflexus erigitur. <milestone unit="par" n="6"/> Sciendum est autem quod hoc ballistae genus duorum opera uirorum
+          sagittas ex se non, ut aliae, funibus sed radiis intorta iaculatur.</p>
+      </div>
+      <div type="cap" n="8">
+        <head>VIII Expositio tichodifri</head>
+
+        <p><milestone unit="par" n="1"/> Tichodifrus quod est genus machinae ex rei suae
+          commoditate, Graeca appellatione, uocabuli sumpsit exordium, eo quod per hunc facilior in
+          murum paretur ascensus, ante ballistae semper ducendus incessum quo protectior eadem
+          ballista operetur. <milestone unit="par" n="2"/> Erit ergo huius quoque compositio uel
+          fabrica utili et commoda inuentione praeparanda. <milestone unit="par" n="3"/> Ergo hic
+          idem tichodifrus non altior sed humilior fabricatur, ut intra se possit latenter
+          incedentium celare uestigia: qui, duabus superimpositis cratibus fixoriisque confixis,
+          intra se tectos ab omni incursione defendit, duabus sane rotis ad promouendam machinam
+          latenter impulsus. <milestone unit="par" n="4"/> Cuius axium extremitates et frons nec non
+          et superior latitudo fuscinis et lanceis armatur diligenter aptatis, ne aggrediendi
+          cuiquam per uacantia defensore loca, id est superiorem partem, tribuatur facultas.</p>
+      </div>
+
+      <div type="cap" n="9">
+        <head>IX Expositio clipeocentri</head>
+        <p>Parma, hoc est modicus clipeus, fixoriis minutis ad soliditatem sui diligenter munitus,
+          uarie habetur idoneus; interdum enim operit gestientem, nonnumquam in fronte tichodifri
+          oppositus uel in temone suspensus munit inferius latitantes ab incursu comminus
+          uenientum.</p>
+      </div>
+      <div type="cap" n="10">
+        <head>X Expositio plumbatae <del>et</del> tribolatae</head>
+
+        <p><milestone unit="par" n="1"/> Hoc iaculi genus, quod in modum sagittae pennis uidetur
+          instructum, non arcus neque ballistae pulsu consueuit emitti, sed manus impetu et uiribus
+          elisum in hostem comminus uadit: quod excipienti gemina ratione uidetur afferre perniciem;
+          aut enim perimit infixum aut sine uulnere dilapsum et in terram positum plantae calcantis
+          infigitur, eo quod in partem quamlibet si fuerit conuersum, ex latere aculeo ex se
+          eminente inferat uulnus. <milestone unit="par" n="2"/> Fit autem ex ligno in modum
+          sagittae facto, cui ferrum subtiliter in formam uenabuli aptatum infigitur, fistula
+          eiusdem ferri parumper extensa, supra quam, modico interiecto spatio, plumbo adhaerentes
+          aculei uelut tribuli emergunt. <milestone unit="par" n="3"/> In summa autem parte eiusdem
+          iaculi affiguntur pennae celeritatis causa, tanto uidelicet super easdem pennas relicto
+          spatio quantum digiti potuerint tenentis amplecti.</p>
+      </div>
+
+      <div type="cap" n="11">
+        <head>XI Expositio plumbatae mamillatae</head>
+        <p><milestone unit="par" n="1"/> Bene extensa et directa uirga accipiet in extremitate sui
+          rotundum et in acumen deductum ferrum, similibus locis <supplied>ac</supplied> in
+          tribulata plumbo et pennis adhaerentibus, ut plumbi pondere et pennarum celeritate adiuta
+          rotunditas teli facilius clipeos aduersarii et similiter obstantia ualeat penetrare.</p>
+      </div>
+      
+      <div type="cap" n="12">
+        <head>XII Expositio currodrepani</head>
+        <p><milestone unit="par" n="1"/> Huiusmodi pugnacis uehiculi genus, quod armis praeter morem
+          uidetur instructum, repperit Parthicae pugnae necessitas. <milestone unit="par" n="2"/>
+          Sed hoc singulis bene munitis inuecti equis duo uiri uestitu et armis
+            <supplied>e</supplied> ferro diligenter muniti citato cursu in pugnam rapiunt; cuius
+          posterior supra currum pars cultris in ordinem exstantibus communitur, uidelicet ne
+          facilis a tergo cuiquam praebeatur ascensus. <milestone unit="par" n="3"/> Falces uero
+          acutissimae axibus eiusdem currus aptantur, in lateribus suis ansulas habentes, quibus
+          innexi funes pro arbitrio duorum equitum laxati quidem explicant, repressi autem erigunt
+          falces. <milestone unit="par" n="4"/> Qualia uero huiusmodi machinae funera hostibus
+          immittant uel quas turbatis ordinibus strages efficiant, dicent melius qui usu bella
+          cognoscunt.</p>
+      </div>
+     
+      <div type="cap" n="13">
+        <head>XIII Expositio currodrepani singularis</head>
+        <p><milestone unit="par" n="1"/> In hoc curriculo, quod singularis equi tractu discurrit
+          quodque unius hominis arte regitur et uirtute protegitur, eadem est quae in priori curru
+          armorum facies et ad repellenda tela et ad inferenda pericula; nec distat a superiore
+          quicquam machina, nisi quod superior currus pro magnitudine sui duobus equis tractus, a
+          duobus etiam bellatoribus gubernatur.</p>
+      </div>
+      <div type="cap" n="14">
+        <head>XIV Expositio currodrepani clipeati </head>
+
+        <p><milestone unit="par" n="1"/> Machinae huius admiratio habet nouitatis aliquid; est enim
+          a superioribus curribus quadam parte dissimilis, hic enim posterior uehiculi pars
+          uerberibus spontaneis ad incitandos equos et clipeis acuto ferro circumdatis uelut in
+          propugnaculo positis communitur. <milestone unit="par" n="2"/> Et est priori quidem currui
+          hac ratione dissimilis, quod hic non ut ibidem duos equos duorum etiam hominum sed unius
+          tantum sagacitas regit. <milestone unit="par" n="3"/> A secundo uero curru hac diuersitate
+          secernitur, quod in illo unus equus et pondus bellatoris subit <supplied><gap/></supplied> dum ipsum equitem
+          portat, et occulto temone iugum trahente minus amplectitur. <milestone unit="par" n="4"/>
+          Hic etiam licet conuertere laxatis funibus explicatas falces et ad perniciem hostium
+          longius ab axe porrectas. <milestone unit="par" n="5"/> Funis uero, quo laxato aut
+          explicantur falces aut represso super eosdem axes eriguntur, ligatur circulo haerenti
+          catafracto, in posterioris lateris parte exteriore, per quod uestiti equi ad omnes telorum
+          muniuntur incursus.</p>
+      </div>
+      <div type="cap" n="15">
+        <head>XV Expositio thoracomachi</head>
+
+        <p><milestone unit="par" n="1"/> Inter omnia, quae ad usum bellicum prouida posteritatis
+          cogitauit antiquitas, thoracomachum quoque mira utilitate ad leuamen corporis armorum
+          ponderi et asperitati subiecit. <milestone unit="par" n="2"/> Hoc enim uestimenti genus,
+          quod de coactili ad mensuram et tutelam pectoris humani conficitur, de mollibus lanis
+          timoris sollicitudo sollertia magistra composuit, ut hoc inducto primum lorica uel
+          cliuanus aut his similia fragilitatem corporis ponderis asperitate non laederent, membra
+          quoque uestientis inter armorum hiemisque discrimen tali solacio adiuta labori sufficiant.
+            <milestone unit="par" n="3"/> Sane ne idem thoracomachus pluuiis uerberatus
+          ingrauescente pondere adficiat uestientem, de Libycis bene confectis pellibus ad instar
+          eiusdem thoracomachi faciem conueniet superinducere. <milestone unit="par" n="4"/> Hoc
+          igitur, ut diximus, thoracomacho inducto — qui Graeca appellatione ex tuitione corporis
+          nomen assumpsit — , soccis etiam, hoc est calciamentis, et ferratis ocreis inductis,
+          superposita galea et scuto uel gladio lateri aptato, arreptis lanceis, in plenum pedestrem
+          subiturus pugnam miles armabitur.</p>
+      </div>
+      <div type="cap" n="16">
+        <head>XVI Expositio ascogefyri</head>
+
+        <p><milestone unit="par" n="1"/> Ne interdum necessario itineri exercitus fluuiorum — quod
+          plerumque euenit — occursus impediat, remedium ad hanc rem et compendio facile et usu
+          praecipuum repperit ingeniosa necessitas, quod tali ratione componitur. <milestone unit="par" n="2"/> Vitulinis pellibus Arabica arte mollitis — est enim apud eos
+          praecipua confectionis cura propter aquam de puteis follibus hauriendam — his igitur ut
+          dictum est diligenter sutis, fiunt utres in magnitudinem trium et semis pedum, ita ut, cum
+          idem utres spiritu inflati tumuerint, non extollant uterum sed aequalitate quadam
+          plenitudo ipsa utrium spatia plana perficiat, ex quorum lateribus loris subter adnexis
+          inuicem colligantur; desuper autem una parte circulis exstantibus ex altera inmittuntur
+          uncini; et ita, in formam pontis adsociata, partibus explicatur integritas. <milestone unit="par" n="3"/> Sed hoc idem opus obliquo fluuio propter impetum meatus facilius
+          usque ad alteram explicabitur ripam; quod, fixis in utraque ripa ferreis palis, et funibus
+          ualidis in medio quidem sub ipsis utribus propter incedentium sustinendum pondus, in
+          marginibus autem firmitatis gratia desuper extensis, transeundi per fluuium nouo quodam et
+          peregrino itineris apparatu intra breue temporis spatium praebebit liberam facultatem.
+            <milestone unit="par" n="4"/> Admonendi praeterea sumus quod super utrium
+          compaginationem cilicia sunt incedentium substernenda uestigiis, ne lubrica pellium
+          confectio insistendi deneget firmitatem. <milestone unit="par" n="5"/> In utraque tamen
+          ripa erunt manuballistae dispositae, ne hostilis manus pontem operantibus impedimento
+          consistat.</p>
+      </div>
+      <div type="cap" n="17">
+        <head>XVII Expositio liburnae</head>
+
+        <p><milestone unit="par" n="1"/> Liburnam naualibus idoneam bellis, quam pro magnitudine sui
+          uirorum exerceri manibus quodammodo imbecillitas humana prohibebat, quocumque utilitas
+          uocet ad facilitatem cursus ingenii ope subnixa animalium uirtus impellit. <milestone unit="par" n="2"/> In cuius alueo uel capacitate bini boues machinis adiuncti
+          adhaerentes rotas nauis lateribus uoluunt, quarum supra ambitum uel rotunditatem exstantes
+          radii, currentibus iisdem rotis, in modum remorum aquam conatibus elidentes miro quodam
+          artis effectu operantur, impetu parturiente discursum. <milestone unit="par" n="3"/> Haec
+          eadem tamen liburna pro mole sui proque machinis in semet operantibus tanto uirium fremitu
+          pugnam capescit, ut omnes aduersarias liburnas comminus uenientes facili attritu
+          comminuat.</p>
+      </div>
+      
+      <div type="cap" n="18">
+        <head>XVIII Expositio ballistae fulminalis</head>
+
+        <p>A <milestone unit="par" n="1"/> Huiusmodi ballistae genus, murali defensioni necessarium
+          supra ceteras, impetu et uiribus praeualere usu compertum est: arcu etenim ferreo supra
+          canalem quo sagitta exprimitur erecto, ualidus nerui funis ferreo unco tractus eandem
+          sagittam magnis uiribus in hostem dimissus impellit. <milestone unit="par" n="2"/> Hunc
+          tamen funem non manibus neque uiribus militum trahi fabricae ipsius magnitudo permittit,
+          sed retro duabus rotis uiri singuli radiorum nisibus adnitentes funem retrorsum tendunt,
+          pro difficultate rei uiribus machinis adquisitis. <milestone unit="par" n="3"/> Ballistam
+          tamen ipsam ad dirigenda seu altius seu humilius tela cochleae machina prout uocet
+          utilitas nunc erigit, nunc deponit. <milestone unit="par" n="4"/> Hoc tamen mirae uirtutis
+          argumentum: tot rerum diuersitate connexum unius tantum otiosi (ut ita dicam) hominis ad
+          offerendam tantummodo inpulsioni sagittam opera gubernat; uidelicet ne, si hominum turba
+          huius ministerio inseruiret, minueretur artis inuentio. <milestone unit="par" n="5"/> Ex
+          hac igitur ballista tot et tantis ingenii artibus communita expressum telum in tantum
+          longius uadit, ut etiam Danubii, famosi pro magnitudine fluminis, latitudinem ualeat
+          penetrare. Fulminalis etiam nuncupata, appellatione sua uirium testatur effectum.</p>
+        <p>B <milestone unit="par" n="7"/> His igitur, inuicte imperator, machinarum quoque
+          inuentionibus communitam potentiam inuicti duplicabis exercitus, hostium incursibus non ui
+          solum et uiribus obuiando, sed etiam artis ingenio, maxime cum animi sagacitate per omnia
+          elementa machinas reppereris ualituras. <milestone unit="par" n="8"/> Nam siue terra sint
+          subeunda discrimina contra desperati hostis audaciam, falcatis curribus per aperta
+          camporum fugientium agmina persequeris; siue murum subire temptauerit occulta temeritas,
+          experietur ballistae fidem antequam ueniat; aut si uictricem exercitus cursum fluuiorum
+          uspiam meatus impediet, portatilis pontis peculiaris succurret inuentio. <milestone unit="par" n="9"/> Quod si nauali bello terras fugiens maria hostis obsideat, nouo
+          celeritatis ingenio terrestri quodammodo ritu rotis et bubus subacta fluctibus liburna
+          transcurrens restituet sine mora uictoriam. <milestone unit="par" n="10"/> Quis enim huius
+          uiribus resistet, quae et terrestris uehiculi nititur firmitate et habet de nauigii
+          facilitate remedium? <milestone unit="par" n="11"/> Erit praeterea fulminalis ballista
+          felicium limitum custos, quae quanto minus ad armandam se uirorum ministerium quaerit,
+          tanto est ingenii uirtute praestantior; quicquid enim opis in ea numerosior manus afferre
+          potuisset, id sibi artis ingenio dotata largitur.</p>
+      </div>
+      
+      <div type="cap" n="19">
+        <head>XIX De bellico apparatu</head>
+
+        <p><milestone unit="par" n="1"/> Cum bellicus apparatus prouocet certamina, ne turba militum
+          confusis ordinibus uirtus compressa minuatur, conueniet ducem spatia ternis agminibus
+          ordinare, ita ut singula quaeque agmina duobus tantum uirorum milibus instruantur, ne
+          compressa populositas, in perniciem propriam auxiliis abundans, suis copiis opprimatur.
+            <milestone unit="par" n="2"/> Conueniet tamen per glaciales euntem militem plagas et
+          thoracomacho muniri, et reliquis ad tutelam pertinentibus rebus prout membrorum poscit
+          utilitas armari, ut et frigoribus sufficiat et telis possit occurrere; minoribus sane
+          clipeis assumptis, ne sit — quod usu plerumque euenit — pro armorum latitudine siluarum
+          densitas inaccessa, et amittatur armorum enormitate refugium. <milestone unit="par" n="3"/> Ad omnia tamen repentina subsidia militarem uiam leuibus portatum uehiculis ascogefyri
+          comitetur auxilium, quo facilius et latior fluminum superetur occursus et effugiendi trans
+          fluuium, si res ita tulerit, facilitas offeratur. <milestone unit="par" n="4"/> Persarum
+          sane gens, cui praeter ceteras nationes et dolus cordi est et corpori suppetit uirtus,
+          quadratis est agminibus et maiori bellorum apparatu superanda; ubi etiam machinarum est
+          omnis quam rettulimus industria proponenda, quae et uiribus resistat et dolos callidae
+          gentis refutet. <milestone unit="par" n="5"/> In huiusmodi igitur congressibus
+          tichodifrus, duorum gestatus ministerio uirorum, protegat ballistam multum bellicis
+          subsidiis profuturam. <milestone unit="par" n="6"/> Sub ipsius ergo tichodifri tegmine
+          latentes scutati usque ad uiciniam pugnaturi hostis adueniant, qui post detecti protegendi
+          sunt ab omni telorum nube, eiusdem tichodifri tabulatis, ut meminimus, acutis ferreis
+          communitis. <milestone unit="par" n="7"/> Cum uero inclinatum hostium pondus fugae
+          praesidia meditetur, falcatis curribus exercenda uictoria est, quibus fugientium poplites
+          incidantur. <milestone unit="par" n="8"/> Vbi tamen angustiora loca agmen nequaquam
+          explicari permiserint, coartatam aciem longus machinarum siue tormentorum ordo circumdet,
+          ne constrictum latus liberior hostis infestet. <milestone unit="par" n="9"/> Erit tamen
+          utilior cura si duplex animalium numerus ad subuectionem tormentorum ducatur, ut sit copia
+          in dubiis rebus uel lassitudini uel casibus subuenire.</p>
+      </div>
+  
+      <div type="cap" n="20">
+        <head>XX De limitum munitionibus</head>
+
+        <p><milestone unit="par" n="1"/> Est praeterea inter commoda rei publicae utilis limitum
+          cura ambientium ubique latus imperii; quorum tutelae assidua melius castella prospicient,
+          ita ut millenis interiecta passibus stabili muro et firmissimis turribus erigantur.
+            <milestone unit="par" n="2"/> Quas quidem munitiones possessorum distributa sollicitudo
+          sine publico sumptu constituat, uigiliis sane in his et agrariis exercendis, ut
+          prouinciarum quies circumdata quodam praesidii cingulo inlaesa requiescat.</p>
+      </div>
+      
+      <div type="cap" n="21">
+        <head>XXI De legum uel iuris confusione purganda</head>
+
+        <p><milestone unit="par" n="1"/> Diuina prouidentia, sacratissime imperator, domi forisque
+          rei publicae praesidiis comparatis, restat unum de tua serenitate remedium ad ciuilium
+          curarum medicinam, ut confusas legum contrariasque sententias, improbitatis reiecto
+          litigio, iudicio augustae dignationis illumines. <milestone unit="par" n="2"/> Quid enim
+          sic ab honestate consistit alienum quam ibidem studia exerceri certandi ubi, iustitia
+          profitente, discernuntur merita singulorum?</p>
+      </div>
+
+
+
+    </body>
+  </text>
+</TEI>

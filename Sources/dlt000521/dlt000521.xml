@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>De Taxone (Recensio β)</title>
+        <author>Anonymus</author> 
+        <respStmt>
+          <resp>Correzione linguistica</resp>
+          <name>David Paniagua</name>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica XML</resp>
+          <name>David Paniagua</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>digilibLT</publisher>
+        <pubPlace>Vercelli</pubPlace>
+        <date>2011</date>
+        <availability>
+          <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+        </availability>
+        <idno>dlt000521</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Corpus medicorum latinorum. Vol. IV.  Antonii Musae De herba Vettonica liber, Pseudoapulei Herbarius, Anonymi De taxone liber, Sexti Placiti Liber medicinae ex animalibus, ediderunt E. Howald et H. E. Sigerist, Leipzig et Berlin 1927. 
+        </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+        <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+      </projectDesc>
+      <editorialDecl>
+       
+        
+        <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+        <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+          l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+          e commenti e ogni altro contenuto redatto da editori moderni. </p>
+        <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+          correttezza di trascrizione</p>
+        <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+          distinzione u/v minuscole.</p>
+        <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+        <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+          grassetto, corsivo, spaziatura espansa.</p>
+        <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+          <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+          <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+          si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+          [...]<lb/> lacuna integrata dagli editori:
+          <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+        </p>
+        <p>Sono stati marcati i termini in lingua greca
+          <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+        </p>
+        <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+          target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+          >Note di trascrizione e codifica di testi latini tardoantichi
+          [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+      </editorialDecl>
+      
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latino</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="opus"><head>De Taxone</head>
+        <salute>Partus rex Aegyptiorum Octauio Augusto salutem.</salute>
+        <p>Plurimis exemplis expertus sum uictoriam tuam et prudentiam et tamen arbitror numquam incidisse manus tuas tantae uirtutis remedium, quod ab Aesculapio repertum est, quod ego cum maximis indiciis, cum adessem in exercitu meo, expertus sum, conditioni tuae dignum. Operae pretium iudicaui <gap/> bestiolam hanc quadrupedem, quam nos taxonem adpellamus, quidam etiam melem dicunt, et ideo ne quis maleficus te tuosque nocere possit <unclear>neque defectionibus quod exercitui meo in armis contingat.</unclear></p><p>
+          Quem prendis et ieiuno extrahis dentes, quos magnos habuerit, et cum extraxeris, has preces dices: "Butabar torthon hydran cermalis metonbor loro namdison tha saniorden". Haec nouies dices uerba et hos dentes melis pertundes et ex auro in brachio ligabis tibi et tuis adhaerentibus sic ut corpus tangat et nec sidus nec caniculae tempestas nocebit nec pestilentia neque occursus malus nocere poterit, aut si quid fuerit, statim dens rumpit.</p><p>
+            Pedem eius dextrum isdem uerbis incantabis et in quacumque contentione uel pugna fueris, superior eris, cum habueris tecum ipsum pedem.</p><p>
+              De adipe quoque eius equum aegrum perungues et statim ei febres declinant, dumtaxat sibi uita superest, nam eius prorogat tempus, et si maior fuerit morbus, celerius recedet.</p><p>
+          Cerebellum eius in oleo decoquis sextariis III in olla rude. deferueat, donec tertia pars eius remaneat, et reliquum percola, et si quis capitis dolore uel pedum uexatur, a balneo curet caput uel pedes per triduum, et si antiquus dolor fuerit. Et eis proderit, qui comitiali morbo 
+          laborant, et quod insanabile uidetur et quod inueteratum fuerit, in uase rude cum feruescit.</p><p>
+            Has preces dices: "Horner laxi abcol fecesitias et ior dodienlaecaon utus celi libera."</p><p>
+              Pellem eius canibus circumdari, ne pestilentia laborent. Ex ea pelle pelliculas in calce habeto et ex oleo eius curato pedes, tibi non laborabunt.</p><p>
+                Si cui malefactum fuerit et non potuerit rebus uenereis uti, testiculos eius cum melle decoque et ex aqua fontanali, quae est perennis, si ieiunus per triduum bibat, remediatur, sic ut deficere non possit.</p><p>
+                  Sanguis eius, sicut omnibus notum est, cum sale minuto miscebis. Equis et mulis et bubus et quibuscumque animalibus et quadrupedibus maxime, qui uidebuntur pestilentia laborare, per triduum continuo per cornum coicito, prout fuerit magnitudo pecoris, statim remediabitur.</p><p>
+                    Iocinera eius circa fines urbis tuae <supplied>obrues</supplied> aut secundum terminos fundi tui. Plures autem partes habet iocineris, quam alius quadrupes. Haec a grandine non periclitantur.</p><p>
+                      Cor eius ad ipsam portam obrue, per quam tu ipse ire aut uenire consuisti. Omnem pestilentiam carebunt, etiam et si quid antiquitus fuerit, expiabitur.</p><p>
+                        Pellem eius decoque ex aqua fontana, domum lustra ex ramis lauri, et tibi et domui tuae proderit.</p><p>
+          Volo credas, amice carissime, hunc bestiolum perpetuo prodesse populo Romano. Si castimonialibus <unclear/>carne eius his diebus V usi fuerint, et ex eo quod urbem lustrant et ad portas singulas defoderit omnem pestilentiam remota, maxime ab igne tutum erit, non erit periculum exercitibus tuis, prodest aduersus pestilentiam, quam barbari inferent <unclear>pugna</unclear>.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

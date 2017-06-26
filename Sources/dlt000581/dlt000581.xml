@@ -1,0 +1,4100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Breuis expositio Vergilii Georgicorum</title>
+    <author>Philargyrius / Philagrius</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Raffaella Tabacco</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2015</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000581</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Anonymi Brevis Expositio Vergilii Georgicorum, in Appendix Serviana.
+      Ceteros praeter Seruium et scholia Bernensia Vergilii commentatores continens</hi>, recensuit
+     H. Hagen, Hildesheim 1961, pp. 191-320 (= G. Thilo et H. Hagen, Servii grammatici commentarii
+     III.2, Leipzig 1902).</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+   
+
+    <p><hi rend="bold">Note di trascrizione e codifica specifiche del file </hi></p>
+    <p>Si sono eliminate le integrazioni aggiunte dall'editore moderno a indicare i passi citati e
+     si sono sostituite le parentesi tonde con le uncinate in quanto indicanti integrazioni.
+     Inoltre, si è ricorsi al corsivo per segnalare la presenza di un termine in gaelico.</p>
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+
+   <div type="lib" n="I">
+    <head>LIBER I</head>
+    <div type="pr" n="pr">
+     <p>IN NOMINE DEI PATRIS ET FILII ET SPIRITVS SANCTI INCIPIT LIBER ‛GEORGICORVM BREVIS
+      EXPOSITIO’.</p>
+     <p>Virgilius in operibus suis diversos secutus est poetas, Homerum in Aeneade, quem licet longo
+      intervallo secutus est, Theocritum in Bucolicis, a quo non longe abest, Hesiodum in his
+      libris, quem penitus reliquit. Hic autem Hesiodus fuit de Ascra insula, qui scripsit ad
+      fratrem suum Persen librum, quem appellavit <foreign xml:lang="grc">ἔϱϰαὶ ἡμέϱας</foreign>,
+      idest opera et dies. Hic enim liber continet, quemadmodum agri et quibus temporibus sint
+      colendi. Cuius libri titulum transferre noluit, sicut Bucolicorum transtulit, sicut Aeneadem
+      appellavit (ad imitationem) Odysseae. Tamen cum periphrasi primo exprimit versu dicens:
+      Indicabo, quo opere et quibus (temporibus) ager colendus sit.</p>
+     <p>Ingenti autem egit arte, ut potentiam nobis sui indicaret ingenii coartando lata et
+      angustiora dilatando. Nam cum Homeri et Theocriti in brevitatem scripta collegerit, unum
+      Hesiodi librum divisit in quattuor, quod ratione non caret. Nam omnis terra, ut etiam Varro
+      docet, quadrifariam dividitur: aut arvus est ager, idest sationabilis, aut consitus, idest
+      aptus arboribus, aut pascuus, qui herbis tantum et animalibus vacat, aut floreus, in quo sunt
+      horti apibus congruentes et floribus.</p>
+     <p>Male autem quidam Georgicorum duos tantum esse adserunt libros dicentes georgian esse
+       <foreign xml:lang="grc">γῆς ἔϱγον</foreign>, idest terrae operam, quam primi duo continent
+      libri; III et IIII licet georgian non habeant, tamen ad utilitatem rusticam pertinere dicimus.
+      Nam et pecora et apes habere studii est rustici. Licet possimus agriculturam etiam in his II
+      invenire sequentibus. Nam et farrago sine cultura non nascitur et in hortis colendis non
+      minorem circa terram constat inpendi laborem. Et hi libri didascalici sunt. Vnde necesse est,
+      ut ad aliquem scribantur. Nam praeceptum et doctoris et discipuli personam requirit. Vnde ad
+      Maecenatem dixit vel scribit, sicut Hesiodus ad Persen, Lucretius ad Mettium vel Memmium vel
+      Remmium.</p>
+     <p>Sane agriculturae huius praecepta non ad omnes pertinent terras, sed ad solum (situm)
+      Italiae et praecipue Venetiae teste ipso Virgilio, qui ait: <hi rend="expanded">Tibi res
+       antiquae laudis et artis Ingredior</hi>, cum de Italia diceret.</p>
+     <p>In scripturis II sunt sectanda, utilitas et iucunditas. Quid utilius agricultura, qua Italia
+      calet, in quo ait: <hi rend="expanded">Salve magna parens frugum Saturnia tellus?</hi> Quid
+      iucundius, quam id, quod Hesiodus dixit, Graecus et antiquus poeta, et Virgilius secutus: <hi
+       rend="expanded">Ingredior sanctos ausus recludere fontes Ascraeumque cano Romana per oppida
+       carmen?</hi></p>
+     <p>Hoc opus studiose voluit, hoc est agriculturam, IIII voluminibus esplicare, velut agri IIII
+      generibus cultus aut vocabulis continetur: arvus, consitus, pascuus, floreus. Atque ita
+      divisit primum, (ut) duae species esse videantur, hoc est agrorum cultura et rusticatio. Atque
+      culturam item dupliciter divisit II libris: in primo segetum solertiam, in secundo vitium
+      arborumque culturam. Item rusticationem bipertite II voluminibus ostendit: in tertio delectum
+      pecorum conprehendit, in IIII experientiam apium indicavit. Quapropter principia iuxta
+      praecepta rhetorum his libris adhibentur, hoc est primo et tertio; ut in primo enim de agri
+      solertia incipit, ita et in tertio de pecorum custodiis inchoat, ut scilicet sit praefatio,
+      invocatio, expositio. Vt in Aeneade est, uti diximus, ita et hic praefatio: <hi
+       rend="expanded">Quid faciat laetas segetes</hi> et cetera. Sequitur invocatio, ut: <hi
+       rend="expanded">Vos, o clarissima mundi Lumina</hi>. Deinceps expositio: <hi rend="expanded"
+       >Vere novo gelidus canis cum montibus humor Liquitur</hi>.</p>
+     <p>In tertio sane Georgicorum libro cuncta permiscuit in principiis, quod etiam in volumine I
+      contra usum de pecoribus praedixerat, cum ait: <hi rend="expanded">Quae cura boum rel</hi>.
+      Atque ita in eodem tertioque omnia breviter conprehendit et dilucide explicuit, ut IIII studia
+      ruris IIII voluminibus indicaturus IIII versibus inciperet et clauderet; de agricultura: <hi
+       rend="expanded">Quid faciat laetas segetes rel.</hi>, de vitibus et arboribus: <hi
+       rend="expanded">Vlmisque adiungere vites Conveniat</hi>; de pecoribus: Quae cura boum rel.;
+      de apium delectu: <hi rend="expanded">Apibus quanta experientia parcis</hi>. Nam et ad ornatum
+      et decorem operis sui epilogos subdidit, perfectionem utique indicans carminis, ut in secundi
+      libri fine; cum omnia vitae instituta conprehenderet, praecipue praeposuit omnium laudibus
+      experientiam ruris, cum ait: <hi rend="expanded">O fortunatos nimium, sua si bona norint,
+       Agricolas</hi>, et subdens cetera, in quibus cum alia indicat instituta, tum maxime praedicat
+      et praefert his omnibus exercitium agricolarum fide, quiete, utilitate, iustitia, cum dicit:
+       <hi rend="expanded">At secura quies et nescia fallere vitam, Dives opum variarum, at laetis
+       otia fundis, Speluncae vivique lacus et frigida Tempe Mugitusque boum mollesque sub arbore
+       somni Non absunt; illic saltus ac lustra ferarum</hi> usque: <hi rend="expanded">vestigia
+       fecit</hi>. Item in IIII fine ex Aristaei invento originem apium praedicavit, cum ait: <hi
+       rend="expanded">Tempus et Arcadii memoranda inventa magistri Pandere</hi> et cetera, quae
+      velut in epilogo fabula Orphei subdidit et ornavit.</p>
+     <p>Omnis agri, qui colitur, IIII sunt species: arvus, consitus, pascuus, floreus. In hanc
+      materiam quadrifariam opus suum divisit poeta. Cuius tantum duae sunt species: alia enim ad
+      agriculturam pertinet, alia ad rusticationem. Et agriculturae quidem opera sunt segetes et
+      vites aliaque, quae ex agris nascuntur, rusticationis autem cura pecorum et ovium ceterorumque
+      animalium, quae ruri sunt fructuosa. Ergo duo priores libri super agricultura sunt, quapropter
+      velut perfecto opere in II libro laudem agriculturae exsequitur, in quo etiam nullo velut
+      principio utens statim ad ipsam rem transit, scilicet praefationem eius operis abunde
+      explicante primo libro. At vero opus rusticationis III et IIII voluminibus continetur,
+      quapropter tertius longiorem rursum praefationem velut novo principio ac primae conparatione
+      incipit, et IIII expeditam et festinantem referens ex secundo similitudinem.</p>
+     <p>Principium Georgicorum paene tale est, quale in Aeneade: Vt expositio materiae ibi, hic
+      praefatio; secunda invocatio numinis, ut: <hi rend="expanded">Musa, mihi causas memora</hi>;
+      tertia expositio materiae narrativa, ut: <hi rend="expanded">Vrbs antiqua fuit</hi>. Hic
+      igitur praefatio est: <hi rend="expanded">Quid faciat laetas segetes</hi>; invocatio numinis:
+       <hi rend="expanded">Vos, o clarissima mundi Lumina</hi>, ut ibi: <hi rend="expanded">Musa,
+       mihi causas</hi>; expositio materiae: <hi rend="expanded">Vere novo gelidus</hi> reliqua.</p>
+    </div>
+
+    <div n="1" type="schol">
+     <p> QVID FACIAT LAETAS SEGETES idest quae res terras pingues efficiat; nam segetem modo pro
+      terra arata posuit, sicut alibi: <hi rend="expanded">Horrescit seges † sentibus</hi>. Pingues
+      autem efficit terras, ut paulo post dicturus est, cinis, intermissio arandi, incensio
+      stipularum, stercoratio. Vnde etiam ‛laetas’ ait; nam fimus, qui per agros iacitur, vulgo
+      laetamen vocatur. Nec sane segetes simpliciter pro terra ponuntur, sed pro terra arata; Varro
+      rerum rusticarum (I) libro: <hi rend="expanded">Prata purgari, salicta seri, segetes arari
+       convenit</hi>, et infra: <hi rend="expanded">Seges dicitur, quod aratum, nondum satum
+       est</hi>. Accius in Atreo: <hi rend="expanded">Si in segetem deteriorem datae sunt
+       fruges</hi>. Cicero de re publica libro V: <hi rend="expanded">Tum in optimam segetem
+       praeclara essent sparsa semina</hi>, et in Hortensio: <hi rend="expanded">Vt † non segetes
+       agricolae subiunguntur aristis multo ante, quam serant</hi>. Postremo ipse Virgilius: <hi
+       rend="expanded">Illa seges demum votis respondet avari Agricolae, bis quae solem, bis frigora
+       sensit</hi> non dubie de terra arata dixit.</p>
+     <p>QVO SIDERE idest quo tempore vel cuius sideris ortu (vel occasu); ex sideribus enim tempora
+      colliguntur. In his quattuor versibus primis IIII agrorum genera sunt: <hi rend="expanded"
+       >quid faciat</hi>: arvus; <hi rend="expanded">vertere</hi>: consitus; <hi rend="expanded"
+       >conveniat</hi>: pascuus; <hi rend="expanded">sit pecori</hi>: floreus. </p>
+    </div>
+
+    <div n="2" type="schol">
+     <p> VERTERE arare. <del>MYCENAS civitas Graeciae, in qua vites optimae nascuntur. Item</del>
+      MAECENAS <del>Maecenatis facit</del>, in cuius honorem Georgica scripsit. VLMISQVE ADIVNGERE
+      VITES. Proprie enim vites ulmis maritantur, ut ipse: <hi rend="expanded">summasque sequi
+       tabulata per ulmos</hi>. Et secundum Italiae situm locutus est, in qua vites altius
+      elevantur. Sic alibi: <hi rend="expanded">Non eadem vindemia arboribus pendet nostris</hi>,
+      vel quia in Italia arbores sunt ingentes. </p>
+    </div>
+
+    <div n="3" type="schol">
+     <p> QVAE CVRA BOVM. In sequenti epexegesis est, ut hoc sit ‛qui cultus habendus sit pecori’,
+      quod est ‛quae cura boum’: aut certe <foreign xml:lang="grc">ϰατ' ἐξοχήν</foreign> ait boves
+      et postea intulit cetera pecora, ut maius animal separaret a minoribus, sicut de hominibus
+      facit dicens: relliquias Danaum atque i. A.</p>
+     <p>HABENDO dum habentur, ut habeantur. QVI CVLTVS. Cultum posuit pro cultura. Cultura enim in
+      animi constat intensione, cultus autem in ipsa operis diligentia, ex quo verbum nimirum illud
+      in consuetudinem pervenit, ut pecora ‛culta’ dicantur. </p>
+    </div>
+
+    <div n="4" type="schol">
+     <p> EXPERIENTIA usu nata doctrina, notitia scientia. PARCIS idest servatricibus, quae mella
+      custodiunt. </p>
+    </div>
+
+    <div n="5" type="schol">
+     <p> VOS O CLARISSIMA. Sunt, qui Solem et Lunam volunt intellegi. Stoici autem dicunt, non esse
+      nisi unum Deum et unam eandemque potestatem, quae pro ratione officiorum nostrorum variis
+      nominibus appellatur. Vnde (Solem) eundem Liberum, eundem Apollinem vocant. Item Lunam eandem
+      * Proserpinam dicunt, secundum quos pro Sole Liberum, pro Luna Cererem invocavit. </p>
+    </div>
+
+    <div n="6" type="schol">
+     <p> QVAE DVCITIS ANNVM idest quorum cursu tempora conputantur; nam per Lunam menses, per Solem
+      annus ostenditur. </p>
+    </div>
+
+    <div n="7" type="schol">
+     <p> ALMA pulchra ab alendo. CERES a creando dicta. Aut per Liberum masculos Deos, per Cererem
+      feminas Deas significat. SI pro siquidem; nam ‛si’ confirmantis est. </p>
+    </div>
+
+    <div n="8" type="schol">
+     <p> CHAONIAM quia in Chaonia, in regione Epiri, priusquam Ceres frumentum invenisset, antiqui
+      homines glande vescebantur. Et modo speciem pro genere posuit; non enim in Epiro tantum
+      glandes fuerunt aut de solo Achelonio homines potaverunt. (ARISTA). Aristam pro frumento
+      posuit, cum proprie ab ariditate sit dicta. </p>
+    </div>
+
+    <div n="9" type="schol">
+     <p> ACHELONIA. Achelonius fluvius Aetoliae; non quod ipse solus vino sit mixtus, sed ipsum pro
+      qualibet aqua posuit. Sive, quoniam ex Oceano et Thetide multis genitis fluviis hic primus
+      natus est, in honore eius omnis Achelonia dicta est aqua. POCVLAQVE INVENTIS ACHELONIA MISCVIT
+      VVIS. Staphylus enim, Oenei regis pastor, cum videret caprum saepius a grege discedere et
+      pleniorem reverti, secutus uvam depascentem invenit, quam decerpsit et gustavit; cuius
+      dulcedine inductus eam expressit, et cum humorem eius bibisset, quem et suavem sensit * ac per
+      hoc de Acheloo flumine, in cuius ripa uva fuerat inventa, aquam miscuit vino, atque ita cum
+      potum optimum fecisset, speciem uvae et potum obtulit regi; quae cum ille probasset, uvam
+      inventoris nomine (<foreign xml:lang="grc">σταφνλήν</foreign>) vocari iussit, vinum Graeco
+      verbo <foreign xml:lang="grc">οἶνον</foreign> a suo nomine appellavit. </p>
+    </div>
+
+    <div n="10" type="schol">
+     <p> ET VOS AGRESTVM PRAESENTIA NVMINA idest propitia, ut: <hi rend="expanded">Nec tam
+       praesentes alibi cognoscere divos</hi>, quorum praesentia favor est; et bene de diversis
+      rebus dicturus diversa invocat numina. </p>
+    </div>
+
+    <div n="11" type="schol">
+     <p> FERTE SIMVL PEDEM idest ‛ferte’ aut simul venite aut date carmini meo facilitatem, quod
+      utique pedibus continetur, ut sit ‛ferte pedem’: metricam praestate rationem. FAVNI Dii
+      silvestres. Faunus et Fauna, Dii Latinorum, soliti fari, et a fando Fauni sunt dicti.</p>
+     <p>DRYADES arborum Nymphae. </p>
+    </div>
+
+    <div n="13" type="schol">
+     <p> FVDIT EQVVM. Quoniam ab Ope pro Neptuno sit equus subpositus Saturno, sicut lapis pro Iove,
+      convenit huiusmodi historiam dicere et Neptunum invocare, quod de natura equorum dicturus est.
+     </p>
+    </div>
+
+    <div n="12" type="schol">
+     <p> CVI PRIMA usque 14" type="schol"> NEPTVNE. Quia Neptunus in Thessalia scopulum tridenti
+      percussit, ex quo equus Pegasus vel Scyphius nomine prosiluisse dicitur, ut alibi: <hi
+       rend="expanded">At Messapus, equum domitor, Neptunia proles</hi>. </p>
+    </div>
+
+    <div n="14" type="schol">
+     <p> ET CVLTOR NEMORVM. Aristaeum invocat, Apollinis et Cyrenes filium, quem Hesiodus dicit
+      Apollinem pastoralem fuisse. Hic, ut etiam Sallustius docet, post laniatum a canibus Actaeonem
+      filium matris instinctu Thebas reliquit et Ceam insulam obtinuit primo, adhuc hominibus
+      vacuam, postea (ea) relicta cum Daedalo ad Sardiniam transitum fecit. Item: PINGVIA CEAE.
+      (Cea) insula Aegaei maris est, quae primo dicitur (a) Nymphis habitari, ideoque et Hydrussam
+      dictam, postea a Ceo Naupactio Ceam appellatam, in quam Aristaeus ex Arcadia venisse fertur et
+      responso patris Apollinis monitus. Qui ex pecoribus usum lactis invenit et mellis studium
+      apium solertia consecutus est. </p>
+    </div>
+
+    <div n="15" type="schol">
+     <p> TER CENTVM pro multis. NIVEI candidi. DVMETA aspera. </p>
+    </div>
+
+    <div n="16" type="schol">
+     <p> LYCAEI montis Arcadiae. </p>
+    </div>
+
+    <div n="17" type="schol">
+     <p> PAN OVIVM CVSTOS. Pana Pindarus ex Apolline et Penelopa in Lycaeo monte editum scribit, qui
+      a Lycone, rege Arcadiae, Lycaeus mons dictus est. Alii ex Mercurio et Penelopa natum, comitem
+      Dianae feras solitum a cubilibus excitare et ideo capripedem figuratum, quo facilius
+      densitatem cursu posset evadere. Cicero ait in IIII Verrinarum, Liberi esse filium. Alii eum
+      ex Aethere et Iunone, Apollodorus * sine parentibus eum fingit, quoniam universum, idest
+       <foreign xml:lang="grc">τὸ πᾶν</foreign>, huic Deo sit adtributum. Cornua, quibus solis
+      circuli lunaeque designantur; pellis maculis distincta, quae variam designat imaginem siderum;
+      inferior pars corporis hirsuta, ut situs terrae; cum fistula est, quoniam flatus ventorum ex
+      eo oriuntur; metus vero ad repentinas fugas Panicus dictus propter subitam aeris
+      commotationem. Eundem volunt etiam lanificii repertorem, a quo dictas paniculas. Denique
+      Virgilius ex eo: <hi rend="expanded">Munere sic niveo lanae, si credere dignum est, Pan, Deus
+       Arcadiae, captam te, Luna, fefellit</hi>.</p>
+     <p>SI siquidem. MAENALA idest mons Arcadiae. </p>
+    </div>
+
+    <div n="18" type="schol">
+     <p> TEGEAEE vocativus est a dirivatione Tegei, oppidi Arcadiae. Et ‛Tegeum’ tribrachys est,
+      ‛Tegeaeus’ paeon primus.</p>
+     <p>ADSIS O TEGEAEE. ‛O’ subdistinguendum non est. O TEGEAEE. Tegea, Arcadiae civitas, ut apud
+      Pacuvium in Atalanta: Tegea Arcadiae civitas calumina antiquum oppidum. OLEAEQVE INVENTRIX.
+      Sunt, qui dicunt, Athenis prolatum esse olivae ramum a Minerva <del>quae terram percussit et
+       erupit oliva</del>. Sunt, qui putant, olei humorem idcirco Minervae convenire, quia nulli
+      possit misceri incorruptus et integer, conparabilis Virgini Deae, quae ex uno parente dicatur
+      esse progenita, quam sapientiam interpretantur, virtutem inviolabilem, ut Homerus. Cum ergo
+      inter Minervam et Neptunum de terra Attica esset contentio, primum Minerva in arce Athenarum
+      olivae arborem protulisse fertur, tum Neptunus iratus mare in civitatem misit, postea per
+      Mercurium rogatus sedavit iracundiam. Ita demum Athenae dictae sunt ob victoriam Minervae.
+     </p>
+    </div>
+
+    <div n="19" type="schol">
+     <p> PVER MONSTRATOR ARATRI VNCI. Alii Triptolemum, Celei filium, dicunt, alii Osirim putant, *
+      ob quam ab Aegyptiis inter Deos sit relatus. Triptolemus, Celei, regis Eleusinae, filius fuit,
+      qui usum serendi primus invenit et mortalibus tradidit. Bene autem de nomine tacuit et
+      generaliter ait ‛puer’. Nam non unus aratrum in toto orbe monstravit, sed diversi in diversis
+      locis. </p>
+    </div>
+
+    <div n="20" type="schol">
+     <p> SILVANE. Silvanus Deus silvarum, quem quidam Faunum dicunt. Hic adamavit puerum, Cupressum
+      nomine, qui habebat mansuetissimam cervam. Hanc cum Silvanus nescius occidisset, puer dolore
+      extinctus est, quem amator Deus in cupressum arborem eius nominis vertit, quam pro solatio
+      portare dicitur. Hunc Silvanum quidam funebrem Deum arbitrantur et ideo cupressum tribuunt ei,
+      quia eadem arbor apta sit funeri ob radicum infirmitatem. </p>
+    </div>
+
+    <div n="21" type="schol">
+     <p> DIIQVE DEAEQVE. Post specialem transit ad generalem invocationem, ne quod numen praetereat.
+      Quod autem ait: studium quibus arva tueri et rel., nomina haec numinum (in) indigitamentis
+      inveniuntur, idest in libris pontificalibus, qui et nomina Deorum et rationes ipsorum nominum
+      continent, quae etiam Varro ait. Nam, ut supra diximus, nomina numinibus ex officiis constat
+      inposita: verbi causa ab occatione Deus Occator dicitur, a sarritione Sarritor, a
+      stercoratione Sterculinius, a satione Sator. TVERI pro tuendi. </p>
+    </div>
+
+    <div n="22" type="schol">
+     <p> NON VLLO SEMINE FRVGES idest non iactas a nobis. </p>
+    </div>
+
+    <div n="24" type="schol">
+     <p> TVQVE ADEO. Ad Augustum adulatur, quem vivum inter Deos nomínat et vocat, nec tamen totum
+      adulationi dandum, sed (et) veritati. Nam cum omnes Imperatores post mortem (sint) inter Deos
+      relati, Augustus vivus divinos honores meruit, quod etiam Horatius testatur dicens: <hi
+       rend="expanded">Praesenti tibi maturos largimur honores Iurandasque tuum per numen ponimus
+       aras</hi>. Vnde male quidam culpant Virgilium dicentes eum aviditate dixisse laudandi
+      interitum Augusto. </p>
+    </div>
+
+    <div n="25" type="schol">
+     <p> INCERTVM EST idest nondum scimus, qui Deus esse velis. Nam Deum fieri, maximum est; in
+      potestate habere, quis Deus velis fieri, plus esse, quam maximum, constat. VRBISNE INVISERE
+      CAESAR idest utrum velis terrarum an maris an caeli imperium possidere. </p>
+    </div>
+
+    <div n="26" type="schol">
+     <p> ET TE MAXIMVS idest totus, ut ipse: <hi rend="expanded">Quo maxima motu Terra tremit</hi>.
+     </p>
+    </div>
+
+    <div n="27" type="schol">
+     <p> AVCTOREM FRVGVM. ‛Auctor’ ab augendo dictus, velut sator, ut: <hi rend="expanded">Tu
+       sanguinis ultimus auctor</hi>. POTENTEM. <unclear/> Ordo est auctorem. TEMPESTATVMQVE
+      POTENTEM. Aut bonarum tempestatum, ut: <hi rend="expanded">Vnde haec tam clara tempestas?</hi>
+      Aut ‛tempestatum’ ait temporum, sicut ubique Sallustius <del>ait</del>.</p>
+    </div>
+
+    <div n="28" type="schol">
+     <p> MATERNA TEMPORA MYRTO. ‛Maternam’ autem myrtum propter Iuliam gentem dixit, quae a Venere
+      traditur oriunda. Veneris autem in honore et in tutela myrtus fuit. </p>
+    </div>
+
+    <div n="29" type="schol">
+     <p> AN DEVS INMENSI idest totius. VENIAS. <foreign xml:lang="grc">Ἐμφατιϰῶς</foreign> ‛venias’
+      magis, quam ‛fias’, ut propriae magis sit, quam alienae potestatis. </p>
+    </div>
+
+    <div n="30" type="schol">
+     <p> NVMINA SOLA COLANT idest magna, quasi melior sit futurus et Neptuno et ceteris Diis
+      marinis. THYLE vix paucis nota insula in Oceano, quam idcirco nominavit, ut longum ei et
+      magnum tribueret imperium. Alii putant civitatem in ultimis Hispaniae. </p>
+    </div>
+
+    <div n="31" type="schol">
+     <p> TEQVE SIBI GENERVM TETHYS. Vt solet, dixit: in honorem inmortalitatis Deam uxorem adiungit,
+      ut Aeolo Deiopeiam offerri facit. Inconsiderate dicunt, quoniam haberet Liviam uxorem Caesar,
+      ipsam divam futuram: quomodo autem alteram offert? Nec adtendunt ad illud, offerri quidem, sed
+      ab eo non accipi. Non enim semper id, quod offertur, accipitur. Tethys autem uxor Oceani et
+      mater Nympharum esse dicitur. Quod autem ait ‛emat’, ad antiquum nuptiarum pertinet ritum, quo
+      se maritus et uxor invicem emebant, sicut et habemus in iure. </p>
+    </div>
+
+    <div n="32" type="schol">
+     <p> ANNE NOVVM SIDVS rel. Libram significat inter XII signa, qua sol aequinoctium autumnale
+      conficit, et eleganter ‛tardis mensibus’ ait, quasi futurum sit, ut, cum Caesar abierit in
+      caelum, hominum vita tendatur, ut in Bucolicis: <hi rend="expanded">et incipient magni
+       procedere menses</hi>. </p>
+    </div>
+
+    <div n="33" type="schol">
+     <p> QVA ERIGONEM INTER. Erudite et sapienter Virgilius Scorpionis locum Augusto tradidit. Vt
+      enim astrologi dicunt, Scorpius in zodiaco duorum * locum tenet: nam chelae eius, idest
+      brachia extenta, <foreign xml:lang="grc">δωδεϰάτην</foreign> possident. Ita, si Scorpius
+      contrahat brachia sua et relinquat locum, quem inprobe occupavit, sine iniuria cuiusquam
+      Caesar in regionem caeli recipiatur. Nam <del>in</del> hanc partem signiferi <foreign
+       xml:lang="grc">λίτϱαν</foreign> idest libram appellant. Bene igitur dat Augusto regionem
+      iustitiae. Modo ergo secundum Chaldaicos locutus (est) dicens, posse eum habere locum inter
+      Scorpionem et Virginem. Nam Erigone ipsa est Virgo, quae inter XII signa esse dicitur, Icari
+      Atheniensis filia. Nam Liber Pater Icaro vinum pro hospitio *, ut regiones peragraret et usum
+      vini monstraret, Icarus autem pastoribus dedit. Et pastores oppressi sunt somno. Quorum
+      parentes existimantes, eos veneno necatos, eum occiderunt et in puteum iecerunt et plaustra
+      eius proiecerunt et reliqua instrumenta. Canis autem eius quodam modo significare coepit
+      domini mortem. Erigone autem suspitione tacta antecedentem canem sequi coepit. Filia eius
+      Erigone secuta est canem ad puteum et cadaver patris sepelivit optavitque, ut, nisi
+      Athenienses ulti essent mortem Icari, eadem morte perirent; inde silentio vitam finivit. Et
+      cum inde pestilentia incidisset, responsum est, nisi punirent pastores, (eos) poenam pro illis
+      soluturos <del>ex eo tempore</del>: magis poenam evitarent, quam paterentur. Et illi
+      occiderunt pastores, pestilentiaque caruerunt. Liber autem memor, quod sua causa Icarus
+      perisset, filiam eius intra astra locavit, quae est Virgo, canemque eius, qui, quotiens
+      oritur, vites adurit Siriusque appellatur. </p>
+    </div>
+
+    <div n="34" type="schol">
+     <p> PANDITVR IPSE TIBI. Ordo est: qua locus ipse tibi panditur. ‛Tibi’ autem, quasi in tuum
+      honorem et gloriam tuam.</p>
+     <p>‛Ardens’ autem commune omnibus caeli sideribus, an proprie ad Scorpium refertur, quod sit
+      ferventissimum signum. An ‛ardens’ festinans et cupiens parare locum Augusto, ut alibi:
+      Iuvenum manus emicat ardens. </p>
+    </div>
+
+    <div n="35" type="schol">
+     <p> SCORPIOS Graecus nominativus est, et ‛ardens’ quod dixit, ad illud refertur, quia Martis
+      est domicilium. Nam Scorpii tempus frigidum Novembris est mensis. </p>
+    </div>
+
+    <div n="36" type="schol">
+     <p> QVICQVID ERIS idest quisquis. Cetera per parenthesin dicta sunt. NEC SPERENT idest
+      allegorice dicit illum nec debere velle mori nec posse. NEC TE TARTARA REGEM. Prudenter dixit.
+      Scit enim hominem esse, cui loquitur. </p>
+    </div>
+
+    <div n="38" type="schol">
+     <p> QVAMVIS ELYSIOS. Quaerendum, an ad auctores Graecos, an ad solum Homerum retulerit, qui in
+      Odyssia campos laudat Elysios et adeo amoenos locos, quos praetulerit amori matris Proserpina
+      nec accepta facultate eam voluerit sequi. (MATREM) idest Cererem. PROSERPINA Iovis et Cereris
+      filia, quae per specum Siciliae a Dite Patre rapta est. In infernum descendit Ceres, ut filiam
+      reciperet; illa matrem sequi noluit. Specus, per quam descenderat, mundus est appellatus.
+      Item: rex Molossorum Proserpinam rapuit et Ceres ostia cum cantatoribus multis pulsavit nec
+      veniebat ad eam filia eius pro loci amore. </p>
+    </div>
+
+    <div n="40" type="schol">
+     <p> DA FACILEM CVRSVM meo scilicet poemati. AVDACIBVS ADNVE COEPTIS. Verecunde suas vires
+      extenuat. </p>
+    </div>
+
+    <div n="41" type="schol">
+     <p> IGNAROSQVE VIAE MECVM. Aut ‛viae’ idest artis vel traditionis (ignaros) miseratus rusticos
+      iuva, ut ‛mecum ignaros’ intellegas, aut rusticis ignaris ‛fave mecum’. </p>
+    </div>
+
+    <div n="42" type="schol">
+     <p> ET VOTIS idest sacrificiis. Beneque divinam ei tribuit potestatem. </p>
+    </div>
+
+    <div n="43" type="schol">
+     <p> NOVO recenti, incipiente. ‛Ver novum’ ideo ait, quia mensis Martius initium anni est. CANIS
+      idest albis et candidis nive. </p>
+    </div>
+
+    <div n="44" type="schol">
+     <p> LIQVITVR idest defluit. ZEPHYRO idest calido vento, qui cardinalis est in occasu. </p>
+    </div>
+
+    <div n="43" type="schol">
+     <p> HVMOR. Ordo: cum liquitur humor canis montibus. </p>
+    </div>
+
+    <div n="45" type="schol">
+     <p> TAVRVS pro bove, ut alibi: <hi rend="expanded">mactabam in litore taurum</hi>, ubi nisi bos
+      intellegatur, Virgilius erravit. Tauro enim Iovi sacrificium non fit. </p>
+    </div>
+
+    <div n="46" type="schol">
+     <p> ATTRITVS splendens. VOMER vomendo terram. Dicimus autem ‛hic vomer’ et ‛hic vomis’ et ab
+      utroque ‛huius vomeris’. Lucretius: <hi rend="expanded">decrescit vomer</hi>. </p>
+    </div>
+
+    <div n="47" type="schol">
+     <p> ILLA SEGES. Seges et cum fructibus intellegitur et sine fructibus, ut: <hi rend="expanded"
+       >Luxuriem segetum tenera depascit in herba</hi>. Tantum terra, ut: <hi rend="expanded">Nec
+       pecori opportuna seges</hi>. VOTIS desideriis. </p>
+    </div>
+
+    <div n="48" type="schol">
+     <p> BIS QVAE SOLEM rel. idest dierum calorem et solis, frigora et hiemis. SENTIT aratur
+       <del>idest scinditur, in transversum sulcum ducitur</del>; indicat autem IIII tempora. </p>
+    </div>
+
+    <div n="49" type="schol">
+     <p> RVPERVNT idest impleverunt. </p>
+    </div>
+
+    <div n="50" type="schol">
+     <p> AEQVOR modo terram accipimus, ab aequalitate, unde (et) maria aequora nominamus. </p>
+    </div>
+
+    <div n="51" type="schol">
+     <p> VENTOS quia diversis locis diversi praevalent venti ex diversa parte caeli. VARIVM MOREM
+      aeris * nosse qualitatem, utrum pluviis gaudeat (an) tepore an frigore. </p>
+    </div>
+
+    <div n="52" type="schol">
+     <p> PATRIOS CVLTVSQVE. Duas res dicit sciendas, idest ager et quemadmodum cultus sit a
+      maioribus, et quid melius referre consuerit. Nam ‛habitus locorum’ possibilitates accipimus.
+     </p>
+    </div>
+
+    <div n="54" type="schol">
+     <p> VENIVNT idest crescunt, ut: <hi rend="expanded">pulchro veniens in corpore virtus</hi>,
+      sive proveniunt, ut ‛provenisse’ fructus dicuntur, an proprie; solet enim sensus arboribus
+      dare, ut: <hi rend="expanded">Miraturque novas frondes rel</hi>. </p>
+    </div>
+
+    <div n="55" type="schol">
+     <p> ALIBI alio loco. INIVSSA quia sine studio subeunt, sive ‛iniussa’, quasi, quae nascuntur
+      posito semine, nasci iubeantur; nam frumenta iussa nascuntur. Tale est illud: <hi
+       rend="expanded">ipsaque tellus Omnia liberius</hi>. </p>
+    </div>
+
+    <div n="56" type="schol">
+     <p> CROCEOS ab herba Lydiae croco. NONNE VIDES. Argumentatur, quasi hoc dicens: si una
+      provincia ferre non potest omnia, quanto magis unus ager? <del>in Lydia</del>. Vt alii, Molus
+      vel Tmolus mons est Siciliae vel Ciliciae, in quo nascitur crocum boni odoris praecipue. Nam
+      loca commemorat, ubi plus et melius aliquid provenit. Nam crocum (et) in alia nascitur
+      provincia, sed non tale nec tantum, quale vel quantum in Cilicia. </p>
+    </div>
+
+    <div n="57" type="schol">
+     <p> SABAEI popoli iuxta Syriam et Arabiam, dicti Sabaei (<foreign xml:lang="grc">ἀπὸ τοῦ
+       σέβεϑαι</foreign>) <del>populi</del>, quod apud eos tus nascitur. ‛Molles’ autem ait vel quod
+      sub aere clementiore sint, sive ‛molles’ delicati aut toto corpore vestiti. </p>
+    </div>
+
+    <div n="58" type="schol">
+     <p> CHALYBES gens in Ponto inventrix ferri, dicti a Chalybio, Euboiae vico, quod hinc coloni
+      sunt. NVDI ad hoc expediti, vel quod ita operantur, cum fodiunt ferrum. PONTVS CASTOREA
+       <del>hypallage</del>. In Ponto castores dicuntur silvestres canes, quos Latine fibros dicunt.
+      Virus, quod in testiculis habent, aptum medicis, ‛castoreum’ appellatur. † Hoc adeunt cum
+      sciant, quam ob causam *, ultro eos sibi demere. Quod ait et Cicero in Scauriana: <hi
+       rend="expanded">Cum, quam ob causam in periculo sint, sentiant, redimunt se a morte ea parte
+       corporis, propter quam expetuntur, avulsa et relicta</hi>. </p>
+    </div>
+
+    <div n="59" type="schol">
+     <p> ELIADVM PALMAS EQVARVM. Hoc dicit: Epiros creat equas optimas, quae apud Elidem palmas
+      merentur in Iovis Olympici curu(li certamine). Elis autem urbs est Peloponnesi, dicta a
+      Tolotae filio Elo. Epiros autem in Europa est. </p>
+    </div>
+
+    <div n="63" type="schol">
+     <p> DVRVM GENVS idest quod ex lapidibus constat iuxta historiam Deucalionis et Pyrrhae. HOMINES
+      NATI DVRVM GENVS. Expressit <foreign xml:lang="grc">τὸ αἴτιον</foreign> idest causativum; nam
+      et Graece populi <foreign xml:lang="grc">λαοί</foreign> dicuntur a lapidibus. </p>
+    </div>
+
+    <div n="64" type="schol">
+     <p> PRIMIS A MENSIBVS hoc est, quod dixerat: <hi rend="expanded">Vere novo</hi>. Maiores nostri
+      mensem Martium primum habuerunt. </p>
+    </div>
+
+    <div n="66" type="schol">
+     <p> PVLVERVLENTA quae glebas solvit in pulverem. ‛Pulverulenta’ inquit: aptum hoc epitheon
+      aestatis propter ariditatem, ut ipse alibi: <hi rend="expanded">Sollicitanda tamen tellus
+       pulvisque movendus</hi>. MATURIS SOLIBUS pro matura facientibus, aut ‛maturis’ quasi plenis
+      et legitimis, ut: <hi rend="expanded">revoluta ruebat Matura iam luce dies</hi>. </p>
+    </div>
+
+    <div n="67" type="schol">
+     <p> SVB IPSVM ARCTVRVM idest autumnali tempore, quando Arcturus oritur. Et sciendum, quod ‛sub’
+      praepositio, quando tempus significat, accusativo gaudet, ut hoc loco ‛sub ipsum Arcturum’,
+      idest circa ipsum Arcturum. Arcturus idem, qui Bootes, et dictus, quod ursas putant quidam
+      Boreo circulo contineri; Bootes autem, quod plaustrum huic ursarum nomine tribuatur. Hic
+      oritus a. d. XI Kalend. Octobris. </p>
+    </div>
+
+    <div n="68" type="schol">
+     <p> TENVI SVLCO idest leviter arare. </p>
+    </div>
+
+    <div n="71" type="schol">
+     <p> ALTERNIS idest per vices. </p>
+    </div>
+
+    <div n="72" type="schol">
+     <p> SEGNEM pro cessantem. </p>
+    </div>
+
+    <div n="69" type="schol">
+     <p> OFFICIANT noceant. ILLIC in terra pingui. </p>
+    </div>
+
+    <div n="70" type="schol">
+     <p> HIC in sterili. </p>
+    </div>
+
+    <div n="71" type="schol">
+     <p> IDEM agricola. Omnia praecepta, quae commemorata sunt, ad illud pertinent, quod ait: <hi
+       rend="expanded">Quid faciat laetas segetes</hi>. NOVALIS agri, qui alternis vacant virium
+      novandarum gratia. Dicimus autem et has novales et haec novalia: novales, quod sementa
+      novantur, novalia primo rura proscissa. </p>
+    </div>
+
+    <div n="73" type="schol">
+     <p> MUTATO SIDERE novo anno idest principio veris alterius anni. </p>
+    </div>
+
+    <div n="74" type="schol">
+     <p> VNDE PRIVS LAETVM. Sensus hic est: si angustia agri non patietur, ut novale habeas, fructus
+      commutabis; nam ipsa commutatio adfert requiem. </p>
+    </div>
+
+    <div n="72" type="schol">
+     <p> SITV DVRESCERE ut redeat in vires priores. </p>
+    </div>
+
+    <div n="74" type="schol">
+     <p> LAETVM fertile; ‛homo laetus’ idest hilaris; ‛laetum pecus’ idest pingue. LEGVMEN. Legumen
+      dicitur, quod manu legatur nec sectionem in falce requirat. SILIQVA folliculo, ubi semen
+      leguminis. QVASSANTE idest sonante, quando quassetur. </p>
+    </div>
+
+    <div n="75" type="schol">
+     <p> VICIAE idest leguminis genus. TENVIS VICIAE. Mire ait ‛tenuis’, nam vicia vix ad triplicem
+      fructum pervenit, cum alia legumina proventum habeant felicissimum et fertilem. TRISTIS LVPINI
+      quod gustu suo amaro tristes faciat, vel ‛tristis’ idest amari.</p>
+     <p><del>Frumenta vero sunt omnia, quae ex se emittunt aristas. Nam quod ait anta ‛farra’, nos
+       frumenta accipimus: species est enim pro genere.</del>
+     </p>
+    </div>
+
+    <div n="76" type="schol">
+     <p> SILVAMQVE SONANTEM. Vbi enim fabae tolluntur, sonat silva. </p>
+    </div>
+
+    <div n="77" type="schol">
+     <p> VRIT ENIM LINI CAMPVM. Bene excerpsit linum, papaver, avenas, et dicit post haec frumenta
+      non esse serenda; nam licet manu legantur et sint inter legumina, viribus tamen frumentis
+      aequantur. VRIT vexat. </p>
+    </div>
+
+    <div n="78" type="schol">
+     <p> PAPAVERA. Somniculosum esse papaver vulgatum est, ut ipse alibi ait: <hi rend="expanded"
+       >soporiferumque papaver</hi>, et ad dolorem obliviscendum in potionibus datur. Nam Ceres,
+      mater Proserpinae, Iove, patre Proserpinae, admonente dicitur cibo papaveris orbitatis oblita;
+      qui enim papavera manducat, cito somno premitur. LETHAEO. Graeco verbo usus est, quod est
+      ‛oblivione’; somnus enim oblivionem facit. Sed et Lethaeus infernalis fluvius dicitur, de quo
+      qui bibunt, laboriosae huius vitae obliviscuntur. </p>
+    </div>
+
+    <div n="80" type="schol">
+     <p> FIMO idest stercore, quod in visceribus fit. PINGVI idest fertili. </p>
+    </div>
+
+    <div n="81" type="schol">
+     <p> EFFETOS idest steriles, senes. </p>
+    </div>
+
+    <div n="80" type="schol">
+     <p> SOLA. ‛Solum’ singulariter. </p>
+    </div>
+
+    <div n="81" type="schol">
+     <p> CINEREM INMVNDVM ad distinctionem illius, quo utitur puella. </p>
+    </div>
+
+    <div n="82" type="schol">
+     <p> REQVIESCVNT. Non enim roborantur, quod intermissio arationis efficit, quam rem repetit
+      dicendo: <hi rend="expanded">Nec nulla</hi>. </p>
+    </div>
+
+    <div n="83" type="schol">
+     <p> INARATAE et rel. idest non satae: ad illud refert, quod dixerat: <hi rend="expanded">tonsas
+       cessare novales et rel</hi>. </p>
+    </div>
+
+    <div n="84" type="schol">
+     <p> AGROS quisquilias, quae in agris fiunt. </p>
+    </div>
+
+    <div n="86" type="schol">
+     <p> OCCVLTAS ex igni; occultas * exsiccatur. </p>
+    </div>
+
+    <div n="88" type="schol">
+     <p> EXVDAT per breves cavernas, per quas sudor emanat fructibus, sed non ipse humor, sed terra
+      desudat. </p>
+    </div>
+
+    <div n="92" type="schol">
+     <p> RAPIDI velocis. </p>
+    </div>
+
+    <div n="93" type="schol">
+     <p> ACRIOR pro duobus accipi potest, an etiam pro uno, quasi sol tunc obsit, cum pluviae tenues
+      fuerint. AVT BOREAE PENETRABILE FRIGVS ad solem et ad frigus pertinet: nam uno sermone duo
+      diversa concludit. ‛Penetrale’, quod penetrat; ‛penetrabile’, quod facile penetratur. </p>
+    </div>
+
+    <div n="94" type="schol">
+     <p> INERTES idest infertiles. </p>
+    </div>
+
+    <div n="95" type="schol">
+     <p> CRATES idest ad exaequationem agrorum. </p>
+    </div>
+
+    <div n="94" type="schol">
+     <p> RASTRIS. Et ‛hos rastros’ dicimus et ‛haec rastra.’ </p>
+    </div>
+
+    <div n="96" type="schol">
+     <p> FLAVA CERES propter maturitatem frugum. ALTO quasi semper in caelo sedeat laborantibus
+      favens. NEQVIQVAM idest non sine causa; nam semper duae negativae confirmativam faciunt. </p>
+    </div>
+
+    <div n="97" type="schol">
+     <p> PROSCISSO verbo convenienti dicit. </p>
+    </div>
+
+    <div n="98" type="schol">
+     <p> RVRSVS IN OBLIQVVM scilicet autumnali tempore, quo iam cum seminibus aratur. PERRVMPIT.
+      Bene ‛perrumpit’ de obliqua aratione idest contra sulcum, ut rustici dicunt. </p>
+    </div>
+
+    <div n="99" type="schol">
+     <p> ATQVE IMPERAT ARVIS idest ut tantum ferant, quantum ipse desiderat. </p>
+    </div>
+
+    <div n="100" type="schol">
+     <p> SOLSTITIA pro aequinoctiis Octobris mensis. Quomodo haec congruere possunt, cum alterum ex
+      solstitiis hibernum sit? Et ferunt, quod ‛solstitia’ pro ‛solstitio’ sit, referentes omnino ad
+      aestivum. Alii ‛solstitia’ pro aequinoctiis verno et autumnali † accipere, alii solstitia per
+      omnia, inepte. </p>
+    </div>
+
+    <div n="101" type="schol">
+     <p> PVLVERE idest serenitate hiemis, quod serenitas pulverem creat et serenum per hiemem caelum
+      significat. </p>
+    </div>
+
+    <div n="102" type="schol">
+     <p> NVLLO idest nullo, inquit, cultu tantum se iactat Moesia, quantum, qui habet ‛humida
+      solstitia’ et ‛hiemes serenas’. Constat enim Moesiam circa culturam esse diligentem, sed non
+      ei suus cultus (tantum) prodest, quantum hiberna serenitas. Moesia autem provincia est et
+      civitas Phrygiae haut longe a Troia, quod magis debemus accipere propter Gargara, montes
+      Phrygios. Moesia autem regio est uberrima frugum. </p>
+    </div>
+
+    <div n="103" type="schol">
+     <p> GARGARA ut alii, mons Apuliae. Moesiae quidem sunt II, Moesia in Europa Moesiaque in Asia.
+      GARGARA idest pars Idae montis in Phrygia antiqua, nunc vero in Troada, quoniam Troes Phryges
+      dicuntur. Quidam Gargara montem Asianum putant. MIRANTVR. Phantasia poetica, rei inanimali
+      sensum dare. </p>
+    </div>
+
+    <div n="104" type="schol">
+     <p> COMMINVS statim, sine intermissione. </p>
+    </div>
+
+    <div n="105" type="schol">
+     <p> MALE PINGVIS non pinguis idest sterilis. RVIT idest aratro evertit, dissipat, frangit. Nam
+      modo agentis est, ut: <hi rend="expanded">Vna Eurusque Notusque ruunt</hi>. Nam aliter dictum:
+       <hi rend="expanded">ruit alto a culmine</hi>. </p>
+    </div>
+
+    <div n="106" type="schol">
+     <p> DEINDE SATIS. Post generalem commemoratam agriculturam transit ad species. SATIS segetibus,
+      agris; nam participium est. RIVOSQVE SEQVENTES iuges, aut certe rivorum est epitheton. </p>
+    </div>
+
+    <div n="107" type="schol">
+     <p> EXVSTVS AGER scilicet aestatis calore. MORIENTIBVS HERBIS secundum Pythagoricos, qui
+      dicunt, omne, quod crescit, animam habere. </p>
+    </div>
+
+    <div n="108" type="schol">
+     <p> SVPERCILIO eminenti et superiore clivo. </p>
+    </div>
+
+    <div n="109" type="schol">
+     <p> ELICIT educit. LEVIA SAXA calculos dicit. </p>
+    </div>
+
+    <div n="110" type="schol">
+     <p> CIET inritat vel commovet SCATEBRIS * salientibus vel scaturientibus. ‛Scaturnices’
+      dicuntur venae aquarum, frequentis pluviae processus, si in arido solo aqua missa perinde
+      ebulliat atque si ibi oriatur, idest aqua fervens scaturire dicitur, quod glomeretur. </p>
+    </div>
+
+    <div n="112" type="schol">
+     <p> LVXVRIEM. Bene ‛luxuriem’, ut ostendat rem superfluam et nocituram, nisi amputetur. </p>
+    </div>
+
+    <div n="113" type="schol">
+     <p> CVM PRIMVM SVLCOS AEQVANT SATA cum adhuc herbae (sunt) tenerae, antequam in culmos
+      cogantur. AEQVANT cooperiunt. </p>
+    </div>
+
+    <div n="111" type="schol">
+     <p> CVLMVS stipula. </p>
+    </div>
+
+    <div n="114" type="schol">
+     <p> DEDVCIT. Ordo est: paludis humorem deducit (collectum bibula arena. DEDVCIT) idest siccat
+      vel trahit, dirivat. Haec cultura priori contraria est: nam ut illa sicco agro aquam inmittit,
+      ita haec abundantem aquam deducit in tempore veris aut varietate aeris. </p>
+    </div>
+
+    <div n="115" type="schol">
+     <p> INCERTIS MENSIBVS inopportunis; incerti enim menses veris vel autumni: nam hiemis certum
+      est frigus et aestatis certus est calor. </p>
+    </div>
+
+    <div n="116" type="schol">
+     <p> OBDVCTO superlito vel superfuso. </p>
+    </div>
+
+    <div n="117" type="schol">
+     <p> TEPIDO noxio, inutili. VNDE quamobrem. LACVNAE cava loca, quae concipiunt aquam pluvialem.
+      ‛Lacunae’ sunt, in quibus aqua stare consuevit, sive quae fiunt ad deducendum humorem. </p>
+    </div>
+
+    <div n="118" type="schol">
+     <p> NEC TAMEN NIHIL idest aliquid tamen. NEC NIHIL OFFICIVNT. Hoc dicit: licet haec omnia, quae
+      dixi, arando sint experti et hominum et boum labores, tamen sunt adhuc aliqua, quae obsunt,
+      nisi praevideris. </p>
+    </div>
+
+    <div n="119" type="schol">
+     <p> INPROBVS ANSER insatiabilis vel inopportunus, quia fugatus redeat. </p>
+    </div>
+
+    <div n="120" type="schol">
+     <p> STRYMONEAE a Strymone, palude Thraciae vel Macedoniae. INTIBA. Pluralis numerus neutri
+      generis, singularis vero generis masculini, ut Lucilius in V: <hi rend="expanded">Intiba
+       praeterea pedibus † pressus equinis</hi>. Item INTIBA vena quaedam pessima et nervi amari
+      terrae. AMARIS FIBRIS <foreign xml:lang="grc">μεταφοϱιϰῶς</foreign> amaro suco; fibras enim
+      animalia habent idest summas iecorum partes. </p>
+    </div>
+
+    <div n="121" type="schol">
+     <p> PATER Iuppiter vel Triptolemus. </p>
+    </div>
+
+    <div n="124" type="schol">
+     <p> VETERNO desidioso * vel VETERNO otiosa pigritia vel morbi nomen. </p>
+    </div>
+
+    <div n="123" type="schol">
+     <p> MOVIT AGROS. † Multa possint in vituperationem venire, et hoc loco defendit, quod ait
+      ‛mortalia corda acuens.’ </p>
+    </div>
+
+    <div n="125" type="schol">
+     <p> ANTE IOVEM. Deest: regnantem. </p>
+    </div>
+
+    <div n="127" type="schol">
+     <p> IN MEDIVM in commune. </p>
+    </div>
+
+    <div n="126" type="schol">
+     <p> LIMITE. Inter ‛limitem’ et ‛terminum’ hoc interest: ‛limes’ consecratus est adeo, ut,
+      quoniam eum Turnus commovit, sit interemptus; ait enim: <hi rend="expanded">Limes agro</hi>
+      rel. </p>
+    </div>
+
+    <div n="129" type="schol">
+     <p> MALVM VIRVS. Ad distinctionem epitheton addidit; nam virus bonum et malum est, sicut
+      venenum: nam idem est. Sub Saturno fuere serpentes, sed sine veneno. </p>
+    </div>
+
+    <div n="132" type="schol">
+     <p> ET PASSIM RIVIS. Quondam vini rivi fuerant. </p>
+    </div>
+
+    <div n="131" type="schol">
+     <p> IGNEMQVE REMOVIT non sustulit, sed occulit. </p>
+    </div>
+
+    <div n="133" type="schol">
+     <p> EXTVNDERET excuderet. </p>
+    </div>
+
+    <div n="134" type="schol">
+     <p> HERBAM segetes. </p>
+    </div>
+
+    <div n="136" type="schol">
+     <p> ALNOS fluviales naviculas. </p>
+    </div>
+
+    <div n="137" type="schol">
+     <p> NAVITA pro ‛nauta’, ut ‛Mavors’ pro ‛Mars’. NVMEROS modos, ut diceretur Septentrio septem
+      stellarum. </p>
+    </div>
+
+    <div n="138" type="schol">
+     <p> PLEIADES sunt stellae in cauda Tauri, quae a verno ortu Vergiliae appellantur, quae ortu
+      suo primae navigationis tempus ostendunt. Has a matre Pleione quidam nominatas existimant,
+      sicut etiam Atlantidas a patre Atlante. PLEIADES quae navigantibus ortu suo ostendunt initium,
+       <foreign xml:lang="grc">ἀπὸ τοῦ πλείουες</foreign> idest plures, quod VII uno loco esse
+      videantur.</p>
+     <p>HYADAS. Sunt stellae in fronte Tauri septem, ut Chaldaei tradunt, nutrices Liberi Patris, ut
+      Musaeus scripsit, ab Hya fratre, quem in venatione interemptum fleverunt, unde Hyades dictae.
+      Alii ab eo Hyadas dictas putant, quod ortu earum pluviae nascuntur, quae a nautis Suculae
+      dicuntur vel vocantur. Alii, quod magis credibilius est: <foreign xml:lang="grc">Υ</foreign>
+      littera formatae Hyades appellatae sunt.</p>
+     <p>CLARVMQVE LYCAONIS ARCTON. Helicen dicit, idest maiorem Septentrionem; nam minor Cynosura
+      dicitur. ‛Lycaonis’ autem subauditur ‛filia’, altera ursarum, in quam transfigurata est
+      Callisto, Lycaonis filia, Dianae in venationibus comes, quam Iuppiter adamavit, et in Dianam
+      versus cum ea concubuit; quae cum pinguis apparuisset, de suo eam removit; quae Arcadem puerum
+      edidit. Sed Iuno odio pellicita in ursam eam transfiguravit et venanti filio obtulit cumque
+      ille feram putasset et insequi coepisset, Iuppiter eos iisdem figuris astris consecravit: et
+      illa velut ursa fugiens et ille veluti impetum faciens in eam. Quod sidus Septentrio dicitur
+      sive a numero stellarum sive, quod in parte poli septentrionali sit, hoc est arcton
+      appellatur, illum autem arctophylacem eo, quod iuxta locatus custos esse videatur. ‛Claram’
+      autem dicit ideo, quod semper apparet. </p>
+    </div>
+
+    <div n="139" type="schol">
+     <p> VISCO autem genus laqueatus. </p>
+    </div>
+
+    <div n="141" type="schol">
+     <p> (FVNDA) est genus retis, fundendo dicta. </p>
+    </div>
+
+    <div n="143" type="schol">
+     <p> RIGOR acies, durities, unde et ‛rigidus homo’ dicitur. SERRAE. Perdix, discipulus Daedali,
+      serrae usum primus invenit, cui magister invidens, quod melior in hoc fuisset inventus, ne
+      plura inveniendo laudem eius infringeret, apud Athenas ex arce Minervae eum praecipitavit. Hic
+      est sororis eius filius, propter quem Minervam fugit. A Minerva in avem perdicem mutatus, et
+      quia praecipitatus esset, in altum non potest pervolare. </p>
+    </div>
+
+    <div n="146" type="schol">
+     <p> INPROBVS idest magnus vel nulli probabili; nullus enim est amator laboris. </p>
+    </div>
+
+    <div n="147" type="schol">
+     <p> PRIMA CERES. (Prima Ceres) omne agriculturae genus hominibus indicavit; superfluo enim
+      quaestionem movent commentarii, dicentes Osirim vel Triptolemum aratrum invenisse: nam aliud
+      est, unam rem invenire, aliud omnem agriculturam. Ceres cum filiam quaereret Liberam et in
+      Atticam adveniret ad Celeum, hospitaliter ab ipso suscepta reddidit gratiam. Nam filio eius
+      Triptolemo arandi ac serendi usum, ut ille hominibns ostenderet, ipsa demonstravit. </p>
+    </div>
+
+    <div n="148" type="schol">
+     <p> SACRAE quae victum praeberent religione quadam vel mel adferebant. </p>
+    </div>
+
+    <div n="149" type="schol">
+     <p> DEFICERENT ut per laborem ad usum frumenti veniretur. </p>
+    </div>
+
+    <div n="148" type="schol">
+     <p> ARBVTA rubra poma silvarum, quae unedones vocantur. </p>
+    </div>
+
+    <div n="150" type="schol">
+     <p> LABOR ADDITVS aut ‛datus’, ut nihil mali ante habuerint, aut revera ‛additus’, quia ante
+      quidem erat labor, sed tantum herbarum, intiborum, postea accessit rubiginis, carduorum. </p>
+    </div>
+
+    <div n="149" type="schol">
+     <p> DODONA civitas Epiri, iuxta quam nemus est Iovi sacratum et abundans glandibus. </p>
+    </div>
+
+    <div n="151" type="schol">
+     <p> ESSET consumeret. RVBIGO autem genus est vitii, quo culmi pereunt. SEGNIS inutilis. SEGNIS
+      in arvis infructuosis. </p>
+    </div>
+
+    <div n="152" type="schol">
+     <p> ASPERA SILVA. Notandum, etiam de herbis silvam dictam. </p>
+    </div>
+
+    <div n="153" type="schol">
+     <p> LAPPAE et TRIBVLI genera herbarum spinosarum. </p>
+    </div>
+
+    <div n="154" type="schol">
+     <p> (INFELIX) infecundum, contra: <hi rend="expanded">Felicem trahunt limum</hi>. STERILES ad
+      discretionem earum, quae seruntur. DOMINANTVR quod altius inter segetes crescunt. </p>
+    </div>
+
+    <div n="157" type="schol">
+     <p> PREMES supprimes, conpesces. </p>
+    </div>
+
+    <div n="159" type="schol">
+     <p> FAMEM SOLABERE ac si diceret: ne glandibus quidem satiaberis, quod dixit: <hi
+       rend="expanded">et victum Dodona negaret</hi> rel. </p>
+    </div>
+
+    <div n="160" type="schol">
+     <p> ARMA instrumenta, ut: <hi rend="expanded">Cerealiaque arma</hi>. </p>
+    </div>
+
+    <div n="158" type="schol">
+     <p> ACERVVM frumenti coarcervationem. </p>
+    </div>
+
+    <div n="162" type="schol">
+     <p> VOMIS. Vomis dicitur, quod trudendo vomit terram. GRAVE propter sulcos altius ínprimendos.
+      INFLEXI pro ‛flexi’: nam ‛in’ supervacua est. </p>
+    </div>
+
+    <div n="163" type="schol">
+     <p> PLAVSTRA vehiculum bobus aptum. ELEVSINAE. Eleusina civitas est Atticae provinciae haut
+      longe ab Athenis, in qua cum regnaret Celeus et Cererem quaerentem filiam suscepisset
+      hospitio, illa pro remuneratione ostendit ei omne genus agriculturae. ‛Matrem’ autem
+      ‛Eleusinam’ Cererem dicit; nam ut ‛patres’ Deos dicebant veteres, ita Deas ‛matres’ vocabant:
+      Deum matrem, Vestam matrem, Cererem, ut ibi ait: <hi rend="expanded">Vestaque mater</hi>.
+      ‛Eleusina’ dicta ab Eleusina, urbe Atticae. </p>
+    </div>
+
+    <div n="164" type="schol">
+     <p> TRIBVLA genus vehiculi, unde teruntur frumenta. TRAHAE. Trahas dicimus, quibus trahuntur
+      frumenta et coacervantur. Dictum est autem hoc genus vehiculi a trahendo: nam rotas non habet.
+      INIQVO PONDERE idest magno, ut sine labore possint rustici glebas confringere. RASTRI a
+      dentium raritate dicti. </p>
+    </div>
+
+    <div n="165" type="schol">
+     <p> SVPELLEX vasa viminea idest de vimine facta. </p>
+    </div>
+
+    <div n="166" type="schol">
+     <p> CRATES coniunctae inter se virgae. VANNVS qua grana ventilantur. IACCHI ideo ait, quia
+      Liberi Patris sacra ad purgationem animarum pertinebant, et sic homines huius mysteriis
+      (purgabantur), sicut vannis frumenta purgantur. </p>
+    </div>
+
+    <div n="170" type="schol">
+     <p> IN BVRIM. Pars aratri, quae curvatur, ‛buris’ dicta, ut videtur Modesto, a bustione; igni
+      enim flectitur; quasi <foreign xml:lang="grc">βοὸς οὐϱά</foreign>, quod sit in similitudinem
+      caudae bovis. </p>
+    </div>
+
+    <div n="172" type="schol">
+     <p> BINAE AVRES quibus latior sulcus efficitur. </p>
+    </div>
+
+    <div n="171" type="schol">
+     <p> TEMO aircurarathir. </p>
+    </div>
+
+    <div n="172" type="schol">
+     <p> DENTALIA idest in quibus vomer inducitur: hic neutraliter, postmodum masculino genere: <hi
+       rend="expanded">durum procudit arator</hi>. </p>
+    </div>
+    <div n="173" type="schol">
+     <p> TILIA genus arboris levissimae. LEVIS ne boves laborent. </p>
+    </div>
+
+    <div n="174" type="schol">
+     <p> STIVA aratri gubernaculum. CVRRVS. Ideo ‛currus’ propter morem provinciae suae, in qua
+      aratra habent rotas. </p>
+    </div>
+
+    <div n="175" type="schol">
+     <p> EXPLORAT quod vitia materiae ex eo apparent; probatae enim soliditatis sunt, si in fumo
+      minime rimas fecerint ipsa robora. </p>
+    </div>
+
+    <div n="177" type="schol">
+     <p> TENVIS subtilis. </p>
+    </div>
+
+    <div n="178" type="schol">
+     <p> AREA ex ariditate dicta, quod careat suco. </p>
+    </div>
+
+    <div n="186" type="schol">
+     <p> INOPI tam ad formicam, quam ad omnes generaliter bestias referendum. </p>
+    </div>
+
+    <div n="178" type="schol">
+     <p> CYLINDRO lapide tereti in modum columnae, quo areae coaequantur. </p>
+    </div>
+
+    <div n="180" type="schol">
+     <p> PVLVERE ne solvatur in pulverem. </p>
+    </div>
+
+    <div n="179" type="schol">
+     <p> CRETA terra. </p>
+    </div>
+
+    <div n="181" type="schol">
+     <p> EXIGVVS MVS nitela, cuius Cicero meminit. </p>
+    </div>
+
+    <div n="183" type="schol">
+     <p> CAPTI TALPAE debiles oculis. Mutavit genua, nam ‛haec talpa’ dicitur, ut in Bucolicis
+      dicit: <hi rend="expanded">timidi dammae</hi>. </p>
+    </div>
+
+    <div n="184" type="schol">
+     <p> BVFO rana agrestis mirae magnitudinis. </p>
+    </div>
+
+    <div n="186" type="schol">
+     <p> CVRCVLIO vermis in frugibus nascens. </p>
+    </div>
+
+    <div n="187" type="schol">
+     <p> CONTEMPLATOR verbum futuri, ut alibi: <hi rend="expanded">Contemplator aquas dulces</hi>.
+      NVX PLVRIMA idest longa; significat amygdalum. Longam dixit, ut ipse: <hi rend="expanded">cui
+       plurima cervix</hi>. </p>
+    </div>
+
+    <div n="188" type="schol">
+     <p> INDVET IN FLOREM idest (se) infundet in florem, et bene elegit arborem, quae prima foliis
+      vestitur. OLENTES odorem dantes. </p>
+    </div>
+
+    <div n="189" type="schol">
+     <p> SVPERANT abundant. PARITER pro ‛similiter’. </p>
+    </div>
+
+    <div n="190" type="schol">
+     <p> CVM MAGNO CALORE. Aut aestus nimios fore significat, aut dicit caloris festinationem
+      futuram. </p>
+    </div>
+
+    <div n="192" type="schol">
+     <p> NEQVIQVAM PINGVIS idest non pinguis: tunc enim plena sunt, quando frumenta non habent. Vel
+      incassum pinguis idest sine fructu erit; alibi: <hi rend="expanded">Nequiquam seros exercet
+       noctua cantus</hi>, idest non exercet. Et notandum, paleam dictam numero singulari contra
+      Artem; nam ea, quae ex pluribus constant, numeri sunt pluralis, ut ‛cancelli’. </p>
+    </div>
+
+    <div n="193" type="schol">
+     <p> SEMINA VIDI rel. idest serere volentes, instans pro futuro, ut: <hi rend="expanded">terruit
+       Auster euntes</hi>. MEDICARE pro ‛medicamentis aspergere’, ut: <hi rend="expanded">senibus
+       medicantur anhelis</hi>; contra ‛medicari’ pro ‛mederi’: <hi rend="expanded">Sed non
+       Dardaniae medicari cuspidis ictum Praevaluit</hi>. (‛Medico’ et) ‛medicor’ enim antiqui
+      dixerunt. </p>
+    </div>
+
+    <div n="194" type="schol">
+     <p> NITRO herba, qua corpora et vestes lavantur. AMVRCA humor ex oleo aquatilis, quae faeces
+      solvit cum olivae carne et facit faeces. </p>
+    </div>
+
+    <div n="195" type="schol">
+     <p> SILIQVIS folliculis. FALLACIBVS quae plerumque fallere consuerunt. </p>
+    </div>
+
+    <div n="196" type="schol">
+     <p> PROPERATA MADERENT idest festinata coquerentur. </p>
+    </div>
+
+    <div n="197" type="schol">
+     <p> SPECTATA probata vel explorata, ut: <hi rend="expanded">sunt nobis fortia bello Pectora,
+       (sunt animi) et rebus spectata iuventus</hi>. </p>
+    </div>
+
+    <div n="198" type="schol">
+     <p> DEGENERARE TAMEN quamvis cito coquerentur. NI VIS HVMANA idest studium, possibilitas. </p>
+    </div>
+
+    <div n="199" type="schol">
+     <p> MANV LEGERET. Hinc quidam volunt dictum ‛legumen’. </p>
+    </div>
+
+    <div n="200" type="schol">
+     <p> IN PEIVS RVERE AC RETRO SVBLAPSA. Bis idem dicit. </p>
+    </div>
+
+    <div n="201" type="schol">
+     <p> LEMBVM. Lembus navis piratica brevis. </p>
+    </div>
+
+    <div n="202" type="schol">
+     <p> SVBIGIT sursum agit, urget, inpellit. </p>
+    </div>
+
+    <div n="204" type="schol">
+     <p> SIDERA pro ‛sidus’. ARCTVRI cuius ortu tempestates fiunt. </p>
+    </div>
+
+    <div n="205" type="schol">
+     <p> HAEDORVMQVE DIES. Aurigae signum est haut longe a Septentrione, cuius pedi cornu Tauri una
+      stella adiungit. Item Haedorum signum in autumno fit. Haedi autem inter sidera sunt in numero
+      sinistro Aurigae stellae figuratae, quarum occasu tempestates concitantur. LVCIDVS ANGVIS. III
+      sunt angues in caelo, unus, qui in Septentrione est, alter Ophiuchi, tertius australis, in quo
+      Crater et Corvus, de quo nunc proprie dicitur ‛anguis’. Vt alii, Arcturus eo, quod sinuosus,
+      ut serpens a breviore meatu dictus. </p>
+    </div>
+
+    <div n="207" type="schol">
+     <p> OSTRIFERI rel. Conchulae sunt, unde fit purpura. ABYDI. Sestos et Abydos civitates sunt
+      Hellesponti in parte Asiae, quae angusto et periculoso mari segregantur. </p>
+    </div>
+
+    <div n="208" type="schol">
+     <p> LIBRA DIE pro ‛diei’. Aequinoctium autumnale, quod fit sole in Libra posito; vernale enim
+      aequinoctium Aries efficit: tunc sol in Ariete positus. Frumenta dicit serenda autumnali
+      tempore, legumina vero usque ad veris initium. </p>
+    </div>
+
+    <div n=" [205" type="schol">
+     <p> Item Haedorum signum in autumno fit. Haedi autem inter sidera sunt in numero sinistro
+      Aurigae stellae figuratae, quarum occasu tempestates concitantur.] </p>
+    </div>
+
+    <div n="208" type="schol">
+     <p> * in quo sol in Libra; vernali enim sol in Ariete fit. Item LIBRA DIE. Varro dixit vel
+      scripsit: <hi rend="expanded">Ab aequinoctio autumnali nobis serendum usque ad diem
+       nonagesimum primum post brumam</hi>. </p>
+    </div>
+
+    <div n="210" type="schol">
+     <p> HORDEA pluraliter dixit, sed sciendum III casus habere, ut vina rel.</p>
+    </div>
+
+    <div n="211" type="schol">
+     <p> VSQVE SVB EXTREMVM BRVMAE. Bruma videtur dicta a breviori meatu solis; non usque ergo ad
+      brumae finem, sed circa; nam bruma finitur VIII Kal. Ian. et iste non usque ad illum diem
+      dicit serendum. INTRACTABILIS durae. </p>
+    </div>
+
+    <div n="212" type="schol">
+     <p> CEREALE vel quod sit inter frumenta vel quod eo Ceres curas levaverit lugens filiam somno
+      inpleta. </p>
+    </div>
+
+    <div n="213" type="schol">
+     <p> IAMDVDVM pro ‛quam primum’, ut: <hi rend="expanded">Iamdudum sumite poenas</hi>. Et hoc
+      dicit: serendum eo tempore, non quando pluit, sed quando inminent pluviae. </p>
+    </div>
+
+    <div n="215" type="schol">
+     <p> FABIS genus seminis. MEDICA. Ad ipsam herbam facit apostropham. Haec herba a Medis
+      translata in Graeciam, et hanc Xerxes pugnans ad Medos rapuit, et a Medis translata est in
+      Graeciam, quo tempore eam invaserunt. </p>
+    </div>
+
+    <div n="215 s." type="schol">
+     <p> PVTRES SVLCI. Ad naturam ipsius herbae respicit: nam uno anno frequenter seritur et post
+      aliquot annis sponte procreatur. </p>
+    </div>
+
+    <div n="216" type="schol">
+     <p> ET MILIO VENIT ANNVA CVRA. Ostendit, Medicae curam non esse annuam. Haec <del>Medica</del>
+      herba vulgo silla dicitur. MILIO. Semen nigrum simile lolio, quod ad pabulum boum seritur.
+     </p>
+    </div>
+
+    <div n="218" type="schol">
+     <p> TAVRVS vernum tempus significat. </p>
+    </div>
+
+    <div n="217s." type="schol">
+     <p> CANDIDVS AVRATIS APERIT CVM CORNIBVS ANNVM TAVRVS idest (non) procedit: non enim (a)
+      capite, sed a dorso oritur idest tantum medio sui, unde incipit apparere; qua mutilatus est,
+      oritur, non a fronte. APERIT ANNVM ideo, quia Aprili mense sol in Tauro est, quo cuncta
+      aperiuntur, et hoc melius: et aliud est ‛aperire’ annum, aliud est ‛inchoare’. A Tauro usque
+      ad Taurum et a Geminis usque ad Geminos annus est. Alii dicunt Sidonium ab Europae raptu
+      consecratum taurum, alii vaccam, in quam Io transfigurata est, et ideo melius incertum
+      habetur. Ex XII consecratur, quod Aprili mense oritur. Et inde Aprilis de aperiendo. Nam ortus
+      eius primus in Aprili est XIIII Kal. Mai., in quo signo multa signa sunt: signa enim tempora
+      ait.</p>
+     <p>APERIT CVM CORNIBVS ANNVM hoc est, quod tunc † ideae procedunt. </p>
+    </div>
+
+    <div n="218" type="schol">
+     <p> AVERSO ASTRO. Supinus enim Canis occidit, idest stella, quae Orionis astrum sequitur. Et
+      ADVERSO ASTRO quidam ‛malo’ accipiunt secundum illud: <hi rend="expanded">aut Sirius ardor
+       Ille sitim morbosque ferens</hi> rel. Alii ‛adverso astro’ non ad ipsum Canem referunt, sed
+      ad solem, qui adversus intellegitur ex eo, quod contra mundum nititur. Sed magis nos
+      intellegere convenit ‛adverso astro’ Taurum dici, cum quo Canis occidit, de quo Nigidius ait *
+      Taurum adversum inter sidera locatum, quod posteriores eius partes, quia primi veris sunt,
+      humidiores habeantur, priores autem ideo, quia aestatis, existant sicciores. Duplex igitur
+      lectio est: nam (alii) ‛adverso’ legunt; cum Cane enim nascitur Sirius, qui est terris
+      adversus, de quo legimus: <hi rend="expanded">Ille sitim</hi> rel. Si autem ‛averso’ legimus,
+      ‛cum’ subaudiamus necesse est. </p>
+    </div>
+
+    <div n="219" type="schol">
+     <p> ROBVSTAQVE FARRA frumenta, quae plus habent virium, quam legumina, quo tempore nobis
+      Atlantides occidunt, sunt serenda. </p>
+    </div>
+
+    <div n="221" type="schol">
+     <p> ATLANTIDES aliquando VI videntur, aliquando VII in caelo, quae Novembri mense incipiunt non
+      videri a nobis. </p>
+    </div>
+
+    <div n="219" type="schol">
+     <p> AST SI TRITICEAM IN MESSEM. Hoc autem quinto die Iduum Novembrium, quando occidit Taurus
+      cum Sirio Cane. </p>
+    </div>
+
+    <div n="218" type="schol">
+     <p> ADVERSO ideo, quoniam † Canis cuius posteriores pedes in australi circolo sunt brevitate
+      ea, quod, cum extremi procedunt, ante occidunt. Nam cum Canis Sirius adversus per pedes
+      occidit, ...... cum capite oriatur. (Oritur) cum Cancro, in culmen venit cum Geminis, occidit
+      cum Tauro. </p>
+    </div>
+
+    <div n="221" type="schol">
+     <p> ATLANTIDES. Vt alii aiunt, Vergiliae sunt, quarum nomina haec: Alcyone, Merope, Celaeno,
+      Electra Asterope, Taygete.</p>
+     <p><del>Athamans, Aeoli filius, ex Nympha Phrixum et Hellen filios procreavit; Ino, Cadmi
+       filiam, coniugem duxit, quae ad perniciem pignorum sata igni vitiata intercidebat, ac sic cum
+       fames increvisset, subornavit eos, qui responsum ab Apolline petebant, ut dicerent, Phrixum
+       et Hellen inmolandos. Ergo Athamans cum filios inmolare vellet, Nympha mater arietem aurei
+       velleris iuvenibus inmisit, cui insidentes cum per maria ferrentur, Helle in fretum decidit,
+       quod Hellespontus dicitur, Phrixus Colchos ad regem Aeetam pervenit, ibi arietem inmolavit et
+       in luco matris pellem consecravit, quam draco pervigil custodisse dicitur.</del>
+     </p>
+    </div>
+
+    <div n="221" type="schol">
+     <p> EOAE Orientis. ‛Eoae’ non est epitheton Atlantidum, sed ‛eoae abscondantur’ idest (cum)
+      matutinum occasum faciunt; (nam) cum sol in Scorpione est, xv Kal. Maias, Vergiliae occidunt.
+     </p>
+    </div>
+
+    <div n="222" type="schol">
+     <p> GNOSIAQVE STELLA CORONAE. Ariadnen scilicet dicit, consecratam Libero Patri, cuius occasu
+      arbores et vites folia deponunt. CORONAE. Corona XII stellae signis proximae, in quas Ariadne,
+      Liberi uxor, transfigurata est. Cum enim Liber Pater Ariadnen, Minois filiam, uxorem duceret,
+      Vulcanus ei coronam obtulit, quam ad uxoris insigne inter sidera collocavit. Item GNOSIAQVE
+      ARDENTIS Ariadne a Libero Patre adamata cum in litore dormiens a Theseo fuisset relicta, huic
+      coronam muneri dedit, cum qua astris consecrata est. </p>
+    </div>
+
+    <div n="223" type="schol">
+     <p> COMMITTAS quasi fidis custodibus. </p>
+    </div>
+
+    <div n="224" type="schol">
+     <p> INVITAE dicit Probus a translatione dictum esse, ut ‛spem credere terrae’ et supra
+      ‛committas’. </p>
+    </div>
+
+    <div n="225" type="schol">
+     <p> ANTE OCCASVM MAIAE idest ante occasum Atlantidum; nam Maia una est de Atlantidibus sive de
+      Vergiliis, sed per unam omnes intellegimus: tropus synecdoche. Grata varietas: nam idem signum
+      Tauri tot nominibns significavit, modo ‛astrum aversum’</p>
+    </div>
+
+    <div n="227" type="schol">
+     <p> VICIAM genus parvi leguminis. VILEM PHASELVM plurimum, abundantem. ‛Phaselum’ autem
+      siliquam, (genus) leguminis. </p>
+    </div>
+
+    <div n="228" type="schol">
+     <p> PELVSIACAE LENTIS. Pelusium unum est de VII ostiis Nili fluminis, ubi optima lens nascitur.
+     </p>
+    </div>
+
+    <div n="229" type="schol">
+     <p> BOOTES occasus tardi videtur; decidit enim cum IIII signis Tauro, Geminis, Cancro, Leone,
+      verno scilicet tempore: tunc enim occidit. Quod autem subdidit * Quare hic primam partem
+      occasus eius, idest cum Tauro, intellegi oportet, ut vere legumina serenda dicantur, non
+      aestate. </p>
+    </div>
+
+    <div n="230" type="schol">
+     <p> ET AD MEDIAS SEMENTEM rel. Omnia conplexus est tempora, et vernum, quo legumen seritur, et
+      autumnale, quo frumentum, et multi volunt, (ita) hanc partem astrologiae librasse Virgilium,
+      ut in omnibus utrumque tempus significaret, vernale (et) autumnale. </p>
+    </div>
+
+    <div n="231" type="schol">
+     <p> DIMENSVM propter annum divisum in IIII tempora, et per XII signa XII menses accipimus. </p>
+    </div>
+
+    <div n="230" type="schol">
+     <p> PRVINAS. Ros matutino tempore congelatus. </p>
+    </div>
+
+    <div n="233" type="schol">
+     <p> ZONAE. Translatio; nam proprie ‛zonae’ in terra intelleguntur, sed hic pro parallelois
+      posuit. </p>
+    </div>
+
+    <div n="235" type="schol">
+     <p> EXTREMAE septentrionalis et australis. </p>
+    </div>
+
+    <div n="237" type="schol">
+     <p> DVAE MORTALIBVS solstitialis et hiemalis. </p>
+    </div>
+
+    <div n="238" type="schol">
+     <p> (VIA SECTA) zodiacus, quem ‛signiferum’ † oris dicimus. </p>
+    </div>
+
+    <div n="235" type="schol">
+     <p> Item QVAM CIRCVUM EXTREMAE. Bene addidit ‛extremae’, idest ne eas circa igneam esse
+      intellegeremus, quas constat temperatas esse vicinitate caloris et frigoris, quarum unam nos
+      habitamus, alteram Antipodae, (ad quos) hinc torrente zona, hinc frigidis ire prohibemur.
+      Antipodae autem dicuntur, quod contra nos positi sunt contrarii vestigiis. Terram autem dicunt
+      undique caelo et aere cingi. Per has duas zonas in oblicum tenditur signifer circulus, qui
+      solis continet cursum, onde fiunt II zonae frigidissimae, ad quas non accedit, una fervens, a
+      qua paene numquam recedit, II temperatae, ad quas vicissim venit. </p>
+    </div>
+
+    <div n="240" type="schol">
+     <p> MVNDVS VT AD SCYTHIAM rel. Pro caelo mundus accipitur; nam ‛mundi’ nomine IIII elementa
+      continentur. Quemadmodum enim erigitur mundus in septentrionalem plagam, ita declinatur in
+      australem. Iam definitio est nostri climatis, idest nostrae habitationis, quae a Septentrione
+      incipiens in australi desinit plaga. RIPHAEAS ARCES. Scythiam dicit, cuius sunt montes
+      Riphaei. </p>
+    </div>
+
+    <div n="238" type="schol">
+     <p> VIA SECTA. Eridani, fluminis Italiae, simulacrum in caelo dicitur esse. </p>
+    </div>
+
+    <div n="241" type="schol">
+     <p> LIBYAE. Regio Africae. </p>
+    </div>
+
+    <div n="242" type="schol">
+     <p> HIC VERTEX septentrionalis Arctos, ut Aratus dicit, quia secundum clima nostri caeli
+      arcticus circulus contra Orientem non venit, ut contra antarcticus sopra non excurrit,
+      quapropter partem illam in sphaera astrologi nulla pictura designant. SEMPER SVBLIMIS idest
+      haec pars mundi nobis semper videtur. </p>
+    </div>
+
+    <div n="243" type="schol">
+     <p> STYX. Palus infernalis. (ILLVM). Axem notion idest australem, qui numqnam nobis videtur,
+      sicut borios. Et hic sunt variae opiniones philosophorum: alii dicunt, a nobis abscedentem
+      solem ire ad Antipodas, alii negant et volunt, illic tenebras esse perpetuas. Mire ait ‛Styx
+      atra’ quasi de infernis. ATRA. Philosophi dicunt, (recedentes) animas hinc illic alia corpora
+      induere. </p>
+    </div>
+
+    <div n="245" type="schol">
+     <p> CIRCVM PERQVE DVAS. Et ‛circum’ enim et ‛per’; nam per utramque labitur, maiorem cauda
+      tangens, alvo conplectens minorem. </p>
+    </div>
+
+    <div n="245 246" type="schol">
+     <p> IN MOREM FLVMINIS ARCTOS OCEANI METVENTES AEQVORE T. Haec refert ad fabulam. Nam hae duae
+      pellices Iunonis fuisse dicuntur, quas postquam luppiter inter sidera retulit, Iuno rogavit
+      Thetyn, suam nutricem, ne umquam pateretur eas occidere, unde nunc ‛metuentes’ eas dicit.
+      Thetys vero, Iunonis nutrix, Oceani uxor. Propter quod negantur occidere. </p>
+    </div>
+
+    <div n="247" type="schol">
+     <p> INTEMPESTA inapta vel grossa, septima pars noctis. Posset sane hoc fieri in aliqua parte
+      mundi, ut paene sibi totum vindicet nox. </p>
+    </div>
+
+    <div n="250" type="schol">
+     <p> EQVIS. Apud poetas sol equos et currum habere dicitur. </p>
+    </div>
+
+    <div n="253" type="schol">
+     <p> HINC. Ex ratione philosophiae vel astrologiae; et iam conclusio est; nam hoc dicit: non
+      sine causa intuemur siderum ortus et occasus: hinc enim universa noscuntur. </p>
+    </div>
+
+    <div n="252" type="schol">
+     <p> CAELO aere. </p>
+    </div>
+
+    <div n="254" type="schol">
+     <p> INFIDVM. Lucretius: <hi rend="expanded">Infidi maris insidias viresque dolosque</hi>. </p>
+    </div>
+
+    <div n="258" type="schol">
+     <p> TEMPORIBVS PAREM idest verno, aestivo, autumnali, hiberno: de rebus contrariis fecit
+      declinationem dicendo ‛parem’, revera enim nihil est tam diversum et contrarium inter se, quam
+      aestas hiemi et e contra. </p>
+    </div>
+
+    <div n="260" type="schol">
+     <p> MVLTA usque DATVR. Hic est ordo: multa maturare datur, quae forent in serenitate
+      properanda. Nam male (quidam) ‛forent’ esse praesentis temporis volunt, ut sit sensus: multa
+      sunt properanda, quae maturare datur. MOX CAELO SERENO idest in usum caeli sereni multa
+      maturare datur, idest celeriter facere, quae si velis caelo sereno properanter facere, non
+      diligenter facere poteris, dum festinas. ‛Maturare’ verbum habet duas significationes: dicitur
+      enim ‛maturare’ tarde, idest sensim aliquid facere, dicitur et pro ‛velociter’, ut Plautus in
+      Curculione: <hi rend="expanded">qui homo maturare quaesivit pecuniam, nisi eam mature
+       parserit, substantiae deest</hi>. Hic ergo duo sensus possunt accipi, ut ipse alibi de
+      celeritate dixit: <hi rend="expanded">Maturate fugam</hi>. </p>
+    </div>
+
+    <div n="259" type="schol">
+     <p> FRIGIDVS et rel. Vsque DATVR. Monet agricolam debere aliqua opera facere, quibus minime
+      nocent imbres et quae in sereno caelo facienda esse sibi necessaria, quae celeriter operaretur
+      propter agriculturae petitionem. </p>
+    </div>
+
+    <div n="262" type="schol">
+     <p> LINTRES duas significationes habet, nam intellegitur hoc nomen et pro navibus et pro vase
+      concavo, ubi vulgo oliva portatur. </p>
+    </div>
+
+    <div n="261" type="schol">
+     <p> PROCVDIT idest cudendo extenuat. </p>
+    </div>
+
+    <div n="263" type="schol">
+     <p> AVT PECORI SIGNVM idest facit characteres, quibus pecora signantur. AVT NVMEROS ACERVIS
+      idest tesseras, quibus frumentorum numerus designatur. Nam numerum pro litteris posuit. </p>
+    </div>
+
+    <div n="264" type="schol">
+     <p> VALLOS palos; ‛paxilli’ diminutive. FVRCAS quibus fulciuntur vites et spinae coacervantur.
+     </p>
+    </div>
+
+    <div n="265" type="schol">
+     <p> AMERINA RETINACVLA quibus vites ligantur, quae virgae vel vimina abundant circa Amerinum
+      oppidum Italiae. </p>
+    </div>
+
+    <div n="266" type="schol">
+     <p> FACILIS flexibilis.</p>
+     <p>RVBEA. Rubi oppidum in Apulia hoc genere viminis abundans.</p>
+     <p>Item RVBEA VIRGA ex arbore rubi facta.</p>
+     <p>FISCINA genus virgae, ubi caseum premitur, diminutive ‛fiscilla’. </p>
+    </div>
+
+    <div n="267" type="schol">
+     <p> NVNC TORRETE praeparate panem, quo utamini in serenitate, ut prius torreantur idest
+      siccentur, dein molantur. </p>
+    </div>
+
+    <div n="268" type="schol">
+     <p> QVIPPE ETIAM rel. Non mirum, rusticum aliqua facere debere per pluvias, cum sint quaedam,
+      quae facere possit etiam festis diebus. </p>
+    </div>
+
+    <div n="269" type="schol">
+     <p> (FAS). ‛Fas’ divinum, ‛ius’ humanum, vel ‛fas’ ad homines, ‛iura’ ad Deos.</p>
+     <p>RIVOS DEDVCERE idest siccare; nam ‛deducere’ siccare, ‛inducere’ inrigare est, ut: <hi
+       rend="expanded">Deinde satis inducit fluvium</hi>. </p>
+    </div>
+
+    <div n="271" type="schol">
+     <p> INSIDIAS AVIBVS. Non de aucupatione loquitur, sed iubet aves a satis prohibere referens ad
+      illud: <hi rend="expanded">nihil inprobus anser</hi>.</p>
+     <p>VEPRES. Spinosum virgulti genus masculini generis, ut: <hi rend="expanded">sparsi rorabant
+       sanguine vepres</hi>. </p>
+    </div>
+
+    <div n="272" type="schol">
+     <p> BALANTVM GREGEM idest salutifero lavari fluvio oportet; nam in tertio dicit, scabie
+      temptari, nisi laventur, animalia. </p>
+    </div>
+
+    <div n="273" type="schol">
+     <p> TARDI vel naturaliter vel onusti.</p>
+     <p>AGITATOR verberator ab agendo dictus. </p>
+    </div>
+
+    <div n="274" type="schol">
+     <p> VILIBVS abundantibus. </p>
+    </div>
+
+    <div n="273" type="schol">
+     <p> ASELLI diminutio ‛asini’ est. </p>
+    </div>
+
+    <div n="274" type="schol">
+     <p> LAPIDEM INCVSVM refectum perforatum, molam manualem cudendo asperatam. </p>
+    </div>
+
+    <div n="275" type="schol">
+     <p> MASSAM PICIS. Aut qui oleum aut poma portaverit, aut certe ideo ait ‛reportat’, quia pix in
+      agris nascitur et in urbe retractata (in agrum) a plerisque reportatur. </p>
+    </div>
+
+    <div n="276" type="schol">
+     <p> IPSA DIES rel. Ordo est: ipsa luna alios dies alio ordine dedit felices operum, idest non
+      eosdem ad omnia felices, sed alios aliis rebus aptos. Plenissime de lunae diebus omnibus
+      expressit Hesiodus, quam rem iste praelibat. </p>
+    </div>
+
+    <div n="277" type="schol">
+     <p> QVINTAM FVGE. Dicitur enim hic numerus Minervae esse consecratus, quam sterilem esse
+      constat; inde sterilia omnia quinta luna nata esse dicuntur, ut Orcus, Furiae, Gigantes.
+      PALLIDVS quod pallidos morte facit. Steriles EVMENIDES, quae crinem vipereum habuisse
+      dicuntur. </p>
+    </div>
+
+    <div n="278" type="schol">
+     <p> SATAE pro ‛creatae’. </p>
+    </div>
+
+    <div n="279" type="schol">
+     <p> (SAEVVM). ‛Saevus’ nunc crudelem, nunc fortem significat. TYPHOEA accusativus. </p>
+    </div>
+
+    <div n="280" type="schol">
+     <p> FRATRES. Geminos Aloidas dicit, Otum et Ephialtem. </p>
+    </div>
+
+    <div n="281" type="schol">
+     <p> (PELIO OSSAM). Pelion et Ossa montes Thessaliae. </p>
+    </div>
+
+    <div n="283" type="schol">
+     <p> EXSTRVCTOS MONTES: ab eis. </p>
+    </div>
+
+    <div n="284" type="schol">
+     <p> SEPTIMA POST DECIMAM. Aut septimam decimam dicit aut hoc dicit: felix quidem est septima,
+      sed felicior decima, ut primum locum decimae relinquat. </p>
+    </div>
+
+    <div n="286" type="schol">
+     <p> NONA FVGAE MELIOR CONTRARIA FVRTIS. Non, ut stultis videtur, Virgilius aut servis fugam
+      suadet aut eis indicat dies, quibus semet a rapinis contineant. </p>
+    </div>
+
+    <div n="287" type="schol">
+     <p> ADEO: valde. Diligens divisio temporum; primo enim quattuor partes anni exsecutus est,
+      deinde dies lunares, modo horas, in quas dividitur nox et dies.</p>
+     <p>NOCTE nomen est, ut ei Horatius praepositionem iunxerit: <hi rend="expanded">de nocte
+       latrones</hi>. Nam adverbium ‛noctu’ facit, sicut ‛diu’; Sallustius: <hi rend="expanded">diu
+       noctuque laborare</hi>. </p>
+    </div>
+
+    <div n="288" type="schol">
+     <p> SOLE NOVO ortu novo.</p>
+     <p>EOVS stella Veneris; alii Iunonis interpretantur, alii Cephei et Aurorae filium Hesperum
+      tradunt, qui cum Venere de pulchritudine contendit, sed magis Veneri stella est: <hi
+       rend="expanded">Quem Venus ante alios astrorum diligit ignes</hi>. Item ‛Eous’ Lucifer, alee
+      Hesperum putant. </p>
+    </div>
+
+    <div n="291" type="schol">
+     <p> ET QVIDAM SEROS: ‛quidam’ hic pro ‛aliquis’ intellegendum est; ‛quidam’ enim ad certam
+      personam refertur.</p>
+     <p>HIBERNI AD LVMINIS IGNES pro ‛hiberni ad lumen ignis’. </p>
+    </div>
+
+    <div n="292" type="schol">
+     <p> INSPICAT incidit, infindit, acuit. </p>
+    </div>
+
+    <div n="294" type="schol">
+     <p> PECTINE a quo tela densetur. </p>
+    </div>
+
+    <div n="295" type="schol">
+     <p> MVSTI vini novi. Hic versus est una syllaba longior, sed sine vitio, ut ille: <hi
+       rend="expanded">Quem non incusavi amens hominumque Deorumque</hi>?</p>
+     <p>VVLCANO igne. DECOQVIT passam facit. </p>
+    </div>
+
+    <div n="296" type="schol">
+     <p> TREPIDI ferventis, saltantis. AENI calathi vel lebetis. In Ebrii et Corneliani ‛trepidis’.
+     </p>
+    </div>
+
+    <div n="297" type="schol">
+     <p> CERES messis per metonymiam. </p>
+    </div>
+
+    <div n="298" type="schol">
+     <p> TOSTAS torridas. </p>
+    </div>
+
+    <div n="299" type="schol">
+     <p> NVDVS ARA rel. Expeditus, adeo sereno caelo, ut amictus possis contemnere. HIEMS IGNAVA
+      propter frigus; ignavum reddit colonum plerumque frigus. </p>
+    </div>
+
+    <div n="300" type="schol">
+     <p> PARTO parato. </p>
+    </div>
+
+    <div n="302" type="schol">
+     <p> GENIALIS voluptuosa, convivialis, quia tunc genio suo indulgent. </p>
+    </div>
+
+    <div n="303" type="schol">
+     <p> PRESSAE onustae. </p>
+    </div>
+
+    <div n="304" type="schol">
+     <p> CORONAS. Aut revera coronas (aut) spiras funium accipimus sive post evasum mare nautae
+      inponunt navibus insignia victoriae. </p>
+    </div>
+
+    <div n="305" type="schol">
+     <p> QVERNAS ex quercu. Sunt aliquae derivationes ex usu magis quam ex ratione venientes, ut
+      ‛quernus’, ut ‛ficulnus’, ‛ilignum’, ‛colurnum’, a corylo, ilice, fico, quercu. STRINGERE
+      decutere. </p>
+    </div>
+
+    <div n="306" type="schol">
+     <p> MYRTA neutri generis. CRVENTA quia matura cruoris imitantur colorem, vel de sanguine
+      Adonis, vel quod sucum cruori similem habeant, vel quod belli tempore inde hastilia fiant.
+     </p>
+    </div>
+
+    <div n="307" type="schol">
+     <p> PEDICAS laqueos, quibus pedes innectuntur. </p>
+    </div>
+
+    <div n="308" type="schol">
+     <p> AVRITOS magnas aures habentes. † Abscenam insulam. </p>
+    </div>
+
+    <div n="309" type="schol">
+     <p> BALEARIS FVNDAE. Baleares insulae Hispani maris vicinae inter se, ubi primum dicitur fundae
+      militaris usus inventus esse. </p>
+    </div>
+
+    <div n="310" type="schol">
+     <p> NIX ALTA cacemphaton. </p>
+    </div>
+
+    <div n="311" type="schol">
+     <p> QVID TEMPESTATES rel. Verno et autumnali tempore fiunt tempestates, quando nec plena aestas
+      est nec plena hiems, unde medium et confine utriusque temporis ex coniunctione rerum
+      contrariarium efficit tempestates. SIDERA frigora. </p>
+    </div>
+
+    <div n="313" type="schol">
+     <p> VIGILANDA providenda. RVIT praecipitatur. </p>
+    </div>
+
+    <div n="314" type="schol">
+     <p> SPICEA IAM CAMPIS. ‛Spicos’ de maturis frugibus abusive dicimus; nam proprie ‛spicus’ est,
+      cum per culmi folliculum, idest extremum tumorem, aristae ...... INHORRVIT intremiscit. </p>
+    </div>
+
+    <div n="315" type="schol">
+     <p> FRVMENTA LACTANTIA adhuc tenuia et lactis plena. Varro in libro divinarum dicit, Deum esse
+      Lactantem, qui se infundit segetibus et eas facit lactescere <del>lactea esse</del>. Et
+      sciendum, inter ‛lactantem’ et ‛lactentem’ hoc interesse, quod ‛lactans’ est, qui lac praebet,
+      ‛lactens’, cui praebetur. </p>
+    </div>
+
+    <div n="317" type="schol">
+     <p> STRINGERET secaret, meteret, ut ibi: <hi rend="expanded">densas Agricolae stringunt
+       frondes</hi>. </p>
+    </div>
+
+    <div n="318" type="schol">
+     <p> OMNIA pro ‛omnium ventorum’. </p>
+    </div>
+
+    <div n="320" type="schol">
+     <p> SVBLIMEM pro ‛sublime’, quod sublime portarent erutam segetem. TVRBINE NIGRO tempestate
+      noxia. </p>
+    </div>
+
+    <div n="321" type="schol">
+     <p> HIEMS tempestas. CVLMVM LEVEM. ‛Culmus’ spica, ‛stipulae’ vero ipsa folia. </p>
+    </div>
+
+    <div n="322" type="schol">
+     <p> AGMEN AQVARVM idest impetus pluviarum aquarum, ut: <hi rend="expanded">leni fluit agmine
+       Thybris</hi>. </p>
+    </div>
+
+    <div n="324" type="schol">
+     <p> COLLECTAE EX ALTO ab Aquilone, qui ex alto flat idest a Septentrione † aevo et tempestates
+      gravissimas facit; nam Auster humilis. RVIT cum impetu venit. ARDVVS AETHER tonitru. </p>
+    </div>
+
+    <div n="326" type="schol">
+     <p> CAVA alta; ad alveum retulit fluviorum. </p>
+    </div>
+
+    <div n="328" type="schol">
+     <p> PATER Iuppiter. </p>
+    </div>
+
+    <div n="327" type="schol">
+     <p> FRETIS. Ostia fluminum vel maria. </p>
+    </div>
+
+    <div n="328" type="schol">
+     <p> CORVSCA coruscantia. </p>
+    </div>
+
+    <div n="331" type="schol">
+     <p> HVMILIS STRAVIT PAVOR quod humiles facit, ut: <hi rend="expanded">pallidus morbus</hi>.
+     </p>
+    </div>
+
+    <div n="332" type="schol">
+     <p> AVT ATHON AVT RHODOPEN. Montes Graeciae, Thessaliae vel Thraciae. * Ordo * crescente numero
+      syllabarum per aucta montium nomina, quod genus et apud Homerum industrie factum invenitur,
+      cum idem versus ab una syllaba incipiens usque ad quinque syllabas decurrit.</p>
+     <p>CERAVNIA. Montes Epiri in Adriatico mari crebris dicti fulminibus. </p>
+    </div>
+
+    <div n="334" type="schol">
+     <p> PLANGVNT. Percutiuntur, resonant. </p>
+    </div>
+
+    <div n="335" type="schol">
+     <p> CAELI MENSES. Duodecim signa, quibus menses agnoscimus vel planetas.</p>
+     <p>ET SIDERA. Vel tempestates vel planetarum motus. Sciendum, de planetis V duos bonos, Iovem
+      et Venerem, II malos, Martem et Saturnum; Mercurius vero talis est, qualis ille, cui iungitur.
+     </p>
+    </div>
+
+    <div n="336" type="schol">
+     <p> FRIGIDA SATVRNI STELLA. Satis cognitum est, Saturni stellam frigidam esse et ideo apud
+      Iudaeos Saturni die frigidos cibos esse; frigidam autem dicunt stellam, quae sit glacialis,
+      pestilis, grandinosa, atrox, permutabilis.</p>
+     <p>FRIGIDA SATVRNI ut ipse: <hi rend="expanded">Frigidus</hi>
+      <del>quia Deus pluviarum</del>
+      <hi rend="expanded">o pueri fugite</hi>
+      <del>idest nociva et contraria</del>. </p>
+    </div>
+
+    <div n="337" type="schol">
+     <p> ‛Cyllenius’ autem ‛ignis’ stella Mercurialis est; nam in Cylleno, monte Arcadiae, dicitur
+      esse Mercurius natus.</p>
+     <p>ERRET. Nam interdum in Austrum, interdum in Septentrionem, plerumque contra mundum,
+      nonnumquam cum mundo fertur. Hermippus autem ait Mercuri stellam vocari, sed esse Apollinis.
+     </p>
+    </div>
+
+    <div n="338" type="schol">
+     <p> INPRIMIS VENERARE DEOS. Qui possunt tempestates et pluvias depellere. Post haec cognita da
+      praecipue operam sacrificiis, quibus tempestates et pluviae possint repelli.</p>
+     <p>ANNUA anniversaria. </p>
+    </div>
+
+    <div n="339" type="schol">
+     <p> SACRA sacrificia. OPERATVS IN HERBIS. Aut dans operam conviviis aut cum opera cuncta
+      conpleveris. </p>
+    </div>
+
+    <div n="341" type="schol">
+     <p> MOLLISSIMA VINA. Vina defaecata, asperitate carentia, dulcia. </p>
+    </div>
+
+    <div n="343" type="schol">
+     <p> CVNCTA TIBI: in honorem (tuum) et in tuam gratiam. </p>
+    </div>
+
+    <div n="344" type="schol">
+     <p> CVI TV: cui tu liba de lacte, melle, vino. DILVE dissolve. </p>
+    </div>
+
+    <div n="345" type="schol">
+     <p> FELIX fecunda. TER quia: <hi rend="expanded">numero Deus inpare gaudet</hi>. </p>
+    </div>
+
+    <div n="346" type="schol">
+     <p> (CHORVS). ‛Chorus’ proprie coaevorum cantus et saltatio, ut alibi: <hi rend="expanded"
+       >iuvenum chorus, ille senum</hi>. (Hic) multitudo. </p>
+    </div>
+
+    <div n="347" type="schol">
+     <p> CEREREM copiam frumentorum. </p>
+    </div>
+
+    <div n="349" type="schol">
+     <p> TORTA REDIMITVS idest habens in memoriam priorem victum, a quo Cereris revocatus est
+      benignitate. Nam olim homines glandibus vescebantur. </p>
+    </div>
+
+    <div n="350" type="schol">
+     <p> CARMINA DICAT: hymnos, <del>saltationem aptam</del> subaudi inconposita, ex nulla arte
+      venientia. </p>
+    </div>
+
+    <div n="353" type="schol">
+     <p> MENSTRVA LVNA: inde et <foreign xml:lang="grc">Μήνη</foreign> dicitur. </p>
+    </div>
+
+    <div n="354" type="schol">
+     <p> CADERENT AVSTRI venti desinerent vel † flarent. </p>
+    </div>
+
+    <div n="356" type="schol">
+     <p> SVRGENTIBVS incipientibus. FRETA litora, quae feriuntur fluctibus maris. </p>
+    </div>
+
+    <div n="357 s." type="schol">
+     <p> ET ARIDVS FRAGOR ideat sonitus, qualis solet fieri ex aridis, cum franguntur, arboribus.
+     </p>
+    </div>
+
+    <div n="[344" type="schol">
+     <p> DILVE idest offer.]</p>
+     <p>Omne enim, quod aridum est, cum frangi coeperit, nimium efficit sonum. Fragor enim fractarum
+      rerum sonitus nominatus est. </p>
+    </div>
+
+    <div n="359" type="schol">
+     <p> MISCERI perturbari. </p>
+    </div>
+
+    <div n="360" type="schol">
+     <p> MALE TEMPERAT pro non abstinetur, sed crescit et surgit. </p>
+    </div>
+
+    <div n="361" type="schol">
+     <p> CELERES pro celeriter. MERGI corvi marini, <hi rend="italic">foilinn</hi>. </p>
+    </div>
+
+    <div n="363 s." type="schol">
+     <p> MARINAE FVLICAE idest ad distinctionem fluvialium. </p>
+    </div>
+
+    <div n="364" type="schol">
+     <p> ARDEA dicta quasi ardua, quae, cum altius volaverit, quasi significat tempestatem. Item:
+      ardea * oculi eius ardescunt. Alii putant ardeam dictam, quorum unus Modestus, quod ardua
+      crura habeat, idest alta. </p>
+    </div>
+
+    <div n="369" type="schol">
+     <p> CONLVDERE conmoveri. </p>
+    </div>
+
+    <div n="365" type="schol">
+     <p> INPENDENTE inminente. </p>
+    </div>
+
+    <div n="366" type="schol">
+     <p> * quod nobis praecipitari videantur. PRAECIPITES rel. Sequitur vulgi opinionem; non enim
+      omnia prudenter a poeta dicenda sunt. </p>
+    </div>
+
+    <div n="367" type="schol">
+     <p> FLAMMARVM. Stellarum purgamenta cadentia ventum denuntiant. Fit enim † a fructuoso ex
+      abundantia, quae dicitur, densitate aeris, unde venti. </p>
+    </div>
+
+    <div n="368" type="schol">
+     <p> FRONDES. Folia. </p>
+    </div>
+
+    <div n="369" type="schol">
+     <p> PLVMAS. Quascumque, nisi forte papulos significat, idest cardui florem. </p>
+    </div>
+
+    <div n="370" type="schol">
+     <p> BOREAE DE PARTE TRVCIS rel. Hoc vult dicere: Vbique ingentes efficit pluvias ab istis
+      ventis mota tempestas. </p>
+    </div>
+
+    <div n="371" type="schol">
+     <p> DOMVS. Cuius ventorum rex Aeolus custos fuisse dicitur. </p>
+    </div>
+
+    <div n="373" type="schol">
+     <p> INPRVDENTIBVS valde prudentibus aut pro nescientibus posuit, idest numquam nescientibus
+      obfuit imber, tot signis praecedentibus. </p>
+    </div>
+
+    <div n="375" type="schol">
+     <p> GRVES. Aut aerei coloris aut in altum volantes hiemis signum; dicit enim grues de vallibus
+      fugere, non pluviam de vallibus surgere. </p>
+    </div>
+
+    <div n="376" type="schol">
+     <p> CAPTAVIT suscepit. </p>
+    </div>
+
+    <div n="378" type="schol">
+     <p> ET VETEREM IN LIMO RANAE rel. Multi ambigunt, quae sit ranarum vetus querela. Modestus ait,
+      Latonam, cum ageretur a Iunone, in Lyciam supervenisse et sitientem accessisse ad fontem, (a)
+      pastoribus autem prohibitam. Memorem autem iniuriae suae post editum partum redisse in Lyciam
+      et pastores in ranas vertisse, ut perpetuam eius fontis haberent custodiam, cuius potum
+      Latonae denegassent. Ovidius dicit: Ceres cum Proserpinam quaesisset, ad bibendum accessit ad
+      quendam fontem, tunc eam Lycii rustici a potatu prohibuerunt, et conturbantes pedibus fontem
+      cum contra eam emitterent turpem narium sonum, illa irata eos convertit in ranas, quae nunc
+      quoque ad illius soni imitationem clamant. Alii dicunt, ranas per abundantiam aquae extra
+      paludes pelli et serpentibus cibo esse aut alioquin ínterire. Inde igitur (ad) tempestatis
+      adventum eas querelas excipere.</p>
+     <p>‛Querela’ est vox muta, ut ipse ait: <hi rend="expanded">omne querellis Inpleri nemus</hi>.
+     </p>
+    </div>
+
+    <div n="379" type="schol">
+     <p> EXTVLIT OVA. Vbi frigidus (est) aer, terra spissescit, et si qua (habet) caloris semina,
+      intrinsecus cogit, quo fit, ut in hieme aqua puteana calidior sit; ergo inminente pluvia
+      frigidiore aere humus inferior vaporatur, quapropter mirum non est, si formicae, quae sub
+      terra vivunt, ex repentino calore pluviam praesentientes ova proferunt. </p>
+    </div>
+
+    <div n="380" type="schol">
+     <p> ET BIBIT. Iris enim ex Oceano bibit. </p>
+    </div>
+
+    <div n="381" type="schol">
+     <p> ARCVS. ‛Ingentem’ dixit arcum volens duplicem exprimere. Hic sequitur vulgi opinionem. </p>
+    </div>
+
+    <div n="383" type="schol">
+     <p> IAM VARIAS PELAGI VOLVCRES ATQVE ASIA CIRCVM et rel. Haec est vera lectio et sensus talis
+      est: iam varias volucres et eas, quae circum prata rimantur, in dulcibus stagnis Caystri
+      videas certatim largos et rel. Nam si VARIAE legeris, sesus nulla ratione procedit. Caystrus
+      autem fluvius est Lydiae, non palus; Asia vero palus, unde fit ‛prata Asia’ et longa ‛A’; nam
+      de provincia corripitur ‛A’, ut: <hi rend="expanded">Europa atque Asia pulsus</hi>. </p>
+    </div>
+
+    <div n="384" type="schol">
+     <p> RIMANTVR PRATA pascuntur in pratis. </p>
+    </div>
+
+    <div n="387" type="schol">
+     <p> INCASSVM VIDEAS GESTIRE: laetitiam suam corporis habitu significare; nam ut homines verbis
+      laetitiam suam exprimunt, ita aves corporis gestu.</p>
+     <p>‛Incassum’ ideo ait, quia plumarum conpositio aquam minimam mittit ad corpus, sive frustra:
+      humor enim pennarum densa levitate suspenditur. </p>
+    </div>
+
+    <div n="384" type="schol">
+     <p> RIMANTVR. Iucunda translatione usus est pro ‛scrutantur’. Proprie enim sues ‛rimari’
+      dicuntur, cum glandes rostro exarant. </p>
+    </div>
+
+    <div n="388" type="schol">
+     <p> PLENA VOCE rauca contra naturam suam, et ‛vocat’ poetice: non enim vocat pluviam, sed
+      denuntiat, et notandum, cornicem et rauca voce et solam pluviam praedicere, corvos vero et
+      plures. Posuit aves praedicere futura, quod in aere vitam agunt, unde mersitant se pluvia
+      inminente, ne insperatus imber subveniat. </p>
+    </div>
+
+    <div n="391" type="schol">
+     <p> TESTA lucerna. CVM ARDENTE. Propter vilitatem ‛lucernam’ noluit (dicere) nec iterum
+      ‛lychnum’, sicut in heroico carmine, ut: <hi rend="expanded">dependent lychni</hi>. </p>
+    </div>
+
+    <div n="392" type="schol">
+     <p> PVTRES CONCRESCERE FVNGOS globos quosdam; nam, ut dicit Plinius, cum aeris frigus esse
+      coeperit, (favilla) prohibita aeris crassitate in lucerna residet et quasdam velut fungorum
+      imagines imitatur. </p>
+    </div>
+
+    <div n="393" type="schol">
+     <p> NEC MINVS EX IMBRI SOLES idest serenitates et versa vice dat prognostica, quibus agnoscamus
+      ex tempestivo caelo serenitatem futuram.</p>
+     <p>SOLES. Serenitatem dicit. Serenitas autem eo, quod seret caelum idest aperiat. Eleganter id
+      epitheton nomins etymologiam ostendit; serenum enim dictum est a serando idest aperiendo,
+      sicut alibi Virgilius: <hi rend="expanded">Et vastas aperit Syrtes</hi>, idest reserat. </p>
+    </div>
+
+    <div n="396" type="schol">
+     <p> NEC FRATRIS RADIIS. (‛Obtunsa’) subaudis a superioribus, nam hoc dicit: nec luna videtur
+      obtunsa, quae est radiis solis obnoxia; nam, ut dicunt physici, ab eo accipit lumen.</p>
+     <p>‛Obnoxiam Lunam’ dixit pro eo, quod obstet et noceat. Non absurde hic videbitur II tempora
+      dixisse, nocturnum et diurnum, et quidem nocturnum sic: Nam neque tum stellis acies obtunsa
+      videtur; diurnum autem hoc versu: Nec fratris radiis obnoxia surgere Luna, ut sit sensus: nec
+      si subito sol deficit, ut videatur radiis eius fuisse obnoxia Luna. Eclipsidem Aratus dicit.
+     </p>
+    </div>
+
+    <div n="397" type="schol">
+     <p> TENVIA NEC LANAE. Proceleumaticus est pro dactylo, quam rem qnotiens facit Virgilius,
+      servat locum, nt ‛tenuia’.</p>
+     <p>NEC LANAE. Nebulae dicuntnr, quae inminente tempestate ob nimiam levitatem in aere vento
+      iactantur. Item ‛vellera’ nubes dixit, ‛tenuia’ aranearum texturas, quae inminente tempestate
+      per aera raptantur. Varro in Epimenide: <hi rend="expanded">nubes sicut vellera lanae
+       constabunt</hi>, sicut et Aratus. </p>
+    </div>
+
+    <div n="399" type="schol">
+     <p> DILECTAE THETIDI ALCYONES. Ceyx <del>vel Ciax</del>, filius Luciferi, habuit uxorem
+      Alcyonen, a qua cum prohibitus esset (ire) ad consulendum Apollinem de statu regni sui,
+      naufragio periit, cuius corpus ad uxorem cum delatum fuisset, illa se in mare praecipitavit;
+      postea miseratione Thetidis et Luciferi conversi sunt ambo in aves marinas alcyones. </p>
+    </div>
+
+    <div n="[394" type="schol">
+     <p> PROSPICERE quod agnoscitur caelo tempestativo serenitas.]</p>
+     <p>Item: DILECTAE THETIDI ALCYONES. Ciax, rex Thracum, Iovem se vocari et Alcyonen, coniugem
+      suam, Iunonem coli iussit; peregre profectus naufragio periit: coniux inpatienter ferens
+      luctum in avem sui nominis mutata, cui hoc honoris datum est, ut VIIII diebus, quibus fetus in
+      mari facit, nulla aura nullusque ventus exsurgat.</p>
+     <p>NON ORE SOLVTOS. Alii ‛soluto ore’ accipiunt idest nimium patenti vel quod pluvialibus
+      diebus faciunt. </p>
+    </div>
+
+    <div n="400" type="schol">
+     <p> INMVNDI SVES nimis sordidi, luto gaudentes. </p>
+    </div>
+
+    <div n="401" type="schol">
+     <p> IMA PETVNT idest deprimuntur ad valles. </p>
+    </div>
+
+    <div n="403" type="schol">
+     <p> NEQVIQVAM SEROS idest (non) seros.</p>
+     <p>NOCTVA. Avis est lucifuga, quae significat pluviam, si cecinerit post solis occasum. De hac
+      autem talis fabula. Nyctimone postquam cum patre concubuit et agnovit facinus, se in silvis
+      abdidit et lucem refugit, ubi Deorum voluntate conversa est in avem, quae pro tanto facinore
+      omnibus avibus est admirationi. Item: Nyctimone, Epopei filia, a Corymbo hospite conpressa
+      iram patris timens in silvas profugit, quae misericordia Minervae in noctuam mutata est. </p>
+    </div>
+
+    <div n="404" type="schol">
+     <p> NISVS. (Nisus), Megarensium rex, pater Scyllae, fuisse traditur crine purpureo fatali, qui
+      responsum accepit, tamdiu victurum, quamdiu crinis esset intonsus. Hoc Scyllae filiae cum
+      confessus esset et a Minoe, Cretensium rege, obsideretur, Scylla Minoem adamavit et desectum
+      patris crinem ad eum pertulit, quod genus victoriae ille exsecratus Scyllam navi religatam in
+      mare eam deiecit. At illa in cirim conversa est, item pater eius Nisus in haliaeetum, qui
+      parricidi exsequens poenas cirim hostili mente persequitur. </p>
+    </div>
+
+    <div n="405" type="schol">
+     <p> ET (PRO) PVRPVREO rel. II fuerunt Scyllae, una Phorci et Crataeidis Nymphae filia, quae in
+      marinum monstrum conversa esse dicitur; altera Scylla Nisi, Megarensium regis, filia, contra
+      quos cum devictis Atheniensibus pugnaret Minos propter filii Androgei interitum, quem
+      Athenienses et Megarenses circumventum dolo necaverunt, amatus a Scylla, Nisi filia, quae, ut
+      hosti posset placere, comam patris purpuream abscisam ei abstulit, quod ita habuerat
+      consecratum, ut tamdiu regnaret, quamdiu illam habuisset intactam. Postea Scylla, a Minoe
+      condemnata, dolore in avem conversa est et Nisus extinctus Deorum miseratione in avis mutatus
+      est formam, quae aves hodie inter se flagrant magna discordia. </p>
+    </div>
+
+    <div n="410" type="schol">
+     <p> LIQVIDAS puras. </p>
+    </div>
+
+    <div n="413" type="schol">
+     <p> ACTIS pro abactis idest finitis. </p>
+    </div>
+
+    <div n="410 s." type="schol">
+     <p> TER QVATER. Indicium serenitatis. </p>
+    </div>
+
+    <div n="414" type="schol">
+     <p> PROGENIEM PARVAM. † Aristoteles enim dicit (eos esse) obliviosos et plerumque ad nidos suos
+      minime reverti, sed quadam ratione naturae haec ad suos congerunt nidos, quae vermes possint
+      creare. </p>
+    </div>
+
+    <div n="415" type="schol">
+     <p> HAVD EQVIDEM CREDO. Proponit sibi quaestionem acerrimam. Nam quaerit, cur homines, quos
+      constat esse prudentiores animalibus, per se non sentiant qualitatem aeris futuri. Quare, cum
+      in VI dixerit: <hi rend="expanded">Inde hominum pecudumque genus vitaeque volantum</hi>, hic
+      aliter dicit? Ideo, quod ibi Anchises apud Inferos loquitur, hic vero poeta vivus hoc dixit.
+     </p>
+    </div>
+
+    <div n="416" type="schol">
+     <p> PRVDENTIA MAIOR idest nobis. AVT RERUM FATO PRVDENTIA MAIOR. (Non) est divinitus illis
+      concessum ingenium nec prudentia, quae est maior rerum fato; alibi: <hi rend="expanded">metus
+       omnis et inexorabile fatum</hi>. </p>
+    </div>
+
+    <div n="422" type="schol">
+     <p> CONCENTVS mixtus cantus hoc est symphoniae lege. </p>
+    </div>
+
+    <div n="423" type="schol">
+     <p> PECVDES aeris serenitate gaudentes. </p>
+    </div>
+
+    <div n="424" type="schol">
+     <p> SOLEM AD RAPIDVM: velocem. Et notandum, haec signa magis fida esse et subtiliora, quae ex
+      luna vel sole colligimus. LVNASQVE SEQVENTES idest rationabiliter solem sequentes. Luna enim
+      solis circulos sequitur, licet ipsa inferior sit. ‛Sequentes’ a prima, (a secunda), a tertia
+      vel a quarta se sequentes. </p>
+    </div>
+
+    <div n="425 s." type="schol">
+     <p> CRASTINA FALLET HORA. Hyperbole est: nec hora una quidem te decipiet. </p>
+    </div>
+
+    <div n="426" type="schol">
+     <p> CAPIERE decipiere. INSIDIIS. Scimus, nos decipi serenitate. </p>
+    </div>
+
+    <div n="428" type="schol">
+     <p> NIGRVM AERA non nigrum cornu, quoniam Graece <foreign xml:lang="grc">τὸν ἀέϱα</foreign>.
+     </p>
+    </div>
+
+    <div n="430" type="schol">
+     <p> AT SI VIRGINEVM quoniam virgo est Luna. SVFFVDERIT forinsecus habuerit; nam de interiore
+      parte diceret ‛infuderit’. </p>
+    </div>
+
+    <div n="431" type="schol">
+     <p> AVREA PHOEBE pulchra, et venit ab eo, quod est ‛Phoebus’, et sciendum, propria nomina ex se
+      tantum feminina, non etiam neutra facere, ut ‛Phoebus Phoebe’, ‛Iulius Iulia’, ‛Tullius
+      Tullia’, non ut appellativa, ut ‛doctus a um’. Aratus ait, si cornu aquilonium sit erectius,
+      Aquilonem inminere et per eum serenum fieri, quia ventus contractiora reserat. Nigidius de
+      ventis IIII: Si summum corniculum maculas nigras habuerit in primis (mensis) partibus, imbres,
+      ait, fore; <hi rend="expanded">si in imo cornu, serenitatem debemus (scire)</hi>.</p>
+     <p>VENTO RVBET. Ventum denuntiat rubens luna: fit enim ventus ex aeris densitate et densitas
+      aeris inducto splendore lunae crudescit. </p>
+    </div>
+
+    <div n="432" type="schol">
+     <p> SIN ORTV QVARTO. Aratus tertiam dicit animadvertendam lunam, hic quartam, non illud
+      inprobans, sed hoc magis probans, ut ait: ‛namque is certissimus auctor’. </p>
+    </div>
+
+    <div n="437" type="schol">
+     <p> GLAVCO. Hic piscator fuit de Anthedone civitate, qui, cum captos pisces per herbas
+      posuisset in litore (et) illi recepto spiritu maria rursus petissent, sensit quandam herbarum
+      potentiam, quibus esis conversus est in numen marinum. Glaucus enim dolens amisisse praedam,
+      idest pisces, praecipitavit se in mare et Deus maris factus est.</p>
+     <p>Item: Glaucus, Polyboei <del>vel Polimboe</del> et Terrae filius, herba quadam gustata
+      inmortalitatem adeptus est, quam piscibus marcescentibus inposuerat et revixerunt. Haec autem
+      herba dicitur in Fortunatis insulis nasci.</p>
+     <p>PANOPEAE. Panopea, ut Hesiodus scripsit, Nerei filia est, coniux Glauci et Nympha marina,
+      Melicertes vero Inus filius et Athamantis, quem Palaemonem Corinthii in Isthmo colunt, nostri
+      Portunum dicunt, quod portibus praesit, unde clavum tenens pingi solet. Item INOO MELICERTAE.
+      Patronymicon est a matre, ut alibi: <hi rend="expanded">Ledaeam Hermionen</hi> est. Sane Ino
+      et Melicerta postquam sunt in numina commutati, Graece Palaemon et Leucothea sunt nominati,
+      Latine Portunus et Mater Matuta. </p>
+    </div>
+
+    <div n="442" type="schol">
+     <p> CONDITVS IN NVBEM idest si orbis eius quasi concavus fuerit, quod exprimit dicens:
+      ‛medioque refugerit orbe’. Item CONDITVS veluti refugo orbe apparuerit in medio suo orbe.
+      CONDITVS IN NVBEM soloecismus est: nam dicere debuit ‛conditus in nube’, sed non hic vitium,
+      quoniam ‛in’ et ‛pro’ praepositiones multa significant. Nunc de ‛pro’ exemplum: <hi
+       rend="expanded">pro turribus altis Stant maesti</hi>, hoc est ‛ante turres’. Et hic ‛in’ non
+      ‛in nubem conditus’, ut sit vitium, sed ‛in’ pro ‛intra’ significat, idest ‛intra nubem
+      conditus est’. </p>
+    </div>
+
+    <div n="444" type="schol">
+     <p> SINISTER noxius. </p>
+    </div>
+
+    <div n="447" type="schol">
+     <p> TITHONI. Maritus Aurorae. </p>
+    </div>
+
+    <div n="448" type="schol">
+     <p> MITIS maturus, ut ipse alio loco: <hi rend="expanded">sunt nobis mitia poma</hi> idest
+      matura. MALE DEFENDET. Nam excussis pampinis uva vim grandinis patitur. PAMPINVS. Robor vitis
+      vel folia vitis silvestris. </p>
+    </div>
+
+    <div n="450" type="schol">
+     <p> EMENSO non proprie, sicut dicimus ‛emensos nos viam’. </p>
+    </div>
+
+    <div n="451" type="schol">
+     <p> PROFVERIT MEMINISSE MAGIS quod sole veniente ad vesperum signa meliora sunt. </p>
+    </div>
+
+    <div n="453" type="schol">
+     <p> CAERVLEVS viridis, niger. </p>
+    </div>
+
+    <div n="455" type="schol">
+     <p> PARITER aequaliter. </p>
+    </div>
+
+    <div n="454" type="schol">
+     <p> MISCERIER pro ‛misceri’. </p>
+    </div>
+
+    <div n="456" type="schol">
+     <p> FERVERE a ‛fervo fervis’. </p>
+    </div>
+
+    <div n="458" type="schol">
+     <p> AT SI CVM REFERETQVE rel. Hoc ad futurum serenitatis pertinet signum. Nam si (de) ipso
+      (die) dicas, stultissimum. </p>
+    </div>
+
+    <div n="460" type="schol">
+     <p> CLARO AQVILONE serenefico, quia est et nubilus, sicut fere omnes venti. </p>
+    </div>
+
+    <div n="461" type="schol">
+     <p> DENIQVE QVID VESPER SERVS VEHAT. Vesper stella Martis. Conclusio est, quae haec continet:
+      signa, quae possimus ex stellis vel ex ventis colligere, melius ex sole colligimus. Item:
+      ‛vesperem’ pro note posuit: tropus synecdoche, a parte totum. </p>
+    </div>
+
+    <div n="462" type="schol">
+     <p> QVID COGITET idest in quam se partem inflectat, utrum ad serenitatem an ad pluviam. </p>
+    </div>
+
+    <div n="463" type="schol">
+     <p> FALSVM pro fallaci. </p>
+    </div>
+
+    <div n="464" type="schol">
+     <p> CAECOS latentes insidias. </p>
+    </div>
+
+    <div n="466" type="schol">
+     <p> ILLE ETIAM rel. Bonum epilogii repperit locum, ut in Angusti gratiam defleat Caesaris
+      mortem. Constat enim, occiso Iulio Caesare in senatu pridie Iduum Maiarum die solis fuisse
+      defectum ab hora VI usque in noctem, quod quia multis tractum horis est, dictum: <hi
+       rend="expanded">aeternam timuerunt saecula noctem</hi>. </p>
+    </div>
+
+    <div n="468" type="schol">
+     <p> IMPIA additum, ut perpetuam noctem Romani timuissent, quod sciebant, se † miseri propter
+      interfectionem Caesaris. </p>
+    </div>
+
+    <div n="467" type="schol">
+     <p> FERRVGINE. Proprie ferri scabies, purpura nigrior Hispana, obscuritas ferri aut ferri
+      rasura. </p>
+    </div>
+
+    <div n="469" type="schol">
+     <p> AEQVORA PONTI. Non sine causa additum ‛ponti’, quia sunt et campi aequora. </p>
+    </div>
+
+    <div n="470" type="schol">
+     <p> OBSCENI CANES diri, quod obscenum canunt, quod obsint augurio. INPORTVNAEQVE VOLVCRES quae
+      ad domos accedunt et malum significant, in alienum tempus ruentes, ut striges aut bubones
+      nocte gaudentes per diem possent videri. </p>
+    </div>
+
+    <div n="472" type="schol">
+     <p> VNDANTEM evomentem: malum enim omen est, quando non fumi, sed flammarum globos egerit. </p>
+    </div>
+
+    <div n="474" type="schol">
+     <p> TOTO GERMANIA CAELO. Bene ‛Germania’, quam vicerat Caesar, ut eo occiso in rebellionem
+      videretur exsurgere. </p>
+    </div>
+
+    <div n="475" type="schol">
+     <p> INSOLITIS antea in Alpibus numquam factis aut magnis et solito maioribus. </p>
+    </div>
+
+    <div n="476" type="schol">
+     <p> VVLGO passim. </p>
+    </div>
+
+    <div n="478" type="schol">
+     <p> SVB OBSCVRVM circa noctis obscurum. </p>
+    </div>
+
+    <div n="478 s." type="schol">
+     <p> LOCVTAE INFANDVM. Aut infanda verba protulerunt aut hoc ipsum infandum fuit, quod sunt
+      locutae contra naturam. </p>
+    </div>
+
+    <div n="480" type="schol">
+     <p> INLACRIMAT TEMPLIS EBVR scilicet simulacrorum. AERAQVE SVDANT (signa) laboris futuri. </p>
+    </div>
+
+    <div n="481" type="schol">
+     <p> INSANO magno, et sciendum, flumina, cum supra modum crescunt, non tantum ad praesens
+      inferre damna, sed etiam futura significare. </p>
+    </div>
+
+    <div n="482" type="schol">
+     <p> FLVVIORVM REX. Padum dicit. Vbi sit Heridanus, multi errant. Eusebius ipsum esse Rhodanum
+      putat propter magnitudinem, Ctesias hunc in India esse, Choerilus in Germania, in quo flumine
+      Phaethon extinctus est, Ion in Achaia. Sed Virgilium credibile est Padum significasse, cuius
+      inundatio semper prodigiosa existimata est. Quem ‛fluviorum regem’, dixit, sive quod multa in
+      se flumina currentia ex Alpibus recipit sive quia ipsius simulacrum in caelo sit receptum
+      inter astra.</p>
+     <p>Item FLVVIORVM REX HERIDANVS. Padum dicit per Italiam aut certe per totum orbem, ut Lucanus.
+     </p>
+    </div>
+
+    <div n="484" type="schol">
+     <p> FIBRAE extremae partes iocineris a fibris vestimenti. Ordo: ‛(nec) cruor cessavit’. </p>
+    </div>
+
+    <div n="487" type="schol">
+     <p> CECIDERVNT PLVRA SERENO. Omen est in eo, quod caelo sereno missa sunt fulmina. </p>
+    </div>
+
+    <div n="488" type="schol">
+     <p> DIRI COMETAE. Stellae pessimae crinitae, sunt tamen et bonae. DIRI pro ‛dirae’. </p>
+    </div>
+
+    <div n="490" type="schol">
+     <p> PHILIPPI civitas Thessaliae, in qua primo Caesar et Pompeius, (postea) Angustus et Brutus
+      cum Cassio dimicaverunt. </p>
+    </div>
+
+    <div n="491" type="schol">
+     <p> NEC FVIT INDIGNVM. Quasi exclamatio ad Deos. </p>
+    </div>
+
+    <div n="492" type="schol">
+     <p> EMATHIAM. Thessaliam dicit ab Emathione rege. HAEMI. Haemus enim mons Thessaliae. </p>
+    </div>
+
+    <div n="490" type="schol">
+     <p> Item PHILIPPI. In Macedonia Romani victi sunt a Philippo rege, ubi Caesar et Antonius
+      adversum Brutum et Cassium dimicaverunt. </p>
+    </div>
+
+    <div n="492" type="schol">
+     <p> Emathia autem pars Macedoniae dicta ab Emathione, Iovis et Electrae filio. Bis autem
+      inundatos Romano sanguine Emathiae campos dicit, quia Caesar et Pompeius ad se bellaverunt,
+      Brutus et Cassius contra Caesarem, Augustus et Antonius contra Brutum et Cassium, semel
+      Pompeius et Caesar, iterum Brutus et Cassius contra Augustum HAEMI. Mons Macedoniae. </p>
+    </div>
+
+    <div n="494" type="schol">
+     <p> INCVRVO. Vna pars orationis. </p>
+    </div>
+
+    <div n="495" type="schol">
+     <p> SCABRA aspera, unde et ‛scabies’ dicitur a corporis asperitate. PILA. Genus teli maximi.
+     </p>
+    </div>
+
+    <div n="496" type="schol">
+     <p> INANES concavas, tunc inanes, quando non tegunt capita. </p>
+    </div>
+
+    <div n="497" type="schol">
+     <p> GRANDIA aut multa aut ingentia, sicut ibi: <hi rend="expanded">Qualia nunc hominum producit
+       corpora tellus</hi>. </p>
+    </div>
+
+    <div n="498" type="schol">
+     <p> DII PATRII INDIGETES. Qui praesunt singulis civitatibus, ut Minerva Athenis, Iuno
+      Karthaginiensibus. Indigetes proprie sunt Dii ex hominibus facti, quasi ‛(in) Diis agentes’,
+      abusive omnes generaliter, quasi nullius rei egentes.</p>
+     <p>Alii ‛indigetes’ proprie interpretantur, quorum propriorum nominum indigemus, ut Dii
+      Penates, item Lares. VESTAQVE MATER. Et haec de quaestionibus Virgilianis est: cur dicit a
+      Vesta Palatium et Tiberim servari, cum urbs Roma, sicut multis videtur, in tutela sit Martis?
+      Seu idcirco dicitur subtractum esse proprium nomen a Virgilio, ne scirent hostes, cui Deo
+      contra Romanos vota susciperent. Quamquam erudite Virgilius nimium praesidem Tiberis Vestam
+      dicit: hanc enim physici putant terram. </p>
+    </div>
+
+    <div n="499" type="schol">
+     <p> TVSCVM quia per Tusciam fluit. </p>
+    </div>
+
+    <div n="500" type="schol">
+     <p> IVVENEM. Bene ‛iuvenem’, ut ostendat clarum, quia hac aetate tantum possit, ut occurrat
+      saeculo. </p>
+    </div>
+
+    <div n="502" type="schol">
+     <p> LAOMEDONTEAE. Laomedon pater Priami. Excusat Augusti tempora; et eum dicit suis viribus
+      conpensare tanta damna rei publicae, quae ex maiorum vitiis descendisse confirmat. PERIVRIA.
+      Tam longe petit bellorum civilium causas, et pluraliter ‛periuria’ dicit semel adversus
+      Herculem gesta, semel adversus Apollinem et Neptunum, ut Callimachus docet, propter pollicitam
+      Hesionam, Apollini et Neptuno propter muros constructos. LVIMVS solvimus. </p>
+    </div>
+
+    <div n="504" type="schol">
+     <p> INVIDET quod hic sis in terra, non (in) caelo cum Diis. </p>
+    </div>
+
+    <div n="509" type="schol">
+     <p> HINC MOVET EVPHRATES. Euphrates Orientis fluvius est, Germania Occidentis provincia. </p>
+    </div>
+
+    <div n="510" type="schol">
+     <p> VICINAE RVPTIS. Externa et civilia bella desaeviunt. </p>
+    </div>
+
+    <div n="512" type="schol">
+     <p> VT CVM CARCERIBVS. Hoc vult dicere: res publica habet quidem optimum imperatorem, sed tanta
+      sunt vitia temporum praeteritorum, quae in dies singulos aucta sunt, quemadmodum (in) processu
+      equorum cursus augetur, ut ea licet optimus refrenare non possit, sicut et auriga (a) ferventi
+      cursu equos non potest plerumque revocare. </p>
+    </div>
+
+    <div n="513" type="schol">
+     <p> ADDVNT (IN) SPATIA. Currendo plus eorum cursus augetur. </p>
+    </div>
+
+    <div n="514" type="schol">
+     <p> NEQVE AVDIT CVRRVS HABENAS idest equi; attendendum est, translationem hanc esse, (non)
+      conparationem, quae si ponatur in fine, vitiosum. </p>
+     <p>FINIT PRIMVS LIBER.</p>
+    </div>
+
+   </div>
+
+
+   <div type="lib" n="II">
+    <head>LIBER II.</head>
+    <div type="pr">
+     <p>INCIPIT II.</p>
+    </div>
+
+    <div n="1" type="schol">
+     <p> HACTENVS rel. Deest verbum ‛cecini’. In hoc libro exsequitur culturam agri consiti, qui
+      omnium arborum continet genera. Et sciendum, Virgilium vites quoque arbores dicere, ut: <hi
+       rend="expanded">nec setius omnis in unguem Arboribus positis secto via limite quadret</hi>.
+      Quidam quaestionem opponunt: quare, cum de vitibus primum debuit dicere, ab arboribus coepit?
+      Quia in Italia in arboribus pendent vineae et non possunt esse vites, nisi prius fuerint
+      arbores.</p>
+     <p>‛Hactenus’, ut multi volunt, una pars orationis est et (est) adverbium significans
+      ‛hucusque’; alii II partes volunt, pronomen et adverbium, ut sit ‛tenus hac’, ut: <hi
+       rend="expanded">Pube tenus</hi> et rel. Sed melius est, unam partem orationis accipere.</p>
+     <p>ET SIDERA CAELI. Pleonasmus; nec enim alibi nisi in caelo sidera sunt. </p>
+    </div>
+
+    <div n="2" type="schol">
+     <p> NVNC TE BACCHE CANAM. Inventorem pro vitibus posuit. </p>
+    </div>
+
+    <div n="2 s." type="schol">
+     <p> SILVESTRIA TECVM VIRGVLTA infecundas arbores, quibus in Italia vites cohaerent. </p>
+    </div>
+
+    <div n="3" type="schol">
+     <p> TARDE CRESCENTIS OLIVAE. Res enim (diu) duratura tardius crescit. </p>
+    </div>
+
+    <div n="4" type="schol">
+     <p> HVC PATER O LENAEE. ‛Pater’ licet generaliter sit omnium Deorum, tamen proprie Libero
+      cohaeret; nam et Liber ‛pater’ vocatur. O LENAEE. ‛Lenaeus pater’ Liber <foreign
+       xml:lang="grc">ἀπὸ τοῦ ληυοῦ</foreign>, idest a lacu, in quo uvae premuntur. Sive Lenaeus
+       <foreign xml:lang="grc">ἀπὸ τῆς ληυοῦ</foreign> dicitur, idest a lacu. Nam quod Donatus ait
+      ab eo, quod mentem deleniat, non procedit: non enim potest Graecum nomen Latinam etymologiam
+      recipere. LENAEE quod leniat in se fructus. </p>
+    </div>
+
+    <div n="5 s." type="schol">
+     <p> TIBI FLORET. In honorem tuum exultat. </p>
+    </div>
+
+    <div n="5" type="schol">
+     <p> PAMPINEO pro ‛pampinoso’, ut ‛nemus frondeum’ pro ‛frondosum’. </p>
+    </div>
+
+    <div n="6" type="schol">
+     <p> LABRIS pro ‛doliis’. </p>
+    </div>
+
+    <div n="11" type="schol">
+     <p> SPONTE SVA. Nomen est, quia iunctum est ei genus, quo caret semper adverbium. VENIVNT
+      crescunt. </p>
+    </div>
+
+    <div n="12" type="schol">
+     <p> MOLLE SILER. Genus arboris est, et notandum, genere neutro esse, quod admodum rarum in
+      arboribus. </p>
+    </div>
+
+    <div n="13" type="schol">
+     <p> GLAVCA CANENTIA SALICTA. Locum salicum pro ipsis arboribus posuit. Bene autem ‛glauca’ et
+      ‛canentia’. Nam salix (ab) una parte alba est et ab altera viridis. Sane cacemphaton est
+      ‛glauca canentia’. </p>
+    </div>
+
+    <div n="14" type="schol">
+     <p> POSITO DE SEMINE quacumque ratione proiecto vel (ab) avibus vel (ab) hominibus. </p>
+    </div>
+
+    <div n="16" type="schol">
+     <p> HABITAE GRAIS. Nam in Dodonae nemore arbores dantes responsa (fuisse) dicuntur. Columbae
+      enim super quercum sedentes hominibus fata cecinerunt. ‛Habitae’ autem ‛Grais’ vel quasi non
+      credens dicit vel quasi Italus, qui loca nesciret. </p>
+    </div>
+
+    <div n="17" type="schol">
+     <p> PVLLVLAT. Mira in singulis est varietas. Nam ait: „sponte sua veniunt“, item: „surgunt de
+      semine“, „pullulat ab radice“. Eleganter per numeros adfectatur varietas, ne enumeratione
+      simili offenderet auditorem. Mire tripertitam naturam arborum ostendit e primo „sponte“, II
+      „posito de semine“, III „ab radice“.</p>
+    </div>
+
+    <div n="18" type="schol">
+     <p> CERASIS. ‛Haec cerasus’ ‛his cerasis’ facit. Sane Cerasus civitas est Ponti. Arbor
+      ‛cerasus’, pomum ‛cerasium’ dicitur. Cerasos Lucullus capto oppido Cerasunte in Italiam primus
+      attulit. </p>
+     <p>PARNASSIA LAVRVS a Parnasso monte Apollini consecrato. </p>
+    </div>
+
+    <div n="21" type="schol">
+     <p> FRVTICVM. ‛Frutices’ sunt pomiferarum arborum rami. </p>
+    </div>
+
+    <div n="22" type="schol">
+     <p> VIA † terrae utens, qua via istud facies ratione propria. </p>
+    </div>
+
+    <div n="23" type="schol">
+     <p> HIC PLANTAS. Inter plantas et plantaria hoc interest: plantae sunt, quae de suis arboribus
+      nascuntur, plantaria vero, quae de suis seminibus nata cum radicibus et terra propria
+      transferuntur, ut: <hi rend="expanded">viva sua plantaria terra</hi>. </p>
+    </div>
+
+    <div n="24" type="schol">
+     <p> SVLCIS fossis. STIRPES radices. OBRVIT altius deponit. ARVO terra. </p>
+    </div>
+
+    <div n="25" type="schol">
+     <p> QVADRIFIDAS ita robustas, ut possint in IIII partes dividi. ACVTO ROBORE pro ‛acuti
+      roboris’ accipimus. SVDES ET VALLOS. Idem sunt. </p>
+    </div>
+
+    <div n="26" type="schol">
+     <p> SILVARVMQVE. Hoc praecipue vitibus congruit. ARCVS eo, quod incurvantur ad terram. </p>
+    </div>
+
+    <div n="28" type="schol">
+     <p> PVTATOR idest plantator arborum. </p>
+    </div>
+
+    <div n="30" type="schol">
+     <p> CAVDICIBVS pro ‛codicibus’. </p>
+    </div>
+
+    <div n="33" type="schol">
+     <p> VERTERE pro ‛verti’, (in) quibus alieni figuntur ramunculi. </p>
+    </div>
+
+    <div n="31" type="schol">
+     <p> TRVDITVR urgente natura procreatur ex arido. OLEAGINA dirivativum ab ‛olea’, ut ‛terrigena’
+      a ‛terra’ (et) ‛generando’. </p>
+    </div>
+
+    <div n="32" type="schol">
+     <p> INPVNE sine damno. </p>
+    </div>
+
+    <div n="34" type="schol">
+     <p> LAPIDOSA CORNA dura. ‛Lapidosa’ a qualitatibus baccarum eius. RVBESCERE maturescere. CORNA
+      genus arboris, de qua fiunt hastilia. </p>
+    </div>
+
+    <div n="35" type="schol">
+     <p> GENERATIM. ‛Generatim’ est per singula, ‛generaliter’ autem simul omnia. </p>
+    </div>
+
+    <div n="36" type="schol">
+     <p> FEROS idest amaros. </p>
+    </div>
+
+    <div n="37" type="schol">
+     <p> SEGNES pigrae, infecundae. ISMARA. Mons Thraciae, in quo vineta optima; sive Thessaliae, ut
+      alii; sed et mons et urbs pari nomine sunt in Thracia. </p>
+    </div>
+
+    <div n="38" type="schol">
+     <p> TABVRNVM. Mons Campaniae vel Sabinorum sive Apuliae. VESTIRE inplere. </p>
+    </div>
+
+    <div n="39" type="schol">
+     <p> TVQVE ADES INCEPTVM. Adesto et inceptum favorem omnibus libris inpendito. </p>
+    </div>
+
+    <div n="40" type="schol">
+     <p> O DECVS rel. (Horatius: O) <hi rend="expanded">et praesidium et dulce decus meum</hi>.
+      Eleganter dicit: quamvis durum opus ab illo acceperit, tamen illius beneficio factum est, ut
+      per hoc gratiam consequeretur. </p>
+    </div>
+
+    <div n="41" type="schol">
+     <p> PELAGOQVE VOLANS. Simplici generi carminis praesta favorem, ut ‛vela’ favorem intellegamus,
+      ‛patens pelagus’ carminis facilitatem. PATENTI allegorice secundo vel prospero pelago. </p>
+    </div>
+
+    <div n="42" type="schol">
+     <p> NON EGO CVNCTA idest non sum universa dicturus, nec enim possum; quare et suam verecunde
+      extenuat possibilitatem et Maecenatis auribus ex sui carminis brevitate blanditur. (Alii)
+      aliter accipiunt. Constat Maecenatem litterarum fuisse peritum et plura conposuisse. Nam
+      Angusti Caesaris gesta descripsit. OPTO pro ‛expeto’. </p>
+    </div>
+
+    <div n="43" type="schol">
+     <p> LINGVAE. Homericus sensus Graeci poetae, sicut et Ennius: <hi rend="expanded">Non si lingua
+       loqui saperet et ora decem sint † in metrum ferro cor sit pectusque revinctum</hi>. </p>
+    </div>
+
+    <div n="44" type="schol">
+     <p> FERREA pro ‛aenea’. PRIMI LEGE LITORIS. Nauticus sermo, qui nunc ad navigium et ad
+      lectionem potest referri: faveto principio (vel) humilitati carminis mei. </p>
+    </div>
+
+    <div n="45" type="schol">
+     <p> IN MANIBVS TERRAE in facili et promptu. </p>
+    </div>
+
+    <div n="44" type="schol">
+     <p> Item PRIMI LEGE rel. idest transi ad festinationem, ut: <hi rend="expanded">vada dura
+       lego</hi>. </p>
+    </div>
+
+    <div n="45" type="schol">
+     <p> IN MANIBVS TERRAE ut in manibus terram habeam, non proelia. NON HIC TE CARMINE FICTO. (Non)
+      conposito cum summa diligentia, (sed) simpliciter universa describam. </p>
+    </div>
+
+    <div n="46" type="schol">
+     <p> AMBAGES circuitus (ab) ʽambigendoʼ dicti. EXORSA procemia longe repetita vel initia vel
+      locutiones. Haec dicit: ipsam rem tibi indicabo. </p>
+    </div>
+
+    <div n="47" type="schol">
+     <p> SPONTE SVA. Ad id, quod omiserat, redit. ORAS confinia aeris et terrae. </p>
+    </div>
+
+    <div n="50" type="schol">
+     <p> SCROBIBVS fossis. Nos ʽscrobesʼ generis dicimus masculini, licet Lucanus contra Artem
+      dixerit: <hi rend="expanded">Exigua posuit scrobe</hi>. </p>
+    </div>
+
+    <div n="51" type="schol">
+     <p> SILVESTREM ANIMVM pro natura posuit: asperitatem, infecunditatem. </p>
+    </div>
+
+    <div n="52" type="schol">
+     <p> VOCES ARTES fecunditates ex arte venientes. </p>
+    </div>
+
+    <div n="54" type="schol">
+     <p> HOC FACIET. Erit fecunda, si fuerit inde translata. DIGESTA disposita in ordinem, divisa.
+     </p>
+    </div>
+
+    <div n="56" type="schol">
+     <p> ADIMVNT demunt. FERENTEM ferre incipientem, idest, quae ferre possit, si ei umbra non
+      noceat. </p>
+    </div>
+
+    <div n="57" type="schol">
+     <p> SVSTVLIT sursum tulit. </p>
+    </div>
+
+    <div n="62" type="schol">
+     <p> COGENDAE congregandae. </p>
+    </div>
+
+    <div n="58" type="schol">
+     <p> TARDA pro ʽtardeʼ adverbio. SERIS tardantibus. </p>
+    </div>
+
+    <div n="59" type="schol">
+     <p> POMAQVE DEGENERANT. Ab animali ad inanimale; vertuntur in peius, alias in melius. ʽPomaʼ
+      autem arborum ex semine procreatarum dicit. </p>
+    </div>
+
+    <div n="60" type="schol">
+     <p> FERT VVA RACEMOS. ʽVvamʼ pro ʽviteʼ posuit, idest fructum pro arbore. Sane ʽracemusʼ est
+      botryonis pars et botryon Graecum est. ʽTurpesʼ autem ʽracemosʼ labruscas dicit. </p>
+    </div>
+
+    <div n="62" type="schol">
+     <p> MVLTA MERCEDE multo labore. IN SVLCVM in ordinem arandae. </p>
+    </div>
+
+    <div n="63" type="schol">
+     <p> SED TRVNCIS OLEAE MELIVS quod supra ait: <hi rend="expanded">Truditur e sicco</hi> rel.
+      PROPAGINE propria origine. </p>
+    </div>
+
+    <div n="64" type="schol">
+     <p> RESPONDENT consentiunt. PAPHIAE adiectum myrtis a Veneris urbe Papho, quae est in Cypro
+      insula. </p>
+    </div>
+
+    <div n="65" type="schol">
+     <p> PLANTIS ET DVRAE CORYLI. ʽDurasʼ dixit non ad lignum, sed ad fructum earum. Corylus, ex qua
+      avellana nux nascitur. </p>
+    </div>
+
+    <div n="66" type="schol">
+     <p> HERCVLEAEQVE ARBOS VMBROSA. Populum arborem significat; ipse alibi: <hi rend="expanded"
+       >Herculea bicolor</hi>. Enneapolis, civitas Babylonis, Herculem pro tempore colere dicitur.
+      Idcirco hanc arborem ei dedicatam, idest populum dicunt, (quod) huius folia noctis et lucis
+      imaginem declarant, nec alia causa clavam ei adsignant, quam quod sit inaequalibus vulneribus,
+      per quod dierum inaequalitas intellegitur. </p>
+    </div>
+
+    <div n="67" type="schol">
+     <p> CHAONII PATRIS Iovis Epirotici, qui matrem Quercum dilexit. ARDVA PALMA aut alta aut ad
+      quam difficile pervenitur. </p>
+    </div>
+
+    <div n="68" type="schol">
+     <p> ET CASVS ABIES rel. II genera abietis sunt, aliud, quod fabricis datur, aliud ad faciendas
+      naves: ‛sappinum’ vulgo vocant. </p>
+    </div>
+
+    <div n="69" type="schol">
+     <p> INSERITVR VERO et rel. Versus dactylicus: nam et male quidam ‛horrens’ et sic in
+      Corneliani. ‛Horrida’ autem hispida. Et iam transit ad insitionem, quae duplex est. Nam aut
+      ‛insitio’ dicitur, cum fisso tronco surculus insterilis arboris sterili inseritur, aut
+      ‛oculorum inpositio’, cum inciso cortice libro alienae arboris germen inponimus. Est autem
+      arbor, cuius pomum unedon dicitur, quod, si unum edatur, tam iucundum est, ut et aliud
+      exposcas. </p>
+    </div>
+
+    <div n="70" type="schol">
+     <p> STERILES PLATANI. In hoc loco monet, (quid) in qua arbore debemus inserere: in arbuto
+      nucem, in platano malum, in fago castaneam, in orno pirum. </p>
+    </div>
+
+    <div n="71" type="schol">
+     <p> FAGOS. Nominativus Graecus. </p>
+    </div>
+
+    <div n="72" type="schol">
+     <p> SVB VLMIS insitis scilicet. </p>
+    </div>
+
+    <div n="73" type="schol">
+     <p> NEC MODVS INSERERE SIMPLEX idest aut non facilis et fortuita ratio, sed ea, quae ingenti
+      labore colligitur, aut hoc dicit: non idem est inserere, quod et oculos inponere. INSERERE
+      dicit pro ‛inserendo’. OCVLOS. Oculi nodi arborum, e quibus frondes exeunt vel gemmae. </p>
+    </div>
+
+    <div n="74" type="schol">
+     <p> TRVDVNT pullulant, eiciunt. </p>
+    </div>
+
+    <div n="75" type="schol">
+     <p> TENVES TVNICAS interiores arborum libros. Graece cortices arborum <foreign xml:lang="grc"
+       >χιτῶυας</foreign> dicunt. ‛Librum’ dicit interiorem corticem. </p>
+    </div>
+
+    <div n="77" type="schol">
+     <p> VDO umido. </p>
+    </div>
+
+    <div n="78" type="schol">
+     <p> ALTE profunde. </p>
+    </div>
+
+    <div n="79" type="schol">
+     <p> FERACES fertiles. </p>
+    </div>
+
+    <div n="80" type="schol">
+     <p> PLANTAE a pangendo quasi ‛pangae’ dictae. </p>
+    </div>
+
+    <div n="81" type="schol">
+     <p> FELICIBVS fertilibus. </p>
+    </div>
+
+    <div n="82" type="schol">
+     <p> MIRATA. Deest (est). Metaphora. </p>
+    </div>
+
+    <div n="83" type="schol">
+     <p> PRAETEREA GENVS rel. Modo dicit, uniuscuiusque arboris esse genera. </p>
+    </div>
+
+    <div n="84" type="schol">
+     <p> LOTOQVE. Lotus Nympha quaedam fuit, quae fugiens amatores in arborem sui versa est nominis,
+      quam cum amaret Priapus, illa Deorum miseratione in arborem conversa est, quae vulgo faba
+      Syriaca dicitur. IDAEIS ab Ida monte Cretae. CYPARISSIS arboribus, quae nascuntur in Creta.
+     </p>
+    </div>
+
+    <div n="86" type="schol">
+     <p> ORCADES insulae XXX iuxta Graecam etymologiam, sed obscenam dictae in modum testiculorum.
+      Nam Graece <foreign xml:lang="grc">ὄϱχεις</foreign> idest testiculi dicuntur. RADII olivae a
+      longinquitate nominatae. PAVSIA genus olivarum viride: ideo amaris descripsit bacis. Item
+      RADII quia sunt longiores olivae. PAVSIA oliva a paviendo dicta idest tundendo <del>vel
+       patiendo</del>, quod plus humoris habet baca. </p>
+    </div>
+
+    <div n="87" type="schol">
+     <p> ALCINOI SILVAE pomiferae arbores. Nam Alcinous rex Atheniensium fuit (sive) Phaeacum,
+      diligens cultor hortorum, unde per eius  ‛silvas’ arbores pomiferas intellegimus. Homerus enim
+      dicit, Alcinoum, regem Phaeacum, optimo cultu habuisse pomaria. SVRCVLVS lignum fructiferum.
+     </p>
+    </div>
+
+    <div n="88" type="schol">
+     <p> CRVSTVMIIS. Crustumia sunt pira ex parte rubentia, ab oppido Crustumia nominata. SYRIIS
+      nigris vel SYRUIIS genus arboris. Item PIRIS pomiferae arbores. GRAVIBVS magnis. VOLEMIS ideo,
+      quod manum inplent vel inplicant, quod interior pars palmae ‛vola’ appellatur. Nam et ‛volema’
+      eo, quod palmam inpleant, dicta sunt, unde et ‛involare’ dicitur. </p>
+    </div>
+
+    <div n="89" type="schol">
+     <p> NON EADEM ARBORIBVS idest vites quoque diversae sunt. </p>
+    </div>
+
+    <div n="90" type="schol">
+     <p> METHYMNAEO. Methymna idest oppidum in Lesbo insula habens pretiosissimum vinum. Lesbos
+      autem insula Troadi adfinis, cuius urbs Methymna. LESBOS idest habitator Lesbi. </p>
+    </div>
+
+    <div n="91" type="schol">
+     <p> THASIAE a Thaso insula nominatae. MAREOTIDES. Dicendo ‛albas’ ostendit, etiam esse
+      purpureas vel alterius coloris. </p>
+    </div>
+
+    <div n="93" type="schol">
+     <p> PASSO PSYTHIA VTILIOR ut ostendat, etiam de alia uva posse fieri passum. Item PASSO vino.
+      Item genus vitis psythia in Creta insula. VTILIOR. Ad maturitatem cito currit et gracile vinum
+      facit. LAGEOS quae Latine leporaria dicitur. </p>
+    </div>
+
+    <div n="95" type="schol">
+     <p> PRECIAE quasi ‛praecocae’: haec cito maturescunt. </p>
+    </div>
+
+    <div n="96" type="schol">
+     <p> CELLIS ubi vina conduntur. Hoc dicit: licet sis a Catone laudata, tamen vino te Campano
+      praeferre non debes. CELLIS autem apothecis dicit; nam cellas vinarias dicimus. FALERNIS.
+      Falernus mons Campaniae, in quo vina optima nascuntur. </p>
+    </div>
+
+    <div n="97" type="schol">
+     <p> SVNT ET AMINEAE V. Aminium vinum dictum quasi ‛sine minio’ idest sine rubore, nam album
+      est. Sane ‛Aminneum’ dici versus probat. Item AMINEAE ab agro Amineo, unde vitem hanc
+      translatam dicunt. </p>
+    </div>
+
+    <div n="98" type="schol">
+     <p> TMOLIVS ADSVRGIT. Duplex hoc loco expositio. Nam alii volunt sine vitio, alii autem ad
+      superiora referunt, (ut) ‛quibus’ non ad vina referamus, sed ad vites, ut sit: quibus cedit
+      Tmolius et Phanaeus, montes vitibus consiti. REX IPSE PHANAEVS. Phanaeus promuntorium
+      Siciliae, ubi Apollinis templum est, Tmolium et Phanaeum dicit. Item TMOLIVS a monte Libyae
+      Tmolo, Tmolicum vinum. PHANAEVS promuntorium Chii, unde et Chium vinum. Tmolium et Phanaeum
+      dicendo Tmolicum vinum et Chium ostendit. </p>
+    </div>
+
+    <div n="102" type="schol">
+     <p> BVMASTE. Genus uvae longum habens racemum in similitudinem mammae bovis. </p>
+    </div>
+
+    <div n="112" type="schol">
+     <p> MYRTETIS. Locum posuit pro ipsis arboribus, ut salictum pro salicibus. Nam myrtetum locus
+      est, arbor ipsa myrtus vocatur. </p>
+    </div>
+
+    <div n="114" type="schol">
+     <p> ASPICE. In isto loco omnes regiones laudat, sed apposito crimine, ut (cum) ad panegyricum
+      Italiae (veniat), maior fama (eius) esse videatur. </p>
+    </div>
+
+    <div n="115" type="schol">
+     <p> PICTOSQVE GELONOS. Stigmata habentes populi Scythiae, ut: <hi rend="expanded">pictique
+       Agathyrsi</hi>. Item GELONOS. Thraces sunt a Gelono, Herculis et Chaoniae Nymphae filio,
+      dicti; et ideo ‛pictos’, quia stigmata conpunctionum habent. Hi in Africa sunt non longe a
+      Poenis † quam aquosae dicit pictos. </p>
+    </div>
+
+    <div n="116" type="schol">
+     <p> SOLA INDIA N. F. H. Atqui in Aegypto nascitur, sed Indiam omnem plagam Aethiopiae
+      accipimus. Sane et ‛haec hebenus’ et ‛hoc hebenum’ dicitur. </p>
+    </div>
+
+    <div n="119" type="schol">
+     <p> BALSAMAQVE. Sane ‛balsamum’ est arbor, ‛opobalsamum’ sucus collectus ex arbore, nam
+       <foreign xml:lang="grc">ὀπός</foreign> dicitur sucus, ‛xylobalsamum’ lignum, (carpo) balsamum
+      fructus ipsius arboris. Opobalsamum dicit: in India quaedam arbores sunt, e quibus lacrimae
+      emanant, quod ‛balsamum’ nominatur. FRONDENTIS ACANTHI. Arbor in Aegypto semper frondens, ut
+      oliva, laurus. Item: ACANTHI de qua Gnifo scripsit, quo in flore tincta vestis acanthia
+      dicitur. </p>
+    </div>
+
+    <div n="126" type="schol">
+     <p> TARDVM S. vix intellegibilem, quod illi ad carnem mediam citri referunt, at prima et
+      interior facile suum ostendit saporem. Vel TARDVM diu inhaerentem ori. </p>
+    </div>
+
+    <div n="128" type="schol">
+     <p> SAEVAE NOVERCAE quae saevae sunt, sive epitheton est omnium novercarum. </p>
+    </div>
+
+    <div n="130" type="schol">
+     <p> VENENA. Radices enim nucesque ac lupini acceptum non fugant. </p>
+    </div>
+
+    <div n="134" type="schol">
+     <p> ANIMAS. Pulmonis vitiosum vel halitus foetidos. </p>
+    </div>
+
+    <div n="137" type="schol">
+     <p> GANGES Fluvius Indiae emergens de latere Caucasi ad Meridiem et ad Orientis frontem
+      inclinatus dividit Indiam eoque inter flumina significatur Indiae, in quo aurum et gemmae
+      nascuntur. HERMVS. Fluvius Lydiae harenas aureas traheus. ‛Turbidum’ dicit, quia copia auri
+      viriditatem aquae perdat. </p>
+    </div>
+
+    <div n="138" type="schol">
+     <p> BACTRA. Regio iuxta Syriam vel civitas in Oriente, quam Alexander cepit, urbs Persarum.
+     </p>
+    </div>
+
+    <div n="139" type="schol">
+     <p> PANCHAIA. Arabia, ubi tus abundanter nascitur. ‛Panchaiam’ dixit propter suavitatem. </p>
+    </div>
+
+    <div n="140" type="schol">
+     <p> HAEC LOCA. Italiae scilicet. NON TAVRI SPIRANTES quales fuerunt in Colchida, civitate
+      Scythiae. Iason Colchos profectus petiit pellem auream arietis. Aeeta, pater Medeae, rex
+      Colchidae, hanc oblationem dedit, quod non posset eam accipere, nisi prius tauros, quos ei
+      Vulcanus dono dederat ignem navibus spirantes, iungeret et dentes draconis, quem occiderat
+      Cadmus * Quae difficultas per Medeae, Aeetae filiae, amorem et artem effecta est. Nam cum
+      Iasonem adamasset Medea, carminibus suis obtinuit ac venenis et medicaminibus permiscuit
+      omnia, ut, quamvis tauri ignem spirarent, nocere non possent et feritas eorum conpesceretur,
+      et serpentinis (dentibus) iactis per sulcum cum armati homines exstitissent, depugnantes
+      (inter se) interierunt. Quibus rebus Iason victor effectus pellem, quam petierat, sustulit et
+      Medeam secum avexit. Item: Iason, Thessalus vir, qui Colchos propter pellem auream navigabat,
+      quae in tutela Liberi Patris erat, et ad conditionem a Medea adiutus, cui iniunctum fuerat, ut
+      tauros ignem flantes domaret, quos delenitos ita veneficiis subegit, ut ararent; pro seminibus
+      autem draconis dentes accepit, quibus natus est exercitus armatus. Adeo poeta laudat Italiam
+      istis malis viduatam. </p>
+    </div>
+
+    <div n="141" type="schol">
+     <p> HYDRI pro draconibus. </p>
+    </div>
+
+    <div n="145" type="schol">
+     <p> BELLATOR EQVVS. Bellicosi equi in Italia nasci adsuerunt. </p>
+    </div>
+
+    <div n="146" type="schol">
+     <p> CLITVMNE. Clitumnus fluvius est in Mevania, quae pars est Vmbriae, partis Tusciae, ubi
+      optimi boves nascuntur. Item: Clitumnus in Umbria Deus, quo nomine ibi et fluvius est in
+      Tiberim fluens, ad quem nunc loquitur. MAXIMA TAVRVS V. quia triumphantes albis tauris
+      sacrificabant Diis suis. </p>
+    </div>
+
+    <div n="147" type="schol">
+     <p> PERFVSI autem tauri, qui ante triumphantes usque ad templa ducebantur. </p>
+    </div>
+
+    <div n="151" type="schol">
+     <p> RAPIDAE TIGRES. Bestiae Armeniae tigres, quae ultro raptis falluntur catulis. </p>
+    </div>
+
+    <div n="152" type="schol">
+     <p> FALLVNT A. Mira arte usus est, ut excusaret rem, quam negare non potuit; nam aconita
+      nascuntur in Italia, sed non ea obesse dicit, quia sunt omnibus nota. Haec autem herba nata
+      dicitur de spumis Cerberi, quo tempore eum ab imis Hercules traxit. Aconitum letalis herba
+      est, quae crescit in petris. <del>Dicendo</del> Aconita autem herbae quaedam in Ponto eine
+      terra in saxis natae, sive aconita gemmae in capitibus draconum nascentes similes pretiosis
+      lapidibus. Non nocent in Italia. Dicendo ‛aconita’ ad innocentiam Italorum respicit execrans
+      venena peregrina. Aconita enim herbae quaedam sine terra in saxis natae. </p>
+    </div>
+
+    <div n="154" type="schol">
+     <p> IN SPIRAM quando se glomerat in nodum. TRACTV S. C. A. Hoc (ait): Sunt serpentes in Italia,
+      sed non tales, quales in Aegypto aut in Africa. </p>
+    </div>
+
+    <div n="159" type="schol">
+     <p> LARI. Larius in Gallia lacus Alpibus vicinus. Item: Larius fluvius Italiae sub urbe Como.
+     </p>
+    </div>
+
+    <div n="160" type="schol">
+     <p> BENACE. Benacus lacus Italiae, qui magnitudine suae tempestatis imitatur marinas. Item:
+      Benacus inter Brixiam et Veronam, quae sunt civitates Venetiae. </p>
+    </div>
+
+    <div n="161" type="schol">
+     <p> LVCRINO. Lacus proximus Baiis; in Baiano enim sinu Campaniae contra Puteolanam civitatem
+      lacus sunt duo, Avernus et Lucrinus, qui olim propter copiam piscium vectigalia magna
+      praestabant. Sed cum maris impetus plerumque inrumpens exinde pisces excluderet et redemptores
+      gravia damna paterentur, supplicaverunt senatui, et profectus C. Iulius Caesar ductis brachiis
+      exclusit partem maris, quae antea infesta esse consueverat, reliquitque breve spatium per
+      Avernum, qua et piscium copia posset intrare et fluctus non essent molesti, quod opus Iulium
+      dictum est. Sed hic ambitiose ‛undam Iuliam’ appellavit frementem contra moles a Iulio
+      positas. </p>
+    </div>
+
+    <div n="162" type="schol">
+     <p> ATQVE INDIGNATVM indignanti simile, solita exclusum licentia et indignationem suam
+      stridoribus prodens. </p>
+    </div>
+
+    <div n="163" type="schol">
+     <p> Itemque: LVCRINO cui Campano lacui Caesar unum brachium muro adiecit, ut ibi tutior esset
+      navibus statio. </p>
+    </div>
+
+    <div n="164" type="schol">
+     <p> TYRRHENVSQVE idest de Tyrrheno latrone occiso in eo vel de populo Tyrrheno. Quidam vero
+      quasi tyrannicum idest fluctuosum esse putant. Nonnulli, quod omnes terras mediasque
+      interluit. AVERNIS. Per lacum Avernum Augstus ratem, qua fuerat adversus Pompeium usus,
+      Lucrino inmisit lacui. Sed idcirco hanc stationem poeta laudat, quia nondum erat portus
+      Augusti. </p>
+    </div>
+
+    <div n="165" type="schol">
+     <p> AERIS METALLA. Senatus consultum esse dicitur, quo prohibetur in Italia metalla exercere,
+      ut, si quando domesticis viribus opus fuerit, integra sufficiant. </p>
+    </div>
+
+    <div n="168" type="schol">
+     <p> MALO inopiae victus, vel ‛malum’ pro labore, sicut e contrario pro malo ‛laborem’ solet
+      ponere, ut ibi: <hi rend="expanded">Ille (dies) primus leti primusque laborum</hi>. LIGVREM.
+      Ligures sunt latrones confines * ut Varro ait, Ligures montani piratae, qui Alpium asperrima
+      colunt. VOLSCOSQVE qui in Alpibus sunt. </p>
+    </div>
+
+    <div n="169" type="schol">
+     <p> DECIOS. Decii duo fuerunt, pater et filius et rel.</p>
+     <p>MARIOS. Gaius Marius Arpis natus, qui de Iugurtha, Numidarum rege, triumphavit, et de
+      Teutonibus et Cimbris. Idem cum Cinna collega adversum Lucium Syllam bellum civile gessit et
+      septimum consulatum cepit. Multi tamen Marii fuerunt. MAGNOSQVE CAMILLOS. Abusive dicit, quia
+      (unus fuit), qui a Gallis sublata signa revocavit. Item: Camillus captam Urbem a Gallis
+      Senonibus mense Novembre revertens ab Ardea de exilio liberavit aurumque, quod per pactionem a
+      Romanis acceperant, sustulit omnesque prorsus interemit. </p>
+    </div>
+
+    <div n="170" type="schol">
+     <p> SCIPIADAS pro ‛Scipionibus’, ut: <hi rend="expanded">Amazonidum</hi> pro ‛Amazonum’.
+      Scipiones autem duo fuerunt, avus et nepos, quorum unus leges victae Karthagini inposuit,
+      alter eandem diruit. Haec omnia plenius in VI libro memorabimus. </p>
+    </div>
+
+    <div n="172" type="schol">
+     <p> INBELLEM inertem, qui resistere non potest. AVERTIS cum ceteris gentibus Orientis, vel ideo
+      inbelles, quia hos Caesar contemnendo inbelles vocavit. ARCIBVS a Romanis civitatibus vel
+      Romano imperio. </p>
+    </div>
+
+    <div n="174" type="schol">
+     <p> MAGNA V. TIBI R. idest in honorem tuum. ANTIQVAE L. ET A. I. Est sensus: Haec dico, quae
+      iam olim dicere debueram. </p>
+    </div>
+
+    <div n="176" type="schol">
+     <p> ASCRAEVMQVE et rel. Hesiodum dicit de civitate Graeciae Ascra, ubi natus est Hesiodus, ubi
+      sunt natae Musae; unde sumpsit Hesiodus poema, inde et ego sumpsi, sed ille Graecis cecinit,
+      ego Romanis. </p>
+    </div>
+
+    <div n="177" type="schol">
+     <p> INGENIIS naturis, ut Sallustius ‛ingenium’ pro ‛natura’ posuit. Tempus est, naturam arvorum
+      describere. </p>
+    </div>
+
+    <div n="178" type="schol">
+     <p> QVIS COLOR quae species, quomodo dicimus: ‛quo colore recitavit?’ </p>
+    </div>
+
+    <div n="180" type="schol">
+     <p> TENVIS VBI ARGILLA sine humore. ‛Tenuis’ inquit, quia est et pinguis argilla. CALCVLVS
+      lapis tam tenuis, ut iactus transiliat in undas. CALCVLVS lapis brevis terrae admixtus. Dictus
+      autem calculus, quia sine molestia sui brevitate calcetur. Item: CALCVLVS lapis candidus. </p>
+    </div>
+
+    <div n="181" type="schol">
+     <p> PALLADIA quia Pallas, hoc est Minerva, inventrix olivae dicitur. </p>
+    </div>
+
+    <div n="182" type="schol">
+     <p> OLEASTER arbor, in qua peiores olivae crescunt. </p>
+    </div>
+
+    <div n="184" type="schol">
+     <p> DVLCIQVE VLIGINE. Vligo proprie est liquor naturalis, terrae et perpetuus et ex ea numquam
+      recedens et pinguis. </p>
+    </div>
+
+    <div n="189" type="schol">
+     <p> FILICEM. Tropum metaphoram fecit, ut videantur quasi suas iniurias aratra sentire, quia
+      radices filicis aratris sunt inpedimento. </p>
+    </div>
+
+    <div n="190" type="schol">
+     <p> PRAEVALIDAS permansuras; in laude parum dixerat ‛praevalidas’, nisi dixisset ‛olim’, idest
+      multo tempore. OLIM idest cuiuslibet temporis. </p>
+    </div>
+
+    <div n="193" type="schol">
+     <p> EBVR idest ostendit elefantinum, de quo tibiae ornantur. ‛Ebur’ ergo pro tibia posuit. </p>
+    </div>
+
+    <div n="194" type="schol">
+     <p> LANCIBVS. Vasa lata, in quibus fercula efficiunt. </p>
+    </div>
+
+    <div n="197" type="schol">
+     <p> ET SATVRI. Aut fecundi aut quia iuxta oppidum Saturum; (Saturum) et Tarentum vicinae sunt
+      sibi Calabriae civitates. Item: SATVRI. Locus Tarenti est, quem Caelius in V libro historiarum
+      dicit nomen accepisse a Satura puella, quam Neptunus conpressit. LONGINQVA porro sita, ut apud
+      Sallustium in primo: <hi rend="expanded">Traditur fugam in Oceani longinqua agitavisse</hi>.
+      TARENTI. Tarentus civitas in Italia, ubi foenum satis nascitur et lana Tarentina, unde
+      Hercules fuit. </p>
+    </div>
+
+    <div n="204" type="schol">
+     <p> IMITAMVR. † Studemus hoc quidem modo nullum imitemur. </p>
+    </div>
+
+    <div n="207" type="schol">
+     <p> IRATVS idest infecunditati, quia nullos ex his fructus habet. </p>
+    </div>
+
+    <div n="214" type="schol">
+     <p> TOFVS lapis asper et cavernosus. (SCABER) unde et “scabies’ dicitur ab asperitate. </p>
+    </div>
+
+    <div n="215" type="schol">
+     <p> CRETA. Albior est terra, quam pro cibo sectantur serpentes. NEGANT. Solinus et Nicander,
+      qui de his rebus scripserunt. </p>
+    </div>
+
+    <div n="217" type="schol">
+     <p> QVAE TENVEM E. N. Dixit agrum omnium rerum feracem; quattuor enim genera agrorum imitatur.
+      NEBVLAM. Aliquando pro ‛nube’, sed est ros turbidissimus in aestate et pruina in hieme.
+      FVMOSQVE VOLVCRES idest quasi fumos, scilicet ex humore. </p>
+    </div>
+
+    <div n="220" type="schol">
+     <p> SCABIE. Proprie ‛rubigo’ scabies ferri est. </p>
+    </div>
+
+    <div n="225" type="schol">
+     <p> VACVIS desertis. CLANIVS NON AE. A. Acerrae civitas Campaniae haud longe a Neapoli, quam
+      Clanius praeterfluit fluvius, cuius etiam inundatio eam exhaurit, unde ait VACVIS et rel.
+      Pauci enim Acerram incolunt, quia in paludes magna ex parte versa est. </p>
+    </div>
+
+    <div n="231" type="schol">
+     <p> IN SOLIDO idest ne ager sit concavus. </p>
+    </div>
+
+    <div n="232" type="schol">
+     <p> HVMVM. ‛Humus’ est interior pars terrae, ‛terra’ superior. </p>
+    </div>
+
+    <div n="236" type="schol">
+     <p> CVNCTANTES idest dubitantes, utrum Baccho an Cereri conveniant. </p>
+    </div>
+
+    <div n="237" type="schol">
+     <p> EXPECTA idest proba, ut: <hi rend="expanded">rebus spectata iuventus</hi>. </p>
+    </div>
+
+    <div n="240" type="schol">
+     <p> SVA NOMINA idest suas naturas et nomina amittunt. </p>
+    </div>
+
+    <div n="241" type="schol">
+     <p> SPECIMEN dignam probationem talem. SPISSO VIMINE spissi viminis. QVALOS per quos vinum
+      defluit, qui et ipsi a calendo dicti sunt. </p>
+    </div>
+
+    <div n="242" type="schol">
+     <p> COLA instrumentum, quo vinum premitur. PRELORVM quibus exprimuntur et torquentur uvae.
+      Docet Virgilius agricolam ad vitem prela congregare, ut colis vinum dulce exprimeret. </p>
+    </div>
+
+    <div n="243" type="schol">
+     <p> DVLCES idest dulces fiunt fontes, terra tamen salsa sit. </p>
+    </div>
+
+    <div n="244" type="schol">
+     <p> AD PLENVM C. idest desuper fundantur fontes, ut lympha eorum expurget terrae amaritudinem
+      tacitam. </p>
+    </div>
+
+    <div n="247" type="schol">
+     <p> SENSV T. A. Bene in superioribus divisit terrarum speciem separatim salsam, separatim
+      amaram. Alia enim salsa, alia amara, nec unum saporem utraque retinet. Et hic de sola loquitur
+      amara. </p>
+    </div>
+
+    <div n="252" type="schol">
+     <p> LAETIOR ultra modum, plus quam oportet. A NIMIVM ne herbae plus aequo crescentes spem
+      adimant frumentorum. </p>
+    </div>
+
+    <div n="257" type="schol">
+     <p> PICEAE ligna, in quibus nascitur pix. TAXI arbores, quae in frigido loco melius crescunt.
+     </p>
+    </div>
+
+    <div n="258" type="schol">
+     <p> PANDVNT VESTIGIA idest indicant frigus; nam vestigia appellavit indicia. </p>
+    </div>
+
+    <div n="259" type="schol">
+     <p> HIS ANIMADVERSIS agri qualitate deprehensa. MVLTO ANTE. Hoc dicit, non esse eo anno
+      ponendas vites, quo fodiuntur scrobes, sed post annum. </p>
+    </div>
+
+    <div n="260" type="schol">
+     <p> EXCOQVERE. Ad illud refert: <hi rend="expanded">sive <del>quod</del> illis omne per ignem
+       Excoquitur vitium</hi>. </p>
+    </div>
+
+    <div n="266" type="schol">
+     <p> ANTE LOCVM S. E. Hoc dicit, in translatione arborum similem terram requirendam. </p>
+    </div>
+
+    <div n="267" type="schol">
+     <p> ARBORIBVS S. quia de seminario loquitur, arborum bene segetem appellavit. ‛Seges’ a secando
+      dicitur. DIGESTA ordinata a sua terra, quam ‛matrem’ nominavit. </p>
+    </div>
+
+    <div n="271" type="schol">
+     <p> AXI. ‛Axem’ cum sine additamento inponit, Septentrionem vult tibi ostendere. </p>
+    </div>
+
+    <div n="272" type="schol">
+     <p> RESTITVANT ut eandem in translatione partem observent, quam antea arbor translata tenebat.
+     </p>
+    </div>
+
+    <div n="273" type="schol">
+     <p> COLLIBVS A. P. Atqui supra ait: <hi rend="expanded">Bacchus amat colles</hi>. </p>
+    </div>
+
+    <div n="275" type="schol">
+     <p> DENSA pro ‛dense’, ut: <hi rend="expanded">pede terram Crebra ferit</hi>. † Si putre solum
+      fuerit ultra modum ventorum flatus et gelidae. </p>
+    </div>
+
+    <div n="277" type="schol">
+     <p> INDVLGE ORDINIBVS ut: <hi rend="expanded">Indulgent vino</hi>. Nam de plano ait: <hi
+       rend="expanded">Densa sere: in denso</hi>, vel fac ordines (largiores) vel ‛indulge’ idest da
+      inter vites intervallum, cuius humus tumuli prosit in tenui colle. </p>
+    </div>
+
+    <div n="278" type="schol">
+     <p> SECTO LIMITE ducto, unde et ‛sectae’ philosophorum dicuntur, idest ductus. QVADRET idest
+      consentiat congruatque.Translatio a quadris lapidibus, qui bene conveniunt sibi invicem. </p>
+    </div>
+
+    <div n="288" type="schol">
+     <p> FORSITAN E. S. idest quia supra diximus, ut modum habeant profunditatis, necesse. FASTIGIA.
+      Summae et imae partes fastigia nominantur, et hic pro ‛imis’ dicuntur. </p>
+    </div>
+
+    <div n="289" type="schol">
+     <p> AVSIM pro ‛ausus sim’ a verbo ‛audeo’. TENVI VITEM idest facilitate culturae blanditur
+      agricolis, ut ostendat, diligentia magis vites, quam labore, prosurgere. </p>
+    </div>
+
+    <div n="291" type="schol">
+     <p> AESCVLVS arbor glandifera, quae licet ab esu dicta est, tamen aspera est. </p>
+    </div>
+
+    <div n="298" type="schol">
+     <p> NEVE VERGANT sed ad calorem meridianum tendant se. </p>
+    </div>
+
+    <div n="299" type="schol">
+     <p> NEVE CORYLVM. Radices enim eius nocent vitibus. FLAGELLA. (‛Flagella’) dicuntur summae
+      partes arborum ab eo, quia ventorum crebros sustinent flatus. </p>
+    </div>
+
+    <div n="300" type="schol">
+     <p> SVMMA PETE. Non de summa arbore plantam ponito neque de sommo vitem ponito. </p>
+    </div>
+
+    <div n="301" type="schol">
+     <p> TANTVS A. T. Vt statim germinent. </p>
+    </div>
+
+    <div n="302" type="schol">
+     <p> SEMINA plantas vitium. </p>
+    </div>
+
+    <div n="301" type="schol">
+     <p> TANTVS AMOR. Sic diligenter a rustico ager colendus est. </p>
+    </div>
+
+    <div n="301 s." type="schol">
+     <p> FERRO LAEDE RETVNSO SEMINA. ‛Retunso’ (obtunso), quo vites quassantur potius, quam
+      putantur; ferro non abscidenda. Aliter: TANTVS AMOR TERRAE sed cum radice deponas. </p>
+    </div>
+
+    <div n="302" type="schol">
+     <p> NEVE OLEAE S. Non quo (non) prosit, sed, ut etiam ipse dicit, propter causam incendii,
+      idest non inseras a truncis silvestribus oleas. </p>
+    </div>
+
+    <div n="303" type="schol">
+     <p> PASTORIBVS INCAVTIS idest neglegentibus; occupati enim sunt curis pecorum suorum. </p>
+    </div>
+
+    <div n="305" type="schol">
+     <p> ROBORA CONPRENDIT. Pars a radicibus tendens ad ramos in omni arbore ‛robur’ nominatur. </p>
+    </div>
+
+    <div n="312" type="schol">
+     <p> REVERTI. Non valent reverti, dum fixas in terra non habent radices, quasi incensas habeant
+      radices, arbor non revocatur a virgultis suis. HOC VBI. ‛Contigerit’ subauditur. </p>
+    </div>
+
+    <div n="314" type="schol">
+     <p> SVPERAT idest superest, ut: <hi rend="expanded">Quid? Puer Ascanius superatne</hi>? </p>
+    </div>
+
+    <div n="316" type="schol">
+     <p> TELLVREM gelu tabescentem. </p>
+    </div>
+
+    <div n="318" type="schol">
+     <p> CONCRETAM idest radicem; ante enim quasi gutta quaedam ex humore et terra procreata, quae
+      postea tenditur in radicem. </p>
+    </div>
+
+    <div n="320" type="schol">
+     <p> CANDIDA idest ciconia, (ut) Iuvenalis dicit, sed ‛candida avis’ ciconia, quae manducat
+      serpentes quaeque prope cycni magnitudinem esse dicitur. </p>
+    </div>
+
+    <div n="321" type="schol">
+     <p> AVTVMNI S. idest (aestatis) in fine et in principio hiemis. </p>
+    </div>
+
+    <div n="320" type="schol">
+     <p> CANDIDA idest ciconia idest Antigona, filia Laomedontis, regis Troiae, quae habuit comam
+      magnam, ut diceret se similem Iunoni, cui displicuit similitudo cuiusquam contra se et mutavit
+      comam Antigonae in serpentes nocentes ei et postea miseratione Deorum versa est in avem, quae
+      veris tempore ab Africa venit. INVISA COLVBRIS quod eorum causa versa est in avem. </p>
+    </div>
+
+    <div n="321" type="schol">
+     <p> RAPIDVS SOL. Ad vulgi opinionem tulit se. </p>
+    </div>
+
+    <div n="324" type="schol">
+     <p> GENITALIA SEMINA. (‛Genitalia semina’) dicimus, quibus aliquid procreatur vel gignitur.
+     </p>
+    </div>
+
+    <div n="325" type="schol">
+     <p> PATER OMNIPOTENS. Interdum Iuno pro ‛aere’, pro ‛aethere’ ponitur Iuppiter, vel Iuppiter
+      interdum ‛superior aer’, Iuno ‛aer inferior’ accipitur, qui est humidus. </p>
+    </div>
+
+    <div n="326" type="schol">
+     <p> CONIVGIS Iunonis, quae, ut diximns, ‛aer humidus’ idest inferior. Aliter: terram
+      arbitrantur; Iuppiter enim aether esse dicitur et eius coniunx terra cum concubuerint, tunc
+      terra fructus mortalibus profert. Terra autem frigida, aether calidus. Caeli uxorem terram.
+     </p>
+    </div>
+
+    <div n="327" type="schol">
+     <p> CORPORE pro ‛corpori’, ut: <hi rend="expanded">haeret pede pes</hi>. Licet accipere
+      possimus ‛commixtus terrae magno corpore’, idest aethereo. </p>
+    </div>
+
+    <div n="330" type="schol">
+     <p> (ALMVS) ab eo, quia alat. </p>
+    </div>
+
+    <div n="336" type="schol">
+     <p> NON ALIOS et rel. Hoc autem licentia poetarum dicit, nam falsum est. Constat enim, post
+      factum mundum ex qualitate cursus solis tempora esse divisa. </p>
+    </div>
+
+    <div n="337" type="schol">
+     <p> TENOREM eandem similitudinem. </p>
+    </div>
+
+    <div n="338" type="schol">
+     <p> VER ILLVD. Absoluta locutio: quicquid illud fuit, ver fuit. Lucretius libro V: <hi
+       rend="expanded">At novitas mundi nec frigora dura ciebat Nec nimios aestus nec magnis viribus
+       auras</hi>. </p>
+    </div>
+
+    <div n="341" type="schol">
+     <p> FERREA PROGENIES (procreata) ex lapidibus ad laborem. Alibi: <hi rend="expanded">Vnde
+       homines (nati) durum genus</hi> et rel. </p>
+    </div>
+
+    <div n="342" type="schol">
+     <p> INMISSAE FERAE S. quasi dixisset caelo. Hunc ordinem propter Arcadas tenuit; nam Statius
+      dicit: <hi rend="expanded">Arcades astris lunaque priores</hi>. </p>
+    </div>
+
+    <div n="345" type="schol">
+     <p> CAELI INDVLGENTIA, aeris temperies. </p>
+    </div>
+
+    <div n="346" type="schol">
+     <p> QVOD SVPEREST non quod deest. PREMES demerges. </p>
+    </div>
+
+    <div n="348" type="schol">
+     <p> SCATENTES scatebrosas. LAPIDEM BIBVLVM qui harenarius vocatur. CONCHAS. Conchae propter
+      admittenda spiramina infodiuntur, lapis vero harenosus propter spiramina et propter hauriendum
+      humorem, (si) forte nimius fuerit. </p>
+    </div>
+
+    <div n="350" type="schol">
+     <p> HALITVS † adeo etiam animam, quibus etiam halitum dat, non aerem. ANIMOS TOLLENT sumunt ab
+      bis rebus magnanimitatem. IAMQVE REPERTI scilicet diligentiores. </p>
+    </div>
+
+    <div n="352" type="schol">
+     <p> MVNIMEN contra nimias pluvias. </p>
+    </div>
+
+    <div n="353" type="schol">
+     <p> HIVLCA nimiis caloribus scissa. Nam ‛hiulcus’ dicitur, qui hiat, ‛petulcus’, qui petit.
+      CANIS sidus ardentissimum, quia fit per aestatem. </p>
+    </div>
+
+    <div n="355" type="schol">
+     <p> AD CAPITA positarum vitium. BIDENTES ferramenta bidentes habentia ad comminuendas glebas
+      pertinent. </p>
+    </div>
+
+    <div n="357" type="schol">
+     <p> FLECTERE cum quadam moderatione ducere, ne tenera adhuc virgulta concutiant. </p>
+    </div>
+
+    <div n="358" type="schol">
+     <p> TVM LEVES CALAMOS. Nodos dieit et cannas (et) virgas tondendas. RASAE pro ‛planissimae
+      virgae’. </p>
+    </div>
+
+    <div n="359" type="schol">
+     <p> SVDES quibus texuntur saepes. </p>
+    </div>
+
+    <div n="360" type="schol">
+     <p> VIRIBVS ENITI. Adminiculo vitium est. </p>
+    </div>
+
+    <div n="361" type="schol">
+     <p> PER VLMOS inter ramos. TABVLATA. Spatium, quod interest ramis arborum, ‛tabulatum’ dicitur
+      idest intervallum. Item: TABVLATA ramusculi in plana crescentes, non altiora petentes. </p>
+    </div>
+
+    <div n="363" type="schol">
+     <p> PARCENDVM TENERIS ut radices robora accipiant, initia non inquietanda. </p>
+    </div>
+
+    <div n="365" type="schol">
+     <p> IPSA ACIES. Sensus hic est: teneris adhuc vitibus non est falcis acies necessaria. </p>
+    </div>
+
+    <div n="367" type="schol">
+     <p> STIRPIBVS solidioribus palmitibus, truncis. </p>
+    </div>
+
+    <div n="371" type="schol">
+     <p> TENENDVM arcendum, ne morsibus laedant. </p>
+    </div>
+
+    <div n="373" type="schol">
+     <p> POTENTEM intolerabilem. </p>
+    </div>
+
+    <div n="374" type="schol">
+     <p> SILVESTRES VRI qui in Pyrenaeo monte nascuntur inter Gallias. ‛Uri’ autem boves silvestres,
+      quos vulgo ‛bobalos’ appellant. SEQVACES persecutrices. </p>
+    </div>
+
+    <div n="377" type="schol">
+     <p> INCVMBENS penetrans. SCOPVLIS ARENTIBVS. Non solum incumbens scopulis, sed locum pariter
+      viridem et scopulos calore revolvit. </p>
+    </div>
+
+    <div n="379" type="schol">
+     <p> CICATRIX. Vulneris signum arboris rapto cortice dixit. </p>
+    </div>
+
+    <div n="380" type="schol">
+     <p> NON ALIAM OB CVLPAM. Victimae numinibus aut per similitudinem aut per contrarietatem
+      immolantur: (per similitudinem), ut nigrum pecus Plutoni, per contrarietatem, ut porca, quae
+      obest frugibus, Cereri, et caper, qui obest (vitibus), Libero. ‛Aris’ autem ‛omnibus’ non sine
+      causa dicit. Nam cum numinibus ceteris (varie) pro qualitate regionum sacrificetur et Veneri
+      Paphiae *</p>
+    </div>
+
+    <div n="384" type="schol">
+     <p> MOLLIBVS IN PRATIS. Romulus cum aedificaret templum Iovis, pelles unctas stravit et sic
+      ludos edidit, ut et caestibus dimicarent et cursu contenderent, quam rem Ennius in Annalibus
+      testatur. Ideo autem ‛in pratis’, ne laederentur cadentes. </p>
+    </div>
+
+    <div n="381" type="schol">
+     <p> PROSCENIA autem pulpita ante scenam, in quibus ludicra exercentur. ‛Proscenium’ dicitur
+      locus, in quo concurrunt in scena ludentes. Item: Inter ‛scenam’ et ‛proscenium’ hoc interest,
+      quod ‛scena’ dispositio columnarum et erectio ipsius ornatus, ut in primo: <hi rend="expanded"
+       >columnas Rupibus excidunt scenis decora alta futuris</hi>. ‛Proscenium’ autem est ipsum
+      spatium. </p>
+    </div>
+
+    <div n="382" type="schol">
+     <p> PAGOS ET COMPITA idest (per) quadrivia, (quae) compita appellantur ab eo, quod multae viae
+      in unum confluant, et villas, quae ‛pagi’ tirò <foreign xml:lang="grc">ἀπὸ τῶν πηγῶν</foreign>
+      appellantur, idest a fontibus, circa quos villae consuerunt condi. Vnde et ‛pagani’ ditti
+      sunt, quasi ex uno fonte potantes. COMPITA unde ludi ‛compitalicii’</p>
+    </div>
+
+    <div n="384" type="schol">
+     <p> VTRES ad insultationem mortuorum caprorum, ne quid ex his esset, quod non sentiret
+      iniuriam. SALVERE PER VTRES. Secundum Artem locutus est; nam ‛salio salui’. </p>
+    </div>
+
+    <div n="386" type="schol">
+     <p> VERSIBVS INCOMPTIS hoc est carminibus Saturnio metro compositis, quod ad rhythmum solum
+      vulgares componere consuerunt. </p>
+    </div>
+
+    <div n="389" type="schol">
+     <p> Item: Icarus cum a Libero Patre pro munere accepisset vinum, quod domum secum ad civitatem
+      adferret, a latronibus comprehensus est, et, cum iis ultro munere obtulisset poculum vini,
+      atque illi ebrii venenum sibi datum putaverunt atque eum interfecerunt. Et postmodum cum filia
+      eius Erigone mortuum quaereret, quae cum reperisset corpus eins, laqueo vitam finivit. Inde
+      Athenienses filias suas laqueis inligabant. Post cuius interitum cum multae Atheniensium tali
+      morte interirent, consuluerunt oraculum, quod respondit, Erigones mortem expiandam esse,
+      eandem placandam. Tunc instituerunt ludos et dies festos et arboribus laqueos pensiles
+      inligare, in quibus se huc illuc ferrent, quos laqueos oscilla vocaverunt. Alii dicunt: Post
+      mortem Latini regis quaesiverunt eum in terra et in mari et nusquam inventum est corpus eius;
+      quaesiverunt eum in aere et suspendisse (se) laqueo inventum est. Hinc initiaverunt hoc genus
+      mortis. </p>
+    </div>
+
+    <div n="395" type="schol">
+     <p> ET DVCTVS CORNV. Iuxta haruspicinam dicit, quoniam tunc festa victima est, quotiens
+      patientiam praebet, ut alio loco: <hi rend="expanded">Et statuam ante aras aurata fronte
+       iuvencum</hi>. Quotienscumque <del>in sudibus</del> devota victima (vincula) rumpit et fugit,
+      magnum exitium significat. </p>
+    </div>
+
+    <div n="403" type="schol">
+     <p> OLIM SERAS pristinas, ut Sallustius *</p>
+    </div>
+
+    <div n="406" type="schol">
+     <p> RELICTAM a se paulo ante desertam. Aliter: ‛relictam’ non desertam aut neglectam, sed
+      fructu ablato derelictam. </p>
+    </div>
+
+    <div n="407" type="schol">
+     <p> FINGIT componit, ut ibi: <hi rend="expanded">et corpora fingere lingua</hi>, et alibi, ut:
+       <hi rend="expanded">fingitque premendo</hi>. </p>
+    </div>
+
+    <div n="409" type="schol">
+     <p> VALLOS vitium sustentacula, quae nonnullis locis in tecta portantur, ne cito imbribus
+      pereant. </p>
+    </div>
+
+    <div n="410" type="schol">
+     <p> METITO a verbo ‛meto’. Item: POSTREMVS METITO idest legito. Perseverat enim in
+      translatione, ut, quoniam vindemiae ‛segetem’ dixerat, ‛metendam’ eandem vindemiam diceret pro
+      ‛colligendam’. ‛Postremus’ autem, (ut) maturius sit, quoniam, quanto maturior fuerit lecta
+      vindemia, tanto dulcius dabit vinum. Sic autem ‛metere’ dixit pro ‛legere’, ut ibi ait: <hi
+       rend="expanded">duo tempora messis</hi>, cum de melle colligendo loqueretur. </p>
+    </div>
+
+    <div n="412" type="schol">
+     <p> LAVDATO et rel. quod ideo dictum est, vel quia maiores agros <del>et</del> incultos ‛rura’
+      dicebant, idest silvas et pascua, ‛agrum’ vero, qui colebatur. Intellegimus: laudato ingentes
+      silvas, colito agrum minorem, vel, quod melius, quia ait in primo: <hi rend="expanded"
+       >Alternis</hi>. </p>
+    </div>
+
+    <div n="413" type="schol">
+     <p> RVSTI. Virgultum, unde vites ligantur; commemorat labores, qui, licet circa alia, tamen pro
+      vitibus exercentur. </p>
+    </div>
+
+    <div n="415" type="schol">
+     <p> INCVLTIQVE et rel. Quasi cum indignatione ait: causa vitium cura nos etiam sponte
+      nascentium rerum fatigat. CVRA. Hoc est pro ‛vitium ligatura’. </p>
+    </div>
+
+    <div n="417" type="schol">
+     <p> ANTES. Alii dicunt, quod maceriae sint, quibus vineae claudantur, vel carmina. </p>
+    </div>
+
+    <div n="418" type="schol">
+     <p> PVLVISQVE MOVENDVS. Genus ipsum culturae ‛pulveratio’ dicitur, quo inminutae (glebae)
+      vitibus applicantur. </p>
+    </div>
+
+    <div n="419" type="schol">
+     <p> METVENDVS IVPPITER. Aerem dixit more suo, cuius varietas plerumque decipit laborem
+      rusticorum. </p>
+    </div>
+
+    <div n="421" type="schol">
+     <p> RASTROS ad fodiendum; neglegentiam ferunt oleae, cum iam coeperint esse valentiores; nam
+      adhuc parvae (nimiam) requirunt curam. </p>
+    </div>
+
+    <div n="424" type="schol">
+     <p> GRAVIDAS C. V. F. ‛Cum’ abundat; nam hoc dicit: subministrat fruges vomere. Vrbanus tamen
+      sic accipit: ‛gravidas cum (vomere)’, idest statim post arationem. </p>
+    </div>
+
+    <div n="425" type="schol">
+     <p> PACI quia oleae rami pro pacis indicio ab hostibus offeruntur. NVTRITOR pro ‛nutrix’. Item:
+      NVTRITOR pro ‛nutri’, pro acitivi imperativo passivi futurum ponit. </p>
+    </div>
+
+    <div n="426" type="schol">
+     <p> POMA arbores, in quibus et fructus eiusdem nominis crescit. </p>
+    </div>
+
+    <div n="427" type="schol">
+     <p> VIRES SVAS quia tenera virgulta solent religari fustibus validioribus, sicut ait de
+      vitibus: <hi rend="expanded">Viribus eniti quarum</hi>. </p>
+    </div>
+
+    <div n="429" type="schol">
+     <p> FOETV N. O. idest utilitate. Nam omnis utilitas foetus. Illuc autem tendit laus ista
+      silvarum, ut approbet, non mirum esse, si et poma et oleae sine ulla cultura praebeantur. </p>
+    </div>
+
+    <div n="430" type="schol">
+     <p> AVIARIA a via longe posita. INCVLTA ab avibus pasta. BACCIS SANGVINEIS. ‛Baccas sanguineas’
+      poma silvestria accipimus. </p>
+    </div>
+
+    <div n="431" type="schol">
+     <p> CYTISI virgulta a Cyto insula, ubi abundant, nominata. </p>
+    </div>
+
+    <div n="434" type="schol">
+     <p> GENESTAE HVMILES infructuosae. Nam quemadmodum sunt humiles, si umbras pastoribus faciunt?
+     </p>
+    </div>
+
+    <div n="437" type="schol">
+     <p> VNDANTEM abundantem. Ennius in libro VIIII Annalium: <hi rend="expanded">praeda exercitus
+       undat</hi>. BVXO. Buxum lignum pulcherrimi coloris. CYTORVM. Mons Macedoniae, ubi abundat
+      buxus, quae vento <del>acta vel</del> motata (aestus) imitatur undarum, sive mons Paphlagoniae
+      buxi ferax Cytorus dicitur. </p>
+    </div>
+
+    <div n="438" type="schol">
+     <p> NARYCIAE PICIS a loco, in quo abundant piceae, vel ‛Naryciae’ Bruttiae, quae in
+      similitudinem picis arborum corticibus fluunt. Item: ‛Naryciae’ Bruttiae, quae in silva fiunt,
+      ut alibi: <hi rend="expanded">Hic et Narycii posuerunt moenia Locri</hi>. </p>
+    </div>
+
+    <div n="439" type="schol">
+     <p> NON OBNOXIA non debitricia. </p>
+    </div>
+
+    <div n="440" type="schol">
+     <p> CAVCASEO. (Caucasus) mons Scythiae pro quolibet monte; posuit speciem pro genere. </p>
+    </div>
+
+    <div n="444" type="schol">
+     <p> HINC RADIOS de incultis scilicet silvis *, de cupresso efficit rotas. TRIVERE. Pastores
+      composuerunt de torno. TYMPANA in quibus fiunt radii, vel tecta vehiculorum. Item: ‛tympana’
+      ait rotas ingentes. </p>
+    </div>
+
+    <div n="445" type="schol">
+     <p> PANDAS longas, curvas, extentas. </p>
+    </div>
+
+    <div n="446" type="schol">
+     <p> VIMINIBVS S. idest ligaturis. (Legitur) et ‛foecundae frondibus’ (idest) umbraculis ‛ulmi’.
+     </p>
+    </div>
+
+    <div n="447" type="schol">
+     <p> ET BONA BELLO. Apta est et fortis hastilibus cornus. </p>
+    </div>
+
+    <div n="448" type="schol">
+     <p> (ITVRAEOS). Itura civitas Scythiae et gens, vel Ituri gens orientalis colens Libanum montem
+      sagittis exercita. </p>
+    </div>
+
+    <div n="449" type="schol">
+     <p> NEC TILIAE. Ordo: ‛nec non’. RASILE quia facile raditur. TORNO. (Torno) fiunt vasa. </p>
+    </div>
+
+    <div n="452" type="schol">
+     <p> PADO. Species pro genere. </p>
+    </div>
+
+    <div n="453" type="schol">
+     <p> VITIOSAE ILICIS. Vult probare, etiam putres arbores habere utilitatem aliquam. </p>
+    </div>
+
+    <div n="454" type="schol">
+     <p> QVID MEMORANDVUM. Quid similiter laudandum tulerunt dona Liberi, sicut silvae multae *?</p>
+    </div>
+
+    <div n="455" type="schol">
+     <p> ILLE F. C. Lapithae et Centauri ebrietate in furorem sunt conpulsi, deinde hoc loco ait
+      Centauros in furorem actos a Libero, non Lapithas dicit. </p>
+    </div>
+
+    <div n="457" type="schol">
+     <p> LAPITEIS C. M. Bonum schema: ita enim pinguntur quasi poculis tractantes bella Centauri
+      (et) Lapithae. Centauri cum ad nuptias Lapitharum invitati fuissent, in convivio ebrii nuptam
+      rapere voluerunt, ob quam rem Lapithae eos interfecerunt. </p>
+    </div>
+
+    <div n="458" type="schol">
+     <p> O FORTVNATOS. Non est abruptus transitus ad laudem vitae rusticae. Nam ad superiora
+      pertinet, et hoc loco post vituperationem vini ista quasi consolatio est, per quam ostenditur,
+      quantas voluptates (rusticis natura praestiterit). </p>
+    </div>
+
+    <div n="459" type="schol">
+     <p> PROCVL D. A. idest longe a civitatibus, plenis iurgio et rapinis. </p>
+    </div>
+
+    <div n="460" type="schol">
+     <p> IVSTISSIMA T. Proprie; nam si iustus est, qui, quod recepit, reddit, terra utique
+      iustissima semina accepta restituit. </p>
+    </div>
+
+    <div n="461" type="schol">
+     <p> SI NON INGENTEM. Vt etiam in laude fecit Italiae, non solum vitam rusticam laudat, sed
+      etiam contrariam, idest urbanam vituperat. </p>
+    </div>
+
+    <div n="462" type="schol">
+     <p> VNDAM. Turbam hominum domum vomere testatur. </p>
+    </div>
+
+    <div n="464" type="schol">
+     <p> INLVSASQVE AVRO in quibus aurifex auro ludens aliqua depinxit. Male quidam legunt
+      ‛inclusas’. Non enim usus talis est, sed auro vestir texitur. EPHYREIAQVE AERA idest
+      Corinthia. Corinthus enim Ephyre dicebatur. AERA arma. </p>
+    </div>
+
+    <div n="465" type="schol">
+     <p> VENENO colore. VENENO medicamento, unde antiqui ‛venenatas’ vestes dicebant aliquo colore
+      tinctas, et omnia medicamenta ‛venena’ appellant, sicut Sallustius: neque enim venenum malum
+      gignitur. </p>
+    </div>
+
+    <div n="466" type="schol">
+     <p> NEC CASIA. Herba est, de qua fit unguentum. Mire autem ait: ‛usus olivi corrumpitur’; nam
+      oleum generalem usum habet, quod cum in unguentum fuerit (corruptum), uni rei tantum esse
+      aptum incipit. </p>
+    </div>
+
+    <div n="467" type="schol">
+     <p> ET NESCIA F. VITA et rel. Vrbanorum enim fortuna aut (in) insidiis est aut in labore, aut
+      hyperbolice. </p>
+    </div>
+
+    <div n="468" type="schol">
+     <p> LATIS F. Fundus dicitur eo, quod (sit) omnium rerum fundamentum, sed proprie vasis dicitur
+      fundus. </p>
+    </div>
+
+    <div n="469" type="schol">
+     <p> SPELVNCAE bona naturalia non sicut in urbibus labore (quaesita). FRIGIDA T. Proprie Tempe
+      sunt amoena loca Thessaliae, abusive cuiusvis loti amoenitas. </p>
+    </div>
+
+    <div n="471" type="schol">
+     <p> SALTVS ET LVSTRA venationes, quae in urbibus non sunt. Bene ‛ferarum’ addit, quoniam sunt
+      in urbibus lustra meretricum. </p>
+    </div>
+
+    <div n="472" type="schol">
+     <p> EXIGVO ASSVETA non ut urbana, quae segnis et prodiga. </p>
+    </div>
+
+    <div n="473" type="schol">
+     <p> SANCTI quod in urbana vita sanciti sunt, ac per hoc iutellegi vult, apud solos rusticos
+      reliquias iustitiae remanere. </p>
+    </div>
+
+    <div n="475" type="schol">
+     <p> ME VERO. Diu quaesitum, utrum philosophiae an rusticitatis vita esset felicior, unde nunc
+      dicit primo philosophorum, post rusticam vitam; suam autem personam pro quocumque ponit, sicut
+      paulo post: <hi rend="expanded">Rura mihi placeant</hi>. </p>
+    </div>
+
+    <div n="476" type="schol">
+     <p> SACRA FERO. Poeta enim quasi Musarum sacerdos est. </p>
+    </div>
+
+    <div n="477" type="schol">
+     <p> CAELI VIAS aut artes, ut: <hi rend="expanded">Inveni, germana, viam</hi>; aut certe
+      circulos VII, quibus sidera continentur. </p>
+    </div>
+
+    <div n="478" type="schol">
+     <p> LVNAEQVE LABORES. Sunt errores, quibus non recte incedit, vel defectus, qui contingunt in
+      XIIII lumine. </p>
+    </div>
+
+    <div n="479" type="schol">
+     <p> VNDE TREMOR TERRIS. Alii dicunt, ventum esse in concavis terrae, qui motus etiam terram
+      movet. Sallustius: <hi rend="expanded">venti per concava terrae citatu</hi>. Lucanus: <hi
+       rend="expanded">quaerentem erumpere ventum Credidit</hi>. Alii aquam dicunt genitalem sub
+      terris moveri et eas simul concutere, sicut vasa. QVA VI MARIA. Alii dicunt, quia disruptis
+      obicibus, idest Calpe et Atlante, montibus Hispaniae et Mauretaniae Oceanus inmittitur. </p>
+    </div>
+
+    <div n="481" type="schol">
+     <p> QVID TANTVM OCEANO. Circulorum hoc fecit ratio, ut etiam in Aeneide legimus. </p>
+    </div>
+
+    <div n="481 s." type="schol">
+     <p> SOLES HIBERNI. Hiberni nobis cum sunt soles, antipodis nostris aestivi. Nam qui sphaeram
+      scripserunt, diversa nos ab illis uno tempore pati dicunt. Cum enim sol sive huius modi sive
+      illius excedit, regiones mutantur diversitate cardinis. </p>
+    </div>
+
+    <div n="483" type="schol">
+     <p> NATVRAE ACCEDERE P. Physice scimus, nude occurrit, quod dixit. </p>
+    </div>
+
+    <div n="482" type="schol">
+     <p> TARDIS NOCTIBVS tarde venientibus in hieme. </p>
+    </div>
+
+    <div n="484" type="schol">
+     <p> FRIGIDVS OBSTITERIT. Secundum philosophos, qui dicunt stultos esse frigidioris sanguinis et
+      prudentes calidioris, unde senes, in quibus iam friget, et pueri, in quibus (necdum) calet,
+      minus sapiunt. </p>
+    </div>
+
+    <div n="488" type="schol">
+     <p> TAYGETA. Mons et civitas Laconiae Libero et Bacchis consecratus, unde descendit Sperchius.
+     </p>
+    </div>
+
+    <div n="487" type="schol">
+     <p> BACCHATA. Figura elegans, hoc est, in quibus virgines bacchatae sunt. ‛Bacchantes’ dicuntur
+      in Bacchi convivio ludentes. </p>
+    </div>
+
+    <div n="490" type="schol">
+     <p> FELIX QVI POTVIT. Iam vero repetitionem facit superioris coloris. Nam hoc dicit, quia
+      rustici felices sunt et qui tribuunt operam philosophiae. </p>
+    </div>
+
+    <div n="491" type="schol">
+     <p> METVS OMNIS qui ex fato veniunt, calcavit pedibus. FATVM. Quamquam Virgilius Epicureus est,
+      hoc ait, quod Stoici dicunt, esse fatum, sed inexorabile. Nemo ultra fatum vivere potest, *
+      qui sub pedibus fatum habuit. </p>
+    </div>
+
+    <div n="490" type="schol">
+     <p> RERVM idest malarum, quae in urbibus per ambitionem et avaritiam *</p>
+    </div>
+
+    <div n="492" type="schol">
+     <p> ACHERONTIS AVARI. Palus infernalis, quae numquam potest saturari. </p>
+    </div>
+
+    <div n="496" type="schol">
+     <p> AGITANS DISCORDIA FRATRES. Eteocles et Polynices, Oedipi et Iocastae filii, cum regnum
+      Thebarum alternis anni vicibus tenerent, Eteocles adeptum regnum retinuit nec fratri
+      restituere voluit, ad quod petendum Polynices cum Adrasti et Graecorum petisset auxilium,
+      bellum Thebis movit, in quo bello pugnantes inter se fratres Eteocles et Polynices mutuis
+      vulneribus interierunt. </p>
+    </div>
+
+    <div n="497" type="schol">
+     <p> CONIVRATO DESCENDENS idest non sollicitatur coniuratione barbarorum; convenerunt enim iure
+      iurando ultra fluvium Histrum et coeperunt Romanos pellere, sed iussu Angusti ab Agrippa sunt
+      proiecti. </p>
+    </div>
+
+    <div n="499" type="schol">
+     <p> AVT DOLVIT quia eis non interest, quippe qui urbibus est remotus. MISERANS INOPEM. Non tam
+      durum dicit rusticum, ut inopis non misereatur, sed inopem in re rustica neminem esse dicit,
+      quoniam agricolae naturalibus copiis abundant. </p>
+    </div>
+
+    <div n="501" type="schol">
+     <p> IVRA inexorabilia, nihil paenitentia. </p>
+    </div>
+
+    <div n="502" type="schol">
+     <p> TABVLARIA ubi populus continetur. Significat autem templum Saturni, in quo aerarium fuerat
+      et reponebantur acta. Item: TABVLARIA quae fiunt in summitatibus murorum. </p>
+    </div>
+
+    <div n="506" type="schol">
+     <p> SARRANO OSTRO Tyria purpura, quod Tyrius nuncupatur, qui antea Sarranus dicebatur. Antiquum
+      nomen Tyri Sarra. </p>
+    </div>
+
+    <div n="508" type="schol">
+     <p> HIC STVPET ATTONITVS ROSTRIS scilicet ut concionaretur. De Cicerone videtur dicere. Hi
+      ‛attoniti’ dicuntur, iuxta quos fulmen decidit, quia timore stupeant. </p>
+    </div>
+
+    <div n="509" type="schol">
+     <p> PER CVNEOS GEMINATVS. De Pompeio videtur lusisse. </p>
+    </div>
+
+    <div n="510" type="schol">
+     <p> CORRIPVIT. Ordo: ‛corripuit enim hunc geminatus per cuneos plausus et plebis et patrum’.
+     </p>
+    </div>
+
+    <div n="511" type="schol">
+     <p> EXILIOQVE voluntario scilicet propter avaritiam.</p>
+     <p>(DVLCIA) Ad luxuriam, non ad necessítatem retulit, et propter homicídia dulcia, sicut
+       ibi:<hi rend="expanded"> dulcia linquimus arva</hi>. </p>
+    </div>
+
+    <div n="512" type="schol">
+     <p> ALIO SVB SOLE climate. Hyperbolice ‛alio sub sole’ dixit. Duros nimis et barbaris
+      imperatoribus describit. </p>
+    </div>
+
+    <div n="514" type="schol">
+     <p> HINC PATRIAM. Donatus villam intellegit, non revera patriam. </p>
+    </div>
+
+    <div n="517" type="schol">
+     <p> CEREALIS M. C. Manipulos spicarum ‛mergites’ mergendo dicimus. ‛Mergites’ abundantia
+      spicarum. </p>
+    </div>
+
+    <div n="519" type="schol">
+     <p> SICYONIA a Sicyone oppido, ubi optima oliva nascitur. TRAPETIS molis olivariis; nominativus
+      ‛trapetum’. ‛Trapeta’ autem sunt saxa trahendo dieta, quibus frangitur oliva. </p>
+    </div>
+
+    <div n="522" type="schol">
+     <p> IN APRICIS soli obpositis, unde et senes solem ob rigorem amantes ‛apricos’ dicimus. </p>
+    </div>
+
+    <div n="524" type="schol">
+     <p> CASTA PVDICITIAM. In urbibus inpudica meretrix. </p>
+    </div>
+
+    <div n="531" type="schol">
+     <p> PALAESTRA rustica luctamina. ‛Palaestra’ autem dicta est <foreign xml:lang="grc">ἀπὸ τῆς
+       πάλης</foreign>, idest a luctatione, vel <foreign xml:lang="grc">ἀπὸ τοῦ πάλλειν</foreign>,
+      idest (a motu) urnae; nam ducti sorte luctantur. </p>
+    </div>
+
+    <div n="533" type="schol">
+     <p> FORTIS ETRVRIA. Eleganter Italiae Etruriam iunxit, quoniam primo loquitur de Romuli
+      imperio, et Titum (Tatium) collegam eius intellegi vult, sive quod Etrusci bellicosissimi et
+      gens magna fuit. (Constat) secundum historiam, Tuscos (a Tuscia) usque (ad fretum) Siculum
+      omnia possedisse. Etrusci enim bellicosissimi viri, apud quos primum Romuli fuit imperium.
+     </p>
+    </div>
+
+    <div n="536" type="schol">
+     <p> DICTAEI REGIS. Occulte Iuppiter nutritus in Creta est lacte Climiae caprae (a) Curetibus et
+      Corybantibus, qui ex eo Dictaeus appellatur, quia regio Cretensis Dicta a monte Dictaeo.
+      Britomartis filia cum persequentis Minois amatoris sui vim fugiens semet ex hoc monte in
+      subiectum praecipitem deiecisset, excepta retibus incolumis evasit, qua dicitur gratia
+      Dictynna, ideo et mons Dictaeus, non regio Creta Dictaea appellatur, in qua honestum Diana
+      ipsa etiam opem obtulit, Dictynna appellata est. </p>
+    </div>
+
+    <div n="537" type="schol">
+     <p> IMPIA QVAM CAESIS. Mire rusticos impios dixit, quia iuvencos in epulas fuderunt servandos
+      magis ruri. </p>
+    </div>
+
+    <div n="538" type="schol">
+     <p> AVREVS SATVRNVS non aureus Saturnus, sed quia in aureo saeculo regnabat, cuius rei meminit
+      Hesiodus. </p>
+    </div>
+
+    <div n="539" type="schol">
+     <p> CLASSICA tubas, lituos: primitus enim (per classes) dividebantur exercitus, postea legio ab
+      electione dicta est. </p>
+    </div>
+
+    <div n="540" type="schol">
+     <p> ENSES. Iuvenalis: <hi rend="expanded">Nescirent primi gladios extundere fabri</hi>. </p>
+    </div>
+
+    <div n="542" type="schol">
+     <p> ET IAM TEMPVS. Allegorice hoc dicit: debemus fatigato ingenio parcere, finem carminis
+      facere. Sane non est comparatio, sed translatio. </p>
+    </div>
+
+   </div>
+
+
+
+  </body>
+ </text>
+
+</TEI>

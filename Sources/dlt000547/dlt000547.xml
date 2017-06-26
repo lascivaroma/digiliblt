@@ -1,0 +1,1574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Analytica priora Aristotelis latine uersa (recensio Carnutensis, partes
+                    quaedam seorsum editae)</title>
+                <author>Boethius (Anicius Manlius Seuerinus Boethius)</author>
+                <respStmt>
+                    <resp>Correzione linguistica</resp>
+                    <name>Manuela Ferroni</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica XML</resp>
+                    <name>Manuela Ferroni</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>DigilibLT Project</publisher>
+                <pubPlace>Vercelli</pubPlace>
+                <date>2015</date>
+                <availability>
+                    <p>
+                        <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
+                    </p>
+                </availability>
+                <idno>dlt000547</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p><hi rend="italic">Analytica priora Aristotelis latine versa, recensio Carnutensis
+                        in Analytica priora, translatio Boethii (recensiones duae), translatio
+                        anonyma, pseudo-Philoponi aliorumque scholia, specimina translationum
+                        recentiorum</hi>, ed. L. Minio-Paluello, Desclée de Brouwer, Bruges-Paris
+                    1962.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+                <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio
+                    Lana</p>
+            </projectDesc>
+            <editorialDecl>
+
+                <p>
+                    <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi>
+                </p>
+                <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non
+                    seguendone l'impaginazione. Sono stati invece esclusi dalla digitalizzazione
+                    apparati, introduzioni, note e commenti e ogni altro contenuto redatto da
+                    editori moderni. </p>
+                <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la
+                    massima correttezza di trascrizione</p>
+                <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di
+                    riferimento per la distinzione u/v minuscole.</p>
+                <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+                <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic"
+                        >corpus</hi>: grassetto, corsivo, spaziatura espansa.</p>
+                <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/>
+                    espunzioni: <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/>
+                    integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+                    <hi rend="italic">loci desperati</hi>:
+                    <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo†
+                    e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...]<lb/>
+                    lacuna integrata dagli editori:
+                    <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+                </p>
+                <p>Sono stati marcati i termini in lingua greca
+                    <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+                </p>
+                <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+                        target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+                        >Note di trascrizione e codifica di testi latini tardoantichi
+                        [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latino</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="lib" n="I">
+                <head>
+                    <supplied>PRIORVM ANALYTICORVM ARISTOTELIS LIBER PRIMVS</supplied>
+                </head>
+                <div type="cap" n="1">
+                    <p>Primum dicere OPORTET circa quid et CVIVS est CONSIDERATIO, quoniam circa
+                        demonstrationem et de disciplina demonstrativa; deinde determinare quid est
+                        propositio et quid terminus et quid syllogismus, et quis perfectus et quis
+                        imperfectus; post ea vero quid in toto esse vel non esse QVID in QVOLIBET,
+                        et quid dicimus de omni aut nullo praedicari.</p>
+                    <p>Propositio * est oratio affirmativa vel negativa alicuius de aliquo; haec
+                        autem aut universalis aut particularis aut indefinita. Dico autem
+                        universalem * quae omni aut nulli INEST, particularem vero quae alicui aut
+                        non alicui aut non omni INEST, indefinitam * quae inesse AVT non inesse
+                        significat sine VNIVERSALITATE AVT PARTICVLARITATE, VELVT contrariorum esse
+                        eandem disciplinam VEL voluptatem non esse bonum. Differt autem
+                        demonstrativa propositio a dialectica, quoniam demonstrativa quidem
+                        ASSVMPTIO alterius partis contradictionis est (non enim interrogat sed
+                        ASSVMIT qui demonstrat), dialectica vero interrogatio contradictionis est.
+                        Nihil VERO distabit AD FORMANDVM utriusque SYLLOGISMVM; et ENIM qui
+                        demonstrat et qui interrogat syllogizat sumens aliquid de aliquo AVT INESSE
+                        AVT non INESSE. Quare erit syllogistica quidem propositio SIMPLEX
+                        AFFIRMATIVA aut NEGATIVA alicuius de aliquo secundum dictum modum;
+                        demonstrativa vero si vera sit et AB INITIO PER CONDITIONEM ASSVMPTA;
+                        dialectica VERO percunctanti quidem interrogatio contradictionis,
+                        DEMONSTRANTI vero ASSVMPTIO apparentis et CONCESSI, quemadmodum in Topicis
+                        dictum est. Quid AVTEM est propositio, et quid differt syllogistica et
+                        demonstrativa et dialectica, subtiliter quidem in SVBSEQVENTIBVS dicetur, ad
+                        PRAESENS vero * sufficienter nobis DETERMINATVM EST * nunc.</p>
+                    <p>Terminum vero voco in quem resolvitur propositio, VELVT praedicatum et de quo
+                        praedicatur, SIVE ADIVNCTO SIVE SEPARATO esse et non esse. Syllogismus VERO
+                        est oratio in qua positis ALIQVIBVS aliud quid "A" POSITIS ex necessitate
+                        CONSEQVITVR EX IPSIS ESSE. Dico autem 'EX IPSIS ESSE', PER IPSA contingere;
+                            <supplied>'PER IPSA' vero 'contingere'</supplied>, nullius extrinsecus
+                        termini indigere ut fiat necessarium. Perfectum IGITVR DICO syllogismum, qui
+                        nullius alius INDIGEAT praeter ASSVMPTA ut appareat NECESSARIVS; imperfectum
+                        vero qui INDIGEAT aut unius aut plurium, quae sunt quidem necessaria per
+                        SVBIECTOS terminos, non AVTEM SVMENDA per propositiones. In toto VERO esse
+                        ALIVD IN ALIO et de omni praedicari ALTERVM DE ALTERO idem est. Dicimus
+                        autem de omni praedicari quando nihil SIT SVMENDVM subiecti de quo alterum
+                        non dicatur; et de nullo similiter.</p>
+                </div>
+                <div type="cap" n="2">
+                    <p>Quoniam autem omnis propositio est aut inesse aut necessario inesse aut
+                        contingenter inesse, harum * hae quidem affirmativae HAE vero negativae
+                        secundum * ALLOCVTIONES, RVRSVS autem affirmativarum et negativarum aliae
+                        sunt universales, aliae particulares, quaedam indefinitae, VNIVERSALIVM
+                        PRIVATIVAM QVIDEM * necesse est VNIVERSALITER terminis converti, ut si NEC
+                        VLLA voluptas bonum, NEC bonum VLLVM erit voluptas; praedicativam autem
+                        converti * necessarium non EST universaliter, sed in parte, ut si omnis
+                        voluptas bonum, et bonum QVODDAM esse voluptatem. Particularium autem
+                        affirmativam quidem converti necesse est particulariter (nam si voluptas
+                        quaedam bonum, et bonum quoddam erit voluptas), privativam autem non EST
+                        necessarium (non enim, si homo non inest alicui animali, et animal non inest
+                        alicui homini).</p>
+                    <p>Primum ergo sit privativa universalis "a" "b" propositio. Si ergo nulli eorum
+                        quae sunt "b" inest "a", nec eorum quae sunt "a" ulli inerit "b"; SI ENIM
+                        alicui, VELVT "c", non verum erit nullum "b" esse "a"; nam "c" eorum quae
+                        sunt "b" aliquid est. Si vero omni "b" inest "a", et "b" alicui "a" inest;
+                        si ENIM nulli, nec "a" ulli "b" inerit; sed DICEBATVR omni inesse. Similiter
+                        autem et si particularis est propositio. Nam si inest "a" alicui "b", et "b"
+                        alicui eorum quae sunt "a" NECESSARIO INERIT; si enim nulli, nec "a" ulli
+                        "b". Si autem "a" alicui eorum quae sunt "b" non inest, non NECESSARIO et
+                        "b" alicui "a" non INERIT, ut si "b" quidem sit animal, "a" vero homo; homo
+                        enim non omni animali, animal vero omni homini inest.</p>
+                </div>
+                <div type="cap" n="3">
+                    <p>Eodem * modo HABEBITVR et in necessariis propositionibus. Nam universalis
+                        quidem PRIVATIO universaliter convertitur, affirmativarum autem utraque
+                        particulariter. Si ENIM NECESSARIO "a" nulli "b" INEST, NECESSARIO et "b"
+                        nulli "a" INERIT; si enim alicui contingit, et "a" alicui "b" VTIQVE
+                        continget. Si autem ex necessitate "a" omni vel alicui "b" inest, et "b"
+                        alicui "a" NECESSARIO INERIT; si AVTEM non necessario, nec "a" alicui "b" ex
+                        necessitate INEST. Particularis vero privativa non convertitur propter
+                        eandem causam propter quam et supra diximus.</p>
+                    <p>In contingentibus vero, quoniam multipliciter dicitur contingere (et ENIM
+                        necessarium et non necessarium et possibile contingere dicimus), in
+                        affirmativis quidem similiter HABEBITVR secundum conversionem in omnibus. Si
+                        ENIM "a" omni aut alicui "b" contingit, et "b" alicui "a" VTIQVE continget;
+                        si enim nulli, nec "a" VTIQVE ulli "b"; ostensum est enim hoc prius. In
+                        negativis vero non similiter, sed quaecumque quidem contingere dicuntur ex
+                        necessitate non INESSE AVT non ex necessitate INESSE, similiter, ut si quis
+                        dicat hominem contingere non esse equum aut album nulli VESTI inesse (horum
+                        enim VNVM * ex necessitate non inest, ALTERVM vero non necesse est inesse,
+                        et similiter convertitur propositio; si ENIM contingit nulli homini equum
+                        esse, et hominem CONTINGET ESSE nulli equo; et si album contingit nulli
+                        VESTI, et VESTIS CONTINGET nulli albo; si enim alicui necessario, et album
+                        VESTI alicui erit ex necessitate; hoc QVOQVE ostensum est prius), similiter
+                        autem et in PARTICVLARIBVS NEGATIVIS; quaecumque vero ut in pluribus * nata
+                        * dicuntur contingere, quemadmodum determinamus contingens, non similiter se
+                        habebunt in privativis conversionibus, sed universalis quidem privativa NON
+                        CONVERTITVR PROPOSITIO, particularis vero convertitur. Hoc autem erit
+                        manifestum quando de contingente dicemus. Nunc autem tantum nobis sit IVXTA
+                        DICTA manifestum, quoniam QVOD CONTINGIT nulli aut alicui non inesse
+                        affirmativam habet figuram (nam 'contingit' et 'est' similiter ordinatur,
+                        HOC 'est' *, QVIBVS VTIQVE ADIACENTER praedicatur, affirmationem semper
+                        facit et omnino, ut 'ESSE non bonum' vel '* non album' vel simpliciter '*
+                        non hoc'; ostendetur autem et hoc per CONSEQVENTIA), ET IN CONVERSIONIBVS
+                        autem similiter HABEBVNTVR aliis.</p>
+                </div>
+                <div type="cap" n="4">
+                    <p>His vero determinatis dicendum est iam DE QVIBVS et quando et quomodo fit
+                        omnis syllogismus; postea vero dicemus de demonstratione. Prius vero de
+                        syllogismo dicendum EST quam de demonstratione eo quod universalior est
+                        syllogismus; nam demonstratio syllogismus quidam est, syllogismus vero non
+                        omnis demonstratio.</p>
+                    <p><hi rend="bold">Initium primae figurae.</hi><lb/>Quando igitur termini tres
+                        sic HABENTVR ad invicem ut et POSTREMVM in toto ESSE medio et MEDIVM in toto
+                        primo CONTINGAT vel ESSE vel non ESSE, necesse est extremitatum esse
+                        syllogismum perfectum. Voco autem medium * QVI et IDEM in alio et ALIVS in
+                        ipso est, QVI et positione fit MEDIVS; EXTREMITATES vero QVAE et EADEM in
+                        alio tantum et in QVA ALIVS est. Si enim "a" de omni "b" et "b" de omni "c",
+                        necesse est "a" de omni "c" praedicari; prius enim dictum est quomodo de
+                        omni dicimus. Similiter autem et si "a" de nullo "b", "b" autem de omni "c",
+                        quoniam "a" nulli "c" inerit. Si AVTEM primum * omni medio inest, medium
+                        vero nulli EXTREMO, non erit syllogismus extremitatum; nihil enim
+                        necessarium accidit EX HIS ESSE. Et ENIM omni et nulli contingit primum
+                        postremo inesse, quare neque PARTICVLARIS neque VNIVERSALIS fit NECESSARIVS;
+                        cum autem nihil est necessarium per HOC non erit syllogismus. Termini ubi
+                        omni INEST 'animal, homo, equus', ubi nulli 'animal, homo, lapis'. SIMILITER
+                        nec TVNC ERIT SYLLOGISMVS quando nec primum medio nec medium postremo ulli
+                        inest. Termini ubi INEST 'scientia, linea, medicina', ubi non INEST
+                        'scientia, linea, unitas'. CVM IGITVR VNIVERSALES SVNT TERMINI manifestum
+                        EST in hac figura quando erit et quando non erit syllogismus, et, cum SIT
+                        NECESSARIVM SYLLOGISMOS HABERE TERMINOS, QVONIAM, * si sic HABEANTVR VT
+                        DIXIMVS, erit syllogismus.</p>
+                    <p>SIN autem VNVS quidem terminorum SIT VNIVERSALIS, ALIVS vero PARTICVLARIS ad
+                        ALIVD, quando VNIVERSALIS quidem ponitur ad maiorem extremitatem vel
+                        PRAEDICATIVVS vel PRIVATIVVS, PARTICVLARIS vero ad minorem PRAEDICATIVVS,
+                        necesse est syllogismum esse perfectum, quando autem ad minorem vel *
+                        quolibet modo aliter se habeant termini, impossibile. Dico autem maiorem
+                        quidem extremitatem in qua medium est, minorem VERO quae sub medio EST.
+                        Insit enim "a" * omni "b", "b" VERO alicui "c"; ergo si de omni PRAEDICATVR
+                        quod in principio dictum est, necesse est "a" alicui "c" inesse. Et si "a"
+                        quidem nulli "b" inest, "b" VERO alicui "c", ET necesse est "a" alicui "c"
+                        non inesse; MANIFESTVM est enim et de nullo quomodo dicimus; quare erit
+                        syllogismus perfectus. Similiter autem et si indefinitum sit "b" "c"
+                        praedicativum; nam idem erit syllogismus * indefinito et particulari sumpto.
+                        SIN autem ad minorem extremitatem VNIVERSALIS ponatur vel PRAEDICATIVVS vel
+                        PRIVATIVVS, non erit syllogismus NEQVE affirmativus NEQVE negativus, NEC
+                        INDEFINITVS NEQVE PARTICVLARIS; ut si "a" quidem alicui "b" inest vel non
+                        inest, "b" autem omni "c" inest. Termini ubi INEST 'bonum, habitus,
+                        prudentia'; ubi non INEST 'bonum, habitus, indisciplina'. Rursum si "b"
+                        quidem nulli "c", "a" vero alicui "b" inest vel non inest vel non omni
+                        inest, nec sic erit syllogismus. Termini ubi INEST 'album, equus, cygnus',
+                        ubi non INEST 'album, equus, corvus'. Idem autem IPSVM et si "a" "b"
+                        indefinitum sit. Nec quando VNVS QVIDEM IN MAIORE EXTREMITATE VNIVERSALITER
+                        FVERIT vel PRAEDICATIVVS vel PRIVATIVVS, ALIVS VERO IN MINORE PRIVATIVVS
+                        PARTICVLARITER, non est syllogismus vel indefinito vel particulari sumpto;
+                        VELVT si "a" quidem omni "b" inest, "b" autem alicui "c" non, vel non omni
+                        inest; cui enim VTIQVE alicui non inest medium, hoc et omne et nullum
+                        SEQVETVR primum. SVBIACEANT enim termini 'animal, homo, album'; deinde et de
+                        quibus non praedicatur 'ALBVM' 'homo' sumantur 'cygnus' et 'nix'; ergo
+                        'animal' de uno quidem omni praedicatur, de altero vero nullo, quare non
+                        erit syllogismus. Rursum "a" quidem nulli "b" insit, "b" autem alicui "c"
+                        non insit, et sint termini 'inanimatum, homo, album'; deinde sumantur de
+                        quibus non praedicatur 'ALBVS', 'homo, cygnus' et 'nix'; nam 'inanimatum' de
+                        VNO quidem omni praedicatur, de ALTERO vero nullo. Amplius, quoniam
+                        indefinitum est alicui eorum quae sunt "c" non inesse "b", VERE AFFIRMATVR,
+                        et si nulli inest et si non omni, quoniam alicui non inest, sumptis autem
+                        huiusmodi terminis VT ET nulli inesse non fit syllogismus (hoc enim dictum
+                        est prius), manifestum EST IGITVR quoniam sic se HABENTIBVS TERMINIS non
+                        erit syllogismus; esset enim VTIQVE et in his. Similiter autem APPAREBIT
+                        QVIDEM et si VNIVERSALIS ponatur PRIVATIVA. SIVE AMBAE EXTREMITATES
+                        PARTICVLARITER sint praedicative vel privative, SEV ALIA quidem
+                        PRAEDICATIVA, ALIA vero PRIVATIVA DICITVR, vel VNA quidem INDEFINITA, ALIA
+                        vero DEFINITA, vel AMBAE INDEFINITAE, NEQVAQVAM erit syllogismus. Termini
+                        vero communes omnium 'animal, album, homo', 'animal, album, lapis'.</p>
+                    <p>Manifestum EST igitur ex iis quae dicta sunt VT, si sit syllogismus in hac
+                        figura particularis, necesse est terminos sic * habere ut diximus; aliter
+                        enim * habentibus NEQVAQVAM fit. Palam autem EST et quoniam omnes qui in hac
+                        sunt syllogismi, perfecti sunt (omnes enim perficiuntur per AB INITIO
+                        SVMPTOS), et quoniam omnia problemata ostenduntur IN HAC FIGVRA; et ENIM
+                        omni et nulli et alicui et non alicui inesse. Voco autem huiusmodi figuram
+                        primam.</p>
+                </div>
+                <div type="cap" n="5">
+                    <p><hi rend="bold">Initium secundae figurae.</hi><lb/>Quando AVTEM idem ALTERI
+                        quidem omni ALTERI vero nulli inest, vel utrique omni vel nulli, figuram
+                        quidem huiusmodi voco secundam, medium autem in hac dico quod praedicatur de
+                        utroque, extremitates AVTEM de quibus dicitur hoc, maiorem vero extremitatem
+                        quae MEDIO ADIACET, minorem quae longius sita est. Ponitur autem medium
+                        foras quidem extremitatum, primum vero positione. Perfectus igitur NEQVAQVAM
+                        erit syllogismus in hac figura, possibilis vero erit et universalibus et non
+                        universalibus existentibus terminis. VNIVERSALES igitur CVM SINT, erit
+                        syllogismus quando medium huic quidem omni illi vero nulli inest, SI AD
+                        ALTERVTRVM sit PRIVATIVA; aliter AVTEM NEQVAQVAM. Praedicetur enim "m" de
+                        "n" quidem nullo, de "x" vero omni. Quoniam igitur convertitur PRIVATIVA,
+                        nulli "m" inerit "n"; at "m" DE omni "x" DICEBATVR; quare "n" DE NVLLO "x";
+                        hoc enim ostensum est prius. Rursum si "m" OMNI QVIDEM "N" INEST, "x" vero
+                        nulli, NEC "x" VLLI "n" inerit (si ENIM "m" nulli "x" NEC "x" ulli "m"
+                        inerit; at vero "m" omni "n" INERAT; IGITVR "x" nulli "n" inerit; facta est
+                        enim rursum prima figura); quoniam autem convertitur PRIVATIVA, et "n" nulli
+                        "x" inerit, quare erit idem syllogismus. Est autem ostendere HOC et ad
+                        impossibile DVCERE. Quoniam IGITVR fit syllogismus sic se habentibus
+                        terminis, manifestum EST, sed non perfectus; non enim solum ex iis quae AB
+                        INITIO SVMPTA sunt, sed * ex aliis COMPROBATVR NECESSARIVS. Si autem "m" de
+                        omni "n" et DE "x" praedicetur, non erit syllogismus. Termini inesse
+                        'substantia, animal, homo', non inesse 'substantia, animal, numerus'; medium
+                        'substantia'. Nec quando nec de "n" nec de "x" nullo praedicatur "m".
+                        Termini inesse 'linea, animal, homo', non inesse 'linea, animal, lapis'.
+                        Manifestum EST IGITVR quoniam, si sit syllogismus ex universalibus terminis,
+                        necesse est terminos * habere ut in principio diximus; aliter enim *
+                        habentibus non fit NECESSARIVS.</p>
+                    <p>Si autem ad alterum sit universaliter medium, quando ad maius quidem fuerit
+                        VNIVERSALE vel praedicative vel privative, ad minus autem * PARTICVLARE et
+                        OPPOSITVM universali (dico autem opposite si VNIVERSALIS * PRIVATIVA,
+                        PARTICVLARI AFFIRMATIVAE, vel * VNIVERSALIS PRAEDICATIVA, PARTICVLARI
+                        PRIVATIVAE), necesse * fieri syllogismum privativum particulariter. Si ENIM
+                        "m" NVLLI QVIDEM "N" ET ALICVI "X" inest, necesse est "n" alicui "x" non
+                        inesse. Quoniam enim convertitur PRIVATIVA, nulli "m" inerit "n"; "m" vero
+                        DICEBATVR alicui "x" inesse; quare "n" alicui eorum quae sunt "x" non
+                        inerit; fit enim syllogismus per primam figuram. Rursum si OMNI QVIDEM "N"
+                        inest "m", "x" vero alicui non, necesse est "n" alicui "x" non inesse; si
+                        ENIM omni inest, praedicatur autem et "m" de omni "n", necesse est "m" omni
+                        "x" inesse; sed DICEBATVR alicui non inesse. Et si "m" OMNI QVIDEM "N"
+                        inest, "x" autem non omni, erit syllogismus quoniam non omni "x" inest "n";
+                        demonstratio autem eadem. Si AVTEM de "x" quidem omni, de "n" vero non omni
+                        PRAEDICATVR, non erit syllogismus. Termini 'animal, substantia, corvus',
+                        'animal, album, corvus'. Nec quando de "x" quidem nullo, de "n" vero aliquo.
+                        Termini inesse 'animal, substantia, unitas'; non inesse 'animal, substantia,
+                        scientia'.</p>
+                    <p>Quando igitur oppositum SIT universale particulari, dictum est quando erit et
+                        quando non erit syllogismus; quando autem similis figurae fuerint
+                        propositiones, ut ambae privativae vel affirmativae, NEQVAQVAM erit
+                        syllogismus. Sint enim prius privativae, et universale POSITVM SIT ad
+                        maiorem extremitatem, ut "m" NVLLI quidem "N" ET "X" alicui non insit;
+                        contingit NVNC et omni et nulli "x" inesse "n". Termini QVIDEM NVLLI inesse
+                        'nigrum, nix, animal'; omni vero inesse non est sumere, EO QVOD "m" alicui
+                        quidem "x" inest, alicui * non. Si ENIM omni "x" inest "n" et "m" nulli "n",
+                        ETIAM "m" nulli "x" inerit; sed DICEBATVR alicui inesse. Non ERGO sic
+                        CONVENIT sumere terminos, ex indefinito autem ostendendum EST; quoniam enim
+                        VERE AFFIRMATVR "m" non inesse alicui "x" etiam si nulli inest, nulli vero
+                        cum INSIT non EST syllogismus, manifestum EST quoniam nec nunc erit. RVRSVM
+                        sint praedicativae, et universale POSITVM SIT similiter, ut "m" OMNI quidem
+                        "N" ET "X" alicui insit. Contingit NVNC "n" et omni et nulli "x" inesse.
+                        Termini nulli inesse 'album, cygnus, lapis'; omni * non erit sumere propter
+                        eandem causam quam et prius, sed ex indefinito monstrandum EST. Si autem
+                        universale ad minorem extremitatem SIT, et "m" "x" quidem nulli, "n" vero
+                        alicui non inest, contingit "n" et omni et nulli "x" inesse. Termini inesse
+                        'album, animal, corvus'; non inesse 'album, lapis, corvus'. Similiter autem
+                        et si praedicativae fuerint propositiones, termini non inesse 'album,
+                        animal, nix'; inesse 'album, animal, cygnus'. Manifestum EST ERGO QVONIAM,
+                        SI SIMILES FVERINT propositiones, SIVE VNIVERSALES SIVE PARTICVLARES,
+                        NEQVAQVAM fit syllogismus. Sed nec si alicui utrique inest vel non inest,
+                        vel huic quidem illi vero non, vel neutro omni, vel indefinite. Termini
+                        autem communes omnium 'album, animal, homo', 'album, animal,
+                        inanimatum'.</p>
+                    <p>Manifestum EST igitur ex praedictis quoniam, si sic se habeant termini ad
+                        invicem ut dictum est, fit syllogismus ex necessitate, et si sit
+                        syllogismus, necesse est terminos sic se habere. Palam autem et quoniam
+                        omnes imperfecti sunt qui * hac figura * syllogismi (omnes enim perficiuntur
+                        assumptis quibusdam quae vel insunt terminis ex necessitate vel ponuntur VT
+                        CONDITIONES, VELVT quando per impossibile ostendimus), et quoniam non fit
+                        affirmativus syllogismus IN HAC FIGVRA, sed omnes privativi et universales
+                        et particulares.</p>
+                </div>
+                <div type="cap" n="6">
+                    <p><hi rend="bold">Initium tertiae figurae.</hi><lb/>Si autem eidem hoc quidem
+                        omni illud vero nulli inest, vel VTRVMQVE omni vel nulli, figuram quidem
+                        huiusmodi voco tertiam, medium autem in hac dico de quo ambo PRAEDICANTVR,
+                        extremitates vero quae praedicantur, maiorem autem extremitatem quae longius
+                        est medio, minorem vero quae propius. Ponitur autem medium foras quidem
+                        extremitatum, POSTREMVM vero positione. Perfectus igitur non fit syllogismus
+                        * in hac figura, possibilis vero erit et universaliter et non universaliter
+                        terminis existentibus ad medium. Vniversaliter quidem quando et "p" et "r"
+                        INSVNT omni "s", quoniam alicui "r" inerit "p" ex necessitate; quoniam enim
+                        convertitur praedicativa, inerit "s" alicui "r", quare quoniam "p" inest
+                        omni "s" et "s" alicui "r", necesse est "p" alicui "r" inesse; fit enim
+                        syllogismus per primam figuram. Est autem et per impossibile et expositione
+                        facere demonstrationem; si enim ambo omni "s" insunt, si sumatur QVID eorum
+                        quae sunt "s", ut "n", huic et "p" et "r" INSVNT *, quare alicui "r" INEST
+                        "p". Et si "r" OMNI QVIDEM "s", "p" autem nulli inest, erit syllogismus
+                        quoniam "p" alicui "r" non inerit ex necessitate; nam idem modus *
+                        demonstrationis conversa "r" "s" propositione. Ostendetur VTIQVE et per
+                        impossibile quemadmodum in PRIORIBVS. Si autem * "R" "S" quidem nulli, "p"
+                        vero omni, non erit syllogismus. Termini inesse 'animal, equus, homo'; non
+                        inesse 'animal, inanimatum, homo'. Nec quando ambo de nullo "s" dicuntur, *
+                        erit syllogismus. Termini inesse 'animal, equus, inanimatum'; non inesse
+                        'homo, equus, inanimatum'; medium 'inanimatum'. Manifestum igitur et in hac
+                        figura quando erit et quando non erit syllogismus ex universalibus terminis.
+                        Quando enim ambo termini SVNT praedicativi, erit syllogismus quoniam alicui
+                        inest extremitas extremitati; quando vero privativi, non erit. Quando autem
+                        hic quidem privativus ille vero affirmativus, si maior quidem fuerit
+                        privativus, alter vero affirmativus, erit syllogismus quoniam alicui non
+                        inest extremitas extremitati, si VERO VERSO ORDINE, non erit.</p>
+                    <p>Si autem VNVS quidem sit universaliter ad medium, ALTER vero particulariter,
+                        si uterque sit praedicativus necesse est fieri syllogismum, SI alteruter sit
+                        universalis TERMINVS. Nam si "r" omni "s" insit, "p" vero alicui, necesse
+                        est * "p" alicui "r" inesse. Quoniam ENIM convertitur affirmativa, inerit
+                        "s" alicui "p", quare quoniam "r" omni "s" INEST, "s" autem alicui "p", et
+                        "r" alicui "p" inerit; quare et "p" alicui "r". Rursum si "r" alicui, "p"
+                        vero omni "s" insit, necesse est "p" alicui "r" inesse; nam idem modus
+                        demonstrationis. Est autem demonstrare et per impossibile et expositione,
+                        quemadmodum * in prioribus.</p>
+                    <p>Si autem VNVS quidem sit praedicativus, ALIVS vero privativus, VNIVERSALIS
+                        autem praedicativus, quando minor * fuerit praedicativus, erit syllogismus.
+                        Si ENIM "r" omni "s", "p" vero alicui non INSIT, necesse est "p" alicui "r"
+                        non inesse. Si enim "p" omni "r", et "r" omni "s" et "p" omni "s" inerit;
+                        sed non inerat. Monstratur autem et sine deductione, si VERO SVMPTVM SIT
+                        QVID eorum quae sunt "s" cui "p" non inest. Quando * maior SIT
+                        praedicativus, non EST syllogismus, ut si "p" INSIT omni "s", "r" autem
+                        alicui "s" non insit. Termini omni inesse 'animatum, homo, animal', nulli
+                        vero non est sumere terminos, si "r" INEST ALICVI * "s", alicui VERO non; si
+                        enim omni "s" inest "p", "r" autem alicui "s", et "p" inerit alicui "r";
+                        DICEBATVR AVTEM nulli inesse. Sed quemadmodum in prioribus SVMENDVM EST; EX
+                        INDEFINITO AVTEM CVM SIT alicui non inesse, et quod nulli inest verum est
+                        dicere alicui non inesse; nulli vero cum INSIT non EST syllogismus.
+                        Manifestum EST IGITVR quoniam non erit syllogismus. Si autem privativus sit
+                        universalis TERMINVS, quando maior * fuerit privativus minor VERO
+                        praedicativus, erit syllogismus. Si enim "p" nulli "s", "r" autem alicui
+                        inest "s", ET "p" alicui "r" non inerit; rursum * erit prima figura, "rs"
+                        propositione conversa. CVM autem minor fuerit privativus, non erit
+                        syllogismus. Termini inesse 'animal, homo, ferum', non inesse 'animal,
+                        scientia, ferum'; medium in VTROQVE 'ferum'. Nec quando ambo privativi
+                        ponuntur, SIT autem VNVS quidem universalis ALTER vero particularis. Termini
+                        quando minor SIT VNIVERSALIS ad medium 'animal, homo, ferum', 'animal,
+                        scientia, ferum'; quando autem maior, non inesse quidem 'corvus, nix,
+                        album'; inesse vero non est sumere, si "r" alicui quidem inest "s", alicui
+                        autem non inest. Si enim "p" omni "r" INSIT, "r" autem alicui "s", et "p"
+                        inerit alicui "s"; AT DICTVM est nulli. Sed ex indefinito monstrandum est.
+                        NEC si uterque alicui medio inest vel non inest, vel unus quidem inest alter
+                        vero non inest, vel hic quidem alicui, ille vero non omni vel indefinite,
+                        nullo modo erit syllogismus. Termini autem communes omnium 'animal, homo,
+                        album', 'animal, inanimatum, album'.</p>
+                    <p>Manifestum EST igitur * in hac figura quando erit et quando non erit
+                        syllogismus, et quoniam, SE HABENTIBVS terminis ut dictum est, fit
+                        syllogismus ex necessitate, et si sit syllogismus necesse est terminos sic *
+                        habere. Manifestum etiam quoniam omnes imperfecti sunt SYLLOGISMI IN HAC
+                        FIGVRA (omnes enim perficiuntur quibusdam assumptis), et quoniam syllogizare
+                        VNIVERSALITER per hanc figuram non erit, neque PRIVATIVE neque
+                        AFFIRMATIVE.</p>
+                </div>
+                <div type="cap" n="7">
+                    <p>Palam autem et quoniam in OMNI FIGVRA, quando non fit syllogismus, SIVE
+                        praedicativi SIVE privativi FVERINT * termini vel etiam particulares nihil
+                        omnino fit necessarium; EX PRAEDICATIVO autem et PRIVATIVO * universaliter
+                        SVMPTO PRIVATIVO, semper fit syllogismus minoris extremitatis ad maiorem;
+                        VELVT si "a" quidem omni "b" vel alicui, "b" autem nulli "c"; conversis enim
+                        propositionibus necesse est "c" alicui "a" non inesse. Similiter autem et in
+                        aliis figuris; semper enim fit per conversionem syllogismus. PATET etiam
+                        quoniam indefinitum pro praedicativo particulari positum eundem FACIT
+                        syllogismum in OMNI FIGVRA.</p>
+                    <p>Manifestum EST autem et quoniam omnes imperfecti syllogismi FINIVNTVR per
+                        primam figuram. Aut enim DEMONSTRATIVE aut per impossibile RESOLVVNTVR
+                        omnes; utrimque autem fit prima figura, DEMONSTRATIVE quidem perfectis,
+                        quoniam per conversionem PERFICIEBANTVR omnes, conversio autem primam
+                        faciebat figuram, per impossibile vero demonstratis, quoniam POSITA FALLACIA
+                        syllogismus fit per primam figuram; ut in postrema figura, si "a" et "b"
+                        omni "c" insunt, quoniam "a" alicui "b" inest; nam si nulli, "b" autem omni
+                        "c", nulli "c" inerit "a"; sed erat omni. Similiter autem et in aliis.</p>
+                    <p>Est etiam reducere omnes syllogismos ad primae figurae universales
+                        syllogismos. Nam qui sunt in secunda manifestum EST quoniam per illos
+                        FINIVNTVR, verum non similiter omnes, sed universales quidem privativa
+                        conversa, particularium autem uterque per * impossibile ADDVCTVM EST. Qui
+                        vero in prima sunt particulares QVIDEM PERFICIVNTVR et per EOSDEM, est autem
+                        et per secundam figuram ostendere ad impossibile ducentes; ut, si "a" INSIT
+                        omni "b" et "b" alicui "c", quoniam "a" alicui "c" inerit; si enim nulli,
+                        "b" autem omni, nulli "c" inerit "b"; hoc enim scimus per secundam figuram.
+                        Similiter * et in privativo fit demonstratio. Si enim "a" nulli "b" et "b"
+                        alicui "c" inest, ET "a" alicui "c" non inerit; si ENIM omni, "b" autem
+                        nulli inest, nulli "c" inerit "b"; haec autem fuit media figura. Quare,
+                        quoniam qui in media figura sunt syllogismi omnes reducuntur in primae
+                        figurae SYLLOGISMOS VNIVERSALES, qui vero particulares IN PRIMA SVNT ad eos
+                        qui sunt in media, manifestum est quoniam et particulares reducentur ad eos
+                        qui in prima figura sunt universales syllogismos. Qui vero sunt in tertia,
+                        SI universales quidem FVERINT termini, statim perficiuntur per IPSOS
+                        syllogismos; si autem particulares sumuntur, per particulares syllogismos
+                        primae figurae; sed hi reducti sunt AD illos, quare et tertiae figurae
+                        particulares. Manifestum EST ergo quoniam omnes reducentur AD primae figurae
+                        universales syllogismos.</p>
+                    <p>Igitur syllogismi inesse vel non inesse ostendentes, dictum est quomodo se
+                        HABEANT, et AD EOS qui ex eadem sunt figura et ad alios qui ex aliis.</p>
+                </div>
+                <div type="cap" n="8">
+                    <p><hi rend="bold">Initium secundae incisionis.</hi><lb/>Quoniam autem ALIVD est
+                        inesse et ex necessitate inesse et contingere inesse (nam multa QVIDEM
+                        INSVNT, non tamen ex necessitate; alia vero neque ex necessitate neque
+                        insunt omnino, contingit autem inesse), manifestum EST quoniam et
+                        syllogismus VTRISQVE horum ALTER erit, et non similiter habentibus se
+                        terminis, sed ALIVS quidem ex necessariis ALIVS vero ex iis quae simpliciter
+                        SVNT, ALIVS VERO ex contingentibus.</p>
+                    <p>Ergo in necessariis * fere similiter se habet et in iis quae insunt;
+                        similiter enim positis terminis et in iis quae insunt et in iis quae ex
+                        necessitate insunt vel non insunt, * erit et non erit syllogismus, verum
+                        DIFFERT QVOD adiacet terminis ex necessitate inesse vel non inesse. Nam *
+                        PRIVATIVA similiter convertitur, et in IIS QVAE IN toto INSVNT et de omni
+                        similiter assignabimus. Ergo in aliis quidem eodem modo ostendetur per
+                        conversionem * conclusio necessaria, QVEMADMODVM inesse; in media autem
+                        figura quando ERIT universalis affirmativa, particularis vero privativa, et
+                        rursum in tertia quando universalis quidem praedicativa, particularis vero
+                        privativa, non similiter erit demonstratio, sed necesse est exponentes cui
+                        alicui utrumque non inest * de hoc facere syllogismum; NAM erit necessarius
+                        in his; si autem de exposito est necessarius, * et de illo aliquo; nam
+                        expositum * illud aliquid est. Fit autem uterque syllogismus in propria
+                        figura.</p>
+                </div>
+                <div type="cap" n="9">
+                    <p><hi rend="bold">Initium permixtionis necessarii et inesse.</hi><lb/>Accidit
+                        autem quandoque et CVM altera PROPOSITIO SIT necessaria necessarium fieri
+                        syllogismum, verum non utralibet, sed quae ad maiorem extremitatem EST, ut
+                        si "a" quidem "b" ex necessitate sumptum est inesse vel non inesse, "b"
+                        autem "c" inesse SOLVM; sic enim sumptis propositionibus ex necessitate "a"
+                        inerit "c" vel non inerit. Nam, quoniam omni "b" ex necessitate inest vel
+                        non inest "a", "c" autem aliquid eorum quae sunt "b" est, manifestum quoniam
+                        et "c" ex necessitate inerit alterum horum. Si autem "a" "b" * non est
+                        NECESSARIVM, "b" "c" autem NECESSARIVM, non erit conclusio necessaria. Si
+                        ENIM est, accidet "a" alicui "b" inesse ex necessitate per primam et tertiam
+                        figuram. Hoc autem falsum EST; contingit enim tale esse "b" cui EVENIT "a"
+                        nulli inesse. EST * ex terminis manifestum quoniam non erit conclusio
+                        necessaria, ut is "a" quidem sit 'motus', "b" autem 'animal', in quo * SIT
+                        "c" 'homo'; namque homo animal est ex necessitate, movetur autem animal non
+                        ex necessitate, nec homo. Similiter autem et si privativa sit "a" "b"; nam
+                        eadem demonstratio. In particularibus autem syllogismis, si universalis
+                        quidem est necessaria, et conclusio NECESSARIA ERIT; si autem particularis,
+                        non necessaria, sive privativa sive praedicativa fuerit universalis
+                        propositio. Sit autem primum universalis necessaria, et "a" quidem omni "b"
+                        insit ex necessitate, "b" autem alicui "c" insit solum; necesse est * "a"
+                        alicui "c" inesse ex necessitate; nam "c" sub "b" est, "b" autem omni "a"
+                        inerat ex necessitate; similiter autem et si privativus sit syllogismus; nam
+                        eadem erit demonstratio. Si autem particularis est necessaria, non erit
+                        conclusio necessaria (nihil enim impossibile ACCIDIT), quemadmodum nec in
+                        universalibus syllogismis. Similiter autem et in privativis. Termini 'motus,
+                        animal, album'.</p>
+                </div>
+                <div type="cap" n="10">
+                    <p>* In secunda autem figura, si privativa quidem propositio universalis sit et
+                        necessaria, et conclusio erit necessaria; si autem praedicativa, non
+                        necessaria. Sit enim primum privativa necessaria, et "a" NVLLI * "B" ex
+                        necessitate, "c" autem insit tantum. Quoniam ergo convertitur privativa, et
+                        "b" nulli "a" INERIT ex necessitate; "a" autem omni "c" inest, quare nulli
+                        "c" inerit "b" ex necessitate; nam "c" sub "a" est. Similiter autem et si ad
+                        "c" ponatur PRIVATIO; nam si "a" nulli "c" contingit, et "c" nulli "a"
+                        CONVENIET *; "a" autem omni "b" inest, quare nulli eorum quae sunt "b"
+                        contingit "c"; fit enim prima figura rursum. Non IGITVR * "b" "c";
+                        convertitur enim similiter.</p>
+                    <p>Si autem praedicativa propositio est necessaria, non erit conclusio
+                        necessaria. Insit enim "a" omni "b" ex necessitate, "c" autem nulli insit
+                        SOLVM. Conversa igitur privativa fit prima figura; ostensum est autem in
+                        prima quoniam, cum non est necessaria quae ad maiorem est privativa, nec
+                        conclusio erit necessaria; quare nec in his erit ex necessitate. Amplius
+                        autem, si conclusio est necessaria, accidit "c" alicui "a" non inesse ex
+                        necessitate. Si enim "b" nulli "c" inest ex necessitate, ET "c" nulli "b"
+                        inerit ex necessitate; "b" autem alicui "a" necesse est inesse, siquidem et
+                        "a" omni "b" ex necessitate inerat. Quare "c" necesse est alicui "a" non
+                        inesse. Sed nihil prohibet "a" huiusmodi SVMI cui omni "c" contingit inesse.
+                        Amplius et si terminos EXPONAT ostendere quoniam conclusio non est
+                        necessaria; ut, SI sit "a" 'animal', "b" AVTEM 'homo', "c" autem 'album', et
+                        HAE propositiones similiter SVMANTVR; contingit enim animal nulli albo
+                        inesse. NEC HOMO ergo INERIT ulli albo, sed non ex necessitate; contingit
+                        enim hominem fieri album, non tamen donec animal nulli albo INEST. Quare cum
+                        HVIVSMODI QVIDEM FVERINT, necessaria erit conclusio, simpliciter autem non
+                        necessaria.</p>
+                    <p>Similiter autem * habebit et in particularibus syllogismis; quando privativa
+                        quidem propositio et universalis fuerit et necessaria, et conclusio erit
+                        necessaria; quando autem praedicativa universalis, privativa vero
+                        particularis, non erit conclusio necessaria. Sit autem primum privativa et
+                        universalis et necessaria, et "a" "b" quidem nulli contingat inesse ex
+                        necessitate, "c" autem alicui insit. Quoniam ergo convertitur privativa, et
+                        "b" nulli "a" VTIQVE continget ex necessitate inesse; "a" autem alicui "c"
+                        inest, quare ex necessitate alicui eorum quae sunt "c" non inerit "b".
+                        Rursum sit praedicativa et universalis et necessaria, et SVBIACEAT ad "b"
+                        praedicativum; si AVTEM "a" omni "b" ex necessitate inest, "c" autem alicui
+                        non inest, quoniam non inerit "b" alicui "c" manifestum EST, sed non ex
+                        necessitate; nam HI idem termini erunt ad demonstrationem qui in
+                        universalibus syllogismis. Sed nec CVM privativa necessaria est
+                        particulariter sumpta, erit conclusio necessaria; nam per eosdem terminos
+                        demonstratio.</p>
+                </div>
+                <div type="cap" n="11">
+                    <p>* In postrema autem figura, CVM TERMINI VNIVERSALES quidem SVNT * et
+                        PRAEDICATIVAE VTRAEQVE PROPOSITIONES, SI ALTERVTRA sit necessaria, et
+                        conclusio erit necessaria. Si autem VNA quidem sit privativa, ALTERA vero
+                        praedicativa, quando QVIDEM PRIVATIVA fuerit necessaria, et conclusio erit
+                        necessaria, quando autem praedicativa, non erit necessaria. Sint enim primum
+                        utraeque praedicativae propositiones, et "a" et "b" omni "c" insint,
+                        necessaria autem sit "a" "c". Quoniam IGITVR "b" omni "c" inest, et "c"
+                        alicui "b" inerit PER CONVERSIONEM universalis PARTICVLARITER, quare si "a"
+                        inest omni "c" ex necessitate et "c" alicui "b", et "a" alicui "b"
+                        necessarium EST inesse; nam "b" sub "c" est. Fit igitur prima figura.
+                        Similiter autem ostendetur et si "bc" est necessaria; convertitur enim et
+                        "c" alicui "a"; quare si omni "c" inest "b" ex necessitate, et "a" alicui
+                        inerit ex necessitate.</p>
+                    <p>Rursum sit "a" "c" quidem privativa, <supplied>"b"</supplied> "c" vero
+                        affirmativa, necessaria autem SIT privativa. Quoniam IGITVR convertitur "c"
+                        alicui "b", "a" autem nulli "c" ex necessitate, neque "a" alicui "b" inerit
+                        ex necessitate; nam "b" sub "c" est. Si autem praedicativa sit necessaria,
+                        non erit conclusio necessaria. Sit enim "b" "c" praedicativa et necessaria,
+                        "a" "c" autem privativa et non necessaria. Quoniam IGITVR convertitur
+                        affirmativa, inerit et "c" alicui "b" ex necessitate; quare, si "a" quidem
+                        nulli eorum quae sunt "c" INEST, "c" autem alicui eorum quae sunt "b", ET
+                        "a" alicui eorum quae sunt "b" non inerit; sed non ex necessitate; ostensum
+                        est enim in prima figura quoniam, CVM EST privativa PROPOSITIO non
+                        necessaria, nec conclusio erit necessaria. Amplius, et si per terminos sit
+                        manifestum; sit enim "a" * 'bonum', in quo * "b" 'animal', "c" autem
+                        'equus'; IGITVR bonum * contingit nulli equo inesse, animal vero necesse est
+                        omni inesse; sed non necesse est aliquod animal non esse bonum, siquidem
+                        contingit omne esse bonum. VEL si non hoc possibile, sed 'vigilare' vel
+                        'dormire' TERMINVS EST PONENDVS ; omne enim animal susceptibile est
+                        horum.</p>
+                    <p>Si igitur termini universaliter ad medium sint, dictum est quando erit
+                        conclusio necessaria; si autem ALTER quidem SIT VNIVERSALIS, ALTER vero
+                        PARTICVLARIS, praedicativus autem uterque quando universalis fuerit
+                        necessarius, et conclusio erit necessaria. Demonstratio autem eadem quae *
+                        prius; convertitur enim et particularis affirmativa. Si IGITVR necesse est
+                        "b" omni "c" inesse, "a" autem sub "c" est, necesse est "b" alicui "a"
+                        inesse. Si autem "b" alicui "a", et "a" alicui "b" inesse NECESSE EST;
+                        convertitur enim. Similiter autem et si "ac" sit VNIVERSALIS NECESSARIA nam
+                        "b" sub "c" est. Si autem particularis SIT necessaria, non erit conclusio
+                        necessaria. Sit enim "b" "c" particularis et necessaria, "a" autem insit
+                        omni "c", non tamen ex necessitate. Conversa IGITVR "b" "c" FIT PRIMA figura
+                        et universalis * propositio non necessaria, particularis autem necessaria.
+                        Quando autem sic se HABENT propositiones, non EST conclusio necessaria, VNDE
+                        nec in his. Amplius autem et ex terminis manifestum EST. Sit enim "a" quidem
+                        'VIGILARE', "b" autem 'bipes', in quo SIT "c" 'animal'; ergo "b" alicui "c"
+                        necesse est inesse, "a" autem contingit "c" et "a" non necessario "b"; non
+                        enim necesse est aliquem bipedem dormire vel vigilare. Similiter autem et
+                        per eosdem terminos ostendetur et si "a" "c" sit particularis et
+                        necessaria.</p>
+                    <p>Si autem VNVS quidem terminorum sit praedicativus, ALIVS vero privativus,
+                        quando universalis quidem EST privativus et necessarius, et conclusio erit
+                        necessaria; si enim "a" nulli "c" contingit, "b" autem alicui "c" inest,
+                        necesse est "a" alicui "b" non inesse. Quando * AFFIRMATIVVS NECESSARIVS
+                        PONITVR vel VNIVERSALITER VEL PARTICVLARITER, PRIVATIVVS VERO
+                        PARTICVLARITER, non erit conclusio necessaria. Nam alia quidem OMNIA quae et
+                        in PRIORI dicemus, termini autem QVANDO universalis quidem affirmativa SIT
+                        necessaria 'VIGILARE, animal, homo'; medium 'homo'; QVANDO VERO particularis
+                        SIT PRAEDICATIVVS ET NECESSARIVS 'VIGILARE, animal, album'; animal enim
+                        necesse est alicui albo inesse, VIGILARE autem contingit nulli, et non
+                        necesse est alicui animali non inesse VIGILARE. Quando autem PRIVATIVVS
+                        particularis SIT NECESSARIVS, 'bipes, moveri, animal'.</p>
+                </div>
+                <div type="cap" n="12">
+                    <p>Manifestum EST igitur quoniam inesse quidem non est syllogismus, si utraeque
+                        propositiones non sint in HOC quod INEST, NECESSARIVS vero est et CVM altera
+                        solum SIT necessaria. In utrisque autem et affirmativis et privativis
+                        existentibus syllogismis necesse est alteram propositionem similem esse
+                        conclusioni. Dico autem similem, QVAE INEST *, SI HAEC DE inesse EST VEL
+                        necessaria; SI ET HAEC, necessariam. Quare et hoc palam quoniam non EST
+                        conclusio neque necessaria neque EST ESSE non sumpta vel necessaria vel quae
+                        inesse significet propositione. Igitur de necessario, quomodo fit et quam
+                        differentiam habeat ad ID QVOD INEST, sufficienter paene dictum est.</p>
+                </div>
+                <div type="cap" n="13">
+                    <p>* De contingente autem post haec dicemus, quando et quomodo et CVR erit
+                        syllogismus. Dico autem contingere et contingens QVOD, cum non sit
+                        necessarium, PONATVR autem esse, NON erit propter hoc impossibile; nam
+                        necessarium aequivoce contingere dicimus. Quoniam autem hoc est contingens,
+                        manifestum est ex affirmationibus et negationibus oppositis; nam 'non
+                        contingit esse' et 'impossibile esse' et 'NECESSARIVM non esse' vel IDEM
+                        sunt vel sequuntur se AD invicem; quare et opposita his 'CONTINGENS esse' et
+                        'non impossibile esse' et 'non NECESSARIVM non esse' vel IDEM SVNT vel
+                        SEQVVNTVR se AD invicem; de omni enim VEL affirmatio vel negatio. ERGO ERIT
+                        contingens non necessarium et non necessarium contingens. Accidit autem
+                        omnes DE CONTINGENTI propositiones converti AD invicem. Dico autem non
+                        affirmativas negativis, sed quaecumque affirmativam habent figuram secundum
+                        oppositionem, ut * quae * 'contingit esse' ei quae * 'contingit non esse',
+                        et * quae * 'contingit omni' ei quae * 'contingit nulli' vel 'non omni', et
+                        quae 'alicui' ei quae 'non alicui'. Eodem * modo et in aliis. Quoniam enim
+                        QVOD CONTINGIT non est necessarium, quod autem non est necessarium ACCIDIT
+                        non esse, manifestum EST quoniam, si contingit "a" inesse "b", CONTINGET et
+                        non inesse, et si omni contingit inesse, et omni CONTINGET non inesse.
+                        Similiter autem et in particularibus affirmationibus; nam eadem
+                        demonstratio. Sunt autem huiusmodi propositiones praedicativae; QVOD ENIM
+                        CONTINGIT ALICVI esse similiter ORDINATVR, quemadmodum QVAE DICTA SVNT
+                        prius.</p>
+                    <p>HIS autem DETERMINATIS rursum dicimus quoniam 'contingere' duobus modis
+                        dicitur, uno quidem VT quod IN PLVRIBVS fit et DIMINVTVM A NECESSARIO, ut
+                        'canescere hominem' vel 'augeri' vel 'DIMINVI', vel omnino 'QVICQVID natum
+                        est INESSE' (hoc enim non continuum quidem habet necessarium eo quod non
+                        semper est homo, NAM CVM homo est aut ex necessitate aut ut in pluribus
+                        est); alio autem infinitum, quod et sic et non sic possibile, ut 'animal
+                        ambulare' vel 'ambulante fieri SONITVM' vel omnino quod a casu fit; nihil
+                        enim magis sic natum est FIERI vel e contrario. Convertitur ergo et secundum
+                        oppositas propositiones utrumque contingens non tamen eodem modo, sed quod
+                        natum EST QVIDEM esse ei quod est non ex necessitate esse (sic enim
+                        contingit non canescere hominem); infinitum autem ei quod nihil magis sic
+                        vel ALIO modo. Disciplina autem et syllogismus demonstrativus ex infinitis *
+                        non est eo quod inordinatum est medium, ex iis vero quae nata sunt est, et
+                        paene orationes et considerationes fiunt IN IIS QVAE sic CONTINGVNT; ex HIS
+                        autem EVENIT * fieri syllogismum, non tamen CONSVETVM EST REQVIRERE.</p>
+                    <p>Haec ergo definientur magis in SVBMANENTIBVS; nunc autem dicemus quando et
+                        quomodo et quis erit syllogismus ex contingentibus propositionibus.</p>
+                    <p>* Quoniam autem 'CONTINGENS hoc huic inesse' dupliciter est ASSVMERE; aut
+                        enim 'ALICVI inest hoc' aut 'ALICVI DICITVR IDEM inesse' (nam SECVNDVM QVOD
+                        "b" EST, "a" contingere horum alterum significat, aut SECVNDVM QVOD dicitur
+                        "b" aut SECVNDVM QVOD contingit dici; SECVNDVM AVTEM QVOD "b" EST "a"
+                        contingere aut omni "b" CONVENIRE "a" nihil differt), manifestum EST igitur
+                        quoniam dupliciter dicetur "a" contingere omni "b" inesse. Primum IGITVR
+                        dicemus, si SECVNDVM QVOD EST "c" contingit "b" et SECVNDVM QVOD EST "b"
+                        CONTINGIT "a", quis erit et qualis syllogismus; sic enim utraeque
+                        propositiones sumuntur DE CONTINGENTI, quando autem SECVNDVM QVOD "b" inest
+                        contingit "a", haec quidem est inesse, illa vero contingens. Quare a
+                        SIMILITER FIGVRIS incipiendum EST, quemadmodum et in aliis.</p>
+                </div>
+                <div type="cap" n="14">
+                    <p>Quando IGITVR "a" contingit omni "b" et "b" omni "c", syllogismus erit
+                        perfectus quoniam "a" contingit omni "c" *. Hoc autem manifestum ex
+                        definitione; nam contingere omni inesse sic dicebamus. Similiter autem et si
+                        "a" * contingit nulli "b", "b" autem omni "c", quoniam "a" contingit nulli
+                        "c"; nam SECVNDVM QVOD "b" contingit NON "a" contingere, hoc erat nullum
+                        dimittere DE IIS quae sub "b" contingunt. Quando autem "a" contingit omni
+                        "b", "b" autem contingit nulli "c", PROPTER ASSVMPTAS quidem propositiones
+                        nullus fit syllogismus, conversa autem "b" "c" secundum CONTINGENS, fit idem
+                        qui et prius. Quoniam enim contingit "b" nulli "c" inesse, CONTINGET et omni
+                        inesse; hoc autem dictum est prius. Quare si "b" * omni "c", "a" VERO omni
+                        "b", rursum idem fit syllogismus. Similiter autem et si ad utrasque
+                        propositiones negatio ponatur CONTINGENS. Dico autem ut si "a" contingit
+                        nulli "b", et "b" nulli "c"; nam propter ASSVMPTAS * propositiones nullus
+                        fit syllogismus, EX conversis autem rursus idem erit qui et prius.
+                        Manifestum * igitur quoniam negatione posita ad minorem extremitatem vel ad
+                        utrasque propositiones aut non fit syllogismus, aut fit quidem sed non
+                        perfectus; ex conversione AVTEM fit NECESSARIVS.</p>
+                    <p>Si autem ALTERA quidem propositionum SIT universalis, ALTERA vero
+                        particularis *, ad maiorem * extremitatem POSITO universali, syllogismus
+                        erit perfectus. Si ENIM "a" omni "b" contingit, "b" autem alicui "c",
+                        CONTINGET "A" ALICVI "C". Hoc autem manifestum ex definitione contingentis.
+                        RVRSVS si "a" contingit nulli "b", "b" autem CONTINGAT alicui "c" inesse,
+                        necesse est "a" contingere alicui "c" non inesse. Demonstratio autem eadem.
+                        Si autem privativa PONATVR particularis propositio, universalis autem
+                        affirmativa, positione autem similiter se HABENTE (VELVT "a" * omni "b"
+                        contingat, "b" autem alicui "c" contingat non inesse), PROPTER ASSVMPTAS
+                        quidem propositiones non fit manifestus syllogismus, conversa autem
+                        particulari et posito "b" alicui "c" contingere inesse, eadem erit conclusio
+                        quae et prius, quemadmodum in his QVAE AB INITIO.</p>
+                    <p>Si autem * ad maiorem extremitatem * particularis PONATVR, * AD MINOREM AVTEM
+                        universalis, sive utraeque affirmativae ponantur sive privativae sive non
+                        EIVSDEM figurae, sive utraeque indefinitae SEV particulares, nullo modo erit
+                        syllogismus; nihil enim prohibet "b" transcendere "a" et non praedicari IN
+                        AEQVALI; quo ENIM "b" transcendit "a" sumatur "c"; huic enim neque omni
+                        neque nulli neque alicui neque non alicui contingit "a" inesse, si quidem
+                        convertuntur DE CONTINGENTI propositiones et "b" pluribus contingit quam "a"
+                        inesse. Amplius autem et ex terminis manifestum; nam sic se habentibus
+                        propositionibus, continget primum postremo et nulli et omni ex necessitate
+                        inesse. Termini * communes omnium inesse quidem ex necessitate 'animal,
+                        album, homo'; non contingere vero 'animal, album, vestis'. Manifestum EST
+                        igitur quoniam hoc modo SE HABENTIBVS terminis nullus fit syllogismus. Nam
+                        omnis syllogismus AVT * inesse est, AVT NECESSARIVS AVT CONTINGENS. HIC
+                        AVTEM NEQVE inesse NEQVE NECESSARIVS, manifestum quoniam non est; nam
+                        affirmativus PERIMIT PRIVATIVVM et privativus AFFIRMATIVVM. Relinquitur ergo
+                        * CONTINGENS esse; hoc autem impossibile; ostensum est enim quoniam sic se
+                        habentibus terminis et omni postremo primum EX NECESSITATE * et nulli
+                        contingit inesse. Quare non erit * CONTINGENS syllogismus; nam CONTINGENS
+                        non erat NECESSARIVM.</p>
+                    <p>Manifestum EST ETIAM quoniam cum universales sunt termini in contingentibus
+                        propositionibus, semper fit syllogismus in prima figura, sive sint
+                        praedicativi sive privativi, verum ex praedicativis FIT * perfectus, ex
+                        privativis autem imperfectus. Oportet autem CONTINGENS sumere non in
+                        necessariis, sed secundum DETERMINATAM definitionem. Aliquotiens autem latet
+                        huiusmodi.</p>
+                </div>
+                <div type="cap" n="15">
+                    <p>* Si autem ALTERA quidem inesse, ALTERA vero PROPOSITIONVM CONTINGENS
+                        SVMATVR, quando quae ad maiorem * est extremitatem CONTINGENS SIGNIFICABIT,
+                        perfecti erunt omnes syllogismi et contingentis secundum dictam
+                        determinationem; quando autem * ad minorem * imperfecti omnes et privativi
+                        syllogismi NEQVE contingentis secundum determinationem, sed AVT nulli aut
+                        non omni ex necessitate inesse; si enim nulli aut non omni ex necessitate,
+                        contingere dicimus et nulli et non omni inesse. Contingat enim "a" omni "b",
+                        "b" autem omni "c" ponatur inesse. Quoniam igitur sub "b" est "c", "a" autem
+                        contingit omni "b", manifestum quoniam et "c" omni CONTINGET. Fit AVTEM
+                        perfectus syllogismus; similiter autem et cum privativa SIT "a" "b"
+                        propositio, "b" "c" autem affirmativa, et haec quidem contingens, illa vero
+                        inesse SIT ASSVMPTA, perfectus erit syllogismus quoniam "a" contingit nulli
+                        "c" inesse.</p>
+                    <p>Quoniam IGITVR inesse POSITA ad minorem extremitatem perfecti fiunt
+                        syllogismi, manifestum; quoniam autem contrarie se HABENTES erunt
+                        syllogismi, per impossibile EST monstrandum. Simul autem erit manifestum
+                        QVONIAM ET imperfecti; nam ostensio non EST ex ASSVMPTIS propositionibus.
+                        Primum autem DISPVTANDVM EST quoniam, si cum est "a" necesse SIT esse "b",
+                        et cum SIT possibile ESSE "a", possibile erit "b" ESSE ex necessitate. Sit
+                        enim EX sic * habentibus TERMINIS in VNO quidem SIT "a" possibile, in ALTERO
+                        autem SIT "b" impossibile; si IGITVR VNVM QVIDEM SIT POSSIBILE, QVANDO
+                        possibile EST, fiet, SI AVTEM ALTERVM impossibile, QVANDO impossibile EST,
+                        VTIQVE non fiet, simul autem si "a" possibile et "b" EST impossibile,
+                        continget "a" fieri praeter "b", autem fieri, et esse; nam quod fit, quando
+                        factum est, est. Oportet autem SVMERE non solum in generatione impossibile
+                        et possibile, sed et in HOC QVOD verum EST, et in HOC QVOD INEST, et
+                        QVICQVID QVOLIBET modo aliter dicitur possibile; in omnibus enim similiter *
+                        habebit. Amplius, "A" QVIDEM EXISTENTE "b" esse, non VT uno QVOLIBET "a"
+                        POSITO "B" ERIT oportet CONCLVDERE; NON enim est NIHIL ex necessitate uno
+                        aliquo existente, sed duobus ad minus, VELVT quando propositiones sic se
+                        habent ut dictum est AD syllogismum. Nam si "c" de "d", "d" autem de "e", et
+                        "c" de "e" ex necessitate; et si possibile utrumque, et conclusio erit
+                        possibilis * Ergo, si ALIQVIS ponat "a" quidem 'propositiones', "b" autem
+                        'conclusionem', SIGNIFICAT non solum, POSITO "a" EX NECESSITATE, et "b" esse
+                        NECESSARIO, sed * possibili possibile.</p>
+                    <p>Hoc autem ostenso manifestum EST quoniam, falso CONCESSO et non impossibili,
+                        et quod accidit PER HYPOTHESIM falsum erit et non impossibile; ut si "a"
+                        QVIDEM FALSVM SIT, non tamen impossibile, cum autem "A" EST et "b" EST,
+                        IGITVR et "b" FALSVM QVIDEM ERIT, non tamen impossibile. QVOD ENIM ostensum
+                        est quoniam, si cum est "a" est "b" et, cum SIT possibile "a", POSSIBILE
+                        ERIT ESSE "B", SED SVBIACET "a" possibile esse, et "b" erit possibile; si
+                        enim impossibile, simul IDEM ERIT possibile et impossibile.</p>
+                    <p>Determinatis autem his, insit "a" omni "b", "b" autem OMNI "C" CONTINGAT;
+                        necesse est igitur "a" contingere omni "c" inesse. Non enim contingat, "b"
+                        autem omni "c" MANEAT ut inesse; hoc autem falsum quidem, non tamen
+                        impossibile. Si IGITVR "a" quidem non CONTINGAT "c", "b" autem omni inest
+                        "c", "a" non omni "b" contingit; fit enim syllogismus per tertiam figuram;
+                        sed PERMANEBAT omni contingere inesse. Necesse * igitur "a" omni "c"
+                        contingere; falso enim posito et non impossibili, quod accidit est
+                        impossibile. Est autem et per primam figuram facere syllogismum, POSITO "b"
+                        inesse "c"; nam si "b" omni "c" inest, "a" autem omni "b" contingit, et omni
+                        "c" CONTINGIT "a". Sed MANEBAT non omni INESSE.</p>
+                    <p>Oportet autem accipere omni inesse non secundum tempus DETERMINATVM, ut nunc
+                        aut in ALIQVO tempore, sed simpliciter; per huiusmodi * propositiones et
+                        syllogismos facimus, quoniam secundum nunc sumpta propositione non EST
+                        syllogismus; nihil enim fortasse prohibet quandoque et omni moventi hominem
+                        inesse, ut si nihil aliud moveatur; MOVERI autem contingit omni equo; sed
+                        HOMO nulli equo CONTINGET. Amplius, sit primum quidem 'animal', medium autem
+                        'MOVERI', postremum vero 'homo'. * Propositiones quidem similiter se
+                        habebunt, conclusio IGITVR necessaria, non contingens; ex necessitate enim
+                        homo animal. Manifestum EST igitur quoniam universale sumendum EST
+                        simpliciter, et non tempore DETERMINATO.</p>
+                    <p>Rursum, sit privativa propositio universalis "a" "b", et ASSVMATVR "a" quidem
+                        nulli "b" inesse, "b" autem contingat omni "c" inesse. His igitur positis
+                        necesse est VT "a" CONTINGAT INESSE NVLLI "C". Non enim contingat, "b" autem
+                        MANEAT inesse "c", sicuti prius. Necesse * igitur "a" alicui "b" inesse; fit
+                        enim syllogismus per tertiam figuram; hoc autem impossibile. Quare CONTINGIT
+                        "a" nulli "c"; posito enim falso, impossibile * quod accidit. HVIVSMODI
+                        IGITVR syllogismus non est EIVS QVOD DETERMINATVM EST CONTINGENS, sed nulli
+                        inesse ex necessitate (NAM EADEM est contradictio factae hypothesis; POSITA
+                        ENIM EST ex necessitate "a" alicui "c" inesse, syllogismus autem per
+                        impossibile oppositae est contradictionis). Amplius autem et ex terminis
+                        manifestum quoniam non erit conclusio contingens. Sit enim "a" quidem
+                        'corvus', * "B" AVTEM 'intelligens', * "C" VERO 'homo'. Nulli AVTEM "b"
+                        inest "a"; nullum ENIM intelligens EST corvus, "b" autem contingit omni "c";
+                        omni enim homini inest intelligere. Sed "a" ex necessitate nulli "c"; non
+                        igitur conclusio ERIT contingens. Sed nec necessaria semper. Sit enim "a"
+                        quidem 'MOBILE', "b" autem 'scientia', * "c" VERO 'homo'; "a" IGITVR nulli
+                        "b" inerit, "b" autem omni "c" CONTINGET, et non erit conclusio necessaria;
+                        non enim necesse est * MOVERI HOMINEM, sed non necesse est QVEMLIBET.
+                        Manifestum EST ERGO quoniam conclusio est * nulli ex necessitate inesse.
+                        SVMENDI SVNT IGITVR melius TERMINI.</p>
+                    <p>Si autem privativum QVIDEM ponatur ad minorem extremitatem contingere
+                        significans, ex HVIVSMODI * sumptis propositionibus nullus erit syllogismus,
+                        conversa autem secundum contingens propositione erit, quemadmodum in PRIORI.
+                        Insit enim "a" omni "b", "b" autem contingat nulli "c". Sic IGITVR
+                        habentibus se terminis NON erit necessarium; si autem convertatur "b" "c" et
+                        sumatur "b" contingere omni "c", fiet syllogismus quemadmodum prius;
+                        similiter enim habent se termini positione. Eodem autem modo et cum
+                        PRIVATIVAE sunt VTRAEQVE PROPOSITIONES, si AVTEM "a" "b" quidem non inesse,
+                        "b" "c" autem non contingere significet; PROPTER HVIVSMODI quidem
+                        ASSVMPTIONES NIHIL fit necessarium, conversa autem secundum contingens
+                        propositione erit syllogismus. Sumatur enim "a" quidem nulli "b" inesse, "b"
+                        autem CONTINGAT nulli "c"; per haec ENIM * nihil necessarium. Si autem
+                        sumatur "b" omni "c" contingere, quod verum est, "a" "b" autem propositio
+                        similiter se habeat, RVRSVM IDEM ERIT syllogismus. Si autem non inesse
+                        ponatur "b" omni "c" et non contingere non inesse, non erit syllogismus *,
+                        sive SIT PRIVATIVA sive affirmativa "a" "b" propositio. Termini autem
+                        communes ex necessitate quidem inesse 'album, animal, nix', non contingere
+                        autem 'album, animal, pix'.</p>
+                    <p>Manifestum EST igitur quoniam cum universales sunt termini, et haec quidem
+                        propositionum inesse, illa vero SVMATVR contingens, quando * ad minorem *
+                        QVIDEM extremitatem CONTINGENS sumitur propositio semper fit syllogismus,
+                        verum ALIVS quidem ex EISDEM, ALIVS VERO conversa propositione. Quando autem
+                        EX VTRISQVE * et PROPTER quam causam, diximus.</p>
+                    <p>Si autem HAEC quidem PROPOSITIONVM SVMATVR VNIVERSALIS, ILLA vero
+                        PARTICVLARIS, quando ad maiorem quidem extremitatem VNIVERSALIS ponitur et
+                        contingens, sive AFFIRMATIVE sive NEGATIVE, PARTICVLARIS autem AFFIRMATIVE
+                        et inesse, erit syllogismus perfectus, VELVT et cum universales sunt
+                        termini. Demonstratio autem eadem quae et prius. Quando autem VNIVERSALIS
+                        quidem fuerit ad maiorem extremitatem, inesse autem et non contingens,
+                        ALTERA vero PARTICVLARIS et contingens, sive negativae sive affirmativae
+                        ponantur utraeque, sive haec quidem NEGATIVE, illa vero AFFIRMATIVE, SEMPER
+                        erit syllogismus imperfectus. Verum ALII quidem per impossibile OSTENDVNTVR,
+                        ALII vero per conversionem contingentis, quemadmodum in prioribus. Erit
+                        autem syllogismus per conversionem et quando HAEC QVIDEM universalis ad
+                        maiorem extremitatem posita SIGNIFICAT inesse vel non inesse, ILLA VERO
+                        particularis * privativa SIGNIFICAT contingere; ut si "a" quidem omni "b"
+                        inest AVT non inest, "b" autem alicui "c" contingit non inesse; conversa
+                        enim "b" "c" secundum CONTINGENS fit syllogismus. Quando autem non inesse
+                        SIGNIFICAT PARTICVLARIS *, non erit syllogismus. Termini inesse * 'album,
+                        animal, nix', non inesse autem 'album, animal, pix'. Per INFINITA enim
+                        sumenda demonstratio. Si autem universale quidem ponatur ad minorem
+                        extremitatem, particulare autem ad maiorem, sive PRIVATIVE sive AFFIRMATIVE
+                        sive DE CONTINGENTI sive inesse *, nullo modo erit syllogismus.</p>
+                    <p>Nec cum particulares vel indefinitae ponuntur propositiones sive CONTINGENTIS
+                        * sive EARVM QVAE SVNT inesse seu permutatim, nec sic erit syllogismus.
+                        Demonstratio autem eadem quae et in prioribus. Termini autem communes inesse
+                        quidem ex necessitate 'animal, album, homo', non contingere vero 'animal,
+                        album, VESTIS'. Manifestum igitur <supplied>quoniam</supplied> universali
+                        QVIDEM posito ad maiorem extremitatem semper fit syllogismus, ad minorem
+                        autem numquam ullo modo.</p>
+                </div>
+                <div type="cap" n="16">
+                    <p>* Quando autem haec quidem propositionum ex necessitate inesse vel non
+                        inesse, illa vero contingere significat, syllogismus quidem erit hoc modo se
+                        HABENTIBVS terminis, et perfectus quando ad minorem extremitatem ponitur
+                        necessarium; conclusio autem si praedicativi quidem sint termini,
+                        contingentis et non inesse erit sive universaliter sive non universaliter
+                        ponantur; si autem * ALTER quidem affirmativus, ALTER vero privativus,
+                        quando affirmativus quidem fuerit necessarius, contingentis et non eius quod
+                        * non INEST, quando autem privativus, et contingentis non inesse et non
+                        inesse, sive universales sive non universales sint termini; contingere autem
+                        in conclusione eodem modo accipiendum est quo ET in prioribus. * Ex
+                        necessitate AVTEM non inesse non erit syllogismus; aliud enim est non ex
+                        necessitate inesse et ex necessitate non inesse.</p>
+                    <p>Quoniam igitur VNIVERSALIBVS existentibus terminis non fit conclusio
+                        necessaria, manifestum EST. Insit enim "a" omni "b" ex necessitate, "b"
+                        autem contingat omni "c"; erit igitur syllogismus imperfectus quoniam "a"
+                        contingit omni "c" inesse. Quoniam autem EST imperfectus, ex demonstratione
+                        palam EST; AD EVNDEM enim MODVM ostendetur AD QVEM * in prioribus. Rursum
+                        "a" quidem contingat omni "b" inesse, "b" autem omni "c" insit ex
+                        necessitate. Erit itaque syllogismus quoniam "a" contingit omni "c" inesse,
+                        sed non quoniam inest, et perfectus sed NEC imperfectus; statim enim
+                        perficitur per ILLAS QVAE AB INITIO SVNT propositiones.</p>
+                    <p>Si autem non similis figurae sint propositiones, sit primum privativa
+                        necessaria, et "a" quidem contingat nulli "b" ex necessitate, "b" autem
+                        contingat omni "c". Necesse est igitur "a" nulli "c" inesse. Ponatur enim
+                        inesse aut omni aut alicui; DICEBATVR autem contingere nulli "b". Quoniam
+                        IGITVR convertitur privativa, et "b" nulli "a" CONTINGET; "a" autem PERMANET
+                        inesse "c" aut omni aut alicui; quare nulli aut non omni "c" continget "b"
+                        inesse, sed INERAT omni ex principio. Manifestum IGITVR quoniam et
+                        CONTINGENTIS non inesse fit syllogismus, siquidem et non inesse. Rursum, sit
+                        affirmativa propositio necessaria, et "a" quidem contingat nulli "b" inesse,
+                        "b" autem insit omni "c" ex necessitate. Ergo ERIT syllogismus * perfectus,
+                        sed non eius quod non INEST sed * quod CONTINGIT non inesse; nam *
+                        propositio sic POSITA est quae a maiore est extremitate, et ad impossibile
+                        non est NECESSARIA; nam si ponatur "a" inesse nulli "c", MANET autem et "a"
+                        nulli "b" contingere inesse, nihil accidit PROPTER HOC impossibile. Si autem
+                        ad minorem extremitatem ponatur PRIVATIVA, quando contingere quidem
+                        SIGNIFICAT syllogismus erit per conversionem quemadmodum in prioribus,
+                        quando autem non contingere, non erit. Nec quando utraque quidem PONITVR
+                        privativa, SI non ERIT * contingens * ad minorem. Termini autem idem, inesse
+                        quidem 'album, animal, nix', non inesse autem 'album, animal, pix'.</p>
+                    <p>Eodem autem modo se habebit et in particularibus syllogismis. Quando enim
+                        fuerit privativa necessaria, et conclusio erit EIVS QVOD non INEST, ut si
+                        "a" quidem nulli "b" contingat inesse, "b" autem alicui "c" contingat
+                        inesse, necesse est "a" alicui eorum quae sunt "c" non inesse. Si enim omni
+                        inest, contingit autem nulli "b",* "b" nulli "a" contingit inesse. Quare si
+                        omni "c" inest "a", nulli "c" contingit "b". Sed PONEBATVR alicui inesse.
+                        Quando autem particularis affirmativa necessaria est, * in privativo
+                        syllogismo, ut "b" "c", aut universalis in affirmativo, ut "a" "b", non erit
+                        inesse syllogismus. Demonstratio autem eadem quae et in prioribus. Si autem
+                        universale * PONITVR ad minorem extremitatem vel affirmativum vel privativum
+                        contingens, particulare autem necessarium, non erit syllogismus. Termini
+                        autem inesse quidem ex necessitate 'animal, album, homo'; non CONTINGENTIS
+                        autem 'animal, album, VESTIS'. Quando autem universale quidem sit
+                        necessarium, particulare autem contingens, cum privativum quidem FVERIT
+                        universale, inesse quidem termini 'animal, album, corvus', non inesse autem
+                        'animal, album, pix'; cum autem affirmativum inesse quidem 'animal, album,
+                        cygnus', non contingere autem 'animal, album, nix'. Nec quando indefinitae
+                        sumuntur propositiones aut utraeque particulares, nec sic erit syllogismus.
+                        Termini * communes inesse quidem 'animal, album, homo', non inesse autem
+                        'animal, album, inanimatum'. Et ENIM animal alicui albo, album AVTEM
+                        inanimato alicui et necessarium EST inesse et non contingit inesse; et in
+                        contingenti similiter. Quare ad omnia utiles sunt termini.</p>
+                    <p>Manifestum EST IGITVR ex iis quae dicta sunt quoniam similiter habentibus se
+                        terminis et in HOC quod INEST et in necessariis * fit et non fit
+                        syllogismus, verum secundum inesse quidem posita privativa propositione,
+                        eius quod CONTINGIT erat syllogismus, secundum necessarium autem privativa,
+                        et CONTINGENTIS et non inesse. Palam autem * quoniam omnes imperfecti SVNT
+                        syllogismi et quoniam perficiuntur per praedictas figuras.</p>
+                </div>
+                <div type="cap" n="30">
+                    <p>Ergo methodus quidem de omnibus eadem est et circa philosophiam et circa
+                        artem quamlibet et disciplinam; oportet enim quae insunt et quibus insunt
+                        circa unumquodque colligere, et his VT PLVRIMIS habundare, et haec per tres
+                        terminos considerare, destruentem quidem sic, construentem vero sic, et
+                        secundum veritatem quidem ex his quae secundum veritatem SCRIPTA sunt
+                        inesse, ad dialecticos autem syllogismos ex propositionibus quae sunt
+                        secundum opinionem. Principia autem syllogismorum universaliter quidem dicta
+                        sunt, et quomodo se habeant et quomodo oportet inquirere ea, quatenus non
+                        ASPICIAMVS ad omnia quae DICVNTVR, neque ad eadem construentes et
+                        destruentes, NEQVE construentes * de omni aut aliquo et destruentes, ab
+                        omnibus aut aliquibus, sed ad pauciora et determinata, secundum singulum
+                        autem EORVM QVAE SVNT ELIGERE, ut de bono aut disciplina. PROPRIE autem in
+                        unaquaque sunt PLVRES. Quare principia quidem quae sunt circa singula
+                        EXPERIMENTO est tradere, dico autem ut astrologicam quidem experientiam
+                        ASTROLOGICA DISCIPLINA (sumptis enim sufficienter apparentibus sic inventae
+                        sunt astrologicae demonstrationes), similiter autem et circa aliam quamlibet
+                        se habet et artem et disciplinam; quare si sumantur quae insunt circa
+                        singulum, nostrum est iam demonstrationem prompte declarare. Si enim nihil
+                        secundum historiam omittatur eorum quae subtiliter et vere insunt rebus,
+                        habebimus de omni cuius quidem est demonstratio, hanc invenire et
+                        demonstrare, cuius autem non nata est demonstratio, hoc facere
+                        manifestum.</p>
+                    <p>Vniversaliter ergo, quo oportet modo propositiones eligere, paene dictum est;
+                        studiose autem pertransivimus in eo negotio quod circa dialecticam est.</p>
+                </div>
+                <div type="cap" n="31">
+                    <p>Quoniam autem divisio per genera parva quaedam particula est dictae methodi,
+                        facile videre; est enim divisio velut infirmus syllogismus; nam quod oportet
+                        quidem ostendere petit, syllogizat vero semper aliquid superiorum. Primum
+                        autem idem hoc latuit omnes utentes ea, et suadere conati sunt VELVT ESSET
+                        possibile de substantia demonstrationem fieri et DE eo quod EST quid est.
+                        Quare neque quoniam CONTINGEBAT syllogizare EOS QVI DIVIDVNT intellexerunt,
+                        neque quoniam sic contingebat QVEMADMODVM diximus. Ergo in demonstrationibus
+                        quidem, cum oportet quid syllogizare ESSE, oportet medium per quod fit
+                        syllogismus, ET minus semper esse et * de tota priori extremitate; divisio
+                        autem e contrario FIT; nam VNIVERSALIVS sumit medium. Sit enim 'animal'
+                        quidem in quo "a", 'mortale' autem in quo "b", et 'immortale' in quo "c",
+                        'homo' vero cuius terminum oportet sumere in quo "d". Omne ergo animal
+                        ACCIPIT aut mortale aut immortale; hoc autem est, quicquid est "a", omne
+                        esse aut "b" aut "c". Rursus hominem semper QVI DIVIDIT ponit animal esse,
+                        quare de "d" sumit "a" esse. Ergo syllogismus quidem est quoniam "d" aut "b"
+                        aut "c" omne est, quare hominem aut mortalem aut immortalem oportet sumere;
+                        * mortale quidem aut immortale necessarium est esse, animal mortale autem
+                        non necessarium esse, sed petitur; hoc autem erat quod oportebat
+                        syllogizare. Et rursum QVI PONIT "a" quidem 'animal mortale', in quo autem
+                        "b" 'pedes habens', in quo autem "c" 'non habens pedes', 'hominem' vero "d",
+                        similiter sumit "a" quidem aut in "b" aut in "c"esse (omne enim animal
+                        mortale aut pedes habens aut non habens pedes est), de "d" autem "a" (nam
+                        hominem animal mortale sumpsit esse); quare pedes habens aut non habens
+                        pedes esse animal necesse est hominem, pedes habens autem non necesse, sed
+                        sumit; hoc autem erat quod oportebat rursum ostendere. Et ad hunc modum
+                        semper dividentibus universale quidem accidit eis medium sumere, de quo *
+                        oportebat ostendere et differentias extremitates. Finem AVTEM, quoniam hoc
+                        est homo AVT quicquid ERIT quod quaeritur, nihil autem dicunt planum ut
+                        necessarium ESSE; ET ENIM aliam viam faciunt omnem, NEQVE CONTINGENTES
+                        idoneitates OPINANTES INESSE.</p>
+                    <p>Manifestum autem quoniam neque destruere hac via est, neque de accidente
+                        aliquid AVT DE proprio syllogizare, neque de genere, neque in quibus
+                        ignoratur utrum hoc modo aut illo se habeat, ut putas ne diameter ASYMMETER
+                        AVT SYMMETER EST. Si enim sumat quoniam omnis longitudo vel SYMMETER EST vel
+                        ASYMMETER, diameter autem longitudo, syllogizatum est quoniam vel ASYMMETER
+                        vel SYMMETER est diameter. Si autem sumat 'ASYMMETER', quod oportebat
+                        syllogizare sumet. Non ergo est ostendere; nam via quidem haec, per hanc
+                        autem non est ostendere SYMMETRVM AVT ASYMMETRVM. In quo "a" 'longitudo',
+                        "b" 'AVT SYMMETER AVT ASYMMETER', 'diameter' "c". Manifestum est igitur
+                        quoniam neque ad omnem considerationem CONGRVIT INQVISITIONIS modus, neque
+                        in quibus maxime videtur convenire, in his est utilis. Ex quibus ergo
+                        demonstrationes fiunt, et quomodo, et ad quae perspiciendum secundum
+                        unamquamque propositionem, manifestum ex praedictis.</p>
+                </div>
+                <div type="cap" n="38">
+                    <p>Reduplicatum autem in propositionibus ad primam extremitatem ponendum, non ad
+                        medium. Dico autem ut, si fiat syllogismus quoniam iustitiae est DISCIPLINA
+                        quoniam bonum, * in eo 'quod bonum' ad primam extremitatem ponendum. Sit
+                        enim "a" 'DISCIPLINA quoniam bonum', in quo autem "b" 'bonum', in quo vero
+                        "c" 'iustitia'. Ergo "a" verum est de "b" praedicari; nam boni est
+                        DISCIPLINA quoniam bonum. Sed et "b" de "c"; nam iustitia quod bonum est.
+                        Sic ergo fit resolutio. Si autem ad "b" ponatur 'quoniam bonum', non erit;
+                        nam "a" quidem de "b" verum erit, "b" autem de "c" non erit verum; nam bonum
+                        quoniam bonum praedicare de iustitia falsum et non intelligibile. Similiter
+                        autem et si salubre ostendatur quoniam DISCIPLINATVM est in eo quod bonum,
+                        aut hircocervus in eo quod non existens, aut homo corruptibile in eo quod
+                        sensibile; in omnibus enim praedicatis ad extremum reduplicatio est
+                        ponenda.</p>
+                    <p>Non est autem eadem positio terminorum quando simpliciter quid SYLLOGIZATVM
+                        FVERIT et quando hoc aliquid aut quo aut quomodo, dico autem ut quando bonum
+                        DISCIPLINATVM OSTENSVM ERIT, et quando DISCIPLINATVM quoniam bonum; sed si
+                        simpliciter quidem DISCIPLINATVM ostensum est, medium ponendum 'ens', si
+                        autem quoniam bonum, 'quid ens'. Sit enim "a" quidem 'DISCIPLINA quoniam
+                        quid ens', in quo autem "b" 'ens quid', in quo autem "c" 'bonum'. Verum ergo
+                        "a" de "b" praedicare; erat enim DISCIPLINA alicuius entis quoniam quid ens.
+                        Sed et "b" de "c"; nam in quo "c" 'bonum quid'. Quare et "a" de "c"; erit
+                        ergo DISCIPLINA boni quoniam bonum; erat enim quid ens propriae substantiae
+                        signum; si autem 'ens' medium positum sit et ad extremum 'ens' simpliciter
+                        et non 'quid ens' dictum sit, non erit syllogismus quoniam est DISCIPLINA
+                        boni quoniam bonum, sed quoniam ens; ut si sit in quo "a" 'DISCIPLINA
+                        quoniam ens', in quo "b" 'ens', in quo "c" 'bonum'. Manifestum ergo quoniam
+                        in particularibus syllogismis sic sumendi sunt termini.</p>
+                </div>
+                <div type="cap" n="39">
+                    <p>Oportet autem ET accipere quae idem valent, nomina pro nominibus et orationes
+                        pro orationibus, et nomen et orationem, et semper pro oratione nomen
+                        ACCIPERE; facilior enim est TERMINORVM EXPOSITIO. Vt si nihil differt dicere
+                        suspicabile opinabilis non esse genus, aut non esse idem quod suspicabile
+                        quid opinabile (nam idem QVOD SIGNIFICATVR) pro oratione dicta 'suspicabile'
+                        et 'opinabile' termini ponendi sunt.</p>
+                </div>
+                <div type="cap" n="40">
+                    <p>Quoniam vero non est idem esse voluptatem bonum et esse voluptatem quod
+                        bonum, non similiter ponendum terminos; sed si est syllogismus quoniam
+                        voluptas bonum *, terminum ponendum 'bonum'; si autem quoniam quod bonum,
+                        'quod bonum' Similiter autem et in aliis.</p>
+                </div>
+                <div type="cap" n="41">
+                    <p>Non est autem idem neque esse neque dicere, quoniam cui "b" inest, huic
+                        QVOQVE omni "a" inest, et dicere cui 'omni "b" inest' et 'A inest omni';
+                        nihil enim prohibet "b" inesse "c", non omni autem. Vt sit "b" quidem
+                        'pulchrum', "c" autem 'album'. Si igitur alicui albo inest pulchrum, verum
+                        est dicere quoniam albo inest pulchrum, sed non omni fortasse. Si ergo "a"
+                        inest "b", non omni autem de quo "b", neque si omni "c" inest "b" neque si
+                        solum alicui, necesse est "a" non QVIA non omni, sed nec inesse "c". Si
+                        autem de QVOCVMQVE "b" dicitur vere, huic omni "a" inest, accidet "a", de
+                        quo omni "b" dicitur, de eo omni dici. Si autem "a" dicatur DE OMNI de quo
+                        "b" dicitur, nihil prohibet * ei quod est "c" INESSE "b", "A" AVTEM NON OMNI
+                        AVT omnino non inesse. In tribus igitur terminis manifestum quoniam de quo
+                        "b" OMNI et "a" dicitur, hoc est, de quocumque "b" dicitur, de omnibus
+                        dicitur et "a". Et si "b" quidem de omni, et "a" similiter; si autem non de
+                        omni, non necesse est "a" de omni.</p>
+                    <p>Non oportet autem arbitrari propter expositionem ALIQVID ACCIDERE
+                        inconveniens; NON enim LABOREMVS IN eo quod hoc aliquid sit, sed quemadmodum
+                        geometer pedalem et rectam hanc esse et sine latitudine dicit quae non est,
+                        sed non sic utitur ut ex his syllogizans. Omnino enim quod non est ut totum
+                        ad partem et aliud ad hoc ut pars ad totum, ex nullo talium ostendit
+                        DEMONSTRATOR, neque enim fit syllogismus. Expositione autem SIC utimur * ut
+                        sentiat QVI DISCIT; non enim sic ut sine his non possibile sit demonstrare,
+                        quemadmodum ex quibus est syllogismus.</p>
+                </div>
+                <div type="cap" n="42">
+                    <p>Non lateat autem nos quoniam in eodem syllogismo non omnes conclusiones per
+                        unam eandem figuram sunt, sed haec quidem per hanc, illa vero per aliam.
+                        Palam ergo quoniam et resolutiones ex his faciendae. Quoniam autem non omnis
+                        propositio in omni figura sed in unaquaque sunt dispositae, manifestum ex
+                        conclusione in qua figura sit quaerendum.</p>
+                </div>
+                <div type="cap" n="43">
+                    <p>AD DEFINITIONES AVTEM ORATIONVM quaecumque ad unum quid sunt REDARGVTAE eorum
+                        QVI sunt in termino, ad quod REDARGVTVM EST TERMINVM PONENDVM et non totam
+                        orationem; minus enim continget conturbari propter longitudinem, ut si aquam
+                        ostendit quoniam * humidus potus; potum et aquam terminos ponendum.</p>
+                </div>
+                <div type="cap" n="44">
+                    <p>Amplius autem ex hypothesi syllogismos non est temptandum reducere; NAM NON
+                        est ex HIS QVAE POSITA SVNT reducere; non enim per SYLLOGISMOS ostensi sunt
+                        sed AD placitum concessi omnes. Vt, si quis PONAT, si una quaedam potestas
+                        non SIT contrariorum, neque disciplinam unam esse, deinde disputet quoniam
+                        non est una potestas contrariorum, ut * sanativi et aegrotativi; simul enim
+                        erit idem sanativum et aegrotativum. Quoniam ergo non est una CONTRARIORVM
+                        OMNIVM potestas, ostensum est, quoniam autem disciplina non est, non est
+                        ostensum; quamvis confiteri sit necesse; AT non ex syllogismo, SED ex
+                        CONDITIONE. Hoc igitur non est reducere, quoniam autem nec una potestas,
+                        est; sic enim fortasse ET FVIT syllogismus, illud autem CONDITIO.</p>
+                    <p>Similiter autem et in his quae per impossibile CONCLVDVNTVR; nam neque hos
+                        est resolvere, sed ad impossibile quidem deductionem est (syllogismo enim
+                        monstratur), alterum autem non est; EX CONDITIONE ENIM CONCLVDITVR.
+                        Differunt autem a praedictis quoniam in illis quidem oportet prius
+                        confiteri, si debeant CONCEDERE, ut si ostendatur una potestas contrariorum,
+                        et disciplinam esse eandem; hic autem et non prius confessi concedent eo
+                        quod manifestum sit falsum, ut posito diametro SYMMETRO EO QVOD imparia
+                        aequalia SINT paribus.</p>
+                    <p>PLVRES autem et diversi CONCLVDVNTVR ex conditione, quos perspicere oportet
+                        et pernotare aperte. Quae ergo horum differentiae et quotiens fiunt qui sunt
+                        ex hypothesi postea dicemus; nunc autem tantum sit nobis manifestum quoniam
+                        non est resolvere in figuras huiusmodi syllogismos. Et ob quam causam
+                        diximus.</p>
+                </div>
+            </div>
+            <div type="lib" n="II">
+                <div type="cap" n="15">
+                    <p><supplied><gap/></supplied>Oportet autem SCIRE quoniam contingit quidem sic
+                        opposita sumere QVEMADMODVM diximus omnem disciplinam studiosam esse, et
+                        rursum nullam, aut aliquam non studiosam; quod non solet latere. Erit autem
+                        per alias interrogationes syllogizare alterum, aut, QVEMADMODVM in Topicis
+                        dictum est, sumere. Quoniam autem affirmationum oppositiones sunt tres,
+                        sexies accidit opposita sumere, aut omni et nulli aut omni et non omni aut
+                        alicui et nulli, et hoc converti in terminis, ut "a" omni "b" et nulli "c",
+                        aut omni "c" et nulli "b", aut huic quidem omni illi vero non omni, et
+                        rursum hoc converti secundum terminos. Similiter autem et in tertia figura.
+                        Quare manifestum et quotiens et in quibus figuris contingit per oppositas
+                        propositiones fieri syllogismum.</p>
+                    <p>Manifestum etiam quoniam ex falsis quidem est verum syllogizare, quemadmodum
+                        dictum est prius, ex oppositis autem non est; semper enim CONTRARIVS
+                        SYLLOGISMVS FIT rei; ut, si est bonum, non esse bonum, aut, si animal, non
+                        animal, eo quod ex contradictione est syllogismus et subiecti termini aut
+                        idem sunt aut hic quidem totum, ille autem pars. Palam autem et quoniam in
+                        paralogismis nihil prohibet fieri hypotheseos contradictionem, ut, si est
+                        impar, non esse impar. Nam ex oppositis propositionibus contrarius FVIT
+                        syllogismus; si ergo sumpserit huiusmodi, erit hypotheseos contradictio.
+                        Oportet autem considerare quoniam sic quidem non est contraria concludere ex
+                        SYLLOGISMO VNO ut sit conclusio QVOD non est bonum bonum aut aliud quid
+                        tale, nisi statim propositio huiusmodi sumatur (ut omne animal esse album et
+                        non album, hominem autem animal), sed assumere oportet contradictionem (ut
+                        quoniam omnis disciplina opinio ET NON OPINIO, deinde sumere quoniam
+                        medicina disciplina quidem est, nulla autem opinio, quemadmodum
+                        REDARGVTIONES fiunt ex duobus syllogismis). Quare esse quidem contraria
+                        secundum veritatem quae sumpta sunt, non est alio modo quam hoc, quemadmodum
+                        dictum est prius.</p>
+                </div>
+                <div type="cap" n="16">
+                    <p><hi rend="bold">De eo quod est in principio petere.</hi><lb/>In principio
+                        autem petere et accipere est quidem, ut in genere sumere, in eo quod non
+                        DEMONSTRATVR propositum, hoc autem accidit multipliciter; nam et si omnino
+                        non SYLLOGIZATVR et si per ignotiora aut similiter ignota, et si per
+                        posteriora quod prius est; demonstratio enim et ex notioribus et prioribus
+                        est. Horum ergo NIHIL est petere quod ex principio; sed quia haec quidem per
+                        se nata sunt cognosci, illa vero per alia (nam principia quidem per se, quae
+                        autem sunt sub principiis, per alia), quando quod non per se notum est per
+                        se aliquis conatur ostendere, tunc petit quod ex principio. Hoc autem est
+                        SIC QVIDEM facere ut statim probet quod propositum est, contingit autem et
+                        TRANSGREDIENTES AD alia EORVM quae nata sunt per illud ostendi per haec
+                        demonstrare quod EST ex principio; ut si "a" ostendatur per "b", et "b" per
+                        "c", "c" autem natum sit ostendi per "a"; accidit enim idem "a" per se
+                        monstrare eos qui sic syllogizant. Quod faciunt qui parallilas arbitrantur
+                        scribere; latent enim IDEM se ipsos talia sumentes quae non VALENT
+                        demonstrare CVM non sint parallilae. Quare accidit sic syllogizantibus
+                        singulum esse dicere si est singulum; sic autem omne erit per se notum; quod
+                        est impossibile.</p>
+                    <p>Si ergo aliquis, dubio quoniam "a" inest "c", similiter autem et quoniam "b",
+                        petat "a" inesse "b", nondum manifestum si quod in principio est petat, sed
+                        quoniam non demonstravit manifestum; non enim est principium demonstrationis
+                        quod similiter est INCERTVM. Si autem "b" ad "c" sic se habet ut idem sit,
+                        aut palam quoniam convertuntur, aut inest alterum alteri, quod in principio
+                        est petit. Nam et quoniam "a" inest "b" per illa monstrabit, si convertantur
+                        (nunc autem hoc prohibet, sed non modus). Si autem hoc FACIAT, quod dictum
+                        est faciet et convertetur per tres. Similiter autem et si "b" SVMPSERIT
+                        inesse "c", CVM similiter SIT INCERTVM velut et si "a", nondum quod ex
+                        principio, sed non demonstrat. Si autem idem sit "a" et "b" aut in eo quod
+                        convertuntur aut in eo quod SEQVITVR "A" EI QVOD EST "b", quod est ex
+                        principio petit propter eandem causam; nam ex principio quid valet, dictum
+                        est nobis, quoniam per se MONSTRATVR quod non est per se manifestum.</p>
+                    <p>Si ergo est in principio petere per se monstrare quod non per se est
+                        manifestum, hoc autem est non ostendere, quando similiter dubia sunt quod
+                        monstratur et per quod monstratur, vel in eo quod eadem eidem vel in eo quod
+                        idem eisdem inesse sumit, in media quidem figura et tertia utrimque
+                        continget quod est in principio petere, in praedicativo autem syllogismo et
+                        in tertia et in prima. Quando autem negative, quando eadem ab eodem; et non
+                        similiter utraeque propositiones (similiter autem et in media) eo quod non
+                        convertuntur termini secundum negativos syllogismos. Est autem in principio
+                        petere in demonstrationibus quidem quae secundum veritatem sic se habent, in
+                        dialecticis autem quae secundum opinionem.</p>
+                </div>
+                <div type="cap" n="17">
+                    <p><hi rend="bold">De non propter hoc accidere falsum.</hi><lb/>Non propter hoc
+                        autem accidere falsum, quod saepe in disputationibus solemus dicere, primum
+                        quidem est in ad impossibile syllogismis, quando ad contradictionem est
+                        huius quod DEMONSTRATVM est EA QVAE EST AD impossibile. Nam neque qui non
+                        contradicit dicet non propter hoc, sed quoniam falsum aliquid positum est
+                        EORVM QVAE PRIVS, neque in EA QVAE OSTENDIT; non enim ponit quod
+                        contradixit. Amplius autem quando interimitur aliquid ostensive per "a" "b"
+                        "c", non est dicere QVOD non propter hoc quod positum est factus est
+                        syllogismus. Nam non propter hoc fieri tunc dicimus, quando interempto hoc
+                        nihil minus concluditur syllogismus, quod non est in ostensivis; interempta
+                        enim positione, nec qui ad hanc est erit syllogismus. Manifestum igitur
+                        quoniam in his quae ad impossibile dicitur non propter hoc, ET quando sic se
+                        habet ad impossibile quae ex principio est hypothesis ut et cum sit et cum
+                        non sit haec nihil minus accidit impossibile.</p>
+                    <p>Ergo manifestissimus quidem modus est non propter positionem esse falsum,
+                        quando AB HYPOTHESI INCONIVNCTVS est a mediis ad impossibile SYLLOGISMVS,
+                        quod dictum est in Topicis. Quod enim non est causa ut causam ponere hoc
+                        est, ut si volens ostendere quoniam ASYMMETRVM est DIAMETRVM, conetur
+                        Zenonis RATIONEM, quoniam non est moveri, et ad hoc INDVCAT impossibile;
+                        nullo enim modo NVSQVAM continuum est falsum LOCVTIONI QVAE ex principio
+                        EST. Alius autem modus, si continuum quidem sit impossibile hypothesi, non
+                        tamen propter illam accidat. Hoc enim possibile est FIERI et in hoc quod
+                        superius et in hoc quod inferius SVMENTI continuum, ut si "a" ponatur inesse
+                        "b", "b" autem "c", "c" vero "d", hoc autem sit falsum, scilicet "b" inesse
+                        "d". Nam si, ablato "a", nihil minus inest "b" "c" et "c" "d", non erit
+                        falsum propter EAM QVAE EST EX PRINCIPIO hypothesim. Aut rursum, si quis in
+                        SVPERIORI sumat continuum, ut si "a" quidem "b", "e" autem "a", "f" vero
+                        "e", falsum autem sit "f" inesse "a"; nam et sic nihil minus erit
+                        impossibile interempta QVAE EST ex principio hypothesi. Sed oportet ad eos
+                        qui ex principio sunt terminos copulare impossibile; sic enim erit propter
+                        hypothesim, ut INFERIORI quidem SVMENTI continuum ad praedicatum TERMINORVM
+                        (nam si impossibile est "a" inesse "d", INTEREMPTO "a" non AMPLIVS erit
+                        falsum); in SVPERIORI autem, de quo praedicatur (nam si "f" non possibile
+                        est inesse "b", INTEREMPTO "b" non ERIT AMPLIVS impossibile). Similiter
+                        autem et cum privativi sunt syllogismi.</p>
+                    <p>Manifestum ergo quoniam, cum impossibile non ad EOS QVI SVNT EX PRINCIPIO
+                        terminos est, non propter positionem accidit falsum. Aut nec sic semper
+                        propter hypothesim erit falsum; ET ENIM si non EI QVOD EST "b" sed "k"
+                        POSITVM EST INESSE "A", "k" autem "c" et hoc "d", et sic erat impossibile,
+                        et sic manet impossibile (similiter autem et in SVRSVM SVMENTI terminos);
+                        quare, quoniam et cum est et cum non est hoc accidit impossibile, non erit
+                        propter positionem. Aut cum non est hoc, nihil minus fieri falsum non sic
+                        sumendum ut alio posito ACCIDERE impossibile, sed quando ablato hoc per
+                        reliquas propositiones idem clauditur impossibile, eo quod idem falsum
+                        accidere per plures hypotheses nihil fortasse inconveniens ut parallilas
+                        ACCIDERE et si maior est QVAE INTERIVS EA QVAE EXTERIVS et si triangulus
+                        HABET plures rectos duobus.</p>
+                </div>
+                <div type="cap" n="18">
+                    <p><hi rend="bold">De falsa oratione.</hi><lb/>Falsa autem oratio fit propter
+                        primum falsum Aut enim ex duabus propositionibus aut ex pluribus omnis est
+                        syllogismus. Ergo si ex duabus quidem, harum necesse est alteram aut etiam,
+                        utrasque esse falsas; nam ex veris non erat falsus syllogismus. Si vero ex
+                        pluribus, ut "c" quidem per "a" "b", haec autem per "d" "e" "f" "g", horum
+                        ALIQVID ERIT SVPERIORVM falsum et propter hoc oratio; nam "a" et "b" per
+                        illa concluduntur. Quare propter illorum aliquid accidit conclusio et
+                        falsum.</p>
+                </div>
+                <div type="cap" n="19">
+                    <p><hi rend="bold">Vt non ab aliquo katasyllogizetur.</hi><lb/>Vt autem non
+                        KATASYLLOGIZETVR OBSERVANDVM, quando sine conclusionibus interrogat
+                        orationem, ne detur bis idem in propositionibus, eo quod scimus quoniam sine
+                        medio syllogismus non fit, medium autem est quod plerumque dicitur. Quomodo
+                        autem oportet ad unamquamque conclusionem observare medium, manifestum est
+                        hoc quod SCITVR QVALE in unaquaque figura ostenditur. Hoc autem nos non
+                        latebit eo quod VIDEMVS quomodo HABEMVS orationem.</p>
+                    <p>Oportet autem quod CVSTODIRE ANNVNCIAMVS respondentes, eosdem conantes
+                        temptare latere. Hoc autem erit primum quidem, si conclusiones non prius
+                        syllogizent, sed sumptis necessariis non manifestae sint; amplius autem si
+                        non propinqua interrogent, sed quam maxime longe media. Vt sit OPORTVNVM
+                        concludere "a" de "f"; media "b" "c" "d" "e". Non oportet ergo inquirere si
+                        "a" "b" et rursum si "b" "c", sed si "d" "e", ET deinde si "b" "c" et sic
+                        reliqua. Etsi per unum medium fit syllogismus, a medio incipere; maxime enim
+                        sic latebit respondentem.</p>
+                </div>
+                <div type="cap" n="20">
+                    <p>Quoniam autem habemus quando et quomodo habentibus se terminis fit
+                        syllogismus, manifestum et quando erit et quando non erit elenchus. Nam
+                        omnibus affirmativis vel COMMVTATIM positis responsionibus, ut hac quidem
+                        negativa, illa vero affirmativa, contingit fieri elenchum. Erat enim
+                        syllogismus et sic et illo modo habentibus se terminis; quare si id quod
+                        positum est SIT CONTRARIVM conclusioni, necesse est fieri elenchum; nam
+                        elenchus contradictionis syllogismus. Si vero nihil SIT CONCESSVM,
+                        impossibile est fieri elenchum; non enim erat syllogismus CVM OMNES TERMINI
+                        SINT PRIVATIVI, quare nec elenchus; nam si * elenchus, necesse est
+                        syllogismum esse, CVM autem EST syllogismus, non necesse est elenchum.
+                        Similiter autem et si nihil POSITVM SIT secundum responsionem universaliter;
+                        nam eadem erit definitio elenchi et syllogismi.</p>
+                </div>
+                <div type="cap" n="21">
+                    <p><hi rend="bold">De secundum opinionem fallacia.</hi><lb/>Accidit autem
+                        quandoque, quemadmodum in positione terminorum fallebamur, et secundum
+                        opinionem fieri fallaciam, ut si CONTINGIT idem pluribus principaliter
+                        inesse, et hoc quidem latere aliquem et putare nulli inesse, illud autem
+                        scire. Insit ENIM "a" "b" et "c" per se, et haec omni "d" similiter. Ergo si
+                        "b" quidem omni putat "a" inesse et hoc "d", "c" autem nulli "a" et hoc omni
+                        "d", eiusdem secundum idem habebit DISCIPLINAM et ignorantiam. Rursum si
+                        quis fallatur circa ea quae sunt ex eadem coniugatione, ut si "a" inest "b",
+                        hoc autem "c" et "c" "d", opinetur autem "a" inesse omni "b" et rursum nulli
+                        "c"; simul enim et sciet et non opinabitur inesse. Ergo nihil aliud probat
+                        ex his quam quod scit hoc non opinari. Scit enim ALIQVO modo quoniam "a"
+                        inest "c" per "b", VT SI VNIVERSALITER HOC QVOD EST particulare; quare quod
+                        ALIQVO modo scit, hoc omnino probat non opinari; quod est impossibile.</p>
+                    <p>In eo autem quod prius dictum est, si non ex eadem coniugatione SIT medium,
+                        secundum utrumque quidem mediorum ambas propositiones non contingit opinari,
+                        ut "a" "b" quidem omni, "c" autem nulli, haec autem utraque omni "d".
+                        Accidit enim aut simpliciter aut in aliquo contrariam sumere primam
+                        propositionem. Si enim cui "b" inest, omni "a" opinatur inesse, "b" autem
+                        "d" novit, et quoniam "a" "d" novit. Quare si rursum, cui "c", nulli putat
+                        "a" inesse, cui "b" alicui inest, huic non putat "a" inesse. Quod autem omni
+                        putat cui "b", rursum alicui non putare cui "b", aut simpliciter aut in
+                        aliquo contrarium est.</p>
+                    <p>Sic ergo non contingit opinari, secundum utrumque autem unam aut secundum
+                        alterum utrasque nihil prohibet, ut "a" omni "b" et "b" "d", et rursum "a"
+                        nulli "c". Nam similis huiusmodi fallacia ET VT fallimur circa particulares,
+                        ut si "a" omni "b", "b" autem omni "c", "a" omni "c" inerit. Si ergo aliquis
+                        novit quoniam "a", cui "b", inest omni, novit et quoniam "c". Sed nihil
+                        prohibet ignorare "c" quoniam est, ut si "a" quidem 'duo recti', in quo
+                        autem "b" 'triangulus', in quo vero "c" 'sensibilis triangulus'. Opinabitur
+                        enim aliquis non esse "c" sciens quoniam omnis triangulus habet DVOBVS
+                        RECTIS; quare simul sciet et ignorabit idem. Nam scire OMNIS TRIANGVLVS
+                        quoniam duobus rectis non simplex est, sed hoc quidem universalem habet
+                        DISCIPLINAM, illud vero singularem. Sic ergo VT VNIVERSALI novit "c" quoniam
+                        DVO RECTI, VT SINGVLARI autem non novit; quare non habebit contrarias.
+                        Similiter autem et quae in Menone est oratio quoniam disciplina rememoratio.
+                        Numquam enim accidit praescire QVOD singulare EST, sed simul * inductione
+                        sumere particularium disciplinam velut recognoscentes. Nam quaedam scientes
+                        statim scimus quoniam duobus rectis, si scimus quoniam triangulus. Similiter
+                        autem et in aliis.</p>
+                    <p>Ergo universali quidem speculamur particularia, propria autem non scimus;
+                        quare contingit et falli circa ea, verum non contrarie, sed habere quidem
+                        universali, decipi autem particulari. Similiter ergo et in praedictis; non
+                        enim contraria quae est secundum medium fallacia ei quae est secundum
+                        syllogismum DISCIPLINAE, nec quae secundum alterum mediorum est opinio.
+                        Nihil enim prohibet scientem et quoniam "a" toti "b" inest, et rursum hoc
+                        "c", putare non inesse "a" "c", ut quoniam omnis mula sterilis et haec mula,
+                        putare in utero habere hanc; non enim scit quoniam "a" "c", non VIDENS quod
+                        est secundum alterum. Quare manifestum quoniam et si hoc quidem novit, illud
+                        vero non novit, FALLITVR; quod habent universales ad particulares
+                        disciplinas. Nullum enim sensibilium cum extra sensum fit scimus, nec si
+                        sentientes FVERIMVS, nisi VT IN VNIVERSALI et in eo quod habet propriam
+                        DISCIPLINAM, sed non VT in eo quod egit. Nam scire dicitur tripliciter, aut
+                        ut universali aut ut propria aut ut agere; quare et DECIPI totidem modis.
+                        Nihil ergo prohibet et scire et DECEPTVM ESSE circa eadem, verum non
+                        contraria; quod accidit et ei qui secundum utramque scit propositionem et
+                        non pertractavit prius. Nam OPINANS in utero habere mulam non habet secundum
+                        actum DISCIPLINAM, NEQVE propter opinionem CONTRARIAM FALLACIAM DISCIPLINAE;
+                        syllogismus enim * CONTRARIA FALLACIA universali.</p>
+                    <p>Qui autem opinatur QVOD bonum EST MALVM esse, idem opinabitur bonum esse ET
+                        malum. Sit enim bonum quidem ESSE in quo "a", malum autem ESSE in quo "b",
+                        rursum VERO bonum ESSE in quo "c". Quoniam ergo idem opinatur "b" et "c", et
+                        esse "c" "b" opinabitur, et rursum "b" esse "a" similiter, quare et "c" "a".
+                        Nam quemadmodum, si SIT verum, de quo "c", "b", et de quo "b", "a", et de
+                        "c" "a" verum erat, sic et in OPINARI. Similiter autem et in EO QVOD EST
+                        ESSE; nam CVM idem SIT "c" et "b", et rursum "b" et "a", et "c" "a" idem
+                        erit; quare et in OPINARI similiter. Ergo hoc quidem necessarium, si quis
+                        det primum; sed fortasse illud falsum opinari aliquem QVOD malum EST bonum
+                        esse, nisi secundum accidens; multipliciter enim possibile est hoc opinari.
+                        Perspiciendum autem hoc melius.</p>
+                </div>
+                <div type="cap" n="22">
+                    <p><hi rend="bold">De conversionibus.</hi><lb/>Quando autem convertuntur
+                        extremitates, necesse est et medium converti ad utramque. Si enim "a" de "c"
+                        per "b" est, si convertitur et inest, cui "a", omni "c", et "b" "a"
+                        convertitur et inest, cui "a", omni "b" per medium "c"; et "c" "b"
+                        convertitur per medium "a". Et in non inesse similiter, ut si "b" inest "c",
+                        "a" vero non inest "b", neque "a" inerit "c". Si ergo "b" convertatur "a",
+                        et "c" "a" convertetur. Sit enim "b" QVOD NON INEST "a"; ergo neque "c" "a";
+                        omni enim "c" inerat "b". Et si "b" convertitur "c", et "a" convertitur "c";
+                        nam de QVO OMNI "b", et "c". Et si "c" ad "a" convertitur, et "b"
+                        convertitur ad "a". Cui enim "b", inest "c"; cui autem "c", "a" non inest.
+                        Et solum hoc a conclusione incipit, alia autem non similiter ut in
+                        praedicativo syllogismo.</p>
+                    <p>Rursum si "a" et "b" convertuntur, et "c" et "d" similiter, omni autem
+                        necesse est "a" AVT "c" inesse, et "b" et "d" sic se habebunt ut omni
+                        alterum insit. Quoniam enim cui "a", "b", et cui "c", "d", omni autem "a"
+                        AVT "c" et non simul, manifestum quoniam et "b" AVT "d" omni et non simul;
+                        ut si ingenitum incorruptibile et incorruptibile ingenitum, necesse est quod
+                        factum est corruptibile et corruptibile factum esse; duo enim syllogismi
+                        consiti sunt. Rursum si omni quidem "a" vel "b" et "c" vel "d", simul autem
+                        non insunt, si convertitur "a" et "c", et "b" et "d" convertetur. Nam si
+                        alicui non inest "b", cui "d", palam quoniam "a" inest. Si autem "a", et
+                        "c"; convertetur enim. Quare simul "c" et "d". Hoc autem impossibile.</p>
+                    <p>Quando autem "a" toti "b" et "c" inest et de nullo alio praedicatur, inest
+                        autem et "b" omni "c", necesse est "a" et "b" converti; quoniam enim de
+                        solis "b" "c" dicitur "a", praedicatur autem "b" et idem de se et de "c",
+                        manifestum quoniam de quibus "a", et "b" dicetur omnibus ABSQVE IPSO "A".
+                        Rursum quando "a" et "b" toti "c" INEST, convertitur autem "c" "b", necesse
+                        est "a" omni "b" inesse; quoniam enim omni "c" "a", "c" autem "b" eo quod
+                        convertantur, et "a" omni "b" inerit.</p>
+                    <p>Quando autem duo fuerint opposita, VT "a" magis eligendum SIT quam "b", et
+                        "d" et "c" similiter, si magis eligenda sint "a" "c" quam "b" "d", "a" magis
+                        eligendum quam "d". Similiter enim sequendum "a" et fugiendum "b" (opposita
+                        enim) et "c" EI QVOD EST "d" (nam et haec opponuntur). Si ergo "a" ei quod
+                        est "d" similiter eligendum, et ei quod est "c" "b" fugiendum; utrumque enim
+                        utrique similiter fugiendum SEQVENDO. Quare et ambo "a" "c" et "b" "d".
+                        Quando autem magis, non possibile similiter; nam et "b" "d" similiter ERANT.
+                        Si autem "d" magis eligendum quam "a", et "b" quam "c" QVOD minus EST
+                        fugiendum; nam minus minori opponitur. Magis autem eligendum est maius bonum
+                        et minus malum quam minus bonum et maius malum; et universum igitur, "b" "d"
+                        magis eligendum quam "a" "c". Nunc autem non est. Ergo "a" magis eligendum
+                        quam "d", et "c" igitur minus fugiendum quam "b". Si ergo ELIGAT omnis amans
+                        secundum amorem "a" 'sic se habere ut concedere', et 'non concedere' in quo
+                        "c", 'AVT concedere' in quo "d", et 'non TALE esse ut concedere', in quo
+                        "b", manifestum quoniam "a" huiusmodi esse magis eligendum est quam
+                        concedere. Ergo diligi quam COITVM magis eligendum secundum amorem. Magis
+                        ergo amor est dilectionis quam EIVS QVOD EST COIRE. Si autem maxime HAEC et
+                        finis haec. Ergo EIVS QVOD EST COIRE aut non est omnino aut gratia
+                        diligendi; nam et aliae concupiscentiae et artes sic fiunt.</p>
+                </div>
+                <div type="cap" n="23">
+                    <p>Quomodo ergo se habent termini secundum conversiones et in eo quod magis
+                        fugiendi vel MAGIS eligendi sunt, manifestum.</p>
+                    <p><hi rend="bold">De rhetoricis orationibus.</hi><lb/>Quoniam autem non solum
+                        dialectici et demonstrativi syllogismi per praedictas fiunt figuras, sed et
+                        rhetorici et simpliciter quaecumque fides et secundum quamque artem, nunc
+                        erit dicendum. Omnia enim credimus aut per syllogismum aut ex
+                        inductione.</p>
+                    <p>* Ergo inductio quidem est * ex inductione syllogismus per alteram alteram
+                        extremitatem medio SYLLOGIZARE, ut si eorum quae sunt "a" "c" medium sit
+                        "b", per "c" ostendere "a" inesse "b"; sic enim facimus inductiones. Vt sit
+                        "a" 'longaevum', in quo autem "b" 'coleram non habere', in quo vero "c"
+                        'singulare longaevum', ut 'homo' et 'equus' et 'mulus'. Ergo toti "c" inest
+                        "a" (orane enim quod sine colera est longaevum); sed et "b" 'non habere
+                        coleram' omni inest "c". Si ergo convertatur "c" ei quod est "b" et non
+                        transcendat medium, necesse est "a" inesse "b". Ostensum est enim prius
+                        quoniam si duo aliqua eidem insunt, et ad alterum eorum CONVERTATVR
+                        extremum, quoniam e CONVERTENTI et alterum inerti praedicatorum. Oportet
+                        autem intelligere "c" ex omnibus singularibus compositum; nam inductio per
+                        omnia.</p>
+                    <p>Est autem huiusmodi syllogismus primae et immediatae propositionis; quarum
+                        enim est medium, per medium est syllogismus, quarum vero non est, per
+                        inductionem. Et quodam modo opponitur inductio syllogismo; nam hic quidem
+                        per medium extremum tertio ostendit, illa autem per tertium extremum medio.
+                        Ergo natura quidem prior et evidentior per medium syllogismus, nobis autem
+                        manifestior qui per inductionem.</p>
+                </div>
+                <div type="cap" n="24">
+                    <p><hi rend="bold">De exemplo.</hi><lb/>Exemplum autem est quando medio extremum
+                        inesse ostenditur per id quod est simile tertio. Oportet autem et medium
+                        tertio et primum simili evidentius inesse. Vt sit "a" 'malum', "b" autem
+                        'contra confines INTERIMERE bellum', in quo autem "c" 'Athenienses contra
+                        Thebanos', in quo vero "d" 'Thebanos contra Phocenses'. Si ergo volumus
+                        ostendere quoniam Thebanis pugnare malum est, sumendum quoniam contra
+                        confines pugnare malum. Huius autem fides ex similibus, ut quoniam Thebanis
+                        contra Phocenses. Quoniam ergo contra confines malum, contra Thebanos autem
+                        contra confines est, manifestum quoniam contra Thebanos pugnare malum.
+                        Quoniam ergo "b" "c" et "d" inest, manifestum (utrumque enim contra confines
+                        INTERIMERE bellum), et quoniam "a" "d" (Thebanis enim non CONVENIT contra
+                        Phocenses bellum); quoniam autem "a" inest "b" per "d" ostendetur. Eodem
+                        autem modo et si per plura simila fides fiat medii ad extremum. Manifestum
+                        igitur quoniam exemplum est neque ut pars ad totum neque ut totum ad partem,
+                        sed ut pars ad partem, quando ambo quidem insunt sub eodem, evidens autem
+                        alterum. Et differt inductione quoniam haec quidem ex omnibus individuis
+                        extremum ostendebat inesse medio et ad extremum non copulabat syllogismum,
+                        hoc autem et copulat et non ex omnibus ostendit.</p>
+                </div>
+                <div type="cap" n="25">
+                    <p><hi rend="bold">De deductione.</hi><lb/>DEDVCTIO autem est quando medio
+                        quidem primum palam est inesse, postremo autem medium dubium quidem,
+                        similiter autem credibile vel magis conclusione. Amplius si pauciora sint
+                        media postremo et medio; omnino enim propinquius esse accidit scientiae; ut
+                        sit "a" 'docibile', in quo "b" 'disciplina', "c" 'iustitia'. Ergo
+                        disciplina, quoniam DOCIBILE, manifestum; virtus autem si disciplina,
+                        dubium. Si ergo similiter AVT magis credibile sit "b" "c" quam "a" "c",
+                        DEDVCTIO est; propinquius enim scientiae eo quod assumpserint "a" "c"
+                        DISCIPLINAM, prius non habentes. Aut rursum si pauciora media sint "b" "c";
+                        nam et sic propinquius EST scientiae. Vt si "d" sit 'quadrangulari', in quo
+                        autem "e" 'recta linea', in quo "f" 'circulus'; si ergo eius quod est "e"
+                        "f" unum solum sit medium per lunares figuras aequalem fieri rectae linea
+                        circulum, propius erit scientiae. Quando autem neque credibilius est "b" "c"
+                        quam "a" "c" neque pauca media, non dico DEDVCTIONEM; neque quando immediata
+                        est "b" "c"; disciplina enim QVOD HVIVSMODI EST.</p>
+                </div>
+                <div type="cap" n="26">
+                    <p><hi rend="bold">De instantia.</hi><lb/>Instantia autem est propositio
+                        propositioni contraria. Differt autem a propositione, quoniam instantiam
+                        quidem contingit esse in parte, propositionem autem aut omnino non contingit
+                        aut non in universalibus syllogismis. Fertur autem instantia duobus modis et
+                        per duas figuras; duobus modis quoniam aut universalis aut particularis
+                        omnis instantia; ex duabus autem figuris quoniam oppositae feruntur
+                        propositioni, opposita autem in prima et tertia figura concluduntur solis.
+                        Nam quando probant omni inesse, instamus quoniam nulli aut quoniam alicui
+                        non inest; horum autem nulli quidem ex prima figura, alicui autem non ex
+                        postrema. Vt sit "a" 'unam esse disciplinam', in quo "b" 'contraria';
+                        propositio IGITVR unam esse contrariorum disciplinam, aut quoniam omnino non
+                        eadem est oppositorum instant, contraria autem opposita, quare fit prima
+                        figura, aut quoniam noti et ignoti non una; haec autem tertia; nam SECVNDVM
+                        TERTIVM NOTVM et IGNOTVM, contraria quidem esse verum, unam autem eorum
+                        disciplinam esse falsum. Rursum in privativa propositione similiter.
+                        Probante enim non esse CONTRARIORVM VNAM disciplinam, aut quoniam omnium
+                        oppositorum aut quoniam aliquorum contrariorum est eadem disciplina dicimus,
+                        ut sanativi et aegrotativi; ergo omnium quidem ex prima, aliquorum vero ex
+                        tertia figura.</p>
+                    <p>Simpliciter enim in omnibus universaliter quidem INSTANTIBVS necesse est
+                        PROTENDENTI AD VNIVERSALIS contradictionem dicere, ut si non EANDEM probet
+                        contrariorum, omnium dicere oppositorum unam. Sic autem necesse est primam
+                        esse figuram; medium enim fit universale ad hoc quod ex principio.
+                        Particulariter autem ad hoc QVOD est VNIVERSALITER dicitur propositio, ut
+                        noti et ignoti non eandem; nam contraria universale ad haec. Et fit tertia
+                        figura; medium enim particulariter sumptum, ut notum et ignotum. Nam ex
+                        quibus est syllogizare contrarium, ex his et instantias conamur dicere.
+                        Quare et ex his solis figuris ferimus; nam in solis oppositi syllogismi; per
+                        mediam enim non FVIT affirmative. Amplius autem et si oratione indigeat
+                        PLVRIMA quae est per mediam figuram, ut si non concedat "a" inesse "b" eo
+                        quod non SEQVITVR HOC "c". Hoc enim per alias propositiones manifestum; non
+                        oportet autem instantiam ad alia CONVERTI, sed statim manifestum habere
+                        alteram propositionem. Quapropter et signum ex sola hac figura non est.</p>
+                    <p>Perspiciendum autem et de aliis instantiis, ut de iis quae sunt ex contrario
+                        et simili et secundum opinionem, et si particularem ex prima vel privativam
+                        ex media possibile sumere.</p>
+                </div>
+                <div type="cap" n="27">
+                    <p><hi rend="bold">De signo et ikote.</hi><lb/>IKOS autem et signum non idem
+                        est, sed IKOS quidem est propositio probabilis; quod enim ut in pluribus
+                        sciunt sic factum vel non factum aut esse aut non esse, hoc est IKOS, aut
+                        odire invidentes uel diligere amantes. Signum autem vult esse propositio
+                        demonstrativa vel necessaria vel probabilis; nam quo existente * vel quo
+                        facto prius vel posterius FVTVRO facta est res, signum est vel esse vel
+                        fuisse vel quoniam erit.</p>
+                    <p><hi rend="bold">De enthymemate.</hi><lb/>Enthymema ergo est syllogismus ex
+                        IKOTIBVS ET signis; accipitur autem signum tripliciter, quotiens et medium
+                        in figuris: aut enim ut in prima, aut ut in media, aut ut in tertia; ut
+                        ostendere quidem parientem eo quod lac habeat, ex prima figura (medium enim
+                        'lac habere', in quo "a" 'parere', "b" 'lac habere', 'mulier' in quo "c");
+                        quoniam autem sapientes studiosi, nam Pittacus studiosus, per postremam (in
+                        quo "a" 'studiosum', in quo "b" 'sapientes', in quo "c" 'Pittacus'; verum
+                        ergo et "a" et "b" de "c" praedicari, sed hoc quidem non dicunt eo quod
+                        palam sit, illud vero sumunt); peperisse autem quoniam pallida, per mediam
+                        figuram vult esse (quoniam enim sequitur parientes pallor, sequitur autem et
+                        hanc, ostensum esse arbitrantur quoniam peperit; 'pallor' in quo "a",
+                        'parere' in quo "b", 'mulier' in quo "c").</p>
+                    <p>Ergo si una quidem dicatur propositio, signum fit tantum, si autem et altera
+                        assumatur, syllogismus, ut quoniam Pittacus liberalis; nam ambitiosi
+                        liberales, Pittacus autem ambitiosus. Aut rursum quoniam sapientes boni,
+                        Pittacus enim bonus, sed et sapiens. Sic ergo fiunt syllogismi, verum qui
+                        per primam quidem figuram insolubilis, si verus sit (universalis enim est),
+                        qui autem per postremam solubilis, et si vera sit conclusio, eo quod non est
+                        universalis in tertia neque ad rem syllogismus; non enim, si Pittacus
+                        studiosus, propter hoc et alios necesse est sapientes esse. Qui vero per
+                        mediam figuram semper et omnino solubilis; numquam enim fit syllogismus sic
+                        se habentibus terminis; non enim, si quae parit pallida, pallida autem et
+                        haec, parere necesse est hanc. Ergo verum quidem in omnibus erit figuris,
+                        differentias autem habent iam dictas.</p>
+                    <p>Sic dividendum signum, horum autem medium prodigium dicendum (nam prodigium
+                        dicunt esse quod scire facit, tale autem maxime medium), aut quae quidem ex
+                        extremitatibus signa dicendum, quod autem ex medio prodigium;
+                        probabilissimum enim et maxime verum quod est per primam figuram.</p>
+                    <p><hi rend="bold">De naturam cognoscere.</hi><lb/>Naturas autem COGNOSCERE
+                        possibile est, si quis concedat simul TRANSMVTARE corpus et animam
+                        quaecumque NATVRALES sunt passiones; discens enim aliquis fortasse musicam
+                        TRANSMVTAVIT * quid animam, sed non eorum quae NATVRALITER nobis est haec
+                        passio, sed ut irae et concupiscentiae naturalium motuum. Si ergo et hoc det
+                        et unum unius speciei signum esse, et poterimus sumere propriam
+                        uniuscuiusque generis passionem et signum, poterimus naturas COGNOSCERE. Si
+                        enim est PROPRIE alicui generi individuo existens passio, ut leonibus
+                        fortitudo, necesse est et signum esse aliquod; compati enim sibi invicem
+                        positum est. Et sit hoc magnas summitates habere; quod et aliis INEST
+                        generibus, non totis contingit. Nam signum sic proprium est quoniam totius
+                        generis propria est passio, et non solius proprium, sicut solemus dicere.
+                        Erit ergo et in alio genere hoc, et erit fortis homo et aliud aliquod
+                        animal. Habebit ergo signum; unum enim unius erat. Si ergo haec sunt, et
+                        poterimus talia signa colligere in his animalibus quae tantum unam PASSIONEM
+                        HABENT ALIQVAM propriam, VNVMQVODQVE autem habet signum, quoniam unum habere
+                        necesse est, poterimus naturas COGNOSCERE. Si vero duo HABET propria totum
+                        genus, ut leo forte et communicativum, quomodo cognoscemus utrum utrius sit
+                        signum eorum SIGNORVM quae specialiter sequuntur AVT si ALICVI ALII NON TOTI
+                        ambo, et in quibus non totis utrumque, quando hoc quidem habet, illud autem
+                        non? Nam si fortis quidem, liberalis autem non, habet autem duum hoc, palam
+                        quoniam et in leone hoc signum fortitudinis.</p>
+                    <p>Est ergo naturas COGNOSCERE in prima QVIDEM FIGVRA MEDIVM priori extremitati
+                        converti, IN TERTIA autem TRANSCENDERE et non converti, ut sit 'fortitudo'
+                        "a", 'summitates magnas' in quo "b", "c" autem 'leo'. Ergo cui "c", "b"
+                        omni, sed et aliis. Cui autem "b", "a" omni et non pluribus, sed
+                        convertitur; si autem non, non erit unum unius signum.<lb/><hi rend="bold"
+                            >Priorum Analyticorum Aristotelis liber secundus explicit.</hi></p>
+                </div>
+            </div>
+        </body>
+    </text>
+
+</TEI>

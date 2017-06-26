@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Origo Constantini imperatoris (= Excerpta Valesiana pars prior)</title>
+                <author>Anonymus Valesianus</author>
+                <respStmt>
+                    <resp>Correzione linguistica</resp>
+                    <name>Simona Rota</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica XML</resp>
+                    <name>Laura Mosca</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>digilibLT</publisher>
+                <pubPlace>Vercelli</pubPlace>
+                <date>2012</date>
+                <availability>
+                    <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+                </availability>
+                <idno>dlt000380</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Excerpta Valesiana, recensuit J. Moreau, edictionem correctiorem curauit V. Velkov, Lipsiae 1963(Bibliotheca scriptorum Graecorum et Romanorum Teubneriana)</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+                <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+            </projectDesc>
+            <editorialDecl>
+                
+                
+                <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+                <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+                    l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+                    e commenti e ogni altro contenuto redatto da editori moderni. </p>
+                <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+                    correttezza di trascrizione</p>
+                <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+                    distinzione u/v minuscole.</p>
+                <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+                <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+                    grassetto, corsivo, spaziatura espansa.</p>
+                <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+                    <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+                    <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+                    si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+                    [...]<lb/> lacuna integrata dagli editori:
+                    <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+                </p>
+                <p>Sono stati marcati i termini in lingua greca
+                    <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+                </p>
+                <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+                    target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+                    >Note di trascrizione e codifica di testi latini tardoantichi
+                    [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+            </editorialDecl>
+            
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latino</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body> <div type="opus"><head>EXCERPTORVM VALESIANORVM PARS PRIOR <lb/>
+            ORIGO CONSTANTINI IMPERATORIS</head>
+            <div type="cap" n="1"><p> <milestone unit="par" n="1"/> Diocletianus cum Herculio Maximiano imperavit annos XX. Constantius divi Claudi optimi principis nepos ex fratre, protector primum, inde tribunus, postea praeses Dalmatiarum fuit. Iste cum Galerio a Diocletiano Caesar factus est. Relicta enim Helena priore uxore, filiam Maximiani Theodoram duxit uxorem, ex qua postea sex liberos Constantini fratres habuit. Sed de priore uxore Helena filium iam Constantinum habuit, qui postea princeps potentissimus fuit.</p></div>
+            <div type="cap" n="2"><p> <milestone unit="par" n="2"/> Hic igitur Constantinus, natus Helena matre vilissima in oppido Naisso atque eductus, quod oppidum postea magnifice ornavit, litteris minus instructus, obses apud Diocletianum et Galerium, sub iisdem fortiter in Asia militavit. Quem post depositum imperium Diocletiani et Herculi, Constantius a Galerio repetit: sed hunc Galerius obiecit ante pluribus periculis.</p><p>
+                <milestone unit="par" n="3"/> Nam et in Sarmatas iuvenis equestris militans ferocem barbarum capillis tentis raptum ante pedes [sub] Galerii imperatoris adduxerat. Deinde Galerio mittente per paludem equo ingressus suo, viam ceteris fecit ad Sarmatas, ex quibus plurimis stratis Galerio victoriam reportavit. </p><p>
+                    <milestone unit="par" n="4"/> Tunc eum Galerius patri remisit. Qui ut Severum per Italiam transiens vitaret, summa festinatione veredis post se truncatis Alpes transgressus ad patrem Constantium venit apud Bononiam quam Galli prius Gesoriacum vocabant. Post victoriam autem Pictorum Constantius pater Eboraci mortuus est et Constantinus omnium militum consensu Caesar creatus. </p></div>
+            <div type="cap" n="3"><p> <milestone unit="par" n="5"/> Interea Caesares duo facti, Severus et Maximinus: Maximino datum est Orientis imperium, Galerius sibi Illyricum, Thracias et Bithyniam tenuit. Severus suscepit Italiam et quicquid Herculius obtinebat. </p><p>
+                <milestone unit="par" n="6"/> Postquam vero Constantius in Brittania mortuus est et Constantinus filius successit, subito in urbe Roma praetoriani milites Maxentium filium Herculi imperatorem crearunt. Sed adversum Maxentium iussu Galeri Severus duxit exercitum. Qui repente ab omnibus suis desertus est et Ravennam fugit. Dehinc Galerius cum ingentibus copiis Romam venit, minatus civitati interitum et castra Interamnae ad Tiberim posuit. </p><p>
+                    <milestone unit="par" n="7"/> Tunc legatos ad urbem misit Licinium et Probum, per conloquium petens, ut gener apud socerum, id est Maxentius apud Galerium precibus magis quam armis optata mercaretur. Qui contemptus agnovit promissis Maxenti victos multos partes suas deseruisse. Quibus perturbatus retro versus est, et ut militi suo praedam quamcumque conferret, <supplied>res per</supplied> Flaminiam iussit auferri. </p><p>
+                        <milestone unit="par" n="8"/> Ille ad Constantinum refugit, tunc Galerius in Illyrico Licinium Caesarem fecit. Deinde illo in Pannonia relicto, ipse ad Serdicam regressus, morbo ingenti occupatus sic distabuit, ut aperto et putrescenti viscere moreretur in supplicium persecutionis iniquissimae, ad auctorem scelerati praecepti iustissima poena redeunte. Imperavit annos XVIIII. </p></div>
+            <div type="cap" n="4"><p> <milestone unit="par" n="9"/> Severus Caesar ignobilis et moribus et natalibus, ebriosus et hoc Galerius amicus. Hunc ergo et Maximinum Caesares Galerius fecit Constanti[n]o nihil tale noscente. Huic Severo Pannoniae et Italiae urbes et Africae contigerunt. Quo casu Maxentius factus est imperator: nam desertus Severus a suis fugit Ravennam. </p><p>
+                <milestone unit="par" n="10"/> Pro Maxentio filio evocatus illuc venit Herculius, qui per periurium Severum deceptum custodiae tradidit et captivi habitu in urbem perduxit et in villa publica Appiae viae tricensimo miliario custodiri fecit. Postea cum Galerius Italiam peteret, ille iugulatus est et deinde relatus ad octavum miliarium conditusque in Gallieni monumento. </p><p>
+                    <milestone unit="par" n="11"/> Igitur Galerius sic ebriosus fuit, ut, cum iuberet temulentus ea quae facienda non essent, a praefecto admonitus constituerit, ne iussa eius aliquis post prandium faceret. </p><p>
+                        <milestone unit="par" n="12"/> Interea Constantinus apud Veronam victis ducibus tyranni Romam petiit. Cum autem ad urbem Constantinus venisset, egressus ex urbe Maxentius campum supra Tiberim, in quo dimicaret, elegit. Vbi victus, fugatis omnibus suis, inter angustias arcentis populi periit, equo praecipitatus in fluvium. Postera die corpus ipsius levatum flumine et caput eius incisum in urbem perlatum est. De cuius origine mater eius cum quaesitum esset, Syro quodam genitum esse confessa. Imperavit annos <supplied>VI</supplied>.</p></div>
+            <div type="cap" n="5"><p> <milestone unit="par" n="13"/> Licinius itaque ex nova Dacia vilioris originis, a Galerio factus imperator velut adversum Maxentium pugnaturus. Sed oppresso Maxentio cum recepisset Italiam Constantinus, hoc Licinium foedere sibi fecit adiungi, ut Licinius Constantiam sororem Constantini apud Mediolanum duxisset uxorem. Nuptiis celebratis Gallias repetit Constantinus, Licinio ad Illyricum reverso. </p><p>
+                <milestone unit="par" n="14"/> Post aliquantum deinde temporis Constantium Constantinus ad Licinium misit, persuadens, ut Bassianus Caesar fieret, qui habebat alteram Constantini sororem Anastasiam, ut exemplo Diocletiani et Maximiani inter Constantinum <supplied>et</supplied> Licinium [et] Bassianus Italiam medius obtineret. </p><p>
+                    <milestone unit="par" n="15"/> Et Licinio talia frustrante, per Senicionem Bassiani fratrem, qui Licinio fidus erat, in Constantinum Bassianus armatur. Qui tamen in conatu deprehensus Constantino iubente convictus et stratus est. Cum Senicio auctor insidiarum posceretur ad poenam, negante Licinio fracta concordia est, additis etiam causis, quod apud Emonam Constantini imagines statuasque deiecerat, bellum deinde apertum convenit ambobus. </p><p>
+                        <milestone unit="par" n="16"/> Vtriusque ad Cibalensem campum ductus exercitus. Licinio XXXV milia peditum et equitum fuere; Constantinus XX milia peditum <supplied>et</supplied> equitum duxit. Caesis post dubium certamen Licinianis viginti peditum milibus et equitum ferratorum parte Licinius cum magna parte equitatus noctis auxilio pervolavit ad Sirmium. </p><p>
+                            <milestone unit="par" n="17"/> Sublata inde uxore ac filio et thesauris tetendit ad Daciam. Valentem ducem limitis Caesarem <supplied>fecit</supplied>. Inde apud Hadrianopolim Thraciae civitatem per Valentem collecta ingenti multitudine, legatos ad Constantinum de pace misit apud Philippos constitutum. Quibus frustra remissis, iterum reparato bello, in campum Ardiensem ab utroque <supplied>con</supplied>curritur et post dubium ac diuturnum proelium Licini partibus inclinatis profuit noctis auxilium. </p><p>
+                                <milestone unit="par" n="18"/> Licinius et Valens credentes Constantinum, quod et verum erat, ad persequendum longius ad Byzantium processurum, flexi in partem Beroeam concesserunt. Ita Constantinus vehementer in ulteriora festinans deprehendit Licinium remansisse post tergum. Fatigatis bello et itinere militibus, missus deinde Mestrianus legatus pacem petiit, Licinio postulante et pollicente se imperata facturum. Denuo, sicut ante, mandatum est Valens privatus fieret: quo facto pax ab ambobus firmata est, ut Licinius Orientem, Asiam, Thraciam, Moesiam, minorem Scythiam possideret. </p><p>
+                                    <milestone unit="par" n="19"/> Deinde reversus Serdicam Constantinus hoc cum Licinio absente constituit, ut filii Constantini Crispus et Constantinus, filius etiam Licini Licinius Caesares fierent et sic ab utroque concorditer regnaretur. Itaque Constantinus et Licinius simul consules facti. </p><p>
+                                        <milestone unit="par" n="20"/> In Orientis partibus Licinio <supplied>et</supplied> Constantino <supplied>consulibus</supplied> <hi rend="italic">repentina rabie suscitatus Licinius omnes christianos a palatio iussi<supplied>t</supplied> expelli. Mox bellum inter ipsum Licinium et Constantinum efferbuit.</hi> </p><p>
+                                            <milestone unit="par" n="21"/> Item cum Constantinus Thessalonica<supplied>e</supplied> esset, Gothi per neglectos limites eruperunt et vastata Thracia et Moesia praedas agere coeperunt. Tunc Constantini terrore et impetu repressi captivos illi impetrata pace reddiderunt. Sed hoc Licinius contra fidem factum questus est, quod partes suae <supplied>ab</supplied> alio fuerint vindicatae. </p><p>
+                                                <milestone unit="par" n="22"/> Deinde cum variasset inter supplicantia et superba mandata, iram Constantini merito excitavit. Per tempora, quibus nondum gerebatur bellum civile, sed item parabatur, Licinius scelere avaritia crudelitate libidine saeviebat, occisis ob divitias pluribus, uxoribus eorum cor<supplied>ruptis</supplied>.</p><p>
+                                                    <milestone unit="par" n="23"/> Rupta iam pace utriusque consensu Constantinus Caesarem Crispum cum grandi classe ad occupandam Asiam miserat, cui de parte Licinii similiter cum nav<supplied>al</supplied>ibus copiis Amandus obstabat. </p><p>
+                                                        <milestone unit="par" n="24"/> Licinius vero circa Hadrianopolim maximo exercitu latera ardui montis impleverat. Illuc toto agmine Constantinus inflexit. Cum bellum terra marique traheretur, quamvis per arduum suis nitentibus, at tamen disciplina militari et felicitate Constantinus Licini confusum et sine ordine agentem vicit exercitum, leviter femore sauciatus. </p><p>
+                                                            <milestone unit="par" n="25"/> Dehinc fugiens Licinius Byzantium petit: quo dum multitudo dissipata contenderet, clauso Byzantio Licinius obsidionem terrenam maris securus agitabat. Sed Constantinus classem collegit ex Thracia. Dehinc solita vanitate Licinius Martinianum sibi Caesarem fecit. </p><p>
+                                                                <milestone unit="par" n="26"/> Crispus vero cum classe Constantini Callipolim pervenit: ibi bello maritimo sic Amandum vicit, ut vix per eos, qui in litore remanserant, vivus Amandus refugeret. Classis vero Licini vel oppressa vel capta est. </p><p>
+                                                                    <milestone unit="par" n="27"/> Licinius desperata maris spe, per quod se viderat obsidendum, Chalcedonam cum thesauris refugit. Byzantium Constantinus invasit, victoriam maritimam Crispo conveniente cognoscens. Deinde apud Chrysopolim Licinius <supplied>pugnavit</supplied> maxime auxiliantibus Gothis, quos Alica regalis deduxerat: tum Constantini pars vincens XXV milia armatorum fudit partis adversae, ceteris fugientibus. </p><p>
+                                                                        <milestone unit="par" n="28"/> Postea cum legiones Constantini per liburnas venire vidissent, proiectis armis se dediderunt. Sequenti autem die Constantia soror Constantini, uxor Licini, venit ad castra fratris et marito vitam poposcit et impetravit. Ita Licinius privatus factus est et convivio Constantini adhibitus, et Martiniano vita concessa est. </p><p>
+                                                                            <milestone unit="par" n="29"/> Licinius Thessalonicam missus est: <hi rend="italic">sed Herculii Maximiani soceri sui motus exemplo, ne iterum depositam purpuram in perniciem rei publicae sumeret,</hi> tumultu militari<supplied>bus</supplied> exigentibus in Thessalonica <hi rend="italic">iussit occidi</hi>, Martinianum in Cappadocia. Qui regnavit annos XVIIII, filio et uxore superstite. <hi rend="italic">Quamvis omnibus iam ministris nefariae persecutionis extinctis, hunc quoque in quantum exercere <supplied>potuit</supplied> persecutorem digna punitio flagitaret.</hi> </p></div>
+            <div type="cap" n="6"><p> <milestone unit="par" n="30"/> Constantinus autem ex <supplied>se</supplied> Byzantium Constantinopolim nuncupavit ob insignis victoriae <supplied>memoriam</supplied>. Quam velut patriam cultu decoravit ingenti et Romae desideravit aequari: deinde quaesitis ei undique civibus divitias multas largitus est, ut prope in ea omnes [thesauros] regias facultates exhauriret. Ibi etiam senatum constituit secundi ordinis: claros vocavit. </p><p>
+                <milestone unit="par" n="31"/> Deinde adversum Gothos bellum suscepit et implorantibus Sarmatis auxilium tulit. Ita per Constantinum Caesarem centum prope milia fame et frigore extincta sunt. Tunc et obsides accepit, inter quos Ariarici regis filium. </p><p>
+                    <milestone unit="par" n="32"/> Sic cum his pace firmata in Sarmatas versus est, qui dubiae fidei proba<supplied>ba</supplied>ntur. Sed servi Sarmatarum omnes adversum dominos rebellarunt, quos pulsos Constantinus libenter accepit et amplius trecenta milia hominum mixtae aetatis et sexus per Thraciam Scythiam Macedoniam Italiamque divisit. </p><p>
+                        <milestone unit="par" n="33"/> Item Constantinus imperator primus christianus, excepto Philippo, qui christianus admodum ad hoc tantum constitutus fuisse mihi visus est, ut millesimus Romae annus Christo potius quam idolis dicaretur. A Constantino autem omnes semper christiani imperatores usque in hodiernum diem creati sunt, excepto Iuliano, quem impia ut aiunt machinantem exitialis vita deseruit. </p><p>
+                            <milestone unit="par" n="34"/> Item<hi rend="italic"> Constantinus iusto ordine et pio vicem vertit. Edicto si quidem statuit citra ullam caedem hominum paganorum templa claudi. Mox Gothorum fortissimas et copiosissimas gentes in ipso barbarico soli sinu hoc est in Sarmatarum regione delevit.</hi> </p><p>
+                                <milestone unit="par" n="35"/> <hi rend="italic">Calocaerum quendam in Cypro aspirantem novis rebus oppressit</hi>. Dalmatium filium fratris sui Dalmati Caesarem fecit. Eius fratrem Annibalianum data ei Constanti[a]na filia sua regem regum et Ponticarum regionum constituit. Itaque Gallias Constantinus minor regebat, Orientem Constantius Caesar, Illyricum et Italiam Constans, ripam Gothicam Dalmatius tuebatur. Item Constantinus cum bellum pararet in Persas in suburbano Constantinopolitano <hi rend="italic">villa publica iuxta Nicomediam dispositam bene rem publicam filiis tradens <supplied>diem obiit</supplied></hi>. Regnavit annos XXXI. Sepultus est Constantinopoli. </p></div>
+            
+        </div>
+        </body>
+    </text>
+
+</TEI>

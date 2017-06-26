@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+ <fileDesc>
+ <titleStmt>
+  <title>Fragmentum Parisinum de iambico metro</title>
+ <author />
+ <respStmt>
+ <resp>transcodifica di base da rtf a xml-tei</resp>
+ <name>piero colombo - step srl</name>
+ </respStmt>
+  <respStmt>
+   <resp>Testo </resp>
+   <name>Marinone, GL-CD</name>
+  </respStmt>
+  <respStmt>
+   <resp>Controllo marcatura XML-TEI</resp>
+   <name>Ermanno Malaspina</name>
+  </respStmt>
+ </titleStmt>
+ <publicationStmt>
+ <publisher>digilibLT</publisher>
+ <pubPlace>Vercelli</pubPlace>
+ <date>2017</date>
+ <availability>
+ <p>
+ <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/" />
+ </p>
+ </availability>
+ <idno>dlt000209</idno>
+ </publicationStmt>
+ <sourceDesc>
+  <p><hi rend="italic">Grammatici Latini, VI. Scriptores artis metricae. Marius Victorinus, Maximus Victorinus, Caesius Bassus etc.,</hi> ex recensione H. Keilii, Hildesheim 1961, 630, 2-631, 12 (reprografischer Nachdruck der Ausgabe Leipzig 1874).</p>
+ </sourceDesc>
+ </fileDesc>
+ <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+	<projectDesc>
+ <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+ <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+	</projectDesc>
+	<editorialDecl>
+ <p>
+  <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT</hi>
+ </p>
+	 <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+	  l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+	  e commenti e ogni altro contenuto redatto da editori moderni.</p>
+	 <p>I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+	  correttezza di trascrizione</p>
+	 <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+	  distinzione u/v minuscole.</p>
+	 <p>Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+	 <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi> :
+	  grassetto, corsivo, spaziatura espansa. </p>
+	 <p> Sono stati normalizzati e marcati nel modo seguente i diacritici. <lb/> espunzioni:
+	  <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]>
+	  <lb/>
+	  <hi rend="italic">loci desperati</hi> :
+	  <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo† e †testo <lb/>
+	  lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...] <lb/> lacuna integrata dagli editori:
+	  <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+	 </p>
+	 <p> Sono stati marcati i termini in lingua greca
+	  <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+	 </p>
+	 <p> Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+	  target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+	  >Note di trascrizione e codifica di testi latini tardoantichi
+	  [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
+	 </p>
+	</editorialDecl>
+</encodingDesc>
+ <profileDesc>
+ <langUsage>
+ <language ident="la">Latino</language>
+ </langUsage>
+ </profileDesc>
+ </teiHeader>
+ <text>
+ <body>
+  <head>Fragmentum Parisinum de iambico metro</head>
+ <p>
+ <milestone unit="row" n="riga 2 vol. VI Keil" /> iambicum metrum a monometro hypercatalecto usque in octametrum acatalectum Iuba teste procedit. recipit autem pedes quinque, iambum, tribrachyn, spondium, dactylum, anapaestum. sed locis inparibus, id est primo, tertio, quinto et deinceps, omnes quos diximus indifferenter suscipit pedes; locis uero paribus, id est secundo, quarto, sexto et deinceps, tantum tres, iambum, tribrachyn et anapaestum. et hoc omnes fere, qui diligenter iambico usi sunt, custodiuerunt. sed Latini comici, dum satis student communibus fabulis et gestiunt comoedias ad sermonem uitae uocare, corruperunt leges iambi. nam primum secundo et quarto et sexto, id est paribus locis, non illis tribus tantum pedibus utuntur, sed omnibus quinque. nec illud etiam seruant, ut uel quadam uarietate in ipsis pedibus utantur, sed quoniam recipit, ut diximus, spondium, plerumque omnes spondios faciunt; quoniam anapaestum, plerumque omnes anapaestos, atque eadem de ceteris seruant. quin etiam contenti sunt plerumque unum tantum locum in toto uersu pedi legitimo reseruare, nec non solutiones ita crebras ponunt, ut plerumque decem breues et amplius sequentes <milestone unit="page" n="p. 631 vol. VI Keil" /> deprehendas. plerumque etiam aut acephalos faciunt eosdem iambos aut hypercatalectos, quae res metrum hoc, id est iambicum, in trochaicum conuertat necesse est. nam siue unam syllabam demas ab initio, siue unam addas de iambo, trochaicum facis. quae res dedit eis occasionem, ut <supplied>in</supplied> iambicis metris etiam legibus trochaicorum uterentur. igitur propter has causas sciendum est in comoediam plerumque incidere et dactylica metra propter dactylum, et anapaestica propter anapaestum, et spondiaca propter spondium, et quae de tribrachi fiunt, nec non, ut diximus, propter acephalos uel hypercatalectos uersus etiam trochaica. nec illud seruant Latini, ut trimetros tantum uersus efficiant. nam crescunt a trimetris usque in octametros, id est faciunt uersus de sedecim pedibus, ultra numquam, nec iterum minorem sex pedibus uersum esse permittunt. </p>
+ </body>
+ </text>
+</TEI>

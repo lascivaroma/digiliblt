@@ -1,0 +1,2088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>De medicina</title>
+                <author>Plinius Secundus Iunior</author>
+                <respStmt>
+                    <resp>Correzione linguistica</resp>
+                    <name>David Paniagua</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica XML</resp>
+                    <name>David Paniagua</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>digilibLT</publisher>
+                <pubPlace>Vercelli</pubPlace>
+                <date>2011</date>
+                <availability>
+                    <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+                </availability>
+                <idno>dlt000412</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Corpus Medicorum Latinorum, vol. III. Plinii Secundi Iunioris qui feruntur De
+                    medicina libri tres, edidit A. Önnerfors, Berlin: Akademie Verlag, 1964, </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+                <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+            </projectDesc>
+            <editorialDecl>
+                                
+                <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+                <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+                    l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+                    e commenti e ogni altro contenuto redatto da editori moderni. </p>
+                <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+                    correttezza di trascrizione</p>
+                <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+                    distinzione u/v minuscole.</p>
+                <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+                <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+                    grassetto, corsivo, spaziatura espansa.</p>
+                <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+                    <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+                    <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+                    si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+                    [...]<lb/> lacuna integrata dagli editori:
+                    <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+                </p>
+                <p>Sono stati marcati i termini in lingua greca
+                    <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+                </p>
+                <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+                    target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+                    >Note di trascrizione e codifica di testi latini tardoantichi
+                    [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+            </editorialDecl>
+                    </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latino</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="lib" n="I">
+                <div type="index" n="index">
+                    <head>CAPITVLA LIBRI I</head>
+                    <p>I Capitis dolori. </p>
+                    <p>II Pthiriasi<del>s</del> et porrigini, id est pediculos in capite. </p>
+                    <p>III Vlceribus in capite manantibus. </p>
+                    <p>IIII Alopiciis. </p>
+                    <p>V Capillis denigrandis. </p>
+                    <p>VI Auriculis. </p>
+                    <p>VII Parotidibus, id est farcimina quae sub auribus nascuntur. </p>
+                    <p>VIII Epiforae, id est ad humores oculorum infusos. </p>
+                    <p>VIIII Oculis suffusis sanguine. </p>
+                    <p>X Naribus. </p>
+                    <p>XI Destillationi. </p>
+                    <p>XII Oris uitiis. </p>
+                    <p>XIII Dentibus. </p>
+                    <p>XIIII Dentioni infantum. </p>
+                    <p>XV Vuae. </p>
+                    <p>XVI Tussillis et faucibus. </p>
+                    <p>XVII Anginae, id est intra fauces farcimina quae nascuntur. </p>
+                    <p>XVIII Lichenis, id est inpetigines. </p>
+                    <p>XVIIII Elefantiasi. </p>
+                    <p>XX Vlceribus in facie manantibus. </p>
+                    <p>XXI Ceruicibus et his quae mollienda sunt. </p>
+                    <p>XXII Vmeris et lateribus. </p>
+                    <p>XXIII Pectori. </p>
+                    <p>XXIIII Tussi. </p>
+                    <p>XXV Sanguinem reicientibus. </p>
+                    <p>XXVI Vomicae.</p>
+                </div>
+                <div type="pr" n="pr">
+                    <head>PROLOGVS PLINII SECVNDI IVNIORIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Frequenter mihi in peregrinationibus accidit
+                        ut aut propter meam aut propter meorum infirmitatem uarias fraudes medicorum
+                        experiscerer, quibusdam uilissima remedia ingentibus pretiis uendentibus,
+                        aliis ea quae curare nesciebant cupiditatis causa suscipientibus. quosdam
+                        uero comperi hoc genere grassari ut languores, qui paucissimis diebus uel
+                        etiam horis possint repelli, in longum tempus extraherent,
+                            <supplied>ut</supplied> et aegros suos diu in reditu haberent
+                        saeuioresque ipsis morbis existerent. <milestone unit="par" n="2"/>
+                        quapropter necessarium mihi uisum est ut undique ualitudinis auxilia
+                        contraherem et uelut breuiario colligerem, ut quocumque uenissem possem
+                        eiusmodi insidias uitare et hac fiducia ex hoc tempore
+                            <supplied>iter</supplied> ingredi, ut sciam, si quis mihi languor
+                        inciderit, non facturos illos ex me reditum nec taxaturos occasionem.
+                            <milestone unit="par" n="3"/> Ante omnia autem puto in promptu habenda
+                        quae subito desiderata difficillima uidentur <supplied>inuentu</supplied>,
+                        sicut oleum uetus. quod si ad manum non fuerit, celerrime fieri potest.
+                        deferuefactum enim uel recentissimum et odorem et uires uetustissimi
+                        praestat. <milestone unit="par" n="4"/> et si forte curatio exegerit aquam
+                        marinam quae<supplied>ri</supplied> in mediterraneo,
+                            sol<supplied>licitudini</supplied> loc<supplied>us</supplied> non erit.
+                        bessis sextarii salis marini in quattuor sextarios aquae coniectus
+                        temperatum mare repraesentat, sextarius uero salsissimum. si uero plus
+                        adiciatur, exsuperat sal aquam nec liquari potest. <milestone unit="par" n="5"/> Oxymeli faciemus duobus cyathis mellis in sextario aceti
+                        resolutis. Thalassomeli quemadmodum conficiatur dicemus cum ad usum eius
+                        uenerimus. <milestone unit="par" n="6"/> Opus erit aliquando et polenta,
+                        quam sic comparari oportet. perfusum aqua hordeum nocte una siccatur. deinde
+                        in XX libris hordei adiciuntur tres librae lini seminis et coriandri
+                        selibra, salis acetabulum unum. tunc mane torretur et mola frangitur.
+                            <milestone unit="par" n="7"/> In omnibus curationibus meminerimus
+                        utillimum esse mel in quo apes mortuae sunt. quo uti si continget,
+                        affectandum erit. Lanam sucidam aeque meminerimus optimam esse e collo.
+                            <milestone unit="par" n="8"/> Iubemur in quibusdam remediis uti cinere
+                        uel auium uel animalium aliarumque rerum. omnia huius generis debebunt
+                        cremari in olla noua, addito operculo circumlitoque argilla, in furno
+                        feruenti. <milestone unit="par" n="9"/> Omnibus gargarizationibus calidis
+                        utemur. Oportet et pondera medicinalia mensurasque nosse. drachma tres
+                        scripulos habet. drachma pondus est denarii argentei, obolus drachmae pars
+                        sexta. cyathus drachmae decem, acetabulum drachmae quindecim, cochleare
+                        drachma dimidia, mina drachmae C. sextarius medicinalis habet uncias X.
+                            <milestone unit="par" n="10"/> Haec sunt fere quae in uniuersitatem
+                        obseruanda sunt. nunc singulis membris sua remedia applicabimus. procedente
+                        opusculo tertianis quartanis et huiusmodi malis quemadmodum occurratur,
+                        sicut in notitiam nostram uenit, tractabimus. incipiemus ergo a capite. </p>
+                </div>
+                <div type="cap" n="1">
+                    <head>I CAPITIS DOLORI</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Capitis dolor leuatur si de porri sectiui suco
+                        cochlearia duo et unum mellis permixta infundantur uel in nares uel in
+                        auriculas. ueteres dolores et uertigines betae nigrae suco temporibus
+                        inlinito emendantur. in dolore utilissimum est caput ungui suco intibi
+                            <supplied>cum rosaceo et aceto. ocimum</supplied> cum rosaceo aut
+                        myrtino aut aceto fronti imponitur. <milestone unit="par" n="2"/> ruta ex
+                        uino bibitur; et tritae sucus instillatur capiti cum aceto aut rosaceo.
+                        corona de puleio prodest imposita. pollinem siliginis admixto oui albo,
+                        simul et quiddam salis <del>albi</del> conspargi oportet frontique inlini,
+                        et super fascia pedalis alligetur. anethum ita uti de horto sublatum est
+                        decoquitur ex oleo, et suco eius dolor unguitur. <milestone unit="par" n="3"/> serpullum decoctum in aceto inlinitur fronti et temporibus. et si
+                        difficilis somnus sit, amigdalino oleo caput perungui oportet. tempora in
+                        dolore alio elixo inlinuntur. nucleorum persici farina cum melle et aceto
+                        capiti inlinitur. nuclei amigdalini triti fronti utiliter imponuntur, etiam
+                        in febre. bacae lauri impari numero in oleo contritae capiti instillantur.
+                            <milestone unit="par" n="4"/> si a sole doleat, cupressi folia contrita
+                        cum polenta imponuntur. hederae folia mollissima quaeque trita cum aceto et
+                        rosaceo aduersum omnem dolorem fronti inlinuntur. herba quae in capite
+                        statuae nascitur collecta in alicuius uestis panno et lino rufo inligata
+                        confestim dolorem sedat. panacis radix in oleo conteritur et caput
+                        perunguitur. <milestone unit="par" n="5"/> ueratrum in rosaceo decoctum et
+                        contritum capiti instillatur. peucedano ex oleo et aceto trito hemicrania
+                        unguntur. ossa de capite uulturis sub collo alligari prodest. gallinaceus
+                        pullus inclusus abstinetur nocte et die, sed et is qui languet, deinde eius
+                        gallinacei uel plumae uel crista alligatur collo dolentis. <milestone unit="par" n="6"/> surculus ex nido milui puluino subditur nescienti
+                        aegro. murinarum pellium cinis ex aceto fronti inlinitur. cochleae matutino
+                        se pascenti caput harundine praeciditur et in linteolo licio alligatur
+                        colloque suspenditur. fracto capiti tela araneae imposita ex oleo et aceto;
+                        non recedit nisi sanet dolorem. <milestone unit="par" n="7"/> aqua pota quae
+                        superfuit de bouis aut asini potione remediat si ter potetur. ceruini cornus
+                        cinis inlitus ex aceto et rosaceo prodest. </p>
+                </div>
+                <div type="cap" n="2">
+                    <head>II PTHIRIASI ET PRVRIGINI <del>ID EST PEDICVLOS IN CAPITE</del></head>
+                    <p>
+                        <milestone unit="par" n="1"/> Pthiriasis pruriginesque plerumque in
+                        perniciem solent conuertere. quibus succurrendum est. perunguntur itaque
+                        bulbis tritis ex uino, item sulphure ex uino. item per se ex cedro
+                        inlinuntur. alium cum aceto et nitro tritum infricatur. farina feniculi cum
+                        uino et nitro pruriginem purgat, et furfures ex aceto. <milestone unit="par" n="2"/> idem praestat radix ueratri in oleo decocta trita suffusaque.
+                        hyssopum ex oleo tritum et instillatum capiti pthiriasi medetur et
+                        pruritibus. oua ex uino et oleo cyprino et cedro pruritus scabiemque
+                        tollunt. <milestone unit="par" n="3"/> prurigines discutiuntur felle ouillo
+                        inlito cum creta Cimolia donec inarescat. lendes et alia capitis taetra
+                        animalia quae nocent lotione aquae marinae necantur. item si inlinatur Samia
+                        terra cum nitro et oleo. nitrum alumini mixtum capiti infrictum prurigines
+                        tollit. </p>
+                </div>
+                <div type="cap" n="3">
+                    <head>III VLCERIBVS IN CAPITE MANANTIBVS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Vlcera in capite manantia tamquam proprio
+                        morbo praecipue infantibus nascuntur, sed et uiros et mulieres cum ceperint
+                        grauiter infestant. quae fota urina tauri efficacissime sanantur. uitulino
+                        felle cum aceto tepefacto inlinuntur. <milestone unit="par" n="2"/> seuum
+                        uituli cum sale utilissimum est. testarum muricum purpurarumue cinere ex
+                        melle inlinuntur. alium cum sua reste comburitur cinisque eius ex oleo
+                        imponitur. menta trita et apposita siccat. <milestone unit="par" n="3"/>
+                        oleum amigdalinum cum uino expurgat. galbanum inlinitur ex melle. folia rubi
+                        in quo mora nascuntur contrita imponuntur. misy tritum cum uino in lana
+                        superponitur. malua macerata in urina humana et trita imposita ualde
+                        desiccat. <milestone unit="par" n="4"/> Omnia autem capitis ulcera cum
+                        purgata sunt iucundissime ad cicatricem perducuntur hoc ceroto. spumae
+                        argenti tunsae et cribratae libra, cerussae libra una teruntur, et cerae
+                        albae libra <supplied>ex</supplied> olei rosacei libra remittitur et
+                            refrigera<del>n</del>tur; deinde raditur et miscetur cum spuma et
+                        cerussa. <milestone unit="par" n="5"/> adiciuntur ouorum quattuor lutea
+                        cruda. prodest et resinae pituinae libra mixta cum cerae albae selibra et in
+                        oleo decocta, ita ut in acopi modo perunguatur pistillo mixtum. </p>
+                </div>
+                <div type="cap" n="4">
+                    <head>IIII ALOPECIIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Alopeciae magnam foeditatem afferunt et
+                        propter hoc seruorum pretia diminuuntur. itaque necessarium est eas quoque
+                        emendare. quae celerrime complentur pellium uiperarum cinere sparso.
+                        nasturcium cum sinape tritum impositum emendat. <milestone unit="par" n="2"/> cydonia cocta ex uino et cum cera trita inlita capillos restituunt.
+                        roboris pilulae cum adipe ursina tritae emendant. glandis faginae cinis cum
+                        melle et oleo Cyprio inlinitur. cinis ungularum mulae uel muli ex oleo
+                        myrteo, cinis murium impressus, cinis erinacei recens cum pice liquida.
+                            <milestone unit="par" n="3"/> gallinacei recens fimus inlinitur.
+                        sandaraca ex aceto. fluentem capillum continet leporis cinis cum oleo
+                        myrteo. fel taurinum cum Aegyptio alumine tepefactum inlinitur. </p>
+                </div>
+                <div type="cap" n="5">
+                    <head>V CAPILLIS DENIGRANDIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Potest uideri superuacuum inter remedia
+                        corporis ponere ea, quae ad decorem pertinent. sed quosdam pudet aut ipsos
+                        rubeos esse, aut in tantum luxuriae indulgent ut deliciae eorum inter se
+                        dissentiant uolentium in pueris rufos capillos, in uiris recusantium.
+                            <milestone unit="par" n="2"/> Quemadmodum denigrentur monstrabimus. ouum
+                        coruinum in aeneo uase permiscetur, deinde raso capiti in umbra inlinitur.
+                        habere debet in ore oleum is qui curabitur donec siccescat ouum, ne ei
+                        dentes denigrescant. <milestone unit="par" n="3"/> quarto die abluitur.
+                        sextarius sanguisugarum in duobus sextariis aceti diebus XL maceratur; ex
+                        oleo tritus deraso capiti in umbra inlinitur. dum siccescat, sicut superius
+                        praediximus, in ore oleum tenendum est. <milestone unit="par" n="4"/>
+                        siliquae erui prius quam exarescant numero L cum suis foliis et caulibus
+                        conteruntur et capiti raso inlinuntur. folia cupressi trita ex aceto
+                        efficiunt ut capilli nigri renascantur. spondilio peruncti crispi fiunt.
+                            <milestone unit="par" n="5"/> Operae pretium est his qui erubescunt
+                        senes esse succurrere, et si canos suos inficere uolunt, tamquam annos
+                        detracturi sint hoc nomine aetati, uermium terrenorum cinerem adiciant in
+                        oleo quo caput perunguant. </p>
+                </div>
+                <div type="cap" n="6">
+                    <head>VI AVRICVLIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Proxima mihi uidetur cura aurium, quae
+                        acutissimum dolorem inferunt simul ut passae sunt uel minimam offensam. scio
+                        certe quosdam medicos huius curationis sibi summam scientiam uindicasse et
+                        magnas mercedes poposcisse, cum aduersus morbos aurium unum aut alterum
+                        nossent remedium. nos multa proferimus, ut cum res exegerit possimus uti,
+                        cum ex his aliqua occurrerint. <milestone unit="par" n="2"/> Gari
+                        excellentis cyathus, aceti cyathus unus, mellis cyathus et dimidius: in
+                        calice nouo sensim decoquitur, spuma subinde penna tollitur, et cum spuma
+                        resederit, remouetur et ex eo tepidum infunditur. <milestone unit="par" n="3"/> ad omnes infusiones auriculae conchiliata lana obturandae sunt.
+                        ranarum adeps remissus instillatus dolorem statim tollit. si tument aures,
+                        suco coriandri mitigandae sunt prius. sucus hederae tepidus cum uino
+                        instillatur. <milestone unit="par" n="4"/>
+                        <del>mel cum rosaceo inditur</del> mel cum rosaceo et manna turis ad instar
+                        cochlearii adiciuntur. hoc et uulnera sanat et umores exsiccat. parum
+                        audientes utiliter acetum gargarizant. auricularum fracturis medentur bulbi
+                        triti et appositi et quinto die soluti. <milestone unit="par" n="5"/>
+                        foliorum rubi in quo mora nascuntur sucus tepidus instillatur. fel pecudis
+                        cum melle aures purgat. canini lactis instillatio sedat dolorem, grauitatem
+                        aurium adeps remissus cum absinthio trito. cum oleo infusus emendat. murium
+                        cinis cum melle instillatus inhibet dolorem. si aliquod animal intrauit,
+                        praecipuum est remedium murium fel aceto dilutum instillare. <milestone unit="par" n="6"/> si aqua <supplied>ingrediatur et non
+                            statim</supplied> fugiat, <del>et</del> adeps anserinus cum cepae suco
+                        inlinitur. deplorata autem uitia aurium sic sanantur. gliri detrahetur
+                        pellis et intestina eiusdem decoquuntur in uase nouo cum mellis heminis
+                        tribus usque ad tertias atque ita adseruatur, et cum opus est, strigle
+                        medicamentum tepefactum infunditur. ualde laudantur et terreni uermes cum
+                        anseris adipe cocti et instillati. <milestone unit="par" n="7"/> uerberatis
+                        auribus cochleae, quae in usu sunt cibi, apponuntur tritae cum myrrha et
+                        ture. cochleae minutae latae tritae fracturis aurium inlinuntur. <milestone unit="par" n="8"/> senectus serpentis feruenti testa usta et contrita
+                        instillatur ex oleo rosaceo contra uitia omnia sed praecipue
+                            graueolentia<supplied>m</supplied>, et si purulentae sint aures melius
+                        ex aceto et felle caprino et bubulo. <milestone unit="par" n="9"/> haec
+                        senectus post annum uires non habet. membrana ex uentre gallinaceo quae
+                        proicitur ex uino trita et adipe<supplied>s</supplied> gallinarum tepefacta
+                        infunduntur. blattae sine capite et pedibus et alis tritae inlitae in
+                        linteolo contusis auribus imponuntur. nitrum ex uino liquatum purulentis
+                        auribus medetur. <milestone unit="par" n="10"/> sonitus et tinnitus discutit
+                        nitrum tritum et siccum insparsum <supplied>uel</supplied> ex rosaceo tepido
+                            <del>et</del> in auribus inmissum. purulentis auribus infunditur fel
+                        tauri cum porri sectiui suco. <milestone unit="par" n="11"/> si grauitas sit
+                        aurium, eodem felle cum lacte muliebri perluendae sunt. equini fimi cinis
+                        cum rosaceo instillatur. seuum uituli cum adipe anseris et ocimi suco, fel
+                        taurinum uel caprinum cum rosaceo tepido auribus inditur. <milestone unit="par" n="12"/> omnibus quae inmittuntur tepidis utendum est. urina
+                        apri tepida infunditur: ad hos usus seruatur in uitreo uase. si aqua
+                        intrauerit in auriculam dextram, sinistro pede desultare oportet capite in
+                        dextro umero inclinato, si in sinistram, ex diuerso. si quod animal
+                        intrauerit et inspuatur in aurem, exire creditur. </p>
+                </div>
+                <div type="cap" n="7">
+                    <head>VII PAROTIDIBVS <del>ID EST FARCIMINA QVAE SVB AVRIBVS
+                        NASCVNTVR</del></head>
+                    <p>
+                        <milestone unit="par" n="1"/> Raro medici parotidibus curationem non
+                        deuocant ad scalpellum, cum et reprimi possint et si res exegerit aperiri
+                        molliore curatione. reprimit eas radicis brassicae cinis cum melle inlitus.
+                            <milestone unit="par" n="2"/> lupini ex aceto cocti tritique discutiunt.
+                        uitium cinis cum cera et resina paribus ponderibus imposita desiccant.
+                        apponitur muricum testarum cinis cum melle uel conchyliorum ex mulso.
+                            <milestone unit="par" n="3"/> sepiae ossa cum axungia uetere tusa
+                        medentur. lini semen tusum eum melle mixtum mitigat. ficus siccae decoctae
+                        ex uino tritae adhibentur. comprimit eas fimus columbinus cum farina
+                        hordeacea ex melle. <milestone unit="par" n="4"/> noctuae cerebrum uel iecur
+                        cum oleo tepido infunditur auriculae. parotidi multipedae cum resinae parte
+                        tertia inlinuntur. creta Cimolia ex aceto siccat. <milestone unit="par" n="5"/> plantago cum axungia uetere persanat. ursinus adeps conteritur
+                        cum seui taurini pari pondere et cerae. fimo caprae cum axungia inlinuntur.
+                        caput uiperae in linteolo inuolutum et faucibus alligatum sanat. </p>
+                </div>
+                <div type="cap" n="8">
+                    <head>VIII EPIPHORIS <del>HOC EST OCVLORVM VMORIBVS</del></head>
+                    <p>
+                        <milestone unit="par" n="1"/> Cochleae sine putamine tritae inlitae fronti
+                        cum turis polline ualidissime prosunt. tumores oculorum sedat mulsum tepidum
+                        in penicillo super impositum. corticis sepiae farina in epiphora ex lacte
+                        mulieris circumlinitur. <milestone unit="par" n="2"/> caro peponis mirifice
+                        refrigerat. alba beta trita fronti imponitur. eundem effectum habent bulbi
+                        triti oculis impositi. apio uiridi trito cum pane oculi teguntur. ocimo ex
+                        uino optimo trito oculi circumlinuntur. <milestone unit="par" n="3"/> ruta
+                        cum polenta contrita et imposita lenit dolorem. anethi radix in uino trita
+                        inlinitur. papaueris cauliculus uel siccus uel uiridis cum suo fructu tritus
+                        imponitur. lini semen cum ture ex aqua tusum circumlinitur. siliginis grana
+                        in ferro tostata ex uino trita circumlinuntur <milestone unit="par" n="4"/>
+                        item lenticula cum cydoneis cocta et una trita adhibetur. lentisci teneri
+                        folia contrita et fronti imposita epiphoram suspendunt. mandragorae radices
+                        tusae cum rosaceo ex uino tritae circumligatae et epiphoram sanant et
+                        dolorem statim sedant. <milestone unit="par" n="5"/> folia cicutae trita et
+                        ita fronti imposita epiphoram et tumores et dolorem tollunt. anacollima hoc
+                        modo fieri solet: lana non curata cum albo oui et turis polline fronti
+                        applicatur. oui album oculis infusum epiphoras sedat et uredines mitigat et
+                        refrigerationem praestat. lutea ouorum ex rosaceo et mulso in lana super
+                        oculos imponuntur. <milestone unit="par" n="6"/> caseo molli caprino ex aqua
+                        feruenti imposito epiforae sedantur. fimus caprinus ex melle oculis
+                        inlinitur. uulpinam linguam habentem in armilla lippiturum negant. </p>
+                </div>
+                <div type="cap" n="9">
+                    <head>VIIII OCVLIS SVFFVSIS SANGVINE</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Sanguis instillatur columbae uel palumbi uel
+                        perdicis uel turturis. superimponi debet splen<supplied>ium</supplied> ex
+                        melle coctum lanaque sucida ex oleo aut uino. et radix rutae inlita emendat.
+                    </p>
+                </div>
+                <div type="cap" n="10">
+                    <head>X NARIBVS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Plerumque euenit ut ex naribus is modus
+                        sanguinis profluat qui nisi reprimatur afferat mortem, neque aliter exiliat
+                        quam solet e uena percussa erumpere. occurrendum est itaque uelocissimo
+                        periculo et magno impetu et subito saeuienti. <milestone unit="par" n="2"/>
+                        in hoc itaque casu porro sectiuo trito nares obturantur. ruta trita aeque
+                        reprimit in naribus indita. eodem modo et radice urticae utendum est.
+                            <milestone unit="par" n="3"/> semen urticae cum lana sucida coicitur in
+                        nares cum oleo rosaceo et auriculae lana sucida spisse obturantur, et ita
+                        sanguis continetur. <milestone unit="par" n="4"/> coagulum agninum mirifice
+                        facit ex aqua subactum et infusum. adeps anserinus cum butyri pari pondere
+                        ingeritur pastillis. prosunt cochleae contritae et fronti inlitae.
+                            <milestone unit="par" n="5"/> Graueolentiae narium sic subuenitur. sucus
+                        hederae infunditur, aristolochiae cum cypero. dracontei semen cum melle pari
+                        pondere naribus inditur. hoc etiam si carcinomata sint emendat. dicitur
+                        prodesse qui hoc malo uexabitur ut osculetur nares mularum. </p>
+                </div>
+                <div type="cap" n="11">
+                    <head>XI DESTILLATIONI</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Cinis testarum ostreorum in cibo; pane
+                        colligitur in modum salis. porri capitati folia cruda sine pane eduntur.
+                            <milestone unit="par" n="2"/> caninum corrigium numquam unctum cuilibet
+                        digito in manu circumligatur. ostrea cum sua testa ita ut electa sunt in
+                        carbonibus coquuntur et in cibo dantur. <milestone unit="par" n="3"/> oleum
+                        calidum eunti dormitum in cerebrum infunditur et in nares coicitur. in manu
+                        dextera duo digiti medii lino alligati inter se destillationem compescunt.
+                    </p>
+                </div>
+                <div type="cap" n="12">
+                    <head>XII ORIS VITIIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Oris saporem commendari affirmant murino
+                        cinere cum melle si fricentur dentes. admiscent quidam tamaricae maritimae
+                        radices. mero ante somnos colluere ora propter halitus, frigida
+                            <supplied>matutinis</supplied> utile dicitur. <milestone unit="par" n="2"/> folia fagina commanducantur aduersus gingiuarum et labiorum
+                        uitia. aeque folia rubi in quo mora nascuntur. eiusdem generis rubi teneri
+                        pampini decoquuntur ex uino ad tertias idque uinum in ore continetur.
+                            <milestone unit="par" n="3"/> ulcera plantaginis sucus emendat, et folia
+                        eius cocta radicesque eius commanducatae. membrana ex ouo cocto uel crudo
+                        detracta labiorum fissuris medetur. oris halitum emendat murinus cinis cum
+                        melle dentibus infricatus. <milestone unit="par" n="4"/> linguae ulcera et
+                        labiorum hirundines ex mulso coctae sanant. adeps anserinus aut gallinae
+                        rimas emendat. si feruentia os intus exusserint, continuo sanatur
+                        gargarizatione lactis canini. <milestone unit="par" n="5"/> aduersus
+                        foetorem oris folia myrti et lentisci pari pondere et gallae Syriacae
+                        dimidium pondus una teri oportet et aspersa uino uetusto matutino mandere
+                        uel hederae bacas cum casia et myrrha pari pondere aspersa uino. <milestone unit="par" n="6"/> eadem ratione ulcera oris emendantur. hoc et ad
+                        stomachum optime, sed melius mororum domesticorum <del>sed melius eorum quae
+                            in rubis nascuntur</del> sextarii tres leni uapore decoquuntur, ut ad
+                        spissitudinem mellis ueniat: <milestone unit="par" n="7"/> tum additur de
+                        myrrha pondus denarii et tantundem croci et in unum totum teritur, et inde
+                        prout uisum fuerit aeger accipit. item suci mororum sextarii duo cum uno
+                        Attici mellis decoquuntur, et inde stomachicus prout uisum fuerit accipiet.
+                            <milestone unit="par" n="8"/> capitis leporini cinis adiecto nardo
+                        mulcet graueolentiam. ulcera et rimas seuum bouis uel uituli cum adipe
+                        anseris emendat. amurca ex oliva nigra oris uitiis subuenit. </p>
+                </div>
+                <div type="cap" n="13">
+                    <head>XIII DENTIBVS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Cucurbitae satiuae decoctae sucus inhibet
+                        dolorem et mobilitatem stabilit in ore compressus. inula ab ieiunis
+                        commanducata dentes confirmat. <milestone unit="par" n="2"/> aqua in qua
+                        alium decoctum est gargarizatur, et idem alium cauis dentibus inditur.
+                        asparagi erratici sucum in ore contineri oportet aduersum mobilitatem.
+                        acetum si in ore contineatur gingiuas stringit et dentes continet.
+                            <milestone unit="par" n="3"/> oliuae nigrae amurcae muria eosdem
+                        stabilit. caprifici radix ex uino decoquitur, uinum in ore continetur, radix
+                        trita maxillae imponitur aduersus dolorem. mori radix per messes inciditur,
+                        et haec mittit sucum aptissimum dolori. <milestone unit="par" n="4"/>
+                        nucleus gallae commanducatus dolori medetur. taedae pingues in astulas
+                        conciduntur et in aceto coquuntur, idque acetum in ore continetur. aqua in
+                        qua lentiscus decocta est mobiles confirmat. <milestone unit="par" n="5"/>
+                        ruborum in quibus mora nascuntur pampini decoquuntur in uino austeri et
+                        commanducantur aduersum mobilitatem, idque uinum in ore tenetur. <milestone unit="par" n="6"/> millefolium in dolore manditur tritumque maxillae
+                        imponitur. radix hyoscyami ex aceto commanducatur. plantaginis radix
+                        manditur et eiusdem suco in aceto decoctae tepefacto dentes conluuntur.
+                            <milestone unit="par" n="7"/> quinquefolium in quo fraga nascuntur
+                        eluitur aceto siue aqua marina, deinde coquitur ad tertias ex uino et aceto,
+                        idque in ore diu continetur. quidam malunt cinere eius dentes fricare.
+                        hysopo utiliter conluuntur. <milestone unit="par" n="8"/> Cauis dentibus
+                        cinis murini fimi inditur. uermes terreni decocti in oleo et triti
+                        infunduntur auriculae ab ea parte qua dentes dolent. eorundem uermium cinis
+                        exesis dentibus coniectus et cera obturatus perfacile eos cadere cogit.
+                            <milestone unit="par" n="9"/> idem uermium cinis inlitus dolentibus
+                        iuuat: comburi debent in testa. harenulae quae in cornibus cochlearum
+                        inueniuntur cauis dentibus inditae continuo finiunt dolorem. <milestone unit="par" n="10"/> idem praestat fimus corui in lana alligatus.
+                        inuiolati praestantur dentes si quis cottidie mane ieiunus sub lingua habeat
+                        granum salis donec liquescat. ceruini cornus farina in dolore uel colluuntur
+                        uel fricantur. <milestone unit="par" n="11"/> tali bubuli cinis dentifricium
+                        est. ossa ex ungulis suum combusta eundem usum praestant. caprino lacte
+                        utiliter dentes colluuntur. <milestone unit="par" n="12"/> ebuli radicem ex
+                        aceto decoque, et diu in ore teneatur. folia de buxo et ramusculos anethi
+                        tres in olla mittis et cum aceto ad tertias decoques: tepefactum in ore
+                        teneat. </p>
+                </div>
+                <div type="cap" n="14">
+                    <head>XIIII DENTIONI INFANTIVM</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Dentes equis qui primi cadunt alligati facilem
+                        dentionem praestant: melius si terram non tangant. lacte caprino aut
+                        leporino cerbello gingiuae perfricantur. <milestone unit="par" n="2"/>
+                        delphini dentium cinis cum melle gingiuis inlinitur, et eius dente gingiuae
+                        tanguntur. eundem effectum habent dentes caniculae. cerebrum pecudis in cibo
+                        datur. </p>
+                </div>
+                <div type="cap" n="15">
+                    <head>XV VVAE</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Cinis testarum ostreorum addito melle
+                        inlinitur. garum optimum cochleari subicitur. radicum brassicae cinis tactu
+                        reprimit. einis anethi uuam leuat. <milestone unit="par" n="2"/> sinape
+                        gargarizatur cum aceto et melle. sucus urticae gargarizatur. rubi in quo
+                        mora nascuntur cauliculi decoquuntur ex uino idque uinum gargarizatur
+                        praesentaneo remedio. <milestone unit="par" n="3"/> eorundem ruborum folia
+                        arefiunt in umbra crematorumque cinere cochleari tacta resilit. hirundininus
+                        cinis cum melle inlinitur. <milestone unit="par" n="4"/> laseris Cyrenaici
+                        granum carbone sicca et subice cochleario. si iacet uua, uerticem morsu
+                        alterius hominis suspendi utile est. caseus recens cum melle
+                            suggillati<del>m</del> uuam emendat. </p>
+                </div>
+                <div type="cap" n="16">
+                    <head>XVI TONSILLIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Quas tonsillas appellant ex utraque gutturis
+                        parte et faucibus lactis ouilli calidi gargarizatio prodest. fimus
+                        columbinus tritus ex passo gargarizatur. <milestone unit="par" n="2"/> ficus
+                        arida et nitrum una teruntur, deinde faucibus adlinuntur: asperitatem
+                        faucibus emendat et destillationem. alium tritum ex pusca gargarizatum.
+                        cochleae dempta tantum terra coqui debent inlotae, deinde conteri et in
+                        passo dari potui. <milestone unit="par" n="3"/> si quis grillum contriuerit
+                        manu, suas tonsillas uel alienas tetigerit, leuabit. lacte caprino cum
+                        myrrha decocto ex sale exiguo gargarizabitur. <milestone unit="par" n="4"/>tonsillis priuatim medentur renes uulpis aridi cum melle triti et inliti. hirundininus cinis ex melle ab interiore parte tonsillis inlinitur.<lb/>
+                        <milestone unit="par" n="5"/>Lini semen et anethum in oleo et aqua decoctum inponitur et acetum
+                        gargarizatur. rubi in quo mora nascuntur caules teneri tunduntur; exprimitur
+                        sucus ex his, qui in sole ad crassitudinem mellis cogitur: <milestone unit="par" n="6"/> hic inlinitus ab interiore parte mire prodest. herba
+                        quae nascitur super fimeta rustica efficacissime bibitur in aqua ubi mus
+                        decoxerit. <milestone unit="par" n="7"/> et uerminaca imposita prodest.
+                        caninum corr<supplied>ig</supplied>ium ter collo circumdatur. fimus
+                        columbinus, uinum, oleum in unum trita inlinuntur. </p>
+                </div>
+                <div type="cap" n="17">
+                    <head>XVII ANGINAE <del>ID EST INTRA FAVCES FARCIMINA QVAE
+                        NASCVNTVR</del></head>
+                    <p>
+                        <milestone unit="par" n="1"/> Menarum salsarum cinis de capite <del>id est
+                            salsorum piscium</del> ex melle inlinitur. alium tritum ex pusca
+                        gargarizatur. lini semen et anethum in oleo ex aqua decoctum ad tertias
+                        imponitur. acetum et sal gargarizatur. <milestone unit="par" n="2"/> nucis
+                        nuclei iuglandis triti cum ruta et oleo imponuntur. pix Bruttia cum melle
+                        inlinitur. fel taurinum uel anserinum cum melle, ex quo inlitis anginis
+                        celeriter succurritur. <milestone unit="par" n="3"/> pullus hirundininus, si
+                        fieri potest ripariae, si minus siluestris, si neutrum eius quae in domibus
+                        nidificat deuoratus totum annum securum ab angina facit. <milestone unit="par" n="4"/> eosdem pullos quidam strangulant et comburunt
+                        cineremque eorum in cibo dant aut in potione. milipedae numero XX in unum
+                        tritae in aquae mulsae hemina aut aceti melle addito decoquuntur donec
+                        lentescat totum quod coquitur, et sic imponitur. <milestone unit="par" n="5"/> hyssopum cum uino decoctum gargarizatur. peucedanum cum coagulo uituli
+                        marini aequis ponderibus inlinitur. suci de quinquefolio pondus denarii ex
+                        aquae cyathis tribus potui datur. <milestone unit="par" n="6"/> fel caprinum
+                        uel taurinum aut ursinum cum melle inlinitur. ipsius hominis quacumque ex
+                        parte sanguis missus inlinitur efficacissime prodest. </p>
+                </div>
+                <div type="cap" n="18">
+                    <head>XVIII LICHENIS <del>ID EST INPETIGINES</del></head>
+                    <p>
+                        <milestone unit="par" n="1"/> Graeco nomine lichenes appellantur, quod uulgo
+                        mentagram appellant uitium, quod acerrime per totam faciem solet serpere
+                        oculis tantum inmunibus. <milestone unit="par" n="2"/> descendit et in
+                        collum et in pectus manusque; foedat et cutem furfure. Manlius Cornutus
+                        praetor prouinciae Aquitanicae legatus <supplied>HS</supplied> CC in hoc
+                        morbo locauit se curandum. <milestone unit="par" n="3"/> Huic ergo uitio sic
+                        conantur mederi. cantharidas inlinunt cum suco uuae tamineae et seuo ouis
+                        uel caprae. murinus fimus ex aceto. cinis erinacei ex oleo. in hac curatione
+                        prius faciem ex nitro et aceto foueri praecipiunt. <milestone unit="par" n="4"/> inlinunt et adipem uituli marini. delphini iocineris cinerem ex
+                        aqua inlinunt. eos qui sic uexabuntur osculari non oportet, quoniam
+                        contactus perniciosus est. ficulni caules ex aceto cocti tritique
+                        inlinuntur. <milestone unit="par" n="5"/> hibisci radix cum glutine lupino
+                        ex aceto decocta ad quartas. flos uisci cum calce subactus laudatur.
+                        tithymalli flos cum resina decoctus adhibetur. <milestone unit="par" n="6"/>
+                        thapsiae radix trita cum melle imponitur. glutinum factum ex genitalibus
+                        uitulorum liquatur ex aceto cum sulphure uiuo ramo ficulneo permixto, ita ut
+                        recens bis in die imponatur. lomentum aequis partibus cum turis polline
+                        imponitur ex aqua. </p>
+                </div>
+                <div type="cap" n="19">
+                    <head>XVIIII ELEPHANTIASI</head>
+                    <p>
+                        <milestone unit="par" n="1"/> A facie hoc malum plerumque incipit et nare
+                        prima surgit ueluti lenticula; quae celerrime per totum corpus serpit,
+                        maculosa uariis coloribus et inaequali cute, alibi crassa, alibi tenui, dura
+                            <supplied>aliis</supplied> locis et quasi sub scabie aspera, postremo
+                        nigrescente <supplied>et ad ossa carnes apprimente</supplied>, tumentibus
+                        digitis in pedibus manibusque. <milestone unit="par" n="2"/> hic morbus
+                        peculiaris est Aegyptiorum populis. totus exitiosus est, cum in reges
+                        incidit, quoniam his solia in balneis humano sanguine temperantur.
+                            <milestone unit="par" n="3"/> his qui hoc malo afficiuntur cinis
+                        mustelae et eiusdem sanguis mixtus inlinitur. radix asparagi decocta in
+                        aceto trita apponitur. mentastri folia commanducata adhibentur; cedro
+                        inlinuntur. </p>
+                </div>
+                <div type="cap" n="20">
+                    <head>XX VLCERIBVS IN FACIE MANANTIBVS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Bulbi triti ex aceto et sulphure medentur.
+                        nitrum ex melle et lacte bubulo succurrit. faciem purgat atque erugat adeps
+                        cygni. </p>
+                </div>
+                <div type="cap" n="21">
+                    <head>XXI CERVICIBVS ET HIS QVAE MOLLIENDA SVNT</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Adipis anserini perunctio remollit. eodem modo
+                        adeps gruis. farina lini seminis nitro adhibito ex uino calido in modum
+                        malagmatis temperatur. <milestone unit="par" n="2"/> farina hordeacea cum
+                        fico tusa. lenticula in aceto discocta. fici folia et ipsa poma inmatura
+                        contrita. hammoniacum cum melle impositum. iuniperi semen ex oleo inlinitur.
+                            <milestone unit="par" n="3"/> folia alni <del>uel alei</del> ex aqua
+                        feruenti remedio sunt tumori. ouorum lutea cum adipe anserino et rosaceo.
+                        fel taurinum uel caprinum inlinitur. <milestone unit="par" n="4"/> butyro
+                        aut adipe ursino perfricantur. opisthotoniam leuat urina caprae auribus
+                        infusa. fimus caprinus cum bulbis inlinitur. opisthotonicis ex milui
+                        iocinere arido tres oboli in tribus cyathis aquae mulsae bibendi dantur.
+                        adeps lupinus utiliter inlinitur. <milestone unit="par" n="5"/> in ceruicum
+                        dolore poplites utiliter fricantur, et e diuerso in poplitum dolore ceruicem
+                        fricari remedium est. </p>
+                </div>
+                <div type="cap" n="22">
+                    <head>XXII VMERIS ET LATERIBVS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Doloribus umerorum mustelae cinis cum ouo
+                        inlinitur. sal in sacco ex aqua feruenti calefactus adicitur. <milestone unit="par" n="2"/> Haec quae supra scripta sunt eodem modo et ad dolorem
+                        laterum faciunt, peculiariter uero quae sequuntur. galbanum impositum.
+                        cochleae in tisana coctae et resina terebintina in cibo prosunt. <milestone unit="par" n="3"/> cochleae lateri impositae. upupae caro in cibo
+                        laudatur. lanae sucidae ex oleo calido imponuntur, melius
+                            <supplied>ex</supplied> axungia uetere. <milestone unit="par" n="4"/>
+                        <del>uel</del> uellera sulphure uiuo suffita efficaciter excalefaciunt.
+                        pugionis mucrone quo homo percussus est leuiter pungi prodest. </p>
+                </div>
+                <div type="cap" n="23">
+                    <head>XXIII PECTORI</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Plurimis morbis obnoxium pectus est et
+                        impatientissimum frigoris. quod cum uexatum est, non uno genere saeuit sed
+                        infert tussim, purulentas excreationes, sanguinis uomitus, pthisin,
+                        synanchen. quibus singulis quemadmodum placeat succurri explicare conabimur.
+                    </p>
+                </div>
+                <div type="cap" n="24">
+                    <head>XXIIII TVSSI</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Sedatur tussis alio in faba fricta discocto
+                        eaque faba in cibo sumpta, uel ex melle in cibo sumpta. et tussi et
+                        purulentis excreationibus medetur. <milestone unit="par" n="2"/> aduersum
+                        diuturnam tussim Falernum uinum utiliter sorbetur merum ab ieiunis. ficus
+                        aridae coquuntur cum hysopo ex aqua eaque aqua tussientibus propinatur.
+                            <milestone unit="par" n="3"/> sunt membranae in uentribus gallinaceorum
+                        quae proiciuntur: harum cinis potionibus inspersus destillationes pectoris
+                        et umidas tusses siccat. <milestone unit="par" n="4"/> testae cochleae
+                        crudae tritae cum aquae tepidae cyathis tribus sorbentur. ad tussim sedandam
+                        cochleae cum testis suis tritae adiecto croco eduntur. <milestone unit="par" n="5"/> seuum ouium decoctum cum uino austeri tussi medetur. oua cocta
+                        cum melle trita in cibo dantur. oua cruda permixta cum pari modo passi
+                        bibuntur. <milestone unit="par" n="6"/> sandaraca cum resina terebintina ouo
+                        sorbili indita editur. ursinum fel permixtum cum melle. saliuae equi triduo
+                        potatae ternis potionibus ex aqua calida sanant: equum morti tradunt,
+                        hominem sanant. <milestone unit="par" n="7"/> pulmo ceruinus cum gula
+                        arefactus in fumo, deinde tusus ex melle cottidie sumendus. sorbitiunculam
+                        ex alica seuo caprino peruncta<del>m</del> dabis, picem liquidam in ouo.
+                        iecur lupi coctum esui datur. </p>
+                </div>
+                <div type="cap" n="25">
+                    <head>XXV SANGVINEM REICIENTIBVS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Si <supplied>qui</supplied> ex alto
+                        praecipitati sunt, millefolium bibendum datur ex aceto. cruenta excreantibus
+                        quinque ouorum mediola cruda in uini hemina propinantur. <milestone unit="par" n="2"/> si et purulenta sint eodem tempore, ouum crudum cum
+                        pari mensura porri sectiui suci itemque Graeci mellis calefactum hauritur.
+                        ad excreationem cruentam cochleae elixae teruntur et ex aqua bibuntur.
+                            <milestone unit="par" n="3"/> prodest aqua pota in qua cydonia decocta
+                        sunt. cochleae inlotae ex aqua marina coquuntur et ita deuorantur. cochleae
+                        cum testis suis tritae addito croco eduntur. <milestone unit="par" n="4"/>
+                        spongiae Afrae cinis cum porri sectiui suco sorbetur. porri capitati sucus
+                        cum farina turis sorbetur. farina qua chartae glutinantur calda in modum
+                        sorbitionis sumitur. <milestone unit="par" n="5"/> aqua in qua rosa et ruta
+                        et hyssopum decocta sunt uino miscetur et ita potui propinatur. marruuii
+                        scopae cum panico aqua decoquuntur eaque aqua bibitur. <milestone unit="par" n="6"/> uuae in uinaceis seruatae aptae sunt excreantibus sanguinem.
+                        oleastri folia decoquuntur ex melle et dantur cochlearia tria. <milestone unit="par" n="7"/> palmae Thebaicae eduntur. cydonia matura deuorantur
+                        cruda. nuclei amigdalorum cum amylo et mentastro deuorantur. semen urticae
+                        aut myrti contritum in uino bibitur. <milestone unit="par" n="8"/> gummi
+                        optimum cum uino resoluitur et datur. si fieri potest, gummi ex amigdalis
+                        sit. ruborum in quibus mora nascuntur cauliculi teneri tunduntur, ex his
+                        sucus exprimitur, qui in sole ad crassitudinem mellis siccatur: hic haustus
+                        sanguinem efficacissime claudit. <milestone unit="par" n="9"/> eorundem
+                        ruborum caules ex uino austeri decocti eduntur idque uinum bibitur in
+                        potione. cornus ceruini cinis in uino uetere potatur. <milestone unit="par" n="10"/> bubulinus sanguis cum aceto modice sumptus. haedini sanguinis
+                        recentis tres cyathi cum pari mensura aceti feruentes potui dantur. coagulum
+                        ceruinum ex aceto datur; item coagulum leporinum eodem modo. </p>
+                </div>
+                <div type="cap" n="26">
+                    <head>XXVI VOMICAE</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Vomicae plerumque in lateribus erumpunt in
+                        membranas superuacuas et ex languoribus natas umore concreto in tussimque
+                        conuerso, qui adeo fecunde subnascitur ut non tam excreetur quam euomatur.
+                            <milestone unit="par" n="2"/> eos itaque qui eam fortunam inciderint
+                        oportebit ambulare uectari ungui; lectus et requies. qui hunc morbum alunt,
+                        sustinendi erunt cibis firmis et glutinosis, auibus pinguibus, operibus
+                        pistoriis plus aequo mellitis, prout patientur facultates. <milestone unit="par" n="3"/> Vomicam sanat priuatim id mel in quo sunt apes
+                        demortuae. ad hunc autem morbum facit optime potio haec: ouum crudum in uaso
+                        funditur, putamen eius repletur suco marrubii atque in eodem uase coicitur;
+                            <milestone unit="par" n="4"/> item repletur melle et similiter ibi
+                        adicitur, et ita permixta calefactaque ad teporem haec hausta uomicam
+                        rumpunt purgant ad sanitatem perducunt. <milestone unit="par" n="5"/> Multi
+                        medici se <del>medicos</del> aduersum hoc malum non inueniunt. ego certe
+                        scio raro quemquam huic pesti ereptum qui se illis credidisset. <milestone unit="par" n="6"/> uerum ita curatio eius expedita est ut etiam hieme
+                        asperrima explicari possit intra diem quadragesimum, uere autem uel aestate
+                        breuiore tempore. aliquot a me curati sunt intra praefinitum tempus
+                        compositione ea quae infra scripta est: <milestone unit="par" n="7"/>
+                        mandragorae pondus denarii, hyoscyami pondus denarii, opii pondus denarii,
+                        turis pondus denarii, croci pondus denarii <del>singularum rerum
+                            omnium</del>. haec ex uino diligenter teruntur ad crassitudinem paulo
+                        spissiorem quam mellis. <milestone unit="par" n="8"/> ex hoc medicamento
+                        initio pondus uictoriati in tribus cyathis aquae euntibus dormitum datur,
+                        mox deinde ex eodem modo aquae pondus denarii. prima potione profectus
+                        sentitur, deinde incredibili saltu explicatur curatio. </p>
+                </div>
+            </div>
+            <div type="lib" n="II">
+
+
+                <div type="index" n="index">
+                    <head>CAPITVLA LIBRI II</head>
+                    <p>I Pthisicis. </p>
+                    <p>II Syntexi <supplied>id est</supplied> percussio sanguinis aut fleumae. </p>
+                    <p>III Sciaticis. </p>
+                    <p>IIII Praecordiorum dolori. </p>
+                    <p>V Ventri molliendo. </p>
+                    <p>VI Ventri sistendo. </p>
+                    <p>VII Coleribus. </p>
+                    <p>VIII Torminibus. </p>
+                    <p>VIIII Tenesmo. </p>
+                    <p>X Dysentericis <del>et coeliacis</del>. </p>
+                    <p>XI Coeliacis <supplied>id est</supplied> tortura uel commissiones
+                        intestinorum. </p>
+                    <p>XII Tineis. </p>
+                    <p>XIII Lieni siue spleni.</p>
+                    <p> XIIII Lumborum dolori. </p>
+                    <p>XV Sedis uitiis. </p>
+                    <p>XVI Coli dolori et omnium intestinorum. </p>
+                    <p>XVII Condylomatis <del>collectio sanguinis</del>. </p>
+                    <p>XVIII Vesicae dolori. </p>
+                    <p>XVIIII Incontinentiae urinae. </p>
+                    <p>XX. Verendorum uitiis. </p>
+                    <p>XXI Testibus et ramicibus. </p>
+                    <p>XXII Inguinibus. </p>
+                    <p>XXIII Vlceribus. </p>
+                    <p>XXIIII Cruribus et tibiis. </p>
+                    <p>XXV Talorum dolori et tumori.</p>
+                    <p> XXVI Pernionibus et uitiis pedum. </p>
+                    <p>XXVII Clauis et callis. </p>
+                    <p>XXVIII Podagrae dolori.</p>
+                </div>
+                <div type="cap" n="1">
+                    <head>I PTHISICIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Inuenio iam desperatum pthisicum sanatum hoc
+                        modo. radicem decoquis in Punici mali cortice: mixtum ex aquae cyatho uno et
+                        lactis pari mensura cottidie sumptum profuit. <milestone unit="par" n="2"/>
+                        utilius est pthisicis et longis languoribus qui tenentur morari in saltibus
+                        ubi pix nascitur quam in mari nauigare et marina loca uisitare. <milestone unit="par" n="3"/> cancri fluuiatiles ex iure in cibo sumpti ieiunis
+                        dantur. lacerta uiridis decocta in uini sextariis tribus ad cyathum unum,
+                        singulis cochlearibus pthisico datis diebus singulis donec conualescat.
+                            <milestone unit="par" n="4"/> propinatur cochlearum cinis ex uino
+                        austero. suis feminae herba pastae laridum in cibo datur. carnes asini ex
+                        iure sumptae. suis fimi cinis ex passo propinatur. <milestone unit="par" n="5"/> adipis recentis pondo quadrans decoquitur in uini cyathis
+                        tribus; additur eo mel optimum, et pilulis gluttitur. </p>
+                </div>
+                <div type="cap" n="2">
+                    <head>II SYNTEXI</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Syntexis quoque nec periculo nec facie pthisi
+                        dissimilis morbus est. cui sic medetur. alicae cyathi III in passi sextarium
+                        et aquae congium commiscentur et sensim coquuntur donec aqua consumatur;
+                            <milestone unit="par" n="2"/> tunc suffunditur lactis ouilli sextarius
+                        aut caprini, quo subferuefacto fit genus sorbitionis. qua per se primis
+                        diebus curationis utuntur, procedentibus diebus et mel adiciunt. utillimum
+                        putant eos in aqua marina lauari. </p>
+                </div>
+                <div type="cap" n="3">
+                    <head>III SCIATICIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Vermis terrenus effoditur et imponitur in
+                        catillum ligneum fissum ferro alligatum; aqua perfunditur rursusque in eo
+                        loco ex quo erutus est uiuus suffoditur et ea aqua in eodem catillo bibitur.
+                            <milestone unit="par" n="2"/> cochleae crudae tritae ex uino Aminneo cum
+                        pipere bibuntur. lacerta uiridis dempto capite et pedibus cum interaneis
+                            <supplied>ita</supplied> condita, ut fastidium abigat, in cibo datur.
+                            <milestone unit="par" n="3"/> rubiam qua pelles conficiuntur cottidie
+                        bibere utile est et lau<supplied>a</supplied>ri. genestae rami plurimis
+                        diebus in aceto macerantur, deinde tunduntur et coquuntur: ex eo suco
+                        cottidie cyathus potui datur. <milestone unit="par" n="4"/> fimus bubulus
+                        calefactus in cinere feruenti locis dolentibus in foliis cuiuscumque holeris
+                        imponitur. </p>
+                </div>
+                <div type="cap" n="4">
+                    <head>IIII PRAECORDIORVM DOLORI</head>
+                    <p>
+                        <milestone unit="par" n="1"/> In uniuerso praecordia appellantur quae aliqui
+                        in plura uocabula diuidunt, uocantes modo stomachum, interdum iecur,
+                        interdum praecordia. haec cum induruerint praeter grauissimum dolorem
+                        uelocissimam mortem ingerunt. <milestone unit="par" n="2"/> His caninus
+                        catulus lactens subinde apponitur inque eum uitium transire constat:
+                        defunctum obrui moris est. bulbi triti inliniti uentri bene molliunt.
+                            <milestone unit="par" n="3"/> et ocimum tritum impositum praecordiis
+                        prodest. sextarius farinae lini seminis, sextarius feni Graeci cum pari
+                        mensura mellis ex aqua mulsa decocti calidi imponuntur saepius. aliqui
+                        malunt feniculi farinam cum pari mensura mellis decoquere et ita imponere.
+                            <milestone unit="par" n="4"/> cydonia cruda uel cocta ceroti modo in
+                        panno inlinuntur et calefacta praecordiis super imponuntur. <milestone unit="par" n="5"/> acori radix tusa cum uino efficacissime prodest. his
+                        quos linquit animus aut mens — et alienantur — quibusque uertigines fiunt
+                        cochleae singulae cum sua testa tritae ex passi cyathis ternis calefacta
+                        potione per dies VIIII dantur. <milestone unit="par" n="6"/> in eadem
+                        curatione aliqui dant per dies quinque in eodem modo passi primo die
+                        cochleam unam, sequenti duas, tertio tres, quarto duas, quinto unam: sic
+                        suspiria tollentur. <milestone unit="par" n="7"/> in his languoribus si
+                        febris non sit marina aqua lauari utile est. iocineri prodest in cibo
+                        uiuerra porcelli modo inassata. stomacho mede<supplied>n</supplied>tur
+                        cochleae si fieri potest Africanae in cibo sumptae: <milestone unit="par" n="8"/> coquuntur intactae ex aqua, deinde ex prunis torrentur, tunc ex
+                        uino et garo eduntur, impari numero stomachi dolori medentur. prosunt uiuae
+                        cochleae ex aceto deuoratae. <del>in hoc languore aqua marina lauari
+                            prodest</del>. <milestone unit="par" n="9"/> Aestimo praecordiorum esse
+                        uitium cum cibus non continetur. certe quibus hoc accidit stomacho laborare
+                        dicuntur. horum potioni infricatur uenter ossifragi arefactus. prodest etiam
+                        si teneatur in manu dum cibus sumitur. <milestone unit="par" n="10"/> Non
+                        est ab re compositionem operi conuenientem ponere, quae stomachi fastidium
+                        et marcorem detergit celerrime. <milestone unit="par" n="11"/> in musti ex
+                        uuis albis congio coiciuntur cydonia quinque non purgata, totidem mala
+                        Punica, eo additur sorborum sextarius, roris Syriaci sextarius, croci Siculi
+                        semuncia, fici optimi semuncia. <milestone unit="par" n="12"/> sic coquitur
+                        usque ad crassitudinem mellis, inde in die lingula sumitur. seruatur in uaso
+                        uitreo. <milestone unit="par" n="13"/> Fit efficacissima potio compositione
+                        ita scripta. apii seminis aridi drachmae sex, petroselini Macedonici
+                        drachmae IIII, spicae nardi drachmae IIII, myrrhae drachmae IIII, opii
+                        drachmae IIII, schoeni drachmae IIII, piperis longi drachmae V, piperis albi
+                        drachmae V. <milestone unit="par" n="14"/> haec una teruntur cum melle
+                        Graeco despumato quod satis est. seruatur in uaso uitreo. a balneo dantur
+                        ieiuno in potione mulsi mixti ex aqua calida drachmae duae. </p>
+                </div>
+                <div type="cap" n="5">
+                    <head>V VENTRI MOLLIENDO</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Menae salsae <del>id est pisces salsi</del>
+                        uentri molliendo cum felle tauri umbilico inlinuntur. lac caprinum potatum
+                        cum sale et melle. uentriculus suillus in quo sarda decocta sit <milestone unit="par" n="2"/> porri capitati discocti per se in cibo sumuntur.
+                        urticae semen tostum pane colligitur. lens non percocta sorbetur.
+                        myrobalanus est genus cariotae nascens in Aegypto: haec os non habet; uino
+                        austeri trita et pota aluum citat. <milestone unit="par" n="3"/> fel lupi
+                        cum elaterio umbilico inlinitur. cydonia in melle seruata cruda manducantur
+                        a ieiunis. pruna a ieiuno eduntur. <milestone unit="par" n="4"/> mororum
+                        maturorum sucus potui datur. ammoniacum potioni additur. ulmi corticis tunsi
+                        denarii pondus in hemina aquae frigidae etiam purgat. aqua bibitur in qua
+                        gallinacei decoxerint. hirundininus fimus adiecto melle suppositus.
+                            <milestone unit="par" n="5"/> salicis sucus ex uino mulso potatus.
+                        thalassomeli iucundissime purgat sine stomachi uexatione, et odore grato et
+                        sapore. <milestone unit="par" n="6"/> quod sic fieri debet <del>confectio
+                            thalassomelis</del>: aquae marinae et aquae caelestis eadem mensura et
+                        mel eiusdem portionis permiscetur, et seruatur in uaso fictili picato. </p>
+                </div>
+                <div type="cap" n="6">
+                    <head>VI VENTRI SISTENDO</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Cancri fluuiatiles triti ex aqua bibuntur.
+                        satiui siseris sucus in caprino lacte potatur. ocimum tritum uentri
+                        inlinitur. panicum in lacte caprino decoctum more sorbitionis
+                            <supplied>bis</supplied> in die sumitur. <milestone unit="par" n="2"/>
+                        uetus panis nauticus tunsus et iterum coctus ex aqua bibitur. in aqua
+                        cortices fabae ad tertias decoctae prosunt. lens ex aqua caelesti decocta
+                        sorbetur. acetum merum sumitur. <milestone unit="par" n="3"/> mala
+                        siluestria eduntur. aqua in qua pruna agrestia cocta sint bibitur.
+                        siluestrium prunorum bacae uel ex radice cortices in uino austeri
+                        decoquuntur ut tertia pars decidat, idque uinum bibitur merum, cyathus unus
+                        in die. <milestone unit="par" n="4"/> mororum satiuorum inmaturorum sucus
+                        bibitur. sorbetur sucus seminis myrti. palumbus ferus ex pusca coctus in
+                        cibo datur. fimus columbinus cum melle uentri inlinitur. <milestone unit="par" n="5"/> bibitur anatum mascularum sanguis. flores uel
+                        cincinnos de auellana colligis et mittis in furno ut siccentur, et cum
+                        siccati fuerint teruntur et ex uino propinantur. <milestone unit="par" n="6"/> iuniperi bacae tritae ex uino nigro, id est ex uuis nigris expresso,
+                        potantur. flos hederae tribus digitis sumptus in uino austero bibitur bis in
+                        die. bacae acrifolii ex uino potantur. <milestone unit="par" n="7"/> ruborum
+                        in quibus mora nascuntur cauliculi ex uino austero decoquuntur et in cibo
+                        dantur. cochlearum quae uiuae crematae sunt cinis potioni ex uino austeri
+                        inspargitur. <milestone unit="par" n="8"/> plantago editur ex aceto cocta.
+                        symphyti radix ex uino bibitur. gallinacei iecur assum in cibo sumitur. </p>
+                </div>
+                <div type="cap" n="7">
+                    <head>VII CHOLERAE</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Cholera uentris uitium est malum, praeceps,
+                        utpote quod et uomitu et per sedem exhauriat. aduersus quam lactucae caules
+                        quanto maiores et amariores in patina coquuntur ex aqua et sic eduntur.
+                            <milestone unit="par" n="2"/> cydonia matura cruda in cibo sumuntur.
+                        optime facit et potio cuius compositionem cum de stomacho diceremus
+                        exposuimus. <milestone unit="par" n="3"/> bacae acrifolii tritae et ex uino
+                        datae. mororum de rubo sucus efficaciter bibitur. aqua marina calida
+                        clysterio infunditur. mirifice prodest compositio quae infra scripta est.
+                            <milestone unit="par" n="4"/> oliuae quam ueterrimae aqua calida
+                        eluuntur ita ut saporem salis amittant, et enucleatae cum pipere teruntur;
+                        quibus admiscentur coria mali in aceto decocta: oleum et acetum acerrimum
+                        cum triblas adicitur. oportebit autem qui curabitur potione quam diutissime
+                        abstinere. </p>
+                </div>
+                <div type="cap" n="8">
+                    <head>VIII TORMINIBVS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Lactuca discocta editur ex oleo cymino sale
+                        sinapi. ouum crudum diffunditur in uaso, putamen eius impletur oleo quod in
+                        uaso diffunditur; eadem ratione et uinum et mel: uinum sit austere.
+                            <milestone unit="par" n="2"/> haec permiscentur in unum cochleario, et
+                        bibitur. holera discocta ex sale eduntur. ruta cum hyssopo discoquitur eaque
+                        aqua ex uini potione miscetur. <milestone unit="par" n="3"/> panis cum lacte
+                        caprino decoctus bis in die sumitur more sorbitionis. in olei cyathis sex
+                        ruta decoquitur idque oleum bibitur. malum Punicum tusum ex tribus heminis
+                        uini coctum ad heminam emendat. <milestone unit="par" n="4"/> malum Punicum
+                        in olla addito operculo exustum in furno et tritum datumque in uini potione
+                        discutit. ruborum qui ferunt mora cauliculi teneri tunduntur et ex his
+                        exprimitur sucus, qui in sole ad crassitudinem mellis cogitur: <milestone unit="par" n="5"/> hic potus efficacissime prodest. lien pecudis tostus
+                        tritus ex uino bibitur. palumbus ferus in cibo datur decoctus in pusca.
+                            <milestone unit="par" n="6"/> anas uiua apponitur uentri; in eandem
+                        morbus transit, itaque moritur. aqua marina calida clysterio infunditur.
+                        uinum tepidum addito coagulo leporis potui datur, creditur efficacissimum.
+                    </p>
+                </div>
+                <div type="cap" n="9">
+                    <head>VIIII TENESMO</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Tenesmo laborat si qui subinde concupiscit
+                        desurgere et nihil eicit. ad hoc uitium senectus anguium cum rosaceo in uaso
+                        stagneo decoquitur et uentri inlinitur. <milestone unit="par" n="2"/> et si
+                        exulceratio non sit, ostrea ex mulso decocta eduntur. lac bubulum potui
+                        prodest. ius piscium maritimorum in patina decoctorum cum lactucis sorbetur
+                        aut pane colligitur. <milestone unit="par" n="3"/> holus <del>id est
+                            caules</del> discoctum editur cum sale. aqua marina ex alto hauritur;
+                        seruatur in uetustatem, uires inde imponuntur: bibitur cum uino aut aceto,
+                        uomitu praecedente. <milestone unit="par" n="4"/> aquam marinam aliqui per
+                        se dant, sed raphanos supermandi iubent ex mulso aceto ut uomatur.
+                        pulticulam siliginis salsam bene sine oleo edendam dabis. </p>
+                </div>
+                <div type="cap" n="10">
+                    <head>X DYSENTERIAE</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Holera discocta cum sale eduntur. per se bulbi
+                        triti dantur in uino austero: potio miscetur caelesti aqua. coctum ocimum in
+                        cibo datur. <milestone unit="par" n="2"/> ruta cum caseo teritur in uino in
+                        modum moreti et ita editur. cera remissa in potione datur: puls fit ex alica
+                        tosta, priusquam detur in aqua; cum subigitur, cera remissa infunditur.
+                            <milestone unit="par" n="3"/> sarmenta in quibus acini uuarum haerent et
+                        acinorum lapilli comburuntur eorumque cinere aspergitur. sucus pampinorum
+                        uitium clysterio inmittitur. <milestone unit="par" n="4"/> cydonia matura
+                        cruda eduntur. myrti seminis pondus denarii in uino propinatur. uinum in quo
+                        folia myrti discocta sint potui datur. <milestone unit="par" n="5"/> galla
+                        Commagena comburitur, cinis eius extinguitur uino, inlinitur uentri: hoc et
+                        ad coeliacos facit. flos hederae tritus tribus digitis sumptus in uino
+                        austeri bis in die bibitur. <milestone unit="par" n="6"/> ruborum in quibus
+                        mora nascuntur cauliculi decoquuntur in uino austeri et per se eduntur.
+                            <milestone unit="par" n="7"/> lutea ouorum trium, lardi ueteris unciae
+                        tres, mellis totidem, uini cyathi tres una conteruntur, et in nucis
+                        auellanae magnitudine ex aqua datur. </p>
+                </div>
+                <div type="cap" n="11">
+                    <head>XI COELIACIS <del>ID EST TORTVRAE VEL COMMISSIONI
+                        INTESTINORVM</del></head>
+                    <p>
+                        <milestone unit="par" n="1"/> Bacae oliuarum in uino propinantur. membranae
+                        gallinarum tostae in oleo et sale subferuefiunt, sic datae in cibo
+                        coeliacorum dolorem mulcent: abstinere a frugibus prius et gallinam et
+                        hominem oportet. <milestone unit="par" n="2"/> fimus columbinus tostus et
+                        tritus dysentericis in potione propinatur. palumbi in aceto discocti et
+                        dysentericis et coeliacis in cibo medentur. <milestone unit="par" n="3"/>
+                        dysentericos adiuuat turdus inassatus tritus in cibo sumptus cum myrti
+                        bacis. item in eundem modum merula sumitur. <milestone unit="par" n="4"/>
+                        grauissimum uentris uitium ileos appellatur: huic resistit discerpti
+                        uespertilionis sanguis inlitus uentri. dysentericis oua pridie in aceto
+                        macerantur, eorum lutea friguntur in oleo et deuorantur. <milestone unit="par" n="5"/> oua ex aceto macerantur; ex his et farina et aqua
+                        panis coeliacis fit. quidam eadem oua resoluunt et in patinis tosta dant in
+                        cibo. caseus uetus ouillus in cibo prodest. <milestone unit="par" n="6"/>
+                        seuum ouillum decoctum in uino austeri bibitur. <milestone unit="par" n="7"/> hoc et coeliacis medetur. cochleae duae teruntur cum suis testis et oua
+                        cruda ex passi cyathis duobus, aquae cyathis tribus, atque totum in nouo
+                        uase calefactum ad temperamentum potionis bibitur. <milestone unit="par" n="8"/> cochlearum cum suo putamine combustarum cinis addito pusillo
+                        resinae ex uino bibitur. senectus serpentium decocta cum rosaceo in stagneo
+                        uaso uentri inlinitur. <milestone unit="par" n="9"/> dysentericis potiones
+                        ferro candenti calefieri debent. caseus uaccinus recens inmittitur. ad omnes
+                        epiphoras uentris caseum mollem <del>in cibo</del> imponi iubent, ueterem
+                        autem tritum in modum farinae mensura cyathi addi in cyathos tres uini
+                        cibarii et ita deuorari. <milestone unit="par" n="10"/> lac caprinum ad
+                        dimidias partes decoctum. infunditur gluten taurinum aqua calida resolutum.
+                        imponitur inflationi uentris uitulinus fimus in uino decoctus. <milestone unit="par" n="11"/> frequenter euenit ex causa aliqua latente ut uentri
+                        dolor subitus existat: qui numquam temptat habentem secum talum leporis.
+                    </p>
+                </div>
+                <div type="cap" n="12">
+                    <head>XII TINEIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Tineae quoque uitium uentris sunt. quae
+                        pelluntur poto ceruini cornus combusti cinere. raphani decoquuntur ex aqua
+                        ad tertias et ea aqua uino miscetur. <milestone unit="par" n="2"/> radix
+                        inulae decoquitur, deinde sucus eius exprimitur et potui datur: cum eruta
+                        est inula terram non debet tangere. alium in oxymeli decoctum deuoratur,
+                        betae candidae decoctae deuorantur cum alio crudo. <milestone unit="par" n="3"/> aqua in qua lupini coxerint addita ruta et pipere bibitur.
+                            <milestone unit="par" n="4"/> bulbi genus est scilla, ex quo pusillum
+                        tritum cum oxymeli bibitur. malum Punicum tusum decoctum ex tribus heminis
+                        ad heminam tineas eicit potum. <milestone unit="par" n="5"/> acini hederae
+                        albae contriti tres ex oxymeli prosunt; in hac curatione conuenit et uentri
+                        eos eadem ratione inlini. </p>
+                </div>
+                <div type="cap" n="13">
+                    <head>XIII LIENI SIVE SPLENI</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Solea piscis imponitur. idem praestat eodem
+                        modo torpedo. rombus cum est impositus uiuus in mare remittitur. <milestone unit="par" n="2"/> aqua bibitur in qua holera decocta sint addito sale.
+                        eius qui cottidie ieiunus eruum ederit lienem consumi certum est. <milestone unit="par" n="3"/> sarmentorum cinis aceto conspersus binis cyathis ex
+                        aqua ei dabitur: is qui curabitur in lienem iacere debebit. acetum bibitur
+                        et in spongia apponitur. corymbi hederae poti uel inliti prosunt. <milestone unit="par" n="4"/> hederaceis uasis in potione semper utendum est.
+                        pecudis lien recens super dolorem extenditur, dicente eo qui medebitur se
+                        lienem mederi, deinde in pariete dormitorii cubiculi tectorio includitur et
+                        ter nouies subsignatur eademque dicentur. <milestone unit="par" n="5"/>
+                        caninus lien si uiuenti eximitur et laboranti in cibo datur, liberat de
+                        uitio lienis. catuli duum dierum datus ignoranti aegro in cibo ex aceto.
+                            <milestone unit="par" n="6"/> idem et lien erinacei praestat. cochlearum
+                        cinis cum lini semine et urticae addito melle imponitur donec persanetur.
+                            <milestone unit="par" n="7"/> lacerta uiridis uiua in olla ante
+                        cubiculum dormitorium suspenditur, ut egrediens et rediens manu tangat.
+                        sedat lienem fel apri uel suis potum, ceruini cornus cinis potus ex aceto.
+                        equi lingua inueterata ex uino bibitur. <milestone unit="par" n="8"/>
+                        praesentaneo remedio lien bubulus assus recens uel elixus in cibo. alii
+                        capita XX tusa cum aceti sextario imponuntur. <milestone unit="par" n="9"/>
+                        haedi lien impositus idem praestat. radices uiolae lotae ex aceto
+                        inlinuntur. agarici oboli duo in aceto mulso poti per dies XXI consumunt
+                        lienem. </p>
+                </div>
+                <div type="cap" n="14">
+                    <head><supplied>XIIII LVMBORVM DOLORI</supplied></head>
+                    <p>
+                        <milestone unit="par" n="1"/> Acinorum nigrorum suci cyathus unus cum mulsi
+                        cyathis duobus potui datus lumbos dolentes sanat. itemque inulae foliorum
+                        siue radicis pulueris denarii duo ex uini cyatho uno bibiti emendant.
+                            <milestone unit="par" n="2"/> Pastinacae item radicis siue seminis
+                        denarii IIII in aqua mulsa decocti et potui dati lumborum et renum uitia
+                        emendant. item porri sectiui sucus ad cyathos duos in uini cyathis duobus
+                        bibitus sine mora sanat. <milestone unit="par" n="3"/> Itemque asparagi
+                        semen et cymini pari pondere tritum et ex uino uel aqua calida potui datum
+                        emendat. apii itidem radicis sucus ad cyathos duos ex uini cyathis tribus
+                        potui datus prodest. <milestone unit="par" n="4"/> Holusatri item radix in
+                        uino coquitur et ad cyathos duos potui datur. radix similiter asparagi trita
+                        et in uino potui data lumborum dolori medetur. <milestone unit="par" n="5"/>
+                        Item cataplasma ad idem. nasturcium cum polenta teritur calidumque
+                        imponitur. itemque ferulae uiridis folia trita et in uino mixta et imposita
+                        mirifice sanant. <milestone unit="par" n="6"/> Lana sucida in oleo. pice
+                        liquida, sulphure uiuo, nitro Attico feruefactis intincta quam fieri potest
+                        calidissima bis in die imponitur. <milestone unit="par" n="7"/> Item
+                            pil<supplied>ul</supplied>arum cupressi uiridis sextarios tres in aquae
+                        sextariis tribus in olla noua decoques. ut sicut cera mollescat, et sublatis
+                        granis quae intus sunt atque proiectis ipsos teres diligenter et ut
+                        cataplasma panno induces lumbisque impones ac desuper fascias ligabis, et
+                        hoc per triduum facies ita ut cottidie mutetur. et de praedicto chalastico
+                        saepius lumbos confricabis et in balneo cum ipso sudet; sed et cum se
+                        collocat, fortius de ipso chalastico loca perungat quaecumque doluerint.
+                            <milestone unit="par" n="8"/> Item sulphur uiuum imponitur cum adipe.
+                    </p>
+                </div>
+                <div type="cap" n="15">
+                    <head><supplied>XV</supplied> SEDIS VITIIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Medicamentum ad anum, ad rhagadia, ad
+                        condylomata, ad tumores et ad inflationes: ammoniaci denarii VI,
+                            <unclear>lituematis</unclear> denarii VI, turis denarii VI, gallae
+                        Asianae denarii VI, croci denarii III, cerae denarii VI, terebintinae
+                        denarii III, olei ros<supplied>ac</supplied>ei denarii VI, quae terenda
+                        sunt. <milestone unit="par" n="2"/> sicca teris cum modico uino, ceram et
+                        terebintinam soluis cum rosaceo et misces pulueri, quem triuisti cum uino,
+                        et teris simul omnia, et cum opus fuerit, uteris. <milestone unit="par" n="3"/> Item ad condylomata quae in ano nascuntur: hyssopum tritum cum
+                        rosaceo commisces et teris atque uteris. item marrubii conbusti cinerem
+                        aspergito. <milestone unit="par" n="4"/> item folia rubi in quo mora
+                        nascuntur cum cera et cum oleo rosaceo sanant. <milestone unit="par" n="5"/>
+                        item adeps anserinus cum cerussa et rosaceo et cera Punica inponitur. </p>
+                </div>
+                <div type="cap" n="16">
+                    <head><supplied>XVI COLI DOLORI</supplied></head>
+                    <p>
+                        <milestone unit="par" n="1"/> Ad coli dolorem pullorum uentriculos
+                        interiores purgabis et combures teresque cum pipere et ex aqua rutae dabis
+                        bibere. item tria grana alii infundis in aliquantulum aquae; dehinc leuas et
+                        cum condito ea gluttis. <milestone unit="par" n="2"/> (Sunt occulti
+                        interaneorum morbi, de quibus mirum proditur. si catuli priusquam uideant
+                        adplicentur triduo stomacho maxime ac pectori et ex ore aegri suctum lactis
+                        accipiant, transire uim morbi, postremo exanimari dissectisque palam fieri
+                        aegri causas;) defunctos obrui oportet. <milestone unit="par" n="3"/>
+                        Vespertilionis sanguine uentre contacto in totum annum cauentur uitia
+                        interaneorum. cornus ceruini teneri cinis cum cochleis Africanis cum testa
+                        sua tusis mixtus datur in potione uini. <milestone unit="par" n="4"/> facit
+                        optime ad colum potio cuius compositionem tradidimus in praecordiorum
+                        curatione subiectam operi. hederae et gladioli sucus pari mensura cum passo
+                        calefactus potui datur. </p>
+                </div>
+                <div type="cap" n="17">
+                    <head>XVII CONDILOMATIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Oleum uetus, picem, pollinem decoquere oportet
+                        et quam calidissimum imponere. folia rubi in quo mora nascuntur cum cera et
+                        rosaceo sanant. radices eiusdem rubi decoquuntur ex uino ad tertias eoque
+                        uino fouentur condylomata et omnia uitia sedis. <milestone unit="par" n="2"/> araneus dempto capite pedibusque et ita infricatus optime sanat
+                        condylomata. adeps anserinus cum cerussa et rosaceo et cera Pontica
+                        imponitur. adeps cygni et hoc et haemorroidas sedat. </p>
+                </div>
+                <div type="cap" n="18">
+                    <head>XVIII VESICAE DOLORI ET CALCVLO</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Amyli semuncia conteritur et ouum; eiusdem oui
+                        putamen ter impletur passo, idque <supplied>a</supplied> balneo
+                        subferuefactum datur aduersum dolorem. <milestone unit="par" n="2"/> cicer
+                        arietinum in aqua discoquitur cum sale et ex aqua ea bibuntur bini cyathi
+                        per triduum in difficultate urinae: sic et calculi pelluntur. cariotae
+                        tritae dolori imponuntur. <milestone unit="par" n="3"/> aduersus urinae
+                        difficultatem millefolium tritum ex aceto bibitur. murino fimo dolorem
+                        inlinire prodest. uermes terreni contriti bibuntur ex uino aut passo.
+                            <milestone unit="par" n="4"/> ad calculos comminuendos pellendosque
+                        cochleae inanes conteruntur combustae. earum cinis in potione calculos
+                        pellit. lapilli qui in gallinaceorum uesica aut in palumborum
+                            <supplied>uentriculo</supplied> inueniuntur contriti potioni
+                        insparguntur. <milestone unit="par" n="5"/> fimus palumborum in sorbitione
+                        ex faba fressa bibitur. turturum fimus in mulso decoctus imponitur.
+                            <milestone unit="par" n="6"/> cicadas tostatas in patella in uesicae
+                        dolore utile est bibere. contra omnes uesicae difficultates cinis plumarum
+                        palumborum ferorum ex aceto mulso bibitur. de nido hirundinis glebulae luti
+                        dilutae ex aqua calida bibuntur. <milestone unit="par" n="7"/> turdorum
+                        fimus ex mulso decoctus imponitur. conuenit turdos esse cum bacis myrteis.
+                        aqua in qua decocti sunt pedes agnorum <supplied>potui datur</supplied>.
+                        scorpio marinus in uino necatus uesicae uitia sanat et calculos pellit:
+                            <milestone unit="par" n="8"/> ipse autem editur, uinum bibitur. lapillus
+                        qui inuenitur in scorpionis marini cauda utiliter potatur. <milestone unit="par" n="9"/> inueniuntur in bacchi piscis capite quasi lapilli: hi
+                        poti ex aqua calculosis praeclare medentur. echini cum spinis suis tunduntur
+                        et singuli ex hemina uini bibuntur. difficultatibus urinae sucinum potum
+                        alligatumque prodest. <milestone unit="par" n="10"/> plantaginis uel folia
+                        uel radices potae ex passo prosunt. uesica apri in cibo elixa sumitur.
+                        leporis renes inueterati in uino poti calculos pellunt. ungulae equi cinis
+                        ex uino uel aqua bibitur. </p>
+                </div>
+                <div type="cap" n="19">
+                    <head>XVIIII INCONTINENTIAE VRINAE</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Verrini genitalis cinerem potare ex uino dulci
+                        oportet, in canis cubile urinam facere et haec uerba dicere, ne ipse urinam
+                        faciat ut canis in suo cubili. <milestone unit="par" n="2"/> ungulae apri
+                        uel suis cinis potioni inspargitur. leporis cerebrum in uino bibitur, et
+                        eiusdem testiculi tosti eduntur. <milestone unit="par" n="3"/> anserum trium
+                        linguae assae in cibo sumuntur. cochleae Africanae cum carne sua comburuntur
+                        cinisque earum ex uino bibitur. </p>
+                </div>
+                <div type="cap" n="20">
+                    <head>XX VERENDORVM VITIIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Si formicatio sit aut uerrucae, arietini
+                        pulmonis sanies inlinitur. ceteris uitiis arietinorum uellerum cinis ex
+                        aqua, seuum ex omento pecudis praecipue ab renibus admixto pumicis cinere et
+                        sale imponitur, lana sucida ex aqua frigida. <milestone unit="par" n="2"/>
+                        caro pecudis combusta trita ex aqua frigida. mularum ungulae cinis, dentium
+                        caballinorum tunsorum farina inspargitur. ulceribus imponitur cum melle
+                        oesypum et plumbi scobis. <milestone unit="par" n="3"/> muricum uel
+                        purpurarum cum suis testis et carne combustarum cinis cum melle. carbunculos
+                        eorum salsamenta cum melle cocta restringunt singulariter. <milestone unit="par" n="4"/> cerebrum apri uel suis. sanat ea quae serpunt fel
+                        bubulum: cum alumine Aegyptio ac myrrha ad crassitudinem mellis subactum
+                        inlinitur. insuper beta cocta ex uino trita imponitur. </p>
+                </div>
+                <div type="cap" n="21">
+                    <head>XXI TESTICVLIS ET RAMICIBVS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Holus cum faba cocta aequis partibus dolori
+                        apponitur. bulbi triti ex uino mulso inliniti medentur. <milestone unit="par" n="2"/> rutam cum teneris lauri ramis contritam tumori
+                        imponunt, cyminum tostum contritum cum cera et melle
+                            <supplied>aut</supplied> rosaceo, farina<supplied>m</supplied> lini
+                        seminis cum resina et myrrha. <milestone unit="par" n="3"/> contra dolorem
+                        faba in uino cocta et contrita <supplied>adhibetur</supplied>. inflammationi
+                        beta ex aqua imponitur aut melle. ad idem faex uini <del>aut faba ex
+                            uino</del> inlinitur. <milestone unit="par" n="4"/> cupressi folia cum
+                        polenta trita ramici prosunt. pilulae de cupresso tenerae tritae cum axungia
+                        et lomento imponuntur. sucus de pilulis cupressi cum fico arida prius
+                        ademptis granis imponitur. <milestone unit="par" n="5"/> farina feniculi in
+                        hydromelle decocta addita axungia facit ad omnia. si decidit alter ex
+                        testibus, spuma cochlearum inlinitur. <milestone unit="par" n="6"/> taetris
+                        ulceribus ibi manantibus auxiliatur capitis canini recentis cinis, senectus
+                        anguium trita ex aceto. hydroceli<supplied>ci</supplied>s stelliones demptis
+                        pedibus et interaneis et capite inassati in cibo dantur. <milestone unit="par" n="7"/> tumores testium marina aqua utiliter fouentur. si et
+                        dolor sit et tumor, pusca calida in spongia imponitur. </p>
+                </div>
+                <div type="cap" n="22">
+                    <head>XXII INGVINIBVS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Negantur inguina intumescere eius qui habeat
+                        secum surculum ex myrto nec ferro nec terra tactum. cochleae minutae tritae
+                        ex melle inlinuntur. <milestone unit="par" n="2"/> inguina priusquam ex
+                        ulcere intumescant, in licio facere nouem nodos oportet et ad singulos
+                        nominare singulas mulieres uiduas, tum licium alligare ad talum uel cruri
+                        uel infra genu. <milestone unit="par" n="3"/> si ab equitatu femina uexata
+                        sint, spuma equi ex ore feminibus inlinitur. inguinibus imponitur fimus
+                        suillus sub testa calefactus tritusque cum oleo. <milestone unit="par" n="4"/> myrtea uirga quae ferro tacta non est in dolore inguinum circumligatur.
+                        absinthium habere in uentrali prodest. pollex eius pedis a quo inguen est
+                        proximo digito alligatus tumorem sedat. </p>
+                </div>
+                <div type="cap" n="23">
+                    <head>XXIII VLCERIBVS IN CRVRE VEL IN TIBIIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Adeps ursinus admixta rubrica imponitur. quae
+                        serpunt curantur felle aprino cum resina et cerussa. <milestone unit="par" n="2"/> maxillarum apri uel suis cinere insparguntur. <milestone unit="par" n="3"/> fimus caprinus ex aceto subactus et subferuefactus
+                        imponitur. omnia in his locis ulcera purgantur, complentur, persanantur
+                        butyro ac medulla ceruina, item felle taurino cum cyprino oleo aut irino.
+                    </p>
+                </div>
+                <div type="cap" n="24">
+                    <head><del>CRVRIBVS VEL TALIS SI TVMENT VEL DOLENT</del><lb/>XXIIII TALORVM
+                        DOLORI ET TVMORI </head>
+                    <p>
+                        <milestone unit="par" n="1"/> Muscus ex oleo tritus imponitur. limus
+                        aquaticus ex oleo subactus mirifice prodest. fimus caprinus decoctus ex
+                        aceto et subactus cum melle. </p>
+                </div>
+                <div type="cap" n="25">
+                    <head>XXV PERNIONIBVS ET VITIIS PEDVM</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Pulmo marinus imponitur. cancri marini cinis
+                        ex oleo imponitur. utiliter aqua fouentur in qua eruum decoctum est.
+                            <milestone unit="par" n="2"/> ficus aridae decoctae cum cera liquida
+                        subactae ambustis, pernionibus imponuntur, ulceribus seuum pecudum cum
+                        alumine. <milestone unit="par" n="3"/> si pura sint ulcera,
+                            <supplied>cera</supplied> sanantur. fimi murini cinis ex oleo uetere
+                        imponitur. uermium terrenorum cinis ex oleo uetere imponitur. <milestone unit="par" n="4"/> cochlearum quae nudae inueniuntur uiuarum combustarum
+                        cinere omnia uulnera pedum sanantur. fimi gallinaceorum aut columbarum cinis
+                        ex oleo exulcerationibus medetur. <milestone unit="par" n="5"/> attritus
+                        calciamentorum emendat ueteris soli cinis ex oleo, aeque caprini cornus
+                        cinis ex oleo. <milestone unit="par" n="6"/> agninus pulmo uel arietinus
+                        imponitur. dentis caballini contusi farina subluuiem emendat. lacertae
+                        uiridis sanguis subtritos pedes inlinitus sanat. tegumenti testudinis cinis
+                        ex uino et oleo temperatus medetur. adeps ursinus addito alumine omnes rimas
+                        sarcit. </p>
+                </div>
+                <div type="cap" n="26">
+                    <head>XXVI CLAVIS ET CALLIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Plerumque pedibus innascuntur claui aut calli,
+                        praecipue tamen in digitis et in manibus, quibusdam uero et in aliis
+                        corporis partibus. aduersus quos monstrantur remedia talia. <milestone unit="par" n="2"/> Vrina muli mulaeue cum suo luto inlinita tollit.
+                        fimus ouium imponitur. <milestone unit="par" n="3"/> iecur lacertae uiridis
+                        uel sanguis impositus in flocco medetur. uermes terreni ex oleo. fimus
+                        columbinus decoctus ex aceto in modum malagmatis subactus imponitur.
+                            <milestone unit="par" n="4"/> fimus apri uel suis recens impositus et
+                        post diem tertium solutus prodest. faba in qua laser seruatur in aceto missa
+                        et tumefacta et ita alligata. <milestone unit="par" n="5"/> si in facie
+                        nascantur, etiam lomenti assidua fricatione tolluntur <del>ex oleo</del>.
+                        pollinem ex oleo temperant et adiciunt: extrahit enim. <milestone unit="par" n="6"/> idem facit et hammoniacum. salicis ramorum primorum cortices
+                        exuruntur earumque cinis ex aqua impositus tollit. <milestone unit="par" n="7"/> utuntur et seuo bubulo cum turis polline. urina canis cum suo
+                        luto imponitur. </p>
+                </div>
+                <div type="cap" n="27">
+                    <head>XXVII PODAGRAE DOLORI</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Muscus qui in aqua nascitur tritus impositus
+                        prodest. farina frumenti cocta ex aceto imponitur. utiliter dolor perungetur
+                            <supplied>oleo</supplied> in quo decocta sunt ranarum intestina.
+                            <milestone unit="par" n="2"/> ranae rubetae cinis cum adipe uetere. in
+                        palustribus lens nascitur quaedam in aqua non profluente, refrigeratoria
+                        sine comparatione: haec imponitur uel per se contrita uel cum polenta.
+                            <milestone unit="par" n="3"/> adipe uiperino pedes perunguntur. sanguine
+                        milui pedes perunguntur. hibisci radices coctas cum axungia misces et
+                        cataplasma pedibus ponis. <milestone unit="par" n="4"/> maluae erraticae
+                        coctae: pisas cum sale et pedibus ponis. lenticulam coquis, teris adiectis
+                        mellis cochlearibus tribus et pedibus imponis. <milestone unit="par" n="5"/>
+                        urtica trita cum columbarum sanguine apponitur. adipe uituli marini pedes
+                        perunguntur, cuius et pellibus calceari expedit. ranae aquaticae discerptae
+                        subinde recentes imponuntur. <milestone unit="par" n="6"/> lenit et plantago
+                        cum axungia. limus aquaticus cum oleo subactus mire prodest. ursino adipe,
+                        taurino seuo, cerae pari pondere decoctis utuntur. <milestone unit="par" n="7"/> bubulum fimum cum aceti faece magnificant. fimi caprini cinis
+                        cum axungia uetere prodest. <milestone unit="par" n="8"/> Cum autem pluribus
+                        malagmatibus utantur hi qui hoc malo laborant prout illa apud unumquemque
+                        commendat monstrantis auctoritas, ponam compositionem de qua nemo qui usus
+                        est questus est: <milestone unit="par" n="9"/> picis Bruttiae uncias V et
+                        scripulos VII, cerae Ponticae tantundem, resinae frictae tantundem, galbani
+                        £ XI, hammoniaci semunciam: <milestone unit="par" n="10"/> omnia haec in
+                        cacabo nouo componuntur, coquuntur ad unum feruore bono. in mortario autem
+                        teruntur haec: <milestone unit="par" n="11"/> euphorbii uncia I,
+                            s<supplied>t</supplied>ypteriae schistes tantundem, turis pollinis
+                        scripuli VIIII, opopanacis £ VIIII, fellis taurini £ VIII, salis Hammoniaci
+                        £ VI. <milestone unit="par" n="12"/> his suffunduntur aceti acerrimi cyathi
+                        III, tum quod in cacabo coctum est mortario adicitur et pistillo
+                        permiscetur. cum eo utendum est, alutae inlinitur. <milestone unit="par" n="13"/> si induruit, modice ad ignem calefactum manibus perfricatur et
+                        ita mollescit. hoc medicamentum non inquinat, uires in usu non perdit,
+                        appositum reseruari potest. <milestone unit="par" n="14"/> et qui potione
+                        podagra sint liberati, cuius compositionem subiciam et quemadmodum ea sit
+                        utendum. camedriae pondo libra, centauriae pondo unciae III, aristolochiae
+                        rotundae pondo unciae III,, stoechados pondo unciae III, agarici pondo
+                        unciae IIII, cyperi seminis pondo quadrans, aloes pondo unciae III S.
+                            <milestone unit="par" n="15"/> haec pondera singularum expendi oportet
+                        et trita cribrata permisceri ex mellis Attici libris VI et in uitreum uas
+                        recondi. <milestone unit="par" n="16"/> usus huius potionis talis esse debet
+                        ut sumatur a ieiunis qui bene concoxerint et per numerum dierum anni,
+                        adiecto uno die. <milestone unit="par" n="17"/> si dies continuari non
+                        potuerint propter cruditatem aut languorem aliquamque causam, quotquot
+                        intermissi fuerint, totidem restituantur. <milestone unit="par" n="18"/>
+                        potionis uero mensura erit ut denarii argentei pondus bibatur ex tribus
+                        cyathis aquae semel in die. <milestone unit="par" n="19"/> Radix cucumeris
+                        erratici ex aceto coquitur et imponitur. mitigatur si secum habeat is qui
+                        uexabitur pedem leporis uiuo abscisum. <milestone unit="par" n="20"/>
+                        Peractis singulorum membrorum malis et eorum remediis quae in prouiso solent
+                        accidere percurremus eo ordine quo unaquaeque res succurrerit. incipiemus
+                        igitur a re podagrae proxima. </p>
+                </div>
+            </div>
+            <div type="lib" n="III">
+                <div type="index" n="index">
+                    <head>CAPITVLA LIBRI III</head>
+                    <p>I Ad neruos et articulos. </p>
+                    <p>II Sanguini ex ulceribus sistendo. </p>
+                    <p>III Vlceribus recentibus et neruis incisis. </p>
+                    <p>IIII Ad ulcera et ad cancrum quod noma uocatur. </p>
+                    <p>V Ad panas quas paniculas nos dicimus. </p>
+                    <p>VI Ad strumas id est scrofas quae nascuntur in gutture. </p>
+                    <p>VII Ad furunculos. </p>
+                    <p>VIII Ad carbunculum. </p>
+                    <p>VIIII Ad ambusta. </p>
+                    <p>X Ad morsum canis rabiosi. </p>
+                    <p>XI Ad morsum canis non rabiosi. </p>
+                    <p>XII Ad cicatrices quibus color reddi debet. </p>
+                    <p>XIII Ad frigore exusta. </p>
+                    <p>XIIII Ad extrahenda ea quae in corpore fixa sunt. </p>
+                    <p>XV Ad quartanas. </p>
+                    <p>XVI Ad tertianas. </p>
+                    <p>XVII Ad febres periodicas id est febres quae de accessionibus nascuntur. </p>
+                    <p>XVIII Ad lethargicos. </p>
+                    <p>XVIIII Ad freneticos qui sensum perdunt et qui somnum non capiunt. </p>
+                    <p>XX Ad cardiacos. </p>
+                    <p>XXI Ad comitialem morbum. </p>
+                    <p>XXII Ad hydropicos. </p>
+                    <p>XXIII Ad morbum regium. </p>
+                    <p>XXIIII Ad ignem sacrum. </p>
+                    <p>XXV Ad ossa fracta. </p>
+                    <p>XXVI Ad scabiem. </p>
+                    <p>XXVII Ad papulas et prurigines. </p>
+                    <p>XXVIII Ad uaros. </p>
+                    <p>XXVIIII Ad uerrucas. </p>
+                    <p>XXX Ad liuores et tumores. </p>
+                    <p>XXXI Ad paralyticos. </p>
+                    <p>XXXII Psilotrum. </p>
+                    <p>XXXIII Antidotum contra uenena. </p>
+                    <p>XXXIIII Contra leporem marinum et pastinacam. </p>
+                    <p>XXXV Contra murem araneum. </p>
+                    <p>XXXVI Contra phalangium. </p>
+                    <p>XXXVII Ad serpentis et hominis morsum. </p>
+                    <p>XXXVIII Contra aspidem. </p>
+                </div>
+                <div type="cap" n="1">
+                    <head>I AD NERVOS ET ARTICVLOS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Amphisbaena mortua neruorum offensis
+                        alligatur. adeps uulturinus cum felle eiusdem perunguitur. iecur eiusdem
+                        arefactum et tritum cum axungia <del>eius</del> imponitur. senectus
+                        serpentium in corio taurino alligatur. <milestone unit="par" n="2"/> Beta ex
+                        melle et fico imposita morbis articularibus medetur. folia uitium trita et
+                        admixta hordeaceae farinae articularibus morbis imponuntur. <milestone unit="par" n="3"/> acrifolium tritum addito sale et oleo eidem rei
+                        prodest. incussos articulos aranei tela commodissime curat. articulis
+                        uexatis praesentaneum remedium est seuum pecudis cum cinere mulieris
+                        capillorum. <milestone unit="par" n="4"/> Neruorum nodis capitis uiperini
+                        cinis cum oleo cyprino imponitur. ad idem faciunt terreni uermes triti cum
+                        melle, item galbanum per se. stirax inlinitur. fimum caprinum decoctum in
+                        aceto contritum cum melle. <milestone unit="par" n="5"/> tremulis utile est
+                        esse holera et panem ex aqua a balneo, perungui oleo in quo castoreum est
+                        additum. articulorum fracturis cinis ex femoribus pecudum cera admixta
+                        medetur. </p>
+                </div>
+                <div type="cap" n="2">
+                    <head>II SANGVINI EX VLCERIBVS SISTENDO</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Fimus caballinus cum ouorum putaminibus
+                        crematur isque cinis <supplied>ad</supplied>mixto melle spathomele imponitur
+                        plagae: <supplied>mire sistit</supplied>. <milestone unit="par" n="2"/>
+                        polypus tusus in pila in modum emplastri adhibetur. cortex uitium et folia
+                        arida tusa in farinam sanguinem sistunt et uulnus glutinant. <milestone unit="par" n="3"/> folia persici trita et imposita haemorrhogian
+                        sistunt. pilulae platani tusae ex aceto impositae. <milestone unit="par" n="4"/> ferulae cinis. hircini utris uinarii cinis cum pari pondere
+                        resinae ex aceto impositus sanguinem sistit et ulcera glutinat. haedinum
+                        coagulum ex aceto sanguinem sistit. </p>
+                </div>
+                <div type="cap" n="3">
+                    <head>III RECENTIBVS VVLNERIBVS ET NERVIS INCISIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Vermes terreni triti conglutinant, adeo ut
+                        etiam neruos incisos solident die septimo. idem arefacti in sole ex aceto
+                        triti uulneribus imponuntur et interposito biduo soluuntur. <milestone unit="par" n="2"/> cochleae exemptae de suis testis crudae tritae
+                        mirifice solidant. cochleae cum suis testis tusae cum myrrha et ture pari
+                        pondere etiam praecisos neruos sanant. <milestone unit="par" n="3"/>
+                        efficaces sunt et bulbi triti per se ad uulnera glutinanda: adiciebat tamen
+                        illis Damon medicus muscum qui in aqua gignitur et die quinto soluebat.
+                            <milestone unit="par" n="4"/> myrobalanum ut iam diximus genus est
+                        cariotae quod os non habet: haec ex uino austeri trita uulnera solidat.
+                            <milestone unit="par" n="5"/> et cupressi folia trita ad eundem effectum
+                        imponuntur. rubi siue platani uel flos uel mora sine collectionis periculo
+                        sanant. <milestone unit="par" n="6"/> et millefolium tritum uulneribus
+                        imponitur. centauriae radix tam efficax est ad plagas glutinandas ut etiam
+                        carnes cohaerescant quae cum ea coquuntur. <milestone unit="par" n="7"/>
+                        lana sucida infunditur in mel et acetum frigidum et oleum, deinde expressa
+                        imponitur. spongia ex aqua caelesti imposita recentia secta non patitur
+                        intumescere. <milestone unit="par" n="8"/> et caro uituli recentibus
+                        uulneribus arcet tumorem. idem fimum bubulum cum melle praestat. <milestone unit="par" n="9"/> recentes plagas ferro factas gluten taurinum
+                        liquefactum atque impositum neque ante diem tertium solutum efficacissime
+                        iuuat. </p>
+                </div>
+                <div type="cap" n="4">
+                    <head>IIII AD VLCERA ET AD CANCER QVOD NOMA VOCATVR</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Scio gratius futurum fuisse, si singulis
+                        generibus ulcerum nominatim dedissem titulos et remedia. sed cum aliquae res
+                        pluribus uitiis prosint, breuitatem secutus genus scripturae elegi quod
+                        subiectum est. <milestone unit="par" n="2"/> Vermes qui in ligno nascuntur
+                        uocantur cosses; hi triti in panno inlinuntur et ulceri apponuntur. idem
+                        combusti cum anethi pari pondere impositi noma<supplied>m</supplied> quod
+                        uocant cancer sistunt. <milestone unit="par" n="3"/> fimo ouium sub testa
+                        calefacto et subacto tumores sedantur, fistulae sanantur.
+                            noma<supplied>m</supplied> sistunt cochleae crudae de suo testo eiectae
+                        et in linteolo inlitae et appositae. <milestone unit="par" n="4"/> cacoethe
+                        emendat ulula auis cocta in oleo et contrita, cui miscetur butyrum ouillum
+                        et mel. eadem ratione curantur et cybio uetere, quod ut emplastrum panno
+                        inlini debet. <milestone unit="par" n="5"/> uermes ulceribus innati ranarum
+                        felle tolluntur. quae serpunt salsamento ueteri tuso in modum emplastri
+                        curantur. radix peponis contrita ulcera sanat in modum faui concreta, quae
+                        ceria uocant. <milestone unit="par" n="6"/> semen raphani ex aqua tritum
+                            <supplied>et impositum</supplied> sistit ulcera quae phagedaenas
+                        appellant. porrus capitatus contritus ex melle ulcera purgat. <milestone unit="par" n="7"/> alium cum sulphure et resina fistularum uitia
+                        extrahit. uetera ulcera, etiam carcinomata, foueri debent aqua calida in qua
+                        cocta sint holera, deinde et ipsa holera trita imponuntur bis in die.
+                            <milestone unit="par" n="8"/> sic curantur fistulae et tumores, quos
+                            euo<supplied>ca</supplied>ri quosue tolli opus est. cruda holera trita
+                        ueteribus ulceribus imponuntur. lini seminis farina in uino decocta prohibet
+                        serpere. <milestone unit="par" n="9"/> eadem farina cum melle eruptiones et
+                        pituitas emendat. pustulas ulcerum lenticula cocta rumpit. eadem
+                        collectiones sedat. eadem contra suppurantia cum polenta decocta imponitur.
+                            <milestone unit="par" n="10"/> lenticulae sucus ulceribus et oris et
+                        genitalium adhibetur, sed <supplied>is</supplied> cum rosaceo et cydonio
+                        trito. farina erui serpere ulcera non patitur spathomele imposita.
+                            <milestone unit="par" n="11"/> l<supplied>up</supplied>ini farina eodem
+                        modo imposita siccat. cinis uitium cum axungia uetere fistulas purgat et
+                        sanat. folia oliuae commanducata et imposita ulceribus manantibus medentur.
+                            <milestone unit="par" n="12"/> cauliculi oleastri decocti cum melle
+                        impositi carnes quae ab ossibus recedunt comprimunt. contra collectiones
+                        folia oleastri ex uino trita imponuntur. his quae purganda sunt oleastri
+                        folia ex melle adhibentur. <milestone unit="par" n="13"/> ulcera manantia
+                        oleum amigdalinum cum uino expurgat. fici ramorum teneri cauliculi tusi
+                        imponuntur cum melle ulceribus quae ceria uocant. <milestone unit="par" n="14"/> carcinoma<supplied>ti</supplied>, si sine uulnere sit, quam
+                        pinguissimam ficum imponere singulare remedium est. nuces iuglandes
+                        perueteres commanducatae ulceribus medentur impositae. <milestone unit="par" n="15"/> glans roborea trita cum axungia duritias quas cacoethes uocant
+                        et euocat et emendat: melius si sit ilicina. ulceribus quae serpunt et quae
+                        in his excrescunt spondilium cum ruta inlinitur. <milestone unit="par" n="16"/> pix Bruttia cum melle ulcera purgat explet sanat. eadem pix cum
+                        uua passa et axungia ulceribus putrescentibus medetur. aqua in qua lentiscus
+                        decocta est ulcera quae serpunt utiliter fouentur. <milestone unit="par" n="17"/> pilulae de platanis tusae emendant. uermes tollunt mala tusa ex
+                        melle. hedera ex uino decocta imponitur omnium generi ulcerum. idem praestat
+                        et lana sucida ex melle. <milestone unit="par" n="18"/> cinis finii pecudum
+                        addito cinere ex ossibus femorum agnorum et nitrum tusum adhibetur ulceribus
+                        quae cicatricem non trahunt. pulmo arietinus carnes excrescentes in
+                        ulceribus exaequat. <milestone unit="par" n="19"/> ulcera quae serpunt et
+                        quae in his excrescunt cinis capitum menarum coercet. fistulae aperiuntur
+                        siccanturque salsamentis cum linteolo inmissis, intraque alterum diem omnem
+                        callum auferunt. <milestone unit="par" n="20"/> serpentium ulcerum coercet
+                        impetus calx non lota temperata ex rosaceo et aceto atque inlita, mox cera
+                        ac rosaceo permixta perducit ad cicatricem. symphitum omnia ulcera celerrime
+                        perducit ad cicatricem et sanat. <milestone unit="par" n="21"/> plantaginis
+                        sucus infunditur fistulis, et inmittitur isdem fel taurinum cum porri suco
+                        pari mensura. carcinomata curantur coagulo leporis cum pari mensura
+                        capparis, quod utrumque adsparsum uino teritur una. <milestone unit="par" n="22"/> gangraenis pinna inlinitur fel ursinum. his quae serpunt
+                        medetur <supplied>asini ungularum cinis</supplied>. caseus caprinus siccus
+                        ex aceto et melle purgat ulcera. quae serpunt cohibet seuum caprinum cum
+                        cera. idem additis <del>cum</del> sulphure et pice purgat. </p>
+                </div>
+                <div type="cap" n="5">
+                    <head>V PANIS QVAS PANICVLAS NOS DICIMVS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Nasturcium cum pice panas discutit.
+                            <supplied>maturis aut</supplied> maturescentibus imponitur lens ex aceto
+                        discocta. eruum cum melle tritum et impositum suppurare prohibet. <milestone unit="par" n="2"/> lupini ex aceto cocti aut minuunt aut maturant. ficum
+                        ex uino discoctam et tusam imponunt. uiscum et resinam et ceram aequis
+                        ponderibus remissam imponunt. galbanum per se prodest. <milestone unit="par" n="3"/> feniculi farina ex hydromelle decocta addita axungia mitigat
+                        dolorem. aperit panas seuum pecudum cum sale tosto. discutit murinus fimus
+                        addito turis polline et sandaraca, lacerta diuisa uiridis imposita, cochleae
+                        tusae, cinis inanium cochlearum cera mixtus, fimus columbinus per se uel cum
+                        farina hordeacea impositus. <milestone unit="par" n="4"/> echinorum testae
+                        contusae ex aqua inlitae. cinis muricum uel purpurarum ex oleo uetere siue
+                        incipientes discutit siue concoctas aperit. <milestone unit="par" n="5"/>
+                        cancri fluuiales triti medentur, salsamenta cocta et imposita. creta Cimolia
+                        trita ex aceto cohibet. ursinus sanguis discutit, item taurinus aridus
+                        tritus. ungulae equinae cinis cum oleo, bubulus <supplied>sanguis</supplied>
+                        inlinitur; fimum hircinum cum melle decoctum. <milestone unit="par" n="6"/>
+                        quidam ad panas utuntur hac compositione: cerae et turis drachmas uicenas,
+                        spumae argenti drachmas XL, muricum cineris drachmas X: permiscetur tusum et
+                        additur eo olei ueteris hemina. </p>
+                </div>
+                <div type="cap" n="6">
+                    <head>VI STRVMIS <del>ID EST SCROFAE QVAE NASCVNTVR IN GVTTVRE</del></head>
+                    <p>
+                        <milestone unit="par" n="1"/> Caprifici corticem intumescentem puer impubes
+                        si defracto ramo tollat dentibus et medulla ipsa alligetur ante solis ortum
+                        prohibere strumas constat. echinorum testae contusae cum alumine ex oleo
+                        uetere et pulte. <milestone unit="par" n="2"/> nasturcium cum lomento
+                        contritum superposito folio hederae. marrubium cum adipe. lens in aceto
+                        discocta. lupinum ex aceto coctum contritumque. <milestone unit="par" n="3"/> folia fici et ficus inmatura una tusa imponuntur. sucus pilulae cupressi
+                        ex fermento. galbanum per se exulceratis strumis imponitur. mustelae sanguis
+                        inlinitur. mustela ex uino discocta imponitur. <milestone unit="par" n="4"/>
+                        cochleae cum suis testis tusae; ad hoc faciunt optime quae salicibus
+                        adhaerent. cinis aspidis cum seuo taurino imponitur. <milestone unit="par" n="5"/> adeps anguis mixtus oleo. anguium cinis ex oleo. esse eos quoque
+                        praecipitur, abscisis a capite et a cauda digitis quaternis, aut cinerem
+                        crematorum bibere. <milestone unit="par" n="6"/> fimum columbinum imponunt
+                        alii mixta farina hordeacea ex aceto acri. talpae cinis ex melle imponitur.
+                        iecur talpae quidam inter manus contritum circumlinunt et triduo non
+                        abluunt. <milestone unit="par" n="7"/> talpae capita praeciduntur et cum
+                        terra a talpis egesta conteruntur et in pastillos rediguntur: qui si
+                        seruantur in stagnea pyxide utiles ad omnia apostemata sunt. <milestone unit="par" n="8"/> uermes terreni totidem quot sunt strumae alligati cum
+                        his pariter arescunt. circumligantur lino quo uipera suspendio occisa est.
+                        milipedae imponuntur addita resinae parte quarta: non solum strumas sic
+                        curari praecipiunt sed et omnia apostemata. <milestone unit="par" n="9"/>
+                        calx uiua cum resina liquida uel adipe suillo addito melle strumis utiliter
+                        auxiliatur. fel aprinum uel bubulum tepidum inlinitum discutit. <milestone unit="par" n="10"/> ungulae asini uel equi cinis ex aqua et oleo
+                        inlinitur. fimum caprinum ex aceto acri decoctum strumis inlinitur. bubulum
+                        seuum ex oleo imponitur. ebuli folia conteruntur et mixta cum faece
+                        ceruisiae super additis foliis eiusdem ebuli in linteolo
+                            alliga<supplied>n</supplied>tur. </p>
+                </div>
+                <div type="cap" n="7">
+                    <head>VII FVRVNCVLIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Fimi gallinacei id quod rufum est recens
+                        inlinitur ex aceto. uentriculus ciconiae ex uino decoctus inlinitur. muscae
+                        impari numero infricantur digito minimo. <milestone unit="par" n="2"/>
+                        sordes ex auriculis pecudis inlinuntur. seuum arietis cum farina pumicis et
+                        salis aequis portionibus. nitrum cum resina mixtum extrahit. <milestone unit="par" n="3"/> nasturcium tusum cum fermento concoquit<del>ur</del>.
+                        nouem granis hordei si quis furunculum circumducat singulis manu sinistra et
+                        omnia in ignem coiciat, confestim sanat. <milestone unit="par" n="4"/> ficus
+                        siccae decoctae ex uino et tritae imponuntur. <milestone unit="par" n="5"/>
+                        galbanum per se. seuum bubulum cum sale imponitur, aut si dolor sit sine
+                        sale liquatur cum oleo. simili modo facit caprinum seuum. limacis cinis
+                        aspersus purgat. </p>
+                </div>
+                <div type="cap" n="8">
+                    <head>VIII CARBVNCVLIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Fimus columbinus cum lini semine ex aceto
+                        mulso imponitur. mullorum salsorum cinis prodest. <milestone unit="par" n="2"/> ruta ex aceto trita. erui farina ex uino imposita carbunculum
+                        rumpit. idem praestant et lupini triti. fimus pecudis incipientibus
+                        carbunculis imponitur. <milestone unit="par" n="3"/> ficus siccae in uino
+                        decoctae aut tritae et confricatae extrahunt. nuces iuglandes perueteres
+                        tritae impositae. pix Bruttia cum uua passa demptis nucleis addita axungia
+                        purgat. <milestone unit="par" n="4"/> herba sabina quae habet folia similia
+                        cupressi cum melle inlinitur. cerebrum suis feminae coctum et tostum
+                        imponitur. </p>
+                </div>
+                <div type="cap" n="9">
+                    <head>VIIII AMBVSTIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Fimus ouium cum cera ambustis imponitur.
+                        canini capitis cinis. cochlearum cinis ex oleo inlinitur. adeps uerrinus.
+                        fimi columbini cinis ex oleo inlinitur. <milestone unit="par" n="2"/> garum
+                        infunditur nec nominatur. cancrorum marinorum uel fluuialium cinis ex oleo.
+                            <milestone unit="par" n="3"/> hordei cinis inspargitur. lens ex aqua
+                        semicocta imponitur: procedente curatione lens cruda teritur et cribratur
+                        eiectoque furfure coquitur et sic imponitur, nouissime eo mel additur.
+                            <milestone unit="par" n="4"/> uitis cortex comburitur et cinis eius ex
+                        oleo inlinitur: et pilos reddit. prodest ambustis inlita faex uini siue
+                        sapae. oliuarum carnes teruntur et imponuntur. <milestone unit="par" n="5"/>
+                        nigra oliua continuo si imponatur commanducata pustulas gigni prohibet.
+                        myrti foliorum cinis spargitur. flos hederae cum cera utiliter imponitur.
+                        hordeum tostum tritum ex albis ouorum addito adipe suillo mirifice prodest.
+                            <milestone unit="par" n="6"/>
+                        <supplied>ambusta</supplied> aqua ouis si statim occupentur ut eleuantur,
+                        inde pustulae non sequuntur. oua in aqua decoquuntur, deinde in prunas
+                        coiciuntur donec putamina eorum comburantur, tunc lutea eorum ex rosaceo
+                        inlinuntur. <milestone unit="par" n="7"/> oleum addito sale pustulas
+                        reprimit. eis quae feruenti aqua exusta sunt ranarum cinis aspersus adeo
+                        prodest ut etiam pilos reddat. <milestone unit="par" n="8"/> efficax est
+                        fibrinarum <del>ferarum</del> cinis pellium. magnes lapis crematus tritusque
+                        inspargitur. fimus leporis et caprae inlinitur aequis ponderibus. <milestone unit="par" n="9"/> gluten taurinum remissum sicuti solet a fabris
+                        remitti sine cicatrice sanat: optimum est ex auribus taurorum et genitalibus
+                        sordes applicare. </p>
+                </div>
+                <div type="cap" n="10">
+                    <head>X CANIS RABIOSI MORSVI</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Salsamentum imponitur. rutae suci pondus
+                        denariorum XV ex uino bibitur. plagae imponuntur rutae folia trita cum sale
+                        et melle uel cum pice et aceto. <milestone unit="par" n="2"/> folia nigrae
+                        ficus trita ex aceto medentur. rosae siluestris radix pota efficacissime
+                        abigit aquae pauorem. plantago pota et imposita facit et aduersus canis
+                        rabiosi morsum et aduersus omnium bestiarum. <milestone unit="par" n="3"/>
+                        lana sucida indita morsum sanat post diem septimum soluta. cinis capitis
+                        canini inlitus abigit aquae pauorem, aut caput canis deuoratum. <milestone unit="par" n="4"/> uermis de cadauere canis adalligatus pauorem tollit.
+                        est limus sub lingua canis rabiosi; qui datus in potione hydrophouiam
+                        prohibet. <milestone unit="par" n="5"/> omnia praecedit ut iecur eiusdem
+                        canis qui momorderit deuoretur, si fieri potest crudum, si minus quoquo modo
+                        coctum. crista gallinacei contrita imponitur plagae. <milestone unit="par" n="6"/> anseris adeps cum melle. salliuntur a quibusdam canes qui
+                        rabiosi fuerint ut in remedium carnes eorum edantur. <milestone unit="par" n="7"/> lactens catulus eiusdem sexus qui momorderit in aqua necatur
+                        eiusdemque iecur crudum deuoratur. <milestone unit="par" n="8"/> fimus
+                        gallinacei rufus ex aceto morsui imponitur. glebulae ex hirundinis nido
+                        solutae ex aceto inlinuntur. catulus lactens priusquam uideat aperitur
+                        eiusdemque coagulum bibitur, ita ut is qui bibit in defluenti aqua stet
+                        usque ad umbilicum. <milestone unit="par" n="9"/> pauescentibus aquam totam
+                        faciem perungunt adipe uituli marini. aquam expauescentes usta plaga ferro
+                        continuo sanantur. </p>
+                </div>
+                <div type="cap" n="11">
+                    <head>XI MORSVI CANIS NON RABIOSI</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Nitrum et axungia et resina aequis portionibus
+                        ex aceto imponuntur. allex cruda in linteolis concerptis. alium cum melle
+                        tritum. menta cum melle contrita. <milestone unit="par" n="2"/> marrubium
+                        tritum cum axungia uetere. urtica trita addito sale. <milestone unit="par" n="3"/> cinis uitium cum oleo. acetum calidum in spongia. ramorum fici
+                        cauliculi teneri triti. nuclei amigdalini cum melle triti. nucum iuglandium
+                        carnes cum cepa et sale et melle contritae. <milestone unit="par" n="4"/>
+                        easdem carnes nucum ab ieiuno homine commanducatas imponi iubent. <milestone unit="par" n="5"/> spongiae minutae conciduntur et imponuntur infusae
+                        uel ex aceto uel ex aqua uel ex melle. faex aceti cum melanthio plagae
+                        imponitur. </p>
+                </div>
+                <div type="cap" n="12">
+                    <head>XII CICATRICIBVS QVIBVS COLOR REDDI DEBET</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Arietinus pulmo recens quam frequentissime
+                        imponitur. seuum eiusdem cum nitro efficax est. adeps leoninus ex rosaceo.
+                        utuntur senectute anguium ex uino decocta. <milestone unit="par" n="2"/>
+                        fimus columbinus cum melle. fel scorpionis marini. erucae semen cum felle
+                        bubulo. lupini ex aceto cocti. seuum asini impositum. fel uituli adiecta
+                        myrrha et oleo et croco extenuat: seruatur in pyxide aerea, calefactum
+                        imponitur. </p>
+                </div>
+                <div type="cap" n="13">
+                    <head>XIII FRIGORE EXVSTIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Ituri per niuem farinam opopanacis bibere
+                        debent eaque perungui: uim enim habet mirifice excalefactoriam. si facta
+                        sint uulnera, frumentum tostum in ferro et tritum ex uino praesentaneo
+                        remedio est. <milestone unit="par" n="2"/> rutae folia in oleo cocta
+                        imponuntur. leporini pili cinis. pulmo leporis adalligatur.
+                            aristolochia<del>m</del> ex oleo excalefactoriam uim habet. axungia
+                        porcina. </p>
+                </div>
+                <div type="cap" n="141">
+                    <head>XIIII EXTRAHENDIS HIS QVAE CORPORI FIXA SVNT</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Mus uiuus discerptus imponitur. lacertae caput
+                        concussum et cum sale tusum. lacerta uiua discerpta. cochleae exemptae de
+                        testis suis et contritae cum leporis coagulo. <milestone unit="par" n="2"/>
+                        testarum sepiae cinis. alium elixum cum pice harundines extrahit. nasturcium
+                        cum pice impositum. farina lini seminis cum radice siluestris cucumeris una
+                        trita. urticae radix <supplied>cum sale</supplied> trita et imposita.
+                            <milestone unit="par" n="3"/>
+                        <supplied>harundinis radix trita et imposita</supplied> filicem extrahit,
+                        item filicis radix eodem modo harundinem extrahit. <milestone unit="par" n="4"/> radix acrifolii coquitur et teritur et sic imponitur. blattae
+                        sine pedibus et capite et pennis tritae inlinuntur. <milestone unit="par" n="5"/> cancri fluuiatiles triti. testarum purpurarum cinis ex aceto.
+                        fimus caprae ex uino. coagulum quodcumque <del>est</del>, sed maxime
+                        leporis, cum pari pondere turis aut uisci. </p>
+                </div>
+                <div type="cap" n="15">
+                    <head>XV QVARTANIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Caput claui quo aliquis in crucem fixus est
+                        alligatur panno, uel spartum de cruce. <milestone unit="par" n="2"/> fimi
+                        bubuli cinis spargitur. urina pueri inlinuntur primi digiti in manibus et
+                        pedibus. leporis cor adalligatur coagulumque eius bibitur ante accessionem,
+                        leonis in cibo datur. <milestone unit="par" n="3"/> uiperae caput abscisum
+                        in linteolo adalligatur. muri uiuo rostellum primum et auriculae summae
+                        deciduntur et in russeo panno adalligantur, et ipse mus uiuus dimittitur.
+                            <milestone unit="par" n="4"/> ranae in triuio decoquuntur cum oleo;
+                        carnibus earum proiectis eo oleo utuntur ad unctionem. alii elixi caput unum
+                        cum laserpicii obolo in uino austeri bibitur. <milestone unit="par" n="5"/>
+                        hirundinis fimi drachma una trita ex lactis caprini aut ouilli aut passi
+                        cyathis tribus ante accessionem propinatur. rubetae ranae cor uel iecur
+                        adalligatum in panno leucopeo. <milestone unit="par" n="6"/> semen anethi
+                        tribus digitis comprehensum et feniculi tantundem ex aceti mulsi cyatho uno
+                        potui datur. <milestone unit="par" n="7"/> in charta uirgine scribis quod in
+                        dextro brachio ligatum portet ille qui patitur: <said>RECEDE AB ILLO GAIO
+                            SEIO, TERTIANA, SOLOMON TE SEQVITVR</said>. <milestone unit="par" n="8"/> item panem et salem in linteo de licio alliget et circa arborem licio
+                        alliget et adiuret per ter panem et salem: <said>CRASTINO HOSPITES MIHI
+                            VENTVRI SVNT, SVSCIPITE ILLOS</said>. hoc ter dicat. </p>
+                </div>
+                <div type="cap" n="16">
+                    <head>XVI TERTIANIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Spongiae Africanae cinis ex oleo uel aceto in
+                        fronte inlinitur. ante solis ortum cancri fluuiatilis oculi eruti
+                        adalligantur, ipse cancer in aqua remittitur. <milestone unit="par" n="2"/>
+                        pulei ramus in lana inuolutus ante accessionem olfaciendus datur aut stratis
+                        subditur. <milestone unit="par" n="3"/> urticae autumnalis radix
+                        adalligatur: is qui eam effodiet debet nominare eum cui medetur et quibus
+                        parentibus natus sit. <milestone unit="par" n="4"/> herba quae in fluminibus
+                        aut riuis nascitur adalligatur in laeuo brachio quid sit nescienti,
+                        tertianas discutit: legi debebit ante solis ortum sic ut eum qui colligit
+                        nemo uideat. <milestone unit="par" n="5"/> lacerta uiridis uiua adalligatur
+                        in uaso quod eam capiat. <milestone unit="par" n="6"/> aranei tela cuilibet
+                        emplastro infrica<del>n</del>tur idemque emplastrum ut libet in aluta
+                        tamquam anaco<supplied>l</supplied>lema imponitur ante accessionem et aquae
+                        frigidae decem unciae bibuntur. </p>
+                </div>
+                <div type="cap" n="17">
+                    <head>XVII FEBRIBVS PERIODICIS <del>ID EST FEBRES QVAE DE ACCESSIONE
+                            NASCVNTVR</del></head>
+                    <p>
+                        <milestone unit="par" n="1"/> Iecur delphini ante accessionem gustandum
+                        datur. in aselli piseis capite lapilli qui plena luna inuenti sunt
+                        adalligantur in linteolo. utile est ungui oleo et sale. <milestone unit="par" n="2"/> cancris fluuiatilibus tritis in oleo et aqua ante
+                        accessionem perungui oportet. <milestone unit="par" n="3"/> oculus lupi
+                        dexter salsus adalligatur. ante meridiem dantur aquae heminae tres potui, in
+                        quibus additae sint tres guttae sanguinis ex uena asini quam in auricula
+                        habet. recidiuas prohibet lacerta uiridis uiua adalligata in uascello quod
+                        eam capiat. </p>
+                </div>
+                <div type="cap" n="18">
+                    <head>XVIII LETHARGICIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Cimices septem triti in aquae cyatho uno
+                        dantur si uir sit, si puer sit in eodem modo aquae cimices quattuor.
+                            <milestone unit="par" n="2"/> castoreum fronti inlinitur. ruta ex aceto
+                        datur olfacienda. sisymbrium capiti infunditur ex aceto. urtica pedes
+                        caeduntur et frons. <milestone unit="par" n="3"/> spondilium capiti
+                        instillatur. mustelae iecur exuritur ad olfactum faciendum. pulmo pecudis
+                        calidus circa caput adalligatur. <milestone unit="par" n="4"/> palumbi tres
+                        putrefacti lethargum excitant odore. euphorbio ex aceto nares tanguntur.
+                        capri cornus usti nidor dormire eum non patitur. <milestone unit="par" n="5"/> uulturis neruos tollis et eos neruos circa manus laborantis ligabis.
+                        aristolochium rotundum cum adipe uulturino teris et ex eo manus fricabis.
+                    </p>
+                </div>
+                <div type="cap" n="19">
+                    <head>XVIIII PHRENETICIS <del>QVI SENSVM PERDVNT</del> ET QVI SOMNVM NON
+                        CAPIVNT</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Rosaceo et castoreo et peucedano peruncto
+                        capite somnus accedit. alium elixum in cibo datur. <milestone unit="par" n="2"/> sucus rutae tritae ex aceto instillatur in tempora. spondilium
+                        infunditur capiti. suffitus lanae sucidae prodest. pulmo pecudis calidus
+                        circa caput alligatur. <milestone unit="par" n="3"/> adipe gliris frontem
+                        lini et dormit. pellem de lepore albo nescienti sub capite pone. <milestone unit="par" n="4"/> lauri folia tria nescienti sub capite ponis et
+                        dormit. semen papaueris, semen lactucae, dactylos tres in aqua coquis ad
+                        tertias, das bibere et dormit. <milestone unit="par" n="5"/> seminis
+                        lactucae cochlear dimidium teris cum uino et per imbricem supino pone et
+                        dormit. </p>
+                </div>
+                <div type="cap" n="20">
+                    <head>XX CARDIACIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Aqua potui datur in qua holera discocta sunt
+                        addito sale. ruta ex aceto et melle cum farina hordeacea pectori imponitur.
+                            <milestone unit="par" n="2"/> rutae fasciculus cum rosaceo ex aceto
+                        decoquitur adiecta aloes uncia una: id oleum perunctione<del>m</del>
+                        <supplied>sudorem sistit</supplied>. <milestone unit="par" n="3"/> radix
+                        ferulae ex aceto et oleo perunctorum sudorem inhibet. uinum merum in spongia
+                        mammae sinistrae imponitur. <milestone unit="par" n="4"/> myrti semen cum
+                        polenta ex uino imponitur mammae sinistrae. folia rubi in quo mora nascuntur
+                        per se trita imponuntur eidem mammae. <milestone unit="par" n="5"/> sucus
+                        mororum quae in rubo nascuntur potui datur. cornus ceruini et caprini cinere
+                        ex oleo myrteo aduersus sudorem perunguntur. puluis ex myrti foliis tostis
+                        inspersus sudorem statuit. <del>lapillus qui in uentriculo hirundinis
+                            inuenitur gestatur.</del>
+                    </p>
+                </div>
+                <div type="cap" n="21">
+                    <head>XXI COMITIALIBVS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Testiculi ursini in cibo prosunt. testes
+                        aprini crudi triti ex aqua bibuntur. cum primum quis cecidit, in eo loco quo
+                        caput eius fuit clauus ferreus figatur: non repetit. <milestone unit="par" n="2"/> dantur carnes edendae bestiae occisae eo ferramento quo homo
+                        ante occisus est. <supplied>lapillus qui in uentriculo hirundinis inuenitur
+                            gestatur.</supplied>
+                        <milestone unit="par" n="3"/> hirundinis sanguis cum ture uel eiusdem cor
+                        recens deuoratur. lapillus de nido hirundinis adalligatus ad collum iacentem
+                        recreat et ab hoc periculo tutum praestat. <milestone unit="par" n="4"/>
+                        <supplied>alium</supplied> elixum subinde in cibo et in potione sumitur.
+                        tenentes in manu anethum comitiali morbo non appetuntur. testiculi arietini
+                        inueterantur et ex his dimidii denarii pondus datur in hemina aquae tritum.
+                            <milestone unit="par" n="5"/> abstinentia uini utendum est diebus
+                        quinque ante et totidem postea. sanguis pecudis utiliter bibitur. sed et
+                        humanus sanguis hoc uitio liberat. <milestone unit="par" n="6"/> fel agninum
+                        cum melle uel cochleari uel ligula sumitur. catulus lactens absciso capite
+                        et pedibus, exsectis interaneis, ex uino et myrrha coctus editur. <milestone unit="par" n="7"/> uiuerra sumpta in cibo prodest. lacerta uiridis
+                        ablato capite et pedibus et interaneis in cibo datur ita condita ut
+                        fastidium abigat. <milestone unit="par" n="8"/> cochlearum cinis addito lini
+                        semine et urticae ex melle inlinitur cum sale. iecur uulturis tritum cum suo
+                        sanguine propinatur ter septenis diebus. <milestone unit="par" n="9"/>
+                        melius prodest si ea auis cum occiditur satura erit humano cadauere. fel
+                        testudinis naribus inlitum iacentem erigit. <milestone unit="par" n="10"/>
+                        coagulum uituli marini bibitur cum lacte equino aut mali Punici suco aut
+                        mulso aceto. castoreum in aceti mulsi cyathis tribus ieiunis datur.
+                            <milestone unit="par" n="11"/> his qui saepius cadunt clystere
+                        infunditur hoc: castorei drachmae duae, mellis hemina, olei hemina, aquae
+                        sextarius I. <milestone unit="par" n="12"/> mustelae marinae iecur in cibo
+                        bene sumitur. carnes caprinae in rogo hominis tostae hunc morbum depellunt.
+                        caprini uel ceruini cornus usti nidor adhibetur. </p>
+                </div>
+                <div type="cap" n="22">
+                    <head>XXII HYDROPICIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Lapidem achatem hydropicus si secum
+                        portauerit, liberabitur. uomitus canini uentri inlinuntur. <milestone unit="par" n="2"/> sablone calido marino obruuntur. spongiae Afrae
+                        siccae apponuntur. adeps delphini liquatus ex uino bibitur, propter
+                        graueolentiam naribus obturatis aut unguento optimo tactis. <milestone unit="par" n="3"/> cancri marini uel fluuiatiles in cibo ex iure. alium
+                        uiride cum fico duplici aluum euacuat. <milestone unit="par" n="4"/> scilla
+                        subiecta linguae sitim compescit. scillae bulbus torretur, deinde purgatur
+                        et medium eius in aqua coquitur. cum madidum est eximitur, ex eo tres oboli
+                        dantur potui ex melle et aceto: euacuatur per urinam. <milestone unit="par" n="5"/> sinape<del>m</del> et ficus et cyminum aequis partibus tusa
+                        uentri imponuntur. ficus siccae coquuntur et ex uino et absinthio
+                        suffunduntur; farina hordeacea addito nitro: omnia in unum conteruntur et
+                        ita imponuntur. <milestone unit="par" n="6"/> folia myrti in uino decocta
+                        conteruntur et ex eo uino duo cyathi potui dantur. radices sambuci in uino
+                        decoquuntur et ex eodem uino duo cyathi poti exinaniunt. <milestone unit="par" n="7"/> est hedera quae chrysocarpos appellatur propterea
+                        quod fert grana aurei coloris: haec grana XX in uini sextario conteruntur et
+                        ex eo uino terni cyathi bibuntur qui per urinam exinaniunt. <milestone unit="par" n="8"/> testudo decisis pedibus et capite et cauda,
+                        intestinis abiectis, in cibo datur ita condita ut citra fastidium sumi
+                        possit. <milestone unit="par" n="9"/> fimus uituli masculi uentri inlinitur.
+                        uincae peruincae aridae tusae farinae cochlearis mensura ex aqua data
+                        celerrime reddit sanitatem. <milestone unit="par" n="10"/> elleborum
+                        contusum ut sit puluis: deinde commiscebimus illud radicibus et super
+                        uentrem in linteolo imponimus, ita ut pulueris pusillum supra spargas.
+                        adalligatum habeas licet biduum uel triduum unum adalligamentum. </p>
+                </div>
+                <div type="cap" n="23">
+                    <head>XXIII MORBO REGIO</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Sordis de auriculis aut de mamma pecudis
+                        pondus denarii cum myrrhae pusillo ex duobus cyathis uini hauriuntur.
+                            <milestone unit="par" n="2"/> uermes terreni cum myrrha in aceto mulso
+                        propinantur. cerebrum perdicis in tribus cyathis uini bibitur. <milestone unit="par" n="3"/> cineres interaneorum palumborum
+                            <supplied>ad</supplied> cochlearia bina bibuntur ex mulso. salsamentum
+                        in cibo ex pipere sumitur seruata carnis abstinentia. <milestone unit="par" n="4"/> alium tritum in potione uini propinatur. erucae siluestris tria
+                        folia sinistra manu decerpta ex aqua mulsa bibuntur. <milestone unit="par" n="5"/> cicer arietinum decoquitur in aqua et duo cyathi potui dantur
+                        uel ex melle in cibo. nuces Graecae cum absinthii semine teruntur, deinde
+                        pilulae ex aceto eduntur. <milestone unit="par" n="6"/> rubia qua pelles
+                        inficiuntur in aqua mulsa bibitur. herba sabina, quae habet folia cupressi
+                        similia, trita ex uino potui datur. <milestone unit="par" n="7"/> canini
+                        capitis cinis in mulso propinatur. gallina si sit luteis pedibus, aqua pedes
+                        ei purificantur, deinde uino colluuntur idque uinum potui datur. folia
+                        oleastri in uino trita imponuntur. <milestone unit="par" n="8"/> spondilium
+                        ex uino bibitur. fimus pulli asinini quem primum edidit a partu datur ex
+                        uino ad magnitudinem fabae: triduo medetur. <milestone unit="par" n="9"/>
+                        idem praestat equini pulli fimus eadem ratione. cyminum ex uino albo a
+                        balneo datur. </p>
+                </div>
+                <div type="cap" n="24">
+                    <head>XXIIII IGNI SACRO</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Vermes terreni ex aceto inlinuntur. serpentium
+                        senectus cum bitumine et felle siue fimo agnino ex aqua inlinitur a balneo.
+                            <milestone unit="par" n="2"/> alii cinis ex oleo et garo inlinitur. ruta
+                        ex aceto et oleo inlinitur. lens ex aqua marina decocta imponitur.
+                            <milestone unit="par" n="3"/> amurca oliuae nigrae infunditur. herba
+                        sabina tusa quae habet folia quasi cupressus cum melle inlinitur. <milestone unit="par" n="4"/> oua cocta trita cum oleo imponuntur et operiuntur
+                        foliis betae, ouorum trium candidum cum amyli pari mensura contritum
+                        imponitur. hyssopum cum pompholica et rosaceo inlinitur. <milestone unit="par" n="5"/> grillus contritus manu ab eo qui non sit eo uitio
+                        apprehensus eum qui hoc fecerit in totum annum ab hoc malo liberat: oportet
+                        autem eum erui ferro cum cauernae suae terra. <milestone unit="par" n="6"/>
+                        anseris adipe perunguitur uitium. uiperae caput aridum combustum ex aceto
+                        superlinitur. <milestone unit="par" n="7"/> spongia ex aceto imponitur tam
+                        grandis ut sanas quoque partes tegat. ursinus aut suillus adeps. adicitur
+                        fimus uitulinus uel bubulus. ramenta pellis ceruinae delecta pumice ex aceto
+                        trita imponuntur. <milestone unit="par" n="8"/> Est genus sacri ignis quod
+                        zoster uocatur, quoniam occidit eum quem appetit si praecingat. huic
+                        occurrit imposita plantago cum creta Cimolia. <milestone unit="par" n="9"/>
+                        Aqua cisternina aut certe dulcis soluitur ex oleo, locus deinde penna
+                        perunguitur: eadem die liberat. oui medium quod est rufum teritur, sublato
+                        albo, in uaso cupreo, perinde pistillo de cupro, et sic dolor penna
+                        inlinitur. </p>
+                </div>
+                <div type="cap" n="25">
+                    <head>XXV OSSIBVS FRACTIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Caninum cerebrum linteolo inlitum imponitur,
+                        superpositis lanis quae subinde oleo suffundantur: quarto decimo die
+                        solidat. cinis siluestrium murium imponitur cum melle. <milestone unit="par" n="2"/> cinis terrenorum uermium cum melle etiam minuta ossa extrahit.
+                        laridum elixum circumligatum mira celeritate solidat. <milestone unit="par" n="3"/> articulorum fracturis cinis de femoribus pecudum cum cera,
+                        costis fractis imponitur caprinus fimus ex uetere uino: aperit extrahit
+                        sanat. </p>
+                </div>
+                <div type="cap" n="26">
+                    <head>XXVI SCABIEI</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Plurimum prosunt asini medullae inlitae. urina
+                        asini cum suo luto imposita sedat. <milestone unit="par" n="2"/> fimus
+                        bubulus impositus. sanguis bubulus recens impositus: cum aruit, alter super
+                        inlinitur, postero die abluitur cinere lixiuo. <milestone unit="par" n="3"/>
+                        sanguis caninus inlinitur. alumen liquidum imponitur admixto nitro et
+                        melanthio. ocustarum pratensium pedes cum seuo hircino triti medentur. </p>
+                </div>
+                <div type="cap" n="27">
+                    <head>XVII PAPVLIS <supplied>ET PRVRITVI</supplied></head>
+                    <p>
+                        <milestone unit="par" n="1"/> Lupinorum farina ex aceto subacta in balneo
+                        papulis inlinitur. pruritus sedant cochleae minutae tritae impositae.
+                            <milestone unit="par" n="2"/> nitrum candens uino austeri extinguitur,
+                        deinde conteritur et sine oleo in balneo aspergitur. pruritum et scabiem
+                        sedat oleum in quo pastinacae marinae decoctae sint. <milestone unit="par" n="3"/> aluminis liquidi pars tertia, duae partes mellis in balneo
+                        papulis inlinuntur. aeque papulis inlinitur creta Cimolia in balneo.
+                            <milestone unit="par" n="4"/> pustulis suilli fimi cinis uel cornus
+                        ceruini cinis ex aqua inlinitur. sulphur tritum mixtum liquamine in balneo
+                        utiliter inlinitur. </p>
+                </div>
+                <div type="cap" n="28">
+                    <head>XVIII VARIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Folia porri sectiui trita imposita tollunt
+                        uaros. farina erui ex aqua imposita sanat et toto corpore maculas emendat.
+                        oleum amigdalinum ex melle inlinitur. <milestone unit="par" n="2"/> adeps
+                        gallinaceus cum cepa contritus imponitur. naeuos tollit farina auenae ex
+                        aceto cocta et imposita. </p>
+                </div>
+                <div type="cap" n="29">
+                    <head>XVIIII VERRVCIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Verrucae abolentur urina recenti canis cum suo
+                        luto inlita, fimi canini cinere cum cera <del>et cepa</del> imposito, fimo
+                        ouium inlito, sanguine murium recenti, erinacei felle, sanguine lacertae,
+                        fimo gallinacei cum oleo et nitro. <milestone unit="par" n="2"/> efficaciter
+                        tolluntur <del>cymino</del> ocimo cum atramento sutoricio, inmaturarum
+                        ficorum lacte cum axungia mixto, capitum menarum cinere cum alio trito,
+                        cinere fimi uitulini ex aceto, asini urina cum suo luto. </p>
+                </div>
+                <div type="cap" n="30">
+                    <head>XXX LIVORIBVS ET TVMORIBVS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Recenti liuori cortex raphani ex melle tritus
+                        imponitur. alium ustum tritum ex melle. holus crudum tritum per se. apium
+                        uiride tritum cum albo oui. <milestone unit="par" n="2"/> sinapis
+                        Alexandrini heminam triti, adipis anserini uncias IIII, mellis selibram in
+                        mortario commisceri oportet et in panno induci et parti quae ex contusione
+                        in dolore est imponi, et mirifice remediat. <milestone unit="par" n="3"/>
+                        percussa in facie aut discorticata pane ex melle sanantur. acrifolii radix
+                        decoquitur, teritur et imponitur liuori et tumori. <milestone unit="par" n="4"/> pulmones pecudum in tenuissima frusta conciduntur, deinde
+                        coniecta in aquam feruentem calida subinde tumoribus imponuntur. <milestone unit="par" n="5"/> columbino fimo contrito utuntur. aqua marina calida
+                        utiliter tumores fouentur, deinde postea aceto aequo calido. plantagine
+                        cruda et contrita si tumor siue duritia cataplasmetur, efficaciter sedatur:
+                        quod remedium et alia huius modi curat et canceromata. <milestone unit="par" n="6"/> sal in saccum linteum coicitur, deinde intinctus in aquam
+                        feruentem et ita calefactus crebro imponitur. liuorem ab ictu recentem
+                        spongia ex aqua salsa calida saepius imposita tollit. <milestone unit="par" n="7"/> mirifice facit aduersus tumores fimum suillum sub testo
+                        calefactum tritumque cum oleo. uitiatis ex percussu fimum aprinum decoctum
+                        ex aceto imponitur. <milestone unit="par" n="8"/> eiusdem fimi arida farina
+                        inspersa potioni euersis utilissima est. aliqui putant melius esse eiusdem
+                        fimi farinam ex aqua bibere. itaque sic curantur agitatores tracti a
+                        quadrigis et rotis pressi. <milestone unit="par" n="9"/> proximam huic
+                        putant suillo fimo uim inesse. luxatis recens fimum uel aprinum uel suillum
+                        uel uitulinum imponitur. <milestone unit="par" n="10"/> uerris spuma recens
+                        cum aceto inlinitur. fimum caprinum cum melle. bubula caro trita. ruptis
+                        conuulsisque inlinitur fel ouillum cum lacte mulieris. cancri fluuiatiles
+                        triti cum lacte asinino. <milestone unit="par" n="11"/> Ponimus hoc loco
+                        compositionem emplastri quo Sagares uti solebat, pancratiastes de
+                        nobilissimis, aduersus omnia quae in eiusmodi certamine solent inferri. quod
+                        praeterea furunculis strumis uulneribus collectionibus podagris quoque
+                        medetur. <milestone unit="par" n="12"/> in cacabum nouum fictilem coicitur
+                        spumae argenti tusae cribratae libra, olei ueteris sesquilibra. haec
+                        coquuntur et subinde tudicula permiscentur: modus est ut fiat crassitudo
+                        glutinis fabrilis. <milestone unit="par" n="13"/> tunc additur picis siccae
+                        pondo quadrans, seui taurini diligenter contriti pondo uncia, et interposita
+                        horae dimidia parte cum desederit tudicula, in aqua frigida <unclear>missa
+                            et amota digitis inquinata retollitur</unclear> et cum opus fuerit in
+                        linteolo spisso imponitur ita ut oleo non tangatur. <milestone unit="par" n="14"/> Nero initio imperii sui quotiens in nocturnis grassaturis in
+                        faciem uerberatus esset, tapsia cum ture et cera caesa inliniebat et postero
+                        die sine ullis argumentis rixae populo Romano uultum suum spectandum
+                        praebebat. <milestone unit="par" n="15"/> si sanguis suffuderit, farina
+                        frumenti pollinis ex aqua temperatur, eaque tantam habet potentiam ut
+                        sanguinem perducat usque fascias. </p>
+                </div>
+                <div type="cap" n="31">
+                    <head>XXXI PARALYTICIS</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Nullus tam idoneus est paralyticis cibus quam
+                        holera. rubia salubriter ab his bibitur, sed ut usus sequatur balnei.
+                            <milestone unit="par" n="2"/> aliqui solent solia temperare addito
+                        euphorbio. pingue glirium et soricum decoctorum ex aqua dant edendum. </p>
+                </div>
+                <div type="cap" n="32">
+                    <head>XXXII PSILOTRVM</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Sunt qui uel suis pilis uel seruorum suorum in
+                        balneo offendantur, sine ulla quidem ratione; sed illorum quoque persuasioni
+                        occurrendum est et monstrandum quemadmodum effici possit ut euulsi pili non
+                        renascantur. <milestone unit="par" n="2"/> nam omni psilotro sic utendum est
+                        ut, priusquam adiciatur, resina auferantur. <milestone unit="par" n="3"/>
+                        Sanguisugae uiuae tostae in uaso fictili ex aceto inlinuntur per horas tres,
+                        deinde in balneo abluuntur. lacte canis primi partus inlinitur. <milestone unit="par" n="4"/> amerinae nigrae semen cum spumae argenti pari pondere
+                        inlinitur a balneo. sanguis uespertilionis. uipera exemptis ossibus in
+                        tribus heminis olei discoquitur et teritur: hoc peruncti psilotrantur.
+                            <milestone unit="par" n="5"/> fel erinacei inlinitur. et tithymalli
+                        sucus <supplied>cum</supplied> oleo inlinitur in sole frequenter et hyaenae
+                        sanguis inlinitur quoque. </p>
+                </div>
+                <div type="cap" n="XXXIII">
+                    <div type="pr" n="pr.">
+                        <head>XXXIII. praef. VENENIS ET VENENATIS MORSIBVS</head>
+                        <p>
+                            <milestone unit="par" n="1"/> Cum aduersus omnes morborum incursus
+                            fuerimus diligentissimi, non ideo tamen habebimus spem certam salutis,
+                            cum ex inprouiso serpentes saeuiant, mures aranei, phalangii, et his
+                            omnibus nocentiores sint uenefici hominis morsus. <milestone unit="par" n="2"/> aduersus haec itaque conuertendus est animus in instruendis
+                            remediis, ut appareat benignitatem naturae etiam ea mortifera esse
+                            noluisse. </p>
+                    </div>
+                    <div type="section" n="cap. 33">
+                        <head>XXXIII ANTIDOTVM CONTRA VENENA</head>
+                        <p>
+                            <milestone unit="par" n="1"/> Antidotum Mithridaticum laudant medici
+                            eiusdemque compositiones diuersas afferunt et ad commendanda migmata
+                            pretiosa propter raritatem ingentes pecunias poscunt. <milestone unit="par" n="2"/> appendunt namque singulas libras uicenis
+                            sestertiis et infelicium credulitatem hoc quoque ingenio circumueniunt
+                            ut illis persuadeant emere quae noceant. <milestone unit="par" n="3"/>
+                            alia namque stomachum laedunt, alia caput adgrauant, alia pallorem
+                            afferunt et corporis maciem. itaque frequenter accidit ut hi qui illorum
+                            antidotis usi sunt miserius morerentur quam si bibissent uenenum.
+                                <milestone unit="par" n="4"/> Pompeius autem Magnus Mithridate
+                            deuicto inuenit in scrinio eius ipsius manu scriptam compositionem, qua
+                            ille praesumpta aduersus omnia ueneficia in totum diem tutum se
+                            incolumemque praestabat: nuces iuglandes duae, ficus siccae duae, rutae
+                            folia XX, salis granum I in unum contunduntur et deuorantur a ieiuno.
+                                <milestone unit="par" n="5"/> Electrum est aurum in quo quinta pars
+                            argenti inuenitur. ex quo si quis uaso potatorio utatur, insidias ueneni
+                            uitabit. discurrunt enim in eo arcus caelestibus similes cum igneo
+                            stridore, eoque modo duplici ratione deprehenditur scelus. <milestone unit="par" n="6"/> est et electrum fictum in auro addita argenti
+                            parte quinta, sed hoc tantum praestat quantum illud naturale. <milestone unit="par" n="7"/> Ergo monstrauimus quo antidoto uenenum non
+                            admittatur et quo uasculo arguatur. nunc et remedia suggeram. <milestone unit="par" n="8"/> Centaurion potum omnia mala medicamenta exigit
+                            per aluum. aristolochiae radicis pondus denarii ex hemina uini bibitur.
+                            sanguis caninus hauritur aduersus toxica. <milestone unit="par" n="9"/>
+                            coagulum agninum in potione, uentriculus ciconiae cum lacte ouium in
+                            cibo datur. mustela uulgaris inueterata drachmis binis potatur.
+                                <milestone unit="par" n="10"/> sanguis anatum Ponticarum seruatur
+                            spissus et diluitur ex uino. asinini sanguinis potus uenena
+                                rest<del>r</del>ing<supplied>u</supplied>it. haedi sanguis utiliter
+                            bibitur. </p>
+                    </div>
+                </div>
+                <div type="cap" n="34">
+                    <head>XXXIIII CONTRA LEPOREM MARINVM ET PASTINACAM</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Saeuiunt quidam et marino lepore. qui cum sit
+                        genus piscis, mortem infert in cibo inpactus, non subitam sed quae trahatur
+                        quantum plerique existimant totidem diebus quot dictus lepus uixit.
+                            <milestone unit="par" n="2"/> atque qui has insidias inciderit ipse suo
+                        corpore ostendit ueneficium: habet namque odorem piscis. hoc periculo
+                        liberabitur cancris marinis coctis et in cibo sumptis. <milestone unit="par" n="3"/> ostrea fricta in cibo sumpta. malua cum sua radice coquitur et
+                        sucus eius potui datur. sanguis anserinus aequa cum olei portione bibitur.
+                        ad omnium marinorum ictus coagulum leporis et haedi uel agni bibitur ex uino
+                        cyathis tribus. </p>
+                </div>
+                <div type="cap" n="35">
+                    <head>XXXV CONTRA MVREM ARANEVM</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Mus araneus exiguus est ultra modum, longo
+                        rostello, oculorum acie obtusa, et ideo quantum existimo iners
+                            e<supplied>s</supplied>t huius natura ut non possit transire orbitam.
+                        morsum uenenatum habet, cui sic occurritur. <milestone unit="par" n="2"/>
+                        coagulum agninum ex uino bibitur. ungulae arietinae cinis cum melle
+                        imponitur. ipse mus araneus diuulsus imponitur. terra quam in orbitam rota
+                        depressit plagae imponitur. talpa discerpta imponitur. </p>
+                </div>
+                <div type="cap" n="36">
+                    <head>XXXVI CONTRA PHALANGIVM</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Phalangium praecipue in leguminibus et in
+                            hort<supplied>ensi</supplied>is obseruatur, sed et araneus et alia
+                        genera bestiolarum mortifera, quorum morsus non sentiuntur sed pruritu
+                        intelleguntur. <milestone unit="par" n="2"/> aduersus haec omnia uinum merum
+                        bibitur. acetum calidum <supplied>in</supplied> spongia quam amplissima
+                        imponitur, ita ut tres sextarios aceti habeat, sextantem sulphuris. radicis
+                        hederae sucus bibitur. <milestone unit="par" n="3"/> sucus bibitur mororum
+                        de rubo. gallinacei cerebrum cum piperis exiguo additur in puscae potione.
+                        fimi pecudum cineres ex aceto <supplied>inponuntur</supplied>. </p>
+                </div>
+                <div type="cap" n="37">
+                    <head>XXXVII CONTRA SERPENTIS ET HOMINIS MORSVM</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Serpentes praecipitem morsum inferunt. quos
+                        sanare in promptu est, quin etiam ipsas fugare <del>sit</del> facillimum
+                        uulturinarum pinnarum suffitu, ebuli fumo, nidore usti cornus ceruini.
+                            <milestone unit="par" n="2"/> uiperae qui iecur coctum hauserit negatur
+                        umquam a serpentibus feriri. erucis ex aceto tritis perunctos non mordent.
+                        habentem secum cor uulturis nec serpentes nec ferae appetunt. <milestone unit="par" n="3"/> Nunc remedia morsibus subiciemus. raphanus satiua ex
+                        aqua coquitur et trita plagae imponitur. alium tostum cum restibus suis et
+                        tritum ex oleo adicitur. <milestone unit="par" n="4"/> radix ferulae ex uino
+                        medetur imposita. farina milii cum pice liquida optime facit. eruum tritum
+                        ex aceto et ad serpentium morsus et ad omnium ferarum et hominis mirifice
+                        medetur. <milestone unit="par" n="5"/> uinum merum in spongia imponitur.
+                        mori folia trita recentia — si arida sint, decocta et aeque trita —
+                        imponuntur. hyssopi semen bibitur. <milestone unit="par" n="6"/> eius qui
+                        percussus est uertex inciditur eoque additur euphorbium: medetur quacumque
+                        parte corporis periculum est. <milestone unit="par" n="7"/> centauriae
+                        radicis pondus denarii in tribus cyathis uini bibitur. uettonica herba trita
+                        morsui imponitur. agarici oboli quattuor in duobus cyathis aceti mulsi
+                        propinantur. <milestone unit="par" n="8"/> aristolochiae radicis pondus
+                        denarii in uini hemina saepius bibitur. et ipsa ex aceto contrita imponitur
+                        plagae. fimus pecudis recens <supplied>in</supplied> uino decoctus
+                        imponitur. <milestone unit="par" n="9"/> mus discerptus adicitur. uiperae
+                        morsui uiperae cuiuslibet tritum et appositum caput efficacissime prodest.
+                        carnibus gallinaceorum discerptorum ita ut tepeant extrahitur uenenum.
+                            <milestone unit="par" n="10"/> item columbarum cerebrum uel
+                        gallinaceorum plagae imponitur. sal cum origano et hyssopo ex melle. fraxini
+                        tenerorum foliorum sucus bibitur et ipsa super plagam adiciuntur. <milestone unit="par" n="11"/> Non omittenda theriaca qua Antiochus rex aduersus
+                        omnes serpentes utebatur praeter aspidem. quae adeo probata est experimentis
+                        ut Coi in templo Aesculapii incisa sit in lapide. <milestone unit="par" n="12"/> quam sic componi oportet. opopanacis serpulli mei singulorum
+                        binae drachmae, trifolii seminis pondus denarii unius, anethi et feniculi
+                        seminis et amuli et apii singulorum pondus denariorum senum, erui farinae
+                        pondus denariorum duodecim. <milestone unit="par" n="13"/> haec singula
+                        trita cribrata, deinde mixta ex uino teruntur et digeruntur in pastillos
+                        ponderis uictoriati, deinde in uaso uitreo ponuntur. cum utendi necessitas
+                        uenit, singuli pastilli dantur ex uino mixti cyathis tribus. <milestone unit="par" n="14"/> Hominis morsui carnes bubulae, efficacius uituli
+                        imponuntur neque ante diem quintum soluuntur. sordes ex humanis auribus
+                        inlinuntur plagae. </p>
+                </div>
+                <div type="cap" n="38">
+                    <head>XXXVIII CONTRA ASPIDEM</head>
+                    <p>
+                        <milestone unit="par" n="1"/> Aduersus aspidis morsum unum refugium habebant
+                        priores ut percussus urinam suam biberet. <milestone unit="par" n="2"/>
+                        intra paucos annos casu inuentum est et alterum remedium. namque is qui
+                        utrem plenum aceti ferebat percussus ab aspide dolorem non sensit, donec
+                        fatigatus requiescendi gratia utrem deposuit. <milestone unit="par" n="3"/>
+                        quo facto perniciem sentire coepit, rursusque imposito sibi utre desiit.
+                        intellectum est quod, si acetum bibisset, posset sanari. ex eo experimento
+                        palam factum est hanc potionem esse efficacissimam. <milestone unit="par" n="4"/> si autem morsum aspidis secutus est sanguis, nulla de eo qui
+                        percussus est spes superest. </p>
+                </div>
+            </div>
+
+        </body>
+    </text>
+</TEI>

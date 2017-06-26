@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>De schematis lexeos</title>
+    <author>Iulius Rufinianus Ps.</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Beatrice Strona</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2016</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000317</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Rhetores Latini Minores</hi>, ex codicibus maximam partem primum adhibitis
+     emendabat Carolus Halm, Lipsiae 1863, 48-58 (Bibliotheca Scriptorum Graecorum et Romanorum
+     Teubneriana)</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+
+
+   <div type="cap" n="1">
+    <p><foreign xml:lang="grc">Πρόληψις</foreign> est <foreign xml:lang="grc">σχῆμα
+     λέξεως</foreign>, id est figura elocutionis, cum ante numerus redditur verbis, quam res
+     personaeve definiantur, ut:</p>
+    <l><hi rend="expanded">Nec tantum Rhodope mirantur et Ismarus Orphea</hi>.</l>
+    <p>Et:</p>
+    <lg>
+     <l><hi rend="expanded">Interea reges — ingenti mole Latinus</hi></l>
+     <l><hi rend="expanded">Quadriiugo vehitur curru . . .</hi></l>
+    </lg>
+    <p>Latine appellari potest <hi rend="expanded">praesumptio</hi> vel <hi rend="expanded"
+      >anticipatio</hi>.</p>
+   </div>
+
+   <div type="cap" n="2">
+    <p><foreign xml:lang="grc">Σύλληψις</foreign> est, cum duabus diversisque sententiis et rebus
+     unum datur verbum, minime utrisque conveniens, ut:</p>
+    <lg>
+     <l><hi rend="expanded">Inclusos utero Danaos et pinea furtim</hi></l>
+     <l><hi rend="expanded">Laxat claustra Sinon</hi>.</l>
+    </lg>
+    <p><hi rend="expanded">Laxat</hi> enim et ad Danaos referri non potest, sicut ad claustra.
+     Et:</p>
+    <lg>
+     <l><hi rend="expanded">Optime Graiugenum, cui me fortuna precari</hi></l>
+     <l><hi rend="expanded">Ac vitta comptos voluit praetendere ramos</hi>.</l>
+    </lg>
+    <p>Non enim, sicut <hi rend="expanded">cui praetendere ramos</hi>, ita et <hi rend="expanded"
+      >cui precari</hi> potest videri ratione conexum. Et:</p>
+    <l><hi rend="expanded">His quidam signis atque haec exempla secuti</hi>.</l>
+    <p>Haec Latine dicitur <hi rend="expanded">conceptio</hi>.</p>
+   </div>
+
+   <div type="cap" n="3">
+    <p><foreign xml:lang="grc">Ζεῦγμα</foreign> est, cum unum verbum communiter multis sententiis
+     iungitur ad omnes pari significatione pertinens et adnexum, ut:</p>
+    <l><hi rend="expanded">Aeneas urbe et sociis et classe relicta</hi>.</l>
+    <p>Latine haec figura dicitur <hi rend="expanded">ligatio</hi> vel <hi rend="expanded"
+      >adnexio</hi>.</p>
+   </div>
+
+   <div type="cap" n="4">
+    <p><foreign xml:lang="grc">Ὑπόζευξις</foreign> est, cum singulis rebus sententiisque singula
+     debita verba iunguntur, ut:</p>
+    <lg>
+     <l><hi rend="expanded">Procumbunt piceae, sonat icta securibus ilex</hi></l>
+     <l><hi rend="expanded">Fraxineaeque trabes, cuneis et fissile robur</hi></l>
+     <l><hi rend="expanded">Scinditur, advolvunt ingentes montibus ornos</hi>.</l>
+    </lg>
+    <p>Et:</p>
+    <lg>
+     <l><hi rend="expanded">Venit hiems: teritur Sicyonia bacca trapetis, </hi></l>
+     <l><hi rend="expanded">Glande sues redeunt laeti, dant arbuta silvae: </hi></l>
+     <l><hi rend="expanded">Et varios ponit fetus autumnus, et alte</hi></l>
+     <l><hi rend="expanded">Mitis in apricis coquitur vindemia saxis</hi>.</l>
+    </lg>
+    <p>Haec figura Latine vocabitur <hi rend="expanded">subiunctio</hi> vel <hi rend="expanded"
+      >subinsertio</hi> vel <hi rend="expanded">subnexio</hi>.</p>
+   </div>
+
+   <div type="cap" n="5">
+    <p><foreign xml:lang="grc">Ἐπανάληψις</foreign> est eorundem verborum simul positorum eiusdemque
+     sententiae post multa interiecta cum aliqua periodi conclusione facta repetitio, ut:</p>
+    <lg>
+     <l><hi rend="expanded">Huc , pater o Lenaee, tuis hic omnia plena</hi></l>
+     <l><hi rend="expanded">Muneribus, tibi pampineo gravidus autumno</hi></l>
+     <l><hi rend="expanded">Floret ager, spumat plenis vindemia labris: </hi></l>
+     <l><hi rend="expanded">Huc, pater o Lenaee, veni</hi>.</l>
+    </lg>
+    <p>Et:</p>
+    <lg>
+     <l><hi rend="expanded">Pastorum musam Damonis et Alphesiboei, </hi></l>
+     <l><hi rend="expanded">Immemor herbarum quos est mirata iuvenca</hi></l>
+     <l><hi rend="expanded">Certantes, quorum stupefactae carmine lynces, </hi></l>
+     <l><hi rend="expanded">Damonis musam dicemus et Alphesiboei</hi>.</l>
+    </lg>
+    <p>Latine haec figura dicitur <hi rend="expanded">resumptio</hi> vel <hi rend="expanded"
+      >repetitio</hi>.</p>
+   </div>
+
+   <div type="cap" n="6">
+    <p><foreign xml:lang="grc">Ἐπαναφορά</foreign> est, cum ab eodem verbo plures inchoatae
+     sententiae incipiunt, ut:</p>
+    <lg>
+     <l><hi rend="expanded">Hic gelidi fontes, hic mollia prata, Lycori, </hi></l>
+     <l><hi rend="expanded">Hic nemus: hic ipso tecum consumerer aevo</hi>.</l>
+    </lg>
+    <p>Et:</p>
+    <lg>
+     <l><hi rend="expanded">Num fletu ingemuit nostro? num lumina flexit? </hi></l>
+     <l><hi rend="expanded">Num lacrimas victus dedit aut miseratus amantem est? </hi></l>
+    </lg>
+    <p>Et:</p>
+    <lg>
+     <l><hi rend="expanded">Bellum, o terra hospita, portas: </hi></l>
+     <l><hi rend="expanded">Bello armantur equi, bellum haec armenta minantur</hi>.</l>
+    </lg>
+    <p>Et:</p>
+    <l><hi rend="expanded">Ver adeo frondi nemorum, ver utile silvis</hi>.</l>
+    <p>Et:</p>
+    <l><hi rend="expanded">Nocte leves stipulae melius</hi>.</l>
+    <p>Latine haec figura dicitur <hi rend="expanded">iteratio</hi>.</p>
+   </div>
+
+   <div type="cap" n="7">
+    <p><foreign xml:lang="grc">Παλιλογία</foreign> est, cum verbum, quod in prima sententia est
+     ultimum, in sequente <supplied>est</supplied> primum, ut:</p>
+    <lg>
+     <l><hi rend="expanded">Pierides: vos haec facietis maxima Gallo, </hi></l>
+     <l><hi rend="expanded">Gallo, cuius amor tantum mihi crescit in horas</hi>.</l>
+    </lg>
+    <p>Et:</p>
+    <lg>
+     <l><hi rend="expanded">Addit se sociam timidisque supervenit Aegle, </hi></l>
+     <l><hi rend="expanded">Aegle, Naiadum pulcherrima</hi>.</l>
+    </lg>
+    <p>Et:</p>
+    <lg>
+     <l><hi rend="expanded">Deiphobum vidi lacerum crudeliter ora, </hi></l>
+     <l><hi rend="expanded">Ora manusque ambas</hi>.</l>
+    </lg>
+    <p>Et:</p>
+    <l><hi rend="expanded">Concurrunt Tyrrenae acies</hi>.</l>
+    <p>Latine dicitur <hi rend="expanded">regressio</hi>.</p>
+   </div>
+
+   <div type="cap" n="8">
+    <p><foreign xml:lang="grc">Ἀναδίπλωσις</foreign> est eiusdem verbi continuatim repetitio,
+     ut:</p>
+    <l><hi rend="expanded">Longum, formose, vale, vale, inquit, Iola</hi>.</l>
+    <p>Et:</p>
+    <l><hi rend="expanded">O Corydon, Corydon, quae te dementia cepit! </hi></l>
+    <p>Et:</p>
+    <l><hi rend="expanded">Me, me, adsum qui feci</hi>.</l>
+    <p>Latine dicitur haec figura <hi rend="expanded">duplicatio</hi>.</p>
+   </div>
+
+   <div type="cap" n="9">
+    <p><foreign xml:lang="grc">Ἐπαναδίπλωσις</foreign> est, cum idem verbum in eadem sententia et
+     primum est et extremum, ut:</p>
+    <lg>
+     <l><hi rend="expanded">Caesaris et nomen et famam tot ferre per annos, </hi></l>
+     <l><hi rend="expanded">Tithoni prima quot abest ab origine Caesar</hi>.</l>
+    </lg>
+    <p>Et:</p>
+    <l><hi rend="expanded">Ante novis rubeant quam prata coloribus, ante . . . </hi></l>
+    <p>Et:</p>
+    <l><hi rend="expanded">Vnum illud tibi, nate dea, proque omnibus unum</hi>.</l>
+    <p>Et:</p>
+    <l><hi rend="expanded">Ipsum obtestemur veniamque oremus ab ipso</hi>.</l>
+    <p>Latine dicitur <hi rend="expanded">inclusio</hi>.</p>
+   </div>
+
+   <div type="cap" n="10">
+    <p><foreign xml:lang="grc">Μετάθεσις</foreign> est, cum quod ante dictum est, postponitur, et
+     quod post dictum est, anteponitur, ut:</p>
+    <l><hi rend="expanded">Eripis, ut perdas, perdis, ut eripias</hi>.</l>
+   </div>
+
+   <div type="cap" n="11">
+    <p><foreign xml:lang="grc">Διακοπή</foreign> sive <foreign xml:lang="grc">διαστολή</foreign>
+     est, cum inter duo eadem verba diversum ponitur aliquid medium, ut:</p>
+    <l><hi rend="expanded">Culpatusve Paris; divum inclementia, divum . . . </hi></l>
+    <p>Et:</p>
+    <l><hi rend="expanded">Duc, age, duc ad nos</hi>.</l>
+    <p>Et:</p>
+    <l><hi rend="expanded">Scis, Proteus, scis ipse</hi>.</l>
+    <p>Latine dicitur <hi rend="expanded">separatio</hi>.</p>
+   </div>
+
+   <div type="cap" n="12">
+    <p><foreign xml:lang="grc">Παρένθεσις</foreign> est, cum ordinata ac legitima sententia
+     interrumpitur per alienam extrinsecus diversamque sententiam, ut:</p>
+    <lg>
+     <l><hi rend="expanded">Vare, tuum nomen, superet modo Mantua nobis, </hi></l>
+     <l><hi rend="expanded">Mantua vae miserae nimium vicina Cremonae, </hi></l>
+     <l><hi rend="expanded">Cantantes sublime ferunt ad sidera cygni</hi>.</l>
+    </lg>
+    <p>Et:</p>
+    <lg>
+     <l><hi rend="expanded">Ipsique suos iam morte sub aegra . . . </hi></l>
+     <l><hi rend="expanded">Discissos . . . </hi></l>
+    </lg>
+    <p>Latine haec figura dicitur <hi rend="expanded">interruptio</hi> vel <hi rend="expanded"
+      >interiectio</hi>.</p>
+   </div>
+
+   <div type="cap" n="13">
+    <p><foreign xml:lang="grc">Ἀντίθεσις</foreign> est, cum verbum verbo pari potestate per
+     contrarium redditur, ut:</p>
+    <l><hi rend="expanded">Seque novo veterum deceptum errore locorum</hi>.</l>
+    <p>Et:</p>
+    <lg>
+     <l><hi rend="expanded">Volvitur ille vomens calidum de pectore flumen</hi></l>
+     <l><hi rend="expanded">Frigidus</hi>.</l>
+    </lg>
+    <p>Latine <hi rend="expanded">contrarium</hi> vel <hi rend="expanded">oppositio</hi> potest
+     dici. </p>
+   </div>
+
+   <div type="cap" n="14">
+    <p><foreign xml:lang="grc">Πλοκή</foreign>, cum idem verbum sententiave ad consummationem
+     superioris retorquetur, ut:</p>
+    <l><hi rend="expanded">Vos o, quibus integer aevi</hi>.</l>
+    <p>Quale forsitan et illud accipi potest:</p>
+    <lg>
+     <l><hi rend="expanded">Pan etiam, Arcadia mecum si iudice certet, </hi></l>
+     <l><hi rend="expanded">Pan etiam Arcadia dicat se iudice victum</hi>.</l>
+    </lg>
+    <p>Latine dicitur <hi rend="expanded">implicatio</hi> vel <hi rend="expanded"
+     >retractatio</hi>.</p>
+   </div>
+
+   <div type="cap" n="15">
+    <p><foreign xml:lang="grc">Παρονομασία</foreign> est secundum praedictum verbum positio
+     alterius, ipso poscente sensu, ut apud Terentium:</p>
+    <l><hi rend="expanded">Nam inceptio est amentium, haud amantium</hi>.</l>
+    <p>Et:</p>
+    <l><hi rend="expanded">Tibi erunt parata verba, huic homini verbera</hi>.</l>
+    <p>Quale illud poterit forsitan videri:</p>
+    <lg>
+     <l><hi rend="expanded">Nec quisquam errantes acies letumque ferentis</hi></l>
+     <l><hi rend="expanded">Sustentare . . . </hi></l>
+    </lg>
+    <p>Contra et aliter: <hi rend="expanded">Puppesque tuae pubesque tuorum</hi>. Latine dicitur <hi
+      rend="expanded">adnominatio</hi> vel <hi rend="expanded">adfictio</hi>.</p>
+   </div>
+
+   <div type="cap" n="16">
+    <p><foreign xml:lang="grc">Παρηγμένον</foreign> est aeque similis figura, cum ex supra dicto
+     verbo aliud derivatur, ut:</p>
+    <lg>
+     <l><hi rend="expanded">ultro</hi></l>
+     <l><hi rend="expanded">Ipse gravis graviterque ad terram pondere vasto</hi></l>
+     <l><hi rend="expanded">Concidit</hi>.</l>
+    </lg>
+    <p>Et:</p>
+    <l><hi rend="expanded">Oppetere ingentem atque ingenti vulnere victum</hi>.</l>
+    <p>Et:</p>
+    <l><hi rend="expanded">Voce vocat Hecaten</hi>,</l>
+    <p>et:</p>
+    <l><hi rend="expanded">Ire iter et castris audebit vellere signa</hi>.</l>
+    <p>Latine <hi rend="expanded">derivatio</hi> dicitur. </p>
+   </div>
+
+   <div type="cap" n="17">
+    <p><foreign xml:lang="grc">Ἐπανόρθωσις</foreign> est, cum supra dictum verbum verbo sequenti
+     corrigitur, ut: <hi rend="expanded">Non subripere hoc est, <supplied>sed</supplied>
+     furari</hi>. Latine dicitur <hi rend="expanded">correctio</hi>.</p>
+   </div>
+
+   <div type="cap" n="18">
+    <p><foreign xml:lang="grc">Ἐπιστροφή</foreign> est, cum in eadem verba plures sententiae
+     desinunt, ut:</p>
+    <lg>
+     <l><hi rend="expanded">Si curatus inae quali tonsore capillos</hi></l>
+     <l><hi rend="expanded">Occurri, rides: si forte subucula pexae</hi></l>
+     <l><hi rend="expanded">Trita subest tunicae vel si toga dissidet impar, </hi></l>
+     <l><hi rend="expanded">Rides</hi>.</l>
+    </lg>
+    <p>Quale forsitan sit:</p>
+    <lg>
+     <l><hi rend="expanded">Similis si cura fuisset, </hi></l>
+     <l><hi rend="expanded">Tunc quoque fas nobis Teucros armare fuisset</hi>.</l>
+    </lg>
+    <p>Et:</p>
+    <lg>
+     <l><hi rend="expanded">Impius ante aras atque auri caecus amore</hi></l>
+     <l><hi rend="expanded">Clam ferro incautum superat, securus amorum . . </hi></l>
+    </lg>
+    <p>Latine dicitur <hi rend="expanded">reversio</hi>.</p>
+   </div>
+
+   <div type="cap" n="19">
+    <p><foreign xml:lang="grc">Κλῖμαξ</foreign> est, cum ex re in rem gradum tibi sententiae
+     faciunt, ut:</p>
+    <l><hi rend="expanded">Quae Phoebo pater omnipotens, mihi . . . </hi></l>
+    <p>Et:</p>
+    <lg>
+     <l><hi rend="expanded">Torva leaena lupum sequitur, lupus ipse capellam, </hi></l>
+     <l><hi rend="expanded">Florentem cytisum sequitur lasciva capella</hi>.</l>
+    </lg>
+    <p>Latine haec figura dicitur <hi rend="expanded">gradatus</hi>.</p>
+   </div>
+
+   <div type="cap" n="20">
+    <p><foreign xml:lang="grc">Ἀσύνδετον</foreign> est vel <foreign xml:lang="grc"
+      >διάλυκτον</foreign>, cum oratio nulla coniunctione conexa velut soluta sententiae regulam
+     servat, ut:</p>
+    <lg>
+     <l><hi rend="expanded">Consiliunt, partim galea clypeoque resultant</hi></l>
+     <l><hi rend="expanded">Irrita, deflexit partim stringentia corpus . . . </hi></l>
+    </lg>
+    <p>Et:</p>
+    <lg>
+     <l><hi rend="expanded">Ipsi numerumque modumque carinis</hi></l>
+     <l><hi rend="expanded">Praecipiant, nos aera, manus, navalia demus</hi>.</l>
+    </lg>
+    <p>Latine dicitur <hi rend="expanded">dissolutio</hi> vel <hi rend="expanded">inconexio</hi>.
+     Asyndelon autem modo per singula verba fit: <hi rend="expanded">aera, manus, navalia
+     demus</hi>: et:</p>
+    <l><hi rend="expanded">Haec eadem, Aenea, terram, mare, sidera iuro: </hi></l>
+    <p>modo per plura verba et per ea, quae Graeci vocant <foreign xml:lang="grc"
+     >κῶλα</foreign>:</p>
+    <lg>
+     <l><hi rend="expanded">Denique, quid vesper serus vehat, unde serenas</hi></l>
+     <l><hi rend="expanded">Ventus agat nubes, quid cogitet humidus auster, </hi></l>
+     <l><hi rend="expanded">Sol tibi signa dabit</hi>.</l>
+    </lg>
+    <p>Et:</p>
+    <lg>
+     <l><hi rend="expanded">nube cava speculantur amicti, </hi></l>
+     <l><hi rend="expanded">Quae fortuna viris, classem quo litore linquant, </hi></l>
+     <l><hi rend="expanded">Quid veniant</hi>.</l>
+    </lg>
+   </div>
+
+   <div type="cap" n="21">
+    <p><foreign xml:lang="grc">Ἐπάνοδος</foreign> est, cum duobus brevius pluribusve propositis ad
+     singularum enarrationem recurritur, ut:</p>
+    <lg>
+     <l><hi rend="expanded">Divellimur inde: </hi></l>
+     <l><hi rend="expanded">Iphitus et Pelias mecum: quorum Iphitus aevo</hi></l>
+     <l><hi rend="expanded">Iam gravior . . . </hi></l>
+    </lg>
+    <p>Et:</p>
+    <lg>
+     <l><hi rend="expanded">Protinus Orsilochum et Buthen, duo maxima Teucrum</hi></l>
+     <l><hi rend="expanded">Corpora, sed Buthen aversum cuspide fixit</hi></l>
+     <l><hi rend="expanded">Loricam galeamque inter, qua colla sedentis</hi></l>
+     <l><hi rend="expanded">Invenit</hi>.</l>
+    </lg>
+    <p>Latine dicitur <hi rend="expanded">reversio</hi> vel <hi rend="expanded">regressio</hi>.</p></div>
+
+    <div type="cap" n="22">
+     <p><foreign xml:lang="grc">Παραδιαστολή</foreign> est, cum similes res discernuntur contrariis
+      redditis, ut:</p>
+     <lg>
+      <l><hi rend="expanded">Triste lupus stabulis, maturis frugibus imbres, </hi></l>
+      <l><hi rend="expanded">Arboribus venti, nobis Amaryllidis irae</hi>.</l>
+     </lg>
+     <p>Et:</p>
+     <lg>
+      <l><hi rend="expanded">Dulce satis humor, depulsis arbutus haedis, </hi></l>
+      <l><hi rend="expanded">Lenta salix feto pecori, mihi solus Amyntas</hi>.</l>
+     </lg>
+     <p>Latine dicitur <hi rend="expanded">discriminatio</hi>.</p>
+    </div>
+
+    <div type="cap" n="23">
+     <p><foreign xml:lang="grc">Διαίρεσις</foreign> est figura sermonis, cum fit rerum distributio,
+      ut:</p>
+     <lg>
+      <l><hi rend="expanded">Hic Dolopum manus, hic saevus tendebat Achilles, </hi></l>
+      <l><hi rend="expanded">Classibus hic locus, hic acies certare solebant</hi>.</l>
+     </lg>
+     <p>Et:</p>
+     <l><hi rend="expanded">Hic portus alii effodiunt . . . </hi></l>
+     <p>Et:</p>
+     <l><hi rend="expanded">Ferit ense gravem Tymbraeus Osirim . . . </hi></l>
+     <p>Haec Latine dicitur <hi rend="expanded">distributio</hi> vel <hi rend="expanded"
+       >designatio</hi>.</p>
+    </div>
+
+    <div type="cap" n="24">
+     <p><foreign xml:lang="grc">Ἀντίστασις</foreign> est, cum idem verbum repetitur in contrario
+      sensu, ut:</p>
+     <l><hi rend="expanded">Vna salus victis nullam sperare salutem</hi>.</l>
+     <p>Et:</p>
+     <l><hi rend="expanded">Ex illo Corydon Corydon est tempore nobis</hi>.</l>
+     <p>Haec Latine dicitur <hi rend="expanded">contentio</hi>.</p>
+    </div>
+
+    <div type="cap" n="25">
+     <p><foreign xml:lang="grc">Μετάστασις</foreign> est vel <foreign xml:lang="grc"
+       >μετάβασις</foreign> cum a loquentis persona ad personam <supplied>aliam</supplied> transitum
+      facimus, ratione aliqua vel adfectu, ut:</p>
+     <lg>
+      <l><hi rend="expanded">Non haec Euandro de te promissa parenti</hi></l>
+      <l><hi rend="expanded">Discedens dederam: </hi></l>
+     </lg>
+     <p>deinde:</p>
+     <lg>
+      <l><hi rend="expanded">Et nunc ille quidem spe multum captus inani</hi></l>
+      <l><hi rend="expanded">Fors et vota facit . . . </hi></l>
+     </lg>
+     <p>Deinde:</p>
+     <lg>
+      <l><hi rend="expanded">Infelix, funus nati crudele videbis. </hi></l>
+      <l><hi rend="expanded">Hi nostri reditus expectatique triumphi? </hi></l>
+      <l><hi rend="expanded">Haec mea magna fides? At non, Euandre, pudendis</hi></l>
+      <l><hi rend="expanded">Vulneribus pulsum aspicies</hi>.</l>
+     </lg>
+     <p>Haec figura dicitur <hi rend="expanded">variatio</hi> aut <hi rend="expanded"
+      >transitus</hi>.</p>
+    </div>
+
+    <div type="cap" n="26">
+     <p><foreign xml:lang="grc">Ἀποστροφή</foreign> est, cum sermo a recto et instituto ordine in
+      diversum ac contrarium vertitur, ut: <hi rend="expanded">Scipiadas duros bello et te, maxime
+       Caesar</hi>.</p>
+     <p>Et:</p>
+     <l><hi rend="expanded">impulerit ferro . . . </hi></l>
+     <p>Latine <hi rend="expanded">conversio</hi> dicitur. Inter metastasin et apostrophen hoc
+      interest, quod metastasis personarum multiplicata variatio est et ab alia ad aliam, deinde
+      rursus ad aliam et deinceps gradatione transitur: at in apostrophe commutatio est personae
+      fere unius.</p></div>
+
+     <div type="cap" n="27">
+      <p>Sunt autem et aliae figurae, mire orationi decus ornamentumque tribuentes. Eas hoc a
+       superioribus discernere oportet, quod non tam sententiarum perpetuarum sunt figurae quam
+       singulorum paene verborum, et quod carent appellationibus propriis. Fiunt autem per casus,
+       numeros, praepositiones, genera, personas et si qua sunt talia: quarum exempla summatim
+       breviterque ponentur.</p>
+     </div>
+
+     <div type="cap" n="28">
+      <p>Figura per casum genitivum, ut si dicamus: <hi rend="expanded">constans vir animi</hi>, pro
+        <hi rend="expanded">constantis animi</hi>. Item alia, ut se habent ista:</p>
+      <l><hi rend="expanded">Isque amens animi et rumore accensus amaro</hi>.</l>
+      <p>Et:</p>
+      <l><hi rend="expanded">At non infelix animi Phoenissa</hi>.</l>
+      <p>Et:</p>
+      <lg>
+       <l><hi rend="expanded">Actutum pius Aeneas atque integer aevi</hi></l>
+       <l><hi rend="expanded">Ascanius</hi>.</l>
+      </lg>
+      <p>Et:</p>
+      <l><hi rend="expanded">Hic annis gravis atque animi maturus Aletes</hi>.</l>
+      <p>Et si quis dicat <hi rend="expanded">pecuniae dives</hi>, ut:</p>
+      <l><hi rend="expanded">Insula dives opum</hi>:</l>
+      <p>et:</p>
+      <l><hi rend="expanded">Dives equum, dives pictai vestis et auri</hi>.</l>
+      <p>Item:</p>
+      <l><hi rend="expanded">quas illi laeta bonorum</hi>.</l>
+      <p>Et:</p>
+      <l><hi rend="expanded">Expediunt fessi rerum</hi>.</l>
+      <p>Et:</p>
+      <lg>
+       <l><hi rend="expanded">Ille mihi ante oculos felix functusque laborum</hi></l>
+       <l><hi rend="expanded">Egregiusque animi</hi>.</l>
+      </lg>
+      <p>Et si qua sunt talia. </p>
+     </div>
+
+     <div type="cap" n="29">
+      <p>Figura per dativum, si quis dicat <hi rend="expanded">timeo illi</hi> pro <hi
+        rend="expanded">timeo pro illo</hi>, et talia, ut:</p>
+      <l><hi rend="expanded">Et pariter comitique onerique timentem</hi>.</l>
+      <p>Et:</p>
+      <l><hi rend="expanded">Tunc decuit metuisse tuis</hi>.</l>
+      <p>Et:</p>
+      <l><hi rend="expanded">Haec cum Dardanio Aeneae miranda videntur</hi>,</l>
+      <p>pro <hi rend="expanded">ab Aenea</hi>. Et quae antique dicta sunt: <hi rend="expanded">cui
+        nomen asylo Romanum est</hi>. Et: <hi rend="expanded">cui nunc cognomen Iulo additur</hi>.
+       Et: <hi rend="expanded">Cui Rhemulo cognomen erat</hi>. Et: <hi rend="expanded">cui nomen
+        amello fecere agricolae</hi>. Item si qua sunt talia. </p>
+     </div>
+
+     <div type="cap" n="30">
+      <p>Figura per accusativum, ut si quis dicat <hi rend="expanded">togam fusus</hi>, pro <hi
+        rend="expanded">fusam togam habens</hi>, ut se habent ista: <hi rend="expanded">nodoque
+        sinus collecta fluenteis</hi>: et: <hi rend="expanded">Scissa comam</hi>: et: <hi
+        rend="expanded">Et roseas laniata comas</hi>. et: <hi rend="expanded">tumidusque novo
+        praecordia regno</hi>: et:</p>
+      <l><hi rend="expanded">Inflatum hesterno venas, ut semper, Iaccho</hi>.</l>
+      <p>Et:</p>
+      <l><hi rend="expanded">Ecce, manus iuvenem interea post terga revinctum</hi>.</l>
+      <p>Et quae antique dicta sunt: <hi rend="expanded">forsan et haec olim meminisse iuvabit</hi>.
+       Et: <hi rend="expanded">numeros memini, si verba tenerem</hi>, pro <hi rend="expanded"
+        >numerorum memini</hi>. Item si qua sunt talia. </p>
+     </div>
+
+     <div type="cap" n="31">
+      <p>Figura per ablativum, si quis de quopiam dicat, <hi rend="expanded">magnus virtute</hi>,
+        <hi rend="expanded">bonus bello</hi>, pro <hi rend="expanded">in bello</hi>, et <hi
+        rend="expanded">erectus capite incedit</hi>, ut se habent ista:</p>
+      <l><hi rend="expanded">Purpurei cristis iuvenes auroque corusci</hi>.</l>
+      <p>Et:</p>
+      <l><hi rend="expanded">Sunt mihi bis septem praestanti corpore Nymphae</hi>.</l>
+      <p>Et:</p>
+      <l><hi rend="expanded">Vnde prius laetum siliqua quassante legumen</hi>.</l>
+      <p>Et:</p>
+      <l><hi rend="expanded">tereti subnectit fibula gemma</hi>.</l>
+      <p>Et:</p>
+      <l><hi rend="expanded">qui forte tapetibus altis extractus</hi>.</l>
+      <p>Et:</p>
+      <lg>
+       <l><hi rend="expanded">Quam tua ni, spoliata armis, excussa magistro</hi>,</l>
+       <l><hi rend="expanded">Deficeret . . .</hi></l>
+      </lg>
+      <p>Item si qua sunt talia. </p>
+     </div>
+
+     <div type="cap" n="32">
+      <p>Figura Graeca: aut casu varietas, ut:</p>
+      <l><hi rend="expanded">Montibus in nostris solus tibi certet Amyntas</hi>.</l>
+      <p>Et: <hi rend="expanded">placidone etiam pugnabis amori?</hi> pro <hi rend="expanded">‘tecum
+        certet’</hi> et <hi rend="expanded"> ‘cum amore pugnabis’</hi>. Et: <hi rend="expanded"
+        >Reddidit una boum vocem</hi>, pro <hi rend="expanded">una e bubus</hi>. Item similia. Aut
+       praepositione detracta, ut: <hi rend="expanded">maria aspera iuro</hi>: et: <hi
+        rend="expanded">Tyrrhenum navigat aequor</hi>. Item quae sunt talia. </p>
+     </div>
+
+     <div type="cap" n="33">
+      <p>Figura per personas, ut si quis dicat: <hi rend="expanded">Vos, Iuppiter, precor</hi>; ut
+       sunt ista:</p>
+      <l><hi rend="expanded">Vos, o Calliope, precor, aspirate canenti</hi>.</l>
+      <p>Et:</p>
+      <l><hi rend="expanded">Vos, o patricius sanguis, quos vivere fas est</hi>.</l>
+      <p>Item si qua sunt similia. </p>
+     </div>
+
+     <div type="cap" n="34">
+      <p>Figura per numeros, ut si quis dicat: <hi rend="expanded">populus locuti sunt</hi>, ut:</p>
+      <l><hi rend="expanded">Pars in frusta secant verubusque trementia figunt. </hi></l>
+      <p>Et:</p>
+      <lg>
+       <l><hi rend="expanded">Pars calidos latices et ahena undantia flammis</hi></l>
+       <l><hi rend="expanded">Expediunt. </hi></l>
+      </lg>
+      <p>Et:</p>
+      <lg>
+       <l><hi rend="expanded">saevitque animis ignobile vulgus: </hi></l>
+       <l><hi rend="expanded">Tum, pietate gravem ac meritis si forte virum quem</hi></l>
+      </lg>
+      <l><hi rend="expanded">Conspexere, silent</hi>.</l>
+      <p>Et si qua sunt similia. </p>
+     </div>
+
+     <div type="cap" n="35">
+      <p>Figura per praepositionem <hi rend="expanded">ad</hi>, modo semel et simpliciter positam,
+       ut si quis dicat, <hi rend="expanded">advolvor illum</hi>, pro <hi rend="expanded">ad illum
+        volvor</hi>, et <hi rend="expanded">accedo illum</hi>, quasi <hi rend="expanded">ad illum
+        accedo</hi>, ut:</p>
+      <l><hi rend="expanded">Explorare locos, quas vento accesserit oras</hi>.</l>
+      <p>Et:</p>
+      <lg>
+       <l><hi rend="expanded">Nuntia fama ruit matrisque adlabitur aures</hi></l>
+       <l><hi rend="expanded">Euryali</hi>.</l>
+      </lg>
+      <p>Et:</p>
+      <lg>
+       <l><hi rend="expanded">Electram Grai perhibent Atlantide cretam</hi>,</l>
+       <l><hi rend="expanded">Advehitur Teucros</hi>.</l>
+      </lg>
+      <p>Modo dupliciter elatam, ut: <hi rend="expanded">quin adeat ad eum, aggrediar ad illum</hi>,
+       et si qua sunt talia. </p>
+     </div>
+
+     <div type="cap" n="36">
+      <p>Figura per praepositionem <hi rend="expanded">in</hi>, modo semel et simpliciter elatam,
+       ut:</p>
+      <l><hi rend="expanded">Inflavit cum pinguis ebur Tyrrhenus ad aras</hi>.</l>
+      <p>Et: <hi rend="expanded">tu calamos inflare leves, quasi in calamos, et in ebur flare</hi>.
+       Et apud Sallustium: <hi rend="expanded">atque eos a tergo incurrerunt</hi>, quasi <hi
+        rend="expanded">in eos incurrerunt</hi>. Modo dupliciter elatam, ut:</p>
+      <l><hi rend="expanded">Induerat Circe in vultus ac terga ferarum</hi>.</l>
+      <p>Et:</p>
+      <l><hi rend="expanded">Induit in florem et ramos curvavit olentes</hi>.</l>
+      <p>Et:</p>
+      <l><hi rend="expanded">Hanc, ut prona iugo laevum incumbebat in amnem</hi>.</l>
+      <p>Et si qua sunt similia. </p>
+     </div>
+
+     <div type="cap" n="37">
+      <p>Figura per verborum qualitatem, ut <hi rend="expanded">caput velor</hi>, pro <hi
+        rend="expanded">caput velo</hi> aut <hi rend="expanded">capite velor</hi>, ut:</p>
+      <l><hi rend="expanded">capita ante aram Phrygio velamur amictu</hi>.</l>
+      <p>Et: <hi rend="expanded">flava caput nectuntur oliva</hi>. Et: <hi rend="expanded">Et
+        pecudum fulvis velatur pectora setis</hi>. Et: <hi rend="expanded">aut pacem Troiano ab rege
+        petendum</hi>. Et: <hi rend="expanded">populare pentes</hi> pro <hi rend="expanded"
+        >populari</hi>.</p>
+     </div>
+
+     <div type="cap" n="38">
+      <p>Figura per modos temporum, ut cum dico <hi rend="expanded">libens fecero</hi>, pro <hi
+        rend="expanded">faciam</hi>, ut: <hi rend="expanded">donec me flumine vivo abluero</hi>.</p>
+     </div>
+
+     <div type="cap" n="39">
+      <p>Figura per adverbiorum qualitatem, ut cum dicimus, <hi rend="expanded">ad illum ceno</hi>,
+        <hi rend="expanded">ad villam moror</hi>, pro <hi rend="expanded">apud villam</hi>; et, <hi
+        rend="expanded">terrae iacet</hi>, pro <hi rend="expanded">in terra</hi>; et, <hi
+        rend="expanded">domi militiaeque res gestas</hi>; et, <hi rend="expanded">cuius domi
+        nata</hi> et <hi rend="expanded">annos sexaginta natus</hi>; et: <hi rend="expanded">tot
+        annos bella gero</hi>.</p>
+     </div>
+
+     <div type="cap" n="40">
+      <p>Figura per pleonasmon, ut <unclear/>
+       <hi rend="expanded">antiquum obtines</hi>, et <hi rend="expanded">mortem occumbere</hi>, et
+        <hi rend="expanded">obire diem</hi>, et <hi rend="expanded">vivere vitam</hi>, et <hi
+        rend="expanded">pugnare pugnam</hi>, et <hi rend="expanded">ire iter</hi>, et <hi
+        rend="expanded">oculis videre</hi>, et <hi rend="expanded">voce vocans Hecaten</hi>.</p>
+      <p>Et: <hi rend="expanded">Hunc, oro, sine me furere ante furorem</hi>. Ac si qua sunt talia.
+      </p>
+     </div>
+
+     <div type="cap" n="41">
+      <p>Figura per eclogam verborum, ut cum enuntiamus, <hi rend="expanded">bonos dicere</hi>, <hi
+        rend="expanded">fortes pugnare</hi>; item, <hi rend="expanded">da bibere</hi>, <hi
+        rend="expanded">da cenare</hi>; et: <hi rend="expanded">donat habere viro</hi>. Et:</p>
+      <l><hi rend="expanded">Cunctaturque metu letumque instare tremescit</hi>.</l>
+      <p>Et: <hi rend="expanded">da sternere corpus</hi>. Et: <hi rend="expanded">da iungere
+        dextram</hi>. Et:</p>
+      <lg>
+       <l><hi rend="expanded">quale per aestum</hi></l>
+       <l><hi rend="expanded">Dulcis aquae saliente sitim restinguere rivo</hi>.</l>
+      </lg>
+      <p>Et: <hi rend="expanded">hoc ridere meum tam nihil</hi>.</p>
+     </div>
+
+     <div type="cap" n="42">
+      <p>Figura per eclogam adverbiorum, ut cum dicimus: <hi rend="expanded">magnum tonat</hi>, <hi
+        rend="expanded">tumidum loquitur</hi>, ut: <hi rend="expanded">magnumque fluentem
+       Nilum</hi>. Et:</p>
+      <lg>
+       <l><hi rend="expanded">utque volutus</hi></l>
+       <l><hi rend="expanded">Ad terras, immane sonat per saxa</hi>.</l>
+      </lg>
+      <p>Et: <hi rend="expanded">ne longum laetabere</hi>. Et: <hi rend="expanded">grave volentis
+        Averni</hi>. Et: <hi rend="expanded">horrendum intonat armis</hi>. Et: <hi rend="expanded"
+        >navibus infandum amissis</hi>. Et si qua sunt talia. </p>
+     </div>
+
+     <div type="cap" n="43">
+      <p>Figura per pronomina, ut, <hi rend="expanded">nullus dixeris</hi>, pro <hi rend="expanded"
+        >ne dixeris</hi>.</p>
+      <p>Et: <hi rend="expanded">quis mulier? </hi></p>
+     </div>
+
+     <div type="cap" n="44">
+      <p>Figura per eclogam nominum, ut cum dicimus: <hi rend="expanded">Bonum est virtus, malum
+        infamia</hi>, ut:</p>
+      <l><hi rend="expanded">Dulce satis humor, depulsis arbutus haedis</hi>.</l>
+      <p>Et:</p>
+      <lg>
+       <l><hi rend="expanded">Tale tuum carmen nobis, divine poeta, </hi></l>
+       <l><hi rend="expanded">Quale sopor fessis ingramine.</hi></l>
+      </lg></div>
+
+  
+
+
+  </body>
+ </text>
+
+</TEI>

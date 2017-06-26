@@ -1,0 +1,1279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>De syllogismo categorico</title>
+    <author>Boethius (Anicius Manlius Seuerinus Boethius)</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Manuela Ferroni</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Manuela Ferroni</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2015</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000055</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Manlii Seuerini Boetii, Opera omnia</hi>, accurante J.-P. Migne, tomus
+     posterior, Parisiis 1891, 793-832 (Patrologiae Latinae, 64).</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+
+    <p>
+     <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi>
+    </p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div type="lib" n="I">
+    <head>LIBER PRIMVS.</head>
+    <p><milestone unit="page" n="Col. 793A"/> Multa Graeci veteres posteris suis in consultissimis
+     reliquere tractatibus, in quibus priusquam ad res densa caligantes obscuritate venirent, quasi
+     quadam intelligentiae luctatione praeludunt: hinc per introductionem est facilior
+     discibiliorque doctrina, hinc per ea quae illi <foreign xml:lang="grc">προλεγόμενα</foreign>
+     vocant, nos praedicta vel praedicenda possumus dicere, ad intelligentiam promptior via munitur.
+     Hanc igitur providentiam non exosus, statui ego quoque in res obscurissimas aliquem quodammodo
+     pontem ponere, mediocriter quidque delibans, ita ut si quid brevius dictum sit, id nos
+     dilatione ad intelligentiam porrigamus; si quid suo more Aristoteles nominum verborumque
+     mutatione turbavit, nos intelligentiae servientes ad consuetum vocabulum reducamus; si quid
+     vero ut <milestone unit="page" n="Col. 793D"/> ad doctos scribens summa tantum tangens
+     designatione monstravit, nos id introductionis modo aliqua in eas res tractatione disposita
+     perquiramus. Sed si qui ad hoc opus legendum accesserint, ab his petitum sit ne in his quae
+     nunquam attigerint statim audeant iudicare; neve si quid in puerilibus disciplinis acceperint,
+     id sacrosanctum iudicent, quando quidem res teneris auribus accommodatas saepe philosophiae
+     severior tractatus eliminat. Si quid vero in his non videbitur, ne statim obstrepant, sed,
+     ratione consulta, quid ipsi opinentur, quidve nos ponimus, veriore mentis acumine et<milestone
+      unit="page" n="Col. 794C"/> subtiliore pertractata ratione diiudicent. Et hi quidem sic. Nos
+     enim, ut arbitror, suffecimus eos commentarios, de quibus haec nos protulimus, degustent blando
+     fortasse sapore subtilitatis eliciti, quamvis infrenis et indomiti creatores sint, tamen
+     veterum virorum inexpugnabilibus auctoritatibus acquiescent; si quis vero Graecae orationis
+     expers est, in his, vel si qua aliorum sunt similia, desudabit. Itaque haec huius prooemii lex
+     erit, ut forum nostrum nemo non intellecturus, et ob id culpaturus inspiciat. Sed ne prooemiis
+     nihil afferentibus tempus teratur, inchoandum nobis est illo prius depulso periculo, ne a
+     quoquam sterilis culpetur oratio. Non enim eloquentiae compositones, sed planitiem consectamur:
+     qua in re si hoc efficimus, <milestone unit="page" n="Col. 794D"/> quamlibet incompte
+     loquentes, intentio quoque nostra nobis perfecta est. Sed quoniam syllogismorum structura nobis
+     est hoc opere explicanda, syllogismis autem prior est propositio, de propositionibus hoc
+     libello tractatus habebitur. Et quoniam propositionis partes sunt nomen et verbum, pars autem
+     ab eo cuius pars est prior est, de nomine et verbo, quae prima sunt, disputatio prima ponatur.
+     Nomen est vox designativa ad placitum sine tempore, cuius nulla pars extra designativa est; vox
+     autem dictum est, quia vox nominum genus est Omnis autem diffinitio a genere trahitur ut si
+     difinias <milestone unit="page" n="Col. 795A"/> hominem, animal dicis, id est genus; post vero
+     rationale, id est differentia. Designativa vero dicta est, quia sunt voces quaedam quae nihil
+     significant, ut sunt syllabae. Nomen vero, designat id cuius est nomen. Ad placitum vero, quia
+     nullum nomen aliquid per se significat, sed ad ponentis placitum. Illud enim unaquaeque res
+     dicitur quod ei placuit qui primus rei nomen illud impressit. Sunt enim voces naturaliter
+     significantes, ut canum latratus iras canum significat, et alia eius quaedam vox blandimenta;
+     sed non sunt nomina, quia non sunt ad placitum significantes, sed natura. Sine tempore vero,
+     quod verba quidem voces sunt designativae et secundum placitum, sed distant, quod nomina sine
+     tempore sunt, verba cum tempore. Cuius nulla <milestone unit="page" n="Col. 795B"/> pars extra
+     designativa est: nomen ab oratione disiungit, quod oratio et ipsa vox est, et designativa, et
+     secundum placitum, et aliquoties sine tempore est, sed orationis partes significant, nominum
+     vero minime. In Ciceronis enim nomine nulla extra pars designativa est, neque 'ci', neque 'ce',
+     neque 'ro'. Neque si ex duobus integris nomina sint. Quod enim in uno consignificat, id extra
+     non significat. In nomine enim magister, 'magis' et 'ter' consignificant, quia est magister.
+     Sublatum vero 'ter' et 'magis' non erit alicuius significatio, nisi tibi hoc alii nomen dare
+     placuerit. Omnia enim nomina non naturaliter sunt, sed ad placitum ponuntur. Sed de hoc in
+     commentario libri <foreign xml:lang="grc">περὶ Ἑρμηνείας</foreign> Aristotelis dictum est, et
+     maior eius rei tractatus est, quam ut nunc queat <milestone unit="page" n="Col. 795B"/>
+     expediri. Revertamur igitur ad nomen. Sed quoniam sunt quaedam voces quae et designativae sunt,
+     et secundum placitum et sine tempore, quarum dubia sit natura, ut est non homo [leg. non-homo],
+     hoc enim significat quiddam et secundum placitum, impositum est enim, sed dubium est cui subdi
+     possit, nomini enim non potest, omne enim nomen significat aliquid definitum, non homo autem
+     quod definitum est perimit; oratio vero dici non potest, omnis enim oratio ex nominibus et
+     verbis constat, non homo autem, neque ex nominibus constat, neque ex verbis, sed multo magis
+     esse non potest verbum, omne enim verbum cum tempore est, non homo vero sine tempore est: quid
+     sit ergo ita videndum est; et quoniam non homo vox significat quiddam, <milestone unit="page"
+      n="Col. 795D"/> quid autem significet in homine ipso non continetur (potest enim non homo et
+     equus esse et lapis et domus, et quidquid homo non fuerit, quoniam ea quae significare potest
+     infinita sunt, infinitum nomen vocatur); et quoniam sunt quaedam voces et designativae et ad
+     placitum, et definitae, et quarum partes extra nihil significant, ut sunt casus nominum, ut
+     'Ciceronis' et 'Cicerone' et caetera, haec nomina non erunt. Omne enim nomen iunctum cum est
+     verbo, aut verum aut falsum demonstrat. Vt si dicas, dies est, hoc vero aut <milestone
+      unit="page" n="Col. 796A"/> verum aut falsum est. Si vero casum iungas, neque verum neque
+     falsum efficis. Si enim dicas, diei est, nihil quod sit, aut non sit, demonstrasti. Itaque
+     nihil ex hoc neque verum neque falsum efficies. Et merito dictum videtur. Quod enim primo
+     vocabulum nomina rebus imponentes dixerunt, id solum nomen vocabitur merito. Qui enim primus
+     circo circum nomen imposuit, ita dixisse videtur, Dicatur hoc circus. Atque ideo primus hic
+     casus nominativus vocatur, quod nomen sit. Aliis vero nominibus non nominis caeteros casus
+     appellavere. Ergo a capite revolvendum est, vocem dictum quod vox nominum genus sit;
+     designativam vero, quod sunt quaedam voces quae nihil designant, ut ab his vocibus separetur
+     quae nihil significant; ad placitum, ut ab his vocibus separetur quae naturaliter significant,
+     ut sunt pecudum. Sine tempore vero dictum est, ad divisionem verbi quod cum tempore est; cuius
+     nulla <milestone unit="page" n="Col. 796B"/> pars extra significat, ut divideretur ab oratione,
+     cuius partes nomina sunt et verba, quae significant; finita vero, ut ab infinitis separetur;
+     recta, ut a casibus distingueretur. Et in verbo eadem omnia fere conveniunt. Est enim verbum
+     vox significativa ad placitum cum tempore, cuius nulla pars extra significativa est; et quia
+     est quaedam vox significativa et ad placitum cum tempore, cuius pars nihil significat, ut non
+     albet (Albet enim, quod cum non iunctum consignificat, solum non significat), et quia nihil
+     definitum monstrat (quod enim non albet, potest et rubere, potest et nigrescere, potest et
+     pallere, et quidquid non albet), ideo infinitum verbum vocatum est. Faciebat autem et facturus,
+     ut superius in nomine, non verba, sed casus verborum <milestone unit="page" n="Col. 796C"/>
+     sunt. Repetendum est igitur ab initio verbum esse vocem dictum, a genere; significativam, ut a
+     non significativis vocibus dividatur; ad placitum, ut ab illis quae natura sunt significativae
+     vocibus separetur: cum tempore, ut a nomine divideretur; praesens aliquid significare, ut a
+     verbi casibus disiungeretur; finita, ut ab infinitis disterminaretur. Restat ergo nunc quid sit
+     oratio dicere. Haec enim ex nomine et verbo componi videtur: sed prius utrum nomen et verbum
+     solae partes orationis sint consideremus, an etiam aliae sex, ut grammaticorum opinio fert, an
+     aliquae ex his in verbi et nominis iura vertantur; quod nisi prius constitutum sit, tota
+     propositionum ac deinceps ea ipsa quae ex propositionibus componitur syllogismorum ratio
+     titubabit. Nam si ex quo <milestone unit="page" n="Col. 796D"/> sint genere termini nesciatur,
+     totum ignorabitur. Nomen et verbum duae solae partes sunt putandae, caeterae enim non partes,
+     sed orationis supplementa sunt: ut enim quadrigarum frena vel lora non partes, sed quaedam
+     quodammodo figaturae sunt et, ut dictum est, supplementa non etiam partes, sic coniunctiones et
+     praepositiones et alia huiusmodi non partes orationis sunt, sed quaedam colligamenta.
+     Participium vero quod vocatur, verbi loco ponetur, quoniam temporis demonstrativum est.
+     Adverbium vero nomen est, cuiusdam enim definitae significationis est sine tempore, quod si per
+     casus non flectitur, nihil impedit. Non enim est proprium nominis flecti per casus. Sunt enim
+     quaedam nomina quae flecti <milestone unit="page" n="Col. 797A"/> non possunt, quae a
+     grammaticis monoptota nominantur, sed hoc grammaticae magis quam huius considerationis est.
+     Oratio est vox designativa ad placitum, cuius partes aliquid extra significant, ut dictio, non
+     ut affirmatio. Et est orationi commune cum nomine et verbo quod vox est, et designativa, et ad
+     placitum. Cuius enim partes ad placitum sunt, ea quoque ipsa ad placitum est. Orationis autem
+     partes sunt nomen et verbum. Sed haec ad placitum, oratio igitur ad placitum est. Termini vero
+     orationis a dialecticis nominantur nomina et verba. Termini vero dicti sunt, quod usque ad
+     verbum et nomen resolutio partium orationis fiat, ne quis orationem usque ad syllabas nominum
+     vel verborum tentet resolvere, quae iam designativae non sunt. Distat <milestone unit="page"
+      n="Col. 797B"/> autem a nomine vel verbo oratio quod illius partes extra significant, verbi et
+     nominis partes nihil extra designant. Est autem dictio unius simplex vocabuli nuncupatio, vel
+     simplex affirmatio. Atque ideo dictum est orationis partes significare ut dictionem, id est ut
+     simplicis vocabuli nuncupationem. In oratione enim, Socrates ambulat, utraque extra significat
+     tantum quantum simplex vocabuli nuncupatio designare queat. Quomodo autem ut affirmatio simplex
+     non significet, in commentario Perihermenias explicui. Quid autem sit affirmatio et negatio
+     paulo post explicabimus. Sunt vero species orationis in angustissima divisione quinque.
+     Interrogativa, ut putasne anima immortalis est? Imperativa, ut accipe codicem. Optativa vel
+     deprecativa, ut faciat Deus. <milestone unit="page" n="Col. 797C"/> Vocativa, ut adesto Deus.
+     Enuntiativa, ut Socrates ambulat: sed in illis quatuor nulla neque veritas est, neque falsitas.
+     Enuntiativa vero sola aut verum aut falsum continet. Atque hinc propositiones oriuntur.
+     Enuntiatio autem in duas partes secabitur, in affirmationem et negationem. Affirmatio est
+     enuntiatio alicuius ad aliquid. Negatio est enuntiatio alicuius ab aliquo. Et est affirmatio,
+     ut puta Plato philosophus est. Negatio, Plato philosophus non est. Affirmatio enim ad Platonem
+     philosophiam enuntiat aliquam, id est Platonem esse philosophum. Negatio vero ab aliquo Platone
+     aliquam philosophiam enuntiando tollit, id est enuntiat Platonem non esse philosophum.
+     Enuntiativarum igitur orationum aliae sunt simplices, aliae non simplices. Simplices sunt,
+      <milestone unit="page" n="Col. 797D"/> ut si dicas, dies est, lux est. Non simplices, ut, si
+     dies est lux est. Affirmationes vero simplices et negationes, aliae sunt universales, aliae
+     sunt particulares, aliae indefinitae. Vniversales sunt quae aut omne affirmant, ut omnis homo
+     animal est, aut omne negant, ut nullus homo animal est; particulares vero quae aliquem
+     affirmant vel aliquem negant, ut aliquis homo animal est, aliquis homo animal non est;
+     indefinitae vero quae neque universaliter affirmant, aut negant, neque particulariter, ut homo
+     animal est, homo animal non est. Dividitur autem simplex propositio in duas partes: in
+     subiectum et praedicatum, ut homo animal est, homo subiectum est, animal vero de homine
+     praedicatur; hae autem partes termini nominantur. <milestone unit="page" n="Col. 798A"/> Quos
+     diffinimus sic: Termini sunt partes simplicis propositionis in quibus dividitur principaliter
+     propositio. Est enim simplicis propositionis universalis secunda divisio, ut sit in
+     propositione, omnis homo animal est, omnis homo unus terminus, alius vero, animal est. Sed hoc
+     secundo loco, illud vero principaliter. Nam primi termini sunt subiectum et praedicatum. Est
+     enim et non est, non magis termini sunt quam affirmationis vel negationis designativa sunt, et
+     omnis vel nullus vel aliquis non magis sunt termini quam diffinitionum, utrum particulariter an
+     universaliter dictum sit, designativa sunt. Dividitur ergo, ut dictum est, propositio in id
+     quod subiectum est, et in id quod praedicatur. Dico autem subiectum, ut in omnis homo animal
+     est propositione <milestone unit="page" n="Col. 798B"/> hominem, id vero quod praedicatur dico
+     animal, et semper quod praedicatur, aut abundat et superest subiecto, aut aequatur. Minus autem
+     praedicatum a subiecto nunquam reperietur. Sed id quod diximus diversis demonstremus exemplis.
+     Subiecto praedicatum abundat quoties genus aliquod de aliquo praedicatur, ut si dicas, omnis
+     homo animal est. Non enim potes convertere, ut dicas, omne animal homo est, quia animal ab
+     homine plus est et abundat. Aequatur autem praedicatum subiecto quoties proprium quoddam
+     cuipiam praedicatur, ut omnis homo risibile est, potes convertere, omne risibile homo est; ut
+     autem minus sit id quod praedicatur, fieri nequit. Dicitur etiam praecedere praedicatum, sequi
+     quod subiectum est. Idonior est enim praedicatio constituere <milestone unit="page"
+      n="Col. 798C"/> propositionem, quam id quod subiectum est. Simplicium autem propositionum
+     aliae sunt in nullo sibi participantes ut sunt, omnis homo animal est, et, virtus bona est, et
+     aliae huiusmodi propositiones, aliae vero quae participant. Participantium aliae sunt quae in
+     utroque termino <milestone unit="page" n="Col. 798D"/> participant, aliae quae in altero, et
+     quae altero termino participant tribus modis, utroque vero duobus. Ostendamus ergo exemplis
+     quomodo altero tribus modis participant. Communis enim terminus est, cum in una subiectus sit,
+     in altera praedicatus, ut est omnis homo animal est, et omne animal animatum. In priore enim
+     propositione animal praedicatur ad hominem, in posteriore praedicatur ad animal animatum, et
+     fit animal subiectum. Et est hic primus modus de eis quae altero termino participant. Secundus
+     vero modus est in quo in utrisque communis terminus praedicatur, ut si quis dicat, omnis nix
+     candida, et omnis margarita candida. Etenim in prima et secunda propositione candida
+     praedicatur, in prima ad nivem, in secunda ad margaritam. Et est hic secundus modus altero
+     termino participantium. Tertius vero modus est, quoties in utrisque propositionibus communis
+     terminus subiectus est, ut si dicas, virtus bonum est, virtus iustum est. In utrisque enim ad
+     iustum et ad bonum virtus subiectum est. Sunt igitur participantes alterum terminum his tribus
+     modis, aut cum in una communis terminus praedicatur, in illa subiectus est; aut cum in utrisque
+     praedicatur; aut cum in utrisque <milestone unit="page" n="Col. 799A"/> subiectus est. Earum
+     vero quae ad utrosque participant terminos duo sunt modi. Aliae enim ad eumdem ordinem, aliae
+     ad ordinis commutationem. Ad eumdem sunt quae de eodem idem demonstrant, vel affirmative vel
+     negative, vel aliter, vel particulariter, omnis voluptas bonum est, nulla voluptas bonum est;
+     et rursus particulariter, quaedam voluptas bonum est, quaedam voluptas bonum non est. Ad
+     ordinis vero commutationem sunt quoties qui in altera subiectus est terminus, in alia
+     praedicatur, ut omne bonum iustum est, et omne iustum bonum. Nam in priore bonum subiectum est,
+     iustum praedicatum, in secunda iustum subiectum est, bonum praedicatum. Nunc ergo quoniam aliae
+     ad eumdem ordinem, aliae ad ordinis commutationem sunt, prius dicemus de <milestone unit="page"
+      n="Col. 799B"/> his quae ad eumdem ordinem utroque termino participant, et quoniam sunt
+     propositiones, aliae affirmativae, aliae negativae, aliae universales, aliae particulares,
+     aliae indefinitae, duae sunt ex his quae qualitate differunt, tres quae quantitate. Et sunt
+     quae qualitate differunt affirmativa et negativa; ad quantitatem quae vero differunt, sunt
+     universalis, particularis et indefinita. In affirmativis enim et negativis quale quid sit aut
+     non sit ostenditur. In universali particulari et indefinita de omnium vel nullorum vel
+     nonnullorum quantitate monstratur. Ex his ergo quinque differentiis, id est universali,
+     particulari, indefinita, affirmativa, negativa, sex coniunctiones fiunt, ita ut tribus quae ad
+     quantitatem dicuntur duae quae ad qualitatem dicuntur aptentur, et fit universalis affirmativa,
+      <milestone unit="page" n="Col. 799C"/> et universalis negativa, ut omnis homo iustus est,
+     nullus homo iustus est; et particularis affirmativa, et particularis negativa, ut quidam homo
+     iustus est, quidam homo iustus non est; et indefinita affirmativa et negativa, ut homo iustus
+     est, homo iustus non est: fiunt ergo ex duabus quae sunt ad qualitatem, tribus quae sunt ad
+     quantitatem iunctis, sex coniunctiones, de quibus indefinitas, affirmativas et negativas
+     separemus, et de solis universalibus et particularibus tractatus habeatur. Subscribantur etiam
+     earum participantium quae ad eumdem ordinem utroque termino participant, duae universales
+     propositiones, una affirmativa, et altera negativa, et sit affirmativa universalis, omnis homo
+     iustus est et contra ipsam universalis negativa, nullus homo <milestone unit="page"
+      n="Col. 799D"/> iustus est. Item sub his ponantur particularis affirmatio et particularis
+     negatio, ita ut sub universali affirmativa ponatur particularis affirmativa, et sub universali
+     negativa ponatur particularis negativa, et sit particularis affirmativa, quidam homo iustus
+     est, et contra ipsam particularis negativa, quidam homo iustus non est, quod demonstrat sequens
+     descriptio. <milestone unit="page" n="Col. 800A"/> Subalternae: Omnis homo iustus est; Quidam
+     homo iustus est.<lb/> Subalternae: Quidam homo iustus non est; Nullus homo iustus est.<lb/>
+     Contrariae: Omnis homo iustus est; Nullus homo iustus est.<lb/> Subcontrariae: Quidam homo
+     iustus est; Quidam homo iustus non est.<lb/> Contradictoriae: Omnis homo iustus est; Quidam
+     homo iustus non est.<lb/> Contradictoriae: Quidam homo iustus est; Nullus homo iustus est.<lb/>
+     <milestone unit="page" n="Col. 800B"/> In superiori igitur descriptione universalis affirmativa
+     et universalis negativa contrariae sunt, subcontrariae vero particularis affirmativa et
+     particularis negativa, subalternae vero dicuntur universalis affirmativa et particularis
+     affirmativa, et item universalis negativa et particularis negativa. Contraiacentes sunt
+     angulares, id est universalis affirmativa et particularis negativa. Et item universalis
+     negativa et particularis affirmativa, ut, omnis homo iustus est, quidam homo iustus non est,
+     nullus homo iustus est, quidam homo iustus est, et sunt ut hoc modo diffiniri possint.
+     Contrariae sunt quae universaliter eidem idem haec affirmat, haec negat. Subcontrariae sunt
+     quae particulariter eidem idem haec affirmat, haec <milestone unit="page" n="Col. 800C"/>
+     negat. Subalternae sunt quae eidem idem affirmant vel negant, haec particulariter, illa
+     universaliter. Contraiacentes sunt quando eidem eamdem rem haec affirmat, haec negat, vel haec
+     negat, haec affirmat, illa generaliter, haec particulariter, et vocantur contrariae, quia quod
+     affirmatio universaliter ponit, negatio universaliter tollit. Subalternae vero, quoniam quod
+     illa universaliter ponit, etiam haec particulariter ponit. Subcontrariae vero dictae sunt, vel
+     quod naturaliter sub ipsis contrariis positae sunt, ut descriptio docet, vel quod a contrariis
+     diversae sunt, et ipsis contrariis quodammodo contrariae. Nam contrariae ut utraeque simul
+      <milestone unit="page" n="Col. 800D"/> sint fieri non potest, ut utraeque omnino non sint
+     fieri potest, contrariam vim obtinebunt subcontrariae. Nam ut utraeque omnino non sint fieri
+     non potest, ut utraeque simul sint fieri potest, quod in sequentibus melius explicabitur.
+     Contraiacentes dicuntur, quoniam universalis affirmatio vel negatio, particularem affirmationem
+     vel negationem angulariter respiciunt. Cum autem singulae propositiones habeant duas
+     differentias, unam ad qualitatem, alteram ad quantitatem, ut quae universalis, affirmativa est.
+     habeat differentiam ad quantitatem quod universalis est, et aliam ad qualitatem quod
+     affirmativa est; eodem modo caeterae propositiones binas habeant differentias, unam secundum
+     qualitatem, alteram secundum quantitatem. Subalternae quae sunt, una tantum differentia distant
+     quantitatis, quod haec particularis, illa <milestone unit="page" n="Col. 801A"/> universalis
+     est. Nam qualitatis differentiam nullam retinent. Vtraeque enim affirmativae sunt. Illae vero
+     aliae, id est contrariae et subcontrariae ad qualitatem, quod illa affirmativa, illa negativa
+     est, nam ad quantitatem nihil differunt. Vtraeque enim contrariae universales, utraeque
+     subcontrariae particulares sunt, illae autem quae contraiacentes dicuntur utrisque differentiis
+     differunt. Nam et illa universalis affirmatio est, haec particularis negatio, et illa
+     universalis negatio est, haec particularis affirmatio. Nunc quoniam quae secundum qualitatem
+     vel secundum quantitatem et quomodo differant dictum est, earum proprietates, quae secundum
+     verum falsumque sunt, explicemus. Igitur earum quae subalternae sunt, si fuerit vera
+     universalis affirmatio, vera erit particularis affirmatio. <milestone unit="page" n="Col. 801B"
+     /> Si enim omnis homo iustus est, vera est, vera erit etiam quae dicit, Aliquis homo iustus
+     est. Nam si omnis homo iustus est, et quidam. Eodem modo negativae subalternae: nam si
+     universalis negativa vera fuerit, erit etiam vera negativa particularis, ut si nullus homo
+     iustus est vera fuerit, etiam erit vera, quidam homo iustus non est. Nam si nullus homo iustus
+     est nec quidam. Converti autem non potest, nam si particularis vera fuerit, non necesse erit
+     veram esse etiam universalem. Vt si quidam homo iustus est, vera fuerit, non necesse erit veram
+     esse, omnis homo iustus est. Possunt enim esse non omnes. Et eodem modo de negativa. Nam si
+     particularis negativa vera fuerit, ut est, quidam homo non est iustus, non necesse erit
+     universalem, nullus homo iustus <milestone unit="page" n="Col. 801C"/> est, veram esse. Potest
+     enim fieri ut quidam iusti sint. Ergo dicamus in subalternis propositionibus si universales
+     verae sint, veras esse necesse est particulares, sed non convertitur. Nam si particulares verae
+     fuerint, non necesse est veras etiam universales esse. Particulares vero ad universales
+     contrariam conversionem habent. Nam, ut superius, si universales verae essent, etiam
+     particulares verae essent; et si particulares verae essent, non omnino verae essent etiam
+     universales in particularibus; si particulares falsae fuerint, falsae erunt etiam universales.
+     Nam si particularis quidam homo iustus est falsa fuerit, universalis etiam omnis homo iustus
+     est falsa erit. Nam si quidam homo iustus est falsa est, vera est nullus homo iustus est. Si
+     vera est nullus homo iustus <milestone unit="page" n="Col. 801D"/> est, falsa est omnis homo
+     iustus est. Falsa igitur particulari, falsa erit universalis. Item si negativa particularis
+     falsa fuerit, quae est, quidam homo iustus non est, falsa erit etiam, nullus homo iustus est.
+     Nam si falsum est quia quidam homo iustus non est, vera est quia omnis homo iustus est. Si vera
+     est haec, falsa est nullus homo iustus est; falsa igitur particulari, falsa erit etiam
+     universalis. Sed non convertitur, ut si universales falsae sint, falsas necesse sit esse
+     particulares: nam si universalis, omnis homo iustus est falsa fuerit, non necesse est
+     particularem, quidam homo iustus est, falsam esse. Potest enim fieri ut si omnis homo iustus
+     non fuerit, sit quidam iustus, et item si universalis negativa, nullus <milestone unit="page"
+      n="Col. 802A"/> homo iustus est, falsa fuerit, non necesse erit quidam homo non est iustus
+     falsam esse. Nam si falsa est nullus homo iustus est, verum est esse aliquos iustos, vera est
+     etiam quae dicit quidam homo iustus non est, quod sint quidam etiam non iusti. Repetens igitur
+     a capite dicat quod in subalternis. Si universales verae fuerint, verae erunt etiam
+     particulares. Sed non convertitur. Item si particulares falsae fuerint, falsae erunt etiam
+     universales, sed non convertitur, contrariae vero simul esse verae nunquam possunt. Potest
+     autem fieri ut alias utraeque falsae sint, alias una vera, altera falsa. Vtraeque falsae sunt,
+     ut si quis dicat, omnis homo grammaticus est, falsa est, nam non omnis, et nullus homo
+     grammaticus est, falsa est, nam non nullus; est autem una vera, altera <milestone unit="page"
+      n="Col. 802B"/> falsa, ut si quis dicat, omnis homo bipes est, haec affirmativa vera est;
+     nullus homo bipes est, haec negativa falsa est. Et item omnis homo quadrupes est, haec
+     affirmativa falsa est. Nullus homo quadrupes est, haec negativa vera est. Sunt ergo contrariae
+     aliquoties utraeque falsae, aliquoties inter se verum falsumque dividentes; ut utraeque autem
+     verae sint fieri nunquam potest, subcontrariae vero contraria patiuntur. Nam falsae nunquam
+     reperiri queunt. Sed alias verae utraeque sunt, ut est quidam homo grammaticus est, vera est,
+     et quidam homo grammaticus non est, etiam haec vera est. Potest enim alius esse grammaticus et
+     alius non esse. Alias una vera est, altera falsa. Vera est enim affirmatio, quidam homo bipes
+     est, falsa est autem negatio, quidam homo bipes non<milestone unit="page" n="Col. 802C"/> est.
+     Item falsa est affirmatio, quidam homo quadrupes est; vera est negatio, quidam homo quadrupes
+     non est: ut vero utraeque falsae sint fieri nunquam potest. Restat igitur ut de
+     contraiacentibus dicamus, quae neque falsae simul aliquando esse possunt neque verae, sed
+     semper una vera est, altera falsa, quod facilius liquet, si quis sibi quaecunque fingat
+     exempla. Res admonet ut quaedam de indefinitis propositionibus consideremus. Indefinitae etenim
+     propositiones aequam vim retinent particularibus propositionibus. Dictum est enim quod si
+     universales vel affirmativae vel negativae in subalternis propositionibus essent verae, essent
+     quoque verae particulares. Nunc vero dicimus quod si universales propositiones verae fuerint,
+     verae erunt etiam indefinitae. <milestone unit="page" n="Col. 802D"/> Nam si vera est omnis
+     homo bipes est, vera est etiam quidam homo bipes est, vera erit etiam indefinita quae dicit
+     homo bipes est. Item dictum est quod si particulares falsae essent, falsae essent etiam
+     universales, nunc vero dicendum est quod si indefinita falsa fuerit, falsa erit etiam
+     universalis. Nam si falsa est quae dicit homo quadrupes est, falsa erit etiam quae dicit quidam
+     homo quadrupes est et omnis homo quadrupes est. Atque idem hoc etiam in negativis convenire
+     videtur. Vnde constat quod omnes indefinitae particularibus propositionibus aequam vim
+     continent. Rursus dictum est quod subcontrariae, quae particulares affirmativae et negativae
+     sunt, simul verae esse possunt, dividere etiam verum falsumque <milestone unit="page"
+      n="Col. 803A"/> valent, simul vero falsae esse non posse. Hoc idem in indefinitis
+     propositionibus exspectandum est. Nam dividunt inter se verum falsumque, ut si quis dicat homo
+     bipes est, vera est, homo bipes non est, falsa est, et item homo quadrupes est, falsa est, homo
+     quadrupes non est, vera est; verae autem simul inveniri possunt, ut si quis dicat homo
+     grammaticus est, si quis hoc dicat de Donato, verum est. Item homo grammaticus non est, si quis
+     hoc dicat de Catone, verum est, ut simul falsae sint nunquam reperiemus. Hinc quoque ostenditur
+     indefinitas cum particularibus aequali esse potentia. Amplius quod dictum est, contraiacentes,
+     id est universalem affirmativam et particularem negativam, et item universalem negativam et
+     particularem affirmativam, neque <milestone unit="page" n="Col. 803B"/> veras simul esse neque
+     falsas, sed inter se dividere verum falsumque, hoc idem evenit in indefinitis. Nam universalis
+     affirmativa et indefinita negativa, vel universalis negativa et indefinita affirmativa, neque
+     verae simul esse possunt, neque simul falsae. Dividuntur autem inter se verum falsumque: nam si
+     dixeris, omnis homo bipes est, vera est, et si dicas homo bipes non est, falsa est. Item si
+     dixeris homo quadrupes est, falsa est, si dixeris, nullus homo quadrupes est, vera est: unde
+     hinc quoque colligere licet omnes indefinitas potestate et vi aequales esse particularibus.
+     Sunt etiam quaedam propositiones quae dividunt quidem et ipsae verum et falsum, ut Deus
+     fulminat, Deus non fulminat. Sed istae tunc dividunt inter se verum et falsum, cum idem tempus,
+      <milestone unit="page" n="Col. 803C"/> idem subiectum, idem praedicatum sit. Quod autem dico
+     tale est, si aequivocum subiectum fuerit, non dividunt verum et falsum. Si quis enim dicat,
+     Cato se Vticae occidit, et respondeatur, Cato se Vticae non occidit, utraeque verae sunt. Nam
+     et Cato Minor se peremit, et Cato Censorius se Vticae non occidit. Sed hoc idcirco evenit, quod
+     Catonis nomen aequivoce dicitur, dicitur enim et Maior Cato Censorius, et Minor Vticensis. Item
+     si aequivoca fuerit in propositione praedicatio, verum inter se affirmatio negatioque non
+     dividunt. Si quis enim sic dicat, in nocte lucet, et respondeatur, in nocte non lucet, fieri
+     potest ut utraeque verae sint. Nam in nocte lucerna lucere potest, et sol lucere non potest;
+     hoc ideo evenit quia lucere aequivoce et ad lucernae lumen <milestone unit="page" n="Col. 803D"
+     /> et ad solis dicitur. Amplius si aliud et aliud in subiectis et praedicatis tempus fuerit,
+     verum falsumque inter se affirmatio negatioque non dividunt. Nam si quis dicat, Socrates
+     ambulat, et respondeatur, Socrates non ambulat, possunt utraeque verae esse, potest enim fieri
+     ut Socrates alio tempore ambulet, alio tempore non ambulet; sed aut stet aut sedeat, aut
+     quodlibet aliud: in talibus ergo propositionibus quales sunt, Socrates ambulat, Socrates non
+     ambulat, illae inter se verum falsumque dividunt quae ad idem subiectum, ad idem praedicatum,
+     ad idem tempus, dicuntur. Sunt etiam aliae quae contradictoriae vocantur, quae sunt huiusmodi,
+     quoties affirmationem universalem tollit negatio particularis, <milestone unit="page"
+      n="Col. 804A"/> omnis homo iustus est, non omnis homo iustus est, et rursus nullus homo iustus
+     est, et quidam homo iustus est, in his enim universalis determinatio tollitur, sed de his
+     alias. Et quoniam dictum est de his quae eodem ordine participant, dicamus nunc de his quae
+     ordinis commutatione participant. Harum quoque propositionum quae ad commutationem ordinis
+     participant duplex modus est. Est enim per contrapositionem conversio, ut si dicas, omnis homo
+     animal est, omne non animal non homo est; simplex conversio est, ut si dicas, omnis homo
+     risibile, et convertas, omne risibile homo: sed in illis terminorum tantum commutatio
+     conversionem facit, in quibus neque praedicatum subiecto, neque subiectum praedicato abundat.
+     In hac enim propositione quae <milestone unit="page" n="Col. 804B"/> dicit, omnis homo
+     risibile, homo subiectum, risibile praedicatum, aequam vim habent, et ideo converti potest ut
+     sit risibile subiectum et homo praedicatum, et dicatur omne risibile homo. In quibus vero unus
+     terminus alio abundaverit, converti propositio non potest. Nam si dicas, omnis homo animal est,
+     vera est; non tamen potest fieri ut conversa haec propositio terminis commutatis vera sit:
+     falsum est enim dicere, omne animal homo est. Sed hoc cur evenit? quia homine animal abundat.
+     Illa vero conversio, quae <milestone unit="page" n="Col. 804C"/> per contrapositionem fit hoc
+     modo fit: quoties in affirmativa subiectum fuerit, idem mutatum et factum praedicatum ad
+     negativam particulam ponitur, ut est omnis homo animal est. Hic homo subiectum est et ad hoc
+     animal praedicatur. Si vero quis per contrapositionem convertat, et faciat animal subiectum
+     hominem praedicatum, et ad hominem particulam negativam ponat, hoc modo faciet: omne non animal
+     non homo est, et erit ista conversio, omnis homo animal est, omne non animal non homo est; sed
+     de his posterius tractabimus, nunc ad simplices revertamur. Cum sint igitur quatuor
+     propositiones quarum duae universales sunt, id est affirmativa et negativa, duae vero
+     particulares, id est affirmativa et negativa, particularis affirmativa, et universalis negativa
+     commutatis terminis sibi ipsa convertitur. Convertuntur autem illae (ut dictum est) quoties,
+     commutatis terminis, vel simul verae sunt, vel simul falsae. Nam si quis dicat, quidam homo
+     animal est, vera est. Conversio vero eius quoddam <milestone unit="page" n="Col. 804D"/> animal
+     homo est, vera est. Item quidam homo lapis est, falsa est, quemadmodum et eius conversio,
+     quidam lapis homo est, nam et ista falsa est. Est igitur particularis affirmativa quae
+     commutatis terminis sibi ipsa convertitur. Idem vero patitur universalis negatio. Si quis enim
+     dicat, nullus homo lapis est, vera est, et potest converti nullus lapis homo est, nam et ista
+     vera est. Item nullus homo rhetor est, falsa est, et eius conversio, nullus rhetor homo est,
+     falsa est. In quatuor igitur his propositionibus duae tantum contraiacentes sibi ipsae
+     convertuntur, id est particularis affirmatio et universalis negatio. Aliae vero duae sibi ipsis
+     non convertuntur. Nam neque universalis affirmatio, neque particularis negatio sibi ipsi
+      <milestone unit="page" n="Col. 805A"/> convertitur. Si quis enim dicat, omnis homo animal est,
+     vera est. Si quis vero convertat, omne animal homo est, falsum est. Non igitur sibi ipsi
+     converti potest, quoniam conversa prioris veritatem non recipit. Neque vero particularis
+     negatio sibi ipsi convertitur. Nam si quis dicat, quidam homo grammaticus non est, vera est; si
+     vero convertat, quidam grammaticus homo non est, falsa est: omnis enim grammaticus homo est.
+     Repetendum est igitur a capite quod cum quatuor propositiones sint, affirmatio universalis,
+     negatio universalis, affirmatio particularis, negatio particularis, particularis affirmatio, et
+     universalis negatio quae contraiacentes sunt, sibi ipsis converti possunt. Vniversalis vero
+     affirmatio et particularis negatio, quae ipsae contraiacentes sunt, nunquam possunt sibi
+      <milestone unit="page" n="Col. 805B"/> ipsis converti. Nec hoc nos turbet quod quaedam
+     affirmationes universales et quaedam particulares negationes converti possunt. Potest enim dici
+     omnis homo risibilis est, omne risibile homo est, et utraeque verae sunt. Et item omnis homo
+     hinnibilis est, falsa est, et omne hinnibile homo est, et haec quoque falsa est. Item in
+     particulari negatione, quidam homo non est lapis, vera est, et quidam lapis non est homo, vera
+     est. Item quidam homo non est risibile, falsa est, quoddam risibile homo non est, et haec
+     quoque falsa est. Ergo videntur posse universales affirmationes et particulares negationes
+     converti, et convertuntur quidem, sed non universaliter. Generaliter autem dico propositiones
+     posse converti, quoties universaliter, id est in omnibus convertuntur. Istae <milestone
+      unit="page" n="Col. 805C"/> autem in duabus solis materiebus converti possunt. Si quis enim
+     proprium cuiuslibet speciei ad ipsam speciem cuius est proprium velut ad subiectum praedicet,
+     potest convertere. Nam quia risibile proprium est homini, si praedices risibile, et subiicias
+     hominem, ut est omnis homo risibile est, potes iterum subiicere risibile et hominem praedicare,
+     ut si dicas omne risibile est homo. In illis vero simul falsae sunt generalium affirmationum
+     conversiones, in quibus id quod praedicatur ad subiectum nullo tempore vere dici potest, ut si
+     quis dicat, omnis homo lapis est, falsa est. Et iterum, omnis lapis homo est, falsa est haec,
+     quoniam nullo tempore neque homo lapis est, neque lapis homo vere praedicabitur. In
+     particularibus negativis contrarium est; nam aut falsae <milestone unit="page" n="Col. 805D"/>
+     sunt, cum proprium subiectum est aut praedicatum, ut si quis dicat, quidam homo risibile non
+     est, falsum est. Item quoddam risibile homo non est, et haec quoque falsa est. In illis verae
+     sunt, quando id quod affirmando nullo tempore vere praedicari potest ad subiectum praedicant,
+     ut si dicas, quidam homo lapis non est, vera est. Iterum quidam lapis homo non est, vera est.
+     Ergo universales affirmationes tum sibi convertuntur ut verae sint cum proprium praedicant, tum
+     sibi convertuntur, ut falsae sint cum id quod nullo tempore ad subiectum vere dici poterit
+     praedicatur. Item in particularibus negativis, tum falsae sunt, cum proprium praedicant, tum
+     verae, cum id quod nullo tempore vere dici poterit praedicant. <milestone unit="page"
+      n="Col. 806A"/> In his ergo solae converti possunt. In aliis vero converti non possunt. Atque
+     ideo universaliter non convertuntur, remanet ergo ut in aliis rebus omnibus, ut superius dictum
+     est, non convertantur. Hoc vero perspiciendum est, quod particularis affirmatio quae sibi ipsi
+     convertitur, universali affirmationi, quae sibi non convertitur, per accidens converti potest.
+     Et item contraiacens universali affirmationi particularis negatio, quae sibi ipsi non
+     convertitur, converti potest per accidens negationi universali, quae sibi ipsi convertitur. Sed
+     quomodo particularis affirmatio et universalis negatio sibi ipsis convertantur ostendimus. Nunc
+     vero quomodo particularis affirmatio universali affirmationi per accidens, vel quomodo
+     particularis negatio universali negationi per accidens <milestone unit="page" n="Col. 806B"/>
+     convertantur, demonstrandum est. Dictum est superius quod si vera est universalis affirmatio,
+     vera est etiam particularis, et sequeretur particularis universalem. Nam si vera est omnis homo
+     animal est, vera est etiam quidam homo animal est. Si enim omnis, et quidam, sed particularis
+     affirmatio sibi ipsi convertitur, convertitur etiam universali affirmationi. Nam si omnis homo
+     animal est, et quidam homo animal est. Sed ista sibi convertitur hoc modo, si dicas, quidam
+     homo animal est. Potest igitur converti ad omnis homo animal est universalem affirmationem
+     particularis affirmatio, quae est quidam homo animal est, et convertitur, ut si dicas quoddam
+     animal homo est; utraeque enim verae sunt, et quae dicit, omnis homo animal est, et quae dicit
+     quoddam animal homo est: per accidens <milestone unit="page" n="Col. 806C"/> autem converti
+     dicitur particularis affirmatio universali affirmationi, quia particularis affirmatio sibi ipsi
+     principaliter convertitur, secundo vero loco universali affirmationi convertitur. Restat igitur
+     ut hoc monstremus, quomodo particularis negatio quae sibi non convertitur universali negationi
+     quae sibi convertitur per accidens convertatur, et hic eadem ratio est. Nam quoniam universalis
+     negatio si vera est, vera est etiam particularis, universalis vero negatio sibi ipsa
+     convertitur, potest universali negationi conversae particularis converti negatio. Age enim
+     universalem negationem, id est nullus homo hinnibilis est, convertamus, ut sit nullum hinnibile
+     homo est. Sed istam propositionem, id est universalem negativam quae est, nullus homo
+     hinnibilis est, sequitur <milestone unit="page" n="Col. 806D"/> particularis negatio quae est,
+     quidam homo non est hinnibilis. Converte igitur universalem quae est, nullus homo hinnibilis
+     est, et fac, nullum hinnibile homo est, converte huic particularem negationem quae est, quidam
+     homo non est hinnibilis, et fac, quoddam hinnibile non est homo, utraeque verae sunt. Nam et
+     nullum hinnibile homo est, quae est universalis conversio negationis, vera est, et quoddam
+     hinnibile non est homo, quae conversio particularis negationis est. Cur autem per accidens
+     converti dicatur, superius dictum est. Liquet ergo talis per accidens conversio: quod igitur
+     habet universalis affirmatio, hoc habet etiam contraiacens particularis negatio, utraeque enim
+     sibi converti non possunt, quod autem habet universalis <milestone unit="page" n="Col. 807A"/>
+     negatio, hoc habet et ei contraiacens affirmatio particularis, utraeque enim sibi converti
+     possunt. Iunctae ergo quae sibi converti possunt, et quae sibi converti non possunt, ut quae
+     sibi converti potest iungatur ei quae sibi converti non potest, et quae sibi converti non
+     potest iungatur ei quae sibi converti potest, faciunt per accidens conversiones quae superius
+     demonstratae sunt. Restat ut de his conversionibus dicamus quae per contrapositionem fiunt, et
+     primum earum sit dispositio in descriptione subiecta, generalis enim affirmationis quae dicit,
+     omnis <milestone unit="page" n="Col. 808A"/> homo animal est, conversio per contrapositionem
+     est quae dicit, omne non animal non homo est. Item generalis negationis quae dicit, nullus homo
+     animal est, conversio per contrapositionem est, nullum non animal non homo est. Item
+     particularis affirmationis quae dicit, quidam homo animal est, conversio per contrapositionem
+     est quae dicit, quoddam non animal non homo est. Item particularis negationis quae dicit,
+     quidam homo animal non est, conversio per contrapositionem est quae dicit, quoddam non animal
+     non homo est, quod demonstrat subiecta descriptio:<lb/> Omnis homo animal est; Omne non animal
+     non homo est.<lb/> Nullus homo animal est; Nullum non animal non homo est.<lb/> Quidam homo
+     animal est; Quoddam non animal non homo est.<lb/> Quidam homo animal non est; Quoddam non
+     animal non homo non est. <milestone unit="page" n="Col. 807B"/> His ergo ita positis, quomodo
+     dictum est superius in simplici terminorum conversione, quod particularis affirmatio et
+     generalis negatio sibi ipsis converterentur, generalis vero affirmatio et particularis negatio
+     sibi ipsis non converterentur, hic in per contrapositionem conversionibus contra est. Nam
+     generalis affirmatio per contrapositionem sibi ipsa convertitur, et particularis negatio sibi
+     ipsi convertitur. Generalis vero negatio et particularis affirmatio per contrapositionem sibi
+     non convertuntur. Quod ita esse his exemplis probabimus. Si enim vera sit affirmatio generalis
+     quae dicit, omnis homo animal est, vera erit eius per contrapositionem conversio quae dicit,
+     Omne non animal non homo est. Quod enim animal non fuerit, id homo non erit. Et si falsa fuerit
+      <milestone unit="page" n="Col. 807C"/> generalis affirmatio quae dicit, omne animal homo est,
+     falsa erit etiam eius per contrapositionem conversio quae dicit, omnis non homo non animal est,
+     potest enim fieri ut quod homo non est, animal sit. Illa enim negat esse animal quod homo non
+     fuerit. Quod si cum vera est generalis affirmativa, vera est eius per contrapositionem
+     conversio, et si cum falsa est generalis affirmatio, falsa est eius per contrapositionem
+     conversio, non est dubium quin generalis affirmatio possit sibi ipsa converti. Item nunc
+     ostendendum est quomodo particularis negatio sibi ipsi per contrapositionem convertitur. Nam si
+     falsa est quae dicit, quidam homo animal non est, falsa eius erit etiam per contrapositionem
+     conversio quae dicit, quoddam non animal non homo est. Hoc enim videtur <milestone unit="page"
+      n="Col. 807D"/> haec propositio dicere, ac si diceret quaedam res quae animal non est homo
+     est, qui enim dicit, non homo non est, hominem esse significat quod animal non sit. Hoc vero
+     aperte falsum est, omnis enim homo animal est, et si vera fuerit particularis negatio quae
+     dicit, quoddam animal homo non est, vera erit et eius per contrapositionem conversio quae
+     dicit, quidam non homo non animal non est. Aequale est enim ac si diceret, res quae homo non
+     est non est non animal, sed est animal, ut equus et bos homo non est, et non est non animal.
+     Ergo si cum particularis negatio falsa est, falsa est etiam eius per compositionem conversio,
+     et si cum particularis negatio vera est, vera est eius per contrapositionem conversio, non
+      <milestone unit="page" n="Col. 808B"/> est dubium quin particularis negatio possit per
+     contrapositionem sibi ipsa converti. Nunc quoniam ostensum generalem affirmativam et
+     particularem negativam per contrapositionem sibi posse converti, ostendamus generalem negativam
+     et particularem affirmativam per contrapositionem sibi non posse converti. Et prius de generali
+     negatione dicendum est. Nam si generalis negatio vera est, non necesse erit per
+     contrapositionem sibi conversam veram esse. Sed si falsa fuerit et per contrapositionem sibi
+     conversam falsam esse necesse est. Nam si falsa est quae dicit, nullus homo animal est, falsa
+     erit fortasse eius per contrapositionem conversio, quae dicit, nullum non animal non homo est.
+     Aequale est enim ac si dicat, nulla res est quae non <milestone unit="page" n="Col. 808C"/> sit
+     animal et sit non homo, quod est omnis res quae animam non habet homo est, quod aperte falsum
+     est. Item si vera fuerit generalis negatio, falsa erit eius per contrapositionem conversio. Nam
+     si vera est quae dicit, nullus homo est lapis, falsa erit eius per contrapositionem conversio
+     quae dicit, nullus non lapis non homo est. Aequale est enim ac si dicat, nulla res est quae cum
+     non sit lapis non homo sit, quod est omnis res quaecunque lapis non fuerit homo est, quod
+     falsum est. Innumerabilia enim invenies, quae non sunt lapides, et non homines non sunt, ergo
+     quoniam si generalis negatio falsa fuerit, falsa est eius per contrapositionem conversio, vel
+     si eadem vera fuerit, falsa erit eius per contrapositionem conversio, non est dubium generalem
+     negationem sibi non posse <milestone unit="page" n="Col. 808D"/> converti, quod enim in aliquo
+     fallit, generaliter colligi non potest. Restat igitur ut id quod reliquum est monstremus,
+     particularem affirmationem per contrapositionem sibi non posse converti. Cum enim fuerit
+     particularis affirmatio vera, vera erit eius etiam per contrapositionem conversio. Nam si vera
+     est quae dicit, quidam homo animal est, vera est eius per contrapositionem conversio, quoddam
+     non animal non homo est. Aequale est enim ac si dicat quaedam res quae animam non habet homo
+     non est, quod verum est. Lapis enim animam non habet, et tamen homo non est. Item si
+     particularis affirmatio quae dicit, quidam lapis homo est, falsa est, vera erit eius per
+     contrapositionem conversio quae dicit, quidam <milestone unit="page" n="Col. 809A"/> non homo
+     non lapis est. Aequale est enim ac si diceret, quaedam res quae homo non fuerit lapis non est,
+     quod verum est. Equus enim homo non est, et tamen lapis non est. Ergo si cum in quibusdam
+     particularis affirmatio vera fuerit, vera erit eius per contrapositionem conversio, et si cum
+     in quibusdam falsa fuerit particularis affirmatio, vera erit eius per contrapositionem
+     conversio, non est dubium particulares affirmationes per contrapositionem sibi non posse
+     converti. Generalis enim negatio et particularis affirmatio, quae contraiacentes sunt, in per
+     contrapositionem conversionibus contraria patiuntur. Nam in generalibus negativis sive
+     generales negativae verae fuerint sive falsae, per contrapositionem conversiones semper falsae
+     sunt, in particularibus autem affirmativis, sive particularis affirmatio vera fuerit
+      sive<milestone unit="page" n="Col. 809B"/> falsa, eius per contrapositionem conversio vera
+     est. <milestone unit="page" n="Col. 810A"/> Repetendum est igitur a superioribus et
+     confirmandum quod in simplicibus terminorum conversionibus particularis affirmatio et generalis
+     negatio sibi converti possunt. Generales vero affirmatio et particularis negatio sibi converti
+     non possunt. In his vero conversionibus quae per contrapositionem fiunt, contra est; nam
+     generalis affirmatio et particularis negatio per contrapositionem sibi ipsis converti possunt,
+     generalis vero negatio, et particularis affirmatio per contrapositionem sibi ipsis converti non
+     possunt, et generalis negatio et particularis affirmatio quae sunt contraiacentes in veri
+     falsique distantia (ut demonstratum est), sibi ipsis invicem contraria patiuntur. Haec de
+     Categoricorum Syllogismorum categoricis propositionibus dicta sufficiant. Si qua vero in his
+      <milestone unit="page" n="Col. 810B"/> praetermissa sunt, in Perihermenias Aristotelis
+     commentario diligentius subtiliusque tractata sunt.</p>
+   </div>
+   <div type="lib" n="II">
+    <head>LIBER SECVNDVS.</head>
+    <p><milestone unit="page" n="Col. 809"/>Superioris series voluminis quod ad Categoricorum Syllogismorum propositiones attinebat
+      explicuit. Nunc autem, quantum introductionis patitur temperamentum, de ipsa Categoricorum
+      Syllogismorum ratione tractabitur; et quoniam omnium compositorum firmitudo vel vitium, aut in
+      his maxime reperitur ex quibus est compositum, aut penes bonam malamve compositionem eius laus
+      vituperatioque tenetur: namque domus si sit fortibus lapidibus debilibusve <milestone
+       unit="page" n="Col. 809C"/> constructa, ipsa quoque est fortis aut debilis; porro autem si
+      artificis compositionem aequabilem solertemque fuerit nacta, ipsa quoque constructio, merito
+      stabilitatis erit laudabile fundamentum; si vero insolertior compositio fiat, tota quoque
+      quamvis ex bonis ordinata lapidibus, nulla sese gerens fabrica stabilitate nutabit; nos quoque
+      hanc eamdem imaginem secuti, prius de his quibus ipse syllogismus constat, id est
+      propositionibus explicuimus. Nunc vero de ipsa inter se syllogismorum coniunctione
+      compositioneque tractabimus. Illud vero meminisse debebis, introducendis hic me praestitisse
+      docendis, non introductis. Et prius quid sit esse in omni vel non esse, paucis ostendam. Si
+      qua enim res alterius generis fuerit, omnem intra se speciem <milestone unit="page"
+       n="Col. 809D"/> continebit, et in toto species genere illa esse dicetur. Sit enim genus
+      animal, homo vero species. Homo ergo quoniam minus est quam animal, in toto animali esse
+      dicetur. Omnis enim homo animal est. Si quis ergo sic dicat aliquam rem de omni alia re
+      praedicari, conversa vice nihil interest. Nam sicut in toto animali homo est, sic etiam animal
+      de omni homine praedicatur. In toto vero non esse est, quoties alia res ab alia re omni
+      disiuncta est: ut si dicas, animal in nullo lapide est, nullum enim animal lapis est; et si
+      dicas, animal de nullo lapide praedicatur, de nullo enim lapide animal dicitur. Diffinimus
+      ergo in toto esse, vel in toto non esse sic: in toto esse, vel de omni praedicari dicitur,
+      quoties non potest <milestone unit="page" n="Col. 810B"/> inveniri aliquid subiecti ad quod
+      illud quod praedicatur dici non possit. Namque nihil hominis invenitur ad quod animal dici non
+      possit. In toto vero non esse, vel de nullo praedicari dicitur, quoties nihil subiecti poterit
+      inveniri ad quod illud quod praedicatur dici possit. Nihil enim lapidis inveniri potest de quo
+      possit animal praedicari. Illud sane notandum est, quod esse in toto versa vice dicitur. Nam
+      si aliquid de omni aliquo praedicatur, illud de quo illud <milestone unit="page" n="Col. 810C"
+      /> praedicatur in toto illo esse dicitur quod praedicatur, ut animal de omni homine dicitur.
+      Homo vero in toto est, id est velut quaedam pars intra totum animal latet. Et si quid in alio
+      omni fuerit, in eo toto res illa de qua superius dicebatur esse dicitur, ut idem animal cum in
+      omni sit homine, et de eo omni praedicetur, homo in toto est animali. His igitur ita positis,
+      quotiescunque ita dicimus, ut litteras pro terminis disponamus, pro brevitate hoc et compendio
+      facimus, id quod per litteras demonstrare volumus universaliter demonstramus. Nam fortasse in
+      terminis aliquibus falsum ingerendum necesse sit. In litteris vero nunquam fallimur, quoniam
+      ad hoc utimur litteris quasi terminos poneremus. In litteris vero ipsis, nisi terminorum
+      coniunctio per se firma <milestone unit="page" n="Col. 810D"/> valensque fuerit, ulla neque
+      veritas, neque falsitas reperietur. Quoties igitur aliud de alio omni praedicari volumus
+      ostendere, sic ponimus. Sit primus terminus A, secundus B, et praedicetur A de omni B. Hoc
+      autem ita accipito tanquam si posuerimus A animal, B hominem. Eodem modo et de negativis. Nam
+      si dicamus, A de nullo B praedicatur, tale est ac si dicamus, A, quod est animal, de nullo
+      lapide praedicatur, quod est B, et alia quaecunque eis fuerint consimilia. Omnis autem
+      syllogismus simplex tribus terminis demonstratur atque concluditur. Sed prius ipsorum
+      syllogismorum figuras aspiciamus, post vero de modis ordinibusque eorum tractabimus. Tribus
+      igitur terminis ita positis, ut prope se et sibi <milestone unit="page" n="Col. 811A"/>
+      connexi sint, tres non ultra fieri complexiones necesse est hoc modo: sit enim A, sit B, sit
+      C; aut enim A de B praedicabitur, et B de C, aut certe A et de B praedicabitur et de C, vel
+      iisdem ipsis A et B C terminus videbitur esse subiectus. Sit enim A bonum, sit B iustum, sit C
+      virtus, aut enim A, id est bonum erit in omni B, id est iusto, et dicetur, omne iustum bonum
+      est, et item B iustum in omni C, id est virtute, et dicetur, omnis virtus iusta est. Et erunt
+      huiusmodi propositiones: omne iustum bonum est, et omnis virtus iusta est, aut A, id est
+      bonum, de B, quod iustum est, et de C, quod virtus est, praedicabitur, ut sit omne iustum
+      bonum est, omnis virtus bona est, aut certe A bonum, B iusto, et C virtuti subiacebit, ut
+      dicatur, omne bonum iustum est, et <milestone unit="page" n="Col. 811B"/> omne bonum virtus
+      est. In hac enim complexione B et C de solo A termino praedicantur. Vbi vero A de omni B
+      termino, et B item praedicatur de omni C. Hanc figuram voco primam quae diffinitur sic: Prima
+      figura est in qua is qui subiectus est de alio praedicatur. Namque B, quod A termino subiectum
+      est, ad C item terminum praedicatur. Extremitates vero dico huius figurae quod praedicatur et
+      quod subiectum est, id est A C. Namque A praedicatur de B termino, C vero terminus B termino
+      subiacet. Medium autem illud voco quod alii subiacet, et de alio praedicatur, id est B. Nam B
+      terminus A termino subiacet, de C vero termino praedicatur. Maior vero extremitas est, quae
+      prima praedicatur, id est A. Namque idem A de B termino praedicatur. Minor vero quae medio
+      termino <milestone unit="page" n="Col. 811C"/> subiicitur, id est C, namque C terminus medio
+      termino, id est B, subiectus est; de eo enim B medius terminus dicitur. Maior vero terminus A
+      vocatus est, id est qui praedicatur, quoniam omne praedicatum ab eo de quo praedicatur maius
+      est. Et in conclusione, sicut in prima propositione, semper A terminus praedicatur, A enim
+      bonum praedicatur de B iusto, et dicitur, omne iustum bonum est, B vero medius terminus
+      praedicatur de C, et dicitur, omnis virtus iusta est. Ex his igitur concluditur in syllogismo,
+      omnis virtus bonum est, et A bonum nominabitur de C virtute, atque ideo maior A nobis
+      extremitas appellatur. Id vero meminisse debemus, quod ea quae paria sunt retorqueri possunt,
+      et ad se invicem praedicari, et sicut id quod praedicatur in eo quod subiectum est, omni est,
+      ita rursus conversum quod fuerit subiectum, in eo quod antea praedicabatur omni erit. Nam si F
+      et G duo termini ita sibi sint aequales, ut neuter neutro maior sit, cum praedicaveris F de
+      omni G, erit F terminus in omni G termino. Si vero convertas et praedices G terminum de F
+      termino, erit iterum G terminus in omni F termino. Sit enim F risibile, G homo. Ergo si
+      praedices F risibile, et G hominem subiicias, F risibile in omni G invenitur. Omnis enim homo
+      risibilis est. Si vero praedices G hominem ad F risibile, G homo in omni F risibile reperitur.
+      Omne enim risibile homo est. Quid autem termini sint, vel quid praedicatio, aut subiectio,
+      priori de propositionibus libro satis dictum est. Sed ne forte erremus <milestone unit="page"
+       n="Col. 812A"/> quod videtur universalis affirmatio conversa. Nam de hoc quoque superius
+      dictum est. Modo vero hoc solum monstrare volumus, quod quae sunt in toto paria sola
+      convertantur. Hoc tamen prodest ad ostensionem syllogismorum quae fit in circulo, quam in
+      Analyticis diximus. Ac de prima Syllogismorum Categoricorum figura expeditum est. Secunda vero
+      figura est quoties A terminus de utrisque B et C terminis praedicatur hoc modo: Si enim dicas
+      A bonum de omni B iusto, ut sit hoc modo propositio, omne iustum bonum est, et inde A bonum de
+      omni C virtute, ut dicas, omnis virtus bonum est, solum A de utrisque B et C terminis
+      praedicasti, et erit haec secunda figura. Medius autem terminus in hac figura erit qui de
+      utrisque praedicatur, id est A. Extremitates <milestone unit="page" n="Col. 812B"/> vero ea
+      quae subiecta sunt, id est B et C. Maior vero extremitas est de qua primo A terminus
+      appellatur, id est B iustum; vel si ad C primo praedicabitur, C terminus maior extremitas
+      invenitur. Idcirco quod ea extremitas de qua medius terminus primo praedicatur, in conclusione
+      ipsa quoque praedicabitur, ut posterius demonstrandum est. Minor vero extremitas erit, ad quod
+      medius terminus posterius praedicabitur. Tertia vero figura est, quoties A et B termini de uno
+      C praedicantur. Si quis enim praedicet A, id est bonum, de C, id est virtute, ut sit huiusmodi
+      propositio, omnis virtus bonum est; item B praedicetur de C, ut sit, omnis virtus iustum est,
+      tertiam figuram facit. In hac vero figura medius terminus erit qui utrisque subiectus est, id
+      est C. Namque <milestone unit="page" n="Col. 812C"/> de C termino A et B termini praedicantur.
+      Maior vero extremitas est quae primo praedicatur, id est A; minor vero quae postea, id est B;
+      vel si quem libuerit B prius, A posterius praedicare secundum priorem posterioremque
+      praedicationem, maior minorve extremitas invenietur, et hic quoque maior extremitas in
+      conclusionibus, sicut in superioribus aliis figuris, de minore praedicatur. Expeditis igitur
+      tribus syllogismorum figuris, dicendum est quia perfectus syllogismus est cui ad integram
+      probatamque conclusionem ex superius sumptis et propositis nihil deest. Sed modo atque ordine
+      facta conclusio nihil dehabens, per ea quae antea proposuit terminatur. Imperfectus vero
+      syllogismus est cui nihil aeque ad perfectionem deest, verumtamen in his quae in
+       propositionibus<milestone unit="page" n="Col. 812D"/> sumpta sunt aliqua desunt, cur ita esse
+      videtur. Sed et hae diffinitiones omnes posterius liquebunt. Nunc autem unde hae figurae
+      nascantur breviter explicandum est. Quoniam unde nascuntur, in eadem iterum resolvuntur. Sed
+      secunda et tertia figura de prima figura nasci et procreari videntur. Sit enim A terminus in
+      omni B termino, et de omni eo praedicetur, B vero terminus de omni C termino praedicatur.
+      Haec, ut dictum est, prima syllogismorum figura est. Si quis igitur maiorem extremitatem
+      propositionemque convertat, et quod fuerat antea praedicatum faciat esse subiectum, secundam
+      faciet figuram. Nam quemadmodum A terminus praedicatur de B termino, ita B de C. Si ergo
+      convertatur, et fiat <milestone unit="page" n="Col. 813A"/> ut B terminus de A termino
+      praedicetur, invenitur B terminus qui antea medius fuerat, et A termino subiectus, de C vero
+      termino praedicatur ad utrosque terminos praedicativus. Age enim quoniam A bonum de B iusto
+      praedicabatur, B vero iustum de C virtute praedicabatur, erat propositio: omne iustum bonum
+      est, omnis virtus iusta est, manente propositione quae est, omnis virtus iusta est, prima
+      propositio, id est omne iustum bonum est, contravertatur, et fiat, omne bonum iustum est.
+      Inveniuntur igitur propositiones sic, omne bonum iustum est, omnis virtus iusta est, et
+      iustum, id est B de A et C terminis praedicabitur. Conversa igitur maiore prioris figurae
+      extremitate, secunda syllogismorum figura procreatur. Tertia vero figura nascitur, minori
+      propositione conversa. <milestone unit="page" n="Col. 813B"/> Nam si A bonum praedicatur de B
+      iusto, ut dicatur, omne iustum bonum est, B vero iustum praedicatur de C virtute, ut dicatur,
+      omnis virtus iusta est, si, priore propositione manente, id est, omne iustum bonum est,
+      secunda quae est, omnis virtus iusta est, convertatur, et fiat, omne iustum virtus est,
+      invenietur omnes propositiones sic: omne iustum bonum est, omne iustum virtus est, et de B
+      iusto A et C termini praedicantur, et fit tertiae figurae connexio. Conversis igitur primis
+      posterisque extremitatibus primae figurae, tertia vel secunda figura nascuntur. At vero
+      unaquaeque harum trium figurarum habet sub se plures syllogismorum modos, ut modi sub figuris
+      ita sint ut sunt species sub suis generibus. Habet enim prima figura sub se, Aristotele
+       <milestone unit="page" n="Col. 813C"/> auctore, modos quatuor; sed Theophrastus vel Eudemus
+      super hos quatuor quinque alios modos addunt, Aristotele dante principium in secundo priorum
+      Analyticorum volumine, quod melius postmodum explicabitur. Secunda vero figura habet sub se
+      quatuor modos; tertia vero, auctore Aristotele, sex; addunt etiam alii unum, sicut ipse
+      Porphyrius, superiores scilicet sequens. Et quoniam (ut superiore libro dictum est) aliae
+      propositiones affirmativae sunt, aliae negativae, et earum aliae universales, aliae vero
+      particulares, secundum eas ipsas, propositiones syllogismorum conclusionesque iunguntur.
+      Namque primae figurae primus modus est qui fit ex duabus universalibus affirmativis,
+      universalem colligens affirmativam. Si enim A terminus fuerit in omni B termino, <milestone
+       unit="page" n="Col. 813D"/> et si B terminus de omni C termino fuerit praedicatus, A terminus
+      de omni C termino praedicabitur. Namque A bonum si praedicetur de omni B iusto, ut sit, omne
+      iustum bonum est, B vero iustum, si de C praedicetur virtute, ut sit, omnis virtus iustum est,
+      necessario concluditur extremitatibus ad se invicem praedicatis, id est A et C, ut sit omnis
+      virtus bonum est. Sunt igitur huiusmodi propositiones atque conclusio? Si A in omni B fuerit,
+      et B in omni C fuerit, A terminus de omni C praedicabitur, id est, omne iustum bonum est,
+      omnis virtus iusta est; et conclusio, omnis igitur virtus bonum est, et hic primae figurae
+      primus modus est. Secundus vero modus primae figurae est, quoties ex prima universali negativa
+      et <milestone unit="page" n="Col. 814A"/> secunda universali affirmativa conclusio universali
+      negatione colligitur. Si enim sit A malum, B bonum, C iustum, A terminus de nullo B termino
+      praedicabitur. Nullum enim bonum malum est, B vero terminus de omni C termino praedicabitur;
+      omne enim iustum bonum est. Quare colligitur, nullum iustum malum est, ut est hoc modo: Si A
+      terminus de nullo B termino praedicatur, B vero terminus de omni C fuerit praedicatus, A
+      terminus de nullo C praedicabitur, ut est, nullum bonum malum est, omne iustum bonum est;
+      nullum igitur iustum malum est. Tertius vero modus primae figurae est, quoties ex universali
+      affirmativa, et particulari affirmativa, particularis affirmativa colligitur. Nam si A virtus
+      de omni B, id est bono, praedicetur, et B bonum de quodam C, id <milestone unit="page"
+       n="Col. 814B"/> est iusto, fuerit praedicatum particulariter, erit quoque conclusio
+      particularis, hoc modo, ut A virtus de quodam C iusto particulariter praedicetur. Si igitur
+      fuerit A terminus in omni B, et B terminus in aliquo C particulariter, erit A terminus in
+      aliquo C particulariter, ut sit:<lb/> Omne bonum virtus est.<lb/> Quoddam iustum bonum
+      est.<lb/> Quoddam igitur iustum virtus est.</p>
+     <p>Quartus modus primae figurae est talis, quoties ex universali negatione et particulari
+      affirmatione particularis negativa colligitur. Nam si A terminus de nullo B termino
+      praedicetur, B vero terminus de quodam C termino praedicetur, A terminus de quodam C termino
+      non praedicabitur, quod monstrat <milestone unit="page" n="Col. 814C"/> subiecta descriptio.
+      Nam sunt huiusmodi propositiones:<lb/> Nullum bonum malum est.<lb/> Quoddam iustum bonum
+      est.<lb/> Quoddam igitur iustum malum non est.</p>
+     <p>Hos ergo quatuor in prima figura modos in Analyticis suis Aristoteles posuit. Caeteros vero
+      quinque modos Theophrastus et Eudemus addiderunt, quibus Porphyrius, gravissimae vir
+      auctoritatis, visus est consensis e, qui sunt huiusmodi. Nam quoniam particularis affirmativa
+      sibi ipsi convertitur, quisquis ostenderit in conclusione A terminum de quodam C termino
+      particulariter praedicari, in eadem ipsa conclusione monstravit quod C terminus de A termino
+      rursus particulariter praedicetur. Nam si sibi particularis <milestone unit="page"
+       n="Col. 814D"/> propositio in conclusione convertitur, si A terminus in quodam C termino
+      fuerit, C terminus de quodam A termino praedicabitur. Item quisquis universalem negativam in
+      conclusione probaverit, necesse est eum ipsius quoque conversionem in eadem conclusione
+      probasse. Vniversalis enim negatio semper sibi convertitur. Nam si quis probavit quod A
+      terminus de nullo C termino praedicetur, non est dubium quin in hac conclusione illud quoque
+      probatum sit, quod C terminus de nullo A termino praedicetur. Semper enim, ut dictum est,
+      universalis negativa sibi ipsi convertitur. Vniversalis quoque affirmativa duplici conclusione
+      continetur; nam quisquis ostendit A terminum de omni C termino praedicari, <milestone
+       unit="page" n="Col. 815A"/> illud quoque ostendit quod C terminus de quodam A termino
+      particulariter praedicetur. Si quis enim probaverit animal de omni homine praedicari, ita
+      dicens, omnis homo animal est, illud quoque necessario monstravit particulariter, quoniam
+      quoddam animal homo est. Ita semper universalis negatio, et universalis affirmatio, vel
+      particularis affirmativa dupliciter concluduntur. Aliae enim sibi ipsis convertuntur, quae
+      particularis est particulariter, quae universalis universaliter. Alia vero, cum ipsa
+      universalis affirmativa sit, particulariter sibi ipsi convertitur. Particularis autem negatio
+      nunquam sibi ipsi convertitur, atque ideo simplicem in se retinet conclusionem. Hoc autem quod
+      nuper diximus, in secundo priorum Analyticorum libro ab Aristotele monstratur, <milestone
+       unit="page" n="Col. 815B"/> quod scilicet Theophrastus et Eudemus principium capientes ad
+      alios in prima figura syllogismos adiiciendos animum adiecere, qui sunt huiusmodi qui <foreign
+       xml:lang="grc">κατὰ ἀνάκλασις</foreign> vocantur, id est per refractionem quamdam
+      conversionemque propositionis. Et est quintus modus ex duabus universalibus affirmationibus,
+      particularem colligens affirmativam hoc modo: Si A fuerit in omni B, et B fuerit in omni C,
+      posset equidem concludi quod A terminus esset in omni C termino. Sed quoniam ista universalis
+      propositio, ut dictum est, particulariter convertitur, praetermisso eo quod A terminus de omni
+      C termino praedicatur, conclusio esse dicitur quod C terminus de quodam A termino praedicatur,
+      quod hoc exemplo monstrandum est. Si enim sint propositiones sic, omne iustum <milestone
+       unit="page" n="Col. 815C"/> bonum est, omnis virtus iusta est, posset concludi equidem
+      quoniam omnis virtus bonum est. Sed quoniam ita propositio sibi convertitur, ut sit, quoddam
+      bonum virtus est particulariter, particularis syllogismus conclusioque colligitur ex duabus
+      universalibus affirmativis. Eius vero forma talis est, A terminus in omni B, B terminus in
+      omni C, igitur C terminus in quodam A, ut est:<lb/> Omne iustum bonum est.<lb/> Omnis virtus
+      iusta est.<lb/> Quoddam bonum iustus est.</p>
+     <p>Per conversionem refractionemque dicitur, quoniam quod universaliter colligebatur conversum,
+      particulariter collectum est. Sextus modus est primae figurae qui fit ex universali negativa
+      et universali affirmativa <milestone unit="page" n="Col. 815D"/> universalem conclusionem per
+      conversionem colligens. Nam si A terminus in nullo B fuerit, B vero terminus in omni C termino
+      fuerit, posset equidem colligi quoniam A terminus in nullo C termino est; sed quoniam
+      universalis negativa convertitur, dicimus quoniam C terminus in nullo A termino est, ut sit
+      hoc modo:<lb/> Nullum bonum malum est,<lb/> Omne iustum bonum est, posset colligi:<lb/> Nullum
+      iustum malum est; sed ex his per conversionem colligimus:<lb/> Nullum malum iustum est.</p>
+     <p>Septimus modus primae figurae est, qui ex universali affirmativa et particulari affirmativa
+      per conversionem <milestone unit="page" n="Col. 816A"/> particularem colligit affirmativam. Si
+      enim fuerit A terminus in omni B, et B terminus de quodam C termino praedicetur, potest A
+      terminus de quodam C termino praedicari. Sed quoniam particularis affirmatio sibi ipsi
+      convertitur, per conversionem fit conclusio, et dicitur C terminus de quodam A termino
+      praedicari, ut sit sic: omne bonum virtus est, quoddam iustum bonum est. Posset equidem
+      concludi, quoniam quoddam iustum virtus est, sed quia particularis affirmatio convertitur,
+      dicimus quoniam quaedam virtus iusta est. Octavus modus primae figurae est, quoties ex
+      universali affirmatione et universali negatione particulariter colligitur. Si enim A terminus
+      de omni B termino praedicatus fuerit, B vero terminus de nullo C termino praedicetur, non
+      posset <milestone unit="page" n="Col. 816B"/> colligi quoniam A terminus de nullo C termino
+      praedicatur. Cur autem non possit, in resolutoriis dictum est. Sed quoniam universalis
+      negativa sibi ipsa convertitur, potest dici et converti, quoniam C terminus de nullo B termino
+      praedicatur, B vero terminus de quodam A termino dicitur, quoniam universalis affirmativa
+      particulariter sibi ipsa convertitur; quare C terminus de quodam A termino non praedicabitur,
+      ut sit sic: omne bonum iustum est, nullum malum bonum est, non posset colligi, quoniam nullum
+      malum iustum est, sed convertitur sic:<lb/> Nullum bonum malum est.<lb/> Quoddam iustum bonum
+      est.<lb/> Quoddam igitur iustum malum non est.</p>
+     <p>Nonus modus primae figurae est, qui ex particulari <milestone unit="page" n="Col. 816C"/>
+      affirmativa et universali negativa particularem colligit negativam per conversionem. Si enim A
+      terminus de quodam B termino, B vero terminus de nullo C termino praedicetur, non potest
+      quidem dici quoniam A terminus de quodam C termino non praedicabitur. Cur autem non possit,
+      hoc quoque in resolutoriis diximus; sed quoniam universalis negatio converti potest, dicetur
+      quoniam C terminus de nullo B termino praedicatur, et B terminus de quodam A praedicatur; C
+      igitur terminus de quodam A non praedicabitur ut sit sic:<lb/> Quoddam bonum iustum est.<lb/>
+      Nullum malum bonum est.<lb/> Quoddam igitur iustum malum non est.</p>
+     <p>Expeditis, igitur novem primae figurae modis ad secundae <milestone unit="page"
+       n="Col. 816D"/> figurae quatuor modos veniamus. Illud tantum constet, quod quemadmodum in
+      prima figura per novem supradictos modos et affirmatio universalis, et negatio universalis, et
+      affirmatio particularis, et negatio particularis, in conclusione colligitur, in secunda figura
+      affirmativam neque generalem neque particularem posse colligi, sed tantum vel particulariter,
+      vel universaliter solas colligi negativas. Est autem secundae figurae primus modus hic,
+      quoties ex universali negatione, et universali affirmatione, universalis negativa colligitur.
+      Si enim A terminus de nullo B termino et de omni C termino praedicetur, B terminus de nullo C
+      termino praedicabitur. Sit enim A bonum, sit B malum, C iustum. Si quis igitur sic dicat:<lb/>
+      <milestone unit="page" n="Col. 817A"/> Nullum malum bonum est.<lb/> Omne iustum bonum est,
+      concludit:<lb/> Nullum iustum malum est.</p>
+     <p>Liquet igitur maiorem extremitatem de minore in conclusione praedicari. Sed omnes secundae
+      figurae syllogismi quamvis veri sint, verum tamen ex seipsis non probatur, sed ex primae
+      figurae modis implentur. Namque si A terminus de nullo B termino praedicetur, et in omni C
+      termino sit, nondum probatum est quoniam omnino B terminus de nullo C termino praedicetur. Sed
+      si quis ex isto secundae figurae primo modo primae figurae secundum modum faciat, per
+      conversionem totus syllogismus conclusioque probata est. Si quis enim in hoc syllogismo qui
+      est A terminus in nullo B, et idem A terminus de omni C praedicetur, <milestone unit="page"
+       n="Col. 817B"/> et A B propositionem convertat, ut faciat esse B A, nam omnis universalis
+      negativa convertitur; si quis igitur dicat quoniam A terminus de nullo B termino praedicatur,
+      et B igitur de nullo A termino praedicabitur, sed A terminus de omni C termino praedicabitur.
+      Fit igitur primae figurae secundus modus ex universali negativa et universali affirmativa
+      universalem colligens negativam, ut sit conclusio. De nullo igitur C termino B praedicabitur.
+      His igitur conversionibus omnis secundae et tertiae figurae syllogismus conclusioque
+      colligitur et probatur. Atque ideo quoniam ex seipsis non sunt probati nisi ex superioribus
+      comprobentur, id est, primae figurae modis, quicunque in secunda vel tertia figura inventus
+      fuerit, imperfectus vocatur syllogismus. Secundus <milestone unit="page" n="Col. 817C"/> vero
+      modus secundae figurae est quoties ex universali affirmativa et universali negativa commutatis
+      ordinibus universalibus rursus negativa concluditur. Si enim A terminus in omni B termino
+      fuerit, et de nullo C termino praedicetur, B terminus de nullo C termino praedicabitur. Sit
+      enim A bonum, B iustum, C malum. Si quis igitur sic dicat:<lb/> Omne iustum bonum est,<lb/>
+      Nullum malum bonum est,<lb/> concludit: Nullum igitur malum iustum est.</p>
+     <p>Sed haec complexio coniunctioque propositionum duplicem conversionem habet. Ostenditur enim
+      de secundo primae figurae modo sic. Nam si A terminus in omni B termino est, et de nullo C
+      termino praedicatur, hic universalis negativa convertitur. Erit igitur <milestone unit="page"
+       n="Col. 817D"/> ut C terminus de nullo A termino praedicetur. Quod si ita est, erit huiusmodi
+      syllogismus: C terminus de nullo A termino praedicatur, A terminus in omni B termino est, C
+      igitur terminus de nullo B termino praedicabitur. Ecce una conversio facta est propositionis
+      negativae. Sed quoniam diximus concludi non C in nullo B, sed B in nullo C termino, hic
+      universalis conclusio negativa convertitur: et sicut conclusum est C terminum de nullo B
+      termino praedicari, ita concluditur de nullo C termino B terminum praedicari. Tertius modus
+      secundae figurae est, quoties ex universali negativa et particulari affirmativa particularis
+      negativa colligitur. Si enim A terminus de nullo B termino praedicetur, et in quodam C
+       <milestone unit="page" n="Col. 818A"/> termino fuerit, B terminus de quodam C termino non
+      praedicabitur. Sit enim A bonum, B malum, C iustum. Si quis igitur sic dicat:<lb/> Nullum
+      malum bonum est.<lb/> Quoddam iustum bonum est, concludat necesse est:<lb/> Quoddam iustum
+      malum non est.</p>
+     <p>Hic quoque syllogismus per conversionem hoc modo probatur. Nam si A terminus de nullo B
+      termino praedicatur, et B terminus de nullo A termino praedicabitur. Sed A terminus de
+       <milestone unit="page" n="Col. 818B"/> quodam C termino praedicatur. Redit igitur primae
+      figurae modus quartus, qui est ex universali negatione et particulari affirmatione,
+      particularem scilicet colligens negativam, ut in hoc quoque syllogismo. Nam hic quoque
+      particularem negativam colligit, id est B terminum de quodam C termino non praedicari. Quartus
+      modus secundae figurae est, qui ex universali affirmatione et particulari negatione
+      particularem colligit negativam. Nam si A terminus in omni B termino sit, et de quodam C
+      termino non praedicetur, B terminus de quodam C termino non praedicabitur. Sit enim A bonum, B
+      iustum, C malum. Si quis igitur dicat:<lb/> Omne iustum bonum est.<lb/> Quoddam malum bonum
+      non est, concludit:<lb/> Quoddam igitur malum iustum non est.</p>
+     <p>Haec vero complexio atque ordo propositionum per conversionem non potest approbari.
+      Generalis enim affirmativa sibi ipsi converti non potest. Monstratur igitur iste syllogismus
+      ex prima figura non per conversionem, sed per impossibilitatem, quoniam si <milestone
+       unit="page" n="Col. 818C"/> particularis conclusio negativa in hoc syllogismo non
+      concluditur, aliquod inconveniens impossibileque contingit. Sed haec impossibilitas per primam
+      figuram demonstrabitur. Dico enim quoniam si A terminus de omni B termino praedicetur, et in
+      aliquo C termino non sit, talem colligi conclusionem, ut B terminus de aliquo C termino non
+      praedicetur. Nam si hoc falsum est, huic contraiacens propositio vera erit. Particularibus
+      autem negativis universales affirmativae contraiacentes sunt, ut in superiore libro docuimus.
+      Si igitur hic particularis negatio non est conclusio, erit generalis affirmatio. Sit enim
+      affirmatio generalis, et B terminus de omni C termino praedicetur; sed A terminus de omni B
+      termino praedicatur, B vero terminus de omni C termino praedicari <milestone unit="page"
+       n="Col. 818D"/> dicitur; A igitur terminus de omni C termino praedicatur, quod fieri non
+      potest. Ita enim A C propositionem posuimus prius, ut diceremus A terminum de quodam C termino
+      non praedicari. Hoc igitur ostensum est per primum modum primae figurae. Quare in secunda
+      figura omnis syllogismus imperfectus est, et eius probatio aut per conversionem in primam
+      figuram reducitur, aut ex hypothetica dispositione per impossibilitatem, et primam figuram
+      aliter fieri non posse monstratur, et alii quidem omnes per impossibile probantur, quod paulo
+      post demonstrabitur. Restat ut tertiae figurae modos atque ordines explicemus. Sed antea quam
+      id faciamus, illud prius videndum est, quod in tertiae figurae modis <milestone unit="page"
+       n="Col. 819A"/> nunquam conclusio colligitur universalis. Sed si vel negativae vel
+      affirmativae fuerint collectiones, particulares semper erunt, nunquam etiam generales. Est
+      autem tertiae figurae primus modus hic, qui ex duabus universalibus affirmationibus
+      particularem colligit affirmationem. Nam si A et B termini de omni C termino praedicentur, A
+      terminus de quodam B termino praedicabitur per conversionem. Nam si B terminus de omni C
+      termino praedicatur, et universalis affirmatio particulariter sibi convertitur, C terminus de
+      quodam B termino praedicatur. Quod si ita est, fit tertius primae figurae modus, qui est ex
+      universali et particulari affirmativa, et colligit A terminum de quodam B termino praedicari.
+      Sit enim A iustum, B virtus, C bonum. Si quis enim sic dicat:<lb/>
+      <milestone unit="page" n="Col. 819B"/> Omne bonum iustum est.<lb/> Omne bonum virtus est, fit
+      conclusio:<lb/> Quaedam virtus iusta est.</p>
+     <p>Mutant alii terminos, et volunt facere secundum modum, ut sit A virtus, B iustum, C bonum,
+      ut sit talis syllogismus:<lb/> Omne bonum virtus est,<lb/> Omne bonum iustum est, et
+      concludatur:<lb/> Quoddam iustum virtus est.</p>
+     <p>Sed hunc Aristoteles a superiore non dividit, et hos duos unum modum putat, et idcirco nos
+      septem tertiae figurae esse diximus modos dubitantes; sed magis Aristoteles sequendus est,
+      atque ideo alium modum dicamus esse qui possit integre videri secundus. Secundus vero modus
+      tertiae figurae est, quoties <milestone unit="page" n="Col. 819C"/> ex universali negatione et
+      universali affirmatione negatio colligitur particularis. Si enim A terminus de nullo C
+      termino, B terminus vero de omni C termino praedicetur, A terminus de quodam B termino non
+      praedicabitur. Nam si A terminus de nullo C termino praedicatur, B vero de omni C, et C
+      terminus de quodam B termino praedicabitur. Particulariter enim sibi universalis affirmativa
+      convertitur. Concluditur igitur in quarto primae figurae modo, A terminum de quodam B termino
+      non praedicari. Sit enim A malum B iustum, C bonum. Si quis sic dicat:<lb/> Nullum bonum malum
+      est,<lb/> Omne bonum iustum est, concludat necesse est:<lb/> Quoddam igitur iustum malum non
+      est.</p>
+     <p>Ex quo considerandum est maiorem extremitatem <milestone unit="page" n="Col. 819D"/> in
+      conclusione praedicari. Tertius modus tertiae figurae est, quoties ex particulari et
+      universali affirmativa particularis affirmatio concluditur. Si enim A terminus de quodam C, et
+      B terminus de omni C termino praedicetur, concluditur A terminum de quodam B termino
+      praedicari per duplicem conversionem. Quoniam enim B terminus de omni C termino praedicatur,
+      et A terminus de quodam C termino praedicatur, et particularis affirmativa semper sibi ipsi
+      convertitur, C terminus de quodam A termino praedicabitur. Sunt igitur propositiones sic: B
+      terminus de omni C termino, C vero terminus de quodam A termino praedicatur; quod si ita est,
+      colligitur in primae figurae modo tertio B terminum de quodam A <milestone unit="page"
+       n="Col. 820A"/> termino praedicari. Atque ita particularis affirmativa convertitur, et A
+      terminus de quodam B termino praedicabitur, eruntque duplices conversiones, una propositionis,
+      alia conclusionis. Sit enim A iustum, B virtus, C bonum. Si quis igitur sic dicat:<lb/>
+      Quoddam bonum iustum est.<lb/> Omne bonum virtus est, concludat necesse est:<lb/> Quaedam
+      virtus iusta est.</p>
+     <p>Quartus modus tertiae figurae est quoties universali affirmatione et particulari
+      affirmatione affirmatio particularis colligitur. Nam si A terminus de omni C termino
+      praedicetur, B vero terminus in quodam C termino sit, concluditur A terminum de quodam B
+      termino praedicari per conversionem. Si enim B terminus de quodam C termino praedicetur, et C
+       terminus<milestone unit="page" n="Col. 820B"/> de quodam B termino praedicatur, quoniam
+      particularis affirmativa sibi ipsi convertitur, et fit syllogismus in primae figurae tertio
+      modo, qui fit ex universali affirmativa et particulari affirmativa, particularem colligens
+      affirmativam, ut sit syllogismus hoc modo: A terminus in omni C, et C terminus in quodam B.
+      Igitur B terminus in quodam B. Sit A virtus, B iustum, C bonum. Si quis igitur sic dicat:<lb/>
+      Omne bonum virtus est,<lb/> Quoddam bonum iustum est, concludet quoniam:<lb/> Quoddam iustum
+      virtus est.</p>
+     <p>Quintus modus tertiae figurae est quoties ex particulari negatione et universali
+      affirmatione particularis colligitur negativa. Sed hic modus per conversionem probari non
+      potest, sed per impossibilitatem, sicut <milestone unit="page" n="Col. 820C"/> quartus
+      secundae figurae probatus est modus. Si enim A terminus de quodam C termino non praedicetur, B
+      vero terminus de omni C termino praedicetur, A terminus de quodam B termino non praedicabitur;
+      nam si non ita est, erit illud verum, A terminum de omni B termino praedicari; sed B terminus
+      de omni C termino praedicatur, A igitur terminus de omni C termino praedicabitur, quod fieri
+      non potest. Prius enim ita positus est A terminus, ut de quodam C termino non praedicaretur.
+      Quod si generalis affirmatio in conclusione syllogismi non est, ut sit A terminus in omni B
+      termino, erit huic contraiacens particularis negatio, ut A terminus de quodam B termino non
+      praedicetur. Sit enim A, malum, B iustum, C bonum. Si quis igitur sic dicat:<lb/>
+      <milestone unit="page" n="Col. 820D"/> Quoddam bonum malum non est,<lb/> Omne bonum iustum
+      est, concludat necesse est:<lb/> Quoddam igitur iustum malum non est.</p>
+     <p>Sextus modus tertiae figurae est quoties ex universali negativa et particulari affirmativa
+      particularis negatio colligitur per conversionem. Nam si A terminus in nullo C termino sit, B
+      vero terminus de quodam C termino praedicetur, fit conclusio A terminum de quodam B termino
+      non praedicari. Nam si A terminus de nullo C termino praedicatur, B vero terminus de quodam C
+      termino praedicatur, et C terminus <milestone unit="page" n="Col. 821A"/> de quodam B termino
+      praedicabitur, quoniam particularis affirmativa potest converti. Fit igitur talis syllogismus,
+      ut A terminus de nullo C termino praedicetur, C terminus de quodam B termino praedicetur, et A
+      terminus de quodam B termino non praedicetur. Sit A malum, B iustum, C bonum. Si quis igitur
+      dicat:<lb/> Nullum bonum malum est,<lb/> Quoddam bonum iustum est, concludit:<lb/> Quoddam
+      iustum malum non est.</p>
+     <p>His igitur expeditis, quid ipse syllogismus sit diffiniendum est. Diffinitur autem sic:
+      syllogismus est oratio in qua positis quibusdam atque concessis, aliud quiddam quam sint ea
+      quae posita et concessa sunt, necessario contingit per ipsa quae concessa sunt. Orationem
+      diximus esse syllogismum idcirco quoniam omnis diffinitio a generali trahitur, genus autem
+      syllogismi est oratio. Quod autem dictum, in qua positis quibusdam et concessis, ita
+      intelligendum est, <milestone unit="page" n="Col. 821B"/> quasi sic dictum esset, secundum
+      quam positis et concessis; ut enim syllogismus fiat, ante aliquid a proponente dicitur, quod
+      audiens concedat; quod si ille concesserit, concludit et perficit syllogismum, idcirco, quia
+      dubiae res per quaedam concessa et probata monstrantur, conceditur autem aequaliter et
+      affirmatio et negatio vora. Caetera vero in syllogismi diffinitione talia sunt quae non
+      integre dispositos syllogismos a syllogismorum diffinitione verorum discernant. Nam quod
+      dictum est, in qua positis quibusdam, sumptorum scilicet et propositionum multitudo
+      monstratur. Sunt enim qui putantur esse huiusmodi syllogismi, in quibus tantum una propositio
+      est et una conclusio. Qualis est hic, vides, vivis igitur; homo es, animal igitur es, et alia
+      huiusmodi, quos scilicet veteres in syllogismis <milestone unit="page" n="Col. 821C"/> non
+      acceperunt, syllogismus enim est aliquorum collectio. At vero collectio non nisi plurimorum
+      est, et quicunque unam posuit propositionem, ille non colligit. Nullum igitur faciet
+      syllogismum. Debet enim syllogismus, ut angustissimus sit, duabus propositionibus comprobari.
+      Quod autem dictum est, aliud quiddam necessario evenire quam sint ipsa quae concessa
+       <milestone unit="page" n="Col. 822A"/> sunt, quoniam frequenter tales ab aliquibus fiunt
+      syllogismi, ut ea quae proposuerunt, ipsa etiam in conclusione concludant, ut est hic; Si homo
+      es, homo es; homo autem es, homo igitur es. Idem enim conclusit quod ante proposuit. Atque
+      ideo, ad istorum discretionem, aliud quiddam contingere debere dictum est quam sint ea quae
+      concessa sunt, ut in superioribus omnibus syllogismis quos in trium figurarum modis et
+      demonstratione posuimus. Tales vero syllogismi quales nunc dicti sunt perridiculi sunt, quod
+      id quod ante concessum est quasi dubium quiddam in conclusione colligitur. Nam quod positum
+      est, necessario contingere, ad hoc pertinet, quoniam frequenter ad inductionem verae quaedam
+      propositiones sunt quarum conclusio nullo modo vera est, ut si quis sic dicat: Qui musicam
+      novit musicus est, et concedatur; et qui arithmeticam arithmeticus est, et qui medicinam
+      medicus est, et qui bonum bonus est. Cum igitur haec omnia concessa sunt, dicat, et qui malum,
+      malus est, quod quasi superioribus simile videtur, sed omni modo falsum est: boni enim homines
+      non aliter cavent, nisi <milestone unit="page" n="Col. 822B"/> mala noverint. Atque ideo
+      propter eas conclusiones quae sunt per eas propositiones quae per inductionem dicuntur,
+      additum est conclusiones in syllogismis necessarias contingere, id est ex necessitate
+      contingere. Est etiam alia expositio, sed in Analyticis nostris iam dicta est. Illud vero quod
+      dictum est, per ipsa quae posita sunt, hoc propter eos dictum est qui tales faciunt
+      syllogismos, in quibus aut minus aliquid, aut plus, aut aliud propositum est quam proponi
+      debuerat. Fiunt enim huiusmodi syllogismi. Si quis enim ita dicat: Socrates <milestone
+       unit="page" n="Col. 822C"/> homo est, omnis homo animal est, et concludat, Socrates igitur
+      animatus est, minus proposuit, quod non dixit omne animal esse animatum. Nunc si sic
+      proposuisset, recte Socrates animatum esse concluderet, ita dicendo: Socrates homo est, omnis
+      homo animal est, et omne animal animatum est, Socrates igitur animatus est. Plus autem
+      proponere hoc est, ut si quis sic dicat: Omnis homo animal est, omne animal animatum est, sed
+      et sol in Ariete est, omnis igitur homo animatus est; hic vero superfluum est quod solem in
+      Ariete esse interposuit. Aliud autem quam necesse est quidam proponunt hoc modo, ut si quis
+      sic dicat: Omne homo animal est, virtus autem bonum est, omnis igitur homo animatum est. Nulla
+      igitur harum propositionum ad rem pertinet quod concludere cupiebat. Expedita igitur
+      syllogismi diffinitione, ad priorum modorum naturam resolutionemque veniamus, et prius omnes
+      in ordinem disponantur.</p>
+    <p>PRIMAE FIGVRAE MODI.</p>
+     <p>PRIMVS: Omne iustum bonum est. Omnis virtus iusta est. Omnis igitur virtus bona est.<lb/>
+      SECVNDVS: Nullum bonum malum est. Omne iustum bonum est. Nullum igitur iustum malum est.<lb/>
+      TERTIVS: Omne bonum virtus est. Quoddam iustum bonum est. Quoddam igitur iustum virtus
+      est.<lb/> QVARTVS: Nullum bonum malum est. Quoddam iustum bonum est. Quoddam igitur iustum
+      malum non est.<lb/> QVINTVS: Omne iustum bonum est. Omnis virtus iusta est. Quoddam igitur
+      bonum virtus est.<lb/> SEXTVS: Nullum bonum malum est. Omne iustum bonum est. Nullum igitur
+      malum iustum est.<lb/> SEPTIMVS: Omne bonum virtus est. Quoddam iustum bonum est. Quaedam
+      igitur virtus iusta est.<lb/> OCTAVVS: Omne bonum iustum est. Nullum malum bonum est. Quoddam
+      igitur iustum malum non est.<lb/> NONVS: Quoddam bonum iustum est. Nullum malum bonum est.
+      Quoddam igitur iustum malum non est.</p>
+    <p>SECVNDAE FIGVRAE MODI.</p>
+     <p>PRIMVS: Nullum malum bonum est. Omne iustum bonum est. Nullum igitur iustum malum est.<lb/>
+      SECVNDVS: Omne iustum bonum est. Nullum malum bonum est. Nullum igitur malum iustum est.<lb/>
+      TERTIVS: Nullum malum bonum est. Quoddam iustum bonum est. Quoddam igitur iustum malum non
+      est.<lb/> QVARTVS: Omne iustum bonum est. Quoddam malum bonum non est. Quoddam igitur malum
+      iustum non est.</p>
+    <p>TERTIAE FIGVRAE MODI.</p>
+     <p>PRIMVS: Omne bonum iustum est. Omne bonum virtus est. Quaedam igitur virtus iusta est.<lb/>
+      SECVNDVS: Omne bonum virtus est. Omne bonum iustum est. Quoddam igitur iustum virtus est.<lb/>
+      TERTIVS: Nullum bonum malum est. Omne bonum iustum est. Quoddam igitur iustum malum non
+      est.<lb/> QVARTVS: Quoddam bonum iustum est. Omne bonum virtus est. Quaedam igitur virtus
+      iusta est.<lb/> QVINTVS: Omne bonum virtus est. Quoddam bonum iustum est. Quoddam igitur
+      iustum virtus est.<lb/> SEXTVS: Quoddam bonum malum non est. Omne bonum iustum est. Quoddam
+      igitur iustum malum non est.<lb/> SEPTIMVS: Nullum bonum malum est. Quoddam bonum iustum est.
+      Quoddam igitur iustum malum non est.</p>
+    <p><milestone unit="page" n="Col. 823A"/>Hi sunt igitur omnes trium figurarum modi quorum primae figurae quatuor primae
+     indemonstrabiles nominantur et directi, id est sine aliqua conversione monstrati;
+     indemonstrabiles autem quoniam non per alios demonstrantur, et perfecti dicuntur, quoniam per
+     seipsos comprobantur. Et primi quoniam positione et natura primi sunt, et in eos omnes caeteri
+     resolvuntur. Illi quoque quinque primae figurae modi imperfecti et per conversionem sunt.
+     Secundae vero figurae, vel tertiae, omnes imperfecti sunt, quoniam per primos primae figurae
+     modos quatuor comprobantur, <milestone unit="page" n="Col. 824A"/> namque in ipsos resolvuntur:
+     ut eos per conversionem resolvamus, et per impossibilitatem, ut duo illi superius demonstrati
+     sunt, consideremus igitur eorum principia, quoniam unde nascuntur in idipsum resolvuntur.
+     Quintus igitur primae figurae modus de primae primo figurae modo procreatur. Binis enim
+     propositionibus prioribus manentibus, conclusio primi modi particulariter conversa quintum
+     efficit syllogismum, quod in subiecta declaratur descriptione:<lb/> Omne iustum bonum est,
+     eadem: Omne iustum bonum est.<lb/> Omnis virtus iusta est, eadem: Omnis virtus iusta est.<lb/>
+     Omnis virtus bona est, versa: Quoddam bonum virtus est.</p>
+    <p><milestone unit="page" n="Col. 823B"/> Sextus vero primae figurae modus de secundo primae figurae modo capit principium. Manentibus
+     enim duabus prioribus propositionibus secundi modi, universali <milestone unit="page"
+      n="Col. 824B"/> conclusione universaliter conversa, sextus nascitur syllogismus, ut subiecta
+     docet descriptio:<lb/>
+     <milestone unit="page" n="Col. 823B"/> Nullum bonum malum est, eadem: Nullum bonum malum
+     est.<lb/> Omne iustum bonum est, eadem: Omne iustum bonum est.<lb/> Nullum iustum malum est,
+     versa: Nullum malum iustum est.</p>
+    <p><milestone unit="page" n="Col. 823B"/> Septimus modus primae figurae de tertio primae figurae
+     nascitur modo. Manentibus enim binis propositionibus <milestone unit="page" n="Col. 824B"/>
+     prioribus, particulari affirmativa in conclusione conversa, septimi modi collocatio procreatur.<lb/>
+     <milestone unit="page" n="Col. 823B"/> Omne bonum virtus est, eadem: Omne bonum virtus
+     est.<lb/> Quoddam iustum bonum est, eadem: Quoddam iustum bonum est.<lb/> Quoddam iustum virtus
+     est, vertitur: Quaedam virtus iusta est.</p>
+    <p>Octavus vero et nonus primae figurae modus in quartum primae figurae modum resolvuntur, non
+     etiam initium sumunt. Octavus resolvitur in quartum hoc modo: prima enim quarti in secundam
+     octavi universaliter <milestone unit="page" n="Col. 824B"/> conversa, et prima propositione
+     octavi nodi particulariter in secundam quarti modi conversa, eadem conclusio colligitur, id est
+     negatio particularis.<lb/> Nullum bonum malum est, negatio universalis.<lb/> Quoddam iustum
+     bonum est, particularis affirmatio.<lb/> Vniversaliter conversa, Omne bonum iustum est.<lb/>
+     Vniversaliter conversa, Nullum malum bonum est.<lb/> Quoddam iustum malum non est, eadem
+     conclusio:<lb/> Quoddam iustum malum non est.</p>
+    <p><milestone unit="page" n="Col. 825A"/> Nonus vero modus in quartum modum resolvitur sic, prima quarti in secundam noni propositionem
+     universaliter convertatur, et secunda quarti particulariter <milestone unit="page"
+      n="Col. 826A"/> in primam noni, et eadem conclusio maneat negatio particularis.<lb/> Nullum
+     bonum malum est, universalis negativa.<lb/> Quoddam iustum bonum est, particularis
+     affirmativa.<lb/> Particulariter conversa, Quoddam bonum iustum est.<lb/> Vniversaliter
+     conversa, Nullum malum bonum est.<lb/> Quoddam iustum malum non est, eadem conclusio:<lb/>
+     Quoddam iustum malum non est.</p>
+    <p><milestone unit="page" n="Col. 825A"/> Resolutis igitur quinque primae figurae modis in quatuor superioribus, secundae figurae
+     quatuor modos in prioris figurae modos quatuor resolvamus, quorum tres per conversionem
+     probantur. Quartus vero <milestone unit="page" n="Col. 825B"/> per solam impossibilitatem. At
+     vero primus et secundae figurae secundus modus in secundum prioris figurae modum resolvuntur,
+     et resolvitur primus sic. Conversa enim prima universali negatione universaliter, et manente
+     secunda universali affirmatione, eadem conclusio utrorumque nascitur.</p>
+     <p>PRIMVS SECVNDAE.</p>
+     <p>Nullum bonum malum est, conversa: Nullum malum bonum est.<lb/> Omne iustum bonum est, eadem:
+      Omne iustum bonum est.<lb/> Nullum iustum malum est, eadem: Nullum iustum malum est.</p>
+    <p><milestone unit="page" n="Col. 825B"/> Secundae figurae secundus modus in primae figurae secundum modum resolvitur sic: conversa
+      secunda propositione, et secunda prima manente, universaliter fit conversa conclusio.<lb/>
+      Nullum bonum malum est, conversa: Nullum malum bonum est.<lb/> Omne iustum bonum est, manet:
+      Omne iustum bonum est.<lb/> Nullum iustum malum est, conversa: Nullum malum iustum est.</p>
+    <p><milestone unit="page" n="Col. 825B"/> Tertius vero secundae figurae modus, de quarto primae figurae procreatur. Vt enim
+      universalis negatio in primam propositionem universaliter convertatur, et secundae
+      propositiones maneant, idem syllogismi terminus propositioque colligitur hoc modo:<lb/> Nullum
+      bonum malum est, conversa: Nullum malum bonum est.<lb/> Quoddam iustum bonum est, similis:
+      Quoddam iustum bonum est.<lb/> Quoddam iustum malum non est, eadem: Quoddam iustum malum non
+      est.</p>
+    <p><milestone unit="page" n="Col. 825C"/> Quartus modus secundae figurae quoniam iam primo, cum factus est per conversionem, in
+      superioris primae figurae modum retorqueri non poterat, sed per impossibile demonstratum est,
+      hic quoque per impossibile ad superiores reducitur modos, et quoniam omnes secundae figurae
+      modi per impossibile monstrantur, idcirco nos quoque inchoantes a quarto omnes per impossibile
+      resolvamus. Nam quartus secundae figurae modus in primum primae figurae resolvitur per
+      impossiblitatem, tertius in secundum, secundus in tertium, primus in quartum, quod hoc modo
+      liquebit. Si quis ergo duas istas concesserit propositiones, id est, omne bonum virtus est, et
+      quoddam iustum virtus non est, necesse est quoque conclusionem concedat quae est, quoddam
+      igitur iustum bonum non est. Nam si haec falsa est, erit ei contraiacens vera quae est, omne
+      iustum bonum est, sed illam concessit quae est prima quarti modi, id est, omne bonum virtus
+      est. Ex his igitur concludat, omne igitur iustum virtus est. Sed prius concessit quarti, modi
+      secundam propositionem, quae est, quoddam iustum virtus non est. Nunc vero concedit, omne
+      iustum virtus est, duas sibi contraiacentes simul conclusurus est, quod fieri non potest. Hoc
+      autem idcirco evenit, quia conclusio quarti modi in primi modi secundam propositionem conversa
+      est; quod si<milestone unit="page" n="Col. 826D"/> secunda propositio primi modi in quarti
+      conclusione non colligitur, quarti conclusio, id est particularis negatio, permanebit. Sed ne
+      forte nos conturbet quod alios terminos in resolvendo modo posuimus, quam superius in
+      disponendo; non enim modo in terminis laboramus, sed in figuris et modis et complexionibus
+      construendis atque resolvendis operam consumimus. Eodem modo et caeteri secundae figurae in
+      primos quatuor resolvuntur.<lb/> Omne bonum virtus est, eadem: Omne bonum virtus est.<lb/>
+      Quoddam iustum virtus non est, eadem: Omne iustum bonum est.<lb/> Quoddam igitur iustum bonum
+      non est, eadem: Omne igitur iustum virtus est.</p>
+    <p><milestone unit="page" n="Col. 825D"/> Tertius secundae figurae modus secundo primae figurae modo sic resolvitur: si quis duas
+      primas tertii modi concesserit, particularem quoque negationem concludet, quae est, quoddam
+      igitur iustum bonum non est. Nam si haec falsa est, vera erit contraiacens, quae est, omne
+      iustum bonum est. Sed etiam illa concessa est, quae est, nullum bonum malum est. Ex his ergo
+      colligitur, nullum igitur iustum malum est. Sed prius concessa erat, quoddam iustum malum est,
+      nunc vero nullum iustum malum est, duas sibi contraiacentes, uno tempore concedit, quod fieri
+      non potest. Sublata igitur universali conclusione, quae est, omne iustum bonum est, remanebit
+      particularis negatio, quae est, quoddam iustum bonum non est.<lb/> Nullum bonum malum est,
+      concessae: Nullum bonum malum est.<lb/> Quoddam iustum malum est, contraiac.: Omne iustum
+      bonum est.<lb/> Quoddam igitur iustum bonum non est, permut. contraiac.: Nullum ergo iustum
+      malum est.</p>
+    <p><milestone unit="page" n="Col. 827A"/> Secundus secundae figurae in tertio primae figurae modo sic resolvitur: si quis duas
+      secundae figurae propositiones concesserit, conclusionem quoque concedit, quae est, igitur
+      iustum bonum est. Nam si haec falsa est, erit vera contraiacens ei particularis affirmatio,
+      quoddam iustum bonum est. Sed idem concessit illam quae est, omne bonum virtus est, concludat
+      necesse est, quoddam iustum virtus est, qui iam ante concesserat secundam secundi modi quae
+      est, nullum iustum virtus est, duas contraiacentes uno tempore concedit, quod fieri non
+      potest.<lb/> Omne bonum virtus est, concessae: Omne bonum virtus est.<lb/> Nullum iustum
+      virtus est, contraiacen.: Quoddam iustum virtus est.<lb/> Nullum iustum bonum est, permut.
+      contraiacen.: Quoddam iustum bonum est.</p>
+    <p><milestone unit="page" n="Col. 827A"/> Primus item secundae figurae in quartum primae figurae sic resolvitur: qui concedit duas
+      primi modi propositiones, concedat necesse est et conclusionem. Nam si illa falsa est, erit
+      vera contraiacens ei particularis affirmativa quae est, quiddam iustum bonum est. Sed idem
+      concessit illam quae est, nullum bonum malum est, concludat necesse est, quoddam igitur iustum
+      malum non est, qui ante concesserat illam quae est, omne iustum malum est. Vno tempore duas
+      contraiacentes concedit, quod fieri non potest. Sublata igitur particulari affirmatione quae
+      est, quoddam iustum bonum est, remanet illa quae est, nullum iustum bonum est.<lb/> Nullum
+      bonum malum est, similes: Nullum bonum malum est.<lb/> Omne iustum malum est, contraiacen.:
+      Quoddam igitur iust. malum non est.<lb/> Nullum iustum bonum est, permut. contraiacen.:
+      Quoddam iustum bonum est.</p>
+    <p><milestone unit="page" n="Col. 827B"/> Sequitur ut tertiae figurae modos ad primos quatuor
+     reducamus, quorum quinque per conversionem et per impossibilitatem ad primos quatuor
+     resolvuntur, unus vero solus, id est quintus, per solam impossibilitatem in priora resolvitur.
+     Primus tertiae modus figurae in tertium primae figurae hoc modo resolvitur: Si enim prima
+     propositio tertii modi primae figurae maneat, et secunda propositio particularis tertii modi
+     primae figurae universaliter convertatur, et sit secunda propositio primi modi tertiae figurae,
+     eadem conclusio colligitur, id est affirmatio particularis.<lb/> Omne bonum iustum est, manet:
+     Omne bonum iustum est.<lb/> Quaedam virtus bona est, conversa: Omne bonum virtus est.<lb/>
+     Quaedam virtus iusta est, manet: Quaedam virtus iusta est.</p>
+    <p><milestone unit="page" n="Col. 827C"/> Vel certe sic, quia superius talem syllogismum diximus terminis commutatis, quem Aristoteles
+     dissimilem non putat.<lb/> Omne bonum virtus est, similes: Omne bonum virtus est.<lb/> Quoddam
+     iustum bonum est, conversa: Omne bonum iustum est.<lb/> Quoddam iustum virtus est, manet:
+     Quoddam iustum virtus est.</p>
+    <p><milestone unit="page" n="Col. 827C"/> Secundus modus tertiae figurae in quartum modum primae figurae hoc modo resolvitur. Si enim
+     primae propositiones secundi tertiae figurae modi, et quarti modi primae figurae maneant,
+     quarti vero modi primae figurae secunda propositio universaliter convertatur, et secunda sit
+     propositio secundi modi tertiae figurae, eadem conclusio procreatur.<lb/> Nullum bonum malum
+     est, manet: Nullum bonum malum est.<lb/> Quoddam iustum bonum est, versa universaliter: Omne
+     bonum iustum est.<lb/> Quoddam iustum malum non est, manet: Quidam iustum malum non est.</p>
+    <p><milestone unit="page" n="Col. 827C"/> Tertius modus tertiae figurae in tertium modum primae figurae resolvitur. Si enim propositio
+     prima tertii primae figurae modi, et secunda propositio tertii modi tertiae figurae maneat, et
+     secunda propositio tertii modi primae figurae particularis particulariter convertatur, et sit
+     prima tertii modi tertiae figurae, conversa particulariter conclusio nascitur.<lb/> Omne bonum
+     virtus est, Omne bonum virtus est.<lb/> Quoddam iustum bonum est, Quoddam bonum iustum
+     est.<lb/> Quoddam iustum virtus est, versa partic.: Quaedam virtus iusta est.</p>
+    <p><milestone unit="page" n="Col. 827D"/> Quartus modus tertiae figurae in tertium modum primae figurae resolvitur: si enim utrorumque
+     primae maneant propositiones, et secundae particulares particulariter convertantur, eaedem
+     conclusiones nascuntur.<lb/> Omne bonum virtus est, manet: Omne bonum virtus est.<lb/> Quoddam
+     iustum bonum est, vertitur: Quoddam bonum iustum est.<lb/> Quoddam iustum virtus est, manet:
+     Quoddam iustum virtus est.</p>
+    <p>Reliquus sextus syllogismus tertiae figurae de primae figurae quarto modo procreatur;
+     manentibus enim primis eorum propositionibus, atque secundis particulariter immutatis
+     particulis, in utroque manebit conclusio.<lb/> Nullum bonum malum est, eadem: Nullum bonum
+     malum est.<lb/> Quoddam iustum bonum est, mutata: Quoddam bonum iustum est.<lb/> Quoddam iustum
+     malum non est, manet: Quoddam iustum malum non est.</p>
+    <p><milestone unit="page" n="Col. 829A"/> Quintus autem qui restat, sicut ante per impossibile probatur, ita etiam nunc per
+     impossibilitatem resolvitur. Sed quemadmodum unus fuerit resolutus, eodem ordine omnes
+     resolvendi sunt. Resolvitur autem sextus tertiae figurae modus in tertium primae figurae modum.
+     Quintus autem tertiae figurae modus resolvitur in primum primae figurae. Quartus tertiae
+     figurae modus resolvitur in quartum primae figurae modum. Tertius tertiae figurae modus
+     resolvitur in secundum primae figurae modum. Secundus tertiae figurae modus resolvitur in
+     primum primae figurae modum. Primi tertiae figurae modi resolvuntur in secundos primae figurae
+     modos. <milestone unit="page" n="Col. 829B"/> Resolvitur autem per impossibilitatem sextus
+     tertiae figurae modus in primae figurae modum tertium hoc modo: si quis igitur duas
+     propositiones sexti modi tertiae figurae concesserit, concedat etiam necesse est conclusionem
+     quae est, quoddam iustum malum non est. Nam si haec falsa est, erit vera contraiacens ei primae
+     figurae tertii modi prima propositio quae est, omne iustum malum est. Sed etiam concessit
+     propositionem secundam, quae est, quoddam bonum iustum est. Ex his igitur concedat necesse est,
+     quoddam bonum malum est, quia ante concesserat primam propositionem sexti modi tertiae figurae
+     quae est, nullum bonum malum est. Vno tempore duas sibi contraiacentes concedit, quod fieri non
+     posse descriptio declarat.<lb/> Nullum bonum malum est, contraiacen.: Quoddam bonum malum
+     est.<lb/> Quoddam bonum iustum est, concessae: Quoddam bonum iustum est.<lb/> Quoddam iustum
+     malum non est, permut. contraiac.: Omne iustum malum est.</p>
+    <p><milestone unit="page" n="Col. 829B"/> Hoc modo omnes caeteri modi tertiae figurae in primos modos primae figurae referuntur, quod
+     subiecta descriptio declarat, in qua prior quintus, qui per conversionem resolvi non potuit,
+     per impossibilitatem resolutus est.<lb/> Quoddam bonum malum non est, contraiacen.: Omne bonum
+     malum est.<lb/> Omne bonum iustum est, concessae in utrisque.: Omne bonum iustum est.<lb/>
+     Quoddam iustum malum non est, permut. contraiac.: Omne iustum malum est.<lb/> Omne bonum virtus
+     est, contraiacen.: Nullum bonum virtus est.<lb/> Quoddam bonum iustum est, concessae in
+     utrisque: Quoddam bonum iustum est.<lb/> Quoddam iustum virtus est, permut. contraiac.: Nullum
+     iustum virtus est.<lb/> Quoddam bonum iustum est, contraiacen.: Nullum bonum iustum est.<lb/>
+     Omne bonum virtus est, concessae in utrisque.: Omne bonum virtus est.<lb/> Quaedam virtus iust.
+     est, permut. contraiac.: Nulla virtus iusta est.</p>
+    <p><milestone unit="page" n="Col. 829C"/> In resolutione modi secundi tertiae figurae in primum modum primae figurae, haec
+     impossibilitas evenit, quod duas contrarias uno tempore concedit, quod fieri nequit. Nunquam
+     enim duae contrariae uno tempore simul verae invenientur.<lb/> Nullum bonum malum est,
+     contrar.: Nullum bonum iustum est.<lb/> Omne bonum iustum est, concessae in utrisque: Omne
+     bonum iustum est.<lb/> Quoddam iustum malum non est, permut. contraiac.: Omne iustum malum
+     est.<lb/> Et in sequenti quoque syllogismo duas concedit, quod impossibile est.<lb/> Omne bonum
+     iustum est, contrariae: Nullum bonum iustum est.<lb/> Omne bonum virtus est, concessae in
+     utrisque. Omne bonum virtus est.<lb/> Quaedam virtus iusta est permut. contraiac.: Nulla virtus
+     iusta est.</p>
+    <p><milestone unit="page" n="Col. 829C"/> Nec nos illud turbet, quod in quibusdam contraria propositio et conclusio invenitur, in
+     quibusdam vero contraiacens. Namque aequaliter peccavit tam qui utrasque contrarias
+     concesserit, quam si utrasque contraiacentes. Nam quo modo contraiacentes uno tempore verae
+     esse non possunt unquam, sic etiam contrariae.<lb/> Omne bonum virtus est, contrariae. Nullum
+     bonum virtus est.<lb/> Omne bonum iustum est, concessae in utrisque. Omne bonum iustum
+     est.<lb/> Quoddam iustum virtus est, permut contraiac.: Nullum iustum virtus est.</p>
+    <p><milestone unit="page" n="Col. 829D"/> Haec de Categoricorum Syllogismorum introductione, Aristotelem plurimum sequens, et aliqua de
+     Theophrasto et Porphyrio mutuatus, quantum parcitas introducendi permisit, expressi. Si qua
+     vero desint in Analyticis nostris calcatius exprimemus. Nunc vero quantum ad solam
+     Categoricorum Syllogismorum formam spectabat, perfectum hic nobis est, et ad cumulum
+     introductionis elaboratum. Nec hoc nos perturbet, si quae hic propositiones et conclusiones
+     falsae sunt, quandoquidem non veritates rerum, sed connexiones syllogismorum figuras et modos
+     suscepimus disserendos. Nam his cognitis, si quos ad perfectum studium logicae disciplinae
+     disputationis subtilitas traxerit, prius de ambiguis disputationibus discant, post ab his
+     veritas in rebus mendaciumque meditabitur.</p>
+   </div>
+
+  </body>
+ </text>
+
+</TEI>

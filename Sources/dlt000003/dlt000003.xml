@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+ <fileDesc>
+ <titleStmt>
+  <title>Ars de orthographia</title>
+  <author>Agroecius</author>
+ 
+  <respStmt>
+ <resp>Transcodifica di base da rtf a xml-tei</resp>
+ <name>Piero Colombo - step srl</name>
+  </respStmt>
+  <respStmt>
+   <resp>Testo </resp>
+   <name>Marinone, CD-GL</name>
+  </respStmt>
+  <respStmt>
+   <resp>Controllo transcodifica del greco e correzione linguistica</resp>
+   <name>Ermanno Malaspina </name>
+  </respStmt>
+  <respStmt>
+   <resp>Controllo marcatura XML-TEI</resp>
+   <name>Simona Musso </name>
+  </respStmt>
+  
+ </titleStmt>
+ <publicationStmt>
+ <publisher>digilibLT</publisher>
+ <pubPlace>Vercelli</pubPlace>
+ <date>2015</date>
+ <availability>
+ <p>
+ <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/" />
+ </p>
+ </availability>
+ <idno>dlt000003</idno>
+ </publicationStmt>
+ <sourceDesc>
+  <p>Agroecius, Ars de orthographia, a cura di M. Pugliarello, Milano 1978 in Nino Marinone, CD-GL</p>
+ </sourceDesc>
+ </fileDesc>
+ <encodingDesc>
+	<projectDesc>
+ <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+ <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+	</projectDesc>
+	<editorialDecl>
+ <p>
+ <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT</hi>
+ </p>
+ <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+ l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note 
+ e commenti e ogni altro contenuto redatto da editori moderni.</p>
+ <p>I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+ correttezza di trascrizione</p>
+ <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+ distinzione u/v minuscole.</p>
+ <p>Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+ <p>
+
+	Non è stata normalizzata la formattazione nell'intero
+ <hi rend="italic">corpus</hi>
+
+	: grassetto, corsivo, spaziatura espansa.
+ </p>
+ <p>
+
+	Sono stati normalizzati e marcati nel modo seguente i diacritici.
+ <lb />
+
+	espunzioni:
+ <![CDATA[<del>testo</del>]]>
+
+	si visualizza [testo]
+ <lb />
+
+	integrazioni:
+ <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]>
+ <lb />
+ <hi rend="italic">loci desperati</hi>
+
+	:
+ <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+
+	si visualizzano †testo† e †testo
+ <lb />
+
+	lacuna materiale:
+ <![CDATA[<gap/>]]>
+
+	si visualizza [...]
+ <lb />
+
+	lacuna integrata dagli editori:
+ <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+ </p>
+ <p>
+
+	Sono stati marcati i termini in lingua greca
+	<![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+ </p>
+ <p>
+
+	Ulteriori informazioni sulle norme di trascrizione e codifica su
+ <ref target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf">Note di trascrizione e codifica di testi latini tardoantichi [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
+ </p>
+	</editorialDecl>
+</encodingDesc>
+ <profileDesc>
+ <langUsage>
+ <language ident="la">Latino</language>
+ </langUsage>
+ </profileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   
+ <div type="section">
+ <head>praefatio</head>
+ <p> domino Eucherio episcopo Agroecius. libellum Capri <hi rend="italic">de orthographia</hi> misisti mihi. haec quoque res proposito tuo et moribus tuis congrua est, ut, qui nos in huius uitae actibus corrigere uis, etiam in scribendi studiis emendares. nihil ergo quod in nobis est alienum a castigatione tua credis: omnia nostra, et quae dictu parua sunt, sollicita indage rimaris, a uiuendo ad scribendum, ab animo ad manum, a corde ad articulum peruenis. hoc est uere summum dei sacerdotem esse, commissos sibi homines, ut ipsi dicitis, et secundum spiritum imbuere et secundum litteram perdocere. huic ergo Capri libello, de orthographia et de proprietate ac differentia sermonum, quaedam adicienda subieci, non quod uir tantae peritiae aliquid praetermiserit, tam multis praesertim litterarum operibus celebratus et in commentando etiam Cicerone praecipuus, sed quia nos difficilia putamus quae ille ut facilia neglexit. ego autem credidi haec ambigua aliquantis uideri, quia mihi obscura frequenter fuissent. ad te igitur hoc opusculum mittitur, in quo laborabis plurimum, cui necesse est emendare ipsum qui aliquid emendare praesumpsit. </p>
+ <p> donabit diuina pietas ut, qui scriptum a te obseruare uolumus, etiam praescriptum tuum seruare possimus. uale memor nostri, decus et praesidium meum. </p>
+ 
+ </div>
+ <div type="section">
+ <head>de orthographia</head>
+  <milestone unit="par" n="1" />
+ <p> Agroecius, cum Latine scribas, per diphthongon scribendum, non, ut quidam putant, per i Agricius. </p>
+ <milestone unit="par" n="2" />
+ <p> triceni de tricentis dices, trigeni de triginta. </p>
+ <milestone unit="par" n="3" />
+ <p> accersit qui euocat, arcessit qui accusat; sicut Cicero: <quote type="prose">«non capitis arcessere»</quote>. </p>
+ <milestone unit="par" n="4" />
+ <p> ecquando increpando uel inquirendo interrogantis aduerbium est, et quando simpliciter loquentis. </p>
+ <milestone unit="par" n="5" />
+ <p> similiter, en cum ostendis, em cum increpas; Cicero: <quote type="prose">«em cui tuos liberos tute committas»</quote>; hem, cum dolor iram mouerit, aut cum admiratio uel cogitatio stuporem. </p>
+ <milestone unit="par" n="6" />
+ <p> aceruus molis est, acerbus immaturus aut asper. </p>
+ <milestone unit="par" n="7" />
+ <p> † segnis * insignis. </p>
+ <milestone unit="par" n="8" />
+ <p> abitum sine aspiratione de abscessu scribis, habitum de uestitu uel gestu membrisque dicimus. </p>
+ <milestone unit="par" n="9" />
+ <p> sicut primus e multis et prior e duobus, ita postremus de multis et posterior de duobus, et alter de duobus dicitur, alius de multis. </p>
+ <milestone unit="par" n="10" />
+ <p> uae interiectio dolentis est, ue coniunctio subiunctiua. </p>
+ <milestone unit="par" n="11" />
+ <p> praemium cum diphthongo scribendum, pretium precatur sine diphthongo. ueteres enim maioris rei sermones cum diphthongo et quadam dignitate dici et scribi uoluerunt. </p>
+ <milestone unit="par" n="12" />
+ <p> precari autem est rogare, imprecari maledicere, deprecari excusare et purgare se. Virgilius: <quote type="poetry">«equidem merui nec deprecor»</quote>; Cicero: <quote type="prose">«quid faciet Hortensius? auaritiaene crimina frugalitatis laudibus deprecabitur?»</quote>. </p>
+ <milestone unit="par" n="13" />
+ <p> nubo nupsi, scribo scripsi: cum uocalis sequitur, b esse debet, cum consonans, </p>
+ <milestone unit="par" n="14" />
+ <p> fides de fidelitate, fidis de chorda. </p>
+ <milestone unit="par" n="15" />
+ <p> disertus orator est, desertus derelictus. </p>
+ <milestone unit="par" n="16" />
+ <p> delator qui defert ad accusandum, dilator qui differt ad proferendum. </p>
+ <milestone unit="par" n="17" />
+ <p> deluit purgat, diluit temperat. Liuius de morte Mithridatis: <quote type="prose">«quod cum diluisset»</quote>. </p>
+ <milestone unit="par" n="18" />
+ <p> aduersum te aduersarius, aduersus te imitator. </p>
+ <milestone unit="par" n="19" />
+ <p> inuleus, ut acutum s<supplied>ona</supplied>t, quia nomen a sono uocis accipit. </p>
+ <milestone unit="par" n="20" />
+ <p> deduco de amico producendo, diduco autem est distraho. </p>
+ <milestone unit="par" n="21" />
+ <p> derectum in rectum uadens, directum in latera rectum. </p>
+ <milestone unit="par" n="22" />
+ <p> partem nomen est, partim aduerbium. </p>
+ <milestone unit="par" n="23" />
+ <p> fastus de superbia, et facit genetiuo plurali fastuum; fastus de libris et facit fastorum. </p>
+ <milestone unit="par" n="24" />
+ <p> exspectatur uenturus, spectatur qui uidetur uel probatur. </p>
+ <milestone unit="par" n="25" />
+ <p> apparet qui uidetur, adparet qui obsequitur, non regulae ratione, sed discernendi intellectus gratia. </p>
+ <milestone unit="par" n="26" />
+ <p> Hercules, Achilles, Verres recto casu per e scribuntur, genitiuo autem per i: et omnia huiusmodi nomina. </p>
+ <p> et breuis est. </p>
+ <milestone unit="par" n="27" />
+ <p> fuerimus coniunctiuo modo tempore praeterito perfecto, et breuis est; et fuerimus eodem modo tempore futuro, et longa est; cum diceres uerbo actiuo coniunctiuo modo, diceris uerbo passiuo indicatiuo modo. </p>
+ <milestone unit="par" n="28" />
+ <p> miramur opera, admiramur uirtutes. </p>
+ <milestone unit="par" n="29" />
+ <p> labium superius dicitur, labrum inferius; rostrum non nisi quod incuruum est. </p>
+ <milestone unit="par" n="30" />
+ <p> exercitus laboribus, exercitatus studiis. </p>
+ <milestone unit="par" n="31" />
+ <p> minores esse res aliquas aut homines dicimus. nam minoris emptum aut aestimatum quippiam recte scribimus, sicut et pluris, quod maiore summa taxatur. plures uero de multitudine scribimus. plures comparatiuus gradus est; Cicero: <quote type="prose">«unus plures praedonum duces cepit Publius Seruilius, quam ceteri»</quote>. </p>
+ <p> positiuum habet multi, superlatiuum plurimi. </p>
+ <milestone unit="par" n="32" />
+ <p> cepit de capiendo, coepit de incipiendo scribimus. </p>
+ <milestone unit="par" n="33" />
+ <p> uterque de duobus dicimus, utrique de binis aut pluribus ex utraque parte positis. uterque uenit, utrique ueniunt; Cicero: <quote type="prose">«iubeo promi utrosque, binos habebam»</quote>, quia ad Delphicam uasa paria semper sunt. unde ipse Cicero: <quote type="prose">«dicebat scyphorum paria complura»</quote>. </p>
+ <milestone unit="par" n="34" />
+ <p> quaeritur de inquirendo, queritur de implorando scribimus; sic et quaestus lucri, et questus lacrimarum. </p>
+ <milestone unit="par" n="35" />
+ <p> poculum uas est, potio quod hauritur; Cicero: <quote type="prose">«accepto poculo subito in media potione exclamauit»</quote>. </p>
+ <milestone unit="par" n="36" />
+ <p> dimidiatum calicem bibi, non dimidium dicere debemus. </p>
+ <p> non enim ipsum uas bibis, sed quod intra uas est. </p>
+ <milestone unit="par" n="37" />
+ <p> olim et quondam et aliquando tria tempora tenent. </p>
+ <p> praeteriti temporis et futuri affatim inueniuntur exempla; praesentis domus, quod difficile uidetur: tumidis quod fluctibus olim tunditur; <quote type="prose">«expergiscimini aliquando et capessite rem publicam»</quote>. </p>
+ <milestone unit="par" n="38" />
+ <p> conscribere est multa simul scribere, exscribere quod alibi scriptum sit transferre, transcribere, cum ius nostrum in alium transit, inscribere actionis est uel accusationis, adscribere adsignationis, describere dictionis uel ordinationis. </p>
+ <milestone unit="par" n="39" />
+ <p> exstruere est in altum struere, instruere aciem uel actionem, adstruere adfirmare, construere in struendo coniungere, substruere re aliqua superposita subter struere. </p>
+ <milestone unit="par" n="40" />
+ <p> memini me facere dicere debemus, non memini me fecisse. nam memini sermo est totus praeteriti temporis, qui ante factam rem in praesens reuocat, et si dixeris memini me fecisse, duo praeterita simul iunges. Cicero: <quote type="prose">«memini Pamphilum Lilybetanum mihi narrare»</quote> <del>solitum</del>; idem infra: <quote type="prose">«respondi Metello, ut debui, etiam illud memini me dicere»</quote>; Terentius: <quote type="poetry">«ego illam uidi uirginem forma boni memini me uidere»</quote>; Vergilius: <quote type="poetry">«cantando <del>solitum</del> memini me condere soles»</quote>; idem: <quote type="poetry">«memini / Auruncos ita ferre senes»</quote>; et multis praeterea locis. neque inuenitur ubi ab aliis magnis auctoribus memini positum sit ut non addatur aut esse aut aliquantus sermo qui praesens tempus restituat, nisi uno loco et quasi hoc mirabile uno loco: <quote type="poetry">«namque sub Oebaliae memini me turribus altis / Corycium uidisse senem»</quote>, quod poetae pro necessitate metri licuit usurpare. </p>
+ <milestone unit="par" n="41" />
+ <p> instar illius rei dicere debemus, non ad instar. </p>
+ <milestone unit="par" n="42" />
+ <p> quaeritur ab aliquantis quare s littera inter liquidas posita sit, cum uel sola syllaba haberi uideatur, ac per hoc dicta sit: suae cuiusdam potestatis est; aliae autem liquidae in ipso concursu litterarum et sermonum ita conglutinantur, ut paene interire uideantur. haec ratio est: apud Latium, unde Latinitas orta est, et maior populus et magis egregiis artibus pollens Tusci fuerunt, qui quidem, natura linguae suae, s litteram raro exprimunt. </p>
+ <p> haec res eam fecit haberi liquidam. </p>
+ <milestone unit="par" n="43" />
+ <p> arbor omne lignum dicitur, arbos non nisi fructifera. </p>
+ <milestone unit="par" n="44" />
+ <p> hora dierum est, ora finium. </p>
+ <milestone unit="par" n="45" />
+ <p> pignera rerum sunt, pignora filiorum et adfectionum. </p>
+ <milestone unit="par" n="46" />
+ <p> columbae quae mansuetae fieri possunt et domibus adsuescere, palumbes ferae et saxis siluisque inhabitantes. </p>
+ <milestone unit="par" n="47" />
+ <p> rubor coloris est, robur uirtutis, robor arboris. </p>
+ <milestone unit="par" n="48" />
+ <p> ueniunt qui uendunt, ueneunt quae uenduntur. </p>
+ <milestone unit="par" n="49" />
+ <p> consuescimus bona, insuescimus mala, adsuescimus utraque. </p>
+ <milestone unit="par" n="50" />
+ <p> contingunt bona, accidunt mala, eueniunt utraque. </p>
+ <milestone unit="par" n="51" />
+ <p> fungi agere est, defungi deficere uel peragere. </p>
+ <milestone unit="par" n="52" />
+ <p> adolescere augmenti est, inolescere coaugmenti, exolescere euanescendi. </p>
+ <milestone unit="par" n="53" />
+ <p> auenae sterile germen, habenae retinacula iumentorum: hoc de habendi potestate, illud de occupandi auiditate dictum. </p>
+ <milestone unit="par" n="54" />
+ <p> deuncem decem uncias dicimus, diuncem undecim. </p>
+ <milestone unit="par" n="55" />
+ <p> pulchritudo formae in uiris dignitas, unde Cicero pro <hi rend="italic"> Caelio </hi>: <quote type="prose">«quis non possit huic aetati atque huic dignitati, etsi sine suspitione, at non sine argumento maledicere?»</quote>. </p>
+ <p> in feminis autem honestas dicitur, unde Terentius de horrido et sene Eunucho: <quote type="poetry">«illumne inhonestum hominem ambulare»</quote>. </p>
+ <p> formositas uero in luxuriosis: Vergilius: <quote type="poetry">«formosum pastor Corydon ardebat Alexin»</quote>. </p>
+ <milestone unit="par" n="56" />
+ <p> ipse pronomen dignitatis est, iste abiectionis. </p>
+ <milestone unit="par" n="57" />
+ <p> donum dantis est, munus accipientis. illud a dando, hoc a muniendo uel a monendo dictum. </p>
+ <milestone unit="par" n="58" />
+ <p> has manus unius hominis dicimus, hanc manum multos homines. </p>
+ <milestone unit="par" n="59" />
+ <p> coarguere est coercere et compescere, arguere ostendere et patefacere; Vergilius: <quote type="poetry">«degeneres animos timor arguit»</quote>, unde argumenta dicuntur quae causam ostendunt. </p>
+ <milestone unit="par" n="60" />
+ <p> sunt sermones, ut ita dixerim, communes duo sibi contraria significantes. </p>
+ <p> uector dicitur et qui portat et qui portatur. </p>
+ <milestone unit="par" n="61" />
+ <p> hospes et qui recipit et qui recipitur. </p>
+ <milestone unit="par" n="62" />
+ <p> sacer et uenerandus et exsecrandus. Virgilius: <quote type="poetry">«auri sacra fames»</quote>. </p>
+ <milestone unit="par" n="63" />
+ <p> ultus et uindicatus et punitus. </p>
+ <milestone unit="par" n="64" />
+ <p> gratia et bonae et malae rei causa; nam sicut dicimus amicitiarum et beneficii gratia, ita Sallustius: <quote type="prose">«obprobrii gratia»</quote>; et Cicero: <quote type="prose">«relegationis ac supplicii gratia colenda et fruenda tradiderat»</quote>; et Terentius: <quote type="poetry">«qui referam sacrilego illi gratiam»</quote>. </p>
+ <milestone unit="par" n="65" />
+ <p> suffragia populi et quae honorant dicuntur et quae damnant; Cicero <hi rend="italic">de praetura urbana</hi> : <quote type="prose">«istum uis ulla ex populi Romani suffragiis eripere poterit»</quote>. </p>
+ <milestone unit="par" n="66" />
+ <p> donamus et illud quod damus et illum cui damus. </p>
+ <milestone unit="par" n="67" />
+ <p> adficimur honore et adficimur iniuria. </p>
+ <milestone unit="par" n="68" />
+ <p> eleuamus et quae in altum attollimus et quae adnullando leuiora facimus. </p>
+ <milestone unit="par" n="69" />
+ <p> subducimus et quae retro subtrahimus et quae in promptu offerimus. Sallustius <hi rend="italic">bello Catilinae</hi> : <quote type="prose">«optimum quemque in primam aciem subduxit»</quote>. </p>
+ <milestone unit="par" n="70" />
+ <p> me tui pudet dicit et quem de alterius facto pudet, et quem de suo. Terentius in <hi rend="italic">adelphis</hi> sub uerbis Aeschini: <supplied><quote type="poetry">«me tui pudet»</quote></supplied> ubi eum pudet patri non ante confessum. </p>
+ <milestone unit="par" n="71" />
+ <p> discrimen periculum uel diuersitas. </p>
+ <milestone unit="par" n="72" />
+ <p> reditus regressus uel lucrum. </p>
+ <milestone unit="par" n="73" />
+ <p> supremus summus et ultimus et superiorem et inferiorem significant. </p>
+ <milestone unit="par" n="74" />
+ <p> altum et quod sursum est et quod deorsum. </p>
+ <milestone unit="par" n="75" />
+ <p> procul et longe et prope significat. Vergilius: <quote type="poetry">«clipeo est excussa sagitta proculque / egregium Antorem»</quote>. </p>
+ <milestone unit="par" n="76" />
+ <p> damnatus et addictus et absolutus. idem Virgilius: <quote type="poetry">«quem damnet labor»</quote>, id est quem uirtus sua absoluat et uictorem faciat. numquam enim Vergilius in duabus diuersis lancibus unam rem ponebat, praesertim cum interponeret, coniunctionem disiunctiuam. </p>
+ <p> idem ipse alio loco: <quote type="poetry">«damnabis tu quoque uotis»</quote>, sicut: <quote type="poetry">«uoti reus»</quote> dixerat, ita et absoluendos dixit. unde et in iure damnas esto legato dicitur, hoc est soluendo esto quod solui omnibus modis necesse est, etiamsi res legatur aliena. </p>
+ <milestone unit="par" n="77" />
+ <p> in, praepositio utriusque casus, cum in loquelas transit, fit etiam communis intellectus. nam et satis et parum et factum aliquid aut non factum significat, sicut impotens et infractus. </p>
+ <milestone unit="par" n="78" />
+ <p> latere et absconsum esse aliquid dicimus et late patere. </p>
+ <p> Vergilius: <quote type="poetry">«et scuta latentia condunt»</quote> et: <quote type="poetry">«torua solum sub fronte latebat»</quote>. </p>
+ <milestone unit="par" n="79" />
+ <p> horrendum dicimus et despicabile aliquid et admirandum. </p>
+ <p> Vergilius: <quote type="poetry">«oculos horrenda in uirgine fixus»</quote>. </p>
+ <milestone unit="par" n="80" />
+ <p> aduocatur daturus patrocinium, inuocatur praestaturus auxilium, euocatur praebiturus obsequium. </p>
+ <milestone unit="par" n="81" />
+ <p> inluuies sordium est, ingluuies uentris. illud a non lauando, hoc ab inglutiendo dictum. </p>
+ <milestone unit="par" n="82" />
+ <p> torres lignum praeustum, torrens aquae per praerupta decursus. </p>
+ <milestone unit="par" n="83" />
+ <p> commonemus praeterita, admonemus praesentia, monemus futura. </p>
+ <milestone unit="par" n="84" />
+ <p> ne multas significationes habet: ne longa aduerbium prohibendi, ut est: <quote type="poetry">«ne quaere doceri»</quote>; ne breuis coniunctio disiunctiua, ut est: <quote type="poetry">«hominesne feraene»</quote>; item ne longa coniunctio causalis, ut est: <quote type="poetry">«ne tenues pluuiae»</quote> et: <quote type="poetry">«ne subeant herbae»</quote>. </p>
+ <milestone unit="par" n="85" />
+ <p> temeritas sine consilio dicitur, audacia post consilium. </p>
+ <milestone unit="par" n="86" />
+ <p> uelocitas pedum et corporum, celeritas animorum atque factorum. </p>
+ <milestone unit="par" n="87" />
+ <p> gaudium animi, laetitia et exsultatio etiam uerborum atque membrorum. </p>
+ <milestone unit="par" n="88" />
+ <p> ulcus est quod nascitur, uulnus quod per alium fit. </p>
+ <milestone unit="par" n="89" />
+ <p> uiuum de uicturo dicimus, uiuentem de morituro. </p>
+ <milestone unit="par" n="90" />
+ <p> nascitur quod de utero decidit, enascitur quod de terra aut de aqua exsurgit. </p>
+ <milestone unit="par" n="91" />
+ <p> adducitur quis ad rem inhonestam, perducitur ad studia, deducitur ad honorem. </p>
+ <milestone unit="par" n="92" />
+ <p> eluxit, luctum deposuit; inluxit, cum lumen apparuit. </p>
+ <milestone unit="par" n="93" />
+ <p> nuntiatur de longinquo, denuntiatur in praesenti, adnuntiatur de futuro, renuntiatur de excusando et repudiando. </p>
+ <p> Cicero: <quote type="prose">«renuntiata est tota condicio»</quote>. </p>
+ <milestone unit="par" n="94" />
+ <p> deportare deponere, adportare est aliquid adferre, comportare in unum locum conferre, exportare tollere. </p>
+ <milestone unit="par" n="95" />
+ <p> temperantia est animorum, temperatio rerum, temperies aurarum. </p>
+ <milestone unit="par" n="96" />
+ <p> passim aliquid inueniri de re corporali recte dicimus, affatim de re incorporali; illud enim de incessu, hoc de affatu dictum est. </p>
+ <milestone unit="par" n="97" />
+ <p> lepus animal est, lepos iucunditas uoluptatis, unde et gratum aliquid lepidum dicimus; lepos eloquii. </p>
+ <milestone unit="par" n="98" />
+ <p> recipimus aliquid deferendum rogati, suscipimus nostra sponte. </p>
+ <milestone unit="par" n="99" />
+ <p> aspicimus sursum, conspicimus palam, respicimus retro, inspicimus intus. </p>
+ <milestone unit="par" n="100" />
+ <p> praeterea temporis praeteriti, Sallustius: <quote type="prose">«numquam Hispanos praeterea tale facinus fecisse audiui»</quote>, temporis futuri: <quote type="poetry">«praeterea aut supplex aris imponet honorem»</quote>. </p>
+ <milestone unit="par" n="101" />
+ <p> eo uerbum primae personae facit eo is it. eho aduerbium interrogantis est, ut: <quote type="poetry">«eho Parmeno, nosti»</quote>; eo item aduerbium loci, ut si dicas: <quote type="poetry">«eo redactus sum»</quote>; heu interiectio dolentis est, eu laudantis; Terentius:<quote type="poetry">«eu Phormio»</quote>; heus aduerbium uocantis, heu respondentis; eho est interiectio iubentis uel hortantis; Terentius: <quote type="poetry">«eho puer, curre ad Bacchidem»</quote>. </p>
+ <milestone unit="par" n="102" />
+ <p> limen aedium est, limes regionum. </p>
+ <milestone unit="par" n="103" />
+ <p> arundo canna est ab ariditate dicta, herundo auis quae tignis adhaeret. </p>
+ <milestone unit="par" n="104" />
+ <p> spirare uiuere est, exspirare mori. </p>
+ <milestone unit="par" n="105" />
+ <p> pertinacia malae rei perseuerantia dicitur, constantia bonae. </p>
+ <milestone unit="par" n="106" />
+ <p> consequimur pedibus, adsequimur studio, obsequimur officio, persequimur iniuria, subsequimur ordine, prosequimur uoto. </p>
+ <milestone unit="par" n="107" />
+ <p> nihil aduerbium est, nihili nomen: homo enim nullius momenti nihili dicitur. </p>
+ <milestone unit="par" n="108" />
+ <p> genus familiae, gentem regionis recte dicimus. </p>
+ <milestone unit="par" n="109" />
+ <p> laetamur de nostris bonis, gratulamur de alienis; amicorum, hoc est, gratificamus laetitia. Cicero: <quote type="prose">«neque tam istius hominis perditi subita laetitia quam huius hominis amplissimi noua gratulatio diuitiis eum commouebat»</quote>. </p>
+ <milestone unit="par" n="110" />
+ <p> herbidum locum dicimus in quo herba est, etiamsi aridus esse consueuerit; herbosum qui herbam facile generat, etiamsi ad tempus aridus sit. </p>
+ <milestone unit="par" n="111" />
+ <p> sic et aquatam potionem recte dicimus, quae aquam aliunde recipit; aquosum autem locum qui ex se aquam fundit. </p>
+ <milestone unit="par" n="112" />
+ <p> ita et meracam potionem, merosum autem uinum appellabimus. </p>
+ <milestone unit="par" n="113" />
+ <p> attollit aggerat scribendum est. in compositione enim sermonum ad praepositio accusatiui casus corrumpitur, cum seruire loquelis incipit, quando eam muta sequitur; integra autem permanet, quando semiuocalis, ut est adficit, adripit. huius rei ratio reddenda est. uocales omnes principes uocis sunt et dominae litterarum, quae, sicut uniuersa fortiora naturaliter faciunt, subiecta et adiuncta sibi protegunt, aequalia autem et resistentia elidunt. nam quo modo non numquam inter se commissae franguntur et synalipham faciunt, ita consonantes sibi creditas conseruant. quarum uirtutem necesse est ut semiuocales imitatae uicinas sibi mutas tutentur. </p>
+ <milestone unit="par" n="114" />
+ <p> quaeritur ab aliquantis quid distet inter super et supra et subter et subtus. super est quod eminet, supra quod substratum aliquid habet. item subter est quod re aliqua superiore premitur et conculcatur, subtus quod demissum altius non contingitur. </p>
+ <milestone unit="par" n="115" />
+ <p> sinum dicimus exterius sinuatae uestis receptaculum; gremium interius accinctae uestis secretum. Virgilius: <quote type="poetry">«pandentemque sinus et tota ueste uocantem / caeruleum in gremium»</quote>. </p>
+ <p> gremium autem dicitur e contrario, ab ingressu difficili; similia produnt, sicut aditum et penum et penetrale, eo quod adiri et penetrari raro soleat. </p>
+ <milestone unit="par" n="116" />
+ <p> largitas humanitatis est, largitio ambitionis. </p>
+ <milestone unit="par" n="117" />
+ <p> crassari corporis est et saginae, grassari animi et crudelitatis. </p>
+ <milestone unit="par" n="118" />
+ <p> album naturae tantum est, candidum frequenter et studii. nam et corpori et animo aliquotiens adsignatur. albos ergo capillos, carnem candidam recte dicimus. </p>
+ <milestone unit="par" n="119" />
+ <p> muliebre dicitur a mulieribus aliquid factum, mulierarium per mulieres aliquid ordinatum et per uiros gestum. </p>
+ <milestone unit="par" n="120" />
+ <p> iuuentus multi iuuenes dicuntur, iuuentas unius hominis aetas, Iuuenta ipsa dea, ut Graeci dicunt aut ut poetae, Iunonis filia, uxor Herculis, a qua Iunium mensem appellatum in libris <hi rend="italic">fastorum</hi> legimus. </p>
+ <milestone unit="par" n="121" />
+ <p> delictum peccatum aliquod dicimus, delectum militiae aut alicuius examinis electionem appellabimus. </p>
+ <milestone unit="par" n="122" />
+ <p> <supplied>dilectum a diligendo, delectum a deligendo</supplied>, nam diligi adfectionis est, deligi iudicii. </p>
+ <milestone unit="par" n="123" />
+ <p> inter commodatum et mutuo datum non nihil distat. </p>
+ <p> commodamus amico pro tempore equum, uestem, seruum; hanc ipsam rem quam dedimus recepturi; mutuo damus pecuniam, triticum, uinum et his similia, quae mutata recipi necesse est. </p>
+ <milestone unit="par" n="124" />
+ <p> ligat quis uinculo, legat testamento. </p>
+ <milestone unit="par" n="125" />
+ <p> loqui hominis est, obloqui obtrectatoris, sicut obicit, opponit, adloqui suadentis uel hortantis aut iubentis, eloqui oratoris. </p>
+ <milestone unit="par" n="126" />
+ <p> percussum corpore dicimus, perculsum animo. Cicero de <hi rend="italic"> signis</hi> : <quote type="prose">«tamquam illa ipsa face perculsus esset»</quote>. </p>
+ <milestone unit="par" n="127" />
+ <p> efferunt qui exportant, eferunt qui laudando extollunt. </p>
+ <p> idem Cicero: <quote type="prose">«nimium haec illi fortasse eferant»</quote>. </p>
+ <milestone unit="par" n="128" />
+ <p> periculum ad discrimen pertinet, periclum ad experimentum. </p>
+ <milestone unit="par" n="129" />
+ <p> indigenae homines dicuntur, indigetes dii; item indigetes <supplied>homines</supplied> unde geniti, dii indidem. </p>
+ <milestone unit="par" n="130" />
+ <p> circum pedes sunt obsequia seruorum, ante pedes amicorum. </p>
+ <p> Iuuenalis: <quote type="poetry">«togati / ante pedes»</quote>. </p>
+ <milestone unit="par" n="131" />
+ <p> insita arbor est cui incisae alienum germen includitur, adsita cui incolumi aliud quod sustineat adiungitur. Horatius: <quote type="poetry">«qua populus adsita surgit»</quote>; quippe quae uitibus maritaretur. </p>
+ <milestone unit="par" n="132" />
+ <p> fremor est murmur hominum, fremitus ferarum. </p>
+ <milestone unit="par" n="133" />
+ <p> flauum dicimus rubeum, sicut: <quote type="poetry">«flaua Ceres»</quote>; furuum nigrum: <quote type="poetry">«furuae regna Proserpinae»</quote>; fuluum nigro rubeum, ferinum et superbum, sicut: <quote type="poetry">«fuluum leonem»</quote>, et: fuluam aquilam, et: <quote type="poetry">«fuluum aurum»</quote>, et: <quote type="poetry">«fulua pugnas de nube tuentem»</quote>, quae haberet igneum aliquid de caelesti et sordidum de lugubri aut certe de Aenea iracundiam, de Turno tristitiam. fuluum certe aurum, cui ad decorem splendoris sui nigelli aliquid additur. </p>
+ <milestone unit="par" n="134" />
+ <p> postulatur aliquid honeste, poscitur improbe. Cicero in <hi rend="italic">frumentaria</hi> : <quote type="prose">«incipiunt postulare, poscere, minari»</quote>. </p>
+ <milestone unit="par" n="135" />
+ <p> aluus uirorum recte dicitur, uterus mulierum, uenter in utroque sexu. </p>
+ <milestone unit="par" n="136" />
+ <p> supplicia de tormentis dicimus et de precibus. </p>
+ <milestone unit="par" n="137" />
+ <p> uestimentum <del>uestimenta neutraliter dici debent</del>, quod uiri habent; nam feminae quod utuntur, haec uestis <del>uel hae uestes</del> dicuntur. </p>
+ <milestone unit="par" n="138" />
+ <p> libido <del>per b</del> cupiditas animi, liuido <del>per u</del> liuor est corporis. </p>
+ 
+ </div>
+  </body>
+ </text>
+ 
+</TEI>

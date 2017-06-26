@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Excerpta: appendix Apicii</title>
+    <author>Vinidarius</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Beatrice Strona</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2015</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000516</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p>Apicius, <hi rend="italic">L' art culinaire</hi>, texte établi, traduit et commenté par J.
+     André, Paris 1987 (I ed. 1974) (Collection des Universités de France).</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+   <charDecl>
+    <char xml:id="char1">
+     <charName>S cum linea transuersa</charName>
+     <desc>S cum linea transuersa</desc>
+    </char>
+   </charDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div type="ptext" n="ptext">
+    <div type="par" n="1">
+     <head>1. BREVIS PIMENTORUM QUE IN DOMO ESSE DEBEANT VT CONDIMENTIS NIHIL DESIT:</head>
+     <p> crocu, piper, zingiber, lasar, foliu, baca murte, costu, cariofilu, spica Indica, addena,
+      cardamomu, spica nardi.</p>
+    </div>
+
+    <div type="par" n="2">
+     <head>2. DE SEMINIBVS HOC:</head>
+     <p> papaber, semen rude, baca rute, baca lauri, semen aneti, semen api, semen feniculi, semen
+      ligustici, semen eruce, semen coriandri, cuminu, anesu, petroselinu, careu, sisama.</p>
+    </div>
+
+    <div type="par" n="3">
+     <head>3. DE SICCIS HOC:</head>
+     <p> lasaris radices, menta, nepeta, saluia, cupressu, origanum, zyniperum, cepa, gentima, bacas
+      timmi, coriandrum, piretru, <supplied>folia</supplied> citri, pastinaca, cepa Ascalonia,
+      radices iunci, anetu, puleiu, ciperum, aliu, osprea, samsucu, innula, silpium, cardamomum.</p>
+    </div>
+
+    <div type="par" n="4">
+     <head>4. DE LIQVORIBVS HOC:</head>
+     <p> mel, defritu, carinu, piperiu, passu.</p>
+    </div>
+
+    <div type="par" n="5">
+     <head>5. DE NVCLEIS HOC:</head>
+     <p> nuces maiores, nucleos pineos, amicdula, abellana.</p>
+    </div>
+
+    <div type="par" n="6">
+     <head>6. DE POMIS SICCIS HOC:</head>
+     <p> damascena, datilos, uba passa, granata. Haec omnia in loco sicco pone, ne odorem et
+      uirtutem perdant.</p>
+    </div>
+   </div>
+
+   <div type="index" n="index">
+    <head>BREVIS CIBORVM</head>
+    <p>I. Caccabina minore.<lb/> II. Caccabina fusile. <lb/> III. Ofellas garatas. <lb/> IV. Ofellas
+     assas. <lb/> V. Aliter ofellas. <lb/> VI. Ofellas. Garaton. <lb/> VII. Pisces scorpiones
+     rapulatos. <lb/> VIII. Pisces frixos cuiuscumque generis. <lb/> IX. Item pisces frixos. <lb/>
+     X. Pisces assos. <lb/> XI. Pisces. Inoteganon. <lb/> XII. Sardas. <lb/> XIII. Item pisces.
+     Inoteganon. <lb/> XIV. Mullos anetatos. <lb/> XV. Aliter mullos. <lb/> XVI. Murenas et
+     anguillas. <lb/> XVII. Lucustas et isquillas. <lb/> XVIII. Pisces elixos. <lb/> XIX. Patinas
+     oborum. <lb/> XX. Porcello coriandratu. <lb/> XXI. Porcello inocuctu. <lb/>
+     <del>XXII. Porcello eo iure.</del><lb/> XXIII. Porcello tymmo sparsum. <lb/> XXIV. Porcellu
+     oxizomo. <lb/> XXV. Porcellu lasaratu. <lb/> XXVI. Porcellu iuscellatu. <lb/> XXVII. Agnu
+     simplice. <lb/> XXVIII. Haedu lasaratu. <lb/> XXIX. Turdos aponcomenos. <lb/> XXX. Turtures.
+     <lb/> XXXI. Ius in perdices. <lb/></p>
+   </div>
+
+   <div type="cap" n="1a">
+    <head>1a. CACCABINA MINORE:</head>
+    <p> Olera diuersa elixa compone et pullina inter se, si uolueris condis liquamine et oleo et
+     bulliat. Teres piper modicum et folium et cum tritura conmisces ouum et tribulas.</p>
+   </div>
+
+   <div type="cap" n="1b">
+    <head>1b. ALIAS. TRITVRA VNDE PERFVNDES CACCABINA:</head>
+    <p> Teres ergo folium quantum conpedat cum cerifolio una et quarta parte de lauri baca et medium
+     caulis elixi et folia coriandri et solues de iuscello eius et uaborabis in cinere calido et ad
+     ora ante quam fundas in uasculo, perfundis conditum et sic ponis. </p>
+   </div>
+
+   <div type="cap" n="2">
+    <head>2. CACCABINA FVSILE:</head>
+    <p> Malbas, porros, betas siue coliclos elixatos, turdos adque esicia de pullu, copadia porcina
+     siue pullina et cetera que in presenti habere poteris, compones uariatim. Teres piper,
+     ligusticum cum uini ueteris p. duo, liquamen p. I, mel p. I, olei aliquantu. Gustata, item
+     permixta et temperata mittis in patinam et fac ut modice ferueat et, cum coquitur, adicies
+     lactes <g ref="#char1"/> uno, oua dissoluta cum lacte perfundes. Patinam, mox constrinxerit,
+     inferes.</p>
+   </div>
+
+   <div type="cap" n="3">
+    <head>3. OFELLAS GARATAS:</head>
+    <p> Ponis ofellas in sartagine, adicies liquamen libra una, olei similiter, mellis aliquantum et
+     sic frigis. </p>
+   </div>
+
+   <div type="cap" n="4">
+    <head>4. OFELLAS ASSAS:</head>
+    <p> Exbromabis diligenter et in sartagine mittis. Friges inogaru. Postea simul cum ipsu inogaru
+     inferes et piper aspargis. </p>
+   </div>
+
+   <div type="cap" n="5">
+    <head>5. ALITER OFELLAS:</head>
+    <p>
+     <del>si</del> In liquamine frigantur et calide melle unguantur et sic inferantur. </p>
+   </div>
+
+   <div type="cap" n="6">
+    <head>6. OFELLAS. GARATON:</head>
+    <p> Lasar, zingiber, cardamomum et uno acitabulo liquaminis misces cum his omnibus tritis et ibi
+     ofellas coques. </p>
+   </div>
+
+   <div type="cap" n="7">
+    <head>7. PISCES SCORPIONES RAPVLATOS:</head>
+    <p> Coquis in liquamine et oleo et, cum mediauerit coctura, tolles. Rapas elixas madidas et
+     minutissime concisas manibus depressabis ut umorem non habeant, et cum pisce obligas et bulliat
+     cum oleo abunde. Et iam bulliuit, teres ciminum, lauri baca dimidia, addes propter colore
+     crocu, amulabis de oridia propter spissitudinem. Superfundes et tunc inferes. Addes modicum
+     acetu. </p>
+   </div>
+
+   <div type="cap" n="8">
+    <head>8. PISCES FRIXOS CVIVSCVMQVE GENERIS SIC FACIES:</head>
+    <p> Teres piper, coriandri semen, lasaris radices, origanu, ruta, cariotam, suffundes acetum,
+     oleum, liquamen, adicies defritum. Haec omnia temperabis et in caccabulo mittis et ferbeat. Cum
+     calefeceris, eosdem pisces superfundes, asperso piper, et inferes. </p>
+   </div>
+
+   <div type="cap" n="9">
+    <head>9. ITEM PISCES FRIXOS SIC FACIES:</head>
+    <p> Teres piper, ligusticu, baca lauri, coriandrum, mel, liquamen, uinu, passu uel carenu
+     temperas. Coques igni lentu, amulo orizie obligas et inferes. </p>
+   </div>
+
+   <div type="cap" n="10">
+    <head>10. PISCES ASSOS:</head>
+    <p> Teres piper, ligisticum, saturegia, cipam siccam, suffundes acetu, adicies cariota, anetu,
+     ouorum uitella, mel, acetum, liquamen, oleu, defritu. Haec omnia in uino mixta perfundes. </p>
+   </div>
+
+   <div type="cap" n="11">
+    <head>11. PISCES INOTEGANO:</head>
+    <p> Friges pisces, teres piper, ligisticum, rutam, condimenta uiridia, cepa sicca. Adicies oleo,
+      <supplied>uinum</supplied>, liquamen et inferes. </p>
+   </div>
+
+   <div type="cap" n="12">
+    <head>12. SARDAS SIC FACIES:</head>
+    <p> Teres piper, ligustici semen, origanu, cepam siccam, ouorum cottorum uitella, acetu, oleum.
+     Haec in unum temperas et perfundes. </p>
+   </div>
+
+   <div type="cap" n="13">
+    <head>13. PISCES INOTEGANO:</head>
+    <p> A crudo pisces quos uolueris labas, conponis in patinam, mittis oleum, liquamen, uinum,
+     fasciculos porri et coriandri, coquitur. Teres piper, origanu, ligisticum et fasciculos quos
+     elixasti, teres et suffundes inpesa de patina. Facis ut obliget. Cum bene tenuerit, piper
+     asparso inferebis. </p>
+   </div>
+
+   <div type="cap" n="14">
+    <head>14. MVLLOS ANETATOS SIC FACIES:</head>
+    <p> Rades pisces, lababis, in patinam conponis, adicies oleum, liquamen, uinu, fasciculos porri
+     et coriandri, mittes ut coquatur. Adicies piper in mortario, frecabis, adicies oleum et parte
+     aceti, uino, passo temperauis. Traicies in caccabo, ponis ut ferueat. Amolo obligabis et
+     patinam piscium perfundis, insuper piper aspargis. </p>
+   </div>
+
+   <div type="cap" n="15">
+    <head>15. ALITER MVLLOS:</head>
+    <p> Rades, labas, conponis in patinam, adicies oleo, liquamen, uinu, in coctura fasciculum porri
+     et coriandri, inponis ut coquatur. Teres piper, ligisticum, origanum, adicies de iure suo
+      <del>hec de patella</del>, uino, passo temperas, mittis in caccabo, ponis ut ferueat, amulo
+     obligabis et patella postea perfundes, piper aspargis et inferes. </p>
+   </div>
+
+   <div type="cap" n="16">
+    <head>16. MVRENA AUT ANGVILLAS VEL MVLLOS SIC FACIES:</head>
+    <p> Purgabis, conponis in patinam diligenter. Adicies in mortario piper, legisticum, origanum,
+     menta, cepam arida, effundes uinu acetabuli, liquaminis dimidium, mellis tertiam partem, modice
+     defritu ad cucliare. Debent autem hoc iure coperiri, ut super cocturam supersit aliquid iuris.
+    </p>
+   </div>
+
+   <div type="cap" n="17">
+    <head>17. LOCVSTA <supplied>ET ISQVILLA</supplied>:</head>
+    <p> Teres piper, ligisticum, api semen, effundes acetum, liquamen, ouorum uitella et mixta in
+     unum perfundis et inferes. </p>
+   </div>
+
+   <div type="cap" n="18">
+    <head>18. IN PISCIBVS ELIXIS:</head>
+    <p> Teres piper, ligisticum, api semen, origanum, suffundes acetum, adicies nucleos pineos,
+     cariota quod satis sit, mel, acetu, liquamen, sinapem. Temperabis et uteris. </p>
+   </div>
+
+   <div type="cap" n="19">
+    <head>19. PATINA SOLIARVM EX OBIS:</head>
+    <p> Rades, purgas, conponis in patinam, adicies liquamen, oleum, uinum, fasciculum porri et
+     coriandri semen, mittis ut coquatur. Teres piper modicum, origanum, suffundis ius
+      <supplied>de</supplied> suo sibi, adicies iuri dicem cruda oua, dissoluis et in unum corpus
+     facies. Traicies in patinam super solias, ad ignem lentum pones ut decoquat et, cum duxerit,
+     piper aspargis. </p>
+   </div>
+
+   <div type="cap" n="20">
+    <head>20. PORCELLVM CORIANDRATVM:</head>
+    <p> Assas porcellum diligenter, facies mortarium sic, in quo teres piper, anetu, origanum,
+     coriandrum uiride, admisces mel, uinum, liquamen, oleum, acetu, defritu. Hec omnia calefacta
+     perfundes et aspargis uua passa, nucleos pineos et cepam concisam et sic inferes. </p>
+   </div>
+
+   <div type="cap" n="21">
+    <head>21. PORCELLO INOCOCTO:</head>
+    <p> Porcellum accipies, ornauis, coque in oleo et liquamine. Cum coquitur, adicies in mortario
+     piper, ruta, baca lauri, liquamen, passu siue carenu, uino uetus, simul omnia teres, temperas
+     et traicies in patinam eneam, mittis eum (22) porcellum, eo iure percoque. Cum autem leuas,
+     obligabis amalo et sic in uas transferes et inferes. </p>
+   </div>
+
+   <div type="cap" n="23">
+    <head>23. PORCELLVM TIMO SPARSVM:</head>
+    <p> Porcellum lactentem pridie occisum elixas sale et anetu et in aqua frigida adsidue intingis
+     ut candorem habeat. Deinde condimenta uiridia, timmum, polleium modicum, oba dura, ciba concisa
+     minuta, ea omnia superspargis et condis liquamen emina una, olei pondo uno, passo pondo uno, et
+     sic ministras. </p>
+   </div>
+
+   <div type="cap" n="24">
+    <head>24. PORCELLO OXIDIOMVM:</head>
+    <p> Porcellum accuratum ornauis et mittis in iuscellum sic condito: adicies in mortario piper
+     grana L, mellis quantum conpedat, cepas siccas III, coriandri uiridis siue sicci modicum,
+     liquaminis emina, olei sextarium I, aque emina I, simul temperas in caccabulo. Mittis in eo
+     porcellum. Dum bullire ceperit, saepius agitauis ut spissum fiat. Si aliquid minus iuris facere
+     ceperit, tunc adicies emina I aque. Sic percoque et sic porcellum inferes. </p>
+   </div>
+
+   <div type="cap" n="25">
+    <head>25. PORCELLVM LASARATVM:</head>
+    <p> Teres in mortario piper, ligisticum, careum, misces ciminum paululum, lasar uiuum, lasaris
+     radicem, suffundis acetum, addis nucleos pineos, cariotam, mel, acetum, liquamen, senape factu.
+     Oleo omnia temperas et perfundis. </p>
+   </div>
+
+   <div type="cap" n="26">
+    <head>26. PORCELLV IVSCELLATV:</head>
+    <p> Mittis in mortario piper, ligisticum aut anesum, coriandrum, ruta, baca lauri, fricauis,
+     suffundis liquamen, porro, passi siue mellis modicum, uinum modicum, olei aliquantum. Cum
+     coxeris, amulo obligauis. </p>
+   </div>
+
+   <div type="cap" n="27">
+    <head>27. AGNU SIMPLICE:</head>
+    <p> De agno decoriato facies cupadiola, lababis diligenter, mittes in caccabo. Adicies oleum,
+     liquamen, uinum, porrum, coriandrum cultro concisum. Cum bullire ceperit, sepius agitabis et
+     inferes. </p>
+   </div>
+
+   <div type="cap" n="28">
+    <head>28. AEDVM LASARATVM:</head>
+    <p> Edi intestinas bene purgatas imples piper, liquamen, lasar, oleum et intra aedum mittes et
+     bene consues et cum aedo simul cocuntur. Et cum decoxerit, adicies in mortario ruta, baca lauri
+     et leuato edo adque exugato ipso iure perfundis et sic ponis. </p>
+   </div>
+
+   <div type="cap" n="29">
+    <head>29. TVRDOS APONCOMENOS:</head>
+    <p> Teres piper, lasar, baca lauri, admisces cum inogaru et sic turdo per guttor imples et filo
+     ligauis. Et facies ei impesa in qua decocantur, quae habeat oleum, sales, aqua, anetu et capita
+     porrorum. </p>
+   </div>
+
+   <div type="cap" n="30">
+    <head>30. TVRTVRES:</head>
+    <p> Aperies, ornauis diligenter, teres piper, lasar, liquamen modicum, infundis ipsas turtures
+     ut combibant siui et sic assas. </p>
+   </div>
+
+   <div type="cap" n="31">
+    <head>31. IVS IN PERDICES:</head>
+    <p> Teres in mortario piper, apio, menta et ruta, suffundis acetum, addis cariotam, mel, acetum,
+     liquamen, oleum. Simul coques et inferes. </p>
+   </div>
+
+  </body>
+ </text>
+
+</TEI>

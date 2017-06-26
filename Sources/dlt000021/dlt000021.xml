@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>De figuris</title>
+        <author>Aquila Romanus</author>
+        <respStmt>
+          <resp>Correzione linguistica</resp>
+          <name>Corinna Senore</name>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica XML</resp>
+          <name>Alice Borgna</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>DigilibLT</publisher>
+        <pubPlace>Vercelli</pubPlace>
+        <date>2012</date>
+        <availability>
+          <p>
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
+          </p>
+        </availability>
+        <idno>dlt000021</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Aquila Romanus, De figuris, a cura di Martina Elice, Hildesheim - Zurich - New York 2007
+        </p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+        <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+      </projectDesc>
+      <editorialDecl>
+
+        <p>
+          <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi>
+        </p>
+        <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+          l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni,
+          note e commenti e ogni altro contenuto redatto da editori moderni. </p>
+        <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+          correttezza di trascrizione</p>
+        <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+          distinzione u/v minuscole.</p>
+        <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+        <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+          grassetto, corsivo, spaziatura espansa.</p>
+        <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+          <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+          <hi rend="italic">loci desperati</hi>:
+          <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo† e
+          †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...]<lb/> lacuna integrata
+          dagli editori: <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+        </p>
+        <p>Sono stati marcati i termini in lingua greca
+          <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+        </p>
+        <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+            target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+            >Note di trascrizione e codifica di testi latini tardoantichi
+            [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+      </editorialDecl>
+
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latino</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="opus"><head>De Figuris</head>
+        <p><milestone unit="page" n="p. 22 HALM"/> Rhetoricos petis longioris morae ac diligentiae
+          quam pro angustiis temporis, quod me profecto urget, ideoque postea plenum hoc tibi munus
+          reddemus. In praesenti autem nomina ipsarum figurarum cum exemplis percurrisse sufficiat,
+          tantum praelocutus, quo maxime orator ab oratore differat unum, aut hoc certe esse
+          praecipuum, figuras sententiarum atque elocutionum. Nam inventio rerum cum acutis
+          hominibus, quos tamen oratores nondum appellare possis, communis est illis. Verborum
+          Latinorum scientiam et usum vel grammaticus sibi vindicat. Illi quoque mores, qui <foreign
+            xml:lang="grc">τρόποι</foreign> nominantur, ab eadem hac arte <del>id est
+            grammatica</del> non minus diligenter sunt cogniti quam ab oratore, sed quatenus cuique
+          generi materiae adhibere eos debeat, orator melius intelligit. Figurandarum sententiarum
+          et elocutionum proprium oratoris munus est. Hoc enim genere et parva extollit et angusta
+          dilatat, et cum celeritatem tum ornatum plerisque et vim <milestone unit="page"
+            n="p. 23 HALM"/> et pondus verbis ac sententiis <supplied>addit</supplied>: ad
+          permovendos quidem animos auditoris aut iudicis nihil aequale est. Quod sic facillime
+          intelligitur si, quae sunt figurate enuntiata apud magnos oratores, detractis figuris
+          eloqui velis; invenientur enim nequaquam dignitatem aut vim fandi retinentia. Sed
+          figurarum, sicut supra diximus, aliae sunt sententiarum, quae <foreign xml:lang="grc"
+            >διανοίας σχήματα</foreign> appellant, aliae elocutionis, quae <foreign xml:lang="grc"
+            >λέξεως σχήματα</foreign> vocantur. </p>
+        <p> Percurramus igitur sententiarum figuras; natura est enim prius sentire quam eloqui. </p>
+        <p><del><foreign xml:lang="grc">προδιόρθωσις</foreign></del> Praecedens correctio <lb/>
+          <foreign xml:lang="grc">προσωποποιία</foreign> Personae confictio <lb/>
+          <foreign xml:lang="grc">ἠθοποιία</foreign> Moralis confictio <lb/>
+          <foreign xml:lang="grc">ἀποσιώπησις</foreign> Reticentia <lb/>
+          <foreign xml:lang="grc">ἐπιτροχασμός</foreign> Percussio <lb/>
+          <foreign xml:lang="grc">εἰρωνεία</foreign> Simulatio <lb/>
+          <foreign xml:lang="grc">πῦσμα</foreign> Quaesitum <lb/>
+          <foreign xml:lang="grc">παράληψις</foreign> Praeteritio <lb/>
+          <foreign xml:lang="grc">ἀποστροφή</foreign> Aversatio <lb/>
+          <foreign xml:lang="grc">διαπόρησις</foreign> Addubitatio <lb/>
+          <foreign xml:lang="grc">ἐρώτημα</foreign> Interrogatio <lb/>
+          <foreign xml:lang="grc">διατύπωσις</foreign> Descriptio vel deformatio<lb/>
+          <foreign xml:lang="grc">ἀντεναγωγή</foreign> Compensatio<lb/>
+          <foreign xml:lang="grc">διασυρμός</foreign> Elevatio vel irrisio<lb/>
+          <foreign xml:lang="grc">μετάστασις</foreign> Transmotio <lb/>
+          <foreign xml:lang="grc">Προδιόρθωσις</foreign>, praecedens correctio. Haec figura, ubi
+          aliquid necessarium dictu, set insuave audientibus aut odiosum nobis dicturi sumus,
+          praemunit. Exemplum apud Ciceronem frequens: 'Quamquam sentio quanta hoc cum offensione
+          dicturus sim, dicendum est'. <lb/></p>
+        <p>
+          <supplied>
+            <foreign xml:lang="grc">Λεπτολογία</foreign>
+          </supplied> tale pro Gallio de convivio luxurioso: 'Fit clamor, fit convicium mulierum,
+          fit symphoniae cantus. Videbar mihi videre alios intrantes, alios autem exeuntes, partim
+          ex vino vacillantes, partim hesterna po<supplied>ta</supplied>tione oscitantes. Versabatur
+          inter hos Gallius unguentis oblitus, redimitus coronis: humus erat lutulenta vino, coronis
+          languidulis et spinis cooperta piscium'. Quod si hoc ipsum esse aliqui diatyposin, hoc est
+          descriptionem, volunt, intellegant nos non de universo loco, sed de executione singularum
+          rerum loqui: quas ita persecutus est, ut etiam minima quaeque demonstraret. </p>
+        <p><foreign xml:lang="grc">Προσωποποιία</foreign> est personae confictio. Haec figura
+          plurimum in se continet dignitatis, cum rem publicam ipsam loquentem inducimus, aut
+          defunctos aliquos quasi excitamus ab inferis et in conspectu iudicis collocantes oratione
+          hos circumdamus. Talis est illa pro Caelio Appii Caeci persona, inducta contra Clodiam ita
+          dicens: 'Mulier, quid tibi cum Caelio? Quid cum <supplied>homine</supplied> adulescentulo?
+          Quid cum alieno?' Saepe enim, quae nos ex nostra persona dicentes vix ferant iudices,
+          supposita dignitate personae liberius dici et convenientius poterunt. </p>
+        <p><foreign xml:lang="grc">Ἠθοποιία</foreign>, moralis confictio. Haec figura differt a
+          superiore eo, quod ibi et personas fingimus, quae nusquam sunt, hic certis <milestone
+            unit="page" n="p. 24 HALM"/> quibusdam <del>vel</del> personis verba accommodate
+          adfingimus, vel ad improbitatem earum demonstrandam vel ad dignitatem. Tale est illud pro
+          Quinctio: 'Quid Sextus Naevius? Ridet nostram amentiam scilicet, cum ab eo officia boni
+          viri desideremus. Et quem ad modum natus, inquit, et quem ad modum educatus sim, memini.
+          Vetus est «de scurra divitem facilius quam patrem familias fieri posse»' et cetera. </p>
+        <p><foreign xml:lang="grc">Ảποσιώπησις</foreign>, reticentia, cum intra nos supprimimus ea
+          quae dicturi videmur, quod aut turpia aut invidiosa aut alioquin nobis gravia dictu sunt,
+          ut est Demosthenicum illud prooemium: 'Non pari ego et adversarius periculo ad iudicium
+          venimus, sed mihi quidem — nolo quicquam initio dicendi ominosius proloqui'. Interdum
+          etiam utimur hac figura, quasi ad alia properemus. Tale est Vergilianum illud:<lb/>'Quos
+          ego! Sed motos praestat componere fluctus'.</p>
+        <p><foreign xml:lang="grc">Ἐπιτροχασμός</foreign>, percursio. Haec rursum figura differt a
+          coacervatione, quod <del>cum</del> illa res diversas pluresve in eundem locum confert,
+          haec distantia plura inter se percurrens velocitate ipsa circumponit, ut si velis dicere:
+          'Caesar in Italiam evolarat, Corfinium Domitio deiecto ceperat, Vrbe potiebatur, Pompeium
+          persequebatur'.</p>
+        <p><foreign xml:lang="grc">Εἰρωνεία</foreign>, simulatio, frequentissima apud oratores
+          figura, ubi aliud verbis significamus, aliud re sentimus. A quo genere figurae prooemium
+          pro Ligario sumptum est: 'Novum crimen, C. Caesar, et ante hunc diem inauditum' et
+          cetera.</p>
+        <p><foreign xml:lang="grc">Παράλειψις</foreign>, praeteritio. Frequens est huius figurae
+          usus, ubi quasi praetermittentes quaedam nihilo minus dicimus, sicut pro Milone tota illa
+          quaestio inducta est, qua docet e re publica <supplied>fuisse</supplied> occidi Clodium:
+          'Quod si non possem, inquit, diluere crimen, ut dilui, tamen gloriose haec praedicare
+          Miloni liceret'. Item de domo sua contra Clodium: 'Videsne <supplied>me</supplied> non
+          radicitus evellere totum tribunatum tuum?' et cetera <del>inquit</del>. Quae
+          praetermittere se ait, nihilo minus dicit. <milestone unit="page" n="p. 25 HALM"/> Vtemur
+          autem hoc adiumento in his, quae infirma vel invidiosa nobis futura sunt, si directo
+          dicantur. </p>
+        <p><foreign xml:lang="grc">Ἀποστροφή</foreign>, aversio, necessaria plerumque figura, ubi
+          quae ad alios dicta volumus, ad alios dicere videmur. Sic plerumque convertimus orationem
+          in reum ab iudice, cum illa tamen, quibus adversarium alloquimur, iudici allegentur.
+          Acutissimum exemplum in Philippicis Demosthenis, ubi quibus verbis populum Atheniensem
+          monitum vult, ea se dicit apud Argivos et Arcadas et Messenios contionatum. Invidiose et
+          M. Tullius cum saepe alias, tum pro Roscio convertit orationem ad Chrysogonum ab illo
+          loco: 'Rogar oratque te, Chrysogone', et cetera. </p>
+        <p><foreign xml:lang="grc">Διαπόρησις</foreign>, addubitatio. Hac utimur, cum propter aliqua
+          volumus videri addubitare et quasi ab ipsis iudicibus consilium capere, quo potissimum
+          genere orationis utamur, quale est pro Cluentio prooemium: 'Equidem quo me vertam,
+          iudices, nescio. Negem<del>us</del> fuisse <supplied>illam infamiam iudicii corrupti?
+            Negem esse</supplied> illam rem' et cetera. Item pro Cornelio: 'Pugnem aperte contra
+          nobilissimorum hominum voluntates? Studia, consilia cogitationesque eorum aperiam?' et
+          cetera: quae quasi dubitans an sibi facienda sint dicit. </p>
+        <p><foreign xml:lang="grc">Ἐρώτημα</foreign>, interrogatum. Eo utimur ubi exacervando
+          aliquid interrogamus et augemus eius invidiam, hoc modo: 'Fuisti<supplied>ne</supplied>
+          illo in loco? Dixistine, haec <supplied>ita</supplied> gesta esse?
+            Renuntiasti<supplied>ne</supplied> ea, quibus decepti sumus?'. Haec enim si sine
+          interrogatione dicantur ad hunc modum: 'Hic fuit illo in loco et ita gesta esse dixit et
+          falso renuntiando nos decepit', <del>haec</del>
+          <supplied>sic</supplied> prolata minus invidiose proferentur. </p>
+        <p><foreign xml:lang="grc">Πύσμα</foreign>, quaesitum. Hoc genus a superiore eo differt,
+          quod ad interrogatum una voce tantum responderi potest, vel a negante vel a confitente.
+          Quaesito autem occurri nisi pluribus non potest, hoc modo si dicas: 'Qua igitur ratione
+          bellum geremus? Quae auxilia <milestone unit="page" n="p. 26 HALM"/> nobis parata erunt?
+          Quis erit qui subvenire velit, cum tam acerbe socios tractaverimus?'. </p>
+        <p><foreign xml:lang="grc">Διατύπωσις</foreign>, descriptio vel deformatio, ubi rebus
+          subiectis personisque et formas ipsas et habitus describimus et exprimimus, ut Tullius hoc
+          modo: 'Ponite ante oculos Rullum, hasta posita in Pompeii castris, cum suis formosis
+          finitoribus auctionantem'. Item plenius pro Milone: 'Si haec non gesta audieritis, sed
+          picta videritis' et deformat Milonem in raeda sedentem paenulatum cum uxore, item Clodium
+          cum equo et delectis villa egredientem. Eodem modo pro Roscio <del>et</del> de Glaucia:
+          'Nonne vobis haec, quae audistis, oculis cernere videmini, iudices? Non posita<supplied>s
+            insidias</supplied>, non impetum repentinum? Non versatur ante oculos ipse Glaucia?' et
+          quae sequuntur. </p>
+        <p><foreign xml:lang="grc">Ἀντεισαγωγή</foreign>, compensatio. Est autem huius modi, ubi
+          aliquid difficile et contrarium confitendum est, sed contra inicitur non minus firmum.
+          Qualia sunt haec de rege Ptolemaeo apud Ciceronem: 'Difficilis ratio belli gerendi, at
+          plena fidei, piena pietatis'. Et si dicas: 'Magnus labor, multa pericula opponuntur. At
+          gloria ex his immortalis est consecutura'. </p>
+        <p><foreign xml:lang="grc">Διασυρμός</foreign>, elevatio vel irrisio. Ea figura est, qua
+          ludentes, quae dicuntur ab adversariis, dissolvimus. Qualis est ille locus pro Murena in
+          Sulpicium totus de iure civili. </p>
+        <p><foreign xml:lang="grc">Μετάστασιν</foreign>, transmotionem, quidam inter figuras
+          nominavit, cum rem a nobis alio transmovemus, non ita ut ibi causam constituamus. Alioquin
+          iam non figura erit, sed species quaedam eius status, quem qualitatis aut ex accidenti
+          appellant secundum Hermagoram. Ceterum alibi in parte aliqua orationis sententiam hoc modo
+          figuramus, quale est apud Demosthenem initio defensionis pro Ctesiphonte: 'Cum bellum,
+          inquit, Phocense conflatum esset, non per me; nondum enim ego ad rem publicam accesseram'.
+          Tale et illud pro Cornelio videri potest de aerario: 'Refertum, inquit, tribuniciis
+          legibus, exhaustum a quibus sit, ipsi sciunt'. <milestone unit="page" n="p. 27 HALM"/>
+        </p>
+        <p>Hae fere sunt ab elegantissimis electae figurae sententiarum, quibus si, ut adulescens
+          acerrimo ingenio, utebaris actus proprio motu animi aut etiam ex imitatione lectionis
+          Tullianae, prius etiam quam numeros earum nominaque perceperis, nihil mirum est. Omnia
+          enim fere, quae praeceptis continentur, ab ingeniosis hominibus et in dicendo se
+          exercentibus fiunt, sed casu quodam magis quam scientia. Ideoque doctrina et anidmaversio
+          adhibenda est, ut ea, quae interdum sine ratione nobis occurrunt, semper in nostra
+          potestate sint, et quotiens res postulaverit, a nobis ex praeparato adhibeantur. Nunc ad
+          figuras elocutionis transeamus: qua in traditione primum mihi videtur demonstrandum, quot
+          genera sint elocutionis quotque modis ea utamur.</p>
+        <p> Est igitur omnis oratio aut soluta, nulla inter se necessitate conexa numerorum, neque
+          composita membris quibusdam vel determinata certa circumscriptione verborum. Ea plerumque
+          in sermone assiduo et in epistulis utimur: interponitur autem et iudicialibus orationibus,
+          ubi aliquid simile et proximum sermoni volumus effingere. Aut perpetua, quam Graeci
+            <foreign xml:lang="grc">εἰρομένην λέξιν</foreign> appellant, quae ita conectitur, ut
+          superiorem elocutionem semper proxima sequatur atque ita seriem quandam significatus rerum
+          explicet. Ea praecipue historiae <supplied>et</supplied> descriptioni convenit, quae
+          tractum et fusum genus eloquendi, non conversum neque circumscriptum desiderat. Habet
+          saepe et in iudiciali genere dicendi usum necessarium si quando quasi decursu quodam uti
+          volumus, ut illa se habent in oratione Miloniana: 'Occidi, occidi non Spurium Maelium, qui
+          annona levanda iacturisque rei familiaris' et cetera <del>in vitam Clodii invehitur</del>.
+          Alia autem, quae ex ambitu constat, quem ambitum Graeci <foreign xml:lang="grc"
+            >περίοδον</foreign> appellant. Est autem ea quae sententiam certa quadam
+          circumscriptione definit atque determinat, qualis est haec: 'Si quantum in agro locisque
+          desertis audacia potest, tantum in foro et in iudiciis impudentia valeret, non minus nunc
+          Aulus Caecina cederet Sex. Aebutii impudentiae quam tum in vi faciunda cessit audaciae'.
+          Sed hic ambitus constat ex membris, quae <foreign xml:lang="grc">κῶλα</foreign> Graeci
+          vocant, et caesis, quae <foreign xml:lang="grc">κόμματα</foreign> appellant. Membrum
+          quidem est pars orationis ex pluribus <milestone unit="page" n="p. 28 HALM"/> verbis
+          absolute aliquid significans hoc modo: 'Etsi vereor, iudices, ne turpe sit pro fortissimo
+          viro dicere incipientem timere'. Caesum autem est pars orationis nondum ex duobus aut ex
+          pluribus verbis quicquam absolute significans, hoc modo: 'Etsi vereor, iudices, ne turpe
+          sit'. Nonnumquam tamen caesam dicimus orationem, quotiens non efficiuntur membra ex
+          conexione verborum, sed singula quodvis significantia proferuntur ad istum modum:
+            '<supplied>Quis est iste Lollius, qui sine ferro ne nunc quidem tecum est?</supplied>
+          Quis est iste Lollius? Armiger Catilinae, stipator tui corporis, concitator tabernariorum,
+          percussor virorum, lapidator fori, depopulator curiae'. Et alibi apud eundem oratorem:
+          'Comites illi delecti manus erant tuae: accensi, medici, aruspices, scribae manus erant
+          tuae: ut quisquis te familiaritate attigerat, ita maxime manus tua putabatur'. Constat
+          autem ambitus ex duobus membris, ex tribus membris et ex quattuor interdum, etsi nonnulli
+          ex uno membro putant ambitum posse compleri, quam <foreign xml:lang="grc">μονόκωλον
+            περίοδον</foreign> appellant. Ego autem non video, quem ad modum iam periodos
+          cognominetur et non potius colon, si unum sit. </p>
+        <p>His demonstratis, quae et ipsa possit aliquis figuris elocutionis adnumerare, ceteras
+          persequemur, si illud praedixerimus, optimam et efficacissimam orationem futuram, si et
+          hos ambitus habuerit, de quibus diximus, et in quibusdam partibus continuationem illam
+          perpetuae elocutionis assumpserit, et nonnumquam caesis interrupta fuerit. Nam ubi omnia
+          periodis explicantur, satietatem et fastidium ex similitudine parit, qualia sunt scripta
+          eorum, qui Isocraten male imitati sunt, quippe cum ipse Isocrates in hoc genere a
+          quibusdam improbetur. At ubi semper continuatur oratio, nec cola quasi respirationes ex
+          intervallis habet, quae respirationes definitionibus periodorum interponuntur, et dicentem
+          et audientem fatigat. Vbi vero caesa semper oratio est, nihil a sermone imperitorum
+          differre videtur. Quare permiscenda sunt haec et rebus pro condicione earum
+          accommodanda.</p>
+        <p> Differt autem figura elocutionis a figura sententiae hoc, quod sententiae figura
+          immutato verborum ordine vel translato manet nihilo minus. <milestone unit="page"
+            n="p. 29 HALM"/> Elocutionis autem, si detraxeris vel immutaveris verba vel ordinem
+          eorum non servaveris, manere non poterit. Εἰρωνεία sententiae figura, quam hoc modo
+          enuntiabo: 'Hic enim egregius auctor communium commodorum, custos et defensor rei
+          publicae, salus et columen civitatis': de quo contraria scilicet intelligi velim. Mutabo
+          verba, ordine eorum verso vel tota elocutione aliter explicata, sic: 'Namque iste, cuius
+          ope et auxilio videlicet civitas nititur': manebit ironia eadem neque laedetur verborum
+          immutatione. At vero si figura elocutionis sit, quam relatum Latine, Graece <foreign
+            xml:lang="grc">ἐπαναφοράν</foreign> vocamus, quae est huius modi: 'Ille auctor
+          discordiarum, ille dux seditionum omnium, ille in pace tumultuosus, ille proditor in
+          bello', et si illam partem orationis repetitam saepius in initio membrorum aut caesorum,
+          quae figuram facit, sustulero, et tantum semel dixero, subiungens et cetera, hoc modo:
+          'Ille, qui seditionum auctor, discordiarum concitator, in pace tumultuosus, in bello
+          proditor fuit': figuram elocutionis sustuli. Nonnumquam autem, immo plerumque concurrere
+          potest, ut sententiae figura coniungatur cum elocutionis figura, quo modo hoc enuntiatum
+          est: 'Ille amator patriae egregius, ille rei publicae custos, ille defensor libertatis ac
+          legum'. Cum hoc de eo dicatur, de quo contraria intellegi volumus, et ironia est, quae
+          figura sententiae est, et epanaphora, de qua cum maxime diximus, quae est elocutionis.
+          Nunc ad instituta pergamus.</p>
+        <p> Sunt igitur figurarum elocutionis aliae ad ornandam tantum et quasi ad pingendam
+          orationem accommodatae: quibus princeps fere Gorgias Leontinus usus est, sed sine modo. Et
+          ideo brevi oratio eius, quae initio audientes novitate permoverat, fastidium meruit.
+          Isocrates autem post eum parcius, nec non etiam ipse Demosthenes, sed tanta moderatione,
+          ut nusquam in taedium incurrant. Eas ergo primum exponemus. </p>
+        <p><foreign xml:lang="grc">Ἀντίθετον</foreign>, oppositum ex contrariis. Haec figura constat
+          ex eo quod verba pugnantia inter se par<supplied>ibus vocibus colliduntur vel
+            par</supplied>ia paribus opponuntur. <milestone unit="page" n="p. 30 HALM"/> Cuius modi
+          brevissimum est illud Ciceronis: 'Domus <supplied>tibi</supplied> deerat? At habebas.
+          Pecunia superabat? At egebas'. Vt si dicas: 'In pace ad vexandos cives acerrimus, in bello
+          ad oppugnandos hostes inertissimus'. </p>
+        <p><foreign xml:lang="grc">Ἰσόκωλον</foreign>, exaequatum membris. Fit autem quotiens non
+          pugnantibus inter se, sed paribus tantummodo verbis, duo vel etiam plura membra, quae
+            <foreign xml:lang="grc">κῶλα</foreign> dicimus, explicantur, ut si dicas hoc modo:
+          'Classem speciosissimam <supplied>et robustissimam</supplied> instruxit, exercitum
+          pulcherrimum et fortissimum legit'. Addere etiam tertium licet: 'Sociorum maximam et
+          fidelissimam manum comparavit', et longius eodem modo progredi, dum ne in fastidium
+          incurras. </p>
+        <p><foreign xml:lang="grc">Πάρισον</foreign>, prope aequatum. Differt autem a superiore,
+          quod ibi membrorum verba paria sunt numero, hic uno vel altero addito aut in superiore
+          membro aut in postremo pariter excurrunt, ut si hunc locum enunties: 'Neque gratia et
+          divitiis locupletum corruptus, neque minis et denuntiatione potentium perterritus, neque
+          difficultatibus et magnitudine rei a proposita ratione deiectus'. Hoc enim postremum
+          pluribus verbis quam superiora enuntiatum membrum longius produxit, quod fieri et in primo
+          potest, sed ibi opportunius, si, quo longius erit ceteris, initio praeponatur: in
+          posteriore autem, si ad postremum producitur. </p>
+        <p><foreign xml:lang="grc">Ὁμοιόπτωτον</foreign>, simile in casibus. Hoc ex eo nomen
+          accepit, quod membra illa, id est <foreign xml:lang="grc">κῶλα</foreign>, in eosdem casus
+          cadunt ad hunc modum: 'Huic igitur socios vestros criminanti et ad bellum vos cohortanti
+          et omnibus modis, ut in tumultu essetis, molienti'. Haec enim tria in eundem casum
+          determinata sunt. </p>
+        <p><foreign xml:lang="grc">Ὁμοιοτέλευτον</foreign>, simile determinatione. Differt a
+          superiore, quod illud quidem et casu et sono simili verba membrorum determinat: hoc vero
+          non solum casuum similitudine, sed cuiuscumque verbi atque enuntiationis contentum est,
+            <supplied>ut</supplied>: 'In muros statim curritur, exercitus a sociis arcessitur,
+          dilectus iuventutis denuntiatur'. </p>
+        <p><foreign xml:lang="grc">Παρονομασία</foreign>, levis immutatio. Haec figura ita ornat
+            <milestone unit="page" n="p. 31 HALM"/> orationem, ut in nomine aut in verbo interdum
+          syllaba, nonnumquam littera immutata diversa significet, ut si velis sic enunciare:
+          'Praetor iste vel potius praedo sociorum'. Et frequens illud apud veteres eius modi est:
+          'Cui quod libet, hoc licet'. Non indecore interim et prioris verbi postremitas
+          similitudine posterioris excipitur, ut se habet: 'Legem flagitasti, quae tibi non deerat:
+          erat enim diligentissime scripta'. </p>
+        <p><foreign xml:lang="grc">Πλοκή</foreign>, copulatio. Ea figura elocutionis, in qua idem
+          verbum aut nomen bis continuo positum, diversa significat, ut est illud: 'Sed tamen ad
+          illam diem Memmius erat Memmius'. Ita enim hoc bis positum est, ut superius quidem nomen
+          tantum significet hominis, posterius velit intellegi eundem qui semper fuerit ac sui
+          similem. </p>
+        <p><foreign xml:lang="grc">Παλιλλογία</foreign>, iteratio. Haec figura, repetito eodem verbo
+          aut nomine, non diversa vult intellegi, sed id quod significatur efficere vehementius.
+          Cuius modi est hoc: 'Ferro, ferro inquit, et hoc in iudicio dicit, te reieci atque
+          proterrui'. Repetitum enim hoc 'ferro' indignitatem rei atque audaciam eius, in quem
+          dicitur, impensius significat. Nec solum nomen aut verbum, sed omnis pars orationis
+          iterari ad eundem usum potest, ut cum dicitur: 'Tu, tu, Antoni, Caesari ruenti atque omnia
+          permiscere cupienti causam belli civilis dedisti'. </p>
+        <p>Atque hae duae figurae, superior et ista ipsa, de qua locuti sumus, non ad
+            <supplied>f</supplied>ormandam magis et exornandam orationem, ut illae superiores, sed
+          ad accendendam pugnam dicendi valent, sicut vel magis pleraeque earum quae consequentur.
+          Ideoque et Aristoteli et iteratio ipsa verborum ac nominum et repetitio frequentior et
+          omnis huius modi motus actioni magis et certamini quam stilo videtur convenire: qua de re
+          in tertio rhetoricarum artium libro disserit. Verum docet nos et Demosthenes et Cicero eam
+          optime orationem esse compositam, quae cum illa ornamenta parium et contrariorum et
+          immutatorum verborum habeat, ex quibus et ipsis tamen saepe non ornatior quam vehementior
+          fit oratio, si in tempore et cum modo assumantur, tum his, quae verae adfectionis speciem
+          praeferunt, excitetur. Ita enim maxime exemplum et imaginem veritatis continebit. </p>
+        <p><foreign xml:lang="grc">Ἐπανάληψις</foreign>, repetitio. Haec figura tantum a priore
+          distat, quod in illa quidem una pars orationis bis repetitur, tum coniunctim, tum
+            <milestone unit="page" n="p. 32 HALM"/> interposito uno aut altero verbo, quo
+          vehementior elocutio videtur fieri: at in hac ex plurium verborum continuatione repetita
+          idem quaeritur, ut si dicas: '<supplied>Patriae suae</supplied>, patriae suae, inquam, o
+          dii immortales, exitium est machinatus?' <supplied>et</supplied> hoc: 'Non potest, iam non
+          potest, inquam, libera haec civitas esse'. </p>
+        <p><foreign xml:lang="grc">Ἀναδίπλωσις</foreign>, replicatio. Rarum apud oratores figurae
+          genus, frequentius apud poetas: si quando tamen et in civilem orationem incidit, non
+          mediocrem dignitatem habet. Interest autem inter hoc et illa duo superiora tantum, quod
+          hic ea, quae in superiore membro postrema ponuntur, in posteriore prima repetuntur, ad
+          hunc modum: 'Concurrerat ad tantae rei nuntium, sicut commune civitatis periculum monebat,
+          senatus frequens, <unclear> equester ordo universus </unclear>'. Tale est et illud
+          Terentianum: 'Negat Phanium esse hanc sibi cognatam Demipho? Hanc Demipho negat esse
+          cognatam?' </p>
+        <p><foreign xml:lang="grc">Προσαπόδοσις</foreign>, redditio. Nomen haec figura ex eo
+          accepit, quod idem nomen in postrema parte membri, aut eadem quaecumque pars orationis
+          redditur, <del>est conexa</del> unde id membrum aut is ambitus coepit, ut si velis hoc
+          modo eloqui, cum quid quasi indigneris aut doleas: 'Tibi, sceleratissime omnium, imputare
+          omnes calamitates suas debet res publica, tibi'. Aut sic: 'Haec, pro dii immortales, in
+          civitate moliri ausus est Glaucia? <supplied>haec</supplied>?'. </p>
+        <p><foreign xml:lang="grc">Ἐπαναφορά</foreign>, quod relatum vocant. Hac figura vel
+          frequentissime et Demosthenes et M. Tullius et omnes vehementes oratores utuntur, ubi
+          praecipue et ipsi commoti videri volunt et iudicem commovere. Constat autem ex eo, quod
+          eadem pars orationis saepius per singulos ambitus aut per singula membra, interdum etiam
+          brevius per caesa, quae <foreign xml:lang="grc">κόμματα</foreign> appellant, ponitur hoc
+          modo: 'Verres calumniatorem apponebat, Verres de causa cognoscebat, Verres pronuntiabat'.
+            <milestone unit="page" n="p. 33 HALM"/> Aut si dicas: 'Ille venire hostes nuntiavit,
+          ille vos in metum belli compulit, ille in tumultu ut civitas esset effecit'. Per ambitum
+          autem repeti potest eadem pars orationis sic: 'Tam diu Tiberius Gracchus populo gratus
+          fuit, quam diu leges ad voluntatem eius, non ad utilitatem rei publicae compositas
+          ferebat: tam diu C. Gracchus, quam diu legibus agrariis et frumentariis et ceteris
+          profusionibus aerarii multitudinem imperitam promerebatur: tam diu Saturninus plurimum
+          potuit, quam diu easdem illas frumentarias largitiones et agri divisiones pollicebatur'. </p>
+        <p><foreign xml:lang="grc">Ἀντιστροφή</foreign>, conversum. Species huius figurae cum eandem
+          fere vim habeat, contraria est superiori, eo quod ibi ab eadem parte orationis saepius
+          incipitur, hic in eandem partem orationis desinitur. Cuius modi est haec pro Fonteio:
+          'Frumenti maximus numerus e Gallia, peditatus amplissimae copiae e Gallia, equites numero
+          plurimi e Gallia'. </p>
+        <p><foreign xml:lang="grc">Συμπλοκή</foreign>, conexum. Haec figura ex utraque earum, quas
+          supra demonstravimus, composita <del>est</del> utramque orationi speciem circumdat. Nam et
+          incipit saepius ab una parte orationis et totidem in unam atque eandem desinit, ut haec se
+          habet: 'Quis legem tulit? Rullus. Quis tribus sortitus est? Rullus. Quis decemviros
+            <supplied>quos voluit</supplied> creavit? Idem Rullus'. </p>
+        <p><foreign xml:lang="grc">Πολύπτωτον</foreign>, ex pluribus casibus. Hanc figuram ex eo
+          nominaverunt, quod cum saepius initium ab eadem parte orationis fiat, illa ipsa pars
+          declinationibus casuum aut generibus aut numeris immutatur. Casuum declinationibus hoc
+          modo: 'Senatus est summum imperii consilium: senatui rei publicae cura mandatur: ad
+          senatum in dubiis periculosisque rebus omnis civitas respicit'. Generibus autem hoc modo:
+          'Pulchra autem haec fama continget civitati, si optime meritum civem damnaverimus.
+          Pulchrum erit exteras nationes existimare, infestiores nos esse bonis quam malis. Pulchre
+          communibus utilitatibus consulemus, si, quos oppressos et hostes cupiere, nos
+          circumvenerimus'. Numeris autem sic: 'Grata semper singulis ordinibus fuerunt, quae
+          commodi eorum causa constituta sunt. Gratum ille superior <milestone unit="page"
+            n="p. 34 HALM"/> Africanus senatoribus fecit, qui primus eius ordinis subsellia a populo
+          liberavit'. </p>
+        <p><foreign xml:lang="grc">Συνωνυμία</foreign>, communio nominis. Vtimur autem eo genere
+          elocutionis, quotiens uno verbo non satis videmur dignitatem aut magnitudinem rei
+          demonstrare, ideoque in eiusdem significationem plura conferuntur, ut si dicas:
+          'Prostravit, adflixit, perculit'. </p>
+        <p><foreign xml:lang="grc">Ταυτολογία</foreign>, eadem pluribus verbis significat hoc
+          schema. Differt autem perexiguo a proxima superiori figura: ibi enim singulae partes ex
+          ordine idem significantes ponuntur, hic unius nominis aut verbi prius positi vis deinceps
+          pluribus verbis explicatur, ut si dicas: 'Senatus populi Romani summum consilium, a quo
+          ordine iura exterae nationes petunt'. Hic enim unum nomen 'senatus' prosecutionem accipit
+          ex pluribus verbis non aliud significantibus. Qui enim «summum consilium» dicit et «eum
+            <supplied>ordinem</supplied>, a quo exterae nationes iura petunt», non aliud quam
+          «senatum» dicit, sed proseguendo latius ornavit elocutionem. </p>
+        <p><foreign xml:lang="grc">Κλῖμαξ</foreign> quod Graeci vocant, ascensus nominetur a nobis.
+          Malo enim ascensum quam scalam aut gradiculos, ut quidam, dicere. Est autem figura perquam
+          decora et a Demosthene commendata, in qua postremum quodque verbum, in priore membro aut
+          parte aliqua elocutionis positum, in posteriorem rursum assumptum inicitur atque ita velut
+          gradibus quibusdam conectitur oratio, ad hunc modum: ponam enim ipsum Demosthenicum
+          versum: 'Et non dixi quidem haec, <supplied>non scripsi autem</supplied>; nec scripsi
+          quidem, non profectus sum autem ad legationem; nec profectus quidem, non persuasi autem
+          Thebanis <del>nec persuasi quidem</del>'. Haec autem animadvertis, quanto elatius dicta
+          sint, quam si simpliciter enuntiasset: 'Et dixi haec et scripsi et in legationem profectus
+          sum, <supplied>et</supplied> persuasi Thebanis'. Sic M. Tullius pro Milone: 'Neque vero se
+          populo solum, sed etiam senatui commisit, nec senatui modo, sed etiam publicis praesidiis
+          et armis, neque his tantum, sed etiam eius potestati, cui senatus totam rem publicam
+            <milestone unit="page" n="p. 35 HALM"/> commiserat. Parce autem usus est figura: nam in
+          tertio gradu contentus fuit dicere, 'neque his tantum', ne rursum totum illud repeteret,
+          'neque <del>solum</del> publicis praesidiis et armis tantum', videlicet quia et longum et
+          insuave futurum erat. Egregie autem et, ut mihi videtur, feliciter Licinius Calvus in
+          Vatinium: 'Non ergo pecuniarum magis repetundarum quam maiestatis,
+            <supplied>neque</supplied> maiestatis magis quam Plautiae legis, neque Plautiae legis
+          magis quam ambitus, neque ambitus magis quam omnium legum omnia iudicia perierunt'. </p>
+        <p><foreign xml:lang="grc">Ἀσύνδετον</foreign> Graeci quod nos solutum vocamus. Fit autem
+          ita ut demptis coniunctionibus et praepositionibus, quibus verba <del>et non verbis</del>
+          nominibus aut appellationibus <del>particulis</del> conectuntur, singulatim unumquodque
+          enuntiemus. Cuius rei frequentissimum exemplum est per totas orationes M. Tullii, sed vel
+          hoc unum ad exemplum sufficiet: 'Expecto vim edicti, severitatem praetoris, faveo aratori,
+          cupio octuplo damnari Apronium'. In his enim anidmavertimus nullam neque coniunctionem
+          neque praepositionem interpositam. Facit autem figura haec et ad celeritatem et ad vim
+          doloris aliquam significandam, <supplied>in</supplied> qua<supplied>m</supplied>
+          plerumque, cum commoti sumus, hoc modo incidere solemus. <lb/>Illud etiam praeceptum
+          habeto, actori verae causae numquam timendum esse, ne nimius sit in figuris sententiarum:
+          si enim fieri possit, ut omnes non ad aliquam utilitatem figurentur, non vitandum, verum
+          et optabile est. Elocutionis figuris modus adhibendus <supplied>est</supplied>, et iis
+          maxime, quas diximus ad ostentationem magis quam ad certamen facere, in quibus paria
+          paribus redduntur aut simili casu aut sono determinantur; in his etiam
+            <supplied>quae</supplied> iteratione verbi aut repetitione aut aliquocumque huius modi
+          motu accidunt. In elocutione tam diu commorandum erit, quam diu non in fastidium et
+          satietatem audientis incurrit. Melius itaque est pluribus <milestone unit="page"
+            n="p. 36 HALM"/> huius modi figuris uti et exemplis variari elocutionem quam diutius in
+          iisdem manere. </p>
+        <p><supplied><foreign xml:lang="grc">Διεζευγμένον</foreign></supplied> disiunctum <del>sive
+            iniunctum</del>. Haec figura ita ornat et amplificat orationem, ut diversis
+          redditionibus verborum membra, quae vocamus <foreign xml:lang="grc">κῶλα</foreign>,
+          disiungat ac separet, sive duo sive plura, hoc modo: 'Capuam colonis deductis occupabunt.
+          Atellam praesidio communient. Nuceriam, Cumas multitudine suorum obtinebunt. Cetera oppida
+          praesidiis devincient'. Tale est et illud: 'Venibit igitur sub praecone tota Propontis
+          atque Hellespontus, addicetur omnis ora Lyciorum atque Cilicum; Mysia et Phrygia
+            <del>veniet Propontis atque Hellespontus</del> eidem condicioni legique parebunt'.
+          Animadvertere autem potes, nihil interesse, utrum in postremis partibus membra
+          disiungantur vicissitate verborum, an in primis, an hoc vicissim fiat.</p>
+        <p>
+          <del><foreign xml:lang="grc">Διεζευγμένον</foreign> sive</del>
+          <foreign xml:lang="grc">ἐπεζευγμένον</foreign>
+          <del>disiunctum sive</del> iniunctum. Hoc genus exornationis diversam habet vim a figura
+          superiore: ibi enim copia verborum iactatur, hic brevitas. Nam ut in superiore singulis
+          membris singula diversa reddimus, ita hic plura in uno coniungimus. Quale est hoc: 'Quorum
+          ordo ab humili fortuna, a sordida natura, a turpi ratione abhorret'. Hoc enim postremum
+          'abhorret' ad tria refertur. Sin autem haec figura <unclear> tum ita ut in postremo sit
+            pars orationis, quae duo aut plura membra coniungat, tum in primo, tum in medio
+          </unclear> iniectionem sive <foreign xml:lang="grc">ἐπιβολήν</foreign> vocemus licet.
+          Praestat autem vim orationi pluribus verbis in eandem rem collatis, non idem
+          significantibus, sed maius semper ac maius aliquid, hoc modo: 'Verberatur, cruciatur,
+          necatur'. </p>
+        <p><foreign xml:lang="grc">Πλεονασμός</foreign>, plus necessarium. Eius figurae usus in eo
+          est, ut verba quaedam adiciamus, non tam enuntiandae rei necessaria, quam ut ex his
+          magnitudo vel dignitas vel moralis aliqua commentatio aut denique species motura iudicem
+          circumponatur. Alioquin, si nihil eorum <milestone unit="page" n="p. 37 HALM"/> additio
+          verbi efficit, vitiosa erit. Itaque si dicas 'M. Cato ille', quamvis sufficiat nomen
+          tantummodo posuisse, videaris <supplied>plus</supplied> significasse addito 'ille'. Item
+          hoc: 'Quae, malum, est ista voluntaria servitus?' cum possit satis significatum esse:
+          'Quaenam est ista voluntaria servitus?' plus quidem habuit ex eo quod 'malum' positum est. </p>
+        <p><foreign xml:lang="grc">Ἔλλειψις</foreign>, id est detractio, contraria superiori figura.
+          Ornatur oratio, cum verbum aliquod detrahimus a sua significatione, hoc modo: 'Et illi
+          quidem, qui a se morte inimici contumeliam reppulit, ignosco. Videntur autem mihi et
+          iudices, qui sententias pro illo tulerunt: nam multas fuisse audio'. Hic apparet
+            <supplied>to</supplied>tum illud deesse: 'Videntur autem mihi et iudices idem sensisse
+          vel ignovisse'. Sed quia intelligebatur, id detractum est, ut ipsa celeritate commotior
+          esset enuntiatio. </p>
+        <p>Hae fere sunt elocutionum figurae anidmaversione dignae. Iam illud sua
+            <supplied>quisque</supplied> sponte intelligere possit, saepe plures elocutionis figuras
+          concurrere. Nam qui sic loquitur: 'Athenienses Asiae panem eam, quae Ionia cognominata
+          est, coloniis communierunt: Dores Italiae eam regionem, quae <supplied>Magna</supplied>
+          Graecia nominata est, occupaverunt': tres in unum figuras contulit, <foreign
+            xml:lang="grc">ἰσόκωλον, ὁμοιόπτωτον, διεζευγμένον</foreign>. Itemque hoc et in ceteris
+          figuris accidere poterit. </p>
+        <p>Illud ad postremum praecipiendum videtur, ne proposita tibi figura, quaeras elocutionem
+          ei subiungere <supplied>et</supplied> ita verba colligas, ut in eam figuram, quam
+          destinaveris, incidant; infirmum enim hoc et puerile erit. <unclear> Hoc </unclear>
+          consuetudo multae lectionis, in qua figuras huiusmodi recognoscas, et assiduitas stili,
+          cum exercitatio ipsa commoverit dicendi facultatem, in has formas ultro incurrent, ut cum
+          quibus et quo tempore utendum sit, possis diiudicare. <unclear> Plurimum optimorum
+            Demosthenes praestabit M. Tullio, </unclear> ne <supplied>tamen</supplied>, dum copiam
+          imitamur, in nimietatem incidamus, cavendum est.<lb/>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

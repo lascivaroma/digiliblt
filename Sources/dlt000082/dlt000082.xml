@@ -1,0 +1,1276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>De die natali liber ad Q. Caerellium</title>
+                <author>Censorinus</author>
+                <respStmt>
+                    <resp>Correzione linguistica</resp>
+                    <name>Simona Musso</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica XML</resp>
+                    <name>Simona Musso</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>DigilibLT</publisher>
+                <pubPlace>Vercelli</pubPlace>
+                <date>2012</date>
+                <availability>
+                    <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+                </availability>
+                <idno>dlt000082</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Censorini De die natali liber ad Q. Caerellium ; accedit anonymi cuiusdam epitoma
+                    disciplinarum (Fragmentum Censorini), edidit Nicolaus Sallmann, B. G. Teubner,
+                    Leipzig 1983</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+                <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+            </projectDesc>
+            <editorialDecl>
+               
+                
+                <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+                <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+                    l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+                    e commenti e ogni altro contenuto redatto da editori moderni. </p>
+                <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+                    correttezza di trascrizione</p>
+                <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+                    distinzione u/v minuscole.</p>
+                <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+                <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+                    grassetto, corsivo, spaziatura espansa.</p>
+                <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+                    <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+                    <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+                    si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+                    [...]<lb/> lacuna integrata dagli editori:
+                    <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+                </p>
+                <p>Sono stati marcati i termini in lingua greca
+                    <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+                </p>
+                <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+                    target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+                    >Note di trascrizione e codifica di testi latini tardoantichi
+                    [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+            </editorialDecl>
+            
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latino</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="cap" n="1">
+                <p>
+                    <milestone unit="par" n="1"/> Munera ex auro vel quae <del>ex</del> argento
+                    nitent, caelato opere quam materia cariora, ceteraque hoc genus blandimenta
+                    fortunae inhiat is, qui vulgo dives vocatur; te autem, Quinte Caerelli, virtutis
+                    non minus quam pecuniarum divitem, id est vere divitem, ista non capiunt,
+                        <milestone unit="par" n="2"/> non quod eorum possessionem vel etiam usum a
+                    te omnino abieceris, sed quod sapientium disciplina formatus satis liquido
+                    conperisti huius modi sita in lubrico bona malave per se non esse, sed <foreign
+                        xml:lang="grc">τῶν μέσων</foreign>, hoc est bonorum malorumque media
+                    censeri. <milestone unit="par" n="3"/> “Haec”, ut comicus ait Terentius,
+                    “perinde sunt, ut illius est animus, qui ea possidet: qui uti scit, ei bona;
+                    illi, qui non utitur recte, mala.” <milestone unit="par" n="4"/> Igitur quoniam
+                    quisque non quanto plura possidet, sed quanto pauciora optat, tanto est
+                    locupletior, opes tibi in animo maximae, et eae quidem, quae non modo bona
+                    generis humani praecedant, sed quae ad deorum immortalium aeternitatem penitus
+                    accedant. Quod enim Xenophon Socraticus dicit: “nihil egere est deorum, quam
+                    minime autem proximum a deis.” <milestone unit="par" n="5"/> Quare cum dona
+                    pretiosa neque tibi per animi virtutem desint nec mihi per rei tenuitatem
+                    supersint, quodcumque hoc libri est meis opibus conparatum natalicii titulo tibi
+                    misi. <milestone unit="par" n="6"/> In quo non, ut plerisque mos est, aut ex
+                    ethica parte philosophiae praecepta ad beate vivendum, quae tibi scriberem,
+                    mutuatus sum, aut ex artibus rhetorum locos laudibus tuis celebrandis persecutus
+                    - ad id enim virtutum omnium fastigium ascendisti, ut cuncta ista, quae vel
+                    sapienter monentur vel facunde praedicantur, vita moribusque superaveris -, sed
+                    ex philologis commentariis quasdam quaestiunculas delegi, quae congestae possint
+                    aliquantum volumen efficere, <milestone unit="par" n="7"/> idque a me docendi
+                    studio vel ostentandi voto non fieri praedico, ne in me, ut vetus adagium est,
+                    iure dicatur: sus Minervam. <milestone unit="par" n="8"/>
+                    <supplied>Iam</supplied> vero cum tuo collatu scirem me plura didicisse, ne
+                    beneficiis tuis viderer ingratus, nostrorum veterum sanctissimorum hominum
+                    exempla sum secutus. <milestone unit="par" n="9"/> Illi enim quod alimenta
+                    patriam lucem se denique ipsos dono deorum habebant, ex omnibus aliquid deis
+                    sacrabant, magis adeo ut se gratos adprobarent quam quod deos hoc arbitrarentur
+                    indigere. <milestone unit="par" n="10"/> Itaque cum perceperant fruges, ante
+                    quam vescerentur, deis libare instituerunt, et cum agros adque urbes deorum
+                    munere possiderent, partem quandam templis sacellisque, ubi eos colerent,
+                    dicaverunt; quidam etiam pro cetera corporis bona valetudine crinem deo sacrum
+                    pascebant. <milestone unit="par" n="11"/> Ita ego, a quo plura in litteris
+                    percepi, tibi haec exigua reddo libamina.</p>
+            </div>
+            <div type="cap" n="2">
+                <p>
+                    <milestone unit="par" n="1"/> Nunc quoniam liber de die natali inscribitur, a
+                    votis auspicia sumantur. Itaque “hunc diem”, quod ait Persius, “numera meliore
+                    lapillo”, idque quam saepissime facias exopto et, quod idem subiungit, “funde
+                    merum Genio”. <milestone unit="par" n="2"/> Hic forsitan quis quaerat, quid
+                    causae sit, ut merum fundendum Genio, non hostia faciendum putaverit. Quod
+                    scilicet, ut Varro testatur in eo libro, cui titulus est Atticus et est de
+                    numeris, id moris institutique maiores nostri tenuerunt, ut, cum die natali
+                    munus annale Genio solverent, manum a caede ac sanguine abstinerent, ne die, qua
+                    ipsi lucem accepissent, alii demerent. <milestone unit="par" n="3"/> Denique
+                    Deli ad Apollinis Genitoris aram, ut Timaeus auctor est, nemo hostiam caedit.
+                    Illud etiam in hoc die observandum, quod Genio factum neminem oportet ante
+                    gustare quam eum, qui fecerit.</p>
+                <p>Sed et hoc a quibusdam saepe quaesitum solvendum videtur,
+                        qui<supplied>s</supplied> sit Genius, curve eum potissimum suo quisque
+                    natali veneremur. </p>
+            </div>
+            <div type="cap" n="3">
+                <p>
+                    <milestone unit="par" n="1"/> Genius est deus, cuius in tutela ut quisque natus
+                    est vivit. Hic sive quod ut genamur curat, sive quod una genitur nobiscum, sive
+                    etiam quod nos genitos suscipit ac tutatur, certe a genendo Genius appellatur.
+                        <milestone unit="par" n="2"/> Eundem esse Genium et Larem multi veteres
+                    memoriae prodiderunt, in quis etiam Granius Flaccus in libro, quem ad Caesarem
+                    de indigitamentis scriptum reliquit. Hunc in nos maximam, quin immo omnem habere
+                    potestatem creditum est. <milestone unit="par" n="3"/> Nonnulli binos Genios in
+                    his dumtaxat domibus, quae essent maritae, colendos putaverunt. Euclides autem
+                    Socraticus duplicem omnibus omnino nobis Genium dicit adpositum, quam rem apud
+                    Lucilium in libro saturarum XVI licet cognoscere. Genio igitur potissimum per
+                    omnem aetatem quotannis sacrificamus, <milestone unit="par" n="4"/> quamquam non
+                    solum hic sed et alii sunt praeterea dei conplures hominum vitam pro sua quisque
+                    portione adminiculantes, quos volentem cognoscere indigitamentorum libri satis
+                    edocebunt. Sed omnes hi semel in uno quoque homine numinum suorum effectum
+                    repraesentant, quocirca non per omne vitae spatium annuis religionibus
+                    arcessuntur. <milestone unit="par" n="5"/> Genius autem ita nobis adsiduus
+                    observator adpositus est, ut ne puncto quidem temporis longius abscedat, sed ab
+                    utero matris acceptos ad extremum vitae diem comitetur. Sed cum singuli homines
+                    suos tantummodo proprios colant natales, ego tamen duplici quotannis officio
+                    huiusce religionis adstringor; <milestone unit="par" n="6"/> nam cum ex te
+                    tuaque amicitia honorem dignitatem decus adque praesidium, cuncta denique vitae
+                    praemia recipiam, nefas arbitror, si diem tuum, qui te mihi in hanc lucem
+                    edidit, meo illo proprio neclegentius celebravero. Ille enim mihi vitam, hic
+                    vitae fructum adque ornamentum pepererunt.</p>
+            </div>
+            <div type="cap" n="4">
+                <p>
+                    <milestone unit="par" n="1"/> Quoniam aetas a die natali initium sumit suntque
+                    ante hunc diem multa, quae ad hominum pertinent originem, non alienum videtur de
+                    iis prius dicere, quae sunt natura priora. Igitur quae veteribus de origine
+                    humana fuerint opiniones, ex his quaedam breviter exponam. <milestone unit="par"
+                        n="2"/> Prima et generalis quaestio inter antiquos sapientiae studiosos
+                    versata est, quod, cum constet homines singulos ex parentum seminibus procreatos
+                    successione prolis multa saecula propagare, alii semper homines fuisse nec
+                    umquam nisi ex hominibus natos adque eorum generi caput exordiumque nullum
+                    extitisse arbitrati sunt, alii vero fuisse tempus, cum homines non essent, et
+                    his ortum aliquem principiumque natura tributum. <milestone unit="par" n="3"/>
+                    Sed prior illa sententia, qua semper humanum genus fuisse creditur, auctores
+                    habet Pythagoran Samium et Ocellum Lucanum et Archytan Tarentinum omnesque adeo
+                    Pythagoricos; sed et Plato Atheniensis et Xenocrates et Dicaearchus Messenius
+                    itemque antiquae Academiae philosophi non aliud videntur opinati. Aristoteles
+                    quoque Stagirites et Theophrastus multique praeterea non ignobiles peripatetici
+                    idem scripserunt eiusque rei exemplum dicunt, quo negant omnino posse reperiri,
+                    avesne ante an ova generata sint, cum et ovum sine ave et avis sine ovo gigni
+                    non possit. <milestone unit="par" n="4"/> Itaque et omnium, quae in sempiterno
+                    isto mundo semper fuerunt futuraque sunt, aiunt principium fuisse nullum, sed
+                    orbem esse quendam generantium nascentiumque, in quo unius cuiusque geniti
+                    initium simul et finis esse videatur. <milestone unit="par" n="5"/> Qui autem
+                    homines aliquos primigenios divinitus naturave factos crederent, multi fuerunt,
+                    sed aliter adque aliter haec existimatione versarunt. <milestone unit="par"
+                        n="6"/> Nam ut mittam, quod fabulares poetarum historiae ferunt, homines
+                    primos aut Promethei molli luto esse formatos aut Deucalionos Pyrrhaeque duris
+                    lapidibus enatos, quidam ex ipsis sapientiae professoribus nescio an magis
+                    monstruosas, certe non minus incredibiles rationum suarum proferunt opiniones.
+                        <milestone unit="par" n="7"/> Anaximander Milesius videri sibi ex aqua
+                    terraque calefactis exortos esse sive pisces seu piscibus simillima animalia; in
+                    his homines concrevisse fetusque ad pubertatem intus retentos, tunc demum ruptis
+                    illis viros mulieresque, qui iam se alere possent, processisse. Empedocles autem
+                    egregio suo carmine, quod eiusmodi esse praedicat Lucretius, “ut vix humana
+                    videatur stirpe creatus”, tale quiddam confirmat: <milestone unit="par" n="8"/>
+                    primo membra singula ex terra quasi praegnate passim edita, deinde coisse et
+                    effecisse solidi hominis materiam igni simul et umori permixtam. Cetera quid
+                    necesse est persequi, quae non capiant similitudinem veritatis? Haec eadem
+                    opinio etiam in Parmenide Veliensi fuit pauculis exceptis ab Empedocle
+                    dissensis. <milestone unit="par" n="9"/> Democrito vero Abderitae ex aqua
+                    limoque primum visum esse homines procreatos. Nec longe secus Epicurus. Is enim
+                    credidit limo calefacto uteros nescio quos radicibus terrae cohaerentes primum
+                    increvisse et infantibus ex se editis ingenitum lactis umorem natura ministrante
+                    praebuisse; quos ita educatos et adultos genus hominum propagasse. <milestone
+                        unit="par" n="10"/> Zenon Citieus, stoicae sectae conditor, principium
+                    humano generi ex novo mundo constitutum putavit primosque homines ex solo
+                    adminiculo divini ignis, id est dei providentia, genitos. <milestone unit="par"
+                        n="11"/> Denique etiam vulgo creditum est, ut plerique genealogoe auctores
+                    sunt, quarundam gentium, quae ex adventicia stirpe non sint, principes
+                    terrigenas esse, ut in Attica et Arcadia Thessaliaque, eosque autochthonas
+                    vocitari. In Italia Nymphas indigenasque Faunos nemora quaedam tenuisse non
+                    difficile rudis antiquorum credulitas recepit. <milestone unit="par" n="12"/>
+                    Nunc vero eo licentiae poeticae processit libido, ut vix auditu ferenda
+                    confingant post hominum memoriam progeneratis iam gentibus et urbibus conditis
+                    homines e terra diversis modis editos, ut in Attica fertur regione Erichthonius
+                    ex Vulcani semine humo exortus, et in Colchide vel Boeotia consitis anguis
+                    dentibus armati spartoe, e quibus mutua caede inter se necatis pauci superasse
+                    traduntur, qui in conditu Thebarum Cadmo fuerint adiumento; <milestone
+                        unit="par" n="13"/> nec non in agro Tarquiniensi puer dicitur divinitus
+                    exaratus nomine Tages, qui disciplinam cecinerit extispicii, quam lucumones tum
+                    Etruriae potentes exscripserunt.</p>
+            </div>
+            <div type="cap" n="5">
+                <p>
+                    <milestone unit="par" n="1"/> Hactenus de prima hominum origine. Ceterum quod ad
+                    praesentes nostros pertinet natales eorumque initia, quam potero conpendio
+                    dicam.</p>
+                <p><milestone unit="par" n="2"/> Igitur semen unde exeat, inter sapientiae
+                    professores non constat. Parmenides enim tum ex dextris tum e laevis partibus
+                        <unclear>id ire</unclear> putavit. Hipponi vero <del>et</del> Metapontino,
+                    sive, ut Aristoxenus auctor est, Samio ex medullis profluere semen videtur,
+                    idque eo probari, quod post admissionem pecudum si quis mares interimat,
+                    medullas utpote exhaustas non reperiat. <milestone unit="par" n="3"/> Sed hanc
+                    opinionem nonnulli refellunt, ut Anaxagoras, Democritus et Alcmaeon Crotoniates;
+                    hi enim post gregum contentionem non medullis modo, verum et adipe multaque
+                    carne mares exhauriri respondent. <milestone unit="par" n="4"/> Illud quoque
+                    ambiguam facit inter auctores opinionem, utrumne ex patris tantummodo semine
+                    partus nascatur, ut Diogenes et Hippon stoicique scripserunt, an etiam ex
+                    matris, quod Anaxagorae et Alcmaeoni nec non Parmenidi Empedoclique et Epicuro
+                    visum est. </p>
+                <p><milestone unit="par" n="5"/> De conformatione autem partus nihilo minus definite
+                    se scire Alcmaeon confessus est, ratus neminem posse perspicere, quid primum in
+                    infante formetur. </p>
+            </div>
+            <div type="cap" n="6">
+                <p>
+                    <milestone unit="par" n="1"/> Empedocles, quem in hoc Aristoteles secutus est,
+                    ante omnia cor iudicavit increscere, quod hominis vitam maxime contineat; Hippon
+                    vero caput, in quo est animi principale; Democritus alvum cum capite, quae
+                    plurumum habent ex inani; Anaxagoras cerebrum, unde omnes sunt sensus. Diogenes
+                    Apolloniates ex umore primum carnem fieri existimavit, tum ex carne ossa
+                    nervosque et ceteras partes enasci. <milestone unit="par" n="2"/> At stoici una
+                    totum infantem figurari dixerunt, ut una nascitur aliturque. Sunt qui id
+                    opinentur ipsa fieri natura, ut Aristoteles adque Epicurus; sunt qui potentia
+                    spiritus semen comitantis, ut stoici ferme universi; sunt qui aetherium calorem
+                    inesse arbitrentur, qui membra disponat, Anaxagoran secuti. <milestone
+                        unit="par" n="3"/> Vtcumque tamen formatus infans quemadmodum in matris
+                    utero alatur. Duplex opinio est. Anaxagorae enim ceterisque conpluribus per
+                    umbilicum cibus administrari videtur. At Diogenes et Hippon existimarunt esse in
+                    alvo prominens quiddam, quod infans ore adprehendat <supplied>et</supplied> ex
+                    eo alimentum ita trahat ut, cum editus est, ex matris uberibus.</p>
+                <p><milestone unit="par" n="4"/> Ceterum ut mares feminaeve nascantur, quid causae
+                    esset, varie ab isdem philosophis proditum est. Nam ex quo parente seminis
+                    amplius fuit, eius sexum repraesentari dixit Alcmaeon. Ex seminibus autem
+                    tenuioribus feminas, ex densioribus mares fieri Hippon adfirmat. <milestone
+                        unit="par" n="5"/> Vtrius vero parentis principium sedem prius occupaverit,
+                    eius reddi naturam Democritus rettulit. At inter se certare feminae et maris, et
+                    penes utrum victoria sit, eius habitum referri auctor est Parmenides. <milestone
+                        unit="par" n="6"/> Ex dextris partibus profuso semine mares gigni, at e
+                    laevis feminas Anaxagoras Empedoclesque consentiunt, quorum opiniones, ut de hac
+                    specie congruae, ita de similitudine liberorum dispariles; super qua re
+                    Empedocles disputata ratione talia profert: <milestone unit="par" n="7"/> si par
+                    calor in parentum seminibus fuit, patri similem marem procreari; si frigus,
+                    feminam matri similem. Quodsi <supplied>semen</supplied> patris calidius erit et
+                    frigidius matris, puerum fore, qui matris vultus repraesentet; at si calidius
+                    matris, patris autem fuerit frigidius, puellam futuram, quae patris reddat
+                    similitudinem. <milestone unit="par" n="8"/> Anaxagoras autem eius parentis
+                    faciem referre liberos iudicavit, qui seminis amplius contulisset. Ceterum
+                    Parmenidis sententia est. cum dexterae partes semina dederint, tunc filios esse
+                    patri, consimiles, cum laevae, tunc matri. <milestone unit="par" n="9"/>
+                    Sequitur de geminis, qui ut aliquando nascantur, modo seminis fieri Hippon ratus
+                        <supplied>est</supplied>: id enim cum amplius est quam uni satis fuit,
+                    bifariam deduci. <milestone unit="par" n="10"/> Id ipsum ferme Empedocles
+                    videtur sensisse; nam causas quidem, cur divideretur, non posuit, partiri
+                    tantummodo ait, et si utrumque sedes aeque calidas occupaverit, utrumque marem
+                    nasci, si frigidas aeque, utramque feminam; si vero alterum calidiorem, alterum
+                    frigidiorem, dispari sexu partum futurum.</p>
+            </div>
+            <div type="cap" n="7">
+                <p>
+                    <milestone unit="par" n="1"/> Superest dicere de temporibus, quibus partus
+                    soleant esse ad nascendum maturi. Qui locus eo mihi cura maiore tractandus est,
+                    quod quaedam necesse est de astrologia musicaque et arithmetica attingere.</p>
+                <p><milestone unit="par" n="2"/> Iam primum quoto post conceptionem mense infantes
+                    edi soleant, frequenter agitatum inter veteres nondum convenit. Hippon
+                    Metapontinus a septimo ad decimum mensem nasci posse aestimavit. Nam septimo
+                    partum iam esse maturum eo, quod in omnibus numerus septenarius plurimum possit,
+                    siquidem septem formemur mensibus, additisque alteris recti consistere
+                    incipiamus, et post septimum mensem dentes nobis innascantur, idemque post
+                    septimum cadant annum, quarto decimo autem pubescere soleamus. <milestone
+                        unit="par" n="3"/> Sed hanc a septem mensibus incipientem maturitatem usque
+                    ad decem perductam, ideo quod in aliis omnibus haec eadem natura est, ut septem
+                    mensibus annisve tres aut menses aut anni ad consummationem accedant. <milestone
+                        unit="par" n="4"/> Nam dentes septem mensum infanti nasci et maxime decimo
+                    perfici mense, septimo anno primos eorum excidere, decimo ultimos; post quartum
+                    decimum annum nonnullos, sed omnes intra septimum decimum annum pubescere. Huic
+                    opinioni in parte aliqua repugnant alii, in parte consentiunt. <milestone
+                        unit="par" n="5"/> Nam septimo mense parere mulierem posse plurimi
+                    adfirmant, ut Theano Pythagorica, Aristoteles peripateticus, Diocles, Euenor,
+                    Straton, Empedocles, Epigenes multique praeterea, quorum omnium consensus
+                    Euryphonem Cnidium non deterret id ipsum intrepide pernegantem. <milestone
+                        unit="par" n="6"/> Contra eum ferme omnes Epicharmum secuti octavo mense
+                    nasci negaverunt. Diocles tamen Carystius et Aristoteles Stagirites aliter
+                    senserunt. Nono autem et decimo mense cum Chaldaei plurimi et idem supra mihi
+                    nominatus Aristoteles edi posse partum putaverint, neque Epigenes Byzantius nono
+                    fieri posse contendit, nec Hippocrates Cous decimo. <milestone unit="par" n="7"
+                    /> Ceterum undecimum mensem Aristoteles solus recipit, ceteri universi
+                    inprobarunt.</p>
+            </div>
+            <div type="cap" n="8">
+                <p>
+                    <milestone unit="par" n="1"/> Sed nunc Chaldaeorum ratio breviter tractanda est
+                    explicandumque, cur septimo mense et nono et decimo tantummodo posse homines
+                    nasci arbitrentur. <milestone unit="par" n="2"/> Ante omnia igitur dicunt actum
+                    vitamque nostram stellis tam vagis quam statis esse subiectam, earumque vario
+                    multiplicique cursu genus humanum gubernari, sed ipsarum motus schemataque et
+                    effectus a sole crebro inmutari. Nam ut aliae occasum, nonnullae stationem
+                    faciant nosque omnes hac sua disparili temperatura adficiant, solis fieri
+                    potentia. <milestone unit="par" n="3"/> Itaque eum, qui stellas ipsas, quibus
+                    movemur, permovet, animam nobis dare, qua regamur, potentissimumque in nos esse
+                    moderarique, quando post conceptionem veniamus in lucem. Sed hoc per tres facere
+                    conspectus. Quid autem sit conspectus et quot eius genera, ut liquido perspici
+                    possit, pauca praedicam.</p>
+                <p><milestone unit="par" n="4"/> Circulus est, ut ferunt, signifer, quem Graeci
+                    vocant <foreign xml:lang="grc">ζωδιακόν</foreign>, in quo sol et luna ceteraeque
+                    stellae vagae feruntur. Hic in duodecim partes totidem signis redditas
+                    aequabiliter divisus est. Eum sol annuo spatio metitur; ita in unoquoque signo
+                    ferme unum mensem moratur. Sed signum quodlibet cum ceteris singulis habet
+                    mutuum conspectum, non tamen uniformem cum omnibus; nam validiores alii,
+                    infirmiores alii habentur. Igitur quo tempore partus concipitur, sol in aliquo
+                    signo sit necesse est <supplied>et</supplied> in aliqua eius particula, quem
+                    locum conceptionis proprie appellant. <milestone unit="par" n="5"/> Sunt autem
+                    hae particulae in unoquoque signo tricenae, totius vero zodiaci numero CCCLX.
+                    Has Graeci <foreign xml:lang="grc">μοίρας</foreign> cognominarunt eo videlicet,
+                    quod deas fatales nuncupant Moeras, et eae particulae nobis velut fata sunt; nam
+                    qua potissimum oriente nascamur plurimum refert. <milestone unit="par" n="6"/>
+                    Sol ergo cum in proximum signum transcendit, locum illum conceptionis aut
+                    inbecillo videt conspectu aut etiam nec conspicit; nam plures proximantia
+                    sibimet zodia invicem se videre omnino negaverunt. At cum in tertio est signo,
+                    hoc est uno medio interposito, tunc primum illum locum, unde profectus est,
+                    videre dicitur, sed valde obliquo et invalido lumine. Qui conspectus vocatur
+                        <foreign xml:lang="grc">κατὰ ἑξάγωνον</foreign>, quia sextam partem circuli
+                    subtendit. Nam <supplied>cum, ut</supplied> a primo zodio ad tertium, sic a
+                    tertio ad quintum, inde porro ad septimum ac deinceps alternae lineae
+                    emittantur, hexagoni aequilateralis forma in eodem circulo scribetur. <milestone
+                        unit="par" n="7"/> Hunc quidam conspectum non usquequaque receperunt, quod
+                    minimum ad maturitatem partus videbatur conferre. <milestone unit="par" n="8"/>
+                    Cum vero in quartum signum pervenit et media duo sunt, videt <foreign
+                        xml:lang="grc">κατὰ τετράγωνον</foreign>, quoniam linea illa, qua visus
+                    pertendit, quartam partem orbis abscidit. <milestone unit="par" n="9"/> Cum in
+                    quinto autem est tribus interiacentibus mediis, <foreign xml:lang="grc">κατὰ
+                        τρίγωνον</foreign> aspicit; nam tertiam signiferi partem visus ille metitur.
+                    Quae duae visiones tetragoni et trigoni perquam efficaces incrementum partus
+                    multum adminiculant. <milestone unit="par" n="10"/> Ceterum a loco sexto
+                    conspectus omni caret efficientia; eius enim linea nullius polygoni efficit
+                    latus. At a septimo zodio, quod est contrarium, plenissimus potentissimusque
+                    conspectus quosdam iam maturos infantes educit, qui septemmestres appellantur,
+                    quia septimo mense nascuntur. <milestone unit="par" n="11"/> At si intra hoc
+                    spatium maturescere uterus non potuerit, octavo mense non editur - ab octavo enim
+                    signo, ut a sexto, inefficax visus - sed vel nono mense vel decimo: <milestone
+                        unit="par" n="12"/> sol enim a nono zodio particulam conceptionis rursum
+                    conspicit <foreign xml:lang="grc">κατὰ τρίγωνον</foreign> et a decimo <foreign
+                        xml:lang="grc">κατὰ τετράγωνον</foreign>, qui conspectus, ut supra iam
+                    dictum est, perquam sunt efficaces. <milestone unit="par" n="13"/> Ceterum
+                    undecimo non putant nasci, quia languido iam radio infirmum lumen <foreign
+                        xml:lang="grc">κατὰ ἑξάγωνον</foreign> mittatur; multo minus duodecimo, unde
+                    conspectus pro nullo habetur. Itaque secundum hanc rationem <foreign
+                        xml:lang="grc">ἑπτάμηνοι</foreign> nascuntur <foreign xml:lang="grc">κατὰ
+                        διάμετρον, ἐννεάμηνοι</foreign> autem <foreign xml:lang="grc">κατὰ τρίγωνον,
+                        δεκάμηνοι</foreign> vero <foreign xml:lang="grc">κατὰ
+                    τετράγωνον</foreign>.</p>
+            </div>
+            <div type="cap" n="9">
+                <p>
+                    <milestone unit="par" n="1"/> Hac Chaldaeorum sententia explicata transeo ad
+                    opinionem Pythagoricam Varroni tractatam in libro, qui vocatur Tubero et intus
+                    subscribitur de origine humana. <milestone unit="par" n="2"/> Quae quidem ratio
+                    praecipue recipienda ad veritatem proxime videtur accedere. Alii enim plerique,
+                    cum omnes partus non uno tempore fiant maturi, una tamen eademque tempora
+                    omnibus conformandis dederunt; ut Diogenes Apolloniates, qui masculis corpus ait
+                    quattuor mensibus formari et feminis quinque, vel Hippon, qui diebus LX infantem
+                    scribit formari, et quarto mense carnem fieri concretam, quinto ungues
+                    capillumve nasci, septimo iam hominem esse perfectum. <milestone unit="par"
+                        n="3"/> Pythagoras autem, quod erat credibilius, dixit partus esse genera
+                    duo, alterum septem mensum, alterum decem, sed priorem aliis dierum numeris
+                    conformari, aliis posteriorem. Eos vero numeros, qui in uno quoque partu aliquid
+                    adferunt mutations, dum aut semen in sanguinem aut sanguis in carnem aut caro in
+                    hominis figuram convertitur, inter se conlatos rationem habere eam, quam voces
+                    habent, quae in musice <foreign xml:lang="grc">σύμφωνοι</foreign> vocantur.</p>
+            </div>
+            <div type="cap" n="10">
+                <p>
+                    <milestone unit="par" n="1"/> Sed haec quo sint intellectu apertiora, prius
+                    aliqua de musicae regulis huic loco necessaria dicentur, eo quidem magis, quod
+                    ea dicam, quae ipsis musicis ignota sunt. <milestone unit="par" n="2"/> Nam
+                    sonos scienter tractavere et congruenti ordine <supplied>ordinem</supplied>
+                    reddidere illorum, ipsis autem sonis motuum modum mensuramque invenere geometrae
+                    magis quam musici. <milestone unit="par" n="3"/> Igitur musica est scientia bene
+                    modulandi. Haec autem est in voce, sed vox alias gravior mittitur, alias
+                    acutior. Singulae tamen voces simplices et utcumque emissae <foreign
+                        xml:lang="grc">φθόγγοι</foreign> vocantur. Discrimen vero, quo alter
+                        <foreign xml:lang="grc">φθόγγος</foreign> acutior est, alter gravior,
+                    appellatur <foreign xml:lang="grc">διάστημα</foreign>. <milestone unit="par"
+                        n="4"/> Inter infimam summamque vocem multa esse possunt in ordine positaque
+                    diastemata alia aliis maiora minorave, ut est illud, quod <foreign
+                        xml:lang="grc">τόνον</foreign> appellant, vel hoc minus <foreign
+                        xml:lang="grc">ἡμιτόνιον</foreign>, vel duorum triumve ac deinceps aliquot
+                    tonorum intervallum. Sed non promisce voces omnes cum aliis ut libet iunctae
+                    concordabiles in cantu reddunt effectus. <milestone unit="par" n="5"/> Vt
+                    litterae nostrae, si inter se passim iungantur et non congruenter, saepe nec
+                    verbis nec syllabis copulandis concordabunt, sic in musica, quaedam certa sunt
+                    intervalla, quae symphonias possint efficere. <milestone unit="par" n="6"/> Est
+                    autem symphonia duarum vocum disparium inter se iunctarum dulcis concentus.
+                    Symphoniae simplices ac primae sunt tres, quibus reliquae constant: una duorum
+                    tonorum et hemitonii habens <foreign xml:lang="grc">διάστημα</foreign>, quae
+                    vocatur <foreign xml:lang="grc">διὰ τεσσάρων</foreign>; alia trium et hemitonii,
+                    quam vocant <foreign xml:lang="grc">διὰ πέντε</foreign>; tertia est <foreign
+                        xml:lang="grc">διὰ πασῶν</foreign>, cuius diastema continet duas priores.
+                        <milestone unit="par" n="7"/> Est enim vel sex tonorum, ut Aristoxenus
+                    musicique adseverant, vel quinque et duorum hemitoniorum, ut Pythagoras
+                    geometraeque demonstrantes duo hemitonia tonum conplere non posse; quare etiam
+                    huius modi intervallum Plato abusive <foreign xml:lang="grc"
+                    >ἡμιτόνιον</foreign>, proprie autem <foreign xml:lang="grc">διάλειμμα</foreign>
+                    appellat.</p>
+                <p>
+                    <milestone unit="par" n="8"/> Nunc vero, ut liquido appareat, quemadmodum voces
+                    nec sub oculos nec sub tactum cadentes habere possint mensuras, admirabile
+                    Pythagorae referam commentum, qui secreta naturae reserando repperit phthongos
+                    musicorum convenire ad rationem numerorum. Nam chordas aeque crassas parique
+                    longitudine diversis ponderibus tetendit, quibus saepe pulsis nec phthongis ad
+                    ullam symphonian concordantibus pondera mutabat, et identidem frequenter
+                    expertus postremo deprehendit tunc duas chordas concinere id quod est <foreign
+                        xml:lang="grc">διὰ τεσσάρων</foreign>, cum earum pondera inter se conlata
+                    rationem haberent, quam tria ad quattuor, quem phthongon arithmetici Graeci
+                        <foreign xml:lang="grc">ἐπίτριτον</foreign> vocant, Latini supertertium.
+                        <milestone unit="par" n="9"/> At eam symphoniam, quae <foreign
+                        xml:lang="grc">διὰ πέντε</foreign> dicitur, ibi invenit, ubi ponderum
+                    discrimen in sescupla erat portione, quam duo faciunt ad tria conlata, quod
+                        <foreign xml:lang="grc">ἡμιόλιον</foreign> appellant. Cum autem altera
+                    chorda duplo maiore pondere quam altera tenderetur et esset <foreign
+                        xml:lang="grc">διπλασίων λόγος, διὰ πασῶν</foreign> sonabat. <milestone
+                        unit="par" n="10"/> Hoc et in tibiis si conveniret temptavit, nec aliud
+                    invenit. Nam quattuor tibias pari cavo paravit, inpares longitudine: primam
+                    verbi causa longam digitos sex, secundam tertia parte addita, id est digitorum
+                    VIII, tertiam digitorum VIIII, sescuplo longiorem quam primam, quartam vero XII
+                    digitorum, quae primam longitudine duplicaret. <milestone unit="par" n="11"/>
+                    His itaque inflatis et binarum facta conlocatione omnium musicorum auribus
+                    adprobavit primam et secundam reddere eam convenientiam, quam reddit <foreign
+                        xml:lang="grc">διὰ τεσσάρων</foreign> symphonia, ibique esse portionem
+                    supertertiam; inter primam vero ac tertiam tibiam, ubi sescupla portio est,
+                    resonare <foreign xml:lang="grc">διὰ πέντε</foreign>; primae autem quartaeque
+                    intervallum, quod habet duplam portionem, <foreign xml:lang="grc"
+                        >διάστημα</foreign> facere <foreign xml:lang="grc">διὰ πασῶν</foreign>.
+                        <milestone unit="par" n="12"/> Sed inter tibiarum chordarumque naturam hoc
+                    interest, quod tibiae incremento longitudinis fiunt graviores, chordae autem
+                    augmento additi ponderis acutiores. Vtrubique tamen eadem portio est.</p>
+            </div>
+            <div type="cap" n="11">
+                <p>
+                    <milestone unit="par" n="1"/> His expositis forsitan quidem obscure, sed quam
+                    potui lucidissime, redeo ad propositum, ut doceam, quid Pythagoras de numero
+                    dierum ad partus pertinentium senserit. <milestone unit="par" n="2"/> Primum, ut
+                    supra memoravi generaliter, duos esse partus omnino dixit, alterum minorem, quem
+                    vocant septemmestrem, qui decimetducentesimo die post conceptionem exeat ab
+                    utero, alterum maiorem decemmestrem, qui edatur die ducentesimo septuagensimo
+                    quarto. Quorum prior ac minor senario maxime continetur numero. <milestone
+                        unit="par" n="3"/> Nam quod ex semine conceptum est, sex, ut ait, primis
+                    diebus umor est lacteus, deinde proximis octo sanguineus: qui octo cum ad primos
+                    sex accesserunt, faciunt primam symphonian <foreign xml:lang="grc">διὰ
+                        τεσσάρων</foreign>. Tertio gradu novem dies accedunt iam carnem facientes.
+                    Hi cum sex illis primis conlati sescuplam faciunt rationem et secundam
+                    symphonian <foreign xml:lang="grc">διὰ πέντε</foreign>. Tum deinceps sequentibus
+                    duodecim diebus fit corpus iam formatum. Horum quoque ad eosdem sex conlatio
+                    tertiam <foreign xml:lang="grc">διὰ πασῶν</foreign> reddit symphonian duplici
+                    rationi subiectam. <milestone unit="par" n="4"/> Hi quattuor numeri VI VIII
+                    VIIII XII coniuncti faciunt dies XXXV. Nec inmerito senarius fundamentum
+                    gignendi est. Nam eum <foreign xml:lang="grc">τέλειον</foreign> Graeci, nos
+                    autem perfectum vocamus, quod eius partes tres, sexta et tertia et dimidia, id
+                    est unus et duo et tres, eundem ipsum perficiunt. <milestone unit="par" n="5"/>
+                    Sed ut initia seminis et lacteum illud conceptionis fundamentum primitus hoc
+                    numero absolvitur, sic hoc initium formati hominis et velut alterum maturescendi
+                    fundamentum, quod est quinque et triginta dierum, sexies ductum, cum ad diem
+                    ducentesimum decimum pervenit, maturum procreatur.</p>
+                <p><milestone unit="par" n="6"/> Alter autem ille partus, qui maior est, maiori
+                    numero continetur, septenario scilicet, quo tota vita humana finitur, ut et
+                    Solon scribit et Iudaei in dierum omnium numeris secuntur Etruscorumque libri
+                    rituales videntur indicare. Hippocrates quoque aliique medici in corporum
+                    valitudinibus non aliud ostendunt; nam septimum quemque diem <foreign
+                        xml:lang="grc">κρίσιμον</foreign> observant. <milestone unit="par" n="7"/>
+                    Itaque ut alterius partus origo in sex est diebus, post quos semen in sanguinem
+                    vertitur, ita huius in septem, et ut ibi quinque et triginta diebus infans
+                    membratur, ita hic pro portione diebus fere quadraginta. Quare in Graecia dies
+                    habent quadragensimos insignes. Namque praegnans ante diem quadragensimum non
+                    prodit in fanum, et post partum quadraginta diebus pleraeque fetae graviores
+                    sunt nec sanguinem interdum continent, et parvoli infirmi per hos <del>fer</del>
+                        e<supplied>t</supplied> morbidi sine risu nec sine periculo sunt. Ob quam
+                    causam, cum is dies praeteriit, diem festum solent agitare, quod tempus
+                    appellant <foreign xml:lang="grc">τεσσερακοσταῖον</foreign>. <milestone
+                        unit="par" n="8"/> Hi igitur dies quadraginta per septem illos initiales
+                    multiplicati fiunt dies ducenti octoginta, id est hebdomadae quadraginta. Sed
+                    quoniam ultimae illius hebdomadis primo die editur partus, sex dies decedunt et
+                    ducentesimus septuagensimus quartus observatur. Qui numerus dierum ad tetragonum
+                    illum Chaldaeorum conspectum subtiliter congruit: <milestone unit="par" n="9"/>
+                    nam cum signiferum orbem diebus CCCLXV et aliquot horis sol circumeat, quarta
+                    necesse est parte dempta, id est diebus LXXXXI aliquotque horis, tres quadras
+                    reliquis diebus CCLXXIIII non plenis percurrat, usque dum perveniat ad id loci,
+                    unde conceptionis initium quadratus aspiciat.</p>
+                <p><milestone unit="par" n="10"/> Vnde autem mens humana dies istos commutationis
+                    speculari et arcana naturae rimari potuerit, nemo miretur. Haec enim frequens
+                    medicorum experientia pervidit, qui cum multas animadverterent semen non
+                    retinere conceptum, conpertum habuerunt id, quod intra sex dies septemve
+                    eiciebatur, esse lacteum, et vocaverunt <foreign xml:lang="grc"
+                        >ἔκρυσιν</foreign>, quod postea autem sanguineum, idque <foreign
+                        xml:lang="grc">ἐκτρωσμός</foreign> appellatus. <milestone unit="par" n="11"
+                    /> Quod vero ambo partus videntur paribus dierum numeris contineri, Pythagoras
+                    inparem laudat, tamen a secta non discrepat. Duo enim inpares CCVIIII et
+                    CCLXXIII dicit expleri, ad quorum consummationem aliquid ex sequentibus
+                    accedere, quod tamen diem solidum non adferat. <milestone unit="par" n="12"/>
+                    Cuius exemplum videmus tam in anni quam mensis spatio servasse naturam, cum et
+                    anni inparem dierum trecentorum sexaginta quinque numerum aliquanto cumulaverit
+                    et mensi lunari ad dies undetriginta aliquid addiderit.</p>
+            </div>
+            <div type="cap" n="12">
+                <p>
+                    <milestone unit="par" n="1"/> Nec vero incredibile est ad nostros natales
+                    musicam pertinere. Haec enim sive in voce tantummodo est, ut Socrates ait, sive,
+                    ut Aristoxenus, in voce et corporis motu, sive in his et praeterea in animi
+                    motu, ut putat Theophrastus, certe multum obtinet divinitatis et animis
+                    permovendis plurimum valet. <milestone unit="par" n="2"/> Nam nisi grata esset
+                    deis inmortalibus, qui ex anima constant divina, profecto ludi scenici
+                    placandorum deorum causa instituti non essent, nec tibicen omnibus
+                    supplicationibus in sacris aedibus adhiberetur, non cum tibicine Marti triumphus
+                    ageretur, non Apollini cithara, non Musis tibiae ceteraque id genus essent
+                    adtributa, non tibicinibus, per quos numina placantur, esset permissum aut ludos
+                    publice facere ac vesci in Capitolio, aut Quinquatribus minusculis, id est
+                    idibus Iuniis urbem vestitu, quo vellent, personatis temulentisque pervagari.
+                        <milestone unit="par" n="3"/> Hominum quoque mentes et ipsae, quamvis
+                    Epicuro reclamante, divinae suam naturam per cantus agnoscunt. Denique quo
+                    facilius sufferant laborem, vel in navis meatu a rectore symphonia adhibetur.
+                    Legionibus quoque in acie dimicantibus etiam metus mortis classico depellitur.
+                        <milestone unit="par" n="4"/> Ob quam rem Pythagoras, ut animum sua semper
+                    divinitate imbueret, priusquam se somno daret et cum esset expergitus, cithara,
+                    ut ferunt, cantare consueverat, et Asclepiades medicus phreneticorum mentes
+                    morbo turbatas saepe per symphonian suae naturae reddidit. Herophilus autem,
+                    artis eiusdem professor, venarum pulsus rhythmis musicis ait moveri. <milestone
+                        unit="par" n="5"/> Itaque si et in corporis et in animi motu est harmonia,
+                    procul dubio a natalibus nostris musica non est aliena.</p>
+            </div>
+            <div type="cap" n="13">
+                <p>
+                    <milestone unit="par" n="1"/> Ad haec accedit quod Pythagoras prodidit hunc
+                    totum mundum musica factum ratione, septemque stellas inter caelum et terram
+                    vagas, quae mortalium geneses moderantur, motum habere <foreign xml:lang="grc"
+                        >ἔνρυθμον</foreign> et intervalla musicis diastematis congrua, sonitusque
+                    varios reddere pro sua quasque altitudine ita concordes, ut dulcissimam quidem
+                    concinant melodian, sed nobis inaudibilem propter vocis magnitudinem, quam
+                    capere aurium nostrarum angustiae non possint. <milestone unit="par" n="2"/> Nam
+                    ut Eratosthenes geometrica ratione collegit maximum terrae circuitum esse
+                    stadiorum ducentum quinquaginta duum milium, ita Pythagoras, quot stadia inter
+                    terram et singulas stellas essent, indicavit. Stadium autem in hac mundi mensura
+                    id potissimum intellegendum est, quod Italicum vocant, pedum sescentum viginti
+                    quinque; nam sunt praeterea et alia longitudine discrepantia, ut Olympicum, quod
+                    est pedum sescentum, item Pythicum pedum M.</p>
+                <p><milestone unit="par" n="3"/> Igitur ab terra ad lunam Pythagoras putavit esse
+                    stadiorum circiter centum viginti sex milia, idque esse toni intervallum; a luna
+                    autem ad Mercuri stellam, quae Stilbon vocatur, dimidium eius, velut hemitonion;
+                    hinc ad Phosphoron, quae est Veneris stella, fere tantundem, hoc est aliud
+                    hemitonion; inde porro ad solem ter tantum, quasi tonum et dimidium. <milestone
+                        unit="par" n="4"/> Itaque solis astrum abesse a terra tonos tres et
+                    dimidium, quod vocatur <foreign xml:lang="grc">διὰ πέντε</foreign>, a luna autem
+                    duos et dimidium, quod est <foreign xml:lang="grc">διὰ τεσσάρων</foreign>. A
+                    sole vero ad stellam Martis, cui nomen est Pyrois, tantumdem intervalli esse
+                    quantum a terra ad lunam, idque facere tonon; hinc ad Iovis stellam, quae
+                    Phaethon appellatur, dimidium eius, quod faciat hemitonion; tantundem a Iove ad
+                    Saturni stellam, cui Phaenon nomen est, id est aliud hemitonion; inde ad summum
+                    caelum, ubi signa sunt, perinde hemitonion. <milestone unit="par" n="5"/> Itaque
+                    a caelo summo ad solem diastema esse <foreign xml:lang="grc">διὰ
+                        τεσσάρων</foreign>, id est duum tonorum et dimidi, a<supplied>d</supplied>
+                    terrae autem summitatem ab eodem caelo tonos esse sex, in quibus sit <foreign
+                        xml:lang="grc">διὰ πασῶν</foreign> symphonia.</p>
+                <p>Praeterea multa, quae musici tractant, ad alias rettulit stellas et hunc omnem
+                    mundum ἐναρμόνιον esse ostendit. Quare Dorylaus scripsit esse mundum organum
+                    dei. Alii addiderunt esse id <foreign xml:lang="grc">ἑπτάχορδον</foreign>, quia
+                    septem sint vagae stellae, quae plurimum moveantur. <milestone unit="par" n="6"
+                    /> Sed his omnibus subtiliter tractandis hic locus non est. Quae si vellem in
+                    unum librum separatim congerere, tamen in angustiis versarer. Quin potius,
+                    quoniam me longius dulcedo musicae abduxit, ad propositum revertor.</p>
+            </div>
+            <div type="cap" n="14">
+                <p>
+                    <milestone unit="par" n="1"/> Igitur expositis iis, quae ante diem natalem sunt,
+                    nunc ut <foreign xml:lang="grc">κλιμακτηρικοί</foreign> anni noscantur, quid de
+                    gradibus aetatis humanae sensum sit, dicam. <milestone unit="par" n="2"/> Varro
+                    quinque gradus aetatis aequabiliter putat esse divisos, unumquemque scilicet
+                    praeter extremum in annos quindecim. Itaque primo gradu usque annum quintum
+                    decimum pueros dictos, quod sint puri, id est inpubes. Secundo ad tricensimum
+                    annum adulescentes, ab alescendo sic nominatos. In tertio gradu qui erant usque
+                    quinque et quadraginta annos, iuvenes appellatos eo quod rem publicam in re
+                    militari possent iuvare. In quarto autem adusque sexagensimum annum seniores
+                    vocitatos, quod tunc primum senescere corpus inciperet. Inde usque finem vitae
+                    uniuscuiusque quintum gradum factum, in quo qui essent, senes appellatos, quod
+                    ea aetate corpus iam senio laboraret.</p>
+                <p><milestone unit="par" n="3"/> Hippocrates medicus in septem gradus aetates
+                    distribuit. Finem primae putavit esse septimum annum, secundae quartum decimum,
+                    tertiae duodetrice<supplied>n</supplied>simum, quartae tricensimum quintum,
+                    quintae duoetquadragensimum, sextae quinquagensimun sextum, septimae novissimum
+                    annum vitae humanae. <milestone unit="par" n="4"/> Solon autem decem partes
+                    fecit, et Hippocratis gradum tertium et sextum et septimum singulos bifariam
+                    divisit, ut unaquaeque aetas annos haberet septenos. <milestone unit="par" n="5"
+                    /> Staseas peripateticus ad has Solonis decem hebdomadas addidit duas, et
+                    spatium plenae vitae quattuor et octoginta annorum esse dixit; quem terminum si
+                    quis praeterit, facere idem quod <foreign xml:lang="grc">σταδιοδρόμοι</foreign>
+                    ac quadrigae faciunt, cum extra finem procurrunt. <milestone unit="par" n="6"/>
+                    Etruscis quoque libris fatalibus aetatem hominis duodecim hebdomadibus discribi
+                    Varro commemorat. Quae dum <supplied>ad novies septenos annos prodigiis privatim
+                        factis perferreretur</supplied>, ad decies septenos annos posse fatalia
+                    deprecando rebus divinis proferri, ab anno autem septuagensimo nec postulari
+                    debere nec posse ab deis impetrari; ceterum post annos octoginta quattuor a
+                    mente sua homines abire, neque his fieri prodigia.</p>
+                <p><milestone unit="par" n="7"/> Sed ex eis omnibus proxime videntur adcessisse
+                    naturam, qui hebdomadibus humanam vitam emensi sunt. Fere enim post septimum
+                    quemque annum articulos quosdam et in his aliquid novi natura ostendit, ut et in
+                    elegia Solonis cognoscere datur. Ait enim in prima hebdomade dentes homini
+                    cadere, in secunda pubem apparere, in tertia barbam nasci, in quarta vires, in
+                    quinta maturitatem ad stirpem relinquendam, in sexta cupiditatibus temperari, in
+                    septima prudentiam linguamque consummari, in octava eadem manere - in qua alii
+                    dixerunt oculos hebescere -, in nona omnia fieri languidiora, in decima hominem
+                    morti fieri maturum. <supplied><gap/></supplied> tamen in secunda hebdomade vel
+                    incipiente tertia vocem crassiorem et inaequabilem fieri, quod Aristoteles
+                    appellat <foreign xml:lang="grc">τραγίζειν</foreign>, antiqui nostri
+                    irquitallire, et inde ipsos putant irquitallos appellari, quod tum corpus ircum
+                    olere incipiat. <milestone unit="par" n="8"/> De tertia autem aetate
+                    adulescentulorum tres gradus esse factos in Graecia priusquam ad viros
+                    perveniatur, quod vocent annorum quattuordecim <foreign xml:lang="grc"
+                        >παῖδα</foreign>, <foreign xml:lang="grc">μελλέφηβον</foreign> autem
+                    quindecim, dein sedecim <foreign xml:lang="grc">ἔφηβον</foreign>, tum
+                    septemdecim <foreign xml:lang="grc">ἐξ ἐφήβων</foreign>.</p>
+                <p><milestone unit="par" n="9"/> Praeterea multa sunt de his hebdomadibus, quae
+                    medici ac philosophi libris mandaverunt, unde apparet, ut in morbis dies septimi
+                    suspecti sunt et <foreign xml:lang="grc">κρίσιμοι</foreign> dicuntur, ita per
+                    omnem vitam septimum quemque annum periculosum et velut <foreign xml:lang="grc"
+                        >κρίσιμον</foreign> esse et climactericum vocitari. <milestone unit="par"
+                        n="10"/> Sed ex his genethliaci alios aliis difficiliores esse dixerunt, et
+                    nonnulli eos potissimum, quos ternae hebdomades conficiunt, putant observandos,
+                    hoc est unum et vicensimum, et quadragensimum secundum, dein tertium et
+                    sexagensimum, postremum octogensimum et quartum, in quo Staseas terminum vitae
+                    defixit. <milestone unit="par" n="11"/> Alii autem non pauci unum omnium
+                    difficillimum <foreign xml:lang="grc">κλιμακτῆρα</foreign> prodiderunt, anno
+                    scilicet undequinquagensimo, quem conplent anni septies septeni. Ad quam
+                    opinionem plurimorum consensus inclinat; nam quadrati numeri potentissimi
+                    ducuntur. <milestone unit="par" n="12"/> Denique Plato ille veniat, veteris
+                    philosophiae sanctissimus, qui quadrato numero annorum vitam humanam consummari
+                    putavit, sed novenario, qui conplet annos octoginta et unum. Fuerunt etiam, qui
+                    utrumque reciperent numerum, undequinquagensimum et octogensimum unum, et
+                    minorem nocturnis genesibus, maiorem diurnis scriberent
+                        <supplied>fieri</supplied>. <milestone unit="par" n="13"/> Plerique
+                    alternari duos istos numeros subtiliter decreverunt, dicentes septenarium ad
+                    corpus, novenarium ad animum pertinere; hunc medicinae corporis et Apollini
+                    adtributum, illum Musis, quia morbos animi, quos appellant <foreign
+                        xml:lang="grc">πάθη</foreign>, musice lenire ac sanare consueverit.
+                        <milestone unit="par" n="14"/> Itaque primum <foreign xml:lang="grc"
+                        >κλιμακτῆρα</foreign> annum quadragensimum et nonum esse prodiderunt,
+                    ultimum autem octogensimum et unum, medium vero ex utroque permixtum anno tertio
+                    et sexagensimo, quem vel hebdomades novem vel septem enneades conficiunt.
+                        <milestone unit="par" n="15"/> Hunc licet quidam periculosissimum dicant,
+                    quod ad corpus et ad animum pertineat, ego tamen ceteris duco infirmiorem. Nam
+                    utrumque quidem supra dictum continet numerum, sed neutrum quadratum, et ut est
+                    ab utroque non alienus, ita in neutro potens. Nec multos sane, quos vetustas
+                    claro nomine celebrat, hic annus absumpsit. <milestone unit="par" n="16"/>
+                    Aristotelen Stagiriten reperio; sed hunc ferunt naturalem stomachi infirmitatem
+                    crebrasque morbidi corporis offensiones adeo virtute animi diu sustentasse, ut
+                    magis mirum sit ad annos LXIII eum vitam pertulisse, quam ultra non
+                    protulisse.</p>
+            </div>
+            <div type="cap" n="15">
+                <p>
+                    <milestone unit="par" n="1"/> Quare, sanctissime Caerelli, cum istum annum, qui
+                    maxime fuerat corpori formidolosus, sine ullo incommodo transieris, ceteros, qui
+                    leviores sunt, <foreign xml:lang="grc">κλιμακτῆρας</foreign> minus tibi
+                    extimesco, praesertim cum in te animi potius quam corporis naturam sciam
+                    dominari, eosque viros, qui tales fuerunt, non prius vita excessisse, quam ad
+                    annum illum octogensimum et unum pervenerint, in quo Plato finem vitae et
+                    legitimum esse existimavit et habuit legitimum. <milestone unit="par" n="2"/>
+                    Hoc anno et Dionysius Heracleotes, ut vita abiret, cibo abstinuit, et contra
+                    Diogenes cynicus cibi cruditate in choleram solutus est. Eratosthenes quoque
+                    ille orbis terrarum mensor et Xenocrates Platonicus veteris academiae princeps
+                    ad eundem annum vixerunt. <milestone unit="par" n="3"/> Non pauci etiam per
+                    animi spiritum molestiis corporis superatis limitem istum transgressi sunt, ut
+                    Carneades, a quo tertia academia est, quae dicitur nova, qui ad annum
+                    nonagensimum <supplied>vixit</supplied>, vel Cleanthes, <supplied>qui
+                        annos</supplied> uno minus centum explevit. At Xenophanes Colophonius maior
+                    annorum centum fuit. Democritum quoque Abderiten et Isocraten rhetorem ferunt
+                    prope ad id aetatis pervenisse, quo Gorgian Leontinum, quem omnium veterum
+                    maxime senem fuisse et octo supra centum annos habuisse constat.</p>
+                <p><milestone unit="par" n="4"/> Quodsi cultoribus sapientiae sive per animi
+                    virtutem seu lege fati diutina obtigit vita, non despero, quin te quoque diu
+                    corpore adque animo valentem longior maneat senectus. Quem enim veterum,
+                        <supplied>quos</supplied> nunc memoria suspicimus, prudentia vel temperantia
+                    vel iustitia vel fortitudine tibi antestare dicimus? Quis eorum, si adesset, non
+                    in te omnium virtutum praedicationem conferret? Quis tuis laudibus se postponi
+                    erubesceret? Illud certe, ut arbitror, dignum est praedicatione, quod, cum illis
+                    ferme omnibus quamvis prudentissimis et procul a re publica, amotis non
+                    contigerit sine offensione et odio plerumque capitali vitam degere, tu tamen
+                    officiis municipalibus functus, honore sacerdoti in principibus tuae civitatis
+                    conspicuus, ordinis etiam equestris dignitate gradum provincialium supergressus,
+                    non modo sine reprehensione et invidia semper fuisti, verum etiam omnium omnino
+                    amorem cum maxima gloria consecutus es. <milestone unit="par" n="5"/> Quis a te
+                    nosci aut ex amplissimo senatus ordine non expetiit, aut ex humiliore plebis non
+                    optavit? Quis mortalium vel te vidit vel de tuo nomine accepit, quin et loco
+                    fratris germani diligat et vice parentis veneretur? Quis ignorat probitatem
+                    primam, fidem summam, benignitatem incredibilem, modestiam verecundiamque
+                    singularem ceteraque humanitatis officia penes te unum esse, et quidem maiora,
+                    quam possint digne a quoquam referri? Quare et ego his nunc commemorandis
+                    supersedebo. <milestone unit="par" n="6"/> De eloquentia quoque sileo, quam
+                    omnia provinciarum nostrarum tribunalia, omnes praesides noverunt, quam denique
+                    urbs Roma et auditoria sacra mirata sunt. Haec se et ad praesens et in futura
+                    saecula satis ipsa nobilitat.</p>
+            </div>
+            <div type="cap" n="16">
+                <p>
+                    <milestone unit="par" n="1"/> Nunc vero quatenus de die natali scribo, meum
+                    munus inplere conabor, tempusque hodiernum, quo maxime flores, quam potero
+                    lucidissimis notis signabo. Ex quo etiam primus ille tuus natalis liquido
+                    noscetur. <milestone unit="par" n="2"/> Tempus autem non diem tantummodo vel
+                    mensem vel annum vertentem appello, sed et quod quidam lustrum aut annum magnum
+                    vocant et quod saeculum nominant.</p>
+                <p><milestone unit="par" n="3"/> Ceterum de aevo, quod est tempus unum et maximum,
+                    non multum est quod in praesentia dicatur. Est enim inmensum, sine origine, sine
+                    fine, quod eodem modo semper fuit et semper futurum est, neque ad quemquam
+                    hominum magis quam ad alterum pertinet. <milestone unit="par" n="4"/> Hoc in
+                    tria dividitur tempora: praeteritum, praesens, futurum. <supplied>E</supplied>
+                    quibus praeteritum initio caret, exitu futurum. Praesens autem, quod medium est,
+                    adeo exiguum et inconprehensibile est, ut nullam recipiat longitudinem, neque
+                    aliud esse videatur quam transacti futurique coniunctio, adeo porro instabile,
+                    ut ibidem sit numquam, et quidquid transcurrit, a futuro decerpit et adponit
+                    praeterito. <milestone unit="par" n="5"/> Haec inter se tempora, ante actum dico
+                    et venturum, neque paria sunt neque ita, ut alterum altero longius breviusve
+                    videatur. Quidquid enim non habet finem, conlationem mensurae non recipit.
+                        <milestone unit="par" n="6"/> Quapropter aevum neque annorum nec saeculorum
+                    numero nec denique ullo finiti temporis modulo metiri conabor. Haec enim ad
+                    aetatem infinitam non sunt brumalis unius instar horae.</p>
+                <p><milestone unit="par" n="7"/> Itaque ut saecula possim percurrere et hoc nostrum
+                    praesens designare, omissis aureis argenteisque et hoc genus poeticis, a conditu
+                    urbis Romae, patriae nostrae communis, exordiar; </p>
+            </div>
+            <div type="cap" n="17">
+                <p>
+                    <milestone unit="par" n="1"/> et quoniam saecula aut naturalia sunt aut civilia,
+                    prius de naturalibus dicam.</p>
+                <p><milestone unit="par" n="2"/> Saeculum est spatium vitae humanae longissimum
+                    partu et morte definitum. Quare, qui annos triginta saeculum putarunt, multum
+                    videntur errasse. Hoc enim tempus <foreign xml:lang="grc">γενεάν</foreign>
+                    vocari Heraclitus auctor est, quia orbis aetatis in eo sit spatio. Orbem autem
+                    vocat aetatis, dum natura ab sementi humana ad sementim revertitur. Hoc quidem
+                        <foreign xml:lang="grc">γενεᾶς</foreign> tempus alii aliter definierunt:
+                    Herodicus annos quinque et viginti scribit dici <foreign xml:lang="grc"
+                        >γενεάν</foreign>, Zenon triginta. <milestone unit="par" n="3"/> Saeculum
+                    autem <supplied>quid</supplied> sit, usque adhuc arbitror ad subtile examinatum
+                    non esse. Poetae quidem multa incredibilia scripserunt, nec minus historici
+                    Graeci, quamvis eo<supplied>s</supplied> a vero par non fuit decedere: ut
+                    Herodotus, apud quem legimus Arganthonion Tartessiorum regem centum et
+                    quinquaginta annorum fuisse, aut Ephorus, qui tradit Arcadas dicere apud se
+                    reges antiquos aliquot ad trecentos vixisse annos. <milestone unit="par" n="4"/>
+                    Verum haec ut fabulosa praetereo. Sed inter ipsos astrologos, qui in stellarum
+                    signorumque ratione verum scrutantur, nequaquam etiam convenit. Epigenes in
+                    centum duodecim annis longissimam vitam constituit, Berosos autem
+                        <supplied>in</supplied> centum sedecim. Alii ad centum viginti annos produci
+                    posse, quidam etiam ultra crediderunt. Fuerunt qui non idem putarent ubique
+                    observandum, sed varie per diversas regiones, prout in singulis sit caeli ad
+                    circulum finitorem inclinatio, quod vocatur clima.</p>
+                <p><milestone unit="par" n="5"/> Sed licet veritas in obscuro lateat, tamen in
+                    unaquaque civitate quae sint naturalia saecula, rituales Etruscorum libri
+                    videntur docere, in quis scriptum esse fertur initia sic poni saeculorum: quo
+                    die urbes adque civitates constituerentur, de iis, qui eo die nati essent, eum,
+                    qui diutissime vixisset, die mortis suae primi saeculi modulum finire, eoque die
+                    qui essent reliqui in civitate, de his rursum eius mortem, qui longissimam
+                    egisset aetatem, finem esse saeculi secundi. Sic deinceps tempus reliquorum
+                    terminari. Sed ea quod ignorarent homines, portenta mitti divinitus, quibus
+                    admonerentur unumquodque saeculum esse finitum. Haec portenta Etrusci pro
+                    haruspicii disciplinaeque suae peritia diligenter observata in libros
+                    rettulerunt. Quare in Tuscis historiis, quae octavo eorum saeculo scriptae sunt,
+                    ut Varro testatur, et quot numero saecula ei genti data sint, et transactorum
+                    singula quanta fuerint quibusve ostentis eorum exitus designati sint,
+                    continetur. Itaque scriptum est quattuor prima saecula annorum fuisse centenum,
+                    quintum centum viginti trium, sextum undeviginti et centum, septimum totidem,
+                    octavum tum demum agi, nonum et decimum superesse, quibus transactis finem fore
+                    nominis Etrusci.</p>
+                <p><milestone unit="par" n="7"/> Romanorum autem saecula quidam ludis saecularibus
+                    putant distingui. Cui rei fides si certa est, modus Romani saeculi est incertus.
+                    Temporum enim intervalla, quibus ludi isti debeant referri, non modo quanta
+                    fuerint retro ignoratur, sed ne quanta quidem esse debeant scitur. Nam ita
+                    institutum esse, ut centesimo quoque anno fierent, id cum Antias aliique
+                    historici auctores sunt, tum Varro de scaenicis originibus libro primo ita
+                    scriptum reliquit: “cum multa portenta fierent, et murus ac turris, quae sunt
+                    inter portam Collinam et Esquilinam, de caelo tacta essent, et ideo libros
+                    Sibyllinos XV viri adissent, renuntiarunt, uti Diti patri et Proserpinae ludi
+                    Tarentini in campo, Martio fierent tribus noctibus, et hostiae furvae
+                    immolarentur, utique ludi centesimo quoque anno fierent.” <milestone unit="par"
+                        n="9"/> Item Titus Livius libro CXXXVI: “eodem anno ludos saeculares Caesar
+                    ingenti apparatu fecit, quos centesimo quoque anno - his enim terminari saecula
+                    - fieri mos erat.” Contra ut decimo centesimo <supplied>quo</supplied>que anno
+                    repetantur, tam commentarii XV virorum quam Divi Augusti edicta testari
+                    videntur, adeo ut Horatius Flaccus in carmine, quod saecularibus ludis cantatum
+                    est, id tempus hoc modo designaverit:</p>
+                <lg>
+                    <l>“certus undenos decies per annos</l>
+                    <l>orbis ut cantus referatque ludos</l>
+                    <l>ter die claro totiensque grata</l>
+                    <l>nocte frequentes.”</l>
+                </lg>
+                <p><milestone unit="par" n="10"/> Quae dissensio temporum, si veterum revolventur
+                    annales, longe magis in incerto invenietur.</p>
+                <p>Primos enim ludos saeculares exactis regibus post Romam conditam annis CCXLV a
+                    Valerio Publicola institutos esse <supplied>Antias auctor est P. Valerio Sp.
+                        Lucretio cons.</supplied>, ad XV virorum commentarios anno CCXCVIIII M.
+                    Valerio Spurio Verginio cons. <supplied>secundi fuerunt, ut Antias
+                        tradidit</supplied> M. Valerio Corvo II C. Poetilio
+                        <supplied>cons.</supplied> anno post urbem conditam octavo et
+                    quadringentesimo, ut vero in conmentariis XV virorum scriptum est, anno CCCC et
+                    decimo <supplied>C. Marcio Rutilo III T. Manlio Imperioso</supplied> cons.
+                    tertii ludi fuerunt Antiate Livioque auctoribus P. Claudio Pulchro L. Iunio
+                    Pullo cons. <supplied>anno quingentesimo quinto, at ad XV virorum
+                        conmentarios</supplied> anno quingentesimo duodevicensimo P. Cornelio
+                    Lentulo C. Licinio Varo cons. de quartorum ludorum anno triplex opinio est.
+                        <milestone unit="par" n="11"/> Antias enim et Varro et Livius relatos esse
+                    prodiderunt L. Marcio Censorino M’. Manilio cons. post Romam conditam anno DCV.
+                    At Piso Censorius et Cn. Gellius, sed et Cassius Hemina, qui illo tempore
+                    vivebat, post annum factos tertium adfirmant Cn. Cornelio Lentulo Lucio Mummio
+                    Achaico cons., id est anno DC<supplied>V</supplied>III; in XV virorum autem
+                    commentariis notantur sub anno DCXXVIII <supplied>M.</supplied> Aemilio Lepido
+                    L. Aurelio Oreste cons. quintos ludos <supplied>C.</supplied> Furnio C. Iunio
+                    Silano cons. anno DCCXXXVII Caesar Augustus et Agrippa fecerunt. Sextos autem
+                    fecit Ti. Claudius Caesar se IIII et L. Vitellio III cons. anno DCCC, septimos
+                    Domitianus se XIIII et L. Minucio Rufo cons. anno DCCCXLI, octavos imperatores
+                    Septimius et M. Aurelius Antoninus Cilone et Libone cons. anno
+                        DCCC<supplied>C</supplied>LVII.</p>
+                <p><milestone unit="par" n="12"/> Hinc animadvertere licet neque post centum annos,
+                    ut hi referrentur ludi, statum esse, neque post centum decem. Quorum etiamsi
+                    alterutrum retro fuisset observatum, non tamen satis id argumenti esset, quo
+                    quis his ludis saecula discerni constanter adfirmet, praesertim cum ab urbis
+                    primordio ad reges exactos, annos CCXLIIII, factos esse auctor sit nemo, quod
+                    tempus procul dubio naturali maius est saeculo. <milestone unit="par" n="13"/>
+                    Quodsi quis credit ludis saecularibus <supplied>secari</supplied> saecula, sola
+                    nominis origine inductus, sciat saeculares dici potuisse, quod plerumque semel
+                    fiant hominis aetate, ut multa alia, quae rara sunt, post saeculum evenire
+                    loquentium consuetudo usurpat.</p>
+                <p>Sed nostri maiores, quod natura saeculum <del>CCXLIIII</del> quantum esset
+                    exploratum non habebant, civile ad certum modulum annorum centum statuerunt.
+                    Testis est Piso, in cuius annali septimo scriptum est sic: “Roma condita anno
+                        D<supplied>C</supplied> septimum saeculum occipit his consulibus, qui
+                    proximi sunt consules: M. Aemilius M. filius Lepidus, C. Popilius II absens.”
+                    Sed ut hunc annorum numerum constituerent nostri, non nihil causae fuit: primum
+                    quod multos suorum civium ad hunc aetatem perducere videbant, dein quod
+                    Etruscos, quorum prima saecula centenum fuerunt annorum, etiam hic ut in aliis
+                    plerumque imitari voluerunt. <milestone unit="par" n="14"/> Praeterea fieri
+                    potest quod refert Varro, quod Dioscorides astrologus scripsit, Alexandriae
+                    inter eos, qui mortuos sallunt, constare hominem plus centum annos vivere non
+                    posse, idque cor humanum declarare eorum, qui integri perierunt sine corporis
+                    tabe, ideo quod multis annis pendendo cor omnis aetatis incrementa et
+                    deminutiones conseruerunt: et anniculi pendere duas dragmas, bimi quattuor, et
+                    sic in annos singulos usque ad quinquaginta accedere binas; ab iis centum
+                    dragmis adque <supplied>ab</supplied> anno quinquagensimo item decedere in
+                    unoquoque binas; ex quo perspicuum sit centesimo anno <supplied>cor</supplied>
+                    redire ad anni primi pondus nec longius vitam posse producere. <milestone
+                        unit="par" n="15"/> Quoniam igitur civile Romanorum saeculum centum annis
+                    transigitur, scire licet in decimo saeculo et primum natalem tuum fuisse et
+                    hodiernum esse. Quot autem saecula urbi Romae debeantur, dicere meum non est.
+                    Sed quid apud Varronem legerim, non tacebo. Qui libro antiquitatum
+                    duodevicensimo ait fuisse Vettium Romae in augurio non ignobilem, ingenio magno,
+                    cuivis docto in disceptando parem; eum se audisse dicentem, si ita esset, ut
+                    traderent historici de Romuli urbis condendae auguriis ac XII vulturis, quoniam
+                    CXX annos incolumis praeterisset populus Romanus, ad mille et ducentos
+                    perventurum.</p>
+            </div>
+            <div type="cap" n="18">
+                <p>
+                    <milestone unit="par" n="1"/> Hactenus dictum de saeculo. Nunc de annis
+                    maioribus dicam, quorum magnitudo adeo diverse tam gentibus observata quam
+                    auctoribus tradita est, ut alii annum magnum esse in annis vertentibus duobus,
+                    alii in multis milibus annorum arbitrati sint. Quod quale sit, iam hinc conabor
+                    absolvere.</p>
+                <p><milestone unit="par" n="2"/> Veteres in Graecia civitates cum animadverterent,
+                    dum sol annuo cursu orbem suum circumit, lunam novam interdum
+                        <supplied>duodecies, interdum</supplied> tridecies exoriri idque saepe
+                    alternis fieri, arbitrati sunt lunares duodecim menses et dimidiatum ad annum
+                    naturalem convenire. Itaque annos civiles sic statuerunt, ut intercalando
+                    facerent alternos duodecim mensum, alternos tredecim, utrumque annum separatim
+                    vertentem, iunctos ambo annum magnum vocantes. Idque tempus <foreign
+                        xml:lang="grc">τριετηρίδα</foreign> appellabant, quod tertio quoque anno
+                    intercalabatur, quamvis biennii circuitus et re vera <foreign xml:lang="grc"
+                        >διετηρίς</foreign> esset; unde mysteria, quae Libero alternis fiunt annis,
+                    trieterica a poetis dicuntur. <milestone unit="par" n="3"/> Postea cognito
+                    errore hoc tempus duplicarunt et <foreign xml:lang="grc">τετραετηρίδα</foreign>
+                    fecerunt. Sed eam, quod quinto quoque anno redibat, <foreign xml:lang="grc"
+                        >πενταετηρίδα</foreign> nominabant, qui annus magnus ex quadriennio
+                    commodior visus est, <supplied>cum cognitum esset</supplied> solis annum
+                    constare ex diebus CCCLXV et diei parte circiter quarta, quae I in quadriennio
+                    diem conficeret. <milestone unit="par" n="4"/> Quare agon et in Elide Iovi
+                    Olympio et Romae Capitolino quinto quoque anno redeunte celebratur. Hoc quoque
+                    tempus, quod ad solis modo cursum nec ad lunae congruere videbatur, duplicatum
+                    est et <foreign xml:lang="grc">ὀκταετηρίς</foreign> facta, quae tunc <foreign
+                        xml:lang="grc">ἐννεαετηρίς</foreign> vocitata, quia primus eius annus nono
+                    quoque anno redibat. <milestone unit="par" n="5"/> Hunc circuitum vere annum
+                    magnum esse pleraque Graecia existimavit, quod ex annis vertentibus solidis
+                        <supplied>et mensibus solidis</supplied> constaret, ut proprie in anno magno
+                    fieri par est. Nam dies sunt soli<supplied>di <num value="2922">IIDCCCCXXII</num>, menses
+                        solidi</supplied> uno minus centum, annique vertentes solidi octo. Hanc
+                        <foreign xml:lang="grc">ὀκταετηρίδα</foreign> vulgo creditum est ab Eudoxo
+                    Cnidio institutam, sed alii Cleostratum Tenedium primum ferunt conposuisse et
+                    postea alios aliter, qui mensibus varie intercalandis suas <foreign
+                        xml:lang="grc">ὀκταετηρίδας</foreign> protulerunt, ut fecit Harpalus,
+                    Nauteles, Menestratus, item alii, in quis Dositheus, cuius maxima <foreign
+                        xml:lang="grc">ὀκταετηρίς</foreign> Eudoxi inscribitur. <milestone
+                        unit="par" n="6"/> Ob hoc in Graecia multae religiones hoc intervallo
+                    temporis summa caerimonia coluntur, Delphis quoque ludi, qui vocantur Pythia,
+                    post annum octavum olim conficiebantur. Proxima est hanc magnitudinem quae
+                    vocatur <foreign xml:lang="grc">δωδεκαετηρίς</foreign> ex annis vertentibus
+                    duodecim. <milestone unit="par" n="7"/> Huic anno Chaldaico nomen est, quem
+                    genethliaci non ad solis lunaeque cursus, sed ad observationes alias habent
+                    adcommodatum, quod in eo dicunt tempestates frugumque proventus ac sterilitates,
+                    item morbos salubritatesque circumire.</p>
+                <p><milestone unit="par" n="8"/> Praeterera sunt anni magni conplures, ut Metonicus,
+                    quem Meton Atheniensis ex annis undeviginti constituit, eoque <foreign
+                        xml:lang="grc">ἐννεαδεκαετηρίς</foreign> appellatur et intercalatur septies,
+                    inque eo anno sunt dierum <num value="6940">VIDCCCCXL</num>. Est et Philolai Pythagorici annus ex annis
+                    quinquaginta novem, in quo sunt menses intercalares viginti et unus; item
+                    Callippi Cyziceni ex annis septuaginta sex, ita ut menses duodetriginta
+                    intercalentur; et Democriti ex annis LXXXII cum intercalaris perinde viginti
+                    octo; <milestone unit="par" n="9"/> sed et Hipparchi ex annis CCCIIII, in quo
+                    intercaletur centies decies bis. Haec annorum magnitudo eo discrepat, quod inter
+                    astrologos non convenit, quanto vel sol plus quam CCCLXV dies in anno conficiat,
+                    vel luna minus quam triginta in mense. Ad Aegyptiorum vero annum magnum luna non
+                    pertinet, quem Graece <foreign xml:lang="grc">κυνικόν</foreign>, Latine
+                    canicularem vocamus, propterea quod initium illius sumitur, cum primo die eius
+                    mensis, quem vocant Aegyptii <foreign xml:lang="grc">Θωυθί</foreign>, caniculae
+                    sidus exoritur. Nam eorum annus civilis solidus habet dies CCCLXV sine ullo
+                    intercalari. Itaque quadriennium apud eos uno circiter die minus est quam
+                    naturale quadriennium, eoque fit, ut anno MCCCCLXI ad idem revolvatur
+                    principium. Hic annus etiam <foreign xml:lang="grc">ἡλιακός</foreign> a
+                    quibusdam dicitur, et ab aliis <foreign xml:lang="grc">θεοῦ ἐνιαυτός</foreign>.
+                        <milestone unit="par" n="11"/> Est praeterea annus, quem Aristoteles maximum
+                    potius quam magnum appellat, quem solis et lunae vagarumque quinque stellarum
+                    orbes conficiunt, cum ad idem signum, ubi quondam simul fuerunt, una referuntur.
+                    Cuius anni hiemps summa est <foreign xml:lang="grc">κακλυσμός</foreign>, quam
+                    nostri diluvionem vocant, aestas autem <foreign xml:lang="grc"
+                        >ἐκπύρωσις</foreign>, quod est mundi incendium; nam his alternis temporibus
+                    mundus tum exignescere tum exaquescere videtur. Hunc Aristarchus putavit esse
+                    annorum vertentium <num value="2484">IICCCCLXXXIIII</num>, Aretes Dyrrachinus <num value="5552">VDLII</num>, Heraclitus et
+                    Linus <num value="10800">XDCCC</num>, Dion <num value="10884">XDCCCLXXXIIII</num>, Orpheus <num value="120000">CXX</num>, Cassandrus tricies sexies
+                    centum milium. Alii vero infinitum esse nec umquam in se reverti
+                    existimarunt.</p>
+                <p><milestone unit="par" n="12"/> Sed horum omnium <foreign xml:lang="grc"
+                        >πενταετηρίδας</foreign> maxime <supplied>in</supplied> notandis temporibus
+                    Graeci observant, id est quaternum annorum circuitus, quas vocant <foreign
+                        xml:lang="grc">ὀλυμπιάδας</foreign>; et nunc apud eos ducentesima
+                    quinquagensima quarta <foreign xml:lang="grc">ὀλυμπιάς</foreign> numeratur,
+                    eiusque annus hic secundus. <milestone unit="par" n="13"/> Idem tempus anni
+                    magni Romanis fuit, quod lustrum appellabant, ita quidem a Servio Tullio
+                    institutum, ut quinto quoque anno censu civium habito lustrum conderetur, sed
+                    non ita a posteris servatum. <milestone unit="par" n="14"/> Nam cum inter primum
+                    a Servio rege conditum lustrum et id, quod ab imperatore Vespasiano V et
+                        <supplied>T.</supplied> Caesare III cons. factum est, anni interfuerint
+                    paulo minus DCL, lustra tamen per ea tempora non plura quam LXXV sunt facta et
+                    postea plane fieri desierunt. <milestone unit="par" n="15"/> Rursus tamen annus
+                    idem magnus per Capitolinos agonas coeptus est diligentius servari. Quorum
+                    agonum primus a Domitiano institutus fuit <del>die</del> duodecimo eius et Servi
+                    Corneli Dolabellae consulatu. Itaque hoc nunc anno qui celebratus est agon,
+                    undequadragensimus numeratur. Quod ad annos pertinet magnos, in praesentia satis
+                    dictum. Nunc de annis vertentibus dicendi locus.</p>
+            </div>
+            <div type="cap" n="19">
+                <p>
+                    <milestone unit="par" n="1"/> Annus vertens est natura, dum sol percurrens XII
+                    signa eodem, unde profectus est, redit. <milestone unit="par" n="2"/> Hoc tempus
+                    quot dierum esset, ad certum nondum astrologi reperire potuerunt. Philolaus
+                    annum naturalem dies habere prodidit CCCLXIIII et dimidiatum, Aphrodisius CCCLXV
+                    et partem diei octavam, Callippus autem CCCLXV, et Aristarchus Samius tantumdem
+                    et praeterea diei partem MDCXXIII, Meton vero CCCLXV et dierum quinque
+                    undevicensimam partem, Oenopides CCCLXV et dierum duum et viginti partem
+                    undesexagensimam, Harpalus autem CCCLXV et horas aequinoctiales XIII, at noster
+                    Ennius CCCLXVI. <milestone unit="par" n="3"/> Plerique praeterea
+                    incomprehensibile quidem nec enuntiabile esse existimarunt, sed pro vero, quod
+                    proximum putabant, amplexi sunt: dies scilicet CCCLXV.</p>
+                <p><milestone unit="par" n="4"/> Igitur cum tanta inter viros doctissimos fuerit
+                    dissensio, quid mirum, si anni civiles, quos diverse civitates rudes etiam tum
+                    sibi quaeque statuebant, tam inter se discrepent quam cum illo naturali non
+                    congruant? Et in Aegypto quidem antiquissimum ferunt annum unimenstrem fuisse,
+                    post deinde ab Isone rege quadrimenstrem factum, novissime Arminon ad XIII
+                    menses et dies quinque perduxisse. <milestone unit="par" n="5"/> Item in Achaia
+                    Arcades trimenstrem annum primo habuisse dicuntur, et ob id <foreign
+                        xml:lang="grc">προσέληνοι</foreign> appellati, non, ut quidem putant, quod
+                    ante sint nati quam lunae astrum caelo esset, sed quod prius habuerint annum,
+                        <supplied>quam</supplied> is in Graecia ad lunae cursum constitueretur.
+                        <milestone unit="par" n="6"/> Sunt qui tradunt hunc annum trimenstrem Horon
+                    instituisse, eoque ver aestatem autumnum hiemem <foreign xml:lang="grc"
+                        >ὥρας</foreign> et annum <supplied><foreign xml:lang="grc"
+                        >ὧρον</foreign></supplied> dici, et Graecos annales <foreign xml:lang="grc"
+                        >ὥρους</foreign>, eorumque scriptores horographos. Itaque quattuor annorum
+                    circuitum in modum <foreign xml:lang="grc">πενταετηρίδος</foreign> annum magnum
+                    dicebant. <milestone unit="par" n="7"/> Cares autem et Acarnanes semenstres
+                    habuerunt annos et inter se dissimiles, quibus alternis dies augescerent aut
+                    senescerent, eosque coniunctos velut <foreign xml:lang="grc"
+                        >τριετηρίδα</foreign> annum magnum.</p>
+            </div>
+            <div type="cap" n="20">
+                <p>
+                    <milestone unit="par" n="1"/> Sed ut hos annos omittam caligine iam profundae
+                    vetustatis obductos, in his quoque, qui sunt recentioris memoriae et ad cursum
+                    lunae vel solis instituti, quanta sit varietas, facile est cognoscere, si quis
+                    vel in unius Italiae gentibus, ne dicam peregrinis, velit inquirere. Nam ut
+                    alium Ferentini alium Lavinii itemque Albani vel Romani habuerunt annum, ita et
+                    aliae gentes. Omnibus tamen fuit propositum suos civiles annos varie
+                    intercalandis mensibus ad unum illum verum naturalemque corrigere. <milestone
+                        unit="par" n="2"/> De quibus omnibus disserere quoniam longum est, ad
+                    Romanorum annum transibimus.</p>
+                <p>Annum vertentem Romae Licinius quidem Macer at postea Fenestella statim ab initio
+                    duodecim mensum fuisse scripserunt. Sed magis Iunio Gracchano et Fulvio et
+                    Varroni et Suetonio aliisque credendum, qui decem mensum putarunt fuisse, ut
+                    tunc Albanis erat, unde orti Romani. <milestone unit="par" n="3"/> Hi decem
+                    menses dies CCCIIII hoc modo habebant: Martius XXXI, Aprilis XXX, Maius XXXI,
+                    Iunius XXX, Quintilis XXXI, Sextilis et September tricenos, October XXXI,
+                    November et December tricenos; quorum quattuor maiores pleni, ceteri sex cavi
+                    vocabantur. <milestone unit="par" n="4"/> Postea sive a Numa, ut ait Fulvius,
+                    sive, ut Iunius, a Tarquinio duodecim facti sunt menses et dies CCCLV, quamvis
+                    luna duodecim suis mensibus CCCLIIII dies videbatur explere. Sed ut dies unus
+                    abundaret, aut per inprudentiam accidit, aut; quod magis credo, ea
+                    superstitione, qua inpar numerus plenus et magis faustus habebatur. <milestone
+                        unit="par" n="5"/> Certe ad annum priorem unus et quinquaginta dies
+                    accesserunt. Qui quia menses duos non explerent, sex illis cavis mensibus dies
+                    sunt singuli detracti et ad eos additi factique dies LVII, et ex his duo menses:
+                    Ianuarius undetriginta dierum, Februarius duodetriginta. Adque ita omnes menses
+                    pleni et inpari dierum numero esse coeperunt, excepto Februario, qui solus cavus
+                    et ob hoc ceteris infaustior est habitus.</p>
+                <p><milestone unit="par" n="6"/> Denique cum intercalarium mensem viginti duum vel
+                    viginti trium dierum alternis annis addi placuisset, ut civilis annus ad
+                    naturalem exaequaretur, in mense potissimum Februario inter Terminalia et
+                    Regifugium intercalatum est, idque diu factum, prius quam sentiretur annos
+                    civiles aliquanto naturalibus esse maiores. Quod delictum ut corrigeretur,
+                    pontificibus datum negotium eorumque arbitrio intercalandi ratio permissa.
+                        <milestone unit="par" n="7"/> Sed horum plerique ob odium vel gratiam, quo
+                    quis magistratu citius abiret diutiusve fungeretur aut publici redemptor ex anni
+                    magnitudine in lucro damnove esset, plus minusve ex libidine intercalando rem
+                    sibi ad corrigendum mandatam ultro quod depravarunt, <milestone unit="par" n="8"
+                    /> adeo aberratum est, ut C. Caesar pontifex maximus suo III et M Aemilii Lepidi
+                    consulatu, quo retro delictum corrigeret, duos menses intercalarios dierum LXVII
+                    in mensem Novembrem et Decembrem interponeret, cum iam mense Februario dies III
+                    et XX intercalasset, faceretque eum annum dierum CCCCXLV, simul providens in
+                    futurum, ne iterum erraretur; nam intercalario mense sublato annum civilem ad
+                    solis cursum formavit. <milestone unit="par" n="9"/> Itaque diebus CCCLV addidit
+                    decem, quos per septem menses, qui dies undetricenos habebant, ita discripsit,
+                    ut Ianuario et Sextili et Decembri <del>ne</del> bini accederent, ceteris
+                    singuli; eosque dies extremis partibus mensum adposuit, ne scilicet religiones
+                    sui cuiusque mensis a loco summoverentur. <milestone unit="par" n="10"/>
+                    Quapropter nunc cum in septem mensibus dies singuli et triceni sint, quattuor
+                    tamen illi ita primitus instituti eo dinoscuntur, quod nonas habent septimanas,
+                    ceteri tres omnes<supplied>que</supplied> alii reliqui quintanas.</p>
+                <p>Praeterea pro quadrante diei, qui annum verum suppleturus videbatur, instituit,
+                    ut peracto quadrienni circuitu dies unus, ubi mensis quondam solebat, post
+                    Terminalia intercalaretur, quod nunc bissextum vocatur. <milestone unit="par"
+                        n="11"/> Ex hoc anno ita a Iulio Caesare ordinato ceteri ad nostram memoriam
+                    Iuliani appellantur, eique consurgunt ex quarto Caesaris consulatu. Qui etiam si
+                    optimo <supplied>modo</supplied>, non soli tamen ad annum naturae aptati sunt.
+                    Nam et priores anni, etiam si qui decemmenstres fuerunt, nec Romae modo vel per
+                    Italiam, sed et apud gentes omnes, quantum poterat, idem fuerunt correcti.
+                    Itaque cum de aliquo annorum numero hic dicetur, non alios par erit quam
+                    naturales accipere.</p>
+                <p>Et si origo mundi in hominum notitiam venisset, inde exordium sumeremus. </p>
+            </div>
+            <div type="cap" n="21">
+                <p>
+                    <milestone unit="par" n="1"/> Nunc vero id intervallum temporis tractabo, quod
+                        <foreign xml:lang="grc">ἱστορικόν</foreign> Varro appellat. Hic enim tria
+                    discrimina temporum esse tradit: primum ab hominum principio ad cataclysmum
+                    priorem, quod propter ignorantiam vocatur <foreign xml:lang="grc"
+                        >ἄδηλον</foreign>, secundum a cataclysmo priore ad olympiadem primam, quod,
+                    quia multa in eo fabulosa referuntur, <foreign xml:lang="grc">μυθικόν</foreign>
+                    nominatur, tertium a prima olympiade ad nos, quod dicitur <foreign
+                        xml:lang="grc">ἱστορικόν</foreign>, quia res in eo gestae veris historiis
+                    continentur.</p>
+                <p><milestone unit="par" n="2"/> Primum tempus, sive habuit initium seu semper fuit,
+                    certe quot annorum sit, non potest conprehendi. Secundum non plane quidem
+                    scitur, sed tamen ad mille circiter et sescentos annos esse creditur: a priore
+                    scilicet cataclysmo, quem dicunt et Ogygii, ad Inachi regnum annos circiter
+                    quadringentos <supplied>computarunt, hinc ad excidium Troiae annos
+                        octingentos</supplied>, hinc ad olympiadem primam paulo plus quadringentos;
+                    quos solos, quamvis mythici temporis postremos, tamen, quia a memoria scriptorum
+                    proximos, quidam certius definire voluerunt. <milestone unit="par" n="3"/> Et
+                    quidem Sosibius scripsit esse CCCXCV, Eratosthenes autem septem et
+                    quadringentos, Timaeus CCCCXVII, Aretes DXIIII, et praeterea multi diverse,
+                    quorum etiam ipsa dissensio incertum esse declarat.</p>
+                <p><milestone unit="par" n="4"/> De tertio autem tempore fuit quidem aliqua inter
+                    auctores dissensio in sex semptemve tantum modo annis versata. <milestone
+                        unit="par" n="5"/> Sed hoc quodcumque caliginis Varro discussit, et pro
+                    cetera sua sagacitate nunc diversarum civitatium conferens tempora, nunc
+                    defectus eorumque intervalla retro dinumerans eruit verum lucemque ostendit, per
+                    quam numerus certus non annorum modo, sed et dierum perspici possit. <milestone
+                        unit="par" n="6"/> Secundum quam rationem nisi fallor hic annus, cuius velut
+                    index et titulus quidam est V. C. Pii et Pontiani consulatus, ab olympiade prima
+                    millensimus est et quartus decimus, ex diebus dumtaxat aestivis, quibus agon
+                    Olympicus celebratur; a Roma autem condita nongentesimus nonagensimus primus, et
+                    quidem ex Parilibus, unde urbis anni numerantur; <milestone unit="par" n="7"/>
+                    eorum vero annorum, quibus Iulianis nomen est, ducentesimus octogensimus
+                    tertius, sed ex die kal. Ianuariarum, unde Iulius Caesar anni a se constituti
+                    fecit principium; <milestone unit="par" n="8"/> at eorum, qui vocantur anni
+                    Augustorum, ducentesimus sexagensimus quintum, perinde ex kal. Ianuariis,
+                    quamvis ex ante diem XVI kal. Febr. imperator Caesar, Divi filius, sententia L.
+                    Munati Planci a senatu ceterisque civibus Augustus appellatus est se VII et M.
+                    Vipsanio Agrippa III cons. <milestone unit="par" n="9"/> Sed Aegyptii, quod
+                    biennio ante in potestatem dicionemque populi Romani venerunt, hunc Augustorum
+                    annum ducentesimum sexagensimum septimum <supplied>numerant</supplied>. Nam ut a
+                    nostris ita ab Aegyptiis quidam anni in litteras relati sunt, ut quos <foreign
+                        xml:lang="grc">Ναβονναζάρου</foreign> nominant, quod a primo imperii eius
+                    anno consurgunt, quorum hic nongentesimus octogensimus sextus est; item
+                    Philippi, qui ab excessu Alexandri Magni numerantur et ad hunc usque perducti
+                    annos DLXII consummant. <milestone unit="par" n="10"/> Sed horum initia semper a
+                    primo die mensis eius sumuntur, cui apud Aegyptios nomen est Thouth, quique hoc
+                    anno fuit ante diem VII kal. Iul., cum abhinc annos centum imperatore Antonino
+                    Pio II Bruttio Praesente Romae consulibus idem dies fuerit ante diem XIII kal.
+                    Aug., quo tempore solet canicula in Aegypto facere exortum.</p>
+                <p><milestone unit="par" n="11"/> Quare scire etiam licet anni illius magni, qui, ut
+                    supra dictum est, solaris et canicularis et dei annus vocatur, nunc agi
+                    vertentem annum centensimum. <milestone unit="par" n="12"/> Initia autem istorum
+                    annorum propterea notavi, ne quis eos aut ex kal. Ianuariis aut ex alio quo
+                    tempore simul putaret incipere, cum <supplied>in</supplied> iis conditorum
+                    voluntates non minus diversae sint quam opiniones philosophorum. <milestone
+                        unit="par" n="13"/> Idcirco aliis a novo sole, id est a bruma, aliis ab
+                    aestivo solstitio, plerisque ab aequinoctio verno, partim ab autumnali
+                    aequinoctio, quibusdam ab ortu vergiliarum, nonnullis ab earum occasu, multis a
+                    canis exortu incipere annus naturalis videtur.</p>
+            </div>
+            <div type="cap" n="22">
+                <p>
+                    <milestone unit="par" n="1"/> Mensum genera duo; nam alii sunt naturales, alii
+                    civiles. <milestone unit="par" n="2"/> Naturalium species duae, quod partim
+                    solis, partim lunae esse dicuntur. Secundum solem fit mensis, dum sol unum
+                    quodque in zodiaco orbe signum percurrit. <milestone unit="par" n="3"/> Lunaris
+                    est autem temporis quoddam spatium a nova luna <supplied>ad novam
+                        lunam</supplied>. Civiles menses sunt numeri quidam dierum, quos una quaeque
+                    civitas suo instituto observat, ut nunc Romani a kalendis in kalendas. Naturales
+                    et antiquiores et omnium gentium communes sunt, civiles et posterius instituti
+                    et ad unam quamque pertinent civitatem. <milestone unit="par" n="4"/> Qui sunt
+                    caelestes, sive solis seu lunae, neque peraeque inter se pares sunt nec dies
+                    habent totos. Quippe sol in aquario moratur circiter undetriginta, in pisce fere
+                    triginta, in ariete unum et triginta, in geminis prope triginta et duos, et sic
+                    in ceteris inaequabiliter; sed usque adeo non totos dies in singulis, ut annum
+                    suum, id est dies CCCLXV et portionem nescio quam adhuc astrologis inexploratam,
+                    in duodecim suos dividat menses. <milestone unit="par" n="5"/> Luna autem
+                    singulos suos menses conficit diebus undetriginta circiter et dimidiato, sed et
+                    hos inter se dispares: alias longiores, alias breviores.</p>
+                <p>At civitatium menses vel magis numero dierum inter se discrepant, sed dies ubique
+                    habent totos. <milestone unit="par" n="6"/> Apud Albanos Martius est sex et
+                    triginta, Maius viginti duum, Sextilis duodeviginti, September sedecim.
+                    Tusculanorum Quintilis dies habet sex et triginta, October duos et triginta,
+                    idem October apud Aricinos undequadraginta. <milestone unit="par" n="7"/> Minime
+                    videntur errasse, qui ad lunae cursum menses civiles adcommodarunt, ut in
+                    Graecia plerique, apud quos alterni menses ad tricenos dies sunt facti.
+                        <milestone unit="par" n="8"/> Maiores quoque nostri idem sunt aemulati, cum
+                    annum dierum CCCLV haberent. Sed Divus Iulius cum videret hac ratione neque ad
+                    lunam menses, ut oportebat, neque annos ad solem convenire, maluit annum
+                    corrigere, ut sic etiam menses civiles cum veris illis solaribus, etsi non
+                    singuli, tamen universi ad anni finem necessario concurrerent.</p>
+                <p><milestone unit="par" n="9"/> Nomina decem mensibus antiquis Romulum fecisse
+                    Fulvius et Iunius auctores sunt. Et quidem duos primos a parentibus suis
+                    nominasse, Martium a Marte patre, Aprilem ab Aphrodite id est Venere, unde
+                    maiores eius oriundi dicebantur; proximos duos a populo: Maium a maioribus natu,
+                    Iunium a iunoribus; ceteros ab ordine quo singuli erant: Quintilem usque
+                    Decembrem perinde a numero. <milestone unit="par" n="10"/> Varro autem Romanos a
+                    Latinis nomina mensum accepisse arbitratus auctores eorum antiquiores quam urbem
+                    fuisse satis argute docet. <milestone unit="par" n="11"/> Itaque Martium mensem
+                    a Marte quidem nominatum credit, non quia Romuli fuerit pater, sed quod gens
+                    Latina bellicosa; Aprilem autem non ab Aphrodite, sed ab aperiendo, quod tunc
+                    ferme cuncta gignantur et nascendi claustra aperiat natura; <milestone
+                        unit="par" n="12"/> Maium vero non a maioribus, sed a Maia nomen accepisse,
+                    quod eo mense tam Romae quam antea in Latio res divina Maiae fit <del>et
+                        Mercurio</del>; Iunium quoque a Iunone potius quam iunioribus, quod illo
+                    mense maxime Iunoni honores habentur; <milestone unit="par" n="13"/> Quintilem,
+                    quod loco iam apud Latinos fuerit quinto, item Sextilem ac deinceps ad Decembrem
+                    a numeris appellatos. Ceterum Ianuarium et Februarium postea quidem additos, sed
+                    nominibus iam ex Latio sumptis: et Ianuarium ab Iano, cui adtributus est, nomen
+                    traxisse. Februarium a februo: <milestone unit="par" n="14"/> est februum
+                    quidquid piat purgatque, et februamenta purgamenta, item februare purgare et
+                    purum facere. Februum autem non idem usquequaque dicitur; nam aliter in aliis
+                    sacris februatur, hoc est purgatur. <milestone unit="par" n="15"/> In hoc autem
+                    mense Lupercalibus, cum Roma lustratur, salem calidum ferunt, quod februum
+                    appellant, unde dies Lupercalium proprie februatus et ab eo porro mensis
+                    Februarius vocitatur.</p>
+                <p><milestone unit="par" n="16"/> Ex his duodecim mensibus duorum tantum nomina
+                    inmutata. Nam Quintilis Iulius cognominatus est C. Caesare V et M. Antonio cons.
+                    anno Iuliano secundo. Qui autem Sextilis fuerat, ex S. C.
+                        <supplied>C.</supplied> Marcio Censorino C. Asinio Gallo cons. in Augusti
+                    honorem dictus est Augustus anno Augusti vicensimo, quae nomina etiam nunc ad
+                    hanc permanent memoriam. <milestone unit="par" n="17"/> Postea vero multi
+                    principes nomina quaedam mensum inmutaverunt suis nuncupando nominibus; quod aut
+                    ipsi postmodum mutaverunt, aut post obitum eorum illa nomina pristina suis
+                    reddita mensibus.</p>
+            </div>
+            <div type="cap" n="23">
+                <p>
+                    <milestone unit="par" n="1"/> Superest pauca de die dicere, qui, ut mensis aut
+                    annus, partim naturalis partim civilis est. <milestone unit="par" n="2"/>
+                    Naturaliter dies est tempus ab exoriente sole ad solis occasum, cuius contrarium
+                    tempus est nox ab occasu solis ad exortum. Civiliter autem dies vocatur tempus,
+                    quod fit uno caeli circumactu, quo dies verus et nox continetur, ut cum dicimus
+                    aliquem dies triginta tantum vixisse; relinquitur enim etiam noctes intellegere.
+                        <milestone unit="par" n="3"/> Huius modi dies ab astrologis et civitatibus
+                    quattuor modis definitur. Babylonii quidem a solis exortu ad exortum eiusdem
+                    astri diem statuerunt, at in Vmbria plerique a meridie ad meridiem, Athenienses
+                    autem ab occasu solis ad occasum. Ceterum Romani a media nocte ad mediam noctem
+                    diem esse existimarunt. Indicio sunt sacra publica et auspicia etiam
+                    magistratuum, quorum si quid ante medium noctis est actum, diei, qui praeteriit,
+                    adscribitur; si quid autem post mediam noctem et ante lucem factum est, eo die
+                    gestum dicitur, qui eam sequitur noctem. <milestone unit="par" n="5"/> Idem
+                    significat quod, qui a media nocte ad proximam mediam noctem in his horis
+                    quattuor et viginti nascuntur, eundem diem habent natalem.</p>
+                <p><milestone unit="par" n="6"/> In horas XII diem divisum esse noctemque in totidem
+                    vulgo notum est; sed hoc credo Romae post reperta solaria observatum. Quorum
+                    antiquissimum quod fuerit, inventu difficile est; alii enim apud aedem Quirini
+                    primum statutum dicunt, alii in Capitolio, nonnulli ad aedem Dianae in Aventino.
+                        <milestone unit="par" n="7"/> Illud satis constat, nullum in foro prius
+                    fuisse quam id, quod Mʼ. Valerius ex Sicilia advectum ad rostra in columna
+                    posuit. Quod quoniam ad clima Siciliae descriptum ad horas Romae non conveniret,
+                    L. Philippus censor aliud iuxta constituit. Deinde aliquanto post P. Cornelius
+                    Nasica censor ex aqua fecit horarium, quod et ipsum ex consuetudine noscendi a
+                    sole horas solarium coeptum vocari. <milestone unit="par" n="8"/> Horarum nomen
+                    non minus annos trecentos Romae ignoratum esse credibile est; nam XII tabulis
+                    nusquam nominatas horas invenies ut in aliis postea legibus, sed “ante
+                    meridiem”, eo videlicet, quod partes diei bifariam tum divisi meridies
+                    discernebat. <milestone unit="par" n="9"/> Alii diem quadripertito, sed et
+                    noctem similiter dividebant. Idque similitudo testatur militaris
+                        <supplied>usus</supplied>, ubi dicitur vigilia prima, item secunda et tertia
+                    et quarta.</p>
+            </div>
+            <div type="cap" n="24">
+                <p>
+                    <milestone unit="par" n="1"/> Sunt etiam plura noctis et diei tempora aliis
+                    subnotata propriisque discreta nominibus, quae apud veteres poetas passim
+                    scripta inveniuntur. Ea omnia ordine suo exponam. Incipiam a nocte media, quod
+                    tempus principium et postremum est diei Romani. Tempus, quod huic proximum est,
+                    vocatur de media nocte; <milestone unit="par" n="2"/> sequitur gallicinium, cum
+                    galli canere incipiunt, dein conticium, cum conticuerunt; tunc ante lucem, et
+                    sic diluculum, cum sole nondum orto iam lucet. <milestone unit="par" n="3"/>
+                    Secundum diluculum vocatur mane, cum lux videtur sole <supplied>orto</supplied>;
+                    post hoc ad meridiem, tunc meridies, quod est medii diei nomen, inde de meridie;
+                    hinc suprema. Quamvis plurimi supremam post occasum solis esse existimant, quia
+                    est in XII tabulis scriptum sic: “solis occasus suprema tempestas esto.” Sed
+                    postea M. Plaetorius tribunus plebiscitum tulit, in quo scriptum est: “praetor
+                    urbanus, qui nunc est quique posthac fuat, duo lictores apud se habeto isque
+                        <supplied>usque</supplied> supremam ad solem occasum ius inter cives
+                    dicito.” <milestone unit="par" n="4"/> Post supremam sequitur vespera, ante
+                    ortum scilicet eius stellae, quam Plautus vesperuginem, Ennius vesperum,
+                    Vergilius hesperon appellat. <milestone unit="par" n="5"/> Inde porro
+                    crepusculum, sic fortasse appellatum, quod res incertae creperae dicuntur idque
+                    tempus noctis sit an diei incertum est. <milestone unit="par" n="6"/> Post id
+                    sequitur tempus, quod dicimus luminibus accensis, antiqui prima face dicebant;
+                    deinde concubium, cum itum est cubitum; exinde intempesta, id est multa nox, qua
+                    nihil agi tempestivum; tunc <del>cum</del> ad mediam noctem dicitur, et sic
+                    media nox. </p>
+            </div>
+
+        </body>
+    </text>
+
+</TEI>

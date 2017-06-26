@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>De lapidibus</title>
+    <author>Damigeron</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2016</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000114</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p><hi rend="italic">Le lapidaires grecs</hi>, texte établi et traduit par R. Halleux et J.
+     Schamp, Paris 1985, 230-290 (Collection des Universités de France).</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+    <p><hi rend="bold">Modifiche apportate al testo dell'edizione di riferimento </hi></p>
+    <p>Si è corretto in LVIII, 2 "aliquoties" in "aliquotiens"; si è omessa la seconda occorrenza
+     del numero di paragrafo erroneamente ripetuta in LX, 4. Si sono inserite a testo le additiones
+     contenute in una sezione a conclusione dell'opera nell'edizione.</p>
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div type="pr" n="pr">
+    <head>Incipit liber Damigeronis peritissimi de lapidibus.</head>
+    <p>Item epistula.</p>
+    <p><milestone unit="par" n="1"/> Desideranti tibi hoc scribere mysteria omnium lapidum quae
+     generi humano sua sapientia prodesse uideantur, denegatum tibi non fuit. </p>
+    <p><milestone unit="par" n="2"/> Tu itaque custodi cum summa diligentia mysterium summi
+     altissimi dei. </p>
+    <p><milestone unit="par" n="3"/> Hoc enim mysterium ceteris egyptiis litteratis neque allophylis
+     ne tradideris </p>
+    <p><milestone unit="par" n="4"/> nec cuiquam alii ne ad sterilitatem huius scientiae Aegyptus
+     deueniat </p>
+    <p><milestone unit="par" n="5"/> et ne eadem per aliquam concremata incendio conflagretur, </p>
+    <p><milestone unit="par" n="6"/> ut ne immissis tedibus in Egyptum perseueros omnes efficiat
+     Egyptiis dominantes. </p>
+    <p><milestone unit="par" n="7"/> Hic aliis traditus non est, nec alii in sua potestate detineant
+     perpetuaque custodia habeant. </p>
+    <p><milestone unit="par" n="8"/> Iuro autem tibi per summum patrem dominum quod meliorem librum
+     Egyptus huius non habet. </p>
+    <p><milestone unit="par" n="9"/> Cuius iurationis testis est summus deus. </p>
+    <p><milestone unit="par" n="10"/> Mittam enim tibi bonum solis nomen, per quod bonum genus
+     noscetur. </p>
+    <p><milestone unit="par" n="11"/> Igitur perpetualiter custodiatur a uobis. </p>
+    <p><milestone unit="par" n="12"/> Praestat enim multum in omnibus actionibus per singula
+      <foreign xml:lang="grc">ἱερατικά</foreign>, quae Graeci uocant, omnium lapidum.</p>
+   </div>
+
+   <div type="pr" n="pr">
+    <milestone unit="par" n="1"/>
+    <salute> Euax Arabie rex Tiberio imperatori salutem.</salute>
+    <p><milestone unit="par" n="2"/> Magnifica dona tua accepi per centurionem Lucinium Frontonem
+     nomine quem dignatus es mittere ad me. </p>
+    <p><milestone unit="par" n="3"/> Nam et ego tibi inuicem misi quodcumque carius per terram in
+     Orientis partibus de omnibus remediorum lapidibus nomen existit.</p>
+   </div>
+
+   <div type="index" n="index">
+    <head>Incipit de lapidibus et eorum generibus.</head>
+    <p><milestone unit="par" n="1"/> Lapides ad septem signa pertinentes. Subditi etiam et septem
+     lapides quos ad curam homines phylacteriis habere deberent. Sunt enim sani et potentes. </p>
+    <p><milestone unit="par" n="2"/> Lapis primus qui dicitur chrisolithus, leonis. </p>
+    <p><milestone unit="par" n="3"/> Lapis secundus qui dicitur afroselinus, cancris. </p>
+    <p><milestone unit="par" n="4"/> Lapis tertius qui dicitur emathitis, arietis. </p>
+    <p><milestone unit="par" n="5"/> Lapis quartus qui dicitur keraunius, sagittarii. </p>
+    <p><milestone unit="par" n="6"/> Lapis quintus qui dicitur medos, tauri. </p>
+    <p><milestone unit="par" n="7"/> Lapis sextus qui dicitur arabicus, uirginis. </p>
+    <p><milestone unit="par" n="8"/> Lapis septimus, qui dicitur ostrachitis, capricorni. </p>
+    <p><milestone unit="par" n="9"/> Hi quaerendi tibi erunt ut habeas per omne tempus uitae tuae in
+     custodiam diuinam et sanus eris et securus semper. </p>
+   </div>
+
+   <div type="index" n="index">
+    <p><milestone unit="par" n="1"/> De sculpturis eorum. </p>
+    <p><milestone unit="par" n="2"/> Subieci etiam sculpturas eorum singulorum quae sunt corporis
+     totius phylacteria, ut custodias. </p>
+    <p><milestone unit="par" n="3"/> Lapis chrisolithus sculpitur scarabeo cum radiis, quae
+     cantharon grece dicitur. </p>
+    <p><milestone unit="par" n="4"/> Lapis afroselinus bouis illa cornua habente. </p>
+    <p><milestone unit="par" n="5"/> Lapis emathitis. Sculpis <gap/>. </p>
+    <p><milestone unit="par" n="6"/> Lapis ceraunius. Sculpis capra comata. </p>
+    <p><milestone unit="par" n="7"/> Lapis medos. Sculpis uenerem. </p>
+    <p><milestone unit="par" n="8"/> Lapis arabicus. Sculpis khinokephallion. </p>
+    <p><milestone unit="par" n="9"/> Lapis ostrakitis. Sculpis hominem crocodilli caput et scribis
+     in latere et coxis. </p>
+    <p><milestone unit="par" n="10"/> Et si uolueris phylacterium habere corporis tui et animae cum
+     mathematico <unclear> trauis </unclear> ut uideas quis angelus, hoc est quod signum, hora qua
+     natus es. Vide et ipsius angeli lapide sculpto uteris et habebis phylacterium in perpetuum
+     quando luna est in <foreign xml:lang="grc">συνόδῳ</foreign> ipsius angeli hoc est in signo. </p>
+    <p><milestone unit="par" n="11"/>Melius autem est si domino genitori tuo lapidem sculptum
+     habueris. </p>
+   </div>
+
+   <div type="pr" n="pr">
+    <p><milestone unit="par" n="1"/> De lapidibus et eorum sculpturis, ut supra, septizonio. </p>
+    <p><milestone unit="par" n="2"/> Achates. Tutela Saturni. Ingenui achates opem sedentem uti
+     debent. Libertini <unclear> ardo </unclear> achates fidem publicam. Serui achates, leonem
+     cubantem. </p>
+    <p><milestone unit="par" n="3"/> Eliotropios. Tutela Solis. Ingenui eliotropium, solem
+     radiantem. Libertini uel liberti caput solis. Serui aram et facem supra ardentem. </p>
+    <p><milestone unit="par" n="4"/> Chrisolithus. Tutela lunae. Ingenui lunam sedentem. Libertini
+     luna <unclear> inuica </unclear> boum. <supplied>Serui</supplied> ferant cornua lunae. </p>
+    <p><milestone unit="par" n="5"/> Sardio. Tutela Martis. Ingenui martem tropeum ferentem. Liberti
+     martem a<del>rma</del> ferentem. Serui arma Martis. </p>
+    <p><milestone unit="par" n="6"/> Emathitis. Tutela Mercurii. Ingenui Mercurium in petram
+     sedentem. Liberti <unclear> sapphirina martem </unclear>
+     <gap/>. </p>
+    <p><milestone unit="par" n="7"/> Erbosa. Tutela Iouis. Ingenui Iouem sedentem aquilam. Liberti
+     aquilam supra flumen stantem. Serui aquilam unguibus coronam tenentem. </p>
+    <p><milestone unit="par" n="8"/> Egyptilla. Tutela Veneris. Ingenui uenerem uictricem. Liberti
+     uenerem <gap/> hoc est intuendum. Serui columbam supra astantem. </p>
+   </div>
+
+   <div type="index" n="index">
+    <p>Incipit indicia ualetudinis de lapidibus et eorum uirtutibus Damigeronis doctissimi. </p>
+   </div>
+
+   <div type="cap" n="1">
+    <head>I. Lapis aetites.</head>
+    <p><milestone unit="par" n="1"/> Aetites uero lapis maximum naturae tutamentum. <milestone
+      unit="par" n="2"/> Donauit Deus hunc primum lapidem hominibus, munimenti gratia salutis.
+      <milestone unit="par" n="3"/> Quemque aquila apportans in nidum suum ab extremis partibus
+     orbis terrarum custodiendorum ouorum suorum causa. <milestone unit="par" n="4"/> Aetites enim
+     lapis colore pumiceo uisu asperrimo et habet infra se alterum lapidem ueluti pregnans.
+      <milestone unit="par" n="5"/> Vtilis est ergo mulieribus praegnantibus. <milestone unit="par"
+      n="6"/> Circumligatus enim brachio sinistro non permittit feminam abortum facere. <milestone
+      unit="par" n="7"/> Est autem idem ad uelocitatem partus aptissimus. <milestone unit="par"
+      n="8"/> Nam periclitante muliere introductus et tritus et super lumbaginem eius positus
+     continuo partus liberabit. <milestone unit="par" n="9"/> Praeterea conseruabit gerentem se.
+      <milestone unit="par" n="10"/> Sobrium enim efficiet atque omnia superantem. <milestone
+      unit="par" n="11"/> Rebus familiaribus augebit et opinionem bonam diffamabit. <milestone
+      unit="par" n="12"/> Et gratiosissimus erit qui hunc lapidem geret, et introitum facillimus
+     omnibus deo et hominibus. <milestone unit="par" n="13"/> Amplius infantes et puellas conseruat.
+      <milestone unit="par" n="14"/> Iste lapis a Castore et Polluce ualde amatus est. <milestone
+      unit="par" n="15"/> Limphaticisque et terroribus nefandis efficit ut nec uisa somnientur nec
+     frequenter cadant. <milestone unit="par" n="16"/> Si quem suspicaueris esse uenenarium in domo
+     tua mitte hunc lapidem in pulmentario et inuita suspectum ad cenam. <milestone unit="par"
+      n="17"/> Tunc si talis fuerit ille nihil manducabit, et si ausus fuerit, deuorare non poterit.
+      <milestone unit="par" n="18"/> Tantam potentiam habet iste lapis. <milestone unit="par" n="19"
+     /> Quem si sustuleris ex pulmentario, incipiet ille maleficus manducare et iocundare.
+      <milestone unit="par" n="20"/> Iras quoque potentium summe delinit gestatus. <milestone
+      unit="par" n="21"/> Hic lapis est genus tutamenti. <milestone unit="par" n="22"/> Hoc
+     medicamento utitur aquila ne aliqua fraus sibi noceat. <milestone unit="par" n="23"/> Hunc enim
+     lapidem a perenni flumine aquila posuit corporibus nidi sui ne uiolentur ab aliqua uolucre.
+      <milestone unit="par" n="24"/> Nam qui progeniem conseruaret munitorem instituit. <milestone
+      unit="par" n="25"/> Qui hunc lapidem gerit, omnes gentes inuiolatus euadit et aduersarios suos
+     male mulcatos exsuperat. </p>
+   </div>
+   <div type="cap" n="2">
+    <head>II. Lapis heliotropius. </head>
+    <p><milestone unit="par" n="1"/> Heliotropius lapis nascitur in Ethiopia et Cypro et Libya. <milestone unit="par" n="2"/> Est
+     autem colore smaragdino, sanguinis habens uenas. <milestone unit="par" n="3"/> Appellatur autem
+     heliotropius eo quod uertit solem. <milestone unit="par" n="4"/> Missus enim in peluem
+     argenteum aqua plenum et positum contra solem uertit eum et facit quasi sanguineum et obscurum.
+      <milestone unit="par" n="5"/> Consecratus enim uidebis diuinam potentiam. <milestone
+      unit="par" n="6"/> Continuo enim peluis incipiet aquam confundere, turbidus et aer cum
+     tonitruis et fulgoribus et pluuiis et procellis adeo ut etiam imperiti per potentiam lapidum
+     terreantur et conturbentur. <milestone unit="par" n="7"/> Tantas uires et diuinitates lapis
+     iste habet. <milestone unit="par" n="8"/> Praeterea uaticinantur et praenuntiant futura per
+     fluuios perennes et uocaliter per carmina. <milestone unit="par" n="9"/> Ad salutem conseruat
+     quoque uiuendi facultatem et corpus incolume et bonam existimationem praebet gestantibus et
+     omnem ueneni oblationem et uniuersi generis terriculas amouet. <milestone unit="par" n="10"/>
+     Nam qui hunc lapidem gerit nunquam decipitur. <milestone unit="par" n="11"/> Tanta est huius
+     lapidis gratia a deo concessa hominibus. <milestone unit="par" n="12"/> Hic lapis heliotropius
+     uertit inuiolata numina solis. <milestone unit="par" n="13"/> Igitur, ut iste, lapis imbres
+     euocat et cetera aere ostendit hominibus bene agentibus. </p>
+   </div>
+   <div type="cap" n="3">
+    <head>III. Lapis adamas. </head>
+    <p><milestone unit="par" n="1"/> Adamas autem lapis durior ferro, et optimus nascitur in India, secundus post hunc in Arabia,
+     ceteri in Cypro. <milestone unit="par" n="2"/> Praeterea in Philippico auro inueniuntur
+     similes. <milestone unit="par" n="3"/> Omnes tamen et colore et magnitudine propemodum pares.
+      <milestone unit="par" n="4"/> Apti sunt uero ad omnem magicam actionem et uires easdem habent.
+      <milestone unit="par" n="5"/> Sed a quibusdam lapis iste dicitur <foreign xml:lang="grc"
+      >ἀναγκῖτις</foreign> quod cogat et perficiat omnia in quibus eum desiderabis. <milestone
+      unit="par" n="6"/> Hunc lapidem adeptus include in nucem argenteam et consecratum portas et
+     inuictum te praestabit et indomitum aduersus inimicos et hostes et maleficos et ab omnibus
+     superbis, hominibusque efficieris uniuersis formidolosus. <milestone unit="par" n="7"/>
+     Repellit autem omnem metum et uisiones incertorum somniorum et simulacra umbrarum et uenena et
+     lites. <milestone unit="par" n="8"/> Conficies itaque armilla ex auro, argento et ferro et
+     aeramento, tortile fac et gere circa sinistrum bracchium, quia in hoc enim lapide magnum est a
+     deo auxilium. </p>
+   </div>
+   <div type="cap" n="4">
+    <head>IV. Lapis memnonius. </head>
+    <p><milestone unit="par" n="1"/> Memnonius uero lapis maximum actum et ualentissimum habet. <milestone unit="par" n="2"/>
+     Venena parata et morbos et languores et timores et inimicitias, haec omnia expellit. <milestone
+      unit="par" n="3"/> Fidelem, uerum et firmum, et eloquentem et modestum et ingressus et
+     egressus faciles circa omnes efficit gerentem se. <milestone unit="par" n="4"/> Insuper
+     inuictum in omni re et in omni certamine. <milestone unit="par" n="5"/> Et ne mireris quod
+     tantas uires laudans eum habere tibi scribo. <milestone unit="par" n="6"/> Multi enim reges
+     experti sunt eum aduersus hostes et ad ualidas pugnas. <milestone unit="par" n="7"/> Viri eum
+     fortes et gladiatores in arena et athletae habentes uictoria gloria gratiaque experti sunt.
+      <milestone unit="par" n="8"/> Sed et multi apud iudices capitales causas habentes usi sunt
+     eius efficacia. <milestone unit="par" n="9"/> Iste lapis habet autem magnum naturae munus
+     uincendi semper. <milestone unit="par" n="10"/> Hoc autem usus lapide omnia superabit, quae
+     dico, et omnes iras effugiet. <milestone unit="par" n="11"/> Et naufragio facto enatabit
+     Neptunum et Nereum deos maris contempnens. <milestone unit="par" n="12"/> Verum etiam multi
+     homines uictoriae causa gerentes eum optinuerunt. <milestone unit="par" n="13"/> Valentiores
+     Syros. </p>
+   </div>
+   <div type="cap" n="5">
+    <head>V. Lapis diadochos. </head>
+    <p><milestone unit="par" n="1"/> Lapis diadochos similis est berillo. <milestone unit="par" n="2"/> Vtilissimus est
+     diuinationibus per aquam et adductionibus umbrarum tamquam non alius lapis. <milestone
+      unit="par" n="3"/> Praeterea effigies demonum omnium diligenter ostendit. <milestone
+      unit="par" n="4"/> Ad mortuum ne adhibeas eum. <milestone unit="par" n="5"/> Resistit enim
+     defunctis. <milestone unit="par" n="6"/> Nam diuinus est et sanctus iste lapis et sanctificatus
+     perpetua consecratione. </p>
+   </div>
+   <div type="cap" n="6">
+    <head>VI. Lapis smaragdus. </head>
+    <p><milestone unit="par" n="1"/> Smaragdus lapis est pulcherrimus et ualidissimus et ad omnem aquariam diuinationem.
+      <milestone unit="par" n="2"/> Persuasionemque habet in omni negotio portatusque adauget
+     substantiam et corpore et sermone caste aptus. <milestone unit="par" n="3"/> Maxime autem
+     subuenit et liberat a tempestatibus. <milestone unit="par" n="4"/> Nam quicumque perfecerit et
+     consecrauerit eum, omnimodo impetrabit libertatem. <milestone unit="par" n="5"/> Oportet autem
+     eum perficere sic. Adeptus lapidem iube sculpere scarabeum, deinde sub uentre eius stantem
+     Isidem, postea pertundatur in longitudinem. <milestone unit="par" n="6"/> Tunc in aurea fibula
+     missus discooperta consecratus est. <milestone unit="par" n="7"/> Et fac locum quendam bonum
+     praeparari et ornari tu et cetera quae tua sunt et uidebis gloriam lapidis quantam ei deus
+     concessit. </p>
+   </div>
+   <div type="cap" n="7">
+    <head>VII. Lapis corallius. </head>
+    <p><milestone unit="par" n="1"/>
+    Corallius lapis maximas habet uires in magica tractatione in maiora negotia mouentibus.
+      <milestone unit="par" n="2"/> Est enim tenax et omnia repellit sompniorum ludibria suo
+     remedio. <milestone unit="par" n="3"/> Maximum autem tutamentum aduersus iras dominorum est
+     sculptum in eo nomen noctilucae, hoc est Hecates signum aut Gorgonis personam. <milestone
+      unit="par" n="4"/> Portans autem eum numquam capietur a nullo medicamento nec a fulmine nec
+     umbra inmissa. <milestone unit="par" n="5"/> In bello quoque et pugna maximum adiutorium est.
+      <milestone unit="par" n="6"/> Et inuictus et efficax et impetrabilis erit sine timore et sine
+     tristitia, et securum facit gestantem eum et facile impetrantem et introitum facile habentem.
+      <milestone unit="par" n="7"/> Praeterea consecratus et contritus et seminatus cum frumento aut
+     hordeo aut aliquo fructu amouet de terra grandinem et omnem perniciosam tempestatem. <milestone
+      unit="par" n="8"/> Insuper in uineis aut oliuetis dispersus repellit omnem exitiosum impetum
+     uentorum. <milestone unit="par" n="9"/> In domo autem positus conseruat eam ab omni maleficio
+     et umbris demoniorum et uanis sompniis et fulminum ictibus. <milestone unit="par" n="10"/> In
+     naue hoc si habueris multum efficacior eris. <milestone unit="par" n="11"/> Resistit autem
+     uentis et tempestatibus et turbinibus. <milestone unit="par" n="12"/> Tantam sortitus est
+     potestatem iste lapis remedii contra aduersas partes. <milestone unit="par" n="13"/>
+     Consecratus uero a deo et sanctis locis hoc tutamentum, ut sit maximum die ac nocte hora diurna
+     uel nocturna. <milestone unit="par" n="14"/> Bonumque praesidium corallius lapis habet. </p>
+   </div>
+   <div type="cap" n="8">
+    <head>VIII. Lapis exhebenus. </head>
+    <p><milestone unit="par" n="1"/>
+    Exhebenus lapis albus est et speciosus, cum quo solent aurifices aurum limpidare. <milestone
+      unit="par" n="2"/> Curat autem stomachum maxime in potu aspersus cum aqua. <milestone
+      unit="par" n="3"/> Preterea insanos aut passos in potum persanat et ad amentes similiter in
+     potum dabis. <milestone unit="par" n="4"/> Insuper ad ueneris uoluptatem congruit mirifice.
+      <milestone unit="par" n="5"/> Bibitus non patitur eos fatigari ui. <milestone unit="par" n="6"
+     /> Soluit etiam uesicae dolorem, aptissime enim subuenit. <milestone unit="par" n="7"/> Nam
+     gestatus partum sine egritudine conseruat et uelocitatem parientis facit circumligatus dextro
+     femore parturientis. <milestone unit="par" n="8"/> Consecratus perpetua consecratione. </p>
+   </div>
+   <div type="cap" n="9">
+    <head>IX. Lapis haematites. </head>
+    <p><milestone unit="par" n="1"/>
+     Haematites lapis est et ipse optimum donum nature. <milestone unit="par" n="2"/>
+     <milestone unit="MSS" n="CPT"/> Datum est omnibus a deo. <milestone unit="MSS" n="BAM"/> et
+     quantum frigoris participat, tantum stiptice est uirtutis. <milestone unit="par" n="3"/>
+     <milestone unit="MSS" n="CPT"/>Ad omnem enim corporis integritatem utilis est, etiam tutamentum
+     bonum salutis est. <milestone unit="MSS" n="BAM"/> Valet etiam ad asperas palpebras factas et
+     hebetationibus oculorum. Quod si simul facta fuerit inflammatio cum asperitate in oculis, cum
+     albumine oui in cote resolutum inunguantur, aut cum suco fenugreci. Si autem sit inflammatio et
+     non asperitas, in aqua resolutum cum sputamine inunguimus. Et melius operatur cum aqua in cote
+     olearia resolutus, facit ad eos qui sanguinem exspuunt, uel cum suco mali punici et multum eos
+     iuuat. Nam et omne ulcus superillinitus sanat. Resolutus in aqua solus ut supra profluuium
+     mulieris stringit quia stiptice est uirtutis. Puluis uero ex eo subtilis reprimit
+     supercrescentes in uulneribus carnes et in oculis ulcera cicatricat et rixin sanat. Cum uino
+     ueteri potatus solutiones stringit. Ad omnem utilitatem corporis utilis est: omnemque dolorem
+     idonee curat. Morsus serpentium cum aqua eximie curat. <milestone unit="par" n="4"/> Est enim
+     perhennis lapis iste. <milestone unit="par" n="5"/> Et oculis maxime aptus est. <milestone
+      unit="par" n="6"/> Oculorum hebetationibus contritus cum attico melle non fumigato inunctus
+     sanat, et omnem oculorum dolorem infusus cum lacte mulieris curat. <milestone unit="par" n="7"
+     /> Praeterea ad ulcera oculorum et ad morsus anguium tritus et positus cum aqua omnis serpentis
+     uulnus eximie sanat. <milestone unit="par" n="8"/> Et fluxum sanguinis sine intermissione
+     fluentibus positus sanat. <milestone unit="par" n="9"/>
+     <milestone unit="MSS" n="CPT"/>Circumligatus autem umbilico uel inguine aut preputio lapis iste
+     curationis gratia per stillicidium meiantibus urinam et lapidem uesicae persoluit et sanat.
+      <milestone unit="MSS" n="BAM"/> Ematites utilis est, fragilis et durus equali colore rufo uel
+     ferrugineo habens sorditias aut uenas uarias. Virtus est illi stiptica et leptintica et
+     staltica et smictica. Cum melle uel lacte mulieris tritus uel inunctus aut inmissus dracomata
+     et caligines oculorum detergit et sanguinem suspendit. Puluerizatus et cum uino bibitus
+     dissuriam aperit et fluxum mulierum sistit. Vtilia colliria ex ipso fiunt doloribus oculorum.
+     Comburitur uero ut lapis frigius ex uino superfusus. </p>
+   </div>
+   <div type="cap" n="10">
+    <head>X. Lapis chelidonius. </head>
+    <p><milestone unit="par" n="1"/>
+    Chelidonius lapis inuenitur in uentriculis hirundinum. <milestone unit="par" n="2"/> Cuius
+     genera sunt duo nigrum et rufum. <milestone unit="par" n="3"/> Cape hirundines, sed meliores
+     sunt quae ex nidis sumutur, et fissis eorum uentriculis aufers lapides, utiles sunt tibi.
+      <milestone unit="par" n="4"/> Rufus quidem sanat lunaticos et languidos et insanos. <milestone
+      unit="par" n="5"/> Facies autem sic: accepto panno lineo puro alliga eum ibi et circumda in
+     sinistro brachio male habenti et intra diem tertium curabitur. <milestone unit="par" n="6"/>
+     Praeterea gratissimos facit portantes illum et facundos et amabiles et idoneos. <milestone
+      unit="par" n="7"/> Niger autem gestatus similiter negotiis omnibus fines optime imponit.
+      <milestone unit="par" n="8"/> Nec non ad omnes minas et iras regum et dominorum portatus
+     obsistit. <milestone unit="par" n="9"/> Nam qui habet eum secum omnibus hominibus placebit et
+     ad arbitrium suum perducet. <milestone unit="par" n="10"/> Fidem enim eis accommodat.
+      <milestone unit="par" n="11"/> Sed si cui dolent oculi, tere eum cum aqua et inunge et
+     saluabitur. <milestone unit="par" n="12"/> Et cum tollis de nido obserua ut nec pater eorum aut
+     mater prope sint, meliores enim habebis effectus eorum. <milestone unit="par" n="13"/> Niger
+     autem lapis missus in panno lineo croco tincto tertianam et cotidianam febrem compescit et
+     aduersus omnes tumores excellenter est aptus. </p>
+   </div>
+   <div type="cap" n="11">
+    <head>XI. Lapis chelonites. </head>
+    <p><milestone unit="par" n="1"/>
+    Chelonites autem lapis est ad praenoscenda futura. <milestone unit="par" n="2"/> Habens enim
+     eum sub lingua quodcumque uolueris dices. <milestone unit="par" n="3"/> Cum autem acceperis eum
+     antea tibi os dilue. <milestone unit="par" n="4"/> Valet autem haec praenuntiatio usque ad
+     horam sextam. <milestone unit="par" n="5"/> In prima uero luna ualet per totum diem et quinta
+     decima similiter, decrescente autem luna ante solis ortum ualet. <milestone unit="par" n="6"/>
+     Exciditur autem lapis iste de oculis testudinis indici. <milestone unit="par" n="7"/> Si uero
+     uis scire hoc uerum esse, mitte super thuribulum tres candentes carbones et incensum
+     sacrificabis et superponis lapidem istum confundens, nihil enim laeditur. </p>
+   </div>
+   <div type="cap" n="12">
+    <head>XII. Lapis ceraunius. </head>
+    <p><milestone unit="par" n="1"/>
+    Ceraunius est lapis quem Aegyptii smaragdum uocant. <milestone unit="par" n="2"/> Inuenitur
+     autem in illis locis ubi fulminis ictus. <milestone unit="par" n="3"/> Narratur tamen ex
+     contritione nubium inter se fieri et pro hac causa hoc nomen meruit. <milestone unit="par"
+      n="4"/> Hunc si quis cum castitate portat, numquam a fulmine ferietur neque domus neque uilla
+     in qua fuerit. <milestone unit="par" n="5"/> Praeterea si habuerit eum aliquis nauigans, non
+     periclitabitur per fulmen aut per turbinem. <milestone unit="par" n="6"/> Ampliusque ad omnem
+     uictoriam et certamen qui portat eum exsuperabit in omnem rem. <milestone unit="par" n="7"/>
+     Sed et oracula dat obsecrantis, in somno bona somnia. <milestone unit="par" n="8"/> Tanta est
+     uirtus huius ceraunii lapidis. </p>
+   </div>
+   <div type="cap" n="13">
+    <head>XIII. Lapis iaspis. </head>
+    <p><milestone unit="par" n="1"/>
+    Iaspis autem lapis multis locis nascitur et multorum colorum est. <milestone unit="par"
+      n="2"/> Omnium autem optimus et ualidissimus in colore est lucidissimus. <milestone unit="par"
+      n="3"/> Perfectus est tamen consecratus et caste portatus. <milestone unit="par" n="4"/> Iste
+     lapis imbrium est perfectus et inuocatus imbres facit. </p>
+   </div>
+   <div type="cap" n="14">
+    <head>XIV. Lapis saphirus. </head>
+    <p><milestone unit="par" n="1"/>
+    Saphirus uero lapis honorificatus est uehementer a deo. <milestone unit="par" n="2"/>
+     Dicitur autem apud quosdam <foreign xml:lang="grc">ὁρμίς</foreign> uel <foreign xml:lang="grc"
+      >ὁρμίσκος</foreign>, quia hunc lapidem solent reges gestare circa ceruices. <milestone
+      unit="par" n="3"/> Maximum enim est tutamentum. <milestone unit="par" n="4"/> Habet autem
+     uires has. <milestone unit="par" n="5"/> Inuiolatum ab omni liuore conseruat hominem et
+     amabilem deo efficit et corpora praebet integra et boni coloris et sudorem multum fluentem
+     circumligatus compescit et ardorem omnem interioris partis amouet ab eo qui eum portat.
+     Praeterea ad uetera ulcera contritus cum lacte et superpositus magnam medelam dat. <milestone
+      unit="par" n="6"/> Et epiphoras oculorum sanat et motus frontis, et si in uisceribus tortiones
+     habuerit cum lacte potatus sanat. <milestone unit="par" n="7"/> Et si quis uulnus in intestinis
+     habuerit, trito lapide cum lacte circumunguis intestinum et sanabitur. <milestone unit="par"
+      n="8"/> Si quis autem lingua uexatus fuerit, similiter ex contrito lapide lines linguam et
+     curabitur summe. <milestone unit="par" n="9"/> Omnia quoque uulnera siue recentia siue
+     inueterata curat eodem modo contritus et superunctus cum lacte. <milestone unit="par" n="10"/>
+     Resistit autem ad omnem inuidiam uehementer et corpus conseruat. <milestone unit="par" n="11"/>
+     <milestone unit="MSS" n="CPT"/>Sed etiam sanctos dei propitios esse facit praeclare cum
+     impetratione et honore. <milestone unit="MSS" n="BAM"/> Vitia omnia oculorum uetera contritus
+     cum lacte et inunctus summe persanat. <milestone unit="par" n="12"/> Facit autem ad
+     diuinationem per aquam intellegere sancta responsa. <milestone unit="par" n="13"/> Diuinantibus
+     quoque ualde optimus est. <milestone unit="par" n="14"/> Nam qui habet eum perfectum in formam
+     scarabei omnia uera diuinabitur et fidelia habebuntur dicta eius et placabilis erit deo et
+     hominibus qui hunc gestat cum castitate. </p>
+   </div>
+   <div type="cap" n="15">
+    <head>XV. Lapis hephaestites. </head>
+    <p><milestone unit="par" n="1"/>
+    Hephaestites autem lapis est rubicundus et dilucidus. <milestone unit="par" n="2"/> Nascitur
+     uero in Coryco apud templum dei. <milestone unit="par" n="3"/> Habet autem uirtutes maximas
+     iste lapis. <milestone unit="par" n="4"/> Missus enim in aquam feruentem continuo tepidiorem
+     reddit. <milestone unit="par" n="5"/> Si autem permiseris eum in aqua esse, omnem ardorem
+     tollet et frigidam aquam facit. <milestone unit="par" n="6"/> Istum uero lapidem habentes
+     maleficium remouent a fructibus, grandines et nebulas et turbines nociuos sed et locustas.
+      <milestone unit="par" n="7"/> Et deum propitium facit per suam potentiam. <milestone
+      unit="par" n="8"/> Praeterea cum retinet eum aliquis in manu dextra contra solem, radios
+     emittit et ignem euomet sua uoluntate ut uidentes mirentur. <milestone unit="par" n="9"/> Aptus
+     est autem ad potentiores et seditiosos. <milestone unit="par" n="10"/> Nam qui portat eum
+     tutamentum circa sinistrum bracchium omnes asperitates et omnes turbas contemnit. </p>
+   </div>
+   <div type="cap" n="16">
+    <head>XVI. Lapis orites. </head>
+    <p><milestone unit="par" n="1"/>
+    Orites uero lapis est specie nigerrimus, rotundus, quem alii sideriten uocant. <milestone
+      unit="par" n="2"/> Aptus est autem curandi morsus bestiarum. <milestone unit="par" n="3"/>
+     Contritus enim et superillinitus cum roseo unguento super uulnera bestiarum ualidissime curat.
+      <milestone unit="par" n="4"/> Sed et neruos coniungit alligatus. <milestone unit="par" n="5"/>
+     Si quis homo eum secum habuerit, omnem bestiarum impetum expellit. <milestone unit="par" n="6"
+     /> Hunc portantes magi per solitudinem iter faciunt et non uexantur a feris. <milestone
+      unit="par" n="7"/> Est uero et alter lapis orites uiridis et subcandidas maculas habens.
+      <milestone unit="par" n="8"/> Sciens autem si uerus sit iste lapis pone super turibulum
+     carbones igneos ardentes quam plurimos et superpone multa genera lapidum durissimorum et istum
+     inter eos, et dimitte ut comburantur hora una. <milestone unit="par" n="9"/> Deinde si hunc
+     integrum et illaesum uideris, habebis eum in tutamentum, et omnia peruincit omneque periculum
+     et omnem timorem effugat. <milestone unit="par" n="10"/> Est etiam tertium genus quasi ferrea
+     lamina ex uno latere leuis, ex altero uelut acutos habens clauellos. <milestone unit="par"
+      n="11"/> Habet uirtutes maximas. <milestone unit="par" n="12"/> Nam reges in coitum concubinis
+     suis ut non deformentur aut quominus filios procreent circumligant hunc lapidem ut nec
+     concipiant nec pariant. <milestone unit="par" n="13"/> Tantum remedium sterilitatis natura
+     genuit. <milestone unit="par" n="14"/> Caue autem ne grauidae circumligent. <milestone
+      unit="par" n="15"/> Cogit enim eam praeposterum eicere infantem. </p>
+   </div>
+   <div type="cap" n="17">
+    <head>XVII. Lapis achates. </head>
+    <p><milestone unit="par" n="1"/>
+    Achates uero lapis potentias habet optimas. <milestone unit="par" n="2"/> Sed qui similem
+     habet colorem pelli leonis ualet ad scorpionis morsum. <milestone unit="par" n="3"/> Alligatus
+     enim uel illinitus cum aqua statim tollit dolorem. <milestone unit="par" n="4"/> Et uiperarum
+     morsus curat tritus et supra uulnere aspersus et datus in potione cum uino sanat. <milestone
+      unit="par" n="5"/> Portatus autem in tutamentum erit, et facundum et potentem et gratum et
+     suadentem facit eum qui portat, sed et robustum et colore bono facit et ad deum et ad homines
+     amabilem. </p>
+   </div>
+   <div type="cap" n="18">
+    <head>XVIII. Lapis odontolycius.</head>
+    <p><milestone unit="par" n="1"/>
+    Odontolycius idest lupi dentes. <milestone unit="par" n="2"/> Prosperi sunt et utiles
+     militibus et uenatoribus et rapere aliquid uolentibus et per aquam diuinare aut per sensus
+     uolentibus, positus subter fundum sciphi. <milestone unit="par" n="3"/> Pro firmamento
+     infantibus tutamentum firmum praebet. <milestone unit="par" n="4"/> Apti sunt autem maxime
+     furibus qui aliena furari cupiunt. </p>
+   </div>
+   <div type="cap" n="19">
+    <head>XIX. Lapis alectorius. </head>
+    <p><milestone unit="par" n="1"/>
+    Alectorius uero lapis inuenitur in uentriculis gallinaceorum, modo fabae, cristallina specie
+     aut aquae limpidae. <milestone unit="par" n="2"/> Hunc lapidem qui portat inuictus erit ab omni
+     homine. <milestone unit="par" n="3"/> Iam enim a multis temptatus et probatus est. <milestone
+      unit="par" n="4"/> Nam gladiator aut pugnator habens eum in ore suo insuperatus permanebit et
+     sine siti. <milestone unit="par" n="5"/> Et athletam et aurigam omnimodo uincet. <milestone
+      unit="par" n="6"/> Milo enim crotoniates hunc lapidem portans numquam est uictus. <milestone
+      unit="par" n="7"/> Praeterea multi alii per proelia eum habentes fortiter belligerabant et
+     inuicti permanebant, et reges expulsi de regno suo hoc confisi lapide gestando recipuerunt
+     dominationem non solum suam, uerum etiam alienam. <milestone unit="par" n="8"/> Facit etiam
+     securos et gratos et placentes gestantes eum. <milestone unit="par" n="9"/> Praeterea circa
+     uenereas uoluptates reddit uigentes et ualidos et robustos. <milestone unit="par" n="10"/> Sed
+     etiam mulieribus proderit portantibus quae uolunt uiris placere. <milestone unit="par" n="11"/>
+     Communis enim lapis est. <milestone unit="par" n="12"/> Legatis quoque firmitatem in orationem
+     praebet. <milestone unit="par" n="13"/> Facit etiam portantem speciosum et magnanimum et probum
+     et bonum et omnia proposita optinentem fortibus tutamentis. </p>
+   </div>
+   <div type="cap" n="20">
+    <head>XX. Lapis gagates. </head>
+    <p><milestone unit="par" n="1"/>
+    Gagates uero lapis inuenitur in flumine quod appellatur Gagano. <milestone unit="MSS"
+      n="BAM"/> Gagates autem lapis inuenitur in licia circa ripam fluminis quod ganges uel gangetes
+     appellatur, colore niger et aridus et quasi luminosus mediocriter. Leuis ualde est cuius est
+     melior qui facile exarserit igne et odorem aspalti habebit. <milestone unit="par" n="2"/> Est
+     autem subliueo colore <unclear> magisque longius </unclear>. <milestone unit="par" n="3"
+      /><milestone unit="MSS" n="CPT"/> Habet autem uirtutes magnas et optimas. <milestone
+      unit="MSS" n="BAM"/> Virtutes habet plurimas et magnas et optimas. <milestone unit="MSS"
+      n="BAM"/> Aqua enim solutus dentes mobiles confirmat. <milestone unit="par" n="4"/><milestone
+      unit="MSS" n="CPT"/> Mulieribus autem si non fluxerint menstrua, si hunc lapidem conteras et
+     ponas super carbones ardentes, deinde iubeas mulieri circumgredi et uterus eius uaporetur et
+     sic purgabitur, et sine noxio et sine dolore. <milestone unit="MSS" n="BAM"/>Mulieribus
+     menstrua prouocat si teratur lapis et super carbones aspergatur ardentes ut uaporetur interius
+     circumtecta pannis, sic sine dolore et sine noxa purgabitur. <milestone unit="par" n="5"
+      /><milestone unit="MSS" n="CPT"/> Si quis autem mancipia mercatur et uult scire ut non sit ex
+     eis caducus aut lunaticus succende lapidem et si aliquod tale uitium habuerit, in ipso uitio
+     cadet. <milestone unit="MSS" n="BAM"/> Si quis autem mancipia uult emere, hoc lapide trito
+     sublumiget, et statim uidebitur si caducus uel lunaticus fuerit. Ad rigores praecordiorum et
+     dolores et euersiones facit. Incensus serpentes fugat et epilepticos prodit. Incenditur et in
+     aquam mittitur et per triduum de eadem aqua potui detur parturienti et liberabitur. Demonibus
+     et omnibus maleficis resistit. Virginitatem deprehendit. Fictilia uasa ex eo depicta non
+     delentur. <milestone unit="MSS" n="E EVAX"/> Mancipia si uis emere hoc trito suffumiga et
+     statim apparet si lunaticus fuerit. <milestone unit="par" n="6"/> Tantam uirtutem habet iste
+     lapis et omnes fraudes et ligamenta persoluit. <milestone unit="par" n="7"/> Et succensus omnes
+     angues et uiperas et serpentes exfugat ex loco. </p>
+   </div>
+   <div type="cap" n="21">
+    <head>XXI. Lapis medius. </head>
+    <p><milestone unit="par" n="1"/>
+    Medius lapis niger est. <milestone unit="par" n="2"/> Tritus autem emittit croceum colorem.
+      <milestone unit="par" n="3"/> Multas bonas potentias habet. <milestone unit="par" n="4"/> Si
+     quis gladium comparat ad uindictam inimicorum aut latronum, ita homines debent tam ad bonam
+     quam in malam, si fortuna tulerit, parati esse. <milestone unit="par" n="5"/> Scies autem bene
+     quidem agentes in locum impiorum non peruenire. <milestone unit="par" n="6"/> Hic ergo lapis
+     tritus super coticulam medicinalem cum lacte mulieris quae semel et primo partu masculum
+     peperit, et inunctus albuginem oculorum curat et omnem oculorum dolorem tollit, etiamsi uidere
+     desperatus fuerit sanat. <milestone unit="par" n="7"/> Praeterea podagricos eodem modo cum
+     lacte ouis tritus quae semel genuit masculinum fetum unguis et sanantur. <milestone unit="par"
+      n="8"/> Et renes et anhelitus et omnes interiores corporis partes sic curat. <milestone
+      unit="par" n="9"/> Hoc medicamentum maximum est et a multis probatum. <milestone unit="par"
+      n="10"/> Preparatum uero hoc medicamentum habebis in uase uitreo uel argenteo, et ieiunus
+     bibat. <milestone unit="par" n="11"/> Ad uindictam uero lapidem similiter super coticulam
+     medicinalem teris et cum aqua dilue lapidem et cuticulam, et dabis cui uis ut lauet faciem et
+     excaecabitur. <milestone unit="par" n="12"/> Si quis autem biberit ex eo pulmones euomet.
+      <milestone unit="par" n="13"/> Oportet autem bibenti paululum dare ne satietur. <milestone
+      unit="par" n="14"/> Hic lapis inuentus est in Media unde uocabulum habet. <milestone
+      unit="par" n="15"/> Nascitur uero in locis apud flumen fasin. </p>
+   </div>
+   <div type="cap" n="22">
+    <head>XXII. Lapis syrtius. </head>
+    <p><milestone unit="par" n="1"/>
+    Syrtius uero lapis est qui et sapphirus appellatur. <milestone unit="par" n="2"/> Inuenitur
+     in extremis Libyae partibus circa Syrtes expulsus a mari per tempestates. <milestone unit="par"
+      n="3"/> Idem nascitur et in Apuliae regione apud Lucaniam. <milestone unit="par" n="4"/>
+     Damigeron scribit uir integer et potens: uincit omnem uirtutem lapidum qui maximas potentias
+     habent, et in primis tutamentis numeratur. <milestone unit="par" n="5"/> Qui habet ergo hunc
+     lapidem armatus est aduersus omnem fraudem et omnibus maleficiis et ad insidias aliorum lapidum
+     resistit. <milestone unit="par" n="6"/> Huius tamen naturalis potentia esse diuina dicitur.
+      <milestone unit="par" n="7"/> Si quis a rege uel praeposito mittitur in uincula propter
+     delictum et uoluerit aliquis seducere eum de uinculis, si fieri potest, tangat capita uinculi,
+     statimque rumpentur. <milestone unit="par" n="8"/> Et cum solutus fuerit ueniat ad ostium et
+     tangat hoc cum lapide et a semetipso ostium aperitur, et uadat ubicumque uoluerit, a nullo enim
+     aspicietur. <milestone unit="par" n="9"/> Est autem circa gratiam et amicitiam conciliandam
+     optimus. </p>
+   </div>
+   <div type="cap" n="23">
+    <head>XXIII. Lapis capnites. </head>
+    <p><milestone unit="par" n="1"/>
+    Capnites lapis similis est cristallo, sed multum distat ab eo. <milestone unit="par" n="2"/>
+     Portantibus autem optimum est tutamen, in obsequio erga deum et homines cognitos facit.
+      <milestone unit="par" n="3"/> Facundum uero et formosum facit gerentem se. <milestone
+      unit="par" n="4"/> Curat quoque hydropicos circumligatus sinistro brachio. <milestone
+      unit="par" n="5"/> Vtilis est autem ad formidines et minas amouendas. <milestone unit="par"
+      n="6"/> Nam qui habet eum omnes gentes in gratiam uertit et minas mitigat. </p>
+   </div>
+   <div type="cap" n="24">
+    <head>XXIV. Lapis optallion. </head>
+    <p><milestone unit="par" n="1"/>
+    Optallion lapis circa oculos efficax est. <milestone unit="par" n="2"/> Nam qui gerit eum
+     numquam oculis laborabit. <milestone unit="par" n="3"/> Aptus est autem et furibus ut non
+     teneantur. <milestone unit="par" n="4"/> Obscurat enim aspectum proximorum ut non uideant
+     furantes. <milestone unit="par" n="5"/> Hoc furones usi sunt gestare. </p>
+   </div>
+   <div type="cap" n="25">
+    <head>XXV. Lapis obsianus. </head>
+    <p><milestone unit="par" n="1"/>
+    Obsianus uero lapis, sicut maiores nostri aiunt, Dispatris uidetur esse. <milestone
+      unit="par" n="2"/> Est enim optimus et magnus aduersus somnia incerta, resistit ut nullus
+     alius lapis. <milestone unit="par" n="3"/> Praeterea uolentibus aliquid ledere, subuenit summe.
+      <milestone unit="par" n="4"/> Si quis autem in eo sculpserit solem et lunam et gestauerit eum
+     consecratum, bonam uitam exigit. </p>
+   </div>
+   <div type="cap" n="26">
+    <head>XXVI. Lapis hieracites. </head>
+    <p><milestone unit="par" n="1"/>
+    Hieracites lapis in primis numeratus et probatus est a magis. <milestone unit="par" n="2"/>
+     Est enim niger modice et idoneus in rebus praenoscendis hoc modo. <milestone unit="par" n="3"/>
+     Habebis autem sic eum ubi uolueris aliquid praescire: laua os tuum cum ceroto uel melle optimo
+     et sub lingua pone lapidem, et dices quid de te aliquis sapiat uel cogitet,
+      <supplied>et</supplied> futura omnia. <milestone unit="par" n="4"/> Sed impetrationibus maxime
+     congruit. <milestone unit="par" n="5"/> Gestanti enim eum nemo tibi contradicit aliquid
+     postulanti. <milestone unit="par" n="6"/> Verum amatoria quoque et suasoria per necessitatem
+     efficit uerba super alios lapides. <milestone unit="par" n="7"/> Alliga ergo tibi lapidem et
+     uadis ad pueros siue ad feminas et non tibi contradicit. <milestone unit="par" n="8"/> Quod si
+     uolueris scire quia uerum est iste lapis, sic cognoscere poteris. <milestone unit="par" n="9"/>
+     Lacte et melle commixto circumfunde lapidem et pones eum et non sedebit ibi musca. <milestone
+      unit="par" n="10"/> Sic eam expellit. <milestone unit="par" n="11"/> Nec putes hunc ludibrium
+     esse, ex eadem mixtura circumfunde alterum lapidem qualem uolueris et uidebis quanta multitudo
+     muscarum eum circumuoluit. <milestone unit="par" n="12"/> Super haec gratissimos facit
+     gestantes et facundos ad omnes homines. <milestone unit="par" n="13"/> Sed omnes, o imperator
+     piissime, non credunt legentes ueras esse potentias lapidum quia non experiuntur. <milestone
+      unit="par" n="14"/> Omnia tamen dicta a nobis et scripta ueniunt sanctificata. </p>
+   </div>
+   <div type="cap" n="27">
+    <head>XXVII. Lapis chalcedonius. </head>
+    <p><milestone unit="par" n="1"/>
+    Chalcedonius lapis, sanctificatus et circumligatus, aquaticos curat. <milestone unit="par"
+      n="2"/> Praeterea qui portauerit eum a pueritia numquam mergetur neque uexabitur. <milestone
+      unit="par" n="3"/> Pulchrum quoque facit gestantem et fidelem et potentem et omnia
+     perficientem. <milestone unit="par" n="4"/> Sculpere oportet in eo Martem armatum aut uirginem
+     stolatam, <del>uestem circumfusam</del> tenentem laurum. <milestone unit="par" n="5"/>
+     Consecratus perpetua consecratione. </p>
+   </div>
+   <div type="cap" n="28">
+    <head>XXVIII. Lapis lychnites. </head>
+    <p><milestone unit="par" n="1"/>
+    Lychnites lapis speciosus, colore subuitreo mundo, aduersus nyctalopas <del>id est aduersus
+      nocturnas aues hoc est strigas siue cauanas</del>. <milestone unit="par" n="2"/> Aptus collo
+     idonee persanat enim eos. <milestone unit="par" n="3"/> Praeterea in lineo panno missus et in
+     fronte ligatus fluxum sanguinis stringit. <milestone unit="par" n="4"/> Sciet autem qui eum
+     portat futura praedicere. <milestone unit="par" n="5"/> Et infirmos prohibet aliena loqui et
+     languores expellit. <milestone unit="par" n="6"/> Circumligatus etiam neruos et uerrucas
+     corporis sanat applicatus ea parte ubi dolor est. <milestone unit="par" n="7"/> Insuper si quis
+     eum consecratum habuerit in domum quae incenditur, si casu contigerit, continuo extinguitur
+     incendium. <milestone unit="par" n="8"/> Iste autem lapis Vulcano est consecratus. </p>
+   </div>
+   <div type="cap" n="29">
+    <head>XXIX. Lapis topazos. </head>
+    <p><milestone unit="par" n="1"/>
+    Topazos lapis tutamentum optimum est; ad diuinationes aquatiles aptissimus est. <milestone
+      unit="par" n="2"/> Quod si quis uuae marinae uinum biberit et insaniat, trito lapide super
+     coticulam cum aqua da furioso bibere, deinde apta ei lapidem circa collum et sanabitur.
+      <milestone unit="par" n="3"/> Sacrificantibus etiam propitiantibusque deo utilis est.
+      <milestone unit="par" n="4"/> Suasionem enim habet secum et impetrationem et gratos facit
+     gerentes. <milestone unit="par" n="5"/> Sanctificatus perpetua consecratione. </p>
+   </div>
+   <div type="cap" n="30">
+    <head>XXX. Lapis magnes. </head>
+    <p><milestone unit="MSS" n="BAM"/>
+     Magnes uel magnetes lapis gignitur atque inuenitur circa litus Oceani apud Troglodytas et in
+     India. Ab inuentoribus autem sic uocatus est. Est autem colore ferrugineus. <milestone
+      unit="MSS" n="CPT"/>
+     <milestone unit="par" n="1"/> Magnes lapis magnas uirtutes habet, plenus enim spiritu, hoc est
+     adtrahit sibi appositum ferrum et retinet. <milestone unit="par" n="2"/> Inuenit autem eum
+     Colchis. <milestone unit="par" n="3"/> Hoc dicunt usum in magica magum uero nomine Damigeron,
+     post quem Circe deinde Medi per omnem horam eo usi sunt. <milestone unit="par" n="4"/>
+     Claritatem ex duodecim signorum habet hic lapis. <milestone unit="par" n="5"/> Propterea uero
+     omnes magi confirmauerunt quia maximas haberet potentias. <milestone unit="par" n="6"/> Et sic
+     inuenerunt quemadmodum temptarent uxores suas de caritate erga se an beniuolentiam custodirent,
+     et cognouerunt diligenter, ita fecerunt. <milestone unit="par" n="7"/> Dormiente uxore subtus
+     capite latenter posuerunt lapidem, et si quidem erat casta ab omni altero uiro, sic ad maritum
+     suum accedebat somnians uolutabunda et amplexabat eum tamquam impulsa per aliquem. <milestone
+      unit="par" n="8"/> Si autem cum altero uiro coierat, tamquam uim alicuius spiritus odoris
+     fedissimi lapis mittebat ut de lecto in pauimento caderet tacta mulier. <milestone unit="par"
+      n="9"/> Concordiam secum quoque habet sicut non alius lapis. <milestone unit="par" n="10"/>
+     Multas enim mulieres cum rixa digressas a maritis suis coegit reuerti ad eos et diligere
+     matrimonium eorum. <milestone unit="par" n="11"/> Sed etiam uxoribus earum maritos restituit.
+      <milestone unit="par" n="12"/> Hic lapis gratiosum et obsequentem facit portantem se et
+     iocundum sermonem. <milestone unit="par" n="13"/> Aduocatis certe magnopere subuenit et apud
+     populum contionantibus. <milestone unit="par" n="14"/> Persuasionem enim praebet eis et decorem
+     sermonum et uerborum facultatem, et uictoriam et exsuperationem. <milestone unit="par" n="15"/>
+     Et ad sacrificia magorum aptissimus est. <milestone unit="par" n="16"/> Qui hunc lapidem
+     habent, exaudit enim deus uota eorum. <milestone unit="par" n="17"/> Ideo sacrificantes et
+     precantes gestant eum. <milestone unit="par" n="18"/> Praeterea cum uoluerint intimi, idest
+     fures, secreta pretiosa diripere, intrant in alicuius domum, deinde inter quattuor angulos
+     domus uel triclinii carbones ardentes ponunt uel ignem ex bitumine et superponunt minutatim
+     praecisum lapidem. <milestone unit="par" n="19"/> Et sic transferunt mentes et oculos eorum qui
+     adsunt ut timorem continentes fugiant inde putantes ruere domum. <milestone unit="par" n="20"/>
+     <milestone unit="MSS" n="CPT"/> Nihil profanum est, rex orbis terrarum, ut iste lapis ad se
+     adducat animal et ferrum, attrahitque ferrum et rursus amouet. Si quidam pius est erga deum, et
+     iustum perficiet et inutilia repellit. <milestone unit="MSS" n="BAM"/> Vires habet preterea
+     purgatorias et ideo ydropicis cum mulsa datur <foreign xml:lang="grc">ζ. ς.</foreign> et
+     crassitudinem deducit humorum, omnesque per uentrem eicit. Tritus et combustionibus
+     superaspersus eas sanat. </p>
+   </div>
+   <div type="cap" n="31">
+    <head>XXXI. Lapis lynguros. </head>
+    <p><milestone unit="par" n="1"/>
+    Lynguros lapis optimum tutamentum est in domo, sed et praegnantibus et infantibus ne
+     timeant. <milestone unit="par" n="2"/> Resistit autem et morbo regio portatus aut contritus cum
+     uino et potatus. </p>
+   </div>
+   <div type="cap" n="32">
+    <head>XXXII. Lapis daphnion. </head>
+    <p><milestone unit="par" n="1"/>
+    Daphnion lapis facit ad limphaticos et ad demoniosos et ad superfusionem sanguinis et ad
+     hydropicos, si assidue portetur sanctificatus. </p>
+   </div>
+   <div type="cap" n="33">
+    <head>XXXIII. Lapis chalcedonius. </head>
+    <p><milestone unit="par" n="1"/>
+    Chalcedonius lapis pertusus et aptatus ferro. <milestone unit="par" n="2"/> Qui eum portat
+     uincit causas. </p>
+   </div>
+   <div type="cap" n="34">
+    <head>XXXIV. Lapis galactites. </head>
+    <p> <milestone unit="par" n="1"/>
+    Galactites lapis, hunc quidam uocant ananciten, alteri leucographiten, alii Egyptii
+     smaragdum, alii galbaniten, dicunt magi et Egyptii syneciten. <milestone unit="par" n="2"/>
+     Continet enim in se omnia quae destinaueris solus omnium lapidum. <milestone unit="par" n="3"/>
+     Sed Ostanes, magister magorum omnium, appellauit eum super omnia uocabula lethargum quasi
+     omnium obliuionem malorum. <milestone unit="par" n="4"/> Facit etiam utilem negotiationem.
+      <milestone unit="par" n="5"/> Laudauit eum tamquam nullus alius lapis tantas uires habet.
+      <milestone unit="par" n="6"/> Non enim ex auditu eum sed magis ex scriptura mirati sunt et
+     experti omni magica actione. <milestone unit="par" n="7"/>
+     <milestone unit="MSS" n="CPT"/> Solum hunc lapidem efficacissimum omnium repertum et
+     potentissimum philosophi eternis laudibus decorauerunt. <milestone unit="MSS" n="BAM"/> Est
+     enim gustu dulcis qui tritus lacteum colorem emittit unde et sic dicitur. <milestone unit="par"
+      n="8"/> Et ipse memoratus galactites dicitur eo quod mulieribus lacte deficientibus facit
+     habundare. <milestone unit="par" n="9"/> Facies autem sic. <milestone unit="par" n="10"/>
+     Iubetur mulier ieiunare, deinde contritum lapidem dabis ei cum mulsa uel passo uel aqua, et
+     bibat sufficienter et continuo habebit plurimum et optimum lac. <milestone unit="par" n="11"/>
+     Et si non uoluerit bibere, accipe lanam ouis grauidae et facta acia pertunde lapidem et ligabis
+     circa collum eius, et sic fluit lac. <milestone unit="par" n="12"/> Super ouilibus autem lacte
+     deficientibus, ut excutiatur lac, sic ages. <milestone unit="par" n="13"/> Lauata ouilia
+     circumspargis sale oriente sole. <milestone unit="par" n="14"/> Habeas antea contritum lapidem
+     tenuiter cum aqua unde ouilia circumasperseris et uidebis quamplurimum eas lacte habundare.
+      <milestone unit="par" n="15"/> Et si scabie laborantibus hoc feceris, sanabis eas et
+     fecundiores habebis. <milestone unit="par" n="16"/> Letheus uero uel lethargus dicitur propter
+     hanc causam, quia precedentia mala in obliuionem ducit hominibus. <milestone unit="par" n="17"
+     /> Nam quicumque eum consecratum portat, ut infra scriptum est, etiam offendat regem uel
+     potentem aut praepositum aut parentem aut dominum, in obliuionem omnia praeterita adducit.
+      <milestone unit="par" n="18"/> Omnium autem auctorem gratiosum quoque facit semper et peritum
+     et facundum et efficacem et impetratorem et persuadentem omnibus hominibus et deo placabilem.
+      <milestone unit="par" n="19"/> Et sacrificiis quae fiunt deo gestatus excellenter aptus est.
+      <milestone unit="par" n="20"/> Propitiat enim uiribus suis deum et beniuolum omnibus facit.
+      <milestone unit="par" n="21"/> Amplius etiam aduersus inuidiam et fascinum resistit.
+      <milestone unit="par" n="22"/> Qui eum portat numquam fascinabitur. <milestone unit="par"
+      n="23"/> Sed infantibus pueris aptus congruit et non permittit eos macerari si quando
+     intimidauerit eos horrida mulier. <milestone unit="par" n="24"/> Nam sicut non aliud tutamentum
+     resistit. <milestone unit="par" n="25"/> Idem dolorem liberat dentium laborantium
+     circumligatus. <milestone unit="par" n="26"/> Praeterea laetos et ualidos eos constituit.
+      <milestone unit="par" n="27"/> Quod si mulieri difficulter parienti acia facta de lana ouis
+     fecundae ligaueris circa dextrum femur continuo pariet sine dolore. <milestone unit="par"
+      n="28"/> Nam obliuionem praebet omnium dolorum. <milestone unit="par" n="29"/> Ita resistit.
+      <milestone unit="par" n="30"/> Craterites autem dicitur, quia tenax est. <milestone unit="par"
+      n="31"/> Nam <supplied>per</supplied> fortitudinem et potentiam in iudiciis et causis,
+     litigatores uincere facit. <milestone unit="par" n="32"/> Tantam magnitudinem habet iste lapis,
+     et ne mireris quod tanta nomina habet iste lapis. </p>
+   </div>
+   <div type="cap" n="35">
+    <head>XXXV. Lapis berillus. </head>
+    <p><milestone unit="par" n="1"/>
+    Berillus lapis, hic magnus lapis est et lucidus, subserenus, clarus, similis oleo apollinis.
+      <milestone unit="par" n="2"/> Sculpis in eo locustam marinam et sub pedes eius corniculam et
+     sub gemma ponis herbam sauinam modicum auro inclusam. <milestone unit="par" n="3"/> Consecratus
+     gestatus amorem coniungit et maiorem omnium facit. <milestone unit="par" n="4"/> Praeterea
+     facit hic lapis ad oculorum uitia, et ad omnem ualitudinem si eum in aquam miseris et ipsam
+     aquam potui dederis. <milestone unit="par" n="5"/> Rupto spiritu et suspiriis et epatis dolore
+     liberat. </p>
+   </div>
+   <div type="cap" n="36">
+    <head>XXXVI. Lapis selenitis. </head>
+    <p><milestone unit="par" n="1"/>
+    Selenitis lapis similis iaspidi, notus, fortis et grauis, lucidus, mirabilis, sanctus lapis.
+      <milestone unit="par" n="2"/> Simul enim cum luna crescit et decrescit splendor illius.
+      <milestone unit="par" n="3"/> Ad multa uero utilis est. <milestone unit="par" n="4"/> Facit ad
+     amorem et causas. <milestone unit="par" n="5"/> Facit et phtisicis languentibus. <milestone
+      unit="par" n="6"/> Alligatus luna crescente uel ad contraria minuente luna gestatus mire
+     facit. </p>
+   </div>
+   <div type="cap" n="37">
+    <head>XXXVII. Lapis panchrus. </head>
+    <p><milestone unit="par" n="1"/>
+    Panchrus lapis habet colorem omnem, purpureum, rubeum, nigrum, pallidum, roseum, uiridem,
+     omnes colores diuersos habens. <milestone unit="par" n="2"/> Eum mane uidere bonum est.
+      <milestone unit="par" n="3"/> Facit autem ad uictoriam. <milestone unit="par" n="4"/> Est enim
+     inuictus et sacer <del>idest sanctus</del>. <milestone unit="par" n="5"/> Sculpis eius super
+     Latona et Harpocraten et a retro accipitres tres. <milestone unit="par" n="6"/>
+     <milestone unit="MSS" n="CPT"/> Contra omnes magicas artes auxiliatur. <milestone unit="MSS"
+      n="BAM"/> Qui ad similitudinem panthere que omnibus coloribus est picta, dictus est pantheros
+     propter colores plurimas. Panthera autem est fera degens in ultimis abditis indie, tantae
+     ferocitatis quod leones et pardi et tigrides audita uoce illius timore perculsi macerantur
+     febribus, de aliis feris non dubium an timeant, necne. </p>
+   </div>
+   <div type="cap" n="38">
+    <head>XXXVIII. Lapis colluro. </head>
+    <p><milestone unit="par" n="1"/>
+    Colluro lapis similis est saphiro, subalbidum habet colorem marinum. <milestone unit="par"
+      n="2"/> Aptus est ad interpellationem regum et potentum. <milestone unit="par" n="3"/> Vteris
+     circa collum pertusum. </p>
+   </div>
+   <div type="cap" n="39">
+    <head>XXXIX. Lapis irisites. </head>
+    <p><milestone unit="par" n="1"/>
+    Irisites lapis similis est arcui celi. <milestone unit="par" n="2"/> Hic fortis, grauis,
+     habens in medio apicem tanquam albam et nigram. <milestone unit="par" n="3"/> Hic manu gestatus
+     impetratoris facit ad causam iuredicam. </p>
+   </div>
+   <div type="cap" n="40">
+    <head>XL. Lapis melas. </head>
+    <p><milestone unit="par" n="1"/>
+    Melas lapis habet in se stellas modicas. <milestone unit="par" n="2"/> Dicitur enim et
+     syrtis. <milestone unit="par" n="3"/> Causam dicenti benedictionem et impetrationem et
+     uictoriam facit et ad omnem inquietudinem inimicitiarum et damnorum et maleficiorum et magicas
+     inquinationes et potionum et praecum malorum, incantationum et odium et cetera mala ex corpore
+     expellit. <milestone unit="par" n="4"/> Est autem lapis consecratus. <milestone unit="par"
+      n="5"/> Minorante luna a septima decima usque ad tricesimam uteris. <milestone unit="par"
+      n="6"/> Crescente uero usque ad quintam decimam non uteris. </p>
+   </div>
+   <div type="cap" n="41">
+    <head>XLI. Lapis gagatromeos. </head>
+    <p><milestone unit="par" n="1"/>
+    Gagatromeos lapis est similis colore caprii aut capriolae agresti. <milestone unit="par"
+      n="2"/> Quicumque eum portauerit in nauali bello et in alio prelio fortis erit et inimicos
+     superabit. <milestone unit="par" n="3"/> Hunc enim lapidem Hercules usus est et cum eum
+     deposuisset uictus est. </p>
+   </div>
+   <div type="cap" n="42">
+    <head>XLII. Lapis phoenicites. </head>
+    <p><milestone unit="par" n="1"/>
+    Phoenicites lapis similis est fenico balano idest dactilo, subrubeus uero uel sanguineus.
+      <milestone unit="par" n="2"/> Est mirabilis lapis in manu sinistra gestatus, ad tristitiam et
+     causas et actionem utilis est. </p>
+   </div>
+   <div type="cap" n="43">
+    <head>XLIII. Lapis lyncis. </head>
+    <p><milestone unit="par" n="1"/>
+    Secas in duas partes in mel et lac, dein tollis et includis in anulo et sic portabis et
+     ubicumque cum ipso ieris, cum gaudio et hilaritate quae uolueris habebis. </p>
+   </div>
+   <div type="cap" n="44">
+    <head>XLIV. Lapis narcissites. </head>
+    <p><milestone unit="par" n="1"/>
+    Narcissites lapis est uiridis modice, Martis signum habens. <milestone unit="par" n="2"/>
+     Hic tritus odorem habet narcissi herbae floribus magnificis. <milestone unit="par" n="3"/> Hunc
+     lapidem qui usus fuerit, omnia uincit. </p>
+   </div>
+   <div type="cap" n="45">
+    <head>XLV. Lapis steatites. </head>
+    <p><milestone unit="par" n="1"/>
+    Steatites lapis similis est adipibus leonis. <milestone unit="par" n="2"/> Hic lucidior est
+     colore leonis. <milestone unit="par" n="3"/> Victor est enim quicumque eum in sinistro bracchio
+     usus fuerit. </p>
+   </div>
+   <div type="cap" n="46">
+    <head>XLVI. Lapis capnites. </head>
+    <p><milestone unit="par" n="1"/>
+    Capnites lapis ad impetrationem facit ad deum et ad homines, et corpus hilare facit et
+     timorem malorum seu furias compescit et commendationes facit. <milestone unit="par" n="2"/>
+     Ydropicos curat in sinistro brachio alligatus. <milestone unit="par" n="3"/> Hunc autem de qua
+     uis consecratione consecras. </p>
+   </div>
+   <div type="cap" n="47">
+    <head>XLVII. Lapis chrysolithus. </head>
+    <p><milestone unit="par" n="1"/>
+    Chrysolithus lapis est spissus, lucidus, similis auro et scintillat uelut ignis. <milestone
+      unit="par" n="2"/> Hic applicatus ad rasuram auri, leuatus philacterii tutamentum est ad
+     nocturnos timores. <milestone unit="par" n="3"/> Pertusus et transiectus cum setis asininis et
+     alligatus in sinistro brachio omnia demonia uincit. </p>
+   </div>
+   <div type="cap" n="48">
+    <head>XLVIII. Lapis chrysolithus alter. </head>
+    <p><milestone unit="par" n="1"/>
+    Chrysolithus lapis. Est enim super ipsos quasi turturis oculus. <milestone unit="par" n="2"
+     /> Est autem et cupidinis et amoris et iustitiae adiutor. <milestone unit="par" n="3"/> Facit
+     autem bene susceptos et eloquentes, et gratiosum et amabilem esse, et amicabilem ab his qui eum
+     uident, et omnem ingressum aperit. <milestone unit="par" n="4"/> Facit etiam ad indignationem
+     oculorum. </p>
+   </div>
+   <div type="cap" n="49">
+    <head>XLIX. Lapis aegophthalmos. </head>
+    <p><milestone unit="par" n="1"/>
+    Aegophthalmos lapis maior est quam caprii oculus, habens in se oblongum album, non ualde
+     subcanum. <milestone unit="par" n="2"/> Gestatus in manu sinistra facit ad uiles iniurias. </p>
+   </div>
+   <div type="cap" n="50">
+    <head>L. Lapis sardo. </head>
+    <p><milestone unit="par" n="1"/>
+    Huius color apparet leuis siue maculosus. <milestone unit="par" n="2"/> Bonus portatus a
+     mulieribus amabilis est. <milestone unit="par" n="3"/> Sculpis in eum uineam et hederam
+     inuolutam. </p>
+   </div>
+   <div type="cap" n="51">
+    <head>LI. Lapis arnosteatites. </head>
+    <p><milestone unit="par" n="1"/>
+    Arnosteatites lapis similis est agni adipibus, coloris agni. <milestone unit="par" n="2"/>
+     Hoc lapide quicumque usus fuerit mitescit iras regum et iudicum furias, cum habueris eum
+     strictum in manu sinistra. </p>
+   </div>
+   <div type="cap" n="52">
+    <head>LII. Lapis chelidonius. </head>
+    <p><milestone unit="par" n="1"/>
+    Chelidonius lapis fortis est, spissus, similis coloris hirundinis, et ex una parte
+     purpureus, ex altera parte subalbidus. <milestone unit="par" n="2"/> Est hic amabilis et
+     impetratorius, uehementer facit si eum habuerit aliquis. <milestone unit="par" n="3"/> Et ad
+     fluxum sanguinis prodest. </p>
+   </div>
+   <div type="cap" n="53">
+    <head>LIII. Lapis anthropocrinus. </head>
+    <p><milestone unit="par" n="1"/>
+    Anthropocrinus lapis habet in se scintellas proiectas uelut crines hominis. <milestone
+      unit="par" n="2"/> Hic lapis artis magicae et maleficae absolutionem facit alligatus in collo
+     cum acia multis coloribus insertus. </p>
+   </div>
+   <div type="cap" n="54">
+    <head>LIV. Lapis topazion. </head>
+    <p><milestone unit="par" n="1"/>
+    Topazion lapis est subracematus, lucidus, bene leuis, spissus. <milestone unit="par" n="2"/>
+     Hunc ad maleficiorum aduersionem habere in domum bonum est. </p>
+   </div>
+   <div type="cap" n="55">
+    <head>LV. Lapis polyzonus. </head>
+    <p><milestone unit="par" n="1"/>
+    Polyzonus lapis, hic est niger habens in semetipso zonas albas. <milestone unit="par" n="2"
+     /> Hic portatus ad amicos commendationes facit et fides. <milestone unit="par" n="3"/> Nascitur
+     in mari Rubro. <milestone unit="par" n="4"/> Est enim et mulieribus continens infantes portatus
+     in zona. </p>
+   </div>
+   <div type="cap" n="56">
+    <head>LVI. Lapis pyrites. </head>
+    <p><milestone unit="par" n="1"/>
+    Pyrites lapis. Hic spissus fricatus iuxta ferrum et percussus ignem eicit. <milestone
+      unit="par" n="2"/> Hic lapis ligatus facit contra omnia maleficia et <supplied>ad</supplied>
+     omnes dolores expellendos. </p>
+   </div>
+   <div type="cap" n="57">
+    <head>LVII. Lapis chelonites. </head>
+    <p> <milestone unit="par" n="1"/>
+    Chelonites lapis fortis est et grauis, similis testudinis marinae. <milestone unit="par"
+      n="2"/> Est uarius purpureus. <milestone unit="par" n="3"/> Imbres et grandines euertit et
+     tempestates. <milestone unit="par" n="4"/> Si eum mittis in aquam pluuianam aut marinam et
+     postea eum miseris in ignem, continuo erit serenitas. </p>
+   </div>
+   <div type="cap" n="58">
+    <head>LVIII. Lapis diphyes. </head>
+    <p><milestone unit="par" n="1"/>
+    Diphyes lapis est maculosus et habet in se colores duos nigrum et album. <milestone
+      unit="par" n="2"/> Aliquotiens colores habet in medio similitudinem characteres. <milestone
+      unit="par" n="3"/> Hunc cum inueneris allidis eum in petra fortissima, et in duas partes
+     fractus unaque habet tuberonem in eum. <milestone unit="par" n="4"/> Facit ad amorem perpetuum
+     inter uirum et uxorem. </p>
+   </div>
+   <div type="cap" n="59">
+    <head>LIX. Lapis aegophthalmos. </head>
+    <p><milestone unit="par" n="1"/>
+    Aegophthalmos lapis similis est oculo caprino sublongo, habens album, non ualde candidum,
+     sed subliuidum. <milestone unit="par" n="2"/> Facit ad iras regum mitigationem si eum habueris
+     in manu sinistra occupatum. </p>
+   </div>
+   <div type="cap" n="60">
+    <head>LX. Lapis alcinio. </head>
+    <p><milestone unit="par" n="1"/>
+    Alcinio lapis similis est aeris, idest aeramenti floris. <milestone unit="par" n="2"/>
+     Sublatus ad solem lucet. <milestone unit="par" n="3"/> Hic non a multis cognoscitur. <milestone
+      unit="par" n="4"/> Vtilis est portatus potestatibus. Sculpis in eum Neptunum super bigam
+      <del>idest carrucam cum equis</del>. <milestone unit="par" n="5"/> Fit autem a quibusdam
+     hyacinthus. <milestone unit="par" n="6"/> Est autem genus hyacinthi. </p>
+   </div>
+   <div type="cap" n="61">
+    <head>LXI. Lapis beryllus. </head>
+    <p><milestone unit="par" n="1"/>
+    Beryllus lapis habet colorem similem oleo. <milestone unit="par" n="2"/> Applicatus ad
+     splendorem solis splendet. <milestone unit="par" n="3"/> Vtilis est portatus ad potentes. </p>
+   </div>
+   <div type="cap" n="62">
+    <head>LXII. Lapis adamicos. </head>
+    <p><milestone unit="par" n="1"/>
+    Adamicos lapis <supplied>similis</supplied> ouo <foreign xml:lang="grc">ἁπαλῷ</foreign>
+     idest molle. <milestone unit="par" n="2"/> Hic lapis humidus est, lucidus, quasi marino colore
+     nigrior, aut magis uelut hyacinthus. <milestone unit="par" n="3"/> Hunc portans bonus,
+     persuadens, gratiosus, bonae uitae. <milestone unit="par" n="4"/> Applicatus ad oculorum uitia
+     facit, ita ut semper eum habeas. </p>
+   </div>
+   <div type="cap" n="63">
+    <head>LXIII. Lapis diphyes. </head>
+    <p><milestone unit="par" n="1"/>
+    Diphyes lapis feminae similis est priori <gap/>. <milestone unit="par" n="2"/> Hic nullum in
+     se tuburonem habet. <milestone unit="par" n="3"/> Facit ad amorem feminam ad feminam, uirum ad
+     uirum. </p>
+   </div>
+   <div type="cap" n="64">
+    <head>LXIV. Lapis schistos. </head>
+    <p><milestone unit="par" n="1"/>
+    Schistos lapis niger est, similis ferro. <milestone unit="par" n="2"/> Nam si scissus
+     tanquam lamina finditur. <milestone unit="par" n="3"/> Sed tritus colorem facit pallidum.
+      <milestone unit="par" n="4"/> Qui eo usus fuerit, si a sanctis increpatus fuerit, dimittitur.
+    </p>
+   </div>
+   <div type="cap" n="65">
+    <head>LXV. Lapis triglites. </head>
+    <p><milestone unit="par" n="1"/>
+    Triglites lapis grauis est et fortis, trigle piscis similis, habens in se subalbidas guttas.
+      <milestone unit="par" n="2"/> Religioso alligatus maxime facit. </p>
+   </div>
+   <div type="cap" n="66">
+    <head>LXVI. Lapis epignathion. </head>
+    <p><milestone unit="par" n="1"/>
+    Epignathion lapis, sculpis glaucium auem, idest upupa, et sub pedes eius piscem glaucium et
+     oculis eorum animalium dextris sublatis <del>idest tultis</del> et include eum in auro, et
+     munditer gestatus facit quasi in tenebris terribilia daemonia apparere interdiu. <milestone
+      unit="par" n="2"/> Si autem quidquid dixerit, creditur eidem. <milestone unit="par" n="3"/> In
+     dormitione autem si quis usus fuerit eo, aliqua fantasmata uera uidebit. <milestone unit="par"
+      n="4"/> Nocte eo non uteris. </p>
+   </div>
+   <div type="cap" n="67">
+    <head>LXVII. Lapis de nido auis upupe. </head>
+    <p><milestone unit="par" n="1"/>
+    Sunt tres lapilli in nido eius et quaeres eos. <milestone unit="par" n="2"/> Et si scire
+     uolueris de homine quid absconse locutus est et cogitauerit euigilans, dormienti subter caput
+     ponitur et quicquid uigilans cogitauerit aut locutus est absconsum aut in palam dicet tibi per
+     somnium. <milestone unit="par" n="3"/> Haec autem auis spurcissima est et stercora humana
+     desiderat. <milestone unit="par" n="4"/> Est autem cristis extantibus galeata, semper in
+     sepulcris et <supplied>inter</supplied> humana stercora commorans. <milestone unit="par" n="5"
+     /> Cuius sanguine quisquis se inunxerit dormitum pergens demones suffocantes se uidebit.
+      <milestone unit="par" n="6"/> Et si uiuenti cor contuleris et dormienti mulieri super pectinem
+     posueris, si cum alio uiro coit, dicet per somnium. </p>
+   </div>
+   <div type="cap" n="68">
+    <head>LXVIII.</head>
+    <p><milestone unit="MSS" n="CT"/>
+    Lapis scistus. </p>
+   </div>
+   <div type="cap" n="69">
+    <head>LXIX.</head>
+    <p><milestone unit="MSS" n="CT"/>
+    Lapides qui in uulua aut uentriculum cerui inueniuntur. </p>
+   </div>
+   <div type="cap" n="70">
+    <head>LXX.</head>
+    <p><milestone unit="MSS" n="CT"/>
+    Lapis asius. </p>
+   </div>
+   <div type="cap" n="71">
+    <head>LXXI.</head>
+    <p><milestone unit="MSS" n="CT"/>
+    Lapis magniten, <milestone unit="MSS" n="D"/> lapis magnete. </p>
+   </div>
+   <div type="cap" n="72">
+    <head>LXXII.</head>
+    <p><milestone unit="MSS" n="CTD"/>
+    Lapis gagatis. </p>
+   </div>
+   <div type="cap" n="73">
+    <head>LXXIII.</head>
+    <p><milestone unit="MSS" n="CT"/>
+    Lapis straicus. </p>
+   </div>
+   <div type="cap" n="74">
+    <head>LXXIV.</head>
+    <p><milestone unit="MSS" n="CT"/>
+    Lapis quatratus. </p>
+   </div>
+   <div type="cap" n="75">
+    <head>LXXV.</head>
+    <p><milestone unit="MSS" n="CT"/>
+    Lapis frigius. </p>
+   </div>
+   <div type="cap" n="76">
+    <head>LXXVI.</head>
+    <p><milestone unit="MSS" n="CT"/>
+    Lapis galactitis. </p>
+   </div>
+   <div type="cap" n="77">
+    <head>LXXVII.</head>
+    <p><milestone unit="MSS" n="CT"/>
+    Lapis meletinis. </p>
+   </div>
+   <div type="cap" n="78">
+    <head>LXXVIII.</head>
+    <p><milestone unit="MSS" n="CT"/>
+    Lapis morothos. </p>
+   </div>
+   <div type="cap" n="79">
+    <head>LXXIX.</head>
+    <p><milestone unit="MSS" n="CT"/>
+    Lapis foliginus. </p>
+   </div>
+   <div type="cap" n="80">
+    <head>LXXX.</head>
+    <p><milestone unit="MSS" n="CT"/>
+    Lapis uilapis. </p>
+   </div>
+   <div type="cap" n="81">
+    <head>LXXXI.</head>
+    <p><milestone unit="MSS" n="CT"/>
+    Lapis batrachitis. </p>
+   </div>
+   <div type="cap" n="82">
+    <head>LXXXII.</head>
+    <p><milestone unit="MSS" n="CT"/>
+    Lapis limeris. </p>
+   </div>
+   <div type="cap" n="83">
+    <head>LXXXIII.</head>
+    <p><milestone unit="MSS" n="CT"/>
+    .</p>
+
+    <p>EXPLICIT LIBER DE LAPIDIBVS. LEGE FELICITER.</p>
+   </div>
+
+
+   <div type="section">
+    <head>CAPITVLA VERSIONIS ALPHABETICAE<lb/> E FONTIBVS ALIENIS HAVSTA<lb/> PRISCOQVE LAPIDARIO
+     ADDITA</head>
+
+    <div type="cap" n="Suppl. 5.">
+     <head>De asio lapide.</head>
+     <p>
+      <milestone unit="par" n="1"/> Asius lapis in Alexandria tantummodo inuenitur. <milestone
+       unit="par" n="2"/> Cuius est optimus ad usum medicinae qui est colore candidus et leuis in
+      modum pumicis et ueluti puluis manibus insidens. <milestone unit="par" n="3"/> Alius pumiceus
+      est habens agnitiones nigras per altum et superficiem ueluti salsedinem scabrosam, et colorem
+      album. <milestone unit="par" n="4"/> Medetur denique fistulis, scrophis, podagris, et
+      alienosas passiones curat. <milestone unit="par" n="5"/> Cum melle uero putredines
+      circumscribit. <milestone unit="par" n="6"/> Datur etiam more electuarii ptisicis. <milestone
+       unit="par" n="7"/> Viscide autem relaxare potest, habet autem saporem salsuginosum et
+      nitrosum. </p>
+    </div>
+
+    <div type="cap" n="Suppl. 6.">
+     <head>De alabastrite lapide.</head>
+     <p>
+      <milestone unit="par" n="1"/> Alabastrites lapis uirtutis est laxatiuae. <milestone unit="par"
+       n="2"/> Emollit denique duritias et stomachi dolores ceroto admixtus. </p>
+    </div>
+
+    <div type="cap" n="Suppl. 23.">
+     <head>De frigio lapide.</head>
+     <p>
+      <milestone unit="par" n="1"/> Frigius lapis est quo in Frigia infectores utuntur, unde et
+      nomen accepit. <milestone unit="par" n="2"/> Vtilis est colorem habens uiridem, et qui
+      mediocriter est grauis et uarias uenas habet sicut cathmia. <milestone unit="par" n="3"/>
+      Comburitur uero sic: refusum uino odorato in carbonibus uiuis mitte, et flabella quamdiu
+      colorem faciat rufum et secundo perfunde uino et carbonibus reuoca. <milestone unit="par"
+       n="4"/> Hoc ter facere debes. <milestone unit="par" n="5"/> Obseruandum uero est ne se
+      frangat aut nigrescat. <milestone unit="par" n="6"/> Virtus est illi crudo et cocto stiptica
+      et anacatartica et scarotica et septica. <milestone unit="par" n="7"/> Cum ceroto
+      combustionibus medetur. <milestone unit="par" n="8"/> Lauatur sicut cathmia. <milestone
+       unit="par" n="9"/> Pro pustulis tere in mortario et misce rosaceum cum medullis et induc.
+       <milestone unit="par" n="10"/> Et si fuerint pustule aquatiles cum uino induc. </p>
+    </div>
+
+    <div type="cap" n="Suppl. 29.">
+     <head>De cristallo lapide.</head>
+     <p>
+      <milestone unit="par" n="1"/> Cristallus lapis uires stipticas habet. <milestone unit="par"
+       n="2"/> Quidam autem eum dederunt tritum cum melle ad bibendum ad generandum lac. </p>
+    </div>
+
+    <div type="cap" n="Suppl. 32.">
+     <head>De lince lapide.</head>
+     <p>
+      <milestone unit="par" n="1"/> Lincis lapis quem multi ligurium uocant. <milestone unit="par"
+       n="2"/> Mox ubi minxerit linx lapis fit qui electrum dicitur. <milestone unit="par" n="3"/>
+      Dolorem stomachi compescit. <milestone unit="par" n="4"/> Ventris abstinet reumatismum. </p>
+    </div>
+
+    <div type="cap" n="Suppl. 33.">
+     <head>De lithargiro lapide.</head>
+     <p>
+      <milestone unit="par" n="1"/> Lithargirum nascitur ex harena molipdinis quae combusta
+      liquescit et sic refunditur. <milestone unit="par" n="2"/> Multi ex argento hoc faciunt et ex
+      plumbo. <milestone unit="par" n="3"/> Melius tamen est atticum, secundum hispanum, tercium
+      siculum quod ibi plumbum abundat. <milestone unit="par" n="4"/> Rufum uero et limpidum
+      crisitis dicitur, exalbidum autem argiritis quia ex argento fit. <milestone unit="par" n="5"/>
+      Virtus est ei staltica, id est strigida, et stiptica, alta uulnera replens et superfluas
+      carnes uulneribus crescere non consentiens, sed cicatricem ducens. <milestone unit="par" n="6"
+      /> Comburitur uero sic. <milestone unit="par" n="7"/> Frange lithargirum sicut nuces et pone
+      super carbones igneos donec ignescat, et depone et terge sordes illius et repone. <milestone
+       unit="par" n="8"/> Multi uero aceto aut uino extingunt, et ter coquunt et reponunt.
+       <milestone unit="par" n="9"/> Lauatur sicut cathmia. <milestone unit="par" n="10"/> Exalbatur
+      uero sic: accipe argiritidos libram I et frange sicut fabas et mitte in cacabo nouo cum aqua
+      et tritici albi libram I et ordei libram I et liga in lintheolo et sic pendere fac in cacabo
+      tamdiu quam diu ordeum se erumpat et post hec refundens in cacabo liqua triticum. <milestone
+       unit="par" n="11"/> Separans spumam argenti et missa aqua tere diligenter tota die et sero
+      liqua. <milestone unit="par" n="12"/> Et post hec adde calidam et dimitte tota nocte.
+       <milestone unit="par" n="13"/> Hoc fac diebus sex. <milestone unit="par" n="14"/> Ista uero
+      confectio spume argenti utilis est confectionibus colliriorum et cicatrices corrigit.
+       <milestone unit="par" n="15"/> Rugas uultibus infricata tendit, liuores corporis emendat.
+     </p>
+    </div>
+
+    <div type="cap" n="Suppl. 43.">
+     <head>De pirite lapide.</head>
+     <p>
+      <milestone unit="par" n="1"/> Pirites lapis est ex quo eramen fit. <milestone unit="par" n="2"
+      /> Eligendus est autem colorem eraminis habens, qui missus in foco frangitur. <milestone
+       unit="par" n="3"/> Comburitur uero sic: melle unctus in carbonibus uiuis mittitur et
+      flabellatur quamdiu colorem rufum faciat. <milestone unit="par" n="4"/> Alii uero multis
+      carbonibus ignitis coctum et secundo melle unctum reuocant igni quandiu se friget et postea
+      eximunt illum et lauant sicut cathmiam et reponunt. <milestone unit="par" n="5"/> Virtus est
+      illi crudo et cocto termantica. <milestone unit="par" n="6"/> Caligines oculorum purgat,
+      duritiis diaforesim facit et digestionem rei. <milestone unit="par" n="7"/> Addita resina
+      carnes purgat uel perequat lapis iste. <milestone unit="par" n="8"/> Combustus a multis
+      difriges dicitur. </p>
+    </div>
+
+    <div type="cap" n="Suppl. 49.">
+     <head>De sardio lapide.</head>
+     <p>
+      <milestone unit="par" n="1"/> Sardius lapis dictus eo quod repertus sit primum a sardis.
+       <milestone unit="par" n="2"/> Hic rubeum habet colorem marmori porphiretico prestantem.
+       <milestone unit="par" n="3"/> Set inter gemmas sunt eius genera uilissima, et sunt V. </p>
+    </div>
+   </div>
+
+  </body>
+ </text>
+
+</TEI>

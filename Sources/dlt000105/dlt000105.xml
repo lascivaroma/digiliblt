@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Epistula ad Optatianum Porfyrium</title>
+    <author>Constantinus (Imperator Constantinus Magnus)</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Beatrice Strona</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Nadia Rosso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2015</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000105</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p>Publilii Optatiani Porfyrii, Carmina, I: textus; adiectio indice uerborum; recensuit Iohannes
+     Polara, Torino 1973, pp. 4-6, (Corpus scriptorum Latinorum Paravianum) </p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div type="pr" n="pr">
+    <head>EPISTVLA CONSTANTINI<lb/> INVICTVS CONSTANTINVS MAXIMVS AVGVSTVS.</head>
+    <p><milestone unit="par" n="1"/> Si tantum pondus et gravitas spectarentur in carmine et Graeca
+     post Chium Maeoniumve vatem et Latina post rusticum Mantuanum eloquentia siluisset, nec frustra
+     culpabiles forent qui sibi materias pro ingeniorum qualitate sumentes inani opere sudassent,
+     cum penes primos facundiae conditores gloria tota resideret, frater carissime. <milestone
+      unit="par" n="2"/> Sed quoniam semper in propatulo usus istius fuit nec ulli negatum est id ex
+     ea indicere, quod possit, illos etiam quos posterius aevum tulit non penitus a fructu favoris
+     exclusit, qui relictis gravioribus sonis modos ad leniora flexerunt. <milestone unit="par"
+      n="3"/> Inligavit alter cothurnis et prope cotidianis ac moralibus verbis affectus hominum
+     comoediis locutus est; quibusdam inaequali pede elegia cantata sunt; multorum digitos
+     semiloquacibus chordis amor lyrae iocundus inseruit. <milestone unit="par" n="4"/> Pro
+     qualitate modulaminis ad singulos quosque expetitae laudis gratia redundavit. <milestone
+      unit="par" n="5"/> Defuit quorundam ingeniis temporum favor, qui non secus doctrinae deditas
+     mentes inrigare atque alere consuevit quam si clivosi tramitis supercilio rivus elicitus
+     scaturrientibus venis arva arentia temperaverit. <milestone unit="par" n="6"/> Saeculo meo
+     scribentes dicentesque non aliter benignus auditus quam lenis aura prosequitur; <milestone
+      unit="par" n="7"/> denique etiam studiis meritum a me testimonium non negatur. <milestone
+      unit="par" n="8"/> Liber assidue cursus orationibus fuit; eos vero qui versibus dicerent
+     certis finibus lex metris statuta continuit: quare non inmerito illud usus invenit, ut hoc
+     genere dicturis Heliconis aut Parnasi sacra peterentur, cum mortalis ingenii deficiente
+     substantia necessaria viderentur auxilia divina. <milestone unit="par" n="9"/> Gratum mihi est
+     studiorum tuorum facilitatem in illud exisse, ut in pangendis versibus dum antiqua servaret
+     etiam nova iura sibi conderet. <milestone unit="par" n="10"/> Vix hoc custoditum pluribus fuit,
+     ut nodis quibusdam artis innexi citra interventum vitii inculpatum carmen effunderent;
+      <milestone unit="par" n="11"/> tibi nominum difficultate proposita, numero litterarum,
+     distinctionibus versuum, qui ita medium corpus propositi operis intermeant, ut oculorum sensus
+     interstincta colorum pigmenta delectent, hoc tenuere propositum, ut haesitantiam carmini
+     multiplex legis observantia non repararet. <milestone unit="par" n="12"/> Gratum igitur hoc
+     mihi dicationis tuae munus fuit: <milestone unit="par" n="13"/> exercitatio mentis et naturae
+     facilitas comprobata est. <milestone unit="par" n="14"/> Tu cum tibi videas operis tui gratiam,
+     quam ex meis petiveras auribus, non perisse, et proventu praesentis temporis exultare debebis
+     et non indebitam laudem ingenii exercitatione captare.</p>
+   </div>
+
+  </body>
+ </text>
+
+</TEI>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Fragmenta</title>
+    <author>Symmachus</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Simona Musso</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Simona Musso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2014</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000478</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p>Q. Aurelii Symmachi quae supersunt, edidit O. Seeck, Berolini 1883 (Monumenta Germaniae
+     Historica, Auctores Antiquissimi VI, 1)</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div type="section">
+    <head>AD THEODOSIVM IMPERATOREM</head>
+
+    <div type="cap" n="1">
+     <p>
+      <hi rend="italic">Symmachus ad Theodosium imperatorem:</hi> beatum iam parvulum meum, cui pium
+       <supplied>adrisit</supplied> ... (<hi rend="italic">Arusianus Messius VII p. 458 Keil. s. v.
+       Arrisit illi. </hi>) </p>
+    </div>
+
+    <div type="cap" n="2">
+     <p>
+      <hi rend="italic">Symmachus ad Theodosium imperatorem:</hi> solere principes bona verba
+      largiri. (<hi rend="italic">Arusianus Messius VII p. 489 Keil. s. v. Largior hanc rem.</hi>)
+     </p>
+    </div>
+
+   </div>
+
+   <div type="section">
+    <head>DE CENSVRA NON RESTITVENDA</head>
+
+    <div type="cap" n="3">
+     <p> Quae tempestate resecata est. (<hi rend="italic">cf. Symmachus, epist. IV 29, 2</hi>) </p>
+    </div>
+   </div>
+
+   <div type="section">
+    <head>EX LIBRIS INCERTIS</head>
+
+    <div type="cap" n="4">
+     <p>
+      <hi rend="italic">Retinetis facundissimi Symmachi eximium dictum:</hi> specto feliciter
+      virtutis eius augmenta, qui differo laudare principia. (<hi rend="italic">Cassiod. var. XI 1
+       fin.</hi>) </p>
+    </div>
+
+    <div type="cap" n="5">
+     <p>
+      <hi rend="italic">Sed si pudoris nostri fecisses utcumque rationem. Symmachianum illud te
+       cogitare par fuerat:</hi> ut vera laus ornat, ita falsa castigat. (<hi rend="italic">Apoll.
+       Sid. ep. VIII 4, 1 (10, 1).</hi>) </p>
+     <p>
+      <hi rend="italic">Illam sententiam saecularem quidem sed valde utilem cogitemus:</hi> ut vera
+      laus ornat, ita falsa castigat. (<hi rend="italic">Caesarii Arelat. hom. 25. Margarin de la
+       Bigne, Maxima biblioth. vet. patr. Lugduni a. 1677. tom. VIII p. 845.</hi>)</p>
+     <p>
+      <hi rend="italic">Verecundiam magis incurrimus illud doctissimi viri ad animum producentes,
+       qui dixit:</hi> sicut vera laus ornat, sic falsa castigat. (<hi rend="italic">Pelag. pap.
+       epist. 8 (9).</hi>) </p>
+    </div>
+
+    <div type="cap" n="6">
+     <p>
+      <hi rend="italic">Symmachus sic: </hi> verba dare captivi est, argentum dare satellitis. (<hi
+       rend="italic">Sergii explan. in artem Donati, IV p. 488 Keil</hi>). </p>
+    </div>
+   </div>
+
+  </body>
+ </text>
+
+</TEI>

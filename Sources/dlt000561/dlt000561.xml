@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Vita Vergilii</title>
+    <author>Phocas</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Chiara Miglietta</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Simona Musso</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2014</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000561</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p>Vitae Vergilianae antiquae, recc. G. Brugnoli et F. Stok, Romae 1997, pp. 159-169.</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+  
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+   
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+  
+ </teiHeader>
+
+ <text>
+
+
+  <body>
+   <div type="opus"><head>VITA VIRGILII INCIPIT A FOCA GRAMMATICO VRBIS ROMAE VERSIBVS EDITA.</head>
+   <div type="pr" n="pr"><head>Praefatio</head>
+    <lg>
+     <l>O uetustatis memoranda custos,</l>
+     <l>regios actus simul et fugaces</l>
+     <l>temporum cursus docilis referre,</l>
+     <l>aurea Clio,</l>
+    </lg>
+    <lg>
+     <l>tu nihil magnum sinis interire,</l>
+     <l>nil mori clarum pateris, reseruans</l>
+     <l>posteris prisci monumenta saecli</l>
+     <l>condita libris.</l>
+    </lg>
+    <lg>
+     <l>Sola fucatis uariare dictis</l>
+     <l>paginas nescis, set aperta quicquid</l>
+     <l>ueritas prodit, recinis per aeuum</l>
+     <l>simplice lingua.</l>
+    </lg>
+    <lg>
+     <l>Tu senescentes titulos auorum</l>
+     <l>flore durantis reparas iuuentae,</l>
+     <l>militat uirtus tibi, te notante</l>
+     <l>crimina pallent.</l>
+    </lg>
+    <lg>
+     <l>Tu fori turbas strepitusque litis</l>
+     <l>effugis dulci moderata cantu,</l>
+     <l>nec retardari pateris loquellas</l>
+     <l>compede metri.</l>
+    </lg>
+    <lg><l>His faue dictis! retegenda uita est</l>
+    <l>uatis Etrusci modo, qui perenne</l>
+     <l>Romulae uoci decus adrogauit</l>
+     <l>carmine sacro.</l>
+    </lg>
+   </div>
+      
+   <div type="section"><head>Vita Vergilii</head>
+   <l>Maeonii specimen uatis ueneranda Maronem</l>
+   <l>Mantua Romuleae generauit flumina linguae.</l>
+   <l>quis facunda tuos toleraret Graecia fastus,</l>
+   <l>quis tantum eloquii potuisset ferre tumorem,</l>
+   <l>aemula Vergilium tellus nisi Tusca dedisset? </l>
+   <l>huic genitor figulus Maro nomine, cultor agelli,</l>
+   <l>ut referunt alii, tenui mercede locatus,</l>
+   <l>sed plures figulum. quis non miracula rerum</l>
+   <l>haec stupeat? diues partus de paupere uena</l>
+   <l>enituit: figuli suboles noua carmina finxit. </l>
+   <l>mater Polla fuit Magii non infima proles,</l>
+   <l>quem socerum probitas fecit laudata Maroni.</l>
+   <l>haec cum maturo premeretur pondere uentris,</l>
+   <l>ut solet in somnis animus uentura repingens</l>
+   <l>anxius e uigili praesumere gaudia cura,</l>
+   <l>Phoebei nemoris ramum fudisse putauit.</l>
+   <l>o sopor indicium ueri! nil certius umquam</l>
+   <l>cornea porta tulit. facta est interprete lauro</l>
+   <l>certa parens onerisque sui cognouerat artem.</l>
+   <l>consule Pompeio uitalibus editus auris</l>
+   <l>et Crasso tetigit terras quo tempore Chelas</l>
+   <l>iam mitis Phaethon post Virginis ora receptat.</l>
+   <l>infantem uagisse negant. nam fronte serena</l>
+   <l>conspexit mundum, cui commoda tanta ferebat.</l>
+   <l>ipse puerperiis adrisit laetior orbis:</l>
+   <l>terra ministrauit flores et munere uerno</l>
+   <l>herbida supposuit puero fulmenta uirescens.</l>
+   <l>praeterea, si uera fides, set uera probatur,</l>
+   <l>laeta cohors apium subito per rura iacentis</l>
+   <l>labra fauis texit dulces fusura loquellas.</l>
+   <l>hoc quondam in sacro tantum mirata Platone</l>
+   <l>indicium linguae memorat famosa uetustas.</l>
+   <l>set Natura parens properans extollere Romam</l>
+   <l>et Latio dedit hoc, ne quid concederet uni.</l>
+   <l>insuper his genitor, nati dum fata requirit, </l>
+   <l>populeam sterili uirgam mandauit harenae,</l>
+   <l>tempore quae nutrita breui, dum crescit, in omen</l>
+   <l>altior emicuit cunctis, quas auxerat aetas.</l>
+   <l>haec propter placuit puerum committere Musis</l>
+   <l>et monstrare uiam uicturae in saecula famae. </l>
+   <l>tum Ballista rudem lingua titubante receptum</l>
+   <l>instituit primus, quem nox armabat in umbris</l>
+   <l>grassari solitum: crimen doctrina tegebat.</l>
+   <l>mox patefacta uiri pressa est audacia saxis.</l>
+   <l>incidit titulum iuuenis, quo pignera uatis</l>
+   <l>edidit. auspiciis suffecit poena magistri:</l>
+   <lg><l>ʻMonte sub hoc lapidum tegitur Ballista sepultus:</l>
+    <l>nocte die tutum carpe uiator iter.ʼ</l></lg>
+   <l>nos tamen hos breuius, si fas simulare Maronem:</l>
+    <lg><l>ʻBallistam sua poena tegit, uia tuta per umbras.ʼ </l></lg>
+    <lg><l><del>ʻHic Ballista iacet: certo pede perge uiator.ʼ</del></l></lg>
+    <lg><l><del>ʻCarcere montoso clausus Ballista tenetur:</del></l>
+     <l><del>securi fraudis pergite nocte uiriʼ</del></l></lg>
+    <lg><l><del>ʻQuid trepidas tandem gressu pauitante uiator?:</del></l>
+    <l><del>nocturnum furem saxeus imber habet.ʼ</del></l></lg>
+    <lg><l><del>ʻBallistae uitam rapuit lapis: ipse sepulcrum</del></l>
+    <l><del>intulit. umbra nocens pendula saxa tramit.ʼ</del></l></lg>
+    <lg><l><del>ʻCrimina latronis dignissima poena coercet:</del></l>
+    <l><del>duritiam mentis damnat ubique lapis.ʼ</del></l></lg>
+   <l>hinc culicis tenui praelusit funera uersu:</l>
+   <lg> <l>ʻParue culex, pecudum custos tibi tale merenti</l>
+    <l>funeris officium uitae pro munere reddit.ʼ</l></lg>
+   <l>tum tibi Sironem, Maro, contulit ipsa magistrum</l>
+   <l>Roma potens, proceresque suos tibi iunxit amicos:</l>
+   <l>Pollio Maecenas Varus Cornelius ardent,</l>
+   <l>te sibi quisque rapit, per te uicturus in aeuum.</l>
+   <l>Musa refer quae causa fuit componere libros.</l>
+   <l>sumpserat Augustus rerum moderamina princeps.</l>
+   <l>iam necis ultor erat patriae, iam caede priorum</l>
+   <l>perfusos acies legitur uisura Philippos.</l>
+   <l>Cassius hic Magni uindex et Brutus in armis</l>
+   <l>intereunt. uictor nondum contentus opimis</l>
+   <l>emeritas belli spoliis ditasse cohortes</l>
+   <l>proscripsit miserae florentia rura Cremonae,</l>
+   <l>totaque militibus pretium concessa laborum</l>
+   <l>praeda fuit. uiolenta manus bacchata per agros.</l>
+   <l>non flatus non tela Iouis non spumeus amnis</l>
+   <l>non imbres rapidi quantum manus impia uastant.</l>
+   <l>Mantua, tu coniuncta loco, sociata periclis:</l>
+   <l>non tamen ob meritum miseram uicinia fecit. </l>
+   <l>iam Maro pulsus erat, set uiribus obuius ibat</l>
+   <l>fretus amicorum clipeo, cum paene nefando</l>
+   <l>ense perit. quid dextra furis? quid uiscera Romae</l>
+   <l>sacrilego mucrone petis? tua bella tacebit</l>
+   <l>posteritas ipsumque ducem nisi Mantua dicat!</l>
+   <l>non tulit hanc rabiem doctissima turba potentum.</l>
+   <l>itur ad auctorem rerum: quid Martius horror</l>
+   <l>egerit, ostendunt, qui tam miseranda tulisset.</l>
+   <l>Caesaris huic placido nutu repetuntur agelli.</l>
+   <l>his auctus meritis cum digna rependere uellet,</l>
+   <l>inuenit carmen, quo munera uincere posset:</l>
+   <l>praedia dat Caesar, quorum breuis usus habendi:</l>
+   <l>obtulit hic laudes, quas saecula nulla silescunt.</l>
+   <l>pastores cecinit primos: hoc carmine consul</l>
+   <l>Pollio laudatur ter se reuocantibus annis </l>
+   <l>composito. post haec ruris praecepta colendi</l>
+   <l>quattuor exposuit libris, et commoda terrae</l>
+   <l>edocuit geminis anno minus omnia lustris.</l>
+   <l>inde coturnato Teucrorum proelia uersu</l>
+   <l>et Rutulum tonuit: bissena uolumina sacro</l>
+   <l>formauit donata duci trieteride quarta.</l>
+   <l>sed loca quae uulgi memorauit tradita fama</l>
+   <l>aequoris et terrae statuit percurrere uates,</l>
+   <l>certius ut libris oculo dictante notaret.</l>
+   <l>pergitur. ut Calabros tetigit, liuore nocenti</l>
+   <l>Parcarum uehemens laxauit corpora morbus.</l>
+   <l>hic ubi languores et fata minacia sensit,</l>
+    <l><gap/></l>
+   </div>
+   </div>
+  </body>
+ </text>
+
+</TEI>

@@ -1,0 +1,1529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>De differentiis topicis</title>
+    <author>Boethius (Anicius Manlius Seuerinus Boethius)</author>
+    <respStmt>
+     <resp>Correzione linguistica</resp>
+     <name>Manuela Ferroni</name>
+    </respStmt>
+    <respStmt>
+     <resp>Codifica XML</resp>
+     <name>Manuela Ferroni</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>digilibLT</publisher>
+    <pubPlace>Vercelli</pubPlace>
+    <date>2015</date>
+    <availability>
+     <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/></p>
+    </availability>
+    <idno>dlt000044</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <p>Manlii Seuerini Boetii, <hi rend="italic">Opera omnia</hi>, accurante J.-P. Migne, tomus
+     posterior, Parisiis 1891, 1173-1216 (Patrologiae Latinae, 64) </p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+    <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+   </projectDesc>
+   <editorialDecl>
+
+    <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+    <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
+     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+    <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+     correttezza di trascrizione</p>
+    <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+     distinzione u/v minuscole.</p>
+    <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+    <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+     grassetto, corsivo, spaziatura espansa.</p>
+    <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+     <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/> integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+     <hi rend="italic">loci desperati</hi>: <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+     si visualizzano †testo† e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza
+     [...]<lb/> lacuna integrata dagli editori:
+     <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+    </p>
+    <p>Sono stati marcati i termini in lingua greca
+     <![CDATA[<foreign xml:lang="grc">αγβ</foreign>]]>
+    </p>
+    <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+      target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+      >Note di trascrizione e codifica di testi latini tardoantichi
+      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="la">Latino</language>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+
+  <body>
+   <div type="lib" n="I">
+    <head>LIBER PRIMVS</head>
+    <p><milestone unit="page" n="Col. 1173B"/> Omnis ratio disserendi, quam logicen Peripatetici
+     veteres appellavere, in duas distribuitur partes, unam inveniendi, alteram iudicandi. Et ea
+     quidem pars quae iudicium purgat atque instruit, ab illis analytice vocata, a nobis potest
+     resolutoria nuncupari. Ea vero quae inveniendi facultatem subministrat, a Graecis topice, a
+     nobis localis dicitur. Ac de illa quidem parte quae iudicandi magistra est, alias disputabitur.
+     Nunc vero consilium est aperire qui sint loci, quae eorum differentiae, qui etiam quibus apti
+     sint syllogismis. Nec id simpliciter atque uniformiter videtur esse faciendum, verum duplex est
+     tradenda partitio, una quidem ex Graecis voluminibus eruta, altera vero ex M. Tullii Topicis
+     sumpta. Atque in his illud ad perfectionem speculationis est <milestone unit="page"
+      n="Col. 1173C"/> astruendum, ut quibus utraque modis divisio differat, quibusque conveniat
+     explicetur, quoque modo altera alteram vicissim possit includere; et nunc quidem non in
+     singulis immorabimur, sed de tota divisione communiter disseremus, locorum tantum ex quibus
+     argumenta nascuntur diffinitiones, exempla differentiasque colligentes. Singula vero pro
+     qualitate operis diligentius, vel his octo voluminibus expedita sunt, quibus Aristotelis Topica
+     in Latinam vertimus orationem, vel his septem quibus M. Tullii Topicis lucem plenae
+     expositionis insudavimus. Illic igitur cuncta sunt propriis atque enodatis partibus expedita;
+     hic vero quae alias per membra patefacta sunt, communi speculatione tractantur. Nec dialecticos
+     solum locos, sed etiam rhetoricos, quove hi inter se atque dialecticis differant, cura est
+     exsequendi, ut omnibus undique locis plena consideratione propositis, <milestone unit="page"
+      n="Col. 1174B"/> eorumque differentiis inter se et communitatibus pernotatis, et argumentorum
+     copia comparetur, et locorum clara possit esse distinctio. Vt igitur cuncta perspicuis
+     rationibus constent, paulo altius ordiendum est. Propositio est oratio verum falsumve
+     significans; ut si quis dicat coelum esse volubile, haec et enuntiatio et proloquium
+     nuncupatur. Quaestio est in dubitationem ambiguitatemque adducta propositio, ut si quis quaerat
+     an coelum sit volubile. Conclusio est argumentis approbata propositio, ut si quis coelum ab
+     aliis rebus probet esse volubile. Enuntiatio quippe, sive sui tantum causa dicatur, sive ad
+     aliud afferatur approbandum, propositio est: si de ipsa quaeritur, quaestio; si ipsa est
+     approbata, conclusio. Idem est igitur propositio, quaestio et conclusio, sed <milestone
+      unit="page" n="Col. 1174C"/> differunt modo supra dicto. Argumentum est ratio rei dubiae
+     faciens fidem. Non vero idem est argumentum et argumentatio: nam vis sententiae ratioque ea
+     quae clauditur oratione cum aliquid probatur ambiguum, argumentum vocatur; ipsa vero argumenti
+     elocutio, argumentatio dicitur. Quo fit ut argumentum quidem virtus, et mens argumentationis
+     sit atque sententia; argumentatio vero, argumenti per orationem explicatio. Locus autem sedes
+     est argumenti, vel id unde ad propositam quaestionem conveniens trahitur argumentum. Quae cum
+     ita sint, singulorum natura diligentius tractanda est, eorumque per species ac membra, ut
+     diximus, figurasque divisio facienda est. Ac prius de propositione disserendum est. Hanc esse
+     diximus orationem, veritatem vel mendacium continentem. Huius duae sunt species, affirmatio
+     una, altera vero negatio. Affirmatio, si <milestone unit="page" n="Col. 1175A"/> quis sic
+     efferat: coelum volubile est. Negatio, si quis ita pronuntiet: coelum volubile non est. Harum
+     vero aliae sunt universales, aliae particulares, aliae indefinitae, aliae singulares.
+     Vniversales quidem, ut si quis ita proponat: omnis homo iustus est, nullus homo iustus est.
+     Particulares vero, si quis hoc modo dicat: quidam homo iustus est, quidam homo iustus non est.
+     Indefinitae hoc modo: homo iustus est, homo iustus non est. Singulares vero sunt quae
+     individuum aut quid singulare proponunt, ut Cato iustus est, Cato iustus non est; etenim Cato
+     individuus est ac singularis. Harum vero alias praedicativas, alias conditionales vocamus.
+     Praedicativae sunt quae simpliciter proponuntur, id est quibus nulla vis conditionis
+     adiungitur, ut si quis coelum esse volubile simpliciter <milestone unit="page" n="Col. 1175B"/>
+     dicat. At si conditio huic copuletur, fit ex duabus propositionibus una conditionalis, hoc
+     modo: coelum si rotundum est, volubile est. Hic enim conditio id efficit, ut ita demum coelum
+     volubile esse intelligatur, si sit rotundum. Quoniam igitur aliae propositiones praedicativae
+     sunt, aliae conditionales, praedicativarum partes terminos appellamus: hi sunt praedicatus et
+     subiectus. Terminos autem verba voco et nomina quibus propositio nectitur, ut in ea
+     propositione qua dicimus, homo iustus est, haec duo nomina, id est iustus et homo,
+     propositionis partes vocamus; eosdem etiam terminos dicimus, quorum alter subiectus est, alter
+     praedicatus. Subiectus est terminus qui minor est, praedicatus vero qui maior, ut in ea
+     propositione qua dicitur, homo iustus est, <milestone unit="page" n="Col. 1175C"/> homo quidem
+     minus est quam iustus. Non enim in solo homine esse potest iustitia, verum etiam in corporeis
+     divinisque substantiis. Atque ideo maior est terminus iustus, homo vero minor, quo fit ut homo
+     quidem subiectus terminus sit, iustus vero praedicatus. Quoniam vero huiusmodi simplices
+     propositiones alterum habent praedicatum terminum, alterum subiectum terminum, a maioris
+     privilegio propositio praedicativa vocata est. Saepe autem evenit, ut hi termini sibi invicem
+     inveniantur aequales hoc modo: homo risibile est, homo namque et risibile uterque sibi
+     subiectus aequus est terminus; nam neque risibile ultra hominem, nec ultra risibile homo
+     porrigitur. Sed in his necesse est hoc venire, ut si quidem inaequales termini sint, maior
+     semper de <milestone unit="page" n="Col. 1175D"/> subiecto praedicetur; si vero aequales,
+     uterque conversa praedicatione de se dicatur; ut vero minor de maiori praedicetur, in nulla
+     propositione contingit. Fieri autem potest ut propositionum partes quas terminos dicimus, non
+     solum in nominibus, verum in orationibus inveniantur. Nam saepe oratio de oratione praedicatur,
+     hoc modo: Socrates cum Platone et discipulis de philosophiae ratione pertractat. Haec quippe
+     oratio, quae est, Socrates cum Platone et discipulis, subiecta est. Illa vero, de philosophiae
+     ratione pertractat, praedicatur. Rursus aliquando nomen subiectum est, oratio praedicatum, hoc
+     modo: Socrates de philosophiae ratione pertractat; hic enim Socrates subiectus solus est;
+     oratio qua dicimus, de <milestone unit="page" n="Col. 1176A"/> philosophiae ratione pertractat,
+     praedicatum. Evenit etiam ut supponatur oratio, et simplex vocabulum praedicetur, hoc modo:
+     Socratis similitudo cum supernis divinisque substantiis iustitia est; hic enim oratio per quam
+     profertur, Socratis similitudo cum supernis divinisque substantiis, subiicitur, iustitia vero
+     praedicatur. Sed de huiusmodi propositionibus in his commentariis, qui in <foreign
+      xml:lang="grc">Περὶ ἑρμηνείας</foreign> Aristotelis libro conscripsimus, diligentius
+     disseruimus. Conditionalium vero propositionum, quas Graeci hypotheticas vocant partes, sum
+     simplices propositiones, cuius quidem ea pars quae prius dicitur antecedens, quae posterius
+     consequens appellatur, ut in hac propositione quae dicit: si rotundum est, volubile est.
+     Rotundum esse antecedit, volubile esse consequitur. <milestone unit="page" n="Col. 1176B"/>
+     Harum quoque aliae sunt simplices conditionales, aliae coniunctae: simplices sunt quae
+     praedicativas habent propositiones in partibus, ut in ea quam superius diximus, si rotundum
+     est, volubile est. Rotundum est enim et volubile est, utraeque divisae ac sigillatim acceptae
+     praedicativae sunt. Coniunctarum vero multiplex differentia, de quibus in his voluminibus
+     diligentissime perstrinximus, quae de hypotheticis composuimus syllogismis. Simplicium vero
+     hypotheticarum propositionum quatuor sunt differentiae: aut enim ex duabus affirmativis
+     categoricis constant, ut si rotundum est, volubile est, utraque enim affirmativa est; aut
+     negativis duabus, ut si coelum rotundum non est, volubile non est; nam rotundum non esse, et
+     volubile non esse, utraeque <milestone unit="page" n="Col. 1176C"/> negationes sunt; aut ex
+     affirmativa et negativa, ut si quadratum est, volubile non est; quadratum enim esse affirmatio
+     est, volubile non esse, negatio est; aut ex negativa et affirmativa, ut si rotundum non est,
+     stabile est, rotundum non esse negatio est, stabile vero esse affirmatio. Propositionum quoque
+     aliae sunt per se notae, et quarum probatio nequeat inveniri, aliae quas, tametsi animus
+     audientis probet eisque consentiat, tamen possunt aliis superioribus approbari. Et illae quidem
+     quarum nulla probatio est, maximae ac principales vocantur, quod his illas necesse est
+     approbari, quae ut demonstrari valeant, non recusant. Est autem maxima propositio, ut haec: Si
+     de aequalibus aequalia demas, quae derelinquuntur aequalia sunt. Ita enim hoc per se notum est,
+     ut <milestone unit="page" n="Col. 1176D"/> aliud notius quo approbari valeat, esse non possit.
+     Quae propositiones cum fidem sui natura propriam gerant, non solum alieno ad fidem non egent
+     argumento, verum caeteris quoque probationis solent esse principium. Igitur per se notae
+     propositiones, quibus nihil est notius, indemonstrabiles ac maximae et principales vocantur.
+     Quae vero quamvis auditoris iudicio comprobentur, habent tamen aliquid notius naturaliter ex
+     quo, si de his fiat quaestio, velut ex alieno fidem capiant, hae demonstrabiles ac minores
+     posterioresque dicuntur. Et de propositionibus quidem ista sufficiant. Quaestio vero
+     dubitabilis est propositio, in qua necesse est fere eadem considerari quae dudum in
+     propositione dicta sunt. Aliae namque <milestone unit="page" n="Col. 1177A"/> simplices, aliae
+     compositae sunt. Simplices sunt ut hae quae ex simplici propositione descendunt, hoc modo, ut
+     si quaeratur an coelum sit volubile. Haec enim ab ea venit propositione quae dicit coelum esse
+     volubile. Atque si a conditionali composita propositione suscipit initium, quae est an si
+     coelum est rotundum, volubile est, erit conditionalis atque composita hoc modo; haec enim a
+     conditionali propositione principium sumit quae est, si coelum rotundum est, volubile est:
+     quaestio ergo alias quidem praedicativa est, alias conditionalis. Quo fit ut eaedem partes
+     quaestionis sint quae dudum esse dictae sunt propositiones. Praedicativae igitur quaestiones
+     habent praedicatum atque subiectum, ut in ea qua dubitatur an coelum sit volubile. Nam volubile
+     praedicatum, <milestone unit="page" n="Col. 1177B"/> coelum vero subiectum est. Maior enim
+     terminus est volubile quam coelum. Neque enim coelum solum volubile dici potest. Quae vero
+     coniuncta est quaestio, habebit partes quod praedicatur et quod subiicitur, quod antecedit et
+     quod consequitur, ut in ea quae dicit, an si coelum rotundum est, volubile est. Antecedit
+     rotundum esse, sequitur volubile esse. Quae cum ita sint, in praedicativa quaestione dubitatur
+     an subiecto termino praedicatus inhaereat. In hypotheticis vero quaestionibus, illud tantum
+     quaeritur an illam rem quae praecedit comitetur id quod sequens esse proponitur. Omnia vero
+     quae de praedicativis propositionibus dicta sunt, id est, quod aliae universales, aliae
+     particulares, aliae indefinitae, aliae singulares, eadem possunt dici fere in praedicativa
+     quaestione. <milestone unit="page" n="Col. 1177C"/> Hoc etenim tantum quaestio a propositione
+     diversa est, quod propositio quidem vel enuntiata simpliciter, vel aliud probans, oratio est
+     verum falsumve significans. Quaestio vero cum sit ipsa quidem oratio, dubitabilis tamen est
+     propositio. Addita igitur dubitatione, quae in propositione considerantur, eadem etiam convenit
+     in quaestione tractari. Quaestionis autem duae sunt species: una quae dicitur a dialecticis
+     thesis; haec huiusmodi est quae de re caeteris circumstantiis nuda quaerit ac disserit, quales
+     a dialecticis maxime ad disputationem sumuntur, ut voluptasne summum bonum sit? Ducendane uxor?
+     haec a nobis propositio vel propositum dicitur. Altera vero quae a Graecis vocatur hypothesis,
+     a nobis dicitur causa; haec quaestio est personis, temporibus, factis, <milestone unit="page"
+      n="Col. 1177D"/> caeterisque circumstantiis implicita; ea est huiusmodi: iurene Cicero in
+     exsilium dubio reipublicae tempore detrudatur, quia iniussu populi cives Romanos necaverit.
+     Huius autem duplicis quaestionis subdivisiones alias esse necesse est, et thesis quidem
+     philosophis, hypothesis vero oratoribus attributa est. Sed eius quidem quaestionis quae est
+     hypothesis posterius, divisiones dabo; nunc de theseos divisione pertractabo, quae in quatuor
+     dividitur species. In omni enim dialectica quaestione praedicativa dubitatur an ei quod
+     subiectum est id quod praedicatur inhaereat; cum vero aliquid alicui inesse proponitur, id aut
+     maius erit eo de quo praedicatur eique substantialiter inesse contenditur; aut maius <milestone
+      unit="page" n="Col. 1178A"/> quidem eo erit, sed non de substantia ipsius praedicabitur; aut
+     ei erit aequale, et in substantia praedicabitur; aut ei erit aequale, sed minime eius
+     substantiam continebit. Nam ut id quod minus est de eo quod maius est praedicemus, in nulla
+     propositione evenit. Sed si tale est quod in quaestione proponitur, ut subiecto sit maius, et
+     de subiecti substantia praedicetur, erit genus: omne enim genus est maius eo de quo
+     praedicatur, et de substantia eius dicitur, ut animal hominis. At si maius quidem fuerit, sed
+     de substantia eius non praedicetur, erit accidens, ut album homini. Quod si aequale quidem sit,
+     sed substantiale, subiecti erit diffinitio, ut animal rationale mortale homini: hoc namque
+     convertitur, et subiecti rationem, id est hominis substantiam, monstrat. Quod si <milestone
+      unit="page" n="Col. 1178B"/> aequale quidem sit, sed a ratione substantiae seiunctum, erit
+     proprium: ut risibile homini. Itaque dialecticae simplices quaestiones, aut de genere, aut de
+     accidenti, aut de diffinitione, aut de proprio fiunt. Possunt vero fieri etiam de differentia
+     quaestiones cum quaeritur coelestia corpora rationalia sint necne, vel cum dubitatur eane sit
+     tyranni ac principis differentia, quod hic legibus sumpsit imperium, ille violenta dominatione
+     populum premit. Sed tantumdem est de differentia quaerere, quantum si de genere dubitetur. Aut
+     enim constitutiva erit differentia, aut divisiva: sed si constitutiva fuerit, quasi generis
+     obtinet locum, ut rationabilitas homini; vel si ratione degunt coelestia corpora, coelestibus
+     quoque corporibus. At si divisiva fuerit, velut species consideratur, <milestone unit="page"
+      n="Col. 1178C"/> omnis enim species cum divisibili differentia est. Quod si differentia nunc
+     quidem loco generis, nunc vero speciei loco utimur, ambigi non potest, cum de ea quaeritur de
+     genere dubitari; fieri vero potest ut aliquid in certamen comparatione ducatur, velut cum
+     ambigitur an melior sit fortitudo iustitia. Sed haec quaestio in accidentis necesse est
+     dubitatione ponatur. Namque ad comparationem nihil nisi accidens venit, hoc enim solum recipit
+     magis et minus. Rursus de eo quod est idem potest fieri certamen, ut an idem sit utile quod
+     honestum. Sed hic quaestio diffinitioni aggreganda est: quarum enim rerum eadem est diffinitio,
+     ipsae quoque sunt eaedem; quarum vero diversa substantiae ratio est, ipsae quoque sunt
+     diversae. Igitur simplicis dialecticae quaestiones <milestone unit="page" n="Col. 1178D"/>
+     recte quatuor species esse dicuntur, de quibus sufficienter dictum est. Nunc igitur de
+     conditionalibus quaestionibus tractandum est, quarum quidem alia constat ex affirmativis
+     duabus, alia ex duabus negativis, alia ex affirmatione et negatione, alia ex negatione et
+     affirmatione. Si igitur ex duabus affirmationibus conditionalis constat propositio, id
+     quaeritur an affirmatio affirmationem sequatur; quod si ex duabus negationibus propositio
+     iuncta sit, id in decertatione est an negatio negationem comitetur; quod si ex affirmatione et
+     negatione, vel negatione et affirmatione copuletur, id ambigitur an affirmationem negatio, an
+     affirmatio negationem comitetur. Ac prius quidem eius quaestionis facienda <milestone
+      unit="page" n="Col. 1179A"/> est divisio, in qua disceptatur an affirmationem affirmatio
+     consequatur, quae praedicativarum quaestionum non effugit divisionem. Nam ut praecedat aliquid
+     et aliud consequatur, in his fere rebus evenire solet quas paulo superius commemoravi. Speciem
+     quippe sequitur genus, vel differentia, vel diffinitio, vel proprium, vel inseparabile
+     accidens. Item proprium ac diffinitionem sequitur species, proprium vero sequitur differentia
+     et diffinitio, et diffinitionem sequitur proprium vel differentia, hoc modo: nam si homo est,
+     animal est; et si homo est, rationale est; et si homo est, animal rationale mortale est; et si
+     homo est, risibile est; si Aethiops est, niger est. Si risibile est, homo est; si animal
+     rationale mortale est, homo est. Si risibile, rationale est; si risibile est, animal <milestone
+      unit="page" n="Col. 1179B"/> rationale mortale est; si animal rationale mortale est, risibile
+     vel bipes est. Praeter haec autem alias quidem effectus causam, alias quidem effectum causa
+     sequitur. Effectus causam ita: si sol praesto est, lucet. Effectum causa hoc modo: si quid
+     exustum est, ignis adfuit; vel sic: si sol videtur, lucet. Item totum partes sequuntur, ut si
+     integra domus est, et tectum et parietes et fundamenta consistunt. Modus etiam sequitur nomen
+     principale, ut si iustitia bona est, et quod iuste est, bonum est. Nomen etiam principale
+     sequitur modum, ut si quod iuste est, bonum est, et iustitia bona est. Accidentia quoque
+     comitatur id quod subiectum est, ut si album est, corpus est. Quae cum ita sint, conditionalis
+     quoque simplex ex duabus affirmationibus copulata, <milestone unit="page" n="Col. 1179C"/> illa
+     fere divisio facienda est quaestionis, quod in ea vel de genere, vel de differentia, vel de
+     specie, vel de proprio, vel de diffinitione, vel de accidenti, vel de causa atque effectu, vel
+     toto ac partibus, vel de modo ac principali nomine dubitetur. Atque haec de ea quaestione
+     intelligenda sunt, quae cum sit hypothetica simplex, ex duabus tamen iungitur affirmativis. In
+     hisdem etiam differentiis illas quoque consistere necesse est quaestiones, quae ab his veniunt
+     propositionibus quae ex utraque constant negatione. Nam si genus non est, species non est. Item
+     si differentia, vel diffinitio, vel proprium non sit, species non erit. Et de caeteris quidem
+     quae superius dicta sunt, eodem modo considerandum est. Quidquid enim antecedit ut aliud
+     consequatur, si id quod <milestone unit="page" n="Col. 1179D"/> sequitur non fuerit, nec illud
+     est quod antecedit. Earum vero quaestionum quae ex affirmatione et negatione consistunt, illa
+     fere divisio est, quod vel in diversis generibus, vel in diversis speciebus, vel in contrariis,
+     vel in privatione atque habitu continentur; ut enim affirmationem negatio consequatur, aut
+     diversum ponitur genus, ut quod ab eo diversum est abnuatur hoc modo: si homo est; albedo non
+     est; vel si substantia est, qualitas non est; vel si sub eodem genere diversae species
+     proponantur hoc modo: si homo est, equus non est; vel si contraria, ut si album est, nigrum non
+     est; vel si privationes, ut si caecus est, non videt; et postremo in omnibus, quaecunque eadem
+     non sunt, evenit, ut, si unum est, alterum <milestone unit="page" n="Col. 1180A"/> non sit. Ita
+     ut propositam affirmationem negatio comitetur, aut diversa erunt genera, aut diversae species,
+     aut contraria, aut privantia, aut quolibet alio modo sibi invicem inconvenientia. Vt autem
+     negationem affirmatio consequatur, quae erat quarta conditionalis propositionis differentia,
+     fieri non potest, nisi in his contrariis quae medio carent, et quorum alterum semper inesse
+     necesse est, hoc modo: si dies non est, nox est; si tenebrae non sunt, lux est. Facta igitur
+     praedicativarum quaestionum ac conditionalium divisione, illud insuper videtur addendum, quod
+     omnis quaestio vel ex ratione disserendi, vel ex naturali, vel ex morali trahitur speculatione:
+     ex disserendi ratione hoc modo, an affirmatio et negatio species sint enuntiationis; ex
+     naturali ita, an <milestone unit="page" n="Col. 1180B"/> coelum rotundum sit; ex morali sic, an
+     virtus ad beatitudinem sola sufficiat. Praeterea quaestio omnis vel est simplex vel composita:
+     simplex quoties affirmatione et negatione dividitur, ita ut totum alteri affirmare, alteri
+     negare necesse sit, hoc modo: an coelum rotundum sit necne, haec enim una pars quaestionis
+     affirmationem tenet, alia negationem. Nam cum alter esse defendit, affirmat, alter vero negat,
+     cum non esse contendit. Composita quaestio est quae in plures distrahitur affirmationes, hoc
+     modo, utrum coelum rotundum sit, an quadratum, an longum, aut cuiuslibet alterius formae: hic
+     enim plures affirmationes probare necesse est, quae diversa defendunt. Et de quaestione quidem,
+     quantum ad praesens negotium pertinebat, sufficienter dictum est. <milestone unit="page"
+      n="Col. 1180C"/> Conclusio vero est argumentis approbata propositio, de qua eadem fere dici
+     possunt quae de propositione. Quae quoniam diligenter superius explicata sunt, de argumento
+     deinceps tractandum videtur. Argumentum est ratio rei dubiae faciens fidem. Hanc semper
+     notiorem quaestione esse necesse est: nam si ignota notis probantur, argumentum vero rem dubiam
+     probat, necesse est quod ad fidem quaestionis affertur, ipsa sit notius quaestione.
+     Argumentorum vero omnium alia sunt probabilia et necessaria, alia probabilia et non necessaria,
+     alia sunt necessaria, sed non probabilia, alia nec probabilia nec necessaria. Probabile vero
+     est quod videtur vel omnibus, vel pluribus, vel sapientibus, et his vel omnibus, vel pluribus,
+     vel maxime notis atque praecipuis, vel quod unicuique <milestone unit="page" n="Col. 1180D"/>
+     artifici secundum propriam facultatem, ut de medicina medico, gubernatori de navibus
+     gubernandis, id praeterea quod videtur ei cum quo sermo conseritur, vel ipsi qui iudicat, in
+     quo nihil attinet verum falsumve sit argumentum, si tantum verisimilitudinem teneat.
+     Necessarium vero est quod ut dicitur, ita est, atque aliter esse non potest; probabile quidem
+     ac necessarium est, ut hoc, si quid cuilibet rei sit additum, totum maius efficitur. Neque enim
+     quisquam ab hac propositione dissentiet, et ita sese habere necesse est. Probabilia vero ac non
+     necessaria sunt, quibus facile mens auditoris acquiescit, sed veritatis non tenent firmitatem,
+     ut hoc: si mater est, diligit filium. Necessaria vero ac non <milestone unit="page"
+      n="Col. 1181A"/> probabilia sunt quae ita ut dicuntur sese habere necesse est, sed his facile
+     non consentit auditor, ut est hoc, obiectu lunaris corporis solis evenire defectum. Neque
+     necessaria vero neque probabilia sunt quae neque in opinione hominum neque in veritate
+     consistunt, ut hoc, habere Diogenem cornua; quoniam unusquisque habeat quod nunquam perdiderit.
+     Quae quidem nec argumenta dici possunt, argumenta enim dubiae rei faciunt fidem. Ex his autem
+     nulla fides est quae in opinione hominum neque in veritate sunt constituta. Dici tamen potest
+     nec illa quidem esse argumenta quae cum sint necessaria, minime tamen audientibus approbantur.
+     Nam si rei dubiae sit fides, cogendus est animus auditoris per ea quibus ipse acquiescit, ut
+     conclusioni quoque quam nondum <milestone unit="page" n="Col. 1181B"/> probat possit accedere.
+     Quod si quae tantum necessaria sunt ac non probabilia, non probat ille qui iudicat, necesse est
+     ut ne illud quidem probet quod ex huiusmodi ratione conficitur. Itaque evenit ex huiusmodi
+     ratione, quae tantum necessaria sunt ac non probabilia, non esse argumenta. Sed non est ita,
+     atque haec interpretatio non recte probabilitatis intelligentiam tenet. Ea sunt enim
+     probabilia, quibus sponte atque ultro consensus adiungitur, scilicet ut mox ac audita sunt
+     approbentur. Quae vero necessaria sunt ac non probabilia, aliis probabilibus ac necessariis
+     argumentis antea demonstrantur, cognitaque et credita ad alterius rei de qua dubitatur fidem
+     trahuntur, ut sunt speculationes, id est theoremata quae in geometria considerantur. Nam quae
+     illic proponuntur <milestone unit="page" n="Col. 1181 C"/> talia non sunt, ut his sponte animus
+     discentis accedat, sed quoniam demonstrantur aliis argumentis, illa quoque scita et cognita, ad
+     aliarum speculationum fidem ducuntur. Itaque quae probabilia per se non sunt, sed necessaria,
+     his quidem auditoribus quibus nondum demonstrata sunt, ad aliud aliquid approbandum argumenta
+     esse non possunt; his autem qui prioribus rationibus eorum quibus non acquiescebant, fidem
+     ceperunt, possunt ea si quid ambigunt ad argumentum vocari. Sed quia quatuor facultatibus
+     disserendi omne artificium continetur, dicendum est, quae quibus uti noverit argumentis, ut cui
+     potissimum disciplinae locorum paretur ubertas evidenter appareat. Quatuor igitur facultatibus,
+     earumque velut opificibus disserendi omnis ratio <milestone unit="page" n="Col. 1181D"/>
+     subiecta est, id est dialectico, oratori, philosopho, sophistae. Quorum quidem dialecticus
+     atque orator in communi argumentorum natura versatur. Vterque enim sive necessaria, sive
+     minime, probabilia tamen argumenta sequitur. His igitur illae duae species argumenti
+     famulantur, quae sunt probabile ac necessarium, <milestone unit="page" n="Col. 1182A"/>
+     probabile ac non necessarium. Philosophus vero ac demonstrator de sola tantum veritate
+     pertractat, atque sint probabilia sive non sint, nihil refert, dummodo sint necessaria. Hic
+     quoque his duabus speciebus utitur argumenti, quae sunt probabile ac necessarium, necessarium
+     ac non probabile. Patet igitur in quo philosophus ab oratore ac dialectico in propria
+     consideratione dissideat, in eo scilicet quod illis probabilitatem, huic veritatem constat esse
+     propositam. Quarta vero species argumenti, quam neque argumentum quidem recte dici supra
+     docuimus, sophisticis solet esse attributa. Topicorum intentio est verisimilium argumentorum
+     copiam demonstrare. Designatis enim locis ex quibus probabilia argumenta ducuntur, abundans et
+     copiosa <milestone unit="page" n="Col. 1182B"/> necesse est fiat materia disserendi. Sed
+     quoniam (ut supra dictum est) probabilium argumentorum alia sunt necessaria, alia non
+     necessaria, cum loci probabilium argumentorum ducuntur, evenit ut necessariorum quoque
+     doceantur. Quo fit ut oratoribus quidem ac dialecticis haec principaliter facultas paretur,
+     secundo vero loco philosophis. Nam in quo probabilia quidem omnia conquiruntur, dialectici
+     atque oratores iuvantur; in quibus vero probabilia ac necessaria docentur, philosophiae
+     demonstrationi ministratur ubertas. Non modo igitur dialecticus atque orator, verum etiam
+     demonstrator ac verae argumentationis effector habet quod ex positis locis possit assumere, cum
+     intra argumentorum probabilium locos, necessariorum quoque principia traditio <milestone
+      unit="page" n="Col. 1182C"/> ista contineat. Illa vero argumenta quae necessaria quidem sunt,
+     sed non probabilia, atque illud ultimum genus, scilicet nec probabile nec necessarium, a
+     propositi operis consideratione seiunctum est, nisi quod interdum quidam sophistici loci
+     exercendi gratia lectoris adhibentur. Quocirca topicorum pariter utilitas intentioque patefacta
+     est. His enim et dicendi facultas et investigatio veritatis augetur. Nam quod dialecticos atque
+     oratores locorum iuvat agnitio, orationi per inventionem copiam praestat; quod vero
+     necessariorum doctrinam locorum philosophis tradit, viam quodammodo veritatis illustrat. Quo
+     magis pervestiganda est rimandaque ulterius disciplina, eaque cum agnitione percepta sit, usu
+     atque exercitatione firmanda. Magnum enim aliquid locorum <milestone unit="page" n="Col. 1182D"
+     /> consideratio pollicetur, scilicet inveniendi vias. Quod quidem hi qui sunt huius rationis
+     expertes soli prorsus deputant ingenio, neque intelligunt quantum hac consideratione quaeratur
+     quae in artem redigit vim et potestatem naturae. Sed de his hactenus. Nunc de reliquis
+     explicemus.</p>
+   </div>
+
+   <div type="lib" n="II">
+    <head>LIBER SECVNDVS</head>
+    <p><milestone unit="page" n="Col. 1181D"/> Omnia quidem quae superioris serie voluminis expedita
+     sunt, minus quibusdam forsitan eruditis supervacanea quodammodo et quasi dependentia
+     videbuntur. Nam cum de differentiis topicis librorum <milestone unit="page" n="Col. 1182D"/>
+     titulum legerint, omissis doctrinae gradibus statim finem operis attendunt. Mihi autem
+     necessarium videtur quod, nisi sit praecognitum, ad ulteriora discentis animus pervenire non
+     possit, hi quoque qui <milestone unit="page" n="Col. 1183A"/> nunc omnem primi voluminis
+     disputationem superfluam putant, si cuncta perlegant, contextionemque operis mente ac ratione
+     collustrent, desinent profecto iudicare superfluum, quod necessario viderint in parte operis
+     collocatum. Atque haec hactenus. Sed quoniam de his quae antea posuimus, id est de
+     propositione, quaestione, conclusione, argumento sufficienter dictum est, nunc de
+     argumentatione tractemus. Argumentatio est per orationem argumenti explicatio. Huius autem
+     species duae sunt, una quae syllogismus, altera quae vocatur inductio. Syllogismus est oratio
+     in qua quibusdam positis et concessis, aliud quiddam per ea ipsa quae concessa sunt, evenire
+     necesse est, quam sint ipsa quae concessa sunt. Huius diffinitionis rationem secundus quidem
+      <milestone unit="page" n="Col. 1183B"/> liber eorum quibus institutionem in Categoricos
+     scripsimus Syllogismos plene continet. Sed propter intellectus facilitatem idem breviter
+     aperiemus exemplo. Sit enim syllogismus hic: omnis homo animal est, omne animal substantia est,
+     omnis igitur homo substantia est. Totum igitur hoc oratio est, in qua positis quibusdam et
+     concessis, id est duabus propositionibus quae sunt, omnis homo animal est, et omne animal
+     substantia est, per ea ipsa quae concessa sunt, efficitur aliud aliquod, id scilicet quod est
+     conclusio, omnis igitur homo substantia est. Per propositiones enim quae concessae sunt,
+     sequentia necessario conclusionis infertur. Sunt autem propositiones hae: omnis homo animal
+     est, et omne animal substantia est, atque ex his efficitur aliud quiddam <milestone unit="page"
+      n="Col. 1183C"/> quam sunt ipsa quae concessa sunt. Concluditur enim: igitur omnis homo
+     substantia est, quod longe diversum est, et ab ea propositione quae dicit: omnis homo animal
+     est, et ab ea quae proponit, omne animal esse substantiam. Syllogismorum vero alii praedicativi
+     sunt, qui categorici vocantur, alii conditionales, quos hypotheticos dicimus. Et praedicativi
+     quidem sunt, qui ex omnibus praedicativis propositionibus connectuntur, ut is quem exempli
+     gratia superius annotavi, omnibus enim praedicativis propositionibus texitur. Hypothetici vero
+     sunt, quorum propositiones conditione nectuntur, ut hic: si dies est, lux est; est autem dies,
+     lux igitur est; propositio enim prima conditionem tenet hanc, quoniam ita demum lux est, si
+     dies est. Atque ideo syllogismus hic hypotheticus, <milestone unit="page" n="Col. 1183D"/> id
+     est, conditionalis vocatur. Inductio vero est oratio per quam fit a particularibus ad
+     universalia progressio, hoc modo: Si in regendis navibus non sorte, sed arte, eligitur
+     gubernator; si in regendis equis auriga non sortis eventu, sed artis commendatione assumitur;
+     si in administranda republica non sors principem facit, sed peritia moderandi, similiaque in
+     pluribus conquiruntur, quibus infertur, et in omni quoque re quam quisque regi atque
+     administrari graviter volet, non sorte accommodat, sed arte rectorem. Vides igitur quomodo per
+     singulas res currat oratio, ut ad universale perveniat. Nam cum non sorte regi, sed arte,
+     navim, currum et rempublicam collegisset, quasi in caeteris quoque ita sese res habeat, quod
+      <milestone unit="page" n="Col. 1184A"/> universale erat concludit hoc modo, in omnibus quoque
+     rebus, non sorte ductum, sed arte principem debere praeponi. Saepe autem multorum collecta
+     particularitas aliud quiddam particulare demonstrat, ut si quis sic dicat: Si neque navibus,
+     neque curribus, neque agris sorte praeponuntur rectores, ne rebus quidem publicis rectores
+     sorte ducendi sunt. Quod argumentationis genus maxime solet esse probabile, etsi non acquam
+     syllogismo habeat firmitatem. Syllogismus namque ab universalibus in particularia decurrit,
+     estque in eo, si veris propositionibus contexatur, firma atque incommutabilis veritas. At
+     inductio quidem habet probabilitatem, sed interdum veritate deficit, ut in hac: Qui scit canere
+     cantor est, et qui luctari luctator est, quique aedificare <milestone unit="page"
+      n="Col. 1184B"/> aedificator est. Quibus multis simili ratione collectis inferri potest, qui
+     scit igitur malum malus est, quod non procedit. Mali quippe notitia deesse bono non potest,
+     virtus enim sese diligit et aspernatur contraria, nec vitare vitium nisi cognitum queat. His
+     igitur duobus velut principiis et generibus argumentandi, duo quidem alii deprehenduntur
+     argumentationis modi, unus quidem syllogismo, alter vero inductioni suppositus; in quibus
+     quidem promptum sit considerare quod ille quidem a syllogismo, ille vero ab inductione ducat
+     exordium, non tamen aut hic syllogismum, aut ille impleat inductionem. Hi autem sunt enthymema
+     atque exemplum. Enthymema quippe est imperfectus syllogismus, id est oratio in qua non omnibus
+     antea propositionibus constitutis <milestone unit="page" n="Col. 1184C"/> infertur festinata
+     conclusio, ut si quis ita dicat: homo animal est, substantia igitur est. Praetermisit enim
+     alteram propositionem qua proponitur, omne animal est substantia. Ergo quoniam enthymema ab
+     universalibus ad particularia probanda contendit quasi simile syllogismo est; quod vero non
+     omnibus quae conveniunt syllogismo utitur propositionibus, a syllogismi ratione discedit, atque
+     ideo imperfectus vocatus est syllogismus. Exemplum quoque inductioni simili ratione copulatur
+     et ab ea dissidet. Est enim exemplum quod per particulare propositum, particulare quoddam
+     contendit ostendere hoc modo: Oportet a Tullio consule necari Catilinam, cum a Scipione
+     Gracchus fuerit interemptus. Approbatum est enim Catilinam a Cicerone debere perimi, quod a
+     Scipione <milestone unit="page" n="Col. 1184D"/> Gracchus fuerit occisus. Quae utraque
+     particularia esse ac non universalia singularium designat interpositio personarum. Quoniam
+     igitur ex parte pars approbatur, quasi inductionis similitudinem tenet id quod exemplum
+     vocamus. Quod vero non plures quibus id efficiat, colligit partes, ab inductione discedit. Ita
+     igitur duae sunt argumentandi species principales, una quae dicitur syllogismus, altera quae
+     vocatur inductio. Sub his autem velut ex his manantia enthymema atque exemplum. Quae quidem
+     omnia ex syllogismo ducuntur, et ex syllogismo vires accipiunt; sive enim sit enthymema, sive
+     inductio, sive exemplum, ex syllogismo vires quam maxime fidem capit, quod in Prioribus
+     Resolutoriis, quae ab Aristotele <milestone unit="page" n="Col. 1185A"/> transtulimus,
+     demonstratum est. Quocirca satis est de syllogismo disserere, quasi principali et caeteras
+     argumentationis species continente. Restat nunc quid sit locus aperire. Locus namque est (ut M.
+     Tullio placet) sedes argumenti. Cuius diffinitionis quae sit vis, paucis absolvam. Argumenti
+     enim sedes partim propositio maxima intelligi potest, partim maximae propositionis differentia.
+     Nam cum sint aliae propositiones quae cum per se notae sint, tum nihil ulterius habeant quo
+     demonstrentur, atque hae maximae et principales vocentur, sintque aliae quarum fidem primae ac
+     maximae suppleant propositiones, necesse est ut omnium quae dubitantur, illae antiquissimam
+     teneant probationem, quae ita aliis facere fidem possunt, ut ipsis nihil notius queat inveniri.
+      <milestone unit="page" n="Col.  1185B"/> Nam si argumentum est quod rei dubiae facit fidem,
+     idque notius ac probabilius esse oportet quam illud est quod probatur, necesse est ut
+     argumentis omnibus illa maxima fidem tribuant, quae ita per se nota sunt, ut aliena probatione
+     non egeant. Sed huiusmodi propositio aliquoties quidem intra ambitum argumenti continetur,
+     aliquoties vero extra posita argumenti vires supplet ac perficit. Exemplum quidem est eius
+     argumenti, quod maximam propositionem tenet huiusmodi. Sit enim quaestio an melius sit regnum
+     consulatu, ita igitur dicemus: Regnum diuturnius est quam consulatus, cum utrumque sit bonum;
+     at vero quod diuturnius est bonum eo quod est parvi temporis melius est; regnum igitur melius
+     est quam consulatus. Huic igitur argumentationi <milestone unit="page" n="Col. 1185C"/> maxima
+     propositio, id est locus insertus est, illa scilicet, diuturniora bona sunt melioris meriti
+     quam ea quae parvi sunt temporis. Hoc enim ita notum est, ut extrinsecus probatione non egeat,
+     et ipsum aliis possit esse probatio. Atque ideo haec propositio totam continet probationem, et
+     cum inde nascitur argumentum, recte locus, id est argumenti sedes vocatur. Vt vero extra posita
+     propositio maxima vires afferat argumento, tale sit exemplum. Sit propositum demonstrare
+     quoniam invidus sapiens non est. Invidus est qui alienis affligitur bonis; sapiens autem bonis
+     non affligitur alienis; invidus igitur sapiens non est. In hac igitur argumentatione propositio
+     quidem maxima non videtur inclusa, sed argumentationi vires ipsa maxima <milestone unit="page"
+      n="Col. 1185D"/> subministrat. Est enim huic syllogismo fides ex ea propositione per quam
+     cognoscimus, quorum diversa est diffinitio, ipsa quoque diversa esse. Est autem in diffinitione
+     invidi, alienis bonis tabescere, quod quoniam non venit in sapientem, idcirco sapiens ab invido
+     seiungitur. Est igitur uno quidem modo locus (ut dictum est) maxima et universalis, et
+     principalis, et indemonstrabilis, atque per se nota propositio, quae in argumentationibus, vel
+     inter ipsas propositiones, vel extrinsecus posita, vim tamen argumentis et propositionibus
+     subministrat. Ideo et universales et maximae propositiones loci sunt dictae, quoniam ipsae sunt
+     quae continent caeteras propositiones, et per eas fit consequens et rata <milestone unit="page"
+      n="Col. 1186A"/> conclusio. Ac sicut locus in se corporis continet quantitatem, ita hae
+     propositiones quae sunt maximae, intra se omnem vim posteriorum atque ipsius conclusionis
+     consequentiam tenent, et uno quidem modo locus, id est argumenti sedes dicitur maxima,
+     principalisque propositio fidem caeteris subministrans. Alio vero modo loci vocantur maximarum
+     differentiae propositionum, quae scilicet ab his ducuntur terminis qui in quaestione sunt
+     constituti, de quibus deinceps disserendum est. Cum enim sint plurimae propositiones quae
+     maximae vocantur, haeque sint inter se dissimiles, quibuscunque differentiis inter se
+     discrepant, eas omnes locos vocamus. Nam si ipsae propositiones maximae argumentorum loci sunt,
+     et differentias earum argumentorum locos esse <milestone unit="page" n="Col.  1186B"/> necesse
+     est. Nam uniuscuiusque substantia ex propriis differentiis constat, ut hominis ex
+     rationalitate, quae eius est differentia. Et hi loci qui sunt differentiae propositionum, ipsis
+     propositionibus universaliores existunt, velut universalior est rationalitas homine. Atque ideo
+     pauciores esse deprehenduntur hi loci qui in differentiis positi sunt, quam propositiones ipsae
+     quarum sunt differentiae. Omnia enim quae universaliora sunt, pauciora semper esse contingit.
+     Et ideo facile sub scientiam cadere possunt, quorum tam multus numerus non est, ut cito a
+     memoria discentis elabantur. Quae vero sunt hae differentiae melius divisione producuntur. In
+     praedicativis autem quaestionibus unus quidem subiectus terminus dicitur, alius praedicatus.
+      <milestone unit="page" n="Col. 1186C"/> Nil quippe in praedicativis quaestionibus aliud
+     quaeritur nisi an subiecto praedicatus inhaereat. Quod si inesse constiterit, quaeritur itane
+     insit, ut genus, aut accidens, aut ut proprium, aut ut diffinitio. Nam si ostenditur non
+     inesse, de quaestione nihil relinquitur. Nam quod non inest, omnino nec ut accidens, nec ut
+     diffinitio, nec ut genus, nec ut proprium inesse potest. Quod si inesse constiterit, restat
+     quaestio, quisnam modus sit de quatuor inhaerendi. Solum vero inesse ad accidens maxime
+     pertinet, nam cum neque ut genus, neque ut diffinitio, neque ut proprium inest, sed inest
+     tamen, ut accidens inesse necesse est. Quae cum ita sint, eorum locorum quos in maximarum
+     propositionum differentia constituimus facienda divisio est. Per singula <milestone unit="page"
+      n="Col. 1186D"/> vero quaeque currentibus manifestius apparebit exemplo, quod maximae
+     propositiones a suis differentiis distent. Etenim quaestiones, argumenta, propositiones maximas
+     ac principales, locos, earumque differentias, per unumquodque dabimus exemplum. Omnes igitur
+     loci, id est maximarum differentiae propositionum, aut ab his ducantur necesse est terminis qui
+     in quaestione sunt positi, praedicato scilicet atque subiecto, aut extrinsecus assumantur, aut
+     horum medii qui inter utrosque versantur. Eorum vero locorum qui ab his ducuntur terminis de
+     quibus in quaestione dubitatur, duplex est modus: unus quidem ab eorum substantia, alter vero
+     ab his quae substantiam eorum consequuntur. <milestone unit="page" n="Col. 1187A"/> Hi vero qui
+     a substantia sunt, in sola diffinitione consistunt. Diffinitio enim substantiam monstrat, et
+     substantiae integra demonstratio diffinitio est. Sed id quod dicimus patefaciamus exemplis, ut
+     omnis quaestionum, vel argumentationum, vel locorum ratio colliquescat. Age enim quaeratur an
+     arbores animalia sint, fiatque huiusmodi syllogismus: animal est substantia animata sensibilis;
+     arbor vero substantia animata sensibilis non est; arbor igitur animal non est. Haec de genere
+     quaestio est, utrum enim arbores sub animalium genere ponendae sint quaeritur. Locus qui in
+     universali propositione consistit, hic est cui generis diffinitio non convenit; id eius cuius
+     ea diffinitio est, species non est. Loci superior differentia, qui locus nihilominus nuncupatur
+     a diffinitione. <milestone unit="page" n="Col. 1187B"/> Vides igitur ut tota dubitatio
+     quaestionis syllogismi argumentatione tractata sit per convenientes et congruas propositiones,
+     quae vim suam ex prima et maxima propositione custodiunt, ex ea scilicet quae negat esse
+     speciem, cui non convenit generis diffinitio, atque ipsa universalis propositio a substantia
+     tracta est unius eorum termini qui in quaestione locati sunt, ut animalis, id est, ab eius
+     diffinitione quae est substantia animata sensibilis. Ita igitur in caeteris quaestionibus
+     strictim ac breviter locorum differentiis commemoratis, oportet uniuscuiusque proprietatem
+     vigilantis animi alacritate percipere. Huius autem loci qui a substantia ducitur duplex est
+     modus: partim namque a diffinitione, partim a descriptione argumenta ducuntur. Differt
+      <milestone unit="page" n="Col. 1187C"/> autem diffinitio a descriptione, quod diffinitio genus
+     ac differentias sumit, descriptio subiecti intelligentiam claudit, quibusdam vel accidentibus
+     efficientibus unam proprietatem, vel substantialibus differentiis praeter conveniens genus
+     aggregatis. Sed hae diffinitiones quae ab accidentibus fiunt, tametsi videntur nullo modo
+     substantiam demonstrare, tamen quoniam saepe verae diffinitionis vice ponuntur, quae
+     substantiam demonstrant, illae etiam probationes quae a descriptione sumuntur, a substantiae
+     loco videntur assumi; huius vero tale sit exemplum. Quaeratur enim an albedo substantia sit,
+     hic quaeritur an albedo substantiae velut generi supponatur. Dicimus igitur: substantia est
+     quae omnibus accidentibus possit esse subiectum; albedo autem <milestone unit="page"
+      n="Col. 1187D"/> nullis accidentibus subiacet; albedo igitur substantia non est. Locus, id
+     est, maxima propositio eadem quae superius. Cuius enim diffinitio vel descriptio ei quod
+     dicitur species esse non convenit, id eius quod species esse perhibetur genus non est.
+     Descriptio vero substantiae albedini non convenit, albedo igitur substantia non est. Loci
+     differentia superior a descriptione, quam dudum locavimus in ratione substantiae. Sunt etiam
+     diffinitiones quae non a rei substantia, sed a nominis significatione ducuntur, atque ita rei
+     de qua quaeritur applicantur: ut si quaeratur utrum philosophiae studendum sit, erit
+     argumentatio talis: Philosophia amor sapientiae est, huic studendum nemo dubitat studendum
+     igitur est philosophiae; hic <milestone unit="page" n="Col. 1188A"/> enim non diffinitio rei,
+     sed nominis interpretatio argumentum dedit, quo Tullius etiam in Hortensio in eiusdem
+     philosophiae usus est defensione, et vocatur graece quidem <foreign xml:lang="grc">ὀνοματικός
+      ὅρος</foreign>, latine autem nominis interpretatio. Ac de his quidem argumentis quae ex
+     substantia terminorum in quaestione positorum assumuntur, claris (ut arbitror) patefecimus
+     exemplis. Nunc de his dicendum est qui terminorum substantiam consequuntur. Horum multifaria
+     est diversio, plura sunt enim quae substantiis singulis adhaerescunt. Ab his igitur quae
+     cuiuslibet substantiam comitantur argumenta duci solent, aut ex toto, aut ex partibus, aut ex
+     causis vel efficientibus, vel materia, vel naturali forma, vel fine, et est efficiens quaedam
+     causa quae movet atque operatur, ut aliquid explicetur. Materia <milestone unit="page"
+      n="Col. 118 8B"/> vero ex qua fit aliquid, vel in qua fit. Finis propter quod fit. Sunt etiam
+     inter eos locos qui ex his sumuntur quae substantiam consequuntur, aut ab effectibus, aut a
+     corruptionibus, aut ab usibus, aut praeter hos omnes a communiter accidentibus. Quae cum ita
+     sint, eum prius locum qui a toto fit inspiciamus. Totum duobus modis dici solet, aut ut genus,
+     aut ut id quod integrum ex pluribus partibus constat. Et illud quidem quod ut genus totum est,
+     hoc modo saepe quaestionibus argumenta sappeditat, ut si sit quaestio an iustitia utilis sit,
+     fit syllogismus: omnis virtus utilis est, iustitia virtus est, iustitia igitur utilis est. Hic
+     est quaestio de accidenti, id est an accidat iustitiae utilitas. Locus est is qui in maxima
+     propositione consistit: quae generi adsunt <milestone unit="page" n="Col. 118 8 C"/> speciei
+     adsunt. Huius superior locus est a toto, id est a genere, virtus scilicet, quae iustitiae genus
+     est. Rursus sit quaestio an humanae res Providentia regantur, dicemus: si mundus Providentia
+     regitur, homines autem partes mundi sunt, humanae igitur res Providentia reguntur. Quaestio de
+     accidenti locus: quod toti convenit, id congruit et parti. Supremus locus a toto, id est ab
+     integro quod partibus constat: id vero mundus est, qui hominibus totum est. A partibus etiam
+     duobus modis argumenta nascuntur, aut enim a generis partibus quae sunt species, aut ab
+     integri, id est totius quae partes tantum proprio vocabulo nuncupantur, et de his quidem
+     partibus quae species sunt hoc modo sit quaestio, an virtus mentis bene constitutae sit
+     habitus. Quaestio est de diffinitione, <milestone unit="page" n="Col. 1188D"/> id est an
+     habitus mentis bene constitutae sit virtutis diffinitio. Faciemus itaque a speciebus
+     argumentationem sic: Si iustitia, fortitudo, moderatio atque prudentia habitus mentis bene
+     constitutae sunt, haec autem quatuor virtuti veluti generi subiiciuntur, virtus ergo bene
+     constitutae mentis est habitus, maxima propositio. Quod enim singulis partibus inest, id toti
+     inesse necesse est. Argumentum vero a partibus, id est a generis partibus, quae species
+     nuncupantur: iustitia enim, fortitudo, modestia, et prudentia virtutis species sunt. Item ab
+     his partibus quae integri partes esse dicuntur; sit quaestio an sit utilis medicina, haec in
+     accidentis dubitatione constituta est dicemus: si depelli morbos salutemque <milestone
+      unit="page" n="Col.  1189A"/> servari mederique vulneribus utile est, utilis medicina est; at
+     depelli morbos, servari salutem, mederique vulneribus utile est, utilis igitur medicina est.
+     Saepe autem et una quaelibet pars valet, ut argumentationis firmitas constet, hoc modo, ut si
+     de aliquo dubitetur an sit liber factus; si eum vel censu, vel testamento, vel vindicta
+     manumissum esse monstremus, liber factus ostensus est, atque hae partes erant dandae
+     libertatis. Vt rursus si dubitetur an sit domus, quod eminus prospicitur, dicemus quoniam non
+     est: nam vel tectum, vel parietes, vel fundamenta ei desunt; ab una rursus parte factum est
+     argumentum. Licet autem non solum in substantiis, verum etiam in modo, in temporibus, in
+     quantitatibus, in loco, totum partesque respicere. Id enim <milestone unit="page"
+      n="Col. 1189B"/> quod dicimus, semper in tempore totum est. Id quod dicimus, aliquando in
+     tempore pars est. Rursus si simpliciter aliquid proponamus, in modo totum est; si cum
+     adiectione, aliqua pars fit in modo. Item si omnia dicamus in quantitate, totum dicimus. Si
+     aliquid a quantitate excerpsimus, quantitatis ponimus partem. Eodem modo et in loco quod ubique
+     est, notum est quod alicubi, pars. Horum autem omnium haec communiter debentur exempla, a toto
+     ad partem secundum tempus: si Deus semper est, et nunc est, a parte ad totum secundum modum; si
+     anima aliquo modo movetur, et simpliciter movetur, movetur autem cum irascitur, universaliter
+     igitur et simpliciter movetur. Rursum a toto ad partes in quantitate: si verus est Apollo in
+     omnibus vates, <milestone unit="page" n="Col. 1189C"/> verum erit Pyrrhum Romanos superare.
+     Rursus in loco: si Deus ubique est, et hic igitur est. Sequitur locus qui nuncupatur a causis.
+     Sunt vero plures causae quae vel principium motus praestant atque efficiunt, vel specierum
+     formas subiectae suscipiunt, vel propter eas aliquid fit, vel quae cuiuslibet forma est.
+     Argumentum igitur ab efficiente causa, ut si quis iustitiam naturalem velit ostendere, dicat:
+     congregatio hominum naturalis est, iustitia vero congregatio hominum fecit, iustitia igitur
+     naturalis est. Quaestio de accidente, maxima propositio: quorum efficientes causae sunt
+     naturales, ipsa quoque sunt nataralia. Locus ab efficientibus causis: quod enim uniuscuiusque
+     causa est, id eam rem efficit cuius est causa. Rursus si quis Mauros arma non habere contendat,
+      <milestone unit="page" n="Col. 1189D"/> dicet idcirco eos armis minime uti, quod his ferrum
+     desit. Maxima propositio, ubi materia deest, et quod ex materia efficitur, desit. Locus a
+     materia: utrumque vero, id est ab efficientibus atque materia, uno nomine a causa nuncupatur.
+     Aeque enim id quod efficit, atque id quod operantis actum suscipit, eius rei quae efficitur
+     causae sunt. Rursus a fine, sit propositum sic, an iustitia bona sit, fiat argumentatio talis:
+     si beatum esse bonum est, et iustitia bona est, hic enim est iustitiae finis, ut si quis
+     secundum iustitiam vivat, ad beatitudinem perducatur. Maxima propositio: cuius finis bonus est,
+     ipsum quoque bonum est. Locus a fine: ab eo quoque quod cuiuslibet forma est, ita non potuisse
+     volare Dedalum, quoniam <milestone unit="page" n="Col. 1190A"/> nullas naturali forma pennas
+     habuisset. Maxima propositio: tantum quaeque posse quantum forma naturalis sua permisit. Locus
+     a forma: ab effectibus vero et corruptionibus et usibus hoc modo; nam si bona est domus, et
+     constructio domus bona est, et econtrario, si bona est constructio domus, bona est domus.
+     Rursus si destructio domus mala est, bona est domus, et si bona est domus, mala est destructio
+     domus. Et si bonum equitare est, bonus est equus, et si bonus est equus, bonum est equitare.
+     Est autem primum quidem exemplum a generationibus, quod idem ab effectibus vocari potest;
+     secundum a corruptionibus; tertium ab usibus: omnium autem maxima propositio: cuius effectio
+     bona est, ipsum quoque bonum est, et econverso; cuius corruptio <milestone unit="page"
+      n="Col. 1190B"/> mala est, ipsum quoque bonum est, et econverso; et cuius usus bonus est,
+     ipsum quoque bonum est, et econverso. A communiter accidentibus argumenta fiunt quoties ea
+     sumuntur accidentia, quae relinquere subiectum vel non possunt vel non solent, ut si quis hoc
+     modo dicat: Sapientem non poenitebit, poenitentia enim malum factum comitatur. Quod quia in
+     sapiente non convenit, ne poenitentia quidem. Quaestio de accidente. Maxima propositio: Cui non
+     inest aliquid ei, nec illud quod eius est consequens inesse potest; locus a communiter
+     accidentibus. Expeditis igitur locis his qui ab ipsis terminis in quaestione positis
+     assumuntur, nunc de his dicendum est qui, licet extrinsecus positi, argumenta tamen
+     quaestionibus subministrant. Hi vero sunt vel ex rei <milestone unit="page" n="Col. 1190C"/>
+     iudicio, vel ex similibus, vel a maiore, vel a minore, vel a proportione, vel ex oppositis, vel
+     ex transumptione. Et ille quidem locus qui rei iudicium tenet, est huiusmodi: ut si dicamus id
+     esse quod vel omnes iudicant vel plures. Et hi vel sapientes, vel secundum unamquamque artium
+     penitus eruditi. Huius exemplum est, coelum esse volubile, quod ita sapientes atque astrologi
+     doctissimi iudicaverunt. Quaestio de accidente. Maxima propositio: quod omnibus vel pluribus
+     vel sapientibus hominibus videtur, ei contradici non oportere. Locus a rei iudicio. A similibus
+     vero hoc modo: si dubitetur an hominis proprium sit bipedem esse, dicemus: similiter inest equo
+     quadrupes, ut homini bipes; non est autem equo quadrupes proprium; non est igitur <milestone
+      unit="page" n="Col. 1190D"/> homini bipes proprium. Quaestio de proprio. Maxima propositio: si
+     quod similiter inest, non est proprium, nec id de quo quaeritur esse proprium potest. Locus a
+     similibus. Hic vero in gemina dividitur, haec enim similitudo aut in qualitate consistit, aut
+     in quantitate; sed in quantitate paritas, id est aequalitas nuncupatur, in qualitate
+     similitudo. Rursus ab eo quod est magis: si quaeratur an sit animalis diffinitio, quod ex se
+     moveri possit, dicemus sic: magis oportet animalis diffinitionem esse quod naturaliter vivat
+     quam quod ex se moveri possit; non est autem haec diffinitio animalis quod naturaliter vivat;
+     nec ea quidem igitur quae minus videtur esse, quod ex se moveri possit, animalis diffinitio
+     putanda <milestone unit="page" n="Col. 1191A"/> est. Quaestio de diffinitione. Maxima
+     propositio: si id quod magis videtur inesse non inest, nec id quod minus videbitur inesse
+     inerit. Locus ab eo quod magis est. A minoribus vero converso modo. Nam si est hominis
+     diffinitio, animal gressibile bipes, cum id minus videatur esse diffinitio hominis, quam animal
+     rationale mortale, sitque diffinitio hominis ea quae dicit alias gressibile bipes, erit
+     diffinitio hominis animal rationale mortale. Quaestio de diffinitione. Maxima propositio: si id
+     quod minus videtur inesse inest, id quod magis videbitur inesse, inerit. Multae autem sunt
+     diversitates locorum ab eo quod est magis et minus argumenta ministrantium, quos in expositione
+     Topicorum Aristotelis diligentius persecuti sumus. Item a proportione, ut si quaeratur an sorte
+      <milestone unit="page" n="Col.  1191B"/> sint eligendi in civitatibus magistratus, dicamus
+     minime. Quia ne in navibus quidem gubernator sorte praeficitur, est enim proportio. Nam ut sese
+     gubernator habet ad navim, ita magistratus ad civitatem. Hic autem locus distat ab eo qui a
+     similibus ducitur. Ibi enim una res unicuilibet alii comparatur. In proportione vero non est
+     similitudo rerum, sed quaedam habitudinis comparatio. Quaestio de accidente. Maxima propositio:
+     quod in unaquaque re evenit, id in eius proportionali evenire necesse est. Locus a proportione.
+     Ex oppositis vero multiplex est locus. Quatuor enim sibimet opponuntur modis, aut enim ut
+     contraria adverso sese loco constituta respiciunt, aut ut privatio et habitus, aut ut relatio,
+     aut ut affirmatio et negatio. Quorum discretiones in eo libro <milestone unit="page"
+      n="Col. 1191 C"/> qui de Decem Praedicamentis scriptus est, commemoratae sunt, ab his hoc modo
+     argumenta nascuntur. A contrariis, si quaeratur an sit virtutis proprium laudari, dicam minime,
+     quia nec vitii quidem vituperari. Quaestio de proprio. Maxima propositio: contraria contrariis
+     conveniunt. Locus ab oppositis, id est ex contrario. Rursus in quaestione sit positum, an
+     proprium sit oculos habentium videre. Dicam non, eos namque qui vident, alios etiam caecos esse
+     contingit. Nam in quibus est habitus, in eisdem etiam poterit esse privatio, et quod est
+     proprium non potest a subiecto discedere. Et quoniam veniente caecitate visus abscedit, non
+     esse proprium habentium oculos videre convincitur. Quaestio de proprio. Maxima propositio: ubi
+     privatio abesse <milestone unit="page" n="Col. 1191D"/> potest, habitus proprium non est. Locus
+     ab oppositis secundum habitum et privationem. Rursus sit in quaestione propositum, an patris
+     sit proprium procreatorem esse. Dicam recte videri, quia filii est proprium procreatum esse: ut
+     enim sese habet pater ad filium, ita procreator ad procreatum. Quaestio de proprio. Maxima
+     propositio: oppositorum ad se relatorum propria, et ipsa ad se referuntur. Locus a relativis
+     oppositis. Item sit in quaestione propositum an sit animalis proprium moveri. Negetur, quia nec
+     inanimati quidem est proprium non moveri. Quaestio de proprio. Maxima propositio: oppositorum
+     opposita propria esse oportere. Locus ab oppositis secundum affirmationem et negationem. Moveri
+     enim <milestone unit="page" n="Col. 1192A"/> et non moveri secundum affirmationem et negationem
+     sibimet opponuntur. Ex transumptione hoc modo fit, cum ex his terminis in quibus quaestio
+     constituta est, ad aliud quiddam notius dubitatio transfertur, et ex eius probatione ea quae in
+     quaestione posita sunt confirmantur, ut Socrates cum quid posset in uno quoque iustitia
+     quaereret, omnem tractatum ad reipublicae transtulit magnitudinem, atque ex eo quod illic
+     efficeret, in singulis etiam valere confirmavit. Qui locus a toto forsitan esse videbitur. Sed
+     quoniam non inhaeret his de quibus proponitur terminis, sed extra posita res hoc tantum quia
+     notior videtur, assumitur, idcirco ex transumptione locus hic convenienti vocabulo nuncupatus
+     est. Fit vero haec transumptio et in nomine quoties ab <milestone unit="page" n="Col. 1192B"/>
+     obscuro vocabulo ad notius argumentatio transfertur, hoc modo, ut si quaeratur an philosophus
+     invideat, sitque incognitum quid philosophi significet nomen. Dicemus ad vocabulum,
+     transferentes notius non invidere, quia sapiens sit. Notius vero est sapientis vocabulum quam
+     philosophi. Ac de his quidem locis qui extrinsecus assumuntur, liquide dictum est, nunc de
+     mediis disputabitur. Medii autem loci sumuntur vel ex casu, vel ex coniugatis, vel ex divisione
+     nascentes. Casus est alicuius nominis principalis inflexio in adverbium, ut a iustitia
+     inflectitur iuste. Casus igitur est a iustitia id quod dicimus iuste. Coniugata vero dicuntur
+     quae ab eodem diverso modo deducta fluxerunt, ut a iustitia iustum, iustus. Haec igitur inter
+     se et cum ipsa iustitia coniugata dicuntur, <milestone unit="page" n="Col. 1192C"/> ex quibus
+     omnibus in promptu sunt argumenta. Nam si id quod iuste est bonum est, et quod iustum est bonum
+     est, et si qui iustus est bonus est, et iustitia bona est. Haec igitur secundum proprii nominis
+     similitudinem consequuntur. Medii vero loci appellantur, quoniam si de iustitia quaeritur, et a
+     casu vel a coniugatis argumenta ducuntur, neque ab ipsa substantia proprie neque coniuncte,
+     neque ab iis quae sunt extrinsecus posita videntur trahi, sed ex ipsorum casibus, id est quadam
+     ex ipsis levi mutatione deductis. iure igitur hi loci medii inter eos qui ab ipsis et eos qui
+     sunt extrinsecus collocantur. Restat locus a divisione qui tractatur hoc modo: Omnis divisio
+     vel negatione fit, vel partitione. Negatione fit ut si quis ita pronuntiet: omne animal aut
+     habet pedes <milestone unit="page" n="Col. 1192D"/> aut non habet. Partitione vero velut si
+     quis dividat: omnis homo aut est sanus, aut aeger. Fit autem universa divisio vel generis in
+     species, vel totius in partes, vel vocis in proprias significationes, vel accidentis in
+     subiecta, vel subiecti in accidentia, vel accidentis in accidentia. Quorum omnium rationes in
+     eo libro diligentius explicui quem de divisione composui. Atque idcirco inde ad horum omnium
+     cognitionem congrua petantur exempla. Fiunt autem argumentationes per divisionem, tum ea
+     segregatione quae per negationem fit, tum ea quae per partitionem. Sed qui his divisionibus
+     utuntur, aut directa ratiocinatione contendunt, aut in aliquod impossibile atque inconveniens
+     ducunt, atque ita id quod <milestone unit="page" n="Col. 1193A"/> reliquerant, rursus assumunt.
+     Quae facilius quisque cognoscet, si prioribus analyticis operam dederit. Horum tamen talia in
+     praesens praestabunt exempla notitiam. Sit in quaestione propositum an ulla sit origo temporis.
+     Quod qui negare volet, id nimirum ratiocinatione firmabit nullo modo esse ortum, idque directa
+     ratiocinatione monstrabit hoc modo: Tempus aut originem habet, aut non. Sed quoniam mundus
+     aeternus est (id enim paulisper argumenti gratia concedatur), mundus vero sine tempore esse non
+     potuit, tempus quoque aeternum est. Sed quod aeternum est caret origine, tempus igitur originem
+     non habet. At si per impossibilitatem idem desideretur ostendi, dicetur hoc modo: Tempus aut
+     originem habet, aut non. Sed si tempus habet originem, <milestone unit="page" n="Col. 1193B"/>
+     non fuit semper. Tempus autem habet originem, fuit igitur quando non fuit tempus. Sed fuisse
+     temporis est significatio, fuit igitur tempus quando non fuit tempus, quod fieri non potest.
+     Non est igitur ullum principium temporis. Posito namque ut ab ullo principium coeperit,
+     inconveniens quoddam atque impossibile contingit, fuisse tempus quando non fuerit tempus.
+     Reditur itaque ad alteram partem, quod origine careat. Sed haec, quae ex negatione divisio est,
+     cum per ea quaelibet argumenta sumuntur, fieri nequit ut utrumque sit, quod affirmatione et
+     negatione dividitur. Itaque sublato uno alterum manet, posito altero reliquum tollitur,
+     vocaturque hic a divisione locus medius inter eos qui ab ipso duci solent, atque eos qui
+     extrinsecus assumuntur. Cum <milestone unit="page" n="Col.  1193C"/> enim quaeratur an ulla sit
+     origo temporis, sumitur quidem esse originem, et ex ea per propriam consequentiam de re ipsa
+     quae quaeritur fit impossibilitatis et mendacii syllogismus. Quo concluso reditur ad prius quod
+     verum esse necesse est. Siquidem id quod ei oppositum est ad impossibile aliquod
+     inconveniensque producitur. Itaque quoniam ex ipsa re, de qua quaeritur, fieri syllogismus
+     solet, quasi ab ipsis locus est deductus, quoniam vero non in eo permanet, sed ad oppositum
+     redit, quasi extrinsecus sumitur. Idcirco hic a divisione locus inter utrumque medius
+     collocatur. At vero qui ex partitione sumuntur duplici sunt modo: aliquoties enim quae
+     dividuntur simul esse possunt, ut si vocem in significationes dividamus, omnes simul esse
+     possunt, veluti cum dicimus amplector <milestone unit="page" n="Col. 1193D"/> aut actionem
+     significat, aut passionem, utrumque simul significare potest. Aliquoties veluti negationis modo
+     quae dividuntur simul esse non possunt, ut aut sanus est aut aeger. Fit autem ratiocinatio in
+     priore quidem modo divisionis, tum quia omnibus adest quod quaeritur vel non adest, tum vero
+     idcirco alicui adesse vel non adesse quod aliis adsit aut minime. Nec in his explicandis
+     diutius laborabimus, si priores resolutorii vel Topica Aristotelis diligentis animum lectoris
+     instruxerint. Nam si quaeratur utrum canis substantia sit, atque hanc divisionem faciat
+     collocutor: Canis vel latrabilis animalis, vel marinae belluae, vel coelestis sideris nomen
+     est, demonstretque per singula et canem latrabilem substantiam <milestone unit="page"
+      n="Col. 1194A"/> esse, marinam quoque belluam et sidus substantiae posse supponi, monstravit
+     canem esse substantiam. Atque hic quidem ex ipsis in quaestione propositis, videbitur argumenta
+     traxisse. At in talibus syllogismis: aut sanus est, aut aeger; sed sanus est, non igitur est
+     aeger; sed sanus non est, aeger igitur est. Vel ita, sed aeger est, sanus igitur non est; vel
+     ita, sed aeger non est, sanus igitur est, ab his quae sunt extrinsecus sumptus est syllogismus,
+     id est ab oppositis. Idcirco totus hic a divisione locus inter utrosque medius esse perhibetur,
+     qui si in negatione sit constitutus, aliquo modo quidem ex ipsis sumitur aliquo modo vero ab
+     exterioribus venit. Si vero a partitione ducantur argumenta, nunc quidem ab ipsis, nunc vero ab
+     exterioribus copiam praestant. Et <milestone unit="page" n="Col. 1194B"/> Graeci quidem
+     Themistii diligentissimi scriptoris ac lucidi, et omnia ad facilitatem intelligentiae
+     revocantis talis locorum videtur esse partitio. Quae cum ita sint, breviter mihi locorum
+     divisio commemoranda est, ut nihil praeter eam monstretur esse relictum, quod non intra eam
+     probetur inclusum. De quo enim in qualibet quaestione dubitatur, id ita firmabitur argumentis,
+     ut ea vel ex ipsis sumantur quae in quaestione sunt constituta, vel extrinsecus ducantur, vel
+     quasi in confinio horum posita vestigentur. Ac praeter hanc quidem diffinitionem nihil extra
+     inveniri potest. Sed si ab ipsis sumitur argumentum, aut ab ipsorum necesse est substantia
+     sumatur, aut ab his quae eam consequuntur, aut ab iis quae inseparabiliter accidunt, vel his
+     adhaerent, et ab eorum substantia <milestone unit="page" n="Col. 1194C"/> separari seiungique
+     vel non possunt, vel non solent. Quaecunque vero ab eorum substantia ducuntur, ea aut in
+     descriptione, aut in diffinitione sunt, et praeter haec a nominis interpretatione. Quae vero ea
+     velut substantiam continentia consequuntur, talia sunt, ut vel generis, vel differentiae, vel
+     integri, vel specierum, vel partium loco circa ea quae inquiruntur assistant. Item vel causae,
+     vel efficientes, vel materiae, vel formae, vel finis, vel effectus, vel corruptiones, vel usus,
+     vel quantitates, vel tempus, vel modi. Quod vero proprie inseparabile vel adhaerens accidens
+     nuncupatur, id in communiter accidentibus numerabitur. Et praeter haec quidem aliud quod cuique
+     inesse possit inveniri non potest. Quibus ita positis inspiciamus nunc eos locos quos dudum
+     extrinsecus <milestone unit="page" n="Col. 1194D"/> pronuntiabamus assumi. Ea enim quae
+     extrinsecus assumuntur, non sunt ita separata atque disiuncta, ut non aliquo modo quasi e
+     regione quadam ea quae quaeruntur aspiciant. Nam et similitudines et opposita ad ea sine dubio
+     referuntur quibus similia vel opposita sunt, licet iure atque ordine videantur extrinsecus
+     collocata. Sunt autem haec, similitudo, oppositio, maius, minus, rei iudicium. In similitudine
+     enim tum rei similitudo, tum proportionis ratio continetur. Omnia enim similitudinem tenent.
+     Opposita vero in contrariis, in privationibus, in relationibus, in negationibus constant.
+     Comparatio vero maioris ad minus quaedam similium dissimilitudo est. Rerum enim per se similium
+     discretio maius ac <milestone unit="page" n="Col. 1195A"/> minus facit. Quod enim omni
+     qualitate omnique ratione disiunctum est, id nullo modo poterit comparari. Ex rei vero iudicio
+     quae sunt argumenta quasi testimonium praebent et sunt inartificiales loci, atque omnino
+     disiuncti, nec rem potius quam iudicium opinionemque sectantes. Transsumptionis vero locus nunc
+     quidem in aequalitate, nunc vero in maioris minorisve comparatione consistit. Aut enim ad id
+     quod est simile, aut ad id quod est maius aut minus, fit argumentorum rationumque transsumptio.
+     Hi vero loci quos mistos esse praediximus, aut ex casibus, aut ex coniugatis, aut ex divisione
+     nascuntur. In quibus omnibus consequentia et repugnantia custoditur. Sed ea quidem quae ex
+     diffinitione, vel genere, vel differentia, vel causis argumenta ducuntur, demonstrativis
+      <milestone unit="page" n="Col. 1195B"/> maxime syllogismis vires atque ordinem subministrant,
+     reliqua verisimilibus ac dialecticis. Atque hi loci qui maxime in eorum substantia sunt de
+     quibus in <milestone unit="page" n="Col. 1196A"/> quaestione dubitatur, ad praedicativos ac
+     simplices, reliqui vero ad hypotheticos et conditionales respiciunt syllogismos. Expeditis
+     igitur locis et diligenter tam diffinitione quam exemplorum luce patefactis, dicendum videtur
+     quomodo hi loci maximarum sint differentiae propositionum idque brevi, neque enim longa
+     disputatione res eget. Omnes enim maximae propositiones vel diffinitionem continent, vel
+     descriptionem, vel nominis interpretationem, vel totum, vel partes, vel genus, vel species, vel
+     caetera quibus differunt inter se maximae propositiones. Nam in eo quod sunt maximae non
+     differunt, sed in eo quod haec a diffinitione quidem, illa vero a genere, aliae veniunt ab
+     aliis locis, et his iure differre, hique earum differentiae dicuntur. Sed quoniam divisio
+     Themistii <milestone unit="page" n="Col. 1196B"/> patefacta est, nunc ad M. Tullii divisionem
+     transeamus.</p>
+   </div>
+
+   <div type="lib" n="III">
+    <head>LIBER TERTIVS</head>
+    <p><milestone unit="page" n="Col. 1195B"/> Quod locorum differentias multipliciter varieque
+     tractamus, nihil mirum diligentibus ingeniis videri debet, cum manifestum sit, unamquamque rem
+     multis saepe differentiis, atque in varias divisionis figuras posse partiri. Nam quia singulas
+     res non una, sed plures saepe differentiae comprehendunt, necesse est, ut secundum
+     differentiarum varietatem fiat diversitas etiam divisionum, ut et numeri nunc eas colligimus
+     differentias, quod alii pares, alii impares, nunc <milestone unit="page" n="Col. 1195C"/> vero
+     quod alii primi atque incompositi, alii secundi atque compositi. Triangulorum etiam multis
+     modis fieri partitionem geometricae disciplinae tenor ostendit. Id tamen in omnibus pervidendum
+     est, ut nihil extra in qualibet divisionis forma relinquatur, nihil ultra superfluum ac
+     praeterquam necesse est, aggregetur; quare quid mirum videri debet, si cum antea secundum
+     Themistium locorum differentias dederimus, nunc diversas secundum M. Tullium depromamus? Cuius
+     proposita breviter partitione, atque exemplis convenientibus expedita, tum demum quo differat,
+     vel quo congruat superius digestae divisioni, quo etiam altera claudat alteram commemorabo. Nam
+     cum M. Tullius omnem logicam facultatem, quam rationem diligentem disserendi dixit, duas habere
+      <milestone unit="page" n="Col. 1195D"/> partes proposuerit, unam inveniendi, alteram
+     iudicandi; cumque locos diffinierit esse argumenti sedes a quibus scilicet argumenta promuntur,
+     argumentum etiam rationem quae rei dubiae faciat fidem, divisionem locorum omnium hoc modo
+     fecit. Ex his, inquit, locis, in quibus argumenta inclusa sunt, alii in ipso haerent de quo
+     agitur, alii assumuntur extrinsecus. Duas igitur locorum species fecit, alios enim in ipsis
+     quaestionum terminis haerere proposuit, alios extrinsecus assumi. Atque eos quidem qui in ipsis
+     haererent de quibus quaeritur, tali divisione partitur. In ipso, inquit, tum ex toto, tum ex
+     partibus eius, tum ex nota, tum ex his rebus quae quodammodo affectae sunt ad id de quo
+     quaeritur. Extrinsecus autem <milestone unit="page" n="Col. 1196B"/> ea dicuntur quae absunt
+     longeque disiuncta sunt. Post haec eum locum qui ab effectis ducitur, in convenientia membra
+     partitus est, hoc modo: alia enim, inquit, sunt coniugata, alia ex genere, alia ex forma, alia
+     ex similitudine, alia ex differentia, alia ex contrario, alia ex coniunctis, alia ex
+     antecedentibus, alia ex consequentibus, alia ex repugnantibus, alia ex causis, alia ex
+     effectis, alia ex comparatione maiorum aut minorum aut parium. Quorum quidem <milestone
+      unit="page" n="Col. 1196C"/> omnium et natura breviter attingenda est, et exempla ponenda.
+     Eorum igitur locorum qui in ipso de quo agitur haerent, primum esse dixit a toto. Totum autem
+     uniuscuiusque rei in diffinitione constat. Omnis enim diffinitio rei quam diffinit adaequatur;
+     quod si una quaeque res tota est (nihil enim integrum esse nisi totum potest), diffinitione
+     quoque totum esse necesse est, id est, quae totam rei quam diffinit substantiam claudat.
+     Diffinitio vero est oratio quae uniuscuiusque rei quidem esse designat. Ab hac ita ducitur
+     argumentum ut sit quaestio, an arbores quoque sint animalia. Dicam: Animal est est substantia
+     animata sensibilis; arbor non est substantia animata sensibilis; concludam: Non sunt igitur
+     arbores animalia. Quaestio de genere. Maxima <milestone unit="page" n="Col. 1196D"/>
+     propositio: Vnde diffinitio abest, inde illud quoque abesse quod diffinitur. Locus a
+     diffinitione. Partes vero sunt, quarum conventu efficitur totum. Partes etiam vocantur quae
+     dividunt totum, hae autem species vel formae nuncupari solent. A quibus hoc modo sumitur
+     argumentum. Ab his quidem partibus, quarum coniunctione componitur totum hoc modo, ut si sit
+     dubitatio an sit anima corporea, partiemur animam velut his tribus partibus, quod vel
+     vegetabilem, vel sensibilem, vel intelligibilem praestet, at ipsum neque vegetare, neque
+     sentire, neque intelligere corporale est. Cumque nulla sit pars animae corporalis, omnino anima
+     corporalis non esse monstrata est. Quaestio de genere, id est, an anima corpori <milestone
+      unit="page" n="Col. 1197A"/> subiiciatur ut generi, argumentum a partibus. Maxima propositio:
+     A quibus partes absunt, totum quoque abesse. Locus a partibus totum coniungentibus. Item ab his
+     partibus quae totum dividunt hoc modo: sit in quaestione an anima secundum locum moveatur.
+     Dicam motus secundum locum tres species sunt, crementum, diminutio, permutatio; anima vero
+     neque crescit, neque minuitur, neque ab alio loco ad alium transit, non igitur movetur.
+     Quaestio de accidente. Maxima propositio, eadem quae superius, locus a partibus totum
+     dividentibus. A nota argumentum est, quoties ab interpretatione nominis rei dubiae fides
+     quaeritur, hoc modo, ut si dubitetur an philosophia sit bonum. Dicemus, philosophia est amor
+     sapientiae, at id bonum est, philosophia <milestone unit="page" n="Col. 1197B"/> igitur bonum
+     est. Hic igitur rem non diffinivimus, sed nomen diffinitione prodidimus. Quaestio de genere.
+     Maxima propositio: Nominis interpretatione rem declarari. Locus a notatione. Coniugata sunt
+     quae ab eodem nomine flectuntur, ut a iustitia, iustum, iuste. Ab his ita capitur argumentum,
+     ut si quaeratur an ridere gaudere sit. Dicemus, Si risus gaudium est, et ridere gaudere est.
+     Quaestio de accidente. Maxima propositio: Coniugatorum eamdem esse naturam. Locus a coniugatis.
+     Genus est quod de pluribus specie differentibus in eo quod quid praedicatur. Ab hoc ita ducitur
+     argumentum, ut si quaeratur utrum anima numerus sit seipsum movens, ut Xenocrati placuit.
+     Dicemus, Anima substantia est, numerus vero substantia non est, igitur <milestone unit="page"
+      n="Col. 1197C"/> anima numerus non est. Quaestio de diffinitione, locus a genere. Maxima
+     propositio: Quorum diversa sunt genera, ipsa quoque esse diversa. Forma est quod de pluribus
+     numero differentibus in eo quod quid sit praedicatur. Ab hac fit argumentum hoc modo, ut si
+     quaeratur an color in subiecto sit, id approbabimus eo, quoniam album vel nigrum in subiecto
+     sunt, a specie scilicet ad genus deducentes. Quaestio de genere. Nam in subiecto esse vel non
+     esse, accidens vel substantiam significat, quae sunt prima rerum genera. Maxima propositio: In
+     formis spectari generum proprietates. Locus a forma. Similitudo est eadem rerum differentium
+     qualitas. Ab hac ita fieri argumentum iudicatur, ut si quaeratur sorte an electione rectores
+     civitatibus dandi sunt, negetur <milestone unit="page" n="Col. 1197D"/> quoniam ne in navi
+     quidem sorte, sed electione peritus rector eligitur. Similis est navis quidem civitati,
+     gubernator autem magistratui. Quaestio de accidente, locus a simili. Maxima propositio: De
+     similibus idem est iudicium. Item a differentia, ut si quaeratur an idem sit rex quod tyrannus.
+     Dicemus minime, nam in rege, pietas, iustitia, mansuetudo; in tyranno cuncta diversa sunt.
+     Quaestio de diffinitione, locus a differentia. Maxima propositio: Differentium rerum non idem
+     esse iudicium. Contraria vero quae Cicero appellat, quatuor modis dividuntur: aut enim adversa
+     sunt, ut album, nigrum; aut privantia, ut iustitia, iniustitia; aut relativa, ut dominus,
+     servus; aut negativa, ut vivere, <milestone unit="page" n="Col.  1198A"/> non vivere. Ab his
+     omnibus ita argumenta ducuntur. Ab adversis: si bona est sanitas, mala est aegritudo; a
+     privantibus: si iniustitiam fugimus, iustitiam sequamur; a relativis: quisquis pater esse vult,
+     habeat filium; a negantibus: non me accusas fecisse quod me non fecisse defendis. Quaestiones
+     de accidentibus. Maxima propositio: In adversis, privantibus et negantibus contraria sibi
+     convenire non posse, in relativis autem absque se relativa esse non posse. Locus a contrariis,
+     quae melius opposita vocarentur. Adiuncta sunt quae finitimum tenent locum, ita ut temporibus
+     quoque, tum antecedant, ut amorem congressio; tum rei cui adiuncta sunt haereant, ut
+     ambulationi pedum strepitus; tum consequantur, ut atrox facinus mentis trepidatio. Neque haec
+     necessaria <milestone unit="page" n="Col. 1198B"/> sunt, sed frequenter eveniunt. Nam neque qui
+     congressus est, modis omnibus amavit, et qui congressus non est, uno semel aspectu in amorem
+     incidit; et ambulante aliquo potest non esse strepitus pedum, et non ambulante pedes strepere,
+     si uno eodemque loco consistens pedes moveat; et trepidare quis, cum nihil atrox fecerit, et
+     non trepidare qui fecerit: ab his ducetur argumentum, vel cum amare aliquem suscipiamur, quia
+     fuerit ante congressus, vel ambulasse aliquem in locum, cum pedum strepitus fuerit auditus, vel
+     atrox facinus commisisse, quem trepidare videamus, atque in his quaestiones de accidentibus,
+     locus ab adiunctis. Maxima propositio: Ex adiunctis adiuncta perpendi. Antecedentia vero sunt,
+     quibus positis statim necesse <milestone unit="page" n="Col. 1198C"/> est aliud consequatur,
+     velut cum dicimus si homo est, animal est. Neque in his temporibus ratio, nec rerum necessitas
+     varia est, sed statim ut dictum fuerit id quod antecedit, id comitatur quod subsequens est. Hic
+     vero locus totus in conditione est constitutus. Posita enim conditione si sit antecedens; esse
+     necesse est quod consequitur, hoc modo: Si peperit, cum viro concubuit, antecedens est
+     peperisse, cum viro concubuisse consequens: nam neque illud quaeritur quid prius tempore sit,
+     quid posterius; et saepe ista ita variantur, ut id quod posterius est tempore, antecedens esse
+     videatur in propositione, ut peperisse posterius est quam concubuisse. Tamen si peperit, modis
+     omnibus cum viro concubuit, et hoc praecedente et prius posito, necesse est illud <milestone
+      unit="page" n="Col.  1198D"/> intelligatur. Aliquoties vero simul sunt, ut: si sol ortus est,
+     dies est; aliquoties prius est quod praecedit, posterius quod consequitur, ut: si arrogans est,
+     odiosus est, ex arrogantia enim quisque fit odiosus. Ex antecedenti igitur sumitur argumentum:
+     si peperit, cum viro concubuit; sumo quod antecedit, at peperit; concludo quod sequitur, cum
+     viro igitur concubuit. A consequentibus ita sumo quod sequitur, at non concubuit cum viro,
+     concludo quod antecedit, non igitur peperit. Quaestio est de accidente, locus ab antecedentibus
+     et consequentibus. Maximae propositiones: Posito antecedenti comitari quod subsequitur,
+     perempto consequenti perimi quod antecedit. Repugnantia vero sunt contrariorum consequentia,
+      <milestone unit="page" n="Col. 1199A"/> ut vigilare, dormire, contraria sunt, stertere
+     dormientibus adiunctum est. Stertere igitur ac vigilare repugnantia sunt, ab his ita fit
+     argumentum: Tunc eum dicas vigilare, qui stertat? Quaestio de accidente, argumentum a
+     repugnantibus. Maxima propositio: Repugnantia sibi convenire non posse. Causa est efficiens,
+     quae quamlibet rem praecedens efficit, non semper tempore, sed proprietate naturae, ut sol
+     diem. Ab hac ita sumitur argumentum: Cur esse dubites diem, cum solem in coelo esse conspicias?
+     Quaestio de accidente: nam diem esse accidit aeri, id est esse propter solem lucidum;
+     argumentum ab efficientibus causis. Maxima propositio: Vbi causa est, inde effectum abesse non
+     posse. Effectum est quod efficit causa. Ab hoc ita <milestone unit="page" n="Col. 1199B"/>
+     sumitur argumentum: An tu dubites amasse, quam rapuit? Quaestio de accidente, argumentum ab
+     effectis. Maxima propositio: Vbi effectus est, causam abesse non posse, veluti non abfuit amor
+     qui fuit causa, cur rapuerit, quod est effectus. Comparatio vero maioris est, quoties id quod
+     minus est maiori comparatur. Ab hoc loco ita sumitur argumentum: Si is qui patriam bello
+     persecutus est tandem veniam meruit a civibus, cur non is quoque mereatur qui ob seditionem
+     motam actus est in exsilium? Quaestio de accidente, argumentum a comparatione maioris. Maxima
+     propositio: Quod in re maiore valet, valeat in minore. Minoris est comparatio, quoties maior
+     res confertur minori; atque ex ea capitur argumentum hoc modo: Si Caium <milestone unit="page"
+      n="Col. 1199C"/> Gracchum mediocriter labefactantem statum reipublicae Scipio privatus
+     interfecit, cur non Catilinam orbem terrae caede atque incendio vastare cupientem consules
+     persequantur? Quaestio de accidente, argumentum a comparatione minoris. Maxima propositio: Quod
+     in re minore valet, valeat in maiore. Paria sunt quae eiusdem quantitatis sunt, et semper
+     paritas similitudo est quantitatis. Ab hac ita fit argumentum: Si Demosthenem quis laudare
+     desiderat, cur vituperet Tullium? Quaestio de accidente, argumentum a comparatione parium.
+     Maxima propositio: Parium idem esse iudicium. Restat is locus quem extrinsecus dixit assumi,
+     hic iudicio nititur et auctoritate, et totus probabilis est, nihil continens necessarium.
+     Probabile autem est quod videtur vel omnibus, vel pluribus, <milestone unit="page"
+      n="Col. 1199D"/> vel doctis et sapientibus, et inter hos claris atque praestantibus, vel his
+     qui secundum unamquamque artem peritiam consecuti sunt, ut medico in medicina, geometrae in
+     geometria. Ab hoc loco tale est argumentum, veluti si dicam: Difficile est cum Carthaginensibus
+     bellum gerere, quoniam id P. Scipio Cornelius Africanus dixit, qui saepe fuerat expertus. Hic
+     vero locus extrinsecus dicitur constitutus, quoniam non de his qui praedicati vel subiecti sunt
+     termini sumitur, sed ab extrinsecus posito iudicio venit; hic etiam inartificialis et artis
+     expers vocatur, quoniam non sibi hinc ipse conficit argumentum orator, sed peractis positisque
+     utitur testimoniis. Expeditis igitur M. Tullii differentiis quibus ipse a se <milestone
+      unit="page" n="Col. 1200A"/> maximas propositiones, quas locos esse diximus, separavit,
+     pertractanda breviter mihi videtur superius digesta partitio, ut ea quae similia videntur a
+     semetipsis ratione congrua segregentur. Similis enim videtur locus a toto ei qui est a nota,
+     uterque enim in diffinitione est constitutus. Nam interpretatio nominis quaedam ipsius nominis
+     diffinitio est. Sed illa eorum maxima est differentia, quia locus a toto rem diffinit; a nota
+     vero rem non diffinit, sed nomen interpretatur. Diversa vero sunt res ac nomen. Hoc enim
+     significat, illa significatur. Item locus a partium enumeratione consimilis videtur esse ei qui
+     est a forma. Nam et forma pars est, et qui genus dividit enumerat partes, neque aliter fieri ex
+     forma argumentum potest nisi dividatur a genere; sumi enim <milestone unit="page"
+      n="Col. 1200B"/> omnino forma non potest, nisi per divisionem. Sed hic quoque multa est
+     differentia: nam partium enumeratio totas necesse est ut dividat partes, easque universas ad
+     fidem argumentationis assumat, sive illae partes, sive illae sint species, ut genus quidem
+     speciebus, totum vero partibus approbetur. In forma vero sufficit ad demonstrandum quod de
+     genere dicitur una quaelibet. Item locus a contrario et repugnantibus videtur esse consimilis,
+     sed habet differentiam, quia contraria primis sibimet frontibus opponuntur. Repugnantia vero
+     per coniunctionem contrariorum sibi probantur adversa, ut dormire ac vigilare statim sibi
+     contraria sunt. Stertere vero repugnat vigilationi idcirco quia somno coniungitur. Adiuncta
+     vero et antecedentia et consequentia quasi <milestone unit="page" n="Col. 1200C"/> finitima
+     sunt. Sed distant, quod in adiunctis nulla est necessitas, in antecedentibus vero et
+     consequentibus maxima; in adiunctis vero tempora nimium valent. Nam quod adiunctum est, id vel
+     praecedere rem solet, vel cum ea uno eodemque tempore esse, vel subsequi posterius. At in
+     antecedentibus nihil horum est, sed non habita temporis ratione mox ut fuerit antecedens,
+     consequens esse necesse est, et si consequens non fuerit, antecedens necesse est interire. Ac
+     de M. Tullii locis sufficienter dictum est, nunc ad Themistii divisionem redeamus, ut quomodo
+     sibi superius digestae partitiones consentire possint breviter explicemus, ac primum quidem
+     totius partitionis communiter differentias colligamus. Superior divisio docuit alios Themistii
+     esse locos qui in ipsis terminis <milestone unit="page" n="Col. 1200D"/> de quibus quaeritur
+     insunt, alios qui extrinsecus assumuntur, alios qui inter utrosque versantur, ut hic trina
+     intelligatur divisio. At M. Tullii divisio locos bifariam ostendit. Alios enim in eo ipso de
+     quo agitur haerere proponit, alios extrinsecus assumi. Hic igitur omnes eos locos, quos medios
+     Themistius proposuit, his applicuit atque coniunxit qui sunt in ipsis de quibus agitur terminis
+     constituti, et communiter quidem talis divisionum est differentia, quae clarius apparebit, si
+     singula persequamur. Eos igitur locos, qui positi sunt in terminis, de quibus in quaestione
+     dubitatur, priore partitione Themistius, tum in substantia posuit, tum in substantiae
+     consequentia. In substantia sunt diffinitio, descriptio, <milestone unit="page" n="Col. 1201A"
+     /> nominis interpretatio. Substantiae vero consequentia sunt genus, totum, species, pars, causa
+     efficiens, materia, forma, effectus, corruptio, finis, usus, communiter accidentia. Eos vero
+     qui extrinsecus assumuntur, tum in iudicio, tum in similitudine, tum in quantitatis
+     comparatione, tum in oppositione, tum in proportione, tum in transumptione separavit. Quos vero
+     inter utrosque posuit, hos in casibus et coniugatis et divisione constituit. Sed M. Tullius eos
+     qui in ipso sunt de quo quaeritur, tum ex toto, tum ex partibus eius, tum ex nota, tum ex his
+     rebus quae quodammodo affectae sunt ad id de quo quaeritur posuit. Ipsa vero quae affecta sunt
+     multifaria divisione partitus est, solum vero iudicium extrinsecus segregavit, pluresque partes
+     eorum quae in divisione <milestone unit="page" n="Col. 1201B"/> Themistii posita sunt
+     substantiae consequentia. Itemque locos medios inter affecta numeravit. In tam vero varia
+     divisione necesse est ut utraeque sibi non eadem parte conveniant. Id vero in cunctis
+     multipliciter divisis fieri potest, velut si quis dividat triangulorum formas sic: triangulorum
+     aliae sunt aequilaterae formae, aliae duo tantum latera habentes aequalia, aliae vero totis
+     inaequalibus lateribus iunctae. Rursus sit ista divisio: ut alias dicat aliquis rectum
+      <milestone unit="page" n="Col. 1202A"/> habentes angulum, quae orthogoniae nuncupantur, alias
+     dicat tribus acutis angulis contineri, quae sunt oxygoniae, alias in obtusum angulum tendi,
+     quae sunt ambligoniae. Necesse est igitur ut utraeque sibi diversa partium ratione conveniant.
+     Nam quod est orthogonium, id semper vel duobus lateribus aequalibus continetur, vel tribus
+     inaequalibus. Sed quod est ambligonium, id vel duobus lateribus continetur aequalibus, vel
+     tribus inaequalibus. Sed quod est oxygonium, id vel tribus lateribus aequalibus, vel duobus
+     inaequalibus continetur. Rursus id quod est aequilaterum semper est oxygonium, id vero quod
+     duobus aequalibus lateribus continetur, vel orthogonium, vel ambligonium, vel oxygonium esse
+     potest. Quod vero tribus inaequalibus continetur lateribus, <milestone unit="page"
+      n="Col. 1202B"/> vel orthogonium, vel ambligonium esse necesse est. Secundum igitur hunc modum
+     cunctam M. Tullii atque Themistii divisionem a principio pariter ordientes, invicem sibimet
+     clausam esse monstremus, in quibus omnibus et exemplorum et intelligentiae superius expeditae
+     praesens debet esse memoria. Disponamus igitur omnem Themistii divisionem, et post hanc
+     subiiciatur Tulliana partitio, ut ea quae dicenda sunt apertius oculis subiecta clarescant.</p>
+    <p><hi rend="bold">THEMISTII DIVISIO.</hi></p>
+    <p><hi rend="bold">In ipso.</hi><lb/> 1. A substantia.<lb/> 2. A definitione.<lb/> 3. A
+     descriptione.<lb/> 4. A nominis interpretatione.<lb/> 5. A consequentibus.<lb/> 6. A toto vel
+     genere.<lb/> 7. A partibus vel specie.<lb/> 8. Ab efficientibus.<lb/> 9. A materia.<lb/> 10. A
+     forma.<lb/> 11. A fine.<lb/> 12. Ab effectibus.<lb/> 13. A corruptionibus. Ab usibus.<lb/> 14.
+     A communiter accidentibus.<lb/>
+     <hi rend="bold">Extrinsecus.</hi><lb/> 1. A rei iudicio.<lb/> 2. A similibus.<lb/> 3. A
+     maiore.<lb/> 4. A minore.<lb/> 5. Ex oppositis vel contrariis, vel relativis, vel secundum
+     privationem et habitum, vel per affirmationem et negationem.<lb/> 6. A proportione.<lb/> 7. A transumptione.<lb/>
+     <hi rend="bold">Medii.</hi><lb/> A casibus.<lb/> A coniugatis.<lb/> A divisione.</p>
+    <p><hi rend="bold">M. TVLLII DIVISIO.</hi><lb/>
+     <hi rend="bold">Ab ipso.</hi><lb/> A toto.<lb/> A partibus.<lb/> A nota.<lb/> A
+     coniugatis.<lb/> A genere.<lb/> A forma.<lb/> A similitudine.<lb/> A differentia.<lb/> A
+     contrario.<lb/> Ab adiunctis.<lb/> Ab antecedentibus.<lb/> A consequentibus.<lb/> A
+     repugnantibus.<lb/> A causis.<lb/> Ab effectis.<lb/> A comparatione.<lb/> Vel maiorum.<lb/> Vel
+     minorum.<lb/> Vel parium.<lb/>
+     <hi rend="bold">Extrinsecus.</hi><lb/> Ab auctoritate</p>
+    <p><milestone unit="page" n="Col. 1203A"/> Quibus ita descriptis, nunc quemadmodum Marci Tullii
+     divisio Themistii partitioni conveniat explicemus. Locum igitur quem Cicero dixit a toto, a
+     substantia Themistius esse proposuit. Vterque enim in diffinitione consistit, sive illa
+     substantialis sit, sive descriptio. A partium enumeratione locus ex Ciceronis Topicis positus
+     idem est qui in Themistii divisione inter medios a divisione nominatus est. Quoties enim
+     aliquid esse vel non esse monstrare contendimus, si fidem a partium enumeratione capiamus, id
+     ex divisione necessario faciendum est. Divisio vero aut formarum praecessit, aut partium,
+     quanquam locus qui ex divisione a Themistio inter medios collocatus est, a Cicerone in generis
+     tractatione ponitur. Ait enim Tullius cum de genere loqueretur <milestone unit="page"
+      n="Col. 1203B"/> hoc modo: Commode etiam tractatur haec argumentatio, quae ex genere sumitur,
+     cum ex toto partes persequare, hoc modo: si dolus malus est, cum aliud agitur, aliud simulatur,
+     enumerare licet quibus modis id fiat, deinde in eorum aliquem id quod arguas dolo malo factum,
+     includere. Quod genus argumenti imprimis firmum videri solet. A notatione Tullii locus is est
+     qui Themistii a nominis interpretatione. A coniugatis communis est locus, eum Themistius inter
+     medios collocavit. A genere M. Tullius posuit, a toto Themistius. A forma Ciceronis, a parte,
+     id est, specie Themistii. A similitudine communis quidem est, nisi quod M. Tullius sub ea
+     proportionem comprehendit. A differentia M. Tullii, a toto in Themistii divisione, vel a parte
+     intelligi potest: <milestone unit="page" n="Col. 1203C"/> a toto quidem, si sit constitutiva
+     differentia de qua sumitur argumentum, a parte vero si sit divisibilis. <milestone unit="page"
+      n="Col. 1204A"/> A contrario idem locus est, qui apud Themistium ab oppositis dictus est, et
+     extrinsecus constitutus. Ab adiunctis ille est qui in Themistii partitione a communiter
+     accidentibus dicitur, inter consequentia substantiae nominatus. Ab antecedentibus et
+     consequentibus locus multifariam spargitur. Nam et diffinitio et descriptio et antecedere rem
+     et consequi possunt. Itemque nominis interpretatio: item species antecedit, genus consequitur.
+     Causa etiam efficiens antecedit et sequitur effectus; materiam vero sequitur effectus.
+     Communiter accidentia quoque si inseparabilia sint, necesse est ut consequantur. Coniugata
+     etiam sese vel antecedunt, vel consequuntur, itaque hic locus pluribus mistus est, et non tam
+     rebus ab aliis omnibus quam tractatione diversus. Ipsa enim conditio consequentiae locum
+      <milestone unit="page" n="Col. 1204B"/> alium facit, cum ipsa conditio consequentiae, vel in
+     diffinitione, vel in descriptione, vel in forma, vel in causa, vel in caeteris posita sit.
+     Repugnantia vero oppositis aggregantur, efficientia causis efficientibus vel materiae effecta
+     illi sunt consimilia loco quem Themistius posuit a fine; nam causarum effectus finis est. A
+     comparatione maioris vel minoris idem locus est qui apud Themistium inter extrinsecos locos
+     ponitur a maiore et minore. A comparatione partium inter eos qui a simili ducuntur esse
+     putandus est. Dictum est enim in quantitate similitudinem esse paritatem. Restat locus utrisque
+     communis, qui est extrinsecus collocatus, quem Cicero, sicut Themistius, a rei iudicio esse
+     proposuit. Et M. Tullii quidem divisio superiorem Themistii partitionem tali <milestone
+      unit="page" n="Col. 1204C"/> modo potuerit includere, quod licet in subiecta descriptione
+     prospicere:</p>
+    <p><hi rend="bold">Tulliana divisio</hi> - Themistii divisio.<lb/>
+     <hi rend="bold">A toto.</hi> - A substantia.<lb/>
+     <hi rend="bold">A partium enumeratione.</hi> - A divisione.<lb/>
+     <hi rend="bold">A notatione.</hi> - A nominis interpretatione.<lb/>
+     <hi rend="bold">A coniugatis.</hi> - A coniugatis.<lb/>
+     <hi rend="bold">A genere.</hi> - A genere vel a toto.<lb/>
+     <hi rend="bold">A forma.</hi> - A parte vel specie.<lb/>
+     <hi rend="bold">A similitudine.</hi> - A simili.<lb/>
+     <hi rend="bold">A differentia.</hi> - A toto vel a parte.<lb/>
+     <hi rend="bold">A contrario.</hi> - Ab oppositis.<lb/>
+     <hi rend="bold">Ab adiunctis.</hi> - A communiter accidentibus.<lb/>
+     <hi rend="bold">Ab antecedentibus, A consequentibus.</hi> - A diffinitione vel descriptione,
+     vel interpretatione, vel specie, vel causa, vel materia, vel communiter accidentibus, vel coniugatis.<lb/>
+     <hi rend="bold">A repugnantibus.</hi> - Ab oppositis.<lb/>
+     <hi rend="bold">Ab efficientibus.</hi> - A causis.<lb/>
+     <hi rend="bold">Ab effectis.</hi> - A fine.<lb/>
+     <hi rend="bold">A comparatione maiorum.</hi> - A maiore.<lb/>
+     <hi rend="bold">A comparatione minorum.</hi> - A minore.<lb/>
+     <hi rend="bold">A comparatione parium.</hi> - A similibus.<lb/>
+     <hi rend="bold">Ab auctoritate.</hi> - A rei iudicio.</p>
+    <p><milestone unit="page" n="Col. 1203D"/> Omnis quidem M. Tullii partitio locorum in Themistii
+     divisione superioris descriptionis formula videtur conclusa. Nunc Themistii divisio ad M.
+     Tullii divisionem reducenda est. Cuius quidem multa pars Ciceronis convenit, sicut prior etiam
+     descriptio docet. Quod vero ex Themistii superest divisione, id si ad <milestone unit="page"
+      n="Col. 1204D"/> Tullianae partitionis ordinem referatur, facili compendio quemadmodum ad se
+     invicem partitiones reducantur ostenditur. Nam continuae M. Tullii divisioni ex Themistii locis
+     in superiore descriptione convenerant hi: Ciceronis quidem a toto, Themistii a substantia. A
+     partium enumeratione Ciceronis, a divisione Themistii. <milestone unit="page" n="Col. 1205A"/>
+     A notatione Ciceronis, a nominis interpretatione Themistii. A coniugatis utrorumque communis. A
+     genere Ciceronis, a toto Themistii. A forma Ciceronis, a parte, id est specie Themistii. A
+     similitudine communis. A differentia Ciceronis, a toto vel a parte Themistii. A contrario
+     Ciceronis, idem apud Themistium ab oppositis. Ab adiunctis Ciceronis, eumdem a communiter
+     accidentibus Themistius posuit. Ab antecedentibus et consequentibus, mixti cum pluribus. A
+     repugnantibus Ciceronis, idem a Themistio ab oppositis dicitur. Ab efficientibus Ciceronis, a
+     causis Themistii. Ab effectis Tullii, a fine Themistii. A comparatione maioris ac minoris M.
+     Tullii, idem sunt a maiore ac minore Themistii. A comparatione partium Ciceronis, a similibus
+     Themistii. Cum igitur M. Tullii plena divisio aliquibus <milestone unit="page" n="Col. 1205B"/>
+     membris Themistianae divisionis aptetur, fieri non potest ut non membra Themistianae divisionis
+     statim ad Tullianae convenientia reducantur. Quocirca si quid reliquum est in Themistii
+     divisione quod superiori formulae non videatur ascriptum, plenae M. Tullii divisioni poterimus
+     aptare. Invicem enim divisiones alterna reciprocatione coniunctae sunt. <milestone unit="page"
+      n="Col. 1206A"/> Restant autem ex Themistii locis hi, ab usibus, ab effectibus, et
+     corruptionibus, et proportione, et transumptione. Quorum quidem ab usibus, si usus alicuius rei
+     semper effector est, ei loco Ciceronis aptandus est qui ab efficientibus nuncupatur. Quod si
+     ipse usus efficitur, ei loco Ciceronis adhibendus est qui ab effectis vocatur. Ab effectibus
+     vero, siquidem efficit aliquid effectus, ab efficientibus causis est; si vero ipse effectus
+     plenum aliquid confectumque demonstrat, is locus est quem ab effectis Tullius dixit. A
+     corruptionibus vero ab efficientibus dici potest. Nam cum omnis generatio efficiat aliquid, id
+     est substantiam formet, corruptio rursus ipsa quoque efficit quiddam, id est substantiali forma
+     spoliat ac privat, velut mors facit corporis dissolutionem. A proportione vero idem est, quem
+     Tullius a similibus <milestone unit="page" n="Col. 1206B"/> dixit, nam multorum in multis
+     similitudo proportio est. Transumptio vero siquidem ad maiora sit, locus a maiorum comparatione
+     est; sin vero ad minora, locus est a minorum comparatione; quod si ad paria, locus est a parium
+     comparatione. Atque in his omnibus reducendis, tale satis est descriptionis exemplum.</p>
+    <p><hi rend="bold">Themistii 'Ab usibus'</hi>:<lb/> Si ipse usus aliquid efficit: Ciceronis 'Ab
+     efficientibus'.<lb/> Si ipse usus efficitur: Ciceronis 'Ab effectis'.<lb/>
+     <hi rend="bold">Themistii 'Ab effectibus'</hi>:<lb/> Si effectus aliquid efficit: Ciceronis 'Ab
+     efficientibus'.<lb/> Si effectus efficitur: Ciceronis 'Ab effectis'.<lb/>
+     <hi rend="bold">Themistii 'A corruptionibus'</hi>: Ciceronis 'Ab efficientibus'<lb/>
+     <hi rend="bold">Themistii 'A proportione'</hi>: Ciceronis 'A similibus'<lb/>
+     <hi rend="bold">Themistii 'A transumptione'</hi>:<lb/> Si sit ad maius: Ciceronis 'A
+     comparatione maiorum'.<lb/> Si sit ad minus: Ciceronis 'A comparatione minorum'.<lb/> Si sit ad
+     par: Ciceronis 'A comparatione parium'.</p>
+    <p><milestone unit="page" n="Col. 1205B"/> Ac de dialecticis quidem locis, quantum propositi
+     operis ratio postulat explicuimus. Nunc vero de rhetoricis dicendum videtur quid sint, vel quid
+     a <milestone unit="page" n="Col. 1206B"/> dialecticis discrepare videantur, ad cuius plenam
+     disputationem integrum quarti voluminis spatium reservemus.</p>
+   </div>
+
+   <div type="lib" n="IV">
+    <head>LIBER QVARTVS</head>
+    <p><milestone unit="page" n="Col. 1205C"/> Si quis operis titulum diligens examinator inspiciat,
+     cum de Topicis differentiis conscribamus, non id a nobis tantum exspectare debebit, ut locorum
+     inter se dialecticorum, vel etiam rhetoricorum differentias demus, verum id multo magis ut
+     dialecticos locos a rhetoricis segregemus, quod nos efficacius aggredi posse arbitramur, si ab
+     ipsa facultatum natura, disputandi sumamus exordium. Ostensa enim dialecticae ac rhetoricae
+     similitudine ac dissimilitudine, ab ipsarum facultatum necesse est formis etiam locorum qui
+     eisdem facultatibus deserviunt communitates discrepantiasque ducamus. Dialectica facultas
+     igitur thesim tantum considerat. Thesis vero est sine circumstantiis quaestio. Rhetorica vero
+     de hypothesibus, id est de quaestionibus circumstantiarum multitudine inclusis, tractat et
+     disserit. Circumstantiae <milestone unit="page" n="Col. 1205D"/> vero sunt: quis, quid, ubi,
+     quando, cur, quomodo, quibus adminiculis. Rursus dialectica quidem si quando circumstantias,
+     veluti personam factumve aliquod ad disputationem sumit, non principaliter, sed omnem eius vim
+     ad thesim, de qua disserit transfert. Rhetorica vero si thesim assumpserit, ad hypothesim
+      <milestone unit="page" n="Col. 1206C"/> trahit, et utraque suam quidem materiam tractat, sed
+     alterius assumit, ut proniore in sua materia facultate nitatur. Rursus dialectica
+     interrogatione ac responsione constricta est. Rhetorica vero rem propositam perpetua oratione
+     decurrit. Item dialectica perfectis utitur syllogismis. Rhetorica enthymematum brevitate
+     contenta est. Illud etiam differentiam facit, quod rhetor habet alium praeter adversarium
+     iudicem, qui inter utrosque disceptet. Dialectico vero ille fert sententiam, qui adversarius
+     est. Ab adversario enim responsio veluti quaedam sententia subtilitate interrogationis
+     elicitur. Quae cum ita sint, omnis earum differentia, vel in materia, vel in usu, vel in fine
+     est constituta: in materia, quia thesis atque hypothesis materia quidem utrisque subiecta est;
+     in usibus, quod haec interrogatione, <milestone unit="page" n="Col. 1206D"/> illa perpetua
+     oratione disceptat, vel quod haec integris syllogismis, illa vero enthymematibus gaudet; in
+     fine vero, quod haec persuadere iudici, illa quod vult ab adversario extorquere conatur. Quibus
+     ita praecognitis paulo posterius et quaestiones rhetoricas quae in constitutionibus positae
+     sunt, et proprii generis <milestone unit="page" n="Col. 1207A"/> enumerabimus locos. Nunc
+     paulisper mihi videtur de tota admodum breviter facultate tractandum magnum opus atque
+     difficile. Quanta enim sibimet ars rhetorica cognatione iungatur, non facile considerari
+     potest, vixque est etiam ut auditu animadverti queat, nedum sit facile repertu. De cuius quidem
+     rei traditione nihil ab antiquis praeceptoribus accepimus. De unoquoque enim praecipiunt, nihil
+     de communi laborantes. Quam partem doctrinae vacuam, ut possumus, aggrediamur. Dicemus itaque
+     de generis artis, et speciebus, et materia, et partibus, et instrumento, instrumentique
+     partibus, opere etiam officioque actoris et fine, post haec de quaestionibus ac de locis.
+     Quocirca quod in communi speculandum est, hinc disserendi sumamus exordium. Rhetoricae igitur
+     genus <milestone unit="page" n="Col. 1207B"/> est facultas. Species vero tres, iudiciale,
+     demonstrativum, deliberativum, et genus quidem id esse quod diximus patet. Species autem
+     idcirco sunt quas superius commemoravimus, quoniam in his est tota facultas rhetoricae. In
+     iudiciali genere causarum integra est; item in demonstrativo, vel deliberativo. Sed haec genera
+     sunt causarum. Omnes enim causae, vel speciales vel individuae, sub horum trium generum uno
+     cadunt, ut sub iudiciali quidem speciales ut maiestatis vel repetundarum. Sub deliberativo vero
+     quaecunque causae consultationem habent: ut si specialiter accipias de bello vel de pace, si
+     vero individue de bello Pyrrhi vel pace. Eodem modo etiam in demonstrativis, quaecunque veniunt
+     in laudem aut in vituperationem, specialiter quidem, ut laus viri <milestone unit="page"
+      n="Col. 1207C"/> fortis, individue vero, ut laus Scipionis, sub demonstratione ponuntur.
+     Materia vero huius facultatis est, omnis quidem res proposita ad dictionem. Fere autem est
+     civilis quaestio. In hanc species a rhetorica venientes quasi quaedam formae capiunt sibi
+     materiam, et triplici informatam tenent figuram, quod posterius liquebit, ut civilis quaestio,
+     quae adhuc informis secundum species erat, fiat accepto fine unicuique specierum rhetoricae
+     subiecta. Vt informis adhuc civilis quaestio cum acceperit ex iudiciali finem iusti, fiat ipsa
+     civilis quaestio in iudiciali genere constituta. Cum vero ex deliberativo sumpserit utile vel
+     honestum, tunc fiet ipsa civilis quaestio in deliberativo causarum genere constituta. Si vero
+     ex demonstratione sumpserit bonum, tum fit demonstrativa <milestone unit="page" n="Col. 1207D"
+     /> civilis quaestio. Veniunt autem ut in materiam species ex rhetorica, idcirco quod aliter in
+     materia sua quaelibet facultas non potest operari, quam si suas adhibeat partes. Absentibus
+     enim cunctis partibus suis rhetorica quoque ipsa est absens. Sed quoniam de speciebus dictum
+     est rhetoricae, quoniam sunt genera causarum, ita sunt, ut omnium negotiorum quae in civili
+     quaestione constituta sunt, accepto fine iusti, iudiciale sit genus; omnium vero quae
+     constituta sunt in civili quaestione, honestum vel utilem finem ceperunt, deliberativum sit
+     genus; omnium quoque quae in civili quaestione posita finem honesti tantum bonive sumpserunt,
+     sit demonstrativum genus. Sed de his hactenus. Nunc de partibus <milestone unit="page"
+      n="Col. 1208A"/> rhetoricae providendum est. Partes enim rhetoricae sunt quinque, inventio,
+     dispositio, elocutio, memoratio, pronuntiatio. Partes autem vocantur idcirco, quia si aliquid
+     harum defuerit oratori, imperfecta facultas est; atque ideo quae universam formant oratoriam
+     facultatem, ea partes facultatis eius dicere ius est. Sed hae partes quoniam rhetoricae
+     facultatis sunt, totamque rhetoricam facultatem componunt, necesse est ut ubi fuerit rhetorica
+     integra, ipsae quoque partes consequantur in propriis speciebus; omnes igitur rhetoricae partes
+     inerunt rhetoricae speciebus. Quocirca et his civilibus negotiis tractandis adhibentur, quae a
+     praedictis speciebus rhetoricae informatur; aeque igitur in iudiciali negotio et in
+     deliberativo et demonstrativo, inventio, dispositio, elocutio, memoria, <milestone unit="page"
+      n="Col. 1208B"/> pronuntiatioque conveniunt. Quoniam vero omnis fere facultas instrumento
+     utitur ad faciendum quod potest, erit etiam rhetoricae facultatis aliquod instrumentum; hoc
+     vero est oratio, quae partim in civili genere versatur, partim minime. De ea autem oratione
+     nunc loquimur quae aliquam habet quaestionem, vel quae ad finem expediendae quaestionis
+     accommodatur; ea vero oratio quae in civili genere versatur, continue decurrit; ea vero quae
+     non est in civilibus causis, interrogatione et responsione explicatur. Sed prior rhetorica,
+     secunda dialectica nuncupatur, quae hoc superiore differt: primum quod illa civilem hypothesim,
+     haec thesim considerat; dehinc quod illa continua, haec intercisa oratione peragitur, et quod
+     rhetorica oratio habet praeter adversarium <milestone unit="page" n="Col. 1208C"/> iudicem,
+     dialectica vero eodem iudice quo adversario utitur. Haec igitur rhetorica oratio habet partes
+     sex: prooemium, quod exordium est, narrationem, partitionem, confirmationem, reprehensionem,
+     perorationem, quae sunt partes instrumenti rhetoricae facultatis; et quoniam rhetorica in
+     omnibus suis speciebus inest, ei dem inerunt. Nec potius inerunt quam eisdem ea quae peragunt
+     administrabunt. Itaque et in iudiciali genere causarum necessarius est ordo prooemii,
+     narrationis atque caeterorum, et in demonstrativo deliberativoque necessaria sunt. Opus autem
+     rhetoricae facultatis est docere movereque, quod nihilominus isdem fere sex instrumentis, id
+     est orationis partibus, administratur. Partes autem rhetoricae, quoniam partes sunt facultatis,
+      <milestone unit="page" n="Col. 1208D"/> ipsae quoque sunt facultates. Quocirca ipsae quoque
+     orationis partibus quasi instrumentis utentur in partem, atque ut his operentur, eisdem inerit.
+     Nam in exordiis nisi quinque sint praedictae rhetoricae partes, ut inveniat, disponat,
+     eloquatur, meminerit, pronuntiet, nihil agit orator. Eodem quoque modo et reliquae fere partes
+     instrumenti nisi habeant omnes rhetoricae partes, frustra sunt. Huius autem facultatis effector
+     orator est, cuius est officium dicere apposite ad persuasionem. Finis autem tum in ipso, tum in
+     altero. In ipso quidem bene dixisse, id est dixisse apposite ad persuasionem; in altero vero
+     persuasisse. Neque enim si qua impediunt oratorem quo minus persuadeat, officio facto, finis
+     non est consecutus, <milestone unit="page" n="Col. 1209A"/> sed is quidem qui officio fuit
+     contiguus et cognatus, consequitur, facto officio; is vero qui extra continetur, saepe non
+     consequitur, neque tamen rhetoricam suo fine contentam honore vacuavit: haec quidem ita sunt
+     mista, ut rhetorica insit speciebus, species vero insint causis. Causarum vero partes status
+     esse dicuntur, quos etiam aliis nominibus, tum constitutiones, tum quaestiones nominare licet;
+     qui quidem dividuntur ita ut rerum quoque natura divisa est. Sed a principio, quaestionum
+     differentias ordinamur: quoniam rhetoricae quaestiones circumstantiis involutae sunt omnes, aut
+     in scripti alicuius controversia versantur, aut praeter scriptum ex re ipsa sumunt contentionis
+     exordium. Et illae quidem quae in scripto sunt, quinque modis fieri possunt. Vno quidem, cum
+      <milestone unit="page" n="Col. 1209B"/> hic scriptoris verba defendat, ille sententiam: atque
+     hoc appellatur scriptum et voluntas. Alio modo, si inter se leges quadam contrarietate
+     dissentiant, quas cum ex adversa parte defendunt, faciunt controversiam: atque hic vocatur
+     status legis contrariae. Tertio, cum scriptum, de quo contenditur, sententiam claudit ambiguam:
+     haec suo nomine ambiguitas nuncupatur. Quarto vero, cum ex eo quod est scriptum, aliud non
+     scriptum intelligitur: quod quia per ratiocinationem et quamdam syllogismi consequentiam
+     investigatur, ratiocinatio vel syllogismus dicitur. Quinto, cum sermo est scriptus, cuius non
+     facile vis et natura clarescat, nisi diffinitione detecta sit: hic vocatur finis vel
+     inscriptio. Quos omnes a se differre non est nostri operis, verum rhetorici demonstrare;
+      <milestone unit="page" n="Col. 1209C"/> haec enim speculanda doctis non rudibus discenda
+     proponimus, quamvis de eorum differentia in Topicorum commentis per transitum disseruimus.
+     Earum autem constitutionum quae praeter scriptum in ipsarum rerum contentione sunt positae, ita
+     differentiae segregantur, ut rerum quoque ipsarum natura diversa est. In omni enim rhetorica
+     quaestione dubitatur an sit, quid sit, quale sit, et praeter haec, an iure vel more possit
+     exerceri iudicium. Sed si factum vel res quae intenditur, ab adversario negetur, quaestio est
+     utrum sit, ea coniecturalis constitutio nominatur. Quod si factum quidem esse constiterit, quid
+     vero sit id quod factum est ignoretur, quoniam vis eius diffinitione monstranda est,
+     diffinitiva dicitur constitutio. At si et esse constiterit, et de rei diffinitione <milestone
+      unit="page" n="Col. 1209D"/> conveniat, sed quale sit inquiratur, tunc quia cui generi subiici
+     debeat ambigitur, generalis qualitas nuncupatur. In hac vero quaestione et qualitatis et
+     quantitatis et comparationis ratio versatur. Sed quoniam de genere quaestio est, secundum
+     generis formam in plura necesse est hanc constitutionem membra distribui. Omnis enim quaestio
+     generalis, id est cum de genere et qualitate et quantitate quaeritur facti, in duas
+     distribuitur partes. Nam aut in praeteritum quaeritur de qualitate propositi, aut in praesens,
+     aut in futurum. Si in praeteritum, iuridicialis constitutio nuncupatur. Si praesentis vel
+     futuri temporis teneat quaestionem, negotialis dicitur. Iuridicialis vero cuius inquisitio
+     praeteritum respicit, duabus partibus segregatur: <milestone unit="page" n="Col. 1210A"/> aut
+     enim in ipso facto vis defensionis inest, et absoluta qualitas nuncupatur, aut extrinsecus
+     assumitur, et assumptiva dicitur constitutio. Sed haec in partes quatuor derivatur: aut enim
+     conceditur crimen, aut removetur, aut refertur, aut, quod est ultimum, comparatur. Conceditur
+     crimen, cum nulla introducitur facti defensio, sed venia postulatur. Id fieri duobus modis
+     potest, si depreceris, aut purges. Deprecaris, cum nihil excusationis attuleris; purgas, cum
+     facti culpa his ascribitur quibus obsisti obviarique non possit, neque tamen personae sint, id
+     enim in aliam constitutionem cadet. Sunt vero haec imprudentia, casus, atque necessitas.
+     Removetur vero crimen, cum ab eo qui incessitur transfertur in alium. Sed remotio criminis
+     duobus fieri modis potest, <milestone unit="page" n="Col. 1210B"/> si aut causa removeatur, aut
+     factum. Causa removetur, cum aliena potestate aliquid factum esse contenditur. Factum vero cum
+     alius, aut potuisse, aut debuisse facere demonstratur. Atque haec in his maxime valent, si eius
+     nominis in nos intendatur actio, quod non fecerimus id quod oportuit fieri. Refertur crimen cum
+     iuste in aliquem facinus commissum esse contenditur, quoniam is in quem commissum sit iniurius
+     saepe fuerit, atque id quod intenditur meruit pati. Comparatio est, cum propter meliorem
+     utilioremve, factum quod adversarius arguit commissum esse, defenditur. Horum vero omnium sunt
+     propriae differentiae, atque ideo minutissimae divisiones quas rhetorum in his docendis
+     explicandisque conscripti libri diligentius continent. <milestone unit="page" n="Col. 1210C"/>
+     Sed nos haec a M. Tullio sumpsisse sufficiat. Ad aliud enim tota operis festinat intentio. De
+     quibus omnibus hoc inspiciendum est modo. M. enim Tullius causarum partes constitutiones esse
+     demonstrat eo loco quo contra Hermagoram nititur, dicens, quod si generis causae partes non
+     possunt recte putari, multo minus rectae partis causae partes putabuntur. Pars autem causae
+     constitutio omnis est, partes causae constitutiones esse designans. Quare de re multa quaestio
+     est, quomodo enim partes esse putabantur causae. Si enim ita partes, ut species quomodo fieri
+     potest ut in una causa plures constitutiones sint? Nam species sibi invicem impermistae sunt.
+     At veniunt in causam plurimae constitutiones, non sunt igitur partes causarum velut species
+     status. <milestone unit="page" n="Col. 1210D"/> Illud quoque quod nulla species aliam sibi
+     oppositam speciem ad substantiam iuvat, constitutio vero constitutionem confirmat ad fidem. Nec
+     vero fieri potest ut ita sint causarum quasi totius partes, nullum enim compositum ex una parte
+     totum atque integrum esse potest. Ac in causa constitutio una idonea est constituere causam.
+     Quid igitur est dicendum, patet via rationi. Neque enim causae eius pars dicitur esse
+     constitutio, quae in controversiam venit et quam status constituit, cum praesertim qui additur
+     ad causam status, una iam constitutione firmata, non sit principalis, sed accidens, atque in
+     uno negotio tot eveniant controversiae quot sunt constitutiones, sed quot controversiae tot
+     causae. Et licet eas unum contineat negotium, causae tamen impermistae sibimet <milestone
+      unit="page" n="Col. 1211A"/> variantur: ut qui iuvenem de lupanari exeuntem vidit, paulo post
+     de eodem loco uxorem suam vidit egressam, accusat iuvenem adulterii: hic unum negotium, hoc
+     quod vertitur est, causae autem duae: una coniecturalis, si neget se fecisse; altera
+     diffinitiva, si in lupanari concubitum dicat non posse adulterium putari. Sed neque neganti
+     pars est eiusdem controversiae coniecturalis status, neque diffinienti diffinitio; totam enim
+     continet causam. Causam autem voco non generaliter, sed controversiam aliqua constitutione
+     formatam. Sunt autem constitutionis partes causae generalis hoc modo: si enim omnis causa
+     coniecturalis esset, nec alius status inveniretur, non esset status coniecturalis causae pars,
+     sed ipsa causa esset sine dubio coniectura; sed quoniam <milestone unit="page" n="Col. 1211B"/>
+     partim coniectura, partim sine, partim qualitate, partim translatione causae omnes tenentur,
+     pars est constitutio causae non eius quam tenendo informat, sed eius quam dividit generalis,
+     cuius scilicet quasi membrum aliquod abscindens, suum facit unaquaeque constitutio. Sunt igitur
+     partes ut species constitutiones causae generalis, non eius quam unaquaeque tenens
+     informaverit. Quare genus est rhetoricae facultas. Rhetoricae vero species tres, iudiciale,
+     demonstrativum, deliberativum. Materia autem, civilis quaestio, quae dicitur causa; partes
+     huius materiae, constitutiones. Rhetoricae partes, inventio, dispositio, elocutio, memoria,
+     pronuntiatio. Instrumentum, oratio; instrumenti partes, exordium, narratio, partitio,
+     confirmatio, reprehensio, peroratio. Opus est <milestone unit="page" n="Col. 1211 C"/> docere
+     et movere; actor est orator; officium bene dicere; finis tum bene dixisse, tum persuadere: est
+     vero tota rhetorica in speciebus. Species vero ita totam materiam informant, ut tamen vicissim
+     totam sibi vindicent, quod ex hoc intelligi potest, quoniam omnes materiae partes singulae
+     species tenent. Nam in iudiciali quatuor constitutiones invenies, et in deliberativo
+     demonstrativoque easdem quatuor invenire queas. Vnde ostenditur, si omnes partes causae
+     generalis, quae est civilis quaestio, singulae species habent, omnes vero partes causa ipsa
+     est, causam, id est civilem quaestionem, a speciebus vicissim vindicari totam eo modo, quo vox
+     uno tempore ad plurimorum aures pervenit cum suis integra partibus, id est elementis, nam eodem
+     tempore tota causa ad diversas <milestone unit="page" n="Col. 1211D"/> species cum suis
+     partibus transit. Sed cum species in materiam venerint, id est in civilem quaestionem, et eam
+     cum suis obtinuerint partibus, inferunt secum etiam ipsam rhetoricae facultatem. Quare etiam
+     rhetoricae partes in singulis constitutionibus inerunt. Sed illata materia infert secum
+     instrumentum suum, infert igitur secum orationem, et haec proprias partes, eritque in
+     constitutionibus tractandis exordium, narratio, et caetera. Sed cum instrumentum venerit in
+     civilem quaestionem, operam quoque suam simul infert; docebit igitur ac persuadebit in omni
+     constitutione. Sed haec per se venire non poterunt, nisi sit qui haec moveat velut artifex
+     atque architectus. Hic autem est orator, qui cum ad causam <milestone unit="page"
+      n="Col.  1212A"/> accesserit, faciet officium suum; bene igitur dicet in omni genere causarum,
+     et in omni constitutione, faciet etiam finem, tum ut bene dixerit in omni constitutione, tum ut
+     persuaserit. De singulis igitur nunc quidem in commune tractavimus. De uno quoque vero
+     separatim post, si erit commodum, disseremus. Atque haec hactenus. Nunc de inventione
+     tractandum est. Etenim prius quidem dialecticos dedimus, nunc rhetoricos promimus locos, quos
+     ex attributis personae ac negotio venire necesse est. Persona est, quae in iudicium vocatur,
+     cuius dictum aliquod factumve reprehenditur. Negotium factum dictumve personae, propter quod in
+     iudicium vocatur. Itaque in his duobus omnis locorum partitio constituta est: quae enim habent
+     reprehensionis occasionem, <milestone unit="page" n="Col.  1212B"/> eadem nisi omnino ad
+     inexcusabilem partem vergunt, defensionis copiam subministrant: ex eisdem enim locis omnis
+     accusatio defensioque consistit. Si igitur persona in iudicium vocatur, neque factum dictumve
+     ullum reprehenditur, causa esse non poterit. Nec vero factum dictumve aliquod in iudicium
+     proferri potest, si persona non exstet; itaque in his duobus omnis iudiciorum ratio versatur,
+     in persona scilicet atque negotio. Sed (ut dictum est) persona est quae in iudicium vocatur,
+     negotium factum dictumve personae, propter quod reus statuitur; persona igitur et negotium
+     suggerere argumenta non possunt. De ipsis enim quaestio est. De quibus autem dubitatur, ea
+     dubitationi facere fidem nequeunt. Argumentum vero erat ratio rei <milestone unit="page"
+      n="Col. 1212C"/> dubiae faciens fidem; faciunt autem negotio fidem, ea quae sunt personis ac
+     negotiis attributa. Ac si quando persona negotio faciat fidem, veluti si credatur contra
+     rempublicam sensisse Catilinam, quoniam persona est vitiorum turpitudine denotata, tunc non in
+     eo quod persona est et in iudicium vocatur fidem negotio facit, sed in eo quod ex attributis
+     personae quamdam suscipit qualitatem. Sed ut rerum ordo clarius colliquescat, de circumstantiis
+     arbitror esse dicendum. Circumstantiae sunt quae convenientes substantiam quaestionis
+     efficiunt. Nisi enim sit qui fecerit, et quid fecerit, causaque cur fecerit, locus, tempusque
+     quo fecerit, modus etiam facultatesque si desunt, causa non stabit. Has igitur circumstantias
+     in gemina Cicero partitur, ut eam, quae <milestone unit="page" n="Col. 1212D"/> est quis,
+     circumstantiam in attributis personae ponat. Reliquas vero circumstantias in attributis negotio
+     constituat. Et primam quidem ex circumstantiis eam, quae est quis, quoniam personae attribuit,
+     secat in undecim partes: nomen ut Verres, naturam ut barbarus, victum ut amicus nobilium,
+     fortunam ut dives, studium ut geometer, casum ut exsul, affectionem ut amans, habitum ut
+     sapiens, consilium, facta, et orationes, ea quae extra illud factum dictumque sunt quod nunc in
+     iudicium devocatur. Reliquas vero circumstantias, quae sunt quid, cur, quomodo, ubi, quando,
+     quibus auxiliis, in attributis negotio ponit; quid et cur, dicens continentia cum ipso negotio;
+     cur in causa constituens: ea enim causa <milestone unit="page" n="Col. 1213A"/> est
+     uniuscuiusque facti, propter quam factum est. Quid vero secat in quatuor partes: in summam
+     facti, ut parentis occisio, ex hac maxime locus sumitur amplificationis; ante factum, ut
+     concitus gladium rapuit; dum fit, vehementer percussit; post factum, in abdito sepelivit. Quae
+     cum omnia sint facta, tamen quoniam ad gestum negotium de quo quaeritur pertinent, non sunt ea
+     facta quae in attributis personae numerata sunt; illa enim extra negotium, de quo agitur
+     posita, personam informantia, fidem ei negotio praestant de quo versatur intentio; haec vero
+     facta quae continentia sunt cum ipso negotio, ad ipsum negotium de quo quaeritur pertinent.
+     Postremas vero quatuor circumstantias Cicero ponit in gestione negotii, quae est <milestone
+      unit="page" n="Col. 1213B"/> secunda pars attributorum negotiis; et eam quidem circumstantiam,
+     quae est quando, dividit in tempus, ut nocte fecit, et in occasionem, ut cunctis dormientibus;
+     eam vero circumstantiam, quae est ubi, locum dicit, ut in cubiculo fecit, quomodo vero ex
+     circumstantiis modum, ut clam fecit. Quibus auxiliis circumstantiam, facultatem appellat, ut
+     cum multo exercitu. Quorum quidem locorum, etsi ex circumstantiarum natura discretio clara est,
+     nos tamen benevolentius faciemus, si uberius eorum a se differentias ostendamus. Nam cum ex
+     circumstantiis, alias M. Tullius posuerit esse continentia cum ipso negotio, alias in gestione
+     negotii. Atque in continentibus cum ipso negotio illum annumeravit locum quem appellavit dum
+     fit, ex ipsa prolationis <milestone unit="page" n="Col. 1213C"/> significatione idem videtur
+     esse locus hic, dum fit, ei qui est in gestione negotii. Sed non est ita, quia dum fit illud
+     est quod eo tempore admissum est dum facinus perpetratur, ut percussit. In gestione vero
+     negotii ea sunt quae ante factum, et dum fit, et post factum quod gestum est, continent. In
+     omnibus enim tempus, locus, occasio, modus, facultas inquiritur. Rursus dum fit factum est quo
+     administratum est negotium; quae igitur sunt in gestione negotii, non sunt facta, sed facto
+     adhaerentia. Nullus enim tempus, occasionem, locum, modum, facultatem facta esse consenserit,
+     sed (ut dictum est) aeque cuilibet facto adhaerentia sunt, atque id nullo modo derelinquant,
+     quia quadam relatione subiecta sunt ipsi quod gestum est, negotio. Item ea quae sunt in
+     gestione <milestone unit="page" n="Col. 1213D"/> negotii sine his quae sunt continentia cum
+     ipso negotio esse possunt. Potest enim et locus, et tempus, et occasio, et modus, et facultas
+     facti cuiuslibet intelligi, etiamsi nemo faciat, quod illo in loco, vel tempore, vel occasione,
+     vel modo, vel facultate fieri posset. Itaque ea, quae sunt in gestione negotii sine his quae
+     continentia cum ipso negotio esse possunt, illa vero sine his esse non possunt. Factum enim
+     praeter locum, tempus, occasionem, modum, facultatemque esse non poterit, atque haec quae in
+     attributis personae ac negotio constant, veluti in dialecticis <milestone unit="page"
+      n="Col. 1214A"/> locis ea quae in ipsis haerent, de quibus quaeritur. Reliqua vero, quae vel
+     sunt adiuncta negotio vel gestum negotium consequuntur, talia sunt, qualia in dialecticis locis
+     ea quae secundum Themistium partim rei substantiam consequuntur, partim sunt extrinsecus,
+     partim versantur in mediis; secundum Ciceronem vero inter affecta numerata sunt, vel
+     extrinsecus posita. Sunt enim adiuncta negotio, ipsi etiam aeque fidem faciunt quaestioni,
+     affecta quodammodo ad id de quo quaeritur, et respicientia negotium de quo agitur. Nam
+     circumstantiae septem in attributis personae vel negotio numeratae sunt. Hae cum coeperint
+     comparari, et quasi in relationem venire, siquidem ad se continens referatur, vel ad id quod
+     continetur, fit aut species, aut genus. At si ad id referatur <milestone unit="page"
+      n="Col. 1214B"/> quod ab eo longissime distet, contrarium; ac si ad finem suum atque exitum
+     referatur, eventus est. Eodem quoque modo ad maiora, minora et paria comparantur. Atque omnino
+     tales loci in his quae sunt ad aliquid considerantur, nam maius et minus, aut simile, aut aeque
+     magnum, aut disperatum accidit circumstantiis quae in attributis negotio atque personae
+     numeratae sunt: ut dum ipsae circumstantiae aliis comparantur, fiat ex his argumentum dicti
+     factive quod in iudicium trahitur. Distant autem a superioribus, quod superiores loci, vel
+     facta continebant, vel factis ita adhaerebant, ut separari non possint, ut locus, tempus, et
+     caetera quae gestum negotium non relinquunt; haec vero quae sunt adiuncta negotio non adhaerent
+     ipsi <milestone unit="page" n="Col. 1214C"/> negotio, sed accidunt circumstantiis, et tunc
+     demum argumentum praestant, cum ad comparationem veniunt. Sumuntur vero argumenta non ex
+     contrarietate, sed ex contrario, et non ex similitudine, sed ex simili, ut appareat non ex
+     relatione sumi argumentum, sed ex adiunctis negotio , et ea esse adiuncta negotio, quae sunt ad
+     ipsum de quo agitur negotium affecta. Consecutio vero, quae pars quarta est eorum quae negotiis
+     attributa sunt, neque in ipsis inest rebus quae rerum substantiam non relinquit , neque ex
+     comparatione repetitur, sed rem gestam vel antecedit, vel etiam consequitur. Atque hic totus
+     locus extrinsecus est: primum enim in eo quaeritur id quod factum est, quo nomine appellari
+     conveniat, in quo non de <milestone unit="page" n="Col. 1214D"/> re, sed de vocabulo laboratur;
+     qui deinde sint auctores eius facti, et inventionis comprobatores, atque aemuli: id totum ex
+     iudicio, et quodammodo testimonio extrinsecus posito ad subsidium confluit argumenti; deinde et
+     quae eius rei sit lex, consuetudo, pactio, iudicium, sententia, artificium. Deinde quaeritur si
+     natura eius evenire vulgo soleat, an insolenter et raro; utrum homines id sua auctoritate
+     comprobare ac defendere in his consueverint, et caetera quae factum aliquid similiter confestim
+     aut intervallo solent consequi, quae necesse est extrinsecus <milestone unit="page"
+      n="Col. 1215A"/> posita ad opinionem magis tendere quam ad ipsam rerum naturam. Itaque in his
+     quatuor licet negotiis attributa dividere, ut sint partim continentia cum ipso negotio, quae
+     facta esse superius dictum est; partim in gestione negotii, quae non esse facta, sed factis
+     adhaerentia dudum monstravimus; partim adiuncta negotio. Haec (ut dictum est) partim in
+     relatione ponuntur, partim gestum negotium consequuntur, horum fides extrinsecus sumitur. Ac de
+     rhetoricis quidem locis satis dictum est: nunc illud est explicandum, quae sit his similitudo
+     cum dialecticis, quaeve diversitas, quod cum idonee convenienterque monstravero, propositi
+     operis explebitur intentio. Primo adeo ut in dialecticis locis (sicut Themistio placet) alii
+     sunt qui in ipsis haerent de quibus quaeritur, alii <milestone unit="page" n="Col. 1215B"/>
+     assumuntur extrinsecus, alii vero medii inter utrosque locati sunt: sic in rhetoricis quoque
+     locis, alii in personis atque negotio consistunt, de quibus ex adversa parte certatur, alii
+     vero extrinsecus, ut hi qui gestum negotium consequuntur, alii vero medii. Quorum proximi
+     quidem negotio sunt hi qui ex circumstantiis reliqui in gestione negotii considerantur. Illi
+     vero qui in adiunctis negotio collocantur, ipsi quoque inter medios locos positi sunt, quoniam
+     negotium de quo agitur quadam affectione respiciunt; vel si quis ea quidem quae personis
+     attributa sunt, vel quae continentia sunt cum ipso negotio, vel quae in gestione negotii
+     considerantur, his similia locis dicat qui ab ipsis in dialectica trahuntur de quibus in
+     quaestione dubitatur, consequentia vero negotium <milestone unit="page" n="Col. 1215C"/> ponat
+     extrinsecus, adiuncta vero inter utrumque constituat. Ciceronis vero divisioni hoc modo fit
+     similis. Nam ea quae continentia sunt cum ipso negotio, vel ea quae in gestione negotii
+     considerantur, in ipsis haerent de quibus quaeritur; ea vero quae adiuncta sunt, inter affecta
+     ponuntur; sed ea quae gestum negotium consequuntur, extrinsecus collocata sunt. Vel si quis ea
+     quidem quae continentia sunt cum ipso negotio in ipsis haerere arbitretur, affecta vero esse ea
+     quae sunt in gestione negotii vel adiuncta negotio, extrinsecus autem ea quae gestum negotium
+     consequuntur. iam illae perspicuae sunt communitates, quod quidem ipsi pene in utrisque
+     facultatibus versantur loci, ut genus, ut pars, ut similitudo, ut contrarium, ut maius ac
+     minus. De communitatibus <milestone unit="page" n="Col. 1215D"/> satis dictum est. Differentiae
+     illae sunt quod dialectici thesibus etiam apti sunt; rhetorici tantum ad hypotheses, id est, ad
+     quaestiones informatas circumstantiis assumuntur; nam sicut ipsae facultates a semetipsis
+     universalitate et particularitate distinctae sunt, ita etiam eorum loci ambitu et <milestone
+      unit="page" n="Col. 1216A"/> contractione discreti sunt. Nam dialecticorum maior est ambitus,
+     et quoniam praeter circumstantias sunt, quae singulares faciunt causas, non modo ad theses
+     utiles sunt, verum etiam ad argumenta quae in hypothesibus posita sunt, eorumque locos qui ex
+     circumstantiis constant claudunt atque ambiunt. Itaque fit ut semper exeat rhetor dialecticis
+     locis, dialecticus suis possit esse contentus. Rhetor enim quoniam causas ex circumstantiis
+     tractat, ex eisdem circumstantiis argumenta persumet, quae necesse est ab universalibus et
+     simplicibus confirmari, qui sunt dialectici. Dialecticus vero qui prior est, posteriore non
+     eget, nisi aliquando inciderit quaestio personae, ut cum sit incidens dialectico ad probandam
+     suam thesim causa circumstantiis inclusa, tum demum <milestone unit="page" n="Col. 1216B"/>
+     rhetoricis utatur locis. Itaque in dialecticis locis, si ita contingat, a genere argumenta
+     sumuntur, id est ipsa generis natura. Sed in rhetoricis ab eo genere, quod illic genus est de
+     quo agitur, nec a natura generis, sed a re generis, scilicet ipsa quae genus est. Sed ut
+     progrediatur, ratio ex ea pendet, quod natura generis ante praecognita est: ut si dubitetur an
+     fuerit aliquis ebrius, dicetur, si refellere velimus, non fuisse, quoniam nulla in eo luxuries
+     antecesserit. Idcirco nimirum, quia cum luxuries ebrietatis quasi quoddam genus sit, cum
+     luxuries nulla fuerit, nec ebrietas quidem fuit. Sed hoc pendet ex altero. Cum enim luxuries
+     non fuit, ebrietas esse non potuit. Ex natura generis demonstratur, quod dialectica ratio
+     subministrat. Vnde enim genus abest, inde etiam <milestone unit="page" n="Col. 1216C"/> species
+     abesse necesse est, quoniam genus species non relinquit; et de similibus quidem, et de
+     contrariis eodem modo, in quibus maxima est dissimilitudo inter rhetoricos ac dialecticos
+     locos. Dialectica enim ex ipsis qualitatibus, rhetorica ex qualitate suscipientibus rebus
+     argumenta vestigat. Vt dialecticus ex genere, id est ex ipsa generis natura, rhetor ex ea re
+     quae genus est; dialecticus ex similitudine, rhetor ex simili, id est ex ea re quae
+     similitudinem cepit. Eodem modo ille ex contrarietate, hic contrario. Omnibus igitur quae
+     superius proposuimus expeditis, illud arbitror apponendum quod M. Tullius Topica quae ad C.
+     Trebatium peritum iuris edidit, non eo modo quo de ipsis disputari possit disseruit, sed
+     quemadmodum rhetoricae facultatis argumenta <milestone unit="page" n="Col. 1216D"/> ducerentur,
+     quod in his commentariis diligentius expedivimus qui a nobis in eiusdem Ciceronis Topica
+     conscripti sunt. Quo autem modo de his dialecticis rationibus disputetur, in his commentariis
+     quos in Aristotelis Topica a nobis translata conscripsimus expeditum est.</p>
+   </div>
+
+  </body>
+ </text>
+
+</TEI>
