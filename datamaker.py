@@ -1,5 +1,6 @@
 from csv import reader
 import os
+from subprocess import call
 import shutil
 
 textgroups = []
@@ -7,7 +8,12 @@ works = []
 with open("urns.csv") as f:
     csv = reader(f, delimiter="\t")
     for line in csv:
-        textgroup, work, _, _, _, path, tgname, workname, _ = tuple(line)
+        if len(line) == 0:
+            continue
+        try:
+            textgroup, work, _, _, _, path, tgname, workname, *_ = tuple(line)
+        except ValueError:
+            print(line)
         if textgroup == "URN Author":
             continue
         print(textgroup)
@@ -44,4 +50,7 @@ with open("urns.csv") as f:
             print("Work {} is already annotated".format(work))
 
         # Copy the file
-        shutil.copyfile(path, "data/{tg}/{wk}/{tg}.{wk}.digilibLT-lat1".format(tg=textgroup, wk=work))
+        call(
+            "java -jar /home/thibault/saxon9he.jar -s:{SOURCE} -xsl:general.xsl -o:data/{tg}/{wk}/{tg}.{wk}.digilibLT-lat1 urn='urn:cts:latinLit:{tg}.{wk}.digilibLT-lat1.xml'".format(
+                SOURCE=path, tg=textgroup, wk=work
+            ).split(" "))
