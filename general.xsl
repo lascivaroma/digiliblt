@@ -13,25 +13,26 @@
         standalone="yes"
     />
     <xsl:param name="urn" />
+
     <xsl:template match="encodingDesc">
         <encodingDesc>
             <refsDecl n="CTS" />
             <xsl:apply-templates />
         </encodingDesc>
     </xsl:template>
+
     <xsl:template match="body">
-        <body>
-            <xsl:apply-templates select="@*|comment()"/>
-            <div type="edition" xml:lang="lat">
-                <xsl:attribute name="n" select="$urn" />
-                <xsl:apply-templates select="node()"/>
-            </div>
+        <body xml:lang="lat">
+            <xsl:attribute name="n" select="$urn" />
+            <xsl:apply-templates select="node()|@*|comment()"/>  
         </body>
     </xsl:template>
     
-    <xsl:template match="node()|comment()|@*">
+    <xsl:template match="node()|@*|comment()">
+        <!-- Copy the current node -->
         <xsl:copy>
-            <xsl:apply-templates />
+            <!-- Including any child nodes it has and any attributes -->
+            <xsl:apply-templates select="node()|@*|comment()"/>
         </xsl:copy>
     </xsl:template>
 </xsl:stylesheet>
