@@ -50,7 +50,6 @@ with open("urns.csv") as f:
             print(line)
         if textgroup == "URN Author":
             continue
-        print(textgroup)
         # If the author is anonymous, the textgroup == the work
 
         if tgname.lower().startswith("anony"):
