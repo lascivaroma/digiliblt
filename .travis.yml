@@ -1,3 +1,10 @@
+# Fix Travis errors when sending large output to STDOUT. These write errors occurred after
+# a Travis update to new Trusty images on Dec. 12th 2017. The reason for these
+# write errors is unknown. Using the deprecated builds did not fix the problem.
+# Setting 'filter_secrets: false' as suggested here
+# https://github.com/travis-ci/travis-ci/issues/4704#issuecomment-321777557
+# fixes the problem.
+filter_secrets: false
 language: python
 
 python:
@@ -6,8 +13,7 @@ python:
 install:
   - pip3 install HookTest>=1.0.0
 
-script: hooktest ./ --scheme tei --workers 3 --verbose 10 --manifest --countword --console table --allowfailure 
-
+script: hooktest ./ --scheme tei --workers 3 --verbose 5 --manifest --countword --console table --allowfailure 
 
 before_deploy:
   - hooktest-build --travis ./
@@ -19,14 +25,14 @@ before_deploy:
   - git add -A
   - git commit -m "Removed failing files" -m "Release $GIT_TAG"
   - git tag $GIT_TAG -a -m "$DATE"
-  - git push -q https://$GSEC@github.com/ponteineptique/digilibLT --tags
+  - git push -q https://$GSEC@github.com/ponteineptique/digiliblt --tags
 
 deploy:
   provider: releases
   api_key: $GSEC
   skip_cleanup: true
   on:
-    repo: ponteineptique/digilibLT
+    repo: ponteineptique/digiliblt
     branch: master
 
 env:
