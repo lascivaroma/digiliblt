@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -32,7 +31,10 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <refsDecl n="CTS"><cRefPattern n="unknown" matchPattern="(\w+)" replacementPattern="#xpath(/tei/text/body/div/div/div[@n='$1']))"><p>This pointer pattern extracts unknown</p></cRefPattern></refsDecl>
+       <refsDecl n="CTS">
+        
+          <cRefPattern n="unknown" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body//tei:div[@n='$1'])"><p>This pointer pattern extracts chapters</p></cRefPattern>
+         </refsDecl>
          <projectDesc>
             <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
             <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
