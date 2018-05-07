@@ -6,7 +6,7 @@ python:
 install:
   - pip3 install HookTest>=1.0.0
 
-script: hooktest ./ --scheme tei --workers 3 --verbose 10 --manifest --countword --console table
+script: hooktest ./ --scheme tei --workers 3 --verbose 10 --manifest --countword --console table --allowfailure 
 
 
 before_deploy:
