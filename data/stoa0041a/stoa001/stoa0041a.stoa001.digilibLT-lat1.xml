@@ -32,8 +32,7 @@
       </fileDesc>
       <encodingDesc>
         <refsDecl n="CTS">
-          <cRefPattern n="part" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']//tei:seg[@n='$2'])"><p>This pointer pattern extracts books and parts</p></cRefPattern>
-          <cRefPattern n="book" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])"><p>This pointer pattern extracts books</p></cRefPattern>
+          <cRefPattern n="part" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body//tei:seg[@n='$1'])"><p>This pointer pattern extracts parts</p></cRefPattern>
          </refsDecl>
          <projectDesc>
             <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
