@@ -34,7 +34,10 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <refsDecl n="CTS"><cRefPattern n="unknown" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"><p>This pointer pattern extracts unknown</p></cRefPattern></refsDecl>
+         <refsDecl n="CTS">
+            <cRefPattern n="part" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:div[@n='$2'])"><p>This pointer pattern extracts books and parts</p></cRefPattern>
+            <cRefPattern n="book" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])"><p>This pointer pattern extracts books</p></cRefPattern>
+         </refsDecl>
          <projectDesc>
             <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
             <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
@@ -3955,7 +3958,7 @@
             irruunt speciales passiones, ut arquatus siue aurigo, quam Graeci icteron uocant, et
             cachexia uel atrophia atque hydrops, de his nunc ordinare curabimus.</p>
             </div>
-            <div type="cap" n="6">
+            <div type="cap" n="5">
                <head>DE AVRIGINE SIVE ARQVATO MORBO, QVEM VVLGO MORBVM REGIVM VOCANT, GRAECI ICTERON
             APPELLANT</head>
                <p>
@@ -6534,7 +6537,7 @@
             Graeci <supplied>perineon uocant.</supplied>
                </p>
             </div>
-            <div type="cap" n=" 5">
+            <div type="cap" n="5">
                <head>
                   <supplied>DE DIABETE</supplied>
                </head>
