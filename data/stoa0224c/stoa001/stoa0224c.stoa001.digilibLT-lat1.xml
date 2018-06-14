@@ -35,8 +35,7 @@
         </fileDesc>
         <encodingDesc>
          <refsDecl n="CTS">
-          <cRefPattern n="part" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']//tei:div[@n='$2'])"><p>This pointer pattern extracts books and parts</p></cRefPattern>
-          <cRefPattern n="book" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])"><p>This pointer pattern extracts books</p></cRefPattern>
+          <cRefPattern n="part" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:div[@n='$1'])"><p>This pointer pattern extracts paragraph</p></cRefPattern>
          </refsDecl>
             <projectDesc>
                 <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
@@ -1747,7 +1746,7 @@ PELAGONIVS FALERIO suo ait<lb/>
                   <milestone unit="subpar" n="1"/> Emplastri compositio. Rododafnis selib., feclae selib., bituminis selib. <del>
                      <g ref="#char1">—</g> II</del>, sulphur vivum selib., aesisti selib., afronitri floris selib., nitri floris selib., axungiae selib., euforbi selib., oesypi p. V, gentianae p. II, herbae vettonicae lib., panacis radicem selib., marrubi Pontici selib., costi selib., aristolochiae rotundae selib., styracis p. II, ypopanacis Afrae selib., trixogonis selib., rutae silvaticae seminis selib., petroselini Macedonici selib., acori Pontici selib., mellis p. IIII.</p>
             </div>
-            <div type="par" n="42">
+            <div type="par" n="342">
                <p>
                   <milestone unit="subpar" n="1"/> Medicaminis traumatici compositio. Chalcitis lib., misy lib., aeruginis <g ref="#char1">—</g> III, stercoris columbini lib., aceti scrp. II, mellis <g ref="#char1">—</g> IIII. Decoquis et sic uteris.</p>
             </div>
