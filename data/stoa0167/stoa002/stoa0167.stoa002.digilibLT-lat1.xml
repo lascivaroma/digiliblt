@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="file:teilite.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -33,7 +31,9 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-         <refsDecl n="CTS"><cRefPattern n="unknown" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"><p>This pointer pattern extracts unknown</p></cRefPattern></refsDecl>
+         <refsDecl n="CTS">
+            <cRefPattern n="pr" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])"/>
+        </refsDecl>
             <projectDesc>
                 <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
                 <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
@@ -78,7 +78,7 @@
 
     <text>
         <body xml:lang="lat" n="urn:cts:latinLit:stoa0167.stoa002.digilibLT-lat1">
-            <div type="pr" n="pr I">
+            <div type="pr" n="1">
                 <head> PROLOGVS LIBRI I </head>
                 <p>
                <lb/>Primo volumine continentur haec. Imperium Assyriorum a Nino rege usque ad
@@ -91,7 +91,7 @@
                     bella Scythica molitus est.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr II">
+            <div type="pr" n="2">
                 <head> PROLOGVS LIBRI II </head>
                 <p>
                <lb/>Secundo volumine continentur haec. Scythiae et Ponti situs originesque
@@ -104,7 +104,7 @@
                     interitum.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr III">
+            <div type="pr" n="3">
                 <head> PROLOGVS LIBRI III </head>
                 <p>
                <lb/>Tertio volumine continentur haec. Vt mortuo Xerxe filius Artaxerxes ultus
@@ -117,14 +117,14 @@
                     gesserunt.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr IV">
+            <div type="pr" n="4">
                 <head> PROLOGVS LIBRI IV </head>
                 <p>
                <lb/>Quarto volumine continentur res Siculae, ab ultima origine usque ad deletam
                     Syracusis Atheniensium classem.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr V">
+            <div type="pr" n="5">
                 <head> PROLOGVS LIBRI V </head>
                 <p>
                <lb/>Quinto volumine continentur haec. Bellum inter Athenienses et Lacedaemonios,
@@ -134,7 +134,7 @@
                     eo militaverunt.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr VI">
+            <div type="pr" n="6">
                 <head> PROLOGVS LIBRI VI </head>
                 <p>
                <lb/>Sexto volumine continentur haec. Bellum Lacedaemoniorum gestum in Asia cum
@@ -147,7 +147,7 @@
                     Macedonicas.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr VII">
+            <div type="pr" n="7">
                 <head> PROLOGVS LIBRI VII </head>
                 <p>
                <lb/>Septimo volumine continentur origines Macedonicas regesque a conditore
@@ -156,7 +156,7 @@
                     origines.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr VIII">
+            <div type="pr" n="8">
                 <head> PROLOGVS LIBRI VIII </head>
                 <p>
                <lb/>Octavo volumine continentur res gestae Philippi magni post captam urbem
@@ -167,7 +167,7 @@
                     frustra Perinthos oppugnata.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr IX">
+            <div type="pr" n="9">
                 <head> PROLOGVS LIBRI IX </head>
                 <p>
                <lb/>Nono volumine continentur haec. Vt Philippus a Perintho summotus. Byzantii
@@ -182,7 +182,7 @@
                     rege Cyprio gessit: originesque Cypri repetit.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr X">
+            <div type="pr" n="10">
                 <head> PROLOGVS LIBRI X </head>
                 <p>
                <lb/>Decimo volumine continentur Persicae res. Vt Artaxerxes Mnemon pacificatus
@@ -196,14 +196,14 @@
                     conflixit.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XI">
+            <div type="pr" n="11">
                 <head> PROLOGVS LIBRI XI </head>
                 <p>
                <lb/>Vndecimo volumine continentur res gestae Alexandri Magni usque ad interitum
                     regis Persarum Darii, dictaeque in excessu origines et reges Cariae.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XII">
+            <div type="pr" n="12">
                 <head> PROLOGVS LIBRI XII </head>
                 <p>
                <lb/>Duodecimo volumine continentur Alexandri magni bella Bactriana et Indica
@@ -214,7 +214,7 @@
                     exercitu periit.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XIII">
+            <div type="pr" n="13">
                 <head> PROLOGVS LIBRI XIII </head>
                 <p>
                <lb/>Tertio decimo volumine continentur haec. Vt mortuo Alexandro optimates
@@ -226,7 +226,7 @@
                     Quirenarum.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XIV">
+            <div type="pr" n="14">
                 <head> PROLOGVS LIBRI XIV </head>
                 <p>
                <lb/>Quarto decimo volumine continentur haec. Bellum inter Antigonum et Eumenen
@@ -237,7 +237,7 @@
                     obsessam interfecit.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XV">
+            <div type="pr" n="15">
                 <head> PROLOGVS LIBRI XV </head>
                 <p>
                <lb/>Quinto decimo volumine continentur haec. Vt Demetrius Antigoni filius Gazae
@@ -251,7 +251,7 @@
                     Illyrico et in Italia, cui ablata Corcyra. Rex Cassander interiit.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XVI">
+            <div type="pr" n="16">
                 <head> PROLOGVS LIBRI XVI </head>
                 <p>
                <lb/>Sexto decimo volumine continentur haec. Vt mortuo Cassandro ortisque inter
@@ -265,7 +265,7 @@
                     urbem.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XVII">
+            <div type="pr" n="17">
                 <head> PROLOGVS LIBRI XVII </head>
                 <p>
                <lb/>Septimo decimo volumine continentur haec. Vt Lysimachus occiso filio
@@ -279,7 +279,7 @@
                     priusquam in Italiam traiecit.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XVIII">
+            <div type="pr" n="18">
                 <head> PROLOGVS LIBRI XVIII </head>
                 <p>
                <lb/>Octavo decimo volumine continentur res a Pyrro Epirota in Italia gestae
@@ -288,7 +288,7 @@
                     gestae in excessu dictae.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XIX">
+            <div type="pr" n="19">
                 <head> PROLOGVS LIBRI XIX </head>
                 <p>
                <lb/>Vndevicensimo volumine continentur res Carthaginensium in Africa per
@@ -298,7 +298,7 @@
                     exercitum et classem amisit.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XX">
+            <div type="pr" n="20">
                 <head> PROLOGVS LIBRI XX </head>
                 <p>
                <lb/>Vicensimo volumine continentur res gestae Dionysii Siculi patris. Vt pulsis
@@ -307,7 +307,7 @@
                     dictae quas Anno magnus in Africa gessit.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XXI">
+            <div type="pr" n="21">
                 <head> PROLOGVS LIBRI XXI </head>
                 <p>
                <lb/>Vno et vicensimo volumine continentur haec. Vt in Sicilia Dionysius filius a
@@ -319,7 +319,7 @@
                     est.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XXII">
+            <div type="pr" n="22">
                 <head> PROLOGVS LIBRI XXII </head>
                 <p>
                <lb/>Secundo et vicensimo volumine continentur haec. Res gestae Agathoclis: ut a
@@ -331,7 +331,7 @@
                     subiecit.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XXIII">
+            <div type="pr" n="23">
                 <head> PROLOGVS LIBRI XXIII </head>
                 <p>
                <lb/>Tertio et vicensimo volumine continentur haec. Vt Agathocles domita Sicilia
@@ -343,7 +343,7 @@
                     Epirum.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XXIV">
+            <div type="pr" n="24">
                 <head> PROLOGVS LIBRI XXIV </head>
                 <p>
                <lb/>Quarto et vicensimo volumine continentur haec. Bellum quod inter Antigonum
@@ -355,7 +355,7 @@
                     deletique sint.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XXV">
+            <div type="pr" n="25">
                 <head> PROLOGVS LIBRI XXV </head>
                 <p>
                <lb/>Quinto et vicensimo volumine continentur haec. Vt Antigonus Gallos delevit,
@@ -366,7 +366,7 @@
                     rege Mitylo bellum habuerit.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XXVI">
+            <div type="pr" n="26">
                 <head> PROLOGVS LIBRI XXVI </head>
                 <p>
                <lb/>Sexto et vicensimo volumine continentur haec. Quibus in urbibus Graeciae
@@ -380,7 +380,7 @@
                     Callinicus regnum acceperit.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XXVII">
+            <div type="pr" n="27">
                 <head> PROLOGVS LIBRI XXVII </head>
                 <p>
                <lb/>Septimo et vicensimo volumine continentur haec. Seleuci bellum in Syria
@@ -393,7 +393,7 @@
                     maioremque filiorum eius Apaturius occidit.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XXVIII">
+            <div type="pr" n="28">
                 <head> PROLOGVS LIBRI XXVIII </head>
                 <p>
                <lb/>Octavo et vicensimo volumine continentur haec. Vt mortuo rege Epiri
@@ -405,7 +405,7 @@
                     excessu bellum Illyricum quod Romani gessere cum Teuta.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XXIX">
+            <div type="pr" n="29">
                 <head> PROLOGVS LIBRI XXIX </head>
                 <p>
                <lb/>Vndetricensimo volumine continentur haec. Res gestae Philippi regis adversus
@@ -414,7 +414,7 @@
                     est adiuvantibus Aetolos Romanis: quo finito intulit Attalo bellum.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XXX">
+            <div type="pr" n="30">
                 <head> PROLOGVS LIBRI XXX </head>
                 <p>
                <lb/>Tricensimo volumine continentur haec. Vt mortuo Ptolomaeo Tryphone filius
@@ -428,7 +428,7 @@
                     descendit.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XXXI">
+            <div type="pr" n="31">
                 <head> PROLOGVS LIBRI XXXI </head>
                 <p>
                <lb/>Vno et tricensimo volumine continentur haec. Bellum, quod cum Lacedaemonio
@@ -438,7 +438,7 @@
                     per eundem Acilium, qui Antiochum Graecia expulerat.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XXXII">
+            <div type="pr" n="32">
                 <head> PROLOGVS LIBRI XXXII </head>
                 <p>
                <lb/>Secundo et tricensimo volumine continentur haec. Defectio ab Achaeis
@@ -454,7 +454,7 @@
                     Antiochus.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XXXIII">
+            <div type="pr" n="33">
                 <head> PROLOGVS LIBRI XXXIII </head>
                 <p>
                <lb/>Tertio et tricensimo volumine continentur haec. Vt cum Perse Philippi filio,
@@ -463,7 +463,7 @@
                     orto. Bellum rursus in Macedonia gestum a Romanis cum Pseudophilippo.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XXXIV">
+            <div type="pr" n="34">
                 <head> PROLOGVS LIBRI XXXIV </head>
                 <p>
                <lb/>Quarto et tricensimo volumine continentur haec. Bellum Achaicum, quod Romani
@@ -480,7 +480,7 @@
                     cum Selegensibus habuit et cum rege Prusia.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XXXV">
+            <div type="pr" n="35">
                 <head> PROLOGVS LIBRI XXXV </head>
                 <p>
                <lb/>Quinto et tricensimo volumine continentur haec. Bellum piraticum inter
@@ -493,7 +493,7 @@
                     superioris Asiae motus factos per Araetheum et Arsacen Parthum.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XXXVI">
+            <div type="pr" n="36">
                 <head> PROLOGVS LIBRI XXXVI </head>
                 <p>
                <lb/>Sexto et tricensimo volumine continentur haec. Vt Trypho pulso Syria
@@ -505,7 +505,7 @@
                     bellum cum Romanis gessit, quo captus est.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XXXVII">
+            <div type="pr" n="37">
                 <head> PROLOGVS LIBRI XXXVII </head>
                 <p>
                <lb/>Septimo et tricensimo volumine continentur haec. Repetitis regum Ponticorum
@@ -515,7 +515,7 @@
                     Bosporanorum et Colchorum origines et res gestae.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XXXVIII">
+            <div type="pr" n="38">
                 <head> PROLOGVS LIBRI XXXVIII </head>
                 <p>
                <lb/>Octavo et tricensimo volumine continentur haec. Vt Mithridates Eupator
@@ -527,7 +527,7 @@
                     deletus est.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XXXIX">
+            <div type="pr" n="39">
                 <head> PROLOGVS LIBRI XXXIX </head>
                 <p>
                <lb/>Nono et tricensimo volumine continentur haec. Vt extincto a Parthis Antiocho
@@ -544,7 +544,7 @@
                     Heracleo post mortem regis occuparit imperium.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XL">
+            <div type="pr" n="40">
                 <head> PROLOGVS LIBRI XL </head>
                 <p>
                     <lb/>Quadragensimo volumine continentur haec. Vt mortuo Grypo rege Cyzicenus cum
@@ -560,7 +560,7 @@
                     amorem suum M. Antonio belli Actiaci fine extinxit regnum Ptolomaeorum.<lb/>
                 </p>
             </div>
-            <div type="pr" n="pr XLI">
+            <div type="pr" n="41">
                 <head> PROLOGVS LIBRI XLI </head>
                 <p>
                <lb/>Vno et quadragensimo volumine continentur res Parthicae et Bactrianae. In
@@ -572,7 +572,7 @@
                     Apollodotum et Menandrum, reges eorum.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XLII">
+            <div type="pr" n="42">
                 <head> PROLOGVS LIBRI XLII </head>
                 <p>
                <lb/>Secundo et quadragensimo volumine continentur Parthicae res. Vt praefectus
@@ -585,7 +585,7 @@
                     Asiani interitusque Saraucarum.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XLIII">
+            <div type="pr" n="43">
                 <head> PROLOGVS LIBRI XLIII </head>
                 <p>
                <lb/>Tertio et quadragensimo volumine continentur origines priscorum Latinorum,
@@ -593,7 +593,7 @@
                     et Massiliensium res gestae.<lb/>
             </p>
             </div>
-            <div type="pr" n="pr XLIV">
+            <div type="pr" n="44">
                 <head> PROLOGVS LIBRI XLIV </head>
                 <p>
                <lb/>Quarto et quadragensimo volumine continentur res Hispaniae et Punicae.<lb/>
