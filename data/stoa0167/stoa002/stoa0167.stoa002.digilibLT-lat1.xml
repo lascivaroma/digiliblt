@@ -32,7 +32,13 @@
         </fileDesc>
         <encodingDesc>
          <refsDecl n="CTS">
-            <cRefPattern n="pr" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])"/>
+            <cRefPattern unit="book" matchPattern="(\d+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])">
+                <p>I also like the fact that cRefPattern allows for paragraphs</p>
+                <cRefPattern unit="poem" matchPattern="(\d+).(\d+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:div[@n='$2'])">
+                    <cRefPattern unit="line" matchPattern="(\d+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$3'])">
+                    </cRefPattern>
+                </cRefPattern>
+            </cRefPattern>
         </refsDecl>
             <projectDesc>
                 <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>

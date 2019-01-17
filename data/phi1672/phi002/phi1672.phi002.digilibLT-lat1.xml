@@ -27,12 +27,22 @@
          </publicationStmt>
          <sourceDesc>
             <p>Iuli Valeri Res Gestae Alexandri Macedonis translatae ex Aesopo Graeco, adhibitis schedis Roberti Calderan edidit Michaela Rosellini,
-	 editio correctior cum addendis Monachii et Lipsiae 2004</p>
+   editio correctior cum addendis Monachii et Lipsiae 2004</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <refsDecl n="CTS">
+            <cRefPattern n="chapter" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:div[@n='$2'])">
+              <p>This pointer pattern extracts chapter</p>
+            </cRefPattern>
+            <cRefPattern n="book" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])">
+              <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+          </refsDecl>
+       </encodingDesc>
   </teiHeader>
   <text>
-      <body xml:lang="lat" n="urn:cts:latinLit:phi1672.phi001.digilibLT-lat1">
+      <body xml:lang="lat" n="urn:cts:latinLit:phi1672.phi002.digilibLT-lat1">
          <div type="lib" n="1">
             <head>Liber primus qui est ortus Alexandri</head>
             <div type="cap" n="1">
