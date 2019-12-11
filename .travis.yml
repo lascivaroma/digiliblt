@@ -11,7 +11,7 @@ python:
   - '3.5'
 
 install:
-  - pip3 install HookTest>=1.0.0
+  - pip3 install "HookTest<=1.2.5"
 
 script: hooktest ./ --scheme tei --workers 3 --verbose 5 --manifest --countword --console table --allowfailure 
 
