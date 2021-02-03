@@ -1,0 +1,20 @@
+name: Test library
+
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+     # Setup Python 
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v2
+        with:
+          # Semantic version range syntax or exact version of a Python version
+          python-version: '3.7'
+    # Display Version
+      - name: Install Hooktest
+        run: pip3 install HookTest
+      - name: Run Hooktest
+        run: |
+          hooktest ./ --scheme tei --workers 3 --verbose 5 --manifest --countword --console table --allowfailure 
