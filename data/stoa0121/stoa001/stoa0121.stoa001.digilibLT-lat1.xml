@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -21,67 +20,78 @@
                 <date>2012</date>
                 <availability>
                     <p>
-                  <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
-               </p>
+                        <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
+                    </p>
                 </availability>
                 <idno>dlt000171</idno>
             </publicationStmt>
             <sourceDesc>
-                <p>Eutrope, <hi rend="italic">Abrégé d'histoire romaine</hi>, texte établi et traduit par Joseph
-                    Hellegouarc'h, Paris, 1999 </p>
+                <p>Eutrope, <hi rend="italic">Abrégé d'histoire romaine</hi>, texte établi et
+                    traduit par Joseph Hellegouarc'h, Paris, 1999 </p>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-         <refsDecl n="CTS"><cRefPattern n="unknown" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"><p>This pointer pattern extracts unknown</p></cRefPattern></refsDecl>
+            <refsDecl n="CTS">
+                <cRefPattern n="chapter" matchPattern="(\w+).(\w+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:div[@n='$2'])">
+                    <p>This pointer pattern extracts chapter</p>
+                </cRefPattern>
+                <cRefPattern n="book" matchPattern="(\w+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])">
+                    <p>This pointer pattern extracts books</p>
+                </cRefPattern>
+            </refsDecl>
             <projectDesc>
                 <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
-                <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+                <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio
+                    Lana</p>
             </projectDesc>
             <editorialDecl>
-                
                 <p>
-               <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi>
-            </p>
-                <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
-                    l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
-                    e commenti e ogni altro contenuto redatto da editori moderni. </p>
-                <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
-                    correttezza di trascrizione</p>
-                <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
-                    distinzione u/v minuscole.</p>
+                    <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi>
+                </p>
+                <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non
+                    seguendone l'impaginazione. Sono stati invece esclusi dalla digitalizzazione
+                    apparati, introduzioni, note e commenti e ogni altro contenuto redatto da
+                    editori moderni. </p>
+                <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la
+                    massima correttezza di trascrizione</p>
+                <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di
+                    riferimento per la distinzione u/v minuscole.</p>
                 <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
-                <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
-                    grassetto, corsivo, spaziatura espansa.</p>
-                <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
-                    &lt;del&gt;testo&lt;/del&gt; si visualizza [testo] <lb/> integrazioni: &lt;supplied&gt;testo&lt;/supplied&gt; si visualizza &lt;testo&gt;<lb/>
-                    <hi rend="italic">loci desperati</hi>:  &lt;unclear&gt;testo&lt;/unclear&gt; o &lt;unclear/&gt; testo
-                    si visualizzano †testo† e †testo<lb/> lacuna materiale: &lt;gap/&gt; si visualizza
-                    [...]<lb/> lacuna integrata dagli editori:
-                    &lt;supplied&gt;&lt;gap/&gt;&lt;/supplied&gt; si visualizza &lt;...&gt;
+                <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic"
+                        >corpus</hi>: grassetto, corsivo, spaziatura espansa.</p>
+                <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/>
+                    espunzioni: &lt;del&gt;testo&lt;/del&gt; si visualizza [testo] <lb/>
+                    integrazioni: &lt;supplied&gt;testo&lt;/supplied&gt; si visualizza &lt;testo&gt;<lb/>
+                    <hi rend="italic">loci desperati</hi>: &lt;unclear&gt;testo&lt;/unclear&gt; o
+                    &lt;unclear/&gt; testo si visualizzano †testo† e †testo<lb/> lacuna materiale:
+                    &lt;gap/&gt; si visualizza [...]<lb/> lacuna integrata dagli editori:
+                    &lt;supplied&gt;&lt;gap/&gt;&lt;/supplied&gt; si visualizza &lt;...&gt; </p>
+                <p>Sono stati marcati i termini in lingua greca &lt;foreign
+                    xml:lang="grc"&gt;αγβ&lt;/foreign&gt; </p>
+                <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+                        target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+                        >Note di trascrizione e codifica di testi latini tardoantichi
+                        [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
                 </p>
-                <p>Sono stati marcati i termini in lingua greca
-                    &lt;foreign xml:lang="grc"&gt;αγβ&lt;/foreign&gt;
-                </p>
-                <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf">Note di trascrizione e codifica di testi latini tardoantichi
-                    [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
-            </p>
             </editorialDecl>
-           
         </encodingDesc>
         <profileDesc>
             <langUsage>
                 <language ident="la">Latino</language>
             </langUsage>
         </profileDesc>
+        <revisionDesc>
+            <change who="Thibault Clérice" when="2021-02-02">Correction du sys. de citation Capitains et des numéros de DIV</change>
+        </revisionDesc>
     </teiHeader>
     <text>
-        
         <body xml:lang="lat" n="urn:cts:latinLit:stoa0121.stoa001.digilibLT-lat1">
-                            <div type="ptext" n="ptext">
-            <head>DOMINO VALENTI GOTHICO MAXIMO PERPETVO
-                                AVGVSTO EVTROPIVS V.C. MAGISTER MEMORIAE</head>  
-         </div>
-            
+            <div type="ptext" n="ptext">
+                <head>DOMINO VALENTI GOTHICO MAXIMO PERPETVO AVGVSTO EVTROPIVS V.C. MAGISTER
+                    MEMORIAE</head>
+            </div>
             <div type="pr" n="pr">
                 <head> Praefatio </head>
                 <p> Res Romanas ex voluntate mansuetudinis tuae ab urbe condita ad nostram memoriam,
@@ -133,7 +143,8 @@
                         <milestone unit="par" n="1"/> Huic successit Tullus Hostilius. Hic bella
                         reparavit, Albanos vicit, qui ab urbe Roma duodecimo miliario sunt, Veientes
                         et Fidenates, quorum alii sexto miliario absunt ab urbe Roma, alii octavo
-                        decimo, bello superavit, urbem ampliavit, adiecto Caelio monte. <milestone unit="par" n="2"/> Cum triginta et duos annos regnasset, fulmine ictus
+                        decimo, bello superavit, urbem ampliavit, adiecto Caelio monte. <milestone
+                            unit="par" n="2"/> Cum triginta et duos annos regnasset, fulmine ictus
                         cum domo sua arsit. </p>
                 </div>
                 <div type="cap" n="5">
@@ -194,7 +205,8 @@
                         redderentur, sed civiles semper essent, qui se post annum scirent futuros
                         esse privatos. <milestone unit="par" n="3"/> Fuerunt igitur anno primo
                         expulsis regibus consules L. Iunius Brutus, qui maxime egerat, ut Tarquinius
-                        pelleretur, et Tarquinius Collatinus, maritus Lucretiae. <milestone unit="par" n="4"/> Sed Tarquinio Collatino statim sublata est dignitas.
+                        pelleretur, et Tarquinius Collatinus, maritus Lucretiae. <milestone
+                            unit="par" n="4"/> Sed Tarquinio Collatino statim sublata est dignitas.
                         Placuerat enim, ne quisquam in Vrbe maneret, qui Tarquinius vocaretur. Ergo
                         accepto omni patrimonio suo ex urbe migravit, et loco ipsius factus est L.
                         Valerius Publicola consul. <milestone unit="par" n="5"/> Commovit tamen
@@ -215,7 +227,7 @@
                 </div>
                 <div type="cap" n="11">
                     <p>
-                  <milestone unit="par" n="1"/> Secundo quoque anno iterum Tarquinius ut
+                        <milestone unit="par" n="1"/> Secundo quoque anno iterum Tarquinius ut
                         reciperetur in regnum bellum Romanis intulit, auxilium ei ferente Porsenna,
                         Tusciae rege, et Romam paene cepit. <milestone unit="par" n="2"/> Verum tum
                         quoque victus est. Tertio anno post reges exactos Tarquinius, cum suscipi
@@ -223,14 +235,15 @@
                         praestaret auxilium, Tusculum se contulit, quae civitas non longe ab Vrbe
                         est, atque ibi per quattuordecim annos privatus cum uxore consenuit.
                             <milestone unit="par" n="3"/> Quarto anno post reges exactos, cum Sabini
-                        Romanis bellum intulissent, victi sunt et de his triumphatum est. <milestone unit="par" n="4"/> Quinto anno L. Valerius ille, Bruti collega et quater
+                        Romanis bellum intulissent, victi sunt et de his triumphatum est. <milestone
+                            unit="par" n="4"/> Quinto anno L. Valerius ille, Bruti collega et quater
                         consul, fataliter mortuus est, adeo pauper, ut, collatis a populo nummis,
                         sumptum habuerit sepulturae quem matronae sicuti Brutum per annum luxerunt.
                     </p>
                 </div>
                 <div type="cap" n="12">
                     <p>
-                  <milestone unit="par" n="1"/> Nono anno post reges exactos, cum gener
+                        <milestone unit="par" n="1"/> Nono anno post reges exactos, cum gener
                         Tarquinii ad iniuriam soceri vindicandam ingentem collegisset exercitum,
                         nova Romae dignitas est creata, quae dictatura appellatur, maior quam
                         consulatus. Eodem anno etiam magister equitum factus est, qui dictatori
@@ -252,20 +265,21 @@
                 </div>
                 <div type="cap" n="14">
                     <p>
-                  <milestone unit="par" n="1"/> Sequenti anno Volsci contra Romanos bellum
+                        <milestone unit="par" n="1"/> Sequenti anno Volsci contra Romanos bellum
                         reparaverunt et victi acie etiam Coriolos civitatem, quam habebant optimam,
                         perdiderunt. </p>
                 </div>
                 <div type="cap" n="15">
                     <p>
-                  <milestone unit="par" n="1"/> Octavo decimo anno postquam reges eiecti erant,
-                        expulsus ex Vrbe Q. Marcius, dux Romanus, qui Coriolos ceperat, Volscorum
-                        civitatem, ad ipsos Volscos contendit iratus et auxilia contra Romanos
-                        accepit. <milestone unit="par" n="2"/> Romanos saepe vicit, usque ad quintum
-                        miliarium Vrbis accessit, oppugnaturus etiam patriam, legatis qui pacem
-                        petebant repudiatis, nisi ad eum mater Veturia et uxor Volumnia ex urbe
-                        venissent, quarum fletu et deprecatione superatus removit exercitum. Atque
-                        hic secundus post Tarquinium fuit, qui dux contra patriam suam esset. </p>
+                        <milestone unit="par" n="1"/> Octavo decimo anno postquam reges eiecti
+                        erant, expulsus ex Vrbe Q. Marcius, dux Romanus, qui Coriolos ceperat,
+                        Volscorum civitatem, ad ipsos Volscos contendit iratus et auxilia contra
+                        Romanos accepit. <milestone unit="par" n="2"/> Romanos saepe vicit, usque ad
+                        quintum miliarium Vrbis accessit, oppugnaturus etiam patriam, legatis qui
+                        pacem petebant repudiatis, nisi ad eum mater Veturia et uxor Volumnia ex
+                        urbe venissent, quarum fletu et deprecatione superatus removit exercitum.
+                        Atque hic secundus post Tarquinium fuit, qui dux contra patriam suam esset.
+                    </p>
                 </div>
                 <div type="cap" n="16">
                     <p>
@@ -280,7 +294,7 @@
                 </div>
                 <div type="cap" n="17">
                     <p>
-                  <milestone unit="par" n="1"/> Sequenti anno, cum in Algido monte ab urbe
+                        <milestone unit="par" n="1"/> Sequenti anno, cum in Algido monte ab urbe
                         duodecimo ferme miliario Romanus obsideretur exercitus, L. Quintius
                         Cincinnatus dictator est factus, qui agrum quattuor iugerum possidens
                         manibus suis colebat. <milestone unit="par" n="2"/> Is, cum in opere et
@@ -289,9 +303,10 @@
                 </div>
                 <div type="cap" n="18">
                     <p>
-                  <milestone unit="par" n="1"/> Anno trecentesimo et altero ab Vrbe condita
+                        <milestone unit="par" n="1"/> Anno trecentesimo et altero ab Vrbe condita
                         imperium consulare cessavit et pro duobus consulibus decem facti sunt, qui
-                        summam potestatem haberent, decemviri nominati. <milestone unit="par" n="2"/> Sed, cum primo anno bene egissent, secundo unus ex his, Ap. Claudius,
+                        summam potestatem haberent, decemviri nominati. <milestone unit="par" n="2"
+                        /> Sed, cum primo anno bene egissent, secundo unus ex his, Ap. Claudius,
                         Virginii cuiusdam, qui honestis iam stipendiis contra Latinos in monte
                         Algido militabat, filiam virginem corrumpere voluit; quam pater occidit, ne
                         stuprum a decemviro sustineret, et regressus ad milites movit tumultum.
@@ -299,7 +314,7 @@
                 </div>
                 <div type="cap" n="19">
                     <p>
-                  <milestone unit="par" n="1"/> Anno trecentesimo et quinto decimo ab Vrbe
+                        <milestone unit="par" n="1"/> Anno trecentesimo et quinto decimo ab Vrbe
                         condita Fidenates contra Romanos rebellaverunt. Auxilium his praestabant
                         Veientes et rex Veientium Tolumnius. <milestone unit="par" n="2"/> Quae
                         ambae civitates tam vicinae Vrbi sunt, ut Fidenae sexto, Veii octavo decimo
@@ -314,11 +329,13 @@
                         mox etiam civitatem diu obsidens cepit, antiquissimam Italiaeque ditissimam.
                             <milestone unit="par" n="2"/> Post eam cepit et Faliscos, non minus
                         nobilem civitatem. Sed commota est ei invidia, quasi praedam male
-                        divisisset, damnatusque ob eam causam et expulsus civitate. <milestone unit="par" n="3"/> Statim Galli Senones ad Vrbem venerunt et, victos
+                        divisisset, damnatusque ob eam causam et expulsus civitate. <milestone
+                            unit="par" n="3"/> Statim Galli Senones ad Vrbem venerunt et, victos
                         Romanos undecimo miliario a Roma apud flumen Alliam secuti, etiam Vrbem
                         occupaverunt. Neque defendi quicquam nisi Capitolium potuit, quoad, cum diu
                         obsedissent et iam Romani fame laborarent, a Camillo, qui in vicina civitate
-                        exulabat, Gallis superventum est gravissimeque victi sunt. <milestone unit="par" n="4"/> Postea tamen etiam, accepto auro ne Capitolium
+                        exulabat, Gallis superventum est gravissimeque victi sunt. <milestone
+                            unit="par" n="4"/> Postea tamen etiam, accepto auro ne Capitolium
                         obsiderent, recesserunt, sed secutus eos Camillus ita cecidit, ut et aurum,
                         quod his datum fuerat, et omnia, quae ceperant, militaria signa revocaret.
                             <milestone unit="par" n="5"/> Ita tertio triumphans urbem ingressus est
@@ -342,7 +359,8 @@
                         <milestone unit="par" n="1"/> T. etiam Quintius Cincinnatus Praenestinos,
                         qui usque ad urbis Romae portas cum bello venerant, persecutus ad flumen
                         Alliam vicit, octo civitates, quae sub ipsis agebant, Romanis adiunxit,
-                        ipsam Praeneste adgressus in deditionem accepit. <milestone unit="par" n="2"/> Quae omnia ab eo gesta sunt viginti diebus triumphusque ipsi decretus.
+                        ipsam Praeneste adgressus in deditionem accepit. <milestone unit="par" n="2"
+                        /> Quae omnia ab eo gesta sunt viginti diebus triumphusque ipsi decretus.
                     </p>
                 </div>
                 <div type="cap" n="3">
@@ -360,7 +378,7 @@
                 </div>
                 <div type="cap" n="5">
                     <p>
-                  <milestone unit="par" n="1"/> T. Quintius dictator adversus Gallos, qui ad
+                        <milestone unit="par" n="1"/> T. Quintius dictator adversus Gallos, qui ad
                         Italiam venerant, missus est. Hi ab Vrbe quarto miliario trans Anienem
                         fluvium consederant. Ibi nobilissimus de senatoribus iuvenis L. Manlius
                         provocantem Gallum, ad singulare certamen progressus, occidit et, sublato
@@ -371,9 +389,9 @@
                 </div>
                 <div type="cap" n="6">
                     <p>
-                  <milestone unit="par" n="1"/> Census iterum habitus est. Et cum Latini, qui a
-                        Romanis subacti erant, milites praestare nollent, ex Romanis tantum tirones
-                        lecti sunt factaeque legiones decem, qui modus sexaginta vel amplius
+                        <milestone unit="par" n="1"/> Census iterum habitus est. Et cum Latini, qui
+                        a Romanis subacti erant, milites praestare nollent, ex Romanis tantum
+                        tirones lecti sunt factaeque legiones decem, qui modus sexaginta vel amplius
                         armatorum milia efficiebat. <milestone unit="par" n="2"/> Parvis adhuc
                         Romanis rebus tanta tamen in re militari virtus erat. Quae cum profectae
                         essent adversum Gallos duce L. Furio, quidam ex Gallis unum ex Romanis, qui
@@ -387,7 +405,7 @@
                 </div>
                 <div type="cap" n="7">
                     <p>
-                  <milestone unit="par" n="1"/> Latini, qui noluerant milites dare, hoc quoque
+                        <milestone unit="par" n="1"/> Latini, qui noluerant milites dare, hoc quoque
                         a Romanis exigere coeperunt, ut unus consul ex eorum, alter ex Romanorum
                         populo crearetur. <milestone unit="par" n="2"/> Quod cum esset negatum,
                         bellum contra eos susceptum est et ingenti pugna superati sunt ac de his
@@ -399,16 +417,18 @@
                     <p>
                         <milestone unit="par" n="1"/> Iam Romani potentes esse coeperunt. Bellum
                         enim in centesimo et tricesimo fere miliario ab Vrbe apud Samnitas
-                        gerebatur, qui medii sunt inter Picenum, Campaniam et Apuliam. <milestone unit="par" n="2"/> L. Papirius Cursor cum honore dictatoris ad id bellum
+                        gerebatur, qui medii sunt inter Picenum, Campaniam et Apuliam. <milestone
+                            unit="par" n="2"/> L. Papirius Cursor cum honore dictatoris ad id bellum
                         profectus est. Qui cum Romam redisset, Q. Fabio Maximo, magistro equitum,
-                        quem apud exercitum reliquit, praecepit, ne se absente pugnaret. <milestone unit="par" n="3"/> Ille, occasione reperta, felicissime dimicavit et
+                        quem apud exercitum reliquit, praecepit, ne se absente pugnaret. <milestone
+                            unit="par" n="3"/> Ille, occasione reperta, felicissime dimicavit et
                         Samnitas delevit. Ob quam rem a dictatore capitis damnatus, quod se vetante
                         pugnasset, ingenti favore militum et populi liberatus est, tanta Papirio
                         seditione commota, ut paene ipse interficeretur. </p>
                 </div>
                 <div type="cap" n="9">
                     <p>
-                  <milestone unit="par" n="1"/> Postea Samnites Romanos T. Veturio et Sp.
+                        <milestone unit="par" n="1"/> Postea Samnites Romanos T. Veturio et Sp.
                         Postumio consulibus ingenti dedecore vicerunt et sub iugum miserunt. Pax
                         tamen a senatu et populo soluta est, quae cum ipsis propter necessitatem
                         facta fuerat. Postea Samnites victi sunt a L. Papirio consule, septem milia
@@ -416,7 +436,8 @@
                         triumphavit. Eo tempore Ap. Claudius censor aquam Claudiam induxit et viam
                         Appiam stravit. Samnites reparato bello Q. Fabium Maximum vicerunt, tribus
                         milibus hominum occisis. Postea, cum pater ei Fabius Maximus legatus
-                        fuisset, et Samnitas vicit et plurima ipsorum oppida cepit. <milestone unit="par" n="3"/> Deinde P. Cornelius Rufinus M'. Curius Dentatus, ambo
+                        fuisset, et Samnitas vicit et plurima ipsorum oppida cepit. <milestone
+                            unit="par" n="3"/> Deinde P. Cornelius Rufinus M'. Curius Dentatus, ambo
                         consules, contra Samnitas missi ingentibus proeliis eos confecere.
                             <milestone unit="par" n="4"/> Tum bellum cum Samnitibus per annos
                         quadraginta novem actum sustulerunt. Neque ullus hostis fuit intra Italiam,
@@ -424,13 +445,13 @@
                 </div>
                 <div type="cap" n="10">
                     <p>
-                  <milestone unit="par" n="1"/> Interiectis aliquot annis iterum se Gallorum
+                        <milestone unit="par" n="1"/> Interiectis aliquot annis iterum se Gallorum
                         copiae contra Romanos Tuscis Samnitibusque iunxerunt, sed, cum Romam
                         tenderent, a Cn. Cornelio Dolabella consule deletae sunt. </p>
                 </div>
                 <div type="cap" n="11">
                     <p>
-                  <milestone unit="par" n="1"/> Eodem tempore Tarentinis, qui iam in ultima
+                        <milestone unit="par" n="1"/> Eodem tempore Tarentinis, qui iam in ultima
                         Italia sunt, bellum indictum est, quia legatis Romanorum iniuriam fecissent.
                         Hi Pyrrum, Epiri regem, contra Romanos auxilium poposcerunt, qui ex genere
                         Achillis originem trahebat. Is mox ad Italiam venit, tumque primum Romani
@@ -448,7 +469,7 @@
                 </div>
                 <div type="cap" n="12">
                     <p>
-                  <milestone unit="par" n="1"/> Postea Pyrrus, coniunctis sibi Samnitibus,
+                        <milestone unit="par" n="1"/> Postea Pyrrus, coniunctis sibi Samnitibus,
                         Lucanis, Brittiis, Romam perrexit, omnia ferro ignique vastavit, Campaniam
                         populatus est atque ad Praeneste venit, miliario ab Vrbe octavo decimo.
                             <milestone unit="par" n="2"/> Mox terrore exercitus, qui eum cum consule
@@ -464,7 +485,7 @@
                 </div>
                 <div type="cap" n="13">
                     <p>
-                  <milestone unit="par" n="1"/> Pax displicuit: remandatum Pyrro est a senatu
+                        <milestone unit="par" n="1"/> Pax displicuit: remandatum Pyrro est a senatu
                         eum cum Romanis, nisi ex Italia recessisset, pacem habere non posse.
                             <milestone unit="par" n="2"/> Tum Romani iusserunt captivos omnes, quos
                         Pyrrus reddiderat, infames haberi, quod armati capi potuissent, nec ante eos
@@ -480,7 +501,7 @@
                 </div>
                 <div type="cap" n="14">
                     <p>
-                  <milestone unit="par" n="1"/> Interiecto anno contra Pyrrum Fabricius est
+                        <milestone unit="par" n="1"/> Interiecto anno contra Pyrrum Fabricius est
                         missus, qui prius inter legatos sollicitari non poterat, quarta regni parte
                         promissa. <milestone unit="par" n="2"/> Tum, cum vicina castra ipse et rex
                         haberent, medicus Pyrri nocte ad eum venit, promittens veneno se Pyrrum
@@ -499,28 +520,28 @@
                 </div>
                 <div type="cap" n="15">
                     <p>
-                  <milestone unit="par" n="1"/> C. Fabio Licinio C. Claudio Canina consulibus,
+                        <milestone unit="par" n="1"/> C. Fabio Licinio C. Claudio Canina consulibus,
                         anno Vrbis conditae quadringentesimo sexagesimo primo, legati Alexandrini a
                         Ptolomaeo missi Romam venere et a Romanis amicitiam, quam petierant,
                         obtinuerunt. </p>
                 </div>
                 <div type="cap" n="16">
                     <p>
-                  <milestone unit="par" n="1"/> Q. Ogulnio C. Fabio Pictore consulibus Picentes
-                        bellum commovere et ab insequentibus consulibus P. Sempronio Ap. Claudio
-                        victi sunt et de his triumphatum est. Conditae a Romanis civitates Ariminus
-                        in Gallia et Beneventum in Samnio. </p>
+                        <milestone unit="par" n="1"/> Q. Ogulnio C. Fabio Pictore consulibus
+                        Picentes bellum commovere et ab insequentibus consulibus P. Sempronio Ap.
+                        Claudio victi sunt et de his triumphatum est. Conditae a Romanis civitates
+                        Ariminus in Gallia et Beneventum in Samnio. </p>
                 </div>
                 <div type="cap" n="17">
                     <p>
-                  <milestone unit="par" n="1"/> M. Atilio Regulo L. Iulio Libone consulibus
+                        <milestone unit="par" n="1"/> M. Atilio Regulo L. Iulio Libone consulibus
                         Sallentinis in Apulia bellum indictum est, captique sunt cum civitate simul
                         Brundisini, et de his triumphatum est. </p>
                 </div>
                 <div type="cap" n="18">
                     <p>
-                  <milestone unit="par" n="1"/> Anno quadringentesimo septuagesimo septimo, cum
-                        iam clarum urbis Romae nomen esset, arma tamen extra Italiam mota non
+                        <milestone unit="par" n="1"/> Anno quadringentesimo septuagesimo septimo,
+                        cum iam clarum urbis Romae nomen esset, arma tamen extra Italiam mota non
                         fuerant. <milestone unit="par" n="2"/> Vt igitur cognosceretur, quae copiae
                         Romanorum essent, census est habitus: inventa sunt civium capita ducenta
                         nonaginta duo milia trecenta triginta quattuor, quamquam a condita Vrbe
@@ -530,7 +551,7 @@
                 </div>
                 <div type="cap" n="19">
                     <p>
-                  <milestone unit="par" n="1"/> Insequenti anno Valerio Marco et Otacilio
+                        <milestone unit="par" n="1"/> Insequenti anno Valerio Marco et Otacilio
                             <supplied>Crasso</supplied> consulibus in Sicilia a Romanis res magnae
                         gestae sunt. Tauromenitani, Catinenses et praeterea quinquaginta civitates
                         in fidem acceptae. <milestone unit="par" n="2"/> Tertio anno in Sicilia
@@ -540,9 +561,10 @@
                 </div>
                 <div type="cap" n="20">
                     <p>
-                  <milestone unit="par" n="1"/> Quinto anno Punici belli, quod contra Afros
+                        <milestone unit="par" n="1"/> Quinto anno Punici belli, quod contra Afros
                         gerebatur, primum Romani C. Duillio et Cn. Cornelio Asina consulibus in mari
-                        dimicaverunt, paratis navibus rostratis, quas Liburnas vocant. <milestone unit="par" n="2"/> Consul Cornelius fraude deceptus est. Duillius
+                        dimicaverunt, paratis navibus rostratis, quas Liburnas vocant. <milestone
+                            unit="par" n="2"/> Consul Cornelius fraude deceptus est. Duillius
                         commisso proelio Carthaginiensium ducem vicit, triginta et unam naves cepit,
                         quattuordecim mersit, septem milia hostium cepit, tria milia occidit. Neque
                         ulla victoria Romanis gratior fuit, quod invicti terra iam etiam mari
@@ -552,10 +574,11 @@
                 </div>
                 <div type="cap" n="21">
                     <p>
-                  <milestone unit="par" n="1"/> L. Manlio Vulsone M. Atilio Regulo consulibus
+                        <milestone unit="par" n="1"/> L. Manlio Vulsone M. Atilio Regulo consulibus
                         bellum in Africam translatum est. Contra Hamilcarem, Carthaginiensium ducem,
                         in mari pugnatum victusque est. Nam perditis sexaginta quattuor navibus
-                        retro se recepit. Romani viginti duas amiserunt. <milestone unit="par" n="2"/> Sed, cum in Africam transissent, primam Clypeam, Africae civitatem, in
+                        retro se recepit. Romani viginti duas amiserunt. <milestone unit="par" n="2"
+                        /> Sed, cum in Africam transissent, primam Clypeam, Africae civitatem, in
                         deditionem acceperunt. Consules usque ad Carthaginem processerunt multisque
                         vastatis Manlius victor Romam rediit et viginti septem milia captivorum
                         reduxit, Atilius Regulus in Africa remansit. Is contra Afros aciem
@@ -572,7 +595,7 @@
                 </div>
                 <div type="cap" n="22">
                     <p>
-                  <milestone unit="par" n="1"/> M. Aemilio Paulo Ser. Fulvio Nobiliore
+                        <milestone unit="par" n="1"/> M. Aemilio Paulo Ser. Fulvio Nobiliore
                         consulibus ambo Romani consules ad Africam profecti sunt cum trecentarum
                         navium classe. <milestone unit="par" n="2"/> Primum Afros navali certamine
                         superant. Aemilius consul centum et quattuor naves hostium demersit,
@@ -587,7 +610,7 @@
                 </div>
                 <div type="cap" n="23">
                     <p>
-                  <milestone unit="par" n="1"/> Cn. Servilius Caepio C. Sempronius Blaesus
+                        <milestone unit="par" n="1"/> Cn. Servilius Caepio C. Sempronius Blaesus
                         consules cum ducentis sexaginta navibus ad Africam profecti sunt. Aliquot
                         civitates ceperunt. <milestone unit="par" n="2"/> Praedam ingentem
                         reducentes naufragium passi sunt. Itaque, cum continuae calamitates Romanis
@@ -596,19 +619,19 @@
                 </div>
                 <div type="cap" n="24">
                     <p>
-                  <milestone unit="par" n="1"/> L. Caecilio Metello C. Furio Placido consulibus
-                        Metellus in Sicilia Afrorum ducem cum centum triginta elephantis et magnis
-                        copiis venientem superavit, viginti milia hostium cecidit, sex et viginti
-                        elephantos cepit, reliquos errantes per Numidas, quos in auxilium habebat,
-                        collegit et Romam deduxit ingenti pompa, cum CXXX elephantorum numerus omnia
-                        itinera compleret. <milestone unit="par" n="2"/> Post haec mala
-                        Carthaginienses Regulum ducem, quem ceperant, petiverunt, ut Romam
+                        <milestone unit="par" n="1"/> L. Caecilio Metello C. Furio Placido
+                        consulibus Metellus in Sicilia Afrorum ducem cum centum triginta elephantis
+                        et magnis copiis venientem superavit, viginti milia hostium cecidit, sex et
+                        viginti elephantos cepit, reliquos errantes per Numidas, quos in auxilium
+                        habebat, collegit et Romam deduxit ingenti pompa, cum CXXX elephantorum
+                        numerus omnia itinera compleret. <milestone unit="par" n="2"/> Post haec
+                        mala Carthaginienses Regulum ducem, quem ceperant, petiverunt, ut Romam
                         proficisceretur et pacem a Romanis obtineret ac permutationem captivorum
                         faceret. </p>
                 </div>
                 <div type="cap" n="25">
                     <p>
-                  <milestone unit="par" n="1"/> Ille, Romam cum venisset, inductus in senatum
+                        <milestone unit="par" n="1"/> Ille, Romam cum venisset, inductus in senatum
                         nihil quasi Romanus egit dixitque se ex illa die, qua in potestatem Afrorum
                         venisset, Romanum esse desisse. <milestone unit="par" n="2"/> Itaque et
                         uxorem a complexu removit et senatui suasit, ne pax cum Poenis fieret; illos
@@ -622,22 +645,23 @@
                 </div>
                 <div type="cap" n="26">
                     <p>
-                  <milestone unit="par" n="1"/> P. Claudio Pulchro L. Iunio consulibus Claudius
-                        contra auspicia pugnavit et a Carthaginiensibus victus est. Nam ex ducentis
-                        et viginti navibus cum triginta fugit, nonaginta cum pugnatoribus captae
-                        sunt, demersae ceterae. <milestone unit="par" n="2"/> Alius quoque consul
-                        naufragio classem amisit, exercitum tamen salvum habuit, quia vicina litora
-                        erant. </p>
+                        <milestone unit="par" n="1"/> P. Claudio Pulchro L. Iunio consulibus
+                        Claudius contra auspicia pugnavit et a Carthaginiensibus victus est. Nam ex
+                        ducentis et viginti navibus cum triginta fugit, nonaginta cum pugnatoribus
+                        captae sunt, demersae ceterae. <milestone unit="par" n="2"/> Alius quoque
+                        consul naufragio classem amisit, exercitum tamen salvum habuit, quia vicina
+                        litora erant. </p>
                 </div>
                 <div type="cap" n="27">
                     <p>
-                  <milestone unit="par" n="1"/> C. Lutatio Catulo A. Postumio Albino
+                        <milestone unit="par" n="1"/> C. Lutatio Catulo A. Postumio Albino
                         consulibus, anno belli Punici vicesimo et tertio a Catulo bellum contra
                         Afros commissum est. Profectus est cum trecentis navibus in Siciliam; Afri
                         contra ipsum quadringentas paraverunt. <milestone unit="par" n="2"/> Numquam
                         in mari tantis copiis pugnatum est. Lutatius Catulus navem aeger ascendit;
                         vulneratus enim in pugna superiore fuerat. contra Lilybaeum, civitatem
-                        Siciliae, pugnatum est ingenti virtute Romanorum. <milestone unit="par" n="3"/> Nam LXIII Carthaginiensium naves captae sunt, CXXV demersae,
+                        Siciliae, pugnatum est ingenti virtute Romanorum. <milestone unit="par"
+                            n="3"/> Nam LXIII Carthaginiensium naves captae sunt, CXXV demersae,
                         XXXII milia hostium capta, XIII milia occisa, infinitum auri, argenti,
                         praedae in potestatem Romanorum redactum. Ex classe Romana XII naves
                         demersae. Pugnatum est VI Idus Martias. Statim pacem Carthaginienses
@@ -651,7 +675,7 @@
                 </div>
                 <div type="cap" n="28">
                     <p>
-                  <milestone unit="par" n="1"/> Q. Lutatius A. Manlius consules creati sunt;
+                        <milestone unit="par" n="1"/> Q. Lutatius A. Manlius consules creati sunt;
                         bellum Faliscis intulerunt, quae civitas Italiae opulenta quondam fuit. Quod
                         ambo consules intra sex dies, quam venerant, transegerunt, XV milibus
                         hostium caesis, ceteris pace concessa, agro tamen ex medietate sublato. </p>
@@ -662,7 +686,7 @@
                 <lb/>
                 <div type="cap" n="1">
                     <p>
-                  <milestone unit="par" n="1"/> Finito igitur Punico bello, quod per XXIII
+                        <milestone unit="par" n="1"/> Finito igitur Punico bello, quod per XXIII
                         annos tractum est, Romani iam clarissima gloria noti legatos ad Ptolomaeum,
                         Aegypti regem, miserunt auxilia promittentes, quia rex Syriae Antiochus ei
                         bellum intulerat. Ille gratias Romanis egit, auxilia a Romanis non accepit.
@@ -673,7 +697,7 @@
                 </div>
                 <div type="cap" n="2">
                     <p>
-                  <milestone unit="par" n="1"/> L. Cornelio Lentulo Fulvio Flacco consulibus,
+                        <milestone unit="par" n="1"/> L. Cornelio Lentulo Fulvio Flacco consulibus,
                         quibus Hiero Romam venerat, etiam contra Ligures intra Italiam bellum gestum
                         est et de his triumphatum. Carthaginienses tamen bellum reparare temptabant,
                         Sardinienses, qui ex condicione pacis Romanis parere debebant, ad
@@ -683,7 +707,7 @@
                 </div>
                 <div type="cap" n="3">
                     <p>
-                  <milestone unit="par" n="1"/> T. Manlio Torquato C. Atilio Bulco consulibus
+                        <milestone unit="par" n="1"/> T. Manlio Torquato C. Atilio Bulco consulibus
                         de Sardis triumphatum est et pace omnibus locis facta Romani nullum bellum
                         habuerunt, quod his post Romam conditam semel tantum, Numa Pompilio
                         regnante, contigerat. </p>
@@ -691,7 +715,7 @@
                 </div>
                 <div type="cap" n="4">
                     <p>
-                  <milestone unit="par" n="1"/> L. Postumius Albinus Cn. Fulvius Centumalus
+                        <milestone unit="par" n="1"/> L. Postumius Albinus Cn. Fulvius Centumalus
                         consules bellum contra Illyrios gesserunt et, multis civitatibus captis,
                         etiam reges in deditionem acceperunt. Ac tum primum ex Illyriis triumphatum
                         est. </p>
@@ -699,7 +723,7 @@
                 </div>
                 <div type="cap" n="5">
                     <p>
-                  <milestone unit="par" n="1"/> L. Aemilio consule ingentes Gallorum copiae
+                        <milestone unit="par" n="1"/> L. Aemilio consule ingentes Gallorum copiae
                         Alpes transierunt. Sed pro Romanis tota Italia consensit traditumque est a
                         Fabio historico, qui ei bello interfuit, DCCC milia hominum parata ad id
                         bellum fuisse. Sed res per consulem tantum prospere gesta est. XL milia
@@ -708,17 +732,18 @@
                 </div>
                 <div type="cap" n="6">
                     <p>
-                  <milestone unit="par" n="1"/> Aliquot deinde annis post contra Gallos intra
+                        <milestone unit="par" n="1"/> Aliquot deinde annis post contra Gallos intra
                         Italiam pugnatum est finitumque bellum M. Claudio Marcello et Cn. Cornelio
                         Scipione consulibus. Tum Marcellus cum parva manu equitum dimicavit et regem
-                        Gallorum, Viridomarum nomine, manu sua occidit. <milestone unit="par" n="2"/> Postea cum collega ingentes copias Gallorum peremit, Mediolanum
+                        Gallorum, Viridomarum nomine, manu sua occidit. <milestone unit="par" n="2"
+                        /> Postea cum collega ingentes copias Gallorum peremit, Mediolanum
                         expugnavit, grandem praedam Romam pertulit. Ac triumphans Marcellus spolia
                         Galli stipiti inposita umeris suis vexit. </p>
                     <lb/>
                 </div>
                 <div type="cap" n="7">
                     <p>
-                  <milestone unit="par" n="1"/> M. Minucio Rufo P. Cornelio consulibus Histris
+                        <milestone unit="par" n="1"/> M. Minucio Rufo P. Cornelio consulibus Histris
                         bellum inlatum est, quia latrocinati navibus Romanorum fuerant, quae
                         frumenta exhibebant, perdomitique sunt omnes. <milestone unit="par" n="2"/>
                         Eodem anno bellum Punicum secundum Romanis inlatum est per Hannibalem,
@@ -734,7 +759,7 @@
                 </div>
                 <div type="cap" n="8">
                     <p>
-                  <milestone unit="par" n="1"/> Tum P. Cornelius Scipio cum exercitu in
+                        <milestone unit="par" n="1"/> Tum P. Cornelius Scipio cum exercitu in
                         Hispaniam profectus est, Ti. Sempronius in Siciliam. Bellum
                         Carthaginiensibus indictum est. <milestone unit="par" n="2"/> Hannibal,
                         relicto in Hispania fratre Hasdrubale, Pyrenaeum transiit. Alpes, adhuc tum
@@ -746,7 +771,7 @@
                 </div>
                 <div type="cap" n="9">
                     <p>
-                  <milestone unit="par" n="1"/> P. Cornelius Scipio Hannibali primus occurrit.
+                        <milestone unit="par" n="1"/> P. Cornelius Scipio Hannibali primus occurrit.
                         Commisso proelio fugatis suis ipse vulneratus in castra rediit. Sempronius
                         Gracchus et ipse confligit apud Trebiam amnem. Is quoque vincitur. Hannibali
                         multi se in Italia dediderunt. <milestone unit="par" n="2"/> Inde ad Tusciam
@@ -758,7 +783,7 @@
                 </div>
                 <div type="cap" n="10">
                     <p>
-                  <milestone unit="par" n="1"/> Quingentesimo et quadragesimo anno a condita
+                        <milestone unit="par" n="1"/> Quingentesimo et quadragesimo anno a condita
                         Vrbe L. Aemilius Paulus P. Terentius Varro contra Hannibalem mittuntur
                         Fabioque succedunt, qui Fabius ambo consules monuit, ut Hannibalem, callidum
                         et inpatientem ducem, non aliter vincerent, quam proelium differendo.
@@ -776,12 +801,13 @@
                 </div>
                 <div type="cap" n="11">
                     <p>
-                  <milestone unit="par" n="1"/> Post eam pugnam multae Italiae civitates, quae
+                        <milestone unit="par" n="1"/> Post eam pugnam multae Italiae civitates, quae
                         Romanis paruerant, se ad Hannibalem transtulerunt. Hannibal Romanis obtulit,
                         ut captivos redimerent, responsumque est a senatu eos cives non necessarios,
                         qui, cum armati essent, capi potuissent. Ille omnes postea variis suppliciis
                         interfecit et tres modios anulorum aureorum Carthaginem misit, quos ex
-                        manibus equitum Romanorum, senatorum et militum detraxerat. <milestone unit="par" n="2"/> Interea in Hispania, ubi frater Hannibalis Hasdrubal
+                        manibus equitum Romanorum, senatorum et militum detraxerat. <milestone
+                            unit="par" n="2"/> Interea in Hispania, ubi frater Hannibalis Hasdrubal
                         remanserat cum magno exercitu, ut eam totam Afris subigeret, a duobus
                         Scipionibus, Romanis ducibus, vincitur. Perdit in pugna XXXV milia hominum;
                         ex his capiuntur X milia, occiduntur XXV milia, mittuntur ei a
@@ -791,8 +817,8 @@
                 </div>
                 <div type="cap" n="12">
                     <p>
-                  <milestone unit="par" n="1"/> Anno quarto postquam ad Italiam Hannibal venit,
-                        M. Claudius Marcellus consul apud Nolam, civitatem Campaniae, contra
+                        <milestone unit="par" n="1"/> Anno quarto postquam ad Italiam Hannibal
+                        venit, M. Claudius Marcellus consul apud Nolam, civitatem Campaniae, contra
                         Hannibalem bene pugnavit. Hannibal multas civitates Romanorum per Apuliam,
                         Calabriam, Brittios occupavit. <milestone unit="par" n="2"/> Quo tempore
                         etiam rex Macedoniae Philippus ad eum legatos misit, promittens auxilia
@@ -805,7 +831,7 @@
                 </div>
                 <div type="cap" n="13">
                     <p>
-                  <milestone unit="par" n="1"/> Ita uno tempore quattuor locis pugnabatur: in
+                        <milestone unit="par" n="1"/> Ita uno tempore quattuor locis pugnabatur: in
                         Italia contra Hannibalem, in Hispaniis contra fratrem eius Hasdrubalem, in
                         Macedonia contra Philippum, in Sardinia contra Sardos et alterum Hasdrubalem
                         Carthaginiensem. <milestone unit="par" n="2"/> Is a T. Manlio proconsule,
@@ -818,12 +844,14 @@
                 </div>
                 <div type="cap" n="14">
                     <p>
-                  <milestone unit="par" n="1"/> Decimo anno postquam Hannibal in Italiam
+                        <milestone unit="par" n="1"/> Decimo anno postquam Hannibal in Italiam
                         venerat, P. Sulpicio Cn. Fulvio consulibus, Hannibal usque ad quartum
                         miliarium Vrbis accessit, equites eius usque ad portam. Mox consulum cum
-                        exercitu venientium metu Hannibal ad Campaniam se recepit. <milestone unit="par" n="2"/> In Hispania a fratre Hasdrubale ambo Scipiones, qui
+                        exercitu venientium metu Hannibal ad Campaniam se recepit. <milestone
+                            unit="par" n="2"/> In Hispania a fratre Hasdrubale ambo Scipiones, qui
                         per multos annos victores fuerant, interficiuntur, exercitus tamen integer
-                        mansit; casu enim magis erant quam virtute decepti. <milestone unit="par" n="3"/> Quo tempore etiam a consule Marcello Siciliae magna pars capta
+                        mansit; casu enim magis erant quam virtute decepti. <milestone unit="par"
+                            n="3"/> Quo tempore etiam a consule Marcello Siciliae magna pars capta
                         est, quam tenere Afri coeperant, et nobilissima urbs Syracusana praeda
                         ingens Romam perlata est. <milestone unit="par" n="4"/> Laevinus in
                         Macedonia cum Philippo et multis Graeciae populis et rege Asiae Attalo
@@ -837,10 +865,11 @@
                 </div>
                 <div type="cap" n="15">
                     <p>
-                  <milestone unit="par" n="1"/> Interea ad Hispanias, ubi occisis duobus
+                        <milestone unit="par" n="1"/> Interea ad Hispanias, ubi occisis duobus
                         Scipionibus nullus Romanus dux erat, P. Cornelius Scipio mittitur, filius P.
                         Scipionis, qui ibidem bellum gesserat, annos natus quattuor et viginti, vir
-                        Romanorum omnium et sua aetate et posteriore tempore fere primus. <milestone unit="par" n="2"/> Is Carthaginem Hispaniae capit, in qua omne aurum,
+                        Romanorum omnium et sua aetate et posteriore tempore fere primus. <milestone
+                            unit="par" n="2"/> Is Carthaginem Hispaniae capit, in qua omne aurum,
                         argentum et belli apparatum Afri habebant, nobilissimos quoque obsides, quos
                         ab Hispanis acceperant. <milestone unit="par" n="3"/> Magonem etiam, fratrem
                         Hannibalis, ibidem capit, quem Romam cum aliis mittit. Romae ingens laetitia
@@ -851,7 +880,7 @@
                 </div>
                 <div type="cap" n="16">
                     <p>
-                  <milestone unit="par" n="1"/> Interea in Italia consul Q. Fabius Maximus
+                        <milestone unit="par" n="1"/> Interea in Italia consul Q. Fabius Maximus
                         Tarentum recepit, in qua ingentes copiae Hannibalis erant. Ibi etiam ducem
                         Hannibalis Carthalonem occidit, XXV milia hominum captivorum vendidit,
                         praedam militibus dispertivit, pecuniam hominum venditorum ad fiscum
@@ -864,7 +893,7 @@
                 </div>
                 <div type="cap" n="17">
                     <p>
-                  <milestone unit="par" n="1"/> Tertio anno postquam Scipio ad Hispanias
+                        <milestone unit="par" n="1"/> Tertio anno postquam Scipio ad Hispanias
                         profectus fuerat, rursus res inclitas gerit. Regem Hispaniarum, magno
                         proelio victum, in amicitiam accepit et primus omnium a victo obsides non
                         poposcit. </p>
@@ -872,52 +901,57 @@
                 </div>
                 <div type="cap" n="18">
                     <p>
-                  <milestone unit="par" n="1"/> Desperans Hannibal Hispanias contra Scipionem
+                        <milestone unit="par" n="1"/> Desperans Hannibal Hispanias contra Scipionem
                         diutius posse retinere, fratrem suum Hasdrubalem ad Italiam cum omnibus
                         copiis evocavit. <milestone unit="par" n="2"/> Is veniens eodem itinere, quo
                         etiam Hannibal venerat, a consulibus Ap. Claudio Nerone et M. Livio
                         Salinatore apud Senam, Piceni civitatem, in insidias conpositas incidit.
                         Strenue tamen pugnans occisus est; ingentes eius copiae captae aut
-                        interfectae sunt, magnum pondus auri atque argenti Romam relatum. <milestone unit="par" n="3"/> Post haec Hannibal diffidere iam de belli coepit
+                        interfectae sunt, magnum pondus auri atque argenti Romam relatum. <milestone
+                            unit="par" n="3"/> Post haec Hannibal diffidere iam de belli coepit
                         eventu. Romanis ingens animus accessit; itaque et ipsi evocaverunt ex
                         Hispania P. Cornelium Scipionem. Is Romam cum ingenti gloria venit. </p>
                     <lb/>
                 </div>
                 <div type="cap" n="19">
                     <p>
-                  <milestone unit="par" n="1"/> Q. Caecilio L. Valerio consulibus omnes
+                        <milestone unit="par" n="1"/> Q. Caecilio L. Valerio consulibus omnes
                         civitates, quae in Brittiis ab Hannibale tenebantur, Romanis se tradiderunt. </p>
                     <lb/>
                 </div>
                 <div type="cap" n="20">
                     <p>
-                  <milestone unit="par" n="1"/> Anno quarto decimo posteaquam in Italiam
+                        <milestone unit="par" n="1"/> Anno quarto decimo posteaquam in Italiam
                         Hannibal venerat, Scipio, qui multa in Hispania bene egerat, consul est
                         factus et in Africam missus. Cui viro divinum quiddam inesse existimabatur,
-                        adeo ut putaretur etiam cum numinibus habere sermonem. <milestone unit="par" n="2"/> Is in Africa contra Hannonem, ducem Afrorum, pugnat; exercitum
+                        adeo ut putaretur etiam cum numinibus habere sermonem. <milestone unit="par"
+                            n="2"/> Is in Africa contra Hannonem, ducem Afrorum, pugnat; exercitum
                         eius interficit. Secundo proelio castra capit cum quattuor milibus et
                         quingentis militibus, XI milibus occisis. Syphacem, Numidiae regem, qui se
                         Afris coniunxerat, capit et castra eius invadit. Syphax cum nobilissimis
-                        Numidis et infinitis spoliis Romam a Scipione mittitur. <milestone unit="par" n="3"/> Qua re audita omnis fere Italia Hannibalem deserit.
+                        Numidis et infinitis spoliis Romam a Scipione mittitur. <milestone
+                            unit="par" n="3"/> Qua re audita omnis fere Italia Hannibalem deserit.
                         Ipse a Carthaginiensibus redire in Africam iubetur, quam Scipio vastabat. </p>
                     <lb/>
                 </div>
                 <div type="cap" n="21">
                     <p>
-                  <milestone unit="par" n="1"/> Ita anno septimo decimo ab Hannibale Italia
+                        <milestone unit="par" n="1"/> Ita anno septimo decimo ab Hannibale Italia
                         liberata est. Legati Carthaginiensium pacem a Scipione petiverunt; ab eo ad
                         senatum Romam missi sunt. <milestone unit="par" n="2"/> Quadraginta et
                         quinque diebus his indutiae datae sunt, quousque ire Romam et regredi
                         possent, et triginta milia pondo argenti ab his accepta sunt. Senatus ex
-                        arbitrio Scipionis pacem iussit cum Carthaginiensibus fieri. <milestone unit="par" n="3"/> Scipio his condicionibus dedit: ne amplius quam
+                        arbitrio Scipionis pacem iussit cum Carthaginiensibus fieri. <milestone
+                            unit="par" n="3"/> Scipio his condicionibus dedit: ne amplius quam
                         triginta naves haberent, ut quingenta milia pondo argenti darent, captivos
                         et perfugas redderent. </p>
                     <lb/>
                 </div>
                 <div type="cap" n="22">
                     <p>
-                  <milestone unit="par" n="1"/> Interim Hannibale veniente ad Africam pax
-                        turbata est, multa hostilia ab Afris facta sunt. <milestone unit="par" n="2"/> Legati tamen eorum ex urbe venientes a Romanis capti sunt et iubente
+                        <milestone unit="par" n="1"/> Interim Hannibale veniente ad Africam pax
+                        turbata est, multa hostilia ab Afris facta sunt. <milestone unit="par" n="2"
+                        /> Legati tamen eorum ex urbe venientes a Romanis capti sunt et iubente
                         Scipione dimissi. Hannibal quoque, frequentibus proeliis ictus, a Scipione
                         petit etiam ipse pacem. Cum ventum esset ad colloquium, isdem condicionibus
                         data est, quibus prius, additis quingentis milibus pondo argenti centum
@@ -932,7 +966,7 @@
                 </div>
                 <div type="cap" n="23">
                     <p>
-                  <milestone unit="par" n="1"/> Interea proelium ab utroque duce instructum
+                        <milestone unit="par" n="1"/> Interea proelium ab utroque duce instructum
                         est, quale vix ulla memoria fuit, cum peritissimi viri copias suas ad bellum
                         educerent. Scipio victor recedit, paene ipso Hannibale capto, qui primum cum
                         multis equitibus, deinde cum viginti, postremo cum quattuor evasit.
@@ -949,14 +983,14 @@
                 <lb/>
                 <div type="cap" n="1">
                     <p>
-                  <milestone unit="par" n="1"/> Transacto Punico bello secutum est Macedonicum
+                        <milestone unit="par" n="1"/> Transacto Punico bello secutum est Macedonicum
                         contra Philippum regem quingentesimo quinquagesimo et primo anno ab Vrbe
                         condita. </p>
                     <lb/>
                 </div>
                 <div type="cap" n="2">
                     <p>
-                  <milestone unit="par" n="1"/> T. Quintius Flamininus adversum Philippum rem
+                        <milestone unit="par" n="1"/> T. Quintius Flamininus adversum Philippum rem
                         prospere gessit. Pax ei data est his legibus: ne Graeciae civitatibus, quas
                         Romani contra eum defenderant, bellum inferret, ut captivos et transfugas
                         redderet, quinquaginta solas naves haberet, reliquas Romanis dederet, per
@@ -969,18 +1003,18 @@
                 </div>
                 <div type="cap" n="3">
                     <p>
-                  <milestone unit="par" n="1"/> Transacto bello Macedonico secutum est Syriacum
-                        contra Antiochum regem P. Cornelio Scipione M'. Acilio Glabrione consulibus.
-                            <milestone unit="par" n="2"/> Huic Antiocho Hannibal se iunxerat,
-                        Carthaginem, patriam suam, metu, ne Romanis traderetur, relinquens. M'.
-                        Acilius Glabrio in Achaia bene pugnavit. Castra regis Antiochi nocturna
-                        pugna capta sunt, ipse fugatus. Philippo, quia contra Antiochum Romanis
-                        fuisset auxilio, filius Demetrius redditus est.</p>
+                        <milestone unit="par" n="1"/> Transacto bello Macedonico secutum est
+                        Syriacum contra Antiochum regem P. Cornelio Scipione M'. Acilio Glabrione
+                        consulibus. <milestone unit="par" n="2"/> Huic Antiocho Hannibal se
+                        iunxerat, Carthaginem, patriam suam, metu, ne Romanis traderetur,
+                        relinquens. M'. Acilius Glabrio in Achaia bene pugnavit. Castra regis
+                        Antiochi nocturna pugna capta sunt, ipse fugatus. Philippo, quia contra
+                        Antiochum Romanis fuisset auxilio, filius Demetrius redditus est.</p>
                     <lb/>
                 </div>
                 <div type="cap" n="4">
                     <p>
-                  <milestone unit="par" n="1"/> L. Cornelio Scipione et C. Laelio consulibus
+                        <milestone unit="par" n="1"/> L. Cornelio Scipione et C. Laelio consulibus
                         Scipio Africanus fratri suo L. Cornelio Scipioni consuli legatus contra
                         Antiochum profectus est. Hannibal, qui cum Antiocho erat, navali proelio
                         victus est. <milestone unit="par" n="2"/> Ipse postea Antiochus circa
@@ -1002,7 +1036,7 @@
                 </div>
                 <div type="cap" n="5">
                     <p>
-                  <milestone unit="par" n="1"/> Sp. Postumio Albino Q. Marcio Philippo
+                        <milestone unit="par" n="1"/> Sp. Postumio Albino Q. Marcio Philippo
                         consulibus M. Fulvius de Aetolis triumphavit. <milestone unit="par" n="2"/>
                         Hannibal, qui victo Antiocho, ne Romanis traderetur ad Prusiam, Bithyniae
                         regem, fugerat, repetitus etiam ab eo est per T. Quintium Flamininum et, cum
@@ -1012,14 +1046,15 @@
                 </div>
                 <div type="cap" n="6">
                     <p>
-                  <milestone unit="par" n="1"/> Philippo, rege Macedoniae, mortuo, qui et
+                        <milestone unit="par" n="1"/> Philippo, rege Macedoniae, mortuo, qui et
                         adversum Romanos bellum gesserat et postea Romanis contra Antiochum auxilium
                         tulerat, filius eius Perseus in Macedonia rebellavit, ingentibus copiis ad
                         bellum paratis. <milestone unit="par" n="2"/> Nam adiutores habebat Cotyn,
                         Thraciae regem, et regem Illyrici Gentium nomine. Romanis autem in auxilio
                         erant Eumenes, Asiae rex, Ariaratus Cappadociae, Antiochus Syriae,
                         Ptolomaeus Aegypti, Masinissa Numidiae. Prusias autem Bithyniae, quamquam
-                        sororem Persei uxorem haberet, utrisque se aequum praebuit. <milestone unit="par" n="3"/> Dux Romanorum P. Licinius consul contra eum missus
+                        sororem Persei uxorem haberet, utrisque se aequum praebuit. <milestone
+                            unit="par" n="3"/> Dux Romanorum P. Licinius consul contra eum missus
                         est et a rege gravi proelio victus. Neque tamen Romani, quamquam superati,
                         regi petenti pacem praestare voluerunt nisi his condicionibus: ut se et suos
                         senatui et populo Romano dederet. <milestone unit="par" n="4"/> Mox missus
@@ -1032,11 +1067,12 @@
                 </div>
                 <div type="cap" n="7">
                     <p>
-                  <milestone unit="par" n="1"/> Cum Perseo autem Aemilius Paulus consul III
+                        <milestone unit="par" n="1"/> Cum Perseo autem Aemilius Paulus consul III
                         Nonas Septembres dimicavit vicitque eum, viginti milibus peditum eius
                         occisis. Equitatus cum rege integer fugit. Romanorum centum milites amissi
                         sunt. Vrbes Macedoniae omnes, quas rex tenuerat, Romanis se dediderunt; ipse
-                        rex, cum desereretur ab amicis, venit in Pauli potestatem. <milestone unit="par" n="2"/> Sed honorem ei Aemilius Paulus consul non quasi victo
+                        rex, cum desereretur ab amicis, venit in Pauli potestatem. <milestone
+                            unit="par" n="2"/> Sed honorem ei Aemilius Paulus consul non quasi victo
                         habuit. Nam et volentem ad pedes sibi cadere non permisit et iuxta se in
                         sella conlocavit. <milestone unit="par" n="3"/> Macedonibus et Illyriis hae
                         leges a Romanis datae ut liberi essent et dimidium eorum tributorum
@@ -1049,7 +1085,7 @@
                 </div>
                 <div type="cap" n="8">
                     <p>
-                  <milestone unit="par" n="1"/> Mox septuaginta civitates Epiri, quae
+                        <milestone unit="par" n="1"/> Mox septuaginta civitates Epiri, quae
                         rebellabant cepit, praedam militibus distribuit. Romam ingenti pompa rediit
                         in navi Persei, quae inusitatae magnitudinis fuisse traditur, adeo ut
                         sedecim ordines dicatur habuisse remorum. Triumphavit autem
@@ -1065,18 +1101,19 @@
                 </div>
                 <div type="cap" n="9">
                     <p>
-                  <milestone unit="par" n="1"/> Insequenti anno L. Memmius in Lusitania bene
+                        <milestone unit="par" n="1"/> Insequenti anno L. Memmius in Lusitania bene
                         pugnavit. Marcellus postea consul res ibidem prosperas gessit.</p>
                     <lb/>
                 </div>
                 <div type="cap" n="10">
                     <p>
-                  <milestone unit="par" n="1"/> Tertium deinde bellum contra Carthaginem
+                        <milestone unit="par" n="1"/> Tertium deinde bellum contra Carthaginem
                         suscipitur, sexcentesimo et altero ab Vrbe condita anno, L. Manlio Censorino
                         et M'. Manilio consulibus, anno quinquagesimo primo postquam secundum
                         Punicum transactum erat. <milestone unit="par" n="2"/> Hi profecti
                         Carthaginem oppugnaverunt. Contra eos Hasdrubal, dux Carthaginiensium,
-                        dimicabat. Famea, dux alius, equitatui Carthaginiensium praeerat. <milestone unit="par" n="3"/> Scipio tum, Scipionis Africani nepos, tribunus ibi
+                        dimicabat. Famea, dux alius, equitatui Carthaginiensium praeerat. <milestone
+                            unit="par" n="3"/> Scipio tum, Scipionis Africani nepos, tribunus ibi
                         militabat. Huius apud omnes ingens metus et reverentia erat. Nam et
                         paratissimus ad dimicandum et consultissimus habebatur. Itaque per eum multa
                         a consulibus prospere gesta sunt, neque quicquam magis vel Hasdrubal vel
@@ -1086,7 +1123,7 @@
                 </div>
                 <div type="cap" n="11">
                     <p>
-                  <milestone unit="par" n="1"/> Per idem tempus Masinissa, rex Numidarum, per
+                        <milestone unit="par" n="1"/> Per idem tempus Masinissa, rex Numidarum, per
                         annos sexaginta fere amicus populi Romani, anno vitae nonagesimo septimo
                         mortuus, quadraginta et quattuor filiis relictis, Scipionem divisorem regni
                         inter filios suos esse iussit.</p>
@@ -1094,7 +1131,7 @@
                 </div>
                 <div type="cap" n="12">
                     <p>
-                  <milestone unit="par" n="1"/> Cum igitur clarum Scipionis nomen esset,
+                        <milestone unit="par" n="1"/> Cum igitur clarum Scipionis nomen esset,
                         iuvenis adhuc consul est factus et contra Carthaginem missus. Is eam cepit
                         ac diruit. Spolia ibi inventa, quae variarum civitatum excidiis Carthago
                         collegerat, et ornamenta urbium civitatibus Siciliae, Italiae, Africae
@@ -1106,7 +1143,7 @@
                 </div>
                 <div type="cap" n="13">
                     <p>
-                  <milestone unit="par" n="1"/> Interim in Macedonia quidam Pseudophilippus
+                        <milestone unit="par" n="1"/> Interim in Macedonia quidam Pseudophilippus
                         arma movit et Romanum praetorem P. Iuventium, contra se missum, ad
                         internicionem vicit. Post eum Q. Caecilius Metellus dux a Romanis contra
                         Pseudophilippum missus est et XXV milibus eius occisis Macedoniam recepit,
@@ -1115,7 +1152,7 @@
                 </div>
                 <div type="cap" n="14">
                     <p>
-                  <milestone unit="par" n="1"/> Corinthiis quoque bellum indictum est,
+                        <milestone unit="par" n="1"/> Corinthiis quoque bellum indictum est,
                         nobilissimae Graeciae civitati, propter iniuriam legatorum Romanorum. Hanc
                         Mummius consul cepit et diruit. <milestone unit="par" n="2"/> Tres igitur
                         Romae simul celeberrimi triumphi fuerunt: Africani ex Africa, ante cuius
@@ -1127,14 +1164,14 @@
                 </div>
                 <div type="cap" n="15">
                     <p>
-                  <milestone unit="par" n="1"/> Iterum in Macedonia Pseudoperses, qui se Persei
-                        filium esse dicebat, collectis servitiis rebellavit et, cum sedecim milia
-                        armatorum haberet, a Tremellio quaestore superatus est.</p>
+                        <milestone unit="par" n="1"/> Iterum in Macedonia Pseudoperses, qui se
+                        Persei filium esse dicebat, collectis servitiis rebellavit et, cum sedecim
+                        milia armatorum haberet, a Tremellio quaestore superatus est.</p>
                     <lb/>
                 </div>
                 <div type="cap" n="16">
                     <p>
-                  <milestone unit="par" n="1"/> Eodem tempore Metellus in Celtiberia apud
+                        <milestone unit="par" n="1"/> Eodem tempore Metellus in Celtiberia apud
                         Hispanos res egregias gessit. <milestone unit="par" n="2"/> Successit ei Q.
                         Pompeius. Nec multo post Q. quoque Caepio ad idem bellum missus est, quod
                         quidam Viriathus contra Romanos in Lusitania gerebat. Quo metu Viriathus a
@@ -1147,7 +1184,7 @@
                 </div>
                 <div type="cap" n="17">
                     <p>
-                  <milestone unit="par" n="1"/> Q. Pompeius deinde consul, a Numantinis, quae
+                        <milestone unit="par" n="1"/> Q. Pompeius deinde consul, a Numantinis, quae
                         Hispaniae civitas fuit opulentissima, superatus, pacem ignobilem fecit. Post
                         eum C. Hostilius Mancinus consul iterum cum Numantinis pacem fecit infamem,
                         quam populus et senatus iussit infringi atque ipsum Mancinum hostibus tradi,
@@ -1163,14 +1200,14 @@
                 </div>
                 <div type="cap" n="18">
                     <p>
-                  <milestone unit="par" n="1"/> Eodem tempore Attalus, rex Asiae, frater
+                        <milestone unit="par" n="1"/> Eodem tempore Attalus, rex Asiae, frater
                         Eumenis, mortuus est; heredem populum Romanum reliquit. Ita imperio Romano
                         per testamentum Asia accessit.</p>
                     <lb/>
                 </div>
                 <div type="cap" n="19">
                     <p>
-                  <milestone unit="par" n="1"/> Mox etiam D. Iunius Brutus de Callaecis et
+                        <milestone unit="par" n="1"/> Mox etiam D. Iunius Brutus de Callaecis et
                         Lusitanis magna gloria triumphavit et P. Scipio Africanus de Numantinis
                         secundum triumphum egit, quarto decimo anno postquam priorem de Africa
                         egerat.</p>
@@ -1178,10 +1215,10 @@
                 </div>
                 <div type="cap" n="20">
                     <p>
-                  <milestone unit="par" n="1"/> Motum interim in Asia bellum est ab Aristonico,
-                        Eumenis filio, qui ex concubina susceptus fuerat. Hic Eumenes frater Attali
-                        fuerat. Adversus eum missus P. Licinius Crassus infinita regum habuit
-                        auxilia. Nam et Bithyniae rex Nicomedes Romanos iuvit et Mithridates
+                        <milestone unit="par" n="1"/> Motum interim in Asia bellum est ab
+                        Aristonico, Eumenis filio, qui ex concubina susceptus fuerat. Hic Eumenes
+                        frater Attali fuerat. Adversus eum missus P. Licinius Crassus infinita regum
+                        habuit auxilia. Nam et Bithyniae rex Nicomedes Romanos iuvit et Mithridates
                         Ponticus, cum quo bellum postea gravissimum fuit, et Ariarathes Cappadox et
                         Pylaemenes Paphlagon. Victus est tamen Crassus et in proelio interfectus
                         est. Caput ipsius Aristonico oblatum est, corpus Smyrnae sepultum.
@@ -1195,7 +1232,7 @@
                 </div>
                 <div type="cap" n="21">
                     <p>
-                  <milestone unit="par" n="1"/> L. Caecilio Metello et L. Quintio Flaminino
+                        <milestone unit="par" n="1"/> L. Caecilio Metello et L. Quintio Flaminino
                         consulibus Carthago in Africa iussu senatus reparata est, quae nunc manet,
                         annis duobus et viginti postquam a Scipione fuerat eversa. Deducti eo sunt
                         cives Romani. </p>
@@ -1203,7 +1240,7 @@
                 </div>
                 <div type="cap" n="22">
                     <p>
-                  <milestone unit="par" n="1"/> Anno sexcentesimo vicesimo septimo ab Vrbe
+                        <milestone unit="par" n="1"/> Anno sexcentesimo vicesimo septimo ab Vrbe
                         condita C. Cassius Longinus et Sex. Domitius Calvinus consules Gallis
                         transalpinis bellum intulerunt et Arvernorum tunc nobilissimae civitati
                         atque eorum duci Bituito infinitamque multitudinem iuxta Rhodanum fluvium
@@ -1214,7 +1251,7 @@
                 </div>
                 <div type="cap" n="23">
                     <p>
-                  <milestone unit="par" n="1"/> M. Porcio Catone et Q. Marcio Rege consulibus,
+                        <milestone unit="par" n="1"/> M. Porcio Catone et Q. Marcio Rege consulibus,
                         sexcentesimo tricesimo et tertio anno ab Vrbe condita Narbone in Gallia
                         colonia deducta est annoque post a L. Caecilio Metello et Q. Mucio Scaevola
                         consulibus de Dalmatia triumphatum est.</p>
@@ -1222,13 +1259,13 @@
                 </div>
                 <div type="cap" n="24">
                     <p>
-                  <milestone unit="par" n="1"/> Ab Vrbe condita anno sexcentesimo tricesimo
+                        <milestone unit="par" n="1"/> Ab Vrbe condita anno sexcentesimo tricesimo
                         quinto C. Cato consul Scordiscis intulit bellum ignominioseque pugnavit.</p>
                     <lb/>
                 </div>
                 <div type="cap" n="25">
                     <p>
-                  <milestone unit="par" n="1"/> C. Caecilio Metello et Cn. Carbone consulibus
+                        <milestone unit="par" n="1"/> C. Caecilio Metello et Cn. Carbone consulibus
                         duo Metelli fratres eodem die, alterum ex Sardinia, alterum ex Thracia,
                         triumphum egerunt, nuntiatumque Romae est Cimbros e Gallia in Italiam
                         transisse.</p>
@@ -1236,7 +1273,7 @@
                 </div>
                 <div type="cap" n="26">
                     <p>
-                  <milestone unit="par" n="1"/> P. Scipione Nasica et L. Calpurnio Bestia
+                        <milestone unit="par" n="1"/> P. Scipione Nasica et L. Calpurnio Bestia
                         consulibus Iugurthae, Numidarum regi, bellum inlatum est, quod Adherbalem et
                         Hiempsalem, Micipsae filios, fratres suos, reges et populi Romani amicos,
                         interemisset. Missus adversus eum consul Calpurnius Bestia, corruptus regis
@@ -1247,12 +1284,12 @@
                 </div>
                 <div type="cap" n="27">
                     <p>
-                  <milestone unit="par" n="1"/> Tertio missus est Q. Caecilius Metellus consul.
-                        Is exercitum ingenti severitate et moderatione correctum, cum nihil in
-                        quemquam cruentum faceret, ad disciplinam Romanam reduxit. Iugurtham variis
-                        proeliis vicit, elephantos eius occidit vel cepit, multas civitates ipsius
-                        cepit. Et, cum iam finem bello positurus esset, successum est ei a C. Mario.
-                            <milestone unit="par" n="2"/> Is Iugurtham et Bocchum, Mauritaniae
+                        <milestone unit="par" n="1"/> Tertio missus est Q. Caecilius Metellus
+                        consul. Is exercitum ingenti severitate et moderatione correctum, cum nihil
+                        in quemquam cruentum faceret, ad disciplinam Romanam reduxit. Iugurtham
+                        variis proeliis vicit, elephantos eius occidit vel cepit, multas civitates
+                        ipsius cepit. Et, cum iam finem bello positurus esset, successum est ei a C.
+                        Mario. <milestone unit="par" n="2"/> Is Iugurtham et Bocchum, Mauritaniae
                         regem, qui auxilium Iugurthae ferre coeperat, pariter superavit. Aliquanta
                         et ipse oppida Numidiae cepit belloque terminum posuit capto Iugurtha per
                         quaestorem suum Cornelium Sullam, ingentem virum, tradente Boccho Iugurtham
@@ -1270,15 +1307,15 @@
                 <lb/>
                 <div type="cap" n="1">
                     <p>
-                  <milestone unit="par" n="1"/> Dum bellum in Numidia contra Iugurtham geritur,
-                        Romani consules M. Manlius et Q. Caepio a Cimbris et Teutonis et Tugurinis
-                        et Ambronibus, quae erant Germanorum et Gallorum gentes, victi sunt iuxta
-                        flumen Rhodanum et ingenti internicione etiam castra sua et magnam partem
-                        exercitus perdiderunt. <milestone unit="par" n="2"/> Timor Romae grandis
-                        fuit, quantus vix Hannibalis tempore Punici belli, ne iterum Galli Romam
-                        redirent. <milestone unit="par" n="3"/> Ergo Marius post victoriam
-                        Iugurthinam secundo consul est factus bellumque ei contra Cimbros et
-                        Teutones decretum est. Tertio quoque ei et quarto delatus est consulatus,
+                        <milestone unit="par" n="1"/> Dum bellum in Numidia contra Iugurtham
+                        geritur, Romani consules M. Manlius et Q. Caepio a Cimbris et Teutonis et
+                        Tugurinis et Ambronibus, quae erant Germanorum et Gallorum gentes, victi
+                        sunt iuxta flumen Rhodanum et ingenti internicione etiam castra sua et
+                        magnam partem exercitus perdiderunt. <milestone unit="par" n="2"/> Timor
+                        Romae grandis fuit, quantus vix Hannibalis tempore Punici belli, ne iterum
+                        Galli Romam redirent. <milestone unit="par" n="3"/> Ergo Marius post
+                        victoriam Iugurthinam secundo consul est factus bellumque ei contra Cimbros
+                        et Teutones decretum est. Tertio quoque ei et quarto delatus est consulatus,
                         quia bellum Cimbricum protrahebatur. Sed in quarto consulatu collegam habuit
                         Q. Lutatium Catulum. Cum Cimbris itaque conflixit et duobus proeliis CC
                         milia hostium cecidit, LXXX milia cepit et ducem eorum Teutobodum, propter
@@ -1287,9 +1324,10 @@
                 </div>
                 <div type="cap" n="2">
                     <p>
-                  <milestone unit="par" n="1"/> Interea Cimbri et Teutones, quorum copia adhuc
+                        <milestone unit="par" n="1"/> Interea Cimbri et Teutones, quorum copia adhuc
                         infinita erat, ad Italiam transierunt. Iterum a C. Mario et Q. Catulo contra
-                        eos dimicatum est, sed a Catuli parte felicius. <milestone unit="par" n="2"/> Nam proelio, quod simul ambo gesserunt, CXL milia aut in pugna aut in
+                        eos dimicatum est, sed a Catuli parte felicius. <milestone unit="par" n="2"
+                        /> Nam proelio, quod simul ambo gesserunt, CXL milia aut in pugna aut in
                         fuga caesa sunt, LX milia capta. Romani milites ex utroque exercitu trecenti
                         perierunt. Tria et triginta Cimbris signa sublata sunt; ex his exercitus
                         Marii duo reportavit, Catuli exercitus XXXI. Is belli finis fuit; triumphus
@@ -1298,7 +1336,7 @@
                 </div>
                 <div type="cap" n="3">
                     <p>
-                  <milestone unit="par" n="1"/> Sex. Iulio Caesare et L. Marcio Philippo
+                        <milestone unit="par" n="1"/> Sex. Iulio Caesare et L. Marcio Philippo
                         consulibus, sexcentesimo quinquagesimo nono anno ab Vrbe condita, cum prope
                         alia omnia bella cessarent, in Italia gravissimum bellum Picentes, Marsi
                         Pelignique moverunt, qui, cum annis numerosis iam populo Romano obedirent,
@@ -1318,7 +1356,7 @@
                 </div>
                 <div type="cap" n="4">
                     <p>
-                  <milestone unit="par" n="1"/> Anno Vrbis conditae sexcentesimo sexagesimo
+                        <milestone unit="par" n="1"/> Anno Vrbis conditae sexcentesimo sexagesimo
                         secundo primum Romae bellum civile commotum est, eodem anno etiam
                         Mithridaticum. Causam bello civili C. Marius sexiens consul dedit.
                             <milestone unit="par" n="2"/> Nam cum Sulla consul contra Mithridatem
@@ -1334,7 +1372,7 @@
                 </div>
                 <div type="cap" n="5">
                     <p>
-                  <milestone unit="par" n="1"/> Mithridates enim, qui Ponti rex erat atque
+                        <milestone unit="par" n="1"/> Mithridates enim, qui Ponti rex erat atque
                         Armeniam minorem et totum Ponticum mare in circuitu cum Bosphoro tenebat,
                         primum Nicomeden, amicum populi Romani, Bithynia voluit expellere senatuique
                         mandavit bellum se ei propter iniurias, quas passus fuerat, inlaturum. A
@@ -1349,11 +1387,12 @@
                 </div>
                 <div type="cap" n="6">
                     <p>
-                  <milestone unit="par" n="1"/> Interea etiam Athenae, civitas Achaiae, ab
+                        <milestone unit="par" n="1"/> Interea etiam Athenae, civitas Achaiae, ab
                         Aristone Atheniensi Mithridati tradita est. Miserat enim iam ad Achaiam
                         Mithridates Archelaum, ducem suum, cum centum et viginti milibus equitum ac
                         peditum, per quem etiam reliqua Graecia occupata est. Sulla Archelaum apud
-                        Piraeum, non longe ab Athenis, obsedit, ipsas Athenas cepit. <milestone unit="par" n="2"/> Postea commisso proelio contra Archelaum ita eum
+                        Piraeum, non longe ab Athenis, obsedit, ipsas Athenas cepit. <milestone
+                            unit="par" n="2"/> Postea commisso proelio contra Archelaum ita eum
                         vicit, ut ex CXX milibus vix decem Archelao superessent, ex Sullae exercitu
                         XIII tantum homines interficerentur. Hac pugna Mithridates cognita
                         septuaginta milia lectissima ex Asia Archelao misit, contra quem iterum
@@ -1365,13 +1404,14 @@
                 </div>
                 <div type="cap" n="7">
                     <p>
-                  <milestone unit="par" n="1"/> Interim eo tempore Sulla etiam Dardanos,
+                        <milestone unit="par" n="1"/> Interim eo tempore Sulla etiam Dardanos,
                         Scordiscos, Dalmatas et Maedos partim vicit, alios in fidem accepit.
                             <milestone unit="par" n="2"/> Sed, cum legati a rege Mithridate, qui
                         pacem petebant, venissent, non aliter se daturum Sulla esse respondit, nisi
                         rex relictis his, quae occupaverat, ad regnum suum redisset. Postea tamen ad
                         colloquium ambo venerunt. Pax inter eos ordinata est, ut Sulla ad bellum
-                        civile festinans a tergo periculum non haberet. <milestone unit="par" n="3"/> Nam dum Sulla in Achaia atque Asia Mithridatem vincit, Marius, qui
+                        civile festinans a tergo periculum non haberet. <milestone unit="par" n="3"
+                        /> Nam dum Sulla in Achaia atque Asia Mithridatem vincit, Marius, qui
                         fugatus erat, et Cornelius Cinna, unus ex consulibus, bellum in Italia
                         reparaverunt et ingressi urbem Romam nobilissimos e senatu et consulares
                         viros interfecerunt, multos proscripserunt, ipsius Sullae domo eversa filios
@@ -1387,7 +1427,7 @@
                 </div>
                 <div type="cap" n="8">
                     <p>
-                  <milestone unit="par" n="1"/> Sed, cum Romae mutati consules essent, Marius,
+                        <milestone unit="par" n="1"/> Sed, cum Romae mutati consules essent, Marius,
                         Marii filius, ac Papirius Carbo consulatum accepissent, Sulla contra Marium
                         iuniorem dimicavit et XV milibus eius occisis CCCC de suis perdidit. Mox
                         etiam Vrbem ingressus est. Marium, Marii filium, Praeneste persecutus
@@ -1403,7 +1443,7 @@
                 </div>
                 <div type="cap" n="9">
                     <p>
-                  <milestone unit="par" n="1"/> Occiso ergo Carbone Siciliam Pompeius recepit.
+                        <milestone unit="par" n="1"/> Occiso ergo Carbone Siciliam Pompeius recepit.
                         Transgressus inde ad Africam, Domitium, Marianae partis ducem, et Hierdam,
                         regem Mauritaniae, qui Domitio auxilium ferebat, occidit. Post haec Sulla de
                         Mithridate ingenti gloria triumphavit. Cn. etiam Pompeius, quod nulli
@@ -1420,7 +1460,7 @@
                 <lb/>
                 <div type="cap" n="1">
                     <p>
-                  <milestone unit="par" n="1"/> M. Aemilio Lepido Q. Catulo consulibus, cum
+                        <milestone unit="par" n="1"/> M. Aemilio Lepido Q. Catulo consulibus, cum
                         Sulla rem publicam composuisset, bella nova exarserunt, unum in Hispania,
                         aliud in Pamphylia et Cilicia, tertium in Macedonia, quartum in Dalmatia.
                             <milestone unit="par" n="2"/> Nam Sertorius, qui partium Marianarum
@@ -1432,48 +1472,48 @@
                         missus est. <milestone unit="par" n="3"/> Ita duobus ducibus adversis
                         Sertorius fortuna varia saepe pugnavit. Octavo demum anno per suos occisus
                         est, et finis ei bello datus per Cn. Pompeium adulescentem et Q. Metellum
-                        Pium atque omnes prope Hispaniae in dicionem populi Romani
-                        redactae.<lb/>
-               </p>
+                        Pium atque omnes prope Hispaniae in dicionem populi Romani redactae.<lb/>
+                    </p>
                 </div>
                 <div type="cap" n="2">
                     <p>
-                  <milestone unit="par" n="1"/> Ad Macedoniam missus est Ap. Claudius post
+                        <milestone unit="par" n="1"/> Ad Macedoniam missus est Ap. Claudius post
                         consulatum. Levia proelia habuit contra varias gentes, quae Rhodopam
-                        provinciam incolebant, atque ibi morbo mortuus est. <milestone unit="par" n="2"/> Missus ei successor C. Scribonius Curio post consulatum. Is
+                        provinciam incolebant, atque ibi morbo mortuus est. <milestone unit="par"
+                            n="2"/> Missus ei successor C. Scribonius Curio post consulatum. Is
                         Dardanos vicit et usque ad Danubium penetravit triumphumque meruit et intra
                         triennium bello finem dedit.<lb/>
-               </p>
+                    </p>
                 </div>
                 <div type="cap" n="3">
                     <p>
-                  <milestone unit="par" n="1"/> Ad Ciliciam et Pamphyliam missus est P.
+                        <milestone unit="par" n="1"/> Ad Ciliciam et Pamphyliam missus est P.
                         Servilius ex consule, vir strenuus. Is Ciliciam subegit, Lyciae urbes
                         clarissimas oppugnavit et cepit, in his Phaselidam, Olympum, Corycum
                         Ciliciae. Isauros quoque adgressus ad dicionem redegit atque intra triennium
                         bello finem dedit. Primus omnium Romanorum in Tauro iter fecit. Revertens
                         triumphum accepit et nomen Isaurici meruit.<lb/>
-               </p>
+                    </p>
                 </div>
                 <div type="cap" n="4">
                     <p>
-                  <milestone unit="par" n="1"/> Ad Illyricum missus est C. Cosconius pro
+                        <milestone unit="par" n="1"/> Ad Illyricum missus est C. Cosconius pro
                         consule. Multam partem Dalmatiae subegit, Salonas cepit et conposito bello
                         Romam post biennium rediit.<lb/>
-               </p>
+                    </p>
                 </div>
                 <div type="cap" n="5">
                     <p>
-                  <milestone unit="par" n="1"/> Isdem temporibus consul M. Aemilius Lepidus,
+                        <milestone unit="par" n="1"/> Isdem temporibus consul M. Aemilius Lepidus,
                         Catuli collega, bellum civile voluit commovere, intra unam tamen aestatem
                         motus eius oppressus est. <milestone unit="par" n="2"/> Ita uno tempore
                         multi simul triumphi fuerunt, Metelli ex Hispania, Pompeii secundus ex
                         Hispania, Curionis ex Macedonia, Servilii ex Isauria.<lb/>
-               </p>
+                    </p>
                 </div>
                 <div type="cap" n="6">
                     <p>
-                  <milestone unit="par" n="1"/> Anno Vrbis conditae sexcentesimo septuagesimo
+                        <milestone unit="par" n="1"/> Anno Vrbis conditae sexcentesimo septuagesimo
                         sexto, L. Licinio Lucullo et M. Aurelio Cotta consulibus mortuus est
                         Nicomedes, rex Bithyniae, et per testamentum populum Romanum fecit heredem.
                             <milestone unit="par" n="2"/> Mithridates pace rupta Bithyniam et Asiam
@@ -1486,24 +1526,25 @@
                         vicit, postremo Byzantium, quae nunc Constantinopolis est, fugavit. Navali
                         quoque proelio duces eius Lucullus oppressit. Ita una hieme et aestate a
                         Lucullo ad centum fere milia regis extincta sunt.<lb/>
-               </p>
+                    </p>
                 </div>
                 <div type="cap" n="7">
                     <p>
-                  <milestone unit="par" n="1"/> Anno urbis Romae sexcentesimo septuagesimo
+                        <milestone unit="par" n="1"/> Anno urbis Romae sexcentesimo septuagesimo
                         octavo Macedoniam provinciam M. Licinius Lucullus accepit, consobrinus
-                        Luculli, qui contra Mithridatem bellum gerebat. <milestone unit="par" n="2"/> Et in Italia novum bellum subito commotum est. Septuaginta enim et
+                        Luculli, qui contra Mithridatem bellum gerebat. <milestone unit="par" n="2"
+                        /> Et in Italia novum bellum subito commotum est. Septuaginta enim et
                         quattuor gladiatores duce Spartaco, Crixo et Oenomao, effracto Capuae ludo
                         fugerunt et per Italiam vagantes paene non levius bellum in ea, quam
                         Hannibal moverat, paraverunt. Nam multis ducibus et duobus simul Romanorum
                         consulibus victis sexaginta fere milium armatorum exercitum congregaverunt
                         victique sunt in Apulia a M. Licinio Crasso pro consule et post multas
                         calamitates Italiae tertio anno bello huic est finis inpositus.<lb/>
-               </p>
+                    </p>
                 </div>
                 <div type="cap" n="8">
                     <p>
-                  <milestone unit="par" n="1"/> Sexcentesimo octogesimo primo anno Vrbis
+                        <milestone unit="par" n="1"/> Sexcentesimo octogesimo primo anno Vrbis
                         conditae, P. Cornelio Lentulo et Cn. Aufidio Oreste consulibus, duo tantum
                         gravia bella in imperio Romano erant, Mithridaticum et Macedonicum. Haec duo
                         Luculli agebant, L. Lucullus et M. Lucullus. <milestone unit="par" n="2"/>
@@ -1518,11 +1559,11 @@
                         est Mithridates post fugam a Tigrane, Armeniae rege, qui tum ingenti gloria
                         imperabat, Persas saepe vicerat, Mesopotamiam occupaverat et Syriam et
                         Phoenices partem.<lb/>
-               </p>
+                    </p>
                 </div>
                 <div type="cap" n="9">
                     <p>
-                  <milestone unit="par" n="1"/> Ergo Lucullus, repetens hostem fugatum, etiam
+                        <milestone unit="par" n="1"/> Ergo Lucullus, repetens hostem fugatum, etiam
                         regnum Tigranis, qui Armeniis imperabat, ingressus est. Tigranocertam,
                         civitatem Arzanenae, nobilissimam regni Armeniaci, cepit, ipsum regem cum
                         septem milibus quingentis clibanariis et centum milibus sagittariorum et
@@ -1534,11 +1575,11 @@
                         Mithridati in Pontum inrumpendi dederunt, atque ita bellum renovatum est.
                         Lucullo paranti capta Nisibi contra Persas expeditionem successor est
                         missus.<lb/>
-               </p>
+                    </p>
                 </div>
                 <div type="cap" n="10">
                     <p>
-                  <milestone unit="par" n="1"/> Alter autem Lucullus, qui Macedoniam
+                        <milestone unit="par" n="1"/> Alter autem Lucullus, qui Macedoniam
                         administrabat, Bessis primus Romanorum intulit bellum atque eos ingenti
                         proelio in Haemo monte superavit. Oppidum Vscudamam, quod Bessi habitabant,
                         eodem die, quo adgressus est, vicit, Cabylen cepit, usque ad Danubium
@@ -1547,22 +1588,23 @@
                         cepit belloque confecto Romam rediit. Ambo tamen triumphaverunt: Lucullus,
                         qui contra Mithridatem pugnaverat, maiore gloria, cum tantorum regnorum
                         victor redisset.<lb/>
-               </p>
+                    </p>
                 </div>
                 <div type="cap" n="11">
                     <p>
-                  <milestone unit="par" n="1"/> Confecto bello Macedonico, manente
+                        <milestone unit="par" n="1"/> Confecto bello Macedonico, manente
                         Mithridatico, quod recedente Lucullo rex collectis auxiliis reparaverat,
                         bellum Creticum ortum est. <milestone unit="par" n="2"/> Ad id missus Q.
                         Caecilius Metellus ingentibus proeliis intra triennium omnem provinciam
-                        cepit appellatusque est Creticus atque ex insula triumphavit. <milestone unit="par" n="3"/> Quo tempore Libya quoque Romano imperio per
+                        cepit appellatusque est Creticus atque ex insula triumphavit. <milestone
+                            unit="par" n="3"/> Quo tempore Libya quoque Romano imperio per
                         testamentum Appionis, qui rex eius fuerat, accessit, in qua inclutae urbes
                         erant Berenice, Ptolomais, Cyrene.<lb/>
-               </p>
+                    </p>
                 </div>
                 <div type="cap" n="12">
                     <p>
-                  <milestone unit="par" n="1"/> Dum haec geruntur, piratae omnia maria
+                        <milestone unit="par" n="1"/> Dum haec geruntur, piratae omnia maria
                         infestabant ita, ut Romanis toto orbe victoribus sola navigatio tuta non
                         esset. Quare id bellum Cn. Pompeio decretum est. Quod intra paucos menses
                         ingenti et felicitate et celeritate confecit. <milestone unit="par" n="2"/>
@@ -1575,27 +1617,28 @@
                         hausit. Hunc finem habuit Mithridates. Periit autem apud Bosphorum, vir
                         ingentis industriae consiliique. Regnavit annis sexaginta, vixit septuaginta
                         duobus, contra Romanos bellum habuit annis quadraginta.<lb/>
-               </p>
+                    </p>
                 </div>
                 <div type="cap" n="13">
                     <p>
-                  <milestone unit="par" n="1"/> Tigrani deinde Pompeius bellum intulit. Ille se
-                        ei dedidit et in castra Pompeii sexto decimo miliario ab Artaxata venit ac
-                        diadema suum, cum procubuisset ad genua Pompeii, in manibus ipsius
+                        <milestone unit="par" n="1"/> Tigrani deinde Pompeius bellum intulit. Ille
+                        se ei dedidit et in castra Pompeii sexto decimo miliario ab Artaxata venit
+                        ac diadema suum, cum procubuisset ad genua Pompeii, in manibus ipsius
                         conlocavit. Quod ei Pompeius reposuit honorificeque eum habitum regni tamen
                         parte multavit et grandi pecunia. Adempta est ei Syria, Phoenice, Sophanene;
                         sex milia praeterea talentorum argenti, quae populo Romano daret, quia
                         bellum sine causa Romanis commovisset.<lb/>
-               </p>
+                    </p>
                 </div>
                 <div type="cap" n="14">
                     <p>
-                  <milestone unit="par" n="1"/> Pompeius mox etiam Albanis bellum intulit et
+                        <milestone unit="par" n="1"/> Pompeius mox etiam Albanis bellum intulit et
                         eorum regem Oroden ter vicit, postremo, per epistulas ac munera rogatus,
                         veniam ei ac pacem dedit. Hiberiae quoque regem Artacen vicit acie et in
                         deditionem accepit. Armeniam minorem Deiotaro, Galatiae regi, donavit, quia
                         socius belli Mithridatici fuerat. Attalo et Pylaemeni Paphlagoniam reddidit.
-                        Aristarchum Colchis regem imposuit. Mox Ituraeos et Arabas vicit. <milestone unit="par" n="2"/> Et cum venisset in Syriam, Seleuciam, vicinam
+                        Aristarchum Colchis regem imposuit. Mox Ituraeos et Arabas vicit. <milestone
+                            unit="par" n="2"/> Et cum venisset in Syriam, Seleuciam, vicinam
                         Antiochiae civitatem, libertate donavit, quod regem Tigranen non recepisset.
                         Antiochensibus obsides reddidit. Aliquantum agrorum Daphnensibus dedit, quo
                         lucus ibi spatiosior fieret, delectatus loci amoenitate et aquarum
@@ -1603,35 +1646,36 @@
                         tertio mense cepit, XII milibus Iudaeorum occisis, ceteris in fidem
                         acceptis. His gestis in Asiam se recepit et finem antiquissimo bello
                         dedit.<lb/>
-               </p>
+                    </p>
                 </div>
                 <div type="cap" n="15">
                     <p>
-                  <milestone unit="par" n="1"/> M. Tullio Cicerone oratore et C. Antonio
+                        <milestone unit="par" n="1"/> M. Tullio Cicerone oratore et C. Antonio
                         consulibus, anno ab Vrbe condita sexcentesimo octogesimo nono L. Sergius
                         Catilina, nobilissimi generis vir, sed ingenii pravissimi, ad delendam
                         patriam coniuravit cum quibusdam, claris quidem, sed audacibus viris. A
                         Cicerone Vrbe expulsus est. Socii eius deprehensi in carcere strangulati
                         sunt. Ab Antonio altero consule Catilina ipse victus proelio est
                         interfectus.<lb/>
-               </p>
+                    </p>
                 </div>
                 <div type="cap" n="16">
                     <p>
-                  <milestone unit="par" n="1"/> Sexcentesimo nonagesimo anno Vrbis conditae, D.
-                        Iunio Silano et L. Murena consulibus, Metellus de Creta triumphavit,
+                        <milestone unit="par" n="1"/> Sexcentesimo nonagesimo anno Vrbis conditae,
+                        D. Iunio Silano et L. Murena consulibus, Metellus de Creta triumphavit,
                         Pompeius de bello piratico et Mithridatico. Nulla umquam pompa triumphi
                         similis fuit. Ducti sunt ante eius currum filii Mithridatis, filius Tigranis
                         et Aristobulus, rex Iudaeorum; praelata est ingens pecunia et auri atque
                         argenti infinitum pondus. Hoc tempore nullum per orbem terrarum grave bellum
                         erat.<lb/>
-               </p>
+                    </p>
                 </div>
                 <div type="cap" n="17">
                     <p>
-                  <milestone unit="par" n="1"/> Anno Vrbis conditae sexcentesimo nonagesimo
+                        <milestone unit="par" n="1"/> Anno Vrbis conditae sexcentesimo nonagesimo
                         tertio C. Iulius Caesar, qui postea imperavit, cum L. Bibulo consul est
-                        factus. Decreta est ei Gallia et Illyricum cum legionibus decem. <milestone unit="par" n="2"/> Is primos vicit Helvetios, qui nunc Sequani
+                        factus. Decreta est ei Gallia et Illyricum cum legionibus decem. <milestone
+                            unit="par" n="2"/> Is primos vicit Helvetios, qui nunc Sequani
                         appellantur, deinde vincendo per bella gravissima usque ad Oceanum
                         Britannicum processit. <milestone unit="par" n="3"/> Domuit autem annis
                         novem fere omnem Galliam, quae inter Alpes, flumen Rhodanum, Rhenum et
@@ -1643,25 +1687,24 @@
                         successus ter male pugnavit, apud Arvernos semel praesens et absens in
                         Germania bis. Nam legati eius duo, Titurius et Aurunculeius, per insidias
                         caesi sunt.<lb/>
-               </p>
+                    </p>
                 </div>
                 <div type="cap" n="18">
                     <p>
-                  <milestone unit="par" n="1"/> Circa eadem tempora anno Vrbis conditae
+                        <milestone unit="par" n="1"/> Circa eadem tempora anno Vrbis conditae
                         sexcentesimo nonagesimo septimo, M. Licinius Crassus, collega Cn. Pompeii
                         Magni in consulatu secundo, contra Parthos missus est et, cum circa Carras
                         contra omen et auspicia dimicasset, a Surena Orodis regis duce victus ad
                         postremum interfectus est cum filio clarissimo et praestantissimo iuvene.
                             <milestone unit="par" n="2"/> Reliquiae exercitus per C. Cassium
                         quaestorem servatae sunt, qui singulari animo perditas res tanta virtute
-                        restituit, ut Persas rediens trans Euphraten crebris proeliis
-                        vinceret.<lb/>
-               </p>
+                        restituit, ut Persas rediens trans Euphraten crebris proeliis vinceret.<lb/>
+                    </p>
                 </div>
                 <div type="cap" n="19">
                     <p>
-                  <milestone unit="par" n="1"/> Hinc iam bellum civile successit exsecrandum et
-                        lacrimabile, quo praeter calamitates, quae in proeliis acciderunt, etiam
+                        <milestone unit="par" n="1"/> Hinc iam bellum civile successit exsecrandum
+                        et lacrimabile, quo praeter calamitates, quae in proeliis acciderunt, etiam
                         populi Romani fortuna mutata est. <milestone unit="par" n="2"/> Caesar enim
                         rediens ex Gallia victor coepit poscere alterum consulatum atque ita sine
                         dubietate aliqua ei deferretur. Contradictum est a Marcello consule, a
@@ -1671,28 +1714,28 @@
                         Pompeio senatusque omnis atque universa nobilitas ex Vrbe fugit et in
                         Graeciam transiit. Apud Epirum, Macedoniam, Achaiam, Pompeio duce senatus
                         contra Caesarem bellum paravit.<lb/>
-               </p>
+                    </p>
                 </div>
                 <div type="cap" n="20">
                     <p>
-                  <milestone unit="par" n="1"/> Caesar vacuam Vrbem ingressus dictatorem se
+                        <milestone unit="par" n="1"/> Caesar vacuam Vrbem ingressus dictatorem se
                         fecit. Inde Hispanias petiit. Ibi Pompeii exercitus validissimos et
                         fortissimos cum tribus ducibus, L. Afranio, M. Petreio, M. Varrone,
                         superavit. <milestone unit="par" n="2"/> Inde reversus in Graeciam transiit,
                         adversum Pompeium dimicavit. Primo proelio victus est et fugatus, evasit
                         tamen, quia nocte interveniente Pompeius sequi noluit dixitque Caesar nec
-                        Pompeium scire vincere et illo tantum die se potuisse superari. <milestone unit="par" n="3"/> Deinde in Thessalia apud Palaeopharsalum productis
+                        Pompeium scire vincere et illo tantum die se potuisse superari. <milestone
+                            unit="par" n="3"/> Deinde in Thessalia apud Palaeopharsalum productis
                         utrimque ingentibus copiis, dimicaverunt. Pompei acies habuit XL milia
                         peditum, equites in sinistro cornu sexcentos, in dextro quingentos,
                         praeterea totius Orientis auxilia, totam nobilitatem, innumeros senatores,
                         praetorios, consulares et qui magnorum iam bellorum victores fuissent.
-                        Caesar in acie sua habuit peditum non integra XXX milia, equites
-                        mille.<lb/>
-               </p>
+                        Caesar in acie sua habuit peditum non integra XXX milia, equites mille.<lb/>
+                    </p>
                 </div>
                 <div type="cap" n="21">
                     <p>
-                  <milestone unit="par" n="1"/> Numquam adhuc Romanae copiae in unum neque
+                        <milestone unit="par" n="1"/> Numquam adhuc Romanae copiae in unum neque
                         maiores neque melioribus ducibus convenerant, totum terrarum orbem facile
                         subacturae, si contra barbaros ducerentur. <milestone unit="par" n="2"/>
                         Pugnatum tamen est ingenti contentione victusque ad postremum Pompeius et
@@ -1702,22 +1745,23 @@
                         amicitiam secutus, occidit Pompeium. Caput eius et anulum Caesari misit. Quo
                         conspecto Caesar etiam lacrimas fudisse dicitur, tanti viri intuens caput et
                         generi quondam sui.<lb/>
-               </p>
+                    </p>
                 </div>
                 <div type="cap" n="22">
                     <p>
-                  <milestone unit="par" n="1"/> Mox Caesar Alexandriam venit. Ipsi quoque
+                        <milestone unit="par" n="1"/> Mox Caesar Alexandriam venit. Ipsi quoque
                         Ptolomaeus parare voluit insidias, qua causa bellum regi inlatum est. Victus
-                        in Nilo periit inventumque est corpus eius cum lorica aurea. <milestone unit="par" n="2"/> Caesar Alexandria potitus regnum Cleopatrae dedit,
+                        in Nilo periit inventumque est corpus eius cum lorica aurea. <milestone
+                            unit="par" n="2"/> Caesar Alexandria potitus regnum Cleopatrae dedit,
                         Ptolomaei sorori, cum qua consuetudinem stupri habuerat. Rediens inde Caesar
                         Pharnacen, Mithridatis Magni filium, qui Pompeio in auxilium apud Thessaliam
                         fuerat, rebellantem in Ponto et multas populi Romani provincias occupantem
                         vicit acie, postea ad mortem coegit.<lb/>
-               </p>
+                    </p>
                 </div>
                 <div type="cap" n="23">
                     <p>
-                  <milestone unit="par" n="1"/> Inde Romam regressus tertio se consulem fecit
+                        <milestone unit="par" n="1"/> Inde Romam regressus tertio se consulem fecit
                         cum M. Aemilio Lepido, qui et magister equitum dictatori ante annum fuerat.
                         Inde in Africam profectus est, ubi infinita nobilitas cum Iuba, Mauretaniae
                         rege, bellum reparaverat. <milestone unit="par" n="2"/> Duces autem Romani
@@ -1727,11 +1771,11 @@
                         Contra hos commisso proelio, post multas dimicationes victor fuit Caesar.
                         Cato, Scipio, Petreius, Iuba ipsi se occiderunt. Faustus, Sullae quondam
                         dictatoris filius, Pompeii gener, a Caesare interfectus est.<lb/>
-               </p>
+                    </p>
                 </div>
                 <div type="cap" n="24">
                     <p>
-                  <milestone unit="par" n="1"/> Post annum Caesar Romam regressus quarto se
+                        <milestone unit="par" n="1"/> Post annum Caesar Romam regressus quarto se
                         consulem fecit et statim ad Hispanias est profectus, ubi Pompeii filii, Cn.
                         Pompeius et Sex. Pompeius, ingens bellum praeparaverant. Multa proelia
                         fuerunt, ultimum apud Mundam civitatem, in quo adeo Caesar paene victus est,
@@ -1739,11 +1783,11 @@
                         gloriam in potestatem adulescentium, natus annos sex et quinquaginta,
                         veniret. Denique reparatis suis vicit. Ex Pompeii filiis maior occisus est,
                         minor fugit.<lb/>
-               </p>
+                    </p>
                 </div>
                 <div type="cap" n="25">
                     <p>
-                  <milestone unit="par" n="1"/> Inde Caesar bellis civilibus toto orbe
+                        <milestone unit="par" n="1"/> Inde Caesar bellis civilibus toto orbe
                         conpositis Romam rediit. Agere insolentius coepit et contra consuetudinem
                         Romanae libertatis. Cum ergo et honores ex sua voluntate praestaret, qui a
                         populo antea deferebantur, nec senatui ad se venienti adsurgeret aliaque
@@ -1760,7 +1804,7 @@
                 <lb/>
                 <div type="cap" n="1">
                     <p>
-                  <milestone unit="par" n="1"/> Anno Vrbis septingentesimo fere ac nono,
+                        <milestone unit="par" n="1"/> Anno Vrbis septingentesimo fere ac nono,
                         interfecto Caesare civilia bella reparata sunt. Percussoribus enim Caesaris
                         senatus favebat. Antonius consul partium Caesaris civili bello opprimere eos
                         conabatur. Ergo turbata re publica multa Antonius scelera committens a
@@ -1775,7 +1819,7 @@
                 </div>
                 <div type="cap" n="2">
                     <p>
-                  <milestone unit="par" n="1"/> Fugatus Antonius amisso exercitu confugit ad
+                        <milestone unit="par" n="1"/> Fugatus Antonius amisso exercitu confugit ad
                         Lepidum, qui Caesaris magister equitum fuerat et tum militum copias grandes
                         habebat, a quo susceptus est. Mox Lepido operam dante Caesar pacem cum
                         Antonio fecit et quasi vindicaturus patris sui mortem, a quo per testamentum
@@ -1787,22 +1831,24 @@
                 </div>
                 <div type="cap" n="3">
                     <p>
-                  <milestone unit="par" n="1"/> Interea Brutus et Cassius, interfectores
+                        <milestone unit="par" n="1"/> Interea Brutus et Cassius, interfectores
                         Caesaris, ingens bellum moverunt. Erant enim per Macedoniam et Orientem
                         multi exercitus, quos occupaverant. Profecti igitur contra eos Caesar
                         Octavianus Augustus et M. Antonius; remanserat enim ad defendendam Italiam
                         Lepidus. <milestone unit="par" n="2"/> Apud Philippos, Macedoniae urbem,
                         contra eos pugnaverunt. Primo proelio victi sunt Antonius et Caesar, periit
                         tamen dux nobilitatis Cassius, secundo Brutum et infinitam nobilitatem, quae
-                        cum illis bellum gesserat, victam interfecerunt. <milestone unit="par" n="3"/> Ac sic inter eos divisa est res publica, ut Augustus Hispanias, Gallias
-                        et Italiam teneret, Antonius Asiam, Pontum, Orientem. <milestone unit="par" n="4"/> Sed in Italia L. Antonius consul bellum civile commovit, frater
+                        cum illis bellum gesserat, victam interfecerunt. <milestone unit="par" n="3"
+                        /> Ac sic inter eos divisa est res publica, ut Augustus Hispanias, Gallias
+                        et Italiam teneret, Antonius Asiam, Pontum, Orientem. <milestone unit="par"
+                            n="4"/> Sed in Italia L. Antonius consul bellum civile commovit, frater
                         eius, qui cum Caesare contra Brutum et Cassium dimicaverat. Is apud Perusiam
                         Tusciae civitatem victus et captus est neque occisus.</p>
                     <lb/>
                 </div>
                 <div type="cap" n="4">
                     <p>
-                  <milestone unit="par" n="1"/> Interim a Sex. Pompeio, Cn. Pompeii Magni
+                        <milestone unit="par" n="1"/> Interim a Sex. Pompeio, Cn. Pompeii Magni
                         filio, ingens bellum in Sicilia commotum est, his qui superfuerant ex
                         partibus Bruti Cassiique, ad eum confluentibus. Bellatum per Caesarem
                         Augustum Octavianum et M. Antonium adversus Sex. Pompeium est. Pax postremo
@@ -1811,16 +1857,16 @@
                 </div>
                 <div type="cap" n="5">
                     <p>
-                  <milestone unit="par" n="1"/> Eo tempore M. Agrippa in Aquitania rem prospere
-                        gessit et L. Ventidius Bassus inrumpentes in Syriam Persas tribus proeliis
-                        vicit. Pacorum, regis Orodis filium, interfecit eo ipso die, quo olim Orodes
-                        Persarum rex per ducem Surenam Crassum occiderat. Hic primus de Parthis
-                        iustissimum triumphum Romae egit.</p>
+                        <milestone unit="par" n="1"/> Eo tempore M. Agrippa in Aquitania rem
+                        prospere gessit et L. Ventidius Bassus inrumpentes in Syriam Persas tribus
+                        proeliis vicit. Pacorum, regis Orodis filium, interfecit eo ipso die, quo
+                        olim Orodes Persarum rex per ducem Surenam Crassum occiderat. Hic primus de
+                        Parthis iustissimum triumphum Romae egit.</p>
                     <lb/>
                 </div>
                 <div type="cap" n="6">
                     <p>
-                  <milestone unit="par" n="1"/> Interim Pompeius pacem rupit et navali proelio
+                        <milestone unit="par" n="1"/> Interim Pompeius pacem rupit et navali proelio
                         victus, fugiens ad Asiam interfectus est. Antonius, qui Asiam et Orientem
                         tenebat, repudiata sorore Caesaris Augusti Octaviani, Cleopatram reginam
                         Aegypti duxit uxorem. <milestone unit="par" n="2"/> Contra Persas etiam ipse
@@ -1830,7 +1876,7 @@
                 </div>
                 <div type="cap" n="7">
                     <p>
-                  <milestone unit="par" n="1"/> Hic quoque ingens bellum civile commovit,
+                        <milestone unit="par" n="1"/> Hic quoque ingens bellum civile commovit,
                         cogente uxore Cleopatra, regina Aegypti, dum cupiditate muliebri optat etiam
                         in Vrbe regnare. Victus est ab Augusto navali pugna clara et inlustri apud
                         Actium, qui locus in Epiro est, ex qua fugit in Aegyptum et desperatis
@@ -1842,8 +1888,9 @@
                 </div>
                 <div type="cap" n="8">
                     <p>
-                  <milestone unit="par" n="1"/> Ita bellis toto orbe confectis Octavianus
-                        Augustus Romam rediit, duodecimo anno quam consul fuerat. <milestone unit="par" n="2"/> Ex eo rem publicam per quadraginta et quattuor annos
+                        <milestone unit="par" n="1"/> Ita bellis toto orbe confectis Octavianus
+                        Augustus Romam rediit, duodecimo anno quam consul fuerat. <milestone
+                            unit="par" n="2"/> Ex eo rem publicam per quadraginta et quattuor annos
                         solus obtinuit. Ante enim duodecim annis cum Antonio et Lepido tenuerat.
                             <milestone unit="par" n="3"/> Ita ab initio principatus eius usque ad
                         finem quinquaginta et sex anni fuerunt. <milestone unit="par" n="4"/> Obiit
@@ -1858,7 +1905,7 @@
                 </div>
                 <div type="cap" n="9">
                     <p>
-                  <milestone unit="par" n="1"/> Nullo tempore ante eum magis Romana res
+                        <milestone unit="par" n="1"/> Nullo tempore ante eum magis Romana res
                         floruit. Nam exceptis civilibus bellis, in quibus invictus fuit, Romano
                         adiecit imperio Aegyptum, Cantabriam, Dalmatiam saepe ante victam, sed
                         penitus tunc subactam, Pannoniam, Aquitaniam, Illyricum, Raetiam, Vindelicos
@@ -1874,21 +1921,24 @@
                 </div>
                 <div type="cap" n="10">
                     <p>
-                  <milestone unit="par" n="1"/> Scythae et Indi, quibus antea Romanorum nomen
-                        incognitum fuerat, munera et legatos ad eum miserunt. <milestone unit="par" n="2"/> Galatia quoque sub hoc provincia facta est, cum antea regnum
-                        fuisset, primusque eam M. Lollius pro praetore administravit. <milestone unit="par" n="3"/> Tanto autem amore etiam apud barbaros fuit, ut reges
+                        <milestone unit="par" n="1"/> Scythae et Indi, quibus antea Romanorum nomen
+                        incognitum fuerat, munera et legatos ad eum miserunt. <milestone unit="par"
+                            n="2"/> Galatia quoque sub hoc provincia facta est, cum antea regnum
+                        fuisset, primusque eam M. Lollius pro praetore administravit. <milestone
+                            unit="par" n="3"/> Tanto autem amore etiam apud barbaros fuit, ut reges
                         populi Romani amici in honorem eius conderent civitates, quas Caesareas
                         nominarent, sicut in Mauritania a rege Iuba, et in Palaestina, quae nunc
                         urbs est clarissima. <milestone unit="par" n="4"/> Multi autem reges ex
                         regnis suis venerunt, ut ei obsequerentur, et habitu Romano, togati
-                        scilicet, ad vehiculum vel equum ipsius cucurrerunt. <milestone unit="par" n="5"/> Moriens Divus appellatus, rem publicam beatissimam Tiberio
+                        scilicet, ad vehiculum vel equum ipsius cucurrerunt. <milestone unit="par"
+                            n="5"/> Moriens Divus appellatus, rem publicam beatissimam Tiberio
                         successori reliquit, qui privignus ei, mox gener, postremo adoptione filius
                         fuerat.</p>
                     <lb/>
                 </div>
                 <div type="cap" n="11">
                     <p>
-                  <milestone unit="par" n="1"/> Tiberius ingenti socordia imperium gessit,
+                        <milestone unit="par" n="1"/> Tiberius ingenti socordia imperium gessit,
                         gravi crudelitate, scelesta avaritia, turpi libidine. Nam nusquam ipse
                         pugnavit, bella per legatos gessit suos. <milestone unit="par" n="2"/>
                         Quosdam reges ad se per blanditias evocatos numquam remisit, in quibus
@@ -1901,9 +1951,10 @@
                 </div>
                 <div type="cap" n="12">
                     <p>
-                  <milestone unit="par" n="1"/> Successit ei C. Caesar, cognomento Caligula,
+                        <milestone unit="par" n="1"/> Successit ei C. Caesar, cognomento Caligula,
                         Drusi, privigni Augusti, et ipsius Tiberii nepos, sceleratissimus ac
-                        funestissimus et qui etiam Tiberii dedecora purgaverit. <milestone unit="par" n="2"/> Bellum contra Germanos suscepit et ingressus Suebiam
+                        funestissimus et qui etiam Tiberii dedecora purgaverit. <milestone
+                            unit="par" n="2"/> Bellum contra Germanos suscepit et ingressus Suebiam
                         nihil strenue fecit. <milestone unit="par" n="3"/> Stupra sororibus intulit,
                         ex una etiam natam filiam cognovit. <milestone unit="par" n="4"/> Cum
                         adversum cunctos ingenti avaritia, libidine, crudelitate saeviret,
@@ -1913,7 +1964,7 @@
                 </div>
                 <div type="cap" n="13">
                     <p>
-                  <milestone unit="par" n="1"/> Post hunc Claudius fuit, patruus Caligulae,
+                        <milestone unit="par" n="1"/> Post hunc Claudius fuit, patruus Caligulae,
                         Drusi, qui apud Mogontiacum monumentum habet, filius, cuius et Caligula
                         nepos erat. Hic medie imperavit, multa gerens tranquille atque moderate,
                         quaedam crudeliter et insulse. <milestone unit="par" n="2"/> Britannis
@@ -1921,7 +1972,8 @@
                         devicta per Cn. Sentium et A. Plautium, inlustres ac nobiles viros,
                         triumphum celebrem egit. <milestone unit="par" n="3"/> Quasdam insulas etiam
                         ultra Britannias in Oceano positas imperio Romano addidit, quae appellantur
-                        Orchades, filio autem suo Britannici nomen inposuit. <milestone unit="par" n="4"/> Tam civilis autem circa quosdam amicos extitit, ut etiam
+                        Orchades, filio autem suo Britannici nomen inposuit. <milestone unit="par"
+                            n="4"/> Tam civilis autem circa quosdam amicos extitit, ut etiam
                         Plautium nobilem virum qui expeditione Britannica multa egregie fecerat,
                         triumphantem ipse prosequeretur et conscendenti Capitolium laevus incederet.
                             <milestone unit="par" n="5"/> Is vixit annos IV et LX, imperavit XIV.
@@ -1930,7 +1982,7 @@
                 </div>
                 <div type="cap" n="14">
                     <p>
-                  <milestone unit="par" n="1"/> Successit huic Nero, Caligulae avunculo suo
+                        <milestone unit="par" n="1"/> Successit huic Nero, Caligulae avunculo suo
                         simillimus, qui Romanum imperium et deformavit et diminuit, inusitatae
                         luxuriae sumptuumque, ut qui exemplo C. Caligulae in calidis et frigidis
                         lavaret unguentis, retibus aureis piscaretur, quae blattinis funibus
@@ -1942,18 +1994,20 @@
                         cerneret, quali olim Troia capta arserat. <milestone unit="par" n="4"/> In
                         re militari nihil omnino ausus Britanniam paene amisit. Nam duo sub eo
                         nobilissima oppida capta illic atque eversa sunt. Armeniam Parthi
-                        sustulerunt legionesque Romanas sub iugum miserunt. <milestone unit="par" n="5"/> Duae tamen sub eo provinciae factae sunt, Pontus Polemoniacus
+                        sustulerunt legionesque Romanas sub iugum miserunt. <milestone unit="par"
+                            n="5"/> Duae tamen sub eo provinciae factae sunt, Pontus Polemoniacus
                         concedente rege Polemone et Alpes Cottiae, Cottio rege defuncto.</p>
                     <lb/>
                 </div>
                 <div type="cap" n="15">
                     <p>
-                  <milestone unit="par" n="1"/> Per haec Romano orbi execrabilis ab omnibus
+                        <milestone unit="par" n="1"/> Per haec Romano orbi execrabilis ab omnibus
                         simul destitutus est et a senatu hostis iudicatus; cum quaereretur ad
                         poenam, quae poena erat talis ut nudus per publicum ductus, furca capiti
                         eius inserta, virgis usque ad mortem caederetur atque ita praecipitaretur a
                         saxo, e Palatio fugit et in suburbano liberti sui, quod est inter Salariam
-                        et Nomentanam viam ad quartum Vrbis miliarium, se interfecit. <milestone unit="par" n="2"/> Aedificavit Romae thermas, quae ante Neronianae
+                        et Nomentanam viam ad quartum Vrbis miliarium, se interfecit. <milestone
+                            unit="par" n="2"/> Aedificavit Romae thermas, quae ante Neronianae
                         dictae nunc Alexandrianae appellantur. <milestone unit="par" n="3"/> Obiit
                         tricesimo et altero aetatis anno, imperii quarto decimo, atque in eo omnis
                         Augusti familia consumpta est.</p>
@@ -1961,21 +2015,23 @@
                 </div>
                 <div type="cap" n="16">
                     <p>
-                  <milestone unit="par" n="1"/> Huic Ser. Galba successit, antiquissimae
+                        <milestone unit="par" n="1"/> Huic Ser. Galba successit, antiquissimae
                         nobilitatis senator, cum septuagesimum et tertium annum ageret aetatis, ab
                         Hispanis et Gallis imperator electus, mox ab universo exercitu libenter
                         acceptus. <milestone unit="par" n="2"/> Nam privata eius vita insignis
                         fuerat militaribus et civilibus rebus. Saepe consul, saepe pro consule,
                         frequenter dux in gravissimis bellis. Huius breve imperium fuit et quod bona
-                        haberet exordia, nisi ad severitatem propensior videretur. <milestone unit="par" n="3"/> Insidiis tamen Othonis occisus est imperii mense
+                        haberet exordia, nisi ad severitatem propensior videretur. <milestone
+                            unit="par" n="3"/> Insidiis tamen Othonis occisus est imperii mense
                         septimo. Iugulatus in foro Romae sepultusque in hortis suis, qui sunt
                         Aurelia via non longe ab urbe Roma.</p>
                     <lb/>
                 </div>
                 <div type="cap" n="17">
                     <p>
-                  <milestone unit="par" n="1"/> Otho occiso Galba invasit imperium, materno
-                        genere nobilior quam paterno, neutro tamen obscuro. <milestone unit="par" n="2"/> In privata vita mollis et Neroni familiaris, in imperio
+                        <milestone unit="par" n="1"/> Otho occiso Galba invasit imperium, materno
+                        genere nobilior quam paterno, neutro tamen obscuro. <milestone unit="par"
+                            n="2"/> In privata vita mollis et Neroni familiaris, in imperio
                         documentum sui non potuit ostendere. <milestone unit="par" n="3"/> Nam cum
                         isdem temporibus, quibus Otho Galbam occiderat etiam Vitellius factus esset
                         a Germanicianis exercitibus imperator, bello contra eum suscepto, cum apud
@@ -1988,14 +2044,15 @@
                 </div>
                 <div type="cap" n="18">
                     <p>
-                  <milestone unit="par" n="1"/> Dein Vitellius imperio potitus est, familia
+                        <milestone unit="par" n="1"/> Dein Vitellius imperio potitus est, familia
                         honorata magis quam nobili. Nam pater eius non admodum clare natus tres
                         tamen ordinarios gesserat consulatus. <milestone unit="par" n="2"/> Hic cum
                         multo dedecore imperavit et gravi saevitia notabilis, praecipue ingluvie et
                         voracitate, quippe cum de die saepe quarto vel quinto feratur epulatus.
                             <milestone unit="par" n="3"/> Notissima certe cena memoriae mandata est,
                         quam ei Vitellius frater exhibuit, in qua super ceteros sumptus duo milia
-                        piscium, septem milia avium adposita traduntur. <milestone unit="par" n="4"/> Hic cum Neroni similis esse vellet atque id adeo prae se ferret, ut etiam
+                        piscium, septem milia avium adposita traduntur. <milestone unit="par" n="4"
+                        /> Hic cum Neroni similis esse vellet atque id adeo prae se ferret, ut etiam
                         exequias Neronis, quae humiliter sepultae fuerant, honoraret, a Vespasiani
                         ducibus occisus est, interfecto prius in Vrbe Sabino Vespasiani imperatoris
                         fratre, quem cum Capitolio incendit. <milestone unit="par" n="5"/>
@@ -2009,31 +2066,34 @@
                 </div>
                 <div type="cap" n="19">
                     <p>
-                  <milestone unit="par" n="1"/> Vespasianus huic successit, factus apud
+                        <milestone unit="par" n="1"/> Vespasianus huic successit, factus apud
                         Palaestinam imperator, princeps obscure quidem natus, sed optimis
                         conparandus, privata vita inlustris, ut qui a Claudio in Germaniam et deinde
                         in Britanniam missus tricies et bis cum hoste conflixerit, duas validissimas
                         gentes, viginti oppida, insulam Vectam, Britanniae proximam, imperio Romano
-                        adiecerit. Romae se in imperio moderatissime gessit. <milestone unit="par" n="2"/> Pecuniae tantum avidior fuit, ita ut eam nulli iniuste auferret.
+                        adiecerit. Romae se in imperio moderatissime gessit. <milestone unit="par"
+                            n="2"/> Pecuniae tantum avidior fuit, ita ut eam nulli iniuste auferret.
                         Quam cum omni diligentiae provisione colligeret, tamen studiosissime
                         largiebatur, praecipue indigentibus. Nec facile ante eum cuiusquam principis
                         vel maior est liberalitas comperta vel iustior. Placidissimae lenitatis, ut
                         qui maiestatis quoque contra se reos non facile punierit ultra exilii
                         poenam. <milestone unit="par" n="3"/> Sub hoc Iudaea Romano accessit imperio
-                        et Hierosolyma, quae fuit urbs nobilissima Palaestinae. <milestone unit="par" n="4"/> Achaiam, Lyciam, Rhodum, Byzantium, Samum, quae
+                        et Hierosolyma, quae fuit urbs nobilissima Palaestinae. <milestone
+                            unit="par" n="4"/> Achaiam, Lyciam, Rhodum, Byzantium, Samum, quae
                         liberae ante id tempus fuerant, item Thraciam, Ciliciam, Commagenen, quae
                         sub regibus amicis egerant, in provinciarum formam redegit.</p>
                     <lb/>
                 </div>
                 <div type="cap" n="20">
                     <p>
-                  <milestone unit="par" n="1"/> Offensarum et inimicitiarum inmemor fuit,
+                        <milestone unit="par" n="1"/> Offensarum et inimicitiarum inmemor fuit,
                         convicia a causidicis et philosophis in se dicta leviter tulit, diligens
                         tamen coercitor disciplinae militaris. <milestone unit="par" n="2"/> Hic cum
                         filio Tito de Hierosolymis triumphavit. Per haec cum senatui, populo,
                         postremo cunctis amabilis ac iucundus esset, profluvio ventris extinctus est
                         in villa propria circa Sabinos, annum agens aetatis sexagesimum nonum,
-                        imperii nonum et diem septimum, atque inter Divos relatus est. <milestone unit="par" n="3"/> Genituram filiorum ita cognitam habuit, ut, cum
+                        imperii nonum et diem septimum, atque inter Divos relatus est. <milestone
+                            unit="par" n="3"/> Genituram filiorum ita cognitam habuit, ut, cum
                         multae contra eum coniurationes fierent, quas patefactas ingenti
                         dissimulatione contempsit, in senatu dixerit aut filios sibi successuros,
                         aut neminem.</p>
@@ -2041,7 +2101,7 @@
                 </div>
                 <div type="cap" n="21">
                     <p>
-                  <milestone unit="par" n="1"/> Huic Titus filius successit, qui et ipse
+                        <milestone unit="par" n="1"/> Huic Titus filius successit, qui et ipse
                         Vespasianus est dictus, vir omnium virtutum genere mirabilis adeo, ut amor
                         et deliciae humani generis diceretur, facundissimus, bellicosissimus,
                         moderatissimus. Causas Latine egit, poemata et tragoedias Graece conposuit.
@@ -2053,15 +2113,17 @@
                         fuit, ut, cum nulli quicquam negaret et ab amicis reprehenderetur,
                         responderit nullum tristem debere ab imperatore discedere, praeterea, cum
                         quadam die in cena recordatus fuisset nihil se illo die cuiquam
-                        praestitisse, dixerit: "Amici, hodie diem perdidi". <milestone unit="par" n="4"/> Hic Romae amphitheatrum aedificavit et quinque milia ferarum in
+                        praestitisse, dixerit: "Amici, hodie diem perdidi". <milestone unit="par"
+                            n="4"/> Hic Romae amphitheatrum aedificavit et quinque milia ferarum in
                         dedicatione eius occidit.</p>
                     <lb/>
                 </div>
                 <div type="cap" n="22">
                     <p>
-                  <milestone unit="par" n="1"/> Per haec inusitato favore dilectus morbo periit
-                        in ea, qua pater, villa post biennium et menses octo, dies viginti, quam
-                        imperator erat factus, aetatis anno altero et quadragesimo. <milestone unit="par" n="2"/> Tantus luctus eo mortuo publicus fuit, ut omnes
+                        <milestone unit="par" n="1"/> Per haec inusitato favore dilectus morbo
+                        periit in ea, qua pater, villa post biennium et menses octo, dies viginti,
+                        quam imperator erat factus, aetatis anno altero et quadragesimo. <milestone
+                            unit="par" n="2"/> Tantus luctus eo mortuo publicus fuit, ut omnes
                         tamquam in propria doluerint orbitate. Senatus obitu ipsius circa vesperam
                         nuntiato, nocte inrupit in curiam et tantas ei mortuo laudes gratiasque
                         congessit, quantas nec vivo umquam egerat nec praesenti. Inter Divos relatus
@@ -2070,11 +2132,12 @@
                 </div>
                 <div type="cap" n="23">
                     <p>
-                  <milestone unit="par" n="1"/> Domitianus mox accepit imperium, frater ipsius
+                        <milestone unit="par" n="1"/> Domitianus mox accepit imperium, frater ipsius
                         iunior, Neroni aut Caligulae aut Tiberio similior quam patri vel fratri suo.
                         Primis tamen annis moderatus in imperio fuit, mox ad ingentia vitia
                         progressus libidinis, iracundiae, crudelitatis, avaritiae tantum in se odii
-                        concitavit, ut merita et patris et fratris aboleret. <milestone unit="par" n="2"/> Interfecit nobilissimos e senatu. Dominum se et deum primus
+                        concitavit, ut merita et patris et fratris aboleret. <milestone unit="par"
+                            n="2"/> Interfecit nobilissimos e senatu. Dominum se et deum primus
                         appellari iussit. Nullam sibi nisi auream et argenteam statuam in Capitolio
                         passus est poni. <milestone unit="par" n="3"/> Consobrinos suos interfecit.
                         Superbia quoque in eo execrabilis fuit. <milestone unit="par" n="4"/>
@@ -2096,7 +2159,7 @@
                 <head> LIBER OCTAVVS </head>
                 <div type="cap" n="1">
                     <p>
-                  <milestone unit="par" n="1"/> Anno octingentesimo et quinquagesimo ab Vrbe
+                        <milestone unit="par" n="1"/> Anno octingentesimo et quinquagesimo ab Vrbe
                         condita, Vetere et Valente consulibus res publica ad prosperrimum statum
                         rediit, bonis principibus ingenti felicitate commissa. Domitiano enim
                         exitiabili tyranno Nerva successit, vir in privata vita moderatus et
@@ -2110,7 +2173,7 @@
                 </div>
                 <div type="cap" n="2">
                     <p>
-                  <milestone unit="par" n="1"/> Successit ei Vlpius Crinitus Traianus natus
+                        <milestone unit="par" n="1"/> Successit ei Vlpius Crinitus Traianus natus
                         Italicae in Hispania, familia antiqua magis quam clara. Nam pater eius
                         primum consul fuit. Imperator autem apud Agrippinam in Galliis factus est.
                         Rem publicam ita administravit, ut omnibus principibus merito praeferatur,
@@ -2124,7 +2187,7 @@
                 </div>
                 <div type="cap" n="3">
                     <p>
-                  <milestone unit="par" n="1"/> Armeniam, quam occupaverant Parthi recepit,
+                        <milestone unit="par" n="1"/> Armeniam, quam occupaverant Parthi recepit,
                         Parthomasiri occiso, qui eam tenebat. Albanis regem dedit. Hiberorum regem
                         et Sauromatarum et Bosphoranorum et Arabum et Osdroenorum et Colchorum in
                         fidem accepit. Carduenos, Marcomedos occupavit et Anthemusium, magnam
@@ -2137,7 +2200,7 @@
                 </div>
                 <div type="cap" n="4">
                     <p>
-                  <milestone unit="par" n="1"/> Gloriam tamen militarem civilitate et
+                        <milestone unit="par" n="1"/> Gloriam tamen militarem civilitate et
                         moderatione superavit. Romae et per provincias aequalem se omnibus exhibens,
                         amicos salutandi causa frequentans vel aegrotantes vel cum festos dies
                         habuissent, convivia cum isdem indiscreta vicissim habens, saepe in
@@ -2153,7 +2216,7 @@
                 </div>
                 <div type="cap" n="5">
                     <p>
-                  <milestone unit="par" n="1"/> Inter alia dicta hoc ipsius fertur egregium.
+                        <milestone unit="par" n="1"/> Inter alia dicta hoc ipsius fertur egregium.
                         Amicis enim culpantibus, quod nimium circa omnes communis esset, respondit
                         talem se imperatorem esse privatis, quales esse sibi imperatores privatus
                         optasset. Post ingentem igitur gloriam belli domique quaesitam e Perside
@@ -2170,7 +2233,7 @@
                 </div>
                 <div type="cap" n="6">
                     <p>
-                  <milestone unit="par" n="1"/> Defuncto Traiano Aelius Hadrianus creatus est
+                        <milestone unit="par" n="1"/> Defuncto Traiano Aelius Hadrianus creatus est
                         princeps, sine aliqua quidem voluntate Traiani, sed operam dante Plotina,
                         Traiani uxore; nam eum Traianus, quamquam consobrinae suae filium, vivus
                         noluerat adoptare. Natus et ipse Italicae in Hispania. Qui Traiani gloriae
@@ -2184,7 +2247,7 @@
                 </div>
                 <div type="cap" n="7">
                     <p>
-                  <milestone unit="par" n="1"/> Pacem tamen omni imperii sui tempore habuit,
+                        <milestone unit="par" n="1"/> Pacem tamen omni imperii sui tempore habuit,
                         semel tantum per praesidem dimicavit. Orbem Romanum circumiit; multa
                         aedificavit. Facundissimus Latino sermone, Graeco eruditissimus fuit. Non
                         magnam clementiae gloriam habuit, diligentissimus tamen circa aerarium et
@@ -2197,7 +2260,7 @@
                 </div>
                 <div type="cap" n="8">
                     <p>
-                  <milestone unit="par" n="1"/> Ergo Hadriano successit T. Antoninus Fulvius
+                        <milestone unit="par" n="1"/> Ergo Hadriano successit T. Antoninus Fulvius
                         Boionius, idem etiam Pius nominatus, genere claro, sed non admodum vetere,
                         vir insignis et qui merito Numae Pompilio conferatur, ita ut Romulo Traianus
                         aequetur. Vixit ingenti honestate privatus, maiore in imperio, nulli
@@ -2216,7 +2279,7 @@
                 </div>
                 <div type="cap" n="9">
                     <p>
-                  <milestone unit="par" n="1"/> Post hunc imperavit M. Antoninus Verus, haud
+                        <milestone unit="par" n="1"/> Post hunc imperavit M. Antoninus Verus, haud
                         dubie nobilissimus, quippe cum eius origo paterna a Numa Pompilio, materna a
                         Solentino rege penderet, et cum eo L. Annius Antoninus Verus. Tumque primum
                         Romana res publica duobus aequo iure imperium administrantibus paruit, cum
@@ -2225,7 +2288,7 @@
                 </div>
                 <div type="cap" n="10">
                     <p>
-                  <milestone unit="par" n="1"/> Hi et genere inter se coniuncti fuerunt et
+                        <milestone unit="par" n="1"/> Hi et genere inter se coniuncti fuerunt et
                         adfinitate. Nam Verus Annius Antoninus M. Antonini filiam in matrimonium
                         habuit, M. autem Antoninus gener Antonini Pii fuit per uxorem Galeriam
                         Faustinam iuniorem, consobrinam suam. Hi bellum contra Parthos gesserunt,
@@ -2242,7 +2305,7 @@
                 </div>
                 <div type="cap" n="11">
                     <p>
-                  <milestone unit="par" n="1"/> Post eum M. Antoninus solus rem publicam
+                        <milestone unit="par" n="1"/> Post eum M. Antoninus solus rem publicam
                         tenuit, vir quem mirari facilius quis quam laudare possit. A principio vitae
                         tranquillissimus, adeo ut ex infantia quoque vultum nec ex gaudio nec ex
                         maerore mutaverit. Philosophiae deditus Stoicae, ipse etiam non solum vitae
@@ -2254,7 +2317,7 @@
                 </div>
                 <div type="cap" n="12">
                     <p>
-                  <milestone unit="par" n="1"/> Institutus est ad philosophiam per Apollonium
+                        <milestone unit="par" n="1"/> Institutus est ad philosophiam per Apollonium
                         Chalcedonium, ad scientiam litterarum Graecarum per Chaeronensem, Plutarchi
                         nepotem, Latinas autem eum litteras Fronto, orator nobilissimus, docuit. Hic
                         cum omnibus Romae aequo iure egit, ad nullam insolentiam elatus est imperii
@@ -2269,7 +2332,7 @@
                 </div>
                 <div type="cap" n="13">
                     <p>
-                  <milestone unit="par" n="1"/> Ingenti ergo labore et moderatione, cum apud
+                        <milestone unit="par" n="1"/> Ingenti ergo labore et moderatione, cum apud
                         Carnuntum iugi triennio perseverasset, bellum Marcomannicum confecit, quod
                         cum his Quadi, Vandali, Sarmatae, Suebi atque omnis barbaria commoverat,
                         multa hominum milia interfecit, ac Pannoniis servitio liberatis Romae rursus
@@ -2286,7 +2349,7 @@
                 </div>
                 <div type="cap" n="14">
                     <p>
-                  <milestone unit="par" n="1"/> Hic permisit viris clarioribus, ut convivia
+                        <milestone unit="par" n="1"/> Hic permisit viris clarioribus, ut convivia
                         eodem cultu, quo ipse, et ministris similibus exhiberent. In editione
                         munerum post victoriam adeo magnificus fuit, ut centum simul leones
                         exhibuisse tradatur. Cum igitur fortunatam rem publicam et virtute et
@@ -2296,7 +2359,7 @@
                 </div>
                 <div type="cap" n="15">
                     <p>
-                  <milestone unit="par" n="1"/> Huius successor L. Antoninus Commodus nihil
+                        <milestone unit="par" n="1"/> Huius successor L. Antoninus Commodus nihil
                         paternum habuit, nisi quod contra Germanos feliciter et ipse pugnavit.
                         Septembrem mensem ad nomen suum transferre conatus est, ut Commodus
                         diceretur. Sed luxuria et obscenitate depravatus gladiatoriis armis
@@ -2309,7 +2372,7 @@
                 </div>
                 <div type="cap" n="16">
                     <p>
-                  <milestone unit="par" n="1"/> Huic successit Pertinax grandaevus et qui
+                        <milestone unit="par" n="1"/> Huic successit Pertinax grandaevus et qui
                         septuagenariam attigisset aetatem, praefecturam urbi tum agens, ex senatus
                         consulto imperare iussus. Octogesimo die imperii praetorianorum militum
                         seditione et Iuliani scelere occisus est.</p>
@@ -2317,16 +2380,16 @@
                 </div>
                 <div type="cap" n="17">
                     <p>
-                  <milestone unit="par" n="1"/> Post eum Salvius Iulianus rem publicam invasit,
-                        vir nobilis et iure peritissimus, nepos Salvii Iuliani qui sub divo Hadriano
-                        perpetuum conposuit edictum. Victus est a Severo apud Mulvium pontem,
-                        interfectus in Palatio. Vixit mensibus septem, postquam coeperat
+                        <milestone unit="par" n="1"/> Post eum Salvius Iulianus rem publicam
+                        invasit, vir nobilis et iure peritissimus, nepos Salvii Iuliani qui sub divo
+                        Hadriano perpetuum conposuit edictum. Victus est a Severo apud Mulvium
+                        pontem, interfectus in Palatio. Vixit mensibus septem, postquam coeperat
                         imperare.</p>
                     <lb/>
                 </div>
                 <div type="cap" n="18">
                     <p>
-                  <milestone unit="par" n="1"/> Hinc imperii Romani administrationem Septimius
+                        <milestone unit="par" n="1"/> Hinc imperii Romani administrationem Septimius
                         Severus accepit, oriundus ex Africa, provincia Tripolitana, oppido Lepti.
                         Solus omni memoria et ante et postea ex Africa imperator fuit. Hic primum
                         fisci advocatus, mox militaris tribunus, per multa deinde et varia officia
@@ -2343,7 +2406,7 @@
                 </div>
                 <div type="cap" n="19">
                     <p>
-                  <milestone unit="par" n="1"/> Severus tamen praeter bellicam gloriam etiam
+                        <milestone unit="par" n="1"/> Severus tamen praeter bellicam gloriam etiam
                         civilibus studiis clarus fuit et litteris doctus, philosophiae scientiam ad
                         plenum adeptus. Novissimum bellum in Britannia habuit, utque receptas
                         provincias omni securitate muniret, vallum per CXXXIII passuum milia a mari
@@ -2356,9 +2419,9 @@
                 </div>
                 <div type="cap" n="20">
                     <p>
-                  <milestone unit="par" n="1"/> M. igitur Aurelius Antoninus Bassianus, idemque
-                        Caracalla, morum fere paternorum fuit, paulo asperior et minax. Opus Romae
-                        egregium fecit lavacri, quae Antoninianae appellantur, nihil praeterea
+                        <milestone unit="par" n="1"/> M. igitur Aurelius Antoninus Bassianus,
+                        idemque Caracalla, morum fere paternorum fuit, paulo asperior et minax. Opus
+                        Romae egregium fecit lavacri, quae Antoninianae appellantur, nihil praeterea
                         memorabile. Inpatientis libidinis, qui novercam suam Iuliam uxorem duxerit.
                         Defunctus est in Osdroena apud Edessam, moliens adversum Parthos
                         expeditionem anno imperii sexto, mense secundo, vix egressus quadragesimum
@@ -2367,7 +2430,7 @@
                 </div>
                 <div type="cap" n="21">
                     <p>
-                  <milestone unit="par" n="1"/> Deinde Opilius Macrinus, qui praefectus
+                        <milestone unit="par" n="1"/> Deinde Opilius Macrinus, qui praefectus
                         praetorio erat, cum filio Diadumeno facti imperatores nihil memorabile ex
                         temporis brevitate gesserunt. Nam imperium eorum duum mensium et unius anni
                         fuit. Seditione militari ambo pariter occisi sunt.</p>
@@ -2375,7 +2438,7 @@
                 </div>
                 <div type="cap" n="22">
                     <p>
-                  <milestone unit="par" n="1"/>Creatus est post hos M. Aurelius Antoninus. Hic
+                        <milestone unit="par" n="1"/>Creatus est post hos M. Aurelius Antoninus. Hic
                         Antonini Caracallae filius putabatur, sacerdos autem Heliogabali templi
                         erat. Is cum Romam ingenti et militum et senatus expectatione venisset,
                         probris se omnibus contaminavit. Inpudicissime et obscenissime vixit,
@@ -2385,7 +2448,7 @@
                 </div>
                 <div type="cap" n="23">
                     <p>
-                  <milestone unit="par" n="1"/> Successit huic Aurelius Alexander, ab exercitu
+                        <milestone unit="par" n="1"/> Successit huic Aurelius Alexander, ab exercitu
                         Caesar, a senatu Augustus nominatus, iuvenis admodum, susceptoque adversus
                         Persas bello Xerxen, eorum regem, gloriosissime vicit. Militarem disciplinam
                         severissime rexit. Quasdam tumultuantes legiones integras exauctoravit.
@@ -2398,7 +2461,7 @@
                 <head> LIBER NONVS </head>
                 <div type="cap" n="1">
                     <p>
-                  <milestone unit="par" n="1"/> Post hunc Maximinus ex corpore militari primus
+                        <milestone unit="par" n="1"/> Post hunc Maximinus ex corpore militari primus
                         ad imperium accessit sola militum voluntate, cum nulla senatus
                         intercessisset auctoritas neque ipse senator esset. Is bello adversus
                         Germanos feliciter gesto cum a militibus imperator esset appellatus, a
@@ -2408,10 +2471,11 @@
                 </div>
                 <div type="cap" n="2">
                     <p>
-                  <milestone unit="par" n="1"/> Postea tres simul Augusti fuerunt, Pupienus,
+                        <milestone unit="par" n="1"/> Postea tres simul Augusti fuerunt, Pupienus,
                         Balbinus, Gordianus, duo superiores obscurissimo genere, Gordianus nobilis,
                         quippe cuius pater, senior Gordianus, consensu militum, cum proconsulatum
-                        Africae gereret, Maximino imperante princeps fuisset electus. <milestone unit="par" n="2"/> Itaque cum Romam venissent, Balbinus et Pupienus in
+                        Africae gereret, Maximino imperante princeps fuisset electus. <milestone
+                            unit="par" n="2"/> Itaque cum Romam venissent, Balbinus et Pupienus in
                         Palatio interfecti sunt, soli Gordiano imperium reservatum. Gordianus
                         admodum puer, cum Tranquillinam Romae duxisset uxorem, Ianum Geminum aperuit
                         et ad Orientem profectus Parthis bellum intulit, qui iam moliebantur
@@ -2424,7 +2488,7 @@
                 </div>
                 <div type="cap" n="3">
                     <p>
-                  <milestone unit="par" n="1"/> Philippi duo, filius ac pater, Gordiano occiso
+                        <milestone unit="par" n="1"/> Philippi duo, filius ac pater, Gordiano occiso
                         imperium invaserunt atque exercitu incolumi reducto ad Italiam ex Syria
                         profecti sunt. His imperantibus millesimus annus Romae urbis ingenti ludorum
                         apparatu spectaculorumque celebratus est. Ambo deinde ab exercitu interfecti
@@ -2434,7 +2498,7 @@
                 </div>
                 <div type="cap" n="4">
                     <p>
-                  <milestone unit="par" n="1"/> Post hos Decius e Pannonia inferiore, Budaliae
+                        <milestone unit="par" n="1"/> Post hos Decius e Pannonia inferiore, Budaliae
                         natus, imperium sumpsit. Bellum civile, quod in Gallia motum fuerat
                         oppressit. Filium suum Caesarem fecit. Romae lavacrum aedificavit. Cum
                         biennio imperassent ipse et filius, uterque in barbarico interfecti sunt.
@@ -2443,7 +2507,7 @@
                 </div>
                 <div type="cap" n="5">
                     <p>
-                  <milestone unit="par" n="1"/> Mox imperatores creati sunt Gallus Hostilianus
+                        <milestone unit="par" n="1"/> Mox imperatores creati sunt Gallus Hostilianus
                         et Galli filius Volusianus. Sub his Aemilianus in Moesia res novas molitus
                         est; ad quem opprimendum cum ambo profecti essent, Interamnae interfecti
                         sunt non completo biennio. Nihil omnino clarum gesserunt. Sola pestilentia
@@ -2452,13 +2516,13 @@
                 </div>
                 <div type="cap" n="6">
                     <p>
-                  <milestone unit="par" n="1"/> Aemilianus obscurissime natus obscurius
+                        <milestone unit="par" n="1"/> Aemilianus obscurissime natus obscurius
                         imperavit ac tertio mense extinctus est.</p>
                     <lb/>
                 </div>
                 <div type="cap" n="7">
                     <p>
-                  <milestone unit="par" n="1"/> Hinc Licinius Valerianus in Raetia et Norico
+                        <milestone unit="par" n="1"/> Hinc Licinius Valerianus in Raetia et Norico
                         agens, ab exercitu imperator et mox Augustus est factus. Gallienus quoque
                         Romae a senatu Caesar est appellatus. Horum imperium Romano nomini
                         perniciosum et paene exitiabile fuit vel infelicitate principum vel ignavia.
@@ -2469,7 +2533,7 @@
                 </div>
                 <div type="cap" n="8">
                     <p>
-                  <milestone unit="par" n="1"/> Gallienus, cum adulescens factus esset
+                        <milestone unit="par" n="1"/> Gallienus, cum adulescens factus esset
                         Augustus, imperium primum feliciter, mox commode, ad ultimum perniciose
                         gessit. Nam iuvenis in Gallia et Illyrico multa strenue fecit, occiso apud
                         Mursam Ingenuo, qui purpuram sumpserat, et Trebelliano. Diu placidus et
@@ -2485,7 +2549,7 @@
                 </div>
                 <div type="cap" n="9">
                     <p>
-                  <milestone unit="par" n="1"/> Tum desperatis rebus et deleto paene imperio
+                        <milestone unit="par" n="1"/> Tum desperatis rebus et deleto paene imperio
                         Romano Postumus in Gallia obscurissime natus purpuram sumpsit et per annos
                         decem ita imperavit, ut consumptas paene provincias ingenti virtute et
                         moderatione reparaverit. Qui seditione militum interfectus est, quod
@@ -2500,17 +2564,17 @@
                 </div>
                 <div type="cap" n="10">
                     <p>
-                  <milestone unit="par" n="1"/> Huic successit Tetricus senator, qui Aquitaniam
-                        honore praesidis administrans absens a militibus imperator electus est et
-                        apud Burdigalam purpuram sumpsit. Seditiones multas militum pertulit. Sed
-                        dum haec in Gallia geruntur, in Oriente per Odenathum Persae victi sunt.
-                        Defensa Syria, recepta Mesopotamia, usque ad Ctesiphontem Odenathus
-                        penetravit.</p>
+                        <milestone unit="par" n="1"/> Huic successit Tetricus senator, qui
+                        Aquitaniam honore praesidis administrans absens a militibus imperator
+                        electus est et apud Burdigalam purpuram sumpsit. Seditiones multas militum
+                        pertulit. Sed dum haec in Gallia geruntur, in Oriente per Odenathum Persae
+                        victi sunt. Defensa Syria, recepta Mesopotamia, usque ad Ctesiphontem
+                        Odenathus penetravit.</p>
                     <lb/>
                 </div>
                 <div type="cap" n="11">
                     <p>
-                  <milestone unit="par" n="1"/> Ita Gallieno rem publicam deserente Romanum
+                        <milestone unit="par" n="1"/> Ita Gallieno rem publicam deserente Romanum
                         imperium in Occidente per Postumum, per Odenathum in Oriente servatum est.
                         Gallienus interea Mediolani cum Valeriano fratre occisus est imperii anno
                         nono Claudiusque ei successit a militibus electus, a senatu appellatus
@@ -2524,7 +2588,7 @@
                 </div>
                 <div type="cap" n="12">
                     <p>
-                  <milestone unit="par" n="1"/> Quintillus post eum, Claudii frater, consensu
+                        <milestone unit="par" n="1"/> Quintillus post eum, Claudii frater, consensu
                         militum imperator electus est, unicae moderationis vir et civilitatis,
                         aequandus fratri vel praeferendus. Consensu senatus appellatus Augustus,
                         septimo decimo imperii die occisus est.</p>
@@ -2532,7 +2596,7 @@
                 </div>
                 <div type="cap" n="13">
                     <p>
-                  <milestone unit="par" n="1"/> Post eum Aurelianus suscepit imperium, Dacia
+                        <milestone unit="par" n="1"/> Post eum Aurelianus suscepit imperium, Dacia
                         Ripensi oriundus, vir in bello potens, animi tamen inmodici et ad
                         crudelitatem propensioris. <supplied>Is</supplied> quoque Gothos
                         strenuissime vicit. Romanam dicionem ad fines pristinos varia bellorum
@@ -2550,7 +2614,7 @@
                 </div>
                 <div type="cap" n="14">
                     <p>
-                  <milestone unit="par" n="1"/> Hoc imperante etiam in Vrbe monetarii
+                        <milestone unit="par" n="1"/> Hoc imperante etiam in Vrbe monetarii
                         rebellaverunt vitiatis pecuniis et Felicissimo rationali interfecto. Quos
                         Aurelianus victos ultima crudelitate conpescuit. Plurimos nobiles capite
                         damnavit. Saevus et sanguinarius ac necessarius magis in quibusdam quam in
@@ -2561,7 +2625,7 @@
                 </div>
                 <div type="cap" n="15">
                     <p>
-                  <milestone unit="par" n="1"/> Vrbem Romam muris firmioribus cinxit. Templum
+                        <milestone unit="par" n="1"/> Vrbem Romam muris firmioribus cinxit. Templum
                         Soli aedificavit, in quo infinitum auri gemmarumque constituit. Provinciam
                         Daciam, quam Traianus ultra Danubium fecerat intermisit, vastato omni
                         Illyrico et Moesia, desperans eam posse retinere, abductosque Romanos ex
@@ -2578,7 +2642,7 @@
                 </div>
                 <div type="cap" n="16">
                     <p>
-                  <milestone unit="par" n="1"/> Tacitus post hunc suscepit imperium, vir
+                        <milestone unit="par" n="1"/> Tacitus post hunc suscepit imperium, vir
                         egregie moratus et rei publicae gerendae idoneus. Nihil tamen clarum potuit
                         ostendere, intra sextum mensem imperii morte praeventus. Florianus, qui
                         Tacito successerat, duobus mensibus et diebus XX in imperio fuit neque
@@ -2587,7 +2651,7 @@
                 </div>
                 <div type="cap" n="17">
                     <p>
-                  <milestone unit="par" n="1"/> Post hunc Probus, vir inlustris gloria
+                        <milestone unit="par" n="1"/> Post hunc Probus, vir inlustris gloria
                         militari, ad administrationem rei publicae accessit. Gallias a barbaris
                         occupatas ingenti proeliorum felicitate restituit. Quosdam imperium usurpare
                         conatos, scilicet Saturninum in Oriente, Proculum et Bonosum Agrippinae,
@@ -2603,7 +2667,7 @@
                 </div>
                 <div type="cap" n="18">
                     <p>
-                  <milestone unit="par" n="1"/> Post hunc Carus est factus Augustus, Narbone
+                        <milestone unit="par" n="1"/> Post hunc Carus est factus Augustus, Narbone
                         natus in Gallia. Is confestim Carinum et Numerianum filios Caesares fecit.
                         Sed dum bellum adversus Sarmatas gerit, nuntiato Persarum tumultu ad
                         Orientem profectus res contra Persas nobiles gessit. Ipsos proelio fudit,
@@ -2620,7 +2684,7 @@
                 </div>
                 <div type="cap" n="19">
                     <p>
-                  <milestone unit="par" n="1"/> Interea Carinus, quem Caesarem ad Parthos
+                        <milestone unit="par" n="1"/> Interea Carinus, quem Caesarem ad Parthos
                         proficiscens Carus in Illyrico, Gallia, Italia reliquerat, omnibus se
                         sceleribus inquinavit. Plurimos innoxios fictis criminibus occidit,
                         matrimonia nobilia corrupit, condiscipulis quoque, qui eum in auditorio vel
@@ -2634,7 +2698,7 @@
                 </div>
                 <div type="cap" n="20">
                     <p>
-                  <milestone unit="par" n="1"/> Is prima militum contione iuravit Numerianum
+                        <milestone unit="par" n="1"/> Is prima militum contione iuravit Numerianum
                         nullo suo dolo interfectum et, cum iuxta eum Aper, qui Numeriano insidias
                         fecerat, constitisset, in conspectu exercitus manu Diocletiani gladio
                         percussus est. <milestone unit="par" n="2"/> Postea Carinum omnium odio et
@@ -2649,10 +2713,10 @@
                 </div>
                 <div type="cap" n="21">
                     <p>
-                  <milestone unit="par" n="1"/> Per haec tempora etiam Carausius, qui vilissime
-                        natus strenuae militiae ordine famam egregiam fuerat consecutus, cum apud
-                        Bononiam per tractum Belgicae et Armorici pacandum mare accepisset, quod
-                        Franci et Saxones infestabant, multis barbaris saepe captis nec praeda
+                        <milestone unit="par" n="1"/> Per haec tempora etiam Carausius, qui
+                        vilissime natus strenuae militiae ordine famam egregiam fuerat consecutus,
+                        cum apud Bononiam per tractum Belgicae et Armorici pacandum mare accepisset,
+                        quod Franci et Saxones infestabant, multis barbaris saepe captis nec praeda
                         integra aut provincialibus reddita aut imperatoribus missa, cum suspicio
                         esse coepisset consulto ab eo admitti barbaros, ut transeuntes cum praeda
                         exciperet atque hac se occasione ditaret, a Maximiano iussus occidi,
@@ -2661,7 +2725,7 @@
                 </div>
                 <div type="cap" n="22">
                     <p>
-                  <milestone unit="par" n="1"/> Ita cum per omnem orbem terrarum res turbatae
+                        <milestone unit="par" n="1"/> Ita cum per omnem orbem terrarum res turbatae
                         essent, Carausius in Britanniis rebellaret, Achilleus in Aegypto, Africam
                         Quinquegentiani infestarent, Narseus Orienti bellum inferret, Diocletianus
                         Maximianum Herculium ex Caesare fecit Augustum, Constantium et Maximianum
@@ -2669,7 +2733,8 @@
                         Galerius in Dacia haud longe a Serdica natus. Atque, ut eos etiam adfinitate
                         coniungeret, Constantius privignam Herculii Theodoram accepit, ex qua postea
                         sex liberos, Constantini fratres, habuit, Galerius filiam Diocletiani
-                        Valeriam, ambo uxores, quas habuerant, repudiare conpulsi. <milestone unit="par" n="2"/> Cum Carausio tamen, cum bella frustra temptata essent
+                        Valeriam, ambo uxores, quas habuerant, repudiare conpulsi. <milestone
+                            unit="par" n="2"/> Cum Carausio tamen, cum bella frustra temptata essent
                         contra virum rei militaris peritissimum, ad postremum pax convenit. Eum post
                         septennium Allectus socius eius occidit atque ipse post eum Britannias
                         triennio tenuit. Qui ductu Asclepiodoti, praefecti praetorio, oppressus est.
@@ -2678,7 +2743,7 @@
                 </div>
                 <div type="cap" n="23">
                     <p>
-                  <milestone unit="par" n="1"/> Per idem tempus a Constantio Caesare in Gallia
+                        <milestone unit="par" n="1"/> Per idem tempus a Constantio Caesare in Gallia
                         bene pugnatum est. Circa Lingonas die una adversam et secundam fortunam
                         expertus est. Nam cum repente barbaris ingruentibus intra civitatem esset
                         coactus tam praecipiti necessitate, ut clausis portis in murum funibus
@@ -2693,7 +2758,7 @@
                 </div>
                 <div type="cap" n="24">
                     <p>
-                  <milestone unit="par" n="1"/> Galerius Maximianus primum adversus Narseum
+                        <milestone unit="par" n="1"/> Galerius Maximianus primum adversus Narseum
                         proelium insecundum habuit inter Callinicum Carrasque congressus, cum
                         inconsulte magis quam ignave dimicasset; admodum enim parva manu cum
                         copiosissimo hoste commisit. Pulsus igitur et ad Diocletianum profectus, cum
@@ -2704,7 +2769,7 @@
                 </div>
                 <div type="cap" n="25">
                     <p>
-                  <milestone unit="par" n="1"/> Mox tamen per Illyricum Moesiamque contractis
+                        <milestone unit="par" n="1"/> Mox tamen per Illyricum Moesiamque contractis
                         copiis rursus cum Narseo, Hormisdae et Saporis avo, in Armenia maiore
                         pugnavit successu ingenti nec minore consilio, simul fortitudine, quippe qui
                         etiam speculatoris munus cum altero aut tertio equite susceperit. Pulso
@@ -2719,7 +2784,7 @@
                 </div>
                 <div type="cap" n="26">
                     <p>
-                  <milestone unit="par" n="1"/> Diocletianus moratus callide fuit, sagax
+                        <milestone unit="par" n="1"/> Diocletianus moratus callide fuit, sagax
                         praeterea et admodum subtilis ingenio et qui severitatem suam aliena invidia
                         vellet explere. Diligentissimus tamen et sollertissimus princeps et qui
                         imperio Romano primus regiae consuetudinis formam magis quam Romanae
@@ -2730,7 +2795,7 @@
                 </div>
                 <div type="cap" n="27">
                     <p>
-                  <milestone unit="par" n="1"/> Herculius autem propalam ferus et incivilis
+                        <milestone unit="par" n="1"/> Herculius autem propalam ferus et incivilis
                         ingenii, asperitatem suam etiam vultus horrore significans. Hic naturae suae
                         indulgens Diocletiano in omnibus est saevioribus consiliis obsecutus. Cum
                         tamen ingravescente aevo parum se idoneum Diocletianus moderando imperio
@@ -2746,7 +2811,7 @@
                 </div>
                 <div type="cap" n="28">
                     <p>
-                  <milestone unit="par" n="1"/> Diocletianus privatus in villa, quae haud
+                        <milestone unit="par" n="1"/> Diocletianus privatus in villa, quae haud
                         procul a Salonis est, praeclaro otio senuit, inusitata virtute usus, ut
                         solus omnium post conditum Romanum imperium ex tanto fastigio sponte ad
                         privatae vitae statum civilitatemque remearet. Contigit igitur ei, quod
@@ -2758,16 +2823,18 @@
                 <head> LIBER DECIMVS </head>
                 <div type="cap" n="1">
                     <p>
-                  <milestone unit="par" n="1"/> His igitur abeuntibus administratione rei
+                        <milestone unit="par" n="1"/> His igitur abeuntibus administratione rei
                         publicae Constantius et Galerius Augusti creati sunt divisusque inter eos
                         ita Romanus orbis, ut Galliam, Italiam, Africam Constantius, Illyricum,
-                        Asiam, Orientem Galerius obtineret, sumptis duobus Caesaribus. <milestone unit="par" n="2"/> Constantius tamen, contentus dignitate Augusti
+                        Asiam, Orientem Galerius obtineret, sumptis duobus Caesaribus. <milestone
+                            unit="par" n="2"/> Constantius tamen, contentus dignitate Augusti
                         Italiae atque Africae administrandae sollicitudinem recusavit, vir egregius
                         et praestantissimae civilitatis, divitiis provincialium ac privatorum
                         studens, fisci commoda non admodum adfectans dicensque melius publicas opes
                         a privatis haberi quam intra unum claustrum reservari, adeo autem cultus
                         modici, ut festis diebus, si amicis numerosioribus esset epulandum,
-                        privatorum ei argento ostiatim petito triclinia sternerentur. <milestone unit="par" n="3"/> Hic non modo amabilis, sed etiam venerabilis Gallis
+                        privatorum ei argento ostiatim petito triclinia sternerentur. <milestone
+                            unit="par" n="3"/> Hic non modo amabilis, sed etiam venerabilis Gallis
                         fuit, praecipue quod Diocletiani suspectam prudentiam et Maximiani
                         sanguinariam temeritatem imperio eius evaserant. Obiit in Britannia Eboraci
                         principatus anno tertio decimo atque inter Divos relatus est.</p>
@@ -2775,13 +2842,14 @@
                 </div>
                 <div type="cap" n="2">
                     <p>
-                  <milestone unit="par" n="1"/> Galerius vir et probe moratus et egregius re
+                        <milestone unit="par" n="1"/> Galerius vir et probe moratus et egregius re
                         militari, cum Italiam quoque, sinente Constantio, administrationi suae
                         accessisse sentiret, Caesares duos creavit, Maximinum, quem Orienti
                         praefecit, et Severum, cui Italiam dedit. Ipse in Illyrico commoratus est.
                             <milestone unit="par" n="2"/> Verum Constantio mortuo Constantinus, ex
                         obscuriore matrimonio eius filius, in Britannia creatus est imperator et in
-                        locum patris exoptatissimus moderator accessit. <milestone unit="par" n="3"/> Romae interea praetoriani excito tumultu Maxentium, Herculii filium, qui
+                        locum patris exoptatissimus moderator accessit. <milestone unit="par" n="3"
+                        /> Romae interea praetoriani excito tumultu Maxentium, Herculii filium, qui
                         haud procul ab Vrbe in villa publica morabatur, Augustum nuncupaverunt. Quo
                         nuntio Maximianus Herculius ad spem arrectus resumendi fastigii, quod
                         invitus amiserat, Romam advolavit e Lucania, quam sedem privatus elegerat in
@@ -2795,7 +2863,7 @@
                 </div>
                 <div type="cap" n="3">
                     <p>
-                  <milestone unit="par" n="1"/> Herculius tamen Maximianus post haec in
+                        <milestone unit="par" n="1"/> Herculius tamen Maximianus post haec in
                         contione exercitus filium Maxentium nudare conatus seditionem et convicia
                         militum tulit. <milestone unit="par" n="2"/> Inde ad Gallias profectus est
                         dolo composito, tamquam a filio esset expulsus, ut Constantino genero
@@ -2811,8 +2879,8 @@
                 </div>
                 <div type="cap" n="4">
                     <p>
-                  <milestone unit="par" n="1"/> Per hoc tempus a Galerio Licinius imperator est
-                        factus Dacia oriundus, notus ei antiqua consuetudine et in bello, quod
+                        <milestone unit="par" n="1"/> Per hoc tempus a Galerio Licinius imperator
+                        est factus Dacia oriundus, notus ei antiqua consuetudine et in bello, quod
                         adversus Narseum gesserat, strenuus laboribus et officiis acceptus.
                             <milestone unit="par" n="2"/> Mors Galerii confestim secuta. Ita res
                         publica tum a novis quattuor imperatoribus tenebatur, Constantino et
@@ -2827,7 +2895,7 @@
                 </div>
                 <div type="cap" n="5">
                     <p>
-                  <milestone unit="par" n="1"/> Constantinus tamen, vir ingens et omnia
+                        <milestone unit="par" n="1"/> Constantinus tamen, vir ingens et omnia
                         efficere nitens, quae animo praeparasset, simul principatum totius orbis
                         adfectans, Licinio bellum intulit, quamquam necessitudo et adfinitas cum eo
                         esset; nam soror Constantia nupta Licinio erat. Ac primo eum in Pannonia
@@ -2838,12 +2906,13 @@
                 </div>
                 <div type="cap" n="6">
                     <p>
-                  <milestone unit="par" n="1"/> Varia deinceps inter eos bella et pax
+                        <milestone unit="par" n="1"/> Varia deinceps inter eos bella et pax
                         reconciliata ruptaque est. Postremo Licinius navali et terrestri proelio
                         victus apud Nicomediam se dedidit et contra religionem sacramenti
                         Thessalonicae privatus occisus est. <milestone unit="par" n="2"/> Eo tempore
                         res Romana sub uno Augusto et tribus Caesaribus, quod numquam alias, fuit,
-                        cum liberi Constantini Galliae, Orienti Italiaeque praeessent. <milestone unit="par" n="3"/> Verum insolentia rerum secundarum aliquantum
+                        cum liberi Constantini Galliae, Orienti Italiaeque praeessent. <milestone
+                            unit="par" n="3"/> Verum insolentia rerum secundarum aliquantum
                         Constantinus ex illa favorabili animi docilitate mutavit. Primum
                         necessitudines persecutus, egregium virum filium et sororis filium, commodae
                         indolis iuvenem, interfecit, mox uxorem, post numerosos amicos.</p>
@@ -2851,7 +2920,7 @@
                 </div>
                 <div type="cap" n="7">
                     <p>
-                  <milestone unit="par" n="1"/> Vir primo imperii tempore optimis principibus,
+                        <milestone unit="par" n="1"/> Vir primo imperii tempore optimis principibus,
                         ultimo mediis conparandus. Innumerae in eo animi corporisque virtutes
                         claruerunt. Militaris gloriae adpetentissimus, fortuna in bellis prospera
                         fuit, verum ita ut non superaret industriam. Nam etiam Gothos post civile
@@ -2865,19 +2934,20 @@
                 </div>
                 <div type="cap" n="8">
                     <p>
-                  <milestone unit="par" n="1"/> Multas leges rogavit, quasdam ex bono et aequo,
-                        plerasque superfluas, nonnullas severas, primusque urbem nominis sui ad
-                        tantum fastigium evehere molitus est, ut Romae aemulam faceret. <milestone unit="par" n="2"/> Bellum adversus Parthos moliens, qui iam Mesopotamiam
-                        fatigabant, uno et tricesimo anno imperii, aetatis sexto et sexagesimo,
-                        Nicomediae in villa publica obiit. <milestone unit="par" n="3"/> Denuntiata
-                        mors eius etiam per crinitam stellam, quae inusitatae magnitudinis
-                        aliquamdiu fulsit; eam Graeci cometen vocant. Atque inter Divos meruit
-                        referri</p>
+                        <milestone unit="par" n="1"/> Multas leges rogavit, quasdam ex bono et
+                        aequo, plerasque superfluas, nonnullas severas, primusque urbem nominis sui
+                        ad tantum fastigium evehere molitus est, ut Romae aemulam faceret.
+                            <milestone unit="par" n="2"/> Bellum adversus Parthos moliens, qui iam
+                        Mesopotamiam fatigabant, uno et tricesimo anno imperii, aetatis sexto et
+                        sexagesimo, Nicomediae in villa publica obiit. <milestone unit="par" n="3"/>
+                        Denuntiata mors eius etiam per crinitam stellam, quae inusitatae
+                        magnitudinis aliquamdiu fulsit; eam Graeci cometen vocant. Atque inter Divos
+                        meruit referri</p>
                     <lb/>
                 </div>
                 <div type="cap" n="9">
                     <p>
-                  <milestone unit="par" n="1"/> Is successores filios tres reliquit atque unum
+                        <milestone unit="par" n="1"/> Is successores filios tres reliquit atque unum
                         fratris filium. Verum Dalmatius Caesar prosperrima indole neque patruo
                         absimilis haud multo post oppressus est factione militari et Constantio,
                         patrueli suo, sinente potius quam iubente. <milestone unit="par" n="2"/>
@@ -2895,7 +2965,7 @@
                 </div>
                 <div type="cap" n="10">
                     <p>
-                  <milestone unit="par" n="1"/> Diversa Constantii fortuna fuit. A Persis enim
+                        <milestone unit="par" n="1"/> Diversa Constantii fortuna fuit. A Persis enim
                         multa et gravia perpessus, saepe captis oppidis, obsessis urbibus, caesis
                         exercitibus, nullumque ei contra Saporem prosperum proelium fuit, nisi quod
                         apud Singaram haud dubiam victoriam ferocia militum amisit, qui pugnam
@@ -2911,7 +2981,7 @@
                 </div>
                 <div type="cap" n="11">
                     <p>
-                  <milestone unit="par" n="1"/> Sed a Constantio, qui ad ultionem fraternae
+                        <milestone unit="par" n="1"/> Sed a Constantio, qui ad ultionem fraternae
                         necis bellum civile commoverat, abrogatum est Vetranioni imperium; novo
                         inusitatoque more consensu militum deponere insigne conpulsus. Romae quoque
                         tumultus fuit, Nepotiano, Constantini sororis filio, per gladiatoriam manum
@@ -2923,7 +2993,7 @@
                 </div>
                 <div type="cap" n="12">
                     <p>
-                  <milestone unit="par" n="1"/> Non multo post Magnentius apud Mursam
+                        <milestone unit="par" n="1"/> Non multo post Magnentius apud Mursam
                         profligatus acie est ac paene captus. Ingentes Romani imperii vires ea
                         dimicatione consumptae sunt, ad quaelibet bella externa idoneae, quae multum
                         triumphorum possent securitatisque conferre. <milestone unit="par" n="2"/>
@@ -2935,7 +3005,7 @@
                 </div>
                 <div type="cap" n="13">
                     <p>
-                  <milestone unit="par" n="1"/> Per haec tempora etiam a Constantio multis
+                        <milestone unit="par" n="1"/> Per haec tempora etiam a Constantio multis
                         incivilibus gestis Gallus Caesar occisus est, vir natura ferus et ad
                         tyrannidem pronior, si suo iure imperare licuisset. Silvanus quoque in
                         Gallia res novas molitus ante diem tricesimum extinctus est solusque in
@@ -2944,19 +3014,20 @@
                 </div>
                 <div type="cap" n="14">
                     <p>
-                  <milestone unit="par" n="1"/> Mox Iulianum Caesarem ad Gallias misit,
+                        <milestone unit="par" n="1"/> Mox Iulianum Caesarem ad Gallias misit,
                         patruelem suum, Galli fratrem, tradita ei in matrimonium sorore, cum multa
                         oppida barbari expugnassent, alia obsiderent, ubique foeda vastitas esset
                         Romanumque imperium non dubia iam calamitate nutaret. A quo modicis copiis
                         apud Argentoratum, Galliae urbem, ingentes Alamannorum copiae extinctae
-                        sunt, rex nobilissimus captus, Galliae restitutae. <milestone unit="par" n="2"/> Multa postea per eundem Iulianum egregia adversum barbaros gesta
+                        sunt, rex nobilissimus captus, Galliae restitutae. <milestone unit="par"
+                            n="2"/> Multa postea per eundem Iulianum egregia adversum barbaros gesta
                         sunt summotique ultra Rhenum Germani et finibus suis Romanum imperium
                         restitutum.</p>
                     <lb/>
                 </div>
                 <div type="cap" n="15">
                     <p>
-                  <milestone unit="par" n="1"/> Neque multo post, cum Germaniciani exercitus a
+                        <milestone unit="par" n="1"/> Neque multo post, cum Germaniciani exercitus a
                         Galliarum praesidio tollerentur, consensu militum Iulianus factus Augustus
                         est interiectoque anno ad Illyricum obtinendum profectus, Constantio
                         Parthicis proeliis occupato. <milestone unit="par" n="2"/> Qui rebus
@@ -2973,7 +3044,7 @@
                 </div>
                 <div type="cap" n="16">
                     <p>
-                  <milestone unit="par" n="1"/> Hinc Iulianus rerum potitus est ingentique
+                        <milestone unit="par" n="1"/> Hinc Iulianus rerum potitus est ingentique
                         apparatu Parthis intulit bellum, cui expeditioni ego quoque interfui.
                         Aliquot oppida et castella Persarum in deditionem accepit vel vi expugnavit
                         Assyriamque populatus castra apud Ctesiphontem stativa aliquamdiu habuit.
@@ -2995,7 +3066,7 @@
                 </div>
                 <div type="cap" n="17">
                     <p>
-                  <milestone unit="par" n="1"/> Post hunc Iovianus, qui tunc domesticus
+                        <milestone unit="par" n="1"/> Post hunc Iovianus, qui tunc domesticus
                         militabat, ad obtinendum imperium consensu exercitus lectus est,
                         commendatione patris militibus quam sua notior. Qui iam turbatis rebus,
                         exercitu quoque inopia laborante, uno a Persis atque altero proelio victus
@@ -3008,14 +3079,15 @@
                         conditio non penitus reprehendenda foret, si foederis necessitatem tum cum
                         integrum fuit mutare voluisset, sicut a Romanis omnibus his bellis, quae
                         commemoravi, factum est. Nam et Samnitibus et Numantinis et Numidis
-                        confestim bella inlata sunt neque pax rata fuit. <milestone unit="par" n="3"/> Sed dum aemulum imperii veretur, intra Orientem residens gloriae parum
+                        confestim bella inlata sunt neque pax rata fuit. <milestone unit="par" n="3"
+                        /> Sed dum aemulum imperii veretur, intra Orientem residens gloriae parum
                         consuluit. Isque iter ingressus atque Illyricum petens in Galatiae finibus
                         repentina morte obiit, vir alias neque iners neque inprudens.</p>
                     <lb/>
                 </div>
                 <div type="cap" n="18">
                     <p>
-                  <milestone unit="par" n="1"/> Multi exanimatum opinantur nimia cruditate
+                        <milestone unit="par" n="1"/> Multi exanimatum opinantur nimia cruditate
                         (inter cenandum enim epulis indulserat), alii odore cubiculi, quod ex
                         recenti tectorio calcis grave quiescentibus erat, quidam nimietate prunarum,
                         quas gravi frigore adoleri multas iusserat. <milestone unit="par" n="2"/>
@@ -3030,7 +3102,6 @@
                         ad maiorem scribendi diligentiam reservamus. </p>
                 </div>
             </div>
-                          
         </body>
     </text>
 </TEI>
