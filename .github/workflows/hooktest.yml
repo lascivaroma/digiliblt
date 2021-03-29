@@ -17,4 +17,4 @@ jobs:
         run: pip3 install HookTest
       - name: Run Hooktest
         run: |
-          hooktest ./ --scheme tei --workers 3 --verbose 5 --manifest --countword --console table --allowfailure 
+          hooktest ./ --scheme tei --workers 3 --verbose 7 --manifest --countword --console table --allowfailure 
