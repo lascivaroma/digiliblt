@@ -32,9 +32,9 @@
       </fileDesc>
       <encodingDesc>
          <refsDecl n="CTS">
-            <cRefPattern n="unknown" matchPattern="(\w+)"
+            <cRefPattern n="paragraph" matchPattern="(\w+)"
                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:p[@n='$1'])">
-               <p>This pointer pattern extracts unknown</p>
+               <p>This pointer pattern extracts paragraphs</p>
             </cRefPattern>
          </refsDecl>
          <projectDesc>
@@ -89,11 +89,11 @@
 
       <body xml:lang="lat" n="urn:cts:latinLit:stoa0293b.stoa003.digilibLT-lat1">
          <div>
-            <p>Maioribus nostri in Alexandria medicinam agentibus, Rufo scilicet et Philippo, Lico,
+            <p n="1">Maioribus nostri in Alexandria medicinam agentibus, Rufo scilicet et Philippo, Lico,
                Erasistrato, Pelope et Erofilo, Ypocrate et Apollinio placuit, mortuorum scrutari, ut
                scirent, unde et quomodo morirentur, quod ipsa humanitas prohibet facere, eo quod
                ipsis scrutantibus omnia manifesta atque adaperta essent.</p>
-            <p>Caput nostrum commissuras habet quinque angulosas, alterutrum se continentes, femina
+            <p n="2">Caput nostrum commissuras habet quinque angulosas, alterutrum se continentes, femina
                uero in circuiti tantum, sicut scripsit Synanchus et Erophilus anathomici, caluaria
                id est galea supposita est, quam greci mecam appellant, que coheret membrano, cui
                superposita est cutis, que habet capillos, non causa decoris, sed ut ab estu et
@@ -101,7 +101,7 @@
                   ti<supplied>m</supplied>pora, que continentur spiritualibus uenis cerebri, quibus
                superposita sunt supercilia, pilis uestita, ut si copiosus sudor uenerit opposita
                pilorum stacione contineatur, donec abstergatur, ne oculis obesse possit.</p>
-            <p>Oculi ipsi continentur a duobus neruulis, qui oriuntur per duo foramina a cerebro
+            <p n="3">Oculi ipsi continentur a duobus neruulis, qui oriuntur per duo foramina a cerebro
                ueniencia, per que tenuissime uene a parte dextra in sinistram et a sinistra in
                dextram et ueluti duos nodulos faciunt et implent quendam concauum locum. Ipsi autem
                oculi bilui sunt appellati, qui continentur tunicis .IIIJ. uel .V., quarum prima est
@@ -112,7 +112,7 @@
                primus liquor aquosus uel uitreus appellatur luciditatis causa, secundus
                cristallinus, tercius yclodes, quem nos gelidum dicere possumus. Superposita sunt
                ipsis oculis ossa, que genas uel malas uocamus.</p>
-            <p>Dentes habent uiri numero .XXXIJ., mulieres .XXX., qui adiutores sunt lingue. Organi
+            <p n="4">Dentes habent uiri numero .XXXIJ., mulieres .XXX., qui adiutores sunt lingue. Organi
                enim genus sunt, quorum modulatrix est lingua. Infans enim, quamdiu dentes non habet,
                uagit, aut, ubi duos habet uel .IIIJ. habuerit, masticat uel balbescitur et ubi
                impleuerit os dentibus, loquitur. Dentes enim nostri dati sunt nobis ad frangendum
@@ -124,7 +124,7 @@
                uel quaternas. Dentes quoque nostri ossa non sunt nec medullam habent, ideoque omnia
                ossa confringunt et omnia ossa confirmantur et curantur et ad locum suum reuocantur.
                Dentes autem sublati ad locum suum reuocari non possunt.</p>
-            <p>Palato lingua subiacet, cuius radix, que epiglotis dicitur, cooperit canulam
+            <p n="5">Palato lingua subiacet, cuius radix, que epiglotis dicitur, cooperit canulam
                spiritualern, quam greci uranos dicunt, utrolibet canales modo aperit modo claudit
                complectens. Aperit enim spiritualem canalem, quando loquimur, claudit, quando
                manducamus, quod probare possumus inter epulas risu nascente. Huic canali inconsulto
@@ -135,23 +135,23 @@
                ysofagus dicitur, aliter spiritualis, per quem spiritus datur et accipitur. Illic
                quoque cauerne due sunt, quibus fit infusio uel raptus, quod greci anathamiasim
                uocant.</p>
-            <p>Nares quidem supradictis cauernis inferuntur, que per easdem usque ad cerebrum
+            <p n="6">Nares quidem supradictis cauernis inferuntur, que per easdem usque ad cerebrum
                tendunt. Aures enim vie sunt auditus, sicut rerum natura composuit, ad cerebrum et ab
                ipso descendente faciunt exalacionem.</p>
-            <p>Coniungitut gurgulio pulmoni; palmo vero in modum fabri ferrarij follis est
+            <p n="7">Coniungitut gurgulio pulmoni; palmo vero in modum fabri ferrarij follis est
                constitutus, alter alteri spiritum tradens. Vtrasque partes pectoris superiores
                tenet, cooperiens cor ex capitibus fibrarum suarum leuiter subiacentibus utrisque in
                parte sinistra; etenim pulmo totius implet pectoris archanum.</p>
-            <p>Stomachus, qui os uentris appellatur, positus est inter utrasque partes
+            <p n="8">Stomachus, qui os uentris appellatur, positus est inter utrasque partes
                ypocondriarum, id est in medio utrarumque partium mollium costarum et inter spinas
                pulmonem medium, qui spine uentrique coniungitur, id est uentriculo.</p>
-            <p>Cor quoque inter pulmonis pennas positum est, quod habet .IIIJ. uenas, duas
+            <p n="9">Cor quoque inter pulmonis pennas positum est, quod habet .IIIJ. uenas, duas
                spirituales pulmoni affixas, ipsi spiritum dantes et accipientes, et duas
                sanguinales, iecur alentes, per quas, facta concatenacione, in totum corpus sanguis
                diffunditur et sic uene pulsum reddunt. Cor etiam iunctum est pulmoni in sinistra
                parte inclinatum sub sinistra mamilla positum cingens extremas partes pulmonis, quod
                greci dyafragma uocant, continencia pulmonem et cor.</p>
-            <p>Subiacet epar uentri et splen, sed epar latus dextrum tenet et ex obliquo extenditur
+            <p n="10">Subiacet epar uentri et splen, sed epar latus dextrum tenet et ex obliquo extenditur
                ad partem uentris et cooperit uentriculum, sub se quidem habens inherentem uesicam
                fellis rufi, que uentriculum cooperit et cum epate calefacit. Huic subiacentur
                uenter, cui coniuncta sunt latera. Venter quidem orificia habet duo, unum proximum
@@ -165,7 +165,7 @@
                intestinum, quod greci uocant ueston. Sub hoc est intestinum tenuissimum, quod greci
                ticifloren uocant. Sub est colum continens longaonem, qui iunctum uesice collo, quod
                ueretro inest. </p>
-            <p>Vesica inter duos renes continetur et decurrentes sunt uene in circuitu uesice, per
+            <p n="11">Vesica inter duos renes continetur et decurrentes sunt uene in circuitu uesice, per
                quas humor poto congregatus locio adimpletur. Coniuncti sunt uesice nerui duo dextra
                leuaque, testiculos continentes. Hos greci cremasteron uocant; illis iuncta sunt
                foramina, per que vene tenuissime neruis coniuncte et per spine medullam sperma
@@ -175,7 +175,7 @@
                molliores et fragiliores. Nam, que maiores habent, uiragines appellantur. Virorum
                testiculorum tunice quatuor sunt, prima troydes, secunda rigoydes, tercia pizoneon,
                quarta tenuissima arcos appellatur. </p>
-            <p>Mulier uero matricem habet et uuluam. Matrix quidem habet membra subiecta, quibus
+            <p n="12">Mulier uero matricem habet et uuluam. Matrix quidem habet membra subiecta, quibus
                continetur, et est naturaliter fragilis et mollissima, constans ex neruis et
                paruissimis uenulis ac tunicis duabus. Exterius neruis est firma, interius uero
                carnosa et mollis, que est directa circa intestinum, cuius ceruix tribus foraminibus
