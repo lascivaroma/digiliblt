@@ -38,7 +38,7 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern n="chapter" matchPattern="(\w+)"
+        <cRefPattern n="chapter" matchPattern="(\w+).(\w+)"
           replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:div[@n='$2'])">
           <p>This pointer pattern extracts chapters</p>
         </cRefPattern>
