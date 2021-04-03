@@ -44,7 +44,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <refsDecl n="CTS"><cRefPattern n="chapter" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])"><p>This pointer pattern extracts chapters</p></cRefPattern></refsDecl>
+         <refsDecl n="CTS"><cRefPattern n="chapter" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"><p>This pointer pattern extracts chapters</p></cRefPattern></refsDecl>
          <projectDesc>
             <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
             <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
@@ -100,7 +100,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="Léa Maronet" when="2021-04-03">Correction de la langue.</change>
+         <change who="Léa Maronet" when="2021-04-03">Correction de la langue et du Xpath.</change>
       </revisionDesc>
    </teiHeader>
 
@@ -201,6 +201,8 @@
             <p>
                <milestone unit="par" n="55"/> Nunc ordo scripturae, qui ab antiquis positus cognoscitur, nihilominus est dicendus. </p>
          </div>
+         
+         <div>
    
          <div type="cap" n="1">
             <head>[I.] ANNAEI CORNVTI DE ENVNTIATIONE VEL ORTHOGRAPHIA ISTA RELATA SVNT</head>
@@ -792,6 +794,8 @@
                <milestone unit="par" n="22"/> ‘Harpyia’, quod Grecum nomen est, per <hi rend="italic">y</hi> Grecum sequente <hi rend="italic">i</hi> Latino scribendum est, quoniam apud eos <hi rend="italic">yi</hi> diptongon est.</p>
             <p>
                <milestone unit="par" n="23"/> ‘Ara’, cum ‘altare’ significat, sine aspiratione, cum uero ‘cubile’ porcorum, cum aspiratione scribendum. </p>
+         </div>
+   
          </div>
    
          <div type="pr" n="pr">
