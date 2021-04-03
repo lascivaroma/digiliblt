@@ -38,9 +38,9 @@
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
-        <cRefPattern n="unknown" matchPattern="(\w+)"
-          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pointer pattern extracts unknown</p>
+        <cRefPattern n="book" matchPattern="(\w+)"
+          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])">
+          <p>This pointer pattern extracts books</p>
         </cRefPattern>
       </refsDecl>
       <projectDesc>
@@ -91,6 +91,9 @@
         <language ident="lat">Latino</language>
       </langUsage>
     </profileDesc>
+    <revisionDesc>
+      <change who="Hippolyte Souvay" when="2021-04-03">Réindentation. Correction du profileDesc.</change>
+    </revisionDesc>
 
   </teiHeader>
 
