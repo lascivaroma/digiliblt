@@ -32,13 +32,13 @@
         </fileDesc>
         <encodingDesc>
             <refsDecl n="CTS">
-                <cRefPattern n="unknown" matchPattern="(\w+).(\w+)"
+                <cRefPattern n="chapter" matchPattern="(\w+).(\w+)"
                     replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:div[@n='$2'])">
-                    <p>This pointer pattern extracts unknown</p>
+                    <p>This pointer pattern extracts chapter</p>
                 </cRefPattern>
-                <cRefPattern n="unknown" matchPattern="(\w+)"
+                <cRefPattern n="book" matchPattern="(\w+)"
                     replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])">
-                    <p>This pointer pattern extracts unknown</p>
+                    <p>This pointer pattern extracts book</p>
                 </cRefPattern>
             </refsDecl>
             <projectDesc>
