@@ -27,49 +27,56 @@
          </publicationStmt>
          <sourceDesc>
             <p>
-               <hi rend="italic">Monumenta Germaniae Historica</hi>, auctorum antiquissimorum tomus XI,
-     Chronicorum minorum saec. IV. V. VI. VII., vol. II, ed. Th. Mommsen, Berolini, 1894, 120-
-     161.</p>
+               <hi rend="italic">Monumenta Germaniae Historica</hi>, auctorum antiquissimorum tomus
+               XI, Chronicorum minorum saec. IV. V. VI. VII., vol. II, ed. Th. Mommsen, Berolini,
+               1894, 120- 161.</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <refsDecl n="CTS"><cRefPattern n="paragraph" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"><p>This pointer pattern extracts paragraphs</p></cRefPattern></refsDecl>
+         <refsDecl n="CTS">
+            <cRefPattern n="paragraph" matchPattern="(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+               <p>This pointer pattern extracts paragraphs</p>
+            </cRefPattern>
+         </refsDecl>
          <projectDesc>
             <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
-            <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+            <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio
+               Lana</p>
          </projectDesc>
          <editorialDecl>
             <p>
                <hi rend="bold">Modifiche apportate al testo dell'edizione di riferimento </hi>
             </p>
-            <p>La frequente abbreviazione "conss." si riporta senza il tratto orizzontale superiore; ciò
-     vale anche per l'espressione abbreviata "ppo" presente nel sottotitolo.</p>
+            <p>La frequente abbreviazione "conss." si riporta senza il tratto orizzontale superiore;
+               ciò vale anche per l'espressione abbreviata "ppo" presente nel sottotitolo.</p>
 
             <p>
                <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi>
             </p>
             <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
-     l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
-     e commenti e ogni altro contenuto redatto da editori moderni. </p>
+               l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati,
+               introduzioni, note e commenti e ogni altro contenuto redatto da editori moderni. </p>
             <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
-     correttezza di trascrizione</p>
-            <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
-     distinzione u/v minuscole.</p>
+               correttezza di trascrizione</p>
+            <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento
+               per la distinzione u/v minuscole.</p>
             <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
             <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
-     grassetto, corsivo, spaziatura espansa.</p>
+               grassetto, corsivo, spaziatura espansa.</p>
             <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
-     &lt;del&gt;testo&lt;/del&gt; si visualizza [testo] <lb/> integrazioni: &lt;supplied&gt;testo&lt;/supplied&gt; si visualizza &lt;testo&gt;<lb/>
-               <hi rend="italic">loci desperati</hi>:  &lt;unclear&gt;testo&lt;/unclear&gt; o &lt;unclear/&gt; testo
-     si visualizzano †testo† e †testo<lb/> lacuna materiale: &lt;gap/&gt; si visualizza
-     [...]<lb/> lacuna integrata dagli editori:
-     &lt;supplied&gt;&lt;gap/&gt;&lt;/supplied&gt; si visualizza &lt;...&gt;
-    </p>
-            <p>Sono stati marcati i termini in lingua greca
-     &lt;foreign xml:lang="grc"&gt;αβγ&lt;/foreign&gt;
-    </p>
-            <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf">Note di trascrizione e codifica di testi latini tardoantichi
-      [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
+               &lt;del&gt;testo&lt;/del&gt; si visualizza [testo] <lb/> integrazioni:
+               &lt;supplied&gt;testo&lt;/supplied&gt; si visualizza &lt;testo&gt;<lb/>
+               <hi rend="italic">loci desperati</hi>: &lt;unclear&gt;testo&lt;/unclear&gt; o
+               &lt;unclear/&gt; testo si visualizzano †testo† e †testo<lb/> lacuna materiale:
+               &lt;gap/&gt; si visualizza [...]<lb/> lacuna integrata dagli editori:
+               &lt;supplied&gt;&lt;gap/&gt;&lt;/supplied&gt; si visualizza &lt;...&gt; </p>
+            <p>Sono stati marcati i termini in lingua greca &lt;foreign
+               xml:lang="grc"&gt;αβγ&lt;/foreign&gt; </p>
+            <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+                  target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+                  >Note di trascrizione e codifica di testi latini tardoantichi
+                  [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
             </p>
          </editorialDecl>
       </encodingDesc>
@@ -91,24 +98,24 @@
             <p>CHRONICA MAGNI AVRELII</p>
             <p>CASSIODORI SENATORIS</p>
             <p>[v. c. et inl., ex quaestore sacri palatii, ex cons. ord., ex mag. off., ppo atque
-     patricii.]</p>
-         </div>
-         <div>  
+               patricii.]</p>
             <div type="cap" n="1">
-               <p>PRAEFATIO. Sapientia principali, qua semper magna revolvitis, in ordinem me consules digerere
-      censuistis, ut qui annum ornaveratis glorioso nomine, redderetis fastis veritatis pristinae
-      dignitatem. parui libens praeceptis et librariorum varietate detersa operi fidem historicae
-      auctoritatis inpressi, quatenus vester animus per inlustres delectatus eventus blando
-      compendio longissimam mundi percurrat aetatem.</p>
+               <p>PRAEFATIO. Sapientia principali, qua semper magna revolvitis, in ordinem me
+                  consules digerere censuistis, ut qui annum ornaveratis glorioso nomine, redderetis
+                  fastis veritatis pristinae dignitatem. parui libens praeceptis et librariorum
+                  varietate detersa operi fidem historicae auctoritatis inpressi, quatenus vester
+                  animus per inlustres delectatus eventus blando compendio longissimam mundi
+                  percurrat aetatem.</p>
             </div>
             <div type="cap" n="2">
                <p>Ab Adam primo homine usque ad diluvium, quod factum est sub Noe, colliguntur anni
-      II.CC.XLII. diluvium autem factum est propter gigantum nimiam feritatem, qui corporis
-      magnitudine parique animi saevitia praevalentes humanitatis ius omne confuderant.</p>
+                  II.CC.XLII. diluvium autem factum est propter gigantum nimiam feritatem, qui
+                  corporis magnitudine parique animi saevitia praevalentes humanitatis ius omne
+                  confuderant.</p>
             </div>
             <div type="cap" n="3">
                <p> Et a diluvio usque ad Ninum, qui primus omnium apud Assyrios regnavit, ann.
-      DCCCXCVIIII.</p>
+                  DCCCXCVIIII.</p>
             </div>
             <div type="cap" n="4">
                <p>REGES ASSYRII.</p>
@@ -186,7 +193,8 @@
                <p>Amyntes reg. ann. XLV</p>
             </div>
             <div type="cap" n="29">
-               <p>Huius temporibus Iesus successor Moysi terram Palaestinorum Iudaeae genti distribuit.</p>
+               <p>Huius temporibus Iesus successor Moysi terram Palaestinorum Iudaeae genti
+                  distribuit.</p>
             </div>
             <div type="cap" n="30">
                <p>Belochus reg. ann. XXV</p>
@@ -242,8 +250,8 @@
                <p>a quo Latini sunt appellati.</p>
             </div>
             <div type="cap" n="47">
-               <p>Huius imperii anno XXV Troia capta est. ad quem Aeneas profugus venit factusque gener eius
-      ei successit in regnum.</p>
+               <p>Huius imperii anno XXV Troia capta est. ad quem Aeneas profugus venit factusque
+                  gener eius ei successit in regnum.</p>
             </div>
             <div type="cap" n="48">
                <p>Aeneas post VIII annum Troiae captae regnavit in Italia ann. III </p>
@@ -339,8 +347,8 @@
                <p>Numa Pompilius reg. ann. XLI</p>
             </div>
             <div type="cap" n="79">
-               <p>qui duos menses anno addidit Ianuarium et Februarium, cum ante hunc decem tantum menses apud
-      Romanos fuissent.</p>
+               <p>qui duos menses anno addidit Ianuarium et Februarium, cum ante hunc decem tantum
+                  menses apud Romanos fuissent.</p>
             </div>
             <div type="cap" n="80">
                <p>Capitolium quoque a fundamentis construxit.</p>
@@ -355,7 +363,8 @@
                <p>qui primus apud Romanos purpura usus est.</p>
             </div>
             <div type="cap" n="84">
-               <p>Cuius temporibus Calchedon conditur et Byzantium, quae nunc Constantinopolis appellatur.</p>
+               <p>Cuius temporibus Calchedon conditur et Byzantium, quae nunc Constantinopolis
+                  appellatur.</p>
             </div>
             <div type="cap" n="85">
                <p>Ancus Marcius reg. ann. XXIII </p>
@@ -386,7 +395,7 @@
             </div>
             <div type="cap" n="94">
                <p>Expulso autem urbe Tarquinio bini consules coeperunt pro uno rege annis singulis
-      administrare rem publicam.</p>
+                  administrare rem publicam.</p>
             </div>
             <div type="cap" n="95">
                <p>HINC CONSVLES</p>
@@ -395,8 +404,8 @@
                <p> 245 a. u. c. Iunius Brutus et L. Tarquinius.</p>
             </div>
             <div type="cap" n="97">
-               <p>Hi annum integrum minime tenuerunt, ad peragendum tempus aliis subrogatis, id est L.
-      Valerio, Sp. Lucretio et Horatio Pulvillo.</p>
+               <p>Hi annum integrum minime tenuerunt, ad peragendum tempus aliis subrogatis, id est
+                  L. Valerio, Sp. Lucretio et Horatio Pulvillo.</p>
             </div>
             <div type="cap" n="98">
                <p>246 a. u. c. Valerius II et T Lucretius</p>
@@ -420,7 +429,8 @@
                <p>253 a. u. c. Postumus Cominius et T. Largus</p>
             </div>
             <div type="cap" n="105">
-               <p>His consulibus dictator primus T. Largus et magister equitum Sp. Cassius ordinantur.</p>
+               <p>His consulibus dictator primus T. Largus et magister equitum Sp. Cassius
+                  ordinantur.</p>
             </div>
             <div type="cap" n="106">
                <p>254 a. u. c. Ser. Sulpicius et M. Tullius</p>
@@ -567,8 +577,9 @@
                <p>302 a. u. c. T. Menenius et P. Sestius</p>
             </div>
             <div type="cap" n="154">
-               <p>303/4 a. u. c. Hoc tempore a consulibus ad decemviros translatum imperium est, per quos
-      quadraginta annis administrata res publica est, atque iterum consules creati sunt.</p>
+               <p>303/4 a. u. c. Hoc tempore a consulibus ad decemviros translatum imperium est, per
+                  quos quadraginta annis administrata res publica est, atque iterum consules creati
+                  sunt.</p>
             </div>
             <div type="cap" n="155">
                <p>305 a. u. c. L. Valerius etM. Horatius</p>
@@ -655,20 +666,21 @@
                <p>362 a. u. c. L. Valerius et M. Manlius</p>
             </div>
             <div type="cap" n="183">
-               <p>His conss. post urbem captam redeuntes Gallos dux Romanus nomine Camillus extinxit, de
-      quibus triumphans in urbe quasi et ipse patriae conditor Romulus meruit nuncupari.</p>
+               <p>His conss. post urbem captam redeuntes Gallos dux Romanus nomine Camillus
+                  extinxit, de quibus triumphans in urbe quasi et ipse patriae conditor Romulus
+                  meruit nuncupari.</p>
             </div>
             <div type="cap" n="184">
-               <p>363/79 a. u. c. Tunc dignitates mutatae sunt et in loco consulum per annos XVII tribuni
-      militares fuerunt.</p>
+               <p>363/79 a. u. c. Tunc dignitates mutatae sunt et in loco consulum per annos XVII
+                  tribuni militares fuerunt.</p>
             </div>
             <div type="cap" n="185">
-               <p>380/3 a. u. c. Quibus ob insolentiam remotis per annos IIII potestas consulum tribunorumque
-      cessavit.</p>
+               <p>380/3 a. u. c. Quibus ob insolentiam remotis per annos IIII potestas consulum
+                  tribunorumque cessavit.</p>
             </div>
             <div type="cap" n="186">
-               <p>384/7 a. u. c. Deinde rursus tribus annis per tribunos militares est administrata res
-      publica. post annos vero XXIIII reversa est dignitas consularis.</p>
+               <p>384/7 a. u. c. Deinde rursus tribus annis per tribunos militares est administrata
+                  res publica. post annos vero XXIIII reversa est dignitas consularis.</p>
             </div>
             <div type="cap" n="187">
                <p>388 a. u. c. L. Sestius de plebe et T. Aemilius Mamercus patricius</p>
@@ -839,8 +851,8 @@
                <p>442 a. u. c. M. Valerius et P. Decius</p>
             </div>
             <div type="cap" n="243">
-               <p>His conss. per Appium Claudium censorem via facta et aqua inducta est, quae ipsius nomine
-      nuncupantur.</p>
+               <p>His conss. per Appium Claudium censorem via facta et aqua inducta est, quae ipsius
+                  nomine nuncupantur.</p>
             </div>
             <div type="cap" n="244">
                <p>443 a. u. c. C. Iunius et Q. Aemilius.</p>
@@ -1060,7 +1072,8 @@
                <p>515 a. u. c. C. Manlius et Q. Valerius</p>
             </div>
             <div type="cap" n="316">
-               <p>His conss. ludis Romanis primum tragoedia et comoedia a Lucio Livio ad scaenam data.</p>
+               <p>His conss. ludis Romanis primum tragoedia et comoedia a Lucio Livio ad scaenam
+                  data.</p>
             </div>
             <div type="cap" n="317">
                <p>516 a. u. c. T. Sempronius et P. Cornelius</p>
@@ -1090,9 +1103,9 @@
                <p>524 a. u. c. M. Aemilius et M. Iunius</p>
             </div>
             <div type="cap" n="326">
-               <p>His conss. Hamilcar Hannibalis pater in Hispania bellum Romanis parans occisus est. hic
-      solitus dicere quattuor filios contra p. R. velut catulos leoninos <supplied>se</supplied>
-      educare.</p>
+               <p>His conss. Hamilcar Hannibalis pater in Hispania bellum Romanis parans occisus
+                  est. hic solitus dicere quattuor filios contra p. R. velut catulos leoninos
+                     <supplied>se</supplied> educare.</p>
             </div>
             <div type="cap" n="327">
                <p>525 a. u. c. L. Postumius et Cn. Fulvius</p>
@@ -1342,7 +1355,8 @@
                <p>601 a. u. c. Q. Fulvius et T. Annius</p>
             </div>
             <div type="cap" n="409">
-               <p>Hi primi conss. kal. Ianuariis magistratura inierunt propter subitum Celtiberiae bellum.</p>
+               <p>Hi primi conss. kal. Ianuariis magistratura inierunt propter subitum Celtiberiae
+                  bellum.</p>
             </div>
             <div type="cap" n="410">
                <p>602 a. u. c. M. Marcellus et L. Valerius </p>
@@ -1399,8 +1413,8 @@
                <p>619 a. u. c. Ser. Fulvius et Q. Calpurnius</p>
             </div>
             <div type="cap" n="428">
-               <p>His conss. Aemilianus Scipio ob Numantinum bellum, cum candidatus non esset, consul
-      creatur.</p>
+               <p>His conss. Aemilianus Scipio ob Numantinum bellum, cum candidatus non esset,
+                  consul creatur.</p>
             </div>
             <div type="cap" n="429">
                <p>620 a. u. c. P. Africanus et C. Fulvius Flaccus</p>
@@ -1466,8 +1480,8 @@
                <p>639 a. u. c. M. Metellus et M. Scaurus</p>
             </div>
             <div type="cap" n="450">
-               <p>His conss. L. Metellus et Cn. Domitius censores artem ludicram ex urbe removerunt praeter
-      Latinum tibicinem cum cantore et ludum talarium. </p>
+               <p>His conss. L. Metellus et Cn. Domitius censores artem ludicram ex urbe removerunt
+                  praeter Latinum tibicinem cum cantore et ludum talarium. </p>
             </div>
             <div type="cap" n="451">
                <p>640 a. u. c. M. Acilius Balbus et C. Cato</p>
@@ -1498,7 +1512,7 @@
             </div>
             <div type="cap" n="460">
                <p>His conss. per Servilium Caepionem consulem iudicia equitibus et senatoribus
-      communicata.</p>
+                  communicata.</p>
             </div>
             <div type="cap" n="461">
                <p>649 a. u. c. P. Rutilius Rufus et C. Manlius</p>
@@ -1697,12 +1711,12 @@
                <p>His conss. perniciosae in curia conflantur de Pompeio Caesareque discordiae.</p>
             </div>
             <div type="cap" n="526">
-               <p>Sed GAIVS IVLIVS CAESAR de Galliis veniens Pompeium fugavit Italia, aurum atque argentum
-      Romae de aerario sustulit. </p>
+               <p>Sed GAIVS IVLIVS CAESAR de Galliis veniens Pompeium fugavit Italia, aurum atque
+                  argentum Romae de aerario sustulit. </p>
             </div>
             <div type="cap" n="527">
-               <p>Ac primus Romanorum singulare optinuit imperium. a quo Caesares Romani principes appellati.
-      imperavit autem ann. IIII menses VII. sub quo hi consules fuerunt.</p>
+               <p>Ac primus Romanorum singulare optinuit imperium. a quo Caesares Romani principes
+                  appellati. imperavit autem ann. IIII menses VII. sub quo hi consules fuerunt.</p>
             </div>
             <div type="cap" n="528">
                <p>IMPERATORES ROMANI I.</p>
@@ -1714,8 +1728,8 @@
                <p>707 a. u. c. Q. Fusius et P. Vaticanus</p>
             </div>
             <div type="cap" n="531">
-               <p>His conss. Caesar Pompeium Farsalico proelio superavit. Pompeius fugiens in Aegyptum occisus
-      est.</p>
+               <p>His conss. Caesar Pompeium Farsalico proelio superavit. Pompeius fugiens in
+                  Aegyptum occisus est.</p>
             </div>
             <div type="cap" n="532">
                <p>708 a. u. c. C. Iulius Caesar III et M. Lepidus</p>
@@ -1730,18 +1744,19 @@
                <p>710 a. u. c. C. Iulius Caesar V et M. Antonius</p>
             </div>
             <div type="cap" n="536">
-               <p>His consulibus M. Antonius Lupercalibus sella aurea sedenti Caesari diadema rennuenti
-      imposuit atque idibus Martiis Caesar in Pompeia curia occisus est.</p>
+               <p>His consulibus M. Antonius Lupercalibus sella aurea sedenti Caesari diadema
+                  rennuenti imposuit atque idibus Martiis Caesar in Pompeia curia occisus est.</p>
             </div>
             <div type="cap" n="537">
-               <p>Cui successit OCTAVIANVS CAESAR, qui regnavit annis LVI mensibus VI. per quae tempora hi
-      consules extiterunt. II.</p>
+               <p>Cui successit OCTAVIANVS CAESAR, qui regnavit annis LVI mensibus VI. per quae
+                  tempora hi consules extiterunt. II.</p>
             </div>
             <div type="cap" n="538">
                <p>711 a. u. c. C. Pansa et A. Hirtius</p>
             </div>
             <div type="cap" n="539">
-               <p>His consulibus Caesar Octavianus, Antonius et Lepidus amicitiae foedus inierunt.</p>
+               <p>His consulibus Caesar Octavianus, Antonius et Lepidus amicitiae foedus
+                  inierunt.</p>
             </div>
             <div type="cap" n="540">
                <p>M. Cicero Caietae per Popilium militem eccisus est annorum LXIII.</p>
@@ -1798,7 +1813,8 @@
                <p>His conss. Nicopolim Caesar construit, ludos Actiacos instituit.</p>
             </div>
             <div type="cap" n="558">
-               <p>Antonius a Caesare proelio peremptus Alexandriae in mausoleo cum Cleopatra reconditur.</p>
+               <p>Antonius a Caesare proelio peremptus Alexandriae in mausoleo cum Cleopatra
+                  reconditur.</p>
             </div>
             <div type="cap" n="559">
                <p>725 a. u. c. C. Caesar IIII et Sex. Apuleius</p>
@@ -1814,7 +1830,7 @@
             </div>
             <div type="cap" n="563">
                <p>Ceaesar leges protulit, iudices ordinavit, provincias disposuit et ideo Augustus
-      cognominatus est.</p>
+                  cognominatus est.</p>
             </div>
             <div type="cap" n="564">
                <p>Cuius temporibus floruerunt Vergilius, Horatius et Livius.</p>
@@ -1853,8 +1869,8 @@
                <p>735 a. u. c. C. Sentius et Q. Lucretius</p>
             </div>
             <div type="cap" n="576">
-               <p>His conss. Caesari ex provinciis redeunti currus cum corona aurea decretus est, quo
-      ascendere noluit.</p>
+               <p>His conss. Caesari ex provinciis redeunti currus cum corona aurea decretus est,
+                  quo ascendere noluit.</p>
             </div>
             <div type="cap" n="577">
                <p>736 a. u. c. Cn. Lentulus et P. Lentulus</p>
@@ -1914,8 +1930,8 @@
                <p>751 a. u. c. C. Lentulus et M. Messala</p>
             </div>
             <div type="cap" n="596">
-               <p>His conss. dominus noster Iesus Christus filius dei in Bethlehem nascitur anno imperii
-      Augusti XLI.</p>
+               <p>His conss. dominus noster Iesus Christus filius dei in Bethlehem nascitur anno
+                  imperii Augusti XLI.</p>
             </div>
             <div type="cap" n="597">
                <p>752 a. u. c. C. Augustus Caesar XII et M. Plautius </p>
@@ -1939,7 +1955,8 @@
                <p>5 p. Chr. Cn. Cinna et L. Valerius</p>
             </div>
             <div type="cap" n="604">
-               <p>His conss. per dies octo Tiberis impetu miseranda clades hominum domorumque fuit.</p>
+               <p>His conss. per dies octo Tiberis impetu miseranda clades hominum domorumque
+                  fuit.</p>
             </div>
             <div type="cap" n="605">
                <p>6 p. Chr. M. Lepidus et L. Arruntius</p>
@@ -1970,8 +1987,8 @@
             </div>
             <div type="cap" n="614">
                <p>His conss. imp. Augustus obiit septuagesimo sexto anno aetatis suae, imperii autem
-      quinquagesimo sexto semis. huic successit in imperium TIBERIVS CAESAR, qui imperavit ann.
-      XXIII. Sub quo hi consules fuerunt. III.</p>
+                  quinquagesimo sexto semis. huic successit in imperium TIBERIVS CAESAR, qui
+                  imperavit ann. XXIII. Sub quo hi consules fuerunt. III.</p>
             </div>
             <div type="cap" n="615">
                <p>15 p. Chr. Drusus Caesar et C. Norbanus</p>
@@ -2034,8 +2051,8 @@
                <p>31 p. Chr. Ti. Caesar V conss. </p>
             </div>
             <div type="cap" n="635">
-               <p>His conss. dominus noster Iesus Christus passus est VIII k. Apr. et defectio solis facta
-      est, qualis ante vol postmodum numquam fuit.</p>
+               <p>His conss. dominus noster Iesus Christus passus est VIII k. Apr. et defectio solis
+                  facta est, qualis ante vol postmodum numquam fuit.</p>
             </div>
             <div type="cap" n="636">
                <p>32 p. Chr. Vinicius et Longinus</p>
@@ -2056,8 +2073,9 @@
                <p>36 p. Chr. Gallienus et Plautianus</p>
             </div>
             <div type="cap" n="642">
-               <p>His conss. Tiberius imperator in Campania moritur. cui successit C. CAESAR cognomento
-      CALIGVLA qui regnavit annis tribus et mensibus X. sub quo hi consules extiterunt. IIII.</p>
+               <p>His conss. Tiberius imperator in Campania moritur. cui successit C. CAESAR
+                  cognomento CALIGVLA qui regnavit annis tribus et mensibus X. sub quo hi consules
+                  extiterunt. IIII.</p>
             </div>
             <div type="cap" n="643">
                <p>37 p. Chr. Proculus et Nicrinus</p>
@@ -2075,9 +2093,9 @@
                <p>39 p. Chr.? Ceaesar et Iulianus</p>
             </div>
             <div type="cap" n="648">
-               <p>His conss. C. Caesar cognomento Caligula in protectoribus suis occiditur in Palatio anno
-      aetatis XXIIII. cui successit CLAVDIVS, qui imperavit annis XIII mensibus VIII diebus XXVIII.
-      sub quo hi consules fuerunt. V.</p>
+               <p>His conss. C. Caesar cognomento Caligula in protectoribus suis occiditur in
+                  Palatio anno aetatis XXIIII. cui successit CLAVDIVS, qui imperavit annis XIII
+                  mensibus VIII diebus XXVIII. sub quo hi consules fuerunt. V.</p>
             </div>
             <div type="cap" n="649">
                <p>41 p. Chr. Caesar II et Saturninus</p>
@@ -2086,8 +2104,8 @@
                <p>— Saturninus II et Venustus</p>
             </div>
             <div type="cap" n="651">
-               <p>His conss. Petrus apostolus Romam mittitur, ubi evangelium praedicans XXV annis eiusdem
-      urbis episcopus perseverat.</p>
+               <p>His conss. Petrus apostolus Romam mittitur, ubi evangelium praedicans XXV annis
+                  eiusdem urbis episcopus perseverat.</p>
             </div>
             <div type="cap" n="652">
                <p>42 p. Chr. Tiberius et Gallius</p>
@@ -2096,7 +2114,8 @@
                <p>44 p. Chr. Crispinus et Taurus</p>
             </div>
             <div type="cap" n="654">
-               <p>His conss. Claudius de Brittannis triumphavit et Orcadas insulas Romano adiecit imperio.</p>
+               <p>His conss. Claudius de Brittannis triumphavit et Orcadas insulas Romano adiecit
+                  imperio.</p>
             </div>
             <div type="cap" n="655">
                <p>45 p. Chr. Vinicins et Cornelius</p>
@@ -2108,8 +2127,8 @@
                <p>46 p. Chr. Asiaticus et Cornelius</p>
             </div>
             <div type="cap" n="658">
-               <p>His conss. descriptio Romae facta est et inventa sunt civium Romanorum centena milia et
-      XLIIII.</p>
+               <p>His conss. descriptio Romae facta est et inventa sunt civium Romanorum centena
+                  milia et XLIIII.</p>
             </div>
             <div type="cap" n="659">
                <p>Thracia hucusque regnata in provinciam redigitur.</p>
@@ -2139,8 +2158,9 @@
                <p>52 p. Chr. Silanus et Otho</p>
             </div>
             <div type="cap" n="668">
-               <p>His conss. CLAVDIVS rnoritur in Palatio anno aetatis LXIIII. huic successit NERO, qui
-      regnavit annis XIII mensibus VII diebus XXVIII. sub quo hi consules fuerunt. VI.</p>
+               <p>His conss. CLAVDIVS rnoritur in Palatio anno aetatis LXIIII. huic successit NERO,
+                  qui regnavit annis XIII mensibus VII diebus XXVIII. sub quo hi consules fuerunt.
+                  VI.</p>
             </div>
             <div type="cap" n="669">
                <p>53 p. Chr. Silanus II et Antonius II</p>
@@ -2149,7 +2169,8 @@
                <p>54 p. Chr. Marcellinus et Aviola</p>
             </div>
             <div type="cap" n="671">
-               <p>His conss. sanctus Paulus apostolus Romam vinctus a Felice praeside destinatur.</p>
+               <p>His conss. sanctus Paulus apostolus Romam vinctus a Felice praeside
+                  destinatur.</p>
             </div>
             <div type="cap" n="672">
                <p>Probus etiam eruditissimus grammaticus Romae cognoscitur.</p>
@@ -2179,22 +2200,22 @@
                <p>64 p. Chr. Crassus et Bassus</p>
             </div>
             <div type="cap" n="681">
-               <p>His conss. thermae a Nerone aedificatae, quas Neronianas appellavit, cuius odio mutato
-      vocabulo nunc Alexandrianae nominantur.</p>
+               <p>His conss. thermae a Nerone aedificatae, quas Neronianas appellavit, cuius odio
+                  mutato vocabulo nunc Alexandrianae nominantur.</p>
             </div>
             <div type="cap" n="682">
                <p>65 p. Chr. Silvanus et Paulinus</p>
             </div>
             <div type="cap" n="683">
-               <p>His conss. Nero, ut similitudinem Troiae ardentis inspiceret, plurimam partem Romanae urbis
-      incendit.</p>
+               <p>His conss. Nero, ut similitudinem Troiae ardentis inspiceret, plurimam partem
+                  Romanae urbis incendit.</p>
             </div>
             <div type="cap" n="684">
                <p>66 p. Chr. Censinus et Apuleius</p>
             </div>
             <div type="cap" n="685">
-               <p>His conss. duae provinciae factae sunt, Pontus Polemoniacus et Alpes Cottiae Cottio rege
-      defuncto.</p>
+               <p>His conss. duae provinciae factae sunt, Pontus Polemoniacus et Alpes Cottiae
+                  Cottio rege defuncto.</p>
             </div>
             <div type="cap" n="686">
                <p>67 p. Chr. Capito et Rufus</p>
@@ -2209,8 +2230,8 @@
                <p>His conss. Romae sanctus Petrus et Paulus apostoli trucidati sunt a Nerone.</p>
             </div>
             <div type="cap" n="690">
-               <p>Qui turpiter vivens, cum a senatu quaereretur ad poenam, e Palatio fugiens ad IIII urbis
-      miliarium in suburbano Nomentana via sese interfecit anno aetatis XXXII.</p>
+               <p>Qui turpiter vivens, cum a senatu quaereretur ad poenam, e Palatio fugiens ad IIII
+                  urbis miliarium in suburbano Nomentana via sese interfecit anno aetatis XXXII.</p>
             </div>
             <div type="cap" n="691">
                <p>Cui successit GALBA, qui regnavit mensibus VII.</p>
@@ -2229,8 +2250,8 @@
                <p>— Vespasianus II et Titus II</p>
             </div>
             <div type="cap" n="696">
-               <p>His conss. VESPASIANVS suscepit imperium, qui regnavit annis VIIII mensibus XI diebus XXII.
-      sub quo hi consules fuerunt. VII.</p>
+               <p>His conss. VESPASIANVS suscepit imperium, qui regnavit annis VIIII mensibus XI
+                  diebus XXII. sub quo hi consules fuerunt. VII.</p>
             </div>
             <div type="cap" n="697">
                <p>71 p. Chr. Vespasianus III et Nerva </p>
@@ -2239,8 +2260,8 @@
                <p>72 p. Chr. Vespasianus IIII et Titus III</p>
             </div>
             <div type="cap" n="699">
-               <p>His conss. Titus filius Vespasiani Iudaea capta praeter quos gladio interfecit C milia
-      captivorum publice venundavit.</p>
+               <p>His conss. Titus filius Vespasiani Iudaea capta praeter quos gladio interfecit C
+                  milia captivorum publice venundavit.</p>
             </div>
             <div type="cap" n="700">
                <p>74 p. Chr. Vespasianus V et Titus IIII</p>
@@ -2273,25 +2294,25 @@
                <p>73 p. Chr. Domitianus et Messalianus</p>
             </div>
             <div type="cap" n="710">
-               <p>His conss. Vespasianus est mortuus profluvio ventris in villa propria circa Sabinos. cui
-      TITVS filius eius succedens in utraque lingua disertissimus regnavit annis duobus mensibus
-      duobus. sub quo hi consules extiterunt. VIII.</p>
+               <p>His conss. Vespasianus est mortuus profluvio ventris in villa propria circa
+                  Sabinos. cui TITVS filius eius succedens in utraque lingua disertissimus regnavit
+                  annis duobus mensibus duobus. sub quo hi consules extiterunt. VIII.</p>
             </div>
             <div type="cap" n="711">
                <p>83 p. Chr. Domitianus II et Rufus II</p>
             </div>
             <div type="cap" n="712">
-               <p>His conss. Titus amphitheatrum Romae aedificavit et in dedicatione eius V milia ferarum
-      occidit.</p>
+               <p>His conss. Titus amphitheatrum Romae aedificavit et in dedicatione eius V milia
+                  ferarum occidit.</p>
             </div>
             <div type="cap" n="713">
                <p>84 p. Chr. Domitianus III et Sabinus</p>
             </div>
             <div type="cap" n="714">
-               <p>His conss. Titus morbo periit in eadem villa qua pater eius anno aetatis XLII ob insignem
-      mansuetudinem deliciae humani generis appellatus est. cui successit DOMITIANVS frater Titi
-      iunior crudelissimus, qui imperavit annis XV mensibus V. sub quo hi consules fuerunt.
-      VIIII.</p>
+               <p>His conss. Titus morbo periit in eadem villa qua pater eius anno aetatis XLII ob
+                  insignem mansuetudinem deliciae humani generis appellatus est. cui successit
+                  DOMITIANVS frater Titi iunior crudelissimus, qui imperavit annis XV mensibus V.
+                  sub quo hi consules fuerunt. VIIII.</p>
             </div>
             <div type="cap" n="715">
                <p>85 p. Chr. Domitianus IIII et Rufus III</p>
@@ -2324,23 +2345,23 @@
                <p>93 p. Chr. Silvanus et Priscus</p>
             </div>
             <div type="cap" n="725">
-               <p>His conss. Quintillianus ex Hispania primus Romae scholam publicam et salarium e fisco
-      accepit et claruit.</p>
+               <p>His conss. Quintillianus ex Hispania primus Romae scholam publicam et salarium e
+                  fisco accepit et claruit.</p>
             </div>
             <div type="cap" n="726">
                <p>94 p. Chr. Asprenas et Clemens </p>
             </div>
             <div type="cap" n="727">
                <p>His conss. multa moenia et celeberrima Romae facta sunt, id est Capitolium forum
-      transitorium, divorum porticus, Iseum Serapium, stadium, horrea piperataria,</p>
+                  transitorium, divorum porticus, Iseum Serapium, stadium, horrea piperataria,</p>
                <p>Vespasiani templum, Minerva Chalcedica, odion.</p>
             </div>
             <div type="cap" n="728">
                <p>95 p. Chr. Domitianus VIIII et Clemens II</p>
             </div>
             <div type="cap" n="729">
-               <p>His conss. insignissima Romae facta sunt, id est forum Traiani, thermae Traianae et
-      Titianae, senatus, ludus matutinus, mica aurea, meta sudans et pantheus.</p>
+               <p>His conss. insignissima Romae facta sunt, id est forum Traiani, thermae Traianae
+                  et Titianae, senatus, ludus matutinus, mica aurea, meta sudans et pantheus.</p>
             </div>
             <div type="cap" n="730">
                <p>97 p. Chr. Nerva II et Rufus</p>
@@ -2364,8 +2385,8 @@
                <p>His conss. Apollonius Tyaneus philosophus insignis habetur.</p>
             </div>
             <div type="cap" n="737">
-               <p>Domitianus occisus in Palatio anno aetatis XXXV. cui NERVA succedens regnat anno I mensibus
-      IIII. sub quo hi consules fuerunt. X.</p>
+               <p>Domitianus occisus in Palatio anno aetatis XXXV. cui NERVA succedens regnat anno I
+                  mensibus IIII. sub quo hi consules fuerunt. X.</p>
             </div>
             <div type="cap" n="738">
                <p>101 p. Chr. Traianus V et Orfitus</p>
@@ -2374,9 +2395,9 @@
                <p>102 p. Chr. Senecio II et Sura</p>
             </div>
             <div type="cap" n="740">
-               <p>His conss. Nerva morbo periit in hortis Sallustianis anno aetatis LXXII, cum iam TRAIANVM
-      adoptasset in filium. qui succedens imperavit annis XVIIII mensibus VI diebus XV. sub quo hi
-      consules fuerunt. XI.</p>
+               <p>His conss. Nerva morbo periit in hortis Sallustianis anno aetatis LXXII, cum iam
+                  TRAIANVM adoptasset in filium. qui succedens imperavit annis XVIIII mensibus VI
+                  diebus XV. sub quo hi consules fuerunt. XI.</p>
             </div>
             <div type="cap" n="741">
                <p>103 p. Chr. Traianus VI et Maximus</p>
@@ -2397,14 +2418,15 @@
                <p>106 p. Chr. Commodus et Caerealis</p>
             </div>
             <div type="cap" n="747">
-               <p>His conss. Traianus Hiberos Sauromatas Hosroenos Arabas Bosphoranos Colchos in foedus
-      accepit, Seleuciam Etesifontem Babylonem occupavit et tenuit.</p>
+               <p>His conss. Traianus Hiberos Sauromatas Hosroenos Arabas Bosphoranos Colchos in
+                  foedus accepit, Seleuciam Etesifontem Babylonem occupavit et tenuit.</p>
             </div>
             <div type="cap" n="748">
                <p>107 p. Chr. Senecio IIII et Sura III</p>
             </div>
             <div type="cap" n="749">
-               <p>His conss. Traianus in mari rubro classem instituit, ut per eam Indiae fines vastaret.</p>
+               <p>His conss. Traianus in mari rubro classem instituit, ut per eam Indiae fines
+                  vastaret.</p>
             </div>
             <div type="cap" n="750">
                <p>108 p. Chr. Gallus et Bradua</p>
@@ -2425,8 +2447,8 @@
                <p>113 p. Chr. Celsus et Crispinus</p>
             </div>
             <div type="cap" n="756">
-               <p>His conss. Plinius Secundus Novocomensis orator et historicus insignis habetur, cuius
-      ingenii plurima opera extant. </p>
+               <p>His conss. Plinius Secundus Novocomensis orator et historicus insignis habetur,
+                  cuius ingenii plurima opera extant. </p>
             </div>
             <div type="cap" n="757">
                <p>114 p. Chr. Asta et Piso</p>
@@ -2456,24 +2478,26 @@
                <p>120 p. Chr. Servilius et Fulvius</p>
             </div>
             <div type="cap" n="766">
-               <p>His conss. Traianus apud Seleuciam Hisauriae profluvio ventris extinctus est anno aetatis
-      LXIII mense VIIII die IIII. cuius ossa in urna aurea conlocata sub columna fori quod eius
-      nomine vocitatur recondita sunt. cuius columnae altitudo in CXL pedes erigitur. huic successit
-      HADRIANVS utraque lingua peritissimus, Italicae natus ex consobrina Traiani, qui regnavit
-      annis XX mensibus X diebus XXVIIII, sub quo hi consules fuerunt. XII.</p>
+               <p>His conss. Traianus apud Seleuciam Hisauriae profluvio ventris extinctus est anno
+                  aetatis LXIII mense VIIII die IIII. cuius ossa in urna aurea conlocata sub columna
+                  fori quod eius nomine vocitatur recondita sunt. cuius columnae altitudo in CXL
+                  pedes erigitur. huic successit HADRIANVS utraque lingua peritissimus, Italicae
+                  natus ex consobrina Traiani, qui regnavit annis XX mensibus X diebus XXVIIII, sub
+                  quo hi consules fuerunt. XII.</p>
             </div>
             <div type="cap" n="767">
                <p>121 p. Chr. Verus et Augur</p>
             </div>
             <div type="cap" n="768">
-               <p>His conss. Hadrianus Alexandriam a Romanis subversam publicis instauravit expensis.</p>
+               <p>His conss. Hadrianus Alexandriam a Romanis subversam publicis instauravit
+                  expensis.</p>
             </div>
             <div type="cap" n="769">
                <p>122 p. Chr. Aviola et Pansa</p>
             </div>
             <div type="cap" n="770">
-               <p>His conss. Hadrianus reliqua tributorum urbibus relaxavit chartis publicis incensis,
-      plurimos etiam ipsis tributis liberos fecit.</p>
+               <p>His conss. Hadrianus reliqua tributorum urbibus relaxavit chartis publicis
+                  incensis, plurimos etiam ipsis tributis liberos fecit.</p>
             </div>
             <div type="cap" n="771">
                <p>123 p. Chr. Paternus et Torquatus</p>
@@ -2486,7 +2510,7 @@
             </div>
             <div type="cap" n="774">
                <p>His conss. Nicomedia et Nicaenae urbis plurimis terrae motu conlapsis Hadrianus ad
-      instaurationem earum publicas largitur expensas.</p>
+                  instaurationem earum publicas largitur expensas.</p>
             </div>
             <div type="cap" n="775">
                <p>125 p. Chr. Asiaticus et Quintus</p>
@@ -2495,14 +2519,15 @@
                <p>126 p. Chr. Verus et Ambiguus</p>
             </div>
             <div type="cap" n="777">
-               <p>His conss. Atheniensibus leges petentibus Hadrianus ex Draconis et Solonis reliquorumque
-      libris iura composuit.</p>
+               <p>His conss. Atheniensibus leges petentibus Hadrianus ex Draconis et Solonis
+                  reliquorumque libris iura composuit.</p>
             </div>
             <div type="cap" n="778">
                <p>127 p. Chr. Gallicanus et Titianus</p>
             </div>
             <div type="cap" n="779">
-               <p>His conss. iuxta Eleusinam civitatem Cefiso fluvio Hadrianus pontem constravit.</p>
+               <p>His conss. iuxta Eleusinam civitatem Cefiso fluvio Hadrianus pontem
+                  constravit.</p>
             </div>
             <div type="cap" n="780">
                <p>128 p. Chr. Torquatus et Libo</p>
@@ -2538,8 +2563,8 @@
                <p>136 Pompeianus II et Commodus</p>
             </div>
             <div type="cap" n="791">
-               <p>His conss. Hadrianus cum insignes et plurimas aedes Athenis fecisset, agonem edidit
-      bibliothecamque miri operis exstruxit.</p>
+               <p>His conss. Hadrianus cum insignes et plurimas aedes Athenis fecisset, agonem
+                  edidit bibliothecamque miri operis exstruxit.</p>
             </div>
             <div type="cap" n="792">
                <p>137 p. Chr. Laelius et Albinus</p>
@@ -2557,16 +2582,17 @@
                <p>141 p. Chr. Severus et Silvanus</p>
             </div>
             <div type="cap" n="797">
-               <p>His conss. Aelia civitas, id est Hierusalem, ab Aelio Hadriano condita est et in fronte eius
-      portae, qua Bethleem egredimur, sus scalptus in marmore, significans Romanae potestati
-      subiacere Iudaeos.</p>
+               <p>His conss. Aelia civitas, id est Hierusalem, ab Aelio Hadriano condita est et in
+                  fronte eius portae, qua Bethleem egredimur, sus scalptus in marmore, significans
+                  Romanae potestati subiacere Iudaeos.</p>
             </div>
             <div type="cap" n="798">
                <p>142 p. Chr. Rufinus et Torquatus</p>
             </div>
             <div type="cap" n="799">
-               <p>His conss. Hadrianus morbo intercutis aquae apud Baias moritur maior sexagenario. cui
-      successit ANTONINVS PIVS, qui regnavit annis XXI. sub quo hi consules fuerunt. XIII.</p>
+               <p>His conss. Hadrianus morbo intercutis aquae apud Baias moritur maior sexagenario.
+                  cui successit ANTONINVS PIVS, qui regnavit annis XXI. sub quo hi consules fuerunt.
+                  XIII.</p>
             </div>
             <div type="cap" n="800">
                <p>143 p. Chr. Torquatus II et Herodes</p>
@@ -2582,7 +2608,7 @@
             </div>
             <div type="cap" n="804">
                <p>His conss. Iustinus philosophus librum pro Christiana religione scriptum tradidit
-      Antonino.</p>
+                  Antonino.</p>
             </div>
             <div type="cap" n="805">
                <p>Autoninus IIII et Aurelius II</p>
@@ -2612,8 +2638,8 @@
                <p>154 p. Chr. Commodus et Lateranus</p>
             </div>
             <div type="cap" n="814">
-               <p>His conss. Apollonius stoicus natione Chalcidicus et Basilides Scytopolitanus philosophi
-      inlustres habentur, qui Caesaris quoque praeceptores fuerunt.</p>
+               <p>His conss. Apollonius stoicus natione Chalcidicus et Basilides Scytopolitanus
+                  philosophi inlustres habentur, qui Caesaris quoque praeceptores fuerunt.</p>
             </div>
             <div type="cap" n="815">
                <p>155 p. Chr. Verus et Sabinus</p>
@@ -2640,10 +2666,10 @@
                <p>p.c. Antonini V et Aureli III</p>
             </div>
             <div type="cap" n="823">
-               <p>Hoc tempore Antoninus Pius apud Lorium villam suam duodecimo ab urbe miliario moritur anno
-      vitae LXXVII. usque ad hoc tempus singuli Augusti fuerunt. cui successerunt filii sui, id est
-      MARCVS ANTONINVS VERVS et LVCIVS ANNIVS ANTONINVS SEVERVS, qui regnaverunt annis XVIIII. sub
-      quibus hi consules fuerunt. XIIII.</p>
+               <p>Hoc tempore Antoninus Pius apud Lorium villam suam duodecimo ab urbe miliario
+                  moritur anno vitae LXXVII. usque ad hoc tempus singuli Augusti fuerunt. cui
+                  successerunt filii sui, id est MARCVS ANTONINVS VERVS et LVCIVS ANNIVS ANTONINVS
+                  SEVERVS, qui regnaverunt annis XVIIII. sub quibus hi consules fuerunt. XIIII.</p>
             </div>
             <div type="cap" n="824">
                <p>161 p. Chr. duo Angusti conss.</p>
@@ -2652,8 +2678,8 @@
                <p>162 p. Chr. Rusticus et Aquilinus</p>
             </div>
             <div type="cap" n="826">
-               <p>His conss. Lucio Caesari Athenis sacrificanti ignis in caelo ab occidente in orientem ferri
-      visus est.</p>
+               <p>His conss. Lucio Caesari Athenis sacrificanti ignis in caelo ab occidente in
+                  orientem ferri visus est.</p>
             </div>
             <div type="cap" n="827">
                <p>163 p. Chr. Laelianus et Pastor</p>
@@ -2663,7 +2689,7 @@
             </div>
             <div type="cap" n="829">
                <p>His conss. Fronto orator insignis habetur, qui Marcum Antoninum Latinis litteris
-      erudivit.</p>
+                  erudivit.</p>
             </div>
             <div type="cap" n="830">
                <p>165 p. Chr. Orfitus et Pudens</p>
@@ -2690,8 +2716,8 @@
                <p>171 p. Chr. Severus et Herennianus</p>
             </div>
             <div type="cap" n="838">
-               <p>His conss. Lucius Annius Antoninus Severus anno regni undecimo inter Concordiam et Altinum
-      apoplexi extinctus est sedens cum fratre in vehiculo.</p>
+               <p>His conss. Lucius Annius Antoninus Severus anno regni undecimo inter Concordiam et
+                  Altinum apoplexi extinctus est sedens cum fratre in vehiculo.</p>
             </div>
             <div type="cap" n="839">
                <p>172 p. Chr. Orfitus et Maximus</p>
@@ -2712,7 +2738,8 @@
                <p>177 p. Chr. Commodus et Quintillus</p>
             </div>
             <div type="cap" n="845">
-               <p>His conss. Marcus Antoninus Verus imperator Commodum filium suum consortem regni facit.</p>
+               <p>His conss. Marcus Antoninus Verus imperator Commodum filium suum consortem regni
+                  facit.</p>
             </div>
             <div type="cap" n="846">
                <p>178 p. Chr. Orfitus et Rufus</p>
@@ -2721,20 +2748,20 @@
                <p>His conss. imperatores de hostibus triumphant.</p>
             </div>
             <div type="cap" n="848">
-               <p>Et pecuniam quae fisco debehatur provinciis concedentes tabulas debitorum in medio Romanae
-      urbis foro incendio concremarunt. ac ne quid bonitatis deesset, severiores quasque leges novis
-      constitutionibus temperarunt. </p>
+               <p>Et pecuniam quae fisco debehatur provinciis concedentes tabulas debitorum in medio
+                  Romanae urbis foro incendio concremarunt. ac ne quid bonitatis deesset, severiores
+                  quasque leges novis constitutionibus temperarunt. </p>
             </div>
             <div type="cap" n="849">
                <p>179 p. Chr. Commodus II et Verus II</p>
             </div>
             <div type="cap" n="850">
-               <p>His conss. Antoninus Verus adeo in editione munerum magnificus fuit, ut centum simul leones
-      exhibuerit.</p>
+               <p>His conss. Antoninus Verus adeo in editione munerum magnificus fuit, ut centum
+                  simul leones exhibuerit.</p>
             </div>
             <div type="cap" n="851">
-               <p>Qui post in Pannonia morbo periit. COMMODVS filius eius a senatu Augustus est appellatus,
-      qui regnavit ann. XIII. sub quo hi consules fuerunt. XV.</p>
+               <p>Qui post in Pannonia morbo periit. COMMODVS filius eius a senatu Augustus est
+                  appellatus, qui regnavit ann. XIII. sub quo hi consules fuerunt. XV.</p>
             </div>
             <div type="cap" n="852">
                <p>180 p. Chr. Praesens et Gordianus</p>
@@ -2770,7 +2797,8 @@
                <p>189 p. Chr. Duo et Silani</p>
             </div>
             <div type="cap" n="863">
-               <p>His conss. Commodus imperator colossi capite sublato suae imaginis caput iussit inponi.</p>
+               <p>His conss. Commodus imperator colossi capite sublato suae imaginis caput iussit
+                  inponi.</p>
             </div>
             <div type="cap" n="864">
                <p>190 p. Chr. Commodus VI et Septimianus</p>
@@ -2782,16 +2810,16 @@
                <p>192 p. Chr. Commodus VII et Pertinax</p>
             </div>
             <div type="cap" n="867">
-               <p>His conss. Commodus strangulatur in domo Vestiliani. cui successit PERTINAX, qui regnavit
-      mensibus VI. XVI.</p>
+               <p>His conss. Commodus strangulatur in domo Vestiliani. cui successit PERTINAX, qui
+                  regnavit mensibus VI. XVI.</p>
             </div>
             <div type="cap" n="868">
                <p>193 p. Chr. Falco et Clarus</p>
             </div>
             <div type="cap" n="869">
-               <p>His conss. Pertinax occiditur in Palatio maior septuagenario. cui successit SEVERVS,
-      provincia Tripolitana natus, oppido Lepti, solusque Afer imperator Romanus fuit, qui regnavit
-      annis XVIII. sub quo hi consules fuerunt. XVII.</p>
+               <p>His conss. Pertinax occiditur in Palatio maior septuagenario. cui successit
+                  SEVERVS, provincia Tripolitana natus, oppido Lepti, solusque Afer imperator
+                  Romanus fuit, qui regnavit annis XVIII. sub quo hi consules fuerunt. XVII.</p>
             </div>
             <div type="cap" n="870">
                <p>194 p. Chr. Severus et Albinus</p>
@@ -2812,8 +2840,8 @@
                <p>199 p. Chr. Anulinus et Fronto</p>
             </div>
             <div type="cap" n="876">
-               <p>His conss. Severus Parthos et Adiabenos superavit Arabasque interiores ita cecidit, ut
-      regionem eorum Romanam provinciam faceret.</p>
+               <p>His conss. Severus Parthos et Adiabenos superavit Arabasque interiores ita
+                  cecidit, ut regionem eorum Romanam provinciam faceret.</p>
             </div>
             <div type="cap" n="877">
                <p>200 p. Chr. Severus II et Victorinus</p>
@@ -2822,8 +2850,8 @@
                <p>201 p. Chr. Fabianus et Mucianus</p>
             </div>
             <div type="cap" n="879">
-               <p>His conss. thermae Severianae apud Antiochiam et Romae factae, et Septizodium instructum
-      est.</p>
+               <p>His conss. thermae Severianae apud Antiochiam et Romae factae, et Septizodium
+                  instructum est.</p>
             </div>
             <div type="cap" n="880">
                <p>202 p. Chr. Severus III et Antoninus</p>
@@ -2844,8 +2872,9 @@
                <p>207 p. Chr. Aper et Maximus</p>
             </div>
             <div type="cap" n="886">
-               <p>His conss. Severus inBrittannos bellum movit, ubi ut receptas provincias ab incursione
-      barbarica faceret securiores, vallum per CXXXII passuum milia a mari ad mare duxit.</p>
+               <p>His conss. Severus inBrittannos bellum movit, ubi ut receptas provincias ab
+                  incursione barbarica faceret securiores, vallum per CXXXII passuum milia a mari ad
+                  mare duxit.</p>
             </div>
             <div type="cap" n="887">
                <p>208 p. Chr. Antoninus III et Geta III</p>
@@ -2866,8 +2895,9 @@
                <p>211 p. Chr. Gentianus et Bassus</p>
             </div>
             <div type="cap" n="893">
-               <p>His conss. Severus imperator Eboraci in Brittannia moritur. cui successit ANTONINVS
-      CARACALLA Severi filius, qui regnavit annis VII. sub quo hi consules fuerunt. XVIII.</p>
+               <p>His conss. Severus imperator Eboraci in Brittannia moritur. cui successit
+                  ANTONINVS CARACALLA Severi filius, qui regnavit annis VII. sub quo hi consules
+                  fuerunt. XVIII.</p>
             </div>
             <div type="cap" n="894">
                <p>212 p. Chr. Duo et Aspri</p>
@@ -2879,7 +2909,8 @@
                <p>214 p. Chr. Messala et Sabinus</p>
             </div>
             <div type="cap" n="897">
-               <p>His conss. Antoninus Caracalla cognominatur propter genus vestis, quod Romae erogaverat.</p>
+               <p>His conss. Antoninus Caracalla cognominatur propter genus vestis, quod Romae
+                  erogaverat.</p>
             </div>
             <div type="cap" n="898">
                <p>215 p. Chr. Laetus et Caerealis</p>
@@ -2897,16 +2928,16 @@
                <p>218 p. Chr. Antoninus et Adventus</p>
             </div>
             <div type="cap" n="903">
-               <p>His conss. Antoninus interficitur inter Edessam et Carras anno aetatis XLIII. cui successit
-      MACRINVS praefecturam praetorianam gerens; regnavit autem ann. I. sub quo hi consules fuerunt.
-      XVIIII.</p>
+               <p>His conss. Antoninus interficitur inter Edessam et Carras anno aetatis XLIII. cui
+                  successit MACRINVS praefecturam praetorianam gerens; regnavit autem ann. I. sub
+                  quo hi consules fuerunt. XVIIII.</p>
             </div>
             <div type="cap" n="904">
                <p>219 p. Chr. Antoninus II et Sacerdos</p>
             </div>
             <div type="cap" n="905">
-               <p>His conss. Macrinus occiditur in Archelaide. cui successit M. AVRELIVS ANTONINVS, qui
-      regnavit ann. IIII. sub quo hi consules fuerunt.XX.</p>
+               <p>His conss. Macrinus occiditur in Archelaide. cui successit M. AVRELIVS ANTONINVS,
+                  qui regnavit ann. IIII. sub quo hi consules fuerunt.XX.</p>
             </div>
             <div type="cap" n="906">
                <p>220 p. Chr. Antoninus III et Comazon</p>
@@ -2921,14 +2952,16 @@
                <p>222 p. Chr. Alexander et Augustus </p>
             </div>
             <div type="cap" n="910">
-               <p>His conss. in Palaestina Nicopolis quae prius Emmaus vocabatur urbs condita est.</p>
+               <p>His conss. in Palaestina Nicopolis quae prius Emmaus vocabatur urbs condita
+                  est.</p>
             </div>
             <div type="cap" n="911">
                <p>223 p. Chr. Maximus et Helianus</p>
             </div>
             <div type="cap" n="912">
-               <p>His conss. M. Aurelius Antoninus Romae occiditur tumultu militari. cui successit ALEXANDER
-      Mamaeae filius, qui regnavit annis XIII. sub quo hi consules fuerunt. XXI.</p>
+               <p>His conss. M. Aurelius Antoninus Romae occiditur tumultu militari. cui successit
+                  ALEXANDER Mamaeae filius, qui regnavit annis XIII. sub quo hi consules fuerunt.
+                  XXI.</p>
             </div>
             <div type="cap" n="913">
                <p>224 p. Chr. Iulianus et Crispinus</p>
@@ -2973,7 +3006,8 @@
                <p>232 p. Chr. Lupus et Maximus</p>
             </div>
             <div type="cap" n="927">
-               <p>His conss. Alexander in matrem Mamaeam unice pius fuit et ob hoc cunctis amabilis.</p>
+               <p>His conss. Alexander in matrem Mamaeam unice pius fuit et ob hoc cunctis
+                  amabilis.</p>
             </div>
             <div type="cap" n="928">
                <p>233 p. Chr. Maximus et Paternus</p>
@@ -2985,9 +3019,9 @@
                <p>235 p. Chr. Severus et Quintianus</p>
             </div>
             <div type="cap" n="931">
-               <p>His conss. Alexander occiditur Mogontiaci tumultu militari. cui successit MAXIMINVS regnans
-      annis tribus, primus omnium ex corpore militari imperator electus. sub quo hi conss. fuerunt.
-      XXII.</p>
+               <p>His conss. Alexander occiditur Mogontiaci tumultu militari. cui successit
+                  MAXIMINVS regnans annis tribus, primus omnium ex corpore militari imperator
+                  electus. sub quo hi conss. fuerunt. XXII.</p>
             </div>
             <div type="cap" n="932">
                <p>236 p. Chr. Maximinus et Africanus</p>
@@ -2999,8 +3033,8 @@
                <p>238 p. Chr. Pius et Proculus</p>
             </div>
             <div type="cap" n="935">
-               <p>His conss. Maximinus Aquileiae occiditur. cui successit GORDIANVS, qui regnavit ann. VI. sub
-      quo hi consules fuerunt.XXIII.</p>
+               <p>His conss. Maximinus Aquileiae occiditur. cui successit GORDIANVS, qui regnavit
+                  ann. VI. sub quo hi consules fuerunt.XXIII.</p>
             </div>
             <div type="cap" n="936">
                <p>239 p. Chr. Gordianus et Aviola</p>
@@ -3009,8 +3043,8 @@
                <p>240 p. Chr. Sabinus et Venustus</p>
             </div>
             <div type="cap" n="938">
-               <p>His conss. Gordiano Romae ingresso Pupienus et Albinus, qui imperium arripuerant, in Palatio
-      occisi sunt.</p>
+               <p>His conss. Gordiano Romae ingresso Pupienus et Albinus, qui imperium arripuerant,
+                  in Palatio occisi sunt.</p>
             </div>
             <div type="cap" n="939">
                <p>241 p. Chr. Gordianus II et Pompeianus</p>
@@ -3025,12 +3059,12 @@
                <p>244 p. Chr. Peregrinus et Aemilianus</p>
             </div>
             <div type="cap" n="943">
-               <p>His conss. Gordianus admodum adulescens Parthorum natione superata cum victor reverteretur
-      ad patriam, fraude Philippi p(raefecti) p(raetori)o haud longe a Romano solo interfectus est.
-      Gordiano milites tumulum aedificant supra Eufratem ossibus eius Romam revectis. cui successit
-      PHILIPPVS, qui regnavit annis VII. qui mox PHILIPPVM FILIVM suum consortem regni facit
-      primusque omnium ex Romanis imperatoribus Christianus fuit. sub quo hi consules fuerunt.
-      XXIIII. </p>
+               <p>His conss. Gordianus admodum adulescens Parthorum natione superata cum victor
+                  reverteretur ad patriam, fraude Philippi p(raefecti) p(raetori)o haud longe a
+                  Romano solo interfectus est. Gordiano milites tumulum aedificant supra Eufratem
+                  ossibus eius Romam revectis. cui successit PHILIPPVS, qui regnavit annis VII. qui
+                  mox PHILIPPVM FILIVM suum consortem regni facit primusque omnium ex Romanis
+                  imperatoribus Christianus fuit. sub quo hi consules fuerunt. XXIIII. </p>
             </div>
             <div type="cap" n="944">
                <p>245 p. Chr. Philippus et Titianus</p>
@@ -3048,10 +3082,11 @@
                <p>249 p. Chr. Aemilianus et Aquilinus</p>
             </div>
             <div type="cap" n="949">
-               <p>His conss. millesimus annus urbis Romae expletus est, ob quam sollemnitatem innumerabiles
-      Philippus cum filio suo bestias in circo magno interfecit ludosque in campo Martio theatrales
-      tribus diebus ac noctibus populo pervigilante celebravit. quadraginta etiam missus natali
-      Romanae urbis cucurrerunt et agon mille annorum actus.</p>
+               <p>His conss. millesimus annus urbis Romae expletus est, ob quam sollemnitatem
+                  innumerabiles Philippus cum filio suo bestias in circo magno interfecit ludosque
+                  in campo Martio theatrales tribus diebus ac noctibus populo pervigilante
+                  celebravit. quadraginta etiam missus natali Romanae urbis cucurrerunt et agon
+                  mille annorum actus.</p>
             </div>
             <div type="cap" n="950">
                <p>Philippus urbem nominis sui in Thracia construxit.</p>
@@ -3063,20 +3098,21 @@
                <p>251 p. Chr. Decius II et Rusticus</p>
             </div>
             <div type="cap" n="953">
-               <p>His conss. Philippus senior Veronae, Romae vero iunior occiditur. his successit DECIVS, qui
-      regnavit anno I mensibus tribus, quantum ad consules autem annum I. sub quo hi consules
-      fuerunt. XXV.</p>
+               <p>His conss. Philippus senior Veronae, Romae vero iunior occiditur. his successit
+                  DECIVS, qui regnavit anno I mensibus tribus, quantum ad consules autem annum I.
+                  sub quo hi consules fuerunt. XXV.</p>
             </div>
             <div type="cap" n="954">
                <p>252 p. Chr. Gallus et Volusianus</p>
             </div>
             <div type="cap" n="955">
-               <p>His conss. Decius lavacra publica aedificavit, quae suo nomine appellari iussit.</p>
+               <p>His conss. Decius lavacra publica aedificavit, quae suo nomine appellari
+                  iussit.</p>
             </div>
             <div type="cap" n="956">
-               <p>Decius cum filio suo in Abritto Thraciae loco a Gothis occiditur. cui successit GALLVS CVM
-      VOLVSIANO filio, qui regnaverunt annis II et mensibus IIII, quantum ad consulatum autem annis
-      tantum duobus. sub quibus hi conss. fuerunt. XXVI.</p>
+               <p>Decius cum filio suo in Abritto Thraciae loco a Gothis occiditur. cui successit
+                  GALLVS CVM VOLVSIANO filio, qui regnaverunt annis II et mensibus IIII, quantum ad
+                  consulatum autem annis tantum duobus. sub quibus hi conss. fuerunt. XXVI.</p>
             </div>
             <div type="cap" n="957">
                <p>253 p. Chr. Volusianus II et Maximus</p>
@@ -3088,8 +3124,9 @@
                <p>254 p. Chr. Valerianus et Gallienus</p>
             </div>
             <div type="cap" n="960">
-               <p>His conss. Gallus et Volusianus Teramnae interfecti sunt. quibus successerunt VALERIANVS ET
-      GALLIENVS, qui regnaverunt annis XV. sub quibus hi conss. fuerunt. XXVII.</p>
+               <p>His conss. Gallus et Volusianus Teramnae interfecti sunt. quibus successerunt
+                  VALERIANVS ET GALLIENVS, qui regnaverunt annis XV. sub quibus hi conss. fuerunt.
+                  XXVII.</p>
             </div>
             <div type="cap" n="961">
                <p>255 p. Chr. Valerianus II et Gallienus II</p>
@@ -3102,14 +3139,14 @@
             </div>
             <div type="cap" n="964">
                <p>His conss. Cyprianus, primum rhetor, deinde presbyter, ad extremum Carthaginiensis
-      episcopus, martyrio coronatur.</p>
+                  episcopus, martyrio coronatur.</p>
             </div>
             <div type="cap" n="965">
                <p>258 p. Chr. Tuscus et Bassus</p>
             </div>
             <div type="cap" n="966">
-               <p>His conss. Valerianus in Christianos persecutione commota statim a Sapore Persarum rege
-      capitur ibique servitute miserabili consenescit.</p>
+               <p>His conss. Valerianus in Christianos persecutione commota statim a Sapore Persarum
+                  rege capitur ibique servitute miserabili consenescit.</p>
             </div>
             <div type="cap" n="967">
                <p>259 p. Chr. Aemilianus et Bassus</p>
@@ -3127,8 +3164,8 @@
                <p>263 p. Chr. Albinus et Maximus</p>
             </div>
             <div type="cap" n="972">
-               <p>His conss. Graecia Macedonia Pontus Asia depopulata per Gothos, aliasque provincias
-      barbarorum quassavit inruptio.</p>
+               <p>His conss. Graecia Macedonia Pontus Asia depopulata per Gothos, aliasque
+                  provincias barbarorum quassavit inruptio.</p>
             </div>
             <div type="cap" n="973">
                <p>264 p. Chr. Gallienus VI et Saturninus</p>
@@ -3149,8 +3186,8 @@
                <p>269 p. Chr. Claudius et Paternus</p>
             </div>
             <div type="cap" n="979">
-               <p>His conss. Gallienus Mediolani occiditur, cui successit CLAVDIVS, qui regnavit anno I
-      mensibus VIIII. sub quo hi consules fuerunt. XXVIII.</p>
+               <p>His conss. Gallienus Mediolani occiditur, cui successit CLAVDIVS, qui regnavit
+                  anno I mensibus VIIII. sub quo hi consules fuerunt. XXVIII.</p>
             </div>
             <div type="cap" n="980">
                <p>270 p. Chr. Antiochianus et Orphitus</p>
@@ -3162,12 +3199,12 @@
                <p>His conss. Claudius barbaros vastantes repellit</p>
             </div>
             <div type="cap" n="983">
-               <p>et Sirmi moritur. huic successit QVINTILLVS Claudii frater a senatu Augustus appellatus qui
-      XVII imperii sui die Aquileiae occiditur.</p>
+               <p>et Sirmi moritur. huic successit QVINTILLVS Claudii frater a senatu Augustus
+                  appellatus qui XVII imperii sui die Aquileiae occiditur.</p>
             </div>
             <div type="cap" n="984">
-               <p>Post quem AVRELIANVS factus est imperator, qui regnavit annis V mensibus VI. sub quo hi
-      consules fuerunt. XXVIIII.</p>
+               <p>Post quem AVRELIANVS factus est imperator, qui regnavit annis V mensibus VI. sub
+                  quo hi consules fuerunt. XXVIIII.</p>
             </div>
             <div type="cap" n="985">
                <p>272 p. Chr. Quietus et Voldumianus </p>
@@ -3179,13 +3216,15 @@
                <p>274 p. Chr. Aurelianus et Capitolinus </p>
             </div>
             <div type="cap" n="988">
-               <p>His conss. Aurelianum Romae triumphantem captivi Tetricus et Zenobia praecesserunt.</p>
+               <p>His conss. Aurelianum Romae triumphantem captivi Tetricus et Zenobia
+                  praecesserunt.</p>
             </div>
             <div type="cap" n="989">
                <p>275 p. Chr. Aurelianus II et Marcellus</p>
             </div>
             <div type="cap" n="990">
-               <p>His conss. Aurelianus templum Soli aedificavit, Romam firmioribus muris vallat.</p>
+               <p>His conss. Aurelianus templum Soli aedificavit, Romam firmioribus muris
+                  vallat.</p>
             </div>
             <div type="cap" n="991">
                <p>277 p. Chr. Probus et Paulinus</p>
@@ -3194,25 +3233,26 @@
                <p>278 p. Chr. Probus II et Paternus II</p>
             </div>
             <div type="cap" n="993">
-               <p>His conss. inter Constantinopolim et Heracliam Aurelianus occiditur. cui successit TACITVS,
-      qui regnavit mensibus VI. sub quo hi consules fuerunt. XXX.</p>
+               <p>His conss. inter Constantinopolim et Heracliam Aurelianus occiditur. cui successit
+                  TACITVS, qui regnavit mensibus VI. sub quo hi consules fuerunt. XXX.</p>
             </div>
             <div type="cap" n="994">
                <p>279 p. Chr. Probus III et Paternus III </p>
             </div>
             <div type="cap" n="995">
-               <p>His conss. Tacitus in Ponto occisus est et optinuit FLORIANVS imperium diebus LXXXVIII.</p>
+               <p>His conss. Tacitus in Ponto occisus est et optinuit FLORIANVS imperium diebus
+                  LXXXVIII.</p>
             </div>
             <div type="cap" n="996">
-               <p>Hoc quoque apud Tarsim interfecto PROBVS factus est imperator, qui regnavit annis VI
-      mensibus III. sub quo hi consules fuerunt. XXXI.</p>
+               <p>Hoc quoque apud Tarsim interfecto PROBVS factus est imperator, qui regnavit annis
+                  VI mensibus III. sub quo hi consules fuerunt. XXXI.</p>
             </div>
             <div type="cap" n="997">
                <p>280 p. Chr. Messala et Gratus</p>
             </div>
             <div type="cap" n="998">
                <p>His conss. Galliae, quae fuerant a barbaris occupatae, a Probo Romano restituuntur
-      imperio.</p>
+                  imperio.</p>
             </div>
             <div type="cap" n="999">
                <p>281 p. Chr. Probus IIII et Tiberianus</p>
@@ -3233,24 +3273,24 @@
                <p>285 p. Chr. Diocletianus et Aristobolus</p>
             </div>
             <div type="cap" n="1005">
-               <p>His conss. Probus apud Sirmium tumultu militari in turre quae vocatur Ferrata occiditur. cui
-      successit CARVS CVM filiis suis CARINO ET NVMERIANO, qui reguaverunt annis duobus. sub quibus
-      hi consules fuerunt. XXXII.</p>
+               <p>His conss. Probus apud Sirmium tumultu militari in turre quae vocatur Ferrata
+                  occiditur. cui successit CARVS CVM filiis suis CARINO ET NVMERIANO, qui
+                  reguaverunt annis duobus. sub quibus hi consules fuerunt. XXXII.</p>
             </div>
             <div type="cap" n="1006">
                <p>286 p. Chr. Maximus et Aquilinus</p>
             </div>
             <div type="cap" n="1007">
-               <p>His conss. cum Carus devictis Parthis castra supra Tigridem posuisset, fulmine ictus
-      interiit.</p>
+               <p>His conss. cum Carus devictis Parthis castra supra Tigridem posuisset, fulmine
+                  ictus interiit.</p>
             </div>
             <div type="cap" n="1008">
                <p>287 p. Chr. Diocletianus et Maximianus</p>
             </div>
             <div type="cap" n="1009">
-               <p>His conss. Numerianus occiditur. Carinus apud Margum proelio victus interiit. post quos
-      DIOCLETIANVS Dalmata suscepit imperium, qui regnavit annis XX. sub quo hi consules fuerunt
-      XXXIII.</p>
+               <p>His conss. Numerianus occiditur. Carinus apud Margum proelio victus interiit. post
+                  quos DIOCLETIANVS Dalmata suscepit imperium, qui regnavit annis XX. sub quo hi
+                  consules fuerunt XXXIII.</p>
             </div>
             <div type="cap" n="1010">
                <p>288 p. Chr. Maximianus II et Ianuarius</p>
@@ -3289,9 +3329,9 @@
                <p>298 p. Chr. Faustus et Gallus</p>
             </div>
             <div type="cap" n="1022">
-               <p>His conss. primus Diocletianus adorari se iussit ut deum et gemmas vestibus calciamentisque
-      conseruit, cum ante eum omnes imperatores in modum iudicum salutarentur et chlamydem tantum
-      purpuream a privato habitu plus haberent.</p>
+               <p>His conss. primus Diocletianus adorari se iussit ut deum et gemmas vestibus
+                  calciamentisque conseruit, cum ante eum omnes imperatores in modum iudicum
+                  salutarentur et chlamydem tantum purpuream a privato habitu plus haberent.</p>
             </div>
             <div type="cap" n="1023">
                <p>299 p. Chr. Diocletianus VI et Maximianus VI</p>
@@ -3321,8 +3361,9 @@
                <p>306 p. Chr. Constantius VI et Maximus VI</p>
             </div>
             <div type="cap" n="1032">
-               <p>His conss. Diocletianus et Maximianus Augg. insigni pompa Romae triumpharunt, antecedentibus
-      currum eorum Narsei coniuge sororibus liberis et omni pompa, qua Parthos spoliaverant.</p>
+               <p>His conss. Diocletianus et Maximianus Augg. insigni pompa Romae triumpharunt,
+                  antecedentibus currum eorum Narsei coniuge sororibus liberis et omni pompa, qua
+                  Parthos spoliaverant.</p>
             </div>
             <div type="cap" n="1033">
                <p>307 p. Chr. Diocletianus VIIII et Constantinus</p>
@@ -3331,11 +3372,11 @@
                <p>308 p. Chr. Diocletianus X et Maximus VII</p>
             </div>
             <div type="cap" n="1035">
-               <p>His conss. Diocletianus Nicomediae, Maximianus Mediolani purpuram deposuerunt ob aetatis
-      defectum et creati sunt CONSTANTIVS ET GALERIVS. sed Constantius tantum Augusti dignitate
-      contentus cum esset otiosus, anni ipsius adscribuntur filio eius CONSTANTINO, qui natus
-      dicitur ex Helena concubina, qui regnavit annis XXX mensibus X. sub quo hi consules fuerunt.
-      XXXIIII.</p>
+               <p>His conss. Diocletianus Nicomediae, Maximianus Mediolani purpuram deposuerunt ob
+                  aetatis defectum et creati sunt CONSTANTIVS ET GALERIVS. sed Constantius tantum
+                  Augusti dignitate contentus cum esset otiosus, anni ipsius adscribuntur filio eius
+                  CONSTANTINO, qui natus dicitur ex Helena concubina, qui regnavit annis XXX
+                  mensibus X. sub quo hi consules fuerunt. XXXIIII.</p>
             </div>
             <div type="cap" n="1036">
                <p>309 p. Chr. p. c. Diocletiani X et Maximi VII</p>
@@ -3398,7 +3439,8 @@
                <p>328 p. Chr. Ianuarinus et Iustus</p>
             </div>
             <div type="cap" n="1056">
-               <p>His conss. vicennalia Constantini Nicomediae acta et sequenti anno Romae edita.</p>
+               <p>His conss. vicennalia Constantini Nicomediae acta et sequenti anno Romae
+                  edita.</p>
             </div>
             <div type="cap" n="1057">
                <p>329 p. Chr. Constantinus VIII et Constantius VI </p>
@@ -3414,7 +3456,7 @@
             </div>
             <div type="cap" n="1061">
                <p>His conss. civitas, quae prius Byzantium dicta est, mutato nomine a Constantino
-      Constantinopolis dedicatur.</p>
+                  Constantinopolis dedicatur.</p>
             </div>
             <div type="cap" n="1062">
                <p>333 p. Chr. Dalmatius et Zenophilus</p>
@@ -3438,10 +3480,10 @@
                <p>339 p. Chr. Constantius II et Constans</p>
             </div>
             <div type="cap" n="1069">
-               <p>His conss. Constantinus imp. dum bellum pararet in Persas, in Acyrone villa publica iuxta
-      Nicomediam moritur anno aetatis LXVI. post quem tres liberi eius, id est CONSTANTINVS,
-      CONSTANTIVS ET CONSTANS, qui regnaverunt annis XXIIII mensibus V diebus XXIII. sub quibus hi
-      consulers fuerunt. XXXV.</p>
+               <p>His conss. Constantinus imp. dum bellum pararet in Persas, in Acyrone villa
+                  publica iuxta Nicomediam moritur anno aetatis LXVI. post quem tres liberi eius, id
+                  est CONSTANTINVS, CONSTANTIVS ET CONSTANS, qui regnaverunt annis XXIIII mensibus V
+                  diebus XXIII. sub quibus hi consulers fuerunt. XXXV.</p>
             </div>
             <div type="cap" n="1070">
                <p>340 p. Chr. Acyndinus et Proculus</p>
@@ -3454,7 +3496,7 @@
             </div>
             <div type="cap" n="1073">
                <p>His conss. Constantinus bellum fratri Constantio inferens iuxta Aquileiam Alsae
-      occiditur.</p>
+                  occiditur.</p>
             </div>
             <div type="cap" n="1074">
                <p>343 p. Chr. Placidus et Romulus</p>
@@ -3493,8 +3535,8 @@
                <p>350 p. Chr. Sergius et Nigridianus</p>
             </div>
             <div type="cap" n="1086">
-               <p>His conss. Constans haud longe ab Hispania in castro cui Helenae nomen est interficitur anno
-      aetatis XXX et Constantius remansit in regno. </p>
+               <p>His conss. Constans haud longe ab Hispania in castro cui Helenae nomen est
+                  interficitur anno aetatis XXX et Constantius remansit in regno. </p>
             </div>
             <div type="cap" n="1087">
                <p>351 p. Chr. p. c. Sergii et Nigriniani</p>
@@ -3521,7 +3563,8 @@
                <p>357 p. Chr. Constantius VIIII et Iulianus Caes. II</p>
             </div>
             <div type="cap" n="1095">
-               <p>His conss. magnae Alamannorum copiae apud Argentoratum oppidum Galliarum deletae sunt.</p>
+               <p>His conss. magnae Alamannorum copiae apud Argentoratum oppidum Galliarum deletae
+                  sunt.</p>
             </div>
             <div type="cap" n="1096">
                <p>358 p. Chr. Titianus et Caerealis</p>
@@ -3533,7 +3576,8 @@
                <p>360 p. Chr. Constantius X et Iulianus Caes. III</p>
             </div>
             <div type="cap" n="1099">
-               <p>His conss. Honoratus nomine primus Constantinopoli praefectus urbi esse coepit.</p>
+               <p>His conss. Honoratus nomine primus Constantinopoli praefectus urbi esse
+                  coepit.</p>
             </div>
             <div type="cap" n="1100">
                <p>361 p. Chr. Taurus et Florentius</p>
@@ -3542,25 +3586,26 @@
                <p>362 p. Chr. Mamertinus et Nevitta</p>
             </div>
             <div type="cap" n="1102">
-               <p>His conss. Constantius Mopsocrenis inter Ciliciam Cappadociamque moritur anno aetatis XLVI.
-      cui successit IVLIANVS qui regnavit annum I. sub quo hi consules fuerunt. XXXVI.</p>
+               <p>His conss. Constantius Mopsocrenis inter Ciliciam Cappadociamque moritur anno
+                  aetatis XLVI. cui successit IVLIANVS qui regnavit annum I. sub quo hi consules
+                  fuerunt. XXXVI.</p>
             </div>
             <div type="cap" n="1103">
                <p>363 p. Chr. Iulianus IIII et Sallustius</p>
             </div>
             <div type="cap" n="1104">
-               <p>His conss. Iulianus post victoriam apud Persas occiditur anno aetatis XXXII. post quem
-      sequenti die Iovianusprimicerio domesticorum factus est imperator, qui regnavit mensibus VIII.
-      sub quo hi consules fuerunt. XXXVII.</p>
+               <p>His conss. Iulianus post victoriam apud Persas occiditur anno aetatis XXXII. post
+                  quem sequenti die Iovianusprimicerio domesticorum factus est imperator, qui
+                  regnavit mensibus VIII. sub quo hi consules fuerunt. XXXVII.</p>
             </div>
             <div type="cap" n="1105">
                <p>364 p. Chr. Iovianus et Varronianus</p>
             </div>
             <div type="cap" n="1106">
-               <p>His conss. Iovianus imp. moritur anno aetatis XXXIIII. post quem VALENTINIANVS tribunus
-      scutariorum apud Nicaeam Augustus appellatus fratrem VALENTEM Constantinopoli in communionem
-      adsumit imperii, qui regnavit annis XIIII mensibus V. sub quo hi consules fuerunt.
-      XXXVIII.</p>
+               <p>His conss. Iovianus imp. moritur anno aetatis XXXIIII. post quem VALENTINIANVS
+                  tribunus scutariorum apud Nicaeam Augustus appellatus fratrem VALENTEM
+                  Constantinopoli in communionem adsumit imperii, qui regnavit annis XIIII mensibus
+                  V. sub quo hi consules fuerunt. XXXVIII.</p>
             </div>
             <div type="cap" n="1107">
                <p>365 p. Chr. Valentinianus et Valens </p>
@@ -3602,8 +3647,8 @@
                <p>Burgundionum LXXX fere milia, quot numquam antea, ad Rhenum descenderunt.</p>
             </div>
             <div type="cap" n="1120">
-               <p>Clearchus praefectus urbi Constantinopolim necessariam aquam et quam diu civitas optabat
-      induxit. </p>
+               <p>Clearchus praefectus urbi Constantinopolim necessariam aquam et quam diu civitas
+                  optabat induxit. </p>
             </div>
             <div type="cap" n="1121">
                <p>374 p. Chr. Gratianus III et Equitius</p>
@@ -3615,14 +3660,15 @@
                <p>376 p. Chr. Valens V et Valentinianus</p>
             </div>
             <div type="cap" n="1124">
-               <p>His conss. Valentinianus apoplexi Brigitione moritur. post quem Gratianus adsumpto imperio
-      Valentiniano fratre cum patruo Valente regnat.</p>
+               <p>His conss. Valentinianus apoplexi Brigitione moritur. post quem Gratianus adsumpto
+                  imperio Valentiniano fratre cum patruo Valente regnat.</p>
             </div>
             <div type="cap" n="1125">
                <p>377 p. Chr. Gratianus IIII et Merobaudes</p>
             </div>
             <div type="cap" n="1126">
-               <p>His conss. Alamannorum circiter XXX milia apud Argentariam oppiodum Galliarum caesa.</p>
+               <p>His conss. Alamannorum circiter XXX milia apud Argentariam oppiodum Galliarum
+                  caesa.</p>
             </div>
             <div type="cap" n="1127">
                <p>Gothi diffunduntur in Thracia.</p>
@@ -3631,16 +3677,16 @@
                <p>378 p. Chr. Valens VI et Valentinianus II</p>
             </div>
             <div type="cap" n="1129">
-               <p>His conss. A Gothis in Thracia Valentis trucidatur exercitus. ipso quoque imperator incensa
-      domo, ubi se occultaverat, igne combustus est.</p>
+               <p>His conss. A Gothis in Thracia Valentis trucidatur exercitus. ipso quoque
+                  imperator incensa domo, ubi se occultaverat, igne combustus est.</p>
             </div>
             <div type="cap" n="1170">
-               <p>Cui successit in Oriente Theodosius Theodosii filius, quem sibi in consortium Gratianus
-      ascivit.</p>
+               <p>Cui successit in Oriente Theodosius Theodosii filius, quem sibi in consortium
+                  Gratianus ascivit.</p>
             </div>
             <div type="cap" n="1131">
-               <p>GRATIANVS itaque cum iam XIIII regnaret annis, CVM THEODOSIO regnat annis VI. sub quibus hi
-      consules fuerunt. XXXVIIII.</p>
+               <p>GRATIANVS itaque cum iam XIIII regnaret annis, CVM THEODOSIO regnat annis VI. sub
+                  quibus hi consules fuerunt. XXXVIIII.</p>
             </div>
             <div type="cap" n="1132">
                <p>379 p. Chr. Ausonius et Olybrius</p>
@@ -3661,7 +3707,8 @@
                <p>382 p. Chr. Antonius et Siagrius</p>
             </div>
             <div type="cap" n="1138">
-               <p>His conss. Athanaricus rex Gothortum Constantinopolim venit ibique vitam exegit.</p>
+               <p>His conss. Athanaricus rex Gothortum Constantinopolim venit ibique vitam
+                  exegit.</p>
             </div>
             <div type="cap" n="1393">
                <p>383 p. Chr. Merobaudes II et Saturninus</p>
@@ -3676,14 +3723,15 @@
                <p>His conss. Gratianus apud Lugdunum captus occiditur. </p>
             </div>
             <div type="cap" n="1143">
-               <p>Residui VALENTINIANVS ET THEODOSIVS regnant annis VIII. sub quibus hi consules fuerunt.
-      XL.</p>
+               <p>Residui VALENTINIANVS ET THEODOSIVS regnant annis VIII. sub quibus hi consules
+                  fuerunt. XL.</p>
             </div>
             <div type="cap" n="1144">
                <p>385 p. Chr. Arcadius et Bauto</p>
             </div>
             <div type="cap" n="1145">
-               <p>His conss. Hieronymus presbyter in Bethleem positus toto mundo mirabilis habetur.</p>
+               <p>His conss. Hieronymus presbyter in Bethleem positus toto mundo mirabilis
+                  habetur.</p>
             </div>
             <div type="cap" n="1146">
                <p>386 p. Chr. Honorius n. p. et Euhodius</p>
@@ -3710,8 +3758,8 @@
                <p>His conss. Valenitinianus vitae taedio apud Viennam laqueo periit. </p>
             </div>
             <div type="cap" n="1154">
-               <p>THEODOSIVS cum iam per XIIII annos regnaret, CVM ARCADIO ET HONORIO regnat annis tribus. sub
-      quibus hi consules fuerunt XLI.</p>
+               <p>THEODOSIVS cum iam per XIIII annos regnaret, CVM ARCADIO ET HONORIO regnat annis
+                  tribus. sub quibus hi consules fuerunt XLI.</p>
             </div>
             <div type="cap" n="1155">
                <p>393 p. Chr. Theodosius III et Abundantius</p>
@@ -3720,8 +3768,8 @@
                <p>394 p. Chr. Arcadius III et Honorius II</p>
             </div>
             <div type="cap" n="1157">
-               <p>His conss. Iohannes monachus gratia divina praeditus Theodosium consulentem de eventu belli,
-      quod adversum Eugenium movebat, victorem fore pronuntiat.</p>
+               <p>His conss. Iohannes monachus gratia divina praeditus Theodosium consulentem de
+                  eventu belli, quod adversum Eugenium movebat, victorem fore pronuntiat.</p>
             </div>
             <div type="cap" n="1158">
                <p>395 p. Chr. Olybrius et Probius</p>
@@ -3730,8 +3778,8 @@
                <p>His conss. Theodosius Eugenium tyrannum vincit et perimit.</p>
             </div>
             <div type="cap" n="1160">
-               <p>Augustinus beati Ambrosii discipulus multa, facundia doctrinaque excellens Hippone Regio in
-      Africa episcopus ordinatur.</p>
+               <p>Augustinus beati Ambrosii discipulus multa, facundia doctrinaque excellens Hippone
+                  Regio in Africa episcopus ordinatur.</p>
             </div>
             <div type="cap" n="1161">
                <p>Hoc tempore Claudianus poeta insignis habetur.</p>
@@ -3740,8 +3788,8 @@
                <p>Theodosius imp. Mediolani moritur.</p>
             </div>
             <div type="cap" n="1163">
-               <p>Post quem ARCADIVS, cum iam regnasset annis XII, CVM fratre HONORIO regnat annis XIII. sub
-      quo hi consules fuerunt. XLII.</p>
+               <p>Post quem ARCADIVS, cum iam regnasset annis XII, CVM fratre HONORIO regnat annis
+                  XIII. sub quo hi consules fuerunt. XLII.</p>
             </div>
             <div type="cap" n="1164">
                <p>396 p. Chr. Arcadius IIII et Honorius III</p>
@@ -3768,7 +3816,8 @@
                <p>402 p. Chr. Arcadius V et Honorius V</p>
             </div>
             <div type="cap" n="1172">
-               <p>His conss. Pollentiae Stiliconem cum exercitu Romano Gothi victum acie fugaverunt.</p>
+               <p>His conss. Pollentiae Stiliconem cum exercitu Romano Gothi victum acie
+                  fugaverunt.</p>
             </div>
             <div type="cap" n="1173">
                <p>403 p. Chr. Theodosius Aug. I et Rumoridus</p>
@@ -3795,8 +3844,8 @@
                <p>His conss. Arcadius imp. Constantinopoli moritur.</p>
             </div>
             <div type="cap" n="1181">
-               <p>HONORIVS CVM THEODOSIO fratris filio regnat annis XV. sub quibus hi consules fuerunt.
-      XLIII.</p>
+               <p>HONORIVS CVM THEODOSIO fratris filio regnat annis XV. sub quibus hi consules
+                  fuerunt. XLIII.</p>
             </div>
             <div type="cap" n="1182">
                <p>409 p. Chr. Honorius VIII et Theodosius III</p>
@@ -3808,7 +3857,8 @@
                <p>410 p. Chr. Varan et Tertullus</p>
             </div>
             <div type="cap" n="1185">
-               <p>His conss. Roma a Gothis Halarico duce capta est, ubi clementer usi victoria sunt.</p>
+               <p>His conss. Roma a Gothis Halarico duce capta est, ubi clementer usi victoria
+                  sunt.</p>
             </div>
             <div type="cap" n="1186">
                <p>411 p. Chr. Theodosius Aug. IIII cons.</p>
@@ -3835,7 +3885,8 @@
                <p>416 p. Chr. Theodosius VII et Pallidius</p>
             </div>
             <div type="cap" n="1194">
-               <p>His conss. Gothi placati Constantio Placidiam reddiderunt, cuius nuptias promeretur.</p>
+               <p>His conss. Gothi placati Constantio Placidiam reddiderunt, cuius nuptias
+                  promeretur.</p>
             </div>
             <div type="cap" n="1195">
                <p>417 p. Chr. Honorius XI et Constantius II</p>
@@ -3868,29 +3919,29 @@
                <p>423 p. Chr. Marinianus et Asclepiodotus</p>
             </div>
             <div type="cap" n="1205">
-               <p>His conss. Placidia Augusta a fratre Honorio ob suspicionem invitatorum hostium cum Honorio
-      et Valentiniano filiis ad Orientem mittitur.</p>
+               <p>His conss. Placidia Augusta a fratre Honorio ob suspicionem invitatorum hostium
+                  cum Honorio et Valentiniano filiis ad Orientem mittitur.</p>
             </div>
             <div type="cap" n="1206">
                <p>Honorius moritur.</p>
             </div>
             <div type="cap" n="1207">
-               <p>Et solus THEODOSIVS Romanum imperium tenet annis XXVII. sub quo hi consules fuerunt.
-      XLIIII.</p>
+               <p>Et solus THEODOSIVS Romanum imperium tenet annis XXVII. sub quo hi consules
+                  fuerunt. XLIIII.</p>
             </div>
             <div type="cap" n="1208">
                <p>424 p. Chr. Castinus et Victor</p>
             </div>
             <div type="cap" n="1209">
-               <p>His conss. Theodosius Valentinianum consobrinum Caesarem facit et cum Augusta matre ad
-      recipiendum occidentale mittit imperium.</p>
+               <p>His conss. Theodosius Valentinianum consobrinum Caesarem facit et cum Augusta
+                  matre ad recipiendum occidentale mittit imperium.</p>
             </div>
             <div type="cap" n="1210">
                <p>425 p. Chr. Theodosius XI et Valentinianus Caesar.</p>
             </div>
             <div type="cap" n="1211">
-               <p>His conss. Iohannem tyrannum Valentinianus imp. extinxit Hunosque, qui in Italia erant
-      Iohanni praesidio, per Aetium mira felicitate dimovit.</p>
+               <p>His conss. Iohannem tyrannum Valentinianus imp. extinxit Hunosque, qui in Italia
+                  erant Iohanni praesidio, per Aetium mira felicitate dimovit.</p>
             </div>
             <div type="cap" n="1212">
                <p>426 p. Chr. Theodosius XII et Valentinianus II</p>
@@ -3908,8 +3959,8 @@
                <p>428 p. Chr. Felix et Taurus</p>
             </div>
             <div type="cap" n="1217">
-               <p>His conss. Aetius multis Francis caesis quam occupaverant propinquam Rheno partem recipit
-      Galliarum.</p>
+               <p>His conss. Aetius multis Francis caesis quam occupaverant propinquam Rheno partem
+                  recipit Galliarum.</p>
             </div>
             <div type="cap" n="1218">
                <p>429 p. Chr. Florentius et Dionysius</p>
@@ -3936,8 +3987,8 @@
                <p>His conss. pax facta cum Vandalis data eis ad habitandum Africae portione.</p>
             </div>
             <div type="cap" n="1226">
-               <p>Gundicharium Burgundionum regem Aetius bello subegit pacemque ei reddidit supplicanti, quem
-      non multo post Hunni peremerunt.</p>
+               <p>Gundicharium Burgundionum regem Aetius bello subegit pacemque ei reddidit
+                  supplicanti, quem non multo post Hunni peremerunt.</p>
             </div>
             <div type="cap" n="1227">
                <p>436 p. Chr. Hisidorus et Senator</p>
@@ -3946,8 +3997,8 @@
                <p>437 p. Chr. Aetius II et Sigisvultus</p>
             </div>
             <div type="cap" n="1229">
-               <p>His conss. Valentinianus Aug. ad Theodosium principem Constantinopolim proficiscitur
-      filiamque eius in matrimonium accipit.</p>
+               <p>His conss. Valentinianus Aug. ad Theodosium principem Constantinopolim
+                  proficiscitur filiamque eius in matrimonium accipit.</p>
             </div>
             <div type="cap" n="1230">
                <p>438 p. Chr. Theodosius XVI et Faustus</p>
@@ -3956,11 +4007,12 @@
                <p>439 p. Chr. Theodosius XVII et Festus</p>
             </div>
             <div type="cap" n="1232">
-               <p>His conss. bellum adversus Gothos Hunnis auxiliaribus geritur et Litorius dux Romanus ab eis
-      capitur.</p>
+               <p>His conss. bellum adversus Gothos Hunnis auxiliaribus geritur et Litorius dux
+                  Romanus ab eis capitur.</p>
             </div>
             <div type="cap" n="1233">
-               <p>Ginsericus, de cuius amicitia nihil metuebatur, Carthaginem dolo pacis invadit.</p>
+               <p>Ginsericus, de cuius amicitia nihil metuebatur, Carthaginem dolo pacis
+                  invadit.</p>
             </div>
             <div type="cap" n="1234">
                <p>440 p. Chr. Valentinianus Aug. V et Anatolius</p>
@@ -3981,8 +4033,8 @@
                <p>His conss. Hunni Thracias et Hillyricum saeva populatione vastarunt. </p>
             </div>
             <div type="cap" n="1240">
-               <p>Cum Ginserico ab Augusto Valentiniano pax confirmata et certis spatiis Africa inter utrosque
-      divisa est.</p>
+               <p>Cum Ginserico ab Augusto Valentiniano pax confirmata et certis spatiis Africa
+                  inter utrosque divisa est.</p>
             </div>
             <div type="cap" n="1241">
                <p>443 p. Chr. Maximus II et Paternus</p>
@@ -3991,8 +4043,8 @@
                <p>444 p. Chr. Theodosius XVIII et Albinus</p>
             </div>
             <div type="cap" n="1243">
-               <p>His conss. Attila rex Hunnorum Bledam fratrem et consortem in regno suo perimit eiusque
-      populos sibi parere compellit.</p>
+               <p>His conss. Attila rex Hunnorum Bledam fratrem et consortem in regno suo perimit
+                  eiusque populos sibi parere compellit.</p>
             </div>
             <div type="cap" n="1244">
                <p>445 p. Chr. Valentinianus VI et Nomus </p>
@@ -4016,15 +4068,15 @@
                <p>His conss. Theodosius moritur.</p>
             </div>
             <div type="cap" n="1251">
-               <p>Post quem MARCIANVS adscitur imperio, qui regnavit annis VII. sub quo hi consules fuerunt.
-      XLV.</p>
+               <p>Post quem MARCIANVS adscitur imperio, qui regnavit annis VII. sub quo hi consules
+                  fuerunt. XLV.</p>
             </div>
             <div type="cap" n="1252">
                <p>451 p. Chr. Marcianus Aug. et Adelphius</p>
             </div>
             <div type="cap" n="1253">
-               <p>His conss. Romani Aetio duce Gothis auxiliaribus contra Attilam in campo Catalaunico
-      pugnaverunt, qui virtute Gothorum superatus abscessit.</p>
+               <p>His conss. Romani Aetio duce Gothis auxiliaribus contra Attilam in campo
+                  Catalaunico pugnaverunt, qui virtute Gothorum superatus abscessit.</p>
             </div>
             <div type="cap" n="1254">
                <p>452 p. Chr. Herculanus et Asporacius</p>
@@ -4045,15 +4097,17 @@
                <p>454 p. Chr. Aetius et Studius</p>
             </div>
             <div type="cap" n="1260">
-               <p>His conss. Aetius patricius in Palatio manu Valentiniani imp. extinctus est, Boetius vero
-      praefectus praetorio amicus eius circumstantium gladiis interemptus.</p>
+               <p>His conss. Aetius patricius in Palatio manu Valentiniani imp. extinctus est,
+                  Boetius vero praefectus praetorio amicus eius circumstantium gladiis
+                  interemptus.</p>
             </div>
             <div type="cap" n="1261">
                <p>455 p. Chr. Valentinianus VIII et Anthemius</p>
             </div>
             <div type="cap" n="1262">
-               <p>His conss. in campo Martio ab amicis Aetii Valentinianus occiditur. post quem Maximus
-      invadit inperium, qui intra duos menses a militibus extinctus in Tiberim proicitur.</p>
+               <p>His conss. in campo Martio ab amicis Aetii Valentinianus occiditur. post quem
+                  Maximus invadit inperium, qui intra duos menses a militibus extinctus in Tiberim
+                  proicitur.</p>
             </div>
             <div type="cap" n="1263">
                <p>Eodem anno per Ginsericum omnibus opibus suis Roma vacuata est.</p>
@@ -4071,8 +4125,8 @@
                <p>457 p. Chr. Constantinus et Rufus</p>
             </div>
             <div type="cap" n="1268">
-               <p>His conss. Marciano defuncto LEO Orientis, Maiorianus Italiae suscepit imperium. sub quibus
-      hi consules fuerunt.</p>
+               <p>His conss. Marciano defuncto LEO Orientis, Maiorianus Italiae suscepit imperium.
+                  sub quibus hi consules fuerunt.</p>
             </div>
             <div type="cap" n="1269">
                <p>458 p. Chr. Leo Aug. et Maiorianus Aug.</p>
@@ -4090,8 +4144,8 @@
                <p>461 p. Chr. Severinus et Dagalaifus</p>
             </div>
             <div type="cap" n="1274">
-               <p>His conss. Maiorianus inmissione Ricimeris extinguitur, cui Severum natione Lucanum Ravennae
-      succedere fecit in regnum.</p>
+               <p>His conss. Maiorianus inmissione Ricimeris extinguitur, cui Severum natione
+                  Lucanum Ravennae succedere fecit in regnum.</p>
             </div>
             <div type="cap" n="1275">
                <p>462 p. Chr. Leo Aug. II et Severus Aug.</p>
@@ -4103,13 +4157,15 @@
                <p>464 p. Chr. Rusticius et Olybrius</p>
             </div>
             <div type="cap" n="1278">
-               <p>His conss. rex Halanorum Beorgor apud Pergamum a patricio Ricimere peremptus est.</p>
+               <p>His conss. rex Halanorum Beorgor apud Pergamum a patricio Ricimere peremptus
+                  est.</p>
             </div>
             <div type="cap" n="1279">
                <p>465 p. Chr. Arminericus et Basiliscus</p>
             </div>
             <div type="cap" n="1280">
-               <p>His conss. ut dicitur Ricimeris fraude, Severus Romae in Palatio veneno peremptus est.</p>
+               <p>His conss. ut dicitur Ricimeris fraude, Severus Romae in Palatio veneno peremptus
+                  est.</p>
             </div>
             <div type="cap" n="1281">
                <p>466 p. Chr. Leo Aug. III cons.</p>
@@ -4118,8 +4174,8 @@
                <p>467 p. Chr. Puseus et Iohannes</p>
             </div>
             <div type="cap" n="1283">
-               <p>His conss. Anthemius a Leone imp. ad Italiam mittitur, qui tertio ab urbe miliario in loco
-      Brontotas suscepit imperium.</p>
+               <p>His conss. Anthemius a Leone imp. ad Italiam mittitur, qui tertio ab urbe miliario
+                  in loco Brontotas suscepit imperium.</p>
             </div>
             <div type="cap" n="1284">
                <p>468 p. Chr. Anthemius Aug. II cons.</p>
@@ -4143,16 +4199,17 @@
                <p>471 p. Chr. Leo Aug. IIII et Probianus</p>
             </div>
             <div type="cap" n="1291">
-               <p>His conss. Constantinopoli affectator tyrannidis a Leone principe Aspar occiditur.</p>
+               <p>His conss. Constantinopoli affectator tyrannidis a Leone principe Aspar
+                  occiditur.</p>
             </div>
             <div type="cap" n="1292">
                <p>472 p. Chr. Festus et Marcianus</p>
             </div>
             <div type="cap" n="1293">
-               <p>His conss. patricius Ricimer Romae facto imperatore Olybrio Anthemium contra reverentiam
-      principis et ius adfinitatis cum gravi clade civitatis extinguit. qui non diutius peracto
-      scelere gloriatus post XL dies defunctus est. Olybrius autem VII imperii mense vitam
-      peregit.</p>
+               <p>His conss. patricius Ricimer Romae facto imperatore Olybrio Anthemium contra
+                  reverentiam principis et ius adfinitatis cum gravi clade civitatis extinguit. qui
+                  non diutius peracto scelere gloriatus post XL dies defunctus est. Olybrius autem
+                  VII imperii mense vitam peregit.</p>
             </div>
             <div type="cap" n="1294">
                <p>473 p. Chr. Leo Aug. V cons.</p>
@@ -4167,8 +4224,8 @@
                <p>474 p. Chr. Leo iunior Aug. cons.</p>
             </div>
             <div type="cap" n="1298">
-               <p>Hoc cons. imp. Leo senior defunctus est. cui ZENO successit in imperio, qui regnavit annis
-      XVII. sub quo hi consules fuerunt.</p>
+               <p>Hoc cons. imp. Leo senior defunctus est. cui ZENO successit in imperio, qui
+                  regnavit annis XVII. sub quo hi consules fuerunt.</p>
             </div>
             <div type="cap" n="1299">
                <p>Eo etiam anno Romae Glycerio Nepos successit in regno.</p>
@@ -4177,14 +4234,15 @@
                <p>475 p. Chr. p.c. Leonis Aug. iun.</p>
             </div>
             <div type="cap" n="1301">
-               <p>Eodem anno Orestes, Nepote in Dalmatias fugato, filio suo Augustulo dedit imperium.</p>
+               <p>Eodem anno Orestes, Nepote in Dalmatias fugato, filio suo Augustulo dedit
+                  imperium.</p>
             </div>
             <div type="cap" n="1302">
                <p>476 p. Chr. Basiliscus II et Armatus</p>
             </div>
             <div type="cap" n="1303">
-               <p>His conss. ab Odovacre Orestes et frater eius Paulus extincti sunt nomenque regis Odovacar
-      adsumpsit, cum tamen nec purpura nec regalibus uteretur insignibus.</p>
+               <p>His conss. ab Odovacre Orestes et frater eius Paulus extincti sunt nomenque regis
+                  Odovacar adsumpsit, cum tamen nec purpura nec regalibus uteretur insignibus.</p>
             </div>
             <div type="cap" n="1304">
                <p>477 p. Chr. p.c. Basilisci II et Armati</p>
@@ -4232,7 +4290,8 @@
                <p>489 p. Chr. Probinus et Eusebins</p>
             </div>
             <div type="cap" n="1319">
-               <p>His conss. felicissimus atque fortissimus dn. rex Theodericus intravit Italiam.</p>
+               <p>His conss. felicissimus atque fortissimus dn. rex Theodericus intravit
+                  Italiam.</p>
             </div>
             <div type="cap" n="1320">
                <p>Cui Odovacar ad Isontium pugnam parans victus cum tota gente fugatus est.</p>
@@ -4244,7 +4303,8 @@
                <p>490 p. Chr. Faustus iun. cons.</p>
             </div>
             <div type="cap" n="1323">
-               <p>His conss. ad Adduam fluvium Odovacrem dn. Theoderichus rex tertio certamine superavit. </p>
+               <p>His conss. ad Adduam fluvium Odovacrem dn. Theoderichus rex tertio certamine
+                  superavit. </p>
             </div>
             <div type="cap" n="1324">
                <p>Qui Ravennam fugiens obsidetur inclusus.</p>
@@ -4253,11 +4313,12 @@
                <p>491 p. Chr. Olybrius iun. Cons.</p>
             </div>
             <div type="cap" n="1326">
-               <p>Hoc cons. Odovacar cum Erulis egressus Ravenna nocturnis horis ad pontem Candidiani a dn.
-      nostro rege Theoderico memorabili certamine superatur.</p>
+               <p>Hoc cons. Odovacar cum Erulis egressus Ravenna nocturnis horis ad pontem
+                  Candidiani a dn. nostro rege Theoderico memorabili certamine superatur.</p>
             </div>
             <div type="cap" n="1327">
-               <p>Tunc etiam Vandali pace suppliciter postulata a Siciliae solita depraedatione cessarunt.</p>
+               <p>Tunc etiam Vandali pace suppliciter postulata a Siciliae solita depraedatione
+                  cessarunt.</p>
             </div>
             <div type="cap" n="1328">
                <p>Eodem anno Zeno occubuit, cui ANASTASIVS in orientali successit imperio.</p>
@@ -4270,7 +4331,7 @@
             </div>
             <div type="cap" n="1331">
                <p>Hoc cons. dn. rex Theodericus Ravennam ingressus Odovacrem molientem sibi insidias
-      interemit.</p>
+                  interemit.</p>
             </div>
             <div type="cap" n="1332">
                <p>494 p. Chr. Asterius et Praesidius</p>
@@ -4294,11 +4355,12 @@
                <p>500 p. Chr. Patricius et Hypatius</p>
             </div>
             <div type="cap" n="1339">
-               <p>Hoc anno dn. rex Theodericus Romam cunctorum votis expetitus advenit et senatum suum mira
-      affabilitate tractans Romanae plebi donavit annonas, atque admirandis moeniis deputata per
-      singulos annos maxima pecuniae quantitate subvenit. sub cuius felici imperio plurimae
-      renovantur urbes, munitissima castella conduntur, consurgunt admiranda palatia, magnisque eius
-      operibus antiqua miracula superantur.</p>
+               <p>Hoc anno dn. rex Theodericus Romam cunctorum votis expetitus advenit et senatum
+                  suum mira affabilitate tractans Romanae plebi donavit annonas, atque admirandis
+                  moeniis deputata per singulos annos maxima pecuniae quantitate subvenit. sub cuius
+                  felici imperio plurimae renovantur urbes, munitissima castella conduntur,
+                  consurgunt admiranda palatia, magnisque eius operibus antiqua miracula
+                  superantur.</p>
             </div>
             <div type="cap" n="1340">
                <p>501 p. Chr. Avienus et Pompeius</p>
@@ -4307,14 +4369,15 @@
                <p>502 p. Chr. Avienus iun. et Probus</p>
             </div>
             <div type="cap" n="1342">
-               <p>His conss. dn. rex Theodericus aquam Ravennam perduxit, cuius formam sumptu proprio
-      instauravit, quae longis ante fuerat ad solum reducta temporibus.</p>
+               <p>His conss. dn. rex Theodericus aquam Ravennam perduxit, cuius formam sumptu
+                  proprio instauravit, quae longis ante fuerat ad solum reducta temporibus.</p>
             </div>
             <div type="cap" n="1343">
                <p>504 p. Chr. Caetheus v.c. cons.</p>
             </div>
             <div type="cap" n="1344">
-               <p>Hoc cons. virtute dn. regis Theoderici victis Vulgaribus Sirmium recepit Italia.</p>
+               <p>Hoc cons. virtute dn. regis Theoderici victis Vulgaribus Sirmium recepit
+                  Italia.</p>
             </div>
             <div type="cap" n="1345">
                <p>505 p. Chr. Theodorus et Sabinianus</p>
@@ -4329,8 +4392,9 @@
                <p>508 p. Chr. Venantius iun. et Celer</p>
             </div>
             <div type="cap" n="1349">
-               <p>His conss. contra Francos a domno nostro destinatur exercitus, qui Gallias Francorum
-      depraedatione confusas victis hostibus ac fugatis suo adquisivit imperio.</p>
+               <p>His conss. contra Francos a domno nostro destinatur exercitus, qui Gallias
+                  Francorum depraedatione confusas victis hostibus ac fugatis suo adquisivit
+                  imperio.</p>
             </div>
             <div type="cap" n="1350">
                <p>509 p. Chr. Importunus v.c. cons.</p>
@@ -4351,15 +4415,15 @@
                <p>514 p. Chr. Senator v.c. cons.</p>
             </div>
             <div type="cap" n="1356">
-               <p>Me etiam consule in vestrorum laude temporum adunato clero vel populo Romanae ecclesiae
-      rediit optata concordia.</p>
+               <p>Me etiam consule in vestrorum laude temporum adunato clero vel populo Romanae
+                  ecclesiae rediit optata concordia.</p>
             </div>
             <div type="cap" n="1357">
                <p>515 p. Chr. Florentius et Anthemius</p>
             </div>
             <div type="cap" n="1358">
-               <p>His conss. dn. rex Theodericus filiam suam domnam Amalasuintam gloriosi viri dn. Eutharici
-      matrimonio deo auspice copulavit.</p>
+               <p>His conss. dn. rex Theodericus filiam suam domnam Amalasuintam gloriosi viri dn.
+                  Eutharici matrimonio deo auspice copulavit.</p>
             </div>
             <div type="cap" n="1359">
                <p>516 p. Chr. Petrus v.c. cons.</p>
@@ -4371,26 +4435,27 @@
                <p>518 p. Chr. Magnus v.c. cons.</p>
             </div>
             <div type="cap" n="1362">
-               <p>Eo anno dn. Eutharicus Cillica mirabili gratia senatus et plebis ad edendum exceptus est
-      feliciter consulatum.</p>
+               <p>Eo anno dn. Eutharicus Cillica mirabili gratia senatus et plebis ad edendum
+                  exceptus est feliciter consulatum.</p>
             </div>
             <div type="cap" n="1363">
                <p>519 p. Chr. dn. Eutharicus Cillica et Iustinus Aug. </p>
             </div>
             <div type="cap" n="1364">
-               <p>Eo anno multa vidit Roma miracula, editionibus singulis stupente etiam Symmacho Orientis
-      legato divitias Gothis Romanisque donatas. dignitates cessit in curiam. muneribus
-      amphitheatralibus diversi generis feras, quas praesens aetas pro novitate miraretur, exhibuit.
-      cuius spectaculis voluptates etiam exquisitas Africa sub devotione transmisit. cunctis itaque
-      eximia laude completis tanto amore civibus Romanis insederat, ut eius adhuc praesentiam
-      desiderantibus Ravennam ad gloriosi patris remearet aspectus. ubi iteratis editionibus tanta
-      Gothis Romanisque dona largitus est, ut solus potuerit superare quem Romae celebraverat
-      consulatum.</p>
+               <p>Eo anno multa vidit Roma miracula, editionibus singulis stupente etiam Symmacho
+                  Orientis legato divitias Gothis Romanisque donatas. dignitates cessit in curiam.
+                  muneribus amphitheatralibus diversi generis feras, quas praesens aetas pro
+                  novitate miraretur, exhibuit. cuius spectaculis voluptates etiam exquisitas Africa
+                  sub devotione transmisit. cunctis itaque eximia laude completis tanto amore
+                  civibus Romanis insederat, ut eius adhuc praesentiam desiderantibus Ravennam ad
+                  gloriosi patris remearet aspectus. ubi iteratis editionibus tanta Gothis
+                  Romanisque dona largitus est, ut solus potuerit superare quem Romae celebraverat
+                  consulatum.</p>
             </div>
             <div type="cap" n="1365">
-               <p>Igitur ut effusam annorum seriem auctorum testificatione digestam sub brevitatis compendio
-      redigamus, ab Adam usque ad diluvium, sicut ex chronicis Eusebii Hieronymi collegimus, anni
-      sunt II.CCXLII.</p>
+               <p>Igitur ut effusam annorum seriem auctorum testificatione digestam sub brevitatis
+                  compendio redigamus, ab Adam usque ad diluvium, sicut ex chronicis Eusebii
+                  Hieronymi collegimus, anni sunt II.CCXLII.</p>
             </div>
             <div type="cap" n="1366">
                <p>a diluvio usque ad Ninum Assyriorum regem anni sunt DCCCXCVIIII.</p>
@@ -4405,11 +4470,13 @@
                <p>a Romulo usque ad Brutum et Tarquinium primos consules anni sunt CCXL.</p>
             </div>
             <div type="cap" n="1370">
-               <p>a Bruto et Tarquinio usque ad consulatum vestrum, sicut ex Tito Livio et Aufidio Basso et
-      paschali clarorum virorum auctoritate firmato collegimus, anni sunt MXXXI.</p>
+               <p>a Bruto et Tarquinio usque ad consulatum vestrum, sicut ex Tito Livio et Aufidio
+                  Basso et paschali clarorum virorum auctoritate firmato collegimus, anni sunt
+                  MXXXI.</p>
             </div>
             <div type="cap" n="1371">
-               <p>ac sic totus ordo saeculorum usque ad consulatum vestrum colligitur annis VDCCXXI.</p>
+               <p>ac sic totus ordo saeculorum usque ad consulatum vestrum colligitur annis
+                  VDCCXXI.</p>
             </div>
          </div>
 
