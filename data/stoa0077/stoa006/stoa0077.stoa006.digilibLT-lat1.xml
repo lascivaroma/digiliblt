@@ -33,7 +33,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <refsDecl n="CTS"><cRefPattern n="unknown" matchPattern="(\w+)" replacementPattern="#xpath(/tei/text/body/div/div/div[@n='$1']))"><p>This pointer pattern extracts unknown</p></cRefPattern></refsDecl>
+         <refsDecl n="CTS"><cRefPattern n="paragraph" matchPattern="(\w+)" replacementPattern="#xpath(/tei/text/body/div/div[@n='$1']))"><p>This pointer pattern extracts paragraphs</p></cRefPattern></refsDecl>
          <projectDesc>
             <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
             <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
@@ -75,9 +75,12 @@
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language ident="la">Latino</language>
+            <language ident="lat">Latino</language>
          </langUsage>
       </profileDesc>
+      <revisionDesc>
+         <change who="Léa Maronet" when="2021-04-04">Correction de la langue et du Xpath.</change>
+      </revisionDesc>
    </teiHeader>
 
    <text>
