@@ -33,10 +33,6 @@
         </fileDesc>
         <encodingDesc>
             <refsDecl n="CTS">
-                <cRefPattern n="milestone" matchPattern="(\w+).(\w+).(\w+)"
-                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:p[@n='$2']/tei:milestone[@n='$3']))">
-                    <p>This pointer pattern extracts milestones</p>
-                </cRefPattern>
                 <cRefPattern n="paragraph" matchPattern="(\w+).(\w+)"
                     replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:p[@n='$2']))">
                     <p>This pointer pattern extracts paragraphs</p>
