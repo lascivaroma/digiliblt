@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -34,9 +33,13 @@
       </fileDesc>
       <encodingDesc>
          <refsDecl n="CTS">
-            <cRefPattern n="unknown" matchPattern="(\w+)"
+            <cRefPattern n="paragraph" matchPattern="(\w+).(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:p[@n='$2'])">
+               <p>This pointer pattern extracts paragraphs</p>
+            </cRefPattern>
+            <cRefPattern n="chapter" matchPattern="(\w+)"
                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-               <p>This pointer pattern extracts unknown</p>
+               <p>This pointer pattern extracts chapters</p>
             </cRefPattern>
          </refsDecl>
          <projectDesc>
@@ -110,7 +113,7 @@
 
       <body xml:lang="lat" n="urn:cts:latinLit:stoa0323.stoa001.digilibLT-lat1">
          <div type="cap" n="1">
-            <p> Fuit quidam rex Antiochus nomine, a quo ipsa ciuitas nomen accepit Antiochia. Hic
+            <p n="1"> Fuit quidam rex Antiochus nomine, a quo ipsa ciuitas nomen accepit Antiochia. Hic
                habuit ex amissa coniuge filiam, uirginem speciosissimam, in qua nihil natura rerum
                errauerat, nisi quod mortalem statuerat. Quae cum ad nubilem uenisset aetatem et
                specie pulchritudinis cresceret, multi eam in matrimonio postulabant et cum magna
@@ -119,14 +122,14 @@
                et coepit eam plus diligere quam patrem oportebat. Qui cum luctatur cum furore,
                pugnat cum dolore, uincitur ab amore; excidit illi pietas, et oblitus se esse patrem
                induit coniugem.</p>
-            <p>Sed cum saeui pectoris uulnus ferre non posset, quadam die prima luce uigilans
+            <p n="2">Sed cum saeui pectoris uulnus ferre non posset, quadam die prima luce uigilans
                irrupit cubiculum filiae, famulos longius secedere iussit, quasi cum filia secretum
                colloquium habiturus, stimulante furore libidinis diu repugnante filia nodum
                uirginitatis eripuit, perpetratoque scelere euasit cubiculum. Scelesti patris
                impietatem puella mirans cupit celare: sed in pauimento certa uidentur. </p>
          </div>
          <div type="cap" n="2">
-            <p> Cumque puella quid faceret cogitaret, nutrix subito introiit. Quam ut uidit flebili
+            <p n="1"> Cumque puella quid faceret cogitaret, nutrix subito introiit. Quam ut uidit flebili
                uultu, aspersoque sanguine pauimento, horruit et ait: «Quid sibi uult turbatus animus
                tuus?» Puella ait: «Cara nutrix, modo hic in cubiculo duo nobilium nomina perierunt».
                Nutrix ait: «Domina, quare hoc dicis?» Puella ait: «Ante legitimum nuptiarum mearum
@@ -139,7 +142,7 @@
                patrisque sui ut uoluntati satisfaceret cohortatur. </p>
          </div>
          <div type="cap" n="3">
-            <p> Inter haec rex impiissimus simulata mente ostendebat se ciuibus suis pium genitorem,
+            <p  n="1"> Inter haec rex impiissimus simulata mente ostendebat se ciuibus suis pium genitorem,
                intra domesticos uero et priuatos maritum se filiae laetabatur. Et ut semper impiis
                toris filiae frueretur, ad expellendos petitores nouum nequitiae genus excogitauit.
                Quaestiones proponebat dicendo: «Si quis uestrum quaestionis meae solutionem
@@ -151,7 +154,7 @@
                condicionem accederent. </p>
          </div>
          <div type="cap" n="4">
-            <p> Cum has crudelitates exerceret rex Antiochus, interposito breui temporis spatio
+            <p n="1"> Cum has crudelitates exerceret rex Antiochus, interposito breui temporis spatio
                quidam adulescens Tyrius, patriae suae princeps locuples immensum, Apollonius nomine,
                fidus abundantia litterarum, nauigans attingit Antiochiam, ingressusque ad regem ait:
                «Aue, rex!» et ut uidit rex quod uidere nolebat, ad iuuenem ait: «Salui sunt cuncti
@@ -168,7 +171,7 @@
             </p>
          </div>
          <div type="cap" n="5">
-            <p> Rex ut audiuit quaestionis solutionem iuuenem exsoluisse, timens ne scelus suum
+            <p n="1"> Rex ut audiuit quaestionis solutionem iuuenem exsoluisse, timens ne scelus suum
                patefieret, irato uultu eum respiciens ait: «Longe es, iuuenis, a quaestione; erras,
                nihil dicis. Decollari merueras, sed habebis XXX dierum spatium: recogita tecum.
                Reuersus dum fueris et quaestionis meae solutionem inueneris, accipies filiam meam in
@@ -176,13 +179,13 @@
                suam ascendit, tendit in patriam suam Tyrum. </p>
          </div>
          <div type="cap" n="6">
-            <p> Sed post discessum adulescentis uocauit rex dispensatorem suum, cui ait:
+            <p n="1"> Sed post discessum adulescentis uocauit rex dispensatorem suum, cui ait:
                «Thaliarche, secretorum meorum fidelissime minister, scias quia Tyrius Apollonius
                inuenit quaestionis meae solutionem. Ascende ergo confestim nauem ad persequendum
                iuuenem, et cum perueneris Tyrum, quaere inimicum ei, qui eum ferro aut ueneno
                perimat. Reuersus cum fueris, libertatem accipies». Statim Thaliarchus assumens
                pecuniam simulque nauem petiit patriam innocentis. </p>
-            <p> Apollonius uero prior attingit patriam suam, excipitur cum magna laude a ciuibus
+            <p n="2"> Apollonius uero prior attingit patriam suam, excipitur cum magna laude a ciuibus
                suis, sicut solent principes qui bene merentur; ducitur in domum suam cum laude et
                uocibus laetitiae, interiorem petiit cubiculum. Continuo iussit afferri sibi scrinia
                cum uoluminibus Graecis et Latinis uniuersarum quaestionum, ut ex animo quaereret
@@ -195,7 +198,7 @@
                tertia nauem ascendit tradiditque se alto pelago. </p>
          </div>
          <div type="cap" n="7">
-            <p> Alia die quaeritur a ciuibus nec inuenitur. Maeror ingens nascitur, quod princeps
+            <p n="1"> Alia die quaeritur a ciuibus nec inuenitur. Maeror ingens nascitur, quod princeps
                amatissimus nusquam comparet; sonat planctus in totam ciuitatem. Tantus enim amor
                circa eum ciuium erat, ut multo tempore tonsores cessarent, publica spectacula
                tollerentur, balnea clauderentur, non templa neque tabernas quisquam ingrederetur. Et
@@ -204,7 +207,7 @@
                causa ciuitas haec in luctu moratur?» Cui puer ait: «Hominem improbum et stultum!
                Scit et interrogat! Ideo ciuitas haec in luctu moratur, quia patriae huius princeps
                Apollonius ab Antiocho rege reuersus nusquam comparuit?». </p>
-            <p>Dispensator ut audiuit, gaudio plenus dirigit iter ad nauem et coepta nauigatione die
+            <p n="2">Dispensator ut audiuit, gaudio plenus dirigit iter ad nauem et coepta nauigatione die
                tertia attingit Antiochiam peruenitque ad regem et ait: «Laetare, domine rex.
                Apollonius enim timens regni tui uires nusquam comparuit». Rex ait: «Fugere potest,
                sed effugere non potest». Continuo huiusmodi edictum proposuit rex Antiochus dicens:
@@ -215,7 +218,7 @@
                inuenitur. </p>
          </div>
          <div type="cap" n="8 ">
-            <p> Tunc rex iussit classes nauium praeparari. Sed moras facientibus qui classes nauium
+            <p n="1"> Tunc rex iussit classes nauium praeparari. Sed moras facientibus qui classes nauium
                insistebant, iuuenis ille Tyrius Apollonius iam ut medium umbilicum pelagi tenebat,
                respiciens ad eum gubernator sic ait: «Domine Apolloni, numquid de arte mea aliquid
                quereris?» Apollonius ait: «Ego quidem de arte tua nihil queror, sed a rege Antiocho
@@ -234,7 +237,7 @@
                proscripsit?» Senex ait: «Vt quicumque te illi uiuum exhibuerit, accipiat L auri
                talenta; si caput tuum obtulerit, centum. Ideoque moneo te: fugae praesidium manda».
                Dixit et sine mora discessit. </p>
-            <p> Tunc iussit Apollonius rogari ad se senem proferrique protinus <del>iussit</del>
+            <p n="2"> Tunc iussit Apollonius rogari ad se senem proferrique protinus <del>iussit</del>
                centum talenta auri <del>adferri</del> et dari. Cui ait: «Gratissimi exempli
                pauperrime, accipe, quia mereris, et puta te mihi caput a ceruicibus amputasse et
                portasse gaudium regi, ecce habes praemium centum talenta et manus puras a sanguine
@@ -243,7 +246,7 @@
                dicens ei discessit. </p>
          </div>
          <div type="cap" n="9">
-            <p> Et respiciens Apollonius uidit contra se uenientem notum sibi hominem maesto uultu
+            <p n="1"> Et respiciens Apollonius uidit contra se uenientem notum sibi hominem maesto uultu
                dolentem nomine Stranguillionem. Accessit ad eum protinus et ait: «Aue,
                Stranguillio». Stranguillio ait: «Aue, domine Apolloni. Quid itaque his locis turbata
                mente uersaris?» Apollonius ait: «Proscriptum uides». Stranguillio ait: «Quis te
@@ -260,7 +263,7 @@
                Sed etiam, si necesse fuerit, pro salute tua dimicabunt». </p>
          </div>
          <div type="cap" n="10">
-            <p> Ascendens itaque Apollonius tribunal in foro cunctis ciuibus praesentibus dixit:
+            <p n="1"> Ascendens itaque Apollonius tribunal in foro cunctis ciuibus praesentibus dixit:
                «Ciues Tarsi, quos annonae inopia opprimit, ego Apollonius Tyrius releuabo. Credo
                enim uos omnes huius beneficii memores fugam meam celaturos. Scitote enim me legibus
                Antiochi regis esse fugatum; sed uestra felicitate faciente huc sum delatus. Dabo
@@ -275,7 +278,7 @@
                LIBERALITATE SVA FAMEM SEDAVERIT. </p>
          </div>
          <div type="cap" n="11">
-            <p> Interpositis deinde mensibus paucis hortante Stranguillione et Dionyisiade, coniuge
+            <p n="1"> Interpositis deinde mensibus paucis hortante Stranguillione et Dionyisiade, coniuge
                eius, ad Pentapolim Cyrenen nauigare proposuit, ut illic lateret, eo quod ibi
                benignius agi adfirmaretur. Cum ingenti igitur honore a ciuibus deductus ad mare,
                uale dicens omnibus conscendit ratem. Qui dum per aliquot dies totidemque noctes
@@ -304,7 +307,7 @@
             </lg>
          </div>
          <div type="cap" n="12">
-            <p> Tunc quisque rapit tabulam mortemque <unclear/> minatur. In tali caligine
+            <p n="1"> Tunc quisque rapit tabulam mortemque <unclear/> minatur. In tali caligine
                tempestatis perierunt uniuersi. Apollonius solus tabulae beneficio in
                Pentapolitanorum est litore pulsus, gubernatore pereunte; fortuna proicitur fatigatus
                in Cyrenes regionem. Et dum euomit undas quas potauerat, intuens mare tranquillum,
@@ -313,12 +316,12 @@
                crudelior, utinam animam abstulisses meam! Cui me solum reliquisti, egenum et miserum
                et impie naufragum? Facilius rex crudelissimus persequetur! Quo itaque pergam? Quam
                partem petam? Quis ignotus ignoto auxilium dabit?» </p>
-            <p> Haec dum loquitur, animaduertit uenientem contra se quendam robustum senem arte
+            <p n="2"> Haec dum loquitur, animaduertit uenientem contra se quendam robustum senem arte
                piscatoris sordido tribunario coopertum. Cogente necessitate prostrauit se illi ad
                pedes et profusis lacrimis ait: «Miserere, quicumque es, succurre nudo naufrago, non
                humilibus genito! Vt autem scias cuius miserearis, ego sum Tyrius Apollonius, patriae
                meae princeps. </p>
-            <p> Audi nunc trophaeum calamitatis meae, qui modo genibus tuis prouolutus deprecor
+            <p n="3"> Audi nunc trophaeum calamitatis meae, qui modo genibus tuis prouolutus deprecor
                uitam». Piscator ut uidit prima specie iuuenem pedibus suis prostratum, misericordia
                motus leuauit eum et tenuit manum eius et duxit infra tectum paupertatis suae, et
                posuit epulas quas potuit. Et ut plenius pietati suae satisfaceret, exuit se
@@ -330,13 +333,13 @@
                naufragium patiar nec tui similem inueniam!»</p>
          </div>
          <div type="cap" n="13">
-            <p> Et haec dicens demonstratam sibi uiam iter carpens portam ciuitatis intrauit. Et dum
+            <p n="1"> Et haec dicens demonstratam sibi uiam iter carpens portam ciuitatis intrauit. Et dum
                cogitat, unde auxilium uitae peteret, uidit puerum nudum per plateam currentem oleo
                unctum, praecinctum sabano, ferentem lusus iuuenales ad gymnasium pertinentes, maxima
                uoce dicentem: «Audite ciues, audite peregrini, liberi et ingenui: gymnasium patet!»
                Apollonius hoc audito exuit se tribunario et ingreditur lauacrum, utitur liquore
                Palladio, et dum exercentes singulos intuetur, parem sibi quaerens, non inuenit.</p>
-            <p> Subito Archistrates rex totius illius regionis cum turba famulorum ingressus, dum
+            <p n="2"> Subito Archistrates rex totius illius regionis cum turba famulorum ingressus, dum
                cum suis pilae lusum exerceret, uolente deo miscuit se Apollonius regi et decurrentem
                sustulit pilam et subtili uelocitate percussam ludenti regi remisit remissamque
                rursus uelocius repercussit nec cadere passus est. Notauit sibi rex uelocitatem
@@ -347,7 +350,7 @@
                manum officiosam dedit et discessit. </p>
          </div>
          <div type="cap" n="14">
-            <p> Rex ad amicos post discessum iuuenis ait: «Iuro uobis per communem salutem melius me
+            <p n="1"> Rex ad amicos post discessum iuuenis ait: «Iuro uobis per communem salutem melius me
                numquam lauasse quam hodie beneficio nescio cuius adulescentis». Et respiciens unum
                de famulis ait: «Iuuenis ille qui mihi officium fecit, uide quis est». Ille secutus
                iuuenem uidit eum tribunario sordido coopertum. Reuersus ad regem ait: «Iuuenis ille
@@ -356,7 +359,7 @@
                ut audiuit, acquieuit et ducente famulo peruenit ad regem. Famulus prior ingressus
                ait regi: «Naufragus adest, sed abiecto habitu introire confunditur». Statim rex
                iussit eum uestibus dignis indui et ingredi ad cenam. </p>
-            <p> Ingressus Apollonius triclinium contra regem designato loco discubuit. Infertur
+            <p n="2"> Ingressus Apollonius triclinium contra regem designato loco discubuit. Infertur
                gustatio, deinde cena regalis. Apollonius cunctis epulantibus non epulabatur, sed
                aurum, argentum, uestes, ministeria regalia dum flens cum dolore considerat, quidam
                senex inuidus iuxta regem discumbens uidit iuuenem curiose singula respicientem et
@@ -366,7 +369,7 @@
                nobiscum et meliora de deo spera!» </p>
          </div>
          <div type="cap" n="15">
-            <p> Et dum hortatur iuuenem, subito introiuit filia regis, iam adulta uirgo, et dedit
+            <p n="1"> Et dum hortatur iuuenem, subito introiuit filia regis, iam adulta uirgo, et dedit
                osculum patri, deinde discumbentibus amicis. Quae dum singulos osculatur, peruenit ad
                naufragum. Rediit ad patrem et ait: «Bone rex et pater optime, quis est iste iuuenis,
                qui contra te honorabili loco discumbit et flebili uultu nescio quid dolet?» Rex ait:
@@ -380,14 +383,14 @@
                ait: «Apertius indica mihi, ut intelligam». </p>
          </div>
          <div type="cap" n="16">
-            <p> Tunc ille uniuersos casus suos exposuit finitoque sermonis colloquio fundere
+            <p n="1"> Tunc ille uniuersos casus suos exposuit finitoque sermonis colloquio fundere
                lacrimas coepit. Quem ut uidit rex flentem, respiciens filiam ait: «Nata dulcis,
                peccasti, dum uis nomen et casus adulescentis scire, ueteres ei renouasti dolores.
                Peto itaque, domina, ut quicquid uis iuueni dones». Puella ut uidit sibi a patre
                ultro permissum quod ipsa praestare uolebat, respiciens iuuenem ait: «Apolloni,
                noster es, depone maerorem; et quia patris mei indulgentia permittit, locupletabo
                te». </p>
-            <p> Apollonius cum gemitu et uerecundia gratias egit. Rex gauisus tanta filiae suae
+            <p n="2"> Apollonius cum gemitu et uerecundia gratias egit. Rex gauisus tanta filiae suae
                benignitate ait: «Nata dulcissima, saluum habeas. Defer lyram et aufer iuueni
                lacrimas: exhilara conuiuium». Puella iussit sibi lyram afferri, at ubi accepit eam,
                nimia dulcedine chordarum miscuit sonum. Omnes laudare coeperunt et dicere: «Non
@@ -405,7 +408,7 @@
                mirabiliter placet. </p>
          </div>
          <div type="cap" n="17">
-            <p> Puella ut uidit iuuenem omnium artium studiorumque cumulatum, incidit in amorem.
+            <p n="1"> Puella ut uidit iuuenem omnium artium studiorumque cumulatum, incidit in amorem.
                Finito conuiuio puella respiciens patrem ait: «Care genitor, permiseras mihi paulo
                ante, ut quicquid uoluissem de tuo tamen Apollonio darem». Rex ait: «Et permisi et
                permitto». Puella intuens Apollonium ait: «Apolloni magister, accipe ex indulgentia
@@ -414,7 +417,7 @@
                et in triclinio ponite». Iussu reginae illata sunt omnia. Laudant omnes liberalitatem
                puellae. Peracto conuiuio leuauerunt se omnes et uale dicentes regi et reginae
                discesserunt. </p>
-            <p>Ipse quoque Apollonius ait: «Bone rex, miserorum misericors, et tu, regina, amatrix
+            <p n="2">Ipse quoque Apollonius ait: «Bone rex, miserorum misericors, et tu, regina, amatrix
                studiorum, ualete». Et respiciens famulos, quos sibi puella donauerat, ait: «Tollite,
                famuli, haec quae mihi regina donauit, et eamus; hospitalia requiramus». Puella
                timens ne amatum non uidens torqueretur, respiciens patrem ait: «Bone rex et pater
@@ -423,7 +426,7 @@
                iubet ei adsignari zaetam, ubi digne quiesceret. </p>
          </div>
          <div type="cap" n="18">
-            <p> Sed puella Archistratis ab amore incensa inquietam habuit noctem; figit in »pectore
+            <p n="1"> Sed puella Archistratis ab amore incensa inquietam habuit noctem; figit in »pectore
                uultus uerbaque», cantusque memor quaerit Apollonium et non sustinet amorem. Prima
                luce dum uigilat, irrupit cubiculum patris, sedet super torum. Pater uidens filiam
                ait: «Nata dulcis, quid est hoc quod praeter consuetudinem tuam mane uigilasti?»
@@ -439,7 +442,7 @@
                aegritudinis nullam causam inueniunt. </p>
          </div>
          <div type="cap" n="19">
-            <p> Post paucos dies rex tenens manum Apollonii forum ciuitatis ingreditur. Et dum cum
+            <p n="1"> Post paucos dies rex tenens manum Apollonii forum ciuitatis ingreditur. Et dum cum
                eo deambulabat, iuuenes nobilissimi tres, qui per longum tempus filiam eius in
                matrimonio petierant, regem una uoce pariter salutauerunt. Quos ut uidit rex,
                subridens ait: «Quid est quod una uoce pariter salutastis?» Vnus ex illis ait:
@@ -454,7 +457,7 @@
                enim locus te desiderat». </p>
          </div>
          <div type="cap" n="20">
-            <p> Apollonius acceptis codicillis petiit domum regiam; introiuit cubiculum. Puella ut
+            <p n="1"> Apollonius acceptis codicillis petiit domum regiam; introiuit cubiculum. Puella ut
                uidit amores suos ait: «Quid est, magister, quod singularis cubiculum introisti?»
                Apollonius ait: «Domina, nondum mulier et mala! Sume potius codicillos, quos tibi
                pater tuus misit, et lege». Puella accepit et legit trium nomina petitorum, sed nomen
@@ -469,7 +472,7 @@
                ruborem non habet». </p>
          </div>
          <div type="cap" n="21">
-            <p> Rex perlectis codicillis ignorans, quem naufragum diceret, respiciens tres iuuenes
+            <p n="1"> Rex perlectis codicillis ignorans, quem naufragum diceret, respiciens tres iuuenes
                ait: «Quis uestrum naufragium fecit?» Vnus ex his Ardaleo nomine ait: «Ego». Alius
                ait: «Tace, morbus te consumat! Mecum litteras didicisti, portam ciuitatis numquam
                existi. Quomodo naufragium fecisti?» Rex cum non inuenisset, quis eorum naufragium
@@ -484,7 +487,7 @@
                tempus fuerit, mittam ad uos». Et dimisit eos a se. </p>
          </div>
          <div type="cap" n="22">
-            <p> Ipse autem comprehendit manum iam non hospitis sed generi sui. Intrauit domum
+            <p n="1"> Ipse autem comprehendit manum iam non hospitis sed generi sui. Intrauit domum
                regiam. Et relicto Apollonio intrauit rex solus ad filiam suam et ait: «Nata dulcis,
                quem tibi coniugem elegisti?» Puella prostrauit se pedibus patris et ait: «Pater
                piissime, quia cupis audire desiderium filiae tuae: amo naufragum a fortuna deceptum;
@@ -494,7 +497,7 @@
                nuptiarum sine mora statuam». </p>
          </div>
          <div type="cap" n="23">
-            <p> Postera die uocantur amici, uicinarum urbium potestates, quibus considentibus ait:
+            <p n="1"> Postera die uocantur amici, uicinarum urbium potestates, quibus considentibus ait:
                «Amici, quare uos in unum conuocauerim, discite. Sciatis uelle filiam meam nubere
                Apollonio praeceptori suo. Peto ut omnium laetitia sit, quia filia mea uirum
                prudentem sortita est». Et haec dicens diem nuptiarum indicit. Muneratur domus
@@ -502,7 +505,7 @@
                inter coniuges amor, mirus affectus, incomparabilis dilectio, inaudita laetitia. </p>
          </div>
          <div type="cap" n="24">
-            <p> Interpositis autem diebus aliquot et mensibus, cum iam puella haberet uentriculum
+            <p n="1"> Interpositis autem diebus aliquot et mensibus, cum iam puella haberet uentriculum
                formatum sexto mense, aestiuo tempore, dum exspatiantur in litore, uident nauem
                speciosissimam, et dum eam mirantur et laetantur, cognouit eam Apollonius esse de
                patria sua, et conuersus ad gubernatorem ait: «Dic si ualeas, unde uenis?» Gubernator
@@ -522,7 +525,7 @@
                cum uiro meo; et ut libentius mihi permittas: unam demittis, recipies duas». </p>
          </div>
          <div type="cap" n="25">
-            <p> Rex exhilaratus iussit nauem produci in litore et omnibus bonis impleri; praeterea
+            <p n="1"> Rex exhilaratus iussit nauem produci in litore et omnibus bonis impleri; praeterea
                nutricem suam Lycoridem et obstetricem peritissimam propter partum eius simul
                nauigare praecepit. Et data profectoria deduxit eos ad litus, osculatur filiam et
                generum et uentum prosperum optat. Et ascendentes nauem cum multa familia multoque
@@ -546,7 +549,7 @@
                conclamatum est a familia. </p>
          </div>
          <div type="cap" n="26">
-            <p> Tertia die eiciunt undae loculum in litore Ephesiorum non longe a praedio medici
+            <p n="1"> Tertia die eiciunt undae loculum in litore Ephesiorum non longe a praedio medici
                cuiusdam nomine Chaeremonis, qui die illa cum discipulis suis deambulans in litore
                uidit loculum ex fluctibus expulsum iacentem in litore et ait famulis suis: «Tollite
                cum omni diligentia loculum istum et ad uillam perferte». Et ita fecerunt. Medicus
@@ -572,7 +575,7 @@
                coagulatus sanguis liquefactus est. </p>
          </div>
          <div type="cap" n="27">
-            <p> Quod ut uidit iuuenis, ait: «Chaeremon magister, peccasti, nam quam putas esse
+            <p n="1"> Quod ut uidit iuuenis, ait: «Chaeremon magister, peccasti, nam quam putas esse
                defunctam, uiuit. Et ut facilius mihi credas, ego illi adhibitis uiribus statim
                spiritum patefaciam». Et his dictis pertulit puellam in cubiculo suo et posuit in
                lectum, calefecit oleum, madefecit lanam, fudit super pectus puellae. Sanguis qui a
@@ -580,7 +583,7 @@
                praeclusus per medullas descendere. Venis itaque patefactis aperuit oculos et
                recipiens spiritum, quem iam perdiderat, leni et balbutienti sermone ait: «Rogo ne me
                aliter contingatis quam contingi oportet regis filiam et regis uxorem». </p>
-            <p> Iuuenis ut uidit quae in arte uiderat quae magistrum fallebant, gaudio plenus uadit
+            <p n="2"> Iuuenis ut uidit quae in arte uiderat quae magistrum fallebant, gaudio plenus uadit
                ad magistrum et dicit: «Magister, accipe discipuli tui apodixin». Et introiuit
                cubiculum iuuenis et uidit puellam uiuam quam putauerat mortuam et respiciens
                discipulum ait: «Amo curam, probo prouidentiam, laudo diligentiam. Et audi,
@@ -592,7 +595,7 @@
                seruabatur. </p>
          </div>
          <div type="cap" n="28">
-            <p> Interea Apollonius dum nauigat cum ingenti luctu, gubernante deo applicuit Tarso,
+            <p n="1"> Interea Apollonius dum nauigat cum ingenti luctu, gubernante deo applicuit Tarso,
                descendit ratem, petiit domum Stranguillionis et Dionysiadis. Quos cum salutasset,
                casus suos omnes exposuit. At illi dolentes quantum in amissam coniugem deflent
                iuueni, tantum in reseruatam sibi filiam gratulantur. Apollonius intuens
@@ -610,7 +613,7 @@
             </p>
          </div>
          <div type="cap" n="29">
-            <p> Interea puella Tarsia facta quinquennis mittitur in scholam, deinde studiis
+            <p n="1"> Interea puella Tarsia facta quinquennis mittitur in scholam, deinde studiis
                liberalibus datur. Cumque ad XIIII <supplied>annorum</supplied> uenisset aetatem,
                reuersa de auditorio inuenit nutricem suam Lycoridem subitaneam aegritudinem
                incurrisse, et sedens iuxta eam super torum casus infirmitatis exquirit. Cui nutrix
@@ -636,7 +639,7 @@
                iniuriam tuam uindicabunt». </p>
          </div>
          <div type="cap" n="30">
-            <p> Puella ait: «Cara nutrix, si prius senectae tuae naturaliter accidisset quam haec
+            <p n="1"> Puella ait: «Cara nutrix, si prius senectae tuae naturaliter accidisset quam haec
                mihi referres, ego originem natalium meorum nescissem!» Et dum haec dicit, nutrix in
                gremio puellae deposuit spiritum. Exclamauit uirgo, cucurrit familia. Corpus nutricis
                sepelitur, et iubente Tarsia in litore illi monumentum fabricatum est. Et post paucos
@@ -644,14 +647,14 @@
                nisi nutricis suae monumentum introiret et casus suos omnes exponeret et fleret. </p>
          </div>
          <div type="cap" n="31">
-            <p> Dum haec aguntur, quodam die feriato Dionysias cum filia sua et cum Tarsia per
+            <p n="1"> Dum haec aguntur, quodam die feriato Dionysias cum filia sua et cum Tarsia per
                publicum transibat. Videntes Tarsiae speciem et ornamentum ciues et omnes honorati
                dicebant: «Felix pater, cuius filia es; ista autem quae haeret lateri tuo turpis est
                et dedecus». Dionysias ut audiuit filiam suam uituperari, conuersa in furorem secum
                cogitans ait: «Pater eius ex quo profectus est, habet annos XV et non uenit ad
                recipiendam filiam. Credo, mortuus est aut in pelago periit. Et nutrix decessit,
                aemulum nullum habeo. Tollam eam de medio et ornamentis eius filiam meam exornabo». </p>
-            <p> Et iussit uenire uillicum suburbanum, cui ait: «Theophile, si cupis libertatem,
+            <p n="2"> Et iussit uenire uillicum suburbanum, cui ait: «Theophile, si cupis libertatem,
                Tarsiam tolle de medio». Villicus ait: «Quid enim peccauit innocens uirgo?» Scelerata
                dixit: «Negare mihi non potes; fac quod iubeo. Sin alias, sentias me iratam.
                Interfice eam et mitte corpus eius in mare. Et cum nuntiaueris factum, praemium
@@ -667,7 +670,7 @@
                coactum hoc facturum scelus». </p>
          </div>
          <div type="cap" n="32">
-            <p> Et cum puella deum deprecaretur, subito piratae apparuerunt et uidentes puellam sub
+            <p n="1"> Et cum puella deum deprecaretur, subito piratae apparuerunt et uidentes puellam sub
                iugo mortis stare, exclamauerunt: «Crudelissime barbare, parce, tibi dico, qui ferrum
                tenes. Haec enim praeda nostra est, non tua uictima». Villicus uoce piratae territus
                fugit post monumentum. Piratae applicantes ad litus tulerunt uirginem et altum
@@ -677,7 +680,7 @@
                ultime? Homicidium fecisti et libertatem petis? Repete uillam et opus tuum fac, ne
                iratum dominum tuum et me sentias». Villicus aporiatus ibat et leuans manus ad deum
                dixit: «Deus, tu scis quod non feci scelus. Esto iudex». Et rediit ad uillam. </p>
-            <p> Postera die prima luce scelerata, ut admissum facinus insidiosa fraude celaret,
+            <p n="2"> Postera die prima luce scelerata, ut admissum facinus insidiosa fraude celaret,
                famulos misit ad conuocandos amicos et patriae principes. Qui conuenientes
                consederunt. Tunc scelerata lugubres uestes induta, laniatis crinibus, nudo et liuido
                pectore adfirmans dolorem, exiit de cubiculo; fictas fingens lacrimas ait: «Amici
@@ -690,7 +693,7 @@
                EX AERE COLLATO DONVM DEDERVNT. </p>
          </div>
          <div type="cap" n="33">
-            <p> Interea piratae, qui Tarsiam rapuerunt, in ciuitate Mytilena deponunt et uenalem
+            <p n="1"> Interea piratae, qui Tarsiam rapuerunt, in ciuitate Mytilena deponunt et uenalem
                inter cetera mancipia proponunt. Et uidens eam leno Ninus nomine, cupidissimus et
                locupletissimus, ‘nec uir nec femina’, contendere coepit, ut eam emeret. Et
                Athenagora, princeps ciuitatis eiusdem, intellegens nobilem et sapientem pulcherrimam
@@ -713,7 +716,7 @@
                uillicus quod iusserat dominus eius. </p>
          </div>
          <div type="cap" n="34">
-            <p> Tertia die antecedente turba et symphonia ducitur ad lupanar. Athenagora prior
+            <p n="1"> Tertia die antecedente turba et symphonia ducitur ad lupanar. Athenagora prior
                adfuit et uelato capite lupanar ingreditur. Intrauit cellam et sedit in lectum
                puellae. Puella ex demonstrato ostium clausit et procidens ad pedes eius ait:
                «Miserere, domine! Per iuuentutem tuam et per deum te adiuro ne uelis me sub hoc
@@ -740,7 +743,7 @@
             </p>
          </div>
          <div type="cap" n="35">
-            <p> Et exiens iuuenis inuenit Athenagoram ridentem et ait illi: «Magnus homo es! Non
+            <p n="1"> Et exiens iuuenis inuenit Athenagoram ridentem et ait illi: «Magnus homo es! Non
                habuisti cui lacrimas tuas propinares!» Et adiurati ne cui proderent, tacentes
                aliorum coeperunt exitum expectare. Et insidiantibus illis per occultum aspectum,
                omnes qui intrabant dantes pecuniam flentes recedebant. Facta autem huius rei fine
@@ -758,7 +761,7 @@
                leno; nescio si possis ita perseuerare». </p>
          </div>
          <div type="cap" n="36">
-            <p> Puella ait: «Dabo operam studiis liberalibus; erudita <supplied>sum</supplied>;
+            <p n="1"> Puella ait: «Dabo operam studiis liberalibus; erudita <supplied>sum</supplied>;
                similiter lyrae pulsu modulanter inludo. Iube crastino in frequenti loco scamna
                disponi; et facundia oris mei populum emerebor et casus meos omnes exponam;
                quoscumque nodos quaestionum proposuerint, exsoluam; et hac arte ampliabo pecunias».
@@ -771,7 +774,7 @@
                multa donaret et commendaret eam. </p>
          </div>
          <div type="cap" n="37">
-            <p> Et cum cotidie uirgo misericordia populi tantas congerit pecunias in sinu lenonis,
+            <p n="1"> Et cum cotidie uirgo misericordia populi tantas congerit pecunias in sinu lenonis,
                Apollonius uenit Tarsum quarto decimo anno transacto, et operto capite, ne a quoquam
                ciuium deformis aspiceretur, ad domum pergebat Stranguillionis. Quem ut uidit
                Stranguillio a longe, perrexit prior rapidissimo cursu et dixit Dionysiadi uxori
@@ -792,7 +795,7 @@
                decessit dies: numquid pecunia, uestes et ornamenta perierunt?»</p>
          </div>
          <div type="cap" n="38">
-            <p> Ex pacto proferuntur omnia, et dicunt: «Crede nobis, quia filiam tuam cupiuimus
+            <p n="1"> Ex pacto proferuntur omnia, et dicunt: «Crede nobis, quia filiam tuam cupiuimus
                incolumem resignare. Et ut scias nos non mentiri, habemus rei huius testimonium:
                ciues memores beneficiorum tuorum ex aere collato in proximo litore filiae tuae
                monumentum fecerunt, quod potes uidere». Credens eam defunctam ad famulos ait:
@@ -805,7 +808,7 @@
                in undis efflare spiritum, quem in terris non licuit». </p>
          </div>
          <div type="cap" n="39">
-            <p> Et dum nauigat prosperis uentis Tyrum reuersurus, subito mutata est pelagi fides.
+            <p n="1"> Et dum nauigat prosperis uentis Tyrum reuersurus, subito mutata est pelagi fides.
                Per diuersa maris discrimina iactatur, omnibus deum rogantibus ad Mytilenen ciuitatem
                deuenerunt. Gubernator cum omnibus plausum dedit. Apollonius ait: «Qui<del>s</del>
                sonus hilaritatis aures meas percussit?» Gubernator ait: «Gaude, domine, hodie
@@ -833,7 +836,7 @@
                descendam. Dic, quis uocatur». Famuli dixerunt: «Apollonius». </p>
          </div>
          <div type="cap" n="40">
-            <p> Athenagora ait intra se: «Et Tarsia patrem Apollonium nominat». Et demonstrantibus
+            <p n="1"> Athenagora ait intra se: «Et Tarsia patrem Apollonium nominat». Et demonstrantibus
                pueris peruenit ad eum. Quem ut uidit barba <supplied>horrida</supplied>, capite
                squalido in tenebris iacentem, submissa uoce ait: «Apolloni, aue». Apollonius putans
                se ab aliquo suorum contemni, turbulento uultu respiciens uidit ignotum sibi hominem
@@ -864,7 +867,7 @@
                meam inter naufragia castitatis inuiolabiliter seruo». </p>
          </div>
          <div type="cap" n="41">
-            <p> Et his carminibus modulata uoce cantare exorsa est:</p>
+            <p n="1"> Et his carminibus modulata uoce cantare exorsa est:</p>
             <lg>
                <l> «Per sordes gradior, sed sordis conscia non sum, </l>
                <l>sic rosa in spinis nescit compungi mucrone. </l>
@@ -879,7 +882,7 @@
                <l>Mox aderit deus <supplied>ille</supplied>, creator omnium et auctor, </l>
                <l>nec sinet hos fletus casso maerore relinqui».</l>
             </lg>
-            <p>Ad haec Apollonius leuauit caput et uidens puellam ingemuit et ait: «Audi me miserum.
+            <p n="2">Ad haec Apollonius leuauit caput et uidens puellam ingemuit et ait: «Audi me miserum.
                Contra pietatem quamdiu luctabor?» Et erigens se resedit et ait ad eam: «Ago
                prudentiae tuae et nobilitati tuae gratias, et consolationi tuae hanc uicem rependo,
                ut mereris. Quandoque si mihi laetari licuerit, regni mei uiribus
@@ -901,13 +904,13 @@
                Peto enim ut fletibus meis spatium tribuas». </p>
          </div>
          <div type="cap" n="42">
-            <p> Et ait Tarsia:</p>
+            <p n="1"> Et ait Tarsia:</p>
             <lg>
                <l>«Est domus in terris clara quae uoce resultat.</l>
                <l>Ipsa domus resonat, tacitus sed non sonat hospes. </l>
                <l>Ambo tamen currunt, hospes simul et domus una». </l>
             </lg>
-            <p>Et ait ad eum: «Si rex es, ut asseris, in patria tua (regi enim nihil conuenit esse
+            <p n="2">Et ait ad eum: «Si rex es, ut asseris, in patria tua (regi enim nihil conuenit esse
                prudentius), solue mihi quaestionem et uadam». Apollonius caput agitans ait: «Vt
                scias me non esse mentitum: domus quae in terris resonat unda est; hospes huius domus
                tacitus piscis est, qui cum domo sua currit». Et ait Tarsia:</p>
@@ -916,7 +919,7 @@
                <l>innumeris pariter comitum stipata cateruis. </l>
                <l>Curro uias multas, uestigia nulla relinquo». </l>
             </lg>
-            <p>Apollonius ait: «O si laetum me esse liceret, ostenderem tibi quae ignoras. Tamen ne
+            <p n="3">Apollonius ait: «O si laetum me esse liceret, ostenderem tibi quae ignoras. Tamen ne
                ideo tacere uidear, ut pecuniam recipiam, respondebo quaestioni tuae. Miror enim te
                tenerae aetatis huius esse prudentiae. Nam longa arbor est
                <supplied>nauis</supplied>, formosae filia siluae; fertur uelox uento pellente,
@@ -927,7 +930,7 @@
                <l>circumdat flammis hinc inde uallata, nec uror. </l>
                <l>Nuda domus <supplied>est et</supplied> nudus ibi conuenit hospes». </l>
             </lg>
-            <p>Apollonius ait: «Ego si luctum deponerem, innocens intrarem ignes. Intrarem enim in
+            <p n="4">Apollonius ait: «Ego si luctum deponerem, innocens intrarem ignes. Intrarem enim in
                balneum ubi hinc inde flammae per tubulos surgunt; nuda domus est quia nihil intus
                nisi sedile, ubi nudus hospes sudat». Et ait iterum Tarsia:</p>
             <lg>
@@ -935,15 +938,15 @@
                <l>Viscera tota tument patulis diffusa cauernis. </l>
                <l>Intus lympha latet, quae se non sponte profundit». </l>
             </lg>
-            <p>Apollonius ait: «Spongia licet sit leuis, uisceribus totis tumet aqua grauata patulis
+            <p n="5">Apollonius ait: «Spongia licet sit leuis, uisceribus totis tumet aqua grauata patulis
                diffusa cauernis, intra quas lympha latet, quae se non sponte profundit». </p>
-            <p> Et ait iterum Tarsia:</p>
+            <p n="6"> Et ait iterum Tarsia:</p>
             <lg>
                <l>«Non sum cincta comis et non sum nuda capillis, </l>
                <l>intus enim crines mihi sunt, quos non uidet ullus. </l>
                <l>Meque manus mittunt, manibusque remittor in auras». </l>
             </lg>
-            <p>Apollonius ait: «Hanc ego Pentapoli habui ducem, ut fierem regi amicus. Nam sphaera
+            <p n="7">Apollonius ait: «Hanc ego Pentapoli habui ducem, ut fierem regi amicus. Nam sphaera
                non est cincta comis, sed intus plena capillis; manibus missa manibusque remittitur».
                Et ait iterum Tarsia:</p>
             <lg>
@@ -951,18 +954,18 @@
                <l>Fulgor inest intus radianti luce coruscans, </l>
                <l>qui nihil ostendit, nisi si quid uiderit ante». </l>
             </lg>
-            <p>Apollonius ait: «Nulla certa figura speculo inest, quia mentitur aspectu; nulla
+            <p n="8">Apollonius ait: «Nulla certa figura speculo inest, quia mentitur aspectu; nulla
                peregrina figura, quia quod contra se habuerit ostendit». Et ait iterum Tarsia:</p>
             <lg>
                <l>«Nos sumus, ad caelum quae scandimus alta petentes,</l>
                <l>concordi fabrica quas unus conserit ordo.</l>
                <l>Quicumque alta petunt, per nos comitantur ad auras».</l>
             </lg>
-            <p>Apollonius ait: «Grandes ad auras scalae gradus sunt; uno conserti ordine aequali
+            <p n="9">Apollonius ait: «Grandes ad auras scalae gradus sunt; uno conserti ordine aequali
                mansione manent; alta quicumque petunt, per eos comitantur ad auras». </p>
          </div>
          <div type="cap" n="44">
-            <p> Et his dictis misit caput super Apollonium et strictis manibus complexa dixit: «Quid
+            <p n="1"> Et his dictis misit caput super Apollonium et strictis manibus complexa dixit: «Quid
                te tantis malis affligis? Exaudi uocem meam et deprecantem respice uirginem, quia
                tantae prudentiae uirum mori uelle nefarium est. Si coniugem desideras, deus
                restituet; si filiam, saluam et incolumem inuenies. Et praesta petenti quod te
@@ -980,7 +983,7 @@
                Stranguillioni et Dionysiadi impiis me dereliquit!»</p>
          </div>
          <div type="cap" n="45">
-            <p> Apollonius haec signa audiens exclamauit cum lacrimis uoce magna: «Currite famuli,
+            <p n="1"> Apollonius haec signa audiens exclamauit cum lacrimis uoce magna: «Currite famuli,
                currite amici, et anxianti patri finem imponite!» Qui audientes clamorem cucurrerunt
                omnes <del>serui</del>; currit et Athenagora, ciuitatis illius princeps, et inuenit
                Apollonium supra collum Tarsiae flentem et dicentem: «Haec est filia mea Tarsia quam
@@ -1003,7 +1006,7 @@
                infamem». </p>
          </div>
          <div type="cap" n="46">
-            <p> At ubi dictum est Athenagoram principem hac uoce in foro clamasse, concursus ingens
+            <p n="1"> At ubi dictum est Athenagoram principem hac uoce in foro clamasse, concursus ingens
                factus est et tanta commotion fuit populi, ut domi nec uir nec femina remaneret.
                Omnibus autem concurrentibus magna uoce dixit: «Ciues Mytilenes, sciatis Tyrium
                Apollonium regem magnum huc uenisse et classes nauium. Exercitu proximante euersurus
@@ -1026,7 +1029,7 @@
                   <supplied>mecum</supplied> liberae estote». </p>
          </div>
          <div type="cap" n="47">
-            <p> Et erigens se Tyrius Apollonius alloquitur populum dicens: «Gratias pietati uestrae
+            <p n="1"> Et erigens se Tyrius Apollonius alloquitur populum dicens: «Gratias pietati uestrae
                refero, uenerandi et piissimi ciues, <supplied>quorum</supplied> longa fides pietatem
                praebuit, quietem tribuit, salutem exhibuit, gloriam educauit. Vestrum est, quod
                rediuiuis uulneribus rediuiua uita successit; uestrum est, quod fraudulenta mors cum
@@ -1041,7 +1044,7 @@
                Athenagorae cum ingenti laetitia totius ciuitatis. </p>
          </div>
          <div type="cap" n="48">
-            <p> Et cum eo et cum filia uolens per Tarsum transeundo redire in patriam suam, uidit in
+            <p n="1"> Et cum eo et cum filia uolens per Tarsum transeundo redire in patriam suam, uidit in
                somnis quendam angelico uultu sibi dicentem: «Apolloni, iter ad Ephesum dirige et
                intra templum Dianae cum filia et genero tuo: casus tuos omnes expone; postea Tarso
                filiam tuam uindica innocentem». Apollonius expergefactus indicat genero et filiae
@@ -1071,7 +1074,7 @@
             </p>
          </div>
          <div type="cap" n="49">
-            <p> Cumque haec et his similia narrat, leuauit se Archistratis uxor ipsius et rapuit eum
+            <p n="1"> Cumque haec et his similia narrat, leuauit se Archistratis uxor ipsius et rapuit eum
                in amplexu. Apollonius nesciens esse coniugem suam repellit eam a se. At illa cum
                lacrimis uoce magna clamauit dicens: «Ego sum coniunx tua regis Archistratis filia!»
                Et mittens se iterum in amplexu eius coepit dicere: «Tu es Tyrius Apollonius, meus
@@ -1086,7 +1089,7 @@
                ascendit. </p>
          </div>
          <div type="cap" n="50">
-            <p> Veniens igitur Tyrius Apollonius Antiochiam, ubi regnum reseruatum suscepit, pergit
+            <p n="1"> Veniens igitur Tyrius Apollonius Antiochiam, ubi regnum reseruatum suscepit, pergit
                inde Tyrum et constituit regem loco suo Athenagoram generum suum. Et cum eo et cum
                filia sua <supplied>et coniuge sua</supplied> et cum exercitu regio nauigans uenit
                Tarsum et iussit statim comprehendi Stranguillionem et Dionysiadem uxorem suam et
@@ -1111,7 +1114,7 @@
                Tarsia tulit. </p>
          </div>
          <div type="cap" n="51">
-            <p> Apollonius uero addens laetitiam populo dedit munera, restaurans thermas, moenia,
+            <p n="1"> Apollonius uero addens laetitiam populo dedit munera, restaurans thermas, moenia,
                murorum turres. Moratus autem ibi VI mensibus nauigat cum suis ad Pentapolim
                ciuitatem Cyrenen. Ingreditur ad regem Archistratem. <del>Coronatur ciuitas, ponuntur
                   organa</del> gaudet in ultima senectute sua rex Archistrates: uidet neptem cum
@@ -1119,7 +1122,7 @@
                Apollonii et filiae integro anno perdurat. Post haec laetus moritur perfecta aetate
                in manibus eorum, medietatem regni sui Apollonio relinquens et medietatem filiae
                suae. </p>
-            <p> His omnibus peractis dum deambulat Apollonius iuxta mare, uidit piscatorem illum a
+            <p n="2"> His omnibus peractis dum deambulat Apollonius iuxta mare, uidit piscatorem illum a
                quo fuerat naufragus susceptus, et iussit eum comprehendi. Vidit piscator se a
                militibus duci; occidendum se putabat. Et ingressus Apollonius coram coniuge sua
                iussit eum adduci et ait: «Domina coniunx, hic est paranymphus meus, qui olim mihi
@@ -1134,7 +1137,7 @@
                annis septuaginta IIII; tenuit regnum Antiochiae <del>Tyri et Cyrenensium</del>;
                quietam uitam per omne tempus suum uixit. Casus suos suorumque ipse descripsit et duo
                uolumina fecit: unum Dianae in templo Ephesiorum, aliud in bibliotheca sua exposuit. </p>
-            <p> Explicit </p>
+            <p n="3"> Explicit </p>
          </div>
 
       </body>
