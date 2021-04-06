@@ -34,11 +34,11 @@
         <encodingDesc>
             <refsDecl n="CTS">
                 <cRefPattern n="paragraph" matchPattern="(\w+).(\w+)"
-                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:p[@n='$2']))">
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:p[@n='$2'])">
                     <p>This pointer pattern extracts paragraphs</p>
                 </cRefPattern>
                 <cRefPattern n="chapter" matchPattern="(\w+)"
-                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div/tei:p/tei:milestone[@n='$1']))">
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
                     <p>This pointer pattern extracts chapters</p>
                 </cRefPattern>
             </refsDecl>
