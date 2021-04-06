@@ -23,6 +23,8 @@ jobs:
           hooktest-build --travis ./
       - name: Run cleaning commit
         run: |
+          git config --global user.email "leponteineptique@gmail.com"
+          git config --global user.name "Thibault Clérice - Builder"
           git add data
           git commit -m "Automatic cleaning before release"
       - name: Bump version and push tag
