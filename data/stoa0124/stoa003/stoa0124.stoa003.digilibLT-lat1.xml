@@ -32,9 +32,13 @@
         </fileDesc>
         <encodingDesc>
             <refsDecl n="CTS">
-                <cRefPattern n="unknown" matchPattern="(\w+)"
-                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-                    <p>This pointer pattern extracts unknown</p>
+                <cRefPattern n="paragraph" matchPattern="(\w+).(\w+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:p[@n='$2'])">
+                    <p>This pointer pattern extracts paragraphs</p>
+                </cRefPattern>
+                <cRefPattern n="chapter" matchPattern="(\w+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])">
+                    <p>This pointer pattern extracts chapters</p>
                 </cRefPattern>
             </refsDecl>
             <projectDesc>
@@ -86,7 +90,7 @@
     <text>
         <body xml:lang="lat" n="urn:cts:latinLit:stoa0124.stoa003.digilibLT-lat1">
             <div type="cap" n="1">
-                <p> Capienti mihi in templo et saucium uigilia caput plurimarum arborum amoenitate,
+                <p n="1"> Capienti mihi in templo et saucium uigilia caput plurimarum arborum amoenitate,
                     euriporum frigore, aeris libertate recreanti obuiam subito quidam fuere, quos ab
                     urbis spectaculo Baeticam reuertentes sinister Af<del>f</del>ricae uentus in hoc
                     litus excusserat. Quorum unus, uir, ut postea apparuit, litteris pereruditus,
@@ -119,7 +123,7 @@
                     loca quasue regiones peragrasti?» </p>
             </div>
             <div type="cap" n="2">
-                <p> «Si ita indulges otio, plane quam breuiter exponam nec inuitus priorum
+                <p n="1"> «Si ita indulges otio, plane quam breuiter exponam nec inuitus priorum
                     recordabor. Primum Siciliam nobilem uidi, domesticam Cereris. Fecundam deinde
                     Creten, patriam Tonantis, et a latere uicinas Cycladas salutaui. Inde me Rhodos
                     et ab regressu Aegyptium <supplied>excepit</supplied> pelagus, ut ora Nili
@@ -150,7 +154,7 @@
                     oblitus subito nostrum litus adamauit.» </p>
             </div>
             <div type="cap" n="3">
-                <p> Hic cum ergo respirassem, statim Baeticus «o» inquit «beatam ciuitatem, quae in
+                <p n="1"> Hic cum ergo respirassem, statim Baeticus «o» inquit «beatam ciuitatem, quae in
                     te fatigatum incidit. Quem ad modum tamen te prosequitur, et quid hic agitur?
                     Vnde subuenit reditus? An pater ab Af<del>f</del>rica subministrat?» «Inde
                     nequaquam, cum hac ipsa peregrinatione offenderim. In reditu est mihi professio
