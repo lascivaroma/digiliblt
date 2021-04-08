@@ -28,6 +28,15 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           tag_prefix: ""
           default_bump: "patch"
+          dry_run: true
+      - name: Clean and Tag
+        run: |
+          git config --global user.email "leponteineptique@gmail.com"
+          git config --global user.name "Thibault Clérice - Builder"
+          git add data
+          git commit -m "${{ steps.tag_version.outputs.new_tag }}"
+          git tag ${{ steps.tag_version.outputs.new_tag }} -a -m "Automatic cleaning before release"
+          git push --tags
       - name: Create a GitHub release
         uses: actions/create-release@v1
         env:
