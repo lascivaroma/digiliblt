@@ -37,7 +37,7 @@
                <p>This pointer pattern extracts paragraphs</p>
             </cRefPattern>
             <cRefPattern n="chapter" matchPattern="(\w+)"
-               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']">
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])">
                <p>This pointer pattern extracts chapters</p>
             </cRefPattern>
          </refsDecl>
@@ -89,6 +89,7 @@
                   précision de l'extraction par la pattern des paragraphes</item>
                <item>Ajout du cRefPattern pour extraire les chapitres</item>
                <item> ProfileDesc : ajout des balises langUsage et language</item>
+               <item>Numérotation des paragraphes </item>
             </list>
          </change>
       </revisionDesc>
@@ -145,17 +146,18 @@
                amarus, praeceps, timidus.</p>
          </div>
          <div type="cap" n="5">
-            <p n="1"> Veniamus ad indicia corporis masculini. Caput grande, capillus crassior, rubeus uel
-               niger cum rubore, stabilis, modice inflexus, color rubeus non clari ruboris uel
-               niger, suffusus tamen rubore, oculi paulo impressiores, minaces, subnigri, quos
-               Graeci <foreign xml:lang="grc">χαροποὺς</foreign> uocant, uel glauci. Ceruix esse
-               debet moderatae plenitudinis, aliquanto prolixior, uertex capitis subrectior,
-               scapulae ingentes, humeri et superiores corporis partes usque ad umbilicum latiores,
-               inferiores deductae paulatim plenitudine desinente, lacertuosus, ossibus magnis,
-               nodis et articulis imorum pedum et summarum manuum firmis, non tamen rigidis, sed
-               absolutis, prope imum seiunctis atque discretis, pectore alto et prominente, iugulis
-               absolutis, uentre lato, compresso paululum intrinsecus, pectus non nimia carne
-               contectum, solido et spisso corpore, ossibus quae sunt sub ilibus, quae a Graecis <supplied>
+            <p n="1"> Veniamus ad indicia corporis masculini. Caput grande, capillus crassior,
+               rubeus uel niger cum rubore, stabilis, modice inflexus, color rubeus non clari
+               ruboris uel niger, suffusus tamen rubore, oculi paulo impressiores, minaces,
+               subnigri, quos Graeci <foreign xml:lang="grc">χαροποὺς</foreign> uocant, uel glauci.
+               Ceruix esse debet moderatae plenitudinis, aliquanto prolixior, uertex capitis
+               subrectior, scapulae ingentes, humeri et superiores corporis partes usque ad
+               umbilicum latiores, inferiores deductae paulatim plenitudine desinente, lacertuosus,
+               ossibus magnis, nodis et articulis imorum pedum et summarum manuum firmis, non tamen
+               rigidis, sed absolutis, prope imum seiunctis atque discretis, pectore alto et
+               prominente, iugulis absolutis, uentre lato, compresso paululum intrinsecus, pectus
+               non nimia carne contectum, solido et spisso corpore, ossibus quae sunt sub ilibus,
+               quae a Graecis <supplied>
                   <foreign xml:lang="grc">ἰσχία</foreign>
                </supplied> dicuntur, siccioribus et solidis. Item masculinum corpus forte et
                tolerans laborum est, uocis solidae, aliquanto raucioris, interdum grauis tanquam ex
@@ -182,8 +184,8 @@
                facilis, incessus decens, breuibus passibus et accuratis.</p>
          </div>
          <div type="cap" n="7">
-            <p n="1"> Accidunt praeterea species feminino generi quas quidem masculino assignauimus. Quae
-               in quocumque sexu fuerint magis edent ex sese fetum generis masculini. Εa uero
+            <p n="1"> Accidunt praeterea species feminino generi quas quidem masculino assignauimus.
+               Quae in quocumque sexu fuerint magis edent ex sese fetum generis masculini. Εa uero
                accidentia quae feminino generi assignata sunt, in quocumque sexu fuerint, edunt
                magis sobolem femininam. Item in quocumque corpore pars aliqua dextra maior fuerit
                uel oculus uel manus uel mamilla uel testiculus uel pes, uel uertex capitis ad
@@ -207,27 +209,27 @@
                perdix, pica ad femininum.</p>
          </div>
          <div type="cap" n="9">
-            <p n="1"> Denique tria genera ueteres instituerunt quibus physiognomoniam exercuerunt. Nam
-               primo gentium uel prouinciarum propositis moribus ad similitudinem singulos quosque
-               homines referebant, ut dicerent: «Hic Aegyptio est similis, Aegyptii autem sunt
-               callidi, dociles, leues, temerarii, in uenerem proni; hic Celto, id est Germano, est
-               similis, Celti autem sunt indociles, fortes, feri; hic Thraci est similis, Thraces
-               autem sunt iniqui, pigri, temulenti». Processu autem temporis etiam hoc genere
-               physiognomoniam assecuti sunt homines, quod obseruarent quo quis esset uultu uel in
-               quo corporis statu per singulos animi sui motus, id est quis esset uultus irati, quis
-               cogitantis, quis timentis, quis in libidinem proni quisque furentis. Quemcumque
-               igitur perspexissent physiognomones nulla existente furoris causa furenti habere
-               proximum uultum nec existente ira irascenti nec proposita cogitatione cogitanti, uel
-               furiosum uel iracundum uel cogitatorem pronuntiabant. Tertium accessit ut ad
-               similitudinem animalium de animis hominum pronuntiaretur. Et certior ac facilior haec
-               uia uisa est nec tamen omissae sunt priores. Denique signa plurima ad similitudinem
-               animalium referuntur.</p>
+            <p n="1"> Denique tria genera ueteres instituerunt quibus physiognomoniam exercuerunt.
+               Nam primo gentium uel prouinciarum propositis moribus ad similitudinem singulos
+               quosque homines referebant, ut dicerent: «Hic Aegyptio est similis, Aegyptii autem
+               sunt callidi, dociles, leues, temerarii, in uenerem proni; hic Celto, id est Germano,
+               est similis, Celti autem sunt indociles, fortes, feri; hic Thraci est similis,
+               Thraces autem sunt iniqui, pigri, temulenti». Processu autem temporis etiam hoc
+               genere physiognomoniam assecuti sunt homines, quod obseruarent quo quis esset uultu
+               uel in quo corporis statu per singulos animi sui motus, id est quis esset uultus
+               irati, quis cogitantis, quis timentis, quis in libidinem proni quisque furentis.
+               Quemcumque igitur perspexissent physiognomones nulla existente furoris causa furenti
+               habere proximum uultum nec existente ira irascenti nec proposita cogitatione
+               cogitanti, uel furiosum uel iracundum uel cogitatorem pronuntiabant. Tertium accessit
+               ut ad similitudinem animalium de animis hominum pronuntiaretur. Et certior ac
+               facilior haec uia uisa est nec tamen omissae sunt priores. Denique signa plurima ad
+               similitudinem animalium referuntur.</p>
          </div>
          <div type="cap" n="10">
-            <p n="1"> Haec praedicta sunt ad indicia utriusque speciei sincera et mera concipienda, quo
-               discretio masculini et feminini generis intellectui clara et euidens esse monstretur.
-               Verum sciendum permixtionem plurimam esse signorum tam in hominibus quam in
-               animalibus ceteris, et quae generalia posuimus et quae mox specialia subsequentur.
+            <p n="1"> Haec praedicta sunt ad indicia utriusque speciei sincera et mera concipienda,
+               quo discretio masculini et feminini generis intellectui clara et euidens esse
+               monstretur. Verum sciendum permixtionem plurimam esse signorum tam in hominibus quam
+               in animalibus ceteris, et quae generalia posuimus et quae mox specialia subsequentur.
                Nec aliter ingenium bonum constat, nisi uirtutem ex masculina, sapientiam ex feminina
                specie conceperit. Vbi itaque multa compugnantia signa conuenerint, pronuntiandum
                quidem secundum ea quae uel plura sunt uel clariora uel potiora. Nam multa paucis
@@ -264,11 +266,11 @@
                subiugatum, alius sternutamento subito uirum se non esse confessus est.</p>
          </div>
          <div type="cap" n="12">
-            <p n="1"> Sed priusquam ad singula ueniamus indicia uel signa, sciendum est quod sanguis, in
-               quo sedem Loxus animae esse constituit, si quidem multus sit, corpori quidem praebet
-               augmentum et ruborem et capillis soliditatem et densitatem, sensus tamen et
-               intellectus humani acumen constringit et hebetat atque intercipit, si tenuis et
-               paruus, corpus infirmat, colorem deformat, corporalia omnia extenuat et minuit,
+            <p n="1"> Sed priusquam ad singula ueniamus indicia uel signa, sciendum est quod
+               sanguis, in quo sedem Loxus animae esse constituit, si quidem multus sit, corpori
+               quidem praebet augmentum et ruborem et capillis soliditatem et densitatem, sensus
+               tamen et intellectus humani acumen constringit et hebetat atque intercipit, si tenuis
+               et paruus, corpus infirmat, colorem deformat, corporalia omnia extenuat et minuit,
                mentis autem ingenium confouet et acumen animi excitat nec intercludit mobilitatem
                eius ac motum, uelocitatem denique confert omnibus sensualibus membris quae sunt in
                nostris uultibus constituta, ut sunt aures, oculi, lingua, nares et qυaecumque uenae
@@ -277,16 +279,16 @@
                ingenium ex modo et temperamento sanguinis originem sumat.</p>
          </div>
          <div type="cap" n="13">
-            <p n="1"> Sciendum etiam quod de capillis his qui cum homine nascuntur certiora sint signa, ut
-               capitis, superciliorum et oculorum.</p>
+            <p n="1"> Sciendum etiam quod de capillis his qui cum homine nascuntur certiora sint
+               signa, ut capitis, superciliorum et oculorum.</p>
             <p n="2">Incipiamus a capite.</p>
          </div>
          <div type="cap" n="14">
-            <p n="1"> Capilli stabiles idemque nigri uel sordidi et aquati ruboris et crassi uiolentum
-               hominem indicant: referuntur ad suem. Capilli molles et ultra modum tenues, rubei et
-               rari penuriam sanguinis, eneruem, sine uirtute ac femininum animum indicant et quanto
-               rariores fuerint, tanto magis subdolum. Capilli crispi nimium subdolum, auarum,
-               timidum, lucri cupidum hominem ostendunt. Referuntur autem tales ad gentem
+            <p n="1"> Capilli stabiles idemque nigri uel sordidi et aquati ruboris et crassi
+               uiolentum hominem indicant: referuntur ad suem. Capilli molles et ultra modum tenues,
+               rubei et rari penuriam sanguinis, eneruem, sine uirtute ac femininum animum indicant
+               et quanto rariores fuerint, tanto magis subdolum. Capilli crispi nimium subdolum,
+               auarum, timidum, lucri cupidum hominem ostendunt. Referuntur autem tales ad gentem
                Aegyptiorum, qui sunt timidi, et ad Syrorum, qui sunt auari. Capilli densi imminentes
                fronti nimium ferum animum declarant, quia referuntur ad speciem ursi. Capilli supra
                medium frontis resupini ad cerebrum respicientes calidum et minus sapientem animum
@@ -312,25 +314,25 @@
                satis neque satis strictum sit.</p>
          </div>
          <div type="cap" n="16">
-            <p n="1"> Caput cum aliquanto maius est quam exigit modus, sensibus uiget, sed et uirtutem et
-               magnificentiam indicat. Caput breue sine sensu, sine sapientia est. Caput prolixum
-               imprudentiae signum est. Caput humile, planum insolentiae nota est. Caput breue,
-               prope rotundum impudentiae argumentum est: refertur ad rapaces aues. Caput moderatum
-               ingenium indicat sapiens et uigens sensibus, aliquando tamen timidum et minus
-               liberale. Caput immensum stultum et stolidum et indocilem uehementer ostendit. Caput
-               obliquum impudentiam designat. Caput ex priori parte eminens insolentem notat. Caput
-               ex posteriori parte concauum dolosum et iracundum indicat. Caput magnum cum fronte
-               lata et omni uultu prominenti tardum, mansuetum, fortem, indocilem hominem
+            <p n="1"> Caput cum aliquanto maius est quam exigit modus, sensibus uiget, sed et
+               uirtutem et magnificentiam indicat. Caput breue sine sensu, sine sapientia est. Caput
+               prolixum imprudentiae signum est. Caput humile, planum insolentiae nota est. Caput
+               breue, prope rotundum impudentiae argumentum est: refertur ad rapaces aues. Caput
+               moderatum ingenium indicat sapiens et uigens sensibus, aliquando tamen timidum et
+               minus liberale. Caput immensum stultum et stolidum et indocilem uehementer ostendit.
+               Caput obliquum impudentiam designat. Caput ex priori parte eminens insolentem notat.
+               Caput ex posteriori parte concauum dolosum et iracundum indicat. Caput magnum cum
+               fronte lata et omni uultu prominenti tardum, mansuetum, fortem, indocilem hominem
                demonstrat: refertur ad bouem. Caput malleo simile ante ac retro impudentem monstrat.
                Caput rectum, quod sit in medio leniter humile ac prope planum, aliquanto maius quam
                si sit mediae magnitudinis, sensibus uigentem magnanimumque declarat.</p>
          </div>
          <div type="cap" n="17">
-            <p n="1"> Frons angusta indocilem, inquinatum, uoracem significat: refertur ad porcum. Qui
-               frontem spatiosam nimium habent pigrioris ingenii sunt. Qui frontem oblongam habent
-               sensibus praeualent et sunt dociles, ut canes. Humilem habere frontem uirile non est.
-               Curua frons eadem alta et rotunda stoliditatis indicium est. Frons quadrata moderatae
-               magnitudinis congruens corpori ac uultui magnae uirtutis, sapientiae et
+            <p n="1"> Frons angusta indocilem, inquinatum, uoracem significat: refertur ad porcum.
+               Qui frontem spatiosam nimium habent pigrioris ingenii sunt. Qui frontem oblongam
+               habent sensibus praeualent et sunt dociles, ut canes. Humilem habere frontem uirile
+               non est. Curua frons eadem alta et rotunda stoliditatis indicium est. Frons quadrata
+               moderatae magnitudinis congruens corpori ac uultui magnae uirtutis, sapientiae et
                magnanimitatis indicium est. Qui frontem planam atque continuam habent plurimum
                honori suo uindicant et ultra meritum. Quibus frons tamquam obducta est capite
                imminente insolentes sunt. Quibus frons in medium tanquam obstricta conuenit iracundi
@@ -342,26 +344,27 @@
                habent frontem securi sunt.</p>
          </div>
          <div type="cap" n="18">
-            <p n="1"> Supercilia cum sunt directa atque prolixa, mollem atque imbecillem animum declarant:
-               respondent generi feminino. Supercilia cum coeunt, tristem maxime hominem, sed et
-               parum sapientem significant. Superciliorum capilli cum ad superna et ad frontem sunt
-               retracti, animosum, iracundum, stultum demonstrant, ad tempora subrecti immundum.
-               Supercilia quae imminent oculis, inuidiae arguunt. Supercilia quae contrahuntur
-               paruam et angustam mentem indicant. Supercilia quae ex altera parte ad oculos demersa
-               sunt, ex altera ad tempora subrecta, immundum, stultum et insatiabilem indicant:
-               referuntur ad porcum.</p>
+            <p n="1"> Supercilia cum sunt directa atque prolixa, mollem atque imbecillem animum
+               declarant: respondent generi feminino. Supercilia cum coeunt, tristem maxime hominem,
+               sed et parum sapientem significant. Superciliorum capilli cum ad superna et ad
+               frontem sunt retracti, animosum, iracundum, stultum demonstrant, ad tempora subrecti
+               immundum. Supercilia quae imminent oculis, inuidiae arguunt. Supercilia quae
+               contrahuntur paruam et angustam mentem indicant. Supercilia quae ex altera parte ad
+               oculos demersa sunt, ex altera ad tempora subrecta, immundum, stultum et insatiabilem
+               indicant: referuntur ad porcum.</p>
          </div>
          <div type="cap" n="19">
-            <p n="1"> Cilium plerumque et quod eminet et quod subiacet oculo est inflatum tamquam uena.
-               Quod cum ita est, somniculosum superius indicat, inferius uinolentum.</p>
+            <p n="1"> Cilium plerumque et quod eminet et quod subiacet oculo est inflatum tamquam
+               uena. Quod cum ita est, somniculosum superius indicat, inferius uinolentum.</p>
          </div>
          <div type="cap" n="20">
-            <p n="1"> Nunc de oculis disputandum est, ubi summa omnis physiognomoniae constituta est. Nam
-               et aliarum partium signa si oculi affirmauerint, tunc rata magis et certa sunt. Ex
-               oculorum enim indiciis physiognomones sententias suas confirmant et hic omnis eorum
-               est auctoritas constituta. Denique et quae iam diximus et quae prosequemur indicia
-               applicanda et adiungenda sunt indiciis oculorum, ut, si impugnata non fuerint nec in
-               ambiguitatem deducta, sed potius per oculos confirmata, tunc rata sint.</p>
+            <p n="1"> Nunc de oculis disputandum est, ubi summa omnis physiognomoniae constituta
+               est. Nam et aliarum partium signa si oculi affirmauerint, tunc rata magis et certa
+               sunt. Ex oculorum enim indiciis physiognomones sententias suas confirmant et hic
+               omnis eorum est auctoritas constituta. Denique et quae iam diximus et quae
+               prosequemur indicia applicanda et adiungenda sunt indiciis oculorum, ut, si impugnata
+               non fuerint nec in ambiguitatem deducta, sed potius per oculos confirmata, tunc rata
+               sint.</p>
          </div>
          <div type="cap" n="21">
             <p n="1"> Oculi qui tamquam guttulae liquoris nitidi relucent mores suauissimos atque
@@ -382,8 +385,8 @@
                imminentem.</p>
          </div>
          <div type="cap" n="22">
-            <p n="1"> Pupillae defixae et status oculorum propemodum defixus hic omnis ingratum hominem
-               designat, sed si cum humore aliquo stabunt, timiditatis erunt indices, si cum
+            <p n="1"> Pupillae defixae et status oculorum propemodum defixus hic omnis ingratum
+               hominem designat, sed si cum humore aliquo stabunt, timiditatis erunt indices, si cum
                siccitate, insaniae. Sed qui etiam pallent, horum non tam minus sanae mentes sunt
                quam potius attonitae. Qui autem cum stabilitate et pallore oculorum et supercilia
                erigunt et spiritum uiolentius contrahunt atque concipiunt, inconsulti, immites,
@@ -401,24 +404,24 @@
                stabilium oculorum probatur.</p>
          </div>
          <div type="cap" n="23">
-            <p n="1"> Nunc de mobilitate oculorum dicemus. Oculi qui raptim et uelociter mouentur hominem
-               perturbati animi indicant et suspicacem, uarium, in agendis rebus tardiorem. Est
-               autem in his paruo indicio magna discretio. Νam quibus palpebrae tam uelociter quam
-               pupillae mouentur, timidi ac sine uirtute sunt. Cum autem oculi multo uelocius quam
-               palpebrae mouentur, in periculis audaces atque securi sunt. Qui autem tardos oculorum
-               habent motus, pigros ac torpentes habent sensus, difficile incipientes et difficile
-               desinentes. Vnde manifestatur etiam ex mobilitatis modo et temperamento mores optimos
-               indicari. Oculi uagi et circumerrantes et obscuriores intemperantiam libidinis
-               arguunt. Οculi trementes magni cum pererrant, ut supra dictum est, et obscuri sunt,
-               et uoracitatem et intemperantiam uini cum intemperantia ueneris et <foreign
-                  xml:lang="grc">ἀποπληξίαν</foreign> indicant. Oculi parui trementes glauci sine
-               pudore, sine fide, sine iustitia sunt, aluntur autem malis alienis. Trementes uero
-               parui cum glauci non sunt, sed secundum Graecos <foreign xml:lang="grc"
-                  >χαροποὶ</foreign> uel nigri, <foreign xml:lang="grc">χαροποὶ</foreign> quidem ad
-               insaniam magis ac dementiam uergunt, nigri autem magis iracundi sunt, minus tamen
-               impudentes quam glaucos diximus. Oculi autem fluctuantes et tamquam in aestu
-               instabiles proni in uenerem et uoluptatem sunt, non tamen iniusti nec maligni nec
-               indociles.</p>
+            <p n="1"> Nunc de mobilitate oculorum dicemus. Oculi qui raptim et uelociter mouentur
+               hominem perturbati animi indicant et suspicacem, uarium, in agendis rebus tardiorem.
+               Est autem in his paruo indicio magna discretio. Νam quibus palpebrae tam uelociter
+               quam pupillae mouentur, timidi ac sine uirtute sunt. Cum autem oculi multo uelocius
+               quam palpebrae mouentur, in periculis audaces atque securi sunt. Qui autem tardos
+               oculorum habent motus, pigros ac torpentes habent sensus, difficile incipientes et
+               difficile desinentes. Vnde manifestatur etiam ex mobilitatis modo et temperamento
+               mores optimos indicari. Oculi uagi et circumerrantes et obscuriores intemperantiam
+               libidinis arguunt. Οculi trementes magni cum pererrant, ut supra dictum est, et
+               obscuri sunt, et uoracitatem et intemperantiam uini cum intemperantia ueneris et
+                  <foreign xml:lang="grc">ἀποπληξίαν</foreign> indicant. Oculi parui trementes
+               glauci sine pudore, sine fide, sine iustitia sunt, aluntur autem malis alienis.
+               Trementes uero parui cum glauci non sunt, sed secundum Graecos <foreign
+                  xml:lang="grc">χαροποὶ</foreign> uel nigri, <foreign xml:lang="grc"
+                  >χαροποὶ</foreign> quidem ad insaniam magis ac dementiam uergunt, nigri autem
+               magis iracundi sunt, minus tamen impudentes quam glaucos diximus. Oculi autem
+               fluctuantes et tamquam in aestu instabiles proni in uenerem et uoluptatem sunt, non
+               tamen iniusti nec maligni nec indociles.</p>
          </div>
          <div type="cap" n="24">
             <p n="1"> Oculi glauci paruas habentes pupillas seruiles, doli plenos, auidos lucri
@@ -439,20 +442,20 @@
                glaucae et uariae fuerint pupillae, dementiam indicant.</p>
          </div>
          <div type="cap" n="26">
-            <p n="1"> Inter oculos nigros et <foreign xml:lang="grc">χαροποὺς</foreign> hoc interest quod
-                  <foreign xml:lang="grc">χαροποὶ</foreign> uarietatem in se habent et ipsa uarietas
-               discreta est. Nam partim guttulis tamquam granis milii sublucentibus insigniti sunt,
-               quae guttulae diuersos colores habent: nam et pallidae sunt et cyaneae et rubicundae
-               et tamquam scintillae ignis et sanguinei coloris et nigrae et albae, et singula quae
-               praedicta sunt colorum genera uel magis uel minus clara sunt. Alia autem uarietas
-               est, quam circuli suo colore ac suo tenore quique ambiunt. Inter se tamen idem
-               circuli uarie ordinati sunt. Interdum enim exterior circulus niger est, sequens
-               rubeus, interdum albidior. De hac igitur gemina uarietate <foreign xml:lang="grc"
-                  >χαροπῶν</foreign> nunc disputabimus.</p>
+            <p n="1"> Inter oculos nigros et <foreign xml:lang="grc">χαροποὺς</foreign> hoc interest
+               quod <foreign xml:lang="grc">χαροποὶ</foreign> uarietatem in se habent et ipsa
+               uarietas discreta est. Nam partim guttulis tamquam granis milii sublucentibus
+               insigniti sunt, quae guttulae diuersos colores habent: nam et pallidae sunt et
+               cyaneae et rubicundae et tamquam scintillae ignis et sanguinei coloris et nigrae et
+               albae, et singula quae praedicta sunt colorum genera uel magis uel minus clara sunt.
+               Alia autem uarietas est, quam circuli suo colore ac suo tenore quique ambiunt. Inter
+               se tamen idem circuli uarie ordinati sunt. Interdum enim exterior circulus niger est,
+               sequens rubeus, interdum albidior. De hac igitur gemina uarietate <foreign
+                  xml:lang="grc">χαροπῶν</foreign> nunc disputabimus.</p>
          </div>
          <div type="cap" n="27">
-            <p n="1"> Primo igitur certus esse debes quia nigri qui ueri et meri sunt oculi imbecillem ac
-               sine uirtute animum et lucri auidum indicant. <foreign xml:lang="grc"
+            <p n="1"> Primo igitur certus esse debes quia nigri qui ueri et meri sunt oculi
+               imbecillem ac sine uirtute animum et lucri auidum indicant. <foreign xml:lang="grc"
                   >Χαροποὶ</foreign> cum penitus inspiciuntur, tunc uarietatem suam produnt. Verum
                   <foreign xml:lang="grc">αἰόλοι</foreign>, quorum species ita est ut nigri
                pronuntiari possint, ubi guttulae rubicundi coloris non tamen expressi nec uehementer
@@ -476,20 +479,20 @@
                tanto uehementiora designant uitia.</p>
          </div>
          <div type="cap" n="28">
-            <p n="1"> Veniamus ad uarietatem <foreign xml:lang="grc">χαροπῶν</foreign> quae ex circulis
-               constat. Si niger circulus, <supplied>alius</supplied> si fuerit rubeus in humidis
-               oculis et nulla alia asperitas interueniat, magnanimum hominem et sapientem, iustum,
-               ingeniosum declarat, iuxta pueros <supplied>pronum</supplied>. Hoc solo uitio non
-               carebit. Si autem post nigrum circulum pallidus insequatur, fallacem, furem, pecuniae
-               deditum dicit, iniustum, turpiter cum mulieribus conuenientem. Sunt interdum circuli
-               tam uarii quam est arcus in nubibus, quem Graeci irin uocant. Haec uarietas si in
-               siccis oculis fuerit, insaniam profitetur, si in humidis, non eos quidem longe ab
-               insania constituit, uerum magnificentiam, sapientiam, ueritatem, uirtutem ostendit,
-               iracundiores tamen et iuxta uenerem proniores sunt.</p>
+            <p n="1"> Veniamus ad uarietatem <foreign xml:lang="grc">χαροπῶν</foreign> quae ex
+               circulis constat. Si niger circulus, <supplied>alius</supplied> si fuerit rubeus in
+               humidis oculis et nulla alia asperitas interueniat, magnanimum hominem et sapientem,
+               iustum, ingeniosum declarat, iuxta pueros <supplied>pronum</supplied>. Hoc solo uitio
+               non carebit. Si autem post nigrum circulum pallidus insequatur, fallacem, furem,
+               pecuniae deditum dicit, iniustum, turpiter cum mulieribus conuenientem. Sunt interdum
+               circuli tam uarii quam est arcus in nubibus, quem Graeci irin uocant. Haec uarietas
+               si in siccis oculis fuerit, insaniam profitetur, si in humidis, non eos quidem longe
+               ab insania constituit, uerum magnificentiam, sapientiam, ueritatem, uirtutem
+               ostendit, iracundiores tamen et iuxta uenerem proniores sunt.</p>
          </div>
          <div type="cap" n="29">
-            <p n="1"> Nunc de statu oculorum disputandum est. Cum sine ulla prauitate sunt oculi et statum
-                  <del>non</del> obtinent rectum, optimum mentis indicant statum. Oculi ad
+            <p n="1"> Nunc de statu oculorum disputandum est. Cum sine ulla prauitate sunt oculi et
+               statum <del>non</del> obtinent rectum, optimum mentis indicant statum. Oculi ad
                superiorem partem conuersi insaniam declarant, sed et uoracem uenerique ac uino
                deditum οstendunt. Praeterea si et tremor eos exagitet, quae praedicta sunt uitia
                erunt in his uehementiora. Nam et <foreign xml:lang="grc">ἐπιληψίᾳ</foreign> non
@@ -511,25 +514,25 @@
                fuerint, nihil non audebunt quod iniquum sit et improbum.</p>
          </div>
          <div type="cap" n="31">
-            <p n="1"> Caui igitur nimium oculi, quantum ad generalem regulam pertinet, in deterioribus
-               signis habentur. Verum si idem submoueantur ut aqua conceptaculo semipleno mouetur,
-               et magni sint, si nullum signum aliud molestum interueniat, non sunt recusandi. Nam
-               quod caui sunt mali nota est; quod maiores et humidi sunt reuocat ac reformat uitium.
-               Oculi caui, parui subdoli sunt atque inuidi; si accedat et siccitas, etiam infideles
-               facit et proditores et sacrilegos; sed cum rigidi sunt, insaniae arguunt. Diffluentes
-               similiter doli et malignitatis signa sunt. Qui in obscuritate diffluunt stulti sunt.
-               Oculi caui nimium mediae magnitudinis, <foreign xml:lang="grc">χαροποί</foreign>,
-               sicci, rigidi, praeterea si habeant supercilia lata tamquam genis imminentia et circa
-               oculos pallorem atque liuorem, impudentem, malignum, potentibus inimicum,
-               concinnatorem negotiorum atque causarum, numquam quietum, numquam non mali aliquid
-               cogitantem declarant. Polemon auctor etiam hac de causa huius
-                  <supplied>speciei</supplied> exemplum in libro suo extulit ex homine suorum
-               temporum.</p>
+            <p n="1"> Caui igitur nimium oculi, quantum ad generalem regulam pertinet, in
+               deterioribus signis habentur. Verum si idem submoueantur ut aqua conceptaculo
+               semipleno mouetur, et magni sint, si nullum signum aliud molestum interueniat, non
+               sunt recusandi. Nam quod caui sunt mali nota est; quod maiores et humidi sunt reuocat
+               ac reformat uitium. Oculi caui, parui subdoli sunt atque inuidi; si accedat et
+               siccitas, etiam infideles facit et proditores et sacrilegos; sed cum rigidi sunt,
+               insaniae arguunt. Diffluentes similiter doli et malignitatis signa sunt. Qui in
+               obscuritate diffluunt stulti sunt. Oculi caui nimium mediae magnitudinis, <foreign
+                  xml:lang="grc">χαροποί</foreign>, sicci, rigidi, praeterea si habeant supercilia
+               lata tamquam genis imminentia et circa oculos pallorem atque liuorem, impudentem,
+               malignum, potentibus inimicum, concinnatorem negotiorum atque causarum, numquam
+               quietum, numquam non mali aliquid cogitantem declarant. Polemon auctor etiam hac de
+               causa huius <supplied>speciei</supplied> exemplum in libro suo extulit ex homine
+               suorum temporum.</p>
          </div>
          <div type="cap" n="32">
-            <p n="1"> Alti atque elati oculi in deterioribus signis habendi sunt, sed ubi tumor circum
-               oculos paulatim attollitur, insania inhabitat; ubi ambitus oculi cauus tamquam fossa
-               est, subdolam mentem insidiosamque declarat. Prominentes oculi sanguinolenti
+            <p n="1"> Alti atque elati oculi in deterioribus signis habendi sunt, sed ubi tumor
+               circum oculos paulatim attollitur, insania inhabitat; ubi ambitus oculi cauus tamquam
+               fossa est, subdolam mentem insidiosamque declarat. Prominentes oculi sanguinolenti
                temulentum hominem asseuerant, glauci iniustum et stolidum et plus quam stolidum, si
                superioribus ciliis onerentur ac praegrauentur. Si autem promineant et sicci sint <supplied>
                   <gap/>
@@ -555,8 +558,8 @@
                et infideles et iniusti sunt.</p>
          </div>
          <div type="cap" n="34">
-            <p n="1"> Oculi qui tamquam tenebrosi sunt nocentes sunt, tanto magis si fuerint sicci, nec
-               interest an magni uel parui sint, nisi quod maiorem nequitiam cum parui sunt
+            <p n="1"> Oculi qui tamquam tenebrosi sunt nocentes sunt, tanto magis si fuerint sicci,
+               nec interest an magni uel parui sint, nisi quod maiorem nequitiam cum parui sunt
                profitentur. Supradicta species oculi, id est tenebrosi, si cauus, temperatae
                magnitudinis et quietus fuerit, sollicitum, docilem, discendi cupidum, maturum, uerum
                timidum et satis parcum ac minus continentem significat. Oculi caligine obsiti malis
@@ -566,14 +569,15 @@
                   xml:lang="grc">χαροπούς</foreign>, humidos, acres, magnos, luminis plenos.</p>
          </div>
          <div type="cap" n="35">
-            <p n="1"> Lumen autem <supplied>non</supplied> ita bonum est, si corusci sint. Oculi autem
-               corusci si quidem glauci sint et sanguinolenti, temeritatem indicant et prope
+            <p n="1"> Lumen autem <supplied>non</supplied> ita bonum est, si corusci sint. Oculi
+               autem corusci si quidem glauci sint et sanguinolenti, temeritatem indicant et prope
                insaniam, <foreign xml:lang="grc">χαροποὶ</foreign> autem suspicacem in omnibus rebus
                hominem declarant. Νigri corusci taeterrimi oculi: timidum ac subdolum designant. Cum
                autem risui permixti sunt, summam notam impudentiae ac malitiae proferunt.</p>
          </div>
          <div type="cap" n="36">
-            <p n="1"> Oculi acriter intuentes, <supplied>id est <foreign xml:lang="grc">γοργόν</foreign>
+            <p n="1"> Oculi acriter intuentes, <supplied>id est <foreign xml:lang="grc"
+                     >γοργόν</foreign>
                </supplied>, ut a Graecis dicitur, molesti sunt, sed qui humidi sunt bellatorem
                indicant, ueredicum, uelocem in agendis rebus, improuidum, innoxium. Qui autem
                intendunt acriter et sunt idem caui, parui, sicci, saeuos, insidiosos atque ex
@@ -586,11 +590,11 @@
                immanitatem atque saeuitiam supradictam et dolos omnes his oculis adiudicabis.</p>
          </div>
          <div type="cap" n="37">
-            <p n="1"> Oculi cum risui uoluptatique permixti sunt, non omnes laudabiles. Nam qui sicci sunt
-               et subterintendunt malitiae sunt indices. Sed et caui oculi qui arrident tamquam in
-               insidiis constituti habendi sunt, multo magis si genae et supercilia et labella
-               commoueantur; nam hic risus aut cogitationes rerum nefandarum aut conceptos dolos
-               indicat. Et si quidem cum his signis etiam palpebrae interdum coeant, interdum
+            <p n="1"> Oculi cum risui uoluptatique permixti sunt, non omnes laudabiles. Nam qui
+               sicci sunt et subterintendunt malitiae sunt indices. Sed et caui oculi qui arrident
+               tamquam in insidiis constituti habendi sunt, multo magis si genae et supercilia et
+               labella commoueantur; nam hic risus aut cogitationes rerum nefandarum aut conceptos
+               dolos indicat. Et si quidem cum his signis etiam palpebrae interdum coeant, interdum
                separentur atque interdum oculus commoueatur, detegunt intra cogitationem adhuc esse
                iniquam. Si uero propateant oculi cum risu et errent, perpetratam iniquitatem esse
                declarant. Quanto igitur oculi magis arridere uidebuntur, sicci dumtaxat, tanto erunt
@@ -602,12 +606,13 @@
                hospitale, gratum, prudens, docile, amatorium erit.</p>
          </div>
          <div type="cap" n="38">
-            <p n="1"> Tristes oculi non omnes timendi sunt. Nam qui humidi sunt in cogitatione constituti
-               sunt et studia optimarum artium inesse indicant. Et si supercilia laxiora sint et
-               frons laxior cumque tranquillitate coniueant palpebrae et sint laudabiles, ingenium
-               indicabunt fidum, benignum, pensum, grauitate praeditum. Si autem tristes oculi etiam
-               sicci sint et accedat ad hoc frontis asperitas, aciei intentio, palpebrae subrectae,
-               sunt nocentes, feri, nihil intemptatum facinus, nihil inausum relinquentes.</p>
+            <p n="1"> Tristes oculi non omnes timendi sunt. Nam qui humidi sunt in cogitatione
+               constituti sunt et studia optimarum artium inesse indicant. Et si supercilia laxiora
+               sint et frons laxior cumque tranquillitate coniueant palpebrae et sint laudabiles,
+               ingenium indicabunt fidum, benignum, pensum, grauitate praeditum. Si autem tristes
+               oculi etiam sicci sint et accedat ad hoc frontis asperitas, aciei intentio, palpebrae
+               subrectae, sunt nocentes, feri, nihil intemptatum facinus, nihil inausum
+               relinquentes.</p>
          </div>
          <div type="cap" n="39">
             <p n="1"> Oculi subclausi et coniungentes palpebras si quidem frequenter concluduntur et
@@ -621,8 +626,8 @@
                hoc ipso magis apud experientes deteguntur.</p>
          </div>
          <div type="cap" n="40">
-            <p n="1"> Satis de conclusis. Nunc de patentibus disputemus. Oculi cum frequenter et late
-               patescunt atque consistunt, cogitationem quidem indicant, uerum bona necne sit
+            <p n="1"> Satis de conclusis. Nunc de patentibus disputemus. Oculi cum frequenter et
+               late patescunt atque consistunt, cogitationem quidem indicant, uerum bona necne sit
                cogitatio ex supra memoratis qualitatibus colligendum erit. Constat enim, si humidi,
                si lucidi, si maiores, si profundi, si molles fuerint, meliores cogitationes
                continere, si autem sicci, si obscuri, si parui, si alti, si duri, si directi
@@ -644,10 +649,10 @@
                nam et letiferum uenenum dicebatur clanculo uenditare.</p>
          </div>
          <div type="cap" n="41">
-            <p n="1"> Oculi qui frequenter clauduntur atque reserantur timidum atque imbecillem declarant;
-               sed cum etiam sicci sunt, dolos uersare atque ex occulto insidias tendere, si autem
-               peruersi sunt uel pallidi, stultitiam indicare noscuntur. Cum autem non coniunguntur
-               oculi, sed, ut <del>hoc</del> Graeci aiunt, <foreign xml:lang="grc"
+            <p n="1"> Oculi qui frequenter clauduntur atque reserantur timidum atque imbecillem
+               declarant; sed cum etiam sicci sunt, dolos uersare atque ex occulto insidias tendere,
+               si autem peruersi sunt uel pallidi, stultitiam indicare noscuntur. Cum autem non
+               coniunguntur oculi, sed, ut <del>hoc</del> Graeci aiunt, <foreign xml:lang="grc"
                   >ἀσϰαρδάμυϰτοι</foreign> sunt praetereaque aciem terribiliter intendunt, hi
                iniquis cogitationibus attinentur. Si uero status oculorum sit mansuetus et habeant
                aliquid humoris, cogitatores sunt, studiosi, mansueti, amatores. At si immobiles idem
@@ -656,8 +661,8 @@
                ipsos tamquam in gyrum torqueant, insaniam uehementissimam produnt.</p>
          </div>
          <div type="cap" n="42">
-            <p n="1"> Oculi citi perturbati rapacem dicunt. Qui autem incertas palpebras permouent atque
-               coniungunt sub diuersis motibus pupillarum ac superius cilium molliter oculis
+            <p n="1"> Oculi citi perturbati rapacem dicunt. Qui autem incertas palpebras permouent
+               atque coniungunt sub diuersis motibus pupillarum ac superius cilium molliter oculis
                superducunt, cinaedi sunt. Qui autem alteram ex superioribus palpebris paulatim
                deprimunt et molliter reuocant et aciem dirigunt, affectatores pulchritudinis sunt,
                sed moechos et adulteros se profitentur. Interdum palpebra superior ad medium ita
@@ -672,36 +677,37 @@
                huiusmodi capilli: facile enim defluunt.</p>
          </div>
          <div type="cap" n="44">
-            <p n="1"> Haec de oculis. Nec putes ea sola signa in oculis inueniri quae enumerata sunt, sed
-               multo plura et quae artius considerari queant et debeant. Sed si quis imbutus his
-               quae dicta sunt fuerit, sunt enim prope generalia, etiam meliora perspiciat atque
-               perpendat, et nimirum debet esse perspicuus, nam his quae exposita sunt deteriora
-               quam bona signa sunt comprehensa. Nam et maiorem partem in rebus humanis ueteres
-               posteriorem esse dixerunt, quod est potissimum. Nam malitiae res multiformis est, ut,
-               etiam si non latius tendatur, constet tamen per multas diuersitates. Denique et
-               fabulae quae hydras et chimaeras et gigantes ex uariis corporibus fingunt atque
-               constituunt malitiam multiformem intelligi uolunt. At si quis ad diffinitionem
-               signorum respiciat, signa quidem malitiae, quae tamen ex signis his colliguntur atque
-               intelliguntur, non adeo multa esse percipiet. Nam et multis et uariis signis feritas
-               et immanitas, diuersis inhumanitas, imbecillitas et auaritia deputantur. Ιgitur non
-               tam malitiae indicia multa atque diuersa sunt.</p>
+            <p n="1"> Haec de oculis. Nec putes ea sola signa in oculis inueniri quae enumerata
+               sunt, sed multo plura et quae artius considerari queant et debeant. Sed si quis
+               imbutus his quae dicta sunt fuerit, sunt enim prope generalia, etiam meliora
+               perspiciat atque perpendat, et nimirum debet esse perspicuus, nam his quae exposita
+               sunt deteriora quam bona signa sunt comprehensa. Nam et maiorem partem in rebus
+               humanis ueteres posteriorem esse dixerunt, quod est potissimum. Nam malitiae res
+               multiformis est, ut, etiam si non latius tendatur, constet tamen per multas
+               diuersitates. Denique et fabulae quae hydras et chimaeras et gigantes ex uariis
+               corporibus fingunt atque constituunt malitiam multiformem intelligi uolunt. At si
+               quis ad diffinitionem signorum respiciat, signa quidem malitiae, quae tamen ex signis
+               his colliguntur atque intelliguntur, non adeo multa esse percipiet. Nam et multis et
+               uariis signis feritas et immanitas, diuersis inhumanitas, imbecillitas et auaritia
+               deputantur. Ιgitur non tam malitiae indicia multa atque diuersa sunt.</p>
          </div>
          <div type="cap" n="45">
-            <p n="1"> Post oculos igitur uis signorum est quae iuxta oculos et in uultu sunt; nam prout
-               quaeque signa proxima sunt oculis, potiora sunt ceteris. Nam post oculos frontis et
-               narium, oris et genarum ipsiusque capitis idonea signa atque officiosa sunt.
-               Sequuntur autem ceruicis signa et pectoris et post haec humerorum, manuum, crurum ac
-               pedum. Postrema autem sunt signa, ut Polemoni uidetur, quae iuxta uentrem sunt. Et
-               maxima uis <supplied>est</supplied> et coloris et uocis et spiritus, sed multo
-                  <supplied>... Motus</supplied> magnum est indicium tam totius corporis quam etiam
-               singularum partium, sed et omnis aspectus qui ex omni circumstantia et qualitate
-               corporis occurrit, quem Graeci <foreign xml:lang="grc">ἐπιπρέπειαν</foreign> dicunt,
-               in quo auctores omnes physiognomoniae maximam partem constituunt. Eius nominis
-               significatio concipienda tibi est atque dinoscenda. Frequenter enim ad eam signa
-               referuntur. Nam timidum et audacem, mitem et impium, apertum et subdolum uniuersi
-               corporis facies indicabit, et singula quae minuta sunt et paruula in unam speciem
-               conueniunt ita ut aspicienti faciem occurrat proprietas aliqua quae in eodem corpore
-               conspicitur constituta, quae mentem et animi incerta declarat.</p>
+            <p n="1"> Post oculos igitur uis signorum est quae iuxta oculos et in uultu sunt; nam
+               prout quaeque signa proxima sunt oculis, potiora sunt ceteris. Nam post oculos
+               frontis et narium, oris et genarum ipsiusque capitis idonea signa atque officiosa
+               sunt. Sequuntur autem ceruicis signa et pectoris et post haec humerorum, manuum,
+               crurum ac pedum. Postrema autem sunt signa, ut Polemoni uidetur, quae iuxta uentrem
+               sunt. Et maxima uis <supplied>est</supplied> et coloris et uocis et spiritus, sed
+               multo <supplied>... Motus</supplied> magnum est indicium tam totius corporis quam
+               etiam singularum partium, sed et omnis aspectus qui ex omni circumstantia et
+               qualitate corporis occurrit, quem Graeci <foreign xml:lang="grc"
+                  >ἐπιπρέπειαν</foreign> dicunt, in quo auctores omnes physiognomoniae maximam
+               partem constituunt. Eius nominis significatio concipienda tibi est atque dinoscenda.
+               Frequenter enim ad eam signa referuntur. Nam timidum et audacem, mitem et impium,
+               apertum et subdolum uniuersi corporis facies indicabit, et singula quae minuta sunt
+               et paruula in unam speciem conueniunt ita ut aspicienti faciem occurrat proprietas
+               aliqua quae in eodem corpore conspicitur constituta, quae mentem et animi incerta
+               declarat.</p>
          </div>
          <div type="cap" n="46">
             <p n="1">
@@ -721,30 +727,30 @@
                frequenter nominauimus.</p>
          </div>
          <div type="cap" n="47">
-            <p n="1"> Nunc de auribus disputandum est. Magnae aures stultitiae uel impudentiae, paruae
-               malignitatis sunt indices. Aures perbreues tamquam praecisae ad stultitiam
+            <p n="1"> Nunc de auribus disputandum est. Magnae aures stultitiae uel impudentiae,
+               paruae malignitatis sunt indices. Aures perbreues tamquam praecisae ad stultitiam
                referuntur. Esse autem quadratae propemodum et mediae magnitudinis debent et quae
                uideantur figuratae atque formatae et quae decenter capiti adhaereant. Aures nimium
                rotundae indociles significant, aures oblongae et angustae inuidiae indicium
                habent.</p>
          </div>
          <div type="cap" n="48">
-            <p n="1"> Nunc de labiis et ore disputandum est. Labia tenuia in ore maiore, si aliquanto
-               labium superius sit promptius tamquam superpositum inferiori, magnanimum, fortem
-               indicant: refertur ad leonem. Paruo ori cum tenuia sunt labia, imbellem, timidum,
-               uersutum ostendunt. Optimus autem oris status est quod nec nimis prominens nec nimis
-               humile est. Nam humilitas timidi est et malignitatis arguit, pronitas stultitiam,
-               loquacitatem tribuit et audaciam. Os paruum muliebre est potius et tam uultibus quam
-               animis muliebribus conuenit; quod maius est, uirilibus animis et uultibus conuenit.
-               Cum autem ultra modum recisum os ac reductum est, uoracem, immitem, impium indicat.
-               Ita enim et maris beluae sunt. Quando eminent labia super eos dentes quos <foreign
-                  xml:lang="grc">ϰυνόδοντας</foreign> Graeci uocant, maledicum, iracundum, clamosum
-               atque ad inferendam iniuriam promptum declarat. Canibus enim proxima est huiusmodi
-               species. Quando os longe prominet et est rotundum cum crassitate labiorum et
-               retortum, immundum, uoracem, stultum ostendit. Porcorum enim haec signa sunt. Si
-               labium inferius forinsecus excedat, non quidem malignum, uerum non prudentem
-               designat. Loxus dicit cum inferius labium excedit, etiam studiosum laudis uel honoris
-               ostendere. Cum paruum os sit <supplied>
+            <p n="1"> Nunc de labiis et ore disputandum est. Labia tenuia in ore maiore, si
+               aliquanto labium superius sit promptius tamquam superpositum inferiori, magnanimum,
+               fortem indicant: refertur ad leonem. Paruo ori cum tenuia sunt labia, imbellem,
+               timidum, uersutum ostendunt. Optimus autem oris status est quod nec nimis prominens
+               nec nimis humile est. Nam humilitas timidi est et malignitatis arguit, pronitas
+               stultitiam, loquacitatem tribuit et audaciam. Os paruum muliebre est potius et tam
+               uultibus quam animis muliebribus conuenit; quod maius est, uirilibus animis et
+               uultibus conuenit. Cum autem ultra modum recisum os ac reductum est, uoracem,
+               immitem, impium indicat. Ita enim et maris beluae sunt. Quando eminent labia super
+               eos dentes quos <foreign xml:lang="grc">ϰυνόδοντας</foreign> Graeci uocant,
+               maledicum, iracundum, clamosum atque ad inferendam iniuriam promptum declarat.
+               Canibus enim proxima est huiusmodi species. Quando os longe prominet et est rotundum
+               cum crassitate labiorum et retortum, immundum, uoracem, stultum ostendit. Porcorum
+               enim haec signa sunt. Si labium inferius forinsecus excedat, non quidem malignum,
+               uerum non prudentem designat. Loxus dicit cum inferius labium excedit, etiam
+               studiosum laudis uel honoris ostendere. Cum paruum os sit <supplied>
                   <gap/>
                </supplied>. Declarat idem et cum oris situs in concauo tamquam in defosso est. Nam
                et haec species pariter malignitatis et inuidiae et intemperantiae nota est.
@@ -759,9 +765,9 @@
                loquacitatem designant.</p>
          </div>
          <div type="cap" n="50">
-            <p n="1"> Omnis uultus cum est plenus et crassus, ignauum significat et uoluptatibus deditum,
-               deductus cogitatorem, subdolum, timidum, astutum asseuerat. Vultus paruus paruum et
-               angustum ingenium, enormis stultitiam et ignauiam testatur. </p>
+            <p n="1"> Omnis uultus cum est plenus et crassus, ignauum significat et uoluptatibus
+               deditum, deductus cogitatorem, subdolum, timidum, astutum asseuerat. Vultus paruus
+               paruum et angustum ingenium, enormis stultitiam et ignauiam testatur. </p>
             <p n="2">
                <foreign xml:lang="grc">Σπασμοὶ</foreign> labiorum et genarum et frontis si truces
                uultus exagitent, insaniam uel stultitiam indicabunt, si laetis uultibus contingant,
@@ -832,39 +838,39 @@
                imitatio.</p>
          </div>
          <div type="cap" n="55">
-            <p n="1"> Cum autem infracta est ceruix, palam esse debet quod uel stultus uel effeminatus sit
-               qui eam gerit; cetera enim signa intellectum dirigent. Stabilitas ergo cum temperata
-               est, tunc ostendit optimos mores. Ceruix superius retorta insolentem, immitem,
-               stultum et inanem indicat, sed considerandum iterum atque iterum est et ceteris
-               signis discernendum an per insaniam an per insolentiam retorta sit ceruix. Cum
-               inflexa est ceruix ad pectoris partes, potest a cogitationibus occupatum animum
-               ostendere, potest ad parsimoniam, potest ad malignitatem pertinere, prout cetera
-               signa congruerint, certum autem sit nihil simplex huiusmodi, nihil securum, nihil
-               remissum continere. Ceruix in sinistram partem declinata stultum aliquatenus ac
+            <p n="1"> Cum autem infracta est ceruix, palam esse debet quod uel stultus uel
+               effeminatus sit qui eam gerit; cetera enim signa intellectum dirigent. Stabilitas
+               ergo cum temperata est, tunc ostendit optimos mores. Ceruix superius retorta
+               insolentem, immitem, stultum et inanem indicat, sed considerandum iterum atque iterum
+               est et ceteris signis discernendum an per insaniam an per insolentiam retorta sit
+               ceruix. Cum inflexa est ceruix ad pectoris partes, potest a cogitationibus occupatum
+               animum ostendere, potest ad parsimoniam, potest ad malignitatem pertinere, prout
+               cetera signa congruerint, certum autem sit nihil simplex huiusmodi, nihil securum,
+               nihil remissum continere. Ceruix in sinistram partem declinata stultum aliquatenus ac
                cinaedum magis significat. Aristoteles etiam ad dexteram partem declinationem capitis
                cinaedis attribuit. Solida ceruix et uasta et quae difficile flectatur rapaces
                   <supplied>et <foreign xml:lang="grc">θρασυδείλους</foreign> facit</supplied>:
                refertur ad lupum et simiam.</p>
          </div>
          <div type="cap" n="56">
-            <p n="1"> Guttur asperum leuitatem animi significat et loquacitatem: refertur ad aues. Si
-               singularis uertex tamquam nodus gutturis eminet, leuitatem quidem pari modo indicat,
-               non tamen audacem nec maledicum ostendit; tristem quoque atque tristificum et
-               suspicacem asseuerat.</p>
+            <p n="1"> Guttur asperum leuitatem animi significat et loquacitatem: refertur ad aues.
+               Si singularis uertex tamquam nodus gutturis eminet, leuitatem quidem pari modo
+               indicat, non tamen audacem nec maledicum ostendit; tristem quoque atque tristificum
+               et suspicacem asseuerat.</p>
          </div>
          <div type="cap" n="57">
-            <p n="1"> Si iuguli conclusi sunt et compressi ad humeros et pectus, tarditatem sensuum et
-               stoliditatem animi indicant nec operi uel arti idoneas manus. Iuguli qui longe ab
+            <p n="1"> Si iuguli conclusi sunt et compressi ad humeros et pectus, tarditatem sensuum
+               et stoliditatem animi indicant nec operi uel arti idoneas manus. Iuguli qui longe ab
                humeris separati sunt et largum ac latum sinum faciunt imbecillitatem animi
                declarant. Secundum haec quoque medietas erit optima et ad uirtutem et ad
                prudentiam.</p>
          </div>
          <div type="cap" n="58">
-            <p n="1"> Humeri non crassi, sed solidi uirtutem indicant. Laxi enim infirmitatem animi et
-               timiditatem ostendunt. Humeri tenues et qui in acutum erecti sunt insidiosum hominem
-               indicant. Si autem indiscretis articulis et nodis sunt, ad stultitiam referuntur.
-               Humeri faciles, bene discreti et absoluti honestatem indicant. <supplied>Referuntur
-                  ad <foreign xml:lang="grc">ἐπιπρέπειαν</foreign>
+            <p n="1"> Humeri non crassi, sed solidi uirtutem indicant. Laxi enim infirmitatem animi
+               et timiditatem ostendunt. Humeri tenues et qui in acutum erecti sunt insidiosum
+               hominem indicant. Si autem indiscretis articulis et nodis sunt, ad stultitiam
+               referuntur. Humeri faciles, bene discreti et absoluti honestatem indicant.
+                  <supplied>Referuntur ad <foreign xml:lang="grc">ἐπιπρέπειαν</foreign>
                </supplied>. Humeri enim fracti et impliciti incongruenter <supplied>inhonesti.
                   Referuntur ad <foreign xml:lang="grc">ἐπιπρέπειαν</foreign>
                </supplied>.</p>
@@ -911,29 +917,30 @@
                intemperantia ueneris assignatur.</p>
          </div>
          <div type="cap" n="62">
-            <p n="1"> Εa quae de pectore dicta sunt etiam de metaphreno dicta sint, quae pars est dorsi
-               opposita pectori. Nam solidum metaphrenum uirile est, tenue <supplied>et</supplied>
-               infirmum timidum. Et caro si nimia sit in hac parte dorsi, stultitiae index erit, sed
-               si parui spatii metaphrenum fuerit, idem indicabit. Latum igitur esse metaphrenum
-               uiris conuenit. Sed etiam si rotundum leniter fuerit, non est recusandum, nam
-               praesentis ingenii hominem indicat, habentem aliquid gratiarum tam in sermone quam in
-               factis. Quorum autem incuruum est metaphrenum et inflectit humeros ad pectus,
-               malignitatem cum inuidia indicat, et tunc magis si omne corpus ita incuruum atque
-               inflexum sit. Nam et lucrorum immoderatum studium cum his quae praedicta sunt
+            <p n="1"> Εa quae de pectore dicta sunt etiam de metaphreno dicta sint, quae pars est
+               dorsi opposita pectori. Nam solidum metaphrenum uirile est, tenue
+                  <supplied>et</supplied> infirmum timidum. Et caro si nimia sit in hac parte dorsi,
+               stultitiae index erit, sed si parui spatii metaphrenum fuerit, idem indicabit. Latum
+               igitur esse metaphrenum uiris conuenit. Sed etiam si rotundum leniter fuerit, non est
+               recusandum, nam praesentis ingenii hominem indicat, habentem aliquid gratiarum tam in
+               sermone quam in factis. Quorum autem incuruum est metaphrenum et inflectit humeros ad
+               pectus, malignitatem cum inuidia indicat, et tunc magis si omne corpus ita incuruum
+               atque inflexum sit. Nam et lucrorum immoderatum studium cum his quae praedicta sunt
                indicat.</p>
          </div>
          <div type="cap" n="63">
-            <p n="1"> Emetiendum quoque est spatium ab umbilico usque ad pectoris finem, item a pectoris
-               fine usque ab originem colli. Si maior pars pectoris fuerit, prudentiam indicat, si
-               quod infra pectus est usque ad umbilicum maius fuerit, uoracem hominem declarat.</p>
+            <p n="1"> Emetiendum quoque est spatium ab umbilico usque ad pectoris finem, item a
+               pectoris fine usque ab originem colli. Si maior pars pectoris fuerit, prudentiam
+               indicat, si quod infra pectus est usque ad umbilicum maius fuerit, uoracem hominem
+               declarat.</p>
          </div>
          <div type="cap" n="64">
-            <p n="1"> Venter cum est magnus et congestis carnibus, si quidem mollibus et pendentibus, sine
-               sensu hominem et uinolentum atque intemperantem, deditum luxuriae ac ueneri indicat.
-               Si nimia caro, uerum solida sit, maliuolum hominem et malorum artificem declarat.
-               Venter si nimio recessu est tamquam inanis, timidum, malignum et uoracem indicat.
-               Venter aliquanto molliοr atque impressior uirtutem animi et magnificentiam
-               monstrat.</p>
+            <p n="1"> Venter cum est magnus et congestis carnibus, si quidem mollibus et
+               pendentibus, sine sensu hominem et uinolentum atque intemperantem, deditum luxuriae
+               ac ueneri indicat. Si nimia caro, uerum solida sit, maliuolum hominem et malorum
+               artificem declarat. Venter si nimio recessu est tamquam inanis, timidum, malignum et
+               uoracem indicat. Venter aliquanto molliοr atque impressior uirtutem animi et
+               magnificentiam monstrat.</p>
          </div>
          <div type="cap" n="65">
             <p n="1"> Latera tenuia et angusta et depressa timiditatis arguunt, et quae referta sunt
@@ -941,18 +948,18 @@
                tumentia, loquacem, inanem declarant: nam refertur ad ranas.</p>
          </div>
          <div type="cap" n="66">
-            <p n="1"> Dorsum latum, solidum uirile est et contrarium muliebre. Quorum dorsum incuruum est,
-               si in molli corpore fuerit, quod superius <foreign xml:lang="grc">ὑγρòν</foreign> a
-               Graecis nominari diximus, non tam malum accipiendum est quam quod in spisso et solido
-               corpore fuerit. Qui iuxta ilia angustiores sunt tamquam succincti, et in omni parte
-               uirtutis excellent et uenationum studiosiores erunt.</p>
+            <p n="1"> Dorsum latum, solidum uirile est et contrarium muliebre. Quorum dorsum
+               incuruum est, si in molli corpore fuerit, quod superius <foreign xml:lang="grc"
+                  >ὑγρòν</foreign> a Graecis nominari diximus, non tam malum accipiendum est quam
+               quod in spisso et solido corpore fuerit. Qui iuxta ilia angustiores sunt tamquam
+               succincti, et in omni parte uirtutis excellent et uenationum studiosiores erunt.</p>
          </div>
          <div type="cap" n="67">
-            <p n="1"> Spinae pars inferior, quae <foreign xml:lang="grc">ὀσφὺς</foreign> graece dicitur,
-               si late iaceat et nimia sit et molli carne circumdata, femininum est: refertur ad
-                  <foreign xml:lang="grc">ἐπιπρέπειαν</foreign>. Quae prolixa est et in acutum
-               desinit, intemperantiam libidinis et timiditatem ostendit. Virilis ergo est quae
-               clara ossibus et moderata ac solida est.</p>
+            <p n="1"> Spinae pars inferior, quae <foreign xml:lang="grc">ὀσφὺς</foreign> graece
+               dicitur, si late iaceat et nimia sit et molli carne circumdata, femininum est:
+               refertur ad <foreign xml:lang="grc">ἐπιπρέπειαν</foreign>. Quae prolixa est et in
+               acutum desinit, intemperantiam libidinis et timiditatem ostendit. Virilis ergo est
+               quae clara ossibus et moderata ac solida est.</p>
          </div>
          <div type="cap" n="68">
             <p n="1">
@@ -964,10 +971,10 @@
                circumdata, ut sunt simiarum, malignitatem indicabunt.</p>
          </div>
          <div type="cap" n="69">
-            <p n="1"> Femorum eadem erunt signa secundum Polemonem quae mox de superiori parte crurum
-               dicentur, quam Graeci <foreign xml:lang="grc">ϰνήμην</foreign> uocant, cuius prior
-               pars tibia superior est, posterior uero usque ad pedes. Ea igitur repetemus quae
-               Aristoteles aliter posuit: <supplied>
+            <p n="1"> Femorum eadem erunt signa secundum Polemonem quae mox de superiori parte
+               crurum dicentur, quam Graeci <foreign xml:lang="grc">ϰνήμην</foreign> uocant, cuius
+               prior pars tibia superior est, posterior uero usque ad pedes. Ea igitur repetemus
+               quae Aristoteles aliter posuit: <supplied>
                   <foreign xml:lang="grc">ϰνήμη</foreign>
                </supplied> ergo, id est pars cruris quae sub geniculo est posterior, id est infra
                suffraginem, quotiens plena est tamquam grauida, sordidum hominem, intemperantem
@@ -1001,15 +1008,15 @@
                declarat.</p>
          </div>
          <div type="cap" n="72">
-            <p n="1"> Pedes imi discreti neruis et articulis clari generosum et uirile ingenium declarant.
-               Molles et ampla carne circumdati molle ingenium et femininum ostendunt. Crassi pedes
-               et breues admodum ferinos mores indicant. Nimium prolixiores inuigilantem dolis
-               hominem multis ac perniciem cogitantem demonstrant. Pertenues et breues malignum
-               produnt. Curui pedes et qui plantam longe cauam ac reductam habent improbandi sunt.
-               Qui aequaliter plani sunt et nullum habent recessum in medios pedes, sed cruribus
-               ambulant et ex interiori parte calciamenta atterunt, uersutam et malignam mentem
-               ostendunt. Aristoteles addit etiam hos esse uersutos qui habent inflexa supercilia,
-               sicut sunt in personis senum comicorum.</p>
+            <p n="1"> Pedes imi discreti neruis et articulis clari generosum et uirile ingenium
+               declarant. Molles et ampla carne circumdati molle ingenium et femininum ostendunt.
+               Crassi pedes et breues admodum ferinos mores indicant. Nimium prolixiores
+               inuigilantem dolis hominem multis ac perniciem cogitantem demonstrant. Pertenues et
+               breues malignum produnt. Curui pedes et qui plantam longe cauam ac reductam habent
+               improbandi sunt. Qui aequaliter plani sunt et nullum habent recessum in medios pedes,
+               sed cruribus ambulant et ex interiori parte calciamenta atterunt, uersutam et
+               malignam mentem ostendunt. Aristoteles addit etiam hos esse uersutos qui habent
+               inflexa supercilia, sicut sunt in personis senum comicorum.</p>
          </div>
          <div type="cap" n="73">
             <p n="1"> De capillorum uarietate haec superius quidem discretio facta est, quod crispi
@@ -1035,8 +1042,8 @@
                ad equi speciem refertur.</p>
          </div>
          <div type="cap" n="74">
-            <p n="1"> Motus corporis alius est naturalis, alius affectatus. Affectati tres sunt species.
-               Vna cum homo honorem uel potestatem uel lucrum uel nuptias captans, prout
+            <p n="1"> Motus corporis alius est naturalis, alius affectatus. Affectati tres sunt
+               species. Vna cum homo honorem uel potestatem uel lucrum uel nuptias captans, prout
                acceptissimum esse potioribus arbitratur, ita se constituit. Nam et luxuriae et
                bonitatis similitudinem induit et erectus et deiectus et squalidus et ignauus est et
                misericors et industrius, ubi pauperiem, rusticitatem, parsimoniam, paruitatem et
@@ -1056,20 +1063,20 @@
                uera et naturalis est, ad tres quas fictas et simulatas esse constituimus.</p>
          </div>
          <div type="cap" n="75">
-            <p n="1"> Qui longis passibus incedunt magnanimi sunt et efficaces; parui autem et restricti
-               passus inefficaces, parci, paruae mentis sunt, dolorum artifices et obscurae mentis.
-               Celeritas motus cum <del>est</del> erecto corpore et honesto atque claro calidum
-               hominem indicat, qui aggrediatur res agendas magis quam perficiendas. Si autem
-               celeriter quidem mouetur, uerum submittit oculos et se comprimit et uultum deducit
-               atque omne corpus implicat et colligit, nimium timidum, parcum, uersutum, minus
-               liberalem indicat. Cum autem celeritatem motuum peruideris atque incessus, oculorum
-               perturbationem, capitis inconstantiam, anhelitum spissum, haec indicia hominem
-               cladium magnarum auctorem et nimiae audaciae declarant. Qui breues passus habet
-               eosdemque accelerat, malignus et plus quam timidus et imbecillis habendus est. Tardus
-               incessus si naturalis sit, etiam animum pigriorem indicat, si non potiora signa
-               dissentiant. Si autem procurata sit tarditas et interdum resistat, circumspiciat,
-               ceruicem erigat, superbiae dabit signum recte autem eum etiam moechum et adulterum
-               pronuntiabis.</p>
+            <p n="1"> Qui longis passibus incedunt magnanimi sunt et efficaces; parui autem et
+               restricti passus inefficaces, parci, paruae mentis sunt, dolorum artifices et
+               obscurae mentis. Celeritas motus cum <del>est</del> erecto corpore et honesto atque
+               claro calidum hominem indicat, qui aggrediatur res agendas magis quam perficiendas.
+               Si autem celeriter quidem mouetur, uerum submittit oculos et se comprimit et uultum
+               deducit atque omne corpus implicat et colligit, nimium timidum, parcum, uersutum,
+               minus liberalem indicat. Cum autem celeritatem motuum peruideris atque incessus,
+               oculorum perturbationem, capitis inconstantiam, anhelitum spissum, haec indicia
+               hominem cladium magnarum auctorem et nimiae audaciae declarant. Qui breues passus
+               habet eosdemque accelerat, malignus et plus quam timidus et imbecillis habendus est.
+               Tardus incessus si naturalis sit, etiam animum pigriorem indicat, si non potiora
+               signa dissentiant. Si autem procurata sit tarditas et interdum resistat,
+               circumspiciat, ceruicem erigat, superbiae dabit signum recte autem eum etiam moechum
+               et adulterum pronuntiabis.</p>
          </div>
          <div type="cap" n="76">
             <p n="1"> Cum autem manuum ac pedum motus cum totius corporis consentiunt motibus et cum
@@ -1086,8 +1093,8 @@
                   >ϰόλαϰας</foreign> vocant: refertur hoc ad canes.</p>
          </div>
          <div type="cap" n="77">
-            <p n="1"> Cum quietus est spiritus ita ut aut nullum aut pertenuem praebeat sensum incurrens
-               ac recurrens, in cogitatione constitutum hominem declarat, cuiusmodi autem
+            <p n="1"> Cum quietus est spiritus ita ut aut nullum aut pertenuem praebeat sensum
+               incurrens ac recurrens, in cogitatione constitutum hominem declarat, cuiusmodi autem
                cogitationes fere et oculi indicabunt. Cum spiritus interdum quiescit, longo autem
                post interuallo nimium trahitur uel editur tamquam in aestu reuolutus, in magna
                tristitia indicat hominem constitutum. Cum autem etiam caput quatit et ingemiscit,
@@ -1101,45 +1108,45 @@
                timidi, imbelles, interdum effeminati sunt, si cetera signa conueniant.</p>
          </div>
          <div type="cap" n="78">
-            <p n="1"> Qui uocem grauem et quassam tamquam ex quassato uasculo promunt, stulti sunt et
-               uoraces. Et quorum sonus ingratus est, siue sit solidus siue sit ouium uoci proximus,
-               stultitiam indicat. Qui incipiunt a graui uoce et in acutam desinunt, faciles ad
-               fletum ac lugubri animo sunt. Qui acutam uocem cum siccitate promunt, uersipelles ac
-               subdoli sunt. Qui acutam et mollem habent uocem, effeminati sunt. Qui uocem tamquam
-               ex concauo depromunt grauem et inflexibilem, ingenio sunt uirili et magnanimi. Qui
-               tardum et grauem uocis edunt sonum, tranquilli sunt, iocundi, affabiles. Horum et
-               iusti mores sunt. Qui in modum auium uocem intendunt, proni in uenerem, inanes
-               facilesque sunt. Infracta uox et tenuis ac lugubris tristem, auarum ac suspicacem
-               indicat. Quorum uox incurrit in nares, ita ut resonent nares, mendaces, maliuoli,
-               inuidi, gaudentes malis alienis sunt. Intenta uox uehemens cui tamquam sonus quassus
-               permixtus est, uiolentum, iniustum, odia gerentem omnibus significat. Tarda uox
-               inertem, praeceps imprudentem declarat. Referenda est etiam uox sicuti cetera ad
-               similitudines animalium: nam et canibus et simiis et auibus uoces similes sunt in
-               hominibus, et alius equo, alius porco proximam uocem emittit. Ex similitudine igitur
-               intellectum capies. Quod autem supra de contrarietatibus constituimus et medium esse
-               in plerisque optimum iudicauimus, hoc etiam de motu corporis et de uoce pronuntietur,
-               ut nimietatem ad malam partem accipias, medietatem ac temperamentum optimum
-               iudices.</p>
+            <p n="1"> Qui uocem grauem et quassam tamquam ex quassato uasculo promunt, stulti sunt
+               et uoraces. Et quorum sonus ingratus est, siue sit solidus siue sit ouium uoci
+               proximus, stultitiam indicat. Qui incipiunt a graui uoce et in acutam desinunt,
+               faciles ad fletum ac lugubri animo sunt. Qui acutam uocem cum siccitate promunt,
+               uersipelles ac subdoli sunt. Qui acutam et mollem habent uocem, effeminati sunt. Qui
+               uocem tamquam ex concauo depromunt grauem et inflexibilem, ingenio sunt uirili et
+               magnanimi. Qui tardum et grauem uocis edunt sonum, tranquilli sunt, iocundi,
+               affabiles. Horum et iusti mores sunt. Qui in modum auium uocem intendunt, proni in
+               uenerem, inanes facilesque sunt. Infracta uox et tenuis ac lugubris tristem, auarum
+               ac suspicacem indicat. Quorum uox incurrit in nares, ita ut resonent nares, mendaces,
+               maliuoli, inuidi, gaudentes malis alienis sunt. Intenta uox uehemens cui tamquam
+               sonus quassus permixtus est, uiolentum, iniustum, odia gerentem omnibus significat.
+               Tarda uox inertem, praeceps imprudentem declarat. Referenda est etiam uox sicuti
+               cetera ad similitudines animalium: nam et canibus et simiis et auibus uoces similes
+               sunt in hominibus, et alius equo, alius porco proximam uocem emittit. Ex similitudine
+               igitur intellectum capies. Quod autem supra de contrarietatibus constituimus et
+               medium esse in plerisque optimum iudicauimus, hoc etiam de motu corporis et de uoce
+               pronuntietur, ut nimietatem ad malam partem accipias, medietatem ac temperamentum
+               optimum iudices.</p>
          </div>
          <div type="cap" n="79">
-            <p n="1"> Colorum species in corporibus gentibus attributae sunt. Prout sunt igitur gentium
-               ingenia, ita colorum similitudo noscenda est. Color niger leuem, imbellem, timidum,
-               uersutum indicat: refertur ad eos qui in meridiana plaga habitant, ut sunt Aethiopes,
-               Aegyptii et qui his iuncti sunt. Color albus subrubeus fortes et animosos indicat:
-               refertur ad eos qui in septentrione commorantur. Color uehementer albus uirtuti est
-               contrarius. Cum color rubicundus est euidenter in omni corpore, dolis hominem
-               studentem uersutumque declarat. Color qui pallore deformatur, imbellem, timidum
-               eundemque tergiuersatorem significat, si non aegritudo sit causa palloris. Cum
-               fuscior color pallori permixtus est, <supplied>quod Graeci <foreign xml:lang="grc"
-                     >μελάγχλωρον</foreign> uocant</supplied>, uoracem, loquacem, intemperatum irae
-               linguaeque denuntiat. Color ignitus ad insaniam uergit. Color tranquille et moderate
-               rubeus docile ingenium ueloxque declarat. Cum pectus solummodo rubore obductum est,
-               iracundia inflammatum animum demonstrat. Cum uenae ceruicis et temporum extant
-               sanguineique sunt oculi, iracundum animum et uehementem ostendunt, nonnunquam et
-               insanum. Cum uultus rubet, aut uerecundum aut uinolentum declarat. Discernamus ergo
-               hunc ruborem oculorum indiciis. Nam si oculi rubeant cum aliquo liquore, uino
-               indulgentem ostendunt; si sicci sint et rubeant, iracundum, si temperati,
-               uerecundum.</p>
+            <p n="1"> Colorum species in corporibus gentibus attributae sunt. Prout sunt igitur
+               gentium ingenia, ita colorum similitudo noscenda est. Color niger leuem, imbellem,
+               timidum, uersutum indicat: refertur ad eos qui in meridiana plaga habitant, ut sunt
+               Aethiopes, Aegyptii et qui his iuncti sunt. Color albus subrubeus fortes et animosos
+               indicat: refertur ad eos qui in septentrione commorantur. Color uehementer albus
+               uirtuti est contrarius. Cum color rubicundus est euidenter in omni corpore, dolis
+               hominem studentem uersutumque declarat. Color qui pallore deformatur, imbellem,
+               timidum eundemque tergiuersatorem significat, si non aegritudo sit causa palloris.
+               Cum fuscior color pallori permixtus est, <supplied>quod Graeci <foreign
+                     xml:lang="grc">μελάγχλωρον</foreign> uocant</supplied>, uoracem, loquacem,
+               intemperatum irae linguaeque denuntiat. Color ignitus ad insaniam uergit. Color
+               tranquille et moderate rubeus docile ingenium ueloxque declarat. Cum pectus solummodo
+               rubore obductum est, iracundia inflammatum animum demonstrat. Cum uenae ceruicis et
+               temporum extant sanguineique sunt oculi, iracundum animum et uehementem ostendunt,
+               nonnunquam et insanum. Cum uultus rubet, aut uerecundum aut uinolentum declarat.
+               Discernamus ergo hunc ruborem oculorum indiciis. Nam si oculi rubeant cum aliquo
+               liquore, uino indulgentem ostendunt; si sicci sint et rubeant, iracundum, si
+               temperati, uerecundum.</p>
          </div>
          <div type="cap" n="80">
             <p n="1"> Nunc repetenda sunt, ut supra proposuimus, quae proprie Loxus seu Aristoteles
@@ -1148,9 +1155,9 @@
                sumus.</p>
          </div>
          <div type="cap" n="81">
-            <p n="1"> Loxus tres oculorum colores optimos constituit. Et primam speciem ponit oculorum
-                  <supplied>χαροπούς</supplied>, quos inter nigros et glaucos uult uideri, secundam
-               constituit <supplied>
+            <p n="1"> Loxus tres oculorum colores optimos constituit. Et primam speciem ponit
+               oculorum <supplied>χαροπούς</supplied>, quos inter nigros et glaucos uult uideri,
+               secundam constituit <supplied>
                   <foreign xml:lang="grc">αἰγωπούς</foreign>
                </supplied>, quos magis glaucis proximos, albidiores tamen constituit, tertiamque
                ponit nigris proximos. Idem pingues oculos dicit mansuetos quidem esse, uerum ad
@@ -1181,11 +1188,11 @@
                superbos et corde rigidos existere.</p>
          </div>
          <div type="cap" n="83">
-            <p n="1"> Aristoteles dicit, cum frons compressior fuerit ad caput, <supplied>quod graece
-                     <foreign xml:lang="grc">ἀναστεῖλον</foreign> dicitur</supplied>, et nares in
-               origine sua prope simae sunt, liberales esse et referri ad leonem. Idem Aristoteles
-               dicit eos qui supercilia obducunt <supplied>deorsum</supplied>, pupillas autem
-               superius tendunt atque omni uultu summisso sunt, <supplied>
+            <p n="1"> Aristoteles dicit, cum frons compressior fuerit ad caput, <supplied>quod
+                  graece <foreign xml:lang="grc">ἀναστεῖλον</foreign> dicitur</supplied>, et nares
+               in origine sua prope simae sunt, liberales esse et referri ad leonem. Idem
+               Aristoteles dicit eos qui supercilia obducunt <supplied>deorsum</supplied>, pupillas
+               autem superius tendunt atque omni uultu summisso sunt, <supplied>
                   <foreign xml:lang="grc">ϰόλαϰας</foreign>
                </supplied> esse, id est inhoneste blandos, et referri hoc ad canes. Idem Aristoteles
                dicit eos qui uultu omni tranquillo <supplied>sunt</supplied>, pari modo blandos esse
@@ -1200,9 +1207,9 @@
                      xml:lang="grc">ἀλεϰτρυόνας</foreign> Graeci uocant</supplied>. </p>
          </div>
          <div type="cap" n="84">
-            <p n="1"> Ιdem dicit animosos esse eos quorum post primam iuuentutem genae quodammodo duriores
-               et nudae sunt, extimum autem mentum barba est obsitum. Idem dicit eos qui uocem ita
-               intendunt ut proxime caprino balatu eam exasperent, furiosos
+            <p n="1"> Ιdem dicit animosos esse eos quorum post primam iuuentutem genae quodammodo
+               duriores et nudae sunt, extimum autem mentum barba est obsitum. Idem dicit eos qui
+               uocem ita intendunt ut proxime caprino balatu eam exasperent, furiosos
                   <supplied>esse</supplied> in uenerem: referri hoc ad capras. Idem dicit insidiosos
                esse qui breuem habent ceruicem, tamquam si infulciatur cetero corpori. <supplied>
                   <foreign xml:lang="grc">Μυϰτηρισμὸς</foreign>
@@ -1221,8 +1228,8 @@
                </supplied> igitur Aristoteles dicit contingere ea loca quae non oportet.</p>
          </div>
          <div type="cap" n="85">
-            <p n="1"> Idem dicit, quotiens torus in fronte est superpositus superciliis, inquietos esse ac
-               furiosos, ut ipse nominat, <supplied>
+            <p n="1"> Idem dicit, quotiens torus in fronte est superpositus superciliis, inquietos
+               esse ac furiosos, ut ipse nominat, <supplied>
                   <foreign xml:lang="grc">ἄνους ϰαὶ φρενιτιϰοὺς ϰαὶ μωρούς</foreign>
                </supplied>. Idem dicit eos qui colorem uarium habent tamquam lente aspersum,
                   <supplied>quos <foreign xml:lang="grc">φαϰώδεις</foreign> Graeci
@@ -1260,8 +1267,8 @@
                quibus supercilia ad oculos detracta sunt.</p>
          </div>
          <div type="cap" n="87">
-            <p n="1"> De maledicis idem dicit, ubi ea pars quae super gingiuas et oram labii superioris
-               est eminet, id est medietas eius spatii quod inter nares est oramque labii
+            <p n="1"> De maledicis idem dicit, ubi ea pars quae super gingiuas et oram labii
+               superioris est eminet, id est medietas eius spatii quod inter nares est oramque labii
                superioris, maledicum designari. Idem dicit maledicos esse quibus labium superius
                altum est, uultus pronior, hispidus, subrubeus, uel, ut ipse dixit, <supplied>
                   <foreign xml:lang="grc">ὑπέρυθρος</foreign>
@@ -1276,8 +1283,8 @@
                ursum et simiam.</p>
          </div>
          <div type="cap" n="88">
-            <p n="1"> Idem dicit pantomimis et aleae deditos esse qui brachium ab humero usque ad cubitum
-               breuius habent quam est spatium ab humero usque ad caput summum. Isdem uitiis
+            <p n="1"> Idem dicit pantomimis et aleae deditos esse qui brachium ab humero usque ad
+               cubitum breuius habent quam est spatium ab humero usque ad caput summum. Isdem uitiis
                attineri dicit eum qui femina parua, crura autem habet longiora. Idem dicit tristes,
                   <supplied>id est <foreign xml:lang="grc">δυσθύμους</foreign>
                </supplied>, esse quibus uultus omnis rugosus est. Idem dicit parua corpora uelocia.
@@ -1305,8 +1312,8 @@
                superius nonnulla huiusmodi habeantur exempla.</p>
          </div>
          <div type="cap" n="90">
-            <p n="1"> Constituamus uirum fortem. Recto corpore debet esse, latera, articuli, ima pedum
-               manuumque solida, ossa grandia, capillus durior, uenter latus, aliquanto cauus,
+            <p n="1"> Constituamus uirum fortem. Recto corpore debet esse, latera, articuli, ima
+               pedum manuumque solida, ossa grandia, capillus durior, uenter latus, aliquanto cauus,
                humeri fortes, scapulae seiunctae, pectus et metaphrena solida, <supplied>
                   <foreign xml:lang="grc">ἰσχίον</foreign> durum</supplied>, surae solidae, crura
                non indigentia carnis, imi pedes discreti articulis, color acrior magis quam
@@ -1324,20 +1331,20 @@
                sonora. His timidus, ut diximus, indiciis declaratur.</p>
          </div>
          <div type="cap" n="92">
-            <p n="1"> Ingeniosus esse debet non satis procerus nec breuis, coloris albi, cui sit permixtus
-               etiam rubor, capillo flauo non adeo crispo sed nec extenso, corpore recto, membris
-               magnis, articulis discretis, carne moderata, aliquanto molliore, crura feminaque
-               habens modice pleniora, suras robustas, manuum pedumque articulos fortes, digitos
-               simplices, moderate prolixos a se separatos, <supplied>uultus</supplied> non refertos
-               carnibus nec nimium exiles, oculos humidos, splendidos, <supplied>
+            <p n="1"> Ingeniosus esse debet non satis procerus nec breuis, coloris albi, cui sit
+               permixtus etiam rubor, capillo flauo non adeo crispo sed nec extenso, corpore recto,
+               membris magnis, articulis discretis, carne moderata, aliquanto molliore, crura
+               feminaque habens modice pleniora, suras robustas, manuum pedumque articulos fortes,
+               digitos simplices, moderate prolixos a se separatos, <supplied>uultus</supplied> non
+               refertos carnibus nec nimium exiles, oculos humidos, splendidos, <supplied>
                   <foreign xml:lang="grc">χαροπούς</foreign>
                </supplied>.</p>
          </div>
          <div type="cap" n="93">
-            <p n="1"> Qui sine sensu est ita esse debet: albus nimis uel nimis niger, carne ambiri nimia,
-               uentre ultra modum prominente, crassis cruribus, paruis articulis obligatis atque
-               constrictis, iugulis nimium coniunctis atque conclusis, ceruice uasta breuique; ima
-               manuum pedumque <supplied>habere debet</supplied> imperfecta, malas et genas
+            <p n="1"> Qui sine sensu est ita esse debet: albus nimis uel nimis niger, carne ambiri
+               nimia, uentre ultra modum prominente, crassis cruribus, paruis articulis obligatis
+               atque constrictis, iugulis nimium coniunctis atque conclusis, ceruice uasta breuique;
+               ima manuum pedumque <supplied>habere debet</supplied> imperfecta, malas et genas
                congestas carnibus, frontem rotundam, aciem oculorum non penetrabilem nec efficacem,
                sed patulam.</p>
          </div>
@@ -1354,15 +1361,15 @@
                honesto permixtus.</p>
          </div>
          <div type="cap" n="96">
-            <p n="1"> Homo securus ita intelligitur: frontem habet non tenui cute, sed pleniore carne
-               contectam, eandem leuem et humilem atque omnem uultum in plenitudine magis quam in
-               macie constitutum eundemque uultum tamquam ex somno uel somno proximum, oculos
+            <p n="1"> Homo securus ita intelligitur: frontem habet non tenui cute, sed pleniore
+               carne contectam, eandem leuem et humilem atque omnem uultum in plenitudine magis quam
+               in macie constitutum eundemque uultum tamquam ex somno uel somno proximum, oculos
                humidos, perlucidos sine uitio intuentes, qui etiam tranquille moueatur et mansueta
                uoce sit.</p>
          </div>
          <div type="cap" n="97">
-            <p n="1"> Tristis homo ita intelligitur: uultus tenuis, frons rugosa, supercilia introrsus
-               conuersa, cilia intenta.</p>
+            <p n="1"> Tristis homo ita intelligitur: uultus tenuis, frons rugosa, supercilia
+               introrsus conuersa, cilia intenta.</p>
          </div>
          <div type="cap" n="98">
             <p n="1">
@@ -1404,14 +1411,14 @@
                   >ῥυθμῷ</foreign>, id est numero, proximus esse possit.</p>
          </div>
          <div type="cap" n="102">
-            <p n="1"> Qui pecuniae cupidi sunt ita sunt: paruis membris, paruis oculis, paruis uultibus,
-               celeri incessu, incurui, celeri uoce et acuta et quorum uultus tamquam rubore
-               superfusus esse uideatur.</p>
+            <p n="1"> Qui pecuniae cupidi sunt ita sunt: paruis membris, paruis oculis, paruis
+               uultibus, celeri incessu, incurui, celeri uoce et acuta et quorum uultus tamquam
+               rubore superfusus esse uideatur.</p>
          </div>
          <div type="cap" n="103">
-            <p n="1"> Homo hirsutus capillis nigris directis, hirsuto ore ac mento et temporibus, oculis
-               pinguibus, relucentibus, furiosis erit pronus in libidinem, studiosus pantomimorum et
-               maledicus.</p>
+            <p n="1"> Homo hirsutus capillis nigris directis, hirsuto ore ac mento et temporibus,
+               oculis pinguibus, relucentibus, furiosis erit pronus in libidinem, studiosus
+               pantomimorum et maledicus.</p>
          </div>
          <div type="cap" n="104">
             <p n="1"> Sunt quidam homines cum stultitia nocentes, qui graece <supplied>
@@ -1436,16 +1443,16 @@
                sunt.</p>
          </div>
          <div type="cap" n="105">
-            <p n="1"> His igitur indiciis quibus stoliditas denotatur si accedant, ut supra diximus, quae
-               ferociora sunt aut asperiora aut uehementiora aut sicciora aut intenta, etiam malitia
-               non inferior quam stultitia adiudicanda est. Redeamus nunc ad superiorem speciem. Quo
-               igitur indicio in eo corpore nocentem stultitiam deprehendamus, in quo partim
-               malitiae, partim stultitiae signa sunt, exemplum quod temporibus suis Polemon auctor
-               huius speciei ex homine posuit quem sceleratissimum fuisse asseuerauit prosequamur.
-               De homine uero dicit cuius erat nocens stultitia capillo fuisse denso eodemque
-               horrido tamquam ex frigore, capite angusto, obliquo, auribus ingentibus inclinatis ac
-               propemodum infractis, ceruice dura, temporibus rotundis, non leuibus, sed ut ipse
-               Polemon nominat <supplied>
+            <p n="1"> His igitur indiciis quibus stoliditas denotatur si accedant, ut supra diximus,
+               quae ferociora sunt aut asperiora aut uehementiora aut sicciora aut intenta, etiam
+               malitia non inferior quam stultitia adiudicanda est. Redeamus nunc ad superiorem
+               speciem. Quo igitur indicio in eo corpore nocentem stultitiam deprehendamus, in quo
+               partim malitiae, partim stultitiae signa sunt, exemplum quod temporibus suis Polemon
+               auctor huius speciei ex homine posuit quem sceleratissimum fuisse asseuerauit
+               prosequamur. De homine uero dicit cuius erat nocens stultitia capillo fuisse denso
+               eodemque horrido tamquam ex frigore, capite angusto, obliquo, auribus ingentibus
+               inclinatis ac propemodum infractis, ceruice dura, temporibus rotundis, non leuibus,
+               sed ut ipse Polemon nominat <supplied>
                   <foreign xml:lang="grc">γλαφυροῖς</foreign>
                </supplied>; frons in eo fuit angusta et aspera, oculi parui, tenebrosi, sicci, caui,
                subdiffluentes, rigidi, genae angustae, prolixae, labia longissima, os longe
@@ -1462,13 +1469,13 @@
                edidit.</p>
          </div>
          <div type="cap" n="106">
-            <p n="1"> Nunc autem primo dicendum est de inuerecundis. Qui inuerecundus est ita esse debet:
-               patulis oculis lucidis, palpebris crassis et sanguinolentis, aliquanto incuruus,
-               scapulis in acutum eminentibus, non tam erectus, <supplied>sed</supplied> pronior,
-               mobilis, aspersus rubore, sublucente intrinsecus sanguinolento colore, uultu rotundo,
-               pectore superius retracto, inferiore palpebra magis crassa. Et quibus caput in modum
-               mallei prolixum est et prominet ante ac retro, et quibus cutis oris tensa est,
-               inuerecundi sunt.</p>
+            <p n="1"> Nunc autem primo dicendum est de inuerecundis. Qui inuerecundus est ita esse
+               debet: patulis oculis lucidis, palpebris crassis et sanguinolentis, aliquanto
+               incuruus, scapulis in acutum eminentibus, non tam erectus, <supplied>sed</supplied>
+               pronior, mobilis, aspersus rubore, sublucente intrinsecus sanguinolento colore, uultu
+               rotundo, pectore superius retracto, inferiore palpebra magis crassa. Et quibus caput
+               in modum mallei prolixum est et prominet ante ac retro, et quibus cutis oris tensa
+               est, inuerecundi sunt.</p>
          </div>
          <div type="cap" n="107">
             <p n="1"> Honestas morum et tranquillitas hominis qui graece <supplied>
@@ -1511,21 +1518,21 @@
                femininam, moribus autem propemodum multiformes.</p>
          </div>
          <div type="cap" n="111">
-            <p n="1"> Qui amoribus est deditus ita intelligitur: memor esse debet, ingeniosus, calidus,
-               oculos habere prope lacrimantes et prope pallidos.</p>
+            <p n="1"> Qui amoribus est deditus ita intelligitur: memor esse debet, ingeniosus,
+               calidus, oculos habere prope lacrimantes et prope pallidos.</p>
          </div>
          <div type="cap" n="112">
-            <p n="1"> Libidinosi, id est intemperantes libidinum, ita sunt: color albus, corpus hispidum
-               rectis capillis, partes oris hispidae directis et solidis capillis et nigris, item
-               tempora hispida similibus capillis. Oculos habebunt pigriores, humidos, crura tenuia,
-               neruis intenta atque hispida, uentrem pinguem, mentum reflexum
+            <p n="1"> Libidinosi, id est intemperantes libidinum, ita sunt: color albus, corpus
+               hispidum rectis capillis, partes oris hispidae directis et solidis capillis et
+               nigris, item tempora hispida similibus capillis. Oculos habebunt pigriores, humidos,
+               crura tenuia, neruis intenta atque hispida, uentrem pinguem, mentum reflexum
                   <supplied>ad</supplied> nares ita ut inter nares et mentum caua sit quaedam
                planities, et quibus uena in brachiis est, et qui in palpebris capillos raros et
                defluentes habent.</p>
          </div>
          <div type="cap" n="113">
-            <p n="1"> Loquaces sunt qui superiores partes corporis multo maiores habent quam inferiores ab
-               inguine, qui uultus habent <supplied>
+            <p n="1"> Loquaces sunt qui superiores partes corporis multo maiores habent quam
+               inferiores ab inguine, qui uultus habent <supplied>
                   <foreign xml:lang="grc">γλαφυρούς</foreign>
                </supplied> ― supra autem expositum est hoc nomen ―, qui uentrem hispidum habent.</p>
          </div>
@@ -1549,8 +1556,8 @@
                aliorum apprehendunt.</p>
          </div>
          <div type="cap" n="116">
-            <p n="1"> Multis locis dictum est nimietates esse uitiosas et optimam esse medietatem. Sed
-               nunc repetimus non sinceram esse medietatem nec summo examine exploratum id quod
+            <p n="1"> Multis locis dictum est nimietates esse uitiosas et optimam esse medietatem.
+               Sed nunc repetimus non sinceram esse medietatem nec summo examine exploratum id quod
                medium est nec semper atque in omnibus praeualere, sed interdum temperamentum tunc
                optimum iudicari, cum non medium inter duas nimietates constituitur, sed cum magis ad
                partem alteram uergit. Exemplis igitur duobus uel tribus propositis erit hoc
@@ -1579,34 +1586,34 @@
                homines sint animalibus similes.</p>
          </div>
          <div type="cap" n="118">
-            <p n="1"> Equus animal erectum est atque exultans, in certando animosum, uictoriae cupidum,
-               non impatiens laboris. Homines ergo qui ad huius animalis speciem referuntur, capillo
-               erunt tenso, rubeo, genas habebunt maiores, collum longius, nares magis patulas,
-               labium inferius demissum, erunt calidi in uenerem, iactantes sui, contentiosi nimium,
-               sapientes minus.</p>
+            <p n="1"> Equus animal erectum est atque exultans, in certando animosum, uictoriae
+               cupidum, non impatiens laboris. Homines ergo qui ad huius animalis speciem
+               referuntur, capillo erunt tenso, rubeo, genas habebunt maiores, collum longius, nares
+               magis patulas, labium inferius demissum, erunt calidi in uenerem, iactantes sui,
+               contentiosi nimium, sapientes minus.</p>
          </div>
          <div type="cap" n="119">
-            <p n="1"> Asinus animal est iners, frigidum, indocile, tardum, insolens, uocis ingratae. Qui
-               ad huius animalis speciem referuntur homines necesse est sint cruribus crassis, longο
-               capite, auribus crassis, longis, labiis demissis, uoce deformi; qui sunt tardi,
+            <p n="1"> Asinus animal est iners, frigidum, indocile, tardum, insolens, uocis ingratae.
+               Qui ad huius animalis speciem referuntur homines necesse est sint cruribus crassis,
+               longο capite, auribus crassis, longis, labiis demissis, uoce deformi; qui sunt tardi,
                frigidi, penuriae atque iniuriae contemptores.</p>
          </div>
          <div type="cap" n="120">
-            <p n="1"> Bos animal est habens caput grande, frontem latam, oculos grandes, os latum, nares
-               latas, latera grandia, uentrem pleniorem. Ad huius animalis speciem homines qui
+            <p n="1"> Bos animal est habens caput grande, frontem latam, oculos grandes, os latum,
+               nares latas, latera grandia, uentrem pleniorem. Ad huius animalis speciem homines qui
                referuntur erunt indociles, consilii egentes, loquendi et agendi ignaui, tardiores,
                regi magis quam regere apti, non tamen sine honestate nec iniusti, sed fortes.</p>
          </div>
          <div type="cap" n="121">
-            <p n="1"> Ceruus animal est timidum, uelox, iracundum, incautum. Qui ad huius animalis speciem
-               referuntur homines erunt longi, angustioribus membris, habentes genas maiores,
-               uelociter ambulantes; qui etiam facile ad iracundiam prouocantur, paruum animum
-               gerentes, instabiles, <supplied>calidi</supplied> et acuti nimium et inefficaces
-               erunt.</p>
+            <p n="1"> Ceruus animal est timidum, uelox, iracundum, incautum. Qui ad huius animalis
+               speciem referuntur homines erunt longi, angustioribus membris, habentes genas
+               maiores, uelociter ambulantes; qui etiam facile ad iracundiam prouocantur, paruum
+               animum gerentes, instabiles, <supplied>calidi</supplied> et acuti nimium et
+               inefficaces erunt.</p>
          </div>
          <div type="cap" n="122">
-            <p n="1"> Leo animal est edendi auidum magis quam bibendi, saeuum cum irritatur, quietum cum
-               non impellitur, uehemens cum cibo indiget, tranquillum cum satiatum est, forte
+            <p n="1"> Leo animal est edendi auidum magis quam bibendi, saeuum cum irritatur, quietum
+               cum non impellitur, uehemens cum cibo indiget, tranquillum cum satiatum est, forte
                   <supplied>et</supplied> inuictum cum dimicat. Qui ad huius animalis speciem
                referuntur homines erunt capite grandiore, oculis perlucidis, scisso ore, naribus
                capacibus, ceruice solida, humeris et pectore ingentibus, ilibus angustioribus,
@@ -1615,8 +1622,8 @@
                nulla religio.</p>
          </div>
          <div type="cap" n="123">
-            <p n="1"> Canis animal est quod facile irascitur, facile blanditur, cibis suauibus deditum,
-               quod Graeci <supplied>
+            <p n="1"> Canis animal est quod facile irascitur, facile blanditur, cibis suauibus
+               deditum, quod Graeci <supplied>
                   <foreign xml:lang="grc">λίχνον</foreign>
                </supplied> uocant, offenditur facile, quod graece <supplied>
                   <foreign xml:lang="grc">φιλεγϰλῆμον</foreign>
@@ -1649,18 +1656,18 @@
                rapiant.</p>
          </div>
          <div type="cap" n="127">
-            <p n="1"> Testudo animal est iners, stultum, uorax, quod neque sibi aliquid neque cuiquam
-               alteri prodest. Mulier quaecunque ad huius animalis speciem refertur ita est: collo
-               breui, dorso lato, pedibus latis, rugoso uultu et maxime malis. Huiusmodi mulier
-               inepta, inefficax, ingrata.</p>
+            <p n="1"> Testudo animal est iners, stultum, uorax, quod neque sibi aliquid neque
+               cuiquam alteri prodest. Mulier quaecunque ad huius animalis speciem refertur ita est:
+               collo breui, dorso lato, pedibus latis, rugoso uultu et maxime malis. Huiusmodi
+               mulier inepta, inefficax, ingrata.</p>
          </div>
          <div type="cap" n="128">
-            <p n="1"> Coluber animal est saeuum, nocens, insidiosum, cum constituerit animum terribile,
-               cum timuerit fugax, gulae deditum. Qui ad huius animalis speciem referuntur ita
-               erunt: capite paruo, tenui, rotundo, oculis paruis, rotundis, lucidis, collo lοngo,
-               tenui, ore praeciso, prolixo corpore, pectore angusto, caput uelociter et facile
-               commouebunt. Homicidae quoque huiusmodi homines erunt, audaces, timidi, studentes
-               malitiae.</p>
+            <p n="1"> Coluber animal est saeuum, nocens, insidiosum, cum constituerit animum
+               terribile, cum timuerit fugax, gulae deditum. Qui ad huius animalis speciem
+               referuntur ita erunt: capite paruo, tenui, rotundo, oculis paruis, rotundis, lucidis,
+               collo lοngo, tenui, ore praeciso, prolixo corpore, pectore angusto, caput uelociter
+               et facile commouebunt. Homicidae quoque huiusmodi homines erunt, audaces, timidi,
+               studentes malitiae.</p>
          </div>
          <div type="cap" n="129">
             <p n="1"> Noctua, quae graece <supplied>
@@ -1674,10 +1681,11 @@
                indulgens.</p>
          </div>
          <div type="cap" n="130">
-            <p n="1"> Pauus animal est pulchritudini studens, stultum, posteriores partes sui corporis
-               referens, clamosum, femininae uocis. Quicunque ad huius animalis speciem referuntur
-               erunt graciles, non indecori corpore, capite prope rotundo, speciosis oculis, ceruice
-               procera, incessu pulchri. Idem ipsi erunt faciles ad largiendum, moechi, cinaedi.</p>
+            <p n="1"> Pauus animal est pulchritudini studens, stultum, posteriores partes sui
+               corporis referens, clamosum, femininae uocis. Quicunque ad huius animalis speciem
+               referuntur erunt graciles, non indecori corpore, capite prope rotundo, speciosis
+               oculis, ceruice procera, incessu pulchri. Idem ipsi erunt faciles ad largiendum,
+               moechi, cinaedi.</p>
          </div>
          <div type="cap" n="131">
             <p n="1"> Gallus, qui graece <supplied>
@@ -1692,18 +1700,18 @@
                esse.</p>
          </div>
          <div type="cap" n="132">
-            <p n="1"> Iuxta haec exempla etiam ceterorum animalium proprietates tam minimas quam maiores
-               corporis partes considerans ad species humanorum morum, prout cuique animali quisque
-               proximus fuerit, instrues. Retinendum autem quod interdum ex diuersis animalibus de
-               quibus iudicauimus signa conueniant in unum hominem, quae res difficilis quidem ad
-               considerationem, sed tamen ad speciem suam singula referenda sunt nec dubitandum
-               pluribus animalibus unum hominem similem pronuntiare. Si enim ita euenerit ut et equi
-               et simiae signa conueniant, non dubitabis eidem et equi insolentiam et simiae
-               malignitatem assignare, uel si tribus animalibus proximus quis fuerit, trium
-               animalium mores illi confidenter ascribe. Certum autem est inspectionem hominum ex eo
-               difficilem esse quod homo unusquisque uitium suum celare nitatur. Sed et studia et
-               conuersationes satis humana ingenia obscurant, idque ipsum de quo nunc agitur
-               frequenter euenit, ut multiforme sit unius hominis ingenium, animalia autem
+            <p n="1"> Iuxta haec exempla etiam ceterorum animalium proprietates tam minimas quam
+               maiores corporis partes considerans ad species humanorum morum, prout cuique animali
+               quisque proximus fuerit, instrues. Retinendum autem quod interdum ex diuersis
+               animalibus de quibus iudicauimus signa conueniant in unum hominem, quae res
+               difficilis quidem ad considerationem, sed tamen ad speciem suam singula referenda
+               sunt nec dubitandum pluribus animalibus unum hominem similem pronuntiare. Si enim ita
+               euenerit ut et equi et simiae signa conueniant, non dubitabis eidem et equi
+               insolentiam et simiae malignitatem assignare, uel si tribus animalibus proximus quis
+               fuerit, trium animalium mores illi confidenter ascribe. Certum autem est inspectionem
+               hominum ex eo difficilem esse quod homo unusquisque uitium suum celare nitatur. Sed
+               et studia et conuersationes satis humana ingenia obscurant, idque ipsum de quo nunc
+               agitur frequenter euenit, ut multiforme sit unius hominis ingenium, animalia autem
                simplicia, nuda atque incauta sunt et naturam suam singula in promptu habent.</p>
          </div>
          <div type="cap" n="133">
