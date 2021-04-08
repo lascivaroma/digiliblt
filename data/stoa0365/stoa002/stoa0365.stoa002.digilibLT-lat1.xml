@@ -36,6 +36,10 @@
                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:p[@n='$2'])">
                <p>This pointer pattern extracts paragraphs</p>
             </cRefPattern>
+            <cRefPattern n="chapter" matchPattern="(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']">
+               <p>This pointer pattern extracts chapters</p>
+            </cRefPattern>
          </refsDecl>
          <projectDesc>
             <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
@@ -81,8 +85,9 @@
          <change who="Lily Grumbach" when="2021-04-08">
             <list>
                <item>Suppresison de la déclaration du 'RNGSchema'</item>
-               <item>cRefPattern : modification du XPath pour copatibilité avec CapiTainS et
+               <item>cRefPattern : modification du XPath pour compatibilité avec CapiTainS et
                   précision de l'extraction par la pattern des paragraphes</item>
+               <item>Ajout du cRefPattern pour extraire les chapitres</item>
                <item> ProfileDesc : ajout des balises langUsage et language</item>
             </list>
          </change>
