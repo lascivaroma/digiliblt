@@ -33,9 +33,9 @@
       </fileDesc>
       <encodingDesc>
          <refsDecl n="CTS">
-            <cRefPattern n="unknown" matchPattern="(\w+)"
+            <cRefPattern n="paragraph" matchPattern="(\w+)"
                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:p[@n='$1'])">
-               <p>This pointer pattern extracts unknown</p>
+               <p>This pointer pattern extracts paragraphs</p>
             </cRefPattern>
          </refsDecl>
          <projectDesc>
@@ -95,7 +95,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="Lily Grumbach" when="2021-04-08">Modification de la langue du profileDesc de "la" à "lat".</change>
+         <change who="Lily Grumbach" when="2021-04-08">cRefPattern : indication que le pointer pattern extrait des paragraphes. ProfileDesc:Modification de la langue du profileDesc de "la" à "lat".</change>
       </revisionDesc>
    </teiHeader>
 
