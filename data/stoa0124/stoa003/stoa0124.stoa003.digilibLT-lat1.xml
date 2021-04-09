@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -21,8 +20,8 @@
                 <date>2011</date>
                 <availability>
                     <p>
-                  <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
-               </p>
+                        <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
+                    </p>
                 </availability>
                 <idno>dlt000536</idno>
             </publicationStmt>
@@ -32,54 +31,69 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-         <refsDecl n="CTS"><cRefPattern n="unknown" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"><p>This pointer pattern extracts unknown</p></cRefPattern></refsDecl>
+            <refsDecl n="CTS">
+                <cRefPattern n="paragraph" matchPattern="(\w+).(\w+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:p[@n='$2'])">
+                    <p>This pointer pattern extracts paragraphs</p>
+                </cRefPattern>
+                <cRefPattern n="chapter" matchPattern="(\w+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])">
+                    <p>This pointer pattern extracts chapters</p>
+                </cRefPattern>
+            </refsDecl>
             <projectDesc>
                 <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
-                <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+                <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio
+                    Lana</p>
             </projectDesc>
             <editorialDecl>
-                
+
                 <p>
-               <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi>
-            </p>
-                <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
-                    l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note
-                    e commenti e ogni altro contenuto redatto da editori moderni. </p>
-                <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
-                    correttezza di trascrizione</p>
-                <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
-                    distinzione u/v minuscole.</p>
+                    <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi>
+                </p>
+                <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non
+                    seguendone l'impaginazione. Sono stati invece esclusi dalla digitalizzazione
+                    apparati, introduzioni, note e commenti e ogni altro contenuto redatto da
+                    editori moderni. </p>
+                <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la
+                    massima correttezza di trascrizione</p>
+                <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di
+                    riferimento per la distinzione u/v minuscole.</p>
                 <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
-                <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
-                    grassetto, corsivo, spaziatura espansa.</p>
-                <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
-                    &lt;del&gt;testo&lt;/del&gt; si visualizza [testo] <lb/> integrazioni: &lt;supplied&gt;testo&lt;/supplied&gt; si visualizza &lt;testo&gt;<lb/>
-                    <hi rend="italic">loci desperati</hi>:  &lt;unclear&gt;testo&lt;/unclear&gt; o &lt;unclear/&gt; testo
-                    si visualizzano †testo† e †testo<lb/> lacuna materiale: &lt;gap/&gt; si visualizza
-                    [...]<lb/> lacuna integrata dagli editori:
-                    &lt;supplied&gt;&lt;gap/&gt;&lt;/supplied&gt; si visualizza &lt;...&gt;
+                <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic"
+                        >corpus</hi>: grassetto, corsivo, spaziatura espansa.</p>
+                <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/>
+                    espunzioni: &lt;del&gt;testo&lt;/del&gt; si visualizza [testo] <lb/>
+                    integrazioni: &lt;supplied&gt;testo&lt;/supplied&gt; si visualizza &lt;testo&gt;<lb/>
+                    <hi rend="italic">loci desperati</hi>: &lt;unclear&gt;testo&lt;/unclear&gt; o
+                    &lt;unclear/&gt; testo si visualizzano †testo† e †testo<lb/> lacuna materiale:
+                    &lt;gap/&gt; si visualizza [...]<lb/> lacuna integrata dagli editori:
+                    &lt;supplied&gt;&lt;gap/&gt;&lt;/supplied&gt; si visualizza &lt;...&gt; </p>
+                <p>Sono stati marcati i termini in lingua greca &lt;foreign
+                    xml:lang="grc"&gt;αγβ&lt;/foreign&gt; </p>
+                <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+                        target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+                        >Note di trascrizione e codifica di testi latini tardoantichi
+                        [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
                 </p>
-                <p>Sono stati marcati i termini in lingua greca
-                    &lt;foreign xml:lang="grc"&gt;αγβ&lt;/foreign&gt;
-                </p>
-                <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf">Note di trascrizione e codifica di testi latini tardoantichi
-                    [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
-            </p>
             </editorialDecl>
-            
+
         </encodingDesc>
         <profileDesc>
             <langUsage>
-                <language ident="la">Latino</language>
+                <language ident="lat">Latino</language>
             </langUsage>
         </profileDesc>
-        
+        <revisionDesc>
+            <change who="Jean Barré" when="2021-04-07">Correction du profileDesc. Numérotation des paragraphes</change>
+        </revisionDesc>
+
     </teiHeader>
 
     <text>
         <body xml:lang="lat" n="urn:cts:latinLit:stoa0124.stoa003.digilibLT-lat1">
             <div type="cap" n="1">
-                <p> Capienti mihi in templo et saucium uigilia caput plurimarum arborum amoenitate,
+                <p n="1"> Capienti mihi in templo et saucium uigilia caput plurimarum arborum amoenitate,
                     euriporum frigore, aeris libertate recreanti obuiam subito quidam fuere, quos ab
                     urbis spectaculo Baeticam reuertentes sinister Af<del>f</del>ricae uentus in hoc
                     litus excusserat. Quorum unus, uir, ut postea apparuit, litteris pereruditus,
@@ -112,7 +126,7 @@
                     loca quasue regiones peragrasti?» </p>
             </div>
             <div type="cap" n="2">
-                <p> «Si ita indulges otio, plane quam breuiter exponam nec inuitus priorum
+                <p n="1"> «Si ita indulges otio, plane quam breuiter exponam nec inuitus priorum
                     recordabor. Primum Siciliam nobilem uidi, domesticam Cereris. Fecundam deinde
                     Creten, patriam Tonantis, et a latere uicinas Cycladas salutaui. Inde me Rhodos
                     et ab regressu Aegyptium <supplied>excepit</supplied> pelagus, ut ora Nili
@@ -143,7 +157,7 @@
                     oblitus subito nostrum litus adamauit.» </p>
             </div>
             <div type="cap" n="3">
-                <p> Hic cum ergo respirassem, statim Baeticus «o» inquit «beatam ciuitatem, quae in
+                <p n="1"> Hic cum ergo respirassem, statim Baeticus «o» inquit «beatam ciuitatem, quae in
                     te fatigatum incidit. Quem ad modum tamen te prosequitur, et quid hic agitur?
                     Vnde subuenit reditus? An pater ab Af<del>f</del>rica subministrat?» «Inde
                     nequaquam, cum hac ipsa peregrinatione offenderim. In reditu est mihi professio
@@ -167,7 +181,7 @@
                     suggestu praecipientem bonos mores et sacrarum studia litterarum, iam carmina
                     praelegentem, quibus ora mentesque formantur, iam sententiis uariis sensus
                     excitantem, iam exemplis ro<gap/>
-            </p>
+                </p>
             </div>
 
         </body>
