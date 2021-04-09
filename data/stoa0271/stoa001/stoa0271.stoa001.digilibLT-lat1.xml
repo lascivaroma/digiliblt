@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" st andalone="yes"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -33,11 +33,11 @@
     <encodingDesc>
       <refsDecl n="CTS">
         <cRefPattern n="chapter" matchPattern="(\w+).(\w+)"
-          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:div[@n='$2'])">
           <p>This pointer pattern extracts chapters</p>
         </cRefPattern>
         <cRefPattern n="book" matchPattern="(\w+)"
-          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])">
           <p>This pointer pattern extracts books</p>
         </cRefPattern>
       </refsDecl>
@@ -539,6 +539,7 @@
       </div>
       <div type="lib" n="XI">
         <head>XI. DD. NN. THEODOSIO ET ARCADIO SEMPER AVGG. SYMMACHVS V. C. PRAEFECTVS VRBIS.</head>
+        <div type="cap" n="1">
         <p> Licet arbitrer litteras meas nuntiis aut rumore praeuentas - quid enim fama potest esse
           uelocius, Domini Imperatores Theodosi et Arcadi inclyti, uictores ac triumphatores semper
           Augusti? - ego tamen officii publici necessitate cogente excessum uiri inlustris crudo
@@ -547,6 +548,7 @@
           praeconia animi consternatione praetereo; neque enim locus est cuiusquam testimonio, cum
           uitae eius gloriam Clementiae Vestrae iudicia testentur, mortem celebrem dolor omnium
           fecerit. </p>
+        </div>
       </div>
 
       <div type="lib" n="XII">
@@ -903,6 +905,7 @@
       <div type="lib" n="XXII">
         <head>XXII. DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO SEMPER AVGGG. SYMMACHVS V C.
           PRAEFECTVS VRBIS.</head>
+        <div type="cap" n="1">
         <p> De tribunatu suarii fori nuper orta contentio causam mihi adtulit legum arbitros
           consulendi, Domini Imperatores Valentiniane, Theodosi et Arcadi inclyti, uictores ac
           triumphatores semper Augusti. Prouectus instabat, ut delatum sibi sortiretur officium;
@@ -911,6 +914,7 @@
           praeferebat, admisi; sed ut deinceps, si forte usus tulerit, cunctationem iudicii absoluta
           forma submoueat, statui sacrum Numinis Vestri oraculum sciscitari, utrum fas sit nouos
           tribunos seruata lege differri an magis ueteres oporteat praelata deuotione remouere. </p>
+        </div>
       </div>
       <div type="lib" n="XXIII">
         <head>XXIII. DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO SEMPER AVGGG. SYMMACHVS V C.
@@ -1886,6 +1890,7 @@
         </div>
       </div>
       <div type="lib" n="XLV">
+        <div type="cap" n="1">
         <head>XLV D. N. VALENTINIANO SEMPER AVG. SYMMACHVS V C. PRAEFECTVS VRBIS.</head>
         <p> Deuotione et more commonitus magistratuum nomina, quibus uarias functiones designationum
           tempore amplissimus Ordo mandauit, Aeternitatis Vestrae perfero notionem, ut muneribus
@@ -1893,6 +1898,7 @@
           sunt quos Senatui uestro recens ortus adiecit. Prolixus in talibus rebus esse non debeo,
           cum decreti publici fides gestorum potius insinuationem postulet quam largum referentis
           eloquium. </p>
+          </div>
       </div>
       <div type="lib" n="XLVI">
         <head>XLVI. DDD. NNN. VALENTINIANO THEODOSIO ET ARCADIO SEMPER AVGGG. SYMMACHVS V C.
@@ -2010,7 +2016,6 @@
             ut, perpensis omnibus, sequenda iubeatis. </p>
         </div>
       </div>
-
     </body>
   </text>
 </TEI>
