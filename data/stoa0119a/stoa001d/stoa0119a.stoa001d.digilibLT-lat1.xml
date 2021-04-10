@@ -1,0 +1,2024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Commentum Terentii, Heauton Timorumenos</title>
+                <author>Eugraphius</author>
+                <respStmt>
+                    <resp>Correzione linguistica</resp>
+                    <name>Raffaella Tabacco</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica XML</resp>
+                    <name>Nadia Rosso</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>digilibLT</publisher>
+                <pubPlace>Vercelli</pubPlace>
+                <date>2020</date>
+                <availability>
+                    <p><ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/"/>
+                    </p>
+                </availability>
+                <idno>dlt000170</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p><hi rend="italic">Aeli Donati quod fertur commentum Terenti</hi>, accedunt
+                    Eugraphi commentum et Scholia bembina, recensuit P. Wessner, voluminis III pars
+                    prior Eugraphi commentum continens, Lipsiae 1908 (Bibliotheca Scriptorum
+                    Graecorum et Romanorum Teubneriana).</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+                <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio
+                    Lana</p>
+            </projectDesc>
+            <editorialDecl>
+                <p><hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi></p>
+                <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non
+                    seguendone l'impaginazione. Sono stati invece esclusi dalla digitalizzazione
+                    apparati, introduzioni, note e commenti e ogni altro contenuto redatto da
+                    editori moderni. </p>
+                <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la
+                    massima correttezza di trascrizione </p>
+                <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di
+                    riferimento per la distinzione u/v minuscole. </p>
+                <p> Non è stato normalizzato l'uso delle virgolette e dei trattini. </p>
+                <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic"
+                        >corpus</hi>: grassetto, corsivo, spaziatura espansa. </p>
+                <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/>
+                    espunzioni: <![CDATA[<del>testo</del>]]> si visualizza [testo] <lb/>
+                    integrazioni: <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]><lb/>
+                    <hi rend="italic">loci desperati</hi>:
+                    <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]> si visualizzano †testo†
+                    e †testo<lb/> lacuna materiale: <![CDATA[<gap/>]]> si visualizza [...]<lb/>
+                    lacuna integrata dagli editori:
+                    <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+                </p>
+                <p>Sono stati marcati i termini in lingua greca
+                    <![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+                </p>
+                <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+                        target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
+                        >Note di trascrizione e codifica di testi latini tardoantichi
+                        [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
+                </p>
+            </editorialDecl>
+            <refsDecl n="CTS">
+                <cRefPattern n="comment" matchPattern="(\w+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body//tei:seg[@n='$1'])">
+                    <p>This pointer pattern extracts books </p>
+                </cRefPattern>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latino</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body xml:lang="lat" n="urn:cts:latinLit:stoa0119a.stoa001d.digilibLT-lat1">
+            <head> HEAVTON TIMORVMENOS </head>
+            <div type="pr" n="pr">
+                <head> PROLOGVS</head>
+                <p><seg n="pr1">Omnes hae comoediae de Graeco translate sunt, a Menandro quidem
+                        quattuor, duae ab Apollodoro: Heautontimorumenon Menandri esse manifestum
+                        est. cuius prologus  partitionem tenet, in qua <supplied>uult,
+                            antequam</supplied> docet quid in quaestione sit, id ipsum, ne populus
+                        miraretur, dissoluere.</seg>
+                </p>
+                <p><seg n="pr1b">
+                        <q>NE CVI SIT VESTRVM MIRVM CVR PARTES SENI POETA DEDERIT QVAE SVNT
+                            ADVLESCENTIVM </q> duas partes proponit: unam, quod contra consuetudinem
+                        senex prologus processit in publicum; solet enim istud officium semper
+                        adulescentibus dari. ergo quoniam contra consuetudinem in prologi persona
+                        processit senex, idcirco hanc primo populo uult soluere questionem. </seg>
+                    <seg n="pr3">
+                        <q>DEINDE QVOD VENI ELOQVAR </q> altera haec pars est. simile autem mihi
+                        uidetur huic esse principium diuinationis; namque et illic, quod ' subito
+                        mutata uoluntate ad accusandum descenderat', mirum dixit uideri uel
+                        iudicibus uel circumstantibus ac propterea se primum id uelle dissoluere:
+                        'si quis uestrum, iudices, aut eorum qui adsunt forte miratur'. uides hoc
+                        uerbum mirari semper apponi: ita enim et hic dixit 'ne cui sit uestrum
+                        mirum'. hanc igitur partitionem soluit, uti dicat 'cur partes seni poeta
+                        dederit, quae sunt adulescentium'. quod primo proposuerat, primo soluit </seg>
+                    <seg n="pr11">
+                        <q>ORATOREM ME ESSE VOLVIT NON PROLOGVM VESTRVM IVDICIVM FECIT ME ACTOREM
+                            DEDIT. </q> quod autem dixit 'quod ueni, eloquar', illud est</seg>
+                    <seg n="pr16">
+                        <q>NAM QVOD RVMORES DISTVLERVNT MALIVOLI MVLTAS CONTAMINASSE GRAECAS DVM
+                            FACIT PAVCA LATINAS ID ESSE FACTVM HIC NON NEGAT. </q> ergo ut
+                        propositio collocata est, ita est etiam soluentis ordo seruatus. sed nunc ad
+                        interpretationem superiorum reuertamur.</seg>
+                </p>
+                <p><seg n="4">
+                        <q>EX INTEGRA GRAECA INTEGRAM COMOEDIAM HODIE SVM ACTVRVS </q> quoniam
+                        Andria e duabus comoediis uidetur esse confecta, quippe illic et Perinthia
+                        et Andria continentur, quod quidem criminis loco aduersarius dederat, ideo
+                        hic 'ex integra' inquit. 'comoedia integram comoediam acturus sum', ne
+                        uideatur ab aliquo tacta aut ipse alteram tetigisse, sed unam comoediam et
+                        integram ad Latinum sermonem interpretatione mutasse. denique ideo adiecit </seg>
+                    <seg n="6">
+                        <q>DVPLEX QVAE EX ARGVMENTO FACTA EST SIMPLICI, </q> ut  simplex argumentum
+                        sit duplex, dum et Latina eadem et Graeca est. </seg>
+                    <seg n="7">
+                        <q>NOVAM ESSE OSTENDI </q> propterea, quia  a Graeco tantum dicta est et a
+                        Latino non tacta est, <supplied>sed</supplied> nunc primum in scaenam
+                        procedit, idcirco dicitur 'noua'. <q>ET QVAE ESSET </q> supra enim dixit
+                            <q>HEAVTON TIMORVMENON. </q>
+                    </seg>
+                    <seg n="8">
+                        <q>ET CVIA GRAECA SIT NI PARTEM MAXIMAM EXISTIMAREM SCIRE VESTRVM ID DICEREM
+                        </q> duplex hic pronuntiatio est : 'qui scripserit et cuia Graeca sit, ni
+                        partem maximam existimarem scire id', ut post inferatur </seg>
+                    <seg n="10">
+                        <q>NVNC QVAMOBREM HAS PARTES DIDICERIM PAVCIS DABO. </q> illud quod supra
+                        positum est, uidetur adiectum; nunc redit ad partitionem supra collocatam,
+                        cur partes adulescentium senex sumpserit </seg>
+                    <seg n="11">
+                        <q>ORATOREM ME ESSE VOLVIT NON PROLOGVM </q> uti apud uos agerem causam
+                        potius, non officio fungerer prologorum: prologi enim, sicuti iam dictum
+                        est, aut argumentum narrant aut poetae personam commendant aut audientiam
+                        postulant. nunc autem ego apud uos acturus sum causam et defendam, si quid
+                        fuerit forte in Terentium ab aduersario loco criminis intentatum. ideo enim
+                        dixit </seg>
+                    <seg n="12">
+                        <q>VOSTRVM IVDICIVM FECIT ME ACTOREM DEDIT SED HIC ACTOR TANTVM POTERIT A
+                            FACVNDIA QVANTVM ILLE POTVIT COGITARE COMMODE QVI ORATIONEM HANC
+                            SCRIPSIT QVAM DICTVRVS SVM </q> poeta, inquit, me actorem esse uoluit,
+                        qui tantum in facundia excellit et praeualet ingenio, quantum et ego, qui
+                        eandem comoediam acturus sum, in agendo praeualeo. ita 'hic actor' hoc est
+                        ego, 'tantum poterit a facundia' hoc est non degenerabo ab eo, qui
+                        cogitauit.'</seg>
+                    <seg n="16">
+                        <q>NAM QVOD RVMORES MALIVOLI DISTVLERVNT </q> hic iam incipit causam dicere,
+                        cur uenerit, sicut supra diximus, ut purget quaestiones ipsas et obiecta ab
+                        aduersariis soluat. 'maliuoli' autem quod dixit, uel numeri pluralis est, ut
+                        maliuoli rumores ipsi <supplied>sint</supplied>, uel singularis, ut sit
+                        huius maliuoli, hoc est Luscii Lanuini. 'distulerunt' in diuersum
+                        disseminarunt. -</seg>
+                    <seg n="17">
+                        <q>MVLTAS CONTAMINASSE GRAECAS DVM FACIT PAVCAS LATINAS </q> hoc est illud,
+                        quod diximus, quando hic praelocutus est, ut diceret 'ex integra Graeca
+                        integram comoediam sum acturus hodie'. ita et hic hoc sibi crimen dicit
+                        obiectum, quod Terentius multas Graecas contaminauerit comoedias, dum paucas
+                        Latinas facit. hoc autem crimen Terentius non negat factum,sed sibi licere
+                        demonstrat et licere scilicet per aliorum exempla, quemadmodum Tullius
+                        dixit'adductus sum, iudices, fide misericordia multorum bonorum exemplo': et
+                        hic habet bonorum exemplum. </seg>
+                    <seg n="19">
+                        <q>FACTVRVM AVTVMAT </q> facturum dicit et profitetur. - </seg>
+                    <seg n="22">
+                        <q>NAM QVOD MALIVOLVS VETVS DICIT </q> aliud rursus crimen est, quod
+                        obiectum nunc proponit, quoniam Luscius Lanuinus dicit Terentium non peritum
+                        artis musicae ad comoedias scribendas accessisse praesumente potius ingenio
+                        amicorum, non suo. </seg>
+                    <seg n="25">
+                        <q>ARBITRIVM VESTRVM VESTRA EXISTIMATIO VALEBIT </q> hoc locutionis genus
+                        satis mirum est, cum dicit 'de hac re uos iudicare poteritis, an id, quod
+                        obicitur nobis, uerum sit, ut Terentius non natura sua fretus neque ingenio,
+                        sed amicorum potius ad scribendas comoedias accesserit'. namque rumor est,
+                        quod Terentius cum, Scipione Africano familiarissimus fuerit et simul istas
+                        comoedias cogitarit. hoc igitur prologus nititur soluere. et  quoniam non
+                        est erubescendum tali uiro fuisse coniunctum, idcirco minus curat hoc crimen
+                        dissoluere: dicit tantummodo 'uestrum iudicium est et uestra existimatio'.
+                        -</seg>
+                    <seg n="26">
+                        <q>QVA RE VOS OMNES ORATOS VOLO </q> hic iam sequitur officium prologi, ut
+                        beniuolentiam petat: quae beniuolentia et in aduersarios odium concitat,
+                        quod adiecit </seg>
+                    <seg n="27">
+                        <q>NE PLVS INIQVVM POSSIT QVAM AEQVVM ORATIO. - DATE CRESCENDI COPIAM
+                            NOVARVM QVI SPECTANDI FACIVNT COPIAM SINE VITIIS </q> quoniam petitio
+                        generaliter fuerat collocata, uti nouis poetis fauerent auditores, adiecit
+                        'sed qui sine uitiis comoedias dant': <supplied>nam</supplied> et Luscius
+                        Lanuinus nouas comoedias profert, sed cum uitio. adiecit et </seg>
+                    <seg n="30">
+                        <q>NE ILLE PRO SE DICTVM EXISTIMET </q> ne Luscius Lanuinus etiam pro se
+                        petitum arbitretur. - </seg>
+                    <seg n="31">
+                        <q>QVI NVPER FECIT SERVO CVRRENTI IN VIA DECESSE POPVLVM </q> proponit
+                        initium, quod admiserat poeta Luscius Lanuinus, quippe cum omnis comoedia
+                        aut errorem teneat ex amatoribus aut iniuriam meretricum aut filiorum
+                        suppositiones aut aliquid tale, quod ad moralitatem uidetur esse coniunctum.
+                        quid tale hic est, cum seruus currit, cum populus discedit, quod domino
+                        insano oboediat seruus? haec potius aliena a comoediis sunt, et ait aperte
+                        ac breuiter ea, quae sunt comoediarum. omnis comoedia aut habet amores aut
+                        agnitionem aut suppositionem. habet amores, ut Andria, quam quidem et in
+                        agnitione esse cognoscimus; nam cognoscitur Glycerium, quia ciuis sit.
+                        suppositionem habet, ut apud Plautum qui est Truculentus: militi enim
+                        supponitur filius, ut exinde in meretrciis affectum artius et strictius
+                        colligetur. ergo eum uideamus haec necessarie in comoediis teneri,
+                        uehementer errauit Lanuinus, qui extra haec comoediam instituit et scribit
+                        seruum currere, populum per uiam discedere, quod insano seruiat domino. unde
+                        apertissimum uitium in comoedia Terentius reprehendit. </seg>
+                    <seg n="36">
+                        <q>STATARIAM AGERE LICEAT PER SILENTIVM </q> quidam 'statariam' genus esse
+                        putant comoediae, ut statariae comoediae sint, in quibus sunt stantes, unde
+                            <supplied>et</supplied> hanc statariam nominant. mihi autem uidetur
+                        'statariam agere ut liceat per silentium' ideo dixisse, ut perpetuo et
+                        stabiliter agatur haec comoedia neque populi aduersis suffragiis foras
+                        pellatur. ideo enim adiecit 'ut liceat per silentium' et subiungit </seg>
+                    <seg n="37">
+                        <q>NE SEMPER SERVVS CVRRENS IRATVS SENEX </q> etc. <q>ASSIDVO AGENDI SINT
+                            MIHI CLAMORE SVMMO CVM LABORE MAXIMO. </q> haec autem, quae nunc
+                        nominauit, propria uidentur esse personarum, nam serui officium est currere,
+                        senis irasci; parasitus autem edax est, impudens sycophanta, leno auarus
+                        est: 'ergo si quae propria sermonis sunt et quae necesse habeo ex
+                        necessitate personarum complere, debetis mihi fauere potius quam aduerso
+                        suffragio contra facere'. </seg>
+                    <seg n="41">
+                        <q>MEA CAVSA CAVSAM HANC IVSTAM ANIMVM INDVCITE VT ALIQVA PARS LABORIS
+                            MINVATVR MIHI </q> quantum enim ad eum, qui comoediam scribit, pertinet,
+                        potuit secundum mores ingenio uniuersa complere; ego autem, qui haec
+                        pronuntiaturus sum, necesse habeo silentium. ideo, inquit, propter me hanc
+                        mihi operam exhibete, ut cum silentio attendatis. </seg>
+                    <seg n="46">
+                        <q>IN HAC PVRA EST ORATIO </q> quoniam sic dixerat, laboriosas potius
+                        comoedias ad se deferri, leues ad alium, ne praeiudicium huic comoediae
+                        fecisse uideretur, quod ipse dixit illam laboriosam, aut exinde iam ut
+                        superius a populo iudicari posset, adiecit 'in hac pura est oratio'. -
+                            <q>EXPERIMINI IN VTRAMQVE PARTEM INGENIVM QVID POSSIT MEVM </q> non
+                        omnes aequali modo utrumque possunt et leuia proferre et grauia complere.
+                        ita ait 'in utramque partem': quoniam semper in asperioribus comprobastis,
+                        nunc quoque <supplied>in</supplied> leuioribus nosse debetis. </seg>
+                    <seg n="51">
+                        <q>VT ADVLESCENTVLI VOBIS PLACERE STVDEANT POTIVS QVAM SIBI </q> si enim
+                        mihi nunc honorem per silentium dederitis, facile adulescentes eo
+                        compelletis, ut uobis placere potius uelint, non sibi. quoniam officium
+                        prologorum adulescentes sumunt et multa in comoediis ipsi acturi sunt, ita
+                        factum cum mihi ex hac actione esse cognouerint, facile ipsi laborem hunc
+                        capere possunt, ut uobis placeant.</seg>
+                </p>
+            </div>
+            <div type="act" n="I">
+                <div type="scene" n="1">
+                    <p><seg n="53">
+                            <q>QVAMQVAM HAEC INTER NOS NVPER NOTITIA ADMODVM EST </q> haec scaena
+                            continet iniustam accusationem, quod graues senex de se exigat poenas;
+                            defensionem continet iustam: memorat quippe ita se meritum, ut ipse de
+                            se habeat exigere poenam. quam rem qualitatis esse intelligimus status
+                            et non tam esse accusationem quam obiurgationem. et omnino in huiusmodi
+                            auctoribus, qui non apud iudicem controuersiam dicunt, uim debemus
+                            potius intelligere quam controuersiam: non enim iudices praesunt; sed
+                            quoniam talis est actio, ut uideatur uim controuersiae continere,
+                            idcirco hic status est et secundum istum statum cuncta dicuntur. ergo in
+                            hac scaena status qualitas est absoluta, an iuste fecerit uel faciat,
+                            quod de se senex exigat poenas. quam rem docet iuste fieri ex eo, quod
+                            se meritum dicit propterea, quia ipse filium suum amantem adulescentium
+                            more miserit in militiam duram saepius eum accusando; unde probat iuste
+                            sibi imponi istas quas implet grauissimas poenas.  - <q>QVAMQVAM HAEC
+                                INTER NOS NVPER</q> Chremes uicinus cum conspiceret senem eundemque
+                            diuitem grauiter laborare, ut tota die in opere consisteret uehementer,
+                            accedit interrogans et, ut oportet apud ignotum, longa utitur oratione,
+                            simulque sibi etiam quaestionem facit et quasi ipse sibi respondet. quo
+                            pacto uim ostendit eius, qui interrogat, cum sit ignotus: aliter enim
+                            senem in dolore positum et calamitatibus pressum ad locutionem et ad
+                            fabulas prouocare non posset, nisi secum ipse interrogans illud ita
+                            loqueretur, uti adiceret, quae ipse respondere potuisset. ac primo
+                            purgat personam, cur, quamuis antea familiaritas nulla fuerit, audeat
+                            tamen hodie accedere et cum eo loqui. dicit quas causas habeat sibi, ut
+                            interrogare cupiat, quod nimius labor, quem ipse de se exigat ille, qui
+                            senex est et qui diues est, in se taciturnitatem esse non permiserit,
+                            sed potius compulerit ad interrogandum, etiam<supplied>si</supplied>
+                            sibi parua amicitia fuisset atque notitia ex hoc, quod uicinum agrum non
+                            longe ante mercatus est. - </seg>
+                        <seg n="55">
+                            <q>NEC REI SANE AMPLIVS QVICQVAM FVIT </q> nec aliquid inter nos fuit
+                            rei, ex quo facilius iungeremur. -</seg>
+                        <seg n="56">
+                            <q>TAMEN VEL VIRTVS TVA ME VEL VICINITAS </q> quam honesto uerbo usus
+                            est: laborem et calamitatem uirtutem potius nominauit! </seg>
+                        <seg n="57">
+                            <q>QVOD EGO IN PROPINQVA PARTE AMICITIAE PVTO </q> uicinitas agrorum et
+                            domorum quasi quaedam pars amicitiae est. </seg>
+                        <seg n="58">
+                            <q>AVDACTER MONEAM ET FAMILIARITER '</q> audacter' quod quaedam dicturus
+                            est ueluti accusans, 'familiariter' quod ita accedit quasi ex notitia
+                            praeterita. </seg>
+                        <seg n="59">
+                            <q>QVOD MIHI VIDERIS PRAETER AETATEM TVAM FACERE ET PRAETER QVAM RES TE
+                                ADHORTATVR TVA </q> ipse partitionem suam persequitur, nam propter
+                            aetatem sic subiungit </seg>
+                        <seg n="62">
+                            <q>ANNOS SEXAGINTA NATVS ES AVT PLVS EO VT CONICIO AGRVM IN HIS
+                                REGIONIBVS MELIOREM NEQVE PRETII MAIORIS NEMO HABET. '</q> meliorem'
+                            ad usum refert, 'pretii maioris' ad opinionem populi de ipso agro. </seg>
+                        <seg n="67">
+                            <q>NVMQVAM TAM MANE EGREDIOR NVMQVAM TAM VESPERI DOMVM REVERTOR </q> hic
+                            est labor ille, qui fit plurimus, quo cotidie toto die in aliquo opere
+                            est constitutus, quod aut fodere inuenitur aut arare aut aliquid facere. </seg>
+                        <seg n="69">
+                            <q>DENIQVE NVLLVM REMITTIS TEMPVS NEQVE TE RESPICIS '</q> nullum
+                            remittis' ad illud pertinet, quod dixit 'numquam tam mane egredior neque
+                            tam uesperi domum reuertor', 'neque te respicis' ad illud, quod supra
+                            est, uel quod senex est uel quod diues. </seg>
+                        <seg n="72">
+                            <q>AT ENIM DICIS QVANTVM HIC OPERIS FIAT PAENITET </q> et optima, ut
+                            diximus, ratione ipse sibi quaestionem facit et utitur respondentis
+                            ratione, ut eum prouocare possit ad loquendum, qui frequenter pressus
+                            dolore conticescit: 'sed dicis mihi' inquit 'paenitet me quantum hic
+                            operis fiat', cui respondet, tamquam hoc sibi propositum sit 'sed in 
+                            opere faciendo quod consumis, si id consumas in exercendis seruis, plus
+                            agas'. </seg>
+                        <seg n="75">
+                            <q>CHREME TANTVMNE AB RE TVA OTII EST TIBI </q> bene tamquam alienum
+                            alloquitur Menedemus, ut illi et otium esse dicat et tantum otium a
+                            rebus suis, ut et aliena curet et ea, quae ad se nihil attinent. </seg>
+                        <seg n="77">
+                            <q>HOMO SVM </q> quoniam ille inquit 'curas', respondit 'homo sum';
+                                <supplied>quia ille</supplied> 'quae ad te nihil attinent', inde
+                            'humani nihil a me alienum puto'. </seg>
+                        <seg n="78"> VEL  <q>ME MONERE HOC VEL PERCONTARI PVTA '</q> monere' si
+                            sciam quid facias, - 'percontari' si nesciam. </seg>
+                        <seg n="79">
+                            <q>RECTVM EST EGO VT FACIAM NON EST TE VT DETERREAM </q> ad superiora
+                            pertinet sensus, ut intelligi possit: 'uel percontari puta; si rectum
+                            est, ideo quaero ut faciam, si non est rectum, ut te deterream'.
+                            deterrere enim est aliquem a proposito terrere et reuocare. </seg>
+                        <seg n="80">
+                            <q>MIHI SIC EST VSVS </q> mihi sic expedit. </seg>
+                        <seg n="86">
+                            <q>AVT CONSOLANDO AVT CONSILIO AVT RE IVVERO </q> apponit causas, cur
+                            aliena incommoda curare uideatur. 'hoc' inquit 'quod interrogo, proderit
+                            tibi: aut enim, grande malum <supplied>si</supplied> est, consolatione
+                            te adiuuero <supplied>aut</supplied>, si subueniri potest, re adiuuero'.
+                            ita boni amici ordinem custodiuit, ut credat se aliquo modo prodesse. - </seg>
+                        <seg n="87">
+                            <q>HAC QVIDEM CAVSA QVA DIXI TIBI </q> quoniam Menedemus tantummodo
+                            illud posuerat, uti diceret 'scire hoc uis?', ille continuo repudiauit
+                            causam, ut diceret 'non rem cupio scire, sed hac causa scire cupio, qua
+                            dixi tibi, ut aut consolari te possim aut consilio aut re adiuuare
+                            possim'. </seg>
+                        <seg n="93">
+                            <q>FILIVM EGO ADVLESCENTVLVM HABEO </q> hic narratio incipit, cur se
+                            senex puniat. </seg>
+                        <seg n="96">
+                            <q>EST E CORINTHO HIC ADVENA ANVS PAVPERCVLA </q> et haec narratio est
+                            ad personam declarandam eius mulieris, quae puellam tulit illam, quae
+                            Chremetis filia est. quae interposita narratio ad superiorem coniungitur
+                            et adnectitur. - </seg>
+                        <seg n="99">
+                            <q>COEPI NON HVMANITVS NEQVE VT DECVIT ANIMVM ADVLESCENTVLI TRACTARE
+                            </q> hic iam se arguit, quod iuste de se exigatpoenas, siquidem, cum
+                            animaduertisset filium amare mulierem, non humano modo neque, uti
+                            decuit, adulescentuli animum sic tractauit, sed aperte ui et more patrum
+                            cotidie accusauit. subiungit allocutionem, qua usus est, cum accusaret
+                            filium</seg>
+                        <seg n="106">
+                            <q>EGO TE MEVM ESSE DICI TANTISPERVOLO DVM QVOD TE DIGNVM EST FACIES
+                            </q> dici te filium meum tam diu uolo, quam diu facis, quod te dignum
+                            est facere. sin autem non feceris, ego inueniam quod in te dignum sit
+                            facere. - </seg>
+                        <seg n="112">
+                            <q>SIMVL ET REM ET GLORIAM ARMIS BELLI REPPERI </q> ut uno tempore
+                            militiae labore proprioet fortunas reperirem et dignitatem. -</seg>
+                        <seg n="114">
+                            <q>SAEPE EADEM GRAVITER AVDIENDO </q> hic onerat causam suam: quod
+                            frequenter dixerit et grauiter attenderit, adulescens uictusdiscessit in
+                            militiam. - </seg>
+                        <seg n="117">
+                            <q>IN ASIAM AD REGEM MILITATVM ABIIT CHREME </q> singula in
+                            pronuntiatione sunt collocanda: nam 'in Asiam' quod dixit, intelligere
+                            debemus in longinquum locum, 'ad regem' uero hoc est quasi in
+                            seruitutem, 'militatum' ubi scilicet durus labor est et periculum. </seg>
+                        <seg n="118">
+                            <q>CLAM ME PROFECTVS EST </q> hic curauit, quod facile illi poterat
+                            opponi 'cur ergo non, cum eum uideres proficisci,
+                                <supplied>prohibuisti</supplied>?' 'clam me' inquit 'profectus est'.
+                            - <q>MENSES TRES ABEST </q> hic dolorem suum exprimit temporis
+                            longinquitate. </seg>
+                        <seg n="119">
+                            <q>AMBO ACCVSANDI </q> necdum tota exposita est sententia. idcirco
+                            aequalem partem accusationis suae posuit Chremes, quod dixit 'ambo
+                            accusandi'; quamquam inclinauit, ut adulescentem defendere uideatur, cum
+                            dixit 'etsi illud inceptum, quod adulescens <supplied><gap/></supplied>,
+                            uidetur esse pudentis animi signum et non minus obsequentis'. hoc est
+                            namque, quod dixit'et non instrenui'. </seg>
+                        <seg n="124">
+                            <q>SOCCOS DETRAHVNT </q> dixi iam comoedias istas esse palliatas, hoc
+                            est ubi personae sunt Graecae. ideo ergo dixit 'soccos detrahunt'. </seg>
+                        <seg n="131">
+                            <q>SED GNATVM VNICVM QVEM PARITER VTI HIS DECVIT AVT ETIAM AMPLIVS • • •
+                                EVM EGO EIECI INIVSTITIA MEA </q> quem oportuit his rebus uti ita,
+                            uti ego utor, pari modo aut uero amplius, quod illa aetas magis ad haec
+                            idonea sit. </seg>
+                        <seg n="135">
+                            <q>MALO QVIDEM DIGNVM ME QVOVIS DEPVTO SI ID FACIAM </q> si hoc faciam,
+                            uti utar solus bonis meis, quouis malo me arbitror dignum. </seg>
+                        <seg n="136">
+                            <q>NAMVSQVEDVMILLEVITAMILLAM COLETINOPEM </q> quamdiu ille in militia
+                            positus habebit uitam illam sine ope carens patria propter iniurias
+                            meas, tamdiu de me illi dabo supplicium sic laborans et seruiens. </seg>
+                        <seg n="141">
+                            <q>CONRASI OMNIA </q> hoc est: collegi uniuersa, quae uenderem. </seg>
+                        <seg n="142">
+                            <q>SERVOS NISI EOS QVI OPERE FACIENDO FACILE SVMPTVM EXERCERENT SVVM
+                            </q> uniuersos produxi et uendidi exceptis his, qui suo opere suos
+                            sumptus tolerare potuissent. -</seg>
+                        <seg n="144">
+                            <q>INSCRIPSI ILICO AEDES MERCEDE </q> hoc est: aedes meas locaui. </seg>
+                        <seg n="146">
+                            <q>HIC ME EXERCEO </q> non hic ad uoluptatem positum 'exerceo', sed ad
+                            laborem, quemadmodum Virgilius 'nate, Iliacis exercite fatis'. </seg>
+                        <seg n="147">
+                            <q>DECREVI TANTISPER CHREME MINVS INIVRIAE ME MEO GNATO FACERE DVM FIAM
+                                MISER </q> hoc enim iudicaui me non tantam iniuriam facere filio
+                            meo, quem expuli, si et ipse miser sim. </seg>
+                        <seg n="152">
+                            <q>SI QVIS RECTE AVT COMMODE TRACTAVERIT </q> supra accusauerat
+                            utrumque, quia dixerat 'ambo accusandi', modo utrumque defendit, quod
+                            hunc ingenio leni dicit et illum obsequentem, si modo aliquis recte et
+                            commode tractaret alterum. nam hoc factum esse dicit, quod neuter se
+                            nouerat. </seg>
+                        <seg n="154">
+                            <q>VBI NON VERE VIVITVR </q> ubi non integre uita ostenditur, ubi non
+                            nudatur, ut quis qualis sit agnosci possit. </seg>
+                        <seg n="155">
+                            <q>QVANTIPENDERES </q> quanti diligeres, quanti amares. </seg>
+                        <seg n="157">
+                            <q>QVOD SI ESSET FACTVM HOC NVMQVAM EVENISSET MALVM </q> si aut tu mores
+                            tuos illi declarares aut ille tibi qualis esset ostenderet, facile ad
+                            hoc calamitatis genus non ueniretis. </seg>
+                        <seg n="158">
+                            <q>ITA EST FATEOR PECCATVM A ME MAXIMVM EST </q> quoniam utrumque
+                            quodammodo accusauerat Chremes, quod neuter sibi mores suos ostendisset,
+                            omne crimen in se potius deriuat senex ac dicit uerum esse, quod dicit
+                            'sed a me maximum peccatum est'. </seg>
+                        <seg n="159">
+                            <q>MENEDEME </q> ad personam hic ex illis, quae supra promisit, inuenit
+                            quodafferat, scilicet consolationem, siquidem dicit </seg>
+                        <seg n="160">
+                            <q>FILIVM ADFVTVRVM HIC CONFIDO PROPEDIEM '</q> confido' hoc est
+                            fiduciam gero. </seg>
+                        <seg n="162">
+                            <q>DIONYSIA HIC SVNT HODIE APVD ME SIS VOLO </q> optime factum, ut post
+                            narratam calamitatem, cui quidem praeter consolationem subueniri non
+                            poterat, tamen ex ipso auxilium esse potuisset in eo, quod uult eum ad
+                            cenam uocare: quod dixit 'sunt hodie Dionysia', quae sunt sacra Liberi
+                            patris apud Athenas. </seg>
+                        <seg n="171">
+                            <q>NIHIL OPVS FVIT MONITOREM </q> iam in domo inuentus est ille atque
+                            mire cupiebat eum uocare ad cenam. 'monitore ergo opus' inquit 'non
+                            fuit: nuntiant illum in domo esse'. </seg>
+                    </p>
+                </div>
+                <div type="scene" n="2">
+                    <p><seg n="175">
+                            <q>NIHL ADHVC EST QVOD VEREARE CLINIA </q> haec scaena habet
+                            <unclear/>Clitiphonis adulescentis suspicionem, quod amica sua se
+                            absente corrupta est. sumit igitur per coniecturam argumenta, quae suo
+                            loco plenius apertiusque narrabimus. ac primum quasi quoddam argumentum
+                            est seruum, qui missus sit, non redire, cui iam multum temporis uideatur
+                            assumptum. unde efficitur consolatio a Clitiphone amico, cum dicit
+                            'nihil est uidearis esse sollicitus'. - <q>HAVT QVAQVAM CESSANT </q> hoc
+                            est: non diutissime tardant. uerum cum intus positum Cliniam allocutus
+                            esset, Clitipho egreditur,' patrem prospicit, ei commendat officium
+                            suum, ne uideatur nescio quem adulescentulum recepisse, sed ut merito
+                            hoc fecisse declaret. sumit igitur exordium, quo commendat adulescentem:
+                            sibi olim iam fuisse cognitum ac se coactum amicitia eum recepisse. ideo
+                            adiecit</seg>
+                        <seg n="183">
+                            <q>NAMMIHI CVM EO MAGNA EX PVERITIA FVIT FAMILIARITAS. -   </q>
+                        </seg>
+                        <seg n="184">
+                            <q>VOLVPTATEM MAGNAM NVNTIAS </q> scit enim Chremes uehementer eius
+                            patrem esse sollicitum. quod ergo audit reuersum adulescentem, dicit et
+                            sibi maximam natam uoluptatem. denique huius uoluptatis causam in animo
+                             habens subiunxit </seg>
+                        <seg n="185">
+                            <q>QVAM VELLEM MENEDEMVM INVITATVM AMPLIVS VT HANC LAETITIAM NECOPINANTI
+                                PRIVS OBICEREM DOMI </q> uti non suspicanti amplius
+                                <supplied>prius</supplied>, quam etiam  speraret, hanc laetitiam
+                            domi obicerem. </seg>
+                        <seg n="187">
+                            <q>CAVE FAXIS NON OPVS EST PATER </q> caue facias, nam non necesse est:
+                            nescit nam adulescens a patre filium desiderari; ideo prohibet patrem
+                            suum aliquid facere, quo uindicetur adulescens reuersus. </seg>
+                        <seg n="190">
+                            <q>ATQVE ABITIO </q> hoc est discessio. </seg>
+                        <seg n="192">
+                            <q>MISERVM QVEM MINIMVM EST CREDERE </q> quoniam ille dixit miserum esse
+                            adulescentem uel quod ipse adulescens miserum se putet, negat esse hic
+                            miserum, siquidem habet omnia, quae quidem in homine dicuntur bona. et
+                            subiungit </seg>
+                        <seg n="195">
+                            <q>ATQVE HAEC PERINDE SVNT VT ILLIVS ANIMVS EST QVI EA POSSIDET </q>
+                            atque haec talia sunt, qualis animus illius, qui haec tenet: nam qui
+                            scit uti his omnibus, bona sunt, illi uero, qui non utitur recte, mala
+                            sunt. <supplied>sic</supplied> simul et disiunctionem collocauimus et
+                            intellectum didicimus. - </seg>
+                        <seg n="198">
+                            <q>NE QVID ILLVM PLVS SATIS FACIT PATER </q> hoc uereor, ne aliquid
+                            amplius faciat pater quam quod satis est. ideo iniustum uult patrem
+                            ostendere, siquidem poeta esse contentum, ut eius adhuc filius laboret. </seg>
+                        <seg n="199">
+                            <q>ILLENE</q> hoc utique intelligitur propterea dictum, quia scit
+                            Chremes animum Menedemi. haec ne proderet, repressit se  et reliqua
+                            uerba contexuit dicens hanc causam, quod in metu esse filium patri
+                            uehementer est utile. -</seg>
+                        <seg n="200">
+                            <q>VTVT ERAT MANSVM TAMEN OPORTVIT </q> qualiscumque, inquit, fuit,
+                            oportuit  tamen patrem sustinere. - </seg>
+                        <seg n="204">
+                            <q>NAM PARENTVM INIVRIAE HVIVSMODI SVNT </q>
+                            <supplied>
+                                <q>FERME PAVLO QVI EST HOMO TOLERABILIS</q>
+                            </supplied>
+                            <q>SCORTARI CREBRO NOLVNT </q>
+                            <supplied>
+                                <q>NOLVNT</q>
+                            </supplied>
+                            <q>CREBRO CONVIVARIER  </q> praeter hunc morem, qui est innatus
+                            parentibus circa liberos suos, quod non scortum uolunt crebro, quod
+                            nolunt crebro conuiuium, hic ferme paulo est tolerabilis. </seg>
+                        <seg n="207">
+                            <q>PRAEBENT EXIGVE SVMPTVM </q> modice suggerunt sumptum. </seg>
+                        <seg n="210">
+                            <q>HOC SCITVM EST PERICVLVM EX ALIIS FACERE TIBI QVOD EX VSV SIET </q>
+                            optima occasione senex, dum aliorum mores et facta demonstrat,
+                            occasionem corrigendi filii repperit, ut moneret: 'scitum est' inquit
+                            'et perelegans ex aliis periculum facere' hoc est temptamentum 'quod
+                            tibi uehementer expediat'. </seg>
+                        <seg n="212">
+                            <q>TV VT TEMPVS DIEI </q> tempus non solum summum est, sed et pars
+                            partis est, sicuti hic posuit 'diei tempus', cum temporis dies esse
+                            uideatur.</seg>
+                    </p>
+                </div>
+            </div>
+            <div type="act" n="II">
+                <div type="scene" n="1">
+                    <p><seg n="213">
+                            <q>QVAM INIQVI SVNT PATRES IN OMNES ADVLESCENTES IVDICES </q> remansit
+                            solus Clitipho: secum conqueritur de patris oratione, quod se uoluerit
+                            admonere. ordo est: quam iniqui sunt iudices patres in omnes
+                            adulescentes. </seg>
+                        <seg n="214">
+                            <q>QVI AEQVVM ESSE CENSENT NOS A PVERIS ILICO NASCI SENES </q> qui
+                            arbitrantur iustum esse in pueritia moribus senum degere uitam. -</seg>
+                        <seg n="217">
+                            <q>MIHI SI VMQVAM FILIVS ERIT </q> si aliquando mihi filius continget. -
+                                <q>NE ILLE FACILI ME VTETVR PATRE </q> ualde me utetur bono et
+                            facili patre. -</seg>
+                        <seg n="216">
+                            <q>EX SVA LIBIDINE MODERANTVR NVNC QVAE EST NON QVAE OLIM FVIT </q>
+                            modum imponunt adulescentibus de moribus suis, quos nunc habent in
+                            senectute, non quos in adulescentia habuerunt. </seg>
+                        <seg n="218">
+                            <q>NAM ET COGNOSCENDI ET IGNOSCENDI </q>
+                            <supplied>
+                                <q>DABITVR PECCATIS</q>
+                            </supplied>
+                            <q>LOCVS </q> facile, inquit, filio meo hanc facultatem dabo, ut
+                            uniuersa eius facta cognoscam, tamen si peccarit ignoscam. </seg>
+                        <seg n="224">
+                            <q>CVI QVOD RESPONDEAM NIHIL HABEO </q> expressit inopiam
+                                uer<supplied>bor</supplied>um, siquidem non solum dixit 'cui quid
+                            dicam non habeo', uerum et 'ad respondendum uerba desunt'. </seg>
+                        <seg n="225">
+                            <q>ETSI IS QVOQVE SVORVM SATAGIT </q> etsi is quoque de suis rebus
+                            plurimum cogitat. –</seg>
+                        <seg n="227">
+                            <q>MEA EST POTENS PROCAX </q> hoc positum, ut ex nobilitate plurimum
+                            audeat postulare. 'procax' a <supplied>procando, hoc est</supplied>
+                            petendo dictum est, unde et proci nuptiarum petitores. - <q>SVMPTVOSA
+                                NOBILIS </q>
+                            <supplied>'sumptuosa'</supplied> ut et necessitatem sibi petendi propter
+                            suos sumptus faciat; 'nobilis' autem omnibus nota. </seg>
+                        <seg n="228">
+                            <q>NAM NIHIL ESSE MIHI RELIGIO EST </q> dicere me hoc non habere maxima
+                            mihi religio est, ut'religione patrum multos seruata per annos'.</seg>
+                    </p>
+                </div>
+                <div type="scene" n="2">
+                    <p><seg n="230">
+                            <q>SI MIHI SECVNDAE RES DE AMORE MEO ESSENT IAM DVDVM SCIO VENISSENT
+                            </q> hic est illud, quod supra diximus, quod per coniecturam Clinia
+                            credit amicam se absente corruptam. ac primum argumentum fecit ex eo,
+                            quod missus seruus nondum rediit. deinde proponit ipsam suspicionem </seg>
+                        <seg n="231">
+                            <q>SED VEREOR NE MVLIER ME ABSENTE HIC CORRVPTA SIT. </q> adiungit et
+                            opiniones et argumenta a tempore, quod est </seg>
+                        <seg n="233">
+                            <q>OCCASIO: </q> occasionem autem hic intelligimus, quod absens fuit
+                            ipse. deinde ponit locum: Athenas, ubi magna hominum multitudo est et
+                            ciuium et uariis moribus uiuentium. adiungitur <q>AETAS, </q> hoc est a
+                            persona et a tempore, quod adulescentula est ac propterea uario ingenio.
+                            deinde addidit <q>MATER: </q> hoc nomen parum est, nisi iam adderetur
+                            'mala'. sed ne rursus suae uoluntatis et iudicii esset mulier, ideo
+                            adiecit <q>CVIVS SVB IMPERIO EST CVI NIHIL IAM PRAETER PRETIVM DVLCE
+                                EST. </q>
+                        </seg>
+                        <seg n="237">
+                            <q>PERGIN ISTVC PRIVS DIIVDICARE QVAM SCIAS QVAM VERI SIET </q>
+                            perseueras ante hoc quasi certo iudicio tenere, quam scias quid in uero
+                            sit. – </seg>
+                        <seg n="238">
+                            <q>SI NIHIL MALI ESSET IAM HIC ADESSET </q> argumentum recepit ex eo,
+                            quod non rediit missus seruus: 'certa mihi' inquit 'suspicio est illam
+                            esse corruptam'. - <q>IAM ADERVNT QVANDO ISTVC ERIT </q> illud enim,
+                            quod dixit 'iam', amant ita apponere qui loquuntur. hoc amanti tardum
+                            est: ideo adiecit 'quando istuc erit?'</seg>
+                    </p>
+                </div>
+                <div type="scene" n="3">
+                    <p><seg n="242">
+                            <q>AIN TV SIC EST VERVM INTEREA DVM SERMONES CAEDIMVS </q> haec scaena
+                            exoluet illam suspicionem, quam Clinia habuit: et haec coniectura est.
+                            deinde rursus habet alteram causam, quod amicam Clitiphonis adduxerit
+                            seruus, ita ut in domo patris esse possit: quae res an fieri possit
+                            deliberationis uim tenet. ita prior causa in controuersia est, secunda
+                            in deliberatiua; aut controuersia est ex coniectura: coniecturae ergo
+                            partibus tractabitur, hoc est uti dicta et affectus, quod πάθος Graece
+                            dicitur, suggerant argumenta. sed <supplied>haec</supplied> suis locis
+                            explanabimus. - <q>DVM SERMONES CAEDIMVS </q> caedere sermones dicitur,
+                            qui frequenter et plurima loquitur. - </seg>
+                        <seg n="243">
+                            <q>MVLIER TIBI ADEST AVDIN CLINIA </q> quod ita locutio serui fuerat, ut
+                            diceret 'illae relictae mulieres sunt', <supplied>quod mulier</supplied>
+                            uenit cognouit. </seg>
+                        <seg n="245">  <q>MINIME MIRVM ADEO IMPEDITAE SVNT </q> mirandum non est,
+                            quod impeditae sunt mulieres, quae et ancillarum ducunt secum gregem et
+                            plurimum comportant. </seg>
+                        <seg n="246">
+                            <q>PERII VNDE ILLAE SVNT ANCILLAE </q> crescit error Cliniae, ut magis
+                            credat esse corruptam, quod ancillas habeat et aurum. haec omnia
+                            meretricis, non illius mulieris sunt, sed adhuc ignorat adulescens.
+                            -</seg>
+                        <seg n="248">
+                            <q>ET VESPERASCIT </q> hoc est nox fit: a uespere factum uerbum est. </seg>
+                        <seg n="256"> O <q>IVPPITER VBINAM EST FIDES </q> necdum soluta sibi
+                            suspicione queritur adulescens se esse desertum et Antiphilam potius
+                            omisso amore amatoris sui  in meretricios mores esse delapsam. </seg>
+                        <seg n="258">
+                            <q>CONLOCVPLETASTI </q> diuitem fecisti. </seg>
+                        <seg n="260">
+                            <q>CVIVS NVNC ME PVDET ET MISERET </q> patris me pudet et miseret, qui
+                            frequenter harum mores dicebat mihi et frustra monuit. </seg>
+                        <seg n="265">
+                            <q>NAM ET VITAEST EADEM ET ANIMVS ERGA TE IDEM AC FVIT </q> prima
+                            propositione uolens seruus soluere errorem suspicionis Cliniae dicit 'et
+                            uita est eadem amicae et animus ille, qui circa fuit'. uerum meminisse
+                            debemus duas res esse propositas, ut et uita eadem probetur et idem
+                            animus: potuit enim in eadem muliere castitas perseuerare, ut esset
+                            eadem uita, non tamen idem animus; potuit tamen et obliuisci amatoris
+                            sui et non eum desiderare. ideo adiecit 'et idem animus erga te ac
+                            fuit'. </seg>
+                        <seg n="269">
+                            <q>VT NE QVID HVIVS RERVM IGNORES </q> quod nuntiat seruus anum perisse,
+                            quae ei mater esse dicebatur, ad causam minime pertinebat. ideo
+                            adiecit:'hoc primum' inquit 'dico, ne aliquid harum rerum ignores'. </seg>
+                        <seg n="271">
+                            <q>ALTERAE DVM NARRAT </q> hic iam praemissio alterius narrationis
+                            effecta est:nata est suspicio, ut quaereretur quae sit altera. cuius
+                            narrationem differt: prius enim de amica Cliniae narratio incipit </seg>
+                        <seg n="274">
+                            <q>IAM PRIMVM OMNIVM VBI VENTVM AD AEDIS EST DROMO PVLSAT FORES. </q>
+                            hic breuiter omnia argumenta, quae a summo ad imum sunt, colligamus. ac
+                            primum quaeso collocetur: casta est mulier et eadem, quae fuit ante,
+                            perseuerat, quod ianua eius clausa est, quod seruus pulsauit fores, quod
+                            anus processit, quod ostium aperuit, quod continuo ingressus est seruus,
+                            quod et ipse ingressus sum, quod statim anus pessulum rursus foribus
+                            obdit, quod ad lanam redit, quod texentem telam studiose ipsam
+                            inuenimus, quod mediocriter uestitam, quod sine auro, quod ita ornatam
+                            quemadmodum sibi otnantur, quod nulla mala re expolitam muliebri, quod
+                            capillus ab ea reiectus circum caput fuerat negligenter, quod ancilla
+                            cum ea texebat pannis ipsa contecta. haec sunt, quae uitam probant.
+                            rursus subiungitur, an idem animus circa Cliniam perseueret: ideo
+                            interrogauit</seg>
+                        <seg n="303">
+                            <q>QVID AIT VBI ME NOMINAS, </q> et subiungit ille</seg>
+                        <seg n="304">
+                            <q>VBI DICIMVS REDISSE TE. </q> ergo et hic coniectura est, an idem
+                            animus perseueret. probamus autem quod perseueret ex eo, quod ubi te
+                            noninauimus </seg>
+                        <seg n="305">
+                            <q>MVLIER TELAM DESERIT CONTINVO ET LACRIMIS OPPLET OS TOTVM SIBI VT
+                                FACILE SCIRES DESIDERIO </q>
+                            <supplied>ID</supplied>
+                            <q>FIERI TVO. </q> completa igitur omni re ad alteram narrationem
+                            necessario cito deuoluitur, ut ostendat, quae illa altera sit mulier, de
+                            qua antea commemorauit. </seg>
+                        <seg n="311">
+                            <q>ADDVCIMVS TVAM </q> quo facilius blandiri possit adulescenti, adiecit
+                            'tuam'. </seg>
+                        <seg n="313">
+                            <q>HEVS NON FIT SINE PERICVLO FACINVS MAGNVM AC MEMORABILE </q> quoniam
+                            interrogatus seruus, quo duceret Bacchidem, respondit 'ad patrem', quod
+                            aegre ferens adulescens cum indignatione audacem seruum pronuntiauit,
+                            continuo ille respondit, facinus magnum et memorabile fieri numquam
+                            posse sine aliquo periculo. ita in hoc quoque periculum est, cum patre
+                            praesente in domo futura sit meretrix. tam magnum est istud et
+                            memorabile, ut nihilo minus celari possit. - </seg>
+                        <seg n="315">
+                            <q>HOC VIDE IN MEA VITA TV TIBI LAVDEM IS QVAESITVM SCELVS </q> quam
+                            astutus ad gloriam, siquidem de meo periculo tu tibi comparare uis
+                            laudem. </seg>
+                        <seg n="316">
+                            <q>VBI SI QVID PARVM MODO TE FVGERIT EGO PERIERIM </q> in quo negotio si
+                            te fefellerit aliqua consilii pars, ego continuo perierim. - </seg>
+                        <seg n="317">
+                            <q>QVID </q>
+                            <supplied>
+                                <q>ILLO FACIAS </q> quid</supplied> deinde facturus es? hoc est enim
+                            quod dixit 'quid illo facias?' -  <q>AT ENIM </q> pendens oratio hac
+                            intercessione efficitur adulescentis, quod non patitur eum ambagibus
+                            circuire: ideo enim dicit 'quid «enim»?' </seg>
+                        <seg n="318">
+                            <q>ITA RES EST HAEC NVNC QVASI CVM </q> uoluit seruus quasi quandam
+                            similitudinem dare, ut sic ostenderet, quale sit illud consilium, quod
+                            ipse disposuit. sed quoniam, similitudo cum datur, quidam est in
+                            oratione circuitus, idcirco adiecit <q>QVAS MALVM MIHI AMBAGES NARRARE
+                                COEPIT. </q> denique et alter adulescens hoc intellexit, unde
+                            adiecit </seg>
+                        <seg n="319">
+                            <q>SYRE VERVM HIC DICIT MITTE ISTA QVESO </q> scilicet externa et per
+                            similitudinem translata. unde admonuit eum, quod dixit <q>ATQVE AD REM
+                                REDI: </q> etenim quod per similitudinem datur, res non est. </seg>
+                        <seg n="320">
+                            <q>ENIMVERO RETICERE NEQVEO MVLTIS MODIS INIVRIOSVS CLITIPHO ES </q>
+                            unde iam tacere non possum. bene indignationem suam seruus extulit, quo
+                            facilius sibi adulescentem per suam iracundiam praepararet. </seg>
+                        <seg n="323">
+                            <q>HAVD STVLTE SAPIS </q> non stulte, inquit, sapis, cum et ames et
+                            potiri desideres et pecuniam dari, interea tamen nullum periculum uelis
+                            sustinere. haec autem stultitia est, protinus uelle id quod non potest
+                            contingere. </seg>
+                        <seg n="325">
+                            <q>AVT HAEC CVM ILLIS SVNT HABENDA AVT ILLA CVM HIS AMITTENDA SVNT </q>
+                            aut enim debet fructum et potiundi utilitatem cum periculo sustinere aut
+                            pariter et commoditas amittenda est, si periculum deuitatur. -</seg>
+                        <seg n="326">
+                            <q>HARVM DVARVM NVNC VTRAM MALIS VIDE </q> de duabus illis propositis
+                            condicionibus, <supplied>ut</supplied> aut periculum cum fructu capiat
+                            aut, si periculum fugiat, utilitatem pariter contemnat, ex his, inquit,
+                            quamlibet condicionem eligat. </seg>
+                        <seg n="327">
+                            <q>ETSI HOC CONSILIVM QVOD CEPI RECTVM ESSE ET TVTVM SCIO </q> incitare
+                            adulescentem cupit, ne frustra operam perdiderit, quod meretricem
+                            adduxit. ita ostendit tutum consilium esse, quod suscepit, ut apud
+                            patrem amica sit sine metu et argentum quod promissum est inueniri
+                            possit. -</seg>
+                        <seg n="331">
+                            <q>SI QVIDEM HOC FIT </q> quam cito est motus adulescens, quando
+                            utrumque dixit esse praeparatum, ut et amica in domo patris sine metu
+                            sit et argentum ei quod debitum est reddi possit. </seg>
+                        <seg n="337">
+                            <q>EXPERIVNDO SCIES </q> ipsa actione expertus agnosces. - <q>NIHIL
+                                SATIS FIRMVM VIDEO QVAMOBREM ACCIPERE HVNC MIHI EXPEDIAT METVM </q>
+                            nullam rationem uideo firmitatis in consilio, unde debeam talem metum
+                            suscipere, ut apud patrem amica mea sit. - </seg>
+                        <seg n="338">
+                            <q>MANE HABEO ALIVD SI ISTVC METVIS QVOD AMBO CONFITEAMINI SINE PERICVLO
+                                ESSE </q> hoc irridenter dicit: uult enim obuius ire meretrici et
+                            dicere, ut domum reuertatur. aliter enim incitari adulescentis animus
+                            non potest, qui fastidiosus coepit esse per copiam, nisi id quod cupit
+                            subito denegetur. </seg>
+                        <seg n="343">
+                            <q>TVNE QVOD BONI EST </q> praecisa haec oratio ordinem habet talem:
+                            tune quod boni est fruare, dum licet. rursus alia praecisa </seg>
+                        <seg n="345">
+                            <q>NAM NESCIAS, </q> cuius ordo est </seg>
+                        <seg n="347">
+                            <q>EIVS SIT POTESTAS POSTHAC </q>
+                            <supplied>AN</supplied>
+                            <q>NVMQVAM. </q>
+                        </seg>
+                        <seg n="349">
+                            <q>CONCALVIT</q> calore subito concitatus est. </seg>
+                        <seg n="354">
+                            <q>QVASI ISTIC MINOR MEA RES AGATVR QVAM TVA </q> in hoc consilio maius
+                            mihi periculum propositum est quam tibi; nam si aliquid aduersi
+                            contigerit, tibi uerba sunt praeparata, mihi uero uerbera: unde hanc rem
+                            negligere omnino non possum. </seg>
+                        <seg n="358">
+                            <q>SCILICET ... IN EVM IAM RES REDIIT LOCVM VT SIT NECESSE </q>
+                            intelligit Clinia, cum apud illum sit hospes, necessitatem sibi
+                            impositam, uti hoc quod ab eo petitur negare non possit, uti assimulet
+                            amicam suam esse meretricem. </seg>
+                        <seg n="364">
+                            <q>IN TEMPORE AD EAM VENI </q> in occasione,  ut 'sola uiri mollis
+                            aditus et tempora noras'. </seg>
+                        <seg n="365">
+                            <q>NAM MISERVM QVENDAM OFFENDI MILITEM </q> haec occasio est: ut ibi ei
+                            consensum commodaret, haec fuit occasio, quod uolebat miserum militem de
+                            negatione sua in amorem amplius suscitare. - </seg>
+                        <seg n="370">
+                            <q>QVAM SIT PERSPICAX </q> quam sit suspiciosus. </seg>
+                        <seg n="372">
+                            <q>INVERSA VERBA </q> quod semper adulescentuli faciunt, ut syllabarum
+                            ordinem mutent et sic intellectum conuersione confundant, ut
+                            intelligentibus potius loqui uideantur. - <q>EVERSAS CERVICES TVAS </q>
+                            quod iactantia et superbia est. - </seg>
+                        <seg n="373">
+                            <q>GEMITVS SCREATVS TVSSIS </q> haec omnia adulesceutuli faciunt,
+                            quotienscumque uidere aut uideri uolunt ab his, quos desiderant, ita sub
+                            quodam metu, ut, quasi dum aliud necessitate conficiunt, sic impleant
+                            uoluntatem.</seg>
+                    </p>
+                </div>
+                <div type="scene" n="4">
+                    <p><seg n="381">
+                            <q>EDEPOL TE MEA ANTIPHILA LAVDO ET FORTVNATAM IVDICO </q> haec scaena
+                            comparationem continet earum mulierum, quae amicae sunt ita, ut uni
+                            seruiant, et earum, quae plurimis sui corporis exhibent potestatem. et
+                            ne se uideantur meretrices iniustae esse, defensio est, in qua quasi
+                            quaedam forma controuersiae hic continetur: res enim fiunt meretricibus,
+                            quae iniustae sunt amatoribus suis, satis aduersae, dum plurimum petunt.
+                            quam rem purgans meretrix dicit se hoc, quod faciant, facere
+                            necessitate, ne cum aetas abierit et senectute extincta pulchritudo
+                            discesserit,inopia maneat, si non antea quaesierint uictum, quo possint
+                            sustentare desertam et miseram senectutem. - <q>EDEPOL TE MEA ANTIPHILA
+                                LAVDO ET FORTVNATAM IVDICO </q> uehementer te beatam felicemque
+                            iudico, cum id egisti, ut mores tui formae conuenirent. ut oportuit, iam
+                            defensionem suam uidetur meretrix exorsa, siquidem scit, quid oporteat
+                            fieri, et laudat eam, quae cum pulchritudine tenet morum integram
+                            castitatem. </seg>
+                        <seg n="383">
+                            <q>MINIMEQVE ITA ME DI BENE AMENT MIROR SI TE SIBI QVISQVE EXPETIT </q>
+                            et non ualde miror, si, cum his moribus et hac sis pulchritudine,
+                                <supplied>semper</supplied> sit aliquis, qui te diligat et te sibi
+                            petat. </seg>
+                        <seg n="384">
+                            <q>NAM MIHI QVALE INGENIVM HABERES FVIT INDICIO ORATIO </q> namque mores
+                            tuos mihì tuis sermonibus indicasti. </seg>
+                        <seg n="385">
+                            <q>ET CVM EGOMET NVNC MECVM IN ANIMO VITAM TVAM CONSIDERO </q> hic iam
+                            praeparat accusationis defensionem, quae in se esse possit, dicitque
+                            merito huiusmodi mulieres, quae uni seruiunt, hoc est quae se separant a
+                            uulgo, sic recte bene facere, nec minus mirabile esse, quod meretrices
+                            malae sint. hoc enim dixit </seg>
+                        <seg n="387">
+                            <q>ET VOS ESSE ISTIVS MODI ET NOS NON ESSE HAVT MIRABILE EST: </q> uobis
+                            enim cum sit uoluntas cum uno uiro semper esse, debetis seruare
+                            bonitatem; nos autem bonas esse non sinunt hi, cum quibus rem habemus.
+                            nam propter pulchritudinem nos amatores nostri colunt, qui continuo
+                            mutant uoluntatem, si fuerit forma mutata. ergo nisi prospectum antea
+                            fuerit, desertae et cum inopia in senectute uiuimus. uide sic purgatum
+                            quod male audire potuisset, non iniuste malas esse meretrices. </seg>
+                        <seg n="393">
+                            <q>CVIVS MOS MAXIME EST CONSIMILIS VESTRVM </q> his moribus se sociant
+                            uobis, qui habent ipsi hunc morem et similem uoluntatem. </seg>
+                        <seg n="395">
+                            <q>VT NVMQVAM VLLA AMORI VESTRO INCIDERE POSSIT CALAMITAS </q> ut semper
+                            amor inter uos ualeat neque senectute aut ullo morbo discidium possit
+                            existere. </seg>
+                        <seg n="396">
+                            <q>NESCIO QVIDEM ALIAS ME SEMPER SCIOFECISSE SEDVLO VT EX ILLIVS COMMODO
+                                MEVM COMPAREM  COMMODVM </q> quid agam, uehementer ignoro: illud
+                            certum est mihi numquam <supplied>me</supplied> meum commodum sine
+                            illius commodo comparasse. </seg>
+                        <seg n="398">
+                            <q>ERGO MEA ANTIPHILA  TV NVNC SOLA REDVCEM ME IN PATRIAM FACIS</q>
+                            adulescens uenientem amicam intuetur et secum loquitur, quod eius amore
+                            factum sit, ut in patriam reuerteretur. </seg>
+                        <seg n="399">
+                            <q>NAM DVM ABS TE ABSVM </q> cum enim abs te discessi, uniuersos labores
+                            leues arbitratus sum excepto hoc, quod te carebam. </seg>
+                        <seg n="401">
+                            <q>HOCINE ME MISERVM NON LICERE MEO MODO INGENIO FRVI </q> si bonum
+                            ingenium, inquit, puellae habere me non sinit pater, ita hoc ingenio
+                            bono amicae me <supplied>meo</supplied> modo frui non licere uehementer
+                            ingemisco. -</seg>
+                        <seg n="402">
+                            <q>DIV ETIAM DVRAS DABIT </q> diu etiam durus hic existet.</seg>
+                    </p>
+                </div>
+            </div>
+            <div type="act" n="III">
+                <div type="scene" n="1">
+                    <p><seg n="410">
+                            <q>LVCESCIT  HOC IAM CESSO PVLSARE OSTIVM VICINI </q> notandum ex hac
+                            scaena, quod in nulla alia comoedia licet reperire, ut biduum tempus in
+                            comoedia sit: omnes enim uno die actus suos explicant ex eo ipso, quod
+                            cuncta effici possunt, ut aut nuptiae celebrentur aut cognitio fiat
+                            expositi aut aliquid horum. at hic bidui rationem uersari intelligimus;
+                            ergo dixit 'lucescit hoc'. habet haec scaena. allocutionem, in qua
+                            ostendit se properare, uti Menedemo nuntiet filium redisse, quamquam hoc
+                            nolit adulescens, cum patris sui nesciat uoluntatem. </seg>
+                        <seg n="415">
+                            <q>CVM ILLI PERICLI NIHIL EX INDICIO SIET NON FACIAM </q> ut celem tam
+                            insperatum gaudium, cum ipsi adulescenti nihil periculi sit ex eo quod
+                            indicatur.</seg>
+                    </p>
+                    <p><seg n="420">
+                            <q>AVT EGO PROFECTO INGENIO EGREGIE AD MISERIAS NATVS SVM </q> haec
+                            scaena persuasionem habet, quemadmodum pater filium suscipiat et falli
+                            se per seruos sinat neque tanta facilitate utatur, ut corruptis filius
+                            moribus uiuat, si semel facilitatem erga se patris agnouisset. tenebit
+                            ergo diuisiones, ut omnis deliberatiua, ab utili et ab honesto, simul et
+                            an fieri possit: quae omnia suo loco plenius explicabimus; nunc tantum
+                            ea, quae obscura sunt, dicemus.</seg>
+                    </p>
+                    <p><seg n="427">
+                            <q>NVNTIVM ADPORTO TIBI CVIVS MAXIME TE FIERI PARTICIPEM CVPIS </q> bene
+                            generaliter in nuntio uotum futurum esse promisit, ut animus cupidus
+                            probari possit, cum non aliud suspicatur quam quod in desiderio fuerat
+                            collocatum. deinde subiungit </seg>
+                        <seg n="429">
+                            <q>NVM QVIDNAM DE GNATO MEO AVDISTI CHREME. - </q>
+                        </seg>
+                        <seg n="430">
+                            <q>VALET ATQVE VIDIT </q> temperauit primo nuntium, ut cresceret
+                            gaudium: nam primo 'ualet atque uiuit' inquit, quod utique diuersum esse
+                            manifestum est; nam ualemus, cum integra salute sumus, uiuimus, cum
+                            spiritum ducimus. - <q>VBI NAM EST QVAESO </q> parum credit gaudii, quod
+                            sibi salus filii nuntiatur. nunc de loco quaerit ipse, quippe qui eius
+                            absentiam dolere uideatur. - </seg>
+                        <seg n="431">
+                            <q>MEVS GNATVS </q> cum iterum quod cupiebat senex audisset, tamquam
+                            parum credat, interrogationem repetit. denique percursis omnibus cum
+                            confirmationem nuntii audisset, perseuerat gaudio minus credere. denique
+                            adiecit </seg>
+                        <seg n="432">
+                            <q>DVC ME AD EVM OBSECRO. </q>
+                        </seg>
+                        <seg n="436">
+                            <q>NON TV EI DIXISTI VT ESSEM </q> non tu ei indicasti, quemadmodum nunc
+                            essem. - </seg>
+                        <seg n="437">
+                            <q>QVIA PESSIME IN TE ATQVE ILLVM CONSVLIS </q> hic iam incipit suasoria
+                            illa, quae animum patris componit, ut circa filium temperet lenitatem
+                            aut largitatem nimiam aut parcitatem: 'utroque genere peccas, dum aut
+                            nimium largus es aut nimium parcus. ex hoc fit, ut in unum malum ex
+                            diuersis moribus uenias'. - </seg>
+                        <seg n="443">
+                            <q>PRIMVM OLIM QVAM PATERERE POTIVS FILIVM COMMEARE AD MVLIERCVLAM </q>
+                            hoc tibi initium mali fuit, quod non filium permisisti ad mulierculam
+                            commeare hanc primum, quae adhuc paulo uidebatur esse contenta, cui
+                            omnia grata esse potuerunt, quae filius faceret. at tu iniustitia tua
+                            adulescentem tuis sermonibus terruisti; exinde ilia coacta necessitate
+                                <supplied>est. et</supplied>enim hoc dixit </seg>
+                        <seg n="446">
+                            <q>INGRATIIS COEPIT VICTVM VVLGO QVAERERE. </q>
+                        </seg>
+                        <seg n="448">
+                            <q>NVNC CVM SINE MAGNO INTERTRIMENTO NON POTEST HABERI </q> unde modo
+                            sine magno damno haberi non potest. intertrimenta autem sunt, quae intus
+                            terendo damna perficiunt. -</seg>
+                        <seg n="449">
+                            <q>QVIDVIS DARE CVPIS </q> scio enim: quodcumque desideras dare. </seg>
+                        <seg n="450">
+                            <q>QVAM EA NVNCINSTRVCTA PVLCHRE AD PERNICIEM SIET </q> uerum ut possis
+                             intelligere, quemadmodum nunc illa meretrix instructa sit aduersus
+                            filium tuum et ad quam perniciem adducta. -  </seg>
+                        <seg n="452">
+                            <q>ONERATAS VESTE ATQVE AVRO </q> parum dixerat 'ancillas decem', quae
+                            res tantum <supplied>in</supplied> numero collocata uidebatur; adiecit
+                            'oneratas ueste atque auro', ut pudori sit ancillas tales ita uestitas
+                            leui cibo pascere aut certe seruili. - <q>SATRAPES SI SIET AMATOR </q>
+                            apud Babylonios satrapae appellantur ditissimi et satellites regum. </seg>
+                        <seg n="457">
+                            <q>PYTISSANDO MODO MIHI QVID VINI ABSVMPSIT </q> omitto cetera, ex
+                            quibus damna possis agnoscere: in una cena quae mihi contigerint,
+                            quantum uini absumpserit uide, dum pytissat! proprie autem pytissare
+                            dicitur quid gustare <supplied>et</supplied> quasi cum quadam probatione
+                            expuere. denique adiecit</seg>
+                        <seg n="458">
+                            <q>SIC HOC DICENS ASPERVM PATER HOC EST ALIVD LENIVS SODES VIDE. </q>
+                        </seg>
+                        <seg n="460">
+                            <q>RELEVI DOLIA OMNIA </q> linire est contegere etoperire; contrarium
+                            est 'releui', quod est aperui. - <q>OMNES SERIAS OMNIS SOLLICITOS HABVI
+                            </q> hoc est ebrios. significat enim 'sollicitos' in solo citatos, quod
+                            ebriis contingit, quibus non sunt firma uestigia, sed motu corporis citi
+                            sunt. -</seg>
+                        <seg n="462">
+                            <q>QVEM ASSIDVE EXEDENT </q> quem cotidie comedent uel certe frequenter. </seg>
+                        <seg n="463">
+                            <q>ITA ME DI AMABVNT VT ME TVARVM MISERITVM EST MENEDEME FORTVNARVM </q>
+                            in meo damno magis misericordiam pro te passus sum et pro fortunis tuis. </seg>
+                        <seg n="464">
+                            <q>FACIAT QVOD LIBET </q> indulgentissimus pater et qui uehementissime
+                            filium desiderabat et diligebat, licet damna audisset, tamen omnia se
+                            dicit filio permittere uelle, dummodo ipsum habeat in potestate. </seg>
+                        <seg n="466">
+                            <q>SI TIBI EST CERTVM SIC FACERE </q> hic iam persuadet, ut illud quod
+                            supra dixi<supplied>t Menede</supplied>mus uelit adulescentis animo
+                            ueluti nesciens dare, cum artibus serui inductus pecuniam dat et
+                            luxuriam ministrat. denique ipsum consilium suum quod sit proponit </seg>
+                        <seg n="470">
+                            <q>FALLI TE SINAS TECNIS PER SERVVLVM. </q> an fieri possit, adiungit </seg>
+                        <seg n="471">
+                            <q>SVBSENSI ILLOS HOCQVOQVE AGERE: </q> ex eo enim, quod iam agunt et
+                            praeparant, fieri potest. deinde ab utili adiungit </seg>
+                        <seg n="474">
+                            <q>ET TIBI PERDERE TALENTVM HOC PACTO SATIVS EST QVAM ILLO MINAM </q>
+                            melius est, ut <supplied>in</supplied>sciens plurimum perdas, quotiens
+                            filius tollit, quam sciens minimum, cum ex hoc filius quod licentiam
+                            agnouerit, iam eum libebit maiora committere. denique adiungit ab
+                            honesto </seg>
+                        <seg n="476">
+                            <q>NON NVNC DE PECVNIA AGITVR. </q> ostendit honestum et utile
+                            declarauit. denique perseuerat circa id ipsum, ut dicat'cum enim
+                            intellexerit auimum tuum, te prius uitam tuam proditurum et omnem
+                            pecuniam quam abs te filium dimittas, uide quam fenestram ad
+                            turpitudinem, ad luxuriam nequitiamque patefeceris', hoc est quantam
+                            ianuam dederis peccato. </seg>
+                        <seg n="486">
+                            <q>TV REM PERIRE ET IPSVM NON POTERIS PATI </q> statim tu interire bona
+                            et filium uiuere luxuriose et malis operibus non patieris. </seg>
+                        <seg n="487">
+                            <q>IBIT ILICO </q>
+                            <supplied>AD</supplied>
+                            <q>ILLVD </q> sibi ueluti remedium suscipiet, ut abiturum se esse
+                            minitetur, maxime cum scit apud te se plurimum praeualere. </seg>
+                        <seg n="490">
+                            <q>VIDERE VERVM ATQVE ITA VTI RES EST DICERE </q> uidere mihi uerum
+                            dicere et ita quemadmodum res est. </seg>
+                        <seg n="492">
+                            <q>DVM ID QVAERO TIBI QVI FILIVM RESTITVEREM </q> tota hac nocte somnium
+                            oculis meis non cepi quaerens, quemadmodum filium reddam uicino, utrum
+                            nuntio solo an et consilio. -</seg>
+                        <seg n="499">
+                            <q>VICINI NOSTRI HIC AMBIGVNT DE FINIBVS </q> litem uicini de limitibus
+                            habent. </seg>
+                        <seg n="500">
+                            <q>ME CEPERE ARBITRVM </q> me iudicem sibi esse uoluerunt. </seg>
+                        <seg n="503">
+                            <q>ITANE COMPARATAM ESSE HOMINVM NATVRAM OMNIVM </q> sensus hic est:
+                            satis miror, cur prudentius sapit Chremes. an ita natura hominum
+                            comparata est, ut intentius uideant ea, quae aliena sunt, quam quae sunt
+                            sua? an hoc ideo fit, quia, dum nos in re nostra sumus, aut gaudio
+                            impedimur aut aegritudine animum occupatum ad praeuidendas res adhibere
+                            non possumus? </seg>
+                        <seg n="508">
+                            <q>DISSOLVI ME OTIOSVS OPERAM VT TIBI DAREM </q> cito reuertens ab eo,
+                            quo ierat, Chremes dicit se ex illonegotio solutum et amico operam
+                            traditurum.</seg>
+                    </p>
+                </div>
+                <div type="scene" n="1">
+                    <p><seg n="512">
+                            <q>HAC ILLAC CIRCVMCVRSA INVENIENDVM EST TAMEN ARGENTVM INTENDENDA EST
+                                IN SENEM FALLACIA </q> seruus <supplied>egreditur</supplied>
+                            argentum desiderans, quod dare meretrici possit. tamen hoc quod loquitur
+                            non uidetur domino praesenti esse suspectum: quoniam enim supra dixerat
+                            seruum Syrum quasi in Menedemum dolos tendere, uti argentum meretrici
+                            per fallacias quaereretur, ideo 'in senem' generaliter dictum. denique
+                            hoc suspicatus Chremes, quasi in Menedemum ista fiant, dixit </seg>
+                        <seg n="514">
+                            <q>NVM ME FEFELLIT HOSCE ID STRVERE: </q> fortasse ille Cliniae seruus
+                            tardus est, idcirco noster Syrus hanc prouinciam sumpsit, hoc est iussum
+                            officium suscepit, ut ipse quaerat argentum. </seg>
+                        <seg n="518">
+                            <q>TE DEMIROR CHREME TAM MANE QVI HERI TANTVM BIBERIS </q> te ualde
+                            miror mane uigilare, qui heri tantum biberis. - </seg>
+                        <seg n="519">
+                            <q>NIHIL NIMIS </q> non multum. - </seg>
+                        <seg n="521">  <q>AQVILAE SENECTVS </q> aiunt aquilam in senectute, quod ei
+                            rostri pars exterior uetustate et incremento curuata foramen includat,
+                            ad cadauera accedere et sic sanguinem in potum sumere et quodammodo
+                            bibendo uiuere. hoc igitur ait seruus domino, quasi bibendo totum tempus
+                            hesterna cena egerit, 'uisa uero est quasi aquilae senectus'. </seg>
+                        <seg n="523">
+                            <q>ET QVIDEM HERCLE FORMA LVCVLENTA </q> non solum commoda et faceta est
+                            mulier, sedet speciosa forma. </seg>
+                        <seg n="524">
+                            <q>ITA NON VT OLIM SED VTI NVNC SANE BONA </q> hic intelligi datur, quod
+                            senex sciat eandem ante fuisse castam, ante pauperem, nunc uero
+                            meretricio more uiuentem. ideo adiecit seruus 'non quemadmodum antea
+                            bona, sed uti nunc, <supplied>si non</supplied> sibi ipsa comparatur,
+                            sane bona'. -</seg>
+                        <seg n="527">
+                            <q>AT QVASI IS NON DIVITIIS ABVNDET </q>
+                            <supplied>inuident</supplied>ium ex more inopiam male merentis adiecit
+                            'quasi non diuitiis abundet'. - </seg>
+                        <seg n="529">
+                            <q>QVID EGO NESCIAM HOMINEM PISTRINO DIGNVM </q> ut facilius seruum
+                            dominus incitare potuisset ad id, quod cupiebat, seruo adiutorem eum
+                            esse ad tendendam in Menedemum fallaciam propter argentum, fingit se
+                            irasci seruo Cliniae: 'hominem'inquit 'pistrino dignum', cui iungitur </seg>
+                        <seg n="532">
+                            <q>QVI PASSVS ID FIERI. - QVID FACERET </q> callide seruus, tamquam
+                            ignoret quid fieri debuisset, a domino quaerit, ut maiorem suscipiat
+                            uoluntatem fallendi, qui <supplied>fallere</supplied> dominum suum hunc
+                            ipsum, cum ab eo fallaciae argumenta collegerit, cupiat.denique sibi hoc
+                            praeparans hoc postea dixit </seg>
+                        <seg n="537">
+                            <q>LAVDAS QVI EROS FALLVNT. - IN LOCO EGO VERO LAVDO </q> bene adiecit,
+                            ne perpetuam male faciendi licentiam seruis daret, 'in loco'. </seg>
+                        <seg n="538">
+                            <q>QVIPPE QVI MAGNARVM SAEPE ID REMEDIVM EST AEGRITVDINVM </q> namque
+                            falli in tempore maximum saepe remedium est, ut grauior aegritudo
+                            uidetur. </seg>
+                        <seg n="541">
+                            <q>IOCON AN SERIO ILLAEC DICAT NESCIO </q> an consilio istaec dicat an
+                            ioco an necessario, intelligere non possum: unum tantummodo intelligo,
+                            quod mihi ad hoc, quod disposui, cumulat uoluntatem. </seg>
+                        <seg n="543">
+                            <q>ET NVNC QVID EXSPECTAT SYRE </q> hic iam, dum accusat adulescentis
+                            seruum, hortatur suum dominus, quo ipse hos dolos tendat. denique
+                            adiecit </seg>
+                        <seg n="546">
+                            <q>AT TE ADIVTARE OPORTET ADVLESCENTVLI CAVSA. </q>
+                        </seg>
+                        <seg n="547">
+                            <q>FACILE EQVIDEM FACERE POSSVM SI IVBES </q> peritiam suam circa
+                            huiusmodi rem declarauit seruus, sed dixit metuere domini uoluntatem et
+                            posse se facile facere, si ipse uoluerit imperare. </seg>
+                        <seg n="548">
+                            <q>CALLEO </q> peritus et doctus sum. -</seg>
+                        <seg n="550">
+                            <q>AT HEVS TV FACITO DVM EADEM HAEC MEMINERIS </q> iam praeparat sibi
+                            dominum monetque, ut meminerit haec omnia, si quando euenerint, sicuti
+                            humana sunt omnia, uti et filius eius possit ista perficere. </seg>
+                        <seg n="553">
+                            <q>NON VSVS VENIET </q> non hoc continget neque fieri potest. </seg>
+                        <seg n="554">
+                            <q>NEQVE EO NVNC DICO QVOD QVICQVAM ILLVM SENSERIM </q> bene purgat id,
+                            quod inmiserat suspicionis, ne uero iam credat adulescentem filium pater
+                            talia uel cogitare uel facere, dixitque se seruum ex suspicione ista
+                            metuere, quod eius aetas iam talis esset, uti necessitas fuerit, ut
+                            Chremetem ita ducat et tractet, quemadmodum nunc senex uidetur hortari. </seg>
+                        <seg n="557">
+                            <q>DE ISTOC CVM VSVS VENERIT VIDEBIMVS </q> si quid talecontigerit, tunc
+                            uidebimus, quid necessitas coget facere. </seg>
+                        <seg n="560">
+                            <q>NEC CVM MALE FACEREM </q> nisi cum me senex adhortatur.</seg>
+                    </p>
+                </div>
+                <div type="scene" n="3">
+                    <p><seg n="562">
+                            <q>QVID ISTVC QVAESO AVT QVIS ISTIC MOS EST CLITIPHO </q> haec scaena
+                            locum communem tenet in eum, qui hospitis sui amicam corrumpat: pater
+                            tamen non sic utitur tamquam communi, at ita respondet filius tamquam
+                            negans, ut magis coniecturae causa sit quam communislocus. uerum patrem
+                            tamquam communem locum dicentem accipiamus et primo generaliter cum
+                            inuidia; deinde cum interrogatus esset, quidnam fecisset, ille continuo
+                            non factum, sed uere factum protulit dicendo </seg>
+                        <seg n="563">
+                            <q>VIDINE EGO, </q> ut a probatione exordiretur et post hoc ostenderet
+                            crimen, quod manum adulescens in sinum meretrici inserebat. </seg>
+                        <seg n="564">
+                            <q>ACTA HAEC RES EST PERII</q> Syrus seruus credit senem inuenisse
+                            filium amare meretricem, quae res antea per dolum celabatur. ideo
+                            uehementer metuit. </seg>
+                        <seg n="566">  <q>NAM ISTAE QVIDEM CONTVMELIAE SVNT </q> supra quidem
+                            'iniuria' dixerat, uerum adiecit 'contumeliae sunt'. est enim iniuria,
+                            cum quasi uiolentia aliquid in corpus efficitur, contumelia uero, cum
+                            praeter uiolationem corporis est et uiolatio opinionis. </seg>
+                        <seg n="567">
+                            <q>EIVS AMICAM SVBIGITARE </q> hoc est crimen, quod supra posuit.
+                            'subigitare' autem ad perfectionem ipsam libidinis intelligimus. </seg>
+                        <seg n="568">
+                            <q>VEL HERI IN VINO QVAM INMODESTVS FVISTI </q> hoc ex antecedentibus
+                            argumentum colligens dixit. </seg>
+                        <seg n="570">
+                            <q>NOVI EGO AMANTIVM ANIMVM ADVERTVNT GRAVITER QVAE NON CENSEAS </q> ita
+                            enim mos est amatoribus, ut ampliora suspicentur, quam tu poteris
+                            suspieari. </seg>
+                        <seg n="572">
+                            <q>ESTO AT CERTE CONCEDAS HINC ALIQVO AB ORE EORVM ALIQVANTISPER </q>
+                            hic mandat pater, ut discedat a domo filius: aliter enim negat fieri
+                            posse, ut impudentia adulescentis comprimi possit. dicit etenim multa
+                            libidinem uelle eamque sub cuiuscumque praesentia se minus audere
+                            complere. </seg>
+                        <seg n="574">
+                            <q>EGO DE ME FACIO CONIECTVRAM </q> hoc ita esse ex me suspicor; nam
+                            nemo est ex amicis, apud quem uniuersa uelim exponere atque narrare ea,
+                            quae occulta habeo: quippe aut in summa honestate amicus
+                                <supplied>est</supplied> et id, quodcumque cogito, eius dignitate
+                            deterreor ne indicem, aut ipsa certe res propter sui turpitudinem eam
+                            narrationem comprimit. hoc est, quod dicit </seg>
+                        <seg n="576">
+                            <q>APVT </q>
+                            <supplied>
+                                <q>ALIVM</q>
+                            </supplied>
+                            <q>IPSIVS FACTI PVDET NE INEPTVS NE PROTERVVS VIDEAR '</q> ineptus' si
+                            ipsius facti pudet, 'proteruus' si cum eo loquar, qui habet maximam
+                            dignitatem.  </seg>
+                        <seg n="580">
+                            <q>HOMINIS FRVGI ET TEMPERANTIS FVNCTVS OFFICIVM </q> ergo functus
+                                <supplied>es</supplied> officium frugi hominis et temperantis. - </seg>
+                        <seg n="584">
+                            <q>VIN TV HOMINI STVLTO AVSCVLTARE MIHI </q> quemadmodum  in prouerbio
+                            est 'mihi si uis stulto homini auscultare, licet', hoc est obaudire. </seg>
+                        <seg n="590">
+                            <q>AT TV TIBI ISTAS POSTHAC COMPRIMITO MANVS </q> quoniam pater
+                            dixerat'uidi ego  te manus modo meretrici huic in sinum inserere', ideo
+                            seruus ait 'istas ergo tibi comprimito manus'. </seg>
+                        <seg n="591">
+                            <q>CENSEN VERO QVID ILLVM PORRO CREDIS FACTVRVM CHREME </q> subblanditur
+                            domino per obsequium seruus, cum de adulescente quasi quendam metum
+                            habere se dicit: 'uide iam' inquit 'qualis sit: qualem futurum putas,
+                            nisi eum, quantum facultatis tibi numina concedunt, seruas, mones atque
+                            castigas?' </seg>
+                        <seg n="593">
+                            <q>ATQVI NVNC TIBI ERE ADSERVANDVS EST</q> bene praesens tempus in metu
+                            ponit, ut ille sciat iam filium nescio quid moliri. - </seg>
+                        <seg n="594">
+                            <q>NAM MIHI MINVS MINVSQVE OBTEMPERAT </q> et hoc pulchre uidetur
+                            adiectum, quo, si qua in  culpa inuentus fuerit filius, continuo iam
+                            uideatur seruus esse purgatus, quod eius imperium filius contemnat. </seg>
+                        <seg n="598">
+                            <q>VERVM ALIVD EX ALIO INCIDIT </q> hoc uidetur obscurum quidnam sit,
+                            sed ex his quae consecuntur manifestum fiet: nam interrogatus a domino
+                            quid esset, respondit </seg>
+                        <seg n="599">
+                            <q>PESSIMA HAEC EST MERETRIX. </q> ita quod hic 'pessima est' de
+                            meretrice pronuntiatum est, supra contrarium dictum 'commoda et faceta
+                            haec est meretrix'. ergo iure dictum 'aliud ex alio incidit'. - <q>IMMO
+                                SI SCIAS </q> uidit dominum seruus quasi consensum commodasse, non
+                            quo verum iudicium de meretrice <supplied>sit</supplied>: ideo adiecit </seg>
+                        <seg n="600">
+                            <q>VIDE QVOD INCEPTET FACINVS. - FVIT QVAEDAM ANVS CORINTHIA </q> hoc
+                            consilium dicit se seruus aduersus Menedemum sumpsisse, quo possit
+                            pecuniam ab eo exprimere, quae meretrici daretur. uerum hoc consilium in
+                            hoc prouenit, quod prosit uehementer Clitiphoni: namque fingit nunc
+                            Antiphilam, quae amica sit Cliniae, apud meretricem a quadam anu
+                            Corinthia arrabonis nomine collocatam, et nunc uelle ad Menedemum
+                            pergere, ut ab eo illam pecunimam accipiat, quae data sit pro puella,
+                            ut, si eandem redimeret, maxima inde lucra possit accipere. sed hoc
+                            displicet domino consilium, uerum prouenit ad euentum futurum; nam cum
+                            cognita fuerit, quod filia sit Chremetis, iam fiet necessarium, ut
+                            meretrici hoc <supplied>a</supplied> sene Chremete debeatur argentum. - </seg>
+                        <seg n="603">
+                            <q>ARRABONI </q> pignori scilicet.</seg>
+                    </p>
+                </div>
+            </div>
+            <div type="act" n="IV">
+                <div type="scene" n="1">
+                    <p><seg n="614">
+                            <q>NISI ME ANIMVS FALLIT HIC PROFECTO ANVLVS QVEM SVSPICOR IS QVICVM
+                                EXPOSITA EST GNATA </q> haec scaena tenet maximam controuersiam:
+                            quippe maritus, dum grauidam uideret uxorem, mandauit, ut, puellam si
+                            peperisset, extingueret. mater puellam peperit et exposuit eique, cum
+                            exponeretur, anulum dedit. inuentus est apud quandam puellam anulus.
+                            interrogata unde sit illa respondit ipsum esse, cum quo esset exposita.
+                            hoc cum cognouisset senex, agnita puella, quam extingui iusserat, ream
+                            facit uxorem, quod aduersus edictum suum fecisset. hic primo uenialis
+                            est status 'feci, sed pietate feci'. ergo primo inter se locuntur, an
+                            ipse anulus sit, cum quo exposita sit filia. </seg>
+                        <seg n="617">
+                            <q>AT VT SATIS CONTEMPLATA SIS MODO MEA NVTRIX </q> sed ut satis integre
+                            pleneque perspexeris, nutrix mea. - </seg>
+                        <seg n="621">   <q>MAGNO CVM CONATV MAGNAS NVGAS DIXERIT </q> magno cum
+                            impetu <supplied>mini</supplied>ma quaeque pronuntiat. </seg>
+                        <seg n="622">
+                            <q>EHEM MI VIR </q> hinc exordium sumptum, quod <supplied>ab</supplied>
+                            obsequio coepit, ut beniuolentiam comparare possit. deinde adiectum,
+                            quod purgationis loco ponitur, quae res ad ueniam pertinet, quod tamen
+                            adhuc principium sit </seg>
+                        <seg n="623">
+                            <q>PRIMVM HOC TE ORO NE QVID CREDAS ME ADVERSVS EDICTVM TVVM. </q>
+                            deinde sic adiunctum ex persona serui </seg>
+                        <seg n="625">
+                            <q>NESCIO QVID PECCATI PORTAT HAEC PVRGATIO. </q> finit principium,
+                            narratio supponitur </seg>
+                        <seg n="626">
+                            <q>MEMINISTIN ME ESSE GRAVIDAM ET MIHI MAGNOPERE DICERE SI PVELLAM
+                                PAREREM NOLLE TOLLI </q> et reliqua. </seg>
+                        <seg n="628">   <q>DOMINA EGO ERVS DAMNO AVCTVS EST </q> noue positum
+                            'auctus damno', quod ei coheres puella uenerit. </seg>
+                        <seg n="629">
+                            <q>EI DEDI EXPONENDAM </q> quia supra dixerat senex 'sustulisti',
+                            idcirco id dixit 'exponendam dedi', quo minus uideatur esse delictum.
+                            hic iam incitatus est uehementer senex, quod exposita esset puella et
+                            exposita aduersus edictum. ita cum impetum generalis accusationis
+                            sumpsisset, statim illam ad quaestionem descendit et statum apertissime
+                            collocauit uenialem, cum dixit </seg>
+                        <seg n="631">
+                            <q>SI PECCAVI MI CHREME INSCIENS FECI. </q> deinde supponitur plenior
+                            accusatio </seg>
+                        <seg n="632">
+                            <q>ID QVIDEM EGO ETSI TV NEGES CERTVM SCIO TE INPRVDENTEM DICERE AC
+                                FACERE OMNIA. </q> deinde post principium accusationis subiunguntur
+                            omnia crimina, quae a summo ad imum dicuntur </seg>
+                        <seg n="634">
+                            <q>TOT PECCATA IN HAC RE OSTENDIS NAM IAM PRIMVM SI MEVM IMPERIVM
+                                EXSEQVI VOLVISSES INTEREMPTAM OPORTVIT NON SIMVLARE MORTEM VERBIS RE
+                                IPSA SPEM VITAE DARE. </q> et proponit sibi quasi quandam
+                            quaestionem mulier, quae contra imperium mariti fecisset, et dicit se
+                            hoc fecisse pietate et materno animo. [[(α) </seg>
+                        <seg n="636">
+                            <q>SPEM VITAE DARE </q> scilicet non oportuit simulare re ipsa, sed
+                            uerbis.]] huic respondetur </seg>
+                        <seg n="638">
+                            <q>QVAM VERO ABS TE PROSPECTVM EST QVID VOLVISTI COGITA NEMPE ANVI ILLI
+                                ABS TE FILIA PRODITA EST PLANISSIME VEL VTI PER TE QVAESTVM FACERET
+                                VEL VTI VENIRET PALAM [[(α)</q> Anus tertiae et quartae
+                            declinationis protulit, cum hodie sit solummodo quartae, nisi aliud
+                            significet.]]. deinde epilogorum loco adiunctum est, quantum incommodi
+                            consecutum sit. – </seg>
+                        <seg n="642">
+                            <q>QVID CVM ILLIS AGAS QVI NEQVE IVS NEQVE BONVM AVT AEQVVM SCIVNT
+                                MELIVS PEIVS PROSIT OBSIT NIHIL VIDENT NISI QVOD LIBET '</q> quid
+                            cum illis agas' sensus hic obscuritatem habet; est autem talis:
+                            'exposita tibi est filia suscepta ab ea, quae pudorem filiae tuae
+                            uenderet, sed tu id cogitasti, quodcumque satis esset, dummodo uiueret:
+                            ego nunc cogor eam suscipere, sed defendere eius pudorem non possum.
+                            quid agam cum illis, qui neque ius neque bonum aut aequum sciunt?' sibi
+                            dicit uiolata filia nullam esse posse uindictam. </seg>
+                        <seg n="644">
+                            <q>CHREME PECCAVI FATEOR </q> hic iam deprecanti sua uenia supponitur,
+                            cum dicit <q>OBSECRO QVANTVS TVVS EST ANIMVS NATVGRAVIOR IGNOSCENTIOR VT
+                                MEAE STVLTITIAE IN IVSTITIA TVA SIT ALIQVID PRAESIDII </q> quod tuus
+                            enim animus maior est aetate et pietate clementiae, stultitiae meae
+                            debet in tua iustitia. esse praesidium [[(α) id est aliquid defensionis
+                            et auxilii.]]. - </seg>
+                        <seg n="647">
+                            <q>SCILICET EQVIDEM ISTVC FACTVM IGNOSCAM </q> hanc quidem ueniam tibi
+                            dabo, uerum mea clementia multum ad peccata compelleris. </seg>
+                        <seg n="648">
+                            <q>SED ISTVC QVIDQVID EST QVA HOC OCCEPTVM EST CAVSA LOQVERE </q>
+                            perempta controuersia ad originem res ducitur: 'quemadmodum omnes
+                            miserae, [[(α) in hac professione facto a generali ad speciale argumento
+                            extinxit uim indignationis </seg>
+                        <seg n="651">
+                            <q>CVM PVELLA EXPONERET SI MORERETVR. </q> et subiungit causam NE
+                                <q>EXPERS ESSET: </q> neque enim liberos etiam mortuos fas erat
+                            fraudari bonis.]] stultae et religiosae sumus, cum dedissem puellam
+                            exponendam, anulum de digito mihi detraho, et eum,  ut una cum puella
+                            exponeret, dedi, si esset mortua, ne aliena a nostris bonis esse
+                            potuisset'. </seg>
+                        <seg n="659">
+                            <q>INTERII PLVS SPEI VIDEO QVAM VOLO </q> hoc seruus cum gemitu dicit,
+                            siquidem fieri potest, ut cognoscatur haec Antiphila, quod fìlia domini
+                            sit. quo facto uehementer metuit, ne incipiat Clinia amicam suam
+                            confiteri et cognoscat pater, quod meretrix amica Clitiphonis sit.
+                            denique ideo dicit, cum nomen dictum esset eius, cui data esset puella,
+                            ut exponeret</seg>
+                        <seg n="663">
+                            <q>MIRVM NE ILLA SALVA EST ET EGO PERII. - </q>
+                        </seg>
+                        <seg n="666">
+                            <q>NONLICET HOMINEM ESSE SAEPE ITA VT VVLT SI RES NON SINIT </q> non
+                            licet nobis gerere perpetuam uoluntatem, maxime cum res non permittat:
+                            ita mutemus ex tempore uoluntatem.</seg>
+                    </p>
+                </div>
+                <div type="scene" n="2">
+                    <p><seg n="668">
+                            <q>NISI ME ANIMVS FALLIT </q> seruus hic uehementer aestuat, quod
+                            animaduertit fieri posse, ut puella cognoscatur. ideo secum loquitur et
+                            ingemiscit, quod sibi iam multum infortunium affuturum sit. - <q>HAVT
+                                MVLTVM </q> hoc est non longe. </seg>
+                        <seg n="669">
+                            <q>ITA HAC RE IN ANGVSTVM OPPIDO MEAE NVNC COGVNTVR COPIAE </q>
+                            translatio facta est ab illo, cum periclitatur exercitus in angustum
+                            coactus. [[(α) cum enim in periculo est exercitus, in unum se
+                            colligit.]] significat autem 'oppido' ualde. </seg>
+                        <seg n="670">
+                            <q>NISI ALIQVID </q>
+                            <supplied>
+                                <q>VIDEO </q> nisi aliquid</supplied> prospicio. </seg>
+                        <seg n="672">
+                            <q>TRIVMPHO SCILICET ME LATERE TECTO ABSCEDERE </q> summum gaudium est,
+                            si tutatus sine uulnere discedam, hoc est latere tecto et custodito. non
+                            ergo de argento cogitare debeo quemadmodum eripiam, sed quemadmodum
+                            tutus ipse discedam. </seg>
+                        <seg n="673">
+                            <q>BOLVM TANTVM </q> [[(α) per figuram <supplied>antithesin</supplied>
+                            pro dolum.]] praedam </seg>
+                        <seg n="674">
+                            <q>AVT QVID COMMINISCAR </q> quid argumenti reperiam. [[(α) et est
+                            comminiscor inuenio uel recordor. sic reminiscor, cuius simplex in usu
+                            non est.]] </seg>
+                        <seg n="676">
+                            <q>QVID SI HOC NVNC INCIPIAM </q> cogitantis animo, quasi dum multa
+                            quaerit, inuenit quaedam, non placita repudiat. post id quod sit optimum
+                            inuenisse dicit, ut ad se illud argentum reuocare possit, quod
+                            omiserat.</seg>
+                    </p>
+                </div>
+                <div type="scene" n="3">
+                    <p><seg n="679">
+                            <q>NVLLA MIHI RES POSTHAC POTEST IAM INTERVENIRE TANTA QVAE MIHI
+                                AEGRITVDINEM AFFERAT </q> allocutio est Cliniae exultantis gaudio,
+                            quod sua amica sit cognita. ita dicit mentem suam oneratam gaudio, ut
+                            nulla res possit intercedere, quae afferat aegritudinem. [[(α)
+                            aegritudinem dixit pro aegrimonia, id est tristitia uel infirmitate.]] </seg>
+                        <seg n="681">
+                            <q>DEDO NVNC ME PATRI VT FRVGALIOR SIM QVAM VVLT </q> ut frugalitatem
+                            [[(α) id est parcitatem]], quam in me uoluit, compleam, dedo me patri,
+                            quippe cum uelit eam me habere uxorem, quae sit honestis moribus, et
+                            nunc ea sit mihi amica, quae filia sit Chremetis. </seg>
+                        <seg n="686">
+                            <q>VT EGO NVNC NON TAM MEAPTE CAVSA LAETOR QVAM ILLIVS </q> hoc gaudii
+                            quod nunc teneo non mea causa, sed potius ipsius puellae quam diligo. </seg>
+                        <seg n="688">
+                            <q>SED NVNC CLINIA AGE DA TE MIHI VICISSIM </q> quemadmodum nunc ego
+                            uerba tua audiui, nunc et uicissim te mihi da, uti quod necessarium est
+                            facias, ne resciscat pater amicam filii sui esse meretricem. </seg>
+                        <seg n="690"> O <q>IVPPITER </q> [[(α) per
+                            pro<supplied>s</supplied>phonesin]] omissis uocibus serui secum Clinia
+                            gaudet: parum credit hoc sibi contigisse, quod efficitur in gaudio, cum
+                            repentino aliquid procreatur. </seg>
+                        <seg n="693">
+                            <q>DEORVM VITAM APTI SVMVS </q> [[(α) per icon uel parabole, quae sunt
+                            species homoeosis, se quasi deum esse asserit.]] ita et in Andria
+                            'deorum uitam propterea esse sempiternam arbitror, quod uoluptates eorum
+                            propriae sunt'. 'apti' autem significat adepti. - </seg>
+                        <seg n="694">
+                            <q>VIDENDVM EST INQVAM </q> persuadet seruus Cliniae, uti secum ducat
+                            meretricem ad domum patris, ne, si remanserit in domo, facile senex
+                            filii amicam possit agnoscere. - </seg>
+                        <seg n="699">
+                            <q>AT ENIM ISTOC NIHIL EST MAGIS MEIS NVPTIIS ADVERSVM </q> sed haec res
+                            mihi uehementer uidetur esse contraria, si uxorem ducere uoluero; nam
+                            quomodo rogabo patrem, ut mihi filiam det, si sciat me amicam habere
+                            meretricem? </seg>
+                        <seg n="701">
+                            <q>QVIN NOLO MENTIARE </q> hoc eo consilio dicit seruus, uti non
+                            mentiatur, sed continuo dicat illam amicam suam esse, quae est filia
+                            eius, ut eam uxorem uellet esse, hanc amicam Clitiphonis. sic euim
+                            postea persuasurus est domino seruus tale se repperisse consilium, uti a
+                            Menedemo filius petat pecuniam, quo quasi dicat se uelle filiam
+                            Chremetis uxorem ducere, uti ad nuptias habeat necessaria, et hoc credat
+                            senex propterea adulescentulum petere, quo per fallaciam dari possit,
+                            ita ut, cum utrumque dixerit adulescens, per fallaciam dicere
+                            crederetur. </seg>
+                        <seg n="705">
+                            <q>ET SCILICET IAM ME HOC VOLES PATREM EXORARE VT CELET SENEM N OSTRVM
+                            </q> nesciens adulescens hoc consilium, quare hoc seruus dicat, adiecit
+                            'et fortasse hoc uelis, ut celet patrem Clitiphonis senex noster, quod
+                            ipsius amica sit meretrix'. </seg>
+                        <seg n="709">
+                            <q>HVIC EQVIDEM CONSILIO PALMAM DO </q> in hoc consilio maximam
+                            uictoriam et gloriam mihi concedo, ut uerum dicendo ambos fallam,
+                            secundum hoc quod supra diximus, ut non credat senex noster amicam filii
+                            sui esse meretricem, etiamsi esse audierit. [[(α) quod fit per figuram
+                            diasyrmos, quae est eleuatio, quando auditorem uera dicendo in errorem
+                            inducit.]] </seg>
+                        <seg n="713">
+                            <q>AT ENIM SPEM ISTOC PACTO RVRSVS NVPTIARVM OMNEM MIHI ERIPIS </q> si
+                            enim crediderit senex amicam filii sui esse meretricem, incipiet filiam
+                            suam mihi dare nolle. </seg>
+                        <seg n="716">
+                            <q>QVID MALVM ME AETATEM CENSES VELLE ADSIMVLARIER </q> quid tu semper
+                            me credis hoc uelle simulare? 'malum' autem interiectum nihil
+                            significat, sed exclamationis continet locum, quomodo Cicero pro
+                            Scauro'quae, malum, est ista ratio?' </seg>
+                        <seg n="719">
+                            <q>QVI AIVNT QVID SI NVNC CAELVM RVAT </q> stultus metus est dis
+                            caelestibus metuere. ita ergo stulte id in metu et tu ponis, quod fieri
+                            omnino non potest [[(α) ut sit argomentum ab impossibili]]. -</seg>
+                        <seg n="720">
+                            <q>QVASI EA POTESTAS NON SIT TVA </q> pulchre persuadet, ut faciat hoc
+                            quod monetur, cum dicat in potestate eius futurum, quo uelit tempore ut
+                            se exoluat.</seg>
+                    </p>
+                </div>
+                <div type="scene" n="4">
+                    <p><seg n="723">
+                            <q>SATIS POL PROTERVE </q> satis aspere. - </seg>
+                        <seg n="726">
+                            <q>AVT CVM VENTVRAM DIXERO ET CONSTITVERO </q> immo potius, cum dixero
+                            me esse uenturam et constituero, tum magis, cum pronuntiauerit Clitipho
+                            et spe pendebit, decipiam et non ueniam, tum mihi Syrus poenas reddet
+                            tergo suo. [[(α) </seg>
+                        <seg n="728">
+                            <q>TERGO SVO </q> id est dorso, siquidem tergum tergi dorsum, tergus
+                            uero tergoris corium dicitur.]] </seg>
+                        <seg n="729">
+                            <q>SATIS SCITE PROMITTIT TIBI</q> ualde eleganter promissa tibi dabit,
+                            quod utique per ironiam intelligitur. </seg>
+                        <seg n="730">
+                            <q>DORMIVNT EGO POLISTOS COMMOVEBO </q> uult excitare eos, qui sibi
+                            pecuniam promiserunt nec dederunt, uti fingat se euocatam esse a nescio
+                            quo et uelle discedere. itaque consentiente ancilla fingit mendacium,
+                            quod nescio quam uillam demonstrauerit cuiusdam amatoris. </seg>
+                        <seg n="733">
+                            <q>CVRRICVULO PERCVRRE [[(α) '</q> curriculo' dixit a curru. uel a
+                            cursu.]] festina et propera. </seg>
+                        <seg n="735">
+                            <q>VERBA ME HIS DATVRAM ESSE </q> hoc est: me dicturum aliquid, unde
+                            decipiam. </seg>
+                        <seg n="737">
+                            <q>QVIN EST PARATVM ARGENTVM </q> intellexit seruus callidus, quod
+                            idcirco Bacchis se  ire diceret, quod argentum quaereret - et hac
+                            ratione pollicetur <q>QVIN EGO HIC MANEO, </q> quo et argentum dari
+                            possit et nihilominus illud fieri, quod dispositum est - : itaque et de
+                            tempore adiecit</seg>
+                        <seg n="738">
+                            <q>ATQVI IAM DABITVR. </q>
+                        </seg>
+                        <seg n="739">
+                            <q>ET TVA POMPA </q> [[(α) id est nobilis comitatus.]] <q>EO TRADVCENDA
+                                EST </q> hoc est ancillae decem et ceteri comites, qui uenerunt. </seg>
+                        <seg n="740">
+                            <q>EGONE ARGENTVM CVDO QVOD TIBI DEM </q> quaeris, quod te ad Cliniam
+                            transire nolo? argentum produco, quod tibi dem. [[(α) cudo enim est et
+                            compono uel tundo, unde incus, ubi tunditur ferrum.]] </seg>
+                        <seg n="741">
+                            <q>DIGNAM ME PVTAS QVAM INLVDAS </q> per accusatiuum casum hic dictum
+                            est. etVirgilius 'certantque illudere capto' per datiuum; item ipse 'i,
+                            uerbis uirtutem illude superbis'. </seg>
+                        <seg n="746">
+                            <q>SPERABIT SVMPTVM SIBI SENEX LEVATVM ESSE HARVNC ABITV </q> cum
+                            discesserit tanta haec ancillarum multitudo, dominus credet discessione
+                            tantarum mulierum sibi sumptum [[(α) id est expensam.]] esseeleuatum,
+                            sed nesciet ex ea re damnum ad se esse uenturum, dumhac re maxime ab eo
+                            extorquebitur argentum. </seg>
+                        <seg n="748">
+                            <q>TV NESCIS ID QVOD SCIS </q> ne indicaueris, inquit, quod scis, et id
+                            age, ut nescisse uidearis. [[(α) et ille per hyperbolen <q>MVTVM ME
+                                DICES.]]</q>
+                        </seg>
+                    </p>
+                </div>
+                <div type="scene" n="5">
+                    <p><seg n="749">
+                            <q>ITA ME DI BENE AMABVNT VT NVNC MENEDEMI VICEM MISERET ME </q>
+                            discententibus ancillis senex ingemiscit, quod tanta ad Menedemum
+                            multitudo uentura sit, quam et ipse cum una die sustinuerit, magno se
+                            dixit affectum damno. - </seg>
+                        <seg n="751">
+                            <q>ILLAM MVLIEREM ALERE CVM ILLA FAMILIA </q> nam et domina [[(α)
+                            'pytissando' id est leuiter gustando et spuendo.]] multum uini absumit
+                            et multitudo ancillarum [[(α) siquidem per figuram characterismon, id
+                            est futurae rei descriptionem, argumentatur quid sit consequens,
+                            uidelicet filii discessio. et per ethopoeiam, quae fit quando loquentem
+                            introducimus quamlibet personam, ait Clitipho<supplied>nis</supplied>
+                            pater hoc lene.]] non parum uidetur consumpsisse. </seg>
+                        <seg n="753">
+                            <q>ITA MAGNO DESIDERIO FVIT EI FILIVS </q> tantum desiderium filii
+                            absentis pater habuit,  ut primis diebus tanta a meretrice damna non
+                            sentiat. sed cum cotidie uiderit tantos sumptus fieri neque ullum fieri
+                            modum, 'optabit rursum ut ab se abeat filius'. <unclear/> et quoniam
+                            animum senis nouit bene dixit 'effìciat, consumat, perdat, dummodo illum
+                            habeam mecum' ita cum animus excludere cupiens et metuens absentiam
+                            filii <supplied>in</supplied> incerto positus <supplied>sit</supplied>,
+                            solum optabit, ut abeat filius. </seg>
+                        <seg n="759">
+                            <q>VIDEREEGISSE IAM NESCIO QVID CVM SENE </q> de illo, quod tecum
+                            locutus sum, uidere aliquid egisse cum sene. [[(α) uam supra ait 'huic
+                            nostro tradita est prouincia' id est prouidentia.]] </seg>
+                        <seg n="760">   <q>DICTVM AC FACTVM REDDIDI </q> hoc est: cum dixisset,
+                            factum continuo reddidi. </seg>
+                        <seg n="761">
+                            <q>QVIN TIBI CAPVT DEMVLCEAM </q> quod solet fieri his, qui placent, ut
+                            manu per caput traducta quasi quaedam uideatur esse laudatio. </seg>
+                        <seg n="765">
+                            <q>GLORIARE EVENISSE ET SENTENTIA </q> hoc tibi pro uoluntate contigisse
+                            gloriaris? </seg>
+                        <seg n="767">
+                            <q>TVI CLITIPHONIS ESSE AMICAM HANC BACCHIDEM MENEDEMO DIXIT CLINIA </q>
+                            hic est illud consilium, quod supra significatum est, ut ueritas dicta
+                            nihilominus implicare possit errorem, quippe, cum dixerit Clinia patri
+                            Clitiphonis amicam esse et hoc indicet seruus, nihilominus dominus filii
+                            sui amicam meretricem esse non credat. - </seg>
+                        <seg n="775">
+                            <q>ET QVIDEM IVBEBIT POSCI </q> et uolet, ut filiam tuam pater suus
+                            postulet. quam rem cum non intellexisset, cur simulata uideretur,
+                            respondit ille, uti argentum filio dari possit ad nuptias necessarium. </seg>
+                        <seg n="779">
+                            <q>AT EGO ILLI NEQVE DO NEQVE DESPONDEO </q> at illi ego filiam non dabo
+                            neque despondebo. et spondere est promittere, unde et sponsa dicitur.
+                            [[(α) nam et sponsio et dos a patre puellae dabatur.]] - </seg>
+                        <seg n="782">
+                            <q>NON MEA EST SIMVLATIO </q> boni et sapientis uiri hic sensus est, ut
+                            numquam audeat quod numquam sit facturus polliceri. </seg>
+                        <seg n="783">
+                            <q>ITA TV ISTAEC TVA  MISCETO ME NE ADMISCEAS </q> ita igitur haec
+                            efficito, uti sine mea persona ista compleas. </seg>
+                        <seg n="784">
+                            <q>EGON CVI DATVRVS NON SIM VT EI DESPONDEAM </q>
+                            <supplied><gap/></supplied>. - </seg>
+                        <seg n="788">
+                            <q>AEQVI BONIQVE  FACIO </q>
+                            <supplied>facio</supplied> hoc, quod tu mihi ut facerem imperas,
+                            etpropterea aequum et bonum facio. </seg>
+                        <seg n="790">
+                            <q>SED ILLVD QVOD TIBI DIXI DE ARGENTO QVOD ISTA DEBET BACCHIDI ID NVNC
+                                REDDENDVM EST ILLI </q> quod supra nos diximus, ut euentus impleret
+                            consilium, hic nunc conficit, siquidem, postea<supplied>quam</supplied>
+                            cognita puella est, iam nunc debitor Chremes factus est, cum constet eam
+                            arrabonis nomine apud meretricem collocatam. </seg>
+                        <seg n="793">
+                            <q>NVM MIBI DATVM EST NVM IVSSI </q> ne dominus hac responsione uti
+                            posset, ut non redderet argentum seruus callidus occurrit 'non potes
+                            dicere istud non te accepisse neque iussisse neque te inuito filiam
+                            oppignerare potuisse'. </seg>
+                        <seg n="796">
+                            <q>SVMMVM IVS SAEPE SVMMA EST MALITIA  </q> id enim, quod datum est,
+                            utique reddendum est. sed iure cautum est, ut filia quicquid acceperit
+                            uel filiae nomine datum fuerit, quae in familia est, non recte datum
+                            uideatur. itaque aequitas est, ut debitum solui debeat [[(α) sed ille
+                            renititur a causa, quod non debeat, et fit controuersia ex negotio. -
+                                <q>SVMMVMIVS </q> uulgo dicitur 'qui plus potest, peius facit'.]],
+                            ius est, ut sic datum reddatur: ita summum ius summa malitia est. </seg>
+                        <seg n="798">
+                            <q>OMNES TE IN LAVTA ET BENE ACTA PARTE PVTANT </q> hoc a persona:
+                            etenim est iussus potius reddere quam negare. </seg>
+                    </p>
+                </div>
+                <div type="scene" n="6">
+                    <p><seg n="805">
+                            <q>NVLLA EST TAM FACILIS RES QVIN DIFFICILIS SIET QVAM INVITVS FACIAS
+                            </q> nunc adulescens Clitipho redit grauiter ferens, quod ab amica sit
+                            exclusus: 'omnis res difficilis fit quam facias inuitus: etiam si
+                            facilis sit, ex animo facientis habet maximam difficultatem. huc
+                            accedit, quod mihi praeter illum laborem, quem habui, uehementer timori
+                            est, ne iterum excludat, ne accedam ad Bacchidem'. </seg>
+                        <seg n="814">
+                            <q>PROTERVITAS </q> asperitas [[(α) uel superbia.]] et impudentia.
+                            -</seg>
+                        <seg n="816">
+                            <q>NE ME ISTVC ET TE PRIVS AVDIVSSE GAVDEO </q>
+                            <supplied>gaudeo</supplied>, quod istuc ex te prius audiui, unde me
+                            laesisti, antequam tibi argentum dedi, quod daturus fui. </seg>
+                        <seg n="818">
+                            <q>QVID IGITVR DICAM VIS TIBI </q> quid enim possum tibi dicere, cum
+                            mihi amicam adduxeris, quam non liceat tangere? bene cito longe factus
+                            est adulescens ab iniuria, posteaquam comperit argentum iam paratum. - </seg>
+                        <seg n="825">
+                            <q>DEAMO </q> ualde amo. [[(α) compositum sicut redamo.]] </seg>
+                        <seg n="827">
+                            <q>QVA CAVSA ID FIAT OBSECVNDATO IN LOCO </q> qua causa fiat, noli
+                            quaerere: tantum obtempera et obsequere. </seg>
+                        <seg n="826">
+                            <q>CAVE QVICQVM ADMIRATVS SIES </q> [[(α) id est: uide ne prae nimio
+                            gaudio admireris id tibi patrem praecipere, sed quasi nescius
+                            suspicionem eius a te dolo amoue.]] ne admiratione quasi nescius
+                                <supplied>sis</supplied> de suspicione patris falsum esse quod
+                            diximus. – </seg>
+                        <seg n="828">
+                            <q>LOQVITOR PAVCVLA </q> ne ex sermonibus tuis nascatur ulla suspicio.
+                            [[(α) nam secundum modum rei, de qua loquimur, interdum
+                            diminuimus.]]</seg>
+                    </p>
+                </div>
+                <div type="scene" n="(7)">
+                    <p><seg n="830">
+                            <q>DIXI PLERAQUE OMNIA </q> sicuti supra diximus in Andria 'omnia'
+                            abundare et 'pleraque' significationem suam propriam continere. </seg>
+                        <seg n="832">
+                            <q>SEQVERE ME HAC OCIVS </q> posteaquam argentum traditum est, continuo
+                            hunc adulescentem uocat seruus, ne aliquid aut ex admirationeaut
+                            locutione suspicionis pater possit accipere. </seg>
+                        <seg n="834">
+                            <q>NAM NIHIL EST ILLIC QVOD MOREMVR DIVTIVS </q> pulchre adiectum, ut
+                            omnino suspicio tolleretur, non esse amicam Clitiphonis, siquidem non
+                            diutius illic moraturus est. </seg>
+                        <seg n="835">
+                            <q>MINAS QVIDEM DECEM HABET A ME FILIA </q> ut consuetudo patris semper
+                            est: de damnis cogitant, tametsi filiis dent. -  </seg>
+                        <seg n="836">
+                            <q>QVAS PRO HORTAMENTIS ESSE NVNC DVCO DATAS '</q> hortamentis' hoc est
+                            nutrimentis: hortatores enim dicuntur equorum, qui nutriunt. denique
+                            aliud est </seg>
+                        <seg n="837">
+                            <q>HASCE ORNAMENTIS CONSEQVENTVR </q> quae ornamentis dabuntur. </seg>
+                        <seg n="838">
+                            <q>PORRO HAEC TALENTA </q> [[(α) talentum genus est ponderis, quod habet
+                            in se <q>LXII </q> aut CXX libras.]] <q>DOTIS ADPOSCENT DVO </q>
+                            <supplied>duo</supplied> talenta dotis dabuntur. </seg>
+                        <seg n="839">
+                            <q>QVAM MVLTA IVSTA ET INIVSTA FIVNT </q> siquidem nunc relictis omnibus
+                            rebus quaerendus mihi est aliquis, cui meo labore inuenta dare possim,
+                            ut filiam meam ducat uxorem.</seg>
+                    </p>
+                </div>
+                <div type="scene" n="8">
+                    <p><seg n="842">
+                            <q>MVLTO OMNIVM ME NVNC FORTVNATISSIMVM FACTVM PVTO ESSE GNATE CVM TE
+                                INTELLEGO RESIPISSE </q> haec scaena actionem tenet, quippe
+                            Menedemus gaudet plurimum, quodfilium uidet et integris moribus et
+                            uxorem ducere eam uelle, quae honestissimi uiri filia sit. et quod dixit
+                            'cum te  intellego resipisse', quasi hoc nesciat, quod eadem puella sit
+                            quam amauerat, quae nunc filia sit Chremetis, aut dissimulat, quod quasi
+                            a meretrice animum filius ad nuptias transtulerit, aut errat ex dolis
+                            serui. credit Chremes interpellatum Menedemum a filio esse, sed non uere
+                            ut uxorem duceret, sed ut nuptiarum gratia argentum a patre susciperet. </seg>
+                        <seg n="845">
+                            <q>SERVA QVOD IN TE EST FILIVM ET ME ET FAMILIAM </q> petens nuptias
+                            filio suo posteritatem respicit totam. </seg>
+                        <seg n="848">
+                            <q>QVAESO QVID TV HOMINIS ES </q> redigere uult in memoriam Chremes
+                            Menedemo. arguit igitur, quod ueluti stultus non intelligat, quod de
+                            dolo nunc agatur. </seg>
+                        <seg n="852">
+                            <q>NEMPE HAEC QVAE APVD TE EST CLITIPHONIS EST AMICA</q> ut facile
+                            docere possit senem non uere ad nuptias peti filiam suam, sed uti
+                            nuptiarum gratia adulescenti dari possit argentum, commemorat 'nempe
+                            haec, quae apud te est, Clitiphonis amica est', uti ex his, quae apud
+                            eam gesta sunt, sciat Menedemus esse fallaciam. quod refert illi ille
+                            qui nescire crederetur Chremes </seg>
+                        <seg n="856">
+                            <q>ID EST PROFECTO ID AMICAE DABITVR, </q> uel confirmantis
+                            pronuntiatione accipi potest uel quasi cum affirmatione interrogantis,
+                            ut iuste conclusum sit [[(α) nam interrogatio interdum ad negatiomem,
+                            interdum ad affìrmationem dirigitur.]] <q>SCILICET DATVRVM. </q>
+                        </seg>
+                        <seg n="858">
+                            <q>QVIDVIS TAMEN IAM MALO QVAM HVNC AMITTERE </q> licet damnum
+                            intelligat senex et deceptus de gaudio sit, tamen memor doloris pristini
+                            et calamitatis omnia uult sustinere quam id quod passus estrursus pati. </seg>
+                        <seg n="859">
+                            <q>QVID NVNC RENVNTIEM ABS TE RESPONSVM CHREME </q> quid ergo uis
+                            renuntiem filio abs te esse responsum, ne intelligat me hoc
+                            intellexisse, quod non uere nuptias petit? - </seg>
+                        <seg n="865">
+                            <q>POSTREMO ETIAM SI VOLES DESPONSAM QVOQVE ESSE DICITO </q> petitionis
+                            uxorum nomina haec sunt: nam primo conuenta esse dicitur, deinde pacta,
+                            tertio desponsata, quarto uxor. ita, uicinum nomen iam petitionis
+                            ostenderet circa nuptias, dixit 'postremo desponsam quoque esse dicito':
+                            hoc enim uicinum ad uxorem. nam supra 'pacta' dicitur, ut est apud
+                            Virgilium'et pactae coniugis ostro'. denique primo Menedemus cum
+                            audisset Chremetem'dic conuenisse, egisse te de nuptiis', quoniam
+                            conuentae nomen dixerat, quod longe nomen est positum, ita quaesiuit
+                            'dicam. quid deinde ?', quasi hoc parum esset. quod cum audisset
+                            Chremes, 'postremo' inquit 'si uoles, desponsam quoque esse dicito'. hac
+                            responsione intelligimus sic iam propinquam esse appellationem ad
+                            uxorem.</seg>
+                        <seg n="869">
+                            <q>ISTIVS OBSATVRABERE </q> facile eius fastidium habere poteris. </seg>
+                        <seg n="873">
+                            <q>NAM TE SCIENTE FACIAM QVICQVID EGERO </q> quodcumque egero, faciam te
+                            sciente, hoc est non te ignaro.</seg>
+                    </p>
+                </div>
+            </div>
+            <div type="act" n="V">
+                <div type="scene" n="1">
+                    <p><seg n="874">
+                            <q>EGO ME NON TAM ASTVTVM </q> haec scaena coniecturalem statum continet
+                            propterea, quoniam argumentis collectum est Clitiphonem amicam habere
+                            meretricem. hoc  ut probari possit, argumenta dicentur, et probari habet
+                            ipsi Chremeti. denique sic sumpsit exordium a persona sua et apersona
+                            Chremetis: 'denique' inquit 'non tam dico perspicacem' hoc est acutum et
+                            perspectatorem rerum. </seg>
+                        <seg n="876">
+                            <q>HOC MIHI PRAESTAT </q> in hoc me antecedit. [[(α) </seg>
+                        <seg n="877"> 'Caudex' est truncus arboris: conuersa o in au fit pro codex
+                            caudex, sicut pro cote cautis. 'stipes' similiter est truncus cuiuslibet
+                            ligni, et declinatur stipes stipitis; stipes uero stipis est praebenda
+                            militum. 'asinus' dicitur quasi sine mente, quia νοῦς mens. 'plumbeus' a
+                            plumbo, id est grauis.]] sed hic παραπροσδοκία est': ut peius eum
+                            tractet, in se dicit multa maledicta </seg>
+                        <seg n="877b">
+                            <q>CAVDEX STIPES ASINVS PLVMBEVS. </q> haec singula pronuntianda sunt
+                            [[(α) per asteismon.]], uti stulti uis exprimi possit. </seg>
+                        <seg n="878">
+                            <q>IN ILLVM NIHIL POTEST </q> hoc est quod supra dixi contra opinionem
+                            dictum, nam adiecit <q>EXSVPERAT STVLTITIA EIVS </q> [[(α) id est
+                            prudentia per contrarium, ut sperare dixit pro timere per acyrologiam.]]
+                                <q>HAEC OMNIA.</q>
+                        </seg>
+                        <seg n="882">
+                            <q>SED INTERIM QVID ILLIC IAMDVDVM GNATVS CESSAT CVM SYRO </q> iam
+                            sollicitum Chremes habet Syrum tarde reuerti, maxime cum ab ipsis
+                            audierit 'cito reuertemur, nam nihil est quod illic moremur diutius'. </seg>
+                        <seg n="887">
+                            <q>VVLTVS QVOQVE HOMINVM FINGIT SCELVS </q> adhuc perseuerat Chremes, ut
+                            credat a Syro ad Menedemum compositam esse fallaciam ita, ut et uultus
+                            hominum fingat sceleratissimus. </seg>
+                        <seg n="889">
+                            <q>SI MAGIS NORIS PVTES </q> hic iam aperit ueritatem Menedemus: 'magis
+                            qualis sit Syrus intelligas, si magis quae fecerit recognoscas'. </seg>
+                        <seg n="890">
+                            <q>MANE HOC PRIMVM SCIRE EXPETO </q> cum narrare uellet Menedemus, ut
+                            crederet Syrum aduersus Chremetem potius insidias tetendisse, ipse
+                            intercedit et quaerit, quidnam perdiderit. quod negatum a Menedemo est,
+                            unde se mirari uehementer dicit, quod haec non fuerit suspicatus. </seg>
+                        <seg n="898">
+                            <q>SED ILLE TVVM QVOQVE SYRVS </q> hic iam aperte prorumpit in
+                            narrationem: 'ille' inquit 'Syrus tuum filium mire finxit, ut amicam
+                            eius tu Bacchidem suspicari non possis'. haec argumenta colligit a
+                            factis </seg>
+                        <seg n="900">
+                            <q>MITTO IAM OSCVLARI ATQVE AMPLEXARI; </q> deinde a loco, quod in
+                            ultimis aedibus retro conclaue positum sit, quo eis intro latus est
+                            [[(α) id est intro missus est]] lectus - utique discessio haec longe a
+                            conspectu multorum posita ideo sumpta conspicitur, ut magis facinus
+                            celaretur -; deinde, quod ingressi sunt solus Clitipho et sola Bacchis,
+                            [[(α) haec dicens a praecedentibus argumentatur quid consecutum sit,
+                            scilicet cucubitus.]] <supplied>ut esset</supplied> utique duorum
+                            coniunctio sine arbitro, quae nisi per uenerem esse
+                                <supplied>non</supplied> potuisset;deinde quodabiere intro, operuere
+                            ostium, quod Clinia praesens haec fieri uidebat: fieri enim non potest,
+                            ut, si amica Cliniae esset, ipso praesente in interiorem partem cum
+                            adulescente eadem meretrix pergeret. qua re probata Chremes uehementer
+                            exclamat memor cenae datae, ut, si filii esset amica Bacchis, decem uix
+                            dierum dicat esse unde familiam sustentet. </seg>
+                        <seg n="910">
+                            <q>QVID ISTVC TIMES QVOD ILLE OPERAM AMICO DAT SVO</q> quoniam inscitia
+                            se rem probatam habere Menedemus illudit: 'quid emim, si ille amico
+                            operam dat suo, ne uidear ego suspicari? adeo fortasse, ut facilius mihi
+                            uerba dentur, haec facta sunt'. </seg>
+                        <seg n="915">
+                            <q>MERITO MIHI NVNC EGO SVSCENSEO </q> hic iam ad argumenta, quae a
+                            Menedemo dicta sunt, colligit alia Chremes de praeterito, quae uiderit,
+                            quod in sinum meretricis manum inserere depreheusus adulescens est. </seg>
+                        <seg n="919">
+                            <q>NON IAM </q> affectio illa est irascentis, de qua saepe diximus. ut
+                            'quos ego'. </seg>
+                        <seg n="920">
+                            <supplied>
+                                <q>NON TIBI EGO EXEMPLI SATIS SVM</q>
+                            </supplied> non ego tibi exemplum [[(α) paradigma est ad deterrendum
+                            dictum.]] esse debebam? - </seg>
+                        <seg n="923">
+                            <q>FORIS SAPERE TIBI NON POSSE </q>
+                            <supplied>
+                                <q>AVXILIARIER</q>
+                            </supplied> succurrere. </seg>
+                        <seg n="925">
+                            <q>FAC TE PATREM ESSE VT SENTIAT </q> comoediarum uice uersa sunt omnia,
+                            nam ille qui accipiebat ante consilium, nunc dare coepit: moribus enim
+                            per comoediam expressis humana hominum uita declaratur. – </seg>
+                        <seg n="929">
+                            <q>QVAM HIC PER FLAGITIVM AD INOPIAM REDIGAT PATREM </q> immo discedat
+                            potius, quam per flagitium ad paupertatem me redigat: nam si illi ego
+                            sumptus subministrauero, ad rastros sum non dolore sed paupertate
+                            rediturus. </seg>
+                        <seg n="933">
+                            <q>DIFFICILEM OSTENDIS TE ESSE </q> uide quanta incommoda pati habeas,
+                            nisi prospicis: nam te aridum et difficilem demonstrabis et tamen ueniam
+                            dabis et id erit ingratum. </seg>
+                        <seg n="937">
+                            <q>DOTIS DICAM TE DIXISSE FILIO </q> proprium iuris est uerbum, cum
+                            dicitur dos, quod exprimit <supplied>dat</supplied>ur. -</seg>
+                        <seg n="938">
+                            <q>QVID OBTICVISTI </q> posteaquam dos petita est, Chremes diu
+                            deliberauit consilium quaerens, non quo summam quaereret dotis. quod
+                            intelligi datur ex sequentibus, cum promissa dote adiunxit 'si me uis
+                            saluum, dicito me omnia bona dotis dixisse': aliter enim filium corrigi
+                            posse non credit, nisi dotis nomine omnia bona filiae promisisse
+                            uideretur, unde crederet filius exheredem se. denique 'hoc' inquit
+                            'mirari te simulato, ut ad eius notitiam ueniat'. quam quidem rem cum
+                                <supplied>non</supplied> intellexisset Menedemus, explanat se
+                            idcirco promisisse, ut animum adulescentis luxuria et lasciuia
+                            diffluentem inopia retunderet et ad integram frugem necessitate
+                            reuocaret. </seg>
+                        <seg n="949">
+                            <q>DICTIS CONFVTABITVR </q> solis sermonibus male tractabitur. </seg>
+                        <seg n="950">
+                            <q>SYRVM VERO </q> cum utique maiora tormenta seruo comminatus sit
+                            impositurum, tamen irascentis more quid esset facturus exprimere non
+                            potuit. - <q>ADEO EXORNATVM </q> [[(α) id est comptum, per ironiam.]]
+                                <q>DABO </q> supradiximus 'exornatum' et ad poenas posse aptari. </seg>
+                        <seg n="951">
+                            <q>ADEO DEPEXVM </q> hoc est compositum poenis et tormentis. </seg>
+                        <seg n="953">
+                            <q>AVDERET FACERE VIDVAE MVLIERI </q> facilis enim illusio est in eam,
+                            quae et mulier est et uidua.</seg>
+                    </p>
+                </div>
+                <div type="scene" n="2">
+                    <p><seg n="954">   <q>ITANE TANDEM QVAESO EST MENEDEME VT IAM BREVI SPATIO PATER
+                                OMNEM DE ME EIECERIT ANIMVM PATRIS </q> haec scaena ad
+                            satisfaciendum plurimum ualet ac ueniam petit. </seg>
+                        <seg n="956">
+                            <q>NAM QVOD OB FACTVM </q> huius poenae quae tanta causa est? </seg>
+                        <seg n="957">
+                            <q>VVLGO FACIVNT </q> quod meretrices omnis adulescentia amat. [[(α) et
+                            argomentatur, quia quod omnibus licet uni licet.]] </seg>
+                        <seg n="961">
+                            <q>QVICQVID EGO HVIVS FECI </q> hoc est: quicquid ego tale feci. </seg>
+                        <seg n="962">
+                            <q>ET SVAVIA IN PRAESENTIA </q> [[(α) id est ratione.]] <q>QVAE ESSENT
+                                PRIMA HABERE </q> ut tantum praesentia cogitares neque de futuris
+                            curam gereres. </seg>
+                        <seg n="965">
+                            <q>VBI CVI DECVIT PRIMO TIBI NON LICVIT DARE </q> hoc enim optimum
+                            parentibus semper est filiis bona tradere. sed hoc cum mihi non
+                            licuerit, proximum tibi qui erat <supplied>adii</supplied>, hoc est qui
+                            sororem tuam ducebat uxorem. </seg>
+                        <seg n="967">
+                            <q>VBI TVAE STVLTITIAE SIT PRAESIDIVM </q> circa uictum atque uestitum
+                            et tectum habeas, quo te recipias. </seg>
+                        <seg n="973">
+                            <q>QVAE ISTA EST PRAVITAS QVAEVE AMENTIA </q> seruus iram domini in
+                            personam suam inclinare cupiens, ut adulescenti possit succurrere,
+                            interponit haec uerba. - </seg>
+                        <seg n="976">
+                            <q>NEC PRECATOREM PARARIS </q> ne, inquit, ut assolent serui cum
+                            delictis suis, uelis et tu habere precatorem, qui pro te roget: uobis
+                            enim non irascor, cum multa feceritis. ita aequum est, et mihi ut uos
+                            non irascamini. </seg>
+                        <seg n="978">
+                            <q>ABIIT ROGASSE VELLEM </q> post iracundiam apta sententia est: quo
+                            facilius terreret, senex discessit. </seg>
+                        <seg n="980">
+                            <q>ADEON REM REDISSE VT PERICVLVM ETIAM FAMIS SIT MIHI </q> optimum
+                            equidem sensum ex necessitate collectum in dolore adulescens collocauit,
+                            quippe cum postremum omnium malorum fames sit. denique'obscenamque
+                            famem, quae prima pericula, uito'. </seg>
+                        <seg n="985">
+                            <q>SIC EST NON ESSE HORVM TE ARBITROR </q> diu finxit se nescio quid
+                            cogitare seruus, repperit tamen astute. consulit, uti dicat hunc
+                            adulescentem filium non esse, et quaerit argumenta, quod, antequam
+                            puella esset inuenta, hunc diligebant, posteaquam inuenta nunc est ea,
+                            exheredatur. adicit et illud: cum matres semper pro filiis esse
+                            consueuerint, nunc in iracundia patris non rogat mater. compellit igitur
+                            adulescentem, uti parentes roget: aut enim precibus ad misericordiam
+                            commoturus est ambos aut suos parentes facile cognoscet. sed hoc
+                            inuentum esse ex posteriore oratione cognoscimus, cum dixit </seg>
+                        <seg n="996">
+                            <q>SATIS RECTE HOC MIHI IN MENTEM VENIT. - </q>
+                        </seg>
+                        <seg n="997">
+                            <q>NAM CVM ADVLESCENS  IN MINIMA SPE SITVS ERIT TAM FACILLIME PATRIS
+                                PACEM IN LEGES CONFICIET SVAS </q> cum enim in periculo maiore
+                            positus fuerit filius, tam facile parentibus potest mouere pietatem uel
+                            pacem ab iracundo patre suscipere. 'pacem' autem ueniam, ut Virgilius
+                            'pacemque  per aras exquirunt' beniuolentiam, ueniam. </seg>
+                        <seg n="999">
+                            <q>AC SYRO NIHIL SIT GRATIAE </q> atque adeo certus sum, ex hoc consilio
+                            quod in gratiam citoest reuersurus filius, ut fortasse etiam, cum
+                            concesserit, uxorem ducere compellatur et nihil Syro dari possit. </seg>
+                        <seg n="1002">
+                            <q>SENI NOSTRO FIDEI NIHIL HABEO </q> non credam seni quasi ignoscenti
+                            itaque precatorem Menedemum praeparabo. </seg>
+                    </p>
+                </div>
+                <div type="scene" n="3">
+                    <p><seg n="1003">
+                            <q>PROFECTO NISI CAVES </q> coercet hic uxor maritum, quod
+                            exheredationem filii uelit errore ex illo consilio. sexus iam continuo
+                            quasi morum <supplied>con</supplied>uicium est, ut alibi'tu, inquam,
+                            mulier, quae me omnino lapidem, non hominem putas'. aliud tamen est
+                            amplius circa naturam <supplied>con</supplied>uicium 'mulier' quam
+                            'femina', <supplied>nam 'femina'</supplied> sexus est, 'mulier' et
+                            aetas. -</seg>
+                        <seg n="1008">
+                            <q>AT SI ROGEM IAM QVID EST QVOD PECCEM </q> quam stulta sis, perspice:
+                            quid faciam uides, cur faciam nescis. at si te interrogem quamobrem
+                            faciam, profecto nescias: unde stulte resistis. </seg>
+                        <seg n="1010">
+                            <q>IMMO SCIS POTIVS QVAM REDEAT AD INTEGRVM EADEM ORATIO </q> ad
+                            narrationem rediit et causam consensit illam scire. </seg>
+                        <seg n="1014">
+                            <q>SVBDITVM SE SVSPICATVR </q> hic iam intelligendum uenisse
+                            adulescentem et matri, hoc est mitiori de parentibus, suamsuspicionem
+                            indicasse. - </seg>
+                        <seg n="1018">
+                            <q>QVOD FILIA EST INVENTA </q> exinde putas posse inueniri hunc esse
+                            filium meum, quod et inuenta est filia, hoc est eodem pacto ut et hic
+                            noster, quemadmodum et illa inuenta est, inueniri possit. </seg>
+                        <seg n="1023">
+                            <q>REM CVM  VIDEAS CENSEAS </q> cum uideas, ut ex uultu mores eius
+                            agnoscas.</seg>
+                    </p>
+                </div>
+                <div type="scene" n="4">
+                    <p><seg n="1024">
+                            <q>SI VMQVAM VLLVM FVIT TEMPVS MATER </q> ad commouendam pietatem
+                            commemorat praeteritos affectus, quo sibi facilius possit ignosci, ut
+                                '<supplied>si</supplied> bene quid de te merui fuit aut tibi
+                            quicquam dulce  meum'. -</seg>
+                        <seg n="1033">
+                            <q>GERRO INERS </q> leuis. gerras pisces dicunt nullius uel saporis uel
+                            momenti ad cibos. tractum hoc autem est a Syracusanis, qui omnia
+                            machinamenta, quae a Marcello aduersus ciuitatem fìebant,
+                                <supplied>ut</supplied> magno impetu eam deiceret, eadem gerras
+                            appellabant. - <q>HELLVO </q> inuasor et qui plurimum consumat. </seg>
+                        <seg n="1034">
+                            <q>GANEO </q> tabernis operam dans et conuiuiis turpioribus. –</seg>
+                        <seg n="1039">
+                            <q>QVOD ABEST NON QVAERIS </q> bene circa uerba lusit: 'quod habes'
+                            inquit 'quaeris' hoc est parentes, 'at uero quod non habes, illud non
+                            quaeris' hoc est quemadmodum patri obsequaris. [[(α) </seg>
+                        <seg n="1039b">
+                            <q>QVAERIS QVOD HABES </q> scilicet parentes. et est compositum ex
+                            contrariis, quae figura dicitur antitheton uel parison, id est aequatio
+                            sententiae.]] </seg>
+                    </p>
+                </div>
+                <div type="scene" n="5">
+                    <p><seg n="1045">
+                            <q>ENIMVERO CHREMES NIMIS GRAVITER CRVCIAT ADVLESCENTVLVM NIMISQVE
+                                INHVMANE </q> procedit et Menedemus, ut omnis persona in postrema
+                            parte praesens sit. uenia datur filio, ut cunctus error possit absolui.
+                            adhuc tamen perseuerans Chremes conuenit Menedemum, ut filiam ducat et
+                            eius dotis quod dictum est confirmet: uult enim diu rogari, ut longis
+                            precibus exoratus facile filium confirmet. - </seg>
+                        <seg n="1056">
+                            <q>AD ME RECIPIO </q> ego facio, ut hic promittat. -</seg>
+                        <seg n="1058">
+                            <q>HAEC DVM INCIPIAS GRAVIA SVNT </q> in exordio habent haec semper
+                            difficultatem: ubi aggressus fueris, facilia fiunt. </seg>
+                        <seg n="1060">
+                            <q>EGO TIBI ILLAM DABO LEPIDAM </q> hic et illudit, ut ioco tristitia
+                            tanta soluatur, cum promittit filiam nescio cuius admodum foedam. </seg>
+                        <seg n="1062">
+                            <q>CAESIAM </q> oculis intortis. [[(α) uel caesuras id est rugas
+                            habentem, aut lenticulosam.]] - <q>SPARSO ORE </q> aut dissoluto aut
+                            'ore' dirit uultu, et significat 'sparso' asperso, quasi: maculis
+                            quibusdam infecto uultu. [[(α) </seg>
+                        <seg n="1063">
+                            <q>VT ELEGANS EST </q> id est prudens in discretione puellarum, quia </seg>
+                        <seg n="1065"> IBI id est in hac electione est totus. quod uero subiunxit
+                                <q>ARCHONIDIS FILIAM, </q> aut Bacchidem dicit aut aliam quamlibet,
+                            ad quam adulescens contumeliis patris appulerat animum.]] </seg>
+                        <seg n="1066">
+                            <q>SYRO VT IGNOSCAS VOLO QVAE MEA CAVSA FECIT </q> petit ueniam etiam
+                            Syro, sed non omnium facto, ne infinitum esset quod petere uideretur,
+                            sed ut ea ignoscat 'quae mea causa fecit'.</seg>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
