@@ -33,14 +33,14 @@
       </fileDesc>
       <encodingDesc>
          <refsDecl>
-         <cRefPattern n="chapter" matchPattern="(\w+).(\w+)"
+            <cRefPattern n="chapter" matchPattern="(\w+).(\w+)"
             replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:div[@n='$2'])">
             <p>This pointer pattern extracts chapters</p>
-         </cRefPattern>
-         <cRefPattern n="book" matchPattern="(\w+)"
+            </cRefPattern>
+            <cRefPattern n="book" matchPattern="(\w+)"
             replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])">
             <p>This pointer pattern extracts books</p>
-         </cRefPattern>
+            </cRefPattern>
          </refsDecl>
          <projectDesc>
             <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
