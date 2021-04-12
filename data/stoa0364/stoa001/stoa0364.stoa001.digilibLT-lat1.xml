@@ -33,13 +33,13 @@
       </fileDesc>
       <encodingDesc>
          <refsDecl>
-            <cRefPattern n="scholia" matchPattern="(\w+).(\w+)"
-               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:div[@n='$2'])">
-               <p>This pointer pattern extracts scholiae</p>
+            <cRefPattern n="chapter" matchPattern="(\w+).(\w+)"
+            replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:div[@n='$2'])">
+            <p>This pointer pattern extracts chapters</p>
             </cRefPattern>
             <cRefPattern n="book" matchPattern="(\w+)"
-               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])">
-               <p>This pointer pattern extracts books</p>
+            replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])">
+            <p>This pointer pattern extracts books</p>
             </cRefPattern>
          </refsDecl>
          <projectDesc>
@@ -88,8 +88,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="Etienne Ferrandi" when="2021-04-12">Correction du XPath et ajout de la
-            langue</change>
+         <change who="Etienne Ferrandi" when="2021-04-12">Correction du XPath et ajout de la langue</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -1876,6 +1875,7 @@
                      uirgo</hi> dicitur — a matre Latona — et <hi rend="italic">Plutonia
                   coniux</hi>. <milestone unit="par" n="9"/> Graece Hecate dicitur. </p>
             </div>
+
             <div type="cap" n="12">
                <head> Fabula Apollinis uel Solis.</head>
                <p>
@@ -1896,6 +1896,7 @@
                   Philogeus terram amans dicitur, eo quod uespere occasibus sol pro<del>ti</del>nus
                   incumbat. </p>
             </div>
+
             <div type="cap" n="13">
                <head> De nouem Musis.</head>
                <p>
@@ -1910,6 +1911,7 @@
                   instructionem, quae psalterium instituit; Vrania, id est caelestis, quae
                   astrologiam inuenit; Calliope, id est optimae uocis, quae litteras docuit. </p>
             </div>
+
             <div type="cap" n="14">
                <head> Fabula Apollinis et corui et Coronide filie Phlegyae.</head>
                <p>
@@ -1933,6 +1935,7 @@
                   antea candidus, pro incommodo nuntio eum nigrum fecisse et Scin sagittis
                   confixisse. </p>
             </div>
+
             <div type="cap" n="15">
                <head> Fabula Apollinis et Daphni<supplied>di</supplied>s seu lauri.</head>
                <p>
@@ -1947,6 +1950,7 @@
                   disco, ab irato Borea eodem disco est interemptus et mutatus in florem nominis
                      <supplied>sui</supplied>.</p>
             </div>
+
             <div type="cap" n="16">
                <head> Fabula Apollinis et Heridani.</head>
                <p>
@@ -1964,6 +1968,7 @@
                   Qui expulsus boues Admeti regis per quattuor annos pauit super Euphratem fluuium,
                   ubi quam plures habuit filios. </p>
             </div>
+
             <div type="cap" n="17">
                <head> Fabula Mercurii et Maie matris eius.</head>
                <p>
@@ -1989,6 +1994,7 @@
                   capite canino fingunt, haec ratio dicitur, quod inter omnia animalia canis
                   sagacissimum genus et perspicax habeatur. </p>
             </div>
+
             <div type="cap" n="18">
                <head> Fabula Semele et filii eius Liberi patris.</head>
                <p>
