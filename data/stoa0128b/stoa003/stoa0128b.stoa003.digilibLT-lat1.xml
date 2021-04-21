@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <refsDecl n="CTS"><cRefPattern n="unknown" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:p[@n='$1'])"><p>This pointer pattern extracts unknown</p></cRefPattern></refsDecl>
+         <refsDecl n="CTS"><cRefPattern n="0" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])"><p>This pointer pattern is a "fake pattern" to make the document match the CapiTainS requirements, because the document is not properly divisible for an effective CRef</p></cRefPattern></refsDecl>
          <projectDesc>
             <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
             <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
@@ -74,13 +74,16 @@
             <language ident="la">Latino</language>
          </langUsage>
       </profileDesc>
+      <revisionDesc>
+         <change who="Krister Kruusmaa" when="2021-04-08">Added a "fake" CRefPattern, checked language and URN</change>
+      </revisionDesc>
    </teiHeader>
 
    <text>
 
 
       <body xml:lang="lat" n="urn:cts:latinLit:stoa0128b.stoa003.digilibLT-lat1">
-         <div>
+         <div type="0" n="1">
             <p>
                <milestone unit="page" n="p. 83 Helm"/> Expetebat quidem, Leuitarum sanctissime, nostri
      temporis qualitas grande silentium, ut non solum mens expromptare desisset quod didicit,
