@@ -33,9 +33,9 @@
       </fileDesc>
       <encodingDesc>
          <refsDecl n="CTS">
-            <cRefPattern n="unknown" matchPattern="(\w+)"
+            <cRefPattern n="chapter" matchPattern="(\w+)"
                replacementPattern="#xpath(/tei/text/body/div/div/div[@n='$1']))">
-               <p>This pointer pattern extracts unknown</p>
+               <p>This pointer pattern extracts chapters</p>
             </cRefPattern>
          </refsDecl>
          <projectDesc>
