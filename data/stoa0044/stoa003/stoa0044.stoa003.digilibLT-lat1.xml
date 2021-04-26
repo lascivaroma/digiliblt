@@ -80,6 +80,11 @@
             <language ident="lat">Latino</language>
          </langUsage>
       </profileDesc>
+      <revisionDesc>
+         <change who="Vincent Giovannangeli" when="2021-04-26">Suppression de la seconde ligne qui empêchait la validation du fichier, 
+            déplacement de la balise div fermante qui gênait le Passage level parsing, ajout de la langue, correction de la balise cRefPattern, 
+            du Xpath et ajout d'un revisionDesc pour indiquer l'auteur et la date de la correction</change>
+      </revisionDesc>
    </teiHeader>
 
    <text>
