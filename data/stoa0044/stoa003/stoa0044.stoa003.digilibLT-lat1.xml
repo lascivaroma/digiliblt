@@ -34,7 +34,7 @@
       <encodingDesc>
          <refsDecl n="CTS">
             <cRefPattern n="chapter" matchPattern="(\w+)"
-               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])">
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
                <p>This pointer pattern extracts chapters</p>
             </cRefPattern>
          </refsDecl>
@@ -92,7 +92,6 @@
          <div type="opus">
             <head>LIBELLVS DE VITA ET MORIBVS IMPERATORVM BREVIATVS EX LIBRIS SEXTI AVRELII VICTORIS
                <lb/> a Caesare Augusto usque ad Theodosium </head>
-         </div>
             <div type="cap" n="1">
                <p>
                   <milestone unit="par" n="1"/> Anno urbis conditae septingentesimo vicesimo
@@ -1372,6 +1371,7 @@
                   quinquagesimum apud Mediolanum excessit utramque rempublicam utrisque filiis, id
                   est Arcadio et Honorio, quietam relinquens. <milestone unit="par" n="20"/> Corpus
                   eius eodem anno Constantinopolim translatum atque sepultum est. </p>
+         </div>
          </div>
       </body>
    </text>
