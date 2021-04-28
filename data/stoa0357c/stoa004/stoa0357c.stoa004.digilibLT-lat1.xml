@@ -30,7 +30,8 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <refsDecl n="CTS"><cRefPattern n="unknown" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"><p>This pointer pattern extracts unknown</p></cRefPattern></refsDecl>
+         <refsDecl n="CTS"><cRefPattern n="scholia" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:div[@n='$2'])"><p>This pointer pattern extracts scholia </p></cRefPattern>
+            <cRefPattern n="books" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])"><p>This pointer pattern extracts books </p></cRefPattern></refsDecl>
          <projectDesc>
             <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
             <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
@@ -71,14 +72,14 @@
             <language ident="la">Latino</language>
          </langUsage>
       </profileDesc>
-  
+      <revisionDesc><change who="Emilien Arnaud" when="2021-04-28">correction du sys. de citation Capitains et des numéros des div de type="lib"; modifications de trois éléments ponctuels : ligne 5145 n=(192?) corrigé en n=192; ligne 783, n=511-13 corrigé en n=511; ligne 10603 n=f.111 corrigé en n=111 ; correction de la valeur d'attribut n de 36 schola pour cause de doublons : utilisation du suffixe a et b pour différencier première et seconde occurence </change></revisionDesc>
    </teiHeader>
 
    <text>
 
 
       <body xml:lang="lat" n="urn:cts:latinLit:stoa0357c.stoa004.digilibLT-lat1">
-         <div type="lib" n="I">
+         <div type="lib" n="1">
             <head>LIBER PRIMVS</head>
             <div type="pr" n="pr">
                <head>ARGVMENTVM LIBRI PRIMI.</head>
@@ -779,7 +780,7 @@
                <l>‘senectus ipsa morbus est’.</l> 
                <p>CONIVNXQVE MARITVM zeugma: ualuit reuocare. </p>
             </div>
-            <div type="schol" n="511-13">
+            <div type="schol" n="511">
                <p> VRBEM POVLIS VICTISQVE F • G • E • G • C • S • T • C • H • FACILEM VENTVRO C • P • qu<supplied>a</supplied>e pos<supplied>t tot</supplied> triumphorum documenta facilis tamen pr<supplied>a</supplied>eda sit Caesar<supplied>i</supplied>.</p>
             </div>
             <div type="schol" n="523">
@@ -1115,7 +1116,7 @@ Virgilius</p>
                <p>‘lasso furore’ (qui lassos facit) <foreign xml:lang="grc">μετωνυμικῶς</foreign> ut ‘maestum timorem’. </p>
             </div>
          </div>
-         <div type="lib" n="II">
+         <div type="lib" n="2">
             <head>LIBER SECVNDVS</head>
             <div type="pr" n="pr">
                <head> ARGVMENTVM LIBRI SECVNDI ‧ SIDONIVS SVBDIACONVS FECIT</head>
@@ -1196,13 +1197,13 @@ Virgilius</p>
             <div type="schol" n="25">
                <p> SED CVM MEMBRA PREMIT aut mors aut mater. </p>
             </div>
-            <div type="schol" n="27">
+            <div type="schol" n="27a">
                <p> NECDVM <supplied>EST</supplied> ILLE DOLOR SED IAM METVS • OC<supplied>C</supplied>VBAT AMENS MIRATVRQVE MALVM ‘malum’ mortem. </p>
             </div>
             <div type="schol" n="28">
                <p> CVLTVS MATRONA PRIORES D • pacis ornatum. </p>
             </div>
-            <div type="schol" n="27">
+            <div type="schol" n="27b">
                <p> NECDVM E • I • D • S • I • M • I • A • M • Q • M • <del>et</del> utrumque ad matronam refertur quae ita malis obtorpuit ut nec dolorem nec metum sentiat, sed sola ammiratione (torpescat). </p>
             </div>
             <div type="schol" n="29">
@@ -1313,7 +1314,7 @@ Virgilius</p>
             <div type="schol" n="84">
                <p> SI LIBET VLCISCI DELETE FVNERA G • ut quodam modo Galli uindicarentur de Italis, si Marius euaderet moturus bella ciuilia. </p>
             </div>
-            <div type="schol" n="85">
+            <div type="schol" n="85a">
                <p> NON ILLE FAVORE NVMINIS non est protectus in totum numinis (sui) fauore ab ira deorum. Nam postea multa passus est mala. </p>
                <p>NON ILLE FAVORE NVMINIS fauerant ei, inquid, fata non illi propitia sed nobis aduersa. Vt Virgilius</p> 
                <l>‘fatisque deum defensus iniquis’.</l>
@@ -1321,7 +1322,7 @@ Virgilius</p>
             <div type="schol" n="88">
                <p> PELAGO INIQVO <del>in<supplied>i</supplied>quo pel.</del> quoniam in mari non peri<supplied>i</supplied>t. </p>
             </div>
-            <div type="schol" n="85">
+            <div type="schol" n="85b">
                <p> HVNC CIMBRI SERVATE SENEM si ueram, Cimbri, dignam quaeritis ultionem, non de unius Mari sed de totius populi Romani nece expectate uindic<supplied>t</supplied>am. Leuis ira est, quae unius tantum sanguine uindicatur. Vltor uester est, quem uultis occidere. </p>
             </div>
             <div type="schol" n="90">
@@ -1417,13 +1418,13 @@ Virgilius</p>
             <div type="schol" n="132">
                <p> QVAE PEIOR FORTVNA POTEST deest ‘inferre’. ATQVE OMNIBVS VSO QVAE MELIOR deest ‘dare potest’. </p>
             </div>
-            <div type="schol" n="134">
+            <div type="schol" n="134a">
                <p> IAM QVOD APVT SACRI C • C • P • ‘Sacri portum’ locus inter Circeium et Laure<supplied>n</supplied>tinum agrum in quo Silla Marium adulescentem pro<supplied>e</supplied>lio superauit et in fugam Praeneste conpulit eumque obsideri iussit et ipse urbem occupauit. </p>
             </div>
             <div type="schol" n="133">
                <p> MENSOQVE HOMINIS Q • F • P • ab illo libratum est quantum boni uel mali posset mortalibus fortuna conferre. </p>
             </div>
-            <div type="schol" n="134">
+            <div type="schol" n="134b">
                <p> SACRI CECIDERE CADAVERA POR<supplied>T</supplied>VM Sacri portum dicunt quidam fuisse Laurentum. | Sacri portus locus est in urbe ubi Gaius Marius superatus a Quinto Lucretio Afel<supplied>l</supplied>a confugit et uulneratus a Pontio Tullo per cuniculum effugit Praeneste. </p>
             </div>
             <div type="schol" n="135">
@@ -1947,13 +1948,13 @@ QVIS CVM RVAT ARDVVS A • elegans metaphora, tamquam mundus Roma sit, sidera Ro
             <div type="schol" n="404">
                <p> FLVMINAQVE INGEMINI SPARGIT D • in Adriaticum mare cadit Metaurus, apud quem Asdrubal frater Annibalis cum copiis quas ad Italiam adduxerat fusus est. </p>
             </div>
-            <div type="schol" n="406">
+            <div type="schol" n="406a">
                <p> CRATVMIVM ex cuius nomine et ciuitas nuncupatur. SAPIS qui regionem Ariminensium et Rauennatium finit, qui nomen suum uicinae indidit ciuitati. Flumen etiam SENA a quo et oppidum dicitur. AVFIDVS uero fluuius iuxta Canusium impetu fertur ingenti, quem ‘lo<supplied>n</supplied>ge sonare’ dicit <supplied>H</supplied>oratius. </p>
             </div>
             <div type="schol" n="405">
                <p> VELOXQVE METAVRVS haec eiusdem regionis flumina sunt. Et quorumdam ex his nominibus etiam urbes uocantur, ut Pisaurum et Ar<supplied>i</supplied>minum, ut Sena. </p>
             </div>
-            <div type="schol" n="406">
+            <div type="schol" n="406b">
                <p> CROTVMIVMQ ‧ CAPAX <supplied>ET IVNCTVS</supplied> 
                   <supplied>S</supplied> • <supplied>I</supplied> • fluuius fluuio. </p>
             </div>
@@ -2184,10 +2185,10 @@ QVIS CVM RVAT ARDVVS A • elegans metaphora, tamquam mundus Roma sit, sidera Ro
             <div type="schol" n="528">
                <p> IAMQVE SECVTVRO altera die. </p>
             </div>
-            <div type="schol" n="532">
+            <div type="schol" n="532a">
                <p> QVAE ROMANA MANVS quod et hostes Romani essent. </p>
             </div>
-            <div type="schol" n="532">
+            <div type="schol" n="532b">
                <p> QVIBVS ARMA SENATVS non ut Caesar qui pro se dimicat. </p>
             </div>
             <div type="schol" n="536">
@@ -2220,13 +2221,13 @@ QVIS CVM RVAT ARDVVS A • elegans metaphora, tamquam mundus Roma sit, sidera Ro
             <div type="schol" n="556">
                <p> VALET INTORQVENDO DEXTERA P • * * *</p>
             </div>
-            <div type="schol" n="559">
+            <div type="schol" n="559a">
                <p> * ILLE S<supplied>OL</supplied>V<supplied>T</supplied>VM qui triumphare consueuit. </p>
             </div>
             <div type="schol" n="558">
                <p> DISCET NON ESSE <supplied>AD</supplied> BELLA F • Q • P • P • <supplied>P</supplied> • deest ‘nos’ quos creditis degenerasse. </p>
             </div>
-            <div type="schol" n="559">
+            <div type="schol" n="559b">
                <p> QVI PACEM POTVERE P • qui pacem aequo animo passi sunt. </p>
             </div>
             <div type="schol" n="560">
@@ -2253,10 +2254,10 @@ QVIS CVM RVAT ARDVVS A • elegans metaphora, tamquam mundus Roma sit, sidera Ro
             <div type="schol" n="577">
                <p> AN<supplied>T</supplied>E VIS EXACTOS QVAM QVINTIA C • O • contra ‘aetasque inpensa labori’. Dicitur enim XL diebus bellum gessisse piraticum. </p>
             </div>
-            <div type="schol" n="581">
+            <div type="schol" n="581a">
                <p> INDOMITVM REGEM Mitridatem. </p>
             </div>
-            <div type="schol" n="581">
+            <div type="schol" n="581b">
                <p> ROMANAQ • FATA MORANTEM quoniam XLVII annis cum Mitridate pugnatum est. </p>
             </div>
             <div type="schol" n="582">
@@ -2426,7 +2427,7 @@ QVIS CVM RVAT ARDVVS A • elegans metaphora, tamquam mundus Roma sit, sidera Ro
                <p> PROCVL HOC ET <supplied>I</supplied>NORBE REMOTO A • F • N • ut nemo sciret ubi Pompeius occideretur. </p>
             </div>
          </div>
-         <div type="lib" n="III">
+         <div type="lib" n="3">
             <head>LIBER TERTIVS</head>
             <div type="schol" n="1">
                <p> PROPVLIT VT CLASSEM VELIS ordo: ut propulit. ‘Propulit’ autem ‘porro inpulit’. VELIS AVSTER INCVMBENS pro aquilone, usus poetica licentia. Aquilone enim ab Italia ad Epirum nauigatur. </p>
@@ -2677,23 +2678,23 @@ QVIS CVM RVAT ARDVVS A • elegans metaphora, tamquam mundus Roma sit, sidera Ro
             <div type="schol" n="134">
                <p> VANA SPE M • H • C • ut pro re publica pereas. </p>
             </div>
-            <div type="schol" n="137">
+            <div type="schol" n="137a">
                <p> NVLLVS HONOR FACIET non tribunatus sed nec consulatus. Virgilius</p>
                <l>‘numquam anima<supplied>m</supplied> talem d<supplied>extra</supplied> h<supplied>ac</supplied>, a<supplied>bsiste</supplied> m<supplied>oueri</supplied>’.</l>
             </div>
-            <div type="schol" n="137">
+            <div type="schol" n="137b">
                <p> TE VINDICE T • R • L • ironia pronuntiandum. </p>
             </div>
             <div type="schol" n="140">
                <p> MALINT A CAESARE TOLLI ‘tolli’ antiquari. </p>
             </div>
-            <div type="schol" n="143">
+            <div type="schol" n="143a">
                <p> OBLITVS SIMVLARE TOGAM <foreign xml:lang="grc">μετωνυμικῶς</foreign> pacem. </p>
             </div>
             <div type="schol" n="142">
                <p> SEVOS CIRCVMSPICIT ENSES s<supplied>a</supplied>euituros aut certe quod enses s<supplied>a</supplied>euitiae sint. </p>
             </div>
-            <div type="schol" n="143">
+            <div type="schol" n="143b">
                <p> TVNC COTTA METELLVM I • Cotta collega Metelli. </p>
             </div>
             <div type="schol" n="145">
@@ -2971,10 +2972,10 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
             <div type="schol" n="266">
                <p> CONTENTI FECISSE DVOS de tribus. </p>
             </div>
-            <div type="schol" n="267">
+            <div type="schol" n="267a">
                <p> ERRANTES SCITIAE POPVLI Amaxobi<supplied>i</supplied>.</p>
             </div>
-            <div type="schol" n="267">
+            <div type="schol" n="267b">
                <p> VACTRVS fluuius a quo et ciuitas Bactra dicta est. </p>
             </div>
             <div type="schol" n="269">
@@ -3335,10 +3336,10 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
             <div type="schol" n="520">
                <p> ET EMERITAS REPETVNT N • A • ‘emeriti’ non senes sed militia missi. </p>
             </div>
-            <div type="schol" n="522">
+            <div type="schol" n="522a">
                <p> * * * <foreign xml:lang="grc">σώματα</foreign> percutere id est corporale aliquid, aut terra<supplied>m</supplied> aut aerem aut aliquid tale, et sic ‘radios frangere’ et inde dispergere claram lucem. </p>
             </div>
-            <div type="schol" n="522">
+            <div type="schol" n="522b">
                <p> ET LIBER NVBIB • AETER ad uisum retulit oculorum. </p>
             </div>
             <div type="schol" n="524">
@@ -3485,10 +3486,10 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
             <div type="schol" n="646">
                <p> VIX OMNIA MEMBRA T • mors sibi totum corpus uix uindicauit. </p>
             </div>
-            <div type="schol" n="658">
+            <div type="schol" n="658a">
                <p> EIECTAT SANIEM pro sanguine. </p>
             </div>
-            <div type="schol" n="658">
+            <div type="schol" n="658b">
                <p> PERMIXTVS VISCERA SANGVIS si ‘uiscere permixtus’ legimus, scilicet ‘cum uiscere’; si ‘uiscera permixtus’, id est permixta uiscera habens. </p>
             </div>
             <div type="schol" n="659">
@@ -3582,7 +3583,7 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
                <p> EXTREMA QVOD OSCVLA FVGI dum se interimit. </p>
             </div>
          </div>
-         <div type="lib" n="IV">
+         <div type="lib" n="4">
             <head>LIBER QVARTVS</head>
             <div type="schol" n="1">
                <p> AD PROCVL EXTREMIS Caesar ueniens ad Hispanias quas Lucius Afranius et Marcus Petreius et Marcus Varro Pompeiani duces cum legionibus obtinebant, superare adgressus est. PROCVL longe.</p>
@@ -3666,10 +3667,10 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
             <div type="schol" n="57">
                <p> SIDERA RESPICIENS D • P • E • ex duodecim signis arietem uult intelligi ac per hoc mensem martium. Illum autem dicit qui Frixum et <supplied>H</supplied>ellen uexit. RESPICIENS proprie, quod inuicem se signa respiciant. Ordo est autem: uernus portitor recepit calidum Titana. | SIDERA RESPICIENS quod sic inter XII signa pingatur aries ueluti retrorsum respiciens. PORTITOR pro ‘portator’. </p>
             </div>
-            <div type="schol" n="58">
+            <div type="schol" n="58a">
                <p> ATQ • ITERVM AEQVATIS uere ‘iterum’, quoniam bis in anno fit, ut solstitium. Est enim aequino<supplied>c</supplied>tium uernale <supplied>et auctumnale</supplied> sicut solstitium aestiuale et hiemale. </p>
             </div>
-            <div type="schol" n="58">
+            <div type="schol" n="58b">
                <p> ADIVSTE PONDERA LIBRE uernale aequino<supplied>c</supplied>tium: luna recedit a sole. </p>
             </div>
             <div type="schol" n="60">
@@ -3694,16 +3695,16 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
             <div type="schol" n="69">
                <p> GRAVES plen<supplied>a</supplied>e pluuiis. INCVMBERE MVNDO stare non potuerunt in meridianam plagam sed in occasum. </p>
             </div>
-            <div type="schol" n="70">
+            <div type="schol" n="70a">
                <p> SED NIMBOS RAPVERE F • quos emissurae erant si in Hispaniam agerentur. </p>
             </div>
-            <div type="schol" n="71">
+            <div type="schol" n="71a">
                <p> ET NOTOS australis. </p>
             </div>
-            <div type="schol" n="70">
+            <div type="schol" n="70b">
                <p> ARTOS septemtrionalis. </p>
             </div>
-            <div type="schol" n="71">
+            <div type="schol" n="71b">
                <p> CALPE mons Hispaniae. </p>
             </div>
             <div type="schol" n="73">
@@ -3961,22 +3962,22 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
             <div type="schol" n="253">
                <p> IVVAT ESSE NOCENTES quoniam quod fit publice licet. </p>
             </div>
-            <div type="schol" n="255">
+            <div type="schol" n="255a">
                <p> AGNOSCIS SVPEROS cogitas deos ultores esse, et pius es. </p>
             </div>
             <div type="schol" n="256">
                <p> EMATHIIS FORTVNA F • prolemsis. NEC FOCIDOS VNDIS contra Brutum. </p>
             </div>
-            <div type="schol" n="255">
+            <div type="schol" n="255b">
                <p> NEQVE ENIM TIBI MAIOR IN A • E • F • F • melior est tua fortuna in hoc pr<supplied>o</supplied>elio, ubi pius exti<supplied>ti</supplied>sti, quam in ceteris bellis in quibus tibi felicitas late successit. </p>
             </div>
-            <div type="schol" n="259">
+            <div type="schol" n="259a">
                <p> DVX CAVSAE M • ERIS quoniam non per te discissa est pax. </p>
             </div>
             <div type="schol" n="258">
                <p> HOC SIQVIDEM SOLO CIVILIS C • B • si hoc uno titulo pietatis omnia scelera possis effugere. </p>
             </div>
-            <div type="schol" n="259">
+            <div type="schol" n="259b">
                <p> POLLVTA NEFANDA AGMINA C • D • ordo: polluta agmina nefanda c<supplied>a</supplied>ede non audent duces commit<supplied>t</supplied>ere castris. </p>
             </div>
             <div type="schol" n="262">
@@ -4038,10 +4039,10 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
             <div type="schol" n="292">
                <p> IAMQ • INOPES V • deest: era<supplied>n</supplied>t. </p>
             </div>
-            <div type="schol" n="293">
+            <div type="schol" n="293a">
                <p> OCCVLTOS L<supplied>A</supplied>TICES si qui occulti essent. </p>
             </div>
-            <div type="schol" n="293">
+            <div type="schol" n="293b">
                <p> OBSTRVSAQ • F • Q • <foreign xml:lang="grc">ἀντὶ τοῦ</foreign> uenas fluminum. </p>
             </div>
             <div type="schol" n="296">
@@ -4883,7 +4884,7 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
                <l>‘uendidit hic auro patriam’.</l>
             </div>
          </div>
-         <div type="lib" n="V">
+         <div type="lib" n="5">
             <head>LIBER QVINTVS</head>
             <div type="pr" n="pr">
                <head>ARGVMENTVM LIBRI V •</head>
@@ -5125,13 +5126,13 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
             <div type="schol" n="115">
                <p> CIRREE MERENT VATES zeugma: non. TEMPLIQVE FRVVNTVR I • gaudent magi<supplied>s</supplied> sacerdotes silentio templi. </p>
             </div>
-            <div type="schol" n="117">
+            <div type="schol" n="117a">
                <p> NVMINIS AVT POENA EST M • I • R • A • P • ex quo, inquit, non consuluntur Delphica oracula, si aliquis deum se aperi<supplied>t</supplied> uati, aut moritur ut poenam det numinis recepti aut pro pretio moritur, ut quoniam sentire deum meruit hoc morte emerit. Alii sic intellegunt, quoniam si quid uates aduersi adnuntiauerint occiduntur. Ergo h<supplied>a</supplied>ec ipsa mors aut poenam dat aut precium diuinitatis, quoniam solus futura cognouit et idcirco morietur diuinam scientiam consecutus. NVMINIS AVT POENA EST M • I • R • A • P • ordo: numinis recepti mors inmatura aut poena est aut precium. </p>
             </div>
             <div type="schol" n="118">
                <p> QVIPPE STIMVLO FLVCTVQVE reddit causas quare moriantur. </p>
             </div>
-            <div type="schol" n="117">
+            <div type="schol" n="117b">
                <p> NVMINIS AVT POENA EST M • <supplied>I</supplied> R • A • P • <del>numinis</del> aut poena est uirgini ipsa mors <supplied>si</supplied> inuita descendat aut precium si uolens hoc fecerit. </p>
             </div>
             <div type="schol" n="119">
@@ -5141,7 +5142,7 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
                <p> INMOTOS TRIPODAS ‘tripodes’ dictum eo quod tribus rebus ueritas constet</p>
                <p>* * * * *</p>
             </div>
-            <div type="schol" n="(192?)">
+            <div type="schol" n="192">
                <p> * * <supplied>quod de</supplied> sorte Ap<supplied>p</supplied>i nihil dictura esset, uel quod continuo exposito deo moreretur.</p>
             </div>
             <div type="schol" n="195">
@@ -5332,7 +5333,7 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
             <div type="schol" n="282">
                <p> LICEAT MORBIS F • S • non gladio. </p>
             </div>
-            <div type="schol" n="284">
+            <div type="schol" n="284a">
                <p> QVID VELVT IGNAROS AT QVE PORTENTA <supplied>P</supplied> • occulte Caesari mortem minantur, cum et ei nomen ducis eripitur et se iam semel dicunt scelere esse pollutos. PORTENTA <foreign xml:lang="grc">ἀντὶ τοῦ</foreign> exempla. </p>
             </div>
             <div type="schol" n="285">
@@ -5345,7 +5346,7 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
                <p> 
                   <supplied>COMPERIT</supplied> ipse Caesar. NIL A<supplied>C</supplied>TVM EST BELLIS nihil in bellis ciuilibus <supplied>di</supplied>dicimus. </p>
             </div>
-            <div type="schol" n="284">
+            <div type="schol" n="284b">
                <p> QVID VELVD IGNAROS AT QVE PORTENTA P • sensus: nec nos ignoramus in armis ciuilibus tunc pr<supplied>a</supplied>emium nos mereri si quid impie fecerimus. Id est: hoc nobis pro mercede bella ciuilia reddiderunt, ut liceat nobis iam facere, si quid crudeliter egerit unus quisque. Ergo et te poterimus occidere. </p>
             </div>
             <div type="schol" n="288">
@@ -5429,13 +5430,13 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
             <div type="schol" n="323">
                <p> TANTVMQ • FVGAM M • I • bellorum. </p>
             </div>
-            <div type="schol" n="325">
+            <div type="schol" n="325a">
                <p> VADITE bene ‘uadite’, tamquam segnes ipse contempserit. </p>
             </div>
             <div type="schol" n="326">
                <p> INVENIENT HAEC ARMA MANVS nouum militem. </p>
             </div>
-            <div type="schol" n="325">
+            <div type="schol" n="325b">
                <p> MEQ • MEIS A • B • R • FATIS quasi prosperis. </p>
             </div>
             <div type="schol" n="328">
@@ -5559,13 +5560,13 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
             <div type="schol" n="380">
                <p> GARGANVS mons Apuliae. </p>
             </div>
-            <div type="schol" n="381">
+            <div type="schol" n="381a">
                <p> IPSE PETIT Caesar. </p>
             </div>
             <div type="schol" n="382">
                <p> POPVLOQVE PRECANTI INDVLGENS quod esset supplex. </p>
             </div>
-            <div type="schol" n="381">
+            <div type="schol" n="381b">
                <p> TVTVS SINE MILITE quoniam remouerat a se quos habebat infidos. </p>
             </div>
             <div type="schol" n="383">
@@ -5588,10 +5589,10 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
             <div type="schol" n="417">
                <p> SED RECTI FLVCTVS <foreign xml:lang="grc">ἀντὶ τοῦ</foreign> cursus uniformis. Ad Dirrac<supplied>h</supplied>ium cursus est. SOLOQ • A • SECANDI subaudi: sunt. </p>
             </div>
-            <div type="schol" n="418">
+            <div type="schol" n="418a">
                <p> HIC aquilo. </p>
             </div>
-            <div type="schol" n="418">
+            <div type="schol" n="418b">
                <p> SVMMI CVRVET CARCESIA M • ligna quae antemnam tenent aut certe quod est in summum arboris quod nunc calcese dicunt, in quo troc<supplied>hl</supplied>i<supplied>a</supplied>e per quas funes currunt. </p>
             </div>
             <div type="schol" n="420">
@@ -6206,16 +6207,16 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
             <div type="schol" n="678">
                <p> SED NON TAM REMEANS C • sed non sine intellectu absentiae ad suos rediit, ut erat furtim profectus. IAM LVCE PROPINQVA ergo nocte nauigauit. </p>
             </div>
-            <div type="schol" n="680">
+            <div type="schol" n="680a">
                <p> CIRCVM FVSA DVCI FLEVIT circumfusa turba fleuit et suorum gemitu duci incessit. </p>
             </div>
-            <div type="schol" n="681">
+            <div type="schol" n="681a">
                <p> NON INGRATIS QVERELLIS quoniam pro illo fleuerunt. </p>
             </div>
-            <div type="schol" n="680">
+            <div type="schol" n="680b">
                <p> GEMITVQ • SVORVM subaudimus: malorum, quae amisso duce ab hostibus paterentur. </p>
             </div>
-            <div type="schol" n="681">
+            <div type="schol" n="681b">
                <p> INGRATIS QVERELLIS non inmeritis iurgiis. INCESSIT TVRBA Q • quoniam Caesari gratum fuit amari. </p>
             </div>
             <div type="schol" n="682">
@@ -6417,10 +6418,10 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
             <div type="schol" n="804">
                <p> FIDA COMES qu<supplied>a</supplied>e coniugis non ab<supplied>h</supplied>orret fortuna<supplied>m</supplied>.</p>
             </div>
-            <div type="schol" n="805">
+            <div type="schol" n="805a">
                <p> POMPEIVMQ • FVGIT uelud crudelem. </p>
             </div>
-            <div type="schol" n="805">
+            <div type="schol" n="805b">
                <p> QVE NOX TIBI PROX1MA VENIT INSOMNIS V • epilogi species. </p>
             </div>
             <div type="schol" n="812">
@@ -6433,7 +6434,7 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
                <p> RESTABAT MISERE MAGNVM Q • R • O • quando de proelio fugit et ad uxorem peruenit. </p>
             </div>
          </div>
-         <div type="lib" n="VI">
+         <div type="lib" n="6">
             <head>LIBER SEXTVS</head>
             <div type="schol" n="1">
                <p> POSTQVAM CASTRA DVCES hinc iam in Dirrac<supplied>h</supplied>io res agitur, ubi multi orientis reges ad Pompeium cum auxiliis conuenerant. Quo cum Caesar uenissed et Pompeium frustra obsidione ci<supplied>n</supplied>xissed, ipse terram XV milia passuum patente fossa praestruens, cum illi maria patere<supplied>n</supplied>t, Pompeius castellum quoddam propincum mari quod Marcellinus tuebatur euertit pr<supplied>a</supplied>esidiaque Caesaris qu<supplied>a</supplied>e ibi morabantur occidit. POSTQVAM CASTRA DVCES <supplied>h</supplied>yperbaton: postquam castra duces pugn<supplied>a</supplied>e mente propinqui inposuere iugis, iam admota arma cominus. Et est eclipsis, deest enim ‘sunt’ uel ‘erant’, ut sit: admota erant cominus arma. </p>
@@ -7098,13 +7099,13 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
             <div type="schol" n="406">
                <p> ILLIC QVOD POPVLOS S • I • I • A • illic inuenit auaritia, unde armaret in inuicem populos. </p>
             </div>
-            <div type="schol" n="407">
+            <div type="schol" n="407a">
                <p> NVMERARE DATVM EST absolute. </p>
             </div>
             <div type="schol" n="408">
                <p> CIRREAQVE FLVXIT I • A • deuenit. </p>
             </div>
-            <div type="schol" n="407">
+            <div type="schol" n="407b">
                <p> HINC MAXIMA SERPENS lutulenta adhuc T<supplied>h</supplied>essalia post inundationem dilu<supplied>u</supplied>ii inmensi tractus serpentem Pyt<supplied>h</supplied>ona genuit, quem paruus adhuc Apollo <del>unde P<supplied>a</supplied>ean cognominatus est</del> centum sagittis interfecit, unde dictus est <foreign xml:lang="grc">ἑκατηβόλος</foreign>. Et ob hoc Pyt<supplied>h</supplied>ios gymnicos ludos in honorem Apollinis instituis<supplied>se</supplied> T<supplied>h</supplied>e<supplied>ssali feruntur</supplied>.</p>
             </div>
             <div type="schol" n="409">
@@ -7187,10 +7188,10 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
             <div type="schol" n="452">
                <p> DVRA IN PRECORDIA censoria. </p>
             </div>
-            <div type="schol" n="453">
+            <div type="schol" n="453a">
                <p> NON FATIS ADDVCTVS A • sed carmine. </p>
             </div>
-            <div type="schol" n="453">
+            <div type="schol" n="453b">
                <p> FLAMMISQVE SEVERI philosophi. INLICITIS toris incongruentibus sibi. </p>
             </div>
             <div type="schol" n="454">
@@ -7572,10 +7573,10 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
                <p> EXPRIMIT ET P • imitatur ad fidem. Vergilius</p>
                <l>‘nunc nemora ingenti uento, nunc littora plangunt’.</l>
             </div>
-            <div type="schol" n="692">
+            <div type="schol" n="692a">
                <p> SILVARVMQ • SONVM zeugma: habet. </p>
             </div>
-            <div type="schol" n="692">
+            <div type="schol" n="692b">
                <p> FRACTEQVE TONITRVA N • conlisione nubis enim fit. </p>
             </div>
             <div type="schol" n="693">
@@ -7641,10 +7642,10 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
                <l>‘uisaeque canes ululare per umbram’.</l>
                <p>Apud inferos enim furi<supplied>a</supplied>e dicuntur, aput superos canes, in caelo dir<supplied>a</supplied>e. </p>
             </div>
-            <div type="schol" n="734">
+            <div type="schol" n="734a">
                <p> DESTITVAM non reuocabo. </p>
             </div>
-            <div type="schol" n="734">
+            <div type="schol" n="734b">
                <p> BVSTA SEQVAR ne lateant. </p>
             </div>
             <div type="schol" n="735">
@@ -7816,7 +7817,7 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
                <p> IVSSA TENERE DIEM id est luci facere moram. </p>
             </div>
          </div>
-         <div type="lib" n="VII">
+         <div type="lib" n="7">
             <head>LIBER SEPTIMVS</head>
             <div type="schol" n="1">
                <p> SEGNIOR OCEANO ordo: numqua<supplied>m</supplied> magis segnior. ‘Oceano’ ab oceano. QVAM LEX ETERNA potest secundum Platonem intelligi qui natura quidem tradit esse mundum <del>id est factum</del>, sed non interiturum. Diuerse Stoici et Epicurus, qui et natum esse et periturum adfirmant. </p>
@@ -8030,10 +8031,10 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
             <div type="schol" n="108">
                <p> TRADERE FORTVNE momento bellico. </p>
             </div>
-            <div type="schol" n="109">
+            <div type="schol" n="109a">
                <p> DISCRIMEN statum. </p>
             </div>
-            <div type="schol" n="109">
+            <div type="schol" n="109b">
                <p> PVGNARE <supplied>D</supplied> • QVAM VINCERE MALVNT cum possint sine proelio superare. | Pugnare acie, quam consilio superare. Si enim modo bellum gerimus, pugnamus: si autem differimus, uincimus. </p>
             </div>
             <div type="schol" n="110">
@@ -8067,10 +8068,10 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
             <div type="schol" n="118">
                <p> SI SINE MOMENTO RERVM opto mortem, si tame<supplied>n</supplied> sine rui<supplied>n</supplied>a et commotione partium nostrarum * * casurum est. </p>
             </div>
-            <div type="schol" n="119">
+            <div type="schol" n="119a">
                <p> FERIA<supplied>T</supplied> mihi scilicet. </p>
             </div>
-            <div type="schol" n="119">
+            <div type="schol" n="119b">
                <p> NEQ • ENIM VICTORIA MAGNO L • si etiam uicerimus. </p>
             </div>
             <div type="schol" n="120">
@@ -8526,10 +8527,10 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
             <div type="schol" n="375">
                <p> HAEC LIBERA NASCI posterorum. </p>
             </div>
-            <div type="schol" n="376">
+            <div type="schol" n="376a">
                <p> HAEC VVLT TVRBA praesentium. </p>
             </div>
-            <div type="schol" n="376">
+            <div type="schol" n="376b">
                <p> SIQVIS POST PIGNERA si quis me inter supra memoratos adfectus parentum filiorum et coniugum diligit, dimicet, si diligit. </p>
             </div>
             <div type="schol" n="379">
@@ -9314,7 +9315,7 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
                <p> ET MVTINA ET LEVCAS in Mutina Brutus obsessus est ab Antonio sed altero. PVROS FECERE FILIPPOS inmunes ab scelere, ut dicimus ‘puros a crimine’. </p>
             </div>
          </div>
-         <div type="lib" n="VIII">
+         <div type="lib" n="8">
             <head>LIBER OCTAVVS</head>
             <div type="schol" n="1">
                <p> IAM SVPER HERCVLEAS FAVCES Heraclium oppidum in T<supplied>h</supplied>essalia circa Larissam, at quam primum fugiens uenerat. Ab Hercule nominatum est hoc oppidum. NEMOROSAQ. TEMPE in T<supplied>h</supplied>essalia mons est Pindus: sub hoc locus am<supplied>o</supplied>enissimus nemore et fonte qui Libet<supplied>h</supplied>ros appellatur. Inde omnis regio amoena plerumque Tempe appellatur. </p>
@@ -9528,7 +9529,7 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
             <div type="schol" n="109">
                <p> PLENO IAM LITORE VVLGVS ad uidendum Pompeium. </p>
             </div>
-            <div type="schol" n="111">
+            <div type="schol" n="111a">
                <p> TANTI PIGNVS SERVASSE MARITI utique uxorem. </p>
             </div>
             <div type="schol" n="114">
@@ -10293,10 +10294,10 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
             <div type="schol" n="544">
                <p> SIC ARMA PREMVNT CIVILIA M • ut etiam hi dominentur. </p>
             </div>
-            <div type="schol" n="545">
+            <div type="schol" n="545a">
                <p> SIC ROMANA IACENT zeugma: fata. </p>
             </div>
-            <div type="schol" n="545">
+            <div type="schol" n="545b">
                <p> VLLVSNE INCLADIB • ISTIS EST LOCVS AEGYPTO F • N • A • E • ad hoc miseriarum uentum est, ut hic cladibus esset locus et daretur aliquid licentiae Phario gladio. </p>
             </div>
             <div type="schol" n="547">
@@ -10599,7 +10600,7 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
             <div type="schol" n="872">
                <p> TA<supplied>M</supplied> MENDAX MAGNI TVMVLO • QVAM CRETA TONANTI mentiuntur Crete<supplied>nses</supplied> sicut de aliis conpluribus, ita da Ioue, eum apud se et defunctum esse et sepultum, adque in fidem mendacii ostendunt tumulum et lapidem sub hac inscriptione ZAN • KPONOY <del>id est Iuppiter Saturni</del>.</p>
             </div>
-            <div type="schol" n="f.111">
+            <div type="schol" n="111b">
                <p> 
                   <del>Rogus est constructio lignorum. Pyra incenso igne dicitur. Bustum conbusto corpore dicitur. Tumulus sepultis ossibus. Sepulchrum supra tumulum fabrica. Monumentum incisio nominis.</del>
                </p>
@@ -10608,7 +10609,7 @@ IDIME Iud<supplied>a</supplied>eae ciuitas. * *</p>
                </p>
             </div>
          </div>
-         <div type="lib" n="IX">
+         <div type="lib" n="9">
             <head>LIBER NONVS</head>
             <div type="pr" n="pr">
                <p>In principio h<supplied>u</supplied>ius libri apot<supplied>h</supplied>eosis Pompeiana describitur. </p>
@@ -11355,10 +11356,10 @@ seminibus’.</l>
             <div type="schol" n="719">
                <p> AMFISBENA quod utraque parte capud habeat et utraque serpat. <foreign xml:lang="grc">Ἀμφίς</foreign> utrimque, <foreign xml:lang="grc">βαίνειν</foreign> ambulare. </p>
             </div>
-            <div type="schol" n="720">
+            <div type="schol" n="720a">
                <p> ET NA<supplied>T</supplied>RIX VIOLATOR AQVAE masculino genere dixit, cum sit feminino. E<supplied>s</supplied>t tamen ex his nominibus qu<supplied>a</supplied>e communicatiua uocamus, ut est pas<supplied>s</supplied>er aquila. Nam illius serpentis masculinum nomen inuenimus. </p>
             </div>
-            <div type="schol" n="720">
+            <div type="schol" n="720b">
                <p> IACVLIQ • V • iaculando <del>sagittando</del> se. </p>
             </div>
             <div type="schol" n="721">
@@ -11606,7 +11607,7 @@ seminibus’.</l>
                <p> O BONA LIBERTAS CVM CAESAR LVGEAT AVDENT ironia: quibus palam non licet flere, cum lugeat C<supplied>a</supplied>esar. </p>
             </div>
          </div>
-         <div type="lib" n="X">
+         <div type="lib" n="10">
             <head>LIBER DECIMVS</head>
             <div type="pr" n="pr">
                <p>Caesar compositis aput T<supplied>h</supplied>essaliam rebus Alexandriam uenit, perlatoque ad se ac uiso Pompei capite anulo<supplied>que</supplied> fleuit. Cumque se in regiam recepisset, eludebatur a tutoribus, quo minus pecuniam acciperet, templa sua astu spoliantibus, ut et regios thesauros uacuos esse ostendere<supplied>n</supplied>t et in inuidiam C<supplied>a</supplied>esaris populos concitare<supplied>n</supplied>t. Praeterea Ac<supplied>h</supplied>illas dux regius inbutus semel Pompei sanguine Caesaris quoque nece<supplied>m</supplied> meditabatur. Nam iussus exercitum dimit<supplied>t</supplied>ere cui praeerat •XX• milium armatorum, non modo spreuit imperium, uerum et aciem direxit. In ipso pr<supplied>o</supplied>elio regia classis forte subducta iubetur incendi. Quo incendio et pars urbis inuasa est et quadri<supplied>n</supplied>genta milia librorum in bibliot<supplied>h</supplied>eca exusta sunt. C<supplied>a</supplied>esar postea insulam ubi Pharus est cepit. Eo Ac<supplied>h</supplied>illas cum Gabinianis militibus uenit. Ingens pugna commis<supplied>s</supplied>a est. Magna ibi C<supplied>a</supplied>esarianorum militum multitudo cecidit. Omnes etiam interfectores Pompei interfecti sunt. Caesar ui insistentium <supplied>h</supplied>ostium pressus scapham ascendit, qua mox pondere subsequentium grauata ac mersa per ducentos passus ad nauem una manu eleuata qua cartas tenebat nando peruenit mox nauali certamine pulsatus magna facilitate classem regiam aut depressit aut cepit. Alexandrinis petentibus regem reddidit, qui tamen illico ut liber fuit bellum intulit, sed continuo cum toto exercitu suo et ipse deletus est. Nam XX milia hominum in illo bello caesa referuntur, •XII• dedita sunt cum LXX longis nauibus, rex ipse scapha exceptus ut fugeret multis insilientibus mersus necatusque est. Corpus ipsius a<supplied>d</supplied> litus deuolutum indicio loric<supplied>a</supplied>e aure<supplied>a</supplied>e cognitum fuit. Qua C<supplied>a</supplied>esar Alexandria<supplied>m</supplied> praemissa Alexandrinos ad deditionem desperatione conpulit. Regnum Aegypti Cleopatra<supplied>e</supplied> dedit. </p>
