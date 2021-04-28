@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -86,6 +85,7 @@
                     <item>profileDes/langUsage/language : correction de l'indicateur de la langue utilisée ("la" en "lat")</item>
                     <item>encodingDesc/RefsDecl/cRefPattern : suppression d'une référence dans le xpath à une div inexistante</item>
                     <item>text/body : numérotation des paragraphes</item>
+                    <item>suppression de la déclaration RNGSchema</item>
                 </list>
             </change>
         </revisionDesc>
