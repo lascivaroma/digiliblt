@@ -84,7 +84,7 @@
          <change who="Romain Verny" when="2021-04-27">
             <list>
                <item>langUsage : correction du langage référencé ("la" en "lat")</item>
-               <item>body : numérotation des paragraphes</item>
+               <item>body : numérotation artificielle de la div</item>
                <item>cRefpattern : modification du xpath pour extraire l'ensemble du passage principal plutôt que les paragraphes</item>
             </list>
          </change>
@@ -96,8 +96,8 @@
 
 
       <body xml:lang="lat" n="urn:cts:latinLit:phi996.phi004.digilibLT-lat1">
-         <div>
-            <p n="1">P. Vergilius Maro natus Idibus Octobris Crasso et Pompeio conss. matre Magia Polla,
+         <div n="full">
+            <p>P. Vergilius Maro natus Idibus Octobris Crasso et Pompeio conss. matre Magia Polla,
                patre Vergilio rustico uico Andico, qui abest a Mantua milia passuum XXX, tenui
                facultate nutritus. Sed cum iam summis eloquentiae doctoribus uacaret, in belli
                ciuilis tempora incidit, quod Augustus aduersus Antonium gessit; primumque post
@@ -115,7 +115,7 @@
                <l>Mantua me genuit, Calabri rapuere, tenet nunc</l>
                <l>Parthenope: cecini pascua rura duces.</l>
             </lg>
-            <p n="2">Aeneis seruata ab Augusto, quamuis ipse testamento damnat, ne quid eorum, quae non
+            <p>Aeneis seruata ab Augusto, quamuis ipse testamento damnat, ne quid eorum, quae non
                edidisset, extaret, quod Seruius Varus hoc testatur epigrammate:</p>
             <lg>
                <l>Iusserat haec rapidis aboleri carmina flammis</l>
