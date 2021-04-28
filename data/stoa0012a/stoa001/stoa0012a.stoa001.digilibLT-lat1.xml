@@ -33,9 +33,9 @@
         </fileDesc>
         <encodingDesc>
             <refsDecl n="CTS">
-                <cRefPattern n="unknown" matchPattern="(\w+)"
-                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:p[@n='$1'])">
-                    <p>This pointer pattern extracts unknown</p>
+                <cRefPattern n="paragraphs" matchPattern="(\w+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:p[@n='$1'])">
+                    <p>This pointer pattern extracts paragraphs</p>
                 </cRefPattern>
             </refsDecl>
             <projectDesc>
@@ -84,6 +84,7 @@
             <change who="Romain Verny" when="2021-04-28">
                 <list>
                     <item>profileDes/langUsage/language : correction de l'indicateur de la langue utilisée ("la" en "lat")</item>
+                    <item>encodingDesc/RefsDecl/cRefPattern : suppression d'une référence dans le xpath à une div inexistante</item>
                 </list>
             </change>
         </revisionDesc>
