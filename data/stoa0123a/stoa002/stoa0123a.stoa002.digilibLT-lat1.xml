@@ -30,12 +30,10 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <refsDecl n="CTS"><cRefPattern n="chapter" matchPattern="(\w+).(\w+)"
-            replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:div[@n='$2'])">
+         <refsDecl n="CTS"><cRefPattern n="chapter" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:div[@n='$2'])">
             <p>This pointer pattern extracts chapter</p>
          </cRefPattern>
-            <cRefPattern n="book" matchPattern="(\w+)"
-               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])">
+            <cRefPattern n="book" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])">
                <p>This pointer pattern extracts books</p>
             </cRefPattern>
          </refsDecl>
@@ -607,7 +605,7 @@ Sane patrem et in uiri et in mulieris genitura Sol ostendit, matrem Luna, uxorem
 Explicare debemus signa XII quas partes humani corporis teneant; hoc enim et ad apotelesmata uehementissime proficit, praesertim cum locum ualitudinis uel uitii uolueris inuenire. Caput hominis in signo Arietis est, ceruix in Tauro, umeri in Geminis, cor in Cancro, pectus et stomachus in Leone, uenter in Virgine, renes, uertebrae in Libra, natura in Scorpione, femora in Sagittario, genucula in Capricorno, tibiae in Aquario, pedes in Piscibus. Sic per haec signa tota membra hominis diuiduntur.</p>
             </div>
 
-            <div type="cap" n="">
+            <div type="cap" n="25">
                <head>XXV. QVIS DEORVM QVOT ANNOS DECERNAT</head>
                <p>
                   <milestone unit="par" n="1"/> Nunc illud explicare debemus, quae stella quot horas, dies, menses, annos, bene collocata plures, pauciores uero male collocata decernat.</p>
@@ -740,7 +738,7 @@ XXVIIII... I <lb/>
                   <milestone unit="par" n="3"/> Hac ex causa hominem, quasi minorem quemdam mundum, stellae quinque, Sol etiam et Luna, ignita ac sempiterna agitatione sustentant, ut animal, quod ad imitationem mundi factum est, simili diuinitatis substantia gubernetur. <milestone unit="par" n="4"/> Quare illi divini uiri atque omni admiratione digni Petosiris, Nechepso, quorum prudentia ad ipsa secreta diuinitatis accessit, etiam mundi genituram diuino nobis scientiae magisterio tradiderunt, ut ostenderent atque monstrarent hominem ad naturam mundi similitudinemque formatum isdem principiis, quibus ipse mundus regitur et continetur, perenniter perpetuitatis sustentari comitibus.</p>
             </div>
 
-            <div type="cap" n="">
+            <div type="cap" n="1">
                <head>I. THEMA MVNDI</head>
                <p>
                   <milestone unit="par" n="1"/> Mundi itaque genituram hanc esse uoluerunt, secuti Aesculapium et Hanubium, quibus potentissimum Mercurii numen istius scientiae secreta commisit. Constituerunt Solem in Leonis parte XV., Lunam in Cancri parte XV., Saturnum in Capricorni parte XV., Iouem in Sagittarii parte XV., Martem in Scorpionis parte XV., Venerem in Librae parte XV., Mercurium in Virginis parte XV., horam in Cancri parte XV. </p>
@@ -804,7 +802,7 @@ XXVIIII... I <lb/>
                   <milestone unit="par" n="26"/> In duodecimo loco Saturnus ab horoscopo constitutus tumultus seruilis discrimina uel propter seruos pericula decernit et adstringit seruitio qui sic eum in genitura habuerit collocatum; faciet etiam maximas aegritudines, sed et ualitudines non modicas, praesertim si sic Saturno posito Luna ex aliqua parte se coniunxerit et si nulla beniuola stella in geniturae cardinibus fuerit collocata. Nam si sic posito Saturno beniuola stella in quocumque geniturae cardine fuerit inuenta, haec mala, quae diximus, ex parte aliqua mitigantur; quae omnia mitiora erunt atque leuiora, si per diem Saturnus sic fuerit inuentus, fortiora uero et uehementiora, si istum locum in nocturna genitura possederit. <milestone unit="par" n="27"/> Sed in his omnibus locis Saturno posito partem eius diligenter inquire, ut inuenias, in quo loco et in quibus finibus duodecatemorium eius sit collocatum, ut ex duodecatemorio et ex finibus duodecatemorii omnem Saturni inuenias potestatem.</p>
             </div>
 
-            <div type="cap" n="">
+            <div type="cap" n="3">
                <head>III. IVPPITER</head>
                <p>
                   <milestone unit="par" n="1"/> Si Iuppiter in primo cardine partiliter, id est <del>si</del> in parte horoscopi, fuerit constitutus, in his praesertim signis in quibus gaudet, uel in suis domiciliis uel in suis finibus uel in altitudine sua, faciet nobiles, gloriosos, magnis semper praepositos ciuitatibus, interdum magnarum ciuitatum decem primos, pro mensura geniturae; bonos, uenustos, beniuolos, laetos, diuites, praesertim si per diem in horoscopi partibus fuerit inuentus et si nulla maliuola stella sic ei posito ex aliqua parte restiterit. Nam si Iouem sic positum maliuola stella contraria radiatione restiterit, totum quicquid Iuppiter decreuerit ex maxima parte minuitur. <milestone unit="par" n="2"/> Si uero per noctem in horoscopi parte fuerit inuentus, faciet primum nasci inter fratres uel, qui ante ipsum natus fuerit, interimit uel in longinquis eum separauit et constituit regionibus ac locis, ut ipse in paterna domo habeat principatum. Facit autem bene nutriri et parentes eius in maxima felicitate constituit. Quodsi, sic per noctem Ioue posito, maliuola stella restiterit, omnem paternam ac maternam substantiam dissipabit. <milestone unit="par" n="3"/> Semper autem Iuppiter in cardinibus geniturae collocatus aut primos nasci faciet aut fratres eius maiores interimit, ut ipse, sicut superius dixi, solus in domo paterna habeat principatum. Quodsi, per noctem uel diem, in horoscopo constituto Ioue, crescens Luna quacumque se ei radiatione coniunxerit, faciet maximos administratores, rectores ciuitatum et maximis negotiis saepe praepositos. </p>
@@ -834,7 +832,7 @@ XXVIIII... I <lb/>
                   <milestone unit="par" n="24"/> In Ioue quoque in duodecatemorium diligenter inquire, ut ex duodecatemorio uires eius diligenti ratione repperias.</p>
             </div>
 
-            <div type="cap" n="">
+            <div type="cap" n="4">
                <head>IV. MARS</head>
                <p>
                   <milestone unit="par" n="1"/> Mars in horoscopi partibus partiliter constitutus, in nocturna genitura et in masculinis signis, faciet militares; matutinus autem si fuerit partiliter in horoscopo constitutus, sine radiatione Iouis, faciet nigrastros <supplied>
@@ -979,7 +977,7 @@ XXVIIII... I <lb/>
                   <milestone unit="par" n="28"/> Sed quia diximus Mercurium omnibus se facili ra<del>dia</del>tione coniungere et esse cum bonis bonum, cum malis malum, explicare debemus quid in genituris cum singularum societate decernat. Per diem, cum Ioue positus ac Sole in oportunis geniturae locis, maximas decernit felicitates; si uero per diem cum Marte fuerit inuentus, maximorum infortuniorum faciet calamitates. Per noctem uero simili ratione mutatur; nam cum Venere et Luna et Marte bonus est, cum Sole uero maxima mala infelicitatesque decernit. Quod ut manifestius doceamus, omnia debemus specialiter explicare. </p>
                <p>Sed prius duodecatemorium Mercurii diligenter inquire et fines duodecatemorii, ut ad omnia geniturae secreta peruenias.</p>
             </div>
-            <div type="cap" n="">
+            <div type="cap" n="8">
                <head>VIII. MERCVRIVS CVM SOLE</head>
                <p>
                   <milestone unit="par" n="1"/> Per diem, Mercurius cum Sole partiliter in horoscopo constitutus faciet reges, duces, potentes; si uero per noctem in hoc loco fuerint partiliter inuenti, patrem degenerem et ignobilem faciunt, erunt autem in artibus publicis, sed absconsis et miseris secundum naturam qualitatemque signorum. </p>
@@ -1223,7 +1221,7 @@ XXVIIII... I <lb/>
                   <milestone unit="par" n="1"/> Si uero Luna sic fuerit collocata ut ad nullum feratur nec alicui se stellae propria radiatione coniungat nec cardines beniuolum sidus obsideat, faciet pauperes, deiectos, et qui ab omnibus sint necessariis destituti, et quibus cotidianae uitae subsidia denegentur, et qui ad sustinendam uitam semper aliena praesidia desiderent et qui paupertatis angustiam misera mendicatione sustentent; erunt autem a parentibus in infinitum inferiores, corpus uero eorum debile, languidum et adsidua macie confectum. Impugnabuntur malignis humoribus et adsiduo tumore uulnerum fatigantur; sed illis intra cutem malignus humor semper illabitur articulis obligatus, praesertim si, per uacuum currens quam Graeci <hi rend="italic">cenodromon</hi> dicunt, a Saturno uel Marte, quadrata uel diametra radiatione pulsetur, uel si, per uacuum currens tertio natalis die, a Marte uel Saturno eadem qua diximus fuerit radiatione pulsata, uel si maliuolae in cardinibus fuerint constitutae. <milestone unit="par" n="2"/> Verum si sic currens, id est per uacuum, beniuolarum stellarum fuerit radiatione conuenta, in prima aetate uacuos faciet semper et nudos, sed adsiduis facit laboribus fatigari et miserarium adsiduis rationibus quatit, maximis sudoribus et maximis laboribus praesidia quaerentes; et cum eos uicinos felicitatibus fecerit, a summo gradu caduca rursus facit deiectione delabi et interdum usque ad summum perductos non patitur plenam apprehendere felicitatem. Per uacua enim signa cursus suos dirigens primam aetatem facit miseris ac uariis infortuniorum casibus implicari. Sed, cum animum et corpus graui infortuniorum continuatione quassauerit, et multis iuuentutem periculis fregerit, et hac atque illac misera peregrinatione pertraxerit, tunc multorum bonorum et maximae felicitatis decernit augmenta, ut, quantum primae aetati fuerit infortuniis derogatum, tantum posteriori felicitatis conferatur. <milestone unit="par" n="3"/> Si uero, per uacuum currens, Saturno se postea uel Marti coniunxerit, infelices, lunaticos, caducos faciet et qui, <supplied>a</supplied> prima aetate usque ad nouissimam, uario infelicitatis genere deprimantur; faciet pauperes, miseros, destitutos, et quorum corpus sit <supplied>pannis</supplied> male pendentibus nudum, custodes sepulchrorum aut qui perpetui carceris poena cludantur.</p>
             </div>
 
-            <div type="cap" n="">
+            <div type="cap" n="9">
                <head>IX.</head>
                <p>
                   <milestone unit="par" n="1"/> Explicatis coniunctionibus Lunae et diligenti significatione monstratis, ad aliam interpretationem transferatur oratio, ipsius scilicet Lunae, ne quid a nobis in tam subtilibus disputationibus praetermissum esse uideatur, praesertim cum tuta uitae substantia ex istius numinis cursibus colligatur. </p>
@@ -1290,7 +1288,7 @@ XXVIIII... I <lb/>
                   <hi rend="bold">A Marte Luna ad Iouem.</hi> Si, a Marte defluens, Luna, plena uel crescens lumine, ad Iouem feratur, in oportunis geniturae locis, facit duces ducentes exercitum, potentes, imperiosos, et qui sint omni ratione terribiles et qui prouincias ciuitatesque potentiae suae potestate possideant. Erunt sane diuites, locupletes, pecuniosi, et qui omnia quaeque uolunt facillimis rationibus consequantur, et qui sint in omni certaminum conflictatione uictores. <milestone unit="par" n="9"/> Si uero sit minuta lumine et sic a Marte defluens ad Iouem feratur, faciet publicis quibusdam certaminibus destinatos, sed qui semper praeconio bonitatis ornentur; aut gloriosos milites facit et his adsidua felicitatis incrementa decernit et hos eosdem crebris honorum promotionibus <supplied>fama ornat quae</supplied> late patet et uariis facit generibus gloriosos; latentia tamen uitia infligit et frequentibus faciet ualitudinibus implicari.</p>
             </div>
 
-            <div type="cap" n="">
+            <div type="cap" n="12">
                <head>XII.</head>
                <p>
                   <milestone unit="par" n="1"/> 
@@ -1387,7 +1385,7 @@ XXVIIII... I <lb/>
                   <milestone unit="par" n="12"/> Explicato cursu Lunae et diligenti ratione monstrato, ad promissi operis definitionem sermonis intentio transferatur, scilicet ad explicationem Fortunae; non enim omnem possumus fati explicare substantiam, nisi iste locus diligentissima fuerit ratione collectus. Sicut enim in horoscopo quaerimus quis in eodem loco sit, quis occidat, quis in medio caelo sit, quis in imo, quis in ceteris locis, quatenus etiam dominus ipsius signi sit positus, in quo est horoscopus constitutus, ita et locum Fortunae debemus simili ratione colligere. Quo autem in loco sit locus Fortunae, facili ratione monstrabo; quem cum inueneris, inspiciens stellarum omnium societates radiationesque, omnem locum istum uero ac fideli poteris explicare iudicio.</p>
             </div>
 
-            <div type="cap" n="">
+            <div type="cap" n="17">
                <head>XVII. DE LOCO ET DE EFFICACIA FORTVNAE</head>
                <p>
                   <milestone unit="par" n="1"/> In omni genitura nocturna, computato a Luna usque ad Solem; in diurna genitura, a Sole computato rursus ad Lunam et, quantuscumque signorum fuerit numerus, tanta ab horoscopo incipiens signa numera; et quodque signum habuerit nouissimum numerum, ipsius signum locum Fortunae demonstrat. <milestone unit="par" n="2"/> Sed haec platica computatio est, quam ideo posuimus ne quid a nobis praetermissum esse uideatur; partiliter uero locus Fortunae ista ratione colligitur, quam insequi in omni disputatione debebis. Tunc enim uera definitio <del>et</del> in apotelesmatibus proferetur, quotienscumque singula loca partili fuerint ratione collecta. Sic uitam, sic spem, sic fratres, sic parentes, sic filios, sic ualitudines, sic coniugem, sic mortem, <supplied>sic sectas</supplied>, sic actus, sic amicos, sic inimicos, sic cetera omnia, quaeque in substantia humani generis requirentur, ueris definitionibus explicabis. Quae omnia tunc explicabimus, cum ad interpretationem uenerimus sfaerae barbaricae; haec enim omnia diuinus ille Abram et prudentissimus Achilles uerissimis conati sunt rationibus inuenire.</p>
@@ -1462,7 +1460,7 @@ Sed locus Fortunae, de quo loqui coepimus, partiliter ista ratione colligitur. <
                   <milestone unit="par" n="3"/> Sane extra ceteros climacteras etiam septimi anni et noni per omne uitae tempus multiplicata ratione currentes naturali quadam et latenti ratione uariis hominem periculorum discriminibus semper afficiunt, unde LXIII. annus, quia utriusque numeri summam pariter excipit, <hi rend="italic">androclas</hi> appellatus est; nouies enim septeni anni LXIII efficiuntur et <del>qui</del> rursus septies noueni simili modo LXIII anni efficiuntur. Quia itaque utriusque numeri cursus in hoc anno aequata ratione concurrit, grandis semper periculi discrimen imponit. Si enim septeni et noueni anni, qui <hi rend="italic">ebdomadici</hi> a Graecis et <hi rend="italic">enneadici</hi> appellantur, grauia pericula hominibus semper indicunt, quid faciet LXIII. annus, qui utriusque numeri multiplicatam et inuicem sibi obligatam perficit summam? Hac ex causa ab Aegyptiis <hi rend="italic">androclas</hi> dictus est, quod omnem uiri substantiam frangat ac debilitet. <milestone unit="par" n="4"/> Inter cetera ergo pericula quae a maliuolis stellis pro signorum anaforis et pro minacibus radiationibus decernuntur, haec etiam pericula diligenti debemus ratione colligere; et, in illis itaque periculis et in his quae ex septena uel nouena annorum ratione colligimus, inspicere debemus, ipso tempore quo<del>d</del> periculi discrimen immineat, et Lunam et temporum et geniturae dominum beniuolae stellae <del>ae</del>qua radiatione respiciant. <milestone unit="par" n="5"/> Si enim in opportunis geniturae locis Iuppiter et Venus fuerint inuenti in horoscopo ac Lunam partili radiatione respexerint, temporum etiam et dominum geniturae uiderint, minaces periculorum impetus salutari beniuolarum stellarum praesidio subleuantur et homines ex imminentibus periculis liberantur. <milestone unit="par" n="6"/> Periculorum autem non una substantia est; aut enim ex accusationibus aut ex delationibus aut ex insidiis aut ex nauigationibus aut ex itineribus aut ex damnis et amissione patrimonii aut ex aegritudinibus aut ex ueneribus aut <supplied>ex</supplied> delibitate corporis aut ex bestiis aut ex ruinis aut ex luto et praecipitiis omne periculorum discrimen adfertur. <milestone unit="par" n="7"/> Cum itaque uideris quale sit discrimen in loco, respice, sicut ante diximus, qualiter horam uel Lunam, uel ex quo loco beniuolae stellae respiciant et quatenus geniturae dominum et temporum dominum, ut, cum securus fueris de uitae substantia, tunc uideas quibus rationibus imminentis uel instantis periculi possint uitari discrimina. <milestone unit="par" n="8"/> Intueri etiam debes illam stellam quae periculum concitauit, id est quae est temporum domina, et uidere quo loco et quo signo et in quibus partibus sit constituta geniturae tunc, cum periculum decernit, et quatenus eam beniuolae stellae respiciant. Si enim, quae periculum facit stella in bonis locis fuerit inuenta uel in his in quibus gaudet signis et finibus, et a beniuolis respiciatur et in genitura bene sit collocata, discrimen imminentis periculi mitigatur. Si uero aliter fuerit et nocendi licentiam permissa sibi potestate perceperit, facit hominem inexplicabilium miseriarum laqueis implicari, ut mors imminens uel periculum nulla possit ratione uitari.</p>
             </div>
 
-            <div type="cap" n="">
+            <div type="cap" n="21">
                <head>XXI. DE ACTIBVS</head>
                <p>
                   <milestone unit="par" n="1"/> Nunc scire debemus quis in singulis hominibus uel quos decernat actus; et tunc debemus diligenti ratione colligere et quo loco sit positus. Sunt autem qui actus decernunt hominibus, Mars, Venus et Mercurius. Ille itaque decernit actus ex his tribus qui aut in MC. fuerit aut in dextro MC. trigono fuerit aut qui in sinistro aut qui in aliis cardinibus fuerit inuentus.</p>
@@ -1481,7 +1479,7 @@ Sed locus Fortunae, de quo loqui coepimus, partiliter ista ratione colligitur. <
                   </supplied>. Hoc et in ceteris duabus stellis intueri debebis. Quae omnia cum a te <supplied>diligenti</supplied>, fuerint ratione collecta, uerissime decreti totam poteris explicare substantiam et sic a te mores hominum figurantur ut ad modum picturae omnia ex responsis tuis corporum liniamenta cernantur et latens morum inueniatur effectus.</p>
             </div>
 
-            <div type="cap" n="">
+            <div type="cap" n="22">
                <head>XXII. DE VACANTIBVS LOCIS ET PLENIS</head>
                <p>
                   <milestone unit="par" n="1"/> Explicaturo mihi nunc doctrinae istius ueneranda secreta quae diuini ueteres cum maxima trepidatione dixerunt et quae inuoluta obscuritatis ambagibus reliquerunt, ob hoc ne publicata diuina scientia ad profanorum hominum notitiam perueniret, intento <supplied>
@@ -1689,7 +1687,7 @@ Sunt itaque masculinae partes CXCVII, femininae uero CLXIII; quae autem masculin
                <p>
                   <milestone unit="par" n="14"/> Explicatis his omnibus et diligenti ratione monstratis, ad terminum istius libri properat oratio; sed quia, in principio huius libri, multa de Lunae cursibus diximus, etiam posteriores partes eius simili fine claudantur, ut libro huic numen potentissimum Lunae et initium dedisse uideatur et finem. Quid itaque in cardinibus cum ceteris stellis Luna constituta decernat, generaliter uerissimis ac manifestissimis explicabo sententiis, ut in quinto libro cetera sine inuidia matheseos secreta pandamus.</p>
             </div>
-            <div type="cap" n="">
+            <div type="cap" n="24">
                <head>XXIV. QVID SIGNIFICET LVNA CVM SINGVLIS PLANETIS IN CARDINIBVS COLLOCATA</head>
                <p>
                   <milestone unit="par" n="1"/> Luna cum Sole si partiliter in horoscopo fuerit, in his in quibus gaudet uel in quibus exaltatur signis, uel in domicilio suo, Solis iam radiis liberata, parentes <supplied>facit</supplied> claro splendore facultatis ornatos. Hoc idem in MC. parte cum Sole similiter posita significat. In occasu uero, id est in septimo ab horoscopo loco, et in IMC. si cum Sole fuerit partiliter collocata, aut seruos aut miseros aut degeneres aut proscriptos aut mendicos parentes facit; sed haec pro signorum uel partium qualitate decernit. <milestone unit="par" n="2"/> Si uero Mars sic Lunam positam minaci radiatione respexerit et utrique, id est Soli et Lunae, partili radiatione fuerit contrarius, corpus graui uitio debilitat et indicit frequenter oculis caecitates. Si uero in isdem partibus Sol et Luna pariter et Mars fuerint, et parentes et ipsos misera deiectionis humilitate prosternit et mortis uiolenta decernit exitia.</p>
@@ -1707,7 +1705,7 @@ Sunt itaque masculinae partes CXCVII, femininae uero CLXIII; quae autem masculin
                   </supplied> ad memoriam tuam reuocaret effectum.</p>
             </div>
 
-            <div type="cap" n="">
+            <div type="cap" n="25">
                <head>XXV.</head>
                <p>
                   <milestone unit="par" n="1"/> Nunc illud tibi intimare debemus qua ratione partiliter defluat Luna, qua etiam ratione iungatur, quas Graeci <hi rend="italic">synafas aporroicas</hi> uocant. In omnibus enim signis et a multis defluit et multis ea ra<del>dia</del>tione coniungitur. Nam in quocumque signo, <supplied>in</supplied> cuiuscumque stellae finibus fuerit inuenta, ab ea defluens, ad illam fertur cuiuscumque stellae in eodem signo fines secundo loco fuerit ingressa. <milestone unit="par" n="2"/> Respice itaque quatenus eam finium dominus uel in quo loco constitutus aspiciat; et, praecedentium apotelesmatum ratione concepta, omne fatum hominis ueris poteris explicare sententiis. Respice etiam tertio ordine cuius stellae partes ingreditur — et ipsa enim decernendi accipit potestatem — et sic usque ad nouissimas ipsius signi perge partes, ut omnia possis specialiter inuenire quae ad Lunae efficaciam pertinent.</p>
@@ -2018,7 +2016,7 @@ Haec eadem etiam in VII. Scorpionis perficiet. Ipsam enim partem similis splendo
             </div>
 
 
-            <div type="cap" n="">
+            <div type="cap" n="3">
                <head>III.</head>
                <p>
                   <milestone unit="par" n="1"/>
