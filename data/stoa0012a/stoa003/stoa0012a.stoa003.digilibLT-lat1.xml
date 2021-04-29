@@ -85,7 +85,7 @@
                <item>Suppression de la déclaration RNGSchema en début de document</item>
                <item>profileDesc/langUsage/language : correction de l'indicateur de langue utilisé ("la" en "lat")</item>
                <item>encondingDesc/RefsDcl/cRefPattern : indication que le pointer extrait des paragraphes"</item>
-               <item>text/body/div : numérotation des paragraphes</item>
+               <item>text/body/div : numérotation des paragraphes + déplacement de la balise milestone dans le paragraphe n°1</item>
             </list>            
          </change>
       </revisionDesc>
@@ -95,8 +95,7 @@
       <body xml:lang="lat" n="urn:cts:latinLit:stoa0012a.stoa003.digilibLT-lat1">
          <div type="opus">
             <head>Commentum de controuersiis</head>
-            <milestone unit="page" n="p. 58 Thulin"/>
-            <p n="1">Suscepimus quoque tractandos controuersiarum status cum diuino praesidio.</p>
+            <p n="1"><milestone unit="page" n="p. 58 Thulin"/>Suscepimus quoque tractandos controuersiarum status cum diuino praesidio.</p>
             <p n="2">
                <q>"<hi rend="italic">Materiae</hi>"</q>, inquit,<q>"<hi rend="italic"
                      >controuersiarum sunt duae, finis et locus. harum condicio alterutra
