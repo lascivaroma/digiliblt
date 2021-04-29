@@ -32,9 +32,9 @@
       </fileDesc>
       <encodingDesc>
          <refsDecl n="CTS">
-            <cRefPattern n="unknown" matchPattern="(\w+)"
+            <cRefPattern n="paragraph" matchPattern="(\w+)"
                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:p[@n='$1'])">
-               <p>This pointer pattern extracts unknown</p>
+               <p>This pointer pattern extracts paragraph</p>
             </cRefPattern>
          </refsDecl>
          <projectDesc>
@@ -44,29 +44,29 @@
          </projectDesc>
          <editorialDecl>
 
-            <p>
+            <p n="">
                <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT </hi>
             </p>
-            <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+            <p n="">Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
                l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati,
                introduzioni, note e commenti e ogni altro contenuto redatto da editori moderni. </p>
-            <p> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+            <p n=""> I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
                correttezza di trascrizione</p>
-            <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento
+            <p n="">Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento
                per la distinzione u/v minuscole.</p>
-            <p> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
-            <p> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
+            <p n=""> Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+            <p n=""> Non è stata normalizzata la formattazione nell'intero <hi rend="italic">corpus</hi>:
                grassetto, corsivo, spaziatura espansa.</p>
-            <p>Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
+            <p n="">Sono stati normalizzati e marcati nel modo seguente i diacritici.<lb/> espunzioni:
                &lt;del&gt;testo&lt;/del&gt; si visualizza [testo] <lb/> integrazioni:
                &lt;supplied&gt;testo&lt;/supplied&gt; si visualizza &lt;testo&gt;<lb/>
                <hi rend="italic">loci desperati</hi>: &lt;unclear&gt;testo&lt;/unclear&gt; o
                &lt;unclear/&gt; testo si visualizzano †testo† e †testo<lb/> lacuna materiale:
                &lt;gap/&gt; si visualizza [...]<lb/> lacuna integrata dagli editori:
                &lt;supplied&gt;&lt;gap/&gt;&lt;/supplied&gt; si visualizza &lt;...&gt; </p>
-            <p>Sono stati marcati i termini in lingua greca &lt;foreign
+            <p n="">Sono stati marcati i termini in lingua greca &lt;foreign
                xml:lang="grc"&gt;αγβ&lt;/foreign&gt; </p>
-            <p>Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
+            <p n="">Ulteriori informazioni sulle norme di trascrizione e codifica su <ref
                   target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf"
                   >Note di trascrizione e codifica di testi latini tardoantichi
                   [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
@@ -84,7 +84,8 @@
             <list>
                <item>Suppression de la déclaration RNGSchema en début de document</item>
                <item>profileDesc/langUsage/language : correction de l'indicateur de langue utilisé ("la" en "lat")</item>
-               <item></item>
+               <item>encondingDesc/RefsDcl/cRefPattern : indication que le pointer extrait des paragraphes"</item>
+               <item>text/body/div : numérotation des paragraphes</item>
             </list>            
          </change>
       </revisionDesc>
@@ -95,8 +96,8 @@
          <div type="opus">
             <head>Commentum de controuersiis</head>
             <milestone unit="page" n="p. 58 Thulin"/>
-            <p>Suscepimus quoque tractandos controuersiarum status cum diuino praesidio.</p>
-            <p>
+            <p n="1">Suscepimus quoque tractandos controuersiarum status cum diuino praesidio.</p>
+            <p n="2">
                <q>"<hi rend="italic">Materiae</hi>"</q>, inquit,<q>"<hi rend="italic"
                      >controuersiarum sunt duae, finis et locus. harum condicio alterutra
                      continetur. sed quoniam singulae controuersiae diuersis condicionibus
@@ -107,7 +108,7 @@
                neque genus sine specie neque sine genere species potest dici, omnino dixit
                inproprie: nos tamen suum illi idioma relinquentes ad intellegendas eas atque
                exponendas, sicut promisimus, transeamus.</p>
-            <p>
+            <p n="3">
                <q>"<hi rend="italic">De positione terminorum controuersia est inter duos pluresue
                      uicinos; inter duos, an in rigore sit positus terminus citerorum, siue
                      rationis; inter plures, trifinium facit an quadrifinium</hi>
@@ -133,7 +134,7 @@
                rationem, tum de conportionalium terminorum positionem, quos uice tabellarum antiqui
                intercidendis portiunculis inter filios suos defigebant, integra ab artifice ratio
                proferatur.</p>
-            <p>
+            <p n="4">
                <milestone unit="page" n="p. 60 Thulin"/>De rigore atque de fine licet similem
                posuerit controuersiam unamque eis condicionem esse firmauerit, tamen credo inter eas
                aliquid posse differri. rigor enim naturalis est. qualiscumque enim rigor interuenit
@@ -143,7 +144,7 @@
                superior possessor in planum usque descendat et sibi defendat omnem deuexum locum.
                hoc enim lex propter malignitatem inferioris possessoris instituit, ne aut arando aut
                fodiendo superioris possessoris terras inuaderet.</p>
-            <p>Termini quoque quibusdam locis positi sunt, ab uno ad unum dirigantur, per pedes ad
+            <p n="5">Termini quoque quibusdam locis positi sunt, ab uno ad unum dirigantur, per pedes ad
                CCCXX et supra usque ad CCCCLXXX et infra hoc si licet. nam Tiburtini distant a se in
                pedibus a CCXL et supra usque ad DCLX et infra. quod si spissiores non sunt, riparum
                et rigorum cursus seruabunt; harum tamen quae per multa milia pedum recturas
@@ -153,7 +154,7 @@
                potestas limitum recturarumue eursus non confirmat. sed si conuentionis causa ea
                partes <milestone unit="page" n="p. 61 Thulin"/>inter se conseruanda censuerunt, non
                recturae imputandum, sed concurrenti definitioni fides est adhibenda.</p>
-            <p>De fine enim lex Manilia quinque aut sex pedum latitudinem praescribit, quoniam hanc
+            <p n="6">De fine enim lex Manilia quinque aut sex pedum latitudinem praescribit, quoniam hanc
                latitudinem uel iter ad culturas accidens occupat uel circumactus aratri. quod usu
                capi non potest: iter enim non, qua ad culturas peruenitur, capitur usu<del>s</del>
                sed id quod in usu biennio fuit. finis enim multis documentis seruabitur, terminibus,
@@ -167,7 +168,7 @@
                et si in extremo fine facta; itemque utrum publica an uicinalis. Si iugis montium,
                quae ex eo nomine accipiuntur, quod continuatione ipsa iugantur. Haec autem omnia
                genera finitionum putato in uno agro posse sine dubio repperiri.</p>
-            <p>De loco si agitur, quae res hanc habet quaestionem, ut nec ad formam nec ad ullum
+            <p n="7">De loco si agitur, quae res hanc habet quaestionem, ut nec ad formam nec ad ullum
                scripturae reuertatur exemplum, nisi tantum hunc locum hinc dico esse, et alter e
                contrario similiter quaeret, ex fere culturae comparationem accipit. id est si silua,
                cuius sit aetatis par caesurae et aetas arborum, ut solent relinqui quas ante missas
@@ -184,7 +185,7 @@
                qui finiebant singulos agros relinquere praeterea cui contributi sunt. uicini non
                contenti suis finibus tollunt terminos, quibus possessio eorum finitur, et eo, qui
                inter fundos unius domini sunt sibi defendunt. ita et haec despicienda erunt.</p>
-            <p>De modo quaestiones fere in agris diuisis et assignatis nascuntur, item quaestoriis
+            <p n="8">De modo quaestiones fere in agris diuisis et assignatis nascuntur, item quaestoriis
                et uectigalibus subiectis, quoniam seilicet in aere scripturae modus conprehensus
                est. quod semper erit ad formam respiciendum. et hoc si duobus possessoribus
                conueniat. alioquin ex modo illo, qui aere scriptura continetur, forma liquebit,
@@ -203,7 +204,7 @@
                utriusque mensura: si nihil ad cautionem conueniat, ne utrius possessio modum
                cautione conprehensum impleat, magna erit rei confusio, quaerendumque tunc quomodo in
                uniuersa regione magis opinione quam mensura modum complecti soliti sint.</p>
-            <p>
+            <p n="9">
                <q>"<hi rend="italic">De proprietate controuersia est plerumque ut in Campania
                      cultorum agrorum siluae absunt in montibus ultra quartum aut quintum forte
                      uicinum</hi>
@@ -232,14 +233,14 @@
                quaedam habere beneficia principum, quod longe et semotis locis saltos quosdam
                reditus causa acciperunt. quae proprietas ad eos quibus data est indubitate pertinet.
                sunt et aliae proprietates quae municipiis a principibus sunt concessae.</p>
-            <p>
+            <p n="10">
                <q>"<hi rend="italic">De possessione fit controuersia quotiens de totius fundi statum
                      per interdictum, hoc est iure ordinario, litigatur</hi>
                </q>". hoc non est disciplinae nostrae iudicium sed apud praesidem prouinciae agitur,
                et ex lege restituitur possessio cui poterit adtineri. in his secundum locum habet
                disciplina nostra, sicut lex <milestone unit="page" n="p. 64 Thulin"/>ait: nisi de
                possessionis statu quaestio fuerit terminata, non licet mensori praeire ad loca.</p>
-            <p>De alluuione obseruatio est, si haec in occupatoriis agitur agris. quidquid uis aquae
+            <p n="11">De alluuione obseruatio est, si haec in occupatoriis agitur agris. quidquid uis aquae
                abstulerit, repetitionem nemo habet, quae res necessitatem ripae muniendae iniungit,
                ita tamen ut sine alterius damno quicquam fiat. si uero in diuisa et assignata
                regione tractabitur, nihil amittet possessor, quoniam formis per centurias certus
@@ -256,12 +257,12 @@
                diuidendorum agrorum, ut quotiens tempestas fluuium concitasset, non per regionem
                excedens alueum uagaretur, sed sine iniuria cuiusquam deflueret. hos tamen agros, id
                est hunc omnem modum, qui flumini adscriptus est, R. P. quibusdam uendidit.</p>
-            <p>Haec quaestiones maxime in Gallia to<supplied>ga</supplied>ta mouentur, quae multis
+            <p n="12">Haec quaestiones maxime in Gallia to<supplied>ga</supplied>ta mouentur, quae multis
                contexta fluminibus inmodicas Alpium niues in mare transmittit et subitarum
                regelationum repentinas inundationes patitur. aliquibus locis impetrauerunt
                possessores a praeside prouinciae ut aliquam latitudinent flumini daret. nam et in
                Italia Pisaurum flumini latitudo est assignata eatenus quo usque alluebat.</p>
-            <p>
+            <p n="13">
                <q>"<hi rend="italic">De iure territorii controuersia est</hi>
                </q>", cum quidam priuatorum aut <q>"<hi rend="italic">pomerium eius urbis</hi>
                </q>" <q>"<hi rend="italic">priuatis operibus</hi>
@@ -304,7 +305,7 @@
                      rend="italic">Si autem rationem appellationis huius tractemus, territorium est
                      quidquid hostis terrendi causa constitutum est.</hi>
                </q>" </p>
-            <p>
+            <p n="14">
                <q>"<hi rend="italic">De locis publicis siue populi Romani sine coloniarum
                      municipiorumue controuersia est, quotiens ea loca, quae neque assignata neque
                      uendita fuerint</hi>
@@ -314,7 +315,7 @@
                      monte Mutela</hi>
                </q>", qui nunc a priuatis operibus obtinetur. nam et regione Reatina itidem sunt
                loca P. R.</p>
-            <p>Loca autem quae sint publica uideamus. sunt siluae de quibus lignorum copia in
+            <p n="15">Loca autem quae sint publica uideamus. sunt siluae de quibus lignorum copia in
                lauacra publica ministranda caeduntur. sunt et loca publica quae in pascuis sunt
                relicta quibuscumque ad urbem uenientibus peregrinis. sunt in suburbanis loca publica
                inopum destinata funeribus, quae loca culinas appellant: sunt et loca noxiorum poenis
@@ -334,7 +335,7 @@
                </q>" fecit, locus est publicus. <q>"<hi rend="italic">siluae</hi>
                </q>" etiam sunt iuxta hoc alueo suis circum datae terminibus, quae casalia non
                utuntur.</p>
-            <p>
+            <p n="16">
                <q>"<hi rend="italic">De locis relictis et extra clusis controuersia est in agris
                      assignatis. relicta autem ea loca sunt quae siue iniquitate locorum assignari
                      nequiuerunt, siue ex uoluntate conditoris, hoc est mensoris, relicta limites
@@ -349,7 +350,7 @@
                non sint, relicta appellantur; et extra clusa, quod extra ordinationes sint et tamen
                fine cludantur. haec plerumque proximi possessores inuadunt et oportunitate loci
                irritati agrum obtinent. cum his controuersiae a rebus solent moueri.</p>
-            <p>
+            <p n="17">
                <q>"<hi rend="italic">De locis sacris et religiosis controuersiae plurimae</hi>
                </q>"<q>"<hi rend="italic">iure ordinario finiuntur</hi>
                </q>". si enim loca sacra aedificabantur, quam maxime apud antiquos in confinio
@@ -371,7 +372,7 @@
                      modum circum iacentem uel praescriptum agri finem</hi>
                </q>". nam lucos frequenter in trifinia et quadrifinia inuenimus, sicut in suburbanis
                et circa publica itinera constitutum esse perspicimus.</p>
-            <p>
+            <p n="18">
                <milestone unit="page" n="p. 69 Thulin"/>
                <q>"<hi rend="italic">De aquae pluuiae transitu controuersia est, in qua si collectus
                      pluuialis <supplied>a</supplied>quae transuersum secans finem alterius fundi
@@ -383,7 +384,7 @@
                uelit fines ad riuum usque defendere, non mediocris exinde controuersiae genus
                exoritur. sed hoc <q>"<hi rend="italic">mensoris</hi>
                </q>" est peritia finiendum.</p>
-            <p>
+            <p n="19">
                <q>"<hi rend="italic">De itineribus controuersia est, quae in arcifiniis agris iure
                      ordinario finitur, in assignatis mensurarum ratione</hi>
                </q>". <q>"<hi rend="italic">sed multi limites exigente ratione per diuia et
@@ -395,7 +396,7 @@
                   utri<supplied>m</supplied>que discesserint, desi<supplied>ni</supplied>t uia finem
                praestare <supplied>et</supplied> erit controuersia: sed inspectio
                   artifici<supplied>s</supplied> eam finiet.</p>
-            <p>Satis, ut puto, dilucide genera controuersiarum uel primum agri qualitatem exposui.
+            <p n="20">Satis, ut puto, dilucide genera controuersiarum uel primum agri qualitatem exposui.
                nam et simplicius enarrare condiciones earum existimaui, quo facilius ad intellectum
                peruenirent. nunc quem ammodum singula pertractari debeant persequendum est, uel quod
                sint status earum, id est iniectiuus expositiuus subiectiuum reciperatiuus
@@ -418,7 +419,7 @@
                transcendentiam non habet de hoc effectiuus, sed dum consummatus fuerit nascitur. nam
                effectiuus est cum de loco litigatur et idoneas partes ad litigium aduocationes
                instituunt.</p>
-            <p>Respicio etenim quantum sit quod mensoris prouidentiae iniungatur; sed nec minus
+            <p n="21">Respicio etenim quantum sit quod mensoris prouidentiae iniungatur; sed nec minus
                aduocatis. quorum ars licet diuersa sit, prudentiam tamen et simplicitatem eandem
                habere debent et qui iudicaturi sunt et qui aduocationes sunt praestaturi. iudicando
                autem mensor bonus uir et iustus agere debet, nulla ambitione aut sordibus moueri,
