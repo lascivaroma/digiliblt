@@ -30,7 +30,8 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <refsDecl n="CTS"><cRefPattern n="unknown" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"><p>This pointer pattern extracts unknown</p></cRefPattern></refsDecl>
+         <refsDecl n="CTS"><cRefPattern n="chapters" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:div[@n='$2'])"><p>This pointer pattern extracts  chapters </p></cRefPattern>
+            <cRefPattern n="books" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])"><p>This pointer pattern extracts books </p></cRefPattern></refsDecl>
          <projectDesc>
             <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
             <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
@@ -83,14 +84,14 @@
             <language ident="la">Latino</language>
          </langUsage>
       </profileDesc>
-  
+      <revisionDesc><change who="Emilien Arnaud" when="2021-04-29">correction du sys. de citation Capitains (refsDesc) et des numéros des div de type="lib" </change></revisionDesc>  
    </teiHeader>
 
    <text>
 
 
       <body xml:lang="lat" n="urn:cts:latinLit:stoa0186.stoa001.digilibLT-lat1">
-         <div type="lib" n="I">
+         <div type="lib" n="1">
             <head>MACROBII AMBROSII THEODOSII VIRI CLARISSIMI ET ILLVSTRIS <lb/>
     CONVIVIORVM PRIMI DIEI SATVRNALIORVM</head>
             <lb/>
@@ -964,7 +965,7 @@
                   <milestone unit="par" n="22"/> Inter haec servilis moderator obsequii, cui cura vel adolendi Penates vel struendi penum et domesticorum actuum ministros regendi, admonet dominum familiam pro sollemnitate annui moris epulatam. <milestone unit="par" n="23"/> Hoc enim festo religiosae domus prius famulos instructis tamquam ad usum domini dapibus honorant, et ita demum patribus familias mensae apparatus novatur. Insinuat igitur praesul famulitii cenae tempus et dominos iam vocare. <milestone unit="par" n="24"/> Tum Praetextatus: «reservandus igitur est Vergilius noster ad meliorem partem diei, ut mane novum inspiciendo per ordinem carmini destinemus. Nunc hora nos admonet ut honore vestro haec mensa dignetur. Sed Eustathius et post hunc Nicomachus meminerint crastina dissertatione servari sibi anteloquii functionem.» <milestone unit="par" n="25"/> Et Flavianus: «ex placita iam vos lege convenio, ut sequenti die Penates mei beari se tanti coetus hospitio glorientur.» His cum omnes adsensi essent, ad cenam alio aliud de his quae inter se contulerant reminiscente adprobanteque cum magna alacritate animi concesserunt. </p>
             </div>
          </div>
-         <div type="lib" n="II">
+         <div type="lib" n="2">
             <head>LIBER SECVNDVS</head>
             <lb/>
             <div type="cap" n="1"> 
@@ -1183,7 +1184,7 @@
                   <gap/>»</p>
             </div>
          </div>
-         <div type="lib" n="III">
+         <div type="lib" n="3">
             <head>LIBER TERTIVS</head>
             <lb/>
             <div type="cap" n="1"> 
@@ -1886,7 +1887,7 @@
                   <milestone unit="par" n="6"/> Olearum genera haec enumerantur: Africana, albiceris, Aquilia, Alexandrina, Aegyptia Culminea, conditiva, Liciniana, orchas, oleaster, pausia, phaulia, radius, Sallentina, Sergiana, termitea, <milestone unit="par" n="7"/> sicut uvarum ista sunt genera: Aminea —scilicet a regione, nam Aminei fuerunt ubi nunc Falernum est— asinusca atrusca, albuelis, abena, apiana, Apicia, bumamma— aut ut Graeci dicunt <foreign xml:lang="grc">βούμασθος—</foreign> duracina, labrusca, melampsithia, Maronia Mareotis, Numentana, precia, pramnia, psithia, pilleolata, Rhodia, stephanitis, venucula, variola lagea.» <milestone unit="par" n="8"/> Inter haec Praetextatus: «velim Servium nostrum diutius audire, sed hora nos quietis admonet ut exorto iubare eloquio Symmachi domi suae fruamur.» Atque ita facta discessio est. </p>
             </div> 
          </div>
-         <div type="lib" n="IV">
+         <div type="lib" n="4">
             <head>LIBER QVARTVS</head>
             <lb/>
             <div type="cap" n="1">
@@ -2638,7 +2639,7 @@
                <l>"Aeneas ignarus abest": ignarus et absit.»</l>
             </div>
          </div>
-         <div type="lib" n="V">
+         <div type="lib" n="5">
             <head>LIBER QVINTVS</head>
             <lb/>
             <div type="cap" n="1"> 
@@ -6245,7 +6246,7 @@
                   <milestone unit="par" n="14"/> Ecquid clarum factum est inde sumpsisse Vergilium quod Apollo ea vaticinetur quae sibi Iuppiter fatur? Probatumne vobis est Vergilium, ut ab eo intellegi non potest qui sonum Latinae vocis ignorat, ita nec ab eo posse qui Graecam non hauserit extrema satietate doctrinam? <milestone unit="par" n="15"/> Nam si fastidium facere non timerem, ingentia poteram volumina de his quae a penitissima Graecorum doctrina transtulisset implere: sed ad fidem rei propositae relata sufficient.» </p>
             </div>
          </div>
-         <div type="lib" n="VI">
+         <div type="lib" n="6">
             <head>LIBER SEXTVS</head>
             <lb/>
             <div type="cap" n="1">
@@ -7775,7 +7776,7 @@ Scipiadas. </l>
                   <gap/>»</p>
             </div>
          </div>
-         <div type="lib" n=" VII">
+         <div type="lib" n="7">
             <head>LIBER SEPTIMVS</head>
             <lb/>
             <div type="cap" n="1"> 
