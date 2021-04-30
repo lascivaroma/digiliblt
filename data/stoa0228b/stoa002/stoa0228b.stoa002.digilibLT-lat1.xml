@@ -35,9 +35,13 @@
       </fileDesc>
       <encodingDesc>
          <refsDecl n="CTS">
-            <cRefPattern n="unknown" matchPattern="(\w+)"
-               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-               <p>This pointer pattern extracts unknown</p>
+            <cRefPattern n="scholia" matchPattern="(\w+).(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:div[@n='$2'])">
+               <p>This pointer pattern extracts scholia</p>
+            </cRefPattern>
+            <cRefPattern n="book" matchPattern="(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])">
+               <p>This pointer pattern extracts book</p>
             </cRefPattern>
          </refsDecl>
          <projectDesc>
@@ -94,6 +98,7 @@
          <change who="Romain Verny" when="2021-04-30">
             <list>
                <item>profileDesc/langUsage/language : correction de l'indicateur de langue utilisé ("la" en "lat")</item>
+               <item>encodingDesc/refsDesc/cRefPattern : correction du xpath, ajout d'un niveau de citation, précision des éléments extraits</item>
             </list>
          </change>
       </revisionDesc>
