@@ -33,9 +33,9 @@
       </fileDesc>
       <encodingDesc>
          <refsDecl n="CTS">
-            <cRefPattern n="unknown" matchPattern="(\w+)"
+            <cRefPattern n="paragraph" matchPattern="(\w+)"
                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:p[@n='$1'])">
-               <p>This pointer pattern extracts unknown</p>
+               <p>This pointer pattern extracts paragraph</p>
             </cRefPattern>
          </refsDecl>
          <projectDesc>
@@ -90,6 +90,8 @@
             <list>
                <item>suppression de la déclaration RNGSchema en début de document</item>
                <item>profileDesc/langUsage/language : correction de l'indicateur de la langue utilisée ("la" en "lat")</item>
+               <item>encodingDesc/refsDecl/cRefPattern : précision que le pointer pattern extrait des paragraphes</item>
+               <item>text/body/div : numérotation des paragraphes</item>
             </list>
          </change>
       </revisionDesc>
@@ -104,7 +106,7 @@
             <head>EPISTOLA ALEXANDRI MACEDONIS AD ARISTOTELEM MAGISTRVM SVVM DE ITINERE SVO ET DE
                SITV INDIAE</head>
 
-            <p>
+            <p n="1">
                <milestone unit="page" n="K. 190"/> Semper memor tui, etiam inter dubia bellorumque
                nostrorum pericula, carissime praeceptor ac secundum matrem meam sororesque meas
                acceptissime, et quoniam te deditum philosophiae noveram, scribendum tibi de
@@ -125,22 +127,22 @@
                custodire et parcius loqui quam gesta sint omnia. Et nunc spero quod agnoscis nihil
                me tamquam captantem iactantemque gloriam militiae nostrae asserere. Quae utinam
                minus fuissent laboriosa nobis nec tot rebus experimenta necesse esset cognoscere. </p>
-            <p>Ago gratias Macedoniae iuvenum virtuti et invicto exercitui nostro, quia in ea
+            <p n="2">Ago gratias Macedoniae iuvenum virtuti et invicto exercitui nostro, quia in ea
                patientia perseveraverunt ut rex regum appeller. Quo tibi meo titulo misso laetari,
                carissime praeceptor, si dubito, delinquo, et a mea tuaque aberro pietate, nisi tibi
                ut Olympiadi matri meae sororibusque meis de singulis regni mei commodis scribam;
                quae tibi et illis communia esse arbitror, idque nisi feceris, parum de nobis
                simpliciter iudicare videberis.</p>
-            <p>Prioribus litteris significaveram tibi de solis lunaeque eclipsi et de constantia
+            <p n="3">Prioribus litteris significaveram tibi de solis lunaeque eclipsi et de constantia
                siderum aerisque indiciis, quae non sine magna cura ordinata tibi misi et has novas
                implicaturus historias omnia cartis <milestone unit="page" n="K. 192"/> commendabo.
                Quae cum relegis, scito esse talia quae cura Alexandri tui complecti decuerant.</p>
-            <p>Mense Maio rege Persarum Dario apud Gangem amnem superato acceptaque in condicionem
+            <p n="4">Mense Maio rege Persarum Dario apud Gangem amnem superato acceptaque in condicionem
                omni eius regione ordinarios praeparatoresque nostros praeposuimus orientis
                provinciis, multis opibus regalibus ditati, ut in priori epistola significaveram
                tibi. Et nunc, ne sim scribendi multiplex, priora facta, iam praecognita
                praetereo.</p>
-            <p>Mense Iulio deficiente in Indiam Fasiacen pervenimus, ubi mira celeritate Poro rege
+            <p n="5">Mense Iulio deficiente in Indiam Fasiacen pervenimus, ubi mira celeritate Poro rege
                devicto, potiti ingentibus divitiis regia gaza repleti sumus. Sed ut cognoscas ea,
                quoniam mihi memoriae digna esse videbantur - quaedem enim novi quae memorabilia
                fuerunt - aequum est visum mihi scribere de innumerabili exercitu eius, in quo fuere
@@ -160,7 +162,7 @@
                rostrisque inauratis cum inauribus torquibusque, margaritas et uniones gerentia.
                Multa gemmea et crystallina electrinaque vasa potatoria et sextariola, multa aurea
                invenimus et rara argentea. </p>
-            <p>Quibus in potestatem redactis interiorem Indiam perspicere cupiens cum universo
+            <p n="6">Quibus in potestatem redactis interiorem Indiam perspicere cupiens cum universo
                Caspias portas perveneram exercitu. Vbi cum fertilissimarum regionum admirarer
                felicitatem, quodam gaudio digna cognoveram loca, quamquam praedixerant nobis incolae
                regionis eius, ne serpentes et rabida ferarum genera incideremus quae plurima in his
@@ -194,7 +196,7 @@
                magis sitire miles inciperet, collaudansque Zephyri erga me benevolentiam dignis eum
                muneribus honoravi. Quae res cum animaequiorem fecisset exercitum, coeptum iter
                institui.</p>
-            <p>Nec longe mihi in desertis locis flumen apparuit cuius ripas pedum sexagenum arundo
+            <p n="7">Nec longe mihi in desertis locis flumen apparuit cuius ripas pedum sexagenum arundo
                vestiebat, pinorum abietumque robora vincens grossitudine, qua Indi materia ad
                constituenda aedificia utebantur. Tum ego, quoniam quadrupedia et exercitus
                sitiebant, iussi continuo castra poni a metatoribus. Quae dum ponuntur, ipse sitim
@@ -219,7 +221,7 @@
                Sed ego sciebam per bestiosa serpentiosaque loca <milestone unit="page" n="K. 197"/>
                nobis iter esse, ne opposito periculo frangeremur ac ne imprudentes circumveniremur
                nec inopinato periculo feriremur. </p>
-            <p>Ripam igitur fluminis sequentes ad horam diei octavam ad oppidum pervenimus quod in
+            <p n="8">Ripam igitur fluminis sequentes ad horam diei octavam ad oppidum pervenimus quod in
                medio amne in insula ex his arundinibus quas paulo ante descripsimus, erat
                aedificatum, paucosque Indorum seminudos notavimus homines, qui visis nobis continuo
                intra tectorum suorum culmina delituerunt. Quorum ego praesentiam videre desiderans,
@@ -237,7 +239,7 @@
                formicae efferbuere. Et ne qua noctu cum aquarum prodigiis bella gereremus, iussi
                dato signo bucinae ad iter militem aptari. Quid enim manere in tali sitientibus
                proderat loco ?</p>
-            <p>Igitur ab hora diei decima usque ad undecimam cum iter fecissemus, vidimus homines
+            <p n="9">Igitur ab hora diei decima usque ad undecimam cum iter fecissemus, vidimus homines
                per medium amnem factis ex arundine rotundis praetervehi naviculis. Quos cum dulces
                aquas percunctaremur sua lingua ubi inveniri possent, dixerunt ingens nos stagnum
                dulcissimae aquae inventuros, quo et ipsi nos quinquaginta itinerum duces erant
@@ -256,7 +258,7 @@
                parte collocabantur, ut aptius contineri possent, si quis nocturnus casu oriretur
                pavor tumultusque aliquis novus, cum iam mille quingenti extrinsecus essent ignes
                accensi sufficiente silva quantum vellemus.</p>
-            <p>Deinde testante bucina cibum et ipse cepi et militibus capere imperavi accensis
+            <p n="10">Deinde testante bucina cibum et ipse cepi et militibus capere imperavi accensis
                lampadibus aureis admodum duobus milibus, cum ad primos lunae radiantis ortus subito
                erectis caudarum aculeis a pascualibus Indici scorpiones consuetam petentes
                aquationem ad castra innumeri confluxere, tumultu acciti nostro an siti incertum
@@ -279,7 +281,7 @@
                operi. Post serpentes cancri immodicae multitudinis, corcodrillorum pellibus contecti
                ad castra venerunt; quae prodigia duritia thoracae ferrum respuebant: multa ignibus
                usta, multa se in stagnum receperunt. </p>
-            <p>Iam nos vigiliis inquietos quinta noctis hora bucina admonebat quiescendum. Sed
+            <p n="11">Iam nos vigiliis inquietos quinta noctis hora bucina admonebat quiescendum. Sed
                affuere albi leones taurorum comparandi magnitudinibus: cum ingenti murmure concussis
                cervicibus, stantibus alte iubis in modum fulminum in nos impetum faciunt exceptique
                venabulis ruunt. Tantus repentinus oriebatur tumultus cumulante caeca nocte; nec
@@ -288,17 +290,17 @@
                   <milestone unit="page" n="K. 201"/> comparanda. Sed et vespertilionum vis ingens
                columbinis corporibus aequales in ora vultusque nostros ferebatur, habentes dentes in
                morem hominum quibus artus militum violabant.</p>
-            <p>Vna praeterea novi generis bestia maior elephanto affuit, tribus armata in fronte
+            <p n="12">Vna praeterea novi generis bestia maior elephanto affuit, tribus armata in fronte
                cornibus, quam Indi appellare dentityrannum soliti sunt, equo simile caput gerens
                atri coloris. Haec potata aqua intuens castra in nos subito impetum dedit nec ignium
                compositis tardatur ardoribus. Ad quam sustinendam cum opposuissem Macedonum manum,
                triginta sex occidit, duos et quinquaginta calcatos inutiles fecit vixque ipsis
                defixa est venabulis.</p>
-            <p>Ante lucanum deinde tempus caelo pestes venere candido versicolores in modum ranarum,
+            <p n="13">Ante lucanum deinde tempus caelo pestes venere candido versicolores in modum ranarum,
                cum quibus mures Indici in castra pergebant vulpibus similes, quorum morsu vulnerata
                quadrupedia statim exspirabant; hominibus idem morsus non usque ad interitum
                nocebant.</p>
-            <p>Appropinquante luce nocticoraces venere aves vulturibus similes, corporum immanitate
+            <p n="14">Appropinquante luce nocticoraces venere aves vulturibus similes, corporum immanitate
                superabant, colore fulvo, rostro pedibusque nigris. Totam stagni complevere ripam non
                nobis perniciem ferentes, sed solitos pisces consumebant. Quas nos aves neque fugare
                   <milestone unit="page" n="K. 202"/> neque abigere ausi eramus; cunctae vero
@@ -306,7 +308,7 @@
                semper in insidias deducebant, pessime meritos, crurifragio puniri iussi ut et nocte
                vivi spirantesque a serpentibus consumerentur, ut nos consumi voluerunt. Manus quoque
                eis confringi imperavi, ut merito pro factis suis uterentur supplicio.</p>
-            <p>Habita deinde contione, ut fortes milites essent neve adversis ut feminae casibus
+            <p n="15">Habita deinde contione, ut fortes milites essent neve adversis ut feminae casibus
                deficerent, castra concentu bucinarum repente ad Noti venti spiracula tetendi, ubi a
                collectis barbarorum Indorumque viris nova conspirari bella cognoveram. Militibus
                meis ingentes erant animi, quibus et census victoriarum suppeditabat et felicitas.
@@ -331,7 +333,7 @@
                castra et antequam legerem et postquam legi epistolam, magno risu sum dissolutus.
                Cuius tibi et matri meae sororibusque meis, ut superbam inclinatamque barbari
                temeritatem mirareris, exemplar misi. </p>
-            <p>
+            <p n="16">
                <hi rend="italic">Epistola Pori ad Alexandrum. Rex Indiae Porus Alexandro. Miratur
                   prudentia nostra, quod Perside calcata Porum iuvenem senex et regnum Indiae
                   omnibus divitiis opulentum, armis munitum, nimis populosum, inter alia mundi regna
@@ -342,7 +344,7 @@
                   sufficit tibi, si Macedoniam redire disponas, aut deditionem tuam nobis offeras,
                   ne capitis tui damnum incurras.</hi>
             </p>
-            <p>
+            <p n="17">
                <milestone unit="page" n="K. 204"/> Mox contuli cum Indis manum superatisque his ita
                ut volebam erepta armis regna Poro restitui. Qui, ut ei insperatus honor donatus est,
                mihi thesauros suos manifestavit quos ignorabam; ex quibus me et comites meos et
@@ -351,7 +353,7 @@
                constituerat simulacra. Quae an solida essent ego scire cupiens, omnia perforavi et
                id ipsum ut vidi solida, simili metallo complevi, Liberumque et Herculem deiectis
                victimis placavi.</p>
-            <p>Vltra deinde progressuri, si quid memorabile cerneremus, nihil praeter desertos in
+            <p n="18">Vltra deinde progressuri, si quid memorabile cerneremus, nihil praeter desertos in
                oceano campos silvasque ac montes audivimus, in quibus esse elephanti et serpentes
                dicebantur. Pergebam ad mare tamen volens, si possem, orbi terrarum circumfluum
                navigare oceanum. Quem <del>quoniam</del> tenebrosum vadosumque mihi locorum incolae
@@ -361,12 +363,12 @@
                honoratis collaudatisque sinistram partem Indiae scrutari institui, ne quid mihi in
                ignotis subtraheretur locis, Poro rege non detrectante, ne qua abdita celare
                videretur regni sui bona.</p>
-            <p>Palus erat sicca et coeno abundans. Per quam cum transire temptaremus, belua novi
+            <p n="19">Palus erat sicca et coeno abundans. Per quam cum transire temptaremus, belua novi
                generis prosilivit serrato tergo, hippotami pectore, duo capita habens, unum leaenae
                simile, corcodrillo gerens alterum simillimum duris munitum dentibus, quod caput duos
                milites repentino occidit ictu. Quam ferreis vix umquam comminuimus malleis, quam
                hastis non valuimus transfigere. Admirati autem sumus diu novitatem eius.</p>
-            <p>Pervenimus deinde ad silvas Indorum ultimas. Vbi cum castra per quinquaginta in
+            <p n="20">Pervenimus deinde ad silvas Indorum ultimas. Vbi cum castra per quinquaginta in
                longum et latum fere stadia collocavissemus iuxta amnem Buemar, coeperamus velle
                epulari sub nocte hora diei undecima, cum subito pabulatores lignatoresque exanimes
                omnes simul advenientes nuntiabant, ut celerius arma caperemus: venire <milestone
@@ -385,7 +387,7 @@
                insigni onustus praeda in castra perveni. Iussi tunc clipeis et lorica vallum
                praecingi, ne quid iniuriae noctu elephantorum violentia ferarumque aliarum afferret.
                Quieta nox fuit usque ad lucem omnesque somno refecti. </p>
-            <p>
+            <p n="21">
                <milestone unit="page" n="K. 207"/> Primo deinde aurorae diluculo in alias Indiae
                profecti regiones in campo patenti mulieres virosque pilosos in modum ferarum toto
                corpore vidimus, pedum altos novem. Hos Indi faunos appellant; hi assueti fluminibus
@@ -394,7 +396,7 @@
                Cynocephalis ingentibus deinde plena invenimus nemora, qui nos adlacessere temptabant
                et eiectis sagittis fugiebant. Iam deserta intrantibus nobis loca nihil dignum
                spectaculo ab Indis ultra superesse referebatur.</p>
-            <p>Igitur aditurus Fasiacen, unde veneramus, signa converti imperavi, ut ex eo loco
+            <p n="22">Igitur aditurus Fasiacen, unde veneramus, signa converti imperavi, ut ex eo loco
                usque ad duodecimum miliarium castra vicina aquationi poneremus. Atque cuncta erecta
                tentoria erant largique ignes accensi, cum repente Euri venti tanta vis flantis
                exorta est, ut omnia tabernacula principiaque nostra conturbaverit everteritque
@@ -415,7 +417,7 @@
                reddita est nobis orantibus. Tum ignes ex integro accenduntur et ab securis nobis
                epulae capiuntur et triduo continuo sine sole claro id nobis accidit pendente minaci
                nubilo. </p>
-            <p>Et ego sepultis admodum quingentis militibus qui inter nives perierunt, castra inde
+            <p n="23">Et ego sepultis admodum quingentis militibus qui inter nives perierunt, castra inde
                mutari imperavi. Nam et edita caelo promunctoria ad oceanum in Aethiopia vidimus et
                Enesios quoque vidimus montes <milestone unit="page" n="K. 209"/> et antrum Liberi,
                quo perditos immisimus, quia dicebantur tertia die febribus mori qui speluncam dei
@@ -450,7 +452,7 @@
                serpentium <milestone unit="page" n="K. 211"/> ferarumque loca deduxerunt in proximam
                oraculi sedem. De quibus feris et serpentibus, quia innumerae et Indica lingua erant
                vocitatae, scibendum tibi non putavi. </p>
-            <p>Cum appropinquaremus regioni a nobis petitae, vidimus feminas virosque aliquos
+            <p n="24">Cum appropinquaremus regioni a nobis petitae, vidimus feminas virosque aliquos
                pantherarum tigridumque pellibus contectos; a quibus cum quaerimus quinam hominum
                essent, Indos se sua lingua esse dicebant. Lucus erat largus, ture et opobalsamo
                abundans, quae plurima ramis eorum innascebantur nemorum et vesci incolae eius
@@ -466,7 +468,7 @@
                sacerdos solis occasum: nam solis arborem loqui ac responsa dare ad primos iubaris
                ortus affirmabat. Item noctis eadem tempora custodire lunae enarrabat arborem. Quae
                res mihi mendacio magis quam veritati similis videbatur.</p>
-            <p>Igitur perambulare totem nemus incipio, quod intra parietem erat non magno
+            <p n="25">Igitur perambulare totem nemus incipio, quod intra parietem erat non magno
                aedificatum opere, videoque opobalsamum cum optimo odore omnibus undique arborum
                ramis abundantissime manans; cuius odore captus et ipse clibulas praevellebam de
                corticibus et idem comites mei faciebant. In media autem parte luci sacrae arbores
@@ -483,7 +485,7 @@
                sacerdotem existimavi. Indice an Graece mihi essent arbores responsurae. Tum ille
                inquit: “Vtraque lingua solis arbor pronuntiat futura, lunae Graeco sermone incipit,
                Indico finit”.</p>
-            <p>Dum ea geruntur, videmus ab occidente iubare fulgentibus Phoebi radiis percussa
+            <p n="26">Dum ea geruntur, videmus ab occidente iubare fulgentibus Phoebi radiis percussa
                arborum cacumina et sacerdos ait: “Sursum” inquit “omnes intuemini et de quibus
                quisque rebus consulturus est occulte cogitet silentio, nemo palam pronuntiet.” Tum
                ego et amici et commilitones accuratius sumus intuiti ne inter nemorum densitatem
@@ -494,7 +496,7 @@
                cum subito Indico sermone tenuissimo arbor respondit: “Invicte bellis Alexander, ut
                consuluisti, unus eris orbis terrarum dominus, sed vivus in patriam non reverteris
                amplius, quoniam fata ita de tuo capite statuerunt.”</p>
-            <p>Haec ego audiens mente perculsus suo: displicuit enim mihi quod tam multos adduxi
+            <p n="27">Haec ego audiens mente perculsus suo: displicuit enim mihi quod tam multos adduxi
                mecum ad sacras arbores. Simul et amici mei et comites mei qui mecum venerant
                fleverunt valde et contristati sunt. Quos ego partim minis partim muneribus
                consolatus sum, praecepique eis ut nemini haec responsa dicerent. <milestone
@@ -510,7 +512,7 @@
                his dolum aut scelus resurrecturum sperabam sed magis pro mea salute mori paratos,
                nec ego quicquam de fidelissimis mihi amicis <milestone unit="page" n="K. 215"/>
                consulerem, ut illos cavendos esse Alexandro praemoneret oraculum.</p>
-            <p>Discessu deinde facto, cum iam ad epulas reverteremur, ego animo aeger ad requiem
+            <p n="28">Discessu deinde facto, cum iam ad epulas reverteremur, ego animo aeger ad requiem
                vado. Rogantibus amicis, ne me anxietate et ieiunio conficerem, paululum cibi contra
                animi voluntatem sumere coepi meque, ut praesto essem ad primum solis ortum, in
                sacrario collocavi. Postero die matutino expergefactus diluculo amicos etiam
@@ -540,19 +542,19 @@
                Traseleon et Deditus et Macon et Erocles et Silbrus et Sunsiclus et Perdicas et
                Philotas et praefectus praetorii Coracdas, silentio ex sua fide et meo tegebant
                consilio. </p>
-            <p>
+            <p n="29">
                <milestone unit="page" n="K. 217"/> Iamque a sacris excesseramus arboribus. sed iam
                odore turis opobalsamique nares nostrae verberabantur. Indi enim sacra deorum ad
                oceanum colentes dicebant me quoque esse immortalem, qui usque eo penetrare
                potuissem. Quibus ego, quod de nobis opinarentur insinuans, gratias agebam.</p>
-            <p>Pervenimus deinde in vallem Diardinis, in qua serpentes habitabant, habentes in collo
+            <p n="30">Pervenimus deinde in vallem Diardinis, in qua serpentes habitabant, habentes in collo
                lapides qui smaragdi appellantur. Hi serpentes lasere et albo pascuntur pipere; hi
                lumen in oculis profusum accipiunt. Hi vallem nulli adeundam incolunt: nam super hanc
                vallem sunt piramides institutae pedum tricenum quinum, ab antiquis Indorum ob hanc
                causam aedificatae. Sed hi serpentes, quos paulo ante descripsimus, inter se
                quotannis vere primo depugnant multique morsibus depereunt. Inde nos paucos extulimus
                ingentis formae smaragdos. </p>
-            <p>Per magna deinde pericula incidimus inscitas talis generis bestias, habentes capita
+            <p n="31">Per magna deinde pericula incidimus inscitas talis generis bestias, habentes capita
                leonum, caudas unguibus binis, latae ad mensuram sex pedum, quibus verberabantur
                homines, ut inutiles fierent. His erant intermixti grifi, rostra habentes aquilarum
                et alia parte corporis dissimiles. Qui mira velocitate <milestone unit="page"
@@ -560,7 +562,7 @@
                caudis pedum binorum ternorumque crudelissime admodum verberabant. Qui partim
                sagittis, partim contis militaribus conficiebantur. Perdidi in eo certamine ducentos
                sex milites bestiarum utriusque generis morsu; occidimus admodum sedecim milia.</p>
-            <p>Inde ad Occluadas fluvium venimus, qui sine flexu rectus ad oceanum ferebatur, latior
+            <p n="32">Inde ad Occluadas fluvium venimus, qui sine flexu rectus ad oceanum ferebatur, latior
                stadiis ad ripam alteram viginti; erant arundines ac trecentae per litora, quarum
                unam vix triginta milites possent ferre: excedebant enim arborum procerissimarum
                altitudinem. In his arundinibus stratum potentissimo ebore vidimus. Inhabitabant enim
@@ -582,11 +584,11 @@
                specie mirabiles, in affectu suo avide victos rumpebant aut veneria exanimabant
                voluptate. Quarum nos duas tantummodo cepimus colore niveo, similes nymphis, diffusis
                per terga capillis.</p>
-            <p>Et in Gange flumine erant mirabilia portenta. De quibus, ne tibi fabulosus viderer,
+            <p n="33">Et in Gange flumine erant mirabilia portenta. De quibus, ne tibi fabulosus viderer,
                scribendum non putavi nisi quod aquae fluminis et Euphratis Borea venientes solae ad
                Noti venti spiracula exeunt. Quorum fluminum ripae altera ab alia conspicuae non sunt
                earum aquarum latitudine.</p>
-            <p>Inde ad castellum quod Indi colunt pervenimus, <milestone unit="page" n="K. 220"/>
+            <p n="34">Inde ad castellum quod Indi colunt pervenimus, <milestone unit="page" n="K. 220"/>
                deinde ad Seres, quae gens iustissima omnium gentium esse perhibetur. Vbi nec
                homicidium nec adulterium neque periurium neque ebrietas committi dicitur. Pane
                tantum et oleribus et aqua vescuntur. Qui nos commeatibus optimis suscipiunt et
