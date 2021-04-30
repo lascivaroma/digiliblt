@@ -33,7 +33,8 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <refsDecl n="CTS"><cRefPattern n="unknown" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"><p>This pointer pattern extracts unknown</p></cRefPattern></refsDecl>
+         <refsDecl n="CTS"><cRefPattern n="chapters" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:div[@n='$2'])"><p>This pointer pattern extracts chapters </p></cRefPattern>
+            <cRefPattern n="books" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])"><p>This pointer pattern extracts books </p></cRefPattern></refsDecl>
          <projectDesc>
             <p>digilibLT. Biblioteca digitale di testi latini tardoantichi. </p>
             <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
@@ -73,11 +74,11 @@
             <language ident="la">Latino</language>
          </langUsage>
       </profileDesc>
-  
+      <revisionDesc><change who="Emilien Arnaud" when="2021-04-29">correction du sys. de citation Capitains et des numéros des div de  type="lib" </change></revisionDesc>
    </teiHeader>
    <text>
       <body xml:lang="lat" n="urn:cts:latinLit:stoa0023.stoa001.digilibLT-lat1">
-         <div type="lib" n="XIV">
+         <div type="lib" n="14">
             <head> AMMIANI MARCELLINI HISTORIAE LIBER XIV </head>
             <div type="cap" n="1">
                <p>
@@ -845,7 +846,7 @@
                </p>
             </div>
          </div>
-         <div type="lib" n="XV">
+         <div type="lib" n="15">
             <head> MARCELLINI HISTORIAE LIBER XV </head>
             <div type="cap" n="1">
                <p>
@@ -1567,7 +1568,7 @@
                </p>
             </div>
          </div>
-         <div type="lib" n="XVI">
+         <div type="lib" n="16">
             <head> MARCELLINI HISTORIAE LIBER XVI </head>
             <div type="cap" n="1">
                <p>
@@ -2340,7 +2341,7 @@
                </p>
             </div>
          </div>
-         <div type="lib" n="XVII">
+         <div type="lib" n="17">
             <head>MARCELLINI HISTORIAE LIBER XVII </head>
             <div type="cap" n="1">
                <p>
@@ -3078,7 +3079,7 @@
                </p>
             </div>
          </div>
-         <div type="lib" n="XVIII">
+         <div type="lib" n="18">
             <head>MARCELLINI HISTORIAE LIBER XVIII </head>
             <div type="cap" n="1">
                <p>
@@ -3576,7 +3577,7 @@
                </p>
             </div>
         </div>
-        <div type="lib" n="XIX">
+        <div type="lib" n="19">
             <head>MARCELLINI HISTORIAE LIBER XIX </head>
             <div type="cap" n="1">
                <p>
@@ -4159,7 +4160,7 @@
                </p>
             </div>
          </div>
-         <div type="lib" n="XX">
+         <div type="lib" n="20">
             <head>MARCELLINI HISTORIAE LIBER XX </head>
             <div type="cap" n="1">
                <p>
@@ -4814,7 +4815,7 @@
                </p>
             </div>
           </div>
-          <div type="lib" n="XXI">
+          <div type="lib" n="21">
            <head>MARCELLINI HISTORIAE LIBER VICESIMVS ET VNVS </head>
            <div type="cap" n="1">
                <p>
@@ -5555,7 +5556,7 @@
                </p>
            </div>
            </div>
-           <div type="lib" n="XXII">
+           <div type="lib" n="22">
             <head>MARCELLINI HISTORIAE LIBER XXII </head>
             <div type="cap" n="1">
                <p>
@@ -6491,7 +6492,7 @@
                </p>
             </div>
             </div>
-            <div type="lib" n="XXIII">
+            <div type="lib" n="23">
              <head>MARCELLINI HISTORIAE LIBER XXIII </head>
              <div type="cap" n="1">
               <p>
@@ -7169,7 +7170,7 @@
                </p>
              </div>
              </div>
-             <div type="lib" n="XXIV">
+             <div type="lib" n="24">
               <head>MARCELLINI HISTORIAE LIBER XXIV </head>
               <div type="cap" n="1">
                <p>
@@ -7774,7 +7775,7 @@
                </p>
               </div>
               </div>
-              <div type="lib" n="XXV">
+              <div type="lib" n="25">
                <head>MARCELLINI HISTORIAE LIBER XXV</head>
                <div type="cap" n="1">
                 <p>
@@ -8490,7 +8491,7 @@
                </p>
                </div>
                </div>
-               <div type="lib" n="XXVI">
+               <div type="lib" n="26">
                 <head> MARCELLINI HISTORIAE LIBER XXVI </head>
                 <div type="cap" n="1">
                  <p>
@@ -9169,7 +9170,7 @@
                </p>
                 </div>
                 </div>
-                <div type="lib" n="XXVII">
+                <div type="lib" n="27">
                  <head>MARCELLINI HISTORIAE LIBER XXVII </head>
                  <div type="cap" n="1">
                   <p>
@@ -9856,7 +9857,7 @@
                </p>
                  </div>
                  </div>
-                 <div type="lib" n="XXVIII">
+                 <div type="lib" n="28">
                   <head>MARCELLINI HISTORIAE LIBER XXVIII </head>
                   <div type="cap" n="1">
                    <p>
@@ -10645,7 +10646,7 @@
                </p>
                   </div>
                   </div>
-                  <div type="lib" n="XXIX">
+                  <div type="lib" n="29">
                    <head>MARCELLINI HISTORIAE LIBER XXIX </head>
                    <div type="cap" n="1">
                     <p>
@@ -11514,7 +11515,7 @@
                </p>
                    </div>
                    </div>
-                   <div type="lib" n="XXX">
+                   <div type="lib" n="30">
                     <head>MARCELLINI HISTORIAE LIBER XXX </head>
                     <div type="cap" n="1">
                      <p>
@@ -12188,7 +12189,7 @@
                </p>
                     </div>
                     </div>
-                    <div type="lib" n="XXXI">
+                    <div type="lib" n="31">
                      <head>MARCELLINI HISTORIAE LIBER XXXI </head>
                      <div type="cap" n="1">
                       <p>
