@@ -35,7 +35,8 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-         <refsDecl n="CTS"><cRefPattern n="unknown" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"><p>This pointer pattern extracts unknown</p></cRefPattern></refsDecl>
+           <refsDecl n="CTS"><cRefPattern n="chapters" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:div[@n='$2'])"><p>This pointer pattern extracts  chapters </p></cRefPattern>
+              <cRefPattern n="books" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])"><p>This pointer pattern extracts books </p></cRefPattern></refsDecl>
             <projectDesc>
                 <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
                 <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
@@ -76,6 +77,7 @@
                 <language ident="la">Latino</language>
             </langUsage>
         </profileDesc>
+       <revisionDesc><change who="Emilien Arnaud" when="2021-04-30">correction du sys. de citation Capitains  (refsDesc) et des numéros des div de type="lib" </change></revisionDesc>  
     </teiHeader>
 
     <text>
@@ -84,7 +86,7 @@
 VIRI CLARISSIMI ET ILLVSTRIS<lb/>
 IN SOMNIVM SCIPIONIS</head>
          <lb/>
-         <div type="lib" n="I">
+         <div type="lib" n="1">
             <head>LIBER PRIMVS</head>
             <lb/>
             <div type="cap" n="1">
@@ -723,7 +725,7 @@ IN SOMNIVM SCIPIONIS</head>
                <p>Restat ergo ut indubitabili ratione monstratum sit in terram ferri <hi rend="italic">«omnia nutu suo pondera»</hi>. Ista autem quae de hoc dicta sunt opitulabuntur nobis et ad illius loci disputationem quo antipodas esse commemorat. Sed hic, inhibita continuatione tractatus, ad secundi commentarii uolumen disputationem sequentium reseruemus.</p>
             </div>
          </div>
-         <div type="lib" n="II">
+         <div type="lib" n="2">
             <head>LIBER SECVNDVS</head>
             <lb/>
             <div type="cap" n="1">
