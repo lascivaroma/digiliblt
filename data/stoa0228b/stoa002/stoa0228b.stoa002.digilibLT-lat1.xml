@@ -99,7 +99,7 @@
             <list>
                <item>profileDesc/langUsage/language : correction de l'indicateur de langue utilisé ("la" en "lat")</item>
                <item>encodingDesc/refsDesc/cRefPattern : correction du xpath, ajout d'un niveau de citation, précision des éléments extraits</item>
-               <item>text/body/div/div : suppression des numérotations non-compatibles avec CapiTainS</item>
+               <item>text/body/div/div : suppression des numérotations non-compatibles avec CapiTainS et ajout d'une numérotation dans la deuxième balise "pr"</item>
             </list>
          </change>
       </revisionDesc>
@@ -2663,7 +2663,7 @@
 
          <div type="lib" n="II">
             <head>LIBER II.</head>
-            <div type="pr">
+            <div type="pr" n="pr">
                <p>INCIPIT II.</p>
             </div>
 
