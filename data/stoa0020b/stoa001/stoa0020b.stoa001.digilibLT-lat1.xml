@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<?oxygen RNGSchema="file:teilite.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -89,6 +88,7 @@
       <revisionDesc>
          <change who="Romain Verny" when="2021-04-30">
             <list>
+               <item>suppression de la déclaration RNGSchema en début de document</item>
                <item>profileDesc/langUsage/language : correction de l'indicateur de la langue utilisée ("la" en "lat")</item>
             </list>
          </change>
