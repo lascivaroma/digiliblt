@@ -99,7 +99,8 @@
             <list>
                <item>profileDesc/langUsage/language : correction de l'indicateur de langue utilisé ("la" en "lat")</item>
                <item>encodingDesc/refsDesc/cRefPattern : correction du xpath, ajout d'un niveau de citation, précision des éléments extraits</item>
-               <item>text/body/div/div : suppression des numérotations non-compatibles avec CapiTainS et ajout d'une numérotation dans la deuxième balise "pr"</item>
+               <item>text/body/div/div : suppression des numérotations non-compatibles avec CapiTainS, renumérotation des noeuds dupliqués,
+                  ajout d'une numérotation dans la deuxième balise "pr"</item>
             </list>
          </change>
       </revisionDesc>
@@ -543,7 +544,7 @@
                <p> ET VOTIS idest sacrificiis. Beneque divinam ei tribuit potestatem. </p>
             </div>
 
-            <div n="43" type="schol">
+            <div n="43a" type="schol">
                <p> NOVO recenti, incipiente. ‛Ver novum’ ideo ait, quia mensis Martius initium anni
                   est. CANIS idest albis et candidis nive. </p>
             </div>
@@ -553,7 +554,7 @@
                </p>
             </div>
 
-            <div n="43" type="schol">
+            <div n="43b" type="schol">
                <p> HVMOR. Ordo: cum liquitur humor canis montibus. </p>
             </div>
 
@@ -681,11 +682,11 @@
                <p> TENVI SVLCO idest leviter arare. </p>
             </div>
 
-            <div n="71" type="schol">
+            <div n="71a" type="schol">
                <p> ALTERNIS idest per vices. </p>
             </div>
 
-            <div n="72" type="schol">
+            <div n="72a" type="schol">
                <p> SEGNEM pro cessantem. </p>
             </div>
 
@@ -697,7 +698,7 @@
                <p> HIC in sterili. </p>
             </div>
 
-            <div n="71" type="schol">
+            <div n="71b" type="schol">
                <p> IDEM agricola. Omnia praecepta, quae commemorata sunt, ad illud pertinent, quod
                   ait: <hi rend="expanded">Quid faciat laetas segetes</hi>. NOVALIS agri, qui
                   alternis vacant virium novandarum gratia. Dicimus autem et has novales et haec
@@ -708,16 +709,16 @@
                <p> MUTATO SIDERE novo anno idest principio veris alterius anni. </p>
             </div>
 
-            <div n="74" type="schol">
+            <div n="74a" type="schol">
                <p> VNDE PRIVS LAETVM. Sensus hic est: si angustia agri non patietur, ut novale
                   habeas, fructus commutabis; nam ipsa commutatio adfert requiem. </p>
             </div>
 
-            <div n="72" type="schol">
+            <div n="72b" type="schol">
                <p> SITV DVRESCERE ut redeat in vires priores. </p>
             </div>
 
-            <div n="74" type="schol">
+            <div n="74b" type="schol">
                <p> LAETVM fertile; ‛homo laetus’ idest hilaris; ‛laetum pecus’ idest pingue.
                   LEGVMEN. Legumen dicitur, quod manu legatur nec sectionem in falce requirat.
                   SILIQVA folliculo, ubi semen leguminis. QVASSANTE idest sonante, quando quassetur.
@@ -755,19 +756,19 @@
                   laboriosae huius vitae obliviscuntur. </p>
             </div>
 
-            <div n="80" type="schol">
+            <div n="80a" type="schol">
                <p> FIMO idest stercore, quod in visceribus fit. PINGVI idest fertili. </p>
             </div>
 
-            <div n="81" type="schol">
+            <div n="81a" type="schol">
                <p> EFFETOS idest steriles, senes. </p>
             </div>
 
-            <div n="80" type="schol">
+            <div n="80b" type="schol">
                <p> SOLA. ‛Solum’ singulariter. </p>
             </div>
 
-            <div n="81" type="schol">
+            <div n="81b" type="schol">
                <p> CINEREM INMVNDVM ad distinctionem illius, quo utitur puella. </p>
             </div>
 
@@ -805,7 +806,7 @@
                   ‛penetrabile’, quod facile penetratur. </p>
             </div>
 
-            <div n="94" type="schol">
+            <div n="94a" type="schol">
                <p> INERTES idest infertiles. </p>
             </div>
 
@@ -813,7 +814,7 @@
                <p> CRATES idest ad exaequationem agrorum. </p>
             </div>
 
-            <div n="94" type="schol">
+            <div n="94b" type="schol">
                <p> RASTRIS. Et ‛hos rastros’ dicimus et ‛haec rastra.’ </p>
             </div>
 
@@ -1069,15 +1070,15 @@
                   ille hominibns ostenderet, ipsa demonstravit. </p>
             </div>
 
-            <div n="148" type="schol">
+            <div n="148a" type="schol">
                <p> SACRAE quae victum praeberent religione quadam vel mel adferebant. </p>
             </div>
 
-            <div n="149" type="schol">
+            <div n="149a" type="schol">
                <p> DEFICERENT ut per laborem ad usum frumenti veniretur. </p>
             </div>
 
-            <div n="148" type="schol">
+            <div n="148b" type="schol">
                <p> ARBVTA rubra poma silvarum, quae unedones vocantur. </p>
             </div>
 
@@ -1087,7 +1088,7 @@
                   rubiginis, carduorum. </p>
             </div>
 
-            <div n="149" type="schol">
+            <div n="149b" type="schol">
                <p> DODONA civitas Epiri, iuxta quam nemus est Iovi sacratum et abundans glandibus.
                </p>
             </div>
@@ -1166,7 +1167,7 @@
                   quod sit in similitudinem caudae bovis. </p>
             </div>
 
-            <div n="172" type="schol">
+            <div n="172a" type="schol">
                <p> BINAE AVRES quibus latior sulcus efficitur. </p>
             </div>
 
@@ -1174,7 +1175,7 @@
                <p> TEMO aircurarathir. </p>
             </div>
 
-            <div n="172" type="schol">
+            <div n="172b" type="schol">
                <p> DENTALIA idest in quibus vomer inducitur: hic neutraliter, postmodum masculino
                   genere: <hi rend="expanded">durum procudit arator</hi>. </p>
             </div>
@@ -1196,15 +1197,15 @@
                <p> TENVIS subtilis. </p>
             </div>
 
-            <div n="178" type="schol">
+            <div n="178a" type="schol">
                <p> AREA ex ariditate dicta, quod careat suco. </p>
             </div>
 
-            <div n="186" type="schol">
+            <div n="186a" type="schol">
                <p> INOPI tam ad formicam, quam ad omnes generaliter bestias referendum. </p>
             </div>
 
-            <div n="178" type="schol">
+            <div n="178b" type="schol">
                <p> CYLINDRO lapide tereti in modum columnae, quo areae coaequantur. </p>
             </div>
 
@@ -1229,7 +1230,7 @@
                <p> BVFO rana agrestis mirae magnitudinis. </p>
             </div>
 
-            <div n="186" type="schol">
+            <div n="186b" type="schol">
                <p> CVRCVLIO vermis in frugibus nascens. </p>
             </div>
 
@@ -1312,7 +1313,7 @@
                <p> SIDERA pro ‛sidus’. ARCTVRI cuius ortu tempestates fiunt. </p>
             </div>
 
-            <div n="205" type="schol">
+            <div n="205a" type="schol">
                <p> HAEDORVMQVE DIES. Aurigae signum est haut longe a Septentrione, cuius pedi cornu
                   Tauri una stella adiungit. Item Haedorum signum in autumno fit. Haedi autem inter
                   sidera sunt in numero sinistro Aurigae stellae figuratae, quarum occasu
@@ -1328,18 +1329,18 @@
                   segregantur. </p>
             </div>
 
-            <div n="208" type="schol">
+            <div n="208a" type="schol">
                <p> LIBRA DIE pro ‛diei’. Aequinoctium autumnale, quod fit sole in Libra posito;
                   vernale enim aequinoctium Aries efficit: tunc sol in Ariete positus. Frumenta
                   dicit serenda autumnali tempore, legumina vero usque ad veris initium. </p>
             </div>
 
-            <div n="205" type="schol">
+            <div n="205b" type="schol">
                <p> [Item Haedorum signum in autumno fit. Haedi autem inter sidera sunt in numero
                   sinistro Aurigae stellae figuratae, quarum occasu tempestates concitantur.] </p>
             </div>
 
-            <div n="208" type="schol">
+            <div n="208b" type="schol">
                <p> * in quo sol in Libra; vernali enim sol in Ariete fit. Item LIBRA DIE. Varro
                   dixit vel scripsit: <hi rend="expanded">Ab aequinoctio autumnali nobis serendum
                      usque ad diem nonagesimum primum post brumam</hi>. </p>
@@ -1366,13 +1367,13 @@
                </p>
             </div>
 
-            <div n="215" type="schol">
+            <div n="215a" type="schol">
                <p> FABIS genus seminis. MEDICA. Ad ipsam herbam facit apostropham. Haec herba a
                   Medis translata in Graeciam, et hanc Xerxes pugnans ad Medos rapuit, et a Medis
                   translata est in Graeciam, quo tempore eam invaserunt. </p>
             </div>
 
-            <div n="215s" type="schol">
+            <div n="215b" type="schol">
                <p> PVTRES SVLCI. Ad naturam ipsius herbae respicit: nam uno anno frequenter seritur
                   et post aliquot annis sponte procreatur. </p>
             </div>
@@ -1383,11 +1384,11 @@
                   quod ad pabulum boum seritur. </p>
             </div>
 
-            <div n="218" type="schol">
+            <div n="218a" type="schol">
                <p> TAVRVS vernum tempus significat. </p>
             </div>
 
-            <div n="217s" type="schol">
+            <div n="217" type="schol">
                <p> CANDIDVS AVRATIS APERIT CVM CORNIBVS ANNVM TAVRVS idest (non) procedit: non enim
                   (a) capite, sed a dorso oritur idest tantum medio sui, unde incipit apparere; qua
                   mutilatus est, oritur, non a fronte. APERIT ANNVM ideo, quia Aprili mense sol in
@@ -1401,7 +1402,7 @@
                <p>APERIT CVM CORNIBVS ANNVM hoc est, quod tunc † ideae procedunt. </p>
             </div>
 
-            <div n="218" type="schol">
+            <div n="218b" type="schol">
                <p> AVERSO ASTRO. Supinus enim Canis occidit, idest stella, quae Orionis astrum
                   sequitur. Et ADVERSO ASTRO quidam ‛malo’ accipiunt secundum illud: <hi
                      rend="expanded">aut Sirius ardor Ille sitim morbosque ferens</hi> rel. Alii
@@ -1415,29 +1416,29 @@
                      sitim</hi> rel. Si autem ‛averso’ legimus, ‛cum’ subaudiamus necesse est. </p>
             </div>
 
-            <div n="219" type="schol">
+            <div n="219a" type="schol">
                <p> ROBVSTAQVE FARRA frumenta, quae plus habent virium, quam legumina, quo tempore
                   nobis Atlantides occidunt, sunt serenda. </p>
             </div>
 
-            <div n="221" type="schol">
+            <div n="221a" type="schol">
                <p> ATLANTIDES aliquando VI videntur, aliquando VII in caelo, quae Novembri mense
                   incipiunt non videri a nobis. </p>
             </div>
 
-            <div n="219" type="schol">
+            <div n="219b" type="schol">
                <p> AST SI TRITICEAM IN MESSEM. Hoc autem quinto die Iduum Novembrium, quando occidit
                   Taurus cum Sirio Cane. </p>
             </div>
 
-            <div n="218" type="schol">
+            <div n="218c" type="schol">
                <p> ADVERSO ideo, quoniam † Canis cuius posteriores pedes in australi circolo sunt
                   brevitate ea, quod, cum extremi procedunt, ante occidunt. Nam cum Canis Sirius
                   adversus per pedes occidit, ...... cum capite oriatur. (Oritur) cum Cancro, in
                   culmen venit cum Geminis, occidit cum Tauro. </p>
             </div>
 
-            <div n="221" type="schol">
+            <div n="221b" type="schol">
                <p> ATLANTIDES. Vt alii aiunt, Vergiliae sunt, quarum nomina haec: Alcyone, Merope,
                   Celaeno, Electra Asterope, Taygete.</p>
                <p>
@@ -1453,7 +1454,7 @@
                </p>
             </div>
 
-            <div n="221" type="schol">
+            <div n="221c" type="schol">
                <p> EOAE Orientis. ‛Eoae’ non est epitheton Atlantidum, sed ‛eoae abscondantur’ idest
                   (cum) matutinum occasum faciunt; (nam) cum sol in Scorpione est, xv Kal. Maias,
                   Vergiliae occidunt. </p>
@@ -1502,7 +1503,7 @@
                   legumina serenda dicantur, non aestate. </p>
             </div>
 
-            <div n="230" type="schol">
+            <div n="230a" type="schol">
                <p> ET AD MEDIAS SEMENTEM rel. Omnia conplexus est tempora, et vernum, quo legumen
                   seritur, et autumnale, quo frumentum, et multi volunt, (ita) hanc partem
                   astrologiae librasse Virgilium, ut in omnibus utrumque tempus significaret,
@@ -1514,7 +1515,7 @@
                   accipimus. </p>
             </div>
 
-            <div n="230" type="schol">
+            <div n="230b" type="schol">
                <p> PRVINAS. Ros matutino tempore congelatus. </p>
             </div>
 
@@ -1523,7 +1524,7 @@
                   parallelois posuit. </p>
             </div>
 
-            <div n="235" type="schol">
+            <div n="235a" type="schol">
                <p> EXTREMAE septentrionalis et australis. </p>
             </div>
 
@@ -1531,11 +1532,11 @@
                <p> DVAE MORTALIBVS solstitialis et hiemalis. </p>
             </div>
 
-            <div n="238" type="schol">
+            <div n="238a" type="schol">
                <p> (VIA SECTA) zodiacus, quem ‛signiferum’ † oris dicimus. </p>
             </div>
 
-            <div n="235" type="schol">
+            <div n="235b" type="schol">
                <p> Item QVAM CIRCVUM EXTREMAE. Bene addidit ‛extremae’, idest ne eas circa igneam
                   esse intellegeremus, quas constat temperatas esse vicinitate caloris et frigoris,
                   quarum unam nos habitamus, alteram Antipodae, (ad quos) hinc torrente zona, hinc
@@ -1554,7 +1555,7 @@
                   ARCES. Scythiam dicit, cuius sunt montes Riphaei. </p>
             </div>
 
-            <div n="238" type="schol">
+            <div n="238b" type="schol">
                <p> VIA SECTA. Eridani, fluminis Italiae, simulacrum in caelo dicitur esse. </p>
             </div>
 
@@ -1699,20 +1700,20 @@
                   scabie temptari, nisi laventur, animalia. </p>
             </div>
 
-            <div n="273" type="schol">
+            <div n="273a" type="schol">
                <p> TARDI vel naturaliter vel onusti.</p>
                <p>AGITATOR verberator ab agendo dictus. </p>
             </div>
 
-            <div n="274" type="schol">
+            <div n="274a" type="schol">
                <p> VILIBVS abundantibus. </p>
             </div>
 
-            <div n="273" type="schol">
+            <div n="273b" type="schol">
                <p> ASELLI diminutio ‛asini’ est. </p>
             </div>
 
-            <div n="274" type="schol">
+            <div n="274b" type="schol">
                <p> LAPIDEM INCVSVM refectum perforatum, molam manualem cudendo asperatam. </p>
             </div>
 
@@ -1922,7 +1923,7 @@
                <p> CAVA alta; ad alveum retulit fluviorum. </p>
             </div>
 
-            <div n="328" type="schol">
+            <div n="328a" type="schol">
                <p> PATER Iuppiter. </p>
             </div>
 
@@ -1930,7 +1931,7 @@
                <p> FRETIS. Ostia fluminum vel maria. </p>
             </div>
 
-            <div n="328" type="schol">
+            <div n="328b" type="schol">
                <p> CORVSCA coruscantia. </p>
             </div>
 
@@ -1996,7 +1997,7 @@
                <p> CVNCTA TIBI: in honorem (tuum) et in tuam gratiam. </p>
             </div>
 
-            <div n="344" type="schol">
+            <div n="344a" type="schol">
                <p> CVI TV: cui tu liba de lacte, melle, vino. DILVE dissolve. </p>
             </div>
 
@@ -2035,12 +2036,12 @@
                <p> SVRGENTIBVS incipientibus. FRETA litora, quae feriuntur fluctibus maris. </p>
             </div>
 
-            <div n="357s" type="schol">
+            <div n="357" type="schol">
                <p> ET ARIDVS FRAGOR ideat sonitus, qualis solet fieri ex aridis, cum franguntur,
                   arboribus. </p>
             </div>
 
-            <div n="344" type="schol">
+            <div n="344b" type="schol">
                <p>[DILVE idest offer.]</p>
                <p>Omne enim, quod aridum est, cum frangi coeperit, nimium efficit sonum. Fragor enim
                   fractarum rerum sonitus nominatus est. </p>
@@ -2058,7 +2059,7 @@
                <p> CELERES pro celeriter. MERGI corvi marini, <hi rend="italic">foilinn</hi>. </p>
             </div>
 
-            <div n="363s" type="schol">
+            <div n="363" type="schol">
                <p> MARINAE FVLICAE idest ad distinctionem fluvialium. </p>
             </div>
 
@@ -2068,7 +2069,7 @@
                   unus Modestus, quod ardua crura habeat, idest alta. </p>
             </div>
 
-            <div n="369" type="schol">
+            <div n="369a" type="schol">
                <p> CONLVDERE conmoveri. </p>
             </div>
 
@@ -2090,7 +2091,7 @@
                <p> FRONDES. Folia. </p>
             </div>
 
-            <div n="369" type="schol">
+            <div n="369b" type="schol">
                <p> PLVMAS. Quascumque, nisi forte papulos significat, idest cardui florem. </p>
             </div>
 
@@ -2159,7 +2160,7 @@
                   ut: <hi rend="expanded">Europa atque Asia pulsus</hi>. </p>
             </div>
 
-            <div n="384" type="schol">
+            <div n="384a" type="schol">
                <p> RIMANTVR PRATA pascuntur in pratis. </p>
             </div>
 
@@ -2170,7 +2171,7 @@
                   frustra: humor enim pennarum densa levitate suspenditur. </p>
             </div>
 
-            <div n="384" type="schol">
+            <div n="384b" type="schol">
                <p> RIMANTVR. Iucunda translatione usus est pro ‛scrutantur’. Proprie enim sues
                   ‛rimari’ dicuntur, cum glandes rostro exarant. </p>
             </div>
@@ -2282,7 +2283,7 @@
                   est formam, quae aves hodie inter se flagrant magna discordia. </p>
             </div>
 
-            <div n="410" type="schol">
+            <div n="410a" type="schol">
                <p> LIQVIDAS puras. </p>
             </div>
 
@@ -2290,7 +2291,7 @@
                <p> ACTIS pro abactis idest finitis. </p>
             </div>
 
-            <div n="410s" type="schol">
+            <div n="410b" type="schol">
                <p> TER QVATER. Indicium serenitatis. </p>
             </div>
 
@@ -2329,7 +2330,7 @@
                   a prima, (a secunda), a tertia vel a quarta se sequentes. </p>
             </div>
 
-            <div n="425s" type="schol">
+            <div n="425" type="schol">
                <p> CRASTINA FALLET HORA. Hyperbole est: nec hora una quidem te decipiet. </p>
             </div>
 
@@ -2506,11 +2507,11 @@
                <p> VVLGO passim. </p>
             </div>
 
-            <div n="478" type="schol">
+            <div n="478a" type="schol">
                <p> SVB OBSCVRVM circa noctis obscurum. </p>
             </div>
 
-            <div n="478s" type="schol">
+            <div n="478b" type="schol">
                <p> LOCVTAE INFANDVM. Aut infanda verba protulerunt aut hoc ipsum infandum fuit, quod
                   sunt locutae contra naturam. </p>
             </div>
@@ -2551,7 +2552,7 @@
                </p>
             </div>
 
-            <div n="490" type="schol">
+            <div n="490a" type="schol">
                <p> PHILIPPI civitas Thessaliae, in qua primo Caesar et Pompeius, (postea) Angustus
                   et Brutus cum Cassio dimicaverunt. </p>
             </div>
@@ -2560,17 +2561,17 @@
                <p> NEC FVIT INDIGNVM. Quasi exclamatio ad Deos. </p>
             </div>
 
-            <div n="492" type="schol">
+            <div n="492a" type="schol">
                <p> EMATHIAM. Thessaliam dicit ab Emathione rege. HAEMI. Haemus enim mons Thessaliae.
                </p>
             </div>
 
-            <div n="490" type="schol">
+            <div n="490b" type="schol">
                <p> Item PHILIPPI. In Macedonia Romani victi sunt a Philippo rege, ubi Caesar et
                   Antonius adversum Brutum et Cassium dimicaverunt. </p>
             </div>
 
-            <div n="492" type="schol">
+            <div n="492b" type="schol">
                <p> Emathia autem pars Macedoniae dicta ab Emathione, Iovis et Electrae filio. Bis
                   autem inundatos Romano sanguine Emathiae campos dicit, quia Caesar et Pompeius ad
                   se bellaverunt, Brutus et Cassius contra Caesarem, Augustus et Antonius contra
@@ -2681,11 +2682,11 @@
                <p>ET SIDERA CAELI. Pleonasmus; nec enim alibi nisi in caelo sidera sunt. </p>
             </div>
 
-            <div n="2" type="schol">
+            <div n="2a" type="schol">
                <p> NVNC TE BACCHE CANAM. Inventorem pro vitibus posuit. </p>
             </div>
 
-            <div n="2s" type="schol">
+            <div n="2b" type="schol">
                <p> SILVESTRIA TECVM VIRGVLTA infecundas arbores, quibus in Italia vites cohaerent.
                </p>
             </div>
@@ -2704,11 +2705,11 @@
                   fructus. </p>
             </div>
 
-            <div n="5s" type="schol">
+            <div n="5a" type="schol">
                <p> TIBI FLORET. In honorem tuum exultat. </p>
             </div>
 
-            <div n="5" type="schol">
+            <div n="5b" type="schol">
                <p> PAMPINEO pro ‛pampinoso’, ut ‛nemus frondeum’ pro ‛frondosum’. </p>
             </div>
 
@@ -2859,21 +2860,21 @@
                      revinctum</hi>. </p>
             </div>
 
-            <div n="44" type="schol">
+            <div n="44a" type="schol">
                <p> FERREA pro ‛aenea’. PRIMI LEGE LITORIS. Nauticus sermo, qui nunc ad navigium et
                   ad lectionem potest referri: faveto principio (vel) humilitati carminis mei. </p>
             </div>
 
-            <div n="45" type="schol">
+            <div n="45a" type="schol">
                <p> IN MANIBVS TERRAE in facili et promptu. </p>
             </div>
 
-            <div n="44" type="schol">
+            <div n="44b" type="schol">
                <p> Item PRIMI LEGE rel. idest transi ad festinationem, ut: <hi rend="expanded">vada
                      dura lego</hi>. </p>
             </div>
 
-            <div n="45" type="schol">
+            <div n="45b" type="schol">
                <p> IN MANIBVS TERRAE ut in manibus terram habeam, non proelia. NON HIC TE CARMINE
                   FICTO. (Non) conposito cum summa diligentia, (sed) simpliciter universa describam.
                </p>
@@ -2915,7 +2916,7 @@
                <p> SVSTVLIT sursum tulit. </p>
             </div>
 
-            <div n="62" type="schol">
+            <div n="62a" type="schol">
                <p> COGENDAE congregandae. </p>
             </div>
 
@@ -2934,7 +2935,7 @@
                   labruscas dicit. </p>
             </div>
 
-            <div n="62" type="schol">
+            <div n="62b" type="schol">
                <p> MVLTA MERCEDE multo labore. IN SVLCVM in ordinem arandae. </p>
             </div>
 
@@ -3566,25 +3567,25 @@
                <p> SVMMA PETE. Non de summa arbore plantam ponito neque de sommo vitem ponito. </p>
             </div>
 
-            <div n="301" type="schol">
+            <div n="301a" type="schol">
                <p> TANTVS A. T. Vt statim germinent. </p>
             </div>
 
-            <div n="302" type="schol">
+            <div n="302a" type="schol">
                <p> SEMINA plantas vitium. </p>
             </div>
 
-            <div n="301" type="schol">
+            <div n="301b" type="schol">
                <p> TANTVS AMOR. Sic diligenter a rustico ager colendus est. </p>
             </div>
 
-            <div n="301s" type="schol">
+            <div n="301c" type="schol">
                <p> FERRO LAEDE RETVNSO SEMINA. ‛Retunso’ (obtunso), quo vites quassantur potius,
                   quam putantur; ferro non abscidenda. Aliter: TANTVS AMOR TERRAE sed cum radice
                   deponas. </p>
             </div>
 
-            <div n="302" type="schol">
+            <div n="302b" type="schol">
                <p> NEVE OLEAE S. Non quo (non) prosit, sed, ut etiam ipse dicit, propter causam
                   incendii, idest non inseras a truncis silvestribus oleas. </p>
             </div>
@@ -3619,16 +3620,16 @@
                   procreata, quae postea tenditur in radicem. </p>
             </div>
 
-            <div n="320" type="schol">
+            <div n="320a" type="schol">
                <p> CANDIDA idest ciconia, (ut) Iuvenalis dicit, sed ‛candida avis’ ciconia, quae
                   manducat serpentes quaeque prope cycni magnitudinem esse dicitur. </p>
             </div>
 
-            <div n="321" type="schol">
+            <div n="321a" type="schol">
                <p> AVTVMNI S. idest (aestatis) in fine et in principio hiemis. </p>
             </div>
 
-            <div n="320" type="schol">
+            <div n="320b" type="schol">
                <p> CANDIDA idest ciconia idest Antigona, filia Laomedontis, regis Troiae, quae
                   habuit comam magnam, ut diceret se similem Iunoni, cui displicuit similitudo
                   cuiusquam contra se et mutavit comam Antigonae in serpentes nocentes ei et postea
@@ -3636,7 +3637,7 @@
                   COLVBRIS quod eorum causa versa est in avem. </p>
             </div>
 
-            <div n="321" type="schol">
+            <div n="321b" type="schol">
                <p> RAPIDVS SOL. Ad vulgi opinionem tulit se. </p>
             </div>
 
@@ -3791,7 +3792,7 @@
                   ceteris (varie) pro qualitate regionum sacrificetur et Veneri Paphiae *</p>
             </div>
 
-            <div n="384" type="schol">
+            <div n="384a" type="schol">
                <p> MOLLIBVS IN PRATIS. Romulus cum aedificaret templum Iovis, pelles unctas stravit
                   et sic ludos edidit, ut et caestibus dimicarent et cursu contenderent, quam rem
                   Ennius in Annalibus testatur. Ideo autem ‛in pratis’, ne laederentur cadentes.
@@ -3814,7 +3815,7 @@
                   COMPITA unde ludi ‛compitalicii’</p>
             </div>
 
-            <div n="384" type="schol">
+            <div n="384b" type="schol">
                <p> VTRES ad insultationem mortuorum caprorum, ne quid ex his esset, quod non
                   sentiret iniuriam. SALVERE PER VTRES. Secundum Artem locutus est; nam ‛salio
                   salui’. </p>
@@ -4132,11 +4133,11 @@
                   Calpe et Atlante, montibus Hispaniae et Mauretaniae Oceanus inmittitur. </p>
             </div>
 
-            <div n="481" type="schol">
+            <div n="481a" type="schol">
                <p> QVID TANTVM OCEANO. Circulorum hoc fecit ratio, ut etiam in Aeneide legimus. </p>
             </div>
 
-            <div n="481s" type="schol">
+            <div n="481b" type="schol">
                <p> SOLES HIBERNI. Hiberni nobis cum sunt soles, antipodis nostris aestivi. Nam qui
                   sphaeram scripserunt, diversa nos ab illis uno tempore pati dicunt. Cum enim sol
                   sive huius modi sive illius excedit, regiones mutantur diversitate cardinis. </p>
@@ -4166,7 +4167,7 @@
                   ‛Bacchantes’ dicuntur in Bacchi convivio ludentes. </p>
             </div>
 
-            <div n="490" type="schol">
+            <div n="490a" type="schol">
                <p> FELIX QVI POTVIT. Iam vero repetitionem facit superioris coloris. Nam hoc dicit,
                   quia rustici felices sunt et qui tribuunt operam philosophiae. </p>
             </div>
@@ -4177,7 +4178,7 @@
                   ultra fatum vivere potest, * qui sub pedibus fatum habuit. </p>
             </div>
 
-            <div n="490" type="schol">
+            <div n="490b" type="schol">
                <p> RERVM idest malarum, quae in urbibus per ambitionem et avaritiam *</p>
             </div>
 
