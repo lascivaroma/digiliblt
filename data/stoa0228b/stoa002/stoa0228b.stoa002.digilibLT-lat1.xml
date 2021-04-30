@@ -99,6 +99,7 @@
             <list>
                <item>profileDesc/langUsage/language : correction de l'indicateur de langue utilisé ("la" en "lat")</item>
                <item>encodingDesc/refsDesc/cRefPattern : correction du xpath, ajout d'un niveau de citation, précision des éléments extraits</item>
+               <item>text/body/div/div : suppression des numérotations non-compatibles avec CapiTainS</item>
             </list>
          </change>
       </revisionDesc>
@@ -1333,8 +1334,8 @@
                   dicit serenda autumnali tempore, legumina vero usque ad veris initium. </p>
             </div>
 
-            <div n=" [205" type="schol">
-               <p> Item Haedorum signum in autumno fit. Haedi autem inter sidera sunt in numero
+            <div n="205" type="schol">
+               <p> [Item Haedorum signum in autumno fit. Haedi autem inter sidera sunt in numero
                   sinistro Aurigae stellae figuratae, quarum occasu tempestates concitantur.] </p>
             </div>
 
@@ -1371,7 +1372,7 @@
                   translata est in Graeciam, quo tempore eam invaserunt. </p>
             </div>
 
-            <div n="215 s." type="schol">
+            <div n="215s" type="schol">
                <p> PVTRES SVLCI. Ad naturam ipsius herbae respicit: nam uno anno frequenter seritur
                   et post aliquot annis sponte procreatur. </p>
             </div>
@@ -1386,7 +1387,7 @@
                <p> TAVRVS vernum tempus significat. </p>
             </div>
 
-            <div n="217s." type="schol">
+            <div n="217s" type="schol">
                <p> CANDIDVS AVRATIS APERIT CVM CORNIBVS ANNVM TAVRVS idest (non) procedit: non enim
                   (a) capite, sed a dorso oritur idest tantum medio sui, unde incipit apparere; qua
                   mutilatus est, oritur, non a fronte. APERIT ANNVM ideo, quia Aprili mense sol in
@@ -1581,7 +1582,7 @@
                   cauda tangens, alvo conplectens minorem. </p>
             </div>
 
-            <div n="245 246" type="schol">
+            <div n="245ff" type="schol">
                <p> IN MOREM FLVMINIS ARCTOS OCEANI METVENTES AEQVORE T. Haec refert ad fabulam. Nam
                   hae duae pellices Iunonis fuisse dicuntur, quas postquam luppiter inter sidera
                   retulit, Iuno rogavit Thetyn, suam nutricem, ne umquam pateretur eas occidere,
@@ -2034,13 +2035,13 @@
                <p> SVRGENTIBVS incipientibus. FRETA litora, quae feriuntur fluctibus maris. </p>
             </div>
 
-            <div n="357 s." type="schol">
+            <div n="357s" type="schol">
                <p> ET ARIDVS FRAGOR ideat sonitus, qualis solet fieri ex aridis, cum franguntur,
                   arboribus. </p>
             </div>
 
-            <div n="[344" type="schol">
-               <p> DILVE idest offer.]</p>
+            <div n="344" type="schol">
+               <p>[DILVE idest offer.]</p>
                <p>Omne enim, quod aridum est, cum frangi coeperit, nimium efficit sonum. Fragor enim
                   fractarum rerum sonitus nominatus est. </p>
             </div>
@@ -2057,7 +2058,7 @@
                <p> CELERES pro celeriter. MERGI corvi marini, <hi rend="italic">foilinn</hi>. </p>
             </div>
 
-            <div n="363 s." type="schol">
+            <div n="363s" type="schol">
                <p> MARINAE FVLICAE idest ad distinctionem fluvialium. </p>
             </div>
 
@@ -2230,8 +2231,8 @@
                   sunt ambo in aves marinas alcyones. </p>
             </div>
 
-            <div n="[394" type="schol">
-               <p> PROSPICERE quod agnoscitur caelo tempestativo serenitas.]</p>
+            <div n="394" type="schol">
+               <p>[PROSPICERE quod agnoscitur caelo tempestativo serenitas.]</p>
                <p>Item: DILECTAE THETIDI ALCYONES. Ciax, rex Thracum, Iovem se vocari et Alcyonen,
                   coniugem suam, Iunonem coli iussit; peregre profectus naufragio periit: coniux
                   inpatienter ferens luctum in avem sui nominis mutata, cui hoc honoris datum est,
@@ -2289,7 +2290,7 @@
                <p> ACTIS pro abactis idest finitis. </p>
             </div>
 
-            <div n="410 s." type="schol">
+            <div n="410s" type="schol">
                <p> TER QVATER. Indicium serenitatis. </p>
             </div>
 
@@ -2328,7 +2329,7 @@
                   a prima, (a secunda), a tertia vel a quarta se sequentes. </p>
             </div>
 
-            <div n="425 s." type="schol">
+            <div n="425s" type="schol">
                <p> CRASTINA FALLET HORA. Hyperbole est: nec hora una quidem te decipiet. </p>
             </div>
 
@@ -2509,7 +2510,7 @@
                <p> SVB OBSCVRVM circa noctis obscurum. </p>
             </div>
 
-            <div n="478 s." type="schol">
+            <div n="478s" type="schol">
                <p> LOCVTAE INFANDVM. Aut infanda verba protulerunt aut hoc ipsum infandum fuit, quod
                   sunt locutae contra naturam. </p>
             </div>
@@ -2684,7 +2685,7 @@
                <p> NVNC TE BACCHE CANAM. Inventorem pro vitibus posuit. </p>
             </div>
 
-            <div n="2 s." type="schol">
+            <div n="2s" type="schol">
                <p> SILVESTRIA TECVM VIRGVLTA infecundas arbores, quibus in Italia vites cohaerent.
                </p>
             </div>
@@ -2703,7 +2704,7 @@
                   fructus. </p>
             </div>
 
-            <div n="5 s." type="schol">
+            <div n="5s" type="schol">
                <p> TIBI FLORET. In honorem tuum exultat. </p>
             </div>
 
@@ -3577,7 +3578,7 @@
                <p> TANTVS AMOR. Sic diligenter a rustico ager colendus est. </p>
             </div>
 
-            <div n="301 s." type="schol">
+            <div n="301s" type="schol">
                <p> FERRO LAEDE RETVNSO SEMINA. ‛Retunso’ (obtunso), quo vites quassantur potius,
                   quam putantur; ferro non abscidenda. Aliter: TANTVS AMOR TERRAE sed cum radice
                   deponas. </p>
@@ -4135,7 +4136,7 @@
                <p> QVID TANTVM OCEANO. Circulorum hoc fecit ratio, ut etiam in Aeneide legimus. </p>
             </div>
 
-            <div n="481 s." type="schol">
+            <div n="481s" type="schol">
                <p> SOLES HIBERNI. Hiberni nobis cum sunt soles, antipodis nostris aestivi. Nam qui
                   sphaeram scripserunt, diversa nos ab illis uno tempore pati dicunt. Cum enim sol
                   sive huius modi sive illius excedit, regiones mutantur diversitate cardinis. </p>
