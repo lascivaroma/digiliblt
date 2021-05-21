@@ -41,7 +41,11 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <refsDecl n="CTS"><cRefPattern n="unknown" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:p[@n='$1'])"><p>This pointer pattern extracts unknown</p></cRefPattern></refsDecl>
+         <refsDecl n="CTS">
+            <cRefPattern n="section" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])">
+               <p>This pointer pattern extracts unknown</p>
+            </cRefPattern>
+         </refsDecl>
 	        <projectDesc>
             <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
             <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
@@ -117,7 +121,7 @@
    <text>
       <body xml:lang="lat" n="urn:cts:latinLit:stoa0039c.stoa001.digilibLT-lat1">
          <head>Audacis excerpta de Scauro et Palladio</head>
-         <div type="section">
+         <div type="section" n="1">
             <head>generalia et uaria</head>
             <p>
                <milestone unit="row" n="riga 4 vol. VII Keil"/>
@@ -153,21 +157,21 @@
             <p> definitio quid est? oratio quae id de quo quaeritur aperte describit et determinat, ut puta ueluti si quaeras a me, quid sit homo, respondebo: animal mortale rationale risus capax. </p>
             <p> sententia quid est? dictio generalis ad uitae rationem in commune pertinens, ut puta ueluti <quote type="poetry">«ne quid nimis»</quote>. </p>
          </div>
-         <div type="section">
+         <div type="section" n="2">
             <head>de oratione eiusque partibus</head>
             <p>
                <hi rend="bold"> de oratione</hi>
             </p>
             <p> oratio quid est? sermo contextus ad clausulam tendens per argumenta narrationis. unde dicta oratio? quasi oris ratio, cui accidit clausula. clausula quid est? compositio uerborum plausibili structura ad exitum terminata. </p>
          </div>
-         <div type="section">
+         <div type="section" n="3">
             <head>de distinctionibus</head>
             <p>
                <hi rend="bold"> de distinctione</hi>
             </p>
             <p> distinctio quid est? adposito puncto nota finiti sensus uel pendentis mora. quot locis ponitur distinctio? tribus. quibus? summo, cum sensum terminat, et uocatur finalis nota, a Graecis telia; medio, cum respirandi spatium legenti dat, et dicitur mese; imo, cum lectionis interruptum tenorem aliud adhuc inlatura suspendit, et uocatur a Graecis hypostigme, a nostris subdistinctio. </p>
          </div>
-         <div type="section">
+         <div type="section" n="4">
             <head>de litteris</head>
             <p>
                <hi rend="bold"> de litteris</hi>
@@ -177,7 +181,7 @@
             <p> quid est per se? sine alterius adminiculo. et quae sunt quae sine aliis non enuntiantur? b namque et c ceteraeque huius modi, nisi consonent, proferri nequeunt. uocales quot sunt? quinque. quae sunt? a e i o u. quae earum corripiuntur, quae producuntur? hae omnes apud nos et corripiuntur et producuntur. quid apud Graecos? non ita est apud eos. septem enim litterarum uocalium haec est diuisio: <foreign xml:lang="grc">η</foreign> et <foreign xml:lang="grc">ω</foreign> longae sunt, <foreign xml:lang="grc">ε</foreign> et <foreign xml:lang="grc">ο</foreign> breues sunt,<foreign xml:lang="grc"> α ι υ</foreign> dichronae nominantur. propterea autem Latina lingua suas quinque et corripit et producit, ut, quia numero uocalium <milestone unit="page" n="p. 326 vol. VII Keil"/> exaequari non potuit, temporibus exaequetur. quae uocalium loco consonantium ponuntur? i et u. quando? cum aut ipsae inter se geminantur aut cum aliis uocalibus iunguntur, ut puta ueluti <supplied>si</supplied> sit in capite uersus periurus aut uoluitur: quippe non poterit prima syllaba positione longa fieri, nisi sequens uocalis loco consonantis fuerit accepta, quod quidem suo loco docebimus. consonantium species quot sunt? duae. quae? semiuocales et mutae. semiuocales quae sunt? quae quidem habent in principio partem uocalitatis, cum per se proferuntur, tamen per se syllabam facere non possunt. quot sunt? septem, f l m n r s x. quae harum liquidae sunt, quas Graeci <foreign xml:lang="grc">ὑγράς</foreign> appellant? l m n r. liquidae unde dictae? quod minus uirium habeant et in pronuntiatione liquescant atque soluantur, ita ut positione longam syllabam facere non possint. quae semiuocalium duplex est? x. quare duplex? ideo quod ex duabus litteris constat: constat enim aut ex g et s aut ex c et s, ut rex regis, pix picis. quippe ante <supplied>inuentam</supplied> x litteram, quae postea in compendium inuenta est, rex per g et s <supplied>itemque pix per c et s</supplied> litteras ueteres scribebant. quae sunt mutae? quae neque ipsae per se proferri possunt neque syllabam facere. quot sunt? VIIII, id est b c d g h k p q t. quae sunt ex his superuacuae? k et q. quare dicuntur superuacuae? eo quod c littera harum locum possit explere. uerum has quoque necessarias orthographiae ratio efficit. nam quotiens a sequitur, per k scribendum est, ut kano kalendae kaput; quotiens u, per q, ut quoniam Quirites; quotiens reliquae uocales, per c, ut certus ciuis commodus. quid de h respondebimus? quod aspirationis nota, non littera existimatur, sed tamen in metro aliquotiens et littera deprehenditur. quae sunt litterae peregrinae? y et z. quare peregrinae? <milestone unit="page" n="p. 327 vol. VII Keil"/> siquidem a nobis propter Graeca nomina adsumptae sunt, ut puta ut hymnus et zephyrus. quae si adsumptae non essent, himnus et diefirus diceremus. quarum y inter uocales habemus, z uero inter mutas, et est duplex. quo modo duplex? quia loco duarum <supplied>consonantium</supplied> apud nos fungitur. nec aliter constare metri ratio potest illo uersu, ubi est Mezentius, siquidem Me breuis syllaba est, uerum excipitur a duplici littera <supplied>z</supplied>, quae si adsumpta non esset, per s et d Mesdentius scriberetur. </p>
             <p> quot litteris extremitates Latinorum nominum finiuntur? tredecim, id est uocalibus quinque, semiuocalibus sex, <supplied>mutis duabus. quare semiuocalibus sex</supplied>, cum septem sint? quia nullum nomen Latinum in f litteram exit. quae ergo sunt? a e i o u l m n r s x c t. harum exempla, tabula monile frugi ratio genu mel scamnum flumen arbor flos nox allec caput. </p>
          </div>
-         <div type="section">
+         <div type="section" n="5">
             <head>de syllabis</head>
             <p>
                <hi rend="bold"> de syllabis</hi>
@@ -186,7 +190,7 @@
             <p> hoc enim loco cui et rei ita efferuntur, ueluti <supplied>si</supplied> singulae syllabae sint, cum tamen duas esse constat; maximeque et aliis uersibus, ut in <hi rend="italic">georgicis</hi>, et <quote type="poetry">«cui turpe caput»</quote> et item <quote type="poetry">«reice ne maculis infuscet uellera pullis»</quote>. </p>
             <p> quae omnia in metris obseruanda sunt. </p>
          </div>
-         <div type="section">
+         <div type="section" n="6">
             <head>de accentibus </head>
             <p>
                <hi rend="bold">de accentibus</hi>
@@ -196,7 +200,7 @@
             <p> quid si longa fuerit ultima? paenultimae acutum dabimus accentum, ut Athénae, Fidénae. quid Graeca nomina? si isdem litteris proferuntur, Graecos accentus habebunt. nam et cum dicimus Thyiás et Naís, acutum habebunt posteriore accentum; et cum Themistô, Calypsô, Theanô, ultimam circumflecti uidemus. utrumque Latinus sermo non patitur, nisi admodum raro. sola occurrit ergo coniunctio, in qua posterior circumflexa deprehenditur. item aduerbium pone posteriore acutum recipit accentum, ne sit uerbum. </p>
             <p> quae est figura acuti accentus? i obliquum in dexteram partem scandens ita /. quae est forma grauis accentus? i <supplied>obliquum</supplied> in dexteram partem <milestone unit="page" n="p. 331 vol. VII Keil"/> descendens ita \. circumflexum autem tranuersa V littera notamus ita ˄, breuem syllabam C sursum spectante ita ˘ , longam I aequaliter iacente ita ˉ sed in illis sonos, in his tempora cognoscimus. nam dasia et psile Graeci utuntur, nos eas praetermittimus, quoniam aspirationem nobis adposita littera H, quae in duas partes diuiditur, repraesentat, et si adposita non erit. hyphen uero duo uerba quasi <supplied>in</supplied> unum pronuntiatione colligimus, et formam eius sic faciunt ‿. utriusque enim uerbi proximas litteras inflexa subter uirgula iungunt, quale est <quote type="poetry">«Turnus ut ante ‿ uolans»</quote>. apostrophon quoque sic notant: ad caput eius consonantis, cui uocalis subtracta est, inflexam uirgulam quae ad eam spectet adponunt, ut <quote type="poetry">«tanton’ me crimine dignum / duxisti»</quote>. </p>
          </div>
-         <div type="section">
+         <div type="section" n="7">
             <head>de arte metrica</head>
             <p>
                <hi rend="bold"> de metro</hi>
@@ -249,7 +253,7 @@
             <p> pythium item metrum quod est? idem quod hexametrum. unde dictum pythium? quidam uolunt ob id, quod hoc genere metri oracula primum ab Apolline sint edita, qui interfecto Pythone Pythius dictus est. </p>
             <p> qui cum in Parnaso Pythonem serpentem in uindictam matris sagittis insequeretur, accolae Delphici hoc illum uersu hortati sunt. </p>
          </div>
-         <div type="section">
+         <div type="section" n="8">
             <head>de nomine</head>
             <p>
                <hi rend="bold"> de nomine</hi>
